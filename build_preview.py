@@ -309,12 +309,12 @@ def paper(p):
     unk=sum(1 for i in it if any(u in (i.get('judgment') or '') for u in UNK))
     hi=[i.get('item') for i in it if (i.get('judgment') or '') in ('高','严重','否')]
     v6t=p.get('v6_tool') or ''; v6j=p.get('v6_judg') or ''
-    REEVAL=v6j.startswith('未评（工具已更换')
+    REEVAL=v6j.startswith('未评')
     NOTOOL=v6t.startswith('无') or v6j.startswith('不适用（无公认工具')
     if (REEVAL or NOTOOL) and not p.get('adj'): it=[]
     rc=re.search(r'仅\s*([A-Za-z\-0-9 ]+?)\s*报告规范',v6t); rcs=rc.group(1) if rc else (p.get('reporting_checklist') if has(p.get('reporting_checklist')) else '')
     if p.get('adj'): why1=f'RoB 2 总体：{p.get("adj_overall","")}'
-    elif REEVAL: why1='未评（工具已更换，待重评）'
+    elif REEVAL: why1='未评（仅摘要）'
     elif NOTOOL: why1='不适用（无公认工具）'+(f'；报告规范：{rcs}' if rcs else '')
     elif p.get('appraisal_note'): why1=p['appraisal_note']
     elif not it: why1='未评'
