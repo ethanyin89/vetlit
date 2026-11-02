@@ -258,7 +258,10 @@ def paper(p):
         kr=sec_get(S,'关键结果'); kr=mdc(kr) if kr and not re.fullmatch(r'[\s—\-|指标结果统计:]*',kr) else (f'<p>{E_(clean(p["results"]))}</p>' if has(p.get('results')) else '')
     absonly=p.get('reading_depth')!='全文'
     if kr and absonly: kr+='<p class="note">本页数字来自摘要，未经全文核对</p>'
-    m=p.get('methods') or {}
+    m=dict(p.get('methods') or {})
+    POP=[(k,m.pop(k)) for k in [x for x in list(m) if x.startswith('纳入') or '排除' in x or '分期' in x]]
+    popt=''.join(f'<tr><th>{E_(k)}</th><td>{E_(clean(v or "原文未报告"))}</td></tr>' for k,v in POP)
+    if popt: pico=(pico or '')+f'<table class="kv">{popt}</table>'
     MK=[('造模方法',1),('动物来源与品系',0),('造模成功判定',1),('分组/随机/盲法',0),('检测方法',0)]
     mitems=[(k,m.get(k)) for k,model in MK if not (model and not m.get(k))]+[(k,v) for k,v in m.items() if k not in dict(MK)]
     mt=''.join(f'<tr><th>{E_(k)}</th><td>{E_(clean(v if v else "原文未报告"))}</td></tr>' for k,v in mitems if not (k in dict(MK) and dict(MK)[k] and not v)) if m else ''
@@ -284,7 +287,7 @@ def paper(p):
     fund=p.get('funder') or sc.get('资助') or p.get('funding')
     fund=f'<p>{E_(clean(fund))}</p>' if has(fund) and not str(fund).startswith('未核') else '<p class="muted">原文未报告或未核</p>'
     methods_blk=lambda: (f'<details class="fold" {"open" if exp else ""}><summary>研究方法</summary>{meth}</details>' if meth else '')
-    if exp: order=[('研究方法',None),('关键数字',kr),('证据等级与偏倚风险',ev),('能说 / 不能说',cs),('资助方与利益冲突',fund)]
+    if exp: order=[('研究对象',pico if popt else ''),('动物来源与实验处理',None),('关键数字',kr),('证据等级与偏倚风险',ev),('能说 / 不能说',cs),('资助方与利益冲突',fund)]
     else: order=[('研究对象/干预/对照/结局 · 样本量',pico),('关键数字',kr),('研究方法',None),('证据等级与偏倚风险',ev),('能说 / 不能说',cs),('资助方与利益冲突',fund)]
     body=head+concl; n=0
     for t,c in order:
