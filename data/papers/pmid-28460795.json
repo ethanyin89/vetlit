@@ -9,7 +9,7 @@
   "doi": "10.1016/j.jcpa.2017.03.006",
   "pmid": "28460795",
   "source": "PubMed/Europe PMC",
-  "oa": "否",
+  "oa": false,
   "doc_type": "叙述性综述",
   "recommendation_basis": "不适用",
   "sample_size_analysed": "不适用",
@@ -17,21 +17,91 @@
   "funding": "未核",
   "errata": "",
   "internal_inconsistency": "",
-  "one_line_conclusion_zh": "比较人与伴侣动物肥胖及合并症，提倡One Health",
-  "clinical_utility": "背景",
+  "one_line_conclusion_zh": "肥胖是人和猫 2 型糖尿病的重要风险因素，犬中未见此关联。",
+  "clinical_utility": "提示性",
   "verified": "partial",
   "japan_source": "否",
   "cebm_question": "—",
-  "cebm_level": "不适用（叙述性综述，非OCEBM分级对象）",
+  "cebm_level": "不适用（叙述性综述；CEBM 2011 不分级）",
   "cebm_basis": "",
-  "rob_tool": "不适用",
-  "rob_judgement": "不适用",
+  "rob_tool": "SANRA",
+  "rob_judgement": "见逐项判断（该工具不设总体判断）",
   "rob_rationale": "",
   "guideline_recommendation": "不适用",
-  "reporting_checklist": "无（叙述性综述无公认报告规范）",
+  "reporting_checklist": "无专用报告规范",
   "grade_certainty_topic": "",
   "status": "已收录",
   "provenance": [
-    "vibe-feline-v3"
-  ]
+    "vibe-feline-v3",
+    "deep-extract"
+  ],
+  "detail": "pmid-28460795.md",
+  "authors": "Chandler M 等",
+  "appraisal_items": [
+    {
+      "item": "1 重要性论证",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    },
+    {
+      "item": "2 目标陈述",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    },
+    {
+      "item": "3 文献检索描述",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    },
+    {
+      "item": "4 引用恰当",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    },
+    {
+      "item": "5 科学推理",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    },
+    {
+      "item": "6 数据呈现恰当",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    }
+  ],
+  "study_card": {
+    "设计": "叙述性综述（One Health 肥胖）",
+    "实际分析样本量": "不适用",
+    "单/多中心": "不适用",
+    "资助": "未核",
+    "物种": "猫/犬"
+  },
+  "methods_review": "1 重要性论证：信息不足 ；2 目标陈述：信息不足 ；3 文献检索描述：信息不足 ；4 引用恰当：信息不足 ；5 科学推理：信息不足 ；6 数据呈现恰当：信息不足",
+  "can_say": [
+    "One Health 视角"
+  ],
+  "cannot_say": [
+    "综述非原始证据"
+  ],
+  "terms": [
+    {
+      "en": "One Health",
+      "zh": "同一健康"
+    }
+  ],
+  "labels": [
+    "综述"
+  ],
+  "phase_md": "Phase 0 分段：仅摘要各句。Phase 1 主题：叙述性综述（One Health 肥胖）。Phase 2 论点—论据：肥胖是人和猫 2 型糖尿病的重要风险因素，犬中未见此关联。。Phase 3 自检：结论受 SANRA 所列偏倚限制；未读全文，多数条目标为信息不足。",
+  "reading_depth": "摘要",
+  "reading_source": "仅摘要",
+  "reporting_notes": "仅摘要，无法逐条核查（信息不足）",
+  "extract_id": "chandler_2017",
+  "design": "叙述性综述（One Health 肥胖）"
 }

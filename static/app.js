@@ -15,7 +15,7 @@ function render(){var r=cur();$('count').textContent='显示 '+r.length+' / '+P.
  $('list').innerHTML=r.map(function(p){
   return '<li><a class="t" lang="en" href="papers/'+p.id+'/index.html">'+esc(p.title)+'</a>'+(p.title_zh?'<div>'+esc(p.title_zh)+'</div>':'')+
   '<div class="s">'+esc(p.first_author)+' · <em>'+esc(p.journal)+'</em> · '+esc(p.date)+' · '+esc(p.species.join('/'))+' · '+esc(p.specialty.join('/'))+' · '+esc(p.doc_type)+
-  ' <span class="pill ev">CEBM '+esc(p.cebm_display)+'</span> <span class="pill ev">偏倚 '+esc(p.rob_overall)+'</span> <span class="pill'+(p.verified_label==='全文已核'?' ok':'')+'">'+esc(p.verified_label)+'</span>'+(p.oa_bool===true?' <span class="pill">OA</span>':'')+
+  ' <span class="pill ev">CEBM '+esc(p.cebm_display)+'</span> <span class="pill ev">偏倚 '+esc(p.rob_overall)+'</span> <span class="pill'+((p.verified_label==='全文已核'||p.verified_label==='全文已读')?' ok':'')+'">'+esc(p.verified_label)+'</span>'+(p.oa_bool===true?' <span class="pill">OA</span>':'')+
   (p.has_detail?' <span class="pill ok">深度速读</span>':'')+(p.status==='待处理'?' <span class="pill pend">待处理</span>':'')+'</div>'+
   (p.one_line_conclusion_zh?'<div class="s">'+esc(p.one_line_conclusion_zh)+'</div>':'')+'</li>'}).join('')}
 function dl(name,text){var a=document.createElement('a');a.href=URL.createObjectURL(new Blob([text],{type:'text/plain;charset=utf-8'}));a.download=name;document.body.appendChild(a);a.click();a.remove()}

@@ -9,38 +9,116 @@
   "doi": "10.1111/jvim.15122",
   "pmid": "29660848",
   "source": "PubMed/Europe PMC",
-  "oa": "是",
-  "doc_type": "回顾性队列",
+  "oa": true,
+  "doc_type": "回顾性多中心队列",
   "recommendation_basis": "不适用",
-  "sample_size_analysed": "1730（猫）",
-  "multicenter": "是（21国50中心）",
-  "funding": "未核",
-  "errata": "30417429",
+  "sample_size_analysed": "1730（HCM 430、HOCM 578、表面健康 722）",
+  "multicenter": "是（50 中心/21 国）",
+  "funding": "Morris Animal Foundation、Winn Feline Foundation（非厂商）",
+  "errata": [
+    "30417429"
+  ],
   "internal_inconsistency": "勘误：857天而非57天",
-  "one_line_conclusion_zh": "临床前HCM/HOCM猫有显著心衰、血栓和心源性死亡风险",
-  "clinical_utility": "提示性",
+  "one_line_conclusion_zh": "在 21 国 50 个中心的 1008 只临床前期 HCM/HOCM 猫中，约 30%（307/1008）在随访期内发生 CHF 或动脉血栓栓塞（ATE），心血管死亡累积风险 1/5/10 年分别为 6.7%/22.8%/28.3%；梗阻（HOCM）与非梗阻（HCM）两型之间的结局没有显著差异。",
+  "clinical_utility": "可指导决策（预后沟通）",
   "verified": "yes",
   "japan_source": "否",
   "cebm_question": "预后",
-  "cebm_level": "3",
+  "cebm_level": "3（预后：回顾性队列，非起始队列）",
   "cebm_basis": "队列研究（回顾性，非起始队列）",
-  "rob_tool": "QUIPS",
-  "rob_judgement": "Moderate（QUIPS 综合，非官方总分）",
-  "rob_rationale": "研究参与：转诊中心回顾性纳入，选择偏倚中；失访：长期随访有缺失，中；预后因素测量：超声诊断标准多中心不完全统一，中；结局测量：心血管死亡/CHF/ATE由病历判定，中；混杂：有多变量分析，低–中；统计报告：充分，低。资助为非厂商基金会。",
+  "rob_tool": "ROBINS-I",
+  "rob_judgement": "严重",
+  "rob_rationale": "选择偏倚 + 年龄/治疗混杂",
   "guideline_recommendation": "不适用",
   "reporting_checklist": "STROBE-Vet",
   "grade_certainty_topic": "",
   "status": "已处理",
   "provenance": [
     "vibe-feline-v3",
-    "site-curated"
+    "site-curated",
+    "deep-extract"
   ],
-  "detail": "fox_2018.md",
+  "detail": "pmid-29660848.md",
   "errata_detail": [
     {
       "type": "勘误",
       "pmid": "30417429",
       "note": "HCM 中 CHF 不伴 ATE 的 90 只猫中位发生时间为 857 天而非 57 天；心血管生存范围应为 3 天–13.1 年（原文误为 3.1 年）"
     }
-  ]
+  ],
+  "authors": "Fox PR 等",
+  "pmcid": "PMC5980443",
+  "appraisal_items": [
+    {
+      "item": "D1 混杂",
+      "judgment": "严重",
+      "reason": "AH 组更年轻（4.9 vs 7.4/5.7 岁）；多数猫用过心血管药物，无剂量/依从性数据",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D2 研究对象选择",
+      "judgment": "严重",
+      "reason": "要求结局可追溯 ≥5 年，系统排除失访者；转诊人群",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D3 干预/暴露分类",
+      "judgment": "中",
+      "reason": "入组时单次超声，无中心化复核；应激 SAM 可能高估 HOCM",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D4 偏离既定干预",
+      "judgment": "不适用",
+      "reason": "非干预研究",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D5 缺失数据",
+      "judgment": "中",
+      "reason": "结局部分靠回忆",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D6 结局测量",
+      "judgment": "中",
+      "reason": "主人/兽医访谈",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D7 结果选择性报告",
+      "judgment": "低",
+      "reason": "预设主要结局",
+      "evidence_quote": ""
+    },
+    {
+      "item": "总体",
+      "judgment": "严重",
+      "reason": "选择偏倚 + 年龄/治疗混杂",
+      "evidence_quote": ""
+    }
+  ],
+  "study_card": {
+    "设计": "回顾性、多中心纵向队列（50 中心/21 国）",
+    "实际分析样本量": "1730（HCM 430、HOCM 578、表面健康 722）",
+    "单/多中心": "是（50 中心/21 国）",
+    "资助": "Morris Animal Foundation、Winn Feline Foundation（非厂商）",
+    "物种": "猫"
+  },
+  "methods_review": "D1 混杂：严重 ；D2 研究对象选择：严重 ；D3 干预/暴露分类：中 ；D4 偏离既定干预：不适用 ；D5 缺失数据：中 ；D6 结局测量：中 ；D7 结果选择性报告：低 ；总体：严重",
+  "can_say": [
+    "见页面第 6 节"
+  ],
+  "cannot_say": [
+    "见页面第 6 节"
+  ],
+  "internal_contradictions": [
+    "勘误：857天而非57天"
+  ],
+  "phase_md": "见页面第 5 节（Stage 1 全文版）",
+  "reading_depth": "全文",
+  "reading_source": "全文（Europe PMC/PMC）",
+  "reporting_notes": "STROBE-Vet：设计、场所、样本量论证已报告；勘误 PMID 30417429。",
+  "extract_id": "fox_2018",
+  "design": "回顾性、多中心纵向队列（50 中心/21 国）"
 }

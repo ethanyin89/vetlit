@@ -9,29 +9,129 @@
   "doi": "10.1111/j.1939-1676.2011.00874.x",
   "pmid": "22269057",
   "source": "PubMed/Europe PMC",
-  "oa": "否",
+  "oa": false,
   "doc_type": "回顾性队列",
   "recommendation_basis": "不适用",
-  "sample_size_analysed": "213（猫）",
-  "multicenter": "否（伦敦诊所群，摘要推断）",
-  "funding": "未核",
+  "sample_size_analysed": "213 只猫（IRIS 2/3/4 期 132/73/8）",
+  "multicenter": "未核",
+  "funding": "Vetoquinol（MEDLINE grantsList）",
   "errata": "",
   "internal_inconsistency": "",
-  "one_line_conclusion_zh": "蛋白尿、贫血、高磷可能提示猫CKD进展更快",
-  "clinical_utility": "提示性",
+  "one_line_conclusion_zh": "47%（101/213）CKD 猫在 1 年内进展（肌酐升高 25%）；高血磷与高 UPC 预测进展。",
+  "clinical_utility": "可指导决策（预后）",
   "verified": "partial",
   "japan_source": "否",
   "cebm_question": "预后",
-  "cebm_level": "3",
+  "cebm_level": "3（预后：队列）",
   "cebm_basis": "队列研究",
-  "rob_tool": "QUIPS",
-  "rob_judgement": "未评（仅摘要）",
-  "rob_rationale": "",
+  "rob_tool": "ROBINS-I",
+  "rob_judgement": "信息不足",
+  "rob_rationale": "未检到相关信息/本次未读到可判断内容",
   "guideline_recommendation": "不适用",
   "reporting_checklist": "STROBE-Vet",
   "grade_certainty_topic": "",
   "status": "已收录",
   "provenance": [
-    "vibe-feline-v3"
-  ]
+    "vibe-feline-v3",
+    "deep-extract"
+  ],
+  "detail": "pmid-22269057.md",
+  "authors": "Chakrabarti S 等",
+  "appraisal_items": [
+    {
+      "item": "D1 混杂",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D2 研究对象选择",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D3 干预/暴露分类",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D4 偏离既定干预",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D5 缺失数据",
+      "judgment": "中",
+      "reason": "最后 60 天未评估肾功能者被排除出 4 期比例分析",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D6 结局测量",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D7 结果选择性报告",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    },
+    {
+      "item": "总体",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    }
+  ],
+  "study_card": {
+    "设计": "回顾性队列，RVC/伦敦",
+    "实际分析样本量": "213 只猫（IRIS 2/3/4 期 132/73/8）",
+    "单/多中心": "未核",
+    "资助": "Vetoquinol（MEDLINE grantsList）",
+    "物种": "猫"
+  },
+  "results_table": [
+    {
+      "metric": "1 年内进展",
+      "value": "47%（101）",
+      "stat": "—"
+    },
+    {
+      "metric": "2 期→4 期",
+      "value": "19%（18/94）",
+      "stat": "—"
+    },
+    {
+      "metric": "3 期→4 期",
+      "value": "63%（34/54）",
+      "stat": "—"
+    }
+  ],
+  "methods_review": "D1 混杂：信息不足 ；D2 研究对象选择：信息不足 ；D3 干预/暴露分类：信息不足 ；D4 偏离既定干预：信息不足 ；D5 缺失数据：中 ；D6 结局测量：信息不足 ；D7 结果选择性报告：信息不足 ；总体：信息不足",
+  "can_say": [
+    "血磷、UPC 预测进展"
+  ],
+  "cannot_say": [
+    "不能说控磷可阻止进展（关联）"
+  ],
+  "terms": [
+    {
+      "en": "azotemia",
+      "zh": "氮质血症"
+    }
+  ],
+  "labels": [
+    "预后",
+    "企业资助"
+  ],
+  "phase_md": "Phase 0 分段：仅摘要各句。Phase 1 主题：回顾性队列，RVC/伦敦。Phase 2 论点—论据：47%（101/213）CKD 猫在 1 年内进展（肌酐升高 25%）；高血磷与高 UPC 预测进展。。Phase 3 自检：结论受 ROBINS-I 所列偏倚限制；未读全文，多数条目标为信息不足。",
+  "reading_depth": "摘要",
+  "reading_source": "仅摘要",
+  "reporting_notes": "仅摘要，无法逐条核查（信息不足）",
+  "extract_id": "chakrabarti_2012",
+  "design": "回顾性队列，RVC/伦敦"
 }

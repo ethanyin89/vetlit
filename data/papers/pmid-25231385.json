@@ -9,29 +9,142 @@
   "doi": "10.1111/jvim.12445",
   "pmid": "25231385",
   "source": "PubMed/Europe PMC",
-  "oa": "是",
-  "doc_type": "回顾性队列",
+  "oa": true,
+  "doc_type": "回顾性诊断准确性研究（病例—对照式）",
   "recommendation_basis": "不适用",
-  "sample_size_analysed": "未核",
-  "multicenter": "否（单一机构，摘要推断）",
-  "funding": "未核（疑为企业相关）",
+  "sample_size_analysed": "CKD 21 只 + 健康 21 只",
+  "multicenter": "否（单一机构）",
+  "funding": "Hill's Pet Nutrition（原文：\"funded by and performed at the Pet Nutrition Center, Hill's Pet Nutrition\"）；猫归资助方所有",
   "errata": "",
   "internal_inconsistency": "",
-  "one_line_conclusion_zh": "SDMA比肌酐能更早发现猫CKD",
+  "one_line_conclusion_zh": "在 Hill's 猫群中，17/21 只 CKD 猫的 SDMA 平均早于肌酐 17.0 个月升高；SDMA 敏感度 100% vs 肌酐 17%，特异度 91% vs 100%。",
   "clinical_utility": "提示性",
   "verified": "partial",
   "japan_source": "否",
   "cebm_question": "诊断",
-  "cebm_level": "3",
+  "cebm_level": "4（诊断：病例—对照式设计）",
   "cebm_basis": "参考标准未一致应用/非连续入组（摘要级判断）",
-  "rob_tool": "未评（无干预的描述性/横断面研究，无对应工具）",
-  "rob_judgement": "不适用",
-  "rob_rationale": "",
+  "rob_tool": "ROBINS-I",
+  "rob_judgement": "严重",
+  "rob_rationale": "病例—对照式诊断设计 + 资助方即检测/饲料相关企业",
   "guideline_recommendation": "不适用",
   "reporting_checklist": "STROBE-Vet",
   "grade_certainty_topic": "",
   "status": "已收录",
   "provenance": [
-    "vibe-feline-v3"
-  ]
+    "vibe-feline-v3",
+    "deep-extract"
+  ],
+  "detail": "pmid-25231385.md",
+  "authors": "Hall JA 等",
+  "pmcid": "PMC4895610",
+  "appraisal_items": [
+    {
+      "item": "D1 混杂",
+      "judgment": "中",
+      "reason": "病例、对照来自同一企业猫群，饮食与管理统一，但年龄等未见匹配说明（未核）",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D2 研究对象选择",
+      "judgment": "严重",
+      "reason": "回顾性选取已确诊 CKD 与健康猫（病例—对照式），易高估诊断准确性",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D3 干预/暴露分类",
+      "judgment": "低",
+      "reason": "SDMA/sCr 为实验室测定",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D4 偏离既定干预",
+      "judgment": "不适用",
+      "reason": "非干预研究",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D5 缺失数据",
+      "judgment": "信息不足",
+      "reason": "未见缺失数据描述",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D6 结局测量",
+      "judgment": "中",
+      "reason": "CKD 判定与 sCr 相关（参考标准合并指标风险）",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D7 结果选择性报告",
+      "judgment": "信息不足",
+      "reason": "无预注册方案",
+      "evidence_quote": ""
+    },
+    {
+      "item": "总体",
+      "judgment": "严重",
+      "reason": "病例—对照式诊断设计 + 资助方即检测/饲料相关企业",
+      "evidence_quote": ""
+    }
+  ],
+  "study_card": {
+    "设计": "回顾性；单一机构（Hill's 宠物营养中心 >400 只猫的猫群）",
+    "实际分析样本量": "CKD 21 只 + 健康 21 只",
+    "单/多中心": "否（单一机构）",
+    "资助": "Hill's Pet Nutrition（原文：\"funded by and performed at the Pet Nutrition Center, Hill's Pet Nutrition\"）；猫归资助方所有",
+    "物种": "猫"
+  },
+  "results_table": [
+    {
+      "metric": "SDMA 先于 sCr 升高",
+      "value": "17/21；平均提前 17.0 个月",
+      "stat": "—"
+    },
+    {
+      "metric": "敏感度 SDMA vs sCr",
+      "value": "100% vs 17%",
+      "stat": "—"
+    },
+    {
+      "metric": "特异度 SDMA vs sCr",
+      "value": "91% vs 100%",
+      "stat": "—"
+    },
+    {
+      "metric": "与 GFR 相关 r",
+      "value": "−0.79 / −0.77",
+      "stat": "—"
+    }
+  ],
+  "methods_review": "D1 混杂：中 ；D2 研究对象选择：严重 ；D3 干预/暴露分类：低 ；D4 偏离既定干预：不适用 ；D5 缺失数据：信息不足 ；D6 结局测量：中 ；D7 结果选择性报告：信息不足 ；总体：严重",
+  "can_say": [
+    "在该企业猫群中 SDMA 常早于肌酐升高"
+  ],
+  "cannot_say": [
+    "不能把 100%/91% 当作临床普通人群的诊断性能",
+    "不能外推到合并症多的门诊猫"
+  ],
+  "terms": [
+    {
+      "en": "SDMA",
+      "zh": "对称二甲基精氨酸"
+    },
+    {
+      "en": "GFR",
+      "zh": "肾小球滤过率"
+    }
+  ],
+  "labels": [
+    "回顾性",
+    "单一机构",
+    "企业资助",
+    "诊断准确性"
+  ],
+  "phase_md": "Phase 0 分段：全文 Methods/Results/Discussion 速读。Phase 1 主题：回顾性；单一机构（Hill's 宠物营养中心 >400 只猫的猫群）。Phase 2 论点—论据：在 Hill's 猫群中，17/21 只 CKD 猫的 SDMA 平均早于肌酐 17.0 个月升高；SDMA 敏感度 100% vs 肌酐 17%，特异度 91% vs 100%。。Phase 3 自检：结论受 ROBINS-I 所列偏倚限制；单人速读，未双人复核。",
+  "reading_depth": "全文",
+  "reading_source": "全文（Europe PMC/PMC）",
+  "reporting_notes": "STROBE-Vet：设计、场所、资助已报告；样本量论证未见。（诊断研究更适合 STARD，此处按要求用 STROBE-Vet）",
+  "extract_id": "hall_2014",
+  "design": "回顾性；单一机构（Hill's 宠物营养中心 >400 只猫的猫群）"
 }

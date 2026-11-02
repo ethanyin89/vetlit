@@ -9,29 +9,135 @@
   "doi": "",
   "pmid": "",
   "source": "非PubMed（https://www.iris-kidney.com/iris-guidelines-1）",
-  "oa": "是",
+  "oa": true,
   "doc_type": "指南/共识",
-  "recommendation_basis": "部分基于专家意见",
+  "recommendation_basis": "指南原文推荐强度见 guideline_strengths_verbatim",
   "sample_size_analysed": "不适用",
   "multicenter": "不适用",
-  "funding": "未核",
+  "funding": "未见资助披露；分期 PDF 注明 SDMA 推荐\"based on IDEXX technology for measuring SDMA\"",
   "errata": "",
   "internal_inconsistency": "",
-  "one_line_conclusion_zh": "按肌酐/SDMA分期并按蛋白尿和血压亚分期犬猫CKD",
-  "clinical_utility": "改变诊疗",
+  "one_line_conclusion_zh": "IRIS 2026 CKD 分期以空腹肌酐或 SDMA 分 1–4 期，再按 UP/C 与收缩压亚分期；2026 版主要新增贫血治疗阈值（犬 HCT <30%，猫 <25%）。",
+  "clinical_utility": "可指导决策（行业通用分期标准）",
   "verified": "partial",
   "japan_source": "否",
   "cebm_question": "—",
-  "cebm_level": "不适用（指南/共识，OCEBM 不分级）",
+  "cebm_level": "不适用（指南）",
   "cebm_basis": "",
-  "rob_tool": "AGREE II（评价工具）",
-  "rob_judgement": "未做 AGREE II 正式评分",
+  "rob_tool": "AGREE II",
+  "rob_judgement": "见逐项判断（该工具不设总体判断）",
   "rob_rationale": "",
-  "guideline_recommendation": "未核（需读指南原文确认其推荐分级体系）",
-  "reporting_checklist": "AGREE 报告清单 / RIGHT",
+  "guideline_recommendation": "分期文件无逐条推荐强度或证据等级；原文：\"some empirical recommendations can be made\"；官网：\"These two surrogate markers are complimentary to each other\"（肌酐与 SDMA）",
+  "reporting_checklist": "RIGHT（指南报告）",
   "grade_certainty_topic": "",
   "status": "已收录",
   "provenance": [
-    "vibe-feline-v3"
-  ]
+    "vibe-feline-v3",
+    "deep-extract"
+  ],
+  "detail": "x-international-renal-interest-society-2026-iris-staging-of-ckd-modified-2026.md",
+  "authors": "International Renal Interest Society 等",
+  "appraisal_items": [
+    {
+      "item": "领域1 范围与目的",
+      "judgment": "充分",
+      "reason": "CKD 分期、亚分期",
+      "evidence_quote": ""
+    },
+    {
+      "item": "领域2 参与人员",
+      "judgment": "信息不足",
+      "reason": "IRIS 董事会；成员与流程未在文件中说明",
+      "evidence_quote": ""
+    },
+    {
+      "item": "领域3 制定严谨性",
+      "judgment": "不足",
+      "reason": "无检索、无证据分级；\"empirical recommendations\"",
+      "evidence_quote": "empirical recommendations"
+    },
+    {
+      "item": "领域4 表达清晰性",
+      "judgment": "充分",
+      "reason": "表格化阈值",
+      "evidence_quote": ""
+    },
+    {
+      "item": "领域5 应用性",
+      "judgment": "部分",
+      "reason": "SDMA 阈值依赖 IDEXX 方法",
+      "evidence_quote": ""
+    },
+    {
+      "item": "领域6 编辑独立性",
+      "judgment": "信息不足",
+      "reason": "未见资助/COI 声明",
+      "evidence_quote": ""
+    }
+  ],
+  "study_card": {
+    "设计": "IRIS 董事会发布的 CKD 分期指南（Modified 2026）；读取官网说明页 + 分期 PDF（IRIS_staging_guidelines-2026.pdf）",
+    "实际分析样本量": "不适用",
+    "单/多中心": "不适用",
+    "资助": "未见资助披露；分期 PDF 注明 SDMA 推荐\"based on IDEXX technology for measuring SDMA\"",
+    "物种": "猫/犬"
+  },
+  "results_table": [
+    {
+      "metric": "肌酐 2 期（犬/猫）",
+      "value": "125–250 / 140–250 μmol/L（1.4–2.8 / 1.6–2.8 mg/dL）",
+      "stat": "—"
+    },
+    {
+      "metric": "SDMA 2 期（犬/猫）",
+      "value": "18–35 / 18–25 μg/dL",
+      "stat": "—"
+    },
+    {
+      "metric": "UP/C 蛋白尿（犬/猫）",
+      "value": ">0.5 / >0.4",
+      "stat": "—"
+    },
+    {
+      "metric": "SBP 亚分期",
+      "value": "<140 / 140–159 / 160–179 / ≥180 mmHg",
+      "stat": "—"
+    },
+    {
+      "metric": "2026 贫血阈值",
+      "value": "犬 HCT <30%（或 30–35% 持续）；猫 <25%（或 25–28% 持续）",
+      "stat": "官网说明"
+    }
+  ],
+  "methods_review": "领域1 范围与目的：充分 ；领域2 参与人员：信息不足 ；领域3 制定严谨性：不足 ；领域4 表达清晰性：充分 ；领域5 应用性：部分 ；领域6 编辑独立性：信息不足",
+  "can_say": [
+    "临床分期阈值以 2026 PDF 为准"
+  ],
+  "cannot_say": [
+    "不能说阈值有证据分级支撑"
+  ],
+  "internal_contradictions": [
+    "分期表猫 2 期肌酐写 140–250 μmol/L，SDMA 差异框写\"between 141 and 250 µmol/l\"（边界不一致）"
+  ],
+  "terms": [
+    {
+      "en": "SDMA",
+      "zh": "对称二甲基精氨酸"
+    },
+    {
+      "en": "UP/C",
+      "zh": "尿蛋白/肌酐比"
+    }
+  ],
+  "labels": [
+    "指南",
+    "IRIS",
+    "2026"
+  ],
+  "phase_md": "Phase 0 分段：全文 Methods/Results/Discussion 速读。Phase 1 主题：IRIS 董事会发布的 CKD 分期指南（Modified 2026）；读取官网说明页 + 分期 PDF（IRIS_staging_guidelines-2026.pdf）。Phase 2 论点—论据：IRIS 2026 CKD 分期以空腹肌酐或 SDMA 分 1–4 期，再按 UP/C 与收缩压亚分期；2026 版主要新增贫血治疗阈值（犬 HCT <30%，猫 <25%）。。Phase 3 自检：结论受 AGREE II 所列偏倚限制；单人速读，未双人复核。",
+  "reading_depth": "全文",
+  "reading_source": "全文（IRIS 官网 PDF）",
+  "reporting_notes": "RIGHT：方法、COI 未报告。",
+  "extract_id": "x-international-renal-interest-society-2026-iris-staging-of-ckd-modified-2026",
+  "design": "IRIS 董事会发布的 CKD 分期指南（Modified 2026）；读取官网说明页 + 分期 PDF（IRIS_staging_guidelines-2026.pdf）"
 }

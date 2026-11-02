@@ -9,7 +9,7 @@
   "doi": "10.1177/1098612x13477537",
   "pmid": "23422366",
   "source": "PubMed/Europe PMC",
-  "oa": "否",
+  "oa": false,
   "doc_type": "指南/共识",
   "recommendation_basis": "主要基于专家意见",
   "sample_size_analysed": "不适用",
@@ -17,21 +17,91 @@
   "funding": "未核",
   "errata": "",
   "internal_inconsistency": "",
-  "one_line_conclusion_zh": "提出猫环境需求原则以减少应激相关问题",
-  "clinical_utility": "改变诊疗",
+  "one_line_conclusion_zh": "满足猫环境需求是必需而非可选；以\"五大支柱\"框架组织建议。",
+  "clinical_utility": "提示性",
   "verified": "partial",
   "japan_source": "否",
   "cebm_question": "—",
-  "cebm_level": "不适用（指南/共识，OCEBM 不分级）",
+  "cebm_level": "不适用（指南）",
   "cebm_basis": "",
-  "rob_tool": "AGREE II（评价工具）",
-  "rob_judgement": "未做 AGREE II 正式评分",
+  "rob_tool": "AGREE II",
+  "rob_judgement": "见逐项判断（该工具不设总体判断）",
   "rob_rationale": "",
-  "guideline_recommendation": "未核（需读指南原文确认其推荐分级体系）",
-  "reporting_checklist": "AGREE 报告清单 / RIGHT",
+  "guideline_recommendation": "仅摘要：未读到逐条推荐强度/证据等级（信息不足）",
+  "reporting_checklist": "RIGHT（指南报告）",
   "grade_certainty_topic": "",
   "status": "已收录",
   "provenance": [
-    "vibe-feline-v3"
-  ]
+    "vibe-feline-v3",
+    "deep-extract"
+  ],
+  "detail": "pmid-23422366.md",
+  "authors": "Ellis SL 等",
+  "appraisal_items": [
+    {
+      "item": "领域1 范围与目的",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    },
+    {
+      "item": "领域2 参与人员",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    },
+    {
+      "item": "领域3 制定严谨性",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    },
+    {
+      "item": "领域4 表达清晰性",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    },
+    {
+      "item": "领域5 应用性",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    },
+    {
+      "item": "领域6 编辑独立性",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    }
+  ],
+  "study_card": {
+    "设计": "AAFP/ISFM 猫环境需求指南（五大支柱）",
+    "实际分析样本量": "不适用",
+    "单/多中心": "不适用",
+    "资助": "未核",
+    "物种": "猫"
+  },
+  "methods_review": "领域1 范围与目的：信息不足 ；领域2 参与人员：信息不足 ；领域3 制定严谨性：信息不足 ；领域4 表达清晰性：信息不足 ；领域5 应用性：信息不足 ；领域6 编辑独立性：信息不足",
+  "can_say": [
+    "五大支柱框架"
+  ],
+  "cannot_say": [
+    "无证据分级"
+  ],
+  "terms": [
+    {
+      "en": "environmental enrichment",
+      "zh": "环境丰容"
+    }
+  ],
+  "labels": [
+    "指南"
+  ],
+  "phase_md": "Phase 0 分段：仅摘要各句。Phase 1 主题：AAFP/ISFM 猫环境需求指南（五大支柱）。Phase 2 论点—论据：满足猫环境需求是必需而非可选；以\"五大支柱\"框架组织建议。。Phase 3 自检：结论受 AGREE II 所列偏倚限制；未读全文，多数条目标为信息不足。",
+  "reading_depth": "摘要",
+  "reading_source": "仅摘要",
+  "reporting_notes": "仅摘要，无法逐条核查（信息不足）",
+  "extract_id": "ellis_2013",
+  "design": "AAFP/ISFM 猫环境需求指南（五大支柱）"
 }

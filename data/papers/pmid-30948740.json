@@ -9,36 +9,37 @@
   "doi": "10.1038/s41598-019-40616-4",
   "pmid": "30948740",
   "source": "PubMed/Europe PMC",
-  "oa": "是",
-  "doc_type": "实验",
+  "oa": true,
+  "doc_type": "行为实验",
   "recommendation_basis": "不适用",
-  "sample_size_analysed": "实验1-4: 11/6+9/21/20（猫）",
-  "multicenter": "否（日本单一地区）",
-  "funding": "未核",
+  "sample_size_analysed": "实验 1：16 只；实验 2：34 只（家庭猫仅 6/24 完成习惯化，作者称\"we analysed the data from these six cats because of methodological restriction\"）；实验 3：29 只；实验 4：33 只",
+  "multicenter": "否",
+  "funding": "KAKENHI（JSPS/MEXT）；Sophia University 奖励津贴；无竞争利益",
   "errata": "",
   "internal_inconsistency": "作者讨论用\"理解\"，实验只测\"分辨\"",
-  "one_line_conclusion_zh": "猫能根据音素区分自己名字与其他词（只测分辨，未测理解）",
-  "clinical_utility": "背景",
+  "one_line_conclusion_zh": "猫能把自己的名字与同长度、同重音的普通名词区分开（实验 1 中 11/16、实验 4 中 20/33 只猫对名词反应递减），即使由陌生人呼唤也如此。",
+  "clinical_utility": "提示性",
   "verified": "yes",
   "japan_source": "是",
   "cebm_question": "—",
-  "cebm_level": "不适用（基础/行为学研究，无临床问题）",
+  "cebm_level": "不适用（基础行为学，非临床问题）",
   "cebm_basis": "",
-  "rob_tool": "SYRCLE",
-  "rob_judgement": "SYRCLE 不出总体判断",
+  "rob_tool": "SYRCLE RoB",
+  "rob_judgement": "见逐项判断（该工具不设总体判断）",
   "rob_rationale": "序列生成/分配隐藏：被试内设计（每只猫接受全部刺激），不适用；随机刺激顺序：有随机化，低；结局评估者盲法：行为由不知情评分员编码，低；不完整数据：部分猫因注意力丢失被剔除，不清楚；其他：每实验n≈16、单一国家家庭/猫咖啡馆样本，影响外推而非偏倚。",
   "guideline_recommendation": "不适用",
-  "reporting_checklist": "ARRIVE 2.0",
+  "reporting_checklist": "ARRIVE 2.0（Essential 10）",
   "grade_certainty_topic": "",
   "status": "已处理",
   "provenance": [
     "vibe-feline-v3",
-    "site-curated"
+    "site-curated",
+    "deep-extract"
   ],
   "title_zh": "家猫能把自己的名字与其他词区分开",
   "pmcid": "PMC6449508",
   "date": "2019-04-04",
-  "detail": "saito_2019.md",
+  "detail": "pmid-30948740.md",
   "errata_detail": [
     {
       "type": "更正",
@@ -46,5 +47,113 @@
       "date": "2019-09",
       "note": "仅改年龄、家庭数等笔误，结论不变"
     }
-  ]
+  ],
+  "authors": "Saito A 等",
+  "appraisal_items": [
+    {
+      "item": "1 序列生成",
+      "judgment": "不清楚",
+      "reason": "刺激顺序设计未逐条核",
+      "evidence_quote": ""
+    },
+    {
+      "item": "2 基线可比",
+      "judgment": "不适用",
+      "reason": "被试内设计",
+      "evidence_quote": ""
+    },
+    {
+      "item": "3 分配隐藏",
+      "judgment": "不适用",
+      "reason": "—",
+      "evidence_quote": ""
+    },
+    {
+      "item": "4 随机安置",
+      "judgment": "不适用",
+      "reason": "—",
+      "evidence_quote": ""
+    },
+    {
+      "item": "5 实施者盲法",
+      "judgment": "不清楚",
+      "reason": "—",
+      "evidence_quote": ""
+    },
+    {
+      "item": "6 随机结局评估",
+      "judgment": "不清楚",
+      "reason": "—",
+      "evidence_quote": ""
+    },
+    {
+      "item": "7 评估者盲法",
+      "judgment": "不清楚",
+      "reason": "由评分者评估反应强度；盲法未核",
+      "evidence_quote": ""
+    },
+    {
+      "item": "8 不完整结局数据",
+      "judgment": "高",
+      "reason": "实验 2 家庭猫仅 6/24 完成习惯化仍纳入分析",
+      "evidence_quote": ""
+    },
+    {
+      "item": "9 选择性报告",
+      "judgment": "不清楚",
+      "reason": "无预注册",
+      "evidence_quote": ""
+    },
+    {
+      "item": "10 其他偏倚",
+      "judgment": "低",
+      "reason": "学术资助",
+      "evidence_quote": ""
+    }
+  ],
+  "study_card": {
+    "设计": "4 个实验（习惯化—去习惯化范式），日本；实验 2 在一间猫咖进行",
+    "实际分析样本量": "实验 1：16 只；实验 2：34 只（家庭猫仅 6/24 完成习惯化，作者称\"we analysed the data from these six cats because of methodological restriction\"）；实验 3：29 只；实验 4：33 只",
+    "单/多中心": "否",
+    "资助": "KAKENHI（JSPS/MEXT）；Sophia University 奖励津贴；无竞争利益",
+    "物种": "猫"
+  },
+  "results_table": [
+    {
+      "metric": "实验 1 反应递减",
+      "value": "11/16",
+      "stat": "—"
+    },
+    {
+      "metric": "实验 4 反应递减（陌生人声音）",
+      "value": "20/33",
+      "stat": "—"
+    }
+  ],
+  "methods_review": "1 序列生成：不清楚 ；2 基线可比：不适用 ；3 分配隐藏：不适用 ；4 随机安置：不适用 ；5 实施者盲法：不清楚 ；6 随机结局评估：不清楚 ；7 评估者盲法：不清楚 ；8 不完整结局数据：高 ；9 选择性报告：不清楚 ；10 其他偏倚：低",
+  "can_say": [
+    "猫能区分自己的名字与其他词"
+  ],
+  "cannot_say": [
+    "不能说猫\"理解\"名字的指代含义"
+  ],
+  "internal_contradictions": [
+    "作者讨论用\"理解\"，实验只测\"分辨\""
+  ],
+  "terms": [
+    {
+      "en": "habituation–dishabituation",
+      "zh": "习惯化—去习惯化"
+    }
+  ],
+  "labels": [
+    "行为实验",
+    "日本"
+  ],
+  "phase_md": "Phase 0 分段：全文 Methods/Results/Discussion 速读。Phase 1 主题：4 个实验（习惯化—去习惯化范式），日本；实验 2 在一间猫咖进行。Phase 2 论点—论据：猫能把自己的名字与同长度、同重音的普通名词区分开（实验 1 中 11/16、实验 4 中 20/33 只猫对名词反应递减），即使由陌生人呼唤也如此。。Phase 3 自检：结论受 SYRCLE RoB 所列偏倚限制；单人速读，未双人复核。",
+  "reading_depth": "全文",
+  "reading_source": "全文（Europe PMC/PMC）",
+  "reporting_notes": "ARRIVE 2.0：样本量论证缺；排除/未完成情况已报告。",
+  "extract_id": "saito_2019",
+  "design": "4 个实验（习惯化—去习惯化范式），日本；实验 2 在一间猫咖进行"
 }

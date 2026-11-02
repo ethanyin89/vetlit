@@ -9,29 +9,125 @@
   "doi": "10.3389/fpsyg.2017.02165",
   "pmid": "29326623",
   "source": "PubMed/Europe PMC",
-  "oa": "是",
-  "doc_type": "关联研究",
+  "oa": true,
+  "doc_type": "关联研究（候选基因）",
   "recommendation_basis": "不适用",
-  "sample_size_analysed": "未核",
-  "multicenter": "否（日本）",
-  "funding": "未核",
+  "sample_size_analysed": "混种猫 100 只（家庭 85 + 猫咖 15）+ 纯种猫 40 只",
+  "multicenter": "否（日本，单一研究组）",
+  "funding": "JSPS KAKENHI；京都大学 SPIRITS；声明无利益冲突",
   "errata": "",
   "internal_inconsistency": "",
-  "one_line_conclusion_zh": "OXTR邻近微卫星多态性可能与猫友好性相关，需进一步研究",
-  "clinical_utility": "背景",
+  "one_line_conclusion_zh": "雄激素受体基因微卫星（MS3）与猫的友好性评分存在关联，但作者自己称为\"marginally significant\"。",
+  "clinical_utility": "提示性",
   "verified": "partial",
   "japan_source": "是",
   "cebm_question": "—",
-  "cebm_level": "不适用（基础/行为学研究，无临床问题）",
+  "cebm_level": "不适用（非临床问题的基础关联研究；如强行归类为 4）",
   "cebm_basis": "",
-  "rob_tool": "SYRCLE",
-  "rob_judgement": "未评（仅摘要）",
-  "rob_rationale": "",
+  "rob_tool": "ROBINS-I",
+  "rob_judgement": "严重",
+  "rob_rationale": "小样本 + 主观结局 + 边缘显著",
   "guideline_recommendation": "不适用",
-  "reporting_checklist": "ARRIVE 2.0",
+  "reporting_checklist": "STROBE-Vet",
   "grade_certainty_topic": "",
   "status": "已收录",
   "provenance": [
-    "vibe-feline-v3"
-  ]
+    "vibe-feline-v3",
+    "deep-extract"
+  ],
+  "detail": "pmid-29326623.md",
+  "authors": "Arahori M 等",
+  "pmcid": "PMC5741686",
+  "appraisal_items": [
+    {
+      "item": "D1 混杂",
+      "judgment": "严重",
+      "reason": "家庭与猫咖来源混合；品种/环境混杂",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D2 研究对象选择",
+      "judgment": "中",
+      "reason": "方便样本",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D3 干预/暴露分类",
+      "judgment": "低",
+      "reason": "基因分型",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D4 偏离既定干预",
+      "judgment": "不适用",
+      "reason": "—",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D5 缺失数据",
+      "judgment": "信息不足",
+      "reason": "—",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D6 结局测量",
+      "judgment": "中",
+      "reason": "性格由主人问卷评分，主观",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D7 结果选择性报告",
+      "judgment": "中",
+      "reason": "多个标记/性格因子比较，边缘显著",
+      "evidence_quote": ""
+    },
+    {
+      "item": "总体",
+      "judgment": "严重",
+      "reason": "小样本 + 主观结局 + 边缘显著",
+      "evidence_quote": ""
+    }
+  ],
+  "study_card": {
+    "设计": "横断面候选基因关联研究，日本",
+    "实际分析样本量": "混种猫 100 只（家庭 85 + 猫咖 15）+ 纯种猫 40 只",
+    "单/多中心": "否（日本，单一研究组）",
+    "资助": "JSPS KAKENHI；京都大学 SPIRITS；声明无利益冲突",
+    "物种": "猫"
+  },
+  "results_table": [
+    {
+      "metric": "MS3 与友好性",
+      "value": "—",
+      "stat": "作者称\"marginally significant\""
+    }
+  ],
+  "methods_review": "D1 混杂：严重 ；D2 研究对象选择：中 ；D3 干预/暴露分类：低 ；D4 偏离既定干预：不适用 ；D5 缺失数据：信息不足 ；D6 结局测量：中 ；D7 结果选择性报告：中 ；总体：严重",
+  "can_say": [
+    "提示 AR 基因多态性可能与猫性格相关"
+  ],
+  "cannot_say": [
+    "不能说该基因决定猫的友好性"
+  ],
+  "terms": [
+    {
+      "en": "microsatellite",
+      "zh": "微卫星"
+    },
+    {
+      "en": "androgen receptor",
+      "zh": "雄激素受体"
+    }
+  ],
+  "labels": [
+    "关联研究",
+    "日本",
+    "小样本"
+  ],
+  "phase_md": "Phase 0 分段：全文 Methods/Results/Discussion 速读。Phase 1 主题：横断面候选基因关联研究，日本。Phase 2 论点—论据：雄激素受体基因微卫星（MS3）与猫的友好性评分存在关联，但作者自己称为\"marginally significant\"。。Phase 3 自检：结论受 ROBINS-I 所列偏倚限制；单人速读，未双人复核。",
+  "reading_depth": "全文",
+  "reading_source": "全文（Europe PMC/PMC）",
+  "reporting_notes": "STROBE-Vet（及 STREGA 遗传关联）：资助/COI 已报告；样本量论证未见。",
+  "extract_id": "arahori_2017",
+  "design": "横断面候选基因关联研究，日本"
 }

@@ -9,33 +9,36 @@
   "doi": "10.1111/jvim.13639",
   "pmid": "26474314",
   "source": "PubMed/Europe PMC",
-  "oa": "是",
-  "doc_type": "RCT",
+  "oa": true,
+  "doc_type": "RCT（阳性对照、非劣效）",
   "recommendation_basis": "不适用",
-  "sample_size_analysed": "随机224，疗效分析176（猫）",
-  "multicenter": "是（多国多中心）",
-  "funding": "Boehringer Ingelheim",
-  "errata": "27003463",
+  "sample_size_analysed": "ITT 224（112/112）；PPS 176（85/91）",
+  "multicenter": "是（48 中心：德 15、法 12、英 11、荷 4、比 4、意 2）",
+  "funding": "Boehringer Ingelheim（替米沙坦生产商）；3 位作者为该公司员工，Elliott 为付费顾问；申办方参与读审终稿",
+  "errata": [
+    "27003463"
+  ],
   "internal_inconsistency": "表3贝那普利P值名义显著，但经Holm校正后不显著",
-  "one_line_conclusion_zh": "替米沙坦在降低CKD猫蛋白尿方面不劣于贝那普利，两药耐受性良好",
+  "one_line_conclusion_zh": "在以 IRIS 2 期、边缘性蛋白尿为主的 CKD 猫中，替米沙坦 1 mg/kg q24h 降低 UP/C 的效果**不劣于**贝那普利（主要终点 95% CI −0.035 至 0.268，完全高于非劣效界值 −0.108），随访 180 天；未评估生存或 CKD 进展。",
   "clinical_utility": "提示性",
   "verified": "yes",
   "japan_source": "否",
   "cebm_question": "治疗获益",
-  "cebm_level": "2",
+  "cebm_level": "2（单个随机试验；治疗获益）",
   "cebm_basis": "随机试验",
-  "rob_tool": "Cochrane RoB 2",
-  "rob_judgement": "Some concerns",
-  "rob_rationale": "D1随机：集中随机表，低；D2偏离干预：研究者设盲但剂型不同、主人未盲，主要终点为实验室UP/C故影响小；D3缺失数据：PPS排除约21%，但ITT结果一致，低；D4测量：UP/C客观指标，低；D5选择性报告：预设CI法，但讨论把组内显著当作组间优势，有些担忧。替代终点(UP/C)与厂商资助属间接性/利益冲突，不计入RoB 2领域。",
+  "rob_tool": "RoB 2",
+  "rob_judgement": "有一定担忧",
+  "rob_rationale": "开放剂型 + 替代终点（UP/C）+ 厂商资助",
   "guideline_recommendation": "不适用",
-  "reporting_checklist": "CONSORT 2010",
+  "reporting_checklist": "CONSORT 2010（犬猫临床试验）",
   "grade_certainty_topic": "",
   "status": "已处理",
   "provenance": [
     "vibe-feline-v3",
-    "site-curated"
+    "site-curated",
+    "deep-extract"
   ],
-  "detail": "sent_2015.md",
+  "detail": "pmid-26474314.md",
   "errata_detail": [
     {
       "type": "更正",
@@ -46,5 +49,68 @@
   "internal_inconsistency_detail": [
     "Table 3 贝那普利 Day 7/30/60 P=.040/.023/.046 单看显著，但正文称各时点均不显著——仅按 Bonferroni–Holm 逐步阈值解读才成立",
     "正文称 4 只 IRIS 4 期猫，Table 2 显示 3+2=5 只"
-  ]
+  ],
+  "authors": "Sent U 等",
+  "pmcid": "PMC4895689",
+  "appraisal_items": [
+    {
+      "item": "D1 随机化过程",
+      "judgment": "低",
+      "reason": "随机、平行组（分组细节见原文 Methods）",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D2 偏离既定干预",
+      "judgment": "有一定担忧",
+      "reason": "研究者设盲，但口服液 vs 片剂剂型不同，主人不可能盲",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D3 结局数据缺失",
+      "judgment": "有一定担忧",
+      "reason": "PPS 排除约 21%（224→176）；ITT 结论一致",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D4 结局测量",
+      "judgment": "低",
+      "reason": "主要终点 UP/C 为实验室指标；主人评价的次要终点有偏倚风险",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D5 结果选择性报告",
+      "judgment": "有一定担忧",
+      "reason": "主要终点预设，但讨论用组内显著性暗示优效",
+      "evidence_quote": ""
+    },
+    {
+      "item": "总体",
+      "judgment": "有一定担忧",
+      "reason": "开放剂型 + 替代终点（UP/C）+ 厂商资助",
+      "evidence_quote": ""
+    }
+  ],
+  "study_card": {
+    "设计": "前瞻性、多中心（48 中心、6 个欧洲国家）、随机、研究者设盲、阳性对照、非劣效",
+    "实际分析样本量": "ITT 224（112/112）；PPS 176（85/91）",
+    "单/多中心": "是（48 中心：德 15、法 12、英 11、荷 4、比 4、意 2）",
+    "资助": "Boehringer Ingelheim（替米沙坦生产商）；3 位作者为该公司员工，Elliott 为付费顾问；申办方参与读审终稿",
+    "物种": "猫"
+  },
+  "methods_review": "D1 随机化过程：低 ；D2 偏离既定干预：有一定担忧 ；D3 结局数据缺失：有一定担忧 ；D4 结局测量：低 ；D5 结果选择性报告：有一定担忧 ；总体：有一定担忧",
+  "can_say": [
+    "见页面第 6 节"
+  ],
+  "cannot_say": [
+    "见页面第 6 节"
+  ],
+  "internal_contradictions": [
+    "表3贝那普利P值名义显著，但经Holm校正后不显著"
+  ],
+  "phase_md": "见页面第 5 节（Stage 1 全文版）",
+  "reading_depth": "全文",
+  "reading_source": "全文（Europe PMC/PMC）",
+  "reporting_notes": "CONSORT 非劣效扩展：界值（Δ=0.108）、ITT/PPS、随访已报告；Table 3 P 值与正文表述不一致；勘误 PMID 27003463。",
+  "extract_id": "sent_2015",
+  "design": "前瞻性、多中心（48 中心、6 个欧洲国家）、随机、研究者设盲、阳性对照、非劣效"
 }

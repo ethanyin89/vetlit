@@ -9,29 +9,136 @@
   "doi": "10.1371/journal.pone.0209112",
   "pmid": "30543707",
   "source": "PubMed/Europe PMC",
-  "oa": "是",
-  "doc_type": "病例系列",
+  "oa": true,
+  "doc_type": "前瞻性观察（病例系列 + 健康对照）",
   "recommendation_basis": "不适用",
-  "sample_size_analysed": "24（犬）",
-  "multicenter": "未核",
-  "funding": "未核",
+  "sample_size_analysed": "DCM 伴牛磺酸缺乏金毛 24 只 + 健康金毛 52 只",
+  "multicenter": "是（北美多机构；数量未核）",
+  "funding": "原文：\"The authors received no specific funding for this work\"；COI：Fascetti 为提供收费氨基酸检测的 UC Davis 实验室主任",
   "errata": "",
   "internal_inconsistency": "",
-  "one_line_conclusion_zh": "某些饮食与金毛牛磺酸缺乏和DCM有关，病因可能多因素",
+  "one_line_conclusion_zh": "24 只牛磺酸缺乏 DCM 金毛中 23 只吃无谷/豆类饮食，换粮 + 补牛磺酸后 23/24 超声改善、牛磺酸正常化。",
   "clinical_utility": "提示性",
   "verified": "partial",
   "japan_source": "否",
   "cebm_question": "治疗获益/病因",
-  "cebm_level": "4",
+  "cebm_level": "4（病例系列，治疗反应无对照）",
   "cebm_basis": "病例系列",
-  "rob_tool": "未评（无干预的描述性/横断面研究，无对应工具）",
-  "rob_judgement": "不适用",
-  "rob_rationale": "",
+  "rob_tool": "ROBINS-I",
+  "rob_judgement": "严重",
+  "rob_rationale": "无对照的治疗反应 + 遗传混杂",
   "guideline_recommendation": "不适用",
   "reporting_checklist": "STROBE-Vet",
   "grade_certainty_topic": "",
   "status": "已收录",
   "provenance": [
-    "vibe-feline-v3"
-  ]
+    "vibe-feline-v3",
+    "deep-extract"
+  ],
+  "detail": "pmid-30543707.md",
+  "authors": "Kaplan JL 等",
+  "pmcid": "PMC6292607",
+  "appraisal_items": [
+    {
+      "item": "D1 混杂",
+      "judgment": "严重",
+      "reason": "金毛\"closely related to one other\"，遗传原因无法排除（作者自述）",
+      "evidence_quote": "closely related to one other"
+    },
+    {
+      "item": "D2 研究对象选择",
+      "judgment": "中",
+      "reason": "只纳入已有牛磺酸缺乏的 DCM 犬",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D3 干预/暴露分类",
+      "judgment": "中",
+      "reason": "饮食史靠主人回忆",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D4 偏离既定干预",
+      "judgment": "中",
+      "reason": "换粮与补牛磺酸同时进行，无法区分作用",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D5 缺失数据",
+      "judgment": "中",
+      "reason": "\"data regarding the volume of blood collected ... could not be obtained for all samples\"",
+      "evidence_quote": "data regarding the volume of blood collected ... could not be obtained for all samples"
+    },
+    {
+      "item": "D6 结局测量",
+      "judgment": "低",
+      "reason": "外院图像由单一研究者离线分析",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D7 结果选择性报告",
+      "judgment": "信息不足",
+      "reason": "—",
+      "evidence_quote": ""
+    },
+    {
+      "item": "总体",
+      "judgment": "严重",
+      "reason": "无对照的治疗反应 + 遗传混杂",
+      "evidence_quote": ""
+    }
+  ],
+  "study_card": {
+    "设计": "多中心前瞻性观察研究（原文：\"multicenter, prospective, observational\"）；北美私立及学术机构招募（2016.1–2018.7）",
+    "实际分析样本量": "DCM 伴牛磺酸缺乏金毛 24 只 + 健康金毛 52 只",
+    "单/多中心": "是（北美多机构；数量未核）",
+    "资助": "原文：\"The authors received no specific funding for this work\"；COI：Fascetti 为提供收费氨基酸检测的 UC Davis 实验室主任",
+    "物种": "犬"
+  },
+  "results_table": [
+    {
+      "metric": "无谷/豆类饮食",
+      "value": "23/24",
+      "stat": "—"
+    },
+    {
+      "metric": "换粮+补充后改善",
+      "value": "23/24",
+      "stat": "—"
+    },
+    {
+      "metric": "CHF 缓解",
+      "value": "9/11",
+      "stat": "—"
+    }
+  ],
+  "methods_review": "D1 混杂：严重 ；D2 研究对象选择：中 ；D3 干预/暴露分类：中 ；D4 偏离既定干预：中 ；D5 缺失数据：中 ；D6 结局测量：低 ；D7 结果选择性报告：信息不足 ；总体：严重",
+  "can_say": [
+    "金毛 DCM 与特定饮食及牛磺酸缺乏有关联"
+  ],
+  "cannot_say": [
+    "不能说无谷粮导致 DCM（因果）",
+    "不能区分换粮与补牛磺酸的作用"
+  ],
+  "terms": [
+    {
+      "en": "taurine",
+      "zh": "牛磺酸"
+    },
+    {
+      "en": "grain-free diet",
+      "zh": "无谷饮食"
+    }
+  ],
+  "labels": [
+    "多中心",
+    "前瞻观察",
+    "无资助"
+  ],
+  "phase_md": "Phase 0 分段：全文 Methods/Results/Discussion 速读。Phase 1 主题：多中心前瞻性观察研究（原文：\"multicenter, prospective, observational\"）；北美私立及学术机构招募（2016.1–2018.7）。Phase 2 论点—论据：24 只牛磺酸缺乏 DCM 金毛中 23 只吃无谷/豆类饮食，换粮 + 补牛磺酸后 23/24 超声改善、牛磺酸正常化。。Phase 3 自检：结论受 ROBINS-I 所列偏倚限制；单人速读，未双人复核。",
+  "reading_depth": "全文",
+  "reading_source": "全文（Europe PMC/PMC）",
+  "reporting_notes": "STROBE-Vet：设计、场所、局限已报告。",
+  "extract_id": "kaplan_2018",
+  "design": "多中心前瞻性观察研究（原文：\"multicenter, prospective, observational\"）；北美私立及学术机构招募（2016.1–2018.7）"
 }

@@ -9,29 +9,112 @@
   "doi": "10.2460/javma.2002.220.1315",
   "pmid": "11991408",
   "source": "PubMed/Europe PMC",
-  "oa": "否",
-  "doc_type": "配对对照试验",
+  "oa": false,
+  "doc_type": "配对饲喂对照试验",
   "recommendation_basis": "不适用",
-  "sample_size_analysed": "48（犬，未核）",
-  "multicenter": "否（单一机构，企业研究所）",
-  "funding": "Nestlé Purina",
+  "sample_size_analysed": "48 只拉布拉多（24 对）",
+  "multicenter": "否（企业研究所）",
+  "funding": "未核（作者单位为 Nestlé Purina；摘要未述资助）",
   "errata": "",
   "internal_inconsistency": "",
-  "one_line_conclusion_zh": "限饲25%延长犬中位寿命并推迟慢性病",
-  "clinical_utility": "提示性",
+  "one_line_conclusion_zh": "限饲 25% 的犬中位寿命更长，慢性病症状出现推迟。",
+  "clinical_utility": "可指导决策",
   "verified": "partial",
   "japan_source": "否",
   "cebm_question": "治疗获益",
-  "cebm_level": "3",
+  "cebm_level": "3（非随机配对对照；摘要未述随机）",
   "cebm_basis": "配对对照喂养试验；摘要未写随机化，按非随机对照计",
   "rob_tool": "ROBINS-I",
-  "rob_judgement": "未评（仅摘要）",
-  "rob_rationale": "",
+  "rob_judgement": "信息不足",
+  "rob_rationale": "未检到相关信息/本次未读到可判断内容",
   "guideline_recommendation": "不适用",
   "reporting_checklist": "STROBE-Vet",
   "grade_certainty_topic": "",
   "status": "已收录",
   "provenance": [
-    "vibe-feline-v3"
-  ]
+    "vibe-feline-v3",
+    "deep-extract"
+  ],
+  "detail": "pmid-11991408.md",
+  "authors": "Kealy RD 等",
+  "appraisal_items": [
+    {
+      "item": "D1 混杂",
+      "judgment": "低",
+      "reason": "同窝配对设计（\"Dogs were paired\"）",
+      "evidence_quote": "Dogs were paired"
+    },
+    {
+      "item": "D2 研究对象选择",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D3 干预/暴露分类",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D4 偏离既定干预",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D5 缺失数据",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D6 结局测量",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D7 结果选择性报告",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    },
+    {
+      "item": "总体",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    }
+  ],
+  "study_card": {
+    "设计": "配对饲喂研究，终身",
+    "实际分析样本量": "48 只拉布拉多（24 对）",
+    "单/多中心": "否（企业研究所）",
+    "资助": "未核（作者单位为 Nestlé Purina；摘要未述资助）",
+    "物种": "犬"
+  },
+  "methods_review": "D1 混杂：低 ；D2 研究对象选择：信息不足 ；D3 干预/暴露分类：信息不足 ；D4 偏离既定干预：信息不足 ；D5 缺失数据：信息不足 ；D6 结局测量：信息不足 ；D7 结果选择性报告：信息不足 ；总体：信息不足",
+  "can_say": [
+    "限饲延长中位寿命"
+  ],
+  "cannot_say": [
+    "摘要未给寿命差值"
+  ],
+  "terms": [
+    {
+      "en": "diet restriction",
+      "zh": "限饲"
+    }
+  ],
+  "labels": [
+    "配对对照",
+    "企业单位"
+  ],
+  "phase_md": "Phase 0 分段：仅摘要各句。Phase 1 主题：配对饲喂研究，终身。Phase 2 论点—论据：限饲 25% 的犬中位寿命更长，慢性病症状出现推迟。。Phase 3 自检：结论受 ROBINS-I 所列偏倚限制；未读全文，多数条目标为信息不足。",
+  "reading_depth": "摘要",
+  "reading_source": "仅摘要",
+  "reporting_notes": "仅摘要，无法逐条核查（信息不足）",
+  "extract_id": "kealy_2002",
+  "design": "配对饲喂研究，终身"
 }

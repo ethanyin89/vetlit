@@ -9,29 +9,112 @@
   "doi": "10.1093/jhered/esy012",
   "pmid": "29538681",
   "source": "PubMed/Europe PMC",
-  "oa": "否",
+  "oa": false,
   "doc_type": "关联研究",
   "recommendation_basis": "不适用",
-  "sample_size_analysed": "未核",
-  "multicenter": "否（日本）",
-  "funding": "未核",
+  "sample_size_analysed": "340 只拉布拉多",
+  "multicenter": "否",
+  "funding": "日本学术振兴会新学术领域（MEDLINE grantsList）",
   "errata": "",
   "internal_inconsistency": "",
-  "one_line_conclusion_zh": "犬OXTR基因变异可能与训练成功率相关",
-  "clinical_utility": "背景",
+  "one_line_conclusion_zh": "OXTR 基因 C 等位基因携带犬训练成功率更高。",
+  "clinical_utility": "提示性",
   "verified": "partial",
   "japan_source": "是",
   "cebm_question": "—",
-  "cebm_level": "不适用（基础/行为学研究，无临床问题）",
+  "cebm_level": "不适用（基础关联研究）",
   "cebm_basis": "",
-  "rob_tool": "SYRCLE",
-  "rob_judgement": "未评（仅摘要）",
-  "rob_rationale": "",
+  "rob_tool": "ROBINS-I",
+  "rob_judgement": "信息不足",
+  "rob_rationale": "未检到相关信息/本次未读到可判断内容",
   "guideline_recommendation": "不适用",
-  "reporting_checklist": "ARRIVE 2.0",
+  "reporting_checklist": "STROBE-Vet",
   "grade_certainty_topic": "",
   "status": "已收录",
   "provenance": [
-    "vibe-feline-v3"
-  ]
+    "vibe-feline-v3",
+    "deep-extract"
+  ],
+  "detail": "pmid-29538681.md",
+  "authors": "Konno A 等",
+  "appraisal_items": [
+    {
+      "item": "D1 混杂",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D2 研究对象选择",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D3 干预/暴露分类",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D4 偏离既定干预",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D5 缺失数据",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D6 结局测量",
+      "judgment": "中",
+      "reason": "人格评分由训练员主观评定",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D7 结果选择性报告",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    },
+    {
+      "item": "总体",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    }
+  ],
+  "study_card": {
+    "设计": "候选基因关联，日本缉毒犬训练机构",
+    "实际分析样本量": "340 只拉布拉多",
+    "单/多中心": "否",
+    "资助": "日本学术振兴会新学术领域（MEDLINE grantsList）",
+    "物种": "犬"
+  },
+  "methods_review": "D1 混杂：信息不足 ；D2 研究对象选择：信息不足 ；D3 干预/暴露分类：信息不足 ；D4 偏离既定干预：信息不足 ；D5 缺失数据：信息不足 ；D6 结局测量：中 ；D7 结果选择性报告：信息不足 ；总体：信息不足",
+  "can_say": [
+    "OXTR 多态性与训练成功相关"
+  ],
+  "cannot_say": [
+    "不能用作选犬依据"
+  ],
+  "terms": [
+    {
+      "en": "OXTR",
+      "zh": "催产素受体基因"
+    }
+  ],
+  "labels": [
+    "关联研究",
+    "日本"
+  ],
+  "phase_md": "Phase 0 分段：仅摘要各句。Phase 1 主题：候选基因关联，日本缉毒犬训练机构。Phase 2 论点—论据：OXTR 基因 C 等位基因携带犬训练成功率更高。。Phase 3 自检：结论受 ROBINS-I 所列偏倚限制；未读全文，多数条目标为信息不足。",
+  "reading_depth": "摘要",
+  "reading_source": "仅摘要",
+  "reporting_notes": "仅摘要，无法逐条核查（信息不足）",
+  "extract_id": "konno_2018",
+  "design": "候选基因关联，日本缉毒犬训练机构"
 }

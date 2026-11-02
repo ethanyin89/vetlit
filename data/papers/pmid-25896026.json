@@ -9,29 +9,124 @@
   "doi": "10.1016/j.prevetmed.2015.03.018",
   "pmid": "25896026",
   "source": "PubMed/Europe PMC",
-  "oa": "否",
+  "oa": false,
   "doc_type": "回顾性队列（保险数据）",
   "recommendation_basis": "不适用",
-  "sample_size_analysed": "299555（犬）",
-  "multicenter": "否（日本单一国家）",
-  "funding": "未核",
+  "sample_size_analysed": "299,555 只犬（死亡 4169）",
+  "multicenter": "不适用",
+  "funding": "未核；作者含 Anicom 保险员工（单位信息）",
   "errata": "",
   "internal_inconsistency": "",
-  "one_line_conclusion_zh": "日本投保犬的生命表与主要死因（肿瘤居首，心血管次之）",
-  "clinical_utility": "背景",
+  "one_line_conclusion_zh": "日本参保犬期望寿命 13.7 年，体重越大寿命越短（≥40 kg 组 10.6 年）。",
+  "clinical_utility": "提示性",
   "verified": "partial",
   "japan_source": "是",
   "cebm_question": "患病率/预后",
-  "cebm_level": "3",
+  "cebm_level": "3（预后：保险人群回顾性队列）",
   "cebm_basis": "非随机样本（投保犬）",
-  "rob_tool": "未评（无干预的描述性/横断面研究，无对应工具）",
-  "rob_judgement": "不适用",
-  "rob_rationale": "",
+  "rob_tool": "ROBINS-I",
+  "rob_judgement": "信息不足",
+  "rob_rationale": "未检到相关信息/本次未读到可判断内容",
   "guideline_recommendation": "不适用",
   "reporting_checklist": "STROBE-Vet",
   "grade_certainty_topic": "",
   "status": "已收录",
   "provenance": [
-    "vibe-feline-v3"
-  ]
+    "vibe-feline-v3",
+    "deep-extract"
+  ],
+  "detail": "pmid-25896026.md",
+  "authors": "Inoue M 等",
+  "appraisal_items": [
+    {
+      "item": "D1 混杂",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D2 研究对象选择",
+      "judgment": "中",
+      "reason": "仅参保犬",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D3 干预/暴露分类",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D4 偏离既定干预",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D5 缺失数据",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D6 结局测量",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D7 结果选择性报告",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    },
+    {
+      "item": "总体",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    }
+  ],
+  "study_card": {
+    "设计": "日本 Anicom 保险数据，2010.4–2011.3",
+    "实际分析样本量": "299,555 只犬（死亡 4169）",
+    "单/多中心": "不适用",
+    "资助": "未核；作者含 Anicom 保险员工（单位信息）",
+    "物种": "犬"
+  },
+  "results_table": [
+    {
+      "metric": "期望寿命",
+      "value": "13.7 年",
+      "stat": "—"
+    },
+    {
+      "metric": "≥40 kg",
+      "value": "10.6 年",
+      "stat": "—"
+    }
+  ],
+  "methods_review": "D1 混杂：信息不足 ；D2 研究对象选择：中 ；D3 干预/暴露分类：信息不足 ；D4 偏离既定干预：信息不足 ；D5 缺失数据：信息不足 ；D6 结局测量：信息不足 ；D7 结果选择性报告：信息不足 ；总体：信息不足",
+  "can_say": [
+    "日本参保犬寿命估计"
+  ],
+  "cannot_say": [
+    "不代表未参保犬"
+  ],
+  "terms": [
+    {
+      "en": "life table",
+      "zh": "生命表"
+    }
+  ],
+  "labels": [
+    "保险数据",
+    "日本"
+  ],
+  "phase_md": "Phase 0 分段：仅摘要各句。Phase 1 主题：日本 Anicom 保险数据，2010.4–2011.3。Phase 2 论点—论据：日本参保犬期望寿命 13.7 年，体重越大寿命越短（≥40 kg 组 10.6 年）。。Phase 3 自检：结论受 ROBINS-I 所列偏倚限制；未读全文，多数条目标为信息不足。",
+  "reading_depth": "摘要",
+  "reading_source": "仅摘要",
+  "reporting_notes": "仅摘要，无法逐条核查（信息不足）",
+  "extract_id": "inoue_2015",
+  "design": "日本 Anicom 保险数据，2010.4–2011.3"
 }

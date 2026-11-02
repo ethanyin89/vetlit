@@ -78,7 +78,8 @@ def view(c):
     p['reporting']=c.get('reporting_checklist') or '待评'
     p['is_guideline']='指南' in (c.get('doc_type') or '') or '共识' in (c.get('doc_type') or '')
     p['oa_bool']=tri(c.get('oa'))
-    p['verified_label']='全文已核' if c.get('verified')=='yes' else '摘要级'
+    rd=c.get('reading_depth')
+    p['verified_label']={'全文':'全文已读','摘要':'仅摘要','仅标题':'仅题录（无摘要）'}.get(rd) or ('全文已核' if c.get('verified')=='yes' else '摘要级')
     return p
 def load():
     return [view(json.load(open(f,encoding='utf-8'))) for f in sorted(glob.glob(os.path.join(ROOT,'data','papers','*.json')))]
@@ -128,6 +129,12 @@ def mc_html(v):
     if not v: return ''
     s=E_(v)
     return s.replace('推断','<mark class="infer" title="由摘要推断，未经全文核实">推断</mark>')
+JCLS={'低':'j-low','是':'j-low','充分':'j-low','有一定担忧':'j-some','中':'j-some','部分':'j-some','部分是':'j-some','不足':'j-some','高':'j-high','严重':'j-high','否':'j-high'}
+def appraisal_html(p):
+    it=p.get('appraisal_items') or []
+    if not it: return ''
+    rows=''.join(f'<tr><td>{E_(i.get("item",""))}</td><td><span class="jd {JCLS.get(i.get("judgment",""),"j-neutral")}">{E_(i.get("judgment",""))}</span></td><td>{E_(i.get("reason",""))}{f"<blockquote lang=en>{E_(i[chr(101)+"vidence_quote"])}</blockquote>" if i.get("evidence_quote") and i.get("evidence_quote") not in i.get("reason","") else ""}</td></tr>' for i in it)
+    return f'''<section class="card"><h2>{E_(p.get('rob_tool',''))} 逐项判断（deep extract，原样呈现）</h2><p class="muted small">“信息不足”“不清楚”表示所读材料未报告，不等于高风险。单人评估，未双人独立复核。</p><div class="tw"><table class="appr"><thead><tr><th>条目/领域</th><th>判断</th><th>理由与原文</th></tr></thead><tbody>{rows}</tbody></table></div>{f'<p class="small">报告规范核查：{E_(p["reporting_notes"])}</p>' if p.get('reporting_notes') else ''}</section>'''
 def detail(p):
     tags=(['厂商资助'] if p.get('funding') and '未核' not in p['funding'] and '非厂商' not in p['funding'] and any(x in p['funding'] for x in ['Boehringer','Purina','Mars','Hill','Royal Canin','Zoetis','Elanco']) else [])
     guideline='指南' in (p.get('doc_type') or '') or '共识' in (p.get('doc_type') or '')
@@ -138,7 +145,7 @@ def detail(p):
            '<a href="cite.bib" download>BibTeX</a>','<a href="cite.ris" download>RIS</a>']
     head=f'''<p class="crumb"><a href="../../index.html">文献</a> / {E_(p.get('first_author',''))} {p['year']}</p>
 <h1 lang="en">{E_(p['title'])}</h1>{f'<p class="zh">{E_(p["title_zh"])}</p>' if p.get('title_zh') else ''}
-<p class="meta">{E_(authors_short(p))} · <em>{E_(p.get('journal',''))}</em> · {E_(p['date'])} · <span class="pill ev">CEBM 2011：{E_(p['cebm_display'])}</span> <span class="pill ev">偏倚风险：{E_(p['rob_overall'])}</span> <span class="pill">{E_(p.get('doc_type',''))}</span> <span class="pill {'ok' if p['verified_label']=='全文已核' else ''}">{p['verified_label']}</span> <span class="pill">{oa_txt(p)}</span> {''.join(f'<span class="pill tag">{E_(t)}</span>' for t in tags)} {'<span class="pill pend">待处理</span>' if p.get('status')=='待处理' else ''}</p>
+<p class="meta">{E_(authors_short(p))} · <em>{E_(p.get('journal',''))}</em> · {E_(p['date'])} · <span class="pill ev">CEBM 2011：{E_(p['cebm_display'])}</span> <span class="pill ev">偏倚风险：{E_(p['rob_overall'])}</span> <span class="pill">{E_(p.get('doc_type',''))}</span> <span class="pill {'ok' if p['verified_label'] in ('全文已核','全文已读') else ''}">阅读深度：{p['verified_label']}</span> <span class="pill">{oa_txt(p)}</span> {''.join(f'<span class="pill tag">{E_(t)}</span>' for t in tags)} {'<span class="pill pend">待处理</span>' if p.get('status')=='待处理' else ''}</p>
 <p class="links">{' · '.join(x for x in links if x)}</p>'''
     one=f'<p class="one"><strong>一句话结论：</strong>{E_(p["one_line_conclusion_zh"])}</p>' if p.get('one_line_conclusion_zh') else ''
     gr=p.get('guideline_recommendation')
@@ -161,18 +168,18 @@ def detail(p):
     er=p.get('errata_detail') or ([{'type':'勘误/更正','pmid':p['errata']}] if p.get('errata') else [])
     ic=p.get('internal_inconsistency_detail') or ([p['internal_inconsistency']] if p.get('internal_inconsistency') else [])
     contra='<section class="callout warn"><h2>论文内部矛盾</h2><ul>'+''.join(f'<li>{E_(x)}</li>' for x in ic)+'</ul></section>' if ic else ''
-    body=head+one+ev+f'<section class="card"><h2>{"指南信息" if guideline else "研究卡片"}（结构化数据）</h2><table class="kv">{rows}</table></section>'+gsec+errata_html(er)+contra
+    body=head+one+ev+appraisal_html(p)+f'<section class="card"><h2>{"指南信息" if guideline else "研究卡片"}（结构化数据）</h2><table class="kv">{rows}</table></section>'+gsec+errata_html(er)+contra
     if p.get('detail') and os.path.exists(os.path.join(ROOT,'content',p['detail'])):
-        note='<p class="callout">以下为 deep extract 速读页原文。原页中的自定义等级已移除；证据评价以上方“证据评价”栏为准。</p>'
+        note=f'<p class="callout">以下为 deep extract 速读页（阅读深度：{E_(p["verified_label"])}{"；来源 "+E_(p["reading_source"]) if p.get("reading_source") else ""}）。</p>'
         body+='<article class="prose">'+note+md(strip_legacy_grades(open(os.path.join(ROOT,'content',p['detail']),encoding='utf-8').read()))+'</article>'
     else:
         body+='<p class="callout">深度速读页尚未完成（仅书目与分级数据）。请以原文为准。</p>'
     return page(f"{p.get('first_author','')} {p['year']}",body,2,desc=p['title'])
 def index(ps):
-    data=[{k:p.get(k) for k in ('id','title','title_zh','first_author','year','date','journal','species','specialty','cebm_display','rob_overall','rob_tool','oa_bool','doc_type','sample_size_analysed','status','clinical_utility','verified_label','one_line_conclusion_zh','pmid')}|{'has_detail':bool(p.get('detail'))} for p in ps]
+    data=[{k:p.get(k) for k in ('id','title','title_zh','first_author','year','date','journal','species','specialty','cebm_display','rob_overall','rob_tool','oa_bool','doc_type','sample_size_analysed','status','clinical_utility','verified_label','one_line_conclusion_zh','pmid','reading_depth')}|{'has_detail':bool(p.get('detail'))} for p in ps]
     specs=sorted({s for p in ps for s in p['specialty']}); dts=sorted({p.get('doc_type') or '' for p in ps}-{''}); cebms=sorted({p['cebm_display'] for p in ps})
     opt=lambda xs:''.join(f'<option value="{E_(x)}">{E_(x)}</option>' for x in xs)
-    body=f'''<h1>犬猫兽医文献 · 专业速读</h1><p class="lede">{len(ps)} 篇 · 每篇注明证据水平（Oxford CEBM 2011）、偏倚风险工具与报告规范；已精读者附方法学审读。<strong>不构成临床建议。</strong></p>
+    body=f'''<h1>犬猫兽医文献 · 专业速读</h1><p class="lede">{len(ps)} 篇 · 每篇注明证据水平（Oxford CEBM 2011）、偏倚风险工具与报告规范；已精读者附方法学审读。阅读深度：{' / '.join(f"{k} {sum(1 for p in ps if p.get('reading_depth')==k)}" for k in ('全文','摘要','仅标题'))}{f" / 未速读 {sum(1 for p in ps if not p.get('reading_depth'))}" if any(not p.get('reading_depth') for p in ps) else ''}。<strong>不构成临床建议。</strong></p>
 <div class="tabs" role="tablist"><button role="tab" aria-selected="true" data-sort="new">最新</button><button role="tab" aria-selected="false" data-sort="imp">重要</button></div>
 <form class="filters" onsubmit="return false"><label>搜索<input id="q" type="search" placeholder="标题、作者、期刊、PMID"></label>
 <label>物种<select id="sp"><option value="">全部</option>{opt(['猫','犬'])}</select></label><label>专科<select id="spec"><option value="">全部</option>{opt(specs)}</select></label>

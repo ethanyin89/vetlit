@@ -9,29 +9,130 @@
   "doi": "10.3390/ani15020210",
   "pmid": "39858209",
   "source": "PubMed/Europe PMC",
-  "oa": "是",
-  "doc_type": "系统综述/Meta分析",
+  "oa": true,
+  "doc_type": "系统综述 + Meta 分析",
   "recommendation_basis": "不适用",
-  "sample_size_analysed": "20项研究",
+  "sample_size_analysed": "筛选 1727 条记录 → 纳入 20 项研究",
   "multicenter": "不适用",
-  "funding": "未核",
+  "funding": "原文：\"This research received no external funding\"；无利益冲突",
   "errata": "",
   "internal_inconsistency": "",
-  "one_line_conclusion_zh": "低能量密度、高蛋白、高纤维、低脂饮食与肥胖犬减重和体成分改善相关",
+  "one_line_conclusion_zh": "犬减重饮食中，粗蛋白 >25% 组总/周减重与体脂下降更多，但存在显著异质性（p<0.0001）。",
   "clinical_utility": "提示性",
   "verified": "partial",
   "japan_source": "否",
   "cebm_question": "治疗获益",
-  "cebm_level": "1",
+  "cebm_level": "1（SR，但纳入研究多为小型试验；级别按设计给出）",
   "cebm_basis": "随机试验的系统综述/Meta分析（纳入设计未逐篇核）",
   "rob_tool": "AMSTAR 2",
-  "rob_judgement": "未评（仅摘要）",
+  "rob_judgement": "见逐项判断（该工具不设总体判断）",
   "rob_rationale": "",
   "guideline_recommendation": "不适用",
   "reporting_checklist": "PRISMA 2020",
   "grade_certainty_topic": "",
   "status": "已收录",
   "provenance": [
-    "vibe-feline-v3"
-  ]
+    "vibe-feline-v3",
+    "deep-extract"
+  ],
+  "detail": "pmid-39858209.md",
+  "authors": "Vanelli K 等",
+  "pmcid": "PMC11759159",
+  "appraisal_items": [
+    {
+      "item": "2 预先注册方案(关键)",
+      "judgment": "否",
+      "reason": "\"this meta-analysis protocol was not pre-registered\"",
+      "evidence_quote": "this meta-analysis protocol was not pre-registered"
+    },
+    {
+      "item": "4 全面检索(关键)",
+      "judgment": "部分是",
+      "reason": "4 个数据库；时间窗 2022–2024（据此前摘录，未再核）",
+      "evidence_quote": ""
+    },
+    {
+      "item": "7 排除研究清单及理由(关键)",
+      "judgment": "信息不足",
+      "reason": "未核",
+      "evidence_quote": ""
+    },
+    {
+      "item": "9 纳入研究偏倚评估(关键)",
+      "judgment": "部分是",
+      "reason": "自定\"quality assessment ... assigning scores\"，非标准 RoB 工具",
+      "evidence_quote": "quality assessment ... assigning scores"
+    },
+    {
+      "item": "11 合并方法恰当(关键)",
+      "judgment": "部分是",
+      "reason": "报告 I² 与 Z 检验；高异质性下仍合并",
+      "evidence_quote": ""
+    },
+    {
+      "item": "13 解读时考虑偏倚(关键)",
+      "judgment": "信息不足",
+      "reason": "未核",
+      "evidence_quote": ""
+    },
+    {
+      "item": "15 发表偏倚(关键)",
+      "judgment": "信息不足",
+      "reason": "未检到漏斗图/Egger",
+      "evidence_quote": ""
+    },
+    {
+      "item": "16 利益冲突声明",
+      "judgment": "是",
+      "reason": "\"The authors declare no conflicts of interest\"",
+      "evidence_quote": "The authors declare no conflicts of interest"
+    }
+  ],
+  "study_card": {
+    "设计": "系统综述/Meta 分析；检索 PubMed、Scielo、WoS、Google Scholar（2022–2024）",
+    "实际分析样本量": "筛选 1727 条记录 → 纳入 20 项研究",
+    "单/多中心": "不适用",
+    "资助": "原文：\"This research received no external funding\"；无利益冲突",
+    "物种": "犬"
+  },
+  "results_table": [
+    {
+      "metric": "纳入研究",
+      "value": "20 项（1727 条筛选）",
+      "stat": "—"
+    },
+    {
+      "metric": "粗蛋白 >25% 组",
+      "value": "减重与体脂下降更多",
+      "stat": "异质性 p<0.0001"
+    }
+  ],
+  "methods_review": "2 预先注册方案(关键)：否 ；4 全面检索(关键)：部分是 ；7 排除研究清单及理由(关键)：信息不足 ；9 纳入研究偏倚评估(关键)：部分是 ；11 合并方法恰当(关键)：部分是 ；13 解读时考虑偏倚(关键)：信息不足 ；15 发表偏倚(关键)：信息不足 ；16 利益冲突声明：是",
+  "can_say": [
+    "高蛋白减重饮食的方向性证据"
+  ],
+  "cannot_say": [
+    "不能给出可靠的合并效应量（高异质性、未注册）"
+  ],
+  "terms": [
+    {
+      "en": "meta-analysis",
+      "zh": "荟萃分析"
+    },
+    {
+      "en": "heterogeneity (I²)",
+      "zh": "异质性"
+    }
+  ],
+  "labels": [
+    "SR/MA",
+    "未注册",
+    "高异质性"
+  ],
+  "phase_md": "Phase 0 分段：全文 Methods/Results/Discussion 速读。Phase 1 主题：系统综述/Meta 分析；检索 PubMed、Scielo、WoS、Google Scholar（2022–2024）。Phase 2 论点—论据：犬减重饮食中，粗蛋白 >25% 组总/周减重与体脂下降更多，但存在显著异质性（p<0.0001）。。Phase 3 自检：结论受 AMSTAR 2 所列偏倚限制；单人速读，未双人复核。",
+  "reading_depth": "全文",
+  "reading_source": "全文（Europe PMC/PMC）",
+  "reporting_notes": "PRISMA：称按 PRISMA 进行；未注册。",
+  "extract_id": "vanelli_2025",
+  "design": "系统综述/Meta 分析；检索 PubMed、Scielo、WoS、Google Scholar（2022–2024）"
 }

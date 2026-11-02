@@ -9,29 +9,120 @@
   "doi": "10.1016/j.jvc.2018.11.002",
   "pmid": "30797439",
   "source": "PubMed/Europe PMC",
-  "oa": "否",
+  "oa": false,
   "doc_type": "回顾性队列",
   "recommendation_basis": "不适用",
-  "sample_size_analysed": "未核",
-  "multicenter": "否（单一机构NCSU）",
-  "funding": "未核",
+  "sample_size_analysed": "48 只 DCM 犬",
+  "multicenter": "否（单一机构）",
+  "funding": "Nestlé Purina PetCare（MEDLINE grantsList）",
   "errata": "",
   "internal_inconsistency": "",
-  "one_line_conclusion_zh": "部分无谷粮相关DCM，换粮后可改善",
+  "one_line_conclusion_zh": "吃无谷粮（尤其最常见品牌 GF-1）的 DCM 犬左室更大；7 只换粮后改善（6 只补牛磺酸）。",
   "clinical_utility": "提示性",
   "verified": "partial",
   "japan_source": "否",
   "cebm_question": "病因/诊断",
-  "cebm_level": "4",
+  "cebm_level": "4（病例系列/回顾）",
   "cebm_basis": "病例对照式回顾性比较",
-  "rob_tool": "未评（无干预的描述性/横断面研究，无对应工具）",
-  "rob_judgement": "不适用",
-  "rob_rationale": "",
+  "rob_tool": "ROBINS-I",
+  "rob_judgement": "信息不足",
+  "rob_rationale": "未检到相关信息/本次未读到可判断内容",
   "guideline_recommendation": "不适用",
   "reporting_checklist": "STROBE-Vet",
   "grade_certainty_topic": "",
   "status": "已收录",
   "provenance": [
-    "vibe-feline-v3"
-  ]
+    "vibe-feline-v3",
+    "deep-extract"
+  ],
+  "detail": "pmid-30797439.md",
+  "authors": "Adin D 等",
+  "appraisal_items": [
+    {
+      "item": "D1 混杂",
+      "judgment": "严重",
+      "reason": "回顾性，未校正品种/体重",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D2 研究对象选择",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D3 干预/暴露分类",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D4 偏离既定干预",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D5 缺失数据",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D6 结局测量",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D7 结果选择性报告",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    },
+    {
+      "item": "总体",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    }
+  ],
+  "study_card": {
+    "设计": "回顾性，NCSU，2015.1–2018.5",
+    "实际分析样本量": "48 只 DCM 犬",
+    "单/多中心": "否（单一机构）",
+    "资助": "Nestlé Purina PetCare（MEDLINE grantsList）",
+    "物种": "犬"
+  },
+  "results_table": [
+    {
+      "metric": "换粮后复查改善",
+      "value": "7 只（6 只补牛磺酸）",
+      "stat": "—"
+    }
+  ],
+  "methods_review": "D1 混杂：严重 ；D2 研究对象选择：信息不足 ；D3 干预/暴露分类：信息不足 ；D4 偏离既定干预：信息不足 ；D5 缺失数据：信息不足 ；D6 结局测量：信息不足 ；D7 结果选择性报告：信息不足 ；总体：信息不足",
+  "can_say": [
+    "无谷粮相关 DCM 表型不同"
+  ],
+  "cannot_say": [
+    "不能证明因果"
+  ],
+  "terms": [
+    {
+      "en": "sphericity index",
+      "zh": "球形指数"
+    }
+  ],
+  "labels": [
+    "回顾性",
+    "单一机构",
+    "企业资助"
+  ],
+  "phase_md": "Phase 0 分段：仅摘要各句。Phase 1 主题：回顾性，NCSU，2015.1–2018.5。Phase 2 论点—论据：吃无谷粮（尤其最常见品牌 GF-1）的 DCM 犬左室更大；7 只换粮后改善（6 只补牛磺酸）。。Phase 3 自检：结论受 ROBINS-I 所列偏倚限制；未读全文，多数条目标为信息不足。",
+  "reading_depth": "摘要",
+  "reading_source": "仅摘要",
+  "reporting_notes": "仅摘要，无法逐条核查（信息不足）",
+  "extract_id": "adin_2019",
+  "design": "回顾性，NCSU，2015.1–2018.5"
 }

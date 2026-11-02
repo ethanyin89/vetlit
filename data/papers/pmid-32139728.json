@@ -9,29 +9,127 @@
   "doi": "10.1038/s41598-020-59837-z",
   "pmid": "32139728",
   "source": "PubMed/Europe PMC",
-  "oa": "是",
-  "doc_type": "横断面问卷",
+  "oa": true,
+  "doc_type": "横断面问卷调查",
   "recommendation_basis": "不适用",
-  "sample_size_analysed": "13700+（犬，未核）",
-  "multicenter": "否（芬兰）",
-  "funding": "未核",
+  "sample_size_analysed": "收到 13,715 只犬（264 品种）问卷；分析约 13,700 只",
+  "multicenter": "不适用（全国在线调查）",
+  "funding": "Academy of Finland（308887）、ERC StG（260997）、ERA-NET NEURON、Jane and Aatos Erkko Foundation；无竞争利益",
   "errata": "",
   "internal_inconsistency": "",
-  "one_line_conclusion_zh": "犬焦虑特征品种差异大，提示遗传贡献",
+  "one_line_conclusion_zh": "芬兰犬问题行为常见：72.5% 至少有一种高度问题行为，噪声敏感最常见（32%）。",
   "clinical_utility": "提示性",
   "verified": "partial",
   "japan_source": "否",
   "cebm_question": "患病率",
-  "cebm_level": "3",
+  "cebm_level": "3（患病率：非随机样本）",
   "cebm_basis": "非随机样本（问卷）",
-  "rob_tool": "未评（无干预的描述性/横断面研究，无对应工具）",
-  "rob_judgement": "不适用",
-  "rob_rationale": "",
+  "rob_tool": "ROBINS-I",
+  "rob_judgement": "严重",
+  "rob_rationale": "自选样本使患病率估计偏倚",
   "guideline_recommendation": "不适用",
   "reporting_checklist": "STROBE-Vet",
   "grade_certainty_topic": "",
   "status": "已收录",
   "provenance": [
-    "vibe-feline-v3"
-  ]
+    "vibe-feline-v3",
+    "deep-extract"
+  ],
+  "detail": "pmid-32139728.md",
+  "authors": "Salonen M 等",
+  "pmcid": "PMC7058607",
+  "appraisal_items": [
+    {
+      "item": "D1 混杂",
+      "judgment": "中",
+      "reason": "品种/年龄等以多变量模型处理（未逐项核）",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D2 研究对象选择",
+      "judgment": "严重",
+      "reason": "自选样本，经 Facebook/犬种组织招募",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D3 干预/暴露分类",
+      "judgment": "低",
+      "reason": "—",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D4 偏离既定干预",
+      "judgment": "不适用",
+      "reason": "—",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D5 缺失数据",
+      "judgment": "信息不足",
+      "reason": "—",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D6 结局测量",
+      "judgment": "中",
+      "reason": "主人自报",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D7 结果选择性报告",
+      "judgment": "信息不足",
+      "reason": "—",
+      "evidence_quote": ""
+    },
+    {
+      "item": "总体",
+      "judgment": "严重",
+      "reason": "自选样本使患病率估计偏倚",
+      "evidence_quote": ""
+    }
+  ],
+  "study_card": {
+    "设计": "芬兰主人在线问卷；主要通过 Facebook 与犬种组织网站招募",
+    "实际分析样本量": "收到 13,715 只犬（264 品种）问卷；分析约 13,700 只",
+    "单/多中心": "不适用（全国在线调查）",
+    "资助": "Academy of Finland（308887）、ERC StG（260997）、ERA-NET NEURON、Jane and Aatos Erkko Foundation；无竞争利益",
+    "物种": "犬"
+  },
+  "results_table": [
+    {
+      "metric": "噪声敏感患病率",
+      "value": "32%",
+      "stat": "—"
+    },
+    {
+      "metric": "至少一种高度问题行为",
+      "value": "72.5%",
+      "stat": "—"
+    }
+  ],
+  "methods_review": "D1 混杂：中 ；D2 研究对象选择：严重 ；D3 干预/暴露分类：低 ；D4 偏离既定干预：不适用 ；D5 缺失数据：信息不足 ；D6 结局测量：中 ；D7 结果选择性报告：信息不足 ；总体：严重",
+  "can_say": [
+    "芬兰该样本中问题行为普遍"
+  ],
+  "cannot_say": [
+    "不能当作芬兰犬群总体患病率"
+  ],
+  "terms": [
+    {
+      "en": "noise sensitivity",
+      "zh": "噪声敏感"
+    }
+  ],
+  "labels": [
+    "问卷",
+    "芬兰",
+    "大样本",
+    "自选样本"
+  ],
+  "phase_md": "Phase 0 分段：全文 Methods/Results/Discussion 速读。Phase 1 主题：芬兰主人在线问卷；主要通过 Facebook 与犬种组织网站招募。Phase 2 论点—论据：芬兰犬问题行为常见：72.5% 至少有一种高度问题行为，噪声敏感最常见（32%）。。Phase 3 自检：结论受 ROBINS-I 所列偏倚限制；单人速读，未双人复核。",
+  "reading_depth": "全文",
+  "reading_source": "全文（Europe PMC/PMC）",
+  "reporting_notes": "STROBE-Vet：招募渠道、资助、COI 已报告。",
+  "extract_id": "salonen_2020",
+  "design": "芬兰主人在线问卷；主要通过 Facebook 与犬种组织网站招募"
 }

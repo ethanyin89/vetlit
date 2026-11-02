@@ -9,29 +9,141 @@
   "doi": "10.1038/srep35251",
   "pmid": "27731392",
   "source": "PubMed/Europe PMC",
-  "oa": "是",
-  "doc_type": "实验（含动物模型）",
+  "oa": true,
+  "doc_type": "动物实验（小鼠 + 猫）",
   "recommendation_basis": "不适用",
-  "sample_size_analysed": "未核",
-  "multicenter": "未核",
-  "funding": "未核",
+  "sample_size_analysed": "血清 AIM 测定 >30 只猫；另有猫/小鼠缺血再灌注实验（各组 n 见原文图注，未逐一核）",
+  "multicenter": "不适用（实验室研究）",
+  "funding": "AMED-CREST、AMED、ONSENDO Co., Ltd.",
   "errata": "",
   "internal_inconsistency": "",
-  "one_line_conclusion_zh": "猫AIM功能缺陷可能与猫肾病高死亡率有关，提示新治疗靶点",
-  "clinical_utility": "背景",
+  "one_line_conclusion_zh": "猫 AIM 与 IgM 结合亲和力约为小鼠的 1000 倍，导致 AIM 难以从 IgM 解离、无法清除肾小管碎屑，可能是猫易患肾病的机制之一（机制假说）。",
+  "clinical_utility": "提示性",
   "verified": "partial",
   "japan_source": "是",
   "cebm_question": "治疗获益（机制）",
-  "cebm_level": "5",
+  "cebm_level": "5（机制研究；CEBM 2011 不直接分级动物/机制研究）",
   "cebm_basis": "基于机制的推理",
-  "rob_tool": "SYRCLE",
-  "rob_judgement": "未评（仅摘要）",
+  "rob_tool": "SYRCLE RoB",
+  "rob_judgement": "见逐项判断（该工具不设总体判断）",
   "rob_rationale": "",
   "guideline_recommendation": "不适用",
-  "reporting_checklist": "ARRIVE 2.0",
+  "reporting_checklist": "ARRIVE 2.0（Essential 10）",
   "grade_certainty_topic": "",
   "status": "已收录",
   "provenance": [
-    "vibe-feline-v3"
-  ]
+    "vibe-feline-v3",
+    "deep-extract"
+  ],
+  "detail": "pmid-27731392.md",
+  "authors": "Sugisawa R 等",
+  "pmcid": "PMC5059666",
+  "appraisal_items": [
+    {
+      "item": "1 序列生成",
+      "judgment": "不清楚",
+      "reason": "未检到随机分组描述",
+      "evidence_quote": ""
+    },
+    {
+      "item": "2 基线可比",
+      "judgment": "不清楚",
+      "reason": "—",
+      "evidence_quote": ""
+    },
+    {
+      "item": "3 分配隐藏",
+      "judgment": "不清楚",
+      "reason": "—",
+      "evidence_quote": ""
+    },
+    {
+      "item": "4 随机安置",
+      "judgment": "不清楚",
+      "reason": "—",
+      "evidence_quote": ""
+    },
+    {
+      "item": "5 实施者盲法",
+      "judgment": "不清楚",
+      "reason": "—",
+      "evidence_quote": ""
+    },
+    {
+      "item": "6 随机结局评估",
+      "judgment": "不清楚",
+      "reason": "—",
+      "evidence_quote": ""
+    },
+    {
+      "item": "7 评估者盲法",
+      "judgment": "不清楚",
+      "reason": "未检到盲法描述",
+      "evidence_quote": ""
+    },
+    {
+      "item": "8 不完整结局数据",
+      "judgment": "不清楚",
+      "reason": "—",
+      "evidence_quote": ""
+    },
+    {
+      "item": "9 选择性报告",
+      "judgment": "不清楚",
+      "reason": "无预注册",
+      "evidence_quote": ""
+    },
+    {
+      "item": "10 其他偏倚",
+      "judgment": "高",
+      "reason": "资助方含企业 ONSENDO Co., Ltd.",
+      "evidence_quote": ""
+    }
+  ],
+  "study_card": {
+    "设计": "实验研究（小鼠与猫），日本（日本兽医生命科学大学、北里大学等）",
+    "实际分析样本量": "血清 AIM 测定 >30 只猫；另有猫/小鼠缺血再灌注实验（各组 n 见原文图注，未逐一核）",
+    "单/多中心": "不适用（实验室研究）",
+    "资助": "AMED-CREST、AMED、ONSENDO Co., Ltd.",
+    "物种": "猫"
+  },
+  "results_table": [
+    {
+      "metric": "猫 AIM–IgM 亲和力",
+      "value": "约为小鼠 1000 倍",
+      "stat": "—"
+    },
+    {
+      "metric": "猫血清 AIM 均值",
+      "value": "21.2 μg/mL",
+      "stat": "—"
+    }
+  ],
+  "methods_review": "1 序列生成：不清楚 ；2 基线可比：不清楚 ；3 分配隐藏：不清楚 ；4 随机安置：不清楚 ；5 实施者盲法：不清楚 ；6 随机结局评估：不清楚 ；7 评估者盲法：不清楚 ；8 不完整结局数据：不清楚 ；9 选择性报告：不清楚 ；10 其他偏倚：高",
+  "can_say": [
+    "提出了猫 AIM 与 IgM 高亲和力这一可检验的机制"
+  ],
+  "cannot_say": [
+    "不能说 AIM 治疗已证实对猫 CKD 有效"
+  ],
+  "terms": [
+    {
+      "en": "AIM (apoptosis inhibitor of macrophage)",
+      "zh": "巨噬细胞凋亡抑制因子"
+    },
+    {
+      "en": "IgM",
+      "zh": "免疫球蛋白 M"
+    }
+  ],
+  "labels": [
+    "机制研究",
+    "日本"
+  ],
+  "phase_md": "Phase 0 分段：全文 Methods/Results/Discussion 速读。Phase 1 主题：实验研究（小鼠与猫），日本（日本兽医生命科学大学、北里大学等）。Phase 2 论点—论据：猫 AIM 与 IgM 结合亲和力约为小鼠的 1000 倍，导致 AIM 难以从 IgM 解离、无法清除肾小管碎屑，可能是猫易患肾病的机制之一（机制假说）。。Phase 3 自检：结论受 SYRCLE RoB 所列偏倚限制；单人速读，未双人复核。",
+  "reading_depth": "全文",
+  "reading_source": "全文（Europe PMC/PMC）",
+  "reporting_notes": "ARRIVE 2.0 Essential 10：样本量论证、随机化、盲法未见报告（速读级，未逐条核）。",
+  "extract_id": "sugisawa_2016",
+  "design": "实验研究（小鼠与猫），日本（日本兽医生命科学大学、北里大学等）"
 }

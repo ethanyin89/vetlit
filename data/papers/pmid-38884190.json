@@ -9,29 +9,130 @@
   "doi": "10.1111/jvim.17124",
   "pmid": "38884190",
   "source": "PubMed/Europe PMC",
-  "oa": "是",
-  "doc_type": "临床试验",
+  "oa": true,
+  "doc_type": "RCT（阳性对照、开放标签、非劣效现场试验）",
   "recommendation_basis": "不适用",
-  "sample_size_analysed": "未核",
-  "multicenter": "未核",
-  "funding": "未核（疑为药企资助）",
+  "sample_size_analysed": "安全性 127 只、疗效 116 只；维格列净组 5 只因缺随访被排除（其中 3 只 DKA）",
+  "multicenter": "是（3 国现场试验；具体中心数未核）",
+  "funding": "Boehringer Ingelheim Animal Health（原文：\"Boehringer Ingelheim Animal Health initiated and funded this study\"）",
   "errata": "",
   "internal_inconsistency": "",
-  "one_line_conclusion_zh": "每日一次口服SGLT2抑制剂用于糖尿病猫的疗效与安全性（细节未核）",
-  "clinical_utility": "提示性",
+  "one_line_conclusion_zh": "新诊断糖尿病猫中，口服维格列净单药 Day 45 治疗成功率 54%（29/54）对 Caninsulin 42%（26/62），满足 15% 非劣效界值；但 DKA 4/61 vs 0/66。",
+  "clinical_utility": "可指导决策（需严格筛选病例并监测酮症）",
   "verified": "partial",
   "japan_source": "否",
   "cebm_question": "治疗获益",
-  "cebm_level": "2",
+  "cebm_level": "2（单个随机试验；治疗获益）",
   "cebm_basis": "随机阳性对照非劣效试验",
-  "rob_tool": "Cochrane RoB 2",
-  "rob_judgement": "未评（仅摘要）",
-  "rob_rationale": "",
+  "rob_tool": "RoB 2",
+  "rob_judgement": "有一定担忧",
+  "rob_rationale": "开放标签 + 排除 DKA 猫 + LOCF 均可能偏向维格列净",
   "guideline_recommendation": "不适用",
-  "reporting_checklist": "CONSORT 2010",
+  "reporting_checklist": "CONSORT 2010（犬猫临床试验）",
   "grade_certainty_topic": "",
   "status": "已收录",
   "provenance": [
-    "vibe-feline-v3"
-  ]
+    "vibe-feline-v3",
+    "deep-extract"
+  ],
+  "detail": "pmid-38884190.md",
+  "authors": "Niessen SJM 等",
+  "pmcid": "PMC11256146",
+  "appraisal_items": [
+    {
+      "item": "D1 随机化过程",
+      "judgment": "低",
+      "reason": "\"randomized, positive-controlled\"",
+      "evidence_quote": "randomized, positive-controlled"
+    },
+    {
+      "item": "D2 偏离既定干预",
+      "judgment": "有一定担忧",
+      "reason": "开放标签；一只 DKA 猫\"inappropriately included\"",
+      "evidence_quote": "inappropriately included"
+    },
+    {
+      "item": "D3 结局数据缺失",
+      "judgment": "有一定担忧",
+      "reason": "维格列净组 5 只缺随访被排除（3 只 DKA）；采用 LOCF 填补",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D4 结局测量",
+      "judgment": "有一定担忧",
+      "reason": "开放标签，\"治疗成功\"含临床评估成分",
+      "evidence_quote": "治疗成功"
+    },
+    {
+      "item": "D5 结果选择性报告",
+      "judgment": "低",
+      "reason": "预设非劣效终点与界值",
+      "evidence_quote": ""
+    },
+    {
+      "item": "总体",
+      "judgment": "有一定担忧",
+      "reason": "开放标签 + 排除 DKA 猫 + LOCF 均可能偏向维格列净",
+      "evidence_quote": ""
+    }
+  ],
+  "study_card": {
+    "设计": "前瞻、随机、阳性对照（Caninsulin）、开放标签、非劣效现场试验，3 国（德、法、荷）；中心数原文未检到",
+    "实际分析样本量": "安全性 127 只、疗效 116 只；维格列净组 5 只因缺随访被排除（其中 3 只 DKA）",
+    "单/多中心": "是（3 国现场试验；具体中心数未核）",
+    "资助": "Boehringer Ingelheim Animal Health（原文：\"Boehringer Ingelheim Animal Health initiated and funded this study\"）",
+    "物种": "猫"
+  },
+  "results_table": [
+    {
+      "metric": "Day 45 治疗成功",
+      "value": "29/54（54%）vs 26/62（42%）",
+      "stat": "非劣效界值 15%"
+    },
+    {
+      "metric": "DKA",
+      "value": "4/61 vs 0/66",
+      "stat": "—"
+    }
+  ],
+  "methods_review": "D1 随机化过程：低 ；D2 偏离既定干预：有一定担忧 ；D3 结局数据缺失：有一定担忧 ；D4 结局测量：有一定担忧 ；D5 结果选择性报告：低 ；总体：有一定担忧",
+  "can_say": [
+    "维格列净 Day 45 疗效非劣于 Caninsulin（预设界值内）"
+  ],
+  "cannot_say": [
+    "不能说优于胰岛素",
+    "不能忽视 DKA 风险（4/61 vs 0/66）",
+    "排除缺随访猫可能高估疗效"
+  ],
+  "terms": [
+    {
+      "en": "velagliflozin",
+      "zh": "维格列净"
+    },
+    {
+      "en": "diabetic ketoacidosis (DKA)",
+      "zh": "糖尿病酮症酸中毒"
+    },
+    {
+      "en": "non-inferiority",
+      "zh": "非劣效"
+    },
+    {
+      "en": "LOCF",
+      "zh": "末次观测值结转"
+    }
+  ],
+  "labels": [
+    "RCT",
+    "阳性对照",
+    "开放标签",
+    "非劣效",
+    "厂商资助"
+  ],
+  "phase_md": "Phase 0 分段：全文 Methods/Results/Discussion 速读。Phase 1 主题：前瞻、随机、阳性对照（Caninsulin）、开放标签、非劣效现场试验，3 国（德、法、荷）；中心数原文未检到。Phase 2 论点—论据：新诊断糖尿病猫中，口服维格列净单药 Day 45 治疗成功率 54%（29/54）对 Caninsulin 42%（26/62），满足 15% 非劣效界值；但 DKA 4/61 vs 0/66。。Phase 3 自检：结论受 RoB 2 所列偏倚限制；单人速读，未双人复核。",
+  "reading_depth": "全文",
+  "reading_source": "全文（Europe PMC/PMC）",
+  "reporting_notes": "CONSORT 非劣效扩展：界值已报告；分析集（安全 127/疗效 116）已报告。注册号未检到。",
+  "extract_id": "niessen_2024",
+  "design": "前瞻、随机、阳性对照（Caninsulin）、开放标签、非劣效现场试验，3 国（德、法、荷）；中心数原文未检到"
 }

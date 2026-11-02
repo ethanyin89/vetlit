@@ -9,29 +9,112 @@
   "doi": "10.1177/1098612x17691896",
   "pmid": "28152671",
   "source": "PubMed/Europe PMC",
-  "oa": "否",
-  "doc_type": "横断面/小样本探索",
+  "oa": false,
+  "doc_type": "横断面诊断探索",
   "recommendation_basis": "不适用",
-  "sample_size_analysed": "14（猫，HCM组）",
+  "sample_size_analysed": "HCM 32 只 + 健康对照 14 只",
   "multicenter": "未核",
-  "funding": "未核",
+  "funding": "作者声明无利益冲突（资助未核）",
   "errata": "",
   "internal_inconsistency": "",
-  "one_line_conclusion_zh": "斑点追踪超声可能有助区分HCM猫与健康猫",
-  "clinical_utility": "背景",
+  "one_line_conclusion_zh": "斑点追踪超声显示 HCM 猫纵向与径向应变降低，重症者环向应变亦降低。",
+  "clinical_utility": "提示性",
   "verified": "partial",
   "japan_source": "是",
   "cebm_question": "诊断",
-  "cebm_level": "4",
+  "cebm_level": "4（诊断：病例—对照）",
   "cebm_basis": "病例对照式小样本诊断研究",
-  "rob_tool": "未评（无干预的描述性/横断面研究，无对应工具）",
-  "rob_judgement": "不适用",
-  "rob_rationale": "",
+  "rob_tool": "ROBINS-I",
+  "rob_judgement": "信息不足",
+  "rob_rationale": "未检到相关信息/本次未读到可判断内容",
   "guideline_recommendation": "不适用",
   "reporting_checklist": "STROBE-Vet",
   "grade_certainty_topic": "",
   "status": "已收录",
   "provenance": [
-    "vibe-feline-v3"
-  ]
+    "vibe-feline-v3",
+    "deep-extract"
+  ],
+  "detail": "pmid-28152671.md",
+  "authors": "Suzuki R 等",
+  "appraisal_items": [
+    {
+      "item": "D1 混杂",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D2 研究对象选择",
+      "judgment": "严重",
+      "reason": "病例—对照式（32 HCM vs 14 健康）",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D3 干预/暴露分类",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D4 偏离既定干预",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D5 缺失数据",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D6 结局测量",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D7 结果选择性报告",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    },
+    {
+      "item": "总体",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    }
+  ],
+  "study_card": {
+    "设计": "病例—对照横断面（HCM vs 健康），日本",
+    "实际分析样本量": "HCM 32 只 + 健康对照 14 只",
+    "单/多中心": "未核",
+    "资助": "作者声明无利益冲突（资助未核）",
+    "物种": "猫"
+  },
+  "methods_review": "D1 混杂：信息不足 ；D2 研究对象选择：严重 ；D3 干预/暴露分类：信息不足 ；D4 偏离既定干预：信息不足 ；D5 缺失数据：信息不足 ；D6 结局测量：信息不足 ；D7 结果选择性报告：信息不足 ；总体：信息不足",
+  "can_say": [
+    "应变指标可区分 HCM 与健康猫"
+  ],
+  "cannot_say": [
+    "不能当作已验证的诊断阈值"
+  ],
+  "terms": [
+    {
+      "en": "speckle-tracking",
+      "zh": "斑点追踪"
+    }
+  ],
+  "labels": [
+    "小样本",
+    "日本"
+  ],
+  "phase_md": "Phase 0 分段：仅摘要各句。Phase 1 主题：病例—对照横断面（HCM vs 健康），日本。Phase 2 论点—论据：斑点追踪超声显示 HCM 猫纵向与径向应变降低，重症者环向应变亦降低。。Phase 3 自检：结论受 ROBINS-I 所列偏倚限制；未读全文，多数条目标为信息不足。",
+  "reading_depth": "摘要",
+  "reading_source": "仅摘要",
+  "reporting_notes": "仅摘要，无法逐条核查（信息不足）",
+  "extract_id": "suzuki_2017",
+  "design": "病例—对照横断面（HCM vs 健康），日本"
 }

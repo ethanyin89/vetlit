@@ -9,31 +9,92 @@
   "doi": "10.1111/jvim.14586",
   "pmid": "27678080",
   "source": "PubMed/Europe PMC",
-  "oa": "是",
+  "oa": true,
   "doc_type": "RCT",
   "recommendation_basis": "不适用",
-  "sample_size_analysed": "354分析（359随机）（犬）",
-  "multicenter": "是（多国多中心）",
-  "funding": "Boehringer Ingelheim",
+  "sample_size_analysed": "PP 354（178/176）；ITT 359",
+  "multicenter": "是（36 中心，11 国）",
+  "funding": "Boehringer Ingelheim（匹莫苯丹生产商）",
   "errata": "",
   "internal_inconsistency": "",
-  "one_line_conclusion_zh": "匹莫苯丹使心脏扩大的临床前MMVD犬临床前期延长约15个月",
-  "clinical_utility": "改变诊疗",
+  "one_line_conclusion_zh": "对体重 4.1–15 kg、已有心脏扩大（B2 期）的无症状 MMVD 犬，匹莫苯丹（0.4–0.6 mg/kg/d，分两次）把到达充血性心衰或心源性死亡的中位时间从 766 天推迟到 1228 天（HR 0.64，95% CI 0.47–0.87，P=.0038）。",
+  "clinical_utility": "可指导决策",
   "verified": "yes",
   "japan_source": "否",
   "cebm_question": "治疗获益",
-  "cebm_level": "2",
+  "cebm_level": "2（单个随机试验；治疗获益）",
   "cebm_basis": "随机试验（EPIC）",
-  "rob_tool": "Cochrane RoB 2",
-  "rob_judgement": "Some concerns",
-  "rob_rationale": "D1随机：多中心随机，低；D2：设盲安慰剂对照，低；D3：PP 354/ITT 359，缺失约1.7%，低；D4：终点经盲法裁定，低；D5：预设O'Brien–Fleming中期分析，但因有效提前终止可能高估效应量，有些担忧。厂商资助单列，不计入领域。",
+  "rob_tool": "RoB 2",
+  "rob_judgement": "有一定担忧",
+  "rob_rationale": "提前终止 + 基线不平衡 + 厂商资助",
   "guideline_recommendation": "不适用",
-  "reporting_checklist": "CONSORT 2010",
+  "reporting_checklist": "CONSORT 2010（犬猫临床试验）",
   "grade_certainty_topic": "",
   "status": "已处理",
   "provenance": [
     "vibe-feline-v3",
-    "site-curated"
+    "site-curated",
+    "deep-extract"
   ],
-  "detail": "boswood_2016.md"
+  "detail": "pmid-27678080.md",
+  "authors": "Boswood A 等",
+  "pmcid": "PMC5115200",
+  "appraisal_items": [
+    {
+      "item": "D1 随机化过程",
+      "judgment": "有一定担忧",
+      "reason": "随机，但品种（P=.02）与 BCS（P=.006）基线不平衡；多变量校正后 HR 0.539",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D2 偏离既定干预",
+      "judgment": "低",
+      "reason": "设盲、外观相同安慰剂",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D3 结局数据缺失",
+      "judgment": "低",
+      "reason": "ITT 359 vs PP 354",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D4 结局测量",
+      "judgment": "低",
+      "reason": "CHF/心源性死亡，设盲判定",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D5 结果选择性报告",
+      "judgment": "有一定担忧",
+      "reason": "因有效提前终止（最终 α=0.04551），可能高估效应量",
+      "evidence_quote": ""
+    },
+    {
+      "item": "总体",
+      "judgment": "有一定担忧",
+      "reason": "提前终止 + 基线不平衡 + 厂商资助",
+      "evidence_quote": ""
+    }
+  ],
+  "study_card": {
+    "设计": "前瞻性、多中心（36 中心/11 国）、随机、设盲、安慰剂对照；预设中期分析后因有效提前终止",
+    "实际分析样本量": "PP 354（178/176）；ITT 359",
+    "单/多中心": "是（36 中心，11 国）",
+    "资助": "Boehringer Ingelheim（匹莫苯丹生产商）",
+    "物种": "犬"
+  },
+  "methods_review": "D1 随机化过程：有一定担忧 ；D2 偏离既定干预：低 ；D3 结局数据缺失：低 ；D4 结局测量：低 ；D5 结果选择性报告：有一定担忧 ；总体：有一定担忧",
+  "can_say": [
+    "见页面第 6 节"
+  ],
+  "cannot_say": [
+    "见页面第 6 节"
+  ],
+  "phase_md": "见页面第 5 节（Stage 1 全文版）",
+  "reading_depth": "全文",
+  "reading_source": "全文（Europe PMC/PMC）",
+  "reporting_notes": "CONSORT：中期分析规则、α 消耗、ITT/PP 已报告。",
+  "extract_id": "boswood_2016",
+  "design": "前瞻性、多中心（36 中心/11 国）、随机、设盲、安慰剂对照；预设中期分析后因有效提前终止"
 }

@@ -9,29 +9,130 @@
   "doi": "10.3390/ani15172561",
   "pmid": "40941356",
   "source": "PubMed/Europe PMC",
-  "oa": "是",
-  "doc_type": "系统综述/Meta分析",
+  "oa": true,
+  "doc_type": "系统综述（无 Meta 分析）",
   "recommendation_basis": "不适用",
-  "sample_size_analysed": "20项研究（10项糖尿病猫）",
+  "sample_size_analysed": "20 项研究（10 项糖尿病猫）",
   "multicenter": "不适用",
-  "funding": "未核",
+  "funding": "原文：\"This research received no external funding\"",
   "errata": "",
   "internal_inconsistency": "",
-  "one_line_conclusion_zh": "SGLT2抑制剂对部分糖尿病猫可作口服单药，但有正常血糖酮症酸中毒风险；传统口服药证据弱",
-  "clinical_utility": "提示性",
+  "one_line_conclusion_zh": "SGLT2 抑制剂（维格列净、贝格列净）是猫糖尿病证据最多的口服药，但存在 eDKA 风险；传统口服药证据多为高偏倚风险。",
+  "clinical_utility": "可指导决策（作为证据综述）",
   "verified": "partial",
   "japan_source": "否",
   "cebm_question": "治疗获益",
-  "cebm_level": "1–3（未核）",
+  "cebm_level": "1（SR；但纳入证据多为非对照研究）",
   "cebm_basis": "系统综述；Level 取决于纳入研究设计，未读全文核对",
   "rob_tool": "AMSTAR 2",
-  "rob_judgement": "未评（仅摘要）",
+  "rob_judgement": "见逐项判断（该工具不设总体判断）",
   "rob_rationale": "",
   "guideline_recommendation": "不适用",
   "reporting_checklist": "PRISMA 2020",
   "grade_certainty_topic": "",
   "status": "已收录",
   "provenance": [
-    "vibe-feline-v3"
-  ]
+    "vibe-feline-v3",
+    "deep-extract"
+  ],
+  "detail": "pmid-40941356.md",
+  "authors": "Romero-Vélez F 等",
+  "pmcid": "PMC12427183",
+  "appraisal_items": [
+    {
+      "item": "2 预先注册方案(关键)",
+      "judgment": "部分是",
+      "reason": "\"protocol ... established a priori but was not eligible for registration in the PROSPERO database\"",
+      "evidence_quote": "protocol ... established a priori but was not eligible for registration in the PROSPERO database"
+    },
+    {
+      "item": "4 全面检索(关键)",
+      "judgment": "信息不足",
+      "reason": "未核数据库清单",
+      "evidence_quote": ""
+    },
+    {
+      "item": "7 排除研究清单及理由(关键)",
+      "judgment": "信息不足",
+      "reason": "未核",
+      "evidence_quote": ""
+    },
+    {
+      "item": "9 纳入研究偏倚评估(关键)",
+      "judgment": "是",
+      "reason": "\"RoB 2 ... ROBINS-I\"，补充材料 S1 有逐项判断",
+      "evidence_quote": "RoB 2 ... ROBINS-I"
+    },
+    {
+      "item": "11 合并方法恰当(关键)",
+      "judgment": "不适用",
+      "reason": "未做 meta 分析",
+      "evidence_quote": ""
+    },
+    {
+      "item": "13 解读时考虑偏倚(关键)",
+      "judgment": "是",
+      "reason": "\"evidence base is dominated by studies with a moderate to serious risk of bias\"",
+      "evidence_quote": "evidence base is dominated by studies with a moderate to serious risk of bias"
+    },
+    {
+      "item": "15 发表偏倚(关键)",
+      "judgment": "部分是",
+      "reason": "\"the potential for publication bias cannot be excluded\"（讨论，未检验）",
+      "evidence_quote": "the potential for publication bias cannot be excluded"
+    },
+    {
+      "item": "16 利益冲突声明",
+      "judgment": "是",
+      "reason": "无外部资助",
+      "evidence_quote": ""
+    }
+  ],
+  "study_card": {
+    "设计": "PRISMA 系统综述；用 RoB 2 / ROBINS-I 评估纳入研究；因异质性未做定量合并",
+    "实际分析样本量": "20 项研究（10 项糖尿病猫）",
+    "单/多中心": "不适用",
+    "资助": "原文：\"This research received no external funding\"",
+    "物种": "猫"
+  },
+  "results_table": [
+    {
+      "metric": "纳入研究",
+      "value": "20（糖尿病猫 10）",
+      "stat": "—"
+    },
+    {
+      "metric": "定量合并",
+      "value": "未做",
+      "stat": "\"marked heterogeneity ... prevented a quantitative meta-analysis\""
+    }
+  ],
+  "methods_review": "2 预先注册方案(关键)：部分是 ；4 全面检索(关键)：信息不足 ；7 排除研究清单及理由(关键)：信息不足 ；9 纳入研究偏倚评估(关键)：是 ；11 合并方法恰当(关键)：不适用 ；13 解读时考虑偏倚(关键)：是 ；15 发表偏倚(关键)：部分是 ；16 利益冲突声明：是",
+  "can_say": [
+    "SGLT2i 在猫糖尿病的证据相对最多，同时有 eDKA 信号"
+  ],
+  "cannot_say": [
+    "不能给出药物间效应量比较"
+  ],
+  "terms": [
+    {
+      "en": "SGLT2 inhibitor",
+      "zh": "钠-葡萄糖协同转运蛋白 2 抑制剂"
+    },
+    {
+      "en": "euglycemic DKA (eDKA)",
+      "zh": "血糖正常型糖尿病酮症酸中毒"
+    }
+  ],
+  "labels": [
+    "SR",
+    "无MA",
+    "PROSPERO未注册"
+  ],
+  "phase_md": "Phase 0 分段：全文 Methods/Results/Discussion 速读。Phase 1 主题：PRISMA 系统综述；用 RoB 2 / ROBINS-I 评估纳入研究；因异质性未做定量合并。Phase 2 论点—论据：SGLT2 抑制剂（维格列净、贝格列净）是猫糖尿病证据最多的口服药，但存在 eDKA 风险；传统口服药证据多为高偏倚风险。。Phase 3 自检：结论受 AMSTAR 2 所列偏倚限制；单人速读，未双人复核。",
+  "reading_depth": "全文",
+  "reading_source": "全文（Europe PMC/PMC）",
+  "reporting_notes": "PRISMA：称遵循；未注册（已说明原因）。",
+  "extract_id": "romero-velez_2025",
+  "design": "PRISMA 系统综述；用 RoB 2 / ROBINS-I 评估纳入研究；因异质性未做定量合并"
 }

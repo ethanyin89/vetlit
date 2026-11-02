@@ -9,29 +9,138 @@
   "doi": "10.1892/0891-6640(2006)20[528:socwno]2.0.co;2",
   "pmid": "16734085",
   "source": "PubMed/Europe PMC",
-  "oa": "否",
-  "doc_type": "回顾性队列",
+  "oa": false,
+  "doc_type": "预后队列",
   "recommendation_basis": "不适用",
-  "sample_size_analysed": "136（猫）",
-  "multicenter": "否（单一机构RVC，摘要推断）",
+  "sample_size_analysed": "136 只猫",
+  "multicenter": "未核",
   "funding": "未核",
   "errata": "",
   "internal_inconsistency": "",
-  "one_line_conclusion_zh": "即使轻度蛋白尿也对CKD猫生存有预后意义",
-  "clinical_utility": "提示性",
+  "one_line_conclusion_zh": "猫 CRF 中蛋白尿与生存显著相关：UPC 0.2–0.4 与 >0.4 的死亡 HR 分别为 2.9 与 4.0（相对 <0.2）。",
+  "clinical_utility": "可指导决策（预后）",
   "verified": "partial",
   "japan_source": "否",
   "cebm_question": "预后",
-  "cebm_level": "3",
+  "cebm_level": "3（预后：队列）",
   "cebm_basis": "队列研究（回顾性，非起始队列）",
-  "rob_tool": "QUIPS",
-  "rob_judgement": "未评（仅摘要）",
-  "rob_rationale": "",
+  "rob_tool": "ROBINS-I",
+  "rob_judgement": "信息不足",
+  "rob_rationale": "未检到相关信息/本次未读到可判断内容",
   "guideline_recommendation": "不适用",
   "reporting_checklist": "STROBE-Vet",
   "grade_certainty_topic": "",
   "status": "已收录",
   "provenance": [
-    "vibe-feline-v3"
-  ]
+    "vibe-feline-v3",
+    "deep-extract"
+  ],
+  "detail": "pmid-16734085.md",
+  "authors": "Syme HM 等",
+  "appraisal_items": [
+    {
+      "item": "D1 混杂",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D2 研究对象选择",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D3 干预/暴露分类",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D4 偏离既定干预",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D5 缺失数据",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D6 结局测量",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D7 结果选择性报告",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    },
+    {
+      "item": "总体",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    }
+  ],
+  "study_card": {
+    "设计": "Cox 回归预后研究，RVC",
+    "实际分析样本量": "136 只猫",
+    "单/多中心": "未核",
+    "资助": "未核",
+    "物种": "猫"
+  },
+  "results_table": [
+    {
+      "metric": "HR UPC 0.2–0.4",
+      "value": "2.9（1.4–6.3）",
+      "stat": "—"
+    },
+    {
+      "metric": "HR UPC >0.4",
+      "value": "4.0（2.0–8.0）",
+      "stat": "—"
+    },
+    {
+      "metric": "HR ACR 30–82 mg/g",
+      "value": "2.4（1.2–4.8）",
+      "stat": "—"
+    },
+    {
+      "metric": "HR ACR 第二档",
+      "value": "4.9（2.3–10.2）",
+      "stat": "—"
+    }
+  ],
+  "methods_review": "D1 混杂：信息不足 ；D2 研究对象选择：信息不足 ；D3 干预/暴露分类：信息不足 ；D4 偏离既定干预：信息不足 ；D5 缺失数据：信息不足 ；D6 结局测量：信息不足 ；D7 结果选择性报告：信息不足 ；总体：信息不足",
+  "can_say": [
+    "蛋白尿是猫 CKD 独立预后因素"
+  ],
+  "cannot_say": [
+    "不能说降蛋白尿可延长生存"
+  ],
+  "terms": [
+    {
+      "en": "UPC",
+      "zh": "尿蛋白/肌酐比"
+    },
+    {
+      "en": "ACR",
+      "zh": "白蛋白/肌酐比"
+    }
+  ],
+  "labels": [
+    "预后",
+    "单一机构"
+  ],
+  "phase_md": "Phase 0 分段：仅摘要各句。Phase 1 主题：Cox 回归预后研究，RVC。Phase 2 论点—论据：猫 CRF 中蛋白尿与生存显著相关：UPC 0.2–0.4 与 >0.4 的死亡 HR 分别为 2.9 与 4.0（相对 <0.2）。。Phase 3 自检：结论受 ROBINS-I 所列偏倚限制；未读全文，多数条目标为信息不足。",
+  "reading_depth": "摘要",
+  "reading_source": "仅摘要",
+  "reporting_notes": "仅摘要，无法逐条核查（信息不足）",
+  "extract_id": "syme_2006",
+  "design": "Cox 回归预后研究，RVC"
 }

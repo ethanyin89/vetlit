@@ -9,29 +9,119 @@
   "doi": "10.1016/j.prevetmed.2015.07.011",
   "pmid": "26265631",
   "source": "PubMed/Europe PMC",
-  "oa": "否",
+  "oa": false,
   "doc_type": "前瞻性队列",
   "recommendation_basis": "不适用",
-  "sample_size_analysed": "966（猫）",
-  "multicenter": "否（英国）",
-  "funding": "未核",
+  "sample_size_analysed": "966 只猫",
+  "multicenter": "不适用",
+  "funding": "BBSRC、Cats Protection（MEDLINE grantsList）",
   "errata": "",
   "internal_inconsistency": "",
-  "one_line_conclusion_zh": "早期环境（室内、干粮等）与猫成年早期肥胖风险相关",
+  "one_line_conclusion_zh": "1 岁时主人报告超重/肥胖 7.0%；限制/无户外活动和以干粮为主是独立风险因素。",
   "clinical_utility": "提示性",
   "verified": "partial",
   "japan_source": "否",
   "cebm_question": "预后（风险因素）",
-  "cebm_level": "2",
+  "cebm_level": "3（预后/风险因素：队列）",
   "cebm_basis": "起始（出生）队列",
-  "rob_tool": "QUIPS",
-  "rob_judgement": "未评（仅摘要）",
-  "rob_rationale": "",
+  "rob_tool": "ROBINS-I",
+  "rob_judgement": "信息不足",
+  "rob_rationale": "未检到相关信息/本次未读到可判断内容",
   "guideline_recommendation": "不适用",
   "reporting_checklist": "STROBE-Vet",
   "grade_certainty_topic": "",
   "status": "已收录",
   "provenance": [
-    "vibe-feline-v3"
-  ]
+    "vibe-feline-v3",
+    "deep-extract"
+  ],
+  "detail": "pmid-26265631.md",
+  "authors": "Rowe E 等",
+  "appraisal_items": [
+    {
+      "item": "D1 混杂",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D2 研究对象选择",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D3 干预/暴露分类",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D4 偏离既定干预",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D5 缺失数据",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D6 结局测量",
+      "judgment": "中",
+      "reason": "主人报告 BCS",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D7 结果选择性报告",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    },
+    {
+      "item": "总体",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    }
+  ],
+  "study_card": {
+    "设计": "Bristol Cats 前瞻性队列，主人问卷",
+    "实际分析样本量": "966 只猫",
+    "单/多中心": "不适用",
+    "资助": "BBSRC、Cats Protection（MEDLINE grantsList）",
+    "物种": "猫"
+  },
+  "results_table": [
+    {
+      "metric": "超重/肥胖",
+      "value": "7.0%",
+      "stat": "—"
+    }
+  ],
+  "methods_review": "D1 混杂：信息不足 ；D2 研究对象选择：信息不足 ；D3 干预/暴露分类：信息不足 ；D4 偏离既定干预：信息不足 ；D5 缺失数据：信息不足 ；D6 结局测量：中 ；D7 结果选择性报告：信息不足 ；总体：信息不足",
+  "can_say": [
+    "干粮与室内生活与早期肥胖相关"
+  ],
+  "cannot_say": [
+    "不能说干粮导致肥胖"
+  ],
+  "terms": [
+    {
+      "en": "BCS",
+      "zh": "体况评分"
+    }
+  ],
+  "labels": [
+    "前瞻队列",
+    "英国"
+  ],
+  "phase_md": "Phase 0 分段：仅摘要各句。Phase 1 主题：Bristol Cats 前瞻性队列，主人问卷。Phase 2 论点—论据：1 岁时主人报告超重/肥胖 7.0%；限制/无户外活动和以干粮为主是独立风险因素。。Phase 3 自检：结论受 ROBINS-I 所列偏倚限制；未读全文，多数条目标为信息不足。",
+  "reading_depth": "摘要",
+  "reading_source": "仅摘要",
+  "reporting_notes": "仅摘要，无法逐条核查（信息不足）",
+  "extract_id": "rowe_2015",
+  "design": "Bristol Cats 前瞻性队列，主人问卷"
 }

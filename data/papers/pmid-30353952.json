@@ -9,32 +9,93 @@
   "doi": "10.1111/jvim.15331",
   "pmid": "30353952",
   "source": "PubMed/Europe PMC",
-  "oa": "是",
+  "oa": true,
   "doc_type": "指南/共识",
-  "recommendation_basis": "部分基于专家意见",
-  "sample_size_analysed": "未核",
+  "recommendation_basis": "指南原文推荐强度见 guideline_strengths_verbatim",
+  "sample_size_analysed": "不适用",
   "multicenter": "不适用",
-  "funding": "未核",
+  "funding": "未见专项资助；7 位作者均披露厂商关系，6 位与 BI 有关",
   "errata": "",
   "internal_inconsistency": "",
-  "one_line_conclusion_zh": "为犬猫系统性高血压的识别、评估和治疗提供指导",
-  "clinical_utility": "改变诊疗",
+  "one_line_conclusion_zh": "按收缩压（SBP）把犬猫分为正常（<140）、高血压前期（140–159）、高血压（160–179）、重度高血压（≥180 mmHg）四级；除非存在靶器官损伤（TOD），诊断需多次测量确认；治疗目标是 SBP <140，至少降到 ≤160；首选药物猫为氨氯地平，犬为 RAAS 抑制剂。",
+  "clinical_utility": "可指导决策",
   "verified": "yes",
   "japan_source": "否",
   "cebm_question": "—",
-  "cebm_level": "不适用（指南/共识，OCEBM 不分级）",
+  "cebm_level": "不适用（指南）",
   "cebm_basis": "",
-  "rob_tool": "AGREE II（评价工具）",
-  "rob_judgement": "未做 AGREE II 正式评分",
+  "rob_tool": "AGREE II",
+  "rob_judgement": "见逐项判断（该工具不设总体判断）",
   "rob_rationale": "需两名以上评审员按 AGREE II 23 项评分，本库暂未执行；已知：非系统综述、无检索策略、推荐未逐条标证据等级（领域3“制定严谨性”预计偏低）。",
-  "guideline_recommendation": "Acierno 2018 原文未对推荐逐条分级；原文承认急症部分 “recommendations are anecdotal and extrapolated”。",
-  "reporting_checklist": "AGREE 报告清单 / RIGHT",
+  "guideline_recommendation": "原文无逐条推荐强度或证据等级（未使用 GRADE/LOE 标签）；原文：急症处理\"recommendations are anecdotal and extrapolated\"",
+  "reporting_checklist": "RIGHT（指南报告）",
   "grade_certainty_topic": "",
   "status": "已处理",
   "provenance": [
     "vibe-feline-v3",
-    "site-curated"
+    "site-curated",
+    "deep-extract"
   ],
-  "detail": "acierno_2018.md",
-  "recommendation_basis_detail": "急症处理推荐原文自述为 anecdotal and extrapolated；测压设备无一在清醒犬猫中达到验证标准"
+  "detail": "pmid-30353952.md",
+  "recommendation_basis_detail": "急症处理推荐原文自述为 anecdotal and extrapolated；测压设备无一在清醒犬猫中达到验证标准",
+  "authors": "Acierno MJ 等",
+  "pmcid": "PMC6271319",
+  "appraisal_items": [
+    {
+      "item": "领域1 范围与目的",
+      "judgment": "充分",
+      "reason": "犬猫系统性高血压识别、评估、管理",
+      "evidence_quote": ""
+    },
+    {
+      "item": "领域2 参与人员",
+      "judgment": "部分",
+      "reason": "7 人专家 + ACVIM 会员意见",
+      "evidence_quote": ""
+    },
+    {
+      "item": "领域3 制定严谨性",
+      "judgment": "不足",
+      "reason": "无检索策略、无纳入标准、无逐条证据等级",
+      "evidence_quote": ""
+    },
+    {
+      "item": "领域4 表达清晰性",
+      "judgment": "充分",
+      "reason": "SBP 分级表明确",
+      "evidence_quote": ""
+    },
+    {
+      "item": "领域5 应用性",
+      "judgment": "部分",
+      "reason": "\"no device has met these criteria in conscious dogs or cats\"",
+      "evidence_quote": "no device has met these criteria in conscious dogs or cats"
+    },
+    {
+      "item": "领域6 编辑独立性",
+      "judgment": "有一定担忧",
+      "reason": "6/7 作者与 BI 有关",
+      "evidence_quote": ""
+    }
+  ],
+  "study_card": {
+    "设计": "ACVIM 共识声明（更新 2007 版），专家组 7 人；草案征求 ACVIM 会员意见",
+    "实际分析样本量": "不适用",
+    "单/多中心": "不适用",
+    "资助": "未见专项资助；7 位作者均披露厂商关系，6 位与 BI 有关",
+    "物种": "猫/犬"
+  },
+  "methods_review": "领域1 范围与目的：充分 ；领域2 参与人员：部分 ；领域3 制定严谨性：不足 ；领域4 表达清晰性：充分 ；领域5 应用性：部分 ；领域6 编辑独立性：有一定担忧",
+  "can_say": [
+    "见页面第 6 节"
+  ],
+  "cannot_say": [
+    "见页面第 6 节"
+  ],
+  "phase_md": "见页面第 5 节（Stage 1 全文版）",
+  "reading_depth": "全文",
+  "reading_source": "全文（Europe PMC/PMC）",
+  "reporting_notes": "RIGHT：COI 已报告；方法未报告。",
+  "extract_id": "acierno_2018",
+  "design": "ACVIM 共识声明（更新 2007 版），专家组 7 人；草案征求 ACVIM 会员意见"
 }

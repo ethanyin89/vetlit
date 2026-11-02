@@ -9,29 +9,124 @@
   "doi": "10.1016/j.jvc.2015.03.008",
   "pmid": "26776583",
   "source": "PubMed/Europe PMC",
-  "oa": "否",
-  "doc_type": "横断面研究",
+  "oa": false,
+  "doc_type": "前瞻性横断面",
   "recommendation_basis": "不适用",
-  "sample_size_analysed": "780（猫）",
-  "multicenter": "未核（英国救助中心）",
+  "sample_size_analysed": "1007 只入组，完整数据 780 只",
+  "multicenter": "是（2 个救助中心）",
   "funding": "未核",
   "errata": "",
   "internal_inconsistency": "",
-  "one_line_conclusion_zh": "表面健康猫中HCM常见，心杂音也常见",
-  "clinical_utility": "提示性",
+  "one_line_conclusion_zh": "表面健康猫 HCM 患病率 14.7%（95% CI 12.3–17.4%），心杂音 40.8%，多为功能性。",
+  "clinical_utility": "可指导决策（筛查沟通）",
   "verified": "partial",
   "japan_source": "否",
   "cebm_question": "患病率",
-  "cebm_level": "3",
+  "cebm_level": "3（患病率：非随机样本）",
   "cebm_basis": "非随机本地样本（收容所）",
-  "rob_tool": "未评（无干预的描述性/横断面研究，无对应工具）",
-  "rob_judgement": "不适用",
-  "rob_rationale": "",
+  "rob_tool": "ROBINS-I",
+  "rob_judgement": "信息不足",
+  "rob_rationale": "未检到相关信息/本次未读到可判断内容",
   "guideline_recommendation": "不适用",
   "reporting_checklist": "STROBE-Vet",
   "grade_certainty_topic": "",
   "status": "已收录",
   "provenance": [
-    "vibe-feline-v3"
-  ]
+    "vibe-feline-v3",
+    "deep-extract"
+  ],
+  "detail": "pmid-26776583.md",
+  "authors": "Payne JR 等",
+  "appraisal_items": [
+    {
+      "item": "D1 混杂",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D2 研究对象选择",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D3 干预/暴露分类",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D4 偏离既定干预",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D5 缺失数据",
+      "judgment": "中",
+      "reason": "1007 只中仅 780 只完整数据",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D6 结局测量",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D7 结果选择性报告",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    },
+    {
+      "item": "总体",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    }
+  ],
+  "study_card": {
+    "设计": "前瞻性横断面，2 个救助中心，17 个月",
+    "实际分析样本量": "1007 只入组，完整数据 780 只",
+    "单/多中心": "是（2 个救助中心）",
+    "资助": "未核",
+    "物种": "猫"
+  },
+  "results_table": [
+    {
+      "metric": "HCM 患病率",
+      "value": "14.7%（12.3–17.4%）",
+      "stat": "—"
+    },
+    {
+      "metric": "心杂音",
+      "value": "40.8%",
+      "stat": "—"
+    }
+  ],
+  "methods_review": "D1 混杂：信息不足 ；D2 研究对象选择：信息不足 ；D3 干预/暴露分类：信息不足 ；D4 偏离既定干预：信息不足 ；D5 缺失数据：中 ；D6 结局测量：信息不足 ；D7 结果选择性报告：信息不足 ；总体：信息不足",
+  "can_say": [
+    "HCM 在表面健康猫中常见"
+  ],
+  "cannot_say": [
+    "救助猫不代表家养猫总体"
+  ],
+  "terms": [
+    {
+      "en": "heart murmur",
+      "zh": "心杂音"
+    }
+  ],
+  "labels": [
+    "横断面",
+    "英国"
+  ],
+  "phase_md": "Phase 0 分段：仅摘要各句。Phase 1 主题：前瞻性横断面，2 个救助中心，17 个月。Phase 2 论点—论据：表面健康猫 HCM 患病率 14.7%（95% CI 12.3–17.4%），心杂音 40.8%，多为功能性。。Phase 3 自检：结论受 ROBINS-I 所列偏倚限制；未读全文，多数条目标为信息不足。",
+  "reading_depth": "摘要",
+  "reading_source": "仅摘要",
+  "reporting_notes": "仅摘要，无法逐条核查（信息不足）",
+  "extract_id": "payne_2015",
+  "design": "前瞻性横断面，2 个救助中心，17 个月"
 }

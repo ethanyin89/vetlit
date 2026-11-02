@@ -9,29 +9,123 @@
   "doi": "10.1111/j.1939-1676.2007.0008.x",
   "pmid": "18289298",
   "source": "PubMed/Europe PMC",
-  "oa": "否",
-  "doc_type": "回顾性队列",
+  "oa": false,
+  "doc_type": "预后队列",
   "recommendation_basis": "不适用",
-  "sample_size_analysed": "未核",
+  "sample_size_analysed": "558 只犬（36 品种）",
   "multicenter": "未核",
   "funding": "未核",
   "errata": "",
   "internal_inconsistency": "",
-  "one_line_conclusion_zh": "轻度二尖瓣病犬总体良性，LA/Ao>1.7提示心源性死亡风险高",
-  "clinical_utility": "提示性",
+  "one_line_conclusion_zh": "MMVD 犬中位生存 19.5 个月；多变量中 LA/Ao >1.7 是心源性死亡唯一显著因素；轻度 MMVD 相对良性。",
+  "clinical_utility": "可指导决策（预后）",
   "verified": "partial",
   "japan_source": "否",
   "cebm_question": "预后",
-  "cebm_level": "3",
+  "cebm_level": "3（预后：队列）",
   "cebm_basis": "队列研究（回顾性）",
-  "rob_tool": "QUIPS",
-  "rob_judgement": "未评（仅摘要）",
-  "rob_rationale": "",
+  "rob_tool": "ROBINS-I",
+  "rob_judgement": "信息不足",
+  "rob_rationale": "未检到相关信息/本次未读到可判断内容",
   "guideline_recommendation": "不适用",
   "reporting_checklist": "STROBE-Vet",
   "grade_certainty_topic": "",
   "status": "已收录",
   "provenance": [
-    "vibe-feline-v3"
-  ]
+    "vibe-feline-v3",
+    "deep-extract"
+  ],
+  "detail": "pmid-18289298.md",
+  "authors": "Borgarelli M 等",
+  "appraisal_items": [
+    {
+      "item": "D1 混杂",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D2 研究对象选择",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D3 干预/暴露分类",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D4 偏离既定干预",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D5 缺失数据",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    },
+    {
+      "item": "D6 结局测量",
+      "judgment": "中",
+      "reason": "\"Long-term outcome was assessed by telephone interview with the owner\"",
+      "evidence_quote": "Long-term outcome was assessed by telephone interview with the owner"
+    },
+    {
+      "item": "D7 结果选择性报告",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    },
+    {
+      "item": "总体",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    }
+  ],
+  "study_card": {
+    "设计": "预后队列；结局经电话随访主人",
+    "实际分析样本量": "558 只犬（36 品种）",
+    "单/多中心": "未核",
+    "资助": "未核",
+    "物种": "犬"
+  },
+  "results_table": [
+    {
+      "metric": "中位生存",
+      "value": "19.5±13.2 个月",
+      "stat": "—"
+    },
+    {
+      "metric": "随访",
+      "value": "22.7±13.6 个月",
+      "stat": "—"
+    }
+  ],
+  "methods_review": "D1 混杂：信息不足 ；D2 研究对象选择：信息不足 ；D3 干预/暴露分类：信息不足 ；D4 偏离既定干预：信息不足 ；D5 缺失数据：信息不足 ；D6 结局测量：中 ；D7 结果选择性报告：信息不足 ；总体：信息不足",
+  "can_say": [
+    "LA/Ao >1.7 提示心源性死亡风险"
+  ],
+  "cannot_say": [
+    "无法区分治疗影响"
+  ],
+  "terms": [
+    {
+      "en": "LA/Ao",
+      "zh": "左房/主动脉根比"
+    }
+  ],
+  "labels": [
+    "预后"
+  ],
+  "phase_md": "Phase 0 分段：仅摘要各句。Phase 1 主题：预后队列；结局经电话随访主人。Phase 2 论点—论据：MMVD 犬中位生存 19.5 个月；多变量中 LA/Ao >1.7 是心源性死亡唯一显著因素；轻度 MMVD 相对良性。。Phase 3 自检：结论受 ROBINS-I 所列偏倚限制；未读全文，多数条目标为信息不足。",
+  "reading_depth": "摘要",
+  "reading_source": "仅摘要",
+  "reporting_notes": "仅摘要，无法逐条核查（信息不足）",
+  "extract_id": "borgarelli_2008",
+  "design": "预后队列；结局经电话随访主人"
 }

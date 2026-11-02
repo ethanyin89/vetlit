@@ -9,29 +9,120 @@
   "doi": "10.1111/jvim.15488",
   "pmid": "30974015",
   "source": "PubMed/Europe PMC",
-  "oa": "是",
+  "oa": true,
   "doc_type": "指南/共识",
-  "recommendation_basis": "按证据数量和质量分级",
-  "sample_size_analysed": "未核",
+  "recommendation_basis": "指南原文推荐强度见 guideline_strengths_verbatim",
+  "sample_size_analysed": "不适用",
   "multicenter": "不适用",
-  "funding": "未核",
-  "errata": "",
+  "funding": "未见专项资助；COI：作者曾为 BI、CEVA、IDEXX 提供咨询",
+  "errata": [
+    "Correction 2019-04-24：Table 1 指数更正为 0.294"
+  ],
   "internal_inconsistency": "",
-  "one_line_conclusion_zh": "更新犬MMVD分期诊疗，临床前管理较2009版明显改变",
-  "clinical_utility": "改变诊疗",
+  "one_line_conclusion_zh": "ACVIM 2019 MMVD 指南：B2 期（LA:Ao ≥1.6、LVIDDN ≥1.7）推荐匹莫苯丹 0.25–0.3 mg/kg q12h（Class I, LOE strong）；B 期管理较 2009 版有实质变化。",
+  "clinical_utility": "可指导决策",
   "verified": "partial",
   "japan_source": "否",
   "cebm_question": "—",
-  "cebm_level": "不适用（指南/共识，OCEBM 不分级）",
+  "cebm_level": "不适用（指南；CEBM 2011 按研究设计分级）",
   "cebm_basis": "",
-  "rob_tool": "AGREE II（评价工具）",
-  "rob_judgement": "未做 AGREE II 正式评分",
+  "rob_tool": "AGREE II",
+  "rob_judgement": "见逐项判断（该工具不设总体判断）",
   "rob_rationale": "",
-  "guideline_recommendation": "Keene 2019 原文：推荐分级采用改编自美国心脏协会（AHA）的 Class I / IIa / IIb / III / IV，并独立标注证据质量（LOE）；原文称“any class of recommendation may be paired with any LOE”。",
-  "reporting_checklist": "AGREE 报告清单 / RIGHT",
+  "guideline_recommendation": "\"Pimobendan is recommended at a dosage of 0.25‐0.3 mg/kg PO q12h. (Class I, LOE: strong)\"；分级体系：AHA 改编的 Class I / IIa / IIb / III，LOE：strong / moderate / weak / expert opinion；全文 LOE 标签计数（我方统计）：expert opinion 49、moderate 20、weak 16、strong 3；B2 期 ACEI：\"5 (of 10) panelists\"（未达共识）",
+  "reporting_checklist": "RIGHT（指南报告）",
   "grade_certainty_topic": "",
   "status": "已收录",
   "provenance": [
-    "vibe-feline-v3"
-  ]
+    "vibe-feline-v3",
+    "deep-extract"
+  ],
+  "detail": "pmid-30974015.md",
+  "authors": "Keene BW 等",
+  "pmcid": "PMC6524084",
+  "appraisal_items": [
+    {
+      "item": "领域1 范围与目的",
+      "judgment": "充分",
+      "reason": "明确针对犬 MMVD 分期与治疗",
+      "evidence_quote": ""
+    },
+    {
+      "item": "领域2 参与人员",
+      "judgment": "部分",
+      "reason": "10 人专家组；ACVIM 会员意见；无主人/全科代表",
+      "evidence_quote": ""
+    },
+    {
+      "item": "领域3 制定严谨性",
+      "judgment": "部分",
+      "reason": "有 Class/LOE 分级，但多数为 expert opinion（49 条）；未见系统检索描述",
+      "evidence_quote": ""
+    },
+    {
+      "item": "领域4 表达清晰性",
+      "judgment": "充分",
+      "reason": "逐条 Class/LOE 标注",
+      "evidence_quote": ""
+    },
+    {
+      "item": "领域5 应用性",
+      "judgment": "部分",
+      "reason": "剂量明确；成本/实施障碍讨论有限",
+      "evidence_quote": ""
+    },
+    {
+      "item": "领域6 编辑独立性",
+      "judgment": "有一定担忧",
+      "reason": "作者与 BI 等厂商有咨询关系",
+      "evidence_quote": ""
+    }
+  ],
+  "study_card": {
+    "设计": "ACVIM 共识声明（MMVD 犬），专家组 10 人；ACVIM 流程含会员意见",
+    "实际分析样本量": "不适用",
+    "单/多中心": "不适用",
+    "资助": "未见专项资助；COI：作者曾为 BI、CEVA、IDEXX 提供咨询",
+    "物种": "犬"
+  },
+  "results_table": [
+    {
+      "metric": "B2 标准",
+      "value": "LA:Ao ≥1.6；LVIDDN ≥1.7",
+      "stat": "—"
+    },
+    {
+      "metric": "LOE strong 条目数",
+      "value": "3",
+      "stat": "我方计数"
+    }
+  ],
+  "methods_review": "领域1 范围与目的：充分 ；领域2 参与人员：部分 ；领域3 制定严谨性：部分 ；领域4 表达清晰性：充分 ；领域5 应用性：部分 ；领域6 编辑独立性：有一定担忧",
+  "can_say": [
+    "B2 期犬匹莫苯丹为 Class I/LOE strong 推荐"
+  ],
+  "cannot_say": [
+    "多数推荐为 expert opinion，不能当作 RCT 级证据"
+  ],
+  "terms": [
+    {
+      "en": "LA:Ao",
+      "zh": "左房/主动脉根比"
+    },
+    {
+      "en": "LVIDDN",
+      "zh": "标准化左室舒张末内径"
+    }
+  ],
+  "labels": [
+    "指南",
+    "ACVIM",
+    "Class/LOE"
+  ],
+  "phase_md": "Phase 0 分段：全文 Methods/Results/Discussion 速读。Phase 1 主题：ACVIM 共识声明（MMVD 犬），专家组 10 人；ACVIM 流程含会员意见。Phase 2 论点—论据：ACVIM 2019 MMVD 指南：B2 期（LA:Ao ≥1.6、LVIDDN ≥1.7）推荐匹莫苯丹 0.25–0.3 mg/kg q12h（Class I, LOE strong）；B 期管理较 2009 版有实质变化。。Phase 3 自检：结论受 AGREE II 所列偏倚限制；单人速读，未双人复核。",
+  "reading_depth": "全文",
+  "reading_source": "全文（Europe PMC/PMC）",
+  "reporting_notes": "RIGHT：COI 已披露；更正 2019-04-24（Table 1 指数改为 0.294）。",
+  "extract_id": "keene_2019",
+  "design": "ACVIM 共识声明（MMVD 犬），专家组 10 人；ACVIM 流程含会员意见"
 }

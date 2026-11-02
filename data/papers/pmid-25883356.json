@@ -9,29 +9,124 @@
   "doi": "10.1126/science.1261022",
   "pmid": "25883356",
   "source": "PubMed/Europe PMC",
-  "oa": "否",
+  "oa": false,
   "doc_type": "实验",
   "recommendation_basis": "不适用",
-  "sample_size_analysed": "未核",
-  "multicenter": "否（日本单一机构）",
-  "funding": "未核",
+  "sample_size_analysed": "未核（摘要未给）",
+  "multicenter": "否（日本）",
+  "funding": "JSPS（MEDLINE grantsList）",
   "errata": "",
   "internal_inconsistency": "",
-  "one_line_conclusion_zh": "犬注视可提升主人尿催产素，支持跨物种催产素正反馈",
-  "clinical_utility": "背景",
+  "one_line_conclusion_zh": "犬（非狼）注视提高主人尿催产素；鼻喷催产素增加犬注视——提示跨物种催产素正反馈环。",
+  "clinical_utility": "提示性",
   "verified": "partial",
   "japan_source": "是",
   "cebm_question": "—",
-  "cebm_level": "不适用（基础/行为学研究，无临床问题）",
+  "cebm_level": "不适用（基础研究）",
   "cebm_basis": "",
-  "rob_tool": "SYRCLE",
-  "rob_judgement": "未评（仅摘要）",
+  "rob_tool": "SYRCLE RoB",
+  "rob_judgement": "见逐项判断（该工具不设总体判断）",
   "rob_rationale": "",
   "guideline_recommendation": "不适用",
-  "reporting_checklist": "ARRIVE 2.0",
+  "reporting_checklist": "ARRIVE 2.0（Essential 10）",
   "grade_certainty_topic": "",
   "status": "已收录",
   "provenance": [
-    "vibe-feline-v3"
-  ]
+    "vibe-feline-v3",
+    "deep-extract"
+  ],
+  "detail": "pmid-25883356.md",
+  "authors": "Nagasawa M 等",
+  "appraisal_items": [
+    {
+      "item": "1 序列生成",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    },
+    {
+      "item": "2 基线可比",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    },
+    {
+      "item": "3 分配隐藏",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    },
+    {
+      "item": "4 随机安置",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    },
+    {
+      "item": "5 实施者盲法",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    },
+    {
+      "item": "6 随机结局评估",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    },
+    {
+      "item": "7 评估者盲法",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    },
+    {
+      "item": "8 不完整结局数据",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    },
+    {
+      "item": "9 选择性报告",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    },
+    {
+      "item": "10 其他偏倚",
+      "judgment": "信息不足",
+      "reason": "未检到相关信息/本次未读到可判断内容",
+      "evidence_quote": ""
+    }
+  ],
+  "study_card": {
+    "设计": "实验（犬/狼注视与催产素；鼻喷催产素）",
+    "实际分析样本量": "未核（摘要未给）",
+    "单/多中心": "否（日本）",
+    "资助": "JSPS（MEDLINE grantsList）",
+    "物种": "犬"
+  },
+  "methods_review": "1 序列生成：信息不足 ；2 基线可比：信息不足 ；3 分配隐藏：信息不足 ；4 随机安置：信息不足 ；5 实施者盲法：信息不足 ；6 随机结局评估：信息不足 ；7 评估者盲法：信息不足 ；8 不完整结局数据：信息不足 ；9 选择性报告：信息不足 ；10 其他偏倚：信息不足",
+  "can_say": [
+    "催产素—注视环假说"
+  ],
+  "cannot_say": [
+    "摘要未给样本量"
+  ],
+  "terms": [
+    {
+      "en": "oxytocin",
+      "zh": "催产素"
+    }
+  ],
+  "labels": [
+    "实验",
+    "日本"
+  ],
+  "phase_md": "Phase 0 分段：仅摘要各句。Phase 1 主题：实验（犬/狼注视与催产素；鼻喷催产素）。Phase 2 论点—论据：犬（非狼）注视提高主人尿催产素；鼻喷催产素增加犬注视——提示跨物种催产素正反馈环。。Phase 3 自检：结论受 SYRCLE RoB 所列偏倚限制；未读全文，多数条目标为信息不足。",
+  "reading_depth": "摘要",
+  "reading_source": "仅摘要",
+  "reporting_notes": "仅摘要，无法逐条核查（信息不足）",
+  "extract_id": "nagasawa_2015",
+  "design": "实验（犬/狼注视与催产素；鼻喷催产素）"
 }
