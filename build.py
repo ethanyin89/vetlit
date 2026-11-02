@@ -83,7 +83,7 @@ def view(c):
 def load():
     return [view(json.load(open(f,encoding='utf-8'))) for f in sorted(glob.glob(os.path.join(ROOT,'data','papers','*.json')))]
 def authors_short(p): return p.get('first_author','')+(' et al.' if p.get('first_author') else '')
-def bibkey(p): return re.sub(r'\W','',(p.get('first_author') or 'anon').split()[0])+str(p['year'])+'_'+p['pmid']
+def bibkey(p): return re.sub(r'\W','',(p.get('first_author') or 'anon').split()[0])+str(p['year'])+'_'+(p['pmid'] or re.sub(r'\W','',p['id']))
 def bibtex(p):
     f=[('title','{'+p['title']+'}'),('author',p.get('first_author','')+' and others'),('journal',p.get('journal','')),('year',str(p['year'])),('doi',p.get('doi','')),('pmid',p['pmid'])]
     return '@article{'+bibkey(p)+',\n'+',\n'.join(f'  {k} = {{{v}}}' for k,v in f if v)+'\n}\n'

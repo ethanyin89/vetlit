@@ -5,7 +5,7 @@ import json, os, sys, time, urllib.parse, urllib.request
 ROOT=os.path.join(os.path.dirname(os.path.abspath(__file__)),'..'); OUT=os.path.join(ROOT,'data','papers')
 BASE='https://eutils.ncbi.nlm.nih.gov/entrez/eutils/'
 JOURNALS=['J Vet Intern Med','J Feline Med Surg','J Am Vet Med Assoc','Vet J','J Small Anim Pract','Front Vet Sci','Vet Rec','J Vet Cardiol','Am J Vet Res','Vet Clin Pathol','J Vet Emerg Crit Care (San Antonio)','Vet Radiol Ultrasound','Vet Anaesth Analg','J Vet Med Sci','Animals (Basel)','Sci Rep']
-SPECIES='("Cats"[MeSH Terms] OR "Dogs"[MeSH Terms] OR feline[tiab] OR canine[tiab] OR cats[tiab] OR dogs[tiab])'
+SPECIES='("Cats"[MeSH Terms] OR "Dogs"[MeSH Terms] OR "Cat Diseases"[MeSH Terms] OR "Dog Diseases"[MeSH Terms])'
 EXCLUDE_TYPES={'Comment','Editorial','Letter','News','Published Erratum','Retraction of Publication','Retracted Publication'}
 def get(ep,**p):
     p.setdefault('tool','vetlit'); 
