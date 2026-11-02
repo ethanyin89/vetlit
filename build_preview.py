@@ -101,6 +101,16 @@ for k,r in json.load(open(os.path.join(ROOT,'data','v5','cebm_fill.json'),encodi
     if not p: continue
     MERGE['cebm']+=1; p['cebm_level']=r['cebm_level']
     p['appraisal_note']=re.sub(r'CEBM 等级未核',f'CEBM 等级 {r["cebm_level"]}',p.get('appraisal_note') or '')
+MERGE['amstar']=0
+AM=json.load(open(os.path.join(ROOT,'data','v5','amstar2_adjudicated.json'),encoding='utf-8'))
+JA={'Yes':'是','Partial Yes':'部分是','No':'否'}; OA={'Critically low':'极低','Low':'低','Moderate':'中','High':'高'}
+for k,r in AM['records'].items():
+    p=matcher({'pmid':k,'id':k})
+    if not p: continue
+    MERGE['amstar']+=1; p['rob_tool']='AMSTAR 2'; p['amstar']=True; p['appraisal_note']=''
+    p['amstar_overall']=f'AMSTAR 2 总体：{OA.get(r["final_overall"],r["final_overall"])}（关键缺陷：第 {"、".join(map(str,r["critical_flaws"]))} 项）'
+    p['appraisal_items']=[{'item':f'第 {n} 项'+('（关键）' if int(n) in AM['critical_items'] else ''),'judgment':JA.get(i['final'],i['final']),'reason':re.sub(r'^(核对全文后同意第一评估员：|维持 No。)','',i.get('reason') or '')+(f'（{i["location"]}）' if i.get('location') else ''),'evidence_quote':i.get('quote') or ''} for n,i in r['items'].items()]
+    if r.get('search_date_inconsistency'): p['amstar_limit']='检索日期前后矛盾（表 1：2025-03-03；局限性一节：2025-04-04）'
 MF=os.path.join(ROOT,'data','v5','methods_fields.json'); MERGE['mf']=0; MERGE['mf_un']=[]
 if os.path.exists(MF):
     mf=json.load(open(MF,encoding='utf-8')); mf=list(mf.values()) if isinstance(mf,dict) else mf
@@ -334,9 +344,10 @@ def paper(p):
     v6t=p.get('v6_tool') or ''; v6j=p.get('v6_judg') or ''
     REEVAL=v6j.startswith('未评')
     NOTOOL=v6t.startswith('无') or v6j.startswith('不适用（无公认工具')
-    if (REEVAL or NOTOOL) and not p.get('adj'): it=[]
+    if (REEVAL or NOTOOL) and not p.get('adj') and not p.get('amstar'): it=[]
     rc=re.search(r'仅\s*([A-Za-z\-0-9 ]+?)\s*报告规范',v6t); rcs=rc.group(1) if rc else (p.get('reporting_checklist') if has(p.get('reporting_checklist')) else '')
     if p.get('adj'): why1=f'RoB 2 总体：{p.get("adj_overall","")}'
+    elif p.get('amstar'): why1=p['amstar_overall']
     elif REEVAL: why1='未评（仅摘要）'
     elif NOTOOL: why1='不适用（无公认工具）'+(f'；报告规范：{rcs}' if rcs else '')
     elif p.get('appraisal_note'): why1=p['appraisal_note']
@@ -351,7 +362,9 @@ def paper(p):
         gc=E_(g.get('strength') or '')+(f'<p class="note">分级体系：{E_(g["scheme"])}</p>' if g.get('scheme') and g['scheme']!=g.get('strength') else '')+''.join(f'<blockquote lang="en">{E_(x)}</blockquote>' for x in segs)+(f'<p class="note">出处：{E_(src)}</p>' if src else '')
         ev=ev.replace('</table>',f'<tr><th>指南推荐强度（原文）</th><td>{gc}</td></tr></table>',1)
     ROBJ=not (REEVAL or NOTOOL or why1=='未评') or p.get('adj')
-    if p.get('adj_dual'): ev+='<p class="note">偏倚风险：AI 双重独立评估并经第三方裁定，未经临床兽医审阅</p>'
+    if p.get('amstar_limit'): ev+=f'<p class="note">局限性：{p["amstar_limit"]}</p>'
+    if p.get('amstar'): ev+='<p class="note">偏倚风险：AI 评估，经第二评估者逐条核对，未经临床兽医审阅</p>'
+    elif p.get('adj_dual'): ev+='<p class="note">偏倚风险：AI 双重独立评估并经第三方裁定，未经临床兽医审阅</p>'
     elif ROBJ: ev+='<p class="note">偏倚风险：AI 单次评估，未经临床兽医审阅</p>'
     if has(p.get('rob_tool_note')) and not REEVAL: ev+=f'<p class="note">工具说明：{E_(clean(p["rob_tool_note"]))}</p>'
     if it: ev+=f'<details class="sub"><summary>展开逐项判断</summary>{appraisal(p)}</details>'

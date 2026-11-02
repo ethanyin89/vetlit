@@ -1,0 +1,386 @@
+{
+ "tool": "AMSTAR 2 (Shea et al. BMJ 2017;358:j4008)",
+ "critical_items": [
+  2,
+  4,
+  7,
+  9,
+  11,
+  13,
+  15
+ ],
+ "overall_rules": "High: 0-1 non-critical weakness; Moderate: >1 non-critical weakness; Low: 1 critical flaw ± non-critical; Critically low: >1 critical flaw",
+ "adjudicator": "Vibe Feline (not an extractor)",
+ "date": "2026-11-02",
+ "records": {
+  "39858209": {
+   "pmcid": "PMC11759159",
+   "items": {
+    "1": {
+     "first": "Yes",
+     "final": "Yes",
+     "changed": false,
+     "quote": "The search strategy was constructed using the PICO framework (Population, Intervention, Control, and Outcomes)",
+     "location": "2.1. Search Strategy",
+     "quote_verbatim": true,
+     "quote_note": null,
+     "reason": "核对全文后同意第一评估员：检索按 PICO 构建，研究问题包含人群、干预、对照与结局"
+    },
+    "2": {
+     "first": "No",
+     "final": "No",
+     "changed": false,
+     "quote": "Although this meta-analysis protocol was not pre-registered",
+     "location": "2.1. Search Strategy",
+     "quote_verbatim": true,
+     "quote_note": null,
+     "reason": "核对全文后同意第一评估员：明确未预注册，也未说明事先有书面方案"
+    },
+    "3": {
+     "first": "Yes",
+     "final": "Yes",
+     "changed": false,
+     "quote": "To enable linear data evaluation, we selected longitudinal studies that implemented calorie-restricted diets for weight loss in obese animals.",
+     "location": "2.1. Search Strategy",
+     "quote_verbatim": true,
+     "quote_note": null,
+     "reason": "核对全文后同意第一评估员：说明了只纳入纵向研究的理由"
+    },
+    "4": {
+     "first": "Partial Yes",
+     "final": "Partial Yes",
+     "changed": false,
+     "quote": "Primary searches were conducted in PUBMED, Scielo, and Web of Science, with Google Scholar used to capture additional studies not indexed in other databases.",
+     "location": "2.1. Search Strategy",
+     "quote_verbatim": true,
+     "quote_note": null,
+     "reason": "核对全文后同意第一评估员：检索了 3 个以上数据库并给出检索词，也检索了参考文献；未检索试验注册库、灰色文献或咨询专家，也未说明语言或日期限制"
+    },
+    "5": {
+     "first": "No",
+     "final": "No",
+     "changed": false,
+     "quote": null,
+     "location": "全文未见相关描述",
+     "quote_verbatim": null,
+     "quote_note": null,
+     "reason": "核对全文后同意第一评估员：未报告由两人独立筛选"
+    },
+    "6": {
+     "first": "No",
+     "final": "No",
+     "changed": false,
+     "quote": null,
+     "location": "全文未见相关描述",
+     "quote_verbatim": null,
+     "quote_note": null,
+     "reason": "核对全文后同意第一评估员：未报告由两人独立提取数据"
+    },
+    "7": {
+     "first": "No",
+     "final": "No",
+     "changed": false,
+     "quote": "The 28 excluded studies lacked results presented as means and standard deviations, which precluded their inclusion in the meta-analysis",
+     "location": "3. Results",
+     "quote_verbatim": true,
+     "quote_note": null,
+     "reason": "核对全文后同意第一评估员：只给出汇总的排除理由，没有逐篇排除清单"
+    },
+    "8": {
+     "first": "Partial Yes",
+     "final": "Partial Yes",
+     "changed": false,
+     "quote": "Table 2 summarizes breed, sex, age, and outcomes for each study.",
+     "location": "3.2. Tables",
+     "quote_verbatim": true,
+     "quote_note": null,
+     "reason": "核对全文后同意第一评估员：描述了人群、饮食干预和结局，但研究设计、场所和随访细节不足"
+    },
+    "9": {
+     "first": "No",
+     "final": "No",
+     "changed": false,
+     "quote": "B—Randomization: Prospective studies employing randomization were given 2 points.",
+     "location": "2.2. Eligibility Criteria",
+     "quote_verbatim": true,
+     "quote_note": null,
+     "reason": "核对全文后同意第一评估员：自拟评分只评“是否随机”和样本量等，未评分配隐藏、盲法或选择性报告，不是有效的偏倚工具"
+    },
+    "10": {
+     "first": "No",
+     "final": "No",
+     "changed": false,
+     "quote": null,
+     "location": "全文未见相关描述",
+     "quote_verbatim": null,
+     "quote_note": null,
+     "reason": "核对全文后同意第一评估员：未报告纳入研究的资金来源"
+    },
+    "11": {
+     "first": "No",
+     "final": "No",
+     "changed": false,
+     "quote": "The overall effect was analyzed using the Z-test, and treatment heterogeneity was assessed with the I2 test.",
+     "location": "2.3. Data Analysis",
+     "quote_verbatim": true,
+     "quote_note": "去空白后逐字一致（差异只在 XML 空格，如“( Table”“I 2”）",
+     "reason": "核对全文后同意第一评估员：合并干预前后数据，未说明效应模型或加权方法的理由，也未处理非随机前后设计"
+    },
+    "12": {
+     "first": "No",
+     "final": "No",
+     "changed": false,
+     "quote": null,
+     "location": "全文未见相关描述",
+     "quote_verbatim": null,
+     "quote_note": null,
+     "reason": "核对全文后同意第一评估员：未评估偏倚风险对合并结果的影响"
+    },
+    "13": {
+     "first": "No",
+     "final": "No",
+     "changed": false,
+     "quote": null,
+     "location": "全文未见相关描述",
+     "quote_verbatim": null,
+     "quote_note": null,
+     "reason": "核对全文后同意第一评估员：讨论结果时未考虑单项研究的偏倚风险"
+    },
+    "14": {
+     "first": "Yes",
+     "final": "Yes",
+     "changed": false,
+     "quote": "While protocol duration was not an exclusion criterion, we recognize this as a limitation, as extended durations typically result in more substantial weight loss",
+     "location": "4. Discussion",
+     "quote_verbatim": true,
+     "quote_note": null,
+     "reason": "核对全文后同意第一评估员：报告了异质性，并讨论了疗程、年龄、性别等可能来源"
+    },
+    "15": {
+     "first": "No",
+     "final": "No",
+     "changed": false,
+     "quote": null,
+     "location": "全文未见相关描述",
+     "quote_verbatim": null,
+     "quote_note": null,
+     "reason": "核对全文后同意第一评估员：未调查发表偏倚（无漏斗图或检验）"
+    },
+    "16": {
+     "first": "Yes",
+     "final": "Yes",
+     "changed": false,
+     "quote": "The authors declare no conflicts of interest.",
+     "location": "Conflicts of Interest",
+     "quote_verbatim": true,
+     "quote_note": null,
+     "reason": "核对全文后同意第一评估员：声明无外部资助、无利益冲突"
+    }
+   },
+   "critical_flaws": [
+    2,
+    7,
+    9,
+    11,
+    13,
+    15
+   ],
+   "noncritical_weaknesses": [
+    5,
+    6,
+    10,
+    12
+   ],
+   "first_overall": "Critically low",
+   "final_overall": "Critically low",
+   "other_notes": "第 2 项：作者原话“Although this meta-analysis protocol was not pre-registered, this study followed similar methodologies to those used in recently published systematic reviews…”，没有声明有书面方案，判 No。第 5、6 项：全文检索 independent/reviewer 无结果。第 15 项：全文没有 funnel、publication bias、Egger。第 11 项的引文去空白后与原文一致（“I 2”）。"
+  },
+  "40941356": {
+   "pmcid": "PMC12427183",
+   "items": {
+    "1": {
+     "first": "Yes",
+     "final": "Yes",
+     "changed": false,
+     "quote": "A systematic literature search was conducted in three databases: Google Scholar, PubMed, and Scopus (Table 1).",
+     "location": "2.2. Eligibility Criteria and Study Selection",
+     "quote_verbatim": true,
+     "quote_note": "去空白后逐字一致（差异只在 XML 空格，如“( Table”“I 2”）",
+     "reason": "核对全文后同意第一评估员：表 1 按 PICO A/B 给出人群、干预、对照与结局"
+    },
+    "2": {
+     "first": "No",
+     "final": "No",
+     "changed": false,
+     "quote": "The protocol for this systematic review was established a priori but was not eligible for registration in the PROSPERO database, as the review had already progressed to the data extraction phase at the time of the submission attempt.",
+     "location": "2.1. Protocol",
+     "quote_verbatim": true,
+     "quote_note": null,
+     "reason": "维持 No。AMSTAR 2 指南判 Partial Yes 的条件是：作者声明有书面方案，且方案包含全部四项（综述问题、检索策略、纳入/排除标准、偏倚风险评估）。原文只写了“protocol … established a priori”，没有说明方案包含哪些内容；局限性一节也只写“methodology was established a priori”。四项内容都没有明确声明，所以够不上 Partial Yes。这推翻了我在群里先给出的 Partial Yes 初判。敏感性分析：若放宽判为 Partial Yes，总体为 Low。"
+    },
+    "3": {
+     "first": "No",
+     "final": "No",
+     "changed": false,
+     "quote": null,
+     "location": "全文未见相关描述",
+     "quote_verbatim": null,
+     "quote_note": null,
+     "reason": "核对全文后同意第一评估员：纳入 RCT、非随机研究和无对照病例系列，但未解释为何纳入这些设计"
+    },
+    "4": {
+     "first": "Partial Yes",
+     "final": "Partial Yes",
+     "changed": false,
+     "quote": "No restrictions were applied regarding publication dates or language.",
+     "location": "2.2. Eligibility Criteria and Study Selection",
+     "quote_verbatim": true,
+     "quote_note": null,
+     "reason": "核对全文后同意第一评估员：3 个数据库，表 1 给出检索式，无语言或日期限制；未检索参考文献、注册库或灰色文献，也未咨询专家。检索日期前后不一致（表 1 为 2025-03-03，局限性中为 2025-04-04）"
+    },
+    "5": {
+     "first": "Yes",
+     "final": "Yes",
+     "changed": false,
+     "quote": "The study selection process followed a two-stage screening protocol performed independently by two reviewers (Rafael Ruiz de Gopegui and Juan Rejas).",
+     "location": "2.2. Eligibility Criteria and Study Selection",
+     "quote_verbatim": true,
+     "quote_note": null,
+     "reason": "核对全文后同意第一评估员：两人独立筛选，分歧由第三人裁决"
+    },
+    "6": {
+     "first": "No",
+     "final": "No",
+     "changed": false,
+     "quote": null,
+     "location": "全文未见相关描述",
+     "quote_verbatim": null,
+     "quote_note": null,
+     "reason": "维持 No。CRediT 中写了三人参与数据提取（“F.R.-V. taking a leading role”），但没说至少两人独立重复提取，也没说一致性≥80%。"
+    },
+    "7": {
+     "first": "No",
+     "final": "No",
+     "changed": false,
+     "quote": "The remaining reports were excluded for several reasons, primarily, being abstract-only publications, not meeting the PICO criteria (e.g., studies in healthy cats without risk factors), focusing exclusively on insulin therapy, or being review articles without primary data.",
+     "location": "3.1. Study Selection",
+     "quote_verbatim": true,
+     "quote_note": null,
+     "reason": "核对全文后同意第一评估员：只给出汇总的排除理由，没有逐篇排除清单"
+    },
+    "8": {
+     "first": "Yes",
+     "final": "Yes",
+     "changed": false,
+     "quote": "A total of 10 studies reporting on the treatment of cats with naturally acquired FDM were included (Table 2).",
+     "location": "3.2.1. Characteristics of Included Studies",
+     "quote_verbatim": true,
+     "quote_note": "去空白后逐字一致（差异只在 XML 空格，如“( Table”“I 2”）",
+     "reason": "核对全文后同意第一评估员：表 2/4 列出设计、人群、干预（药物、剂量、疗程）、对照和结局"
+    },
+    "9": {
+     "first": "Yes",
+     "final": "Yes",
+     "changed": false,
+     "quote": "The Cochrane Risk of Bias 2 (RoB 2) tool was used for randomized controlled trials (RCTs), and the Risk Of Bias In Non-randomised Studies of Interventions (ROBINS-I) tool was used for non-randomized studies.",
+     "location": "2.3. Risk of Bias Assessment",
+     "quote_verbatim": true,
+     "quote_note": null,
+     "reason": "核对全文后同意第一评估员：RCT 用 RoB 2，非随机研究用 ROBINS-I，由两人独立评估"
+    },
+    "10": {
+     "first": "No",
+     "final": "No",
+     "changed": false,
+     "quote": null,
+     "location": "全文未见相关描述",
+     "quote_verbatim": null,
+     "quote_note": null,
+     "reason": "核对全文后同意第一评估员：未报告纳入研究的资金来源"
+    },
+    "11": {
+     "first": "未进行Meta分析",
+     "final": "未进行Meta分析",
+     "changed": false,
+     "quote": null,
+     "location": null,
+     "quote_verbatim": null,
+     "quote_note": null,
+     "reason": "核对全文后同意第一评估员：异质性过大，只做叙述性综合"
+    },
+    "12": {
+     "first": "未进行Meta分析",
+     "final": "未进行Meta分析",
+     "changed": false,
+     "quote": null,
+     "location": null,
+     "quote_verbatim": null,
+     "quote_note": null,
+     "reason": "核对全文后同意第一评估员：未合并"
+    },
+    "13": {
+     "first": "Yes",
+     "final": "Yes",
+     "changed": false,
+     "quote": "The evidence base is dominated by studies with a moderate to serious risk of bias, primarily driven by the lack of a concurrent control group in many key trials, including the largest field studies [1,10,11,14,31,32]",
+     "location": "4.2.4. Strengths and Limitations of the Evidence",
+     "quote_verbatim": true,
+     "quote_note": "去空白后逐字一致（差异只在 XML 空格，如“( Table”“I 2”）",
+     "reason": "核对全文后同意第一评估员：解读结果时考虑了偏倚风险"
+    },
+    "14": {
+     "first": "Yes",
+     "final": "Yes",
+     "changed": false,
+     "quote": "However, this body of evidence is marked by significant heterogeneity in study designs",
+     "location": "4.1. Principal Findings and Overview of the Evidence",
+     "quote_verbatim": true,
+     "quote_note": null,
+     "reason": "核对全文后同意第一评估员：讨论了饮食、病程、品种和合并症等异质性来源"
+    },
+    "15": {
+     "first": "未进行Meta分析",
+     "final": "未进行Meta分析",
+     "changed": false,
+     "quote": null,
+     "location": null,
+     "quote_verbatim": null,
+     "quote_note": null,
+     "reason": "核对全文后同意第一评估员：未合并；文中承认无法排除发表偏倚"
+    },
+    "16": {
+     "first": "Yes",
+     "final": "Yes",
+     "changed": false,
+     "quote": "The authors declare no conflicts of interest.",
+     "location": "Conflicts of Interest",
+     "quote_verbatim": true,
+     "quote_note": null,
+     "reason": "核对全文后同意第一评估员：声明无外部资助、无利益冲突"
+    }
+   },
+   "critical_flaws": [
+    2,
+    7
+   ],
+   "noncritical_weaknesses": [
+    3,
+    6,
+    10
+   ],
+   "first_overall": "Critically low",
+   "final_overall": "Critically low",
+   "protocol_sentence": {
+    "methods_2.1": "The protocol for this systematic review was established a priori but was not eligible for registration in the PROSPERO database, as the review had already progressed to the data extraction phase at the time of the submission attempt.",
+    "limitations": "A further limitation is the lack of prospective registration of our review protocol. While the methodology was established a priori, the absence of a public, time-stamped protocol means that any potential deviations from the initial plan cannot be formally audited, which may increase the risk of reporting bias."
+   },
+   "sensitivity": "If item 2 = Partial Yes -> 1 critical flaw (item 7) -> Low",
+   "search_date_inconsistency": {
+    "table1": "Table 1 … Date of Search 3 March 2025",
+    "limitations": "Finally, the literature search for this review was concluded on 4 April 2025.",
+    "note": "表 1 写检索日期为 2025-03-03，局限性一节写检索截止于 2025-04-04，相差一个月，原文没有解释。页面的局限性说明应写明这一点。"
+   },
+   "other_notes": "第 4 项 Partial Yes 成立：3 个数据库、给出检索式、说明不限语言和日期。第 15 项因未做 Meta 分析不评分，但作者在局限性中承认可能存在发表偏倚。"
+  }
+ }
+}
