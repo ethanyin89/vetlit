@@ -27,6 +27,33 @@ for c in cur.values():
     if 'ingest' in (c.get('provenance') or []) and c['id'] not in {p['sid'] for p in P.values()}:
         c=dict(c); c['sid']=c['id']; c['fresh']=True; FRESH.append(c)
 SID={p['sid']:p for p in P.values()}
+def ndoi(d): return re.sub(r'^(https?://(dx\.)?doi\.org/|doi:)','',str(d or '').strip().lower())
+def idx(recs):
+    out=[]
+    for r in recs: out.append(r)
+    return out
+def matcher(r):
+    for p in P.values():
+        if r.get('pmid') and str(p.get('pmid') or '')==str(r['pmid']): return p
+    for p in P.values():
+        if r.get('doi') and ndoi(p.get('doi'))==ndoi(r['doi']): return p
+    return P.get(r.get('id')) or SID.get(r.get('id'))
+STRIP=lambda x: re.sub(r'\*\*','',x) if isinstance(x,str) else x
+MERGE={'sr':0,'sr_un':[],'ap':0,'ap_un':[]}
+for r in json.load(open(os.path.join(ROOT,'data','v5','speedread_fields_v5.json'),encoding='utf-8')):
+    p=matcher(r)
+    if not p: MERGE['sr_un'].append(r.get('pmid') or r.get('id')); continue
+    MERGE['sr']+=1
+    for k in ('title_zh','one_line_conclusion_zh','confidence_sentence','why_it_matters'):
+        p[k]=STRIP(r.get(k) or '')
+    p['key_results']=r.get('key_results') or []
+for r in json.load(open(os.path.join(ROOT,'data','v5','appraisal_papers.json'),encoding='utf-8')):
+    p=matcher(r)
+    if not p: MERGE['ap_un'].append(r.get('pmid') or r.get('id')); continue
+    MERGE['ap']+=1
+    p['rob_tool']=r.get('appraisal_tool') or ''; p['appraisal_items']=r.get('appraisal_items') or []
+    p['appraisal_note']=r.get('appraisal_note') or ''
+    for k in ('rob_judgement','rob_rationale'): p.pop(k,None)
 def get(i): return P.get(i) or SID.get(i) or SID.get('pmid-'+str(i))
 SPEC={'肾脏':'肾脏','心脏':'心脏','感染':'感染','行为/认知':'行为与认知','营养':'营养','内分泌':'内分泌'}
 def specs(p): return [SPEC[x] for x in re.split(r'[/;；]',p.get('specialty') or '') if x.strip() in SPEC]
@@ -45,7 +72,6 @@ def badges(p):
     n=p.get('n_analysed')
     if has(n) and len(str(n))<=14: b.append(('',f'n={n}'))
     if level(p).startswith('Level'): b.append(('lv','CEBM '+level(p)))
-    if p.get('rob_judgement') in ROB: b.append(('rs','偏倚：'+ROB[p['rob_judgement']]))
     if p.get('reading_depth'): b.append(('',DEPTH.get(p['reading_depth'],p['reading_depth'])))
     return '<p class="bd">'+''.join(f'<span class="b {c}">{E_(str(t))}</span>' for c,t in b if t)+'</p>'
 def title_html(p,tag='h3',href=None):
@@ -110,11 +136,11 @@ def topic_chips(r):
         ks=[k for k in VIS if k.get('parent')==t['id']]
         out+=f'<div class="tg"><a class="chip main" href="{r}topics/{t["id"]}/">{E_(t["name_zh"])} <b>{len(tpapers(t))}</b></a>'+''.join(f'<a class="chip" href="{r}topics/{k["id"]}/">{E_(k["name_zh"])} <b>{len(tpapers(k))}</b></a>' for k in ks)+'</div>'
     return out
-REAL=lambda t: t.get('bottom_line') and '自动生成' not in (t.get('bottom_line_source') or '')
+REAL=lambda t: bool(t.get('bottom_line')) and t.get('bottom_line_clinical') is not False and '自动生成' not in (t.get('bottom_line_source') or '')
 def topic_page(t):
     ps=tpapers(t); r='../../'
     crumb=f'<p class="crumb"><a href="{r}topics/">专题</a>'+(f' › <a href="{r}topics/{t["parent"]}/">{E_(TBY[t["parent"]]["name_zh"])}</a>' if t.get('parent') else '')+'</p>'
-    bl=f'<section class="bottom"><p class="eb red">临床底线 · 单人 GRADE 草稿</p><p>{E_(clean(t["bottom_line"]))}</p></section>' if REAL(t) else ''
+    bl=f'<section class="bottom"><p class="eb red">临床底线 · 单人草稿·未经临床兽医审阅</p><p>{E_(clean(t["bottom_line"]))}</p></section>' if REAL(t) else ''
     core=[(get(c['id']),c.get('reason')) for c in (t.get('core') or [])]
     if not t.get('core') and not t.get('all_ids'):
         core=[(p,None) for p in sorted(ps,key=lambda p:p.get('importance_rank') or 999)[:8]]
@@ -185,21 +211,27 @@ def paper(p):
 <p class="meta">{E_(p.get("first_author",""))} 等 · <em>{E_(p.get("journal",""))}</em> · {E_(p.get("pub_date") or str(p.get("year","")))}{f' · <a href="https://doi.org/{E_(p["doi"])}">DOI</a>' if p.get('doi') else ''}{f' · <a href="https://pubmed.ncbi.nlm.nih.gov/{p["pmid"]}/">PubMed</a>' if p.get('pmid') else ''}{f' · <a href="https://europepmc.org/article/PMC/{p["pmcid"]}">全文</a>' if p.get('pmcid') else ''}</p>{badges(p)}
 <p>{"".join(f'<a class="chip" href="{r}topics/{t}/">{E_(TBY[t]["name_zh"])}</a>' for t in (p.get("topics") or []) if t in TBY and TBY[t] in VIS)}</p>'''
     blk=lambda n,t,c: f'<section class="blk"><h2 class="sec"><span>{n}</span> {t}</h2>{c}</section>' if c else ''
-    bl=f'<section class="bottom"><p class="eb red">底线</p><p>{E_(clean(p["one_line_conclusion_zh"]))}</p></section>' if p.get('one_line_conclusion_zh') and p.get('title_zh') else ''
+    bl=f'<section class="bottom"><p class="eb red">底线</p><p>{E_(clean(p["one_line_conclusion_zh"]))}</p>{f'<p class="note">{E_(clean(p["confidence_sentence"]))}</p>' if has(p.get('confidence_sentence')) else ''}</section>' if p.get('one_line_conclusion_zh') and p.get('title_zh') else ''
     why=f'<p>{E_(clean(p["why_it_matters"]))}</p>' if has(p.get('why_it_matters')) else ''
     sc=p.get('study_card') or {}
     snap=[('设计',p.get('design_detail') or p.get('design')),('物种',species(p)),('入组样本量',p.get('n_enrolled')),('分析样本量',p.get('n_analysed')),('中心',sc.get('单/多中心')),('资助与利益冲突',sc.get('资助') or p.get('funding'))]
     snap=''.join(f'<tr><th>{k}</th><td>{E_(clean(v))}</td></tr>' for k,v in snap if has(v))
     snap=f'<table class="kv">{snap}</table>' if snap else ''
-    kr=sec_get(S,'关键结果')
-    kr=mdc(kr) if kr and not re.fullmatch(r'[\s—\-|指标结果统计:]*',kr) else (f'<p>{E_(clean(p["results"]))}</p>' if has(p.get('results')) else '')
+    PH={'','—','-','–','None'}
+    krs=[k for k in (p.get('key_results') or []) if any(str(k.get(f) or '').strip() not in PH for f in ('groups','effect_ci','p'))]
+    cell=lambda v: '' if str(v or '').strip() in PH else E_(clean(v))
+    if krs:
+        kr='<div class="tw"><table><thead><tr><th>指标</th><th>组别/数值</th><th>效应量（95% CI）</th><th>P</th></tr></thead><tbody>'+''.join(f'<tr><td>{cell(k.get("measure"))}</td><td>{cell(k.get("groups"))}</td><td>{cell(k.get("effect_ci"))}</td><td>{cell(k.get("p"))}</td></tr>' for k in krs)+'</tbody></table></div>'
+    else: kr=sec_get(S,'关键结果')
+    if krs: pass
+    else: kr=mdc(kr) if kr and not re.fullmatch(r'[\s—\-|指标结果统计:]*',kr) else (f'<p>{E_(clean(p["results"]))}</p>' if has(p.get('results')) else '')
     cs=sec_get(S,'能说')
     cs=mdc(cs) if cs else ''
     if not cs and p.get('can_say') and '见页面' not in str(p['can_say']):
         cs='<h3>能说</h3><ul>'+''.join(f'<li>{E_(clean(x))}</li>' for x in p['can_say'])+'</ul><h3>不能说</h3><ul>'+''.join(f'<li>{E_(clean(x))}</li>' for x in p.get('cannot_say') or [])+'</ul>'
     cs=cs.replace('<p><strong>能说</strong></p>','<h3>能说</h3>').replace('<p><strong>不能说</strong></p>','<h3>不能说</h3>')
     lv=str(p.get('cebm_level') or '')
-    ev=[('Oxford CEBM 2011',lv+(f'（{p["cebm_basis"]}）' if has(p.get('cebm_basis')) else '')),('偏倚/质量工具',p.get('rob_tool')),('总体判断',p.get('rob_judgement')),('理由',p.get('rob_rationale')),('报告规范',p.get('reporting_checklist')),('报告规范核查',p.get('reporting_notes')),('指南推荐强度（原文）',p.get('guideline_recommendation') if p.get('design_category')=='指南/共识' else '')]
+    ev=[('Oxford CEBM 2011',lv+(f'（{p["cebm_basis"]}）' if has(p.get('cebm_basis')) else '')),('偏倚/质量工具',p.get('rob_tool')),('偏倚风险说明',p.get('appraisal_note')),('报告规范',p.get('reporting_checklist')),('报告规范核查',p.get('reporting_notes')),('指南推荐强度（原文）',p.get('guideline_recommendation') if p.get('design_category')=='指南/共识' else '')]
     er=p.get('errata'); er=', '.join(er) if isinstance(er,list) else er
     if has(er): ev.append(('勘误',f'PMID {er}'))
     if has(p.get('internal_inconsistency')): ev.append(('论文内部不一致',p['internal_inconsistency']))
@@ -227,5 +259,6 @@ def main():
     for t in VIS: w(f'topics/{t["id"]}/index.html',topic_page(t))
     for p in P.values(): w(f'papers/{p["sid"]}/index.html',paper(p))
     os.makedirs(os.path.join(OUT,'static'),exist_ok=True); shutil.copy(os.path.join(ROOT,'static','preview','v.css'),os.path.join(OUT,'static','v.css'))
+    print('merge',{k:(v if isinstance(v,int) else len(v)) for k,v in MERGE.items()},MERGE['sr_un'],MERGE['ap_un'])
     print(f'preview: {len(P)} papers, {len(VIS)} topics, {len(FRESH)} fresh -> {OUT}')
 if __name__=='__main__': main()
