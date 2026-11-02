@@ -54,6 +54,19 @@ for r in json.load(open(os.path.join(ROOT,'data','v5','appraisal_papers.json'),e
     p['rob_tool']=r.get('appraisal_tool') or ''; p['appraisal_items']=r.get('appraisal_items') or []
     p['appraisal_note']=r.get('appraisal_note') or ''
     for k in ('rob_judgement','rob_rationale'): p.pop(k,None)
+MERGE['pg']=0; MERGE['pg_un']=[]
+for k,r in json.load(open(os.path.join(ROOT,'data','v5','pages38_fields.json'),encoding='utf-8')).items():
+    r.setdefault('pmid',k); p=matcher(r)
+    if not p: MERGE['pg_un'].append(k); continue
+    MERGE['pg']+=1
+    p['can_say']=[STRIP(x) for x in r.get('can_say') or []]; p['cannot_say']=[STRIP(x) for x in r.get('cannot_say') or []]
+    f='extracts38/'+os.path.basename(r.get('page_file') or k+'.md')
+    if os.path.exists(os.path.join(ROOT,'content',f)): p['detail']=f; p['p38']=True
+    if not p.get('reading_depth'): p['reading_depth']='摘要'
+# hidden pending verification
+HIDE_KR={('23078651','到达主要终点比例')}
+for p in P.values():
+    p['key_results']=[k for k in (p.get('key_results') or []) if (str(p.get('pmid')),k.get('measure')) not in HIDE_KR]
 def get(i): return P.get(i) or SID.get(i) or SID.get('pmid-'+str(i))
 SPEC={'肾脏':'肾脏','心脏':'心脏','感染':'感染','行为/认知':'行为与认知','营养':'营养','内分泌':'内分泌'}
 def specs(p): return [SPEC[x] for x in re.split(r'[/;；]',p.get('specialty') or '') if x.strip() in SPEC]
@@ -66,7 +79,7 @@ def level(p):
     if p.get('design_category')=='指南/共识': return '指南/共识'
     return '未分级'
 ROB={'Some concerns':'有一定担忧','Moderate（QUIPS 综合，非官方总分）':'中等（QUIPS）'}
-DEPTH={'全文':'全文已读','摘要':'仅读摘要','仅标题':'仅题录'}
+DEPTH={'全文':'全文已读','摘要':'已读摘要','仅标题':'仅题录'}
 def badges(p):
     b=[('k',p.get('design_category'))]
     n=p.get('n_analysed')
@@ -225,7 +238,7 @@ def paper(p):
     else: kr=sec_get(S,'关键结果')
     if krs: pass
     else: kr=mdc(kr) if kr and not re.fullmatch(r'[\s—\-|指标结果统计:]*',kr) else (f'<p>{E_(clean(p["results"]))}</p>' if has(p.get('results')) else '')
-    cs=sec_get(S,'能说')
+    cs='' if p.get('p38') else sec_get(S,'能说')
     cs=mdc(cs) if cs else ''
     if not cs and p.get('can_say') and '见页面' not in str(p['can_say']):
         cs='<h3>能说</h3><ul>'+''.join(f'<li>{E_(clean(x))}</li>' for x in p['can_say'])+'</ul><h3>不能说</h3><ul>'+''.join(f'<li>{E_(clean(x))}</li>' for x in p.get('cannot_say') or [])+'</ul>'
