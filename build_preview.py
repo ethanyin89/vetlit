@@ -84,6 +84,12 @@ for pm,rs in ADJ.items():
         if r['domain']=='D5': rea='未检索到预先注册的方案。'+rea
         items.append({'item':DN.get(r['domain'],r['domain']),'judgment':JM.get(r['final'],r['final']),'reason':rea,'evidence_quote':r.get('quote') or ''})
     p['appraisal_items']=items
+for r in json.load(open(os.path.join(ROOT,'data','v5','selfcheck_adjudication.json'),encoding='utf-8'))['rulings']:
+    if r['ruling']!='accept' or r['source_type']!='abstract' or r['pmid'] in ADJ: continue
+    p=matcher({'pmid':r['pmid']})
+    if not p: MERGE['adj_un'].append(r['pmid']); continue
+    MERGE['adj']+=1; p['rob_tool']='RoB 2'; p['adj']=True; p['appraisal_note']=''; p['adj_overall']='未完整评估（仅据摘要；D1 有一定担忧，其余领域未评）'
+    p['appraisal_items']=[{'item':DN[r['domain']],'judgment':JM[r['final']],'reason':'仅据摘要。原文位置：摘要','evidence_quote':r['quote']}]
 MF=os.path.join(ROOT,'data','v5','methods_fields.json'); MERGE['mf']=0; MERGE['mf_un']=[]
 if os.path.exists(MF):
     mf=json.load(open(MF,encoding='utf-8')); mf=list(mf.values()) if isinstance(mf,dict) else mf

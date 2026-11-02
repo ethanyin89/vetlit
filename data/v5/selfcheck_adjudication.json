@@ -1,0 +1,203 @@
+{
+ "rulings": [
+  {
+   "pmid": "11990962",
+   "domain": "D1",
+   "first_assessor_old": "L",
+   "proposed": "S",
+   "final": "S",
+   "ruling": "accept",
+   "source_type": "abstract",
+   "location": "PMID 11990962 abstract (no PMC full text)",
+   "quote": "Dogs were randomly assigned to a group fed adult MF or a group fed RF and evaluated for up to 24 months.",
+   "quote_verified": true,
+   "rationale": "Abstract says only 'randomly assigned': no sequence method and no concealment (no envelopes, pharmacy or coded containers). 1.1 NI; 1.2 NI; 1.3 PN (groups 'of similar clinical, biochemical, and hematologic status') → some concerns. ACCEPT."
+  },
+  {
+   "pmid": "16978113",
+   "domain": "D1",
+   "first_assessor_old": "L",
+   "proposed": "S",
+   "final": "S",
+   "ruling": "accept",
+   "source_type": "abstract",
+   "location": "PMID 16978113 abstract (no PMC full text)",
+   "quote": "Cats were randomly assigned to an adult maintenance diet (n = 23 cats) or a renal diet (22) and evaluated trimonthly for up to 24 months.",
+   "quote_verified": true,
+   "rationale": "Only 'randomly assigned'; 'Double-masked' does not establish allocation concealment. ACCEPT. The original evidence was a Chinese note, not a quote."
+  },
+  {
+   "pmid": "18638016",
+   "domain": "D1",
+   "first_assessor_old": "L",
+   "proposed": "S",
+   "final": "S",
+   "ruling": "accept",
+   "source_type": "abstract",
+   "location": "PMID 18638016 abstract (no PMC full text)",
+   "quote": "A prospective single-blinded study with dogs randomized to PO receive pimobendan (0.4-0.6 mg/kg/d) or benazepril hydrochloride (0.25-1.0 mg/kg/d).",
+   "quote_verified": true,
+   "rationale": "Only 'randomized'; no sequence or concealment method. ACCEPT."
+  },
+  {
+   "pmid": "26776588",
+   "domain": "D1",
+   "first_assessor_old": "L",
+   "proposed": "S",
+   "final": "S",
+   "ruling": "accept",
+   "source_type": "abstract",
+   "location": "PMID 26776588 abstract (no PMC full text)",
+   "quote": "Multicenter, double-blind, randomized, positive-controlled study.",
+   "quote_verified": true,
+   "rationale": "Design label only. ACCEPT."
+  },
+  {
+   "pmid": "38952053",
+   "domain": "D1",
+   "first_assessor_old": "L",
+   "proposed": "S",
+   "final": "L",
+   "ruling": "reject",
+   "source_type": "full text",
+   "location": "PMC11256178 full text, Methods 2.3",
+   "quote": "according to a predetermined randomized sequence generated using an online-based randomization program (QuickCalcs, GraphPad Software, Boston, MA). | Both study diets were designed and manufactured by Royal Canin SAS (Aimargues, France) with identical packaging but labeled differently for the 2 trial diets with code names “AYC” and “XBZ”.",
+   "quote_verified": true,
+   "rationale": "REJECT (the proposer has withdrawn it). Computer-generated block sequence (1.1 Y). Identical, manufacturer-coded diet packs are an accepted equivalent to identical coded containers (1.2 PY). Baseline groups similar apart from ALT (1.3 N). Low, consistent with my earlier ruling. Caveat: only 2 fixed codes, which is weaker than per-animal numbered packs; flagged, not downgraded. Still listed in the updated file; treated as withdrawn per the parent."
+  },
+  {
+   "pmid": "39417648",
+   "domain": "D1",
+   "first_assessor_old": "L",
+   "proposed": "S",
+   "final": "S",
+   "ruling": "accept",
+   "source_type": "full text",
+   "location": "PMC11529093 full text, Results (Animals); whole Methods read",
+   "quote": "A total of 47 owned cats were randomly allocated to the administered AB070597 group (AB group) or placebo group.",
+   "quote_verified": true,
+   "rationale": "Full text read for any concealment method (envelopes, coding, identical placebo, pharmacy or central allocation): none described. 'double-blinded' appears only in the aim. 1.1 NI; 1.2 NI → S. ACCEPT."
+  },
+  {
+   "pmid": "39066306",
+   "domain": "D5",
+   "first_assessor_old": "L",
+   "proposed": "S",
+   "final": "S",
+   "ruling": "accept",
+   "source_type": "full text",
+   "location": "PMC11281457 full text; searched for register/protocol/SAP/a priori (none found)",
+   "quote": "The primary outcome parameter was the remission rate at day 84.",
+   "quote_verified": true,
+   "rationale": "The endpoint is stated only in the paper; no registration, protocol or SAP finalised before unblinding → S under our D5 rule. ACCEPT."
+  },
+  {
+   "pmid": "41781382",
+   "domain": "D5",
+   "first_assessor_old": "L",
+   "proposed": "S",
+   "final": "S",
+   "ruling": "accept",
+   "source_type": "full text",
+   "location": "PMC13065291 full text; searched (none found)",
+   "quote": "Cats were randomized 1:1 using the sealed envelope method (randomization known only to pharmacy staff and clinical trial coordinators) 30 to receive either GS-441524 (18–22 mg/kg PO) or remdesivir (38–42 mg/kg PO) (NM PharmTech) q24h for 84 days.",
+   "quote_verified": true,
+   "rationale": "No registration, protocol or SAP cited → S. ACCEPT. (The quote shown is the D1 sentence, which keeps D1 Low; no D5 plan sentence exists.)"
+  },
+  {
+   "pmid": "40110605",
+   "domain": "D1",
+   "first_assessor_old": "L",
+   "proposed": "S",
+   "final": "L",
+   "ruling": "reject",
+   "source_type": "full text",
+   "location": "PMC11923454 full text, Materials and methods 2.1",
+   "quote": "Group allocation was done by one of the researchers (Hilla Chen), using commercial block randomization software (Sealed Envelope), while the owners, attending clinicians, and other researchers were blinded to the treatment administered. | Each dog received either paricalcitol or placebo during the first 12‐week arm, then transitioned to the other treatment for the second 12‐week arm, with a 2‐week washout period between arms. | Depending on the dog's body weight, paricalcitol was either given as 1000 ng Zemplar capsule (EOD) or a 200 ng/mL suspension which was compounded at the hospital's pharmacy by a certified pharmacist. Placebo was given in a capsule or suspension form, respectively.",
+   "quote_verified": true,
+   "rationale": "REJECT, resolved explicitly after reading the whole allocation description. The proposer is right that 'Sealed Envelope' is the software name, not sealed envelopes. But concealment does not depend on that phrase. (a) The sequence was computer block randomisation (1.1 Y). (b) Allocation was done by one named researcher, while 'the owners, attending clinicians, and other researchers were blinded', i.e., the people enrolling dogs did not know assignments. (c) Placebo was given in the same capsule/suspension form, compounded by the hospital pharmacist. (d) This is a 2-period crossover (2-week washout): every dog receives both treatments, so a foreseen allocation could only affect sequence order, not which treatment a dog gets. 1.2 PY; 1.3 N (crossover, within-dog). Low; adjudicated_rob_rct.json unchanged. Caveat: the paper does not state whether the allocating researcher also enrolled dogs. A strict reader could call 1.2 NI → S. That would not change Overall (already S via D3/D5).",
+   "note": "in updated selfcheck (9 proposals)"
+  }
+ ],
+ "niessen_quote_fixes": [
+  {
+   "pmid": "38884190",
+   "domain": "D1",
+   "flagged_quote": "randomized, positive-controlled",
+   "verbatim": false,
+   "replacement": "Included cats were randomized (using permuted-block randomization lists) in a 1 : 1 ratio to oral q24h velagliflozin",
+   "location": "PMC11256146 Methods",
+   "note": "Not verbatim (the text reads 'randomized, positive controlled'). Same error pattern: first assessor L on 'randomized'; final S (1.1 Y; concealment NI, open label).",
+   "replacement_verified": true
+  },
+  {
+   "pmid": "38884190",
+   "domain": "D4",
+   "flagged_quote": "治疗成功",
+   "verbatim": false,
+   "replacement": "a composite measure of overall treatment success was used and a priori defined as number of cats that showed treatment success in at least 1 clinical variable (polyuria, polydipsia, polyphagia, plantigrade/palmigrade stance)",
+   "location": "PMC11256146 Methods, primary endpoint",
+   "note": "A Chinese translation, not a quote. The first assessor had S; final H (open label, owner-assessed subjective signs in the composite).",
+   "replacement_verified": true
+  }
+ ],
+ "unchanged_item_findings": [
+  {
+   "pmid": "38884190",
+   "domain": "D1",
+   "first_assessor": "L",
+   "should_be": "S",
+   "pattern": "randomized alone; non-verbatim quote"
+  },
+  {
+   "pmid": "37632022",
+   "domain": "D1",
+   "first_assessor": "L",
+   "should_be": "S",
+   "pattern": "'envelope method' without sequence or sealed/opaque detail; borderline"
+  },
+  {
+   "pmid": "38884190",
+   "domain": "D5",
+   "first_assessor": "L",
+   "should_be": "S",
+   "pattern": "stated prespecified margin, no plan"
+  },
+  {
+   "pmid": "38952053",
+   "domain": "D1",
+   "first_assessor": "L",
+   "should_be": "L",
+   "pattern": "right judgement, design-label quote; replace quote"
+  },
+  {
+   "pmid": "38952053",
+   "domain": "D5",
+   "first_assessor": "信息不足",
+   "should_be": "S",
+   "pattern": "NI is not a domain-level judgement"
+  },
+  {
+   "pmid": "39417648",
+   "domain": "D5",
+   "first_assessor": "信息不足",
+   "should_be": "S",
+   "pattern": "NI is not a domain-level judgement"
+  },
+  {
+   "pmid": "40110605",
+   "domain": "D5",
+   "first_assessor": "信息不足",
+   "should_be": "S",
+   "pattern": "NI is not a domain-level judgement"
+  },
+  {
+   "pmid": "37632022",
+   "domain": "D5",
+   "first_assessor": "信息不足",
+   "should_be": "S",
+   "pattern": "NI is not a domain-level judgement"
+  }
+ ],
+ "selfcheck_file_state": "Updated file re-read: 12 items, 9 proposed changes (D1: 11990962, 16978113, 18638016, 26776588, 38952053[withdrawn], 39417648, 40110605; D5: 39066306, 41781382). It also keeps 39066306, 37632022 and 41781382 D1 at L; I disagree on 37632022 (final S)."
+}
