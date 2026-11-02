@@ -51,7 +51,7 @@ for r in json.load(open(os.path.join(ROOT,'data','v5','appraisal_papers.json'),e
     p=matcher(r)
     if not p: MERGE['ap_un'].append(r.get('pmid') or r.get('id')); continue
     MERGE['ap']+=1
-    p['rob_tool']=r.get('appraisal_tool') or ''; p['appraisal_items']=r.get('appraisal_items') or []
+    p['rob_tool']=r.get('appraisal_tool') or p.get('rob_tool') or ''; p['appraisal_items']=r.get('appraisal_items') or []
     p['appraisal_note']=r.get('appraisal_note') or ''
     for k in ('funder','study_card','cebm_basis'):
         if r.get(k) and not p.get(k): p[k]=r[k]
