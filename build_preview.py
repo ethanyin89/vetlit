@@ -111,7 +111,7 @@ for k,r in AM['records'].items():
     p['amstar_overall']=f'AMSTAR 2 总体：{OA.get(r["final_overall"],r["final_overall"])}（关键缺陷：第 {"、".join(map(str,r["critical_flaws"]))} 项）'
     p['appraisal_items']=[{'item':f'第 {n} 项'+('（关键）' if int(n) in AM['critical_items'] else ''),'judgment':JA.get(i['final'],i['final']),'reason':re.sub(r'^(核对全文后同意第一评估员：|维持 No。)','',i.get('reason') or '')+(f'（{i["location"]}）' if i.get('location') else ''),'evidence_quote':i.get('quote') or ''} for n,i in r['items'].items()]
     if r.get('search_date_inconsistency'): p['amstar_limit']='检索日期前后矛盾（表 1：2025-03-03；局限性一节：2025-04-04）'
-HOLD={'26079532','26936494'}; MERGE['ckd2']=0
+HOLD=set(); MERGE['ckd2']=0
 _se=json.load(open(os.path.join(ROOT,'data','v5','second_extractor_ckd.json'),encoding='utf-8'))
 _se=_se.get('papers',_se) if isinstance(_se,dict) else _se
 for r in (_se if isinstance(_se,list) else _se.values()):
@@ -119,6 +119,14 @@ for r in (_se if isinstance(_se,list) else _se.values()):
     if not p: continue
     MERGE['ckd2']+=1
     if str(r.get('pmid')) not in HOLD: p['dual_x']='abs' if str(r.get('evidence_basis','')).startswith('abstract') else 'ft'
+for c in json.load(open(os.path.join(ROOT,'data','v5','ckd_conclusion_checks.json'),encoding='utf-8'))['checks']:
+    p=matcher({'pmid':c['pmid'],'id':c['pmid']})
+    if not p: continue
+    p['one_line_conclusion_zh']=c['proposed_zh']; p['confidence_sentence']=''
+    if c.get('key_results_fix'):
+        for kr in p.get('key_results') or []:
+            if '检测 GFR 初始下降' in str(kr.get('measure','')): kr['measure']='SDMA 两种判读方法比较'; kr['groups']=c['key_results_fix']; kr['effect_ci']=''; kr['p']=''
+        p['limits']=['8 只 X 连锁遗传性肾病公犬','GFR 下降<20% 为平均值','≥14 μg/dL 界值在一只健康同窝犬多次超出，改用 ≥16 μg/dL 仍平均早 3.4 周']
 NOVR={'25231385':('42（CKD 21 + 健康对照 21）',None),'27103204':('39（CKD 19 + 健康对照 20）',None),'26079532':('12（患病 8 + 未患病同窝 4）',None),'26474314':('224（随机）','72/76（第 180 天）')}
 for k,(e,a) in NOVR.items():
     p=matcher({'pmid':k,'id':k})
@@ -395,6 +403,13 @@ def paper(p):
     else: fund=f'<p>{E_(clean(fund))}</p>' if has(fund) and not str(fund).startswith('未核') else '<p class="muted">原文未报告</p>'
     if 'recommendation_basis' in RES: ev+=f'<p class="note">推荐依据：{rv("recommendation_basis")}</p>'
     methods_blk=lambda: (f'<details class="fold" {"open" if exp else ""}><summary>研究方法</summary>{meth}</details>' if meth else '')
+    if p.get('limits'): kr=(kr or '')+'<p class="note">局限：'+'；'.join(E_(x) for x in p['limits'])+'</p>'
+    TAG=(f'<p class="note tag2">AI 双重独立提取并经第三方裁定{"（仅据摘要）" if p.get("dual_x")=="abs" else ""}</p>') if p.get('dual_x') else ''
+    if TAG:
+        concl=concl.replace('</section>',TAG+'</section>',1) if concl else concl
+        kr=(kr+TAG) if kr else kr
+        _t='<span class="note">（'+TAG[len('<p class="note tag2">'):-4]+'）</span>'
+        pico=re.sub(r'(<th>纳入 n / 分析 n</th><td>.*?)(</td>)',lambda m:m.group(1)+_t+m.group(2),pico or '',count=1)
     if exp: order=[('研究对象',pico if popt else ''),('动物来源与实验处理',None),('关键数字',kr),('证据等级与偏倚风险',ev),('能说 / 不能说',cs),('资助方与利益冲突',fund)]
     else: order=[('研究对象/干预/对照/结局 · 样本量',pico),('关键数字',kr),('研究方法',None),('证据等级与偏倚风险',ev),('能说 / 不能说',cs),('资助方与利益冲突',fund)]
     body=head+concl; n=0
@@ -415,7 +430,7 @@ def paper(p):
         orig=f'<p>许可{("（"+E_(str(p["license"]))+"）") if has(p.get("license")) else ""}不允许全文翻译转载，本站只提供速读与术语对照。</p>'
     bib=B.bibtex(B.view({**p,'id':p['sid']})); ris=B.ris(B.view({**p,'id':p['sid']}))
     body+=f'<details class="fold"><summary>原文与许可</summary>{orig}</details><details class="fold"><summary>引用（BibTeX / RIS）</summary><pre>{E_(bib)}</pre><pre>{E_(ris)}</pre></details>'
-    body+=f'<p class="note sig">依据：{"摘要" if absonly else "全文"} · {'速读：AI 双重独立提取并经第三方裁定'+('（仅据摘要）' if p.get('dual_x')=='abs' else '') if p.get('dual_x') else '速读：AI 单次提取'}</p>'
+    body+=f'<p class="note sig">依据：{"摘要" if absonly else "全文"} · 速读：AI 单次提取{'（结论、关键数字、样本量除外，见各处标注）' if p.get('dual_x') else ''}</p>'
     return page(clean(p.get('title_zh') or p.get('first_author','')+' '+str(p.get('year',''))),body,2)
 def w(rel,s):
     f=os.path.join(OUT,rel); os.makedirs(os.path.dirname(f),exist_ok=True); open(f,'w',encoding='utf-8').write(s)

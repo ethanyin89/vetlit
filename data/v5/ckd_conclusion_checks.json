@@ -1,0 +1,133 @@
+{
+ "generated": "2026-11-02",
+ "checker": "Vibe Feline",
+ "checks": [
+  {
+   "pmid": "26936494",
+   "source": "PMC11148907 full text (pmc.ncbi.nlm.nih.gov HTML; Europe PMC fullTextXML returned HTTP 500; Unpaywall lists publisher publishedVersion OA, license null)",
+   "local_text": "review2/ft/PMC11148907.txt",
+   "claim": "肾病处方粮是唯一有生存证据的干预",
+   "ruling": "not_supported_as_worded",
+   "reason": "Full text supports renal diets prolonging survival (Table 3: Elliott 264 vs 633 d; Plantinga 210 vs 480 d; Ross ~730 d vs not reached, median all-cause survival). But the guideline never says 'only'; it also cites evidence that ESAs may 'potentially' improve survival and weak evidence RAAS blockade may help survival in severely proteinuric cats. 'Only' is an overclaim; safer: diet is the intervention with the most consistent survival evidence cited.",
+   "table3": {
+    "Elliott et al (ref 55)": [
+     264,
+     633
+    ],
+    "Plantinga et al (ref 54)": [
+     210,
+     480
+    ],
+    "Ross et al (ref 56)": [
+     "~730",
+     "Not reached"
+    ]
+   },
+   "proposed_zh": "猫 CKD 按 IRIS 分期管理；指南引用的研究显示，肾病处方粮可减轻尿毒症症状并显著延长生存（表 3：中位全因生存期 264 vs 633 天、210 vs 480 天、约 730 天 vs 未达到），是指南中生存获益证据最明确的干预；促红素类药物“可能”改善生存，RAAS 阻断仅在重度蛋白尿猫中有弱证据。",
+   "quotes": [
+    {
+     "location": "Results/Dietary management",
+     "quote": "In cats with CKD, renal diets have been shown to reduce clinical signs of uraemia,55",
+     "verbatim_whole_string": true
+    },
+    {
+     "location": "Dietary management",
+     "quote": "and to significantly prolong longevity (see Table 3), providing a strong rationale for their use.",
+     "verbatim_whole_string": true
+    },
+    {
+     "location": "Table 3 title",
+     "quote": "Studies evaluating effect of renal diets on longevity",
+     "verbatim_whole_string": true
+    },
+    {
+     "location": "Table 3 header",
+     "quote": "Reported median survival time (days, all-cause mortality)",
+     "verbatim_whole_string": true
+    },
+    {
+     "location": "Dietary management",
+     "quote": "thus phosphate restriction is thought to be mainly responsible for the improved longevity seen.",
+     "verbatim_whole_string": true
+    },
+    {
+     "location": "Anaemia",
+     "quote": "there is evidence that treatment with erythrocyte-stimulating agents (ESAs) may improve QoL and potentially survival in some cats with CKD.",
+     "verbatim_whole_string": true
+    },
+    {
+     "location": "Proteinuria/RAAS",
+     "quote": "However, a survival benefit from RAAS blockade in cats has not been demonstrated.",
+     "verbatim_whole_string": true
+    },
+    {
+     "location": "Proteinuria/RAAS",
+     "quote": "There is some (weak) evidence that RAAS blockade may have more beneficial effects (possibly on survival, QoL and appetite) in CKD cats with more severe proteinuria (eg, UPCR ⩾1.0),",
+     "verbatim_whole_string": true
+    }
+   ]
+  },
+  {
+   "pmid": "26079532",
+   "source": "PMC4895368 full text (Europe PMC fullTextXML, OA)",
+   "local_text": "review2/ft/PMC4895368.txt",
+   "claim": "SDMA 能检出 <20% 的 GFR 下降，早于肌酐",
+   "ruling": "supported_with_qualifiers",
+   "reason": "Abstract and results support SDMA detecting decline earlier than sCr under every comparison method. With the ≥14 µg/dL cutoff, SDMA rose on average 4.8 wk before sCr cutoff and 4.1 wk before GFR<2, at ~8% GFR decrease (vs 48% for sCr cutoff). The first extractor's key_results row ('SDMA ≥14 same time or 1–3 wk later than creatinine') is a misreading: that sentence compares SDMA trending with the SDMA ≥14 cutoff, not SDMA with creatinine. Caveats: 'on average' (ranges include −6%), n=8 affected X-linked hereditary nephropathy male dogs, ≥14 cutoff exceeded 8 times in one unaffected littermate; ≥16 cutoff gave 3.4 wk earlier at ~16%. Fix key_results row.",
+   "key_results_fix": "SDMA≥14 vs SDMA 趋势法：趋势法同时（5 只）或晚 1–3 周（3 只）——这是 SDMA 两种判读方法之间的比较，不是与肌酐比较",
+   "proposed_zh": "在 8 只 X 连锁遗传性肾病公犬中，SDMA 平均在 GFR 下降不到 20% 时即升高，无论用哪种判读方法都早于血清肌酐；以 ≥14 μg/dL 为界，平均早于肌酐 4.8 周（此时 GFR 平均下降 8%，肌酐超界时为 48%），但该界值在一只健康同窝犬中也多次超出，改用 ≥16 μg/dL 仍平均早 3.4 周。",
+   "quotes": [
+    {
+     "location": "Abstract/Results",
+     "quote": "Although trending improved sC r's sensitivity, SDMA identified, on average, <20% decrease in GFR , which was earlier than sC r using any comparison method.",
+     "verbatim_whole_string": true
+    },
+    {
+     "location": "Results/Cutoffs",
+     "quote": "The SDMA cutoff was set at ≥14 μg/dL, based on an established reference interval in adult dogs 11 and concentrations observed in unaffected littermates.",
+     "verbatim_whole_string": true
+    },
+    {
+     "location": "Results/Cutoffs",
+     "quote": "Using these cutoff values, SDMA increased an average of 4.1 weeks earlier than the measured decrease in GFR and 4.8 weeks earlier than sCr (Fig. 2 ).",
+     "verbatim_whole_string": true
+    },
+    {
+     "location": "Results/Cutoffs",
+     "quote": "The sCr cutoff detected a 48% (range, 39–68%) decrease in GFR whereas the SDMA cutoff detected an 8% (range, −6–24%) decrease compared with unaffected littermates.",
+     "verbatim_whole_string": true
+    },
+    {
+     "location": "Results/Cutoffs",
+     "quote": "SDMA was frequently ≥14 μg/dL in unaffected littermates, exceeding the cutoff 8 times between 13 and 33 weeks of age in 1 dog (range, 11–15 μg/dL).",
+     "verbatim_whole_string": true
+    },
+    {
+     "location": "Results/Cutoffs",
+     "quote": "calculations also were performed using an SDMA cutoff ≥16 μg/dL, which identified decreased renal function 2.75 weeks earlier than GFR and 3.4 weeks earlier than sCr, corresponding to an average 16% (range, −6–35%) decrease in GFR compared with unaffected littermates.",
+     "verbatim_whole_string": true
+    },
+    {
+     "location": "Results/Trending",
+     "quote": "In contrast, SDMA increased at the same time (n = 5) or 1–3 weeks later (n = 3) when trending was compared with SDMA ≥ 14 μg/dL.",
+     "verbatim_whole_string": true
+    },
+    {
+     "location": "Results/Trending",
+     "quote": "Overall, increases were observed earlier when trending SDMA as compared with trending sCr (average, 2 weeks earlier), and the decrease in GFR detected was 14% (range, −6–26%) for SDMA vs. 27% (range, 5–49%) for sCr compared with corresponding unaffected littermate GFRs.",
+     "verbatim_whole_string": true
+    },
+    {
+     "location": "Results/Littermates",
+     "quote": "sCr and SDMA increased within 1 week of each other in all but 1 dog, in which SDMA increased 3 weeks earlier than sCr.",
+     "verbatim_whole_string": true
+    },
+    {
+     "location": "Discussion",
+     "quote": "In contrast, for SDMA, use of a cutoff detected decreasing renal function earlier than all other methods for sCr, SDMA, and GFR.",
+     "verbatim_whole_string": true
+    }
+   ]
+  }
+ ]
+}
