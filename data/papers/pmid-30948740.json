@@ -1,0 +1,50 @@
+{
+  "id": "pmid-30948740",
+  "specialty": "行为/认知",
+  "species": "猫",
+  "title": "Domestic cats (Felis catus) discriminate their names from other words.",
+  "first_author": "Saito A",
+  "year": "2019",
+  "journal": "Scientific reports",
+  "doi": "10.1038/s41598-019-40616-4",
+  "pmid": "30948740",
+  "source": "PubMed/Europe PMC",
+  "oa": "是",
+  "doc_type": "实验",
+  "recommendation_basis": "不适用",
+  "sample_size_analysed": "实验1-4: 11/6+9/21/20（猫）",
+  "multicenter": "否（日本单一地区）",
+  "funding": "未核",
+  "errata": "",
+  "internal_inconsistency": "作者讨论用\"理解\"，实验只测\"分辨\"",
+  "one_line_conclusion_zh": "猫能根据音素区分自己名字与其他词（只测分辨，未测理解）",
+  "clinical_utility": "背景",
+  "verified": "yes",
+  "japan_source": "是",
+  "cebm_question": "—",
+  "cebm_level": "不适用（基础/行为学研究，无临床问题）",
+  "cebm_basis": "",
+  "rob_tool": "SYRCLE",
+  "rob_judgement": "SYRCLE 不出总体判断",
+  "rob_rationale": "序列生成/分配隐藏：被试内设计（每只猫接受全部刺激），不适用；随机刺激顺序：有随机化，低；结局评估者盲法：行为由不知情评分员编码，低；不完整数据：部分猫因注意力丢失被剔除，不清楚；其他：每实验n≈16、单一国家家庭/猫咖啡馆样本，影响外推而非偏倚。",
+  "guideline_recommendation": "不适用",
+  "reporting_checklist": "ARRIVE 2.0",
+  "grade_certainty_topic": "",
+  "status": "已处理",
+  "provenance": [
+    "vibe-feline-v3",
+    "site-curated"
+  ],
+  "title_zh": "家猫能把自己的名字与其他词区分开",
+  "pmcid": "PMC6449508",
+  "date": "2019-04-04",
+  "detail": "saito_2019.md",
+  "errata_detail": [
+    {
+      "type": "更正",
+      "doi": "10.1038/s41598-019-46257-x",
+      "date": "2019-09",
+      "note": "仅改年龄、家庭数等笔误，结论不变"
+    }
+  ]
+}

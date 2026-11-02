@@ -1,0 +1,50 @@
+{
+  "id": "pmid-26474314",
+  "specialty": "肾脏",
+  "species": "猫",
+  "title": "Comparison of Efficacy of Long-term Oral Treatment with Telmisartan and Benazepril in Cats with Chronic Kidney Disease.",
+  "first_author": "Sent U",
+  "year": "2015",
+  "journal": "Journal of veterinary internal medicine",
+  "doi": "10.1111/jvim.13639",
+  "pmid": "26474314",
+  "source": "PubMed/Europe PMC",
+  "oa": "是",
+  "doc_type": "RCT",
+  "recommendation_basis": "不适用",
+  "sample_size_analysed": "随机224，疗效分析176（猫）",
+  "multicenter": "是（多国多中心）",
+  "funding": "Boehringer Ingelheim",
+  "errata": "27003463",
+  "internal_inconsistency": "表3贝那普利P值名义显著，但经Holm校正后不显著",
+  "one_line_conclusion_zh": "替米沙坦在降低CKD猫蛋白尿方面不劣于贝那普利，两药耐受性良好",
+  "clinical_utility": "提示性",
+  "verified": "yes",
+  "japan_source": "否",
+  "cebm_question": "治疗获益",
+  "cebm_level": "2",
+  "cebm_basis": "随机试验",
+  "rob_tool": "Cochrane RoB 2",
+  "rob_judgement": "Some concerns",
+  "rob_rationale": "D1随机：集中随机表，低；D2偏离干预：研究者设盲但剂型不同、主人未盲，主要终点为实验室UP/C故影响小；D3缺失数据：PPS排除约21%，但ITT结果一致，低；D4测量：UP/C客观指标，低；D5选择性报告：预设CI法，但讨论把组内显著当作组间优势，有些担忧。替代终点(UP/C)与厂商资助属间接性/利益冲突，不计入RoB 2领域。",
+  "guideline_recommendation": "不适用",
+  "reporting_checklist": "CONSORT 2010",
+  "grade_certainty_topic": "",
+  "status": "已处理",
+  "provenance": [
+    "vibe-feline-v3",
+    "site-curated"
+  ],
+  "detail": "sent_2015.md",
+  "errata_detail": [
+    {
+      "type": "更正",
+      "pmid": "27003463",
+      "note": "J Vet Intern Med 2016;30(2):689，补 Table 2 漏印数字，不影响结论"
+    }
+  ],
+  "internal_inconsistency_detail": [
+    "Table 3 贝那普利 Day 7/30/60 P=.040/.023/.046 单看显著，但正文称各时点均不显著——仅按 Bonferroni–Holm 逐步阈值解读才成立",
+    "正文称 4 只 IRIS 4 期猫，Table 2 显示 3+2=5 只"
+  ]
+}

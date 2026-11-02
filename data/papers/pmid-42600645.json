@@ -1,0 +1,29 @@
+{
+  "id": "pmid-42600645",
+  "pmid": "42600645",
+  "provenance": [
+    "site-curated"
+  ],
+  "source": "PubMed",
+  "verified": "partial",
+  "japan_source": "否",
+  "errata": "",
+  "internal_inconsistency": "",
+  "status": "待处理",
+  "title": "Medetomidine-vatinoxan (Zenalpha) results in reduction of systolic function, blood pressure, and heart rate with prolongation of electrocardiographic intervals in healthy dogs",
+  "title_zh": "美托咪定-瓦替诺散（Zenalpha）降低健康犬收缩功能、血压与心率并延长心电间期",
+  "first_author": "Forsyth KK",
+  "year": "2026",
+  "date": "2026-11-01",
+  "journal": "J Am Vet Med Assoc",
+  "doi": "10.2460/javma.26.03.0210",
+  "species": "犬",
+  "specialty": "麻醉",
+  "oa": "否",
+  "doc_type": "原始研究",
+  "recommendation_basis": "不适用",
+  "sample_size_analysed": "21（摘要）",
+  "multicenter": "未核",
+  "funding": "未核",
+  "clinical_utility": "提示性"
+}

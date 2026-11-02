@@ -1,0 +1,35 @@
+name: Daily ingest, build, deploy
+on:
+  schedule: [{cron: '30 10 * * *'}]   # 10:30 UTC daily
+  workflow_dispatch: {}
+  push: {branches: [main]}
+permissions: {contents: write, pages: write, id-token: write}
+concurrency: {group: pages, cancel-in-progress: false}
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - name: Ingest new papers (E-utilities)
+        if: github.event_name != 'push'
+        env: {NCBI_API_KEY: '${{ secrets.NCBI_API_KEY }}', NCBI_EMAIL: '${{ secrets.NCBI_EMAIL }}'}
+        run: python3 scripts/ingest.py
+      - name: Commit new data
+        if: github.event_name != 'push'
+        run: |
+          git config user.name "vetlit-bot"; git config user.email "vetlit-bot@users.noreply.github.com"
+          git add data/papers && (git diff --cached --quiet || (git commit -m "ingest: $(date -u +%F)" && git push))
+      - run: python3 build.py
+        env: {SITE_URL: 'https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}'}
+      - run: python3 scripts/check_links.py
+      - uses: actions/upload-pages-artifact@v3
+        with: {path: dist}
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment: {name: github-pages, url: '${{ steps.d.outputs.page_url }}'}
+    steps:
+      - id: d
+        uses: actions/deploy-pages@v4

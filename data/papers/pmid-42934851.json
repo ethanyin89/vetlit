@@ -1,0 +1,29 @@
+{
+  "id": "pmid-42934851",
+  "pmid": "42934851",
+  "provenance": [
+    "site-curated"
+  ],
+  "source": "PubMed",
+  "verified": "partial",
+  "japan_source": "否",
+  "errata": "",
+  "internal_inconsistency": "",
+  "status": "待处理",
+  "title": "Benefits of contrast-enhanced computed tomography over plain computed tomography for head trauma in 41 cats",
+  "title_zh": "增强 CT 相较平扫 CT 用于 41 只猫头部外伤的价值",
+  "first_author": "Mariaud V",
+  "year": "2026",
+  "date": "2026-10-26",
+  "journal": "J Feline Med Surg",
+  "doi": "10.1177/1098612x261502912",
+  "species": "猫",
+  "specialty": "影像/急诊",
+  "oa": "未核",
+  "doc_type": "原始研究",
+  "recommendation_basis": "不适用",
+  "sample_size_analysed": "41（题名）",
+  "multicenter": "未核",
+  "funding": "未核",
+  "clinical_utility": "提示性"
+}
