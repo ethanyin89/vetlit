@@ -1,0 +1,1229 @@
+{
+ "extractor": "independent second extractor (Vibe Feline-run, blind to deep extract)",
+ "date": "2026-11-02",
+ "n_papers": 27,
+ "papers": [
+  {
+   "pmid": null,
+   "title": "IRIS Staging of CKD (modified 2026)",
+   "evidence_basis": "fulltext: vetlit/iris_staging.txt (IRIS PDF)",
+   "species": "dog+cat",
+   "design": "guideline",
+   "sample_size": null,
+   "population": {
+    "value": "Dogs and cats diagnosed with CKD",
+    "quote": "Staging is undertaken following diagnosis of chronic kidney disease (CKD) to\nfacilitate appropriate treatment and monitoring of the canine or feline patient.",
+    "location": "p1"
+   },
+   "intervention_or_exposure": {
+    "value": "Staging by fasting blood creatinine and/or SDMA, substaged by proteinuria and blood pressure",
+    "quote": "Staging is based initially on fasting blood creatinine or fasting blood SDMA\nconcentration or (preferably) both",
+    "location": "p1"
+   },
+   "comparator": null,
+   "primary_outcome": null,
+   "one_sentence_conclusion": {
+    "value": "Staging by creatinine and/or SDMA on at least two occasions in a stable patient, then substage by proteinuria and BP",
+    "quote": "Staging is based initially on fasting blood creatinine or fasting blood SDMA\nconcentration or (preferably) both assessed on at least two occasions in a\nhydrated, stable patient.",
+    "location": "p1"
+   },
+   "key_numbers_primary": [
+    {
+     "value": "Cat stage 2 creatinine 1.6–2.8 mg/dl; SDMA 18–25",
+     "quote": "SDMA μg/dl",
+     "location": "p2 staging table"
+    }
+   ],
+   "primary_result_direction": "not applicable",
+   "funding": {
+    "value": "Not reported (IRIS Ltd, non-profit)",
+    "quote": "IRIS Ltd. is an independent non-profit organization",
+    "location": "p1 footer"
+   },
+   "funding_category": "not reported",
+   "coi_category": "not reported"
+  },
+  {
+   "pmid": "26936494",
+   "title": "ISFM CKD guidelines",
+   "evidence_basis": "abstract (full text not retrievable from Europe PMC/PMC)",
+   "species": "cat",
+   "design": "guideline",
+   "sample_size": null,
+   "population": {
+    "value": "Cats with CKD",
+    "quote": "is one of the most commonly diagnosed diseases in older cats",
+    "location": "Abstract (PubMed)"
+   },
+   "intervention_or_exposure": {
+    "value": "Diagnosis and management recommendations; evidence graded",
+    "quote": "graded the quality of evidence for different interventions",
+    "location": "Abstract (PubMed)"
+   },
+   "comparator": null,
+   "primary_outcome": null,
+   "one_sentence_conclusion": {
+    "value": "Independent panel provides practical advice on diagnosis and management of feline CKD",
+    "quote": "These ISFM Consensus Guidelines have been developed by an independent panel of clinicians and academics to provide practical advice on the diagnosis and management of this complex disease.",
+    "location": "Abstract (PubMed)"
+   },
+   "key_numbers_primary": [],
+   "primary_result_direction": "not applicable",
+   "funding": {
+    "value": "Not stated in abstract; authors' industry COIs declared",
+    "quote": "Jonathan Elliott has acted as a paid consultant",
+    "location": "Abstract (PubMed) COI statement"
+   },
+   "funding_category": "not reported",
+   "coi_category": "declared"
+  },
+  {
+   "pmid": "15954557",
+   "title": "ACVIM 2004 proteinuria consensus",
+   "evidence_basis": "abstract (no OA full text)",
+   "species": "dog+cat",
+   "design": "guideline",
+   "sample_size": null,
+   "population": {
+    "value": "Dogs and cats with proteinuria",
+    "quote": "specific recommendations for assessing and managing dogs and cats with proteinuria",
+    "location": "Abstract (PubMed)"
+   },
+   "intervention_or_exposure": {
+    "value": "Stepwise assessment/monitoring/treatment of persistent renal proteinuria",
+    "quote": "an escalating series of inclusive, stepwise responses",
+    "location": "Abstract (PubMed)"
+   },
+   "comparator": null,
+   "primary_outcome": null,
+   "one_sentence_conclusion": {
+    "value": "Urine protein testing should accompany comprehensive bloodwork; persistent renal proteinuria needs escalating stepwise response",
+    "quote": "urine testing that will detect proteinuria should be a component of the clinical evaluations of dogs and cats",
+    "location": "Abstract (PubMed)"
+   },
+   "key_numbers_primary": [],
+   "primary_result_direction": "not applicable",
+   "funding": {
+    "value": "Not reported in abstract",
+    "quote": null,
+    "location": "Abstract (PubMed)"
+   },
+   "funding_category": "not reported",
+   "coi_category": "not reported"
+  },
+  {
+   "pmid": "40110605",
+   "title": "Paricalcitol in dogs with CKD",
+   "evidence_basis": "fulltext: review2/ft/PMC11923454",
+   "species": "dog",
+   "design": "RCT",
+   "sample_size": 13,
+   "population": {
+    "value": "Dogs with naturally acquired CKD",
+    "quote": "Thirteen dogs with naturally acquired CKD",
+    "location": "Abstract (full text)"
+   },
+   "intervention_or_exposure": {
+    "value": "Paricalcitol 14 ng/kg/day, 12-week arm",
+    "quote": "paricalcitol (14 ng/kg/day) in a crossover design of 2, 12-week arms",
+    "location": "Abstract (full text)"
+   },
+   "comparator": {
+    "value": "Placebo (crossover)",
+    "quote": "Placebo-controlled clinical trial",
+    "location": "Abstract (full text)"
+   },
+   "primary_outcome": {
+    "value": "PTH (and proteinuria)",
+    "quote": "Paricalcitol decreases parathyroid hormone (PTH) and proteinuria",
+    "location": "Abstract (full text)"
+   },
+   "one_sentence_conclusion": {
+    "value": "Paricalcitol attenuated RHPT and stabilized proteinuria",
+    "quote": "Paricalcitol attenuated RHPT and stabilized renal proteinuria in dogs with CKD.",
+    "location": "Abstract (full text)"
+   },
+   "key_numbers_primary": [
+    {
+     "value": "PTH −22%/visit (95% CI 7–35%, p=0.006) vs placebo +18% (2–37%, p=0.022)",
+     "quote": "PTH decreased by 22% (95% CI, 7%-35%, p = 0.006) in the paricalcitol-treated dogs and increased by 18% (95% CI, 2%-37%, p = 0.022) in the placebo-treated dogs",
+     "location": "Abstract (full text)"
+    }
+   ],
+   "primary_result_direction": "significant benefit",
+   "funding": {
+    "value": "ECVIM-CA Clinical Studies Fund; Purina Institute Resident Research Award",
+    "quote": "This work was supported by the European College of Veterinary Internal Medicine",
+    "location": "Full text: Funding"
+   },
+   "funding_category": "mixed",
+   "coi_category": "none declared"
+  },
+  {
+   "pmid": "39417648",
+   "title": "AB070597 in CKD cats",
+   "evidence_basis": "fulltext: review2/ft/PMC11529093",
+   "species": "cat",
+   "design": "RCT",
+   "sample_size": 35,
+   "population": {
+    "value": "Cats with IRIS stage 2–3 CKD",
+    "quote": "IRIS) stage 2 or 3 cats",
+    "location": "Abstract (full text)"
+   },
+   "intervention_or_exposure": {
+    "value": "AB070597 300 mg, 180 days",
+    "quote": "300 mg of AB070597 or placebo for 180 days",
+    "location": "Abstract (full text)"
+   },
+   "comparator": {
+    "value": "Placebo",
+    "quote": "placebo",
+    "location": "Abstract (full text)"
+   },
+   "primary_outcome": {
+    "value": "BUN, creatinine, phosphorus, IRIS stage progression",
+    "quote": "Blood urea nitrogen (BUN), creatinine (Cre) and phosphorus levels increased significantly in the placebo group",
+    "location": "Abstract (full text)"
+   },
+   "one_sentence_conclusion": {
+    "value": "AB070597 may prevent CKD progression",
+    "quote": "The administration of AB070597 in cats with CKD may be effective in preventing CKD progression.",
+    "location": "Abstract (full text)"
+   },
+   "key_numbers_primary": [
+    {
+     "value": "Stage 2→3 progression in 26% placebo; within-group P<0.05 only",
+     "quote": "IRIS stage progressed from stage 2 to stage 3 in 26% of cats with placebo",
+     "location": "Abstract (full text)"
+    },
+    {
+     "value": "within-group P<0.05",
+     "quote": "BUN, Cre and phosphorus levels increased significantly at 180 days compared with those at baseline and 30 and 60 days in the placebo group (P <0.05)",
+     "location": "Full text: Results"
+    }
+   ],
+   "primary_result_direction": "significant benefit",
+   "funding": {
+    "value": "No financial support",
+    "quote": "The authors received no financial support for the research",
+    "location": "Full text: Footnotes/Funding"
+   },
+   "funding_category": "none",
+   "coi_category": "none declared"
+  },
+  {
+   "pmid": "38952053",
+   "title": "Dietary Mg in CKD cats",
+   "evidence_basis": "fulltext: review2/ft/PMC11256178",
+   "species": "cat",
+   "design": "RCT",
+   "sample_size": 60,
+   "population": {
+    "value": "Euthyroid client-owned cats with azotemic CKD on PRD",
+    "quote": "Sixty euthyroid client-owned cats with azotemic CKD",
+    "location": "Abstract (full text)"
+   },
+   "intervention_or_exposure": {
+    "value": "Magnesium-enriched PRD",
+    "quote": "27 and 33 allocated to magnesium-enriched PRD or control PRD",
+    "location": "Abstract (full text)"
+   },
+   "comparator": {
+    "value": "Control PRD",
+    "quote": "control PRD",
+    "location": "Abstract (full text)"
+   },
+   "primary_outcome": {
+    "value": "CKD-MBD variables (tMg, iCa, FGF23)",
+    "quote": "Evaluate effects of a magnesium-enriched phosphate-restricted diet (PRD) on CKD-mineral bone disorder (CKD-MBD) variables.",
+    "location": "Abstract (PubMed)"
+   },
+   "one_sentence_conclusion": {
+    "value": "Mg-enriched PRD stabilizes FGF23 and prevents hypercalcemia",
+    "quote": "Magnesium-enriched PRD is a novel therapeutic strategy for managing feline CKD-MBD in cats, further stabilizing plasma FGF23 and preventing hypercalcemia.",
+    "location": "Abstract (full text)"
+   },
+   "key_numbers_primary": [
+    {
+     "value": "tMg β 0.25±0.07 mg/dL/month, P<.001",
+     "quote": "β, 0.25 ± .07 mg/dL/month; P < .001",
+     "location": "Abstract (PubMed)"
+    },
+    {
+     "value": "FGF23 controls β 0.14, P=.01; Mg group P=.37",
+     "quote": "0.14 ± .05 pg/mL/month; P = .01",
+     "location": "Abstract (PubMed)"
+    }
+   ],
+   "primary_result_direction": "significant benefit",
+   "funding": {
+    "value": "Royal Canin SAS grant",
+    "quote": "Funding provided by a grant from Royal Canin SAS",
+    "location": "Full text: Acknowledgment"
+   },
+   "funding_category": "industry",
+   "coi_category": "declared"
+  },
+  {
+   "pmid": "26948860",
+   "title": "Risk factors for CKD in cats",
+   "evidence_basis": "fulltext: Europe PMC PMC4864943",
+   "species": "cat",
+   "design": "cohort",
+   "sample_size": 148,
+   "population": {
+    "value": "Client-owned geriatric (>9 y) cats",
+    "quote": "One hundred and forty-eight client-owned geriatric (>9 years) cats.",
+    "location": "Abstract (full text)"
+   },
+   "intervention_or_exposure": {
+    "value": "Exposures: vaccination frequency, dental disease, etc.",
+    "quote": "annual/frequent vaccination",
+    "location": "Abstract (full text)"
+   },
+   "comparator": null,
+   "primary_outcome": {
+    "value": "Development of azotemic CKD",
+    "quote": "predicted development of azotemic CKD",
+    "location": "Abstract (full text)"
+   },
+   "one_sentence_conclusion": {
+    "value": "Vaccination frequency and dental disease severity independently associated with CKD",
+    "quote": "Our study suggests independent associations between both vaccination frequency and severity of dental disease and development of CKD.",
+    "location": "Abstract (full text)"
+   },
+   "key_numbers_primary": [
+    {
+     "value": "Vaccination HR 5.68 (1.83–17.64) P=.003; severe dental HR 35.35",
+     "quote": "hazard ratio, 5.68; 95% confidence interval, 1.83-17.64",
+     "location": "Abstract (full text)"
+    }
+   ],
+   "primary_result_direction": "significant association",
+   "funding": {
+    "value": "Royal Canin; publication by Wellcome Trust",
+    "quote": "It was supported by funding from Royal Canin.",
+    "location": "Full text: Acknowledgments"
+   },
+   "funding_category": "industry",
+   "coi_category": "none declared"
+  },
+  {
+   "pmid": "26474314",
+   "title": "Telmisartan vs benazepril cats",
+   "evidence_basis": "fulltext: review2/ft/PMC4895689",
+   "species": "cat",
+   "design": "RCT",
+   "sample_size": 224,
+   "population": {
+    "value": "Client-owned adult cats with CKD",
+    "quote": "Two‐hundred and twenty‐four client‐owned adult cats with CKD.",
+    "location": "Full text: Abstract"
+   },
+   "intervention_or_exposure": {
+    "value": "Telmisartan 1 mg/kg q24h",
+    "quote": "telmisartan (1 mg/kg; n = 112)",
+    "location": "Full text: Abstract"
+   },
+   "comparator": {
+    "value": "Benazepril 0.5–1.0 mg/kg",
+    "quote": "benazepril (0.5–1.0 mg/kg; n = 112)",
+    "location": "Full text: Abstract"
+   },
+   "primary_outcome": {
+    "value": "Change in UP/C (noninferiority)",
+    "quote": "The primary endpoint was prospectively defined as the change in proteinuria",
+    "location": "Full text: Abstract"
+   },
+   "one_sentence_conclusion": {
+    "value": "Telmisartan noninferior to benazepril for proteinuria",
+    "quote": "Telmisartan proved to be noninferior to benazepril and significantly decreased proteinuria relative to baseline at all assessment points whereas benazepril did not.",
+    "location": "Full text: Abstract"
+   },
+   "key_numbers_primary": [
+    {
+     "value": "Noninferiority CI −0.035 to 0.268",
+     "quote": "Telmisartan proved noninferior to benazepril in controlling proteinuria (CI, −0.035 to 0.268).",
+     "location": "Full text: Abstract"
+    }
+   ],
+   "primary_result_direction": "noninferior",
+   "funding": {
+    "value": "Boehringer Ingelheim Vetmedica",
+    "quote": "This project was funded by Boehringer Ingelheim Vetmedica GmbH",
+    "location": "Full text: Conflict of Interest Declaration"
+   },
+   "funding_category": "industry",
+   "coi_category": "declared"
+  },
+  {
+   "pmid": "23838205",
+   "title": "Mirtazapine cats CKD",
+   "evidence_basis": "abstract (no OA full text)",
+   "species": "cat",
+   "design": "RCT",
+   "sample_size": 11,
+   "population": {
+    "value": "Cats with stable CKD",
+    "quote": "Eleven cats with stable CKD",
+    "location": "Abstract (PubMed)"
+   },
+   "intervention_or_exposure": {
+    "value": "Mirtazapine 1.88 mg PO q48h, 3 wk",
+    "quote": "1.88 mg mirtazapine or placebo orally every other day for 3 weeks",
+    "location": "Abstract (PubMed)"
+   },
+   "comparator": {
+    "value": "Placebo (crossover)",
+    "quote": "placebo-controlled, double-masked crossover",
+    "location": "Abstract (PubMed)"
+   },
+   "primary_outcome": {
+    "value": "Bodyweight, appetite, vomiting",
+    "quote": "evaluate the effects of mirtazapine on bodyweight, appetite and vomiting",
+    "location": "Abstract (PubMed)"
+   },
+   "one_sentence_conclusion": {
+    "value": "Mirtazapine is an effective appetite stimulant/anti-emetic",
+    "quote": "Mirtazapine is an effective appetite stimulant and anti-emetic for cats with CKD",
+    "location": "Abstract (PubMed)"
+   },
+   "key_numbers_primary": [
+    {
+     "value": "Weight gain P=0.002",
+     "quote": "gained significant bodyweight compared with placebo-treated cats (P=0.002)",
+     "location": "Abstract (PubMed)"
+    }
+   ],
+   "primary_result_direction": "significant benefit",
+   "funding": {
+    "value": "Not reported in abstract",
+    "quote": null,
+    "location": "Abstract (PubMed)"
+   },
+   "funding_category": "not reported",
+   "coi_category": "not reported"
+  },
+  {
+   "pmid": "16978113",
+   "title": "Renal diet cats (Ross 2006)",
+   "evidence_basis": "abstract (no OA full text)",
+   "species": "cat",
+   "design": "RCT",
+   "sample_size": 45,
+   "population": {
+    "value": "Client-owned cats with stage 2–3 CKD",
+    "quote": "45 client-owned cats with spontaneous stage 2 or 3 CKD",
+    "location": "Abstract (PubMed)"
+   },
+   "intervention_or_exposure": {
+    "value": "Renal diet",
+    "quote": "renal diet (22)",
+    "location": "Abstract (PubMed)"
+   },
+   "comparator": {
+    "value": "Adult maintenance diet",
+    "quote": "adult maintenance diet (n = 23 cats)",
+    "location": "Abstract (PubMed)"
+   },
+   "primary_outcome": {
+    "value": "Uremic episodes, renal deaths",
+    "quote": "minimizing uremic episodes and mortality rate",
+    "location": "Abstract (PubMed)"
+   },
+   "one_sentence_conclusion": {
+    "value": "Renal diet superior in minimizing uremic episodes and renal deaths",
+    "quote": "The renal diet evaluated in this study was superior to an adult maintenance diet in minimizing uremic episodes and renalrelated deaths",
+    "location": "Abstract (PubMed)"
+   },
+   "key_numbers_primary": [
+    {
+     "value": "Uremic episodes 26% vs 0%",
+     "quote": "had uremic episodes (26%), compared with cats fed the renal diet (0%)",
+     "location": "Abstract (PubMed)"
+    }
+   ],
+   "primary_result_direction": "significant benefit",
+   "funding": {
+    "value": "Not reported in abstract",
+    "quote": null,
+    "location": "Abstract (PubMed)"
+   },
+   "funding_category": "not reported",
+   "coi_category": "not reported"
+  },
+  {
+   "pmid": "17063696",
+   "title": "Benazepril cats CKD (BENRIC)",
+   "evidence_basis": "abstract (no OA full text)",
+   "species": "cat",
+   "design": "RCT",
+   "sample_size": 192,
+   "population": {
+    "value": "Cats with CKD, creatinine ≥2 mg/dL, USG ≤1.025",
+    "quote": "192 cats with CKD",
+    "location": "Abstract (PubMed)"
+   },
+   "intervention_or_exposure": {
+    "value": "Benazepril 0.5–1.0 mg/kg q24h",
+    "quote": "benazepril x HCl at a dosage of 0.5-1.0 mg/kg (n = 96)",
+    "location": "Abstract (PubMed)"
+   },
+   "comparator": {
+    "value": "Placebo",
+    "quote": "placebo (n = 96)",
+    "location": "Abstract (PubMed)"
+   },
+   "primary_outcome": {
+    "value": "Proteinuria (UPC); renal survival",
+    "quote": "no difference in renal survival time",
+    "location": "Abstract (PubMed)"
+   },
+   "one_sentence_conclusion": {
+    "value": "Benazepril decreased proteinuria (no renal survival difference)",
+    "quote": "In conclusion, benazepril decreased proteinuria in cats with CKD.",
+    "location": "Abstract (PubMed)"
+   },
+   "key_numbers_primary": [
+    {
+     "value": "UPC P=.005; renal survival 637 vs 520 d, P=.47",
+     "quote": "Mean +/- SD renal survival times were 637 +/- 480 days with benazepril and 520 +/- 323 days with placebo (P = .47)",
+     "location": "Abstract (PubMed)"
+    }
+   ],
+   "primary_result_direction": "mixed",
+   "funding": {
+    "value": "Not reported in abstract; first author Novartis Animal Health",
+    "quote": null,
+    "location": "Abstract (PubMed)"
+   },
+   "funding_category": "not reported",
+   "coi_category": "not reported"
+  },
+  {
+   "pmid": "15702689",
+   "title": "Proteinuria and outcome dogs CRF",
+   "evidence_basis": "abstract (no OA full text)",
+   "species": "dog",
+   "design": "cohort",
+   "sample_size": 45,
+   "population": {
+    "value": "Dogs with CRF",
+    "quote": "45 dogs with CRF",
+    "location": "Abstract (PubMed)"
+   },
+   "intervention_or_exposure": {
+    "value": "Initial UP:C ≥1.0",
+    "quote": "initial UP:C < 1.0 or 2 > or = 1.0",
+    "location": "Abstract (PubMed)"
+   },
+   "comparator": {
+    "value": "UP:C <1.0",
+    "quote": "dogs with UP:C < 1.0",
+    "location": "Abstract (PubMed)"
+   },
+   "primary_outcome": {
+    "value": "Uremic crises, death, progression",
+    "quote": "uremic crises, death, and progression of renal failure",
+    "location": "Abstract (PubMed)"
+   },
+   "one_sentence_conclusion": {
+    "value": "UP:C ≥1.0 associated with greater risk of uremic crises and death",
+    "quote": "Initial UP:C > or =1.0 in dogs with CRF was associated with greater risk of development of uremic crises and death",
+    "location": "Abstract (PubMed)"
+   },
+   "key_numbers_primary": [
+    {
+     "value": "RR ≈3; ≈1.5 per unit UP:C (no CI/P in abstract)",
+     "quote": "Relative risks of development of uremic crises and death were approximately 3 times higher",
+     "location": "Abstract (PubMed)"
+    }
+   ],
+   "primary_result_direction": "significant association",
+   "funding": {
+    "value": "Not reported in abstract",
+    "quote": null,
+    "location": "Abstract (PubMed)"
+   },
+   "funding_category": "not reported",
+   "coi_category": "not reported"
+  },
+  {
+   "pmid": "11990962",
+   "title": "Renal diet dogs (Jacob 2002)",
+   "evidence_basis": "abstract (no OA full text)",
+   "species": "dog",
+   "design": "RCT",
+   "sample_size": 38,
+   "population": {
+    "value": "Dogs with spontaneous CRF",
+    "quote": "38 dogs with spontaneous chronic renal failure",
+    "location": "Abstract (PubMed)"
+   },
+   "intervention_or_exposure": {
+    "value": "Renal food",
+    "quote": "renal food [RF]",
+    "location": "Abstract (PubMed)"
+   },
+   "comparator": {
+    "value": "Adult maintenance food",
+    "quote": "adult maintenance food (MF)",
+    "location": "Abstract (PubMed)"
+   },
+   "primary_outcome": {
+    "value": "Uremic crises and mortality",
+    "quote": "minimizing uremic crises and mortality rate",
+    "location": "Abstract (PubMed)"
+   },
+   "one_sentence_conclusion": {
+    "value": "Dietary modification minimizes uremia and mortality in mild–moderate CRF",
+    "quote": "Dietary modifications are beneficial in minimizing extrarenal manifestations of uremia and mortality rate in dogs with mild and moderate spontaneous chronic renal failure.",
+    "location": "Abstract (PubMed)"
+   },
+   "key_numbers_primary": [],
+   "primary_result_direction": "significant benefit",
+   "funding": {
+    "value": "Not reported in abstract",
+    "quote": null,
+    "location": "Abstract (PubMed)"
+   },
+   "funding_category": "not reported",
+   "coi_category": "not reported"
+  },
+  {
+   "pmid": "42207576",
+   "title": "Ammonia excretion dogs CKD",
+   "evidence_basis": "fulltext: Europe PMC PMC13218285",
+   "species": "dog",
+   "design": "cohort",
+   "sample_size": 50,
+   "population": {
+    "value": "Dogs with IRIS II–IV CKD on renal diet",
+    "quote": "Fifty client-owned dogs with International Renal Interest Society (IRIS) stages II-IV CKD",
+    "location": "Abstract (PubMed)"
+   },
+   "intervention_or_exposure": {
+    "value": "UACR <2.0",
+    "quote": "UACR < 2.0",
+    "location": "Abstract (PubMed)"
+   },
+   "comparator": {
+    "value": "UACR ≥2.0",
+    "quote": "or ≥ 2.0",
+    "location": "Abstract (PubMed)"
+   },
+   "primary_outcome": {
+    "value": "Survival and CKD progression",
+    "quote": "Associations with survival and CKD progression",
+    "location": "Abstract (PubMed)"
+   },
+   "one_sentence_conclusion": {
+    "value": "Lower UACR associated with higher fatality and faster progression",
+    "quote": "Lower UACR (<2.0) was associated with higher case fatality and faster disease progression in dogs with azotemic CKD.",
+    "location": "Abstract (PubMed)"
+   },
+   "key_numbers_primary": [
+    {
+     "value": "HR death 3.045 (1.372–7.102); median survival 189 vs 445 d P=.008",
+     "quote": "HR 3.045; 95% CI, 1.372-7.102",
+     "location": "Abstract (PubMed)"
+    }
+   ],
+   "primary_result_direction": "significant association",
+   "funding": {
+    "value": "AKC Canine Health Foundation",
+    "quote": "Funding American Kennel Club Canine Health Foundation",
+    "location": "Full text: Funding"
+   },
+   "funding_category": "non-industry",
+   "coi_category": "none declared"
+  },
+  {
+   "pmid": "25231385",
+   "title": "SDMA vs creatinine cats",
+   "evidence_basis": "fulltext: Europe PMC PMC4895610",
+   "species": "cat",
+   "design": "diagnostic",
+   "sample_size": 42,
+   "population": {
+    "value": "21 CKD cats + 21 healthy geriatric colony cats",
+    "quote": "Healthy geriatric cats (n = 21) were selected from the same colony.",
+    "location": "Abstract (PubMed)"
+   },
+   "intervention_or_exposure": {
+    "value": "Serum SDMA",
+    "quote": "Serum SDMA",
+    "location": "Abstract (PubMed)"
+   },
+   "comparator": {
+    "value": "Serum creatinine",
+    "quote": "sCr",
+    "location": "Abstract (PubMed)"
+   },
+   "primary_outcome": {
+    "value": "Earlier detection / diagnostic accuracy",
+    "quote": "Symmetric dimethylarginine became increased before sCr in 17/21 cats",
+    "location": "Abstract (PubMed)"
+   },
+   "one_sentence_conclusion": {
+    "value": "SDMA allows earlier detection of CKD than sCr",
+    "quote": "Using serum SDMA as a biomarker for CKD allows earlier detection of CKD in cats compared with sCr",
+    "location": "Abstract (PubMed)"
+   },
+   "key_numbers_primary": [
+    {
+     "value": "Earlier in 17/21 (mean 17.0 mo); Se 100% vs 17%, Sp 91% vs 100%",
+     "quote": "Serum SDMA had higher sensitivity (100%) compared with sCr (17%), but lower specificity (91% versus 100%)",
+     "location": "Abstract (PubMed)"
+    }
+   ],
+   "primary_result_direction": "significant association",
+   "funding": {
+    "value": "Hill's Pet Nutrition",
+    "quote": "The work was funded by and performed at the Pet Nutrition Center, Hill's Pet Nutrition, Inc.",
+    "location": "Full text: front matter/COI"
+   },
+   "funding_category": "industry",
+   "coi_category": "declared"
+  },
+  {
+   "pmid": "24217707",
+   "title": "CKD prevalence cats + DJD",
+   "evidence_basis": "abstract (Europe PMC full text HTTP 500; PMC body unavailable)",
+   "species": "cat",
+   "design": "cross-sectional",
+   "sample_size": null,
+   "population": {
+    "value": "Randomly selected cats across 4 age groups + DJD study cats",
+    "quote": "cats randomly selected from four evenly distributed age groups (RS group)",
+    "location": "Abstract (PubMed)"
+   },
+   "intervention_or_exposure": null,
+   "comparator": null,
+   "primary_outcome": {
+    "value": "CKD prevalence; CKD–DJD concurrence",
+    "quote": "The prevalence of CKD in the RS and DJD groups was higher than expected at 50% and 68.8%",
+    "location": "Abstract (PubMed)"
+   },
+   "one_sentence_conclusion": {
+    "value": "CKD highly prevalent and concurrent with DJD; screen for CKD",
+    "quote": "We found significant concurrence between CKD and DJD in cats of all ages",
+    "location": "Abstract (PubMed)"
+   },
+   "key_numbers_primary": [
+    {
+     "value": "Prevalence 50% and 68.8%",
+     "quote": "at 50% and 68.8%, respectively",
+     "location": "Abstract (PubMed)"
+    }
+   ],
+   "primary_result_direction": "descriptive",
+   "funding": {
+    "value": "Sponsors not named in abstract; COI declared",
+    "quote": "BDXL has received honoraria for sponsored CE",
+    "location": "Abstract (PubMed) COI statement"
+   },
+   "funding_category": "not reported",
+   "coi_category": "declared"
+  },
+  {
+   "pmid": "23647231",
+   "title": "CKD in dogs UK practices",
+   "evidence_basis": "abstract (no OA full text)",
+   "species": "dog",
+   "design": "cohort",
+   "sample_size": 107214,
+   "population": {
+    "value": "Dogs attending 89 UK practices",
+    "quote": "107,214 dogs attending 89 UK veterinary practices",
+    "location": "Abstract (PubMed)"
+   },
+   "intervention_or_exposure": null,
+   "comparator": null,
+   "primary_outcome": {
+    "value": "Prevalence, risk factors, survival",
+    "quote": "The CKD AP was 0.21% (95% CI: 0.19-0.24%)",
+    "location": "Abstract (PubMed)"
+   },
+   "one_sentence_conclusion": {
+    "value": "Awareness of risk factors and biochemistry–survival association should improve management",
+    "quote": "Increased awareness of CKD risk factors and association of blood biochemistry results with survival time should facilitate diagnosis",
+    "location": "Abstract (PubMed)"
+   },
+   "key_numbers_primary": [
+    {
+     "value": "AP 0.21% (0.19–0.24%); median survival 226 d",
+     "quote": "The median survival time from diagnosis was 226 days (95% CI 112-326 days).",
+     "location": "Abstract (PubMed)"
+    }
+   ],
+   "primary_result_direction": "descriptive",
+   "funding": {
+    "value": "Not reported in abstract",
+    "quote": null,
+    "location": "Abstract (PubMed)"
+   },
+   "funding_category": "not reported",
+   "coi_category": "not reported"
+  },
+  {
+   "pmid": "22269057",
+   "title": "Predictors of azotemia progression cats",
+   "evidence_basis": "abstract (no OA full text)",
+   "species": "cat",
+   "design": "cohort",
+   "sample_size": 213,
+   "population": {
+    "value": "Newly diagnosed azotemic cats",
+    "quote": "A total of 213 cats with CKD",
+    "location": "Abstract (PubMed)"
+   },
+   "intervention_or_exposure": {
+    "value": "Baseline clinicopathological variables",
+    "quote": "High plasma phosphate concentration and high urine protein-to-creatinine ratio (UPC) predicted progression",
+    "location": "Abstract (PubMed)"
+   },
+   "comparator": null,
+   "primary_outcome": {
+    "value": "Progression (≥25% creatinine rise) within 1 y",
+    "quote": "Progression was defined as a 25% increase in plasma creatinine concentration.",
+    "location": "Abstract (PubMed)"
+   },
+   "one_sentence_conclusion": {
+    "value": "Proteinuria, anemia, hyperphosphatemia may reflect more progressive disease",
+    "quote": "Proteinuria, anemia, and hyperphosphatemia may reflect more progressive kidney disease.",
+    "location": "Abstract (PubMed)"
+   },
+   "key_numbers_primary": [
+    {
+     "value": "47% progressed in 1 y (no OR/CI in abstract)",
+     "quote": "Of the cats, 47% (101) progressed within 1 year of diagnosis.",
+     "location": "Abstract (PubMed)"
+    }
+   ],
+   "primary_result_direction": "significant association",
+   "funding": {
+    "value": "Not reported in abstract",
+    "quote": null,
+    "location": "Abstract (PubMed)"
+   },
+   "funding_category": "not reported",
+   "coi_category": "not reported"
+  },
+  {
+   "pmid": "18691369",
+   "title": "Survival cats CKD 2000-2002",
+   "evidence_basis": "abstract (no OA full text)",
+   "species": "cat",
+   "design": "cohort",
+   "sample_size": 211,
+   "population": {
+    "value": "Client-owned cats with naturally occurring CKD",
+    "quote": "Two hundred and eleven client-owned cats with naturally occurring CKD",
+    "location": "Abstract (PubMed)"
+   },
+   "intervention_or_exposure": {
+    "value": "IRIS stage at diagnosis",
+    "quote": "IRIS stage of CKD based on serum creatinine",
+    "location": "Abstract (PubMed)"
+   },
+   "comparator": null,
+   "primary_outcome": {
+    "value": "Survival",
+    "quote": "survival times",
+    "location": "Abstract (PubMed)"
+   },
+   "one_sentence_conclusion": {
+    "value": "IRIS stage at diagnosis strongly predicts survival",
+    "quote": "IRIS stage of CKD based on serum creatinine at the time of diagnosis is strongly predictive of survival",
+    "location": "Abstract (PubMed)"
+   },
+   "key_numbers_primary": [
+    {
+     "value": "Median 1151 vs 778 vs 103 d, P<.0001",
+     "quote": "Median survival for cats in IRIS stage IIb at the time of diagnosis was 1,151 days",
+     "location": "Abstract (PubMed)"
+    }
+   ],
+   "primary_result_direction": "significant association",
+   "funding": {
+    "value": "Not reported in abstract",
+    "quote": null,
+    "location": "Abstract (PubMed)"
+   },
+   "funding_category": "not reported",
+   "coi_category": "not reported"
+  },
+  {
+   "pmid": "17939542",
+   "title": "Prognostic factors cats CKD",
+   "evidence_basis": "abstract (no OA full text)",
+   "species": "cat",
+   "design": "cohort",
+   "sample_size": 95,
+   "population": {
+    "value": "Placebo-group cats from benazepril trial",
+    "quote": "their influence on renal survival time in the placebo group (95 cats)",
+    "location": "Abstract (PubMed)"
+   },
+   "intervention_or_exposure": {
+    "value": "Baseline variables",
+    "quote": "Increased plasma creatinine concentration, increased urine protein-to-creatinine ratio",
+    "location": "Abstract (PubMed)"
+   },
+   "comparator": null,
+   "primary_outcome": {
+    "value": "Renal survival time",
+    "quote": "Renal survival time was defined",
+    "location": "Abstract (PubMed)"
+   },
+   "one_sentence_conclusion": {
+    "value": "Several variables associated with shorter renal survival",
+    "quote": "Several variables were significantly associated with a shorter renal survival time in cats with CKD.",
+    "location": "Abstract (PubMed)"
+   },
+   "key_numbers_primary": [
+    {
+     "value": "P<.01 (no HR in abstract)",
+     "quote": "were significantly (P < .01) associated with a shorter renal survival time",
+     "location": "Abstract (PubMed)"
+    }
+   ],
+   "primary_result_direction": "significant association",
+   "funding": {
+    "value": "Not reported in abstract; first author Novartis",
+    "quote": null,
+    "location": "Abstract (PubMed)"
+   },
+   "funding_category": "not reported",
+   "coi_category": "not reported"
+  },
+  {
+   "pmid": "16734085",
+   "title": "Proteinuria and survival cats (Syme 2006)",
+   "evidence_basis": "abstract (no OA full text)",
+   "species": "cat",
+   "design": "cohort",
+   "sample_size": 136,
+   "population": {
+    "value": "Client-owned cats, normal/hypertensive/azotemic",
+    "quote": "The study included 136 client-owned cats",
+    "location": "Abstract (PubMed)"
+   },
+   "intervention_or_exposure": {
+    "value": "UPC 0.2–0.4 and >0.4",
+    "quote": "urine protein-to-creatinine ratio 0.2-0.4 and >0.4",
+    "location": "Abstract (PubMed)"
+   },
+   "comparator": {
+    "value": "UPC <0.2",
+    "quote": "baseline group with a urine protein-to-creatinine ratio of <0.2",
+    "location": "Abstract (PubMed)"
+   },
+   "primary_outcome": {
+    "value": "Death or euthanasia",
+    "quote": "risk of death or euthanasia",
+    "location": "Abstract (PubMed)"
+   },
+   "one_sentence_conclusion": {
+    "value": "Proteinuria is prognostic despite low magnitude",
+    "quote": "this measurement is of prognostic significance",
+    "location": "Abstract (PubMed)"
+   },
+   "key_numbers_primary": [
+    {
+     "value": "HR 2.9 (1.4–6.3) and 4.0 (2.0–8.0)",
+     "quote": "2.9 (1.4-6.3) and 4.0 (2.0-8.0)",
+     "location": "Abstract (PubMed)"
+    }
+   ],
+   "primary_result_direction": "significant association",
+   "funding": {
+    "value": "Not reported in abstract",
+    "quote": null,
+    "location": "Abstract (PubMed)"
+   },
+   "funding_category": "not reported",
+   "coi_category": "not reported"
+  },
+  {
+   "pmid": "10879400",
+   "title": "Diet and survival cats CRF (Elliott 2000)",
+   "evidence_basis": "abstract (no OA full text)",
+   "species": "cat",
+   "design": "cohort",
+   "sample_size": 50,
+   "population": {
+    "value": "Cats with stable CRF",
+    "quote": "Fifty cats with naturally occurring stable chronic renal failure",
+    "location": "Abstract (PubMed)"
+   },
+   "intervention_or_exposure": {
+    "value": "Renal diet (accepted, n=29)",
+    "quote": "Twenty-nine cats accepted the veterinary diet",
+    "location": "Abstract (PubMed)"
+   },
+   "comparator": {
+    "value": "Non-compliant cats (n=21)",
+    "quote": "compliance (due to limited intake by the cats or owner resistance to diet change) was not achieved in the remaining 21",
+    "location": "Abstract (PubMed)"
+   },
+   "primary_outcome": {
+    "value": "Survival",
+    "quote": "median survival times of 633 versus 264 days",
+    "location": "Abstract (PubMed)"
+   },
+   "one_sentence_conclusion": {
+    "value": "Renal diet controls hyperphosphataemia/RHPT and is associated with longer survival",
+    "quote": "is associated with an increased survival time",
+    "location": "Abstract (PubMed)"
+   },
+   "key_numbers_primary": [
+    {
+     "value": "Median survival 633 vs 264 d (no P in abstract)",
+     "quote": "median survival times of 633 versus 264 days",
+     "location": "Abstract (PubMed)"
+    }
+   ],
+   "primary_result_direction": "significant benefit",
+   "funding": {
+    "value": "Not reported in abstract",
+    "quote": null,
+    "location": "Abstract (PubMed)"
+   },
+   "funding_category": "not reported",
+   "coi_category": "not reported"
+  },
+  {
+   "pmid": "27103204",
+   "title": "SDMA dogs necropsy CKD",
+   "evidence_basis": "fulltext: Europe PMC PMC4913574",
+   "species": "dog",
+   "design": "diagnostic",
+   "sample_size": 39,
+   "population": {
+    "value": "19 necropsy-confirmed CKD dogs + 20 controls",
+    "quote": "CKD dogs were compared with healthy control dogs (n = 20).",
+    "location": "Abstract (PubMed)"
+   },
+   "intervention_or_exposure": {
+    "value": "Serum SDMA",
+    "quote": "serum SDMA concentrations were determined by liquid chromatography-mass spectrometry",
+    "location": "Abstract (PubMed)"
+   },
+   "comparator": {
+    "value": "Serum creatinine",
+    "quote": "serum Cr",
+    "location": "Abstract (PubMed)"
+   },
+   "primary_outcome": {
+    "value": "Earlier detection",
+    "quote": "Serum SDMA increased before serum Cr in 17 of 19 dogs",
+    "location": "Abstract (PubMed)"
+   },
+   "one_sentence_conclusion": {
+    "value": "SDMA allows earlier detection than creatinine",
+    "quote": "Using serum SDMA as a biomarker for CKD allows earlier detection of kidney dysfunction in dogs than does measurement of serum Cr.",
+    "location": "Abstract (PubMed)"
+   },
+   "key_numbers_primary": [
+    {
+     "value": "17/19 earlier, mean 9.8 mo; r=0.84 P<.001",
+     "quote": "(mean, 9.8 months; range, 2.2-27.0 months)",
+     "location": "Abstract (PubMed)"
+    }
+   ],
+   "primary_result_direction": "significant association",
+   "funding": {
+    "value": "Hill's Pet Nutrition",
+    "quote": "The work presented in this study was funded by and performed at the Pet Nutrition Center, Hill's Pet Nutrition",
+    "location": "Full text: COI declaration"
+   },
+   "funding_category": "industry",
+   "coi_category": "declared"
+  },
+  {
+   "pmid": "26079532",
+   "title": "SDMA assay XLHN dogs",
+   "evidence_basis": "fulltext: Europe PMC PMC4895368",
+   "species": "dog",
+   "design": "diagnostic",
+   "sample_size": 12,
+   "population": {
+    "value": "8 XLHN-affected male dogs + 4 littermates",
+    "quote": "Eight male dogs affected with X-linked hereditary nephropathy and 4 unaffected male littermates.",
+    "location": "Abstract (PubMed)"
+   },
+   "intervention_or_exposure": {
+    "value": "SDMA",
+    "quote": "SDMA",
+    "location": "Abstract (PubMed)"
+   },
+   "comparator": {
+    "value": "sCr, GFR (iohexol)",
+    "quote": "sCr, SDMA, and GFR (using iohexol clearance)",
+    "location": "Abstract (PubMed)"
+   },
+   "primary_outcome": {
+    "value": "Early detection of decreased GFR",
+    "quote": "early detection of decreasing kidney function",
+    "location": "Abstract (PubMed)"
+   },
+   "one_sentence_conclusion": {
+    "value": "SDMA useful for early identification and monitoring",
+    "quote": "Symmetric dimethylarginine is useful for both early identification and monitoring of decreased renal function in dogs with CKD.",
+    "location": "Abstract (PubMed)"
+   },
+   "key_numbers_primary": [
+    {
+     "value": "r=0.95 with sCr, −0.95 with GFR; detects <20% GFR loss",
+     "quote": "correlating strongly with an increase in sCr (r = 0.95) and decrease in GFR (r = -0.95)",
+     "location": "Abstract (PubMed)"
+    }
+   ],
+   "primary_result_direction": "significant association",
+   "funding": {
+    "value": "IDEXX Laboratories",
+    "quote": "Funding support for the study was provided by IDEXX Laboratories Inc.",
+    "location": "Full text: Grant Support"
+   },
+   "funding_category": "industry",
+   "coi_category": "declared"
+  },
+  {
+   "pmid": "41701235",
+   "title": "UPC meta-analysis dogs",
+   "evidence_basis": "abstract (no OA full text)",
+   "species": "dog",
+   "design": "systematic review/meta-analysis",
+   "sample_size": 891,
+   "population": {
+    "value": "Dogs with CKD vs healthy (9 studies)",
+    "quote": "Nine studies, with a total of 891 dogs",
+    "location": "Abstract (PubMed)"
+   },
+   "intervention_or_exposure": {
+    "value": "UPC ratio",
+    "quote": "urine protein to creatinine (UPC) ratio",
+    "location": "Abstract (PubMed)"
+   },
+   "comparator": {
+    "value": "Healthy controls",
+    "quote": "348 were healthy control",
+    "location": "Abstract (PubMed)"
+   },
+   "primary_outcome": {
+    "value": "Diagnostic value (SMD/OR)",
+    "quote": "Standardized mean difference (SMD), odds ratio (OR)",
+    "location": "Abstract (PubMed)"
+   },
+   "one_sentence_conclusion": {
+    "value": "UPC a potential diagnostic biomarker; interpret cautiously",
+    "quote": "these conclusions should be interpreted with caution due to the various factors that affect UPC ratio",
+    "location": "Abstract (PubMed)"
+   },
+   "key_numbers_primary": [
+    {
+     "value": "SMD 0.85 (0.53–1.17); OR 2.93 (2.26–3.82); I² 73.79",
+     "quote": "(OR: 2.93; CI: 2.26–3.82; p < 0.001)",
+     "location": "Abstract (PubMed)"
+    }
+   ],
+   "primary_result_direction": "significant association",
+   "funding": {
+    "value": "Not reported in abstract",
+    "quote": null,
+    "location": "Abstract (PubMed)"
+   },
+   "funding_category": "not reported",
+   "coi_category": "none declared"
+  },
+  {
+   "pmid": "41527203",
+   "title": "SDMA DTA systematic review",
+   "evidence_basis": "abstract (no OA full text)",
+   "species": "dog+cat",
+   "design": "systematic review/meta-analysis",
+   "sample_size": 941,
+   "population": {
+    "value": "Cats and dogs, 11 studies",
+    "quote": "five in cats (481 animals) and six in dogs (460 animals)",
+    "location": "Abstract (PubMed)"
+   },
+   "intervention_or_exposure": {
+    "value": "SDMA",
+    "quote": "symmetric dimethylarginine (SDMA)",
+    "location": "Abstract (PubMed)"
+   },
+   "comparator": {
+    "value": "Creatinine/reference standard",
+    "quote": "The diagnosis previously relied upon serum creatinine",
+    "location": "Abstract (PubMed)"
+   },
+   "primary_outcome": {
+    "value": "Diagnostic accuracy",
+    "quote": "Significant uncertainty remains regarding the diagnostic accuracy of SDMA",
+    "location": "Abstract (PubMed)"
+   },
+   "one_sentence_conclusion": {
+    "value": "Significant uncertainty about SDMA accuracy; risk of overdiagnosis",
+    "quote": "Significant uncertainty remains regarding the diagnostic accuracy of SDMA in CKD in cats and dogs.",
+    "location": "Abstract (PubMed)"
+   },
+   "key_numbers_primary": [
+    {
+     "value": "No pooling; 9/11 high RoB",
+     "quote": "Heterogeneity and risk of bias present precluded meta-analysis.",
+     "location": "Abstract (PubMed)"
+    }
+   ],
+   "primary_result_direction": "null/uncertain",
+   "funding": {
+    "value": "Not reported in abstract",
+    "quote": null,
+    "location": "Abstract (PubMed)"
+   },
+   "funding_category": "not reported",
+   "coi_category": "not reported"
+  },
+  {
+   "pmid": "31554584",
+   "title": "Hyperadrenocorticism diagnosis part 2",
+   "evidence_basis": "abstract (no OA full text)",
+   "species": "dog",
+   "design": "narrative review",
+   "sample_size": null,
+   "population": {
+    "value": "Dogs with naturally occurring hyperadrenocorticism",
+    "quote": "naturally occurring canine hyperadrenocorticism",
+    "location": "Abstract (PubMed)"
+   },
+   "intervention_or_exposure": {
+    "value": "Adrenal function tests",
+    "quote": "adrenal function tests",
+    "location": "Abstract (PubMed)"
+   },
+   "comparator": null,
+   "primary_outcome": {
+    "value": "Diagnostic performance",
+    "quote": "diagnostic performance of adrenal function tests",
+    "location": "Abstract (PubMed)"
+   },
+   "one_sentence_conclusion": {
+    "value": "No true reference standard; diagnosis combines signalment, history, findings and tests",
+    "quote": "the diagnosis is based on a combination of signalment, history and clinical findings, and a variety of diagnostic test results",
+    "location": "Abstract (PubMed)"
+   },
+   "key_numbers_primary": [],
+   "primary_result_direction": "not applicable",
+   "funding": {
+    "value": "Not reported in abstract",
+    "quote": null,
+    "location": "Abstract (PubMed)"
+   },
+   "funding_category": "not reported",
+   "coi_category": "not reported"
+  }
+ ]
+}

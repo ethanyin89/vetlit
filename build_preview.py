@@ -111,6 +111,26 @@ for k,r in AM['records'].items():
     p['amstar_overall']=f'AMSTAR 2 总体：{OA.get(r["final_overall"],r["final_overall"])}（关键缺陷：第 {"、".join(map(str,r["critical_flaws"]))} 项）'
     p['appraisal_items']=[{'item':f'第 {n} 项'+('（关键）' if int(n) in AM['critical_items'] else ''),'judgment':JA.get(i['final'],i['final']),'reason':re.sub(r'^(核对全文后同意第一评估员：|维持 No。)','',i.get('reason') or '')+(f'（{i["location"]}）' if i.get('location') else ''),'evidence_quote':i.get('quote') or ''} for n,i in r['items'].items()]
     if r.get('search_date_inconsistency'): p['amstar_limit']='检索日期前后矛盾（表 1：2025-03-03；局限性一节：2025-04-04）'
+HOLD={'26079532','26936494'}; MERGE['ckd2']=0
+_se=json.load(open(os.path.join(ROOT,'data','v5','second_extractor_ckd.json'),encoding='utf-8'))
+_se=_se.get('papers',_se) if isinstance(_se,dict) else _se
+for r in (_se if isinstance(_se,list) else _se.values()):
+    p=matcher({'pmid':r['pmid'],'id':r['pmid']}) if r.get('pmid') else next((x for x in P.values() if 'iris' in str(x.get('sid','')).lower() and 'staging' in str(x.get('sid','')).lower()),None)
+    if not p: continue
+    MERGE['ckd2']+=1
+    if str(r.get('pmid')) not in HOLD: p['dual_x']='abs' if str(r.get('evidence_basis','')).startswith('abstract') else 'ft'
+NOVR={'25231385':('42（CKD 21 + 健康对照 21）',None),'27103204':('39（CKD 19 + 健康对照 20）',None),'26079532':('12（患病 8 + 未患病同窝 4）',None),'26474314':('224（随机）','72/76（第 180 天）')}
+for k,(e,a) in NOVR.items():
+    p=matcher({'pmid':k,'id':k})
+    if p: p['n_enrolled']=e; p['n_analysed']=a or ''
+for k in HOLD:
+    p=matcher({'pmid':k,'id':k})
+    if p: p['one_line_conclusion_zh']=''; p['confidence_sentence']=''
+for p in P.values():
+    for kr in p.get('key_results') or []:
+        if isinstance(kr,dict) and str(p.get('pmid'))=='39417648':
+            for f in kr:
+                if isinstance(kr[f],str): kr[f]=kr[f].replace('4/15（27%）','4/15（26%）')
 MF=os.path.join(ROOT,'data','v5','methods_fields.json'); MERGE['mf']=0; MERGE['mf_un']=[]
 if os.path.exists(MF):
     mf=json.load(open(MF,encoding='utf-8')); mf=list(mf.values()) if isinstance(mf,dict) else mf
@@ -303,7 +323,7 @@ def paper(p):
     if pico: pico=mdc(re.sub(r'^\|\s*资助.*$','',pico,flags=re.M))
     elif p.get('population_type')=='na': pico=''
     else:
-        rows=[('设计',p.get('design_detail') or p.get('design')),('物种',species(p)),('入组样本量',p.get('n_enrolled')),('分析样本量',p.get('n_analysed')),('中心',sc.get('单/多中心'))]
+        rows=[('设计',p.get('design_detail') or p.get('design')),('物种',species(p)),('纳入 n / 分析 n',' / '.join(x for x in [('纳入 '+str(p['n_enrolled'])) if has(p.get('n_enrolled')) else '',('分析 '+str(p['n_analysed'])) if has(p.get('n_analysed')) else ''] if x)),('中心',sc.get('单/多中心'))]
         rows=''.join(f'<tr><th>{k}</th><td>{E_(clean(v))}</td></tr>' for k,v in rows if has(v))
         pico=f'<table class="kv">{rows}</table>' if rows else ''
     PH={'','—','-','–','None'}
@@ -393,7 +413,7 @@ def paper(p):
         orig=f'<p>许可{("（"+E_(str(p["license"]))+"）") if has(p.get("license")) else ""}不允许全文翻译转载，本站只提供速读与术语对照。</p>'
     bib=B.bibtex(B.view({**p,'id':p['sid']})); ris=B.ris(B.view({**p,'id':p['sid']}))
     body+=f'<details class="fold"><summary>原文与许可</summary>{orig}</details><details class="fold"><summary>引用（BibTeX / RIS）</summary><pre>{E_(bib)}</pre><pre>{E_(ris)}</pre></details>'
-    body+=f'<p class="note sig">依据：{"摘要" if absonly else "全文"} · 速读：AI 单次提取</p>'
+    body+=f'<p class="note sig">依据：{"摘要" if absonly else "全文"} · {'速读：AI 双重独立提取并经第三方裁定'+('（仅据摘要）' if p.get('dual_x')=='abs' else '') if p.get('dual_x') else '速读：AI 单次提取'}</p>'
     return page(clean(p.get('title_zh') or p.get('first_author','')+' '+str(p.get('year',''))),body,2)
 def w(rel,s):
     f=os.path.join(OUT,rel); os.makedirs(os.path.dirname(f),exist_ok=True); open(f,'w',encoding='utf-8').write(s)
