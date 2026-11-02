@@ -14,6 +14,7 @@ for p in json.load(open(os.path.join(src,'papers.json'),encoding='utf-8')):
     for k in ('v2_legacy','bibtex','ris','funder','clinical_usability','species_v2','url'): p.pop(k,None)
     p['species']=SP.get(p.get('species'),p.get('species'))
     p['reading_depth']=depth(p.get('source')); p['reading_source']=p.pop('source',None)
+    if not p.get('cebm_basis'): print('WARNING no cebm_basis for',p.get('id'),file=sys.stderr)
     items=p.get('appraisal_items') or []
     p['rob_tool']=p.pop('appraisal_tool',None)
     ov=[i for i in items if i.get('item','').startswith('总体')]
@@ -29,6 +30,6 @@ for p in json.load(open(os.path.join(src,'papers.json'),encoding='utf-8')):
     if f and os.path.exists(os.path.join(src,f)):
         p['detail_md']=NEUTRAL_LEGACY.sub('',open(os.path.join(src,f),encoding='utf-8').read())
     else: print('WARNING no md for',p['extract_id'],file=sys.stderr)
-    p['cebm_basis']=p.get('cebm_basis') or ''
+    p['cebm_question']='—'  # extract basis supersedes v3 question+basis display
     recs.append({k:v for k,v in p.items() if v is not None})
 json.dump(recs,open(out,'w'),ensure_ascii=False,indent=1); print(len(recs),'records prepared')
