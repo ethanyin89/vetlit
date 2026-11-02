@@ -76,7 +76,7 @@ MERGE['adj']=0; MERGE['adj_un']=[]
 for pm,rs in ADJ.items():
     p=matcher({'pmid':pm})
     if not p: MERGE['adj_un'].append(pm); continue
-    MERGE['adj']+=1; p['rob_tool']='RoB 2'; p['adj']=True; p['appraisal_note']=''
+    MERGE['adj']+=1; p['rob_tool']='RoB 2'; p['adj']=True; p['adj_dual']=True; p['appraisal_note']=''
     items=[]
     for r in sorted(rs,key=lambda r:(r['domain']=='overall',r['domain'])):
         if r['domain']=='overall': p['adj_overall']=JM.get(r['final'],r['final']); p['adj_overall_reason']=r.get('rationale') or ''; continue
@@ -95,6 +95,12 @@ for r in json.load(open(os.path.join(ROOT,'data','v5','guideline_strength.json')
     p=matcher({'pmid':r['pmid'],'id':r['pmid']}) if r['pmid'] else next((x for x in P.values() if 'iris' in str(x.get('sid','')).lower() and 'staging' in str(x.get('sid','')).lower()),None)
     if not p: MERGE['gs_un'].append(r['guideline']); continue
     MERGE['gs']+=1; p['gs']=r
+MERGE['cebm']=0
+for k,r in json.load(open(os.path.join(ROOT,'data','v5','cebm_fill.json'),encoding='utf-8'))['records'].items():
+    p=matcher({'pmid':k,'id':k})
+    if not p: continue
+    MERGE['cebm']+=1; p['cebm_level']=r['cebm_level']
+    p['appraisal_note']=re.sub(r'CEBM 等级未核',f'CEBM 等级 {r["cebm_level"]}',p.get('appraisal_note') or '')
 MF=os.path.join(ROOT,'data','v5','methods_fields.json'); MERGE['mf']=0; MERGE['mf_un']=[]
 if os.path.exists(MF):
     mf=json.load(open(MF,encoding='utf-8')); mf=list(mf.values()) if isinstance(mf,dict) else mf
@@ -313,7 +319,7 @@ def paper(p):
             return E_(clean(v.get('summary_zh') or ''))+(f'<blockquote lang="en">{E_(v["evidence_quote"])}</blockquote>' if v.get('evidence_quote') else '')
         return f'<span class="muted">{E_(v.get("status") or "原文未报告")}</span>'
     mt+=''.join(f'<tr><th>{E_(k)}</th><td>{slot(v)}</td></tr>' for k,v in (p.get('slots') or {}).items() if k not in ('纳入标准','排除标准','疾病分期'))
-    meth=f'<table class="kv">{mt}</table>' if mt else ''
+    meth=''
     cs=''
     if p.get('can_say') and '见页面' not in str(p['can_say']) and (p.get('p38') or not sec_get(S,'能说')):
         cs='<h3>能说</h3><ul>'+''.join(f'<li>{E_(clean(x))}</li>' for x in p['can_say'])+'</ul><h3>不能说</h3><ul>'+''.join(f'<li>{E_(clean(x))}</li>' for x in p.get('cannot_say') or [])+'</ul>'
@@ -344,7 +350,9 @@ def paper(p):
         src='引自 2022 更新版' if str(p.get('pmid'))=='29314873' else (g.get('location') or '')
         gc=E_(g.get('strength') or '')+(f'<p class="note">分级体系：{E_(g["scheme"])}</p>' if g.get('scheme') and g['scheme']!=g.get('strength') else '')+''.join(f'<blockquote lang="en">{E_(x)}</blockquote>' for x in segs)+(f'<p class="note">出处：{E_(src)}</p>' if src else '')
         ev=ev.replace('</table>',f'<tr><th>指南推荐强度（原文）</th><td>{gc}</td></tr></table>',1)
-    if p.get('adj'): ev+='<p class="note">AI 评估并经第三方裁定，未经临床兽医审阅</p>'
+    ROBJ=not (REEVAL or NOTOOL or why1=='未评') or p.get('adj')
+    if p.get('adj_dual'): ev+='<p class="note">偏倚风险：AI 双重独立评估并经第三方裁定，未经临床兽医审阅</p>'
+    elif ROBJ: ev+='<p class="note">偏倚风险：AI 单次评估，未经临床兽医审阅</p>'
     if has(p.get('rob_tool_note')) and not REEVAL: ev+=f'<p class="note">工具说明：{E_(clean(p["rob_tool_note"]))}</p>'
     if it: ev+=f'<details class="sub"><summary>展开逐项判断</summary>{appraisal(p)}</details>'
     fund=p.get('funder') or sc.get('资助') or p.get('funding')
@@ -372,7 +380,7 @@ def paper(p):
         orig=f'<p>许可{("（"+E_(str(p["license"]))+"）") if has(p.get("license")) else ""}不允许全文翻译转载，本站只提供速读与术语对照。</p>'
     bib=B.bibtex(B.view({**p,'id':p['sid']})); ris=B.ris(B.view({**p,'id':p['sid']}))
     body+=f'<details class="fold"><summary>原文与许可</summary>{orig}</details><details class="fold"><summary>引用（BibTeX / RIS）</summary><pre>{E_(bib)}</pre><pre>{E_(ris)}</pre></details>'
-    body+=f'<p class="note sig">依据：{"摘要" if absonly else "全文"} · 速读由 AI 提取；偏倚风险经 AI 双重独立评估与第三方裁定（仅已裁定篇目），未经临床兽医审阅</p>'
+    body+=f'<p class="note sig">依据：{"摘要" if absonly else "全文"} · 速读：AI 单次提取</p>'
     return page(clean(p.get('title_zh') or p.get('first_author','')+' '+str(p.get('year',''))),body,2)
 def w(rel,s):
     f=os.path.join(OUT,rel); os.makedirs(os.path.dirname(f),exist_ok=True); open(f,'w',encoding='utf-8').write(s)
@@ -398,6 +406,22 @@ def main():
             if base=='样本量' and x['value']: h=re.sub(r'n=[^<]*未核[^<]*','n='+E_(x['value']),h)
         rep='摘要未提及' if p.get('reading_depth')!='全文' else '原文未报告'
         h=h.replace('原文未给出',rep).replace('摘要未给出',rep)
+        def coll(m):
+            t=m.group(0); gone=[]
+            def rr(x):
+                if re.sub(r'<[^>]+>','',x.group(2)).strip() in ('原文未报告','摘要未提及'): gone.append(re.sub(r'<[^>]+>','',x.group(1))); return ''
+                return x.group(0)
+            t=re.sub(r'<tr><th>(.*?)</th><td>(.*?)</td></tr>',rr,t)
+            if not gone: return t
+            if '<tr>' not in t: t=''
+            return t+(f'<p class="note">仅据摘要，其余细节见原文（{"、".join(gone)}）</p>' if rep=='摘要未提及' else f'<p class="note">以下项目原文未报告：{"、".join(gone)}</p>')
+        h=re.sub(r'<table class="kv">.*?</table>',coll,h,flags=re.S)
+        def coll2(m):
+            t=m.group(0); n=len(re.findall(r'<td>(?:原文未报告|摘要未提及)</td>',t))
+            if not n: return t
+            t=re.sub(r'<td>(?:原文未报告|摘要未提及)</td>','<td></td>',t)
+            return t+('<p class="note">空白处仅据摘要，其余细节见原文</p>' if rep=='摘要未提及' else '<p class="note">空白处原文未报告</p>')
+        h=re.sub(r'<table(?! class="kv")[^>]*>.*?</table>',coll2,h,flags=re.S)
         w(f'papers/{p["sid"]}/index.html',h)
     os.makedirs(os.path.join(OUT,'static'),exist_ok=True); shutil.copy(os.path.join(ROOT,'static','preview','v.css'),os.path.join(OUT,'static','v.css'))
     import collections; print('templates',collections.Counter((p.get('population_type') or 'natural') for p in P.values()))
