@@ -1,172 +1,172 @@
 [
- {
-  "pmid": "42043241",
-  "guideline": "ABCD 2026 FIP treatment update (Tasker 2026, Viruses)",
-  "scheme": "该指南未分级",
-  "strength": "该指南未分级",
-  "quote": "In these revised guidelines, the European Advisory Board on Cat Diseases (ABCD) presents an update on the treatment of FIP, incorporating the findings of new studies",
-  "location": "Abstract；全文检索 EBM/level of evidence/grade/strength of recommendation 均无命中；正文仅用“recommended/the recommendation is to use GS-441524 in preference to molnupiravir”等未分级措辞",
-  "url": "https://europepmc.org/article/PMC/PMC13120026",
-  "verified": true
- },
- {
-  "pmid": "",
-  "guideline": "IRIS Staging of CKD (modified 2026)",
-  "scheme": "该指南未分级",
-  "strength": "该指南未分级",
-  "quote": "Using these criteria, some empirical recommendations can be made about the type of treatment it would be logical to use for these cases. In addition, predictions based on clinical experience might be made about the likely response to treatment.",
-  "location": "p.1, Section 1 引言段；全文无证据/推荐分级",
-  "url": "https://www.iris-kidney.com/iris-guidelines-1",
-  "verified": true
- },
- {
-  "pmid": "37766254",
-  "guideline": "ABCD 2023 FIP guidelines (Tasker 2023, Viruses)",
-  "scheme": "该指南未分级",
-  "strength": "该指南未分级",
-  "quote": "In these guidelines, the European Advisory Board on Cat Diseases (ABCD) presents a comprehensive review of feline infectious peritonitis (FIP).",
-  "location": "Abstract；全文检索 EBM/level of evidence/grade 无命中（与 2009 版不同，2023 版未沿用 EBM 分级）",
-  "url": "https://europepmc.org/article/PMC/PMC10535984",
-  "verified": true
- },
- {
-  "pmid": "36002137",
-  "guideline": "2022 AAFP/EveryCat FIP Diagnosis Guidelines (Thayer 2022, JFMS)",
-  "scheme": "该指南未分级",
-  "strength": "该指南未分级",
-  "quote": "This document has been developed by a Task Force of experts in feline clinical medicine as the 2022 AAFP/EveryCat Feline Infectious Peritonitis Diagnosis Guidelines to provide veterinarians with essential information to aid their ability to recognize cats presenting with FIP.",
-  "location": "Abstract, Scope；PMC 全文检索无证据/推荐分级",
-  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10812230/",
-  "verified": true
- },
- {
-  "pmid": "32243654",
-  "guideline": "ACVIM 2020 feline cardiomyopathy consensus (Luis Fuentes 2020)",
-  "scheme": "ACVIM 共识自定：LOE high/medium/low（Table 1）+ 推荐等级 Class I 'is recommended' / IIa 'should be considered' / IIb 'may be considered' / III 'is not recommended'（Table 2，按投票）",
-  "strength": "氯吡格雷：有CHF史且LA中重度扩大 → 'is recommended'（Class I），LOE low；B2期高ATE风险 → 'is recommended'，LOE medium",
-  "quote": "Prophylactic antithrombotic treatment with clopidogrel (18.75 mg/cat PO q24h, with food) is recommended in any cat with a history of CHF and moderate to severe LA enlargement (LOE low).",
-  "location": "Stage C 慢性管理段；方法见 'Table 1 Levels of evidence' 和 'Table 2 Class of recommendations'；B2 期同句 '(… SEC; LOE medium)'",
-  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7255676/",
-  "verified": true
- },
- {
-  "pmid": "30974015",
-  "guideline": "ACVIM 2019 MMVD consensus (Keene 2019)",
-  "scheme": "改编自 AHA 的 Class I/IIa/IIb/III/IV + 独立 LOE（strong/moderate/weak/expert opinion；AHA 与 RECOVER 混合标准）",
-  "strength": "B2 期匹莫苯丹：Class I, LOE: strong",
-  "quote": "Pimobendan is recommended at a dosage of 0.25‐0.3 mg/kg PO q12h. (Class I, LOE: strong)",
-  "location": "6.4.1 Recommendations for treatment of Stage B2；分级定义见 Section 2–3",
-  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6524084/",
-  "verified": true
- },
- {
-  "pmid": "30353952",
-  "guideline": "ACVIM 2018 systemic hypertension consensus (Acierno 2018)",
-  "scheme": "该指南未分级",
-  "strength": "该指南未分级",
-  "quote": "Clinical trials of therapies and therapeutic strategies for acute hypertensive crises in dogs and cats have not been published, and recommendations are anecdotal and extrapolated from recommendations made for human patients.",
-  "location": "高血压急症治疗段；全文检索无 LOE/推荐等级（猫用氨氯地平首选仅以 'have been the first choice … because of established efficacy' 表述，未分级）",
-  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6271319/",
-  "verified": true
- },
- {
-  "pmid": "29314873",
-  "guideline": "2018 AAHA Diabetes Management Guidelines (Behrend 2018)",
-  "scheme": "该指南未分级",
-  "strength": "该指南未分级",
-  "quote": "Evidence-based support for specific recommendations has been cited whenever possible and appropriate. Other recommendations are based on practical clinical experience and a consensus of expert opinion.",
-  "location": "首页免责声明（AAHA 官网 2022 更新版 PDF 与页面；为 2022 更新版而非 2018 原刊版，原刊 JAAHA 付费）",
-  "url": "https://www.aaha.org/resources/2018-aaha-diabetes-management-guideline-for-dogs-and-cats/",
-  "verified": true
- },
- {
-  "pmid": "28965673",
-  "guideline": "ESVC DCM screening guidelines in Dobermans (Wess 2017, JVC)",
-  "scheme": "摘要未提及",
-  "strength": "摘要未提及",
-  "quote": "",
-  "location": "全文付费（J Vet Cardiol/Elsevier），无 OA 版本，未读到全文",
-  "url": "https://doi.org/10.1016/j.jvc.2017.08.006",
-  "verified": false
- },
- {
-  "pmid": "27143042",
-  "guideline": "2016 AAFP Feline Hyperthyroidism Guidelines (Carney 2016)",
-  "scheme": "该指南未分级",
-  "strength": "该指南未分级",
-  "quote": "To help ensure better case outcomes, the Guidelines reflect currently available, evidenced-based knowledge. If research is lacking, or if a consensus does not exist, the expert panel of authors has made recommendations based on their extensive, cumulative clinical experience.",
-  "location": "Abstract, 'Evidence base'；全文（含图框）无分级",
-  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11132203/",
-  "verified": true
- },
- {
-  "pmid": "26936494",
-  "guideline": "ISFM 2016 feline CKD consensus (Sparkes 2016)",
-  "scheme": "ISFM 自定 'Quality of evidence as an intervention'：分别对“延长寿命”和“改善QoL”标 GOOD / POOR / NONE（另有 'No data'）",
-  "strength": "肾病处方粮（蛋白+磷限制）：Increased longevity GOOD；Improved QoL GOOD",
-  "quote": "The Panel has provided guidance on the current quality of evidence for different therapeutic interventions based on peer-reviewed published data – summarising (as ‘GOOD’, ‘POOR’ or ‘NONE’) any evidence that a therapy improves longevity, and also that a therapy improves quality of life (QoL). || [Protein and phosphate restriction 框] Quality of evidence as an intervention: Increased longevity: GOOD; Improved QoL: GOOD",
-  "location": "Abstract 后说明框（img2）；'Protein and phosphate restriction' 小节证据框（img9）——引文由图片框逐字转录",
-  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11148907/",
-  "verified": true
- },
- {
-  "pmid": "25701862",
-  "guideline": "ISFM 2015 feline diabetes consensus (Sparkes 2015)",
-  "scheme": "该指南未分级",
-  "strength": "该指南未分级",
-  "quote": "The Panel has produced these Guidelines after careful review of the existing literature and of the quality of the published studies. They represent a consensus view on practical management of cats with DM based on available clinical data and experience.",
-  "location": "Abstract, 'Evidence base'；全文及 13 个图框无分级（与同系列 CKD 指南不同）",
-  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11148891/",
-  "verified": true
- },
- {
-  "pmid": "24112317",
-  "guideline": "ACVIM 2012 consensus: diagnosis of canine hyperadrenocorticism (Behrend 2013)",
-  "scheme": "摘要未提及",
-  "strength": "摘要未提及",
-  "quote": "",
-  "location": "不在 PMC/Europe PMC；Wiley 页面对抓取返回 403/超时，未读到全文",
-  "url": "https://doi.org/10.1111/jvim.12192",
-  "verified": false
- },
- {
-  "pmid": "23422366",
-  "guideline": "AAFP/ISFM Feline Environmental Needs Guidelines (Ellis 2013)",
-  "scheme": "该指南未分级",
-  "strength": "该指南未分级",
-  "quote": "The authorship panel has organized the Guidelines around five primary concepts (‘pillars’) that provide the framework for a healthy feline environment.",
-  "location": "Abstract；全文及图框无证据或推荐分级、亦无方法学说明",
-  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11383066/",
-  "verified": true
- },
- {
-  "pmid": "21704901",
-  "guideline": "WSAVA Nutritional Assessment Guidelines (2011)",
-  "scheme": "该指南未分级",
-  "strength": "该指南未分级",
-  "quote": "These guidelines provide criteria with which to evaluate the animal and the diet, as well as key feeding and environmental factors.",
-  "location": "正文开头；全文无证据/推荐分级、无方法学说明",
-  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11107980/",
-  "verified": true
- },
- {
-  "pmid": "19481039",
-  "guideline": "ABCD 2009 FIP prevention and management (Addie 2009)",
-  "scheme": "ABCD EBM grade I–IV（I=目标物种RCT…IV=专家意见/他种研究；未标注即为 IV）",
-  "strength": "泼尼松龙/地塞米松免疫抑制剂量：'Currently supportive treatment of choice [III]'（无对照研究）",
-  "quote": "This article uses EBM ranking to grade the level of evidence of statements … If no grade is specified, the EBM level is grade IV. || Prednisolone/dexamethasone - immunosuppressive doses No controlled studies. Some cats have improved during treatment and survived for several months, but does not cure FIP Currently supportive treatment of choice [III]",
-  "location": "方法说明框（EBM grades）；治疗表 IMMUNOSUPPRESSANTS 行；正文另述 'there are no controlled studies to prove any beneficial effect of corticosteroids'",
-  "url": "https://europepmc.org/article/PMC/PMC7129471",
-  "verified": true
- },
- {
-  "pmid": "15954557",
-  "guideline": "ACVIM 2004 Forum consensus: proteinuria in dogs and cats (Lees 2005)",
-  "scheme": "摘要未提及",
-  "strength": "摘要未提及",
-  "quote": "",
-  "location": "不在 PMC/Europe PMC；Wiley 页面 403/超时，未读到全文",
-  "url": "https://doi.org/10.1892/0891-6640(2005)19[377:AAMOPI]2.0.CO;2",
-  "verified": false
- }
+  {
+    "pmid": "42043241",
+    "guideline": "ABCD 2026 FIP treatment update (Tasker 2026, Viruses)",
+    "scheme": "该指南未分级",
+    "strength": "该指南未分级",
+    "quote": "In these revised guidelines, the European Advisory Board on Cat Diseases (ABCD) presents an update on the treatment of FIP, incorporating the findings of new studies",
+    "location": "Abstract；全文检索 EBM/level of evidence/grade/strength of recommendation 均无命中；正文仅用“recommended/the recommendation is to use GS-441524 in preference to molnupiravir”等未分级措辞",
+    "url": "https://europepmc.org/article/PMC/PMC13120026",
+    "verified": true
+  },
+  {
+    "pmid": "",
+    "guideline": "IRIS Staging of CKD (modified 2026)",
+    "scheme": "该指南未分级",
+    "strength": "该指南未分级",
+    "quote": "Using these criteria, some empirical recommendations can be made about the type of treatment it would be logical to use for these cases. In addition, predictions based on clinical experience might be made about the likely response to treatment.",
+    "location": "p.1, Section 1 引言段；全文无证据/推荐分级",
+    "url": "https://www.iris-kidney.com/iris-guidelines-1",
+    "verified": true
+  },
+  {
+    "pmid": "37766254",
+    "guideline": "ABCD 2023 FIP guidelines (Tasker 2023, Viruses)",
+    "scheme": "该指南未分级",
+    "strength": "该指南未分级",
+    "quote": "In these guidelines, the European Advisory Board on Cat Diseases (ABCD) presents a comprehensive review of feline infectious peritonitis (FIP).",
+    "location": "Abstract；全文检索 EBM/level of evidence/grade 无命中（与 2009 版不同，2023 版未沿用 EBM 分级）",
+    "url": "https://europepmc.org/article/PMC/PMC10535984",
+    "verified": true
+  },
+  {
+    "pmid": "36002137",
+    "guideline": "2022 AAFP/EveryCat FIP Diagnosis Guidelines (Thayer 2022, JFMS)",
+    "scheme": "该指南未分级",
+    "strength": "该指南未分级",
+    "quote": "This document has been developed by a Task Force of experts in feline clinical medicine as the 2022 AAFP/EveryCat Feline Infectious Peritonitis Diagnosis Guidelines to provide veterinarians with essential information to aid their ability to recognize cats presenting with FIP.",
+    "location": "Abstract, Scope；PMC 全文检索无证据/推荐分级",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10812230/",
+    "verified": true
+  },
+  {
+    "pmid": "32243654",
+    "guideline": "ACVIM 2020 feline cardiomyopathy consensus (Luis Fuentes 2020)",
+    "scheme": "ACVIM 共识自定：LOE high/medium/low（Table 1）+ 推荐等级 Class I 'is recommended' / IIa 'should be considered' / IIb 'may be considered' / III 'is not recommended'（Table 2，按投票）",
+    "strength": "氯吡格雷：有CHF史且LA中重度扩大 → 'is recommended'（Class I），LOE low；B2期高ATE风险 → 'is recommended'，LOE medium",
+    "quote": "Prophylactic antithrombotic treatment with clopidogrel (18.75 mg/cat PO q24h, with food) is recommended in any cat with a history of CHF and moderate to severe LA enlargement (LOE low).",
+    "location": "Stage C 慢性管理段；方法见 'Table 1 Levels of evidence' 和 'Table 2 Class of recommendations'；B2 期同句 '(… SEC; LOE medium)'",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7255676/",
+    "verified": true
+  },
+  {
+    "pmid": "30974015",
+    "guideline": "ACVIM 2019 MMVD consensus (Keene 2019)",
+    "scheme": "改编自 AHA 的 Class I/IIa/IIb/III/IV + 独立 LOE（strong/moderate/weak/expert opinion；AHA 与 RECOVER 混合标准）",
+    "strength": "B2 期匹莫苯丹：Class I, LOE: strong",
+    "quote": "Pimobendan is recommended at a dosage of 0.25‐0.3 mg/kg PO q12h. (Class I, LOE: strong)",
+    "location": "6.4.1 Recommendations for treatment of Stage B2；分级定义见 Section 2–3",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6524084/",
+    "verified": true
+  },
+  {
+    "pmid": "30353952",
+    "guideline": "ACVIM 2018 systemic hypertension consensus (Acierno 2018)",
+    "scheme": "该指南未分级",
+    "strength": "该指南未分级",
+    "quote": "Clinical trials of therapies and therapeutic strategies for acute hypertensive crises in dogs and cats have not been published, and recommendations are anecdotal and extrapolated from recommendations made for human patients.",
+    "location": "高血压急症治疗段；全文检索无 LOE/推荐等级（猫用氨氯地平首选仅以 'have been the first choice … because of established efficacy' 表述，未分级）",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6271319/",
+    "verified": true
+  },
+  {
+    "pmid": "29314873",
+    "guideline": "2018 AAHA Diabetes Management Guidelines (Behrend 2018)",
+    "scheme": "该指南未分级",
+    "strength": "该指南未分级",
+    "quote": "Evidence-based support for specific recommendations has been cited whenever possible and appropriate. Other recommendations are based on practical clinical experience and a consensus of expert opinion.",
+    "location": "首页免责声明（AAHA 官网 2022 更新版 PDF 与页面；为 2022 更新版而非 2018 原刊版，原刊 JAAHA 付费）",
+    "url": "https://www.aaha.org/resources/2018-aaha-diabetes-management-guideline-for-dogs-and-cats/",
+    "verified": true
+  },
+  {
+    "pmid": "28965673",
+    "guideline": "ESVC DCM screening guidelines in Dobermans (Wess 2017, JVC)",
+    "scheme": "摘要未提及",
+    "strength": "摘要未提及",
+    "quote": "",
+    "location": "全文付费（J Vet Cardiol/Elsevier），无 OA 版本，未读到全文",
+    "url": "https://doi.org/10.1016/j.jvc.2017.08.006",
+    "verified": false
+  },
+  {
+    "pmid": "27143042",
+    "guideline": "2016 AAFP Feline Hyperthyroidism Guidelines (Carney 2016)",
+    "scheme": "该指南未分级",
+    "strength": "该指南未分级",
+    "quote": "To help ensure better case outcomes, the Guidelines reflect currently available, evidenced-based knowledge. If research is lacking, or if a consensus does not exist, the expert panel of authors has made recommendations based on their extensive, cumulative clinical experience.",
+    "location": "Abstract, 'Evidence base'；全文（含图框）无分级",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11132203/",
+    "verified": true
+  },
+  {
+    "pmid": "26936494",
+    "guideline": "ISFM 2016 feline CKD consensus (Sparkes 2016)",
+    "scheme": "ISFM 自定 'Quality of evidence as an intervention'：分别对“延长寿命”和“改善QoL”标 GOOD / POOR / NONE（另有 'No data'）",
+    "strength": "肾病处方粮（蛋白+磷限制）：Increased longevity GOOD；Improved QoL GOOD",
+    "quote": "The Panel has provided guidance on the current quality of evidence for different therapeutic interventions based on peer-reviewed published data – summarising (as ‘GOOD’, ‘POOR’ or ‘NONE’) any evidence that a therapy improves longevity, and also that a therapy improves quality of life (QoL). || [Protein and phosphate restriction 框] Quality of evidence as an intervention: Increased longevity: GOOD; Improved QoL: GOOD",
+    "location": "Abstract 后说明框（img2）；'Protein and phosphate restriction' 小节证据框（img9）——引文由图片框逐字转录",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11148907/",
+    "verified": true
+  },
+  {
+    "pmid": "25701862",
+    "guideline": "ISFM 2015 feline diabetes consensus (Sparkes 2015)",
+    "scheme": "该指南未分级",
+    "strength": "该指南未分级",
+    "quote": "The Panel has produced these Guidelines after careful review of the existing literature and of the quality of the published studies. They represent a consensus view on practical management of cats with DM based on available clinical data and experience.",
+    "location": "Abstract, 'Evidence base'；全文及 13 个图框无分级（与同系列 CKD 指南不同）",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11148891/",
+    "verified": true
+  },
+  {
+    "pmid": "24112317",
+    "guideline": "ACVIM 2012 consensus: diagnosis of canine hyperadrenocorticism (Behrend 2013)",
+    "scheme": "该指南未分级",
+    "strength": "该指南未分级",
+    "quote": "The statements are derived from evidence-based medicine whenever possible and the panel offers interpretive comments when such evidence is inadequate or contradictory.",
+    "location": "卷首 ACVIM 共识声明说明段（p.1292）；全文检索 level of evidence / strength of evidence / strength of recommendation / grade / Level 1-3 均无命中，推荐以“the Panel recommends”表述，未附证据或推荐分级；来源 review2/ft/24112317.pdf",
+    "url": "https://doi.org/10.1111/jvim.12192",
+    "verified": true
+  },
+  {
+    "pmid": "23422366",
+    "guideline": "AAFP/ISFM Feline Environmental Needs Guidelines (Ellis 2013)",
+    "scheme": "该指南未分级",
+    "strength": "该指南未分级",
+    "quote": "The authorship panel has organized the Guidelines around five primary concepts (‘pillars’) that provide the framework for a healthy feline environment.",
+    "location": "Abstract；全文及图框无证据或推荐分级、亦无方法学说明",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11383066/",
+    "verified": true
+  },
+  {
+    "pmid": "21704901",
+    "guideline": "WSAVA Nutritional Assessment Guidelines (2011)",
+    "scheme": "该指南未分级",
+    "strength": "该指南未分级",
+    "quote": "These guidelines provide criteria with which to evaluate the animal and the diet, as well as key feeding and environmental factors.",
+    "location": "正文开头；全文无证据/推荐分级、无方法学说明",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11107980/",
+    "verified": true
+  },
+  {
+    "pmid": "19481039",
+    "guideline": "ABCD 2009 FIP prevention and management (Addie 2009)",
+    "scheme": "ABCD EBM grade I–IV（I=目标物种RCT…IV=专家意见/他种研究；未标注即为 IV）",
+    "strength": "泼尼松龙/地塞米松免疫抑制剂量：'Currently supportive treatment of choice [III]'（无对照研究）",
+    "quote": "This article uses EBM ranking to grade the level of evidence of statements … If no grade is specified, the EBM level is grade IV. || Prednisolone/dexamethasone - immunosuppressive doses No controlled studies. Some cats have improved during treatment and survived for several months, but does not cure FIP Currently supportive treatment of choice [III]",
+    "location": "方法说明框（EBM grades）；治疗表 IMMUNOSUPPRESSANTS 行；正文另述 'there are no controlled studies to prove any beneficial effect of corticosteroids'",
+    "url": "https://europepmc.org/article/PMC/PMC7129471",
+    "verified": true
+  },
+  {
+    "pmid": "15954557",
+    "guideline": "ACVIM 2004 Forum consensus: proteinuria in dogs and cats (Lees 2005)",
+    "scheme": "指南自定 3 级证据强度（Level 1 最强、Level 3 最弱；Polzin 改编自 McGowan 等），逐条标注于陈述/推荐之后",
+    "strength": "按陈述分别标注 Level 1/2/3（例：UPC 升高与不良结局风险 = Level 1）",
+    "quote": "For the purposes of this consensus statement, the strength of evidence that is available to support specific statements […分栏/页眉断开…] regarding the implications of proteinuria in dogs or cats, as well as specific recommendations for therapeutic interventions, has been categorized in 3 levels as described in the Appendix. Evidence categorized as Level 1 is the strongest (ie, most convincing), and evidence categorized as Level 3 is the weakest (ie, least convincing). | 示例：Additionally, risk of adverse outcomes increases as the magnitude of proteinuria increases (Level 1). | 附录：Level 1 (best evidence) Based on data obtained from: ● At least 1 properly randomized controlled clinical trial",
+    "location": "正文“Strength of Evidence Levels”小节（p.380–381）；示例见“Specific Implications in Dogs”；分级定义见附录（p.385）；来源 review2/ft/15954557.pdf",
+    "url": "https://doi.org/10.1892/0891-6640(2005)19[377:AAMOPI]2.0.CO;2",
+    "verified": true
+  }
 ]
