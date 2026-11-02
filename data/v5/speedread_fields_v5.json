@@ -10,9 +10,15 @@
   "key_results": [
    {
     "measure": "GS-441524 治疗成功率",
-    "groups": "常超过 90%（指南综述）",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
+    "groups": "常超过 90%（指南综述已发表研究）",
+    "effect_ci": "不适用",
+    "p": "不适用"
+   },
+   {
+    "measure": "推荐",
+    "groups": "口服 GS-441524 一线；瑞德西韦用于不能口服的重症；42 天疗程或已足够",
+    "effect_ci": "不适用",
+    "p": "不适用"
    }
   ],
   "confidence_sentence": "指南/共识不做 CEBM 分级，也未做 AGREE II 正式评分，推荐多属专家意见，引用时请核对原文。"
@@ -69,10 +75,16 @@
   "why_it_matters": "FIP 诊断没有单一金标准，这份指南把积液、细针抽吸和组织病理各自的价值讲清楚，并配套诊断工具，适合作为门诊诊断流程的底本。治疗部分已被 2026 年更新版取代。",
   "key_results": [
    {
-    "measure": "主要结局",
-    "groups": "摘要未给出",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
+    "measure": "确诊依据",
+    "groups": "组织病理加 FCoV 抗原检测（免疫组化）",
+    "effect_ci": "不适用",
+    "p": "不适用"
+   },
+   {
+    "measure": "治疗",
+    "groups": "口服核苷类似物非常有效（治疗部分已被 2026 版更新）",
+    "effect_ci": "不适用",
+    "p": "不适用"
    }
   ],
   "confidence_sentence": "指南/共识不做 CEBM 分级，也未做 AGREE II 正式评分，推荐多属专家意见，引用时请核对原文。"
@@ -420,16 +432,22 @@
     "measure": "16 周存活并临床缓解",
     "groups": "瑞德西韦 9/10（90%）；GS-441524 7/10（70%）",
     "effect_ci": "差值 20%（90% CI −8.5 至 +48.5），达到非劣效",
-    "p": "摘要未给出"
+    "p": "原文未给出"
+   },
+   {
+    "measure": "16 周存活",
+    "groups": "瑞德西韦 9/10；GS-441524 8/10",
+    "effect_ci": "原文未给出",
+    "p": "原文未给出"
    },
    {
     "measure": "疑似晚期复发（1.5–2 年随访）",
     "groups": "每组各 2 只",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
+    "effect_ci": "原文未给出",
+    "p": "原文未给出"
    }
   ],
-  "confidence_sentence": "本文为RCT（非劣效），CEBM 2 级，Cochrane RoB 2 尚未评估偏倚风险，结论基于摘要。"
+  "confidence_sentence": "本文为RCT（非劣效），CEBM 2 级，Cochrane RoB 2 尚未评估偏倚风险，结论基于全文。"
  },
  {
   "pmid": "40110605",
@@ -443,23 +461,29 @@
    {
     "measure": "PTH 每次访视变化",
     "groups": "帕立骨化醇 −22%（95% CI 7%–35%）；安慰剂 +18%（95% CI 2%–37%）",
-    "effect_ci": "摘要未给出",
+    "effect_ci": "原文未给出",
     "p": "0.006 / 0.022"
    },
    {
-    "measure": "UP/C 第 12 周 vs 基线",
-    "groups": "安慰剂 0.8 vs 0.5（升高）；帕立骨化醇 0.6 vs 1.0",
-    "effect_ci": "摘要未给出",
-    "p": "0.04 / 0.35"
+    "measure": "PTH 第 12 周 vs 基线（帕立骨化醇）",
+    "groups": "62 vs 166 pg/mL（几何均值）",
+    "effect_ci": "95% CI 22–173 vs 54–514",
+    "p": "0.04"
+   },
+   {
+    "measure": "PTH 第 12 周 vs 基线（安慰剂）",
+    "groups": "157 vs 81 pg/mL",
+    "effect_ci": "95% CI 68–365 vs 27–237",
+    "p": "0.11"
    },
    {
     "measure": "轻度高钙",
-    "groups": "7/13",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
+    "groups": "7/13（54%）；中位 1.55 mmol/L（1.41–1.67）",
+    "effect_ci": "原文未给出",
+    "p": "原文未给出"
    }
   ],
-  "confidence_sentence": "本文为RCT（交叉），CEBM 2 级，Cochrane RoB 2 尚未评估偏倚风险，结论基于摘要。"
+  "confidence_sentence": "本文为RCT（交叉），CEBM 2 级，Cochrane RoB 2 尚未评估偏倚风险，结论基于全文。"
  },
  {
   "pmid": "39417648",
@@ -471,19 +495,31 @@
   "why_it_matters": null,
   "key_results": [
    {
-    "measure": "IRIS 2→3 期进展",
-    "groups": "安慰剂组 26%；AB070597 组分期稳定",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
+    "measure": "IRIS 2→3 期进展（按肌酐）",
+    "groups": "安慰剂 4/15（27%）；AB070597 0/20",
+    "effect_ci": "原文未给出",
+    "p": "原文未给出"
    },
    {
-    "measure": "样本",
-    "groups": "AB070597 20 只；安慰剂 15 只",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
+    "measure": "IRIS 2→1 期（按肌酐）",
+    "groups": "AB070597 2/20（10%）",
+    "effect_ci": "原文未给出",
+    "p": "原文未给出"
+   },
+   {
+    "measure": "BUN、肌酐、磷 180 天变化",
+    "groups": "安慰剂组较基线显著升高；AB070597 组无显著变化",
+    "effect_ci": "原文未给出",
+    "p": "<0.05（组内）"
+   },
+   {
+    "measure": "体重增加",
+    "groups": "AB070597 12/20（60%）；安慰剂 8/15（53%）",
+    "effect_ci": "原文未给出",
+    "p": "原文未给出"
    }
   ],
-  "confidence_sentence": "本文为RCT，CEBM 2 级，Cochrane RoB 2 尚未评估偏倚风险，结论基于摘要。"
+  "confidence_sentence": "本文为RCT，CEBM 2 级，Cochrane RoB 2 尚未评估偏倚风险，结论基于全文。"
  },
  {
   "pmid": "39066306",
@@ -495,13 +531,31 @@
   "why_it_matters": "疗程减半能直接降低药费和主人负担，这是首个比较 FIP 疗程长短的随机试验，也是 ABCD 2026 提出 42 天方案的主要依据。研究只纳入积液型、无神经或眼部受累的猫，每组 20 只。",
   "key_results": [
    {
-    "measure": "康复",
-    "groups": "42 天组 19 只；84 天组 19 只（共 40 只，2 只治疗中死亡）",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
+    "measure": "42 天内完全临床缓解",
+    "groups": "37/40（92.5%；短疗程 19、长疗程 18）",
+    "effect_ci": "原文未给出",
+    "p": "原文未给出"
+   },
+   {
+    "measure": "治疗中安乐死",
+    "groups": "2 只（第 3、31 天，继发并发症）",
+    "effect_ci": "原文未给出",
+    "p": "原文未给出"
+   },
+   {
+    "measure": "第 168 天",
+    "groups": "存活猫均保持完全缓解",
+    "effect_ci": "原文未给出",
+    "p": "原文未给出"
+   },
+   {
+    "measure": "SDMA 轻度升高",
+    "groups": "25/40（62.5%）",
+    "effect_ci": "原文未给出",
+    "p": "原文未给出"
    }
   ],
-  "confidence_sentence": "本文为RCT，CEBM 2 级，Cochrane RoB 2 尚未评估偏倚风险，结论基于摘要。"
+  "confidence_sentence": "本文为RCT，CEBM 2 级，Cochrane RoB 2 尚未评估偏倚风险，结论基于全文。"
  },
  {
   "pmid": "38952053",
@@ -510,34 +564,40 @@
   "matched_by": "pmid",
   "title_zh": "猫 CKD：加镁限磷粮稳定 FGF23、防止高钙",
   "one_line_conclusion_zh": "加镁的限磷粮使 CKD 猫 FGF23 保持稳定，并防止离子钙升高；对照组 4 只出现高钙。",
-  "why_it_matters": null,
+  "why_it_matters": "猫 CKD 常用限磷粮，但限磷可能伴随高钙和 FGF23 升高。这项双盲 RCT 提示加镁可减轻这些变化，但只看生化指标，样本 60 只，由处方粮厂商资助，暂不能据此推断生存获益。",
   "key_results": [
    {
-    "measure": "tMg 变化（PP）",
-    "groups": "加镁组 β 0.25±0.07 mg/dL/月",
-    "effect_ci": "摘要未给出",
+    "measure": "血浆 tMg 变化（按方案）",
+    "groups": "加镁组 β 0.25±0.07 mg/dL/月；对照组无变化",
+    "effect_ci": "原文未给出",
     "p": "<0.001"
    },
    {
-    "measure": "log FGF23 变化",
-    "groups": "对照组 β 0.14±0.05/月（P=0.01）；加镁组 β 0.05±0.06/月（P=0.37）",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
+    "measure": "ln[FGF23] 变化（按方案）",
+    "groups": "对照组 β 0.14±0.05 pg/mL/月（P=0.01）；加镁组 β 0.05±0.06 pg/mL/月（P=0.37）",
+    "effect_ci": "原文未给出",
+    "p": "见各组"
+   },
+   {
+    "measure": "iCa 变化速率组间差异",
+    "groups": "加镁组下降、对照组上升",
+    "effect_ci": "原文未给出",
+    "p": "0.01"
+   },
+   {
+    "measure": "试验结束 iCa",
+    "groups": "加镁 5.2 [4.96, 5.4] vs 对照 5.4 [5.24, 5.56] mg/dL（中位数 [IQR]）",
+    "effect_ci": "原文未给出",
+    "p": "0.01"
    },
    {
     "measure": "离子高钙",
     "groups": "对照组 4 只；加镁组 0 只",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
-   },
-   {
-    "measure": "iCa 变化速率组间差异",
-    "groups": "—",
-    "effect_ci": "摘要未给出",
-    "p": "0.01"
+    "effect_ci": "原文未给出",
+    "p": "原文未给出"
    }
   ],
-  "confidence_sentence": "本文为RCT，CEBM 2 级，Cochrane RoB 2 尚未评估偏倚风险，结论基于摘要。"
+  "confidence_sentence": "本文为RCT，CEBM 2 级，Cochrane RoB 2 尚未评估偏倚风险，结论基于全文。"
  },
  {
   "pmid": "38884190",
@@ -574,18 +634,24 @@
   "key_results": [
    {
     "measure": "16 周存活",
-    "groups": "GS-441524 5/9（55%）；瑞德西韦 7/9（77%）",
-    "effect_ci": "差值 22%（90% CI −13.5% 至 57.5%）",
-    "p": "0.2"
+    "groups": "GS-441524 5/9（55.6%）；瑞德西韦 7/9（77.8%）",
+    "effect_ci": "死亡比例差 22%（90% CI −13.5% 至 57.5%），达预设非劣效界值",
+    "p": "原文未给出"
    },
    {
-    "measure": "入组 48 小时内死亡",
-    "groups": "3/18",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
+    "measure": "全因死亡生存曲线",
+    "groups": "两组无差异",
+    "effect_ci": "原文未给出",
+    "p": "0.24"
+   },
+   {
+    "measure": "存活 ≥48 小时者（GS-441524）",
+    "groups": "5/6（83%）",
+    "effect_ci": "原文未给出",
+    "p": "原文未给出"
    }
   ],
-  "confidence_sentence": "本文为RCT（非劣效），CEBM 2 级，Cochrane RoB 2 尚未评估偏倚风险，结论基于摘要。"
+  "confidence_sentence": "本文为RCT（非劣效），CEBM 2 级，Cochrane RoB 2 尚未评估偏倚风险，结论基于全文。"
  },
  {
   "pmid": "27678080",
@@ -633,25 +699,31 @@
   "why_it_matters": null,
   "key_results": [
    {
-    "measure": "每年/频繁接种",
-    "groups": "—",
+    "measure": "每年/频繁接种（vs 从不/偶尔）",
+    "groups": "多变量 Cox",
     "effect_ci": "HR 5.68（95% CI 1.83–17.64）",
     "p": "0.003"
    },
    {
-    "measure": "中度牙病",
-    "groups": "—",
+    "measure": "中度牙病（vs 无）",
+    "groups": "多变量 Cox",
     "effect_ci": "HR 13.83（95% CI 2.01–94.99）",
     "p": "0.008"
    },
    {
-    "measure": "重度牙病",
-    "groups": "—",
+    "measure": "重度牙病（vs 无）",
+    "groups": "多变量 Cox",
     "effect_ci": "HR 35.35（95% CI 4.31–289.73）",
     "p": "0.001"
+   },
+   {
+    "measure": "轻度牙病（vs 无）",
+    "groups": "多变量 Cox",
+    "effect_ci": "HR 2.15（95% CI 0.36–12.77）",
+    "p": "0.398"
    }
   ],
-  "confidence_sentence": "本文为前瞻性队列，CEBM 2 级，QUIPS 尚未评估偏倚风险，结论基于摘要。"
+  "confidence_sentence": "本文为前瞻性队列，CEBM 2 级，QUIPS 尚未评估偏倚风险，结论基于全文。"
  },
  {
   "pmid": "26776588",
@@ -778,26 +850,26 @@
   "key_results": [
    {
     "measure": "主要终点（CHF 或猝死）中位时间",
-    "groups": "匹莫苯丹 718 天；安慰剂 441 天",
-    "effect_ci": "摘要未给出",
-    "p": "0.0088"
+    "groups": "匹莫苯丹 718 天（IQR 441–1152）；安慰剂 441 天（IQR 151–641）",
+    "effect_ci": "原文报告 IQR，未给 CI",
+    "p": "0.0088（log-rank）"
    },
    {
     "measure": "到达主要终点比例",
-    "groups": "匹莫苯丹 19/39；安慰剂 25/37（全文：44 例事件 − 表 3 删失 20/12 推算）",
+    "groups": "匹莫苯丹 19/39；安慰剂 25/37（据原文表格推算）",
     "effect_ci": "—",
     "p": "0.1（不显著）"
    },
    {
     "measure": "仅甲状腺功能正常犬亚组中位时间",
-    "groups": "693 vs 441 天",
-    "effect_ci": "摘要未给出",
+    "groups": "693 天（IQR 441–1152）vs 441 天（IQR 146–641）；来源：全文",
+    "effect_ci": "原文报告 IQR，未给 CI",
     "p": "0.018"
    },
    {
-    "measure": "中位生存（预设次要终点）",
-    "groups": "623 vs 466 天",
-    "effect_ci": "摘要未给出",
+    "measure": "全因生存中位时间（非预设终点）",
+    "groups": "623 天（IQR 491–1531）vs 466 天（IQR 236–710）",
+    "effect_ci": "原文报告 IQR，未给 CI",
     "p": "0.034"
    }
   ],
@@ -921,25 +993,37 @@
   "why_it_matters": null,
   "key_results": [
    {
-    "measure": "死亡风险（UACR <2.0）",
-    "groups": "—",
+    "measure": "全因死亡（UACR <2.0）",
+    "groups": "Cox 模型",
     "effect_ci": "HR 3.045（95% CI 1.372–7.102）",
-    "p": "摘要未给出"
+    "p": "原文未给出"
    },
    {
-    "measure": "中位生存",
+    "measure": "中位生存（全因）",
     "groups": "189 vs 445 天",
-    "effect_ci": "摘要未给出",
+    "effect_ci": "原文未给出",
     "p": "0.008"
+   },
+   {
+    "measure": "中位生存（肾性死亡）",
+    "groups": "270 vs 445 天",
+    "effect_ci": "原文未给出",
+    "p": "0.02"
    },
    {
     "measure": "至进展中位时间",
     "groups": "132 vs 445 天",
-    "effect_ci": "摘要未给出",
+    "effect_ci": "原文未给出",
     "p": "0.0002"
+   },
+   {
+    "measure": "UPC <1.0 与死亡",
+    "groups": "Cox 模型",
+    "effect_ci": "HR 0.3506（95% CI 0.1417–0.8794）",
+    "p": "原文未给出"
    }
   ],
-  "confidence_sentence": "本文为前瞻性观察队列，CEBM 3 级，QUIPS 尚未评估偏倚风险，结论基于摘要。"
+  "confidence_sentence": "本文为前瞻性观察队列，CEBM 3 级，QUIPS 尚未评估偏倚风险，结论基于全文。"
  },
  {
   "pmid": "32139728",
@@ -952,15 +1036,15 @@
   "key_results": [
    {
     "measure": "噪声敏感患病率",
-    "groups": "32%",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
+    "groups": "32%；来源：全文",
+    "effect_ci": "原文未给出",
+    "p": "原文未给出"
    },
    {
     "measure": "至少一种高度问题行为",
-    "groups": "72.5%",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
+    "groups": "72.5%；来源：全文",
+    "effect_ci": "原文未给出",
+    "p": "原文未给出"
    }
   ],
   "confidence_sentence": "本文为横断面问卷，CEBM 3 级，无对应偏倚工具，结论基于全文。"
@@ -1054,15 +1138,15 @@
   "key_results": [
    {
     "measure": "≥1 次理赔年发病率",
-    "groups": "4632/万猫年",
+    "groups": "4632/万猫年；来源：全文",
     "effect_ci": "95% CI 4608–4656",
-    "p": "摘要未给出"
+    "p": "原文未给出"
    },
    {
     "measure": "消化系统",
-    "groups": "1172/万猫年",
+    "groups": "1172/万猫年；来源：全文",
     "effect_ci": "95% CI 1156–1187",
-    "p": "摘要未给出"
+    "p": "原文未给出"
    }
   ],
   "confidence_sentence": "本文为回顾性队列（保险数据），CEBM 3 级，无对应偏倚工具，结论基于全文。"
@@ -1343,23 +1427,29 @@
    {
     "measure": "持续缓解 ≥6 个月",
     "groups": "14/19（74%）",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
+    "effect_ci": "原文未给出",
+    "p": "原文未给出"
    },
    {
     "measure": "复发",
-    "groups": "3 只，再治疗均有效",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
+    "groups": "3 只（停药后 21、27、91 天），再治疗均有效",
+    "effect_ci": "原文未给出",
+    "p": "原文未给出"
    },
    {
-    "measure": "未完成疗程",
-    "groups": "2 只",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
+    "measure": "ALT 轻度升高",
+    "groups": "5/19（26%）",
+    "effect_ci": "原文未给出",
+    "p": "原文未给出"
+   },
+   {
+    "measure": "中性粒细胞减少",
+    "groups": "2/19（11%）",
+    "effect_ci": "原文未给出",
+    "p": "原文未给出"
    }
   ],
-  "confidence_sentence": "本文为前瞻性单臂试点，CEBM 4 级，无对应偏倚工具，结论基于摘要。"
+  "confidence_sentence": "本文为前瞻性单臂试点，CEBM 4 级，无对应偏倚工具，结论基于全文。"
  },
  {
   "pmid": "41834689",
@@ -1371,19 +1461,25 @@
   "why_it_matters": null,
   "key_results": [
    {
-    "measure": "样本",
-    "groups": "30 只",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
+    "measure": "初始治疗有反应",
+    "groups": "29/30（瑞德西韦组 1 只死亡）",
+    "effect_ci": "原文未给出",
+    "p": "原文未给出"
    },
    {
-    "measure": "复发",
-    "groups": "随访期内 0 只",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
+    "measure": "<12 周完成治疗",
+    "groups": "22 只；中位 54 天（IQR 45–57）",
+    "effect_ci": "原文未给出",
+    "p": "原文未给出"
+   },
+   {
+    "measure": "停药后 2、6、12 周复发",
+    "groups": "0 只",
+    "effect_ci": "原文未给出",
+    "p": "原文未给出"
    }
   ],
-  "confidence_sentence": "本文为前瞻性单臂研究，CEBM 4 级，无对应偏倚工具，结论基于摘要。"
+  "confidence_sentence": "本文为前瞻性单臂研究，CEBM 4 级，无对应偏倚工具，结论基于全文。"
  },
  {
   "pmid": "41035288",
@@ -1397,23 +1493,29 @@
    {
     "measure": "眼部病变",
     "groups": "20/61（33%）",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
-   },
-   {
-    "measure": "葡萄膜炎消退",
-    "groups": "9/11（82%）",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
+    "effect_ci": "原文未给出",
+    "p": "原文未给出"
    },
    {
     "measure": "存活",
     "groups": "16/20（80%）",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
+    "effect_ci": "原文未给出",
+    "p": "原文未给出"
+   },
+   {
+    "measure": "葡萄膜炎消退",
+    "groups": "9/11（82%），中位 44 天",
+    "effect_ci": "原文未给出",
+    "p": "原文未给出"
+   },
+   {
+    "measure": "继发青光眼",
+    "groups": "4/20（20%）",
+    "effect_ci": "原文未给出",
+    "p": "原文未给出"
    }
   ],
-  "confidence_sentence": "本文为回顾性观察研究，CEBM 4 级，无对应偏倚工具，结论基于摘要。"
+  "confidence_sentence": "本文为回顾性观察研究，CEBM 4 级，无对应偏倚工具，结论基于全文。"
  },
  {
   "pmid": "37732386",
@@ -1426,24 +1528,30 @@
   "key_results": [
    {
     "measure": "末次随访存活",
-    "groups": "84.4%",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
+    "groups": "259/307（84.4%）",
+    "effect_ci": "原文未给出",
+    "p": "原文未给出"
+   },
+   {
+    "measure": "初始疗程结束时存活",
+    "groups": "272/307（88.6%）",
+    "effect_ci": "原文未给出",
+    "p": "原文未给出"
    },
    {
     "measure": "复发",
     "groups": "33/307（10.8%）",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
+    "effect_ci": "原文未给出",
+    "p": "原文未给出"
    },
    {
     "measure": "皮下瑞德西韦注射痛",
-    "groups": "47.8%",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
+    "groups": "122/255（47.8%）",
+    "effect_ci": "原文未给出",
+    "p": "原文未给出"
    }
   ],
-  "confidence_sentence": "本文为回顾性病例系列，CEBM 4 级，无对应偏倚工具，结论基于摘要。"
+  "confidence_sentence": "本文为回顾性病例系列，CEBM 4 级，无对应偏倚工具，结论基于全文。"
  },
  {
   "pmid": "37548535",
@@ -1455,25 +1563,25 @@
   "why_it_matters": null,
   "key_results": [
    {
-    "measure": "第 48 周可随访",
-    "groups": "14/18",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
+    "measure": "随访检查数",
+    "groups": "第 24 周 18/18；第 36 周 15/18；第 48 周 14/18",
+    "effect_ci": "原文未给出",
+    "p": "原文未给出"
    },
    {
     "measure": "粪便 FCoV 再次排毒",
     "groups": "5 只",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
+    "effect_ci": "原文未给出",
+    "p": "原文未给出"
    },
    {
-    "measure": "轻度神经症状",
+    "measure": "类猫感觉过敏综合征表现",
     "groups": "2 只",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
+    "effect_ci": "原文未给出",
+    "p": "原文未给出"
    }
   ],
-  "confidence_sentence": "本文为前瞻性随访研究，CEBM 4 级，无对应偏倚工具，结论基于摘要。"
+  "confidence_sentence": "本文为前瞻性随访研究，CEBM 4 级，无对应偏倚工具，结论基于全文。"
  },
  {
   "pmid": "37439383",
@@ -1481,29 +1589,29 @@
   "id": "37439383",
   "matched_by": "pmid",
   "title_zh": "FIP：瑞德西韦注射转口服，6 个月存活 86%",
-  "one_line_conclusion_zh": "28 只 FIP 猫用瑞德西韦注射诱导，再用瑞德西韦或口服 GS-441524 维持，6 个月存活 86%。",
+  "one_line_conclusion_zh": "28 只 FIP 猫瑞德西韦注射诱导，再用瑞德西韦或口服 GS-441524 维持，6 个月存活 86%。",
   "why_it_matters": null,
   "key_results": [
    {
     "measure": "6 个月存活",
     "groups": "24/28（86%）",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
+    "effect_ci": "原文未给出",
+    "p": "原文未给出"
    },
    {
     "measure": "排除 48 小时内死亡后",
     "groups": "24/25（96%）",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
+    "effect_ci": "原文未给出",
+    "p": "原文未给出"
    },
    {
-    "measure": "第 84 天缓解",
-    "groups": "14/25（56%）",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
+    "measure": "第 84 天缓解并完成治疗",
+    "groups": "15/25（60%）",
+    "effect_ci": "原文未给出",
+    "p": "原文未给出"
    }
   ],
-  "confidence_sentence": "本文为前瞻性单臂研究，CEBM 4 级，无对应偏倚工具，结论基于摘要。"
+  "confidence_sentence": "本文为前瞻性单臂研究，CEBM 4 级，无对应偏倚工具，结论基于全文。"
  },
  {
   "pmid": "37403259",
@@ -1517,23 +1625,29 @@
    {
     "measure": "12 周缓解",
     "groups": "26/32（81.3%）",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
+    "effect_ci": "原文未给出",
+    "p": "原文未给出"
    },
    {
     "measure": "临床起效",
-    "groups": "28/32（87.5%），中位 2 天",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
+    "groups": "28/32（87.5%），中位 2 天（1–5）",
+    "effect_ci": "原文未给出",
+    "p": "原文未给出"
    },
    {
-    "measure": "治疗中死亡",
-    "groups": "6/32（4 只在 3 天内）",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
+    "measure": "治疗中死亡/安乐死",
+    "groups": "6/32（18.8%），其中 4 只在 3 天内",
+    "effect_ci": "原文未给出",
+    "p": "原文未给出"
+   },
+   {
+    "measure": "第 12 周 ALT >60 U/L",
+    "groups": "6/18（33%）",
+    "effect_ci": "原文未给出",
+    "p": "原文未给出"
    }
   ],
-  "confidence_sentence": "本文为回顾性病例系列，CEBM 4 级，无对应偏倚工具，结论基于摘要。"
+  "confidence_sentence": "本文为回顾性病例系列，CEBM 4 级，无对应偏倚工具，结论基于全文。"
  },
  {
   "pmid": "36297266",
@@ -1545,19 +1659,31 @@
   "why_it_matters": null,
   "key_results": [
    {
-    "measure": "无病存活",
+    "measure": "挽救治疗后无病存活",
     "groups": "24/26",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
+    "effect_ci": "原文未给出",
+    "p": "原文未给出"
    },
    {
-    "measure": "剂量（起始/结束）",
-    "groups": "12.8 / 14.7 mg/kg q12h（均值）",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
+    "measure": "2 周内症状改善（主人报告）",
+    "groups": "84.6%",
+    "effect_ci": "原文未给出",
+    "p": "原文未给出"
+   },
+   {
+    "measure": "一线使用（4 只）",
+    "groups": "全部存活、无病",
+    "effect_ci": "原文未给出",
+    "p": "原文未给出"
+   },
+   {
+    "measure": "疗程：挽救 vs 一线",
+    "groups": "中位 12 vs 11.5 周",
+    "effect_ci": "原文未给出",
+    "p": "0.692"
    }
   ],
-  "confidence_sentence": "本文为回顾性病例系列（主人报告），CEBM 4 级，无对应偏倚工具，结论基于摘要。"
+  "confidence_sentence": "本文为回顾性病例系列（主人报告），CEBM 4 级，无对应偏倚工具，结论基于全文。"
  },
  {
   "pmid": "34835034",
@@ -1571,11 +1697,29 @@
    {
     "measure": "康复",
     "groups": "18/18",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
+    "effect_ci": "原文未给出",
+    "p": "原文未给出"
+   },
+   {
+    "measure": "血液病毒载量",
+    "groups": "治疗 2–4 天内全部大幅下降（基线 15/18 可检出）",
+    "effect_ci": "原文未给出",
+    "p": "原文未给出"
+   },
+   {
+    "measure": "ALT 升高",
+    "groups": "7/18（38.9%），2 只重度",
+    "effect_ci": "原文未给出",
+    "p": "原文未给出"
+   },
+   {
+    "measure": "嗜酸性粒细胞增多（轻度）",
+    "groups": "11/18（61.1%）",
+    "effect_ci": "原文未给出",
+    "p": "原文未给出"
    }
   ],
-  "confidence_sentence": "本文为前瞻性单臂研究，CEBM 4 级，无对应偏倚工具，结论基于摘要。"
+  "confidence_sentence": "本文为前瞻性单臂研究，CEBM 4 级，无对应偏倚工具，结论基于全文。"
  },
  {
   "pmid": "32441826",
@@ -1589,17 +1733,17 @@
    {
     "measure": "停药后长期正常",
     "groups": "3/4",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
+    "effect_ci": "原文未给出",
+    "p": "原文未给出"
    },
    {
     "measure": "剂量",
     "groups": "5–10 mg/kg",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
+    "effect_ci": "原文未给出",
+    "p": "原文未给出"
    }
   ],
-  "confidence_sentence": "本文为病例系列，CEBM 4 级，无对应偏倚工具，结论基于摘要。"
+  "confidence_sentence": "本文为病例系列，CEBM 4 级，无对应偏倚工具，结论基于全文。"
  },
  {
   "pmid": "30755068",
@@ -1611,31 +1755,31 @@
   "why_it_matters": "这是 GS-441524 治疗自然发病 FIP 的首个前瞻性研究，标志着 FIP 从绝症变为可治。它确立了 4 mg/kg 皮下注射 12 周的早期方案，但未纳入神经和眼部重症，也没有对照组。",
   "key_results": [
    {
-    "measure": "完成 ≥12 周治疗",
-    "groups": "26/31",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
+    "measure": "早期死亡/安乐死",
+    "groups": "前 2–5 天 4 只；第 26 天 1 只",
+    "effect_ci": "原文未给出",
+    "p": "原文未给出"
    },
    {
     "measure": "一轮治疗后保持健康",
     "groups": "18/26",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
+    "effect_ci": "原文未给出",
+    "p": "原文未给出"
    },
    {
     "measure": "复发",
-    "groups": "8/26",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
+    "groups": "8/26（2 只为神经型复发）",
+    "effect_ci": "原文未给出",
+    "p": "原文未给出"
    },
    {
-    "measure": "最终长期存活",
-    "groups": "25 只",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
+    "measure": "持续缓解",
+    "groups": "25/26（其中 1 只后来死于无关心脏病）",
+    "effect_ci": "原文未给出",
+    "p": "原文未给出"
    }
   ],
-  "confidence_sentence": "本文为前瞻性单臂现场试验，CEBM 4 级，无对应偏倚工具，结论基于摘要。"
+  "confidence_sentence": "本文为前瞻性单臂现场试验，CEBM 4 级，无对应偏倚工具，结论基于全文。"
  },
  {
   "pmid": "30543707",
@@ -1695,25 +1839,31 @@
   "why_it_matters": null,
   "key_results": [
    {
-    "measure": "2 周内好转",
+    "measure": "治疗 1–4 周内明显好转",
     "groups": "19/20",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
+    "effect_ci": "原文未给出",
+    "p": "原文未给出"
    },
    {
-    "measure": "复发且治疗无效",
-    "groups": "13/19",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
+    "measure": "复发致死",
+    "groups": "13 只（停药 0–7 周后，含神经型）",
+    "effect_ci": "原文未给出",
+    "p": "原文未给出"
    },
    {
-    "measure": "缓解",
-    "groups": "7 只",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
+    "measure": "12 周后持续缓解",
+    "groups": "7 只（图 2 图注写 6 只）",
+    "effect_ci": "原文未给出",
+    "p": "原文未给出"
+   },
+   {
+    "measure": "死亡猫尸检",
+    "groups": "12/13 只送检",
+    "effect_ci": "原文未给出",
+    "p": "原文未给出"
    }
   ],
-  "confidence_sentence": "本文为前瞻性单臂现场试验，CEBM 4 级，无对应偏倚工具，结论基于摘要。"
+  "confidence_sentence": "本文为前瞻性单臂现场试验，CEBM 4 级，无对应偏倚工具，结论基于全文。"
  },
  {
   "pmid": "28152671",
@@ -1740,28 +1890,34 @@
   "matched_by": "pmid",
   "title_zh": "犬 CKD：SDMA 平均比肌酐早约 10 个月升高",
   "one_line_conclusion_zh": "19 只 CKD 犬中 17 只 SDMA 早于肌酐升高，平均提前 9.8 个月。",
-  "why_it_matters": null,
+  "why_it_matters": "说明 SDMA 能比肌酐更早提示犬 CKD，是 IRIS 把 SDMA 纳入分期的主要依据之一。样本仅 19 只 CKD 犬，来自 Hill's 研究犬群，资助方和作者涉及饲料与检测厂商，外推需谨慎。",
   "key_results": [
    {
     "measure": "SDMA 先于肌酐升高",
-    "groups": "17/19；平均 9.8 个月（2.2–27.0）",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
+    "groups": "17/19 只；平均提前 9.8 个月（范围 2.2–27.0）",
+    "effect_ci": "原文未给出",
+    "p": "原文未给出"
    },
    {
-    "measure": "SDMA 与 GFR 相关",
-    "groups": "r = −0.80",
-    "effect_ci": "摘要未给出",
-    "p": "<0.001"
+    "measure": "肌酐生前始终未超参考区间",
+    "groups": "10/19 只（靠尸检诊断 CKD）",
+    "effect_ci": "原文未给出",
+    "p": "原文未给出"
    },
    {
-    "measure": "肌酐与 GFR 相关",
+    "measure": "SDMA 首次升高时 IRIS 分期",
+    "groups": "1 期（非氮质血症）17/19；2 期 2/19",
+    "effect_ci": "原文未给出",
+    "p": "原文未给出"
+   },
+   {
+    "measure": "肌酐与 GFR（二次关系）",
     "groups": "r = −0.89",
-    "effect_ci": "摘要未给出",
-    "p": "<0.001"
+    "effect_ci": "原文未给出",
+    "p": "<0.0001"
    }
   ],
-  "confidence_sentence": "本文为回顾性诊断研究，CEBM 4 级，QUADAS-2 尚未评估偏倚风险，结论基于摘要。"
+  "confidence_sentence": "本文为回顾性诊断研究，CEBM 4 级，QUADAS-2 尚未评估偏倚风险，结论基于全文。"
  },
  {
   "pmid": "26079532",
@@ -1773,19 +1929,31 @@
   "why_it_matters": null,
   "key_results": [
    {
-    "measure": "SDMA 与 GFR 相关",
-    "groups": "r = −0.95",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
+    "measure": "SDMA 与 GFR 相关（患犬）",
+    "groups": "r = −0.95（n=83 个样本点）",
+    "effect_ci": "95% CI −1 至 −0.72",
+    "p": "原文未给出"
    },
    {
-    "measure": "SDMA 与肌酐相关",
-    "groups": "r = 0.95",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
+    "measure": "SDMA 与肌酐相关（患犬）",
+    "groups": "r = 0.95（n=329）",
+    "effect_ci": "95% CI 0.87–1",
+    "p": "原文未给出"
+   },
+   {
+    "measure": "检测 GFR 初始下降的时间",
+    "groups": "SDMA 与肌酐同时（5 只）或晚 1–3 周（3 只），以 SDMA ≥14 μg/dL 为界时",
+    "effect_ci": "原文未给出",
+    "p": "原文未给出"
+   },
+   {
+    "measure": "SDMA 样本稳定性",
+    "groups": "不同采血管、温度、冻融差异均在 ±10% 内",
+    "effect_ci": "差值 CI ±1.6%–8.4%",
+    "p": "原文未给出"
    }
   ],
-  "confidence_sentence": "本文为前瞻性诊断/方法学验证，CEBM 4 级，QUADAS-2 尚未评估偏倚风险，结论基于摘要。"
+  "confidence_sentence": "本文为前瞻性诊断/方法学验证，CEBM 4 级，QUADAS-2 尚未评估偏倚风险，结论基于全文。"
  },
  {
   "pmid": "25673019",
@@ -1936,12 +2104,30 @@
   "key_results": [
    {
     "measure": "总体治疗成功率",
-    "groups": "84.6%（650 只）",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
+    "groups": "550/650（84.6%）",
+    "effect_ci": "原文未给出",
+    "p": "原文未给出"
+   },
+   {
+    "measure": "首轮即缓解",
+    "groups": "524/650（80.6%）",
+    "effect_ci": "原文未给出",
+    "p": "原文未给出"
+   },
+   {
+    "measure": "未缓解死亡",
+    "groups": "72/650（11.1%）",
+    "effect_ci": "原文未给出",
+    "p": "原文未给出"
+   },
+   {
+    "measure": "积液型首轮缓解",
+    "groups": "148/202（73.3%）",
+    "effect_ci": "原文未给出",
+    "p": "原文未给出"
    }
   ],
-  "confidence_sentence": "本文为系统综述，CEBM 等级未核、AMSTAR 2未评，结论基于摘要，证据强度取决于纳入研究质量。"
+  "confidence_sentence": "本文为系统综述，CEBM 等级未核、AMSTAR 2未评，结论基于全文，证据强度取决于纳入研究质量。"
  },
  {
   "pmid": "40633571",
@@ -1955,17 +2141,23 @@
    {
     "measure": "S 区与犬冠状病毒 NA/09 同源性",
     "groups": "96.5%",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
+    "effect_ci": "原文未给出",
+    "p": "原文未给出"
    },
    {
-    "measure": "domain 0 缺失",
-    "groups": ">90% FIP 猫",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
+    "measure": "病例中神经型占比",
+    "groups": "26.05%",
+    "effect_ci": "原文未给出",
+    "p": "原文未给出"
+   },
+   {
+    "measure": "非积液型占比",
+    "groups": "10.23%",
+    "effect_ci": "原文未给出",
+    "p": "原文未给出"
    }
   ],
-  "confidence_sentence": "本文为分子流行病学/基因组研究，不属于 CEBM 分级对象；结论基于摘要，不能直接用于临床决策。"
+  "confidence_sentence": "本文为分子流行病学/基因组研究，不属于 CEBM 分级对象；结论基于全文，不能直接用于临床决策。"
  },
  {
   "pmid": "34758043",
@@ -2109,38 +2301,38 @@
   "why_it_matters": null,
   "key_results": [
    {
+    "measure": "细胞毒性 CC50",
+    "groups": ">100 μM",
+    "effect_ci": "原文未给出",
+    "p": "原文未给出"
+   },
+   {
+    "measure": "细胞中 EC50",
+    "groups": "约 1 μM",
+    "effect_ci": "原文未给出",
+    "p": "原文未给出"
+   },
+   {
     "measure": "实验感染猫恢复",
-    "groups": "10/10",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
-   },
-   {
-    "measure": "细胞无毒浓度",
-    "groups": "最高 100 μM",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
-   },
-   {
-    "measure": "有效浓度",
-    "groups": "低至 1 μM",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
+    "groups": "10/10（2 周疗程）",
+    "effect_ci": "原文未给出",
+    "p": "原文未给出"
    }
   ],
-  "confidence_sentence": "本文为体外与实验感染研究，不属于 CEBM 分级对象，SYRCLE 未评偏倚；结论基于摘要，不能直接用于临床决策。"
+  "confidence_sentence": "本文为体外与实验感染研究，不属于 CEBM 分级对象，SYRCLE 未评偏倚；结论基于全文，不能直接用于临床决策。"
  },
  {
   "pmid": "29326623",
   "doi": "10.3389/fpsyg.2017.02165",
   "id": "29326623",
   "matched_by": "pmid",
-  "title_zh": "猫友好性与激素受体基因多态性相关",
+  "title_zh": "猫友好性与催产素受体（OXTR）基因多态性相关",
   "one_line_conclusion_zh": "猫的友好性评分与受体基因邻近的微卫星多态性存在关联，但作者自称仅“边缘显著”。",
   "why_it_matters": null,
   "key_results": [
    {
-    "measure": "MS3 多态性与友好性评分",
-    "groups": "作者称仅边缘显著，页面未记录具体数字",
+    "measure": "OXTR 邻近微卫星多态性与友好性评分",
+    "groups": "140 只猫（混种 100、纯种 40）；作者称仅边缘显著",
     "effect_ci": "—",
     "p": "—"
    }
@@ -2195,14 +2387,14 @@
    {
     "measure": "猫 HCM 已知突变",
     "groups": "MYBPC3 A31P（缅因猫）、R820W（布偶猫）",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
+    "effect_ci": "原文未给出",
+    "p": "原文未给出"
    },
    {
     "measure": "缅因猫 A31P 携带率",
-    "groups": "34%，其中约 10% 纯合（约占群体 3%）",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
+    "groups": "34%（引自单项研究），约 10% 为纯合（约占群体 3%）；另两项研究为 32%、41%",
+    "effect_ci": "原文未给出",
+    "p": "原文未给出"
    }
   ],
   "confidence_sentence": "本文为叙述性综述，不属于 CEBM 分级对象；结论基于全文，不能直接用于临床决策。"

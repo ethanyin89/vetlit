@@ -61,7 +61,10 @@ for k,r in json.load(open(os.path.join(ROOT,'data','v5','pages38_fields.json'),e
     MERGE['pg']+=1
     p['can_say']=[STRIP(x) for x in r.get('can_say') or []]; p['cannot_say']=[STRIP(x) for x in r.get('cannot_say') or []]
     f='extracts38/'+os.path.basename(r.get('page_file') or k+'.md')
-    if os.path.exists(os.path.join(ROOT,'content',f)): p['detail']=f; p['p38']=True
+    if os.path.exists(os.path.join(ROOT,'content',f)):
+        p['detail']=f; p['p38']=True
+        m=re.search(r'`已读(全文|摘要)`',open(os.path.join(ROOT,'content',f),encoding='utf-8').read())
+        if m: p['reading_depth']=m.group(1)
     if not p.get('reading_depth'): p['reading_depth']='摘要'
 # hidden pending verification
 HIDE_KR=set()
@@ -81,7 +84,7 @@ def level(p):
     if p.get('design_category')=='指南/共识': return '指南/共识'
     return '未分级'
 ROB={'Some concerns':'有一定担忧','Moderate（QUIPS 综合，非官方总分）':'中等（QUIPS）'}
-DEPTH={'全文':'全文已读','摘要':'已读摘要','仅标题':'仅题录'}
+DEPTH={'全文':'已读全文','摘要':'已读摘要','仅标题':'仅题录'}
 def badges(p):
     b=[('k',p.get('design_category'))]
     n=p.get('n_analysed')
