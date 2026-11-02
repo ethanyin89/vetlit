@@ -25,7 +25,7 @@
   "cebm_question": "—",
   "cebm_level": "不适用（指南/共识，OCEBM 不分级）",
   "cebm_basis": "",
-  "rob_tool": "AGREE II（评价工具）",
+  "rob_tool": "AGREE II",
   "rob_judgement": "未做 AGREE II 正式评分",
   "rob_rationale": "",
   "guideline_recommendation": "未核（需读指南原文确认其推荐分级体系）",
@@ -48,7 +48,8 @@
   "importance_sort_key": "0|7|79739590",
   "importance_rank": 1,
   "population_type": "na",
-  "population_type_note": "指南/综述，无原始研究对象（指南/共识）"
+  "population_type_note": "指南/综述，无原始研究对象（指南/共识）",
+  "rob_tool_note": "指南"
  },
  {
   "id": "x-international-renal-interest-society-2026-iris-staging-of-ckd-modified-2026",
@@ -76,7 +77,7 @@
   "cebm_question": "—",
   "cebm_level": "不适用（指南/共识，OCEBM 不分级）",
   "cebm_basis": "",
-  "rob_tool": "AGREE II（评价工具）",
+  "rob_tool": "AGREE II",
   "rob_judgement": "未做 AGREE II 正式评分",
   "rob_rationale": "",
   "guideline_recommendation": "未核（需读指南原文确认其推荐分级体系）",
@@ -99,7 +100,8 @@
   "importance_sort_key": "0|7|79739898",
   "importance_rank": 2,
   "population_type": "na",
-  "population_type_note": "指南/综述，无原始研究对象（指南/共识）"
+  "population_type_note": "指南/综述，无原始研究对象（指南/共识）",
+  "rob_tool_note": "指南"
  },
  {
   "id": "37766254",
@@ -127,7 +129,7 @@
   "cebm_question": "—",
   "cebm_level": "不适用（指南/共识，OCEBM 不分级）",
   "cebm_basis": "",
-  "rob_tool": "AGREE II（评价工具）",
+  "rob_tool": "AGREE II",
   "rob_judgement": "未做 AGREE II 正式评分",
   "rob_rationale": "",
   "guideline_recommendation": "未核（需读指南原文确认其推荐分级体系）",
@@ -150,7 +152,8 @@
   "importance_sort_key": "0|7|79769168",
   "importance_rank": 3,
   "population_type": "na",
-  "population_type_note": "指南/综述，无原始研究对象（指南/共识）"
+  "population_type_note": "指南/综述，无原始研究对象（指南/共识）",
+  "rob_tool_note": "指南"
  },
  {
   "id": "36002137",
@@ -178,7 +181,7 @@
   "cebm_question": "—",
   "cebm_level": "不适用（指南/共识，OCEBM 不分级）",
   "cebm_basis": "",
-  "rob_tool": "AGREE II（评价工具）",
+  "rob_tool": "AGREE II",
   "rob_judgement": "未做 AGREE II 正式评分",
   "rob_rationale": "",
   "guideline_recommendation": "未核（需读指南原文确认其推荐分级体系）",
@@ -201,7 +204,8 @@
   "importance_sort_key": "0|7|79779098",
   "importance_rank": 4,
   "population_type": "na",
-  "population_type_note": "指南/综述，无原始研究对象（指南/共识）"
+  "population_type_note": "指南/综述，无原始研究对象（指南/共识）",
+  "rob_tool_note": "指南"
  },
  {
   "id": "32243654",
@@ -229,7 +233,7 @@
   "cebm_question": "—",
   "cebm_level": "不适用（指南/共识，OCEBM 不分级）",
   "cebm_basis": "",
-  "rob_tool": "AGREE II（评价工具）",
+  "rob_tool": "AGREE II",
   "rob_judgement": "未做 AGREE II 正式评分",
   "rob_rationale": "",
   "guideline_recommendation": "Luis Fuentes 2020 原文：证据等级 high/medium/low（Table 1：猫RCT为high……其他物种研究/专家意见为low），推荐等级 is recommended / should be considered / may be considered / is not recommended（Table 2，按投票）；共识定义为9人中≥6人同意。",
@@ -251,7 +255,8 @@
   "importance_sort_key": "0|7|79799596",
   "importance_rank": 5,
   "population_type": "na",
-  "population_type_note": "指南/综述，无原始研究对象（指南/共识）"
+  "population_type_note": "指南/综述，无原始研究对象（指南/共识）",
+  "rob_tool_note": "指南"
  },
  {
   "id": "30974015",
@@ -279,7 +284,7 @@
   "cebm_question": "—",
   "cebm_level": "不适用（指南/共识，OCEBM 不分级）",
   "cebm_basis": "",
-  "rob_tool": "AGREE II（评价工具）",
+  "rob_tool": "AGREE II",
   "rob_judgement": "未做 AGREE II 正式评分",
   "rob_rationale": "",
   "guideline_recommendation": "Keene 2019 原文：推荐分级采用改编自美国心脏协会（AHA）的 Class I / IIa / IIb / III / IV，并独立标注证据质量（LOE）；原文称“any class of recommendation may be paired with any LOE”。",
@@ -302,7 +307,8 @@
   "importance_sort_key": "0|7|79809588",
   "importance_rank": 6,
   "population_type": "na",
-  "population_type_note": "指南/综述，无原始研究对象（指南/共识）"
+  "population_type_note": "指南/综述，无原始研究对象（指南/共识）",
+  "rob_tool_note": "指南"
  },
  {
   "id": "30353952",
@@ -330,7 +336,7 @@
   "cebm_question": "—",
   "cebm_level": "不适用（指南/共识，OCEBM 不分级）",
   "cebm_basis": "",
-  "rob_tool": "AGREE II（评价工具）",
+  "rob_tool": "AGREE II",
   "rob_judgement": "未做 AGREE II 正式评分",
   "rob_rationale": "需两名以上评审员按 AGREE II 23 项评分，本库暂未执行；已知：非系统综述、无检索策略、推荐未逐条标证据等级（领域3“制定严谨性”预计偏低）。",
   "guideline_recommendation": "Acierno 2018 原文未对推荐逐条分级；原文承认急症部分 “recommendations are anecdotal and extrapolated”。",
@@ -354,7 +360,8 @@
   "importance_sort_key": "0|7|79818975",
   "importance_rank": 7,
   "population_type": "na",
-  "population_type_note": "指南/综述，无原始研究对象（指南/共识）"
+  "population_type_note": "指南/综述，无原始研究对象（指南/共识）",
+  "rob_tool_note": "指南"
  },
  {
   "id": "29314873",
@@ -382,7 +389,7 @@
   "cebm_question": "—",
   "cebm_level": "不适用（指南/共识，OCEBM 不分级）",
   "cebm_basis": "",
-  "rob_tool": "AGREE II（评价工具）",
+  "rob_tool": "AGREE II",
   "rob_judgement": "未做 AGREE II 正式评分",
   "rob_rationale": "",
   "guideline_recommendation": "未核（需读指南原文确认其推荐分级体系）",
@@ -405,7 +412,8 @@
   "importance_sort_key": "0|7|79819898",
   "importance_rank": 8,
   "population_type": "na",
-  "population_type_note": "指南/综述，无原始研究对象（指南/共识）"
+  "population_type_note": "指南/综述，无原始研究对象（指南/共识）",
+  "rob_tool_note": "指南"
  },
  {
   "id": "28965673",
@@ -433,7 +441,7 @@
   "cebm_question": "—",
   "cebm_level": "不适用（指南/共识，OCEBM 不分级）",
   "cebm_basis": "",
-  "rob_tool": "AGREE II（评价工具）",
+  "rob_tool": "AGREE II",
   "rob_judgement": "未做 AGREE II 正式评分",
   "rob_rationale": "",
   "guideline_recommendation": "未核（需读指南原文确认其推荐分级体系）",
@@ -456,7 +464,8 @@
   "importance_sort_key": "0|7|79829070",
   "importance_rank": 9,
   "population_type": "na",
-  "population_type_note": "指南/综述，无原始研究对象（指南/共识）"
+  "population_type_note": "指南/综述，无原始研究对象（指南/共识）",
+  "rob_tool_note": "指南"
  },
  {
   "id": "27143042",
@@ -484,7 +493,7 @@
   "cebm_question": "—",
   "cebm_level": "不适用（指南/共识，OCEBM 不分级）",
   "cebm_basis": "",
-  "rob_tool": "AGREE II（评价工具）",
+  "rob_tool": "AGREE II",
   "rob_judgement": "未做 AGREE II 正式评分",
   "rob_rationale": "",
   "guideline_recommendation": "未核（需读指南原文确认其推荐分级体系）",
@@ -507,7 +516,8 @@
   "importance_sort_key": "0|7|79839498",
   "importance_rank": 10,
   "population_type": "na",
-  "population_type_note": "指南/综述，无原始研究对象（指南/共识）"
+  "population_type_note": "指南/综述，无原始研究对象（指南/共识）",
+  "rob_tool_note": "指南"
  },
  {
   "id": "26936494",
@@ -535,7 +545,7 @@
   "cebm_question": "—",
   "cebm_level": "不适用（指南/共识，OCEBM 不分级）",
   "cebm_basis": "",
-  "rob_tool": "AGREE II（评价工具）",
+  "rob_tool": "AGREE II",
   "rob_judgement": "未做 AGREE II 正式评分",
   "rob_rationale": "",
   "guideline_recommendation": "未核（需读指南原文确认其推荐分级体系）",
@@ -558,7 +568,8 @@
   "importance_sort_key": "0|7|79839698",
   "importance_rank": 11,
   "population_type": "na",
-  "population_type_note": "指南/综述，无原始研究对象（指南/共识）"
+  "population_type_note": "指南/综述，无原始研究对象（指南/共识）",
+  "rob_tool_note": "指南"
  },
  {
   "id": "25701862",
@@ -586,7 +597,7 @@
   "cebm_question": "—",
   "cebm_level": "不适用（指南/共识，OCEBM 不分级）",
   "cebm_basis": "",
-  "rob_tool": "AGREE II（评价工具）",
+  "rob_tool": "AGREE II",
   "rob_judgement": "未做 AGREE II 正式评分",
   "rob_rationale": "",
   "guideline_recommendation": "未核（需读指南原文确认其推荐分级体系）",
@@ -609,7 +620,8 @@
   "importance_sort_key": "0|7|79849698",
   "importance_rank": 12,
   "population_type": "na",
-  "population_type_note": "指南/综述，无原始研究对象（指南/共识）"
+  "population_type_note": "指南/综述，无原始研究对象（指南/共识）",
+  "rob_tool_note": "指南"
  },
  {
   "id": "24112317",
@@ -637,7 +649,7 @@
   "cebm_question": "—",
   "cebm_level": "不适用（指南/共识，OCEBM 不分级）",
   "cebm_basis": "",
-  "rob_tool": "AGREE II（评价工具）",
+  "rob_tool": "AGREE II",
   "rob_judgement": "未做 AGREE II 正式评分",
   "rob_rationale": "",
   "guideline_recommendation": "未核（需读指南原文确认其推荐分级体系）",
@@ -660,7 +672,8 @@
   "importance_sort_key": "0|7|79869079",
   "importance_rank": 13,
   "population_type": "na",
-  "population_type_note": "指南/综述，无原始研究对象（指南/共识）"
+  "population_type_note": "指南/综述，无原始研究对象（指南/共识）",
+  "rob_tool_note": "指南"
  },
  {
   "id": "23422366",
@@ -688,7 +701,7 @@
   "cebm_question": "—",
   "cebm_level": "不适用（指南/共识，OCEBM 不分级）",
   "cebm_basis": "",
-  "rob_tool": "AGREE II（评价工具）",
+  "rob_tool": "AGREE II",
   "rob_judgement": "未做 AGREE II 正式评分",
   "rob_rationale": "",
   "guideline_recommendation": "未核（需读指南原文确认其推荐分级体系）",
@@ -711,7 +724,8 @@
   "importance_sort_key": "0|7|79869698",
   "importance_rank": 14,
   "population_type": "na",
-  "population_type_note": "指南/综述，无原始研究对象（指南/共识）"
+  "population_type_note": "指南/综述，无原始研究对象（指南/共识）",
+  "rob_tool_note": "指南"
  },
  {
   "id": "21704901",
@@ -739,7 +753,7 @@
   "cebm_question": "—",
   "cebm_level": "不适用（指南/共识，OCEBM 不分级）",
   "cebm_basis": "",
-  "rob_tool": "AGREE II（评价工具）",
+  "rob_tool": "AGREE II",
   "rob_judgement": "未做 AGREE II 正式评分",
   "rob_rationale": "",
   "guideline_recommendation": "未核（需读指南原文确认其推荐分级体系）",
@@ -761,7 +775,8 @@
   "importance_sort_key": "0|7|79889298",
   "importance_rank": 15,
   "population_type": "na",
-  "population_type_note": "指南/综述，无原始研究对象（指南/共识）"
+  "population_type_note": "指南/综述，无原始研究对象（指南/共识）",
+  "rob_tool_note": "指南"
  },
  {
   "id": "19481039",
@@ -789,7 +804,7 @@
   "cebm_question": "—",
   "cebm_level": "不适用（指南/共识，OCEBM 不分级）",
   "cebm_basis": "",
-  "rob_tool": "AGREE II（评价工具）",
+  "rob_tool": "AGREE II",
   "rob_judgement": "未做 AGREE II 正式评分",
   "rob_rationale": "",
   "guideline_recommendation": "未核（需读指南原文确认其推荐分级体系）",
@@ -812,7 +827,8 @@
   "importance_sort_key": "0|7|79909298",
   "importance_rank": 16,
   "population_type": "na",
-  "population_type_note": "指南/综述，无原始研究对象（指南/共识）"
+  "population_type_note": "指南/综述，无原始研究对象（指南/共识）",
+  "rob_tool_note": "指南"
  },
  {
   "id": "15954557",
@@ -840,7 +856,7 @@
   "cebm_question": "—",
   "cebm_level": "不适用（指南/共识，OCEBM 不分级）",
   "cebm_basis": "",
-  "rob_tool": "AGREE II（评价工具）",
+  "rob_tool": "AGREE II",
   "rob_judgement": "未做 AGREE II 正式评分",
   "rob_rationale": "",
   "guideline_recommendation": "未核（需读指南原文确认其推荐分级体系）",
@@ -863,7 +879,8 @@
   "importance_sort_key": "0|7|79949498",
   "importance_rank": 17,
   "population_type": "na",
-  "population_type_note": "指南/综述，无原始研究对象（指南/共识）"
+  "population_type_note": "指南/综述，无原始研究对象（指南/共识）",
+  "rob_tool_note": "指南"
  },
  {
   "id": "39858209",
@@ -914,7 +931,8 @@
   "importance_sort_key": "1|1|79749885",
   "importance_rank": 18,
   "population_type": "na",
-  "population_type_note": "指南/综述，无原始研究对象（系统综述/Meta分析）"
+  "population_type_note": "指南/综述，无原始研究对象（系统综述/Meta分析）",
+  "rob_tool_note": "系统综述"
  },
  {
   "id": "41781382",
@@ -942,7 +960,7 @@
   "cebm_question": "治疗获益",
   "cebm_level": "2",
   "cebm_basis": "随机双盲非劣效试验",
-  "rob_tool": "Cochrane RoB 2",
+  "rob_tool": "RoB 2",
   "rob_judgement": "未评（仅摘要）",
   "rob_rationale": "",
   "guideline_recommendation": "不适用",
@@ -965,7 +983,8 @@
   "importance_sort_key": "1|2|79739695",
   "importance_rank": 19,
   "population_type": "natural",
-  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：RCT（非劣效））"
+  "population_type_note": "前瞻性随机临床试验，病例为非渗出型 FIP 猫，随访经主人（摘要：\"Long-term follow-up was also obtained by contacting owners\"）",
+  "rob_tool_note": "RCT"
  },
  {
   "id": "40110605",
@@ -993,7 +1012,7 @@
   "cebm_question": "治疗获益",
   "cebm_level": "2",
   "cebm_basis": "随机安慰剂对照交叉试验",
-  "rob_tool": "Cochrane RoB 2",
+  "rob_tool": "RoB 2",
   "rob_judgement": "未评（仅摘要）",
   "rob_rationale": "",
   "guideline_recommendation": "不适用",
@@ -1016,7 +1035,8 @@
   "importance_sort_key": "1|2|79749698",
   "importance_rank": 20,
   "population_type": "natural",
-  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：RCT（交叉））"
+  "population_type_note": "摘要：\"Thirteen dogs with naturally acquired CKD.\"",
+  "rob_tool_note": "RCT"
  },
  {
   "id": "39417648",
@@ -1044,7 +1064,7 @@
   "cebm_question": "治疗获益",
   "cebm_level": "2",
   "cebm_basis": "随机安慰剂对照平行试验",
-  "rob_tool": "Cochrane RoB 2",
+  "rob_tool": "RoB 2",
   "rob_judgement": "未评（仅摘要）",
   "rob_rationale": "",
   "guideline_recommendation": "不适用",
@@ -1067,7 +1087,8 @@
   "importance_sort_key": "1|2|79758998",
   "importance_rank": 21,
   "population_type": "natural",
-  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：RCT）"
+  "population_type_note": "临床病例 CKD 猫（摘要：\"A prospective, randomised, controlled parallel-group study was conducted on 35 cats with CKD\"）；来源细节摘要未写",
+  "rob_tool_note": "RCT"
  },
  {
   "id": "39066306",
@@ -1095,7 +1116,7 @@
   "cebm_question": "治疗获益",
   "cebm_level": "2",
   "cebm_basis": "随机对照试验（42 天 vs 84 天）",
-  "rob_tool": "Cochrane RoB 2",
+  "rob_tool": "RoB 2",
   "rob_judgement": "未评（仅摘要）",
   "rob_rationale": "",
   "guideline_recommendation": "不适用",
@@ -1118,7 +1139,8 @@
   "importance_sort_key": "1|2|79759283",
   "importance_rank": 22,
   "population_type": "natural",
-  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：RCT）"
+  "population_type_note": "自然发病渗出型 FIP 猫（摘要：\"Forty cats with FIP with effusion were prospectively included\"）",
+  "rob_tool_note": "RCT"
  },
  {
   "id": "38952053",
@@ -1146,7 +1168,7 @@
   "cebm_question": "治疗获益",
   "cebm_level": "2",
   "cebm_basis": "随机双盲平行试验",
-  "rob_tool": "Cochrane RoB 2",
+  "rob_tool": "RoB 2",
   "rob_judgement": "未评（仅摘要）",
   "rob_rationale": "",
   "guideline_recommendation": "不适用",
@@ -1170,7 +1192,8 @@
   "importance_sort_key": "1|2|79759298",
   "importance_rank": 23,
   "population_type": "natural",
-  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：RCT）"
+  "population_type_note": "摘要：\"Sixty euthyroid client-owned cats with azotemic CKD, with 27 and 33 allocated to magnesium-enriched PRD or control PRD, respectively.\"",
+  "rob_tool_note": "RCT"
  },
  {
   "id": "38884190",
@@ -1198,7 +1221,7 @@
   "cebm_question": "治疗获益",
   "cebm_level": "2",
   "cebm_basis": "随机阳性对照非劣效试验",
-  "rob_tool": "Cochrane RoB 2",
+  "rob_tool": "RoB 2",
   "rob_judgement": "Some concerns",
   "rob_rationale": "D1 随机化过程：低（\"randomized, positive-controlled\"）；D2 偏离既定干预：有一定担忧（开放标签；一只 DKA 猫\"inappropriately included\"）；D3 结局数据缺失：有一定担忧（维格列净组 5 只缺随访被排除（3 只 DKA）；采用 LOCF 填补）；D4 结局测量：有一定担忧（开放标签，\"治疗成功\"含临床评估成分）；D5 结果选择性报告：低（预设非劣效终点与界值）。来源：deep extract 全文单人评估",
   "guideline_recommendation": "不适用",
@@ -1221,7 +1244,8 @@
   "importance_sort_key": "1|2|79759382",
   "importance_rank": 24,
   "population_type": "natural",
-  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：临床试验）"
+  "population_type_note": "摘要：\"Client-owned diabetic cats (127 safety;\"",
+  "rob_tool_note": "RCT"
  },
  {
   "id": "37632022",
@@ -1249,7 +1273,7 @@
   "cebm_question": "治疗获益",
   "cebm_level": "2",
   "cebm_basis": "随机双盲非劣效试验",
-  "rob_tool": "Cochrane RoB 2",
+  "rob_tool": "RoB 2",
   "rob_judgement": "未评（仅摘要）",
   "rob_rationale": "",
   "guideline_recommendation": "不适用",
@@ -1272,7 +1296,8 @@
   "importance_sort_key": "1|2|79769198",
   "importance_rank": 25,
   "population_type": "natural",
-  "population_type_note": "标题：\"Efficacy of Oral Remdesivir Compared to GS-441524 for Treatment of Cats with Nat\""
+  "population_type_note": "临床 FIP 猫（标题：\"Cats with Naturally Occurring FIP\"；摘要：\"Eighteen cats with effusive FIP were prospectively enrolled\"）",
+  "rob_tool_note": "RCT"
  },
  {
   "id": "27678080",
@@ -1300,7 +1325,7 @@
   "cebm_question": "治疗获益",
   "cebm_level": "2",
   "cebm_basis": "随机试验（EPIC）",
-  "rob_tool": "Cochrane RoB 2",
+  "rob_tool": "RoB 2",
   "rob_judgement": "Some concerns",
   "rob_rationale": "D1随机：多中心随机，低；D2：设盲安慰剂对照，低；D3：PP 354/ITT 359，缺失约1.7%，低；D4：终点经盲法裁定，低；D5：预设O'Brien–Fleming中期分析，但因有效提前终止可能高估效应量，有些担忧。厂商资助单列，不计入领域。",
   "guideline_recommendation": "不适用",
@@ -1323,7 +1348,8 @@
   "importance_sort_key": "1|2|79839071",
   "importance_rank": 26,
   "population_type": "natural",
-  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：RCT）"
+  "population_type_note": "摘要：\"360 client-owned dogs with MMVD with left atrial-to-aortic ratio ≥1.6, normalized left ventricular internal diameter in diastole ≥1.7, and vertebral heart sum >10.5.\"",
+  "rob_tool_note": "RCT"
  },
  {
   "id": "26948860",
@@ -1374,7 +1400,8 @@
   "importance_sort_key": "1|2|79839693",
   "importance_rank": 27,
   "population_type": "natural",
-  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：前瞻性队列）"
+  "population_type_note": "摘要：\"One hundred and forty-eight client-owned geriatric (>9 years) cats.\"",
+  "rob_tool_note": "预后因素研究"
  },
  {
   "id": "26776588",
@@ -1402,7 +1429,7 @@
   "cebm_question": "治疗获益",
   "cebm_level": "2",
   "cebm_basis": "随机试验（FAT CAT）",
-  "rob_tool": "Cochrane RoB 2",
+  "rob_tool": "RoB 2",
   "rob_judgement": "未评（仅摘要）",
   "rob_rationale": "",
   "guideline_recommendation": "不适用",
@@ -1425,7 +1452,8 @@
   "importance_sort_key": "1|2|79848798",
   "importance_rank": 28,
   "population_type": "natural",
-  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：RCT）"
+  "population_type_note": "主人饲养的 HCM 猫，多中心临床（摘要：\"62/75 (83%) were mixed breed\"）；招募于多家专科医院",
+  "rob_tool_note": "RCT"
  },
  {
   "id": "26474314",
@@ -1453,7 +1481,7 @@
   "cebm_question": "治疗获益",
   "cebm_level": "2",
   "cebm_basis": "随机试验",
-  "rob_tool": "Cochrane RoB 2",
+  "rob_tool": "RoB 2",
   "rob_judgement": "Some concerns",
   "rob_rationale": "D1随机：集中随机表，低；D2偏离干预：研究者设盲但剂型不同、主人未盲，主要终点为实验室UP/C故影响小；D3缺失数据：PPS排除约21%，但ITT结果一致，低；D4测量：UP/C客观指标，低；D5选择性报告：预设CI法，但讨论把组内显著当作组间优势，有些担忧。替代终点(UP/C)与厂商资助属间接性/利益冲突，不计入RoB 2领域。",
   "guideline_recommendation": "不适用",
@@ -1476,7 +1504,8 @@
   "importance_sort_key": "1|2|79848983",
   "importance_rank": 29,
   "population_type": "natural",
-  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：RCT）"
+  "population_type_note": "摘要：\"Two-hundred and twenty-four client-owned adult cats with CKD.\"",
+  "rob_tool_note": "RCT"
  },
  {
   "id": "26265631",
@@ -1527,7 +1556,8 @@
   "importance_sort_key": "1|2|79849268",
   "importance_rank": 30,
   "population_type": "natural",
-  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：前瞻性队列）"
+  "population_type_note": "前瞻性宠物猫出生队列 Bristol Cats，主人问卷（摘要：\"prospective data from a large scale longitudinal study of pet cats ('Bristol Cats')\"）",
+  "rob_tool_note": "预后因素研究"
  },
  {
   "id": "23838205",
@@ -1555,7 +1585,7 @@
   "cebm_question": "治疗获益",
   "cebm_level": "2",
   "cebm_basis": "随机交叉试验",
-  "rob_tool": "Cochrane RoB 2",
+  "rob_tool": "RoB 2",
   "rob_judgement": "未评（仅摘要）",
   "rob_rationale": "",
   "guideline_recommendation": "不适用",
@@ -1578,7 +1608,8 @@
   "importance_sort_key": "1|2|79869293",
   "importance_rank": 31,
   "population_type": "natural",
-  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：RCT（交叉））"
+  "population_type_note": "临床 CKD 猫，主人记录日志（摘要：\"owners kept daily logs of appetite, activity, behavior, and vomiting episodes\"）",
+  "rob_tool_note": "RCT"
  },
  {
   "id": "23078651",
@@ -1606,7 +1637,7 @@
   "cebm_question": "治疗获益",
   "cebm_level": "2",
   "cebm_basis": "随机试验（PROTECT）",
-  "rob_tool": "Cochrane RoB 2",
+  "rob_tool": "RoB 2",
   "rob_judgement": "Some concerns",
   "rob_rationale": "D1 随机化过程：低（随机、安慰剂对照；76 只随机 39/37）；D2 偏离既定干预：有一定担忧（方案中途修订：24 个月加入美国中心；38 个月纳入甲减犬（n=5））；D3 结局数据缺失：低（\"No dogs were lost to follow-up\"）；D4 结局测量：低（设盲；主要终点为临床事件（CHF/猝死），非替代指标）；D5 结果选择性报告：有一定担忧（生存终点\"was not predefined in the protocol\"；中期分析\"not originally planned\"）。来源：deep extract 全文单人评估",
   "guideline_recommendation": "不适用",
@@ -1630,7 +1661,8 @@
   "importance_sort_key": "1|2|79878981",
   "importance_rank": 32,
   "population_type": "natural",
-  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：RCT）"
+  "population_type_note": "摘要：\"Seventy-six client-owned Dobermans recruited at 10 centers in the UK and North America.\"",
+  "rob_tool_note": "RCT"
  },
  {
   "id": "18638016",
@@ -1658,7 +1690,7 @@
   "cebm_question": "治疗获益",
   "cebm_level": "2",
   "cebm_basis": "随机试验（QUEST）",
-  "rob_tool": "Cochrane RoB 2",
+  "rob_tool": "RoB 2",
   "rob_judgement": "未评（仅摘要）",
   "rob_rationale": "",
   "guideline_recommendation": "不适用",
@@ -1681,7 +1713,8 @@
   "importance_sort_key": "1|2|79919288",
   "importance_rank": 33,
   "population_type": "natural",
-  "population_type_note": "标题：\"Effect of pimobendan or benazepril hydrochloride on survival times in dogs with \""
+  "population_type_note": "摘要：\"Two hundred and sixty client-owned dogs in CHF caused by MMVD were recruited from 28 centers in Europe, Canada, and Australia.\"",
+  "rob_tool_note": "RCT"
  },
  {
   "id": "16978113",
@@ -1709,7 +1742,7 @@
   "cebm_question": "治疗获益",
   "cebm_level": "2",
   "cebm_basis": "随机试验",
-  "rob_tool": "Cochrane RoB 2",
+  "rob_tool": "RoB 2",
   "rob_judgement": "未评（仅摘要）",
   "rob_rationale": "",
   "guideline_recommendation": "不适用",
@@ -1732,7 +1765,8 @@
   "importance_sort_key": "1|2|79939098",
   "importance_rank": 34,
   "population_type": "natural",
-  "population_type_note": "标题：\"Clinical evaluation of dietary modification for treatment of spontaneous chronic\""
+  "population_type_note": "摘要：\"Animals-45 client-owned cats with spontaneous stage 2 or 3 CKD.\"",
+  "rob_tool_note": "RCT"
  },
  {
   "id": "17063696",
@@ -1760,7 +1794,7 @@
   "cebm_question": "治疗获益",
   "cebm_level": "2",
   "cebm_basis": "随机试验（双盲安慰剂，BENRIC）",
-  "rob_tool": "Cochrane RoB 2",
+  "rob_tool": "RoB 2",
   "rob_judgement": "未评（仅摘要）",
   "rob_rationale": "",
   "guideline_recommendation": "不适用",
@@ -1783,7 +1817,8 @@
   "importance_sort_key": "1|2|79939098",
   "importance_rank": 35,
   "population_type": "natural",
-  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：RCT）"
+  "population_type_note": "临床 CKD 猫招募入临床试验（摘要：\"192 cats with CKD ... were recruited into a double-blind ... randomized clinical trial\"）",
+  "rob_tool_note": "RCT"
  },
  {
   "id": "15702689",
@@ -1834,7 +1869,8 @@
   "importance_sort_key": "1|2|79949798",
   "importance_rank": 36,
   "population_type": "natural",
-  "population_type_note": "标题：\"Evaluation of the association between initial proteinuria and morbidity rate or \""
+  "population_type_note": "临床 CRF 犬（摘要：\"45 dogs with CRF\"）；来源细节摘要未写",
+  "rob_tool_note": "预后因素研究"
  },
  {
   "id": "11990962",
@@ -1862,7 +1898,7 @@
   "cebm_question": "治疗获益",
   "cebm_level": "2",
   "cebm_basis": "随机试验",
-  "rob_tool": "Cochrane RoB 2",
+  "rob_tool": "RoB 2",
   "rob_judgement": "未评（仅摘要）",
   "rob_rationale": "",
   "guideline_recommendation": "不适用",
@@ -1885,7 +1921,8 @@
   "importance_sort_key": "1|2|79979598",
   "importance_rank": 37,
   "population_type": "natural",
-  "population_type_note": "标题：\"Clinical evaluation of dietary modification for treatment of spontaneous chronic\""
+  "population_type_note": "自发性 CRF 犬（摘要：\"38 dogs with spontaneous chronic renal failure\"）",
+  "rob_tool_note": "RCT"
  },
  {
   "id": "42207576",
@@ -1936,7 +1973,8 @@
   "importance_sort_key": "1|3|79739498",
   "importance_rank": 38,
   "population_type": "natural",
-  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：前瞻性观察队列）"
+  "population_type_note": "摘要：\"Fifty client-owned dogs with International Renal Interest Society (IRIS) stages II-IV CKD receiving a therapeutic renal diet.\"",
+  "rob_tool_note": "预后因素研究"
  },
  {
   "id": "32139728",
@@ -1964,7 +2002,7 @@
   "cebm_question": "患病率",
   "cebm_level": "3",
   "cebm_basis": "非随机样本（问卷）",
-  "rob_tool": "未评（无干预的描述性/横断面研究，无对应工具）",
+  "rob_tool": "无（仅 STROBE-Vet 报告规范）",
   "rob_judgement": "不适用",
   "rob_rationale": "",
   "guideline_recommendation": "不适用",
@@ -1987,7 +2025,8 @@
   "importance_sort_key": "1|3|79799694",
   "importance_rank": 39,
   "population_type": "natural",
-  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：横断面问卷）"
+  "population_type_note": "芬兰宠物犬问卷（摘要：\"a prevalence of 32% in 13,700 Finnish pet dogs\"）",
+  "rob_tool_note": "描述性患病率/横断面/基因组流行病学；ROBINS-E 针对暴露效应，不适用于纯描述，故不评"
  },
  {
   "id": "30548336",
@@ -2038,7 +2077,8 @@
   "importance_sort_key": "1|3|79818788",
   "importance_rank": 40,
   "population_type": "natural",
-  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：回顾性队列）"
+  "population_type_note": "摘要：\"To examine the effects of being overweight in middle age on the life span of neutered client-owned dogs.\"",
+  "rob_tool_note": "预后因素研究"
  },
  {
   "id": "29660848",
@@ -2089,7 +2129,8 @@
   "importance_sort_key": "1|3|79819583",
   "importance_rank": 41,
   "population_type": "natural",
-  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：回顾性队列）"
+  "population_type_note": "摘要：\"One thousand seven hundred and thirty client-owned cats (430 preclinical HCM;\"",
+  "rob_tool_note": "预后因素研究"
  },
  {
   "id": "26776583",
@@ -2117,7 +2158,7 @@
   "cebm_question": "患病率",
   "cebm_level": "3",
   "cebm_basis": "非随机本地样本（收容所）",
-  "rob_tool": "未评（无干预的描述性/横断面研究，无对应工具）",
+  "rob_tool": "无（仅 STROBE-Vet 报告规范）",
   "rob_judgement": "不适用",
   "rob_rationale": "",
   "guideline_recommendation": "不适用",
@@ -2140,7 +2181,8 @@
   "importance_sort_key": "1|3|79848798",
   "importance_rank": 42,
   "population_type": "natural",
-  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：横断面研究）"
+  "population_type_note": "摘要：\"In this prospective, cross-sectional study, the inclusion criteria were: apparently healthy cats, aged ≥ 6 months, available for rehoming over a 17-month period from two rehoming c\"",
+  "rob_tool_note": "描述性患病率/横断面/基因组流行病学；ROBINS-E 针对暴露效应，不适用于纯描述，故不评"
  },
  {
   "id": "26581469",
@@ -2168,7 +2210,7 @@
   "cebm_question": "患病率",
   "cebm_level": "3",
   "cebm_basis": "非随机样本（投保猫）",
-  "rob_tool": "未评（无干预的描述性/横断面研究，无对应工具）",
+  "rob_tool": "无（仅 STROBE-Vet 报告规范）",
   "rob_judgement": "不适用",
   "rob_rationale": "",
   "guideline_recommendation": "不适用",
@@ -2190,7 +2232,8 @@
   "importance_sort_key": "1|3|79848881",
   "importance_rank": 43,
   "population_type": "natural",
-  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：回顾性队列（保险数据））"
+  "population_type_note": "摘要：\"The aim of the study was to describe the morbidity pattern of different diagnostic categories in insured cats in Japan by age, sex and breed.\"",
+  "rob_tool_note": "描述性患病率/横断面/基因组流行病学；ROBINS-E 针对暴露效应，不适用于纯描述，故不评"
  },
  {
   "id": "25896026",
@@ -2218,7 +2261,7 @@
   "cebm_question": "患病率/预后",
   "cebm_level": "3",
   "cebm_basis": "非随机样本（投保犬）",
-  "rob_tool": "未评（无干预的描述性/横断面研究，无对应工具）",
+  "rob_tool": "无（仅 STROBE-Vet 报告规范）",
   "rob_judgement": "不适用",
   "rob_rationale": "",
   "guideline_recommendation": "不适用",
@@ -2240,7 +2283,8 @@
   "importance_sort_key": "1|3|79849591",
   "importance_rank": 44,
   "population_type": "natural",
-  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：回顾性队列（保险数据））"
+  "population_type_note": "摘要：\"The life expectancies and causes of death were evaluated in 299,555 dogs insured in Japan between 1 April 2010 and 31 March 2011, of which 4169 dogs died during this period.\"",
+  "rob_tool_note": "描述性患病率/横断面/基因组流行病学；ROBINS-E 针对暴露效应，不适用于纯描述，故不评"
  },
  {
   "id": "25231385",
@@ -2291,7 +2335,8 @@
   "importance_sort_key": "1|3|79859082",
   "importance_rank": 45,
   "population_type": "experimental",
-  "population_type_note": "实验猫群，CKD 猫与对照均来自同一研究猫群（摘要：\"Healthy geriatric cats (n = 21) were selected from the same colony\"）"
+  "population_type_note": "实验猫群，CKD 猫与对照均来自同一研究猫群（摘要：\"Healthy geriatric cats (n = 21) were selected from the same colony\"）",
+  "rob_tool_note": "诊断准确性研究（SDMA vs 肌酐）"
  },
  {
   "id": "24217707",
@@ -2319,7 +2364,7 @@
   "cebm_question": "患病率",
   "cebm_level": "3",
   "cebm_basis": "医院就诊群体内分年龄组随机抽样，非人群随机调查，按非随机本地样本计",
-  "rob_tool": "未评（无干预的描述性/横断面研究，无对应工具）",
+  "rob_tool": "无（仅 STROBE-Vet 报告规范）",
   "rob_judgement": "不适用",
   "rob_rationale": "",
   "guideline_recommendation": "不适用",
@@ -2342,7 +2387,8 @@
   "importance_sort_key": "1|3|79868888",
   "importance_rank": 46,
   "population_type": "natural",
-  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：回顾性横断面）"
+  "population_type_note": "随机选取的猫及 DJD 研究招募猫（摘要：\"cats randomly selected from four evenly distributed age groups (RS group) and cats recruited for degenerative joint disease studies\"）",
+  "rob_tool_note": "描述性患病率/横断面/基因组流行病学；ROBINS-E 针对暴露效应，不适用于纯描述，故不评"
  },
  {
   "id": "23647231",
@@ -2394,7 +2440,8 @@
   "importance_sort_key": "1|3|79869493",
   "importance_rank": 47,
   "population_type": "natural",
-  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：纵向队列（VetCompass））"
+  "population_type_note": "摘要：\"A merged clinical database of 107,214 dogs attending 89 UK veterinary practices over a 2-year period (January 2010-December 2011).\"",
+  "rob_tool_note": "预后因素研究"
  },
  {
   "id": "22269057",
@@ -2445,7 +2492,8 @@
   "importance_sort_key": "1|3|79879876",
   "importance_rank": 48,
   "population_type": "natural",
-  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：回顾性队列）"
+  "population_type_note": "临床 CKD 猫队列（摘要：\"A total of 213 cats with CKD ... were followed up\"）",
+  "rob_tool_note": "预后因素研究"
  },
  {
   "id": "20005753",
@@ -2473,7 +2521,7 @@
   "cebm_question": "患病率",
   "cebm_level": "3",
   "cebm_basis": "非随机本地样本（问卷）",
-  "rob_tool": "未评（无干预的描述性/横断面研究，无对应工具）",
+  "rob_tool": "无（仅 STROBE-Vet 报告规范）",
   "rob_judgement": "不适用",
   "rob_rationale": "",
   "guideline_recommendation": "不适用",
@@ -2496,7 +2544,8 @@
   "importance_sort_key": "1|3|79908785",
   "importance_rank": 49,
   "population_type": "natural",
-  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：横断面调查）"
+  "population_type_note": "主人问卷调查的老年伴侣犬（标题：\"cross-sectional survey of older companion dogs\"）",
+  "rob_tool_note": "描述性患病率/横断面/基因组流行病学；ROBINS-E 针对暴露效应，不适用于纯描述，故不评"
  },
  {
   "id": "18691369",
@@ -2547,7 +2596,8 @@
   "importance_sort_key": "1|3|79919193",
   "importance_rank": 50,
   "population_type": "natural",
-  "population_type_note": "标题：\"Survival in cats with naturally occurring chronic kidney disease (2000-2002).\""
+  "population_type_note": "摘要：\"Two hundred and eleven client-owned cats with naturally occurring CKD evaluated between April 2000 and January 2002.\"",
+  "rob_tool_note": "预后因素研究"
  },
  {
   "id": "18289298",
@@ -2598,7 +2648,8 @@
   "importance_sort_key": "1|3|79919898",
   "importance_rank": 51,
   "population_type": "natural",
-  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：回顾性队列）"
+  "population_type_note": "临床犬，随访经主人（摘要：\"Long-term outcome was assessed by telephone interview with the owner\"）",
+  "rob_tool_note": "预后因素研究"
  },
  {
   "id": "17939542",
@@ -2649,7 +2700,8 @@
   "importance_sort_key": "1|3|79929098",
   "importance_rank": 52,
   "population_type": "natural",
-  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：RCT 安慰剂组的预后分析）"
+  "population_type_note": "摘要：\"Client-owned cats.\"",
+  "rob_tool_note": "预后因素研究"
  },
  {
   "id": "16734085",
@@ -2700,7 +2752,8 @@
   "importance_sort_key": "1|3|79939498",
   "importance_rank": 53,
   "population_type": "natural",
-  "population_type_note": "标题：\"Survival of cats with naturally occurring chronic renal failure is related to se\""
+  "population_type_note": "摘要：\"The study included 136 client-owned cats;\"",
+  "rob_tool_note": "预后因素研究"
  },
  {
   "id": "11991408",
@@ -2728,7 +2781,7 @@
   "cebm_question": "治疗获益",
   "cebm_level": "3",
   "cebm_basis": "配对对照喂养试验；摘要未写随机化，按非随机对照计",
-  "rob_tool": "ROBINS-I",
+  "rob_tool": "RoB 2",
   "rob_judgement": "未评（仅摘要）",
   "rob_rationale": "",
   "guideline_recommendation": "不适用",
@@ -2751,7 +2804,8 @@
   "importance_sort_key": "1|3|79979498",
   "importance_rank": 54,
   "population_type": "experimental",
-  "population_type_note": "Nestlé Purina 研究犬群拉布拉多终生配对限饲（摘要：\"48 Labrador Retrievers\"；\"Paired feeding study\"）"
+  "population_type_note": "Nestlé Purina 研究犬群拉布拉多终生配对限饲（摘要：\"48 Labrador Retrievers\"；\"Paired feeding study\"）",
+  "rob_tool_note": "配对对照喂养试验，按对照试验评"
  },
  {
   "id": "10879400",
@@ -2802,7 +2856,8 @@
   "importance_sort_key": "1|3|79999398",
   "importance_rank": 55,
   "population_type": "natural",
-  "population_type_note": "标题：\"Survival of cats with naturally occurring chronic renal failure: effect of dieta\""
+  "population_type_note": "自然发病 CRF 猫（摘要：\"Fifty cats with naturally occurring stable chronic renal failure (CRF) were entered into a prospective study\"）",
+  "rob_tool_note": "非随机干预比较"
  },
  {
   "id": "42949438",
@@ -2830,7 +2885,7 @@
   "cebm_question": "治疗获益",
   "cebm_level": "4",
   "cebm_basis": "无对照病例系列",
-  "rob_tool": "未评（无对照病例系列，无对应通用 RoB 工具）",
+  "rob_tool": "无（无对照病例系列，无公认 RoB 工具）",
   "rob_judgement": "不适用",
   "rob_rationale": "",
   "guideline_recommendation": "不适用",
@@ -2853,7 +2908,8 @@
   "importance_sort_key": "1|4|79739098",
   "importance_rank": 56,
   "population_type": "natural",
-  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：前瞻性单臂试点）"
+  "population_type_note": "摘要：\"Nineteen client-owned cats with newly diagnosed FIP.\"",
+  "rob_tool_note": "单臂/病例系列"
  },
  {
   "id": "41834689",
@@ -2881,7 +2937,7 @@
   "cebm_question": "治疗获益",
   "cebm_level": "4",
   "cebm_basis": "无对照病例系列",
-  "rob_tool": "未评（无对照病例系列，无对应通用 RoB 工具）",
+  "rob_tool": "无（无对照病例系列，无公认 RoB 工具）",
   "rob_judgement": "不适用",
   "rob_rationale": "",
   "guideline_recommendation": "不适用",
@@ -2904,7 +2960,8 @@
   "importance_sort_key": "1|4|79739898",
   "importance_rank": 57,
   "population_type": "natural",
-  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：前瞻性单臂研究）"
+  "population_type_note": "临床 FIP 猫（摘要：\"A total of 30 cats with FIP\"）",
+  "rob_tool_note": "单臂/病例系列"
  },
  {
   "id": "41035288",
@@ -2932,7 +2989,7 @@
   "cebm_question": "治疗获益",
   "cebm_level": "4",
   "cebm_basis": "回顾性病例系列",
-  "rob_tool": "未评（无对照病例系列，无对应通用 RoB 工具）",
+  "rob_tool": "无（无对照病例系列，无公认 RoB 工具）",
   "rob_judgement": "不适用",
   "rob_rationale": "",
   "guideline_recommendation": "不适用",
@@ -2955,7 +3012,8 @@
   "importance_sort_key": "1|4|79748898",
   "importance_rank": 58,
   "population_type": "natural",
-  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：回顾性观察研究）"
+  "population_type_note": "内科门诊确诊 FIP 猫（摘要：\"Sixty-one cats diagnosed with FIP by the Internal Medicine services\"）",
+  "rob_tool_note": "单臂/病例系列"
  },
  {
   "id": "37732386",
@@ -2983,7 +3041,7 @@
   "cebm_question": "治疗获益",
   "cebm_level": "4",
   "cebm_basis": "回顾性病例系列，方案不一",
-  "rob_tool": "未评（无对照病例系列，无对应通用 RoB 工具）",
+  "rob_tool": "无（无对照病例系列，无公认 RoB 工具）",
   "rob_judgement": "不适用",
   "rob_rationale": "",
   "guideline_recommendation": "不适用",
@@ -3006,7 +3064,8 @@
   "importance_sort_key": "1|4|79769098",
   "importance_rank": 59,
   "population_type": "natural",
-  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：回顾性病例系列）"
+  "population_type_note": "摘要：\"Cats were recruited via email advice services, product sales contacts and study publicity.\"",
+  "rob_tool_note": "单臂/病例系列"
  },
  {
   "id": "37548535",
@@ -3034,7 +3093,7 @@
   "cebm_question": "治疗获益/危害",
   "cebm_level": "4",
   "cebm_basis": "无对照随访病例系列",
-  "rob_tool": "未评（无对照病例系列，无对应通用 RoB 工具）",
+  "rob_tool": "无（无对照病例系列，无公认 RoB 工具）",
   "rob_judgement": "不适用",
   "rob_rationale": "",
   "guideline_recommendation": "不适用",
@@ -3057,7 +3116,8 @@
   "importance_sort_key": "1|4|79769198",
   "importance_rank": 60,
   "population_type": "natural",
-  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：前瞻性随访研究）"
+  "population_type_note": "既往 GS-441524 临床试验中完全缓解的 FIP 猫的随访（摘要：\"Successful treatment of FIP with oral GS-441524 for 84 days was demonstrated recently by this research group\"）",
+  "rob_tool_note": "单臂/病例系列"
  },
  {
   "id": "37439383",
@@ -3085,7 +3145,7 @@
   "cebm_question": "治疗获益",
   "cebm_level": "4",
   "cebm_basis": "无对照病例系列",
-  "rob_tool": "未评（无对照病例系列，无对应通用 RoB 工具）",
+  "rob_tool": "无（无对照病例系列，无公认 RoB 工具）",
   "rob_judgement": "不适用",
   "rob_rationale": "",
   "guideline_recommendation": "不适用",
@@ -3108,7 +3168,8 @@
   "importance_sort_key": "1|4|79769286",
   "importance_rank": 61,
   "population_type": "natural",
-  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：前瞻性单臂研究）"
+  "population_type_note": "摘要：\"Twenty-eight client-owned cats with FIP.\"",
+  "rob_tool_note": "单臂/病例系列"
  },
  {
   "id": "37403259",
@@ -3136,7 +3197,7 @@
   "cebm_question": "治疗获益",
   "cebm_level": "4",
   "cebm_basis": "单中心回顾性病例系列",
-  "rob_tool": "未评（无对照病例系列，无对应通用 RoB 工具）",
+  "rob_tool": "无（无对照病例系列，无公认 RoB 工具）",
   "rob_judgement": "不适用",
   "rob_rationale": "",
   "guideline_recommendation": "不适用",
@@ -3159,7 +3220,8 @@
   "importance_sort_key": "1|4|79769295",
   "importance_rank": 62,
   "population_type": "natural",
-  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：回顾性病例系列）"
+  "population_type_note": "摘要：\"Thirty-two client-owned cats diagnosed with effusive or non-effusive FIP including those with ocular and neurological involvement.\"",
+  "rob_tool_note": "单臂/病例系列"
  },
  {
   "id": "36297266",
@@ -3187,7 +3249,7 @@
   "cebm_question": "治疗获益",
   "cebm_level": "4",
   "cebm_basis": "主人报告的病例系列",
-  "rob_tool": "未评（无对照病例系列，无对应通用 RoB 工具）",
+  "rob_tool": "无（无对照病例系列，无公认 RoB 工具）",
   "rob_judgement": "不适用",
   "rob_rationale": "",
   "guideline_recommendation": "不适用",
@@ -3210,7 +3272,8 @@
   "importance_sort_key": "1|4|79778979",
   "importance_rank": 63,
   "population_type": "natural",
-  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：回顾性病例系列（主人报告））"
+  "population_type_note": "摘要：\"Using owner-reported data, treatment protocols for 30 cats were documented.\"",
+  "rob_tool_note": "单臂/病例系列"
  },
  {
   "id": "34835034",
@@ -3238,7 +3301,7 @@
   "cebm_question": "治疗获益",
   "cebm_level": "4",
   "cebm_basis": "无对照病例系列",
-  "rob_tool": "未评（无对照病例系列，无对应通用 RoB 工具）",
+  "rob_tool": "无（无对照病例系列，无公认 RoB 工具）",
   "rob_judgement": "不适用",
   "rob_rationale": "",
   "guideline_recommendation": "不适用",
@@ -3261,7 +3324,8 @@
   "importance_sort_key": "1|4|79788894",
   "importance_rank": 64,
   "population_type": "natural",
-  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：前瞻性单臂研究）"
+  "population_type_note": "摘要：\"The aim of this study was to evaluate efficacy and toxicity of the multi-component drug Xraphconn® in vitro and as oral treatment in cats with spontaneous FIP by examining survival\"",
+  "rob_tool_note": "单臂/病例系列"
  },
  {
   "id": "32441826",
@@ -3289,7 +3353,7 @@
   "cebm_question": "治疗获益",
   "cebm_level": "4",
   "cebm_basis": "病例系列（神经型 FIP）",
-  "rob_tool": "未评（无对照病例系列，无对应通用 RoB 工具）",
+  "rob_tool": "无（无对照病例系列，无公认 RoB 工具）",
   "rob_judgement": "不适用",
   "rob_rationale": "",
   "guideline_recommendation": "不适用",
@@ -3313,7 +3377,8 @@
   "importance_sort_key": "1|4|79799477",
   "importance_rank": 65,
   "population_type": "natural",
-  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：病例系列）"
+  "population_type_note": "临床诊断神经型 FIP 猫（标题：\"cats with clinically diagnosed neurological feline infectious peritonitis\"）",
+  "rob_tool_note": "单臂/病例系列"
  },
  {
   "id": "30755068",
@@ -3341,7 +3406,7 @@
   "cebm_question": "治疗获益",
   "cebm_level": "4",
   "cebm_basis": "无对照病例系列",
-  "rob_tool": "未评（无对照病例系列，无对应通用 RoB 工具）",
+  "rob_tool": "无（无对照病例系列，无公认 RoB 工具）",
   "rob_judgement": "不适用",
   "rob_rationale": "",
   "guideline_recommendation": "不适用",
@@ -3364,7 +3429,8 @@
   "importance_sort_key": "1|4|79809786",
   "importance_rank": 66,
   "population_type": "natural",
-  "population_type_note": "标题：\"Efficacy and safety of the nucleoside analog GS-441524 for treatment of cats wit\""
+  "population_type_note": "自然发病 FIP 猫（标题：\"cats with naturally occurring feline infectious peritonitis\"；摘要：\"Cats with severe neurological and ocular FIP were not recruited\"）",
+  "rob_tool_note": "单臂/病例系列"
  },
  {
   "id": "30543707",
@@ -3392,7 +3458,7 @@
   "cebm_question": "治疗获益",
   "cebm_level": "4",
   "cebm_basis": "OCEBM 2011 治疗：病例系列=Level 4（摘要：\"multicenter prospective observational study\"；\"following diet change and taurine supplementation\"）",
-  "rob_tool": "未评（无对照病例系列，无对应通用 RoB 工具）",
+  "rob_tool": "无（无对照病例系列，无公认 RoB 工具）",
   "rob_judgement": "不适用",
   "rob_rationale": "",
   "guideline_recommendation": "不适用",
@@ -3417,7 +3483,8 @@
   "importance_sort_key": "1|4|79818786",
   "importance_rank": 67,
   "population_type": "natural",
-  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：病例系列）"
+  "population_type_note": "摘要：\"Twenty-four client-owned golden retrievers with documented taurine deficiency and dilated cardiomyopathy and 52 healthy client-owned golden retrievers.\"",
+  "rob_tool_note": "单臂/病例系列"
  },
  {
   "id": "30797439",
@@ -3445,7 +3512,7 @@
   "cebm_question": "病因/危害",
   "cebm_level": "4",
   "cebm_basis": "OCEBM 2011 危害/病因：全部样本已患 DCM、无非患病对照、无前瞻随访，不构成队列，按病例系列/历史对照=Level 4（摘要：\"retrospective analysis of dogs with DCM\"）",
-  "rob_tool": "未评（无干预的描述性/横断面研究，无对应工具）",
+  "rob_tool": "ROBINS-E",
   "rob_judgement": "不适用",
   "rob_rationale": "",
   "guideline_recommendation": "不适用",
@@ -3470,7 +3537,8 @@
   "importance_sort_key": "1|4|79818794",
   "importance_rank": 68,
   "population_type": "natural",
-  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：回顾性队列）"
+  "population_type_note": "临床 DCM 犬回顾性分析（摘要：\"a retrospective analysis of dogs with DCM from January 1, 2015 to May 1, 2018\"）",
+  "rob_tool_note": "观察性暴露-结局比较；ROBINS-E 为现行公认工具"
  },
  {
   "id": "28901812",
@@ -3498,7 +3566,7 @@
   "cebm_question": "治疗获益",
   "cebm_level": "4",
   "cebm_basis": "无对照病例系列",
-  "rob_tool": "未评（无对照病例系列，无对应通用 RoB 工具）",
+  "rob_tool": "无（无对照病例系列，无公认 RoB 工具）",
   "rob_judgement": "不适用",
   "rob_rationale": "",
   "guideline_recommendation": "不适用",
@@ -3521,7 +3589,8 @@
   "importance_sort_key": "1|4|79829086",
   "importance_rank": 69,
   "population_type": "natural",
-  "population_type_note": "主人饲养的自然发病 FIP 猫（摘要：\"tested on a cohort of client-owned cats with various forms of feline infectious peritonitis\"）"
+  "population_type_note": "主人饲养的自然发病 FIP 猫（摘要：\"tested on a cohort of client-owned cats with various forms of feline infectious peritonitis\"）",
+  "rob_tool_note": "单臂/病例系列"
  },
  {
   "id": "28152671",
@@ -3572,7 +3641,8 @@
   "importance_sort_key": "1|4|79829796",
   "importance_rank": 70,
   "population_type": "natural",
-  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：横断面/小样本探索）"
+  "population_type_note": "摘要：\"Thirty-two client-owned cats with hypertrophic cardiomyopathy and 14 healthy cats serving as controls\"",
+  "rob_tool_note": "诊断研究"
  },
  {
   "id": "27103204",
@@ -3623,7 +3693,8 @@
   "importance_sort_key": "1|4|79839577",
   "importance_rank": 71,
   "population_type": "natural",
-  "population_type_note": "标题：\"Serum Concentrations of Symmetric Dimethylarginine and Creatinine in Dogs with N\""
+  "population_type_note": "自然发病 CKD 犬，尸检确诊（摘要：\"in dogs with necropsy confirmed CKD\"；标题：\"Naturally Occurring Chronic Kidney Disease\"）",
+  "rob_tool_note": "诊断研究"
  },
  {
   "id": "26079532",
@@ -3674,7 +3745,8 @@
   "importance_sort_key": "1|4|79849383",
   "importance_rank": 72,
   "population_type": "experimental",
-  "population_type_note": "研究犬群 X 连锁遗传性肾病犬及其同窝对照（摘要：\"Eight male dogs affected with X-linked hereditary nephropathy and 4 unaffected male littermates\"）"
+  "population_type_note": "研究犬群 X 连锁遗传性肾病犬及其同窝对照（摘要：\"Eight male dogs affected with X-linked hereditary nephropathy and 4 unaffected male littermates\"）",
+  "rob_tool_note": "诊断准确性研究（SDMA vs 肌酐）"
  },
  {
   "id": "25673019",
@@ -3702,7 +3774,7 @@
   "cebm_question": "患病率",
   "cebm_level": "4",
   "cebm_basis": "病例系列",
-  "rob_tool": "未评（无干预的描述性/横断面研究，无对应工具）",
+  "rob_tool": "无（仅 STROBE-Vet 报告规范）",
   "rob_judgement": "不适用",
   "rob_rationale": "",
   "guideline_recommendation": "不适用",
@@ -3725,7 +3797,8 @@
   "importance_sort_key": "1|4|79849788",
   "importance_rank": 73,
   "population_type": "natural",
-  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：病例系列（病理））"
+  "population_type_note": "临床甲亢猫（摘要：\"This was a cross-sectional study of 2096 cats with hyperthyroidism\"）",
+  "rob_tool_note": "描述性患病率/横断面/基因组流行病学；ROBINS-E 针对暴露效应，不适用于纯描述，故不评"
  },
  {
   "id": "3616607",
@@ -3753,7 +3826,7 @@
   "cebm_question": "治疗获益",
   "cebm_level": "4",
   "cebm_basis": "病例系列（补充牛磺酸前后）",
-  "rob_tool": "SYRCLE",
+  "rob_tool": "无（无对照病例系列，无公认 RoB 工具）",
   "rob_judgement": "未评（仅摘要）",
   "rob_rationale": "",
   "guideline_recommendation": "不适用",
@@ -3778,7 +3851,8 @@
   "importance_sort_key": "1|4|80129198",
   "importance_rank": 74,
   "population_type": "natural",
-  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：实验）"
+  "population_type_note": "临床宠物猫 DCM（摘要：\"Thousands of pet cats die each year with dilated cardiomyopathy\"）",
+  "rob_tool_note": "临床猫补牛磺酸前后比较，无对照"
  },
  {
   "id": "41701235",
@@ -3829,7 +3903,8 @@
   "importance_sort_key": "1|6|79739782",
   "importance_rank": 75,
   "population_type": "na",
-  "population_type_note": "指南/综述，无原始研究对象（系统综述/Meta分析）"
+  "population_type_note": "指南/综述，无原始研究对象（系统综述/Meta分析）",
+  "rob_tool_note": "系统综述"
  },
  {
   "id": "41527203",
@@ -3880,7 +3955,8 @@
   "importance_sort_key": "1|6|79739887",
   "importance_rank": 76,
   "population_type": "na",
-  "population_type_note": "指南/综述，无原始研究对象（系统综述）"
+  "population_type_note": "指南/综述，无原始研究对象（系统综述）",
+  "rob_tool_note": "系统综述"
  },
  {
   "id": "40941356",
@@ -3931,7 +4007,8 @@
   "importance_sort_key": "1|6|79749168",
   "importance_rank": 77,
   "population_type": "na",
-  "population_type_note": "指南/综述，无原始研究对象（系统综述（未做 Meta 分析））"
+  "population_type_note": "指南/综述，无原始研究对象（系统综述（未做 Meta 分析））",
+  "rob_tool_note": "系统综述"
  },
  {
   "id": "40732763",
@@ -3982,7 +4059,8 @@
   "importance_sort_key": "1|6|79749280",
   "importance_rank": 78,
   "population_type": "na",
-  "population_type_note": "指南/综述，无原始研究对象（系统综述）"
+  "population_type_note": "指南/综述，无原始研究对象（系统综述）",
+  "rob_tool_note": "系统综述"
  },
  {
   "id": "40633571",
@@ -4010,7 +4088,7 @@
   "cebm_question": "病因",
   "cebm_level": "不适用（分子流行病学，无 OCEBM 对应问题）",
   "cebm_basis": "",
-  "rob_tool": "未评（无干预的描述性/横断面研究，无对应工具）",
+  "rob_tool": "无（仅 STROBE-Vet 报告规范）",
   "rob_judgement": "不适用",
   "rob_rationale": "",
   "guideline_recommendation": "不适用",
@@ -4034,7 +4112,8 @@
   "importance_sort_key": "1|7|79749290",
   "importance_rank": 79,
   "population_type": "natural",
-  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：分子流行病学/基因组研究）"
+  "population_type_note": "塞浦路斯 FIP 自然流行中的临床病例（标题：\"Feline infectious peritonitis epizootic\"；摘要：\"more than 90% of cats with FIP\"）",
+  "rob_tool_note": "描述性患病率/横断面/基因组流行病学；ROBINS-E 针对暴露效应，不适用于纯描述，故不评"
  },
  {
   "id": "34758043",
@@ -4062,7 +4141,7 @@
   "cebm_question": "—",
   "cebm_level": "不适用（基础/行为学研究，无临床问题）",
   "cebm_basis": "",
-  "rob_tool": "SYRCLE",
+  "rob_tool": "无（行为学实验，无公认 RoB 工具）",
   "rob_judgement": "未评（仅摘要）",
   "rob_rationale": "",
   "guideline_recommendation": "不适用",
@@ -4085,7 +4164,8 @@
   "importance_sort_key": "1|7|79788889",
   "importance_rank": 80,
   "population_type": "natural",
-  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：实验）"
+  "population_type_note": "家养猫与猫咖啡馆猫，以主人声音做测试（摘要：\"the cat heard its owner's voice calling its name\"）",
+  "rob_tool_note": "宠物猫犬认知/行为实验，无干预，SYRCLE 不适用"
  },
  {
   "id": "31550468",
@@ -4113,7 +4193,7 @@
   "cebm_question": "—",
   "cebm_level": "不适用（基础/行为学研究，无临床问题）",
   "cebm_basis": "",
-  "rob_tool": "SYRCLE",
+  "rob_tool": "无（行为学实验，无公认 RoB 工具）",
   "rob_judgement": "未评（仅摘要）",
   "rob_rationale": "",
   "guideline_recommendation": "不适用",
@@ -4136,7 +4216,8 @@
   "importance_sort_key": "1|7|79809098",
   "importance_rank": 81,
   "population_type": "natural",
-  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：实验）"
+  "population_type_note": "主人饲养的家猫行为测试（标题：\"Attachment bonds between domestic cats and humans\"）；摘要未写来源细节",
+  "rob_tool_note": "宠物猫犬认知/行为实验，无干预，SYRCLE 不适用"
  },
  {
   "id": "31554584",
@@ -4189,7 +4270,8 @@
   "importance_sort_key": "1|7|79809272",
   "importance_rank": 82,
   "population_type": "na",
-  "population_type_note": "指南/综述，无原始研究对象（叙述性综述）"
+  "population_type_note": "指南/综述，无原始研究对象（叙述性综述）",
+  "rob_tool_note": "叙述性综述"
  },
  {
   "id": "31076940",
@@ -4217,7 +4299,7 @@
   "cebm_question": "—",
   "cebm_level": "不适用（基础/行为学研究，无临床问题）",
   "cebm_basis": "",
-  "rob_tool": "SYRCLE",
+  "rob_tool": "无（行为学实验，无公认 RoB 工具）",
   "rob_judgement": "未评（仅摘要）",
   "rob_rationale": "",
   "guideline_recommendation": "不适用",
@@ -4240,7 +4322,8 @@
   "importance_sort_key": "1|7|79809489",
   "importance_rank": 83,
   "population_type": "natural",
-  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：实验）"
+  "population_type_note": "摘要：\"These results show that at least café cats can predict their owner's face upon hearing the owner's voice, suggesting possession of cross-modal representation of at least one human.\"",
+  "rob_tool_note": "宠物猫犬认知/行为实验，无干预，SYRCLE 不适用"
  },
  {
   "id": "30948740",
@@ -4268,7 +4351,7 @@
   "cebm_question": "—",
   "cebm_level": "不适用（基础/行为学研究，无临床问题）",
   "cebm_basis": "",
-  "rob_tool": "SYRCLE",
+  "rob_tool": "无（行为学实验，无公认 RoB 工具）",
   "rob_judgement": "SYRCLE 不出总体判断",
   "rob_rationale": "序列生成/分配隐藏：被试内设计（每只猫接受全部刺激），不适用；随机刺激顺序：有随机化，低；结局评估者盲法：行为由不知情评分员编码，低；不完整数据：部分猫因注意力丢失被剔除，不清楚；其他：每实验n≈16、单一国家家庭/猫咖啡馆样本，影响外推而非偏倚。",
   "guideline_recommendation": "不适用",
@@ -4291,7 +4374,8 @@
   "importance_sort_key": "1|7|79809595",
   "importance_rank": 84,
   "population_type": "natural",
-  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：实验）"
+  "population_type_note": "摘要：\"Cats from ordinary households and from a 'cat café' participated in the experiments.\"",
+  "rob_tool_note": "宠物猫犬认知/行为实验，无干预，SYRCLE 不适用"
  },
  {
   "id": "30451613",
@@ -4344,7 +4428,8 @@
   "importance_sort_key": "1|7|79818798",
   "importance_rank": 85,
   "population_type": "na",
-  "population_type_note": "指南/综述，无原始研究对象（叙述性综述）"
+  "population_type_note": "指南/综述，无原始研究对象（叙述性综述）",
+  "rob_tool_note": "叙述性综述"
  },
  {
   "id": "29538681",
@@ -4372,7 +4457,7 @@
   "cebm_question": "—",
   "cebm_level": "不适用（基础/行为学研究，无临床问题）",
   "cebm_basis": "",
-  "rob_tool": "SYRCLE",
+  "rob_tool": "无（仅 STREGA 报告规范）",
   "rob_judgement": "未评（仅摘要）",
   "rob_rationale": "",
   "guideline_recommendation": "不适用",
@@ -4395,7 +4480,8 @@
   "importance_sort_key": "1|7|79819398",
   "importance_rank": 86,
   "population_type": "natural",
-  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：关联研究）"
+  "population_type_note": "日本受训缉毒工作犬，非实验动物、无疾病模型（摘要：\"340 Labrador Retriever dogs that were trained to be drug detection dogs in Japan\"）",
+  "rob_tool_note": "遗传关联/遗传学研究，无公认 RoB 工具"
  },
  {
   "id": "29778200",
@@ -4446,7 +4532,8 @@
   "importance_sort_key": "1|7|79819577",
   "importance_rank": 87,
   "population_type": "experimental",
-  "population_type_note": "实验感染 FIPV 后给药（摘要：\"In an experimental FIPV infection\"；另含 CRFK 细胞体外实验）"
+  "population_type_note": "实验感染 FIPV 后给药（摘要：\"In an experimental FIPV infection\"；另含 CRFK 细胞体外实验）",
+  "rob_tool_note": "实验感染动物实验"
  },
  {
   "id": "29326623",
@@ -4474,7 +4561,7 @@
   "cebm_question": "—",
   "cebm_level": "4",
   "cebm_basis": "OCEBM 2011：病例对照研究（遗传关联）",
-  "rob_tool": "未评",
+  "rob_tool": "无（仅 STREGA 报告规范）",
   "rob_judgement": "未评",
   "rob_rationale": "遗传关联研究，暂无公认偏倚风险工具",
   "guideline_recommendation": "不适用",
@@ -4497,7 +4584,8 @@
   "importance_sort_key": "1|7|79828781",
   "importance_rank": 88,
   "population_type": "natural",
-  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：关联研究）"
+  "population_type_note": "日本家养混种猫及纯种猫（摘要：\"mongrel cats in Japan (n = 100) and cats of 10 pure breeds (n = 40)\"）",
+  "rob_tool_note": "遗传关联/遗传学研究，无公认 RoB 工具"
  },
  {
   "id": "28460795",
@@ -4548,7 +4636,8 @@
   "importance_sort_key": "1|7|79829571",
   "importance_rank": 89,
   "population_type": "na",
-  "population_type_note": "指南/综述，无原始研究对象（叙述性综述）"
+  "population_type_note": "指南/综述，无原始研究对象（叙述性综述）",
+  "rob_tool_note": "叙述性综述"
  },
  {
   "id": "26915425",
@@ -4576,7 +4665,7 @@
   "cebm_question": "—",
   "cebm_level": "不适用（基础/行为学研究，无临床问题）",
   "cebm_basis": "",
-  "rob_tool": "SYRCLE",
+  "rob_tool": "无（行为学实验，无公认 RoB 工具）",
   "rob_judgement": "未评（仅摘要）",
   "rob_rationale": "",
   "guideline_recommendation": "不适用",
@@ -4599,7 +4688,8 @@
   "importance_sort_key": "1|7|79839776",
   "importance_rank": 90,
   "population_type": "natural",
-  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：实验）"
+  "population_type_note": "主人与其宠物犬（摘要：\"when the owners gazed at their dogs\"）",
+  "rob_tool_note": "宠物猫犬认知/行为实验，无干预，SYRCLE 不适用"
  },
  {
   "id": "26776594",
@@ -4650,7 +4740,8 @@
   "importance_sort_key": "1|7|79848798",
   "importance_rank": 91,
   "population_type": "na",
-  "population_type_note": "指南/综述，无原始研究对象（叙述性综述）"
+  "population_type_note": "指南/综述，无原始研究对象（叙述性综述）",
+  "rob_tool_note": "叙述性综述"
  },
  {
   "id": "25883356",
@@ -4700,8 +4791,9 @@
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "1|7|79849583",
   "importance_rank": 92,
-  "population_type": "natural",
-  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：实验）"
+  "population_type": "mixed",
+  "population_type_note": "宠物犬（与主人）+ 人工饲养的狼，行为学/鼻腔给催产素实验，无疾病模型（摘要：\"gazing behavior from dogs, but not wolves, increased urinary oxytocin concentrations in owners\"；狼为人工养大的个体，非实验室繁育群）",
+  "rob_tool_note": "含鼻腔给催产素 vs 生理盐水的干预性动物实验"
  },
  {
   "id": "23522175",
@@ -4753,7 +4845,8 @@
   "importance_sort_key": "1|7|79869698",
   "importance_rank": 93,
   "population_type": "na",
-  "population_type_note": "指南/综述，无原始研究对象（叙述性综述）"
+  "population_type_note": "指南/综述，无原始研究对象（叙述性综述）",
+  "rob_tool_note": "叙述性综述"
  },
  {
   "id": "16236761",
@@ -4781,7 +4874,7 @@
   "cebm_question": "病因（遗传）",
   "cebm_level": "不适用（基础/行为学研究，无临床问题）",
   "cebm_basis": "",
-  "rob_tool": "SYRCLE",
+  "rob_tool": "无（仅 STREGA 报告规范）",
   "rob_judgement": "未评（仅摘要）",
   "rob_rationale": "",
   "guideline_recommendation": "不适用",
@@ -4804,6 +4897,7 @@
   "importance_sort_key": "1|7|79948980",
   "importance_rank": 94,
   "population_type": "experimental",
-  "population_type_note": "家族性 HCM 缅因猫研究繁育群谱系分析（摘要：\"Maine Coon cat with familial hypertrophic cardiomyopathy\"；繁育猫群，非造模）"
+  "population_type_note": "家族性 HCM 缅因猫研究繁育群（自发突变，非造模）。摘要只写 \"A large animal model of familial HCM in the cat has been identified\"，未明说猫群来源；按已知该模型为 UC Davis Kittleson 研究繁育群归为实验动物，全文（HMG 非 OA）未核",
+  "rob_tool_note": "遗传关联/遗传学研究，无公认 RoB 工具"
  }
 ]

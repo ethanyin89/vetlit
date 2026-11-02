@@ -68,6 +68,22 @@ for k,r in json.load(open(os.path.join(ROOT,'data','v5','pages38_fields.json'),e
         m=re.search(r'`已读(全文|摘要)`',open(os.path.join(ROOT,'content',f),encoding='utf-8').read())
         if m: p['reading_depth']=m.group(1)
     if not p.get('reading_depth'): p['reading_depth']='摘要'
+ADJ={}
+for r in json.load(open(os.path.join(ROOT,'data','v5','adjudicated_rob_rct.json'),encoding='utf-8')): ADJ.setdefault(r['pmid'],[]).append(r)
+JM={'L':'低','S':'有一定担忧','H':'高'}
+DN={'D1':'D1 随机化过程','D2':'D2 偏离既定干预','D3':'D3 结局数据缺失','D4':'D4 结局测量','D5':'D5 结果选择性报告'}
+MERGE['adj']=0; MERGE['adj_un']=[]
+for pm,rs in ADJ.items():
+    p=matcher({'pmid':pm})
+    if not p: MERGE['adj_un'].append(pm); continue
+    MERGE['adj']+=1; p['rob_tool']='RoB 2'; p['adj']=True; p['appraisal_note']=''
+    items=[]
+    for r in sorted(rs,key=lambda r:(r['domain']=='overall',r['domain'])):
+        if r['domain']=='overall': p['adj_overall']=JM.get(r['final'],r['final']); p['adj_overall_reason']=r.get('rationale') or ''; continue
+        rea=(r.get('rationale') or '')+(f'（{r["location"]}）' if r.get('location') else '')
+        if r['domain']=='D5': rea='未检索到预先注册的方案。'+rea
+        items.append({'item':DN.get(r['domain'],r['domain']),'judgment':JM.get(r['final'],r['final']),'reason':rea,'evidence_quote':r.get('quote') or ''})
+    p['appraisal_items']=items
 MF=os.path.join(ROOT,'data','v5','methods_fields.json'); MERGE['mf']=0; MERGE['mf_un']=[]
 if os.path.exists(MF):
     mf=json.load(open(MF,encoding='utf-8')); mf=list(mf.values()) if isinstance(mf,dict) else mf
@@ -277,12 +293,14 @@ def paper(p):
     it=p.get('appraisal_items') or []
     unk=sum(1 for i in it if any(u in (i.get('judgment') or '') for u in UNK))
     hi=[i.get('item') for i in it if (i.get('judgment') or '') in ('高','严重','否')]
-    if p.get('appraisal_note'): why1=p['appraisal_note']
+    if p.get('adj'): why1=f'RoB 2 总体：{p.get("adj_overall","")}'+(f'。{p["adj_overall_reason"]}' if p.get('adj_overall_reason') else '')
+    elif p.get('appraisal_note'): why1=p['appraisal_note']
     elif not it: why1='未评'
     elif hi: why1=f'{tool}：{len(hi)}/{len(it)} 项判为高风险或不满足（{"、".join(hi[:3])}）'
     elif unk*2>=len(it): why1=f'{tool}：{unk}/{len(it)} 项信息不足，无法判断，不等于高风险'
     else: why1=f'{tool}：{len(it)} 项中 {unk} 项信息不足，其余未见高风险'
     ev=f'<table class="kv"><tr><th>Oxford CEBM 2011</th><td>{E_(clean(lv or "未分级"))}{("（"+E_(clean(p["cebm_basis"]))+"）") if has(p.get("cebm_basis")) else ""}</td></tr><tr><th>偏倚风险</th><td>{E_(clean(why1))}</td></tr>'+''.join(f'<tr><th>{k}</th><td>{E_(clean(v))}</td></tr>' for k,v in [('报告规范',p.get('reporting_checklist')),('指南推荐强度（原文）',p.get('guideline_recommendation') if p.get('design_category')=='指南/共识' else '')] if has(v))+'</table>'
+    if p.get('adj'): ev+='<p class="note">AI 评估并经第三方裁定，未经临床兽医审阅</p>'
     if it: ev+=f'<details class="sub"><summary>展开逐项判断</summary>{appraisal(p)}</details>'
     fund=p.get('funder') or sc.get('资助') or p.get('funding')
     fund=f'<p>{E_(clean(fund))}</p>' if has(fund) and not str(fund).startswith('未核') else '<p class="muted">原文未报告或未核</p>'
