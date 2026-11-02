@@ -81,6 +81,7 @@ def view(c):
     rd=c.get('reading_depth')
     p['verified_label']={'全文':'全文已读','摘要':'仅摘要','仅标题':'仅题录（无摘要）'}.get(rd) or ('全文已核' if c.get('verified')=='yes' else '摘要级')
     p['topics']=c.get('topics') or []
+    p['fresh']='ingest' in (c.get('provenance') or [])
     m=re.match(r'^([1-5])',str(c.get('cebm_level') or '')); p['cebm_rank']=int(m.group(1)) if m else 9
     return p
 TOPICS=json.load(open(os.path.join(ROOT,'data','topics.json'),encoding='utf-8'))['topics']
@@ -190,8 +191,9 @@ def detail(p):
     else:
         body+='<p class="callout">深度速读页尚未完成（仅书目与分级数据）。请以原文为准。</p>'
     return page(f"{p.get('first_author','')} {p['year']}",body,2,desc=p['title'])
-def index(ps):
-    data=[{k:p.get(k) for k in ('id','title','title_zh','first_author','year','date','journal','species','specialty','cebm_display','rob_overall','rob_tool','oa_bool','doc_type','sample_size_analysed','status','clinical_utility','verified_label','one_line_conclusion_zh','pmid','reading_depth','topics','license')}|{'has_detail':bool(p.get('detail'))} for p in ps]
+def index(allps):
+    fs=[p for p in allps if p['fresh']]; ps=[p for p in allps if not p['fresh']]
+    data=[{k:p.get(k) for k in ('id','title','title_zh','first_author','year','date','journal','species','specialty','cebm_display','rob_overall','rob_tool','oa_bool','doc_type','sample_size_analysed','status','clinical_utility','verified_label','one_line_conclusion_zh','pmid','reading_depth','topics','license','is_guideline','cebm_rank')}|{'has_detail':bool(p.get('detail'))} for p in ps]
     specs=sorted({s for p in ps for s in p['specialty']}); dts=sorted({p.get('doc_type') or '' for p in ps}-{''}); cebms=sorted({p['cebm_display'] for p in ps})
     opt=lambda xs:''.join(f'<option value="{E_(x)}">{E_(x)}</option>' for x in xs)
     body=f'''<h1>犬猫兽医文献 · 专业速读</h1><p class="lede">{len(ps)} 篇 · 每篇注明证据水平（Oxford CEBM 2011）、偏倚风险工具与报告规范；已精读者附方法学审读。阅读深度：{' / '.join(f"{k} {sum(1 for p in ps if p.get('reading_depth')==k)}" for k in ('全文','摘要','仅标题'))}{f" / 未速读 {sum(1 for p in ps if not p.get('reading_depth'))}" if any(not p.get('reading_depth') for p in ps) else ''}。<strong>不构成临床建议。</strong></p>
@@ -201,14 +203,14 @@ def index(ps):
 <label>专题<select id="tp"><option value="">全部</option>{''.join(f'<option value="{t["id"]}">{E_(t["name_zh"])}</option>' for t in TOPICS if any(t['id'] in p['topics'] for p in ps))}</select></label><label>文献类型<select id="dt"><option value="">全部</option>{opt(dts)}</select></label><label>CEBM 2011<select id="gr"><option value="">全部</option>{opt(cebms)}</select></label><label class="chk"><input id="oa" type="checkbox"> 仅开放获取</label></form>
 <p class="actions"><span id="count"></span> · 导出全部：<a href="export/all.bib" download>BibTeX</a> · <a href="export/all.ris" download>RIS</a> · 导出当前筛选：<a href="#" id="exb">BibTeX</a> · <a href="#" id="exr">RIS</a></p>
 <ol id="list" class="list"></ol><noscript><ul>{''.join(f'<li><a href="papers/{p["id"]}/index.html">{E_(p["title"])}</a></li>' for p in ps)}</ul></noscript>
-<script>window.PAPERS={json.dumps(data,ensure_ascii=False)};window.CITE={json.dumps({p['id']:[bibtex(p),ris(p)] for p in ps},ensure_ascii=False)};</script><script src="static/app.js"></script>'''
+<script>window.PAPERS={json.dumps(data,ensure_ascii=False)};window.CITE={json.dumps({p['id']:[bibtex(p),ris(p)] for p in ps},ensure_ascii=False)};</script><script src="static/app.js"></script>'''+fresh_html(fs,'')
     return page('文献',body,0)
 def tsort(ps,how):
     return sorted(ps,key=lambda p:(p['date']),reverse=True) if how=='new' else sorted(ps,key=lambda p:(p['cebm_rank'],-int(p['year'] or 0)))
 def weekly(ps,r=''):
     out=''
     for t in TOPICS:
-        tp=[p for p in ps if t['id'] in p['topics']]
+        tp=[p for p in ps if t['id'] in p['topics'] and not p['fresh']]
         if not tp or t.get('parent') is None and len([x for x in TOPICS if x.get('parent')==t['id']]): continue
         a=tsort(tp,'new')[0]; b_=tsort(tp,'imp')[0]
         pick=[a]+([b_] if b_ is not a else [])
@@ -216,8 +218,12 @@ def weekly(ps,r=''):
     return f'<section class="card"><h2>本周专题推荐（{datetime.date.today().isocalendar()[0]} 第 {datetime.date.today().isocalendar()[1]} 周）</h2><p class="small muted">每个专题取最新 1 篇 + CEBM 等级最高 1 篇。</p><ul>{out}</ul><p><a href="{r}topics/index.html">全部专题 →</a></p></section>' if out else ''
 def plist(ps,r='../../'):
     return '<ol class="list">'+''.join(f'<li><a class="t" lang="en" href="{r}papers/{p["id"]}/index.html">{E_(p["title"])}</a><div class="s">{E_(p.get("first_author",""))} · {E_(p["date"])} · {E_("/".join(p["species"]))} · <span class="pill ev">CEBM {E_(p["cebm_display"])}</span> <span class="pill">{E_(p["verified_label"])}</span>{" <span class=\"pill pend\">待速读 · 待评</span>" if p.get("status")=="待速读" else ""}</div></li>' for p in ps)+'</ol>'
+def fresh_html(fs,r='../../',h='h2'):
+    if not fs: return ''
+    return f'<section class="card"><{h}>最新抓取 <span class="pill pend">未评</span></{h}><p class="small muted">每日从 PubMed 自动抓取，尚未速读与评价，不进入推荐与专题核心列表。</p>{plist(sorted(fs,key=lambda p:p["date"],reverse=True),r)}</section>'
 def topic_page(t,ps):
-    tp=[p for p in ps if t['id'] in p['topics']]
+    fs=[p for p in ps if t['id'] in p['topics'] and p['fresh']]
+    tp=[p for p in ps if t['id'] in p['topics'] and not p['fresh']]
     kids=[x for x in TOPICS if x.get('parent')==t['id']]
     g=os.path.join(ROOT,'data','topics',t['id']+'.md')
     gsec=f'<section class="card"><h2>主题证据确定性（GRADE）<span class="pill pend">单人草稿 · 未经第二人复核</span></h2><article class="prose">{md(open(g,encoding="utf-8").read())}</article></section>' if os.path.exists(g) else ''
@@ -225,11 +231,11 @@ def topic_page(t,ps):
     body=f'''<p class="crumb"><a href="../../index.html">文献</a> / <a href="../index.html">专题</a>{f' / <a href="../{par["id"]}/index.html">{E_(par["name_zh"])}</a>' if par else ''}</p><h1>{E_(t["name_zh"])} <small lang="en">{E_(t.get("name_en",""))}</small></h1>
 <p class="small muted">分类来源：{E_(t.get("source",""))}{(" · MeSH："+E_(", ".join(t["mesh"]))) if t.get("mesh") else ""} · {len(tp)} 篇</p>
 {('<p>下级专题：'+' '.join(f'<a class="pill tag" href="../{k["id"]}/index.html">{E_(k["name_zh"])}</a>' for k in kids)+'</p>') if kids else ''}{gsec}
-{f'<h2>最新</h2>{plist(tsort(tp,"new"))}<h2>最重要（按 CEBM 等级，其次年份）</h2>{plist(tsort(tp,"imp"))}' if tp else '<p class="muted">暂无文献。</p>'}'''
+{f'<h2>最新</h2>{plist(tsort(tp,"new"))}<h2>最重要（按 CEBM 等级，其次年份）</h2>{plist(tsort(tp,"imp"))}' if tp else '<p class="muted">暂无文献。</p>'}{fresh_html(fs)}'''
     return page(t['name_zh'],body,2)
 def topics_index(ps):
     def li(t): 
-        n=sum(1 for p in ps if t['id'] in p['topics']); kids=[x for x in TOPICS if x.get('parent')==t['id']]
+        n=sum(1 for p in ps if t['id'] in p['topics'] and not p['fresh']); kids=[x for x in TOPICS if x.get('parent')==t['id']]
         return f'<li><a href="{t["id"]}/index.html">{E_(t["name_zh"])}</a> <small lang="en">{E_(t.get("name_en",""))}</small> · {n} 篇{" <span class=\"pill tag\">GRADE 草稿</span>" if os.path.exists(os.path.join(ROOT,"data","topics",t["id"]+".md")) else ""}{("<ul>"+"".join(li(k) for k in kids)+"</ul>") if kids else ""}</li>'
     roots=[t for t in TOPICS if not t.get('parent') or t['parent'] not in TNAME]
     return page('专题',f'<h1>专题</h1><p class="small muted">一级按 AVMA ABVS / ACVIM 专科，二级用 MeSH 主题词。</p><ul>{"".join(li(t) for t in roots)}</ul>',1)

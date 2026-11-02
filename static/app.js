@@ -9,7 +9,7 @@ function cur(){var q=$('q').value.trim().toLowerCase(),sp=$('sp').value,spec=$('
   if(tp&&(p.topics||[]).indexOf(tp)<0)return false; if(oa&&p.oa_bool!==true)return false;
   if(q&&[p.title,p.title_zh,p.first_author,p.journal,p.pmid,p.one_line_conclusion_zh].join(' ').toLowerCase().indexOf(q)<0)return false;return true});
  r.sort(sort==='new'?function(a,b){return String(b.date).localeCompare(String(a.date))}:function(a,b){
-  return ((CU[a.clinical_utility]||3)-(CU[b.clinical_utility]||3))||(b.has_detail-a.has_detail)||String(b.date).localeCompare(String(a.date))});
+  return ((b.is_guideline?1:0)-(a.is_guideline?1:0))||(a.cebm_rank-b.cebm_rank)||String(b.date).localeCompare(String(a.date))});
  return r}
 function render(){var r=cur();$('count').textContent='显示 '+r.length+' / '+P.length+' 篇';
  $('list').innerHTML=r.map(function(p){
