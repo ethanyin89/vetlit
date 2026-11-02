@@ -22,4 +22,4 @@ mark.infer{background:#fff3c4;padding:0 .2em;border-radius:3px}
 .tw{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:.92rem}th,td{border:1px solid var(--bd);padding:.4rem .55rem;text-align:left;vertical-align:top}
 .kv th{width:9.5rem;background:#fff;white-space:nowrap}.muted{color:var(--mut)}.prose h1{font-size:1.3rem}.prose h2{font-size:1.15rem;margin-top:1.6rem}
 code{background:var(--soft);padding:0 .25em;border-radius:3px}pre{overflow-x:auto;background:var(--soft);padding:.75rem}
-@media (max-width:600px){main{padding:.85rem}h1{font-size:1.25rem}#q{min-width:0;width:100%}.filters label{flex:1 1 45%}.kv th{width:auto;white-space:normal}}
+@media (max-width:600px){main{padding:.85rem}h1{font-size:1.25rem}#q{min-width:0;width:100%}.filters label{flex:1 1 45%}.kv,.kv tbody,.kv tr,.kv th,.kv td{display:block;width:auto}.kv th{border-bottom:0;background:var(--soft)}}
