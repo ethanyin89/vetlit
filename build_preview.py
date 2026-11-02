@@ -338,6 +338,8 @@ def paper(p):
     rv=lambda f: (E_(clean(RES[f][0]))+(f'<blockquote lang="en">{E_(RES[f][1])}</blockquote>' if RES[f][1] else '')) if f in RES else ''
     POP=[('研究对象',E_(clean(p.get('pop_note') or '')))]+[(k,E_(clean(v if isinstance(v,str) else (v.get('summary_zh') or '')))) for k,v in (p.get('pop') or {}).items() if k in ('来源',) and v]
     if 'multicenter' in RES: POP.append(('单/多中心',rv('multicenter')))
+    _nn=' / '.join(x for x in [('纳入 '+str(p['n_enrolled'])) if has(p.get('n_enrolled')) else '',('分析 '+str(p['n_analysed'])) if has(p.get('n_analysed')) else ''] if x)
+    if _nn and '纳入 n / 分析 n' not in (pico or ''): POP.append(('纳入 n / 分析 n',E_(_nn)))
     popt=''.join(f'<tr><th>{E_(k)}</th><td>{v}</td></tr>' for k,v in POP if v)
     if popt: pico=f'<table class="kv">{popt}</table>'+(pico or '')
     MK=[]
