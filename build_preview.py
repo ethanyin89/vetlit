@@ -289,7 +289,7 @@ def paper(p):
     if kr and absonly: kr+='<p class="note">本页数字来自摘要，未经全文核对</p>'
     m=dict(p.get('methods') or {}); RES=p.get('res') or {}
     rv=lambda f: (E_(clean(RES[f][0]))+(f'<blockquote lang="en">{E_(RES[f][1])}</blockquote>' if RES[f][1] else '')) if f in RES else ''
-    POP=[('研究对象',E_(clean(p.get('pop_note') or '')))]+[(k,E_(clean(v))) for k,v in (p.get('pop') or {}).items() if k in ('来源','纳入标准','排除标准','疾病分期') and v]
+    POP=[('研究对象',E_(clean(p.get('pop_note') or '')))]+[(k,E_(clean(v))) for k,v in (p.get('pop') or {}).items() if k in ('来源',) and v]
     if 'multicenter' in RES: POP.append(('单/多中心',rv('multicenter')))
     popt=''.join(f'<tr><th>{E_(k)}</th><td>{v}</td></tr>' for k,v in POP if v)
     if popt: pico=f'<table class="kv">{popt}</table>'+(pico or '')
