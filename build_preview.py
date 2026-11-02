@@ -51,7 +51,7 @@ for r in json.load(open(os.path.join(ROOT,'data','v5','appraisal_papers.json'),e
     p=matcher(r)
     if not p: MERGE['ap_un'].append(r.get('pmid') or r.get('id')); continue
     MERGE['ap']+=1
-    p['rob_tool']=r.get('appraisal_tool') or p.get('rob_tool') or ''; p['appraisal_items']=r.get('appraisal_items') or []
+    p['v6_tool']=p.get('rob_tool') or ''; p['v6_judg']=p.get('rob_judgement') or ''; p['rob_tool']=r.get('appraisal_tool') or p.get('rob_tool') or ''; p['appraisal_items']=r.get('appraisal_items') or []
     p['appraisal_note']=r.get('appraisal_note') or ''
     for k in ('funder','study_card','cebm_basis'):
         if r.get(k) and not p.get(k): p[k]=r[k]
@@ -80,7 +80,7 @@ for pm,rs in ADJ.items():
     items=[]
     for r in sorted(rs,key=lambda r:(r['domain']=='overall',r['domain'])):
         if r['domain']=='overall': p['adj_overall']=JM.get(r['final'],r['final']); p['adj_overall_reason']=r.get('rationale') or ''; continue
-        rea=(r.get('rationale') or '')+(f'（{r["location"]}）' if r.get('location') else '')
+        rea=(f'原文位置：{r["location"]}' if r.get('location') else '')
         if r['domain']=='D5': rea='未检索到预先注册的方案。'+rea
         items.append({'item':DN.get(r['domain'],r['domain']),'judgment':JM.get(r['final'],r['final']),'reason':rea,'evidence_quote':r.get('quote') or ''})
     p['appraisal_items']=items
@@ -90,8 +90,21 @@ if os.path.exists(MF):
     for r in mf:
         p=matcher(r)
         if not p: MERGE['mf_un'].append(r.get('pmid') or r.get('id')); continue
-        MERGE['mf']+=1; p['methods']=r.get('methods') or {k:v for k,v in r.items() if k not in ('pmid','doi','id','population_type')}
-        if r.get('population_type'): p['population_type']=r['population_type']
+        MERGE['mf']+=1; p['methods']=r.get('动物来源与实验处理') or {}; p['pop']=r.get('population') or {}
+MERGE['pn']=0
+for k,v in json.load(open(os.path.join(ROOT,'data','v5','population_notes.json'),encoding='utf-8')).items():
+    p=matcher({'pmid':k,'id':k})
+    if p: p['pop_note']=v; MERGE['pn']+=1
+MERGE['ur']=0
+for k,v in json.load(open(os.path.join(ROOT,'data','v5','unverified_resolution.json'),encoding='utf-8')).items():
+    p=matcher({'pmid':v.get('pmid'),'doi':v.get('doi'),'id':v.get('id')})
+    if not p: continue
+    MERGE['ur']+=1; res={}
+    for f,x in (v.get('resolution') or {}).items():
+        if x.get('value'): res[f]=(x['value'],x.get('evidence_quote') or '')
+        elif str(x.get('status','')).startswith('未解决'): res[f]=('摘要未提及','')
+        else: res[f]=('原文未报告','')
+    p['res']=res
 # hidden pending verification
 HIDE_KR=set()
 for p in P.values():
@@ -274,13 +287,15 @@ def paper(p):
         kr=sec_get(S,'关键结果'); kr=mdc(kr) if kr and not re.fullmatch(r'[\s—\-|指标结果统计:]*',kr) else (f'<p>{E_(clean(p["results"]))}</p>' if has(p.get('results')) else '')
     absonly=p.get('reading_depth')!='全文'
     if kr and absonly: kr+='<p class="note">本页数字来自摘要，未经全文核对</p>'
-    m=dict(p.get('methods') or {})
-    POP=[(k,m.pop(k)) for k in [x for x in list(m) if x.startswith('纳入') or '排除' in x or '分期' in x]]
-    popt=''.join(f'<tr><th>{E_(k)}</th><td>{E_(clean(v or "原文未报告"))}</td></tr>' for k,v in POP)
-    if popt: pico=(pico or '')+f'<table class="kv">{popt}</table>'
-    MK=[('造模方法',1),('动物来源与品系',0),('造模成功判定',1),('分组/随机/盲法',0),('检测方法',0)]
+    m=dict(p.get('methods') or {}); RES=p.get('res') or {}
+    rv=lambda f: (E_(clean(RES[f][0]))+(f'<blockquote lang="en">{E_(RES[f][1])}</blockquote>' if RES[f][1] else '')) if f in RES else ''
+    POP=[('研究对象',E_(clean(p.get('pop_note') or '')))]+[(k,E_(clean(v))) for k,v in (p.get('pop') or {}).items() if k in ('来源','纳入标准','排除标准','疾病分期') and v]
+    if 'multicenter' in RES: POP.append(('单/多中心',rv('multicenter')))
+    popt=''.join(f'<tr><th>{E_(k)}</th><td>{v}</td></tr>' for k,v in POP if v)
+    if popt: pico=f'<table class="kv">{popt}</table>'+(pico or '')
+    MK=[]
     mitems=[(k,m.get(k)) for k,model in MK if not (model and not m.get(k))]+[(k,v) for k,v in m.items() if k not in dict(MK)]
-    mt=''.join(f'<tr><th>{E_(k)}</th><td>{E_(clean(v if v else "原文未报告"))}</td></tr>' for k,v in mitems if not (k in dict(MK) and dict(MK)[k] and not v)) if m else ''
+    mt=''.join(f'<tr><th>{E_(k)}</th><td>{E_(clean(v if v else "原文未报告"))}</td></tr>' for k,v in mitems) if m else ''
     meth=f'<table class="kv">{mt}</table>' if mt else ''
     cs=''
     if p.get('can_say') and '见页面' not in str(p['can_say']) and (p.get('p38') or not sec_get(S,'能说')):
@@ -293,7 +308,14 @@ def paper(p):
     it=p.get('appraisal_items') or []
     unk=sum(1 for i in it if any(u in (i.get('judgment') or '') for u in UNK))
     hi=[i.get('item') for i in it if (i.get('judgment') or '') in ('高','严重','否')]
-    if p.get('adj'): why1=f'RoB 2 总体：{p.get("adj_overall","")}'+(f'。{p["adj_overall_reason"]}' if p.get('adj_overall_reason') else '')
+    v6t=p.get('v6_tool') or ''; v6j=p.get('v6_judg') or ''
+    REEVAL=v6j.startswith('未评（工具已更换')
+    NOTOOL=v6t.startswith('无') or v6j.startswith('不适用（无公认工具')
+    if (REEVAL or NOTOOL) and not p.get('adj'): it=[]
+    rc=re.search(r'仅\s*([A-Za-z\-0-9 ]+?)\s*报告规范',v6t); rcs=rc.group(1) if rc else (p.get('reporting_checklist') if has(p.get('reporting_checklist')) else '')
+    if p.get('adj'): why1=f'RoB 2 总体：{p.get("adj_overall","")}'
+    elif REEVAL: why1='未评（工具已更换，待重评）'
+    elif NOTOOL: why1='不适用（无公认工具）'+(f'；报告规范：{rcs}' if rcs else '')
     elif p.get('appraisal_note'): why1=p['appraisal_note']
     elif not it: why1='未评'
     elif hi: why1=f'{tool}：{len(hi)}/{len(it)} 项判为高风险或不满足（{"、".join(hi[:3])}）'
@@ -301,9 +323,12 @@ def paper(p):
     else: why1=f'{tool}：{len(it)} 项中 {unk} 项信息不足，其余未见高风险'
     ev=f'<table class="kv"><tr><th>Oxford CEBM 2011</th><td>{E_(clean(lv or "未分级"))}{("（"+E_(clean(p["cebm_basis"]))+"）") if has(p.get("cebm_basis")) else ""}</td></tr><tr><th>偏倚风险</th><td>{E_(clean(why1))}</td></tr>'+''.join(f'<tr><th>{k}</th><td>{E_(clean(v))}</td></tr>' for k,v in [('报告规范',p.get('reporting_checklist')),('指南推荐强度（原文）',p.get('guideline_recommendation') if p.get('design_category')=='指南/共识' else '')] if has(v))+'</table>'
     if p.get('adj'): ev+='<p class="note">AI 评估并经第三方裁定，未经临床兽医审阅</p>'
+    if has(p.get('rob_tool_note')) and not REEVAL: ev+=f'<p class="note">工具说明：{E_(clean(p["rob_tool_note"]))}</p>'
     if it: ev+=f'<details class="sub"><summary>展开逐项判断</summary>{appraisal(p)}</details>'
     fund=p.get('funder') or sc.get('资助') or p.get('funding')
-    fund=f'<p>{E_(clean(fund))}</p>' if has(fund) and not str(fund).startswith('未核') else '<p class="muted">原文未报告或未核</p>'
+    if 'funding' in RES and (not has(fund) or '未核' in str(fund)): fund=f'<p>{rv("funding")}</p>'
+    else: fund=f'<p>{E_(clean(fund))}</p>' if has(fund) and not str(fund).startswith('未核') else '<p class="muted">原文未报告</p>'
+    if 'recommendation_basis' in RES: ev+=f'<p class="note">推荐依据：{rv("recommendation_basis")}</p>'
     methods_blk=lambda: (f'<details class="fold" {"open" if exp else ""}><summary>研究方法</summary>{meth}</details>' if meth else '')
     if exp: order=[('研究对象',pico if popt else ''),('动物来源与实验处理',None),('关键数字',kr),('证据等级与偏倚风险',ev),('能说 / 不能说',cs),('资助方与利益冲突',fund)]
     else: order=[('研究对象/干预/对照/结局 · 样本量',pico),('关键数字',kr),('研究方法',None),('证据等级与偏倚风险',ev),('能说 / 不能说',cs),('资助方与利益冲突',fund)]
