@@ -90,6 +90,11 @@ for r in json.load(open(os.path.join(ROOT,'data','v5','selfcheck_adjudication.js
     if not p: MERGE['adj_un'].append(r['pmid']); continue
     MERGE['adj']+=1; p['rob_tool']='RoB 2'; p['adj']=True; p['appraisal_note']=''; p['adj_overall']='未完整评估（仅据摘要；D1 有一定担忧，其余领域未评）'
     p['appraisal_items']=[{'item':DN[r['domain']],'judgment':JM[r['final']],'reason':'仅据摘要。原文位置：摘要','evidence_quote':r['quote']}]
+MERGE['gs']=0; MERGE['gs_un']=[]
+for r in json.load(open(os.path.join(ROOT,'data','v5','guideline_strength.json'),encoding='utf-8')):
+    p=matcher({'pmid':r['pmid'],'id':r['pmid']}) if r['pmid'] else next((x for x in P.values() if 'iris' in str(x.get('sid','')).lower() and 'staging' in str(x.get('sid','')).lower()),None)
+    if not p: MERGE['gs_un'].append(r['guideline']); continue
+    MERGE['gs']+=1; p['gs']=r
 MF=os.path.join(ROOT,'data','v5','methods_fields.json'); MERGE['mf']=0; MERGE['mf_un']=[]
 if os.path.exists(MF):
     mf=json.load(open(MF,encoding='utf-8')); mf=list(mf.values()) if isinstance(mf,dict) else mf
@@ -333,7 +338,12 @@ def paper(p):
     elif hi: why1=f'{tool}：{len(hi)}/{len(it)} 项判为高风险或不满足（{"、".join(hi[:3])}）'
     elif unk*2>=len(it): why1=f'{tool}：{unk}/{len(it)} 项信息不足，无法判断，不等于高风险'
     else: why1=f'{tool}：{len(it)} 项中 {unk} 项信息不足，其余未见高风险'
-    ev=f'<table class="kv"><tr><th>Oxford CEBM 2011</th><td>{E_(clean(lv or "未分级"))}{("（"+E_(clean(p["cebm_basis"]))+"）") if has(p.get("cebm_basis")) else ""}</td></tr><tr><th>偏倚风险</th><td>{E_(clean(why1))}</td></tr>'+''.join(f'<tr><th>{k}</th><td>{E_(clean(v))}</td></tr>' for k,v in [('报告规范',p.get('reporting_checklist')),('指南推荐强度（原文）',p.get('guideline_recommendation') if p.get('design_category')=='指南/共识' else '')] if has(v))+'</table>'
+    ev=f'<table class="kv"><tr><th>Oxford CEBM 2011</th><td>{E_(clean(lv or "未分级"))}{("（"+E_(clean(p["cebm_basis"]))+"）") if has(p.get("cebm_basis")) else ""}</td></tr><tr><th>偏倚风险</th><td>{E_(clean(why1))}</td></tr>'+''.join(f'<tr><th>{k}</th><td>{E_(clean(v))}</td></tr>' for k,v in [('报告规范',p.get('reporting_checklist')),('指南推荐强度（原文）',p.get('guideline_recommendation') if p.get('design_category')=='指南/共识' and not p.get('gs') else '')] if has(v))+'</table>'
+    if p.get('gs'):
+        g=p['gs']; segs=[x.strip() for x in re.split(r'\s*(?:\|\||…)\s*',g.get('quote') or '') if x.strip()]
+        src='引自 2022 更新版' if str(p.get('pmid'))=='29314873' else (g.get('location') or '')
+        gc=E_(g.get('strength') or '')+(f'<p class="note">分级体系：{E_(g["scheme"])}</p>' if g.get('scheme') and g['scheme']!=g.get('strength') else '')+''.join(f'<blockquote lang="en">{E_(x)}</blockquote>' for x in segs)+(f'<p class="note">出处：{E_(src)}</p>' if src else '')
+        ev=ev.replace('</table>',f'<tr><th>指南推荐强度（原文）</th><td>{gc}</td></tr></table>',1)
     if p.get('adj'): ev+='<p class="note">AI 评估并经第三方裁定，未经临床兽医审阅</p>'
     if has(p.get('rob_tool_note')) and not REEVAL: ev+=f'<p class="note">工具说明：{E_(clean(p["rob_tool_note"]))}</p>'
     if it: ev+=f'<details class="sub"><summary>展开逐项判断</summary>{appraisal(p)}</details>'
