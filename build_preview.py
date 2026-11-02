@@ -331,7 +331,7 @@ def paper(p):
     if pico: pico=mdc(re.sub(r'^\|\s*资助.*$','',pico,flags=re.M))
     elif p.get('population_type')=='na': pico=''
     else:
-        rows=[('设计',p.get('design_detail') or p.get('design')),('物种',species(p)),('纳入 n / 分析 n',' / '.join(x for x in [('纳入 '+str(p['n_enrolled'])) if has(p.get('n_enrolled')) else '',('分析 '+str(p['n_analysed'])) if has(p.get('n_analysed')) else ''] if x)),('中心',sc.get('单/多中心'))]
+        rows=[('设计',p.get('design_detail') or p.get('design')),('物种',species(p)),('纳入 n / 分析 n',' / '.join(x for x in [('纳入 '+str(p['n_enrolled'])) if has(p.get('n_enrolled')) and '未核' not in str(p['n_enrolled']) else '',('分析 '+str(p['n_analysed'])) if has(p.get('n_analysed')) and '未核' not in str(p['n_analysed']) else ''] if x)),('中心',sc.get('单/多中心'))]
         rows=''.join(f'<tr><th>{k}</th><td>{E_(clean(v))}</td></tr>' for k,v in rows if has(v))
         pico=f'<table class="kv">{rows}</table>' if rows else ''
     PH={'','—','-','–','None'}
@@ -346,7 +346,7 @@ def paper(p):
     rv=lambda f: (E_(clean(RES[f][0]))+(f'<blockquote lang="en">{E_(RES[f][1])}</blockquote>' if RES[f][1] else '')) if f in RES else ''
     POP=[('研究对象',E_(clean(p.get('pop_note') or '')))]+[(k,E_(clean(v if isinstance(v,str) else (v.get('summary_zh') or '')))) for k,v in (p.get('pop') or {}).items() if k in ('来源',) and v]
     if 'multicenter' in RES: POP.append(('单/多中心',rv('multicenter')))
-    _nn=' / '.join(x for x in [('纳入 '+str(p['n_enrolled'])) if has(p.get('n_enrolled')) else '',('分析 '+str(p['n_analysed'])) if has(p.get('n_analysed')) else ''] if x)
+    _nn=' / '.join(x for x in [('纳入 '+str(p['n_enrolled'])) if has(p.get('n_enrolled')) and '未核' not in str(p['n_enrolled']) else '',('分析 '+str(p['n_analysed'])) if has(p.get('n_analysed')) and '未核' not in str(p['n_analysed']) else ''] if x)
     if _nn and '纳入 n / 分析 n' not in (pico or ''): POP.append(('纳入 n / 分析 n',E_(_nn)))
     popt=''.join(f'<tr><th>{E_(k)}</th><td>{v}</td></tr>' for k,v in POP if v)
     if popt: pico=f'<table class="kv">{popt}</table>'+(pico or '')
@@ -454,6 +454,7 @@ def main():
                 h=re.sub(r'(<summary>原文与许可</summary>)',r'\1'+f'<p>许可：{cell}</p>'.replace('\\','\\\\'),h,count=1); continue
             h=re.sub(r'(<tr><th>[^<]*'+base+r'[^<]*</th><td>)[^<]*未核[^<]*(</td></tr>)',lambda m:m.group(1)+cell+m.group(2),h)
             if base=='样本量' and x['value']: h=re.sub(r'n=[^<]*未核[^<]*','n='+E_(x['value']),h)
+        if p.get('cebm_level'): h=h.replace('CEBM 等级未核','CEBM 等级 '+str(p['cebm_level']))
         rep='摘要未提及' if p.get('reading_depth')!='全文' else '原文未报告'
         h=h.replace('原文未给出',rep).replace('摘要未给出',rep)
         def coll(m):
