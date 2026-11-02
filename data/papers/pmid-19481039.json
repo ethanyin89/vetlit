@@ -1,0 +1,46 @@
+{
+  "id": "pmid-19481039",
+  "status": "待速读",
+  "source": "Europe PMC REST API（2026-11-02）",
+  "alt_ids": [
+    "19481039"
+  ],
+  "specialty": "感染",
+  "species": "猫",
+  "title": "Feline infectious peritonitis. ABCD guidelines on prevention and management.",
+  "first_author": "Addie D",
+  "year": "2009",
+  "journal": "Journal of feline medicine and surgery",
+  "doi": "10.1016/j.jfms.2009.05.008",
+  "pmid": "19481039",
+  "oa": "是",
+  "doc_type": "指南/共识",
+  "recommendation_basis": "未核",
+  "sample_size_analysed": "不适用",
+  "multicenter": "未核",
+  "funding": "Biotechnology and Biological Sciences Research Council; Medical Research Council（MEDLINE grantsList）",
+  "one_line_conclusion_zh": "2009 ABCD FIP 预防与管理指南（抗病毒药出现前）",
+  "clinical_utility": "背景",
+  "verified": "partial",
+  "japan_source": "否",
+  "cebm_question": "—",
+  "cebm_level": "不适用（指南/共识，OCEBM 不分级）",
+  "rob_tool": "AGREE II（评价工具）",
+  "rob_judgement": "未做 AGREE II 正式评分",
+  "guideline_recommendation": "未核（需读指南原文确认其推荐分级体系）",
+  "reporting_checklist": "AGREE 报告清单 / RIGHT",
+  "grade_certainty_topic": "FIP 主题 GRADE 草稿（单人）：核苷类似物→生存 中（因效应极大从观察性证据升级）；口服瑞德西韦 vs GS-441524 低；42 vs 84 天 低；莫努匹韦 极低；神经/眼型剂量 极低。详见 topics/fip.md",
+  "species_zh": "猫",
+  "topics": [
+    "fip",
+    "infectious"
+  ],
+  "n_enrolled": "不适用",
+  "n_analysed": "不适用",
+  "license": "OA，许可证未在 Europe PMC 标注（未核）",
+  "fulltext_translation_allowed": false,
+  "species_code": "cat",
+  "provenance": [
+    "vibe-feline-v4"
+  ]
+}

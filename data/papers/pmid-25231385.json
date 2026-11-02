@@ -29,11 +29,12 @@
   "rob_rationale": "病例—对照式诊断设计 + 资助方即检测/饲料相关企业",
   "guideline_recommendation": "不适用",
   "reporting_checklist": "STROBE-Vet",
-  "grade_certainty_topic": "",
+  "grade_certainty_topic": "CKD 主题 GRADE 草稿（单人）：肾病处方粮→生存 低；ACEI/ARB→降蛋白尿 中、→生存 低；IRIS 分期/蛋白尿→预后 中；SDMA 诊断准确性 极低；辅助治疗 低–极低。详见 topics/ckd.md",
   "status": "已收录",
   "provenance": [
     "vibe-feline-v3",
-    "deep-extract"
+    "deep-extract",
+    "vibe-feline-v4"
   ],
   "detail": "pmid-25231385.md",
   "authors": "Hall JA 等",
@@ -146,5 +147,18 @@
   "reading_source": "全文（Europe PMC/PMC）",
   "reporting_notes": "STROBE-Vet：设计、场所、资助已报告；样本量论证未见。（诊断研究更适合 STARD，此处按要求用 STROBE-Vet）",
   "extract_id": "hall_2014",
-  "design": "回顾性；单一机构（Hill's 宠物营养中心 >400 只猫的猫群）"
+  "design": "回顾性；单一机构（Hill's 宠物营养中心 >400 只猫的猫群）",
+  "alt_ids": [
+    "25231385"
+  ],
+  "species_zh": "猫",
+  "topics": [
+    "ckd",
+    "nephrology"
+  ],
+  "n_enrolled": "CKD 21 + 健康 21",
+  "n_analysed": "CKD 21 + 健康 21",
+  "license": "OA，许可证未在 Europe PMC 标注（未核）",
+  "fulltext_translation_allowed": false,
+  "species_code": "cat"
 }

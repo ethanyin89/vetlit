@@ -1,0 +1,47 @@
+{
+  "id": "pmid-42207576",
+  "status": "待速读",
+  "source": "Europe PMC REST API（2026-11-02）",
+  "alt_ids": [
+    "42207576"
+  ],
+  "specialty": "肾脏",
+  "species": "犬",
+  "title": "Association of impaired ammonia excretion with survival in dogs with stable chronic kidney disease.",
+  "first_author": "Harris AN",
+  "year": "2026",
+  "journal": "Journal of veterinary internal medicine",
+  "doi": "10.1093/jvimsj/aalag100",
+  "pmid": "42207576",
+  "oa": "是",
+  "doc_type": "前瞻性观察队列",
+  "recommendation_basis": "不适用",
+  "sample_size_analysed": "50 只",
+  "multicenter": "未核",
+  "funding": "American Kennel Club Canine Health Foundation（MEDLINE grantsList）",
+  "one_line_conclusion_zh": "尿氨/肌酐比<2.0 的 CKD 犬死亡风险约 3 倍、进展更快",
+  "clinical_utility": "提示性",
+  "verified": "partial",
+  "japan_source": "否",
+  "cebm_question": "预后",
+  "cebm_level": "3",
+  "cebm_basis": "前瞻性队列，入组为稳定期 CKD 而非初诊（非起始队列）",
+  "rob_tool": "QUIPS",
+  "rob_judgement": "未评（仅摘要）",
+  "guideline_recommendation": "不适用",
+  "reporting_checklist": "STROBE-Vet",
+  "grade_certainty_topic": "CKD 主题 GRADE 草稿（单人）：肾病处方粮→生存 低；ACEI/ARB→降蛋白尿 中、→生存 低；IRIS 分期/蛋白尿→预后 中；SDMA 诊断准确性 极低；辅助治疗 低–极低。详见 topics/ckd.md",
+  "species_zh": "犬",
+  "topics": [
+    "ckd",
+    "nephrology"
+  ],
+  "n_enrolled": "50 只",
+  "n_analysed": "50 只",
+  "license": "cc by-nc",
+  "fulltext_translation_allowed": false,
+  "species_code": "dog",
+  "provenance": [
+    "vibe-feline-v4"
+  ]
+}

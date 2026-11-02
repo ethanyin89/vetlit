@@ -1,0 +1,47 @@
+{
+  "id": "pmid-18691369",
+  "status": "待速读",
+  "source": "Europe PMC REST API（2026-11-02）",
+  "alt_ids": [
+    "18691369"
+  ],
+  "specialty": "肾脏",
+  "species": "猫",
+  "title": "Survival in cats with naturally occurring chronic kidney disease (2000-2002).",
+  "first_author": "Boyd LM",
+  "year": "2008",
+  "journal": "Journal of veterinary internal medicine",
+  "doi": "10.1111/j.1939-1676.2008.0163.x",
+  "pmid": "18691369",
+  "oa": "否",
+  "doc_type": "回顾性队列",
+  "recommendation_basis": "不适用",
+  "sample_size_analysed": "211 只",
+  "multicenter": "未核",
+  "funding": "未核",
+  "one_line_conclusion_zh": "确诊时 IRIS 分期强烈预测 CKD 猫生存（IIb 1151 天、III 778 天、IV 103 天）",
+  "clinical_utility": "改变诊疗",
+  "verified": "partial",
+  "japan_source": "否",
+  "cebm_question": "预后",
+  "cebm_level": "3",
+  "cebm_basis": "队列研究（回顾性，非起始队列）",
+  "rob_tool": "QUIPS",
+  "rob_judgement": "未评（仅摘要）",
+  "guideline_recommendation": "不适用",
+  "reporting_checklist": "STROBE-Vet",
+  "grade_certainty_topic": "CKD 主题 GRADE 草稿（单人）：肾病处方粮→生存 低；ACEI/ARB→降蛋白尿 中、→生存 低；IRIS 分期/蛋白尿→预后 中；SDMA 诊断准确性 极低；辅助治疗 低–极低。详见 topics/ckd.md",
+  "species_zh": "猫",
+  "topics": [
+    "ckd",
+    "nephrology"
+  ],
+  "n_enrolled": "733 只 SCr>2.3 筛查",
+  "n_analysed": "211 只",
+  "license": "none（非 OA）",
+  "fulltext_translation_allowed": false,
+  "species_code": "cat",
+  "provenance": [
+    "vibe-feline-v4"
+  ]
+}

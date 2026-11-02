@@ -1,0 +1,47 @@
+{
+  "id": "pmid-26079532",
+  "status": "待速读",
+  "source": "Europe PMC REST API（2026-11-02）",
+  "alt_ids": [
+    "26079532"
+  ],
+  "specialty": "肾脏",
+  "species": "犬",
+  "title": "Symmetric Dimethylarginine Assay Validation, Stability, and Evaluation as a Marker for the Early Detection of Chronic Kidney Disease in Dogs.",
+  "first_author": "Nabity MB",
+  "year": "2015",
+  "journal": "Journal of veterinary internal medicine",
+  "doi": "10.1111/jvim.12835",
+  "pmid": "26079532",
+  "oa": "是",
+  "doc_type": "前瞻性诊断/方法学验证",
+  "recommendation_basis": "不适用",
+  "sample_size_analysed": "12 只",
+  "multicenter": "未核",
+  "funding": "IDEXX Laboratories Inc.（MEDLINE grantsList）",
+  "one_line_conclusion_zh": "在 X 连锁遗传性肾病犬中 SDMA 比肌酐更早反映 GFR 下降",
+  "clinical_utility": "提示性",
+  "verified": "partial",
+  "japan_source": "否",
+  "cebm_question": "诊断",
+  "cebm_level": "4",
+  "cebm_basis": "遗传性肾病犬与同窝对照，病例对照式诊断研究",
+  "rob_tool": "QUADAS-2",
+  "rob_judgement": "未评（仅摘要）",
+  "guideline_recommendation": "不适用",
+  "reporting_checklist": "STARD 2015",
+  "grade_certainty_topic": "CKD 主题 GRADE 草稿（单人）：肾病处方粮→生存 低；ACEI/ARB→降蛋白尿 中、→生存 低；IRIS 分期/蛋白尿→预后 中；SDMA 诊断准确性 极低；辅助治疗 低–极低。详见 topics/ckd.md",
+  "species_zh": "犬",
+  "topics": [
+    "ckd",
+    "nephrology"
+  ],
+  "n_enrolled": "12 只（患病公犬 8 + 未患病同窝 4）",
+  "n_analysed": "12 只",
+  "license": "cc by-nc",
+  "fulltext_translation_allowed": false,
+  "species_code": "dog",
+  "provenance": [
+    "vibe-feline-v4"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "pmid-39417648",
+  "status": "待速读",
+  "source": "Europe PMC REST API（2026-11-02）",
+  "alt_ids": [
+    "39417648"
+  ],
+  "specialty": "肾脏",
+  "species": "猫",
+  "title": "Efficacy of oral AB070597 for the management of chronic kidney disease in cats: a prospective, randomised, controlled parallel-group study.",
+  "first_author": "Tsunekawa N",
+  "year": "2024",
+  "journal": "Journal of feline medicine and surgery",
+  "doi": "10.1177/1098612x241275249",
+  "pmid": "39417648",
+  "oa": "是",
+  "doc_type": "RCT",
+  "recommendation_basis": "不适用",
+  "sample_size_analysed": "未核",
+  "multicenter": "未核",
+  "funding": "未核",
+  "one_line_conclusion_zh": "AB070597 组 180 天内肌酐和磷未升高，安慰剂组 26% 由 2 期进展到 3 期",
+  "clinical_utility": "提示性",
+  "verified": "partial",
+  "japan_source": "是",
+  "cebm_question": "治疗获益",
+  "cebm_level": "2",
+  "cebm_basis": "随机安慰剂对照平行试验",
+  "rob_tool": "Cochrane RoB 2",
+  "rob_judgement": "未评（仅摘要）",
+  "guideline_recommendation": "不适用",
+  "reporting_checklist": "CONSORT 2010",
+  "grade_certainty_topic": "CKD 主题 GRADE 草稿（单人）：肾病处方粮→生存 低；ACEI/ARB→降蛋白尿 中、→生存 低；IRIS 分期/蛋白尿→预后 中；SDMA 诊断准确性 极低；辅助治疗 低–极低。详见 topics/ckd.md",
+  "species_zh": "猫",
+  "topics": [
+    "ckd",
+    "nephrology"
+  ],
+  "n_enrolled": "35 只",
+  "n_analysed": "未核",
+  "license": "cc by-nc",
+  "fulltext_translation_allowed": false,
+  "species_code": "cat",
+  "provenance": [
+    "vibe-feline-v4"
+  ]
+}

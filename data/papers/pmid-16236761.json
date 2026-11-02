@@ -33,7 +33,8 @@
   "status": "已收录",
   "provenance": [
     "vibe-feline-v3",
-    "deep-extract"
+    "deep-extract",
+    "vibe-feline-v4"
   ],
   "detail": "pmid-16236761.md",
   "authors": "Meurs KM 等",
@@ -127,5 +128,18 @@
   "reading_source": "仅摘要",
   "reporting_notes": "仅摘要，无法逐条核查（信息不足）",
   "extract_id": "meurs_2005",
-  "design": "候选基因测序（缅因猫家族性 HCM）"
+  "design": "候选基因测序（缅因猫家族性 HCM）",
+  "alt_ids": [
+    "16236761"
+  ],
+  "species_zh": "猫",
+  "topics": [
+    "cardiology",
+    "cardiomyopathy"
+  ],
+  "n_enrolled": "未核",
+  "n_analysed": "未核",
+  "license": "none（非 OA）",
+  "fulltext_translation_allowed": false,
+  "species_code": "cat"
 }

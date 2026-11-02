@@ -34,7 +34,8 @@
   "provenance": [
     "vibe-feline-v3",
     "site-curated",
-    "deep-extract"
+    "deep-extract",
+    "vibe-feline-v4"
   ],
   "title_zh": "家猫能把自己的名字与其他词区分开",
   "pmcid": "PMC6449508",
@@ -155,5 +156,19 @@
   "reading_source": "全文（Europe PMC/PMC）",
   "reporting_notes": "ARRIVE 2.0：样本量论证缺；排除/未完成情况已报告。",
   "extract_id": "saito_2019",
-  "design": "4 个实验（习惯化—去习惯化范式），日本；实验 2 在一间猫咖进行"
+  "design": "4 个实验（习惯化—去习惯化范式），日本；实验 2 在一间猫咖进行",
+  "alt_ids": [
+    "30948740"
+  ],
+  "species_zh": "猫",
+  "topics": [
+    "behavior",
+    "cognition"
+  ],
+  "n_enrolled": "实验1 16；实验2 34（家庭 24、猫咖 10）；实验3 29；实验4 33",
+  "n_analysed": "统计检验只用习惯化的猫：11；6+9；21；20（原文 t(10)、t(19) 自由度印证）",
+  "license": "cc by",
+  "fulltext_translation_allowed": true,
+  "results": "习惯化猫数 11/16、15/34（家庭 6/24、猫咖 9/10）、21/29、20/33；对自己名字反应增强 9/11、6/6 与 3/9、13/21、13/20；P=.007、.005、.732、.023、.049",
+  "species_code": "cat"
 }

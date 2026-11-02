@@ -1,0 +1,47 @@
+{
+  "id": "pmid-37403259",
+  "status": "待速读",
+  "source": "Europe PMC REST API（2026-11-02）",
+  "alt_ids": [
+    "37403259"
+  ],
+  "specialty": "感染",
+  "species": "猫",
+  "title": "Thirty-two cats with effusive or non-effusive feline infectious peritonitis treated with a combination of remdesivir and GS-441524.",
+  "first_author": "Green J",
+  "year": "2023",
+  "journal": "Journal of veterinary internal medicine",
+  "doi": "10.1111/jvim.16804",
+  "pmid": "37403259",
+  "oa": "是",
+  "doc_type": "回顾性病例系列",
+  "recommendation_basis": "不适用",
+  "sample_size_analysed": "32 只",
+  "multicenter": "未核",
+  "funding": "未核",
+  "one_line_conclusion_zh": "瑞德西韦+口服 GS-441524 联合治疗 12 周末 81% FIP 猫临床和生化缓解",
+  "clinical_utility": "提示性",
+  "verified": "partial",
+  "japan_source": "否",
+  "cebm_question": "治疗获益",
+  "cebm_level": "4",
+  "cebm_basis": "单中心回顾性病例系列",
+  "rob_tool": "未评（无对照病例系列，无对应通用 RoB 工具）",
+  "rob_judgement": "不适用",
+  "guideline_recommendation": "不适用",
+  "reporting_checklist": "STROBE-Vet",
+  "grade_certainty_topic": "FIP 主题 GRADE 草稿（单人）：核苷类似物→生存 中（因效应极大从观察性证据升级）；口服瑞德西韦 vs GS-441524 低；42 vs 84 天 低；莫努匹韦 极低；神经/眼型剂量 极低。详见 topics/fip.md",
+  "species_zh": "猫",
+  "topics": [
+    "fip",
+    "infectious"
+  ],
+  "n_enrolled": "32 只",
+  "n_analysed": "32 只",
+  "license": "cc by",
+  "fulltext_translation_allowed": true,
+  "species_code": "cat",
+  "provenance": [
+    "vibe-feline-v4"
+  ]
+}

@@ -34,7 +34,8 @@
   "provenance": [
     "vibe-feline-v3",
     "site-curated",
-    "deep-extract"
+    "deep-extract",
+    "vibe-feline-v4"
   ],
   "detail": "pmid-30353952.md",
   "recommendation_basis_detail": "急症处理推荐原文自述为 anecdotal and extrapolated；测压设备无一在清醒犬猫中达到验证标准",
@@ -97,5 +98,19 @@
   "reading_source": "全文（Europe PMC/PMC）",
   "reporting_notes": "RIGHT：COI 已报告；方法未报告。",
   "extract_id": "acierno_2018",
-  "design": "ACVIM 共识声明（更新 2007 版），专家组 7 人；草案征求 ACVIM 会员意见"
+  "design": "ACVIM 共识声明（更新 2007 版），专家组 7 人；草案征求 ACVIM 会员意见",
+  "alt_ids": [
+    "30353952"
+  ],
+  "species_zh": "猫/犬",
+  "topics": [
+    "cardiology",
+    "hypertension",
+    "nephrology"
+  ],
+  "n_enrolled": "未核",
+  "n_analysed": "未核",
+  "license": "cc by-nc",
+  "fulltext_translation_allowed": false,
+  "species_code": "cat+dog"
 }

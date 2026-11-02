@@ -1,0 +1,47 @@
+{
+  "id": "pmid-17939542",
+  "status": "待速读",
+  "source": "Europe PMC REST API（2026-11-02）",
+  "alt_ids": [
+    "17939542"
+  ],
+  "specialty": "肾脏",
+  "species": "猫",
+  "title": "Prognostic factors in cats with chronic kidney disease.",
+  "first_author": "King JN",
+  "year": "2007",
+  "journal": "Journal of veterinary internal medicine",
+  "doi": "10.1111/j.1939-1676.2007.tb03042.x",
+  "pmid": "17939542",
+  "oa": "否",
+  "doc_type": "RCT 安慰剂组的预后分析",
+  "recommendation_basis": "不适用",
+  "sample_size_analysed": "安慰剂组 95 只",
+  "multicenter": "未核",
+  "funding": "未核",
+  "one_line_conclusion_zh": "肌酐、UPC 和白细胞升高与 CKD 猫肾脏生存期缩短相关",
+  "clinical_utility": "提示性",
+  "verified": "partial",
+  "japan_source": "否",
+  "cebm_question": "预后",
+  "cebm_level": "3",
+  "cebm_basis": "RCT 对照组（OCEBM 预后 Level 3）",
+  "rob_tool": "QUIPS",
+  "rob_judgement": "未评（仅摘要）",
+  "guideline_recommendation": "不适用",
+  "reporting_checklist": "STROBE-Vet",
+  "grade_certainty_topic": "CKD 主题 GRADE 草稿（单人）：肾病处方粮→生存 低；ACEI/ARB→降蛋白尿 中、→生存 低；IRIS 分期/蛋白尿→预后 中；SDMA 诊断准确性 极低；辅助治疗 低–极低。详见 topics/ckd.md",
+  "species_zh": "猫",
+  "topics": [
+    "ckd",
+    "nephrology"
+  ],
+  "n_enrolled": "190 只基线",
+  "n_analysed": "安慰剂组 95 只",
+  "license": "none（非 OA）",
+  "fulltext_translation_allowed": false,
+  "species_code": "cat",
+  "provenance": [
+    "vibe-feline-v4"
+  ]
+}

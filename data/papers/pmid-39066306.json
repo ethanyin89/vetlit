@@ -1,0 +1,47 @@
+{
+  "id": "pmid-39066306",
+  "status": "待速读",
+  "source": "Europe PMC REST API（2026-11-02）",
+  "alt_ids": [
+    "39066306"
+  ],
+  "specialty": "感染",
+  "species": "猫",
+  "title": "Short Treatment of 42 Days with Oral GS-441524 Results in Equal Efficacy as the Recommended 84-Day Treatment in Cats Suffering from Feline Infectious Peritonitis with Effusion-A Prospective Randomized Controlled Study.",
+  "first_author": "Zuzzi-Krebitz AM",
+  "year": "2024",
+  "journal": "Viruses",
+  "doi": "10.3390/v16071144",
+  "pmid": "39066306",
+  "oa": "是",
+  "doc_type": "RCT",
+  "recommendation_basis": "不适用",
+  "sample_size_analysed": "40 只（38 只康复）",
+  "multicenter": "未核",
+  "funding": "UZH Global Strategy and Partnerships Funding Scheme（MEDLINE grantsList）",
+  "one_line_conclusion_zh": "积液型 FIP 口服 GS-441524 42 天与 84 天疗效相当",
+  "clinical_utility": "改变诊疗",
+  "verified": "partial",
+  "japan_source": "否",
+  "cebm_question": "治疗获益",
+  "cebm_level": "2",
+  "cebm_basis": "随机对照试验（42 天 vs 84 天）",
+  "rob_tool": "Cochrane RoB 2",
+  "rob_judgement": "未评（仅摘要）",
+  "guideline_recommendation": "不适用",
+  "reporting_checklist": "CONSORT 2010",
+  "grade_certainty_topic": "FIP 主题 GRADE 草稿（单人）：核苷类似物→生存 中（因效应极大从观察性证据升级）；口服瑞德西韦 vs GS-441524 低；42 vs 84 天 低；莫努匹韦 极低；神经/眼型剂量 极低。详见 topics/fip.md",
+  "species_zh": "猫",
+  "topics": [
+    "fip",
+    "infectious"
+  ],
+  "n_enrolled": "40 只",
+  "n_analysed": "40 只（38 只康复）",
+  "license": "cc by",
+  "fulltext_translation_allowed": true,
+  "species_code": "cat",
+  "provenance": [
+    "vibe-feline-v4"
+  ]
+}

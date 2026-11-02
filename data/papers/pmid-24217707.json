@@ -1,0 +1,47 @@
+{
+  "id": "pmid-24217707",
+  "status": "待速读",
+  "source": "Europe PMC REST API（2026-11-02）",
+  "alt_ids": [
+    "24217707"
+  ],
+  "specialty": "肾脏",
+  "species": "猫",
+  "title": "Prevalence and classification of chronic kidney disease in cats randomly selected from four age groups and in cats recruited for degenerative joint disease studies.",
+  "first_author": "Marino CL",
+  "year": "2014",
+  "journal": "Journal of feline medicine and surgery",
+  "doi": "10.1177/1098612x13511446",
+  "pmid": "24217707",
+  "oa": "否",
+  "doc_type": "回顾性横断面",
+  "recommendation_basis": "不适用",
+  "sample_size_analysed": "未核（摘要未给 n）",
+  "multicenter": "未核",
+  "funding": "NCRR NIH HHS; NIH HHS; NIH HHS（MEDLINE grantsList）",
+  "one_line_conclusion_zh": "随机抽取的各年龄段猫中 CKD 患病率约 50%，且常与退行性关节病并存",
+  "clinical_utility": "提示性",
+  "verified": "partial",
+  "japan_source": "否",
+  "cebm_question": "患病率",
+  "cebm_level": "3",
+  "cebm_basis": "医院就诊群体内分年龄组随机抽样，非人群随机调查，按非随机本地样本计",
+  "rob_tool": "未评（无干预的描述性/横断面研究，无对应工具）",
+  "rob_judgement": "不适用",
+  "guideline_recommendation": "不适用",
+  "reporting_checklist": "STROBE-Vet",
+  "grade_certainty_topic": "CKD 主题 GRADE 草稿（单人）：肾病处方粮→生存 低；ACEI/ARB→降蛋白尿 中、→生存 低；IRIS 分期/蛋白尿→预后 中；SDMA 诊断准确性 极低；辅助治疗 低–极低。详见 topics/ckd.md",
+  "species_zh": "猫",
+  "topics": [
+    "ckd",
+    "nephrology"
+  ],
+  "n_enrolled": "未核",
+  "n_analysed": "未核（摘要未给 n）",
+  "license": "none（非 OA）",
+  "fulltext_translation_allowed": false,
+  "species_code": "cat",
+  "provenance": [
+    "vibe-feline-v4"
+  ]
+}

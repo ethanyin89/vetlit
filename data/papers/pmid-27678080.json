@@ -34,7 +34,8 @@
   "provenance": [
     "vibe-feline-v3",
     "site-curated",
-    "deep-extract"
+    "deep-extract",
+    "vibe-feline-v4"
   ],
   "detail": "pmid-27678080.md",
   "authors": "Boswood A 等",
@@ -96,5 +97,18 @@
   "reading_source": "全文（Europe PMC/PMC）",
   "reporting_notes": "CONSORT：中期分析规则、α 消耗、ITT/PP 已报告。",
   "extract_id": "boswood_2016",
-  "design": "前瞻性、多中心（36 中心/11 国）、随机、设盲、安慰剂对照；预设中期分析后因有效提前终止"
+  "design": "前瞻性、多中心（36 中心/11 国）、随机、设盲、安慰剂对照；预设中期分析后因有效提前终止",
+  "alt_ids": [
+    "27678080"
+  ],
+  "species_zh": "犬",
+  "topics": [
+    "cardiology",
+    "mmvd"
+  ],
+  "n_enrolled": "随机 360",
+  "n_analysed": "ITT 359；PP 354（178/176）",
+  "license": "cc by-nc",
+  "fulltext_translation_allowed": false,
+  "species_code": "dog"
 }

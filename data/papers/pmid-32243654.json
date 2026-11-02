@@ -33,7 +33,8 @@
   "status": "已收录",
   "provenance": [
     "vibe-feline-v3",
-    "deep-extract"
+    "deep-extract",
+    "vibe-feline-v4"
   ],
   "detail": "pmid-32243654.md",
   "authors": "Luis Fuentes V 等",
@@ -122,5 +123,17 @@
   "reading_source": "全文（Europe PMC/PMC）",
   "reporting_notes": "RIGHT：COI、方法已报告。",
   "extract_id": "luis-fuentes_2020",
-  "design": "ACVIM 共识（猫心肌病）；改良 Delphi，共识 = 9 人中 ≥6 人同意；PubMed 检索 475 篇参考"
+  "design": "ACVIM 共识（猫心肌病）；改良 Delphi，共识 = 9 人中 ≥6 人同意；PubMed 检索 475 篇参考",
+  "alt_ids": [
+    "32243654"
+  ],
+  "species_zh": "猫",
+  "topics": [
+    "cardiology"
+  ],
+  "n_enrolled": "未核",
+  "n_analysed": "未核",
+  "license": "cc by",
+  "fulltext_translation_allowed": true,
+  "species_code": "cat"
 }

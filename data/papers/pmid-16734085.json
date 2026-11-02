@@ -29,11 +29,12 @@
   "rob_rationale": "未检到相关信息/本次未读到可判断内容",
   "guideline_recommendation": "不适用",
   "reporting_checklist": "STROBE-Vet",
-  "grade_certainty_topic": "",
+  "grade_certainty_topic": "CKD 主题 GRADE 草稿（单人）：肾病处方粮→生存 低；ACEI/ARB→降蛋白尿 中、→生存 低；IRIS 分期/蛋白尿→预后 中；SDMA 诊断准确性 极低；辅助治疗 低–极低。详见 topics/ckd.md",
   "status": "已收录",
   "provenance": [
     "vibe-feline-v3",
-    "deep-extract"
+    "deep-extract",
+    "vibe-feline-v4"
   ],
   "detail": "pmid-16734085.md",
   "authors": "Syme HM 等",
@@ -142,5 +143,18 @@
   "reading_source": "仅摘要",
   "reporting_notes": "仅摘要，无法逐条核查（信息不足）",
   "extract_id": "syme_2006",
-  "design": "Cox 回归预后研究，RVC"
+  "design": "Cox 回归预后研究，RVC",
+  "alt_ids": [
+    "16734085"
+  ],
+  "species_zh": "猫",
+  "topics": [
+    "ckd",
+    "nephrology"
+  ],
+  "n_enrolled": "未核",
+  "n_analysed": "136（猫）",
+  "license": "none（非 OA）",
+  "fulltext_translation_allowed": false,
+  "species_code": "cat"
 }

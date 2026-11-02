@@ -1,0 +1,47 @@
+{
+  "id": "pmid-23838205",
+  "status": "待速读",
+  "source": "Europe PMC REST API（2026-11-02）",
+  "alt_ids": [
+    "23838205"
+  ],
+  "specialty": "肾脏",
+  "species": "猫",
+  "title": "Mirtazapine as an appetite stimulant and anti-emetic in cats with chronic kidney disease: a masked placebo-controlled crossover clinical trial.",
+  "first_author": "Quimby JM",
+  "year": "2013",
+  "journal": "Veterinary journal (London, England : 1997)",
+  "doi": "10.1016/j.tvjl.2013.05.048",
+  "pmid": "23838205",
+  "oa": "否",
+  "doc_type": "RCT（交叉）",
+  "recommendation_basis": "不适用",
+  "sample_size_analysed": "11 只",
+  "multicenter": "未核",
+  "funding": "未核",
+  "one_line_conclusion_zh": "米氮平隔日 1.88 mg 改善 CKD 猫食欲、减少呕吐并增加体重",
+  "clinical_utility": "提示性",
+  "verified": "partial",
+  "japan_source": "否",
+  "cebm_question": "治疗获益",
+  "cebm_level": "2",
+  "cebm_basis": "随机交叉试验",
+  "rob_tool": "Cochrane RoB 2",
+  "rob_judgement": "未评（仅摘要）",
+  "guideline_recommendation": "不适用",
+  "reporting_checklist": "CONSORT 2010",
+  "grade_certainty_topic": "CKD 主题 GRADE 草稿（单人）：肾病处方粮→生存 低；ACEI/ARB→降蛋白尿 中、→生存 低；IRIS 分期/蛋白尿→预后 中；SDMA 诊断准确性 极低；辅助治疗 低–极低。详见 topics/ckd.md",
+  "species_zh": "猫",
+  "topics": [
+    "ckd",
+    "nephrology"
+  ],
+  "n_enrolled": "11 只",
+  "n_analysed": "11 只",
+  "license": "none（非 OA）",
+  "fulltext_translation_allowed": false,
+  "species_code": "cat",
+  "provenance": [
+    "vibe-feline-v4"
+  ]
+}

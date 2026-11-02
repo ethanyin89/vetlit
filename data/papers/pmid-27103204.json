@@ -1,0 +1,47 @@
+{
+  "id": "pmid-27103204",
+  "status": "待速读",
+  "source": "Europe PMC REST API（2026-11-02）",
+  "alt_ids": [
+    "27103204"
+  ],
+  "specialty": "肾脏",
+  "species": "犬",
+  "title": "Serum Concentrations of Symmetric Dimethylarginine and Creatinine in Dogs with Naturally Occurring Chronic Kidney Disease.",
+  "first_author": "Hall JA",
+  "year": "2016",
+  "journal": "Journal of veterinary internal medicine",
+  "doi": "10.1111/jvim.13942",
+  "pmid": "27103204",
+  "oa": "是",
+  "doc_type": "回顾性诊断研究",
+  "recommendation_basis": "不适用",
+  "sample_size_analysed": "CKD 19 + 健康 20",
+  "multicenter": "未核",
+  "funding": "未核",
+  "one_line_conclusion_zh": "19 只 CKD 犬中 17 只 SDMA 升高早于肌酐，平均提前 9.8 个月",
+  "clinical_utility": "提示性",
+  "verified": "partial",
+  "japan_source": "否",
+  "cebm_question": "诊断",
+  "cebm_level": "4",
+  "cebm_basis": "病例对照式回顾性诊断研究",
+  "rob_tool": "QUADAS-2",
+  "rob_judgement": "未评（仅摘要）",
+  "guideline_recommendation": "不适用",
+  "reporting_checklist": "STARD 2015",
+  "grade_certainty_topic": "CKD 主题 GRADE 草稿（单人）：肾病处方粮→生存 低；ACEI/ARB→降蛋白尿 中、→生存 低；IRIS 分期/蛋白尿→预后 中；SDMA 诊断准确性 极低；辅助治疗 低–极低。详见 topics/ckd.md",
+  "species_zh": "犬",
+  "topics": [
+    "ckd",
+    "nephrology"
+  ],
+  "n_enrolled": "CKD 19 + 健康 20",
+  "n_analysed": "CKD 19 + 健康 20",
+  "license": "cc by-nc",
+  "fulltext_translation_allowed": false,
+  "species_code": "dog",
+  "provenance": [
+    "vibe-feline-v4"
+  ]
+}

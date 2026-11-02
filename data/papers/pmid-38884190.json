@@ -33,7 +33,8 @@
   "status": "已收录",
   "provenance": [
     "vibe-feline-v3",
-    "deep-extract"
+    "deep-extract",
+    "vibe-feline-v4"
   ],
   "detail": "pmid-38884190.md",
   "authors": "Niessen SJM 等",
@@ -134,5 +135,18 @@
   "reading_source": "全文（Europe PMC/PMC）",
   "reporting_notes": "CONSORT 非劣效扩展：界值已报告；分析集（安全 127/疗效 116）已报告。注册号未检到。",
   "extract_id": "niessen_2024",
-  "design": "前瞻、随机、阳性对照（Caninsulin）、开放标签、非劣效现场试验，3 国（德、法、荷）；中心数原文未检到"
+  "design": "前瞻、随机、阳性对照（Caninsulin）、开放标签、非劣效现场试验，3 国（德、法、荷）；中心数原文未检到",
+  "alt_ids": [
+    "38884190"
+  ],
+  "species_zh": "猫",
+  "topics": [
+    "diabetes",
+    "endocrinology"
+  ],
+  "n_enrolled": "安全性分析 127",
+  "n_analysed": "疗效分析 116",
+  "license": "cc by-nc",
+  "fulltext_translation_allowed": false,
+  "species_code": "cat"
 }

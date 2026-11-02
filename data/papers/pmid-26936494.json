@@ -29,11 +29,12 @@
   "rob_rationale": "",
   "guideline_recommendation": "仅摘要：未读到逐条推荐强度/证据等级（信息不足）",
   "reporting_checklist": "RIGHT（指南报告）",
-  "grade_certainty_topic": "",
+  "grade_certainty_topic": "CKD 主题 GRADE 草稿（单人）：肾病处方粮→生存 低；ACEI/ARB→降蛋白尿 中、→生存 低；IRIS 分期/蛋白尿→预后 中；SDMA 诊断准确性 极低；辅助治疗 低–极低。详见 topics/ckd.md",
   "status": "已收录",
   "provenance": [
     "vibe-feline-v3",
-    "deep-extract"
+    "deep-extract",
+    "vibe-feline-v4"
   ],
   "detail": "pmid-26936494.md",
   "authors": "Sparkes AH 等",
@@ -104,5 +105,18 @@
   "reading_source": "仅摘要",
   "reporting_notes": "仅摘要，无法逐条核查（信息不足）",
   "extract_id": "sparkes_2016",
-  "design": "ISFM 共识指南（猫 CKD），独立专家组 10 人"
+  "design": "ISFM 共识指南（猫 CKD），独立专家组 10 人",
+  "alt_ids": [
+    "26936494"
+  ],
+  "species_zh": "猫",
+  "topics": [
+    "ckd",
+    "nephrology"
+  ],
+  "n_enrolled": "未核",
+  "n_analysed": "未核",
+  "license": "none（非 OA）",
+  "fulltext_translation_allowed": false,
+  "species_code": "cat"
 }

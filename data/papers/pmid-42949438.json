@@ -1,0 +1,47 @@
+{
+  "id": "pmid-42949438",
+  "status": "待速读",
+  "source": "Europe PMC REST API（2026-11-02）",
+  "alt_ids": [
+    "42949438"
+  ],
+  "specialty": "感染",
+  "species": "猫",
+  "title": "Outcomes of a 42-day course of molnupiravir in cats with feline infectious peritonitis: a prospective descriptive study.",
+  "first_author": "Hishinuma K",
+  "year": "2026",
+  "journal": "Journal of veterinary internal medicine",
+  "doi": "10.1093/jvimsj/aalag268",
+  "pmid": "42949438",
+  "oa": "是",
+  "doc_type": "前瞻性单臂试点",
+  "recommendation_basis": "不适用",
+  "sample_size_analysed": "ITT 19 只",
+  "multicenter": "未核",
+  "funding": "未核",
+  "one_line_conclusion_zh": "莫努匹韦 42 天：ITT 19 只中 14 只（74%）持续缓解，达到第 42 天的 17 只中 14 只（82%）",
+  "clinical_utility": "提示性",
+  "verified": "partial",
+  "japan_source": "是",
+  "cebm_question": "治疗获益",
+  "cebm_level": "4",
+  "cebm_basis": "无对照病例系列",
+  "rob_tool": "未评（无对照病例系列，无对应通用 RoB 工具）",
+  "rob_judgement": "不适用",
+  "guideline_recommendation": "不适用",
+  "reporting_checklist": "STROBE-Vet",
+  "grade_certainty_topic": "FIP 主题 GRADE 草稿（单人）：核苷类似物→生存 中（因效应极大从观察性证据升级）；口服瑞德西韦 vs GS-441524 低；42 vs 84 天 低；莫努匹韦 极低；神经/眼型剂量 极低。详见 topics/fip.md",
+  "species_zh": "猫",
+  "topics": [
+    "fip",
+    "infectious"
+  ],
+  "n_enrolled": "19 只",
+  "n_analysed": "ITT 19 只",
+  "license": "cc by",
+  "fulltext_translation_allowed": true,
+  "species_code": "cat",
+  "provenance": [
+    "vibe-feline-v4"
+  ]
+}

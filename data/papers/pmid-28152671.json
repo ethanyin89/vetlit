@@ -33,7 +33,8 @@
   "status": "已收录",
   "provenance": [
     "vibe-feline-v3",
-    "deep-extract"
+    "deep-extract",
+    "vibe-feline-v4"
   ],
   "detail": "pmid-28152671.md",
   "authors": "Suzuki R 等",
@@ -116,5 +117,18 @@
   "reading_source": "仅摘要",
   "reporting_notes": "仅摘要，无法逐条核查（信息不足）",
   "extract_id": "suzuki_2017",
-  "design": "病例—对照横断面（HCM vs 健康），日本"
+  "design": "病例—对照横断面（HCM vs 健康），日本",
+  "alt_ids": [
+    "28152671"
+  ],
+  "species_zh": "猫",
+  "topics": [
+    "cardiology",
+    "cardiomyopathy"
+  ],
+  "n_enrolled": "HCM 32 + 健康对照 14",
+  "n_analysed": "HCM 32 + 健康对照 14",
+  "license": "none（非 OA）",
+  "fulltext_translation_allowed": false,
+  "species_code": "cat"
 }

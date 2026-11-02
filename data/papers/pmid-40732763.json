@@ -1,0 +1,47 @@
+{
+  "id": "pmid-40732763",
+  "status": "待速读",
+  "source": "Europe PMC REST API（2026-11-02）",
+  "alt_ids": [
+    "40732763"
+  ],
+  "specialty": "感染",
+  "species": "猫",
+  "title": "Efficacy of GS-441524 for Feline Infectious Peritonitis: A Systematic Review (2018-2024).",
+  "first_author": "Gokalsing E",
+  "year": "2025",
+  "journal": "Pathogens (Basel, Switzerland)",
+  "doi": "10.3390/pathogens14070717",
+  "pmid": "40732763",
+  "oa": "是",
+  "doc_type": "系统综述",
+  "recommendation_basis": "不适用",
+  "sample_size_analysed": "不适用",
+  "multicenter": "未核",
+  "funding": "未核",
+  "one_line_conclusion_zh": "GS-441524 治疗 FIP 成功率高，但缺乏 RCT 支撑的标准方案",
+  "clinical_utility": "提示性",
+  "verified": "partial",
+  "japan_source": "否",
+  "cebm_question": "治疗获益",
+  "cebm_level": "未核（系统综述；纳入研究以非对照研究为主，Level 取决于纳入设计）",
+  "cebm_basis": "系统综述（PRISMA，11 项研究，650 例）",
+  "rob_tool": "AMSTAR 2",
+  "rob_judgement": "未评（仅摘要）",
+  "guideline_recommendation": "不适用",
+  "reporting_checklist": "PRISMA 2020",
+  "grade_certainty_topic": "FIP 主题 GRADE 草稿（单人）：核苷类似物→生存 中（因效应极大从观察性证据升级）；口服瑞德西韦 vs GS-441524 低；42 vs 84 天 低；莫努匹韦 极低；神经/眼型剂量 极低。详见 topics/fip.md",
+  "species_zh": "猫",
+  "topics": [
+    "fip",
+    "infectious"
+  ],
+  "n_enrolled": "11 项研究（650 例）",
+  "n_analysed": "不适用",
+  "license": "cc by",
+  "fulltext_translation_allowed": true,
+  "species_code": "cat",
+  "provenance": [
+    "vibe-feline-v4"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "pmid-37732386",
+  "status": "待速读",
+  "source": "Europe PMC REST API（2026-11-02）",
+  "alt_ids": [
+    "37732386"
+  ],
+  "specialty": "感染",
+  "species": "猫",
+  "title": "Retrospective study and outcome of 307 cats with feline infectious peritonitis treated with legally sourced veterinary compounded preparations of remdesivir and GS-441524 (2020-2022).",
+  "first_author": "Taylor SS",
+  "year": "2023",
+  "journal": "Journal of feline medicine and surgery",
+  "doi": "10.1177/1098612x231194460",
+  "pmid": "37732386",
+  "oa": "是",
+  "doc_type": "回顾性病例系列",
+  "recommendation_basis": "不适用",
+  "sample_size_analysed": "307 只",
+  "multicenter": "未核",
+  "funding": "未核",
+  "one_line_conclusion_zh": "合法来源瑞德西韦/GS-441524 治疗 307 只英国 FIP 猫，末次随访 84.4% 存活",
+  "clinical_utility": "改变诊疗",
+  "verified": "partial",
+  "japan_source": "否",
+  "cebm_question": "治疗获益",
+  "cebm_level": "4",
+  "cebm_basis": "回顾性病例系列，方案不一",
+  "rob_tool": "未评（无对照病例系列，无对应通用 RoB 工具）",
+  "rob_judgement": "不适用",
+  "guideline_recommendation": "不适用",
+  "reporting_checklist": "STROBE-Vet",
+  "grade_certainty_topic": "FIP 主题 GRADE 草稿（单人）：核苷类似物→生存 中（因效应极大从观察性证据升级）；口服瑞德西韦 vs GS-441524 低；42 vs 84 天 低；莫努匹韦 极低；神经/眼型剂量 极低。详见 topics/fip.md",
+  "species_zh": "猫",
+  "topics": [
+    "fip",
+    "infectious"
+  ],
+  "n_enrolled": "307 只",
+  "n_analysed": "307 只",
+  "license": "cc by-nc",
+  "fulltext_translation_allowed": false,
+  "species_code": "cat",
+  "provenance": [
+    "vibe-feline-v4"
+  ]
+}

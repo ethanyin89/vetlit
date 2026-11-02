@@ -33,7 +33,8 @@
   "status": "已收录",
   "provenance": [
     "vibe-feline-v3",
-    "deep-extract"
+    "deep-extract",
+    "vibe-feline-v4"
   ],
   "detail": "pmid-26581469.md",
   "authors": "Inoue M 等",
@@ -123,5 +124,17 @@
   "reading_source": "仅摘要",
   "reporting_notes": "仅摘要，无法逐条核查（信息不足）",
   "extract_id": "inoue_2016",
-  "design": "日本参保猫理赔数据 2008.4–2013.3"
+  "design": "日本参保猫理赔数据 2008.4–2013.3",
+  "alt_ids": [
+    "26581469"
+  ],
+  "species_zh": "猫",
+  "topics": [
+    "epidemiology"
+  ],
+  "n_enrolled": "未核",
+  "n_analysed": "未核",
+  "license": "none（非 OA）",
+  "fulltext_translation_allowed": false,
+  "species_code": "cat"
 }

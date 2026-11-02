@@ -1,0 +1,47 @@
+{
+  "id": "pmid-41701235",
+  "status": "待速读",
+  "source": "Europe PMC REST API（2026-11-02）",
+  "alt_ids": [
+    "41701235"
+  ],
+  "specialty": "肾脏",
+  "species": "犬",
+  "title": "Diagnostic value of urinary protein to creatinine (UPC) ratio in dogs with chronic kidney disease (CKD): a systematic meta-analysis.",
+  "first_author": "Marzok M",
+  "year": "2026",
+  "journal": "Veterinary research communications",
+  "doi": "10.1007/s11259-026-11088-5",
+  "pmid": "41701235",
+  "oa": "否",
+  "doc_type": "系统综述/Meta分析",
+  "recommendation_basis": "不适用",
+  "sample_size_analysed": "不适用",
+  "multicenter": "未核",
+  "funding": "未核",
+  "one_line_conclusion_zh": "UPC 在 CKD 犬中显著高于健康犬，但存在明显发表偏倚",
+  "clinical_utility": "背景",
+  "verified": "partial",
+  "japan_source": "否",
+  "cebm_question": "诊断",
+  "cebm_level": "未核（Meta 分析；Level 取决于纳入研究设计）",
+  "cebm_basis": "Meta 分析（SMD），提示发表偏倚",
+  "rob_tool": "AMSTAR 2",
+  "rob_judgement": "未评（仅摘要）",
+  "guideline_recommendation": "不适用",
+  "reporting_checklist": "PRISMA 2020",
+  "grade_certainty_topic": "CKD 主题 GRADE 草稿（单人）：肾病处方粮→生存 低；ACEI/ARB→降蛋白尿 中、→生存 低；IRIS 分期/蛋白尿→预后 中；SDMA 诊断准确性 极低；辅助治疗 低–极低。详见 topics/ckd.md",
+  "species_zh": "犬",
+  "topics": [
+    "ckd",
+    "nephrology"
+  ],
+  "n_enrolled": "9 项研究（891 只犬）",
+  "n_analysed": "不适用",
+  "license": "none（非 OA）",
+  "fulltext_translation_allowed": false,
+  "species_code": "dog",
+  "provenance": [
+    "vibe-feline-v4"
+  ]
+}

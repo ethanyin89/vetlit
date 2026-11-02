@@ -1,0 +1,47 @@
+{
+  "id": "pmid-36297266",
+  "status": "待速读",
+  "source": "Europe PMC REST API（2026-11-02）",
+  "alt_ids": [
+    "36297266"
+  ],
+  "specialty": "感染",
+  "species": "猫",
+  "title": "Unlicensed Molnupiravir is an Effective Rescue Treatment Following Failure of Unlicensed GS-441524-like Therapy for Cats with Suspected Feline Infectious Peritonitis.",
+  "first_author": "Roy M",
+  "year": "2022",
+  "journal": "Pathogens (Basel, Switzerland)",
+  "doi": "10.3390/pathogens11101209",
+  "pmid": "36297266",
+  "oa": "是",
+  "doc_type": "回顾性病例系列（主人报告）",
+  "recommendation_basis": "不适用",
+  "sample_size_analysed": "26 只（挽救治疗）",
+  "multicenter": "未核",
+  "funding": "NIH HHS（MEDLINE grantsList）",
+  "one_line_conclusion_zh": "非正规莫努匹韦作为 GS-441524 失败后的挽救治疗，26 只中 24 只无病存活",
+  "clinical_utility": "提示性",
+  "verified": "partial",
+  "japan_source": "否",
+  "cebm_question": "治疗获益",
+  "cebm_level": "4",
+  "cebm_basis": "主人报告的病例系列",
+  "rob_tool": "未评（无对照病例系列，无对应通用 RoB 工具）",
+  "rob_judgement": "不适用",
+  "guideline_recommendation": "不适用",
+  "reporting_checklist": "STROBE-Vet",
+  "grade_certainty_topic": "FIP 主题 GRADE 草稿（单人）：核苷类似物→生存 中（因效应极大从观察性证据升级）；口服瑞德西韦 vs GS-441524 低；42 vs 84 天 低；莫努匹韦 极低；神经/眼型剂量 极低。详见 topics/fip.md",
+  "species_zh": "猫",
+  "topics": [
+    "fip",
+    "infectious"
+  ],
+  "n_enrolled": "30 只",
+  "n_analysed": "26 只（挽救治疗）",
+  "license": "cc by",
+  "fulltext_translation_allowed": true,
+  "species_code": "cat",
+  "provenance": [
+    "vibe-feline-v4"
+  ]
+}

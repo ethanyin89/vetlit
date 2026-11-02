@@ -1,0 +1,47 @@
+{
+  "id": "pmid-15702689",
+  "status": "待速读",
+  "source": "Europe PMC REST API（2026-11-02）",
+  "alt_ids": [
+    "15702689"
+  ],
+  "specialty": "肾脏",
+  "species": "犬",
+  "title": "Evaluation of the association between initial proteinuria and morbidity rate or death in dogs with naturally occurring chronic renal failure.",
+  "first_author": "Jacob F",
+  "year": "2005",
+  "journal": "Journal of the American Veterinary Medical Association",
+  "doi": "10.2460/javma.2005.226.393",
+  "pmid": "15702689",
+  "oa": "否",
+  "doc_type": "前瞻性队列",
+  "recommendation_basis": "不适用",
+  "sample_size_analysed": "45 只",
+  "multicenter": "未核",
+  "funding": "未核",
+  "one_line_conclusion_zh": "初诊 UP:C≥1.0 的 CKD 犬尿毒症危象和死亡风险约高 3 倍",
+  "clinical_utility": "改变诊疗",
+  "verified": "partial",
+  "japan_source": "否",
+  "cebm_question": "预后",
+  "cebm_level": "2",
+  "cebm_basis": "起始队列（初诊 CRF 犬，前瞻性按 UP:C 分组）",
+  "rob_tool": "QUIPS",
+  "rob_judgement": "未评（仅摘要）",
+  "guideline_recommendation": "不适用",
+  "reporting_checklist": "STROBE-Vet",
+  "grade_certainty_topic": "CKD 主题 GRADE 草稿（单人）：肾病处方粮→生存 低；ACEI/ARB→降蛋白尿 中、→生存 低；IRIS 分期/蛋白尿→预后 中；SDMA 诊断准确性 极低；辅助治疗 低–极低。详见 topics/ckd.md",
+  "species_zh": "犬",
+  "topics": [
+    "ckd",
+    "nephrology"
+  ],
+  "n_enrolled": "45 只",
+  "n_analysed": "45 只",
+  "license": "none（非 OA）",
+  "fulltext_translation_allowed": false,
+  "species_code": "dog",
+  "provenance": [
+    "vibe-feline-v4"
+  ]
+}

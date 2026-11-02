@@ -36,7 +36,8 @@
   "provenance": [
     "vibe-feline-v3",
     "site-curated",
-    "deep-extract"
+    "deep-extract",
+    "vibe-feline-v4"
   ],
   "detail": "pmid-29660848.md",
   "errata_detail": [
@@ -120,5 +121,18 @@
   "reading_source": "全文（Europe PMC/PMC）",
   "reporting_notes": "STROBE-Vet：设计、场所、样本量论证已报告；勘误 PMID 30417429。",
   "extract_id": "fox_2018",
-  "design": "回顾性、多中心纵向队列（50 中心/21 国）"
+  "design": "回顾性、多中心纵向队列（50 中心/21 国）",
+  "alt_ids": [
+    "29660848"
+  ],
+  "species_zh": "猫",
+  "topics": [
+    "cardiology",
+    "cardiomyopathy"
+  ],
+  "n_enrolled": "未核",
+  "n_analysed": "1730（猫）",
+  "license": "cc by-nc",
+  "fulltext_translation_allowed": false,
+  "species_code": "cat"
 }

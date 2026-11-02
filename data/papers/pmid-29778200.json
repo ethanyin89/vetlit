@@ -1,0 +1,46 @@
+{
+  "id": "pmid-29778200",
+  "status": "待速读",
+  "source": "Europe PMC REST API（2026-11-02）",
+  "alt_ids": [
+    "29778200"
+  ],
+  "specialty": "感染",
+  "species": "猫",
+  "title": "The nucleoside analog GS-441524 strongly inhibits feline infectious peritonitis (FIP) virus in tissue culture and experimental cat infection studies.",
+  "first_author": "Murphy BG",
+  "year": "2018",
+  "journal": "Veterinary microbiology",
+  "doi": "10.1016/j.vetmic.2018.04.026",
+  "pmid": "29778200",
+  "oa": "是",
+  "doc_type": "体外与实验感染研究",
+  "recommendation_basis": "不适用",
+  "sample_size_analysed": "实验感染 10 只",
+  "multicenter": "未核",
+  "funding": "Center for Companion Animal Health; Winn Feline Foundation（MEDLINE grantsList）",
+  "one_line_conclusion_zh": "GS-441524 在细胞和实验感染猫中强效抑制 FIPV，10/10 只逆转",
+  "clinical_utility": "背景",
+  "verified": "partial",
+  "japan_source": "否",
+  "cebm_question": "—",
+  "cebm_level": "不适用（基础/实验研究，无临床问题）",
+  "rob_tool": "SYRCLE",
+  "rob_judgement": "未评（仅摘要）",
+  "guideline_recommendation": "不适用",
+  "reporting_checklist": "ARRIVE 2.0",
+  "grade_certainty_topic": "FIP 主题 GRADE 草稿（单人）：核苷类似物→生存 中（因效应极大从观察性证据升级）；口服瑞德西韦 vs GS-441524 低；42 vs 84 天 低；莫努匹韦 极低；神经/眼型剂量 极低。详见 topics/fip.md",
+  "species_zh": "猫",
+  "topics": [
+    "fip",
+    "infectious"
+  ],
+  "n_enrolled": "未核",
+  "n_analysed": "实验感染 10 只",
+  "license": "cc by-nc-nd",
+  "fulltext_translation_allowed": false,
+  "species_code": "cat",
+  "provenance": [
+    "vibe-feline-v4"
+  ]
+}

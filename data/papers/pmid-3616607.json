@@ -33,7 +33,8 @@
   "status": "已收录",
   "provenance": [
     "vibe-feline-v3",
-    "deep-extract"
+    "deep-extract",
+    "vibe-feline-v4"
   ],
   "detail": "pmid-3616607.md",
   "authors": "Pion PD 等",
@@ -134,5 +135,20 @@
   "reading_source": "仅摘要",
   "reporting_notes": "仅摘要，无法逐条核查（信息不足）",
   "extract_id": "pion_1987",
-  "design": "病例观察 + 饲喂实验"
+  "design": "病例观察 + 饲喂实验",
+  "alt_ids": [
+    "3616607"
+  ],
+  "species_zh": "猫",
+  "topics": [
+    "cardiology",
+    "cardiomyopathy",
+    "diet_dcm",
+    "nutrition"
+  ],
+  "n_enrolled": "未核",
+  "n_analysed": "21（猫）",
+  "license": "none（非 OA）",
+  "fulltext_translation_allowed": false,
+  "species_code": "cat"
 }

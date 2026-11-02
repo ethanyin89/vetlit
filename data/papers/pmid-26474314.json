@@ -31,12 +31,13 @@
   "rob_rationale": "开放剂型 + 替代终点（UP/C）+ 厂商资助",
   "guideline_recommendation": "不适用",
   "reporting_checklist": "CONSORT 2010（犬猫临床试验）",
-  "grade_certainty_topic": "",
+  "grade_certainty_topic": "CKD 主题 GRADE 草稿（单人）：肾病处方粮→生存 低；ACEI/ARB→降蛋白尿 中、→生存 低；IRIS 分期/蛋白尿→预后 中；SDMA 诊断准确性 极低；辅助治疗 低–极低。详见 topics/ckd.md",
   "status": "已处理",
   "provenance": [
     "vibe-feline-v3",
     "site-curated",
-    "deep-extract"
+    "deep-extract",
+    "vibe-feline-v4"
   ],
   "detail": "pmid-26474314.md",
   "errata_detail": [
@@ -112,5 +113,18 @@
   "reading_source": "全文（Europe PMC/PMC）",
   "reporting_notes": "CONSORT 非劣效扩展：界值（Δ=0.108）、ITT/PPS、随访已报告；Table 3 P 值与正文表述不一致；勘误 PMID 27003463。",
   "extract_id": "sent_2015",
-  "design": "前瞻性、多中心（48 中心、6 个欧洲国家）、随机、研究者设盲、阳性对照、非劣效"
+  "design": "前瞻性、多中心（48 中心、6 个欧洲国家）、随机、研究者设盲、阳性对照、非劣效",
+  "alt_ids": [
+    "26474314"
+  ],
+  "species_zh": "猫",
+  "topics": [
+    "ckd",
+    "nephrology"
+  ],
+  "n_enrolled": "未核",
+  "n_analysed": "随机224，疗效分析176（猫）",
+  "license": "cc by-nc",
+  "fulltext_translation_allowed": false,
+  "species_code": "cat"
 }

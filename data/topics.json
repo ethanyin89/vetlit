@@ -1,0 +1,506 @@
+{
+ "version": "v4",
+ "note": "顶层按 AVMA ABVS/ACVIM 专科划分，下级主题用 MeSH 主题词；每个 pubmed_query 都 AND 犬猫过滤（Cats[MeSH] OR Dogs[MeSH]）",
+ "topics": [
+  {
+   "id": "saim",
+   "name_zh": "小动物内科",
+   "name_en": "Small Animal Internal Medicine",
+   "parent": null,
+   "keywords": [],
+   "mesh": [],
+   "pubmed_query": null,
+   "source": "AVMA ABVS 认可专科组织/ACVIM 专科（https://www.avma.org/education/veterinary-specialties ；https://www.acvim.org/）",
+   "status": "taxonomy_only",
+   "n_rows": 0
+  },
+  {
+   "id": "cardiology",
+   "name_zh": "心脏病学",
+   "name_en": "Cardiology",
+   "parent": null,
+   "keywords": [
+    "cardiomyopathy",
+    "mitral valve"
+   ],
+   "mesh": [
+    "Heart Diseases"
+   ],
+   "pubmed_query": "(\"Heart Diseases\"[MeSH] OR \"cardiomyopathy\"[tiab] OR \"mitral valve\"[tiab]) AND (\"Cats\"[MeSH] OR \"Dogs\"[MeSH] OR feline[tiab] OR canine[tiab] OR cat[tiab] OR cats[tiab] OR dog[tiab] OR dogs[tiab])",
+   "source": "AVMA ABVS 认可专科组织/ACVIM 专科（https://www.avma.org/education/veterinary-specialties ；https://www.acvim.org/）",
+   "status": "taxonomy_only",
+   "n_rows": 18
+  },
+  {
+   "id": "neurology",
+   "name_zh": "神经病学",
+   "name_en": "Neurology",
+   "parent": null,
+   "keywords": [
+    "seizure",
+    "epilepsy"
+   ],
+   "mesh": [
+    "Nervous System Diseases"
+   ],
+   "pubmed_query": "(\"Nervous System Diseases\"[MeSH] OR \"seizure\"[tiab] OR \"epilepsy\"[tiab]) AND (\"Cats\"[MeSH] OR \"Dogs\"[MeSH] OR feline[tiab] OR canine[tiab] OR cat[tiab] OR cats[tiab] OR dog[tiab] OR dogs[tiab])",
+   "source": "AVMA ABVS 认可专科组织/ACVIM 专科（https://www.avma.org/education/veterinary-specialties ；https://www.acvim.org/）",
+   "status": "taxonomy_only",
+   "n_rows": 1
+  },
+  {
+   "id": "oncology",
+   "name_zh": "肿瘤学",
+   "name_en": "Oncology",
+   "parent": null,
+   "keywords": [
+    "lymphoma",
+    "neoplasia"
+   ],
+   "mesh": [
+    "Neoplasms"
+   ],
+   "pubmed_query": "(\"Neoplasms\"[MeSH] OR \"lymphoma\"[tiab] OR \"neoplasia\"[tiab]) AND (\"Cats\"[MeSH] OR \"Dogs\"[MeSH] OR feline[tiab] OR canine[tiab] OR cat[tiab] OR cats[tiab] OR dog[tiab] OR dogs[tiab])",
+   "source": "AVMA ABVS 认可专科组织/ACVIM 专科（https://www.avma.org/education/veterinary-specialties ；https://www.acvim.org/）",
+   "status": "taxonomy_only",
+   "n_rows": 0
+  },
+  {
+   "id": "nutrition",
+   "name_zh": "营养学",
+   "name_en": "Nutrition",
+   "parent": null,
+   "keywords": [
+    "diet",
+    "obesity"
+   ],
+   "mesh": [
+    "Animal Nutritional Physiological Phenomena",
+    "Obesity"
+   ],
+   "pubmed_query": "(\"Animal Nutritional Physiological Phenomena\"[MeSH] OR \"Obesity\"[MeSH] OR \"diet\"[tiab] OR \"obesity\"[tiab]) AND (\"Cats\"[MeSH] OR \"Dogs\"[MeSH] OR feline[tiab] OR canine[tiab] OR cat[tiab] OR cats[tiab] OR dog[tiab] OR dogs[tiab])",
+   "source": "AVMA ABVS 认可专科组织/ACVIM 专科（https://www.avma.org/education/veterinary-specialties ；https://www.acvim.org/）",
+   "status": "taxonomy_only",
+   "n_rows": 11
+  },
+  {
+   "id": "behavior",
+   "name_zh": "行为医学",
+   "name_en": "Behavioral Medicine",
+   "parent": null,
+   "keywords": [
+    "behavior",
+    "cognition",
+    "anxiety"
+   ],
+   "mesh": [
+    "Behavior, Animal",
+    "Cognition"
+   ],
+   "pubmed_query": "(\"Behavior, Animal\"[MeSH] OR \"Cognition\"[MeSH] OR \"behavior\"[tiab] OR \"cognition\"[tiab] OR \"anxiety\"[tiab]) AND (\"Cats\"[MeSH] OR \"Dogs\"[MeSH] OR feline[tiab] OR canine[tiab] OR cat[tiab] OR cats[tiab] OR dog[tiab] OR dogs[tiab])",
+   "source": "AVMA ABVS：American College of Veterinary Behaviorists（https://www.dacvb.org/）",
+   "status": "taxonomy_only",
+   "n_rows": 11
+  },
+  {
+   "id": "epidemiology",
+   "name_zh": "流行病学与预防医学",
+   "name_en": "Epidemiology & Preventive Medicine",
+   "parent": null,
+   "keywords": [
+    "prevalence",
+    "life expectancy"
+   ],
+   "mesh": [
+    "Epidemiology",
+    "Prevalence"
+   ],
+   "pubmed_query": "(\"Epidemiology\"[MeSH] OR \"Prevalence\"[MeSH] OR \"prevalence\"[tiab] OR \"life expectancy\"[tiab]) AND (\"Cats\"[MeSH] OR \"Dogs\"[MeSH] OR feline[tiab] OR canine[tiab] OR cat[tiab] OR cats[tiab] OR dog[tiab] OR dogs[tiab])",
+   "source": "AVMA ABVS：American College of Veterinary Preventive Medicine（https://acvpm.org/）",
+   "status": "taxonomy_only",
+   "n_rows": 4
+  },
+  {
+   "id": "nephrology",
+   "name_zh": "肾脏病学/泌尿学",
+   "name_en": "Nephrology & Urology",
+   "parent": "saim",
+   "keywords": [
+    "kidney",
+    "renal",
+    "proteinuria"
+   ],
+   "mesh": [
+    "Kidney Diseases"
+   ],
+   "pubmed_query": "(\"Kidney Diseases\"[MeSH] OR \"kidney\"[tiab] OR \"renal\"[tiab] OR \"proteinuria\"[tiab]) AND (\"Cats\"[MeSH] OR \"Dogs\"[MeSH] OR feline[tiab] OR canine[tiab] OR cat[tiab] OR cats[tiab] OR dog[tiab] OR dogs[tiab])",
+   "source": "MeSH 2026 主题词（https://meshb.nlm.nih.gov/）",
+   "status": "taxonomy_only",
+   "n_rows": 28
+  },
+  {
+   "id": "ckd",
+   "name_zh": "慢性肾病",
+   "name_en": "Chronic kidney disease",
+   "parent": "nephrology",
+   "keywords": [
+    "chronic kidney disease",
+    "chronic renal failure",
+    "renal insufficiency",
+    "CKD"
+   ],
+   "mesh": [
+    "Renal Insufficiency, Chronic"
+   ],
+   "pubmed_query": "(\"Renal Insufficiency, Chronic\"[MeSH] OR \"chronic kidney disease\"[tiab] OR \"chronic renal failure\"[tiab] OR \"renal insufficiency\"[tiab] OR \"CKD\"[tiab]) AND (\"Cats\"[MeSH] OR \"Dogs\"[MeSH] OR feline[tiab] OR canine[tiab] OR cat[tiab] OR cats[tiab] OR dog[tiab] OR dogs[tiab])",
+   "source": "MeSH 2026 主题词（https://meshb.nlm.nih.gov/）",
+   "status": "pilot",
+   "n_rows": 27,
+   "grade": {
+    "status": "pilot",
+    "draft": "单人草稿（single-reviewer draft），未经第二评审",
+    "doc": "topics/ckd.md",
+    "questions": [
+     {
+      "q": "肾病处方粮 vs 维持粮：CKD 犬猫生存/尿毒症危象",
+      "certainty": "低",
+      "pmids": [
+       "11990962",
+       "16978113",
+       "10879400"
+      ]
+     },
+     {
+      "q": "ACEI/ARB：降低蛋白尿",
+      "certainty": "中",
+      "pmids": [
+       "17063696",
+       "26474314"
+      ]
+     },
+     {
+      "q": "ACEI/ARB：延长生存",
+      "certainty": "低",
+      "pmids": [
+       "17063696",
+       "26474314"
+      ]
+     },
+     {
+      "q": "IRIS 分期与蛋白尿的预后价值",
+      "certainty": "中",
+      "pmids": [
+       "18691369",
+       "16734085",
+       "22269057",
+       "17939542",
+       "15702689",
+       "23647231"
+      ]
+     },
+     {
+      "q": "SDMA 早期诊断准确性",
+      "certainty": "极低",
+      "pmids": [
+       "41527203",
+       "26079532",
+       "27103204",
+       "25231385"
+      ]
+     },
+     {
+      "q": "辅助治疗：米氮平、加镁粮",
+      "certainty": "低",
+      "pmids": [
+       "23838205",
+       "38952053"
+      ]
+     },
+     {
+      "q": "辅助治疗：AB070597、帕立骨化醇",
+      "certainty": "极低",
+      "pmids": [
+       "39417648",
+       "40110605"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "hypertension",
+   "name_zh": "系统性高血压",
+   "name_en": "Systemic hypertension",
+   "parent": "nephrology",
+   "keywords": [
+    "hypertension",
+    "blood pressure"
+   ],
+   "mesh": [
+    "Hypertension"
+   ],
+   "pubmed_query": "(\"Hypertension\"[MeSH] OR \"hypertension\"[tiab] OR \"blood pressure\"[tiab]) AND (\"Cats\"[MeSH] OR \"Dogs\"[MeSH] OR feline[tiab] OR canine[tiab] OR cat[tiab] OR cats[tiab] OR dog[tiab] OR dogs[tiab])",
+   "source": "MeSH 2026 主题词（https://meshb.nlm.nih.gov/）",
+   "status": "taxonomy_only",
+   "n_rows": 1
+  },
+  {
+   "id": "endocrinology",
+   "name_zh": "内分泌学",
+   "name_en": "Endocrinology",
+   "parent": "saim",
+   "keywords": [
+    "endocrine"
+   ],
+   "mesh": [
+    "Endocrine System Diseases"
+   ],
+   "pubmed_query": "(\"Endocrine System Diseases\"[MeSH] OR \"endocrine\"[tiab]) AND (\"Cats\"[MeSH] OR \"Dogs\"[MeSH] OR feline[tiab] OR canine[tiab] OR cat[tiab] OR cats[tiab] OR dog[tiab] OR dogs[tiab])",
+   "source": "MeSH 2026 主题词（https://meshb.nlm.nih.gov/）",
+   "status": "taxonomy_only",
+   "n_rows": 9
+  },
+  {
+   "id": "diabetes",
+   "name_zh": "糖尿病",
+   "name_en": "Diabetes mellitus",
+   "parent": "endocrinology",
+   "keywords": [
+    "diabetes mellitus",
+    "SGLT2"
+   ],
+   "mesh": [
+    "Diabetes Mellitus"
+   ],
+   "pubmed_query": "(\"Diabetes Mellitus\"[MeSH] OR \"diabetes mellitus\"[tiab] OR \"SGLT2\"[tiab]) AND (\"Cats\"[MeSH] OR \"Dogs\"[MeSH] OR feline[tiab] OR canine[tiab] OR cat[tiab] OR cats[tiab] OR dog[tiab] OR dogs[tiab])",
+   "source": "MeSH 2026 主题词（https://meshb.nlm.nih.gov/）",
+   "status": "taxonomy_only",
+   "n_rows": 5
+  },
+  {
+   "id": "hyperthyroidism",
+   "name_zh": "甲状腺功能亢进",
+   "name_en": "Hyperthyroidism",
+   "parent": "endocrinology",
+   "keywords": [
+    "hyperthyroidism"
+   ],
+   "mesh": [
+    "Hyperthyroidism"
+   ],
+   "pubmed_query": "(\"Hyperthyroidism\"[MeSH] OR \"hyperthyroidism\"[tiab]) AND (\"Cats\"[MeSH] OR \"Dogs\"[MeSH] OR feline[tiab] OR canine[tiab] OR cat[tiab] OR cats[tiab] OR dog[tiab] OR dogs[tiab])",
+   "source": "MeSH 2026 主题词（https://meshb.nlm.nih.gov/）",
+   "status": "taxonomy_only",
+   "n_rows": 2
+  },
+  {
+   "id": "hyperadrenocorticism",
+   "name_zh": "肾上腺皮质功能亢进",
+   "name_en": "Hyperadrenocorticism",
+   "parent": "endocrinology",
+   "keywords": [
+    "hyperadrenocorticism",
+    "Cushing"
+   ],
+   "mesh": [
+    "Cushing Syndrome"
+   ],
+   "pubmed_query": "(\"Cushing Syndrome\"[MeSH] OR \"hyperadrenocorticism\"[tiab] OR \"Cushing\"[tiab]) AND (\"Cats\"[MeSH] OR \"Dogs\"[MeSH] OR feline[tiab] OR canine[tiab] OR cat[tiab] OR cats[tiab] OR dog[tiab] OR dogs[tiab])",
+   "source": "MeSH 2026 主题词（https://meshb.nlm.nih.gov/）",
+   "status": "taxonomy_only",
+   "n_rows": 3
+  },
+  {
+   "id": "infectious",
+   "name_zh": "感染性疾病",
+   "name_en": "Infectious diseases",
+   "parent": "saim",
+   "keywords": [
+    "infection"
+   ],
+   "mesh": [
+    "Communicable Diseases"
+   ],
+   "pubmed_query": "(\"Communicable Diseases\"[MeSH] OR \"infection\"[tiab]) AND (\"Cats\"[MeSH] OR \"Dogs\"[MeSH] OR feline[tiab] OR canine[tiab] OR cat[tiab] OR cats[tiab] OR dog[tiab] OR dogs[tiab])",
+   "source": "MeSH 2026 主题词（https://meshb.nlm.nih.gov/）",
+   "status": "taxonomy_only",
+   "n_rows": 22
+  },
+  {
+   "id": "fip",
+   "name_zh": "猫传染性腹膜炎",
+   "name_en": "Feline infectious peritonitis",
+   "parent": "infectious",
+   "keywords": [
+    "feline infectious peritonitis",
+    "FIP",
+    "feline coronavirus",
+    "GS-441524"
+   ],
+   "mesh": [
+    "Feline Infectious Peritonitis",
+    "Coronavirus, Feline"
+   ],
+   "pubmed_query": "(\"Feline Infectious Peritonitis\"[MeSH] OR \"Coronavirus, Feline\"[MeSH] OR \"feline infectious peritonitis\"[tiab] OR \"FIP\"[tiab] OR \"feline coronavirus\"[tiab] OR \"GS-441524\"[tiab]) AND (\"Cats\"[MeSH] OR \"Dogs\"[MeSH] OR feline[tiab] OR canine[tiab] OR cat[tiab] OR cats[tiab] OR dog[tiab] OR dogs[tiab])",
+   "source": "MeSH 2026 主题词（https://meshb.nlm.nih.gov/）",
+   "status": "pilot",
+   "n_rows": 22,
+   "grade": {
+    "status": "pilot",
+    "draft": "单人草稿（single-reviewer draft），未经第二评审",
+    "doc": "topics/fip.md",
+    "questions": [
+     {
+      "q": "核苷类似物（GS-441524/瑞德西韦）vs 不用抗病毒药：生存",
+      "certainty": "中",
+      "pmids": [
+       "30755068",
+       "37732386",
+       "37439383",
+       "37403259",
+       "34835034",
+       "40732763",
+       "37548535"
+      ]
+     },
+     {
+      "q": "口服瑞德西韦 vs GS-441524",
+      "certainty": "低",
+      "pmids": [
+       "37632022",
+       "41781382"
+      ]
+     },
+     {
+      "q": "GS-441524 疗程 42 天 vs 84 天",
+      "certainty": "低",
+      "pmids": [
+       "39066306"
+      ]
+     },
+     {
+      "q": "莫努匹韦（一线或挽救）",
+      "certainty": "极低",
+      "pmids": [
+       "42949438",
+       "36297266"
+      ]
+     },
+     {
+      "q": "神经型/眼型 FIP 的剂量与疗效",
+      "certainty": "极低",
+      "pmids": [
+       "32441826",
+       "41035288"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "mmvd",
+   "name_zh": "黏液瘤样二尖瓣病",
+   "name_en": "Myxomatous mitral valve disease",
+   "parent": "cardiology",
+   "keywords": [
+    "myxomatous mitral valve disease",
+    "mitral regurgitation"
+   ],
+   "mesh": [
+    "Mitral Valve Insufficiency"
+   ],
+   "pubmed_query": "(\"Mitral Valve Insufficiency\"[MeSH] OR \"myxomatous mitral valve disease\"[tiab] OR \"mitral regurgitation\"[tiab]) AND (\"Cats\"[MeSH] OR \"Dogs\"[MeSH] OR feline[tiab] OR canine[tiab] OR cat[tiab] OR cats[tiab] OR dog[tiab] OR dogs[tiab])",
+   "source": "MeSH 2026 主题词（https://meshb.nlm.nih.gov/）",
+   "status": "taxonomy_only",
+   "n_rows": 5
+  },
+  {
+   "id": "cardiomyopathy",
+   "name_zh": "心肌病",
+   "name_en": "Cardiomyopathy",
+   "parent": "cardiology",
+   "keywords": [
+    "hypertrophic cardiomyopathy",
+    "dilated cardiomyopathy"
+   ],
+   "mesh": [
+    "Cardiomyopathies"
+   ],
+   "pubmed_query": "(\"Cardiomyopathies\"[MeSH] OR \"hypertrophic cardiomyopathy\"[tiab] OR \"dilated cardiomyopathy\"[tiab]) AND (\"Cats\"[MeSH] OR \"Dogs\"[MeSH] OR feline[tiab] OR canine[tiab] OR cat[tiab] OR cats[tiab] OR dog[tiab] OR dogs[tiab])",
+   "source": "MeSH 2026 主题词（https://meshb.nlm.nih.gov/）",
+   "status": "taxonomy_only",
+   "n_rows": 12
+  },
+  {
+   "id": "obesity",
+   "name_zh": "肥胖与体况",
+   "name_en": "Obesity & body condition",
+   "parent": "nutrition",
+   "keywords": [
+    "obesity",
+    "body condition",
+    "weight loss"
+   ],
+   "mesh": [
+    "Obesity"
+   ],
+   "pubmed_query": "(\"Obesity\"[MeSH] OR \"obesity\"[tiab] OR \"body condition\"[tiab] OR \"weight loss\"[tiab]) AND (\"Cats\"[MeSH] OR \"Dogs\"[MeSH] OR feline[tiab] OR canine[tiab] OR cat[tiab] OR cats[tiab] OR dog[tiab] OR dogs[tiab])",
+   "source": "MeSH 2026 主题词（https://meshb.nlm.nih.gov/）",
+   "status": "taxonomy_only",
+   "n_rows": 5
+  },
+  {
+   "id": "diet_dcm",
+   "name_zh": "饮食相关扩张型心肌病",
+   "name_en": "Diet-associated DCM",
+   "parent": "nutrition",
+   "keywords": [
+    "taurine",
+    "grain-free"
+   ],
+   "mesh": [
+    "Taurine"
+   ],
+   "pubmed_query": "(\"Taurine\"[MeSH] OR \"taurine\"[tiab] OR \"grain-free\"[tiab]) AND (\"Cats\"[MeSH] OR \"Dogs\"[MeSH] OR feline[tiab] OR canine[tiab] OR cat[tiab] OR cats[tiab] OR dog[tiab] OR dogs[tiab])",
+   "source": "MeSH 2026 主题词（https://meshb.nlm.nih.gov/）",
+   "status": "taxonomy_only",
+   "n_rows": 4
+  },
+  {
+   "id": "cognition",
+   "name_zh": "认知与人宠关系",
+   "name_en": "Cognition & human-animal bond",
+   "parent": "behavior",
+   "keywords": [
+    "cognition",
+    "human-animal bond",
+    "oxytocin"
+   ],
+   "mesh": [
+    "Human-Animal Bond"
+   ],
+   "pubmed_query": "(\"Human-Animal Bond\"[MeSH] OR \"cognition\"[tiab] OR \"human-animal bond\"[tiab] OR \"oxytocin\"[tiab]) AND (\"Cats\"[MeSH] OR \"Dogs\"[MeSH] OR feline[tiab] OR canine[tiab] OR cat[tiab] OR cats[tiab] OR dog[tiab] OR dogs[tiab])",
+   "source": "MeSH 2026 主题词（https://meshb.nlm.nih.gov/）",
+   "status": "taxonomy_only",
+   "n_rows": 9
+  },
+  {
+   "id": "cognitive_dysfunction",
+   "name_zh": "认知功能障碍/焦虑",
+   "name_en": "Cognitive dysfunction & anxiety",
+   "parent": "behavior",
+   "keywords": [
+    "cognitive dysfunction",
+    "anxiety"
+   ],
+   "mesh": [
+    "Cognitive Dysfunction",
+    "Anxiety"
+   ],
+   "pubmed_query": "(\"Cognitive Dysfunction\"[MeSH] OR \"Anxiety\"[MeSH] OR \"cognitive dysfunction\"[tiab] OR \"anxiety\"[tiab]) AND (\"Cats\"[MeSH] OR \"Dogs\"[MeSH] OR feline[tiab] OR canine[tiab] OR cat[tiab] OR cats[tiab] OR dog[tiab] OR dogs[tiab])",
+   "source": "MeSH 2026 主题词（https://meshb.nlm.nih.gov/）",
+   "status": "taxonomy_only",
+   "n_rows": 2
+  }
+ ]
+}

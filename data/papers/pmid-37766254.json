@@ -1,0 +1,46 @@
+{
+  "id": "pmid-37766254",
+  "status": "待速读",
+  "source": "Europe PMC REST API（2026-11-02）",
+  "alt_ids": [
+    "37766254"
+  ],
+  "specialty": "感染",
+  "species": "猫",
+  "title": "Feline Infectious Peritonitis: European Advisory Board on Cat Diseases Guidelines.",
+  "first_author": "Tasker S",
+  "year": "2023",
+  "journal": "Viruses",
+  "doi": "10.3390/v15091847",
+  "pmid": "37766254",
+  "oa": "是",
+  "doc_type": "指南/共识",
+  "recommendation_basis": "未核",
+  "sample_size_analysed": "不适用",
+  "multicenter": "未核",
+  "funding": "ABCD Europe; IDEXX（MEDLINE grantsList）",
+  "one_line_conclusion_zh": "ABCD 2023 FIP 指南：确诊通常需组织病理加 FCoV 抗原，口服 GS-441524 等核苷类似物非常有效",
+  "clinical_utility": "改变诊疗",
+  "verified": "partial",
+  "japan_source": "否",
+  "cebm_question": "—",
+  "cebm_level": "不适用（指南/共识，OCEBM 不分级）",
+  "rob_tool": "AGREE II（评价工具）",
+  "rob_judgement": "未做 AGREE II 正式评分",
+  "guideline_recommendation": "未核（需读指南原文确认其推荐分级体系）",
+  "reporting_checklist": "AGREE 报告清单 / RIGHT",
+  "grade_certainty_topic": "FIP 主题 GRADE 草稿（单人）：核苷类似物→生存 中（因效应极大从观察性证据升级）；口服瑞德西韦 vs GS-441524 低；42 vs 84 天 低；莫努匹韦 极低；神经/眼型剂量 极低。详见 topics/fip.md",
+  "species_zh": "猫",
+  "topics": [
+    "fip",
+    "infectious"
+  ],
+  "n_enrolled": "不适用",
+  "n_analysed": "不适用",
+  "license": "cc by",
+  "fulltext_translation_allowed": true,
+  "species_code": "cat",
+  "provenance": [
+    "vibe-feline-v4"
+  ]
+}

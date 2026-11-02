@@ -1,0 +1,47 @@
+{
+  "id": "pmid-41781382",
+  "status": "待速读",
+  "source": "Europe PMC REST API（2026-11-02）",
+  "alt_ids": [
+    "41781382"
+  ],
+  "specialty": "感染",
+  "species": "猫",
+  "title": "Treatment of non-effusive feline infectious peritonitis using oral remdesivir or GS-441524: a randomized, double-blind, non-inferiority trial.",
+  "first_author": "Brostoff T",
+  "year": "2026",
+  "journal": "Journal of feline medicine and surgery",
+  "doi": "10.1177/1098612x261433057",
+  "pmid": "41781382",
+  "oa": "是",
+  "doc_type": "RCT（非劣效）",
+  "recommendation_basis": "不适用",
+  "sample_size_analysed": "未核",
+  "multicenter": "未核",
+  "funding": "SOCK-FIP at the Center for Companion Animal Health at UC Davis; Best Friends Animal Society（MEDLINE grantsList）",
+  "one_line_conclusion_zh": "非积液型 FIP 口服瑞德西韦对 GS-441524 在 16 周无病生存上非劣效",
+  "clinical_utility": "提示性",
+  "verified": "partial",
+  "japan_source": "否",
+  "cebm_question": "治疗获益",
+  "cebm_level": "2",
+  "cebm_basis": "随机双盲非劣效试验",
+  "rob_tool": "Cochrane RoB 2",
+  "rob_judgement": "未评（仅摘要）",
+  "guideline_recommendation": "不适用",
+  "reporting_checklist": "CONSORT 2010",
+  "grade_certainty_topic": "FIP 主题 GRADE 草稿（单人）：核苷类似物→生存 中（因效应极大从观察性证据升级）；口服瑞德西韦 vs GS-441524 低；42 vs 84 天 低；莫努匹韦 极低；神经/眼型剂量 极低。详见 topics/fip.md",
+  "species_zh": "猫",
+  "topics": [
+    "fip",
+    "infectious"
+  ],
+  "n_enrolled": "未核（摘要未给）",
+  "n_analysed": "未核",
+  "license": "cc by",
+  "fulltext_translation_allowed": true,
+  "species_code": "cat",
+  "provenance": [
+    "vibe-feline-v4"
+  ]
+}
