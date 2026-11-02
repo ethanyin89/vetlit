@@ -11,7 +11,7 @@ def clean(s):
 EMPTY={'','未核','不适用','—','-','None'}
 def has(v): return v not in (None,[],{}) and str(v).strip() not in EMPTY
 # ---------- data ----------
-v5=json.load(open(os.path.join(ROOT,'data','v5','seed_library_v5.json'),encoding='utf-8'))
+v5=json.load(open(os.path.join(ROOT,'data','v5','seed_library_v6.json'),encoding='utf-8'))
 TP=json.load(open(os.path.join(ROOT,'data','v5','topics_pages.json'),encoding='utf-8'))['topics']
 cur={}
 for f in glob.glob(os.path.join(ROOT,'data','papers','*.json')):
@@ -64,8 +64,10 @@ for k,r in json.load(open(os.path.join(ROOT,'data','v5','pages38_fields.json'),e
     if os.path.exists(os.path.join(ROOT,'content',f)): p['detail']=f; p['p38']=True
     if not p.get('reading_depth'): p['reading_depth']='摘要'
 # hidden pending verification
-HIDE_KR={('23078651','到达主要终点比例')}
+HIDE_KR=set()
 for p in P.values():
+    for k in p.get('key_results') or []:
+        if str(p.get('pmid'))=='23078651' and k.get('measure')=='到达主要终点比例': k['groups']='匹莫苯丹 19/39；安慰剂 25/37（据原文表格推算）'
     p['key_results']=[k for k in (p.get('key_results') or []) if (str(p.get('pmid')),k.get('measure')) not in HIDE_KR]
 def get(i): return P.get(i) or SID.get(i) or SID.get('pmid-'+str(i))
 SPEC={'肾脏':'肾脏','心脏':'心脏','感染':'感染','行为/认知':'行为与认知','营养':'营养','内分泌':'内分泌'}
@@ -149,7 +151,7 @@ def topic_chips(r):
         ks=[k for k in VIS if k.get('parent')==t['id']]
         out+=f'<div class="tg"><a class="chip main" href="{r}topics/{t["id"]}/">{E_(t["name_zh"])} <b>{len(tpapers(t))}</b></a>'+''.join(f'<a class="chip" href="{r}topics/{k["id"]}/">{E_(k["name_zh"])} <b>{len(tpapers(k))}</b></a>' for k in ks)+'</div>'
     return out
-REAL=lambda t: bool(t.get('bottom_line')) and t.get('bottom_line_clinical') is not False and '自动生成' not in (t.get('bottom_line_source') or '')
+REAL=lambda t: bool(t.get('bottom_line')) and t.get('bottom_line_clinical') is True
 def topic_page(t):
     ps=tpapers(t); r='../../'
     crumb=f'<p class="crumb"><a href="{r}topics/">专题</a>'+(f' › <a href="{r}topics/{t["parent"]}/">{E_(TBY[t["parent"]]["name_zh"])}</a>' if t.get('parent') else '')+'</p>'
