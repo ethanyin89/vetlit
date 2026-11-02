@@ -46,7 +46,9 @@
   "pub_date": "2026-04-09",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "0|7|79739590",
-  "importance_rank": 1
+  "importance_rank": 1,
+  "population_type": "na",
+  "population_type_note": "指南/综述，无原始研究对象（指南/共识）"
  },
  {
   "id": "x-international-renal-interest-society-2026-iris-staging-of-ckd-modified-2026",
@@ -95,7 +97,9 @@
   "pub_date": "2026-01-01",
   "pub_date_source": "仅有年份（2026），按 1 月 1 日排序",
   "importance_sort_key": "0|7|79739898",
-  "importance_rank": 2
+  "importance_rank": 2,
+  "population_type": "na",
+  "population_type_note": "指南/综述，无原始研究对象（指南/共识）"
  },
  {
   "id": "37766254",
@@ -144,7 +148,9 @@
   "pub_date": "2023-08-31",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "0|7|79769168",
-  "importance_rank": 3
+  "importance_rank": 3,
+  "population_type": "na",
+  "population_type_note": "指南/综述，无原始研究对象（指南/共识）"
  },
  {
   "id": "36002137",
@@ -193,7 +199,9 @@
   "pub_date": "2022-09-01",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "0|7|79779098",
-  "importance_rank": 4
+  "importance_rank": 4,
+  "population_type": "na",
+  "population_type_note": "指南/综述，无原始研究对象（指南/共识）"
  },
  {
   "id": "32243654",
@@ -241,7 +249,9 @@
   "pub_date": "2020-04-03",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "0|7|79799596",
-  "importance_rank": 5
+  "importance_rank": 5,
+  "population_type": "na",
+  "population_type_note": "指南/综述，无原始研究对象（指南/共识）"
  },
  {
   "id": "30974015",
@@ -290,7 +300,9 @@
   "pub_date": "2019-04-11",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "0|7|79809588",
-  "importance_rank": 6
+  "importance_rank": 6,
+  "population_type": "na",
+  "population_type_note": "指南/综述，无原始研究对象（指南/共识）"
  },
  {
   "id": "30353952",
@@ -340,7 +352,9 @@
   "pub_date": "2018-10-24",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "0|7|79818975",
-  "importance_rank": 7
+  "importance_rank": 7,
+  "population_type": "na",
+  "population_type_note": "指南/综述，无原始研究对象（指南/共识）"
  },
  {
   "id": "29314873",
@@ -389,7 +403,9 @@
   "pub_date": "2018-01-01",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "0|7|79819898",
-  "importance_rank": 8
+  "importance_rank": 8,
+  "population_type": "na",
+  "population_type_note": "指南/综述，无原始研究对象（指南/共识）"
  },
  {
   "id": "28965673",
@@ -438,7 +454,9 @@
   "pub_date": "2017-09-29",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "0|7|79829070",
-  "importance_rank": 9
+  "importance_rank": 9,
+  "population_type": "na",
+  "population_type_note": "指南/综述，无原始研究对象（指南/共识）"
  },
  {
   "id": "27143042",
@@ -487,7 +505,9 @@
   "pub_date": "2016-05-01",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "0|7|79839498",
-  "importance_rank": 10
+  "importance_rank": 10,
+  "population_type": "na",
+  "population_type_note": "指南/综述，无原始研究对象（指南/共识）"
  },
  {
   "id": "26936494",
@@ -536,7 +556,9 @@
   "pub_date": "2016-03-01",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "0|7|79839698",
-  "importance_rank": 11
+  "importance_rank": 11,
+  "population_type": "na",
+  "population_type_note": "指南/综述，无原始研究对象（指南/共识）"
  },
  {
   "id": "25701862",
@@ -585,7 +607,9 @@
   "pub_date": "2015-03-01",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "0|7|79849698",
-  "importance_rank": 12
+  "importance_rank": 12,
+  "population_type": "na",
+  "population_type_note": "指南/综述，无原始研究对象（指南/共识）"
  },
  {
   "id": "24112317",
@@ -634,7 +658,9 @@
   "pub_date": "2013-09-20",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "0|7|79869079",
-  "importance_rank": 13
+  "importance_rank": 13,
+  "population_type": "na",
+  "population_type_note": "指南/综述，无原始研究对象（指南/共识）"
  },
  {
   "id": "23422366",
@@ -683,7 +709,9 @@
   "pub_date": "2013-03-01",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "0|7|79869698",
-  "importance_rank": 14
+  "importance_rank": 14,
+  "population_type": "na",
+  "population_type_note": "指南/综述，无原始研究对象（指南/共识）"
  },
  {
   "id": "21704901",
@@ -731,7 +759,9 @@
   "pub_date": "2011-07-01",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "0|7|79889298",
-  "importance_rank": 15
+  "importance_rank": 15,
+  "population_type": "na",
+  "population_type_note": "指南/综述，无原始研究对象（指南/共识）"
  },
  {
   "id": "19481039",
@@ -780,7 +810,9 @@
   "pub_date": "2009-07-01",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "0|7|79909298",
-  "importance_rank": 16
+  "importance_rank": 16,
+  "population_type": "na",
+  "population_type_note": "指南/综述，无原始研究对象（指南/共识）"
  },
  {
   "id": "15954557",
@@ -829,7 +861,9 @@
   "pub_date": "2005-05-01",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "0|7|79949498",
-  "importance_rank": 17
+  "importance_rank": 17,
+  "population_type": "na",
+  "population_type_note": "指南/综述，无原始研究对象（指南/共识）"
  },
  {
   "id": "39858209",
@@ -878,7 +912,9 @@
   "pub_date": "2025-01-14",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "1|1|79749885",
-  "importance_rank": 18
+  "importance_rank": 18,
+  "population_type": "na",
+  "population_type_note": "指南/综述，无原始研究对象（系统综述/Meta分析）"
  },
  {
   "id": "41781382",
@@ -927,7 +963,9 @@
   "pub_date": "2026-03-04",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "1|2|79739695",
-  "importance_rank": 19
+  "importance_rank": 19,
+  "population_type": "natural",
+  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：RCT（非劣效））"
  },
  {
   "id": "40110605",
@@ -976,7 +1014,9 @@
   "pub_date": "2025-03-01",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "1|2|79749698",
-  "importance_rank": 20
+  "importance_rank": 20,
+  "population_type": "natural",
+  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：RCT（交叉））"
  },
  {
   "id": "39417648",
@@ -1025,7 +1065,9 @@
   "pub_date": "2024-10-01",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "1|2|79758998",
-  "importance_rank": 21
+  "importance_rank": 21,
+  "population_type": "natural",
+  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：RCT）"
  },
  {
   "id": "39066306",
@@ -1074,7 +1116,9 @@
   "pub_date": "2024-07-16",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "1|2|79759283",
-  "importance_rank": 22
+  "importance_rank": 22,
+  "population_type": "natural",
+  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：RCT）"
  },
  {
   "id": "38952053",
@@ -1124,7 +1168,9 @@
   "pub_date": "2024-07-01",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "1|2|79759298",
-  "importance_rank": 23
+  "importance_rank": 23,
+  "population_type": "natural",
+  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：RCT）"
  },
  {
   "id": "38884190",
@@ -1173,7 +1219,9 @@
   "pub_date": "2024-06-17",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "1|2|79759382",
-  "importance_rank": 24
+  "importance_rank": 24,
+  "population_type": "natural",
+  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：临床试验）"
  },
  {
   "id": "37632022",
@@ -1222,7 +1270,9 @@
   "pub_date": "2023-08-01",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "1|2|79769198",
-  "importance_rank": 25
+  "importance_rank": 25,
+  "population_type": "natural",
+  "population_type_note": "标题：\"Efficacy of Oral Remdesivir Compared to GS-441524 for Treatment of Cats with Nat\""
  },
  {
   "id": "27678080",
@@ -1271,7 +1321,9 @@
   "pub_date": "2016-09-28",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "1|2|79839071",
-  "importance_rank": 26
+  "importance_rank": 26,
+  "population_type": "natural",
+  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：RCT）"
  },
  {
   "id": "26948860",
@@ -1320,7 +1372,9 @@
   "pub_date": "2016-03-06",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "1|2|79839693",
-  "importance_rank": 27
+  "importance_rank": 27,
+  "population_type": "natural",
+  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：前瞻性队列）"
  },
  {
   "id": "26776588",
@@ -1369,7 +1423,9 @@
   "pub_date": "2015-12-01",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "1|2|79848798",
-  "importance_rank": 28
+  "importance_rank": 28,
+  "population_type": "natural",
+  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：RCT）"
  },
  {
   "id": "26474314",
@@ -1418,7 +1474,9 @@
   "pub_date": "2015-10-16",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "1|2|79848983",
-  "importance_rank": 29
+  "importance_rank": 29,
+  "population_type": "natural",
+  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：RCT）"
  },
  {
   "id": "26265631",
@@ -1467,7 +1525,9 @@
   "pub_date": "2015-07-31",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "1|2|79849268",
-  "importance_rank": 30
+  "importance_rank": 30,
+  "population_type": "natural",
+  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：前瞻性队列）"
  },
  {
   "id": "23838205",
@@ -1516,7 +1576,9 @@
   "pub_date": "2013-07-06",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "1|2|79869293",
-  "importance_rank": 31
+  "importance_rank": 31,
+  "population_type": "natural",
+  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：RCT（交叉））"
  },
  {
   "id": "23078651",
@@ -1566,7 +1628,9 @@
   "pub_date": "2012-10-18",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "1|2|79878981",
-  "importance_rank": 32
+  "importance_rank": 32,
+  "population_type": "natural",
+  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：RCT）"
  },
  {
   "id": "18638016",
@@ -1615,7 +1679,9 @@
   "pub_date": "2008-07-11",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "1|2|79919288",
-  "importance_rank": 33
+  "importance_rank": 33,
+  "population_type": "natural",
+  "population_type_note": "标题：\"Effect of pimobendan or benazepril hydrochloride on survival times in dogs with \""
  },
  {
   "id": "16978113",
@@ -1664,7 +1730,9 @@
   "pub_date": "2006-09-01",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "1|2|79939098",
-  "importance_rank": 34
+  "importance_rank": 34,
+  "population_type": "natural",
+  "population_type_note": "标题：\"Clinical evaluation of dietary modification for treatment of spontaneous chronic\""
  },
  {
   "id": "17063696",
@@ -1713,7 +1781,9 @@
   "pub_date": "2006-09-01",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "1|2|79939098",
-  "importance_rank": 35
+  "importance_rank": 35,
+  "population_type": "natural",
+  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：RCT）"
  },
  {
   "id": "15702689",
@@ -1762,7 +1832,9 @@
   "pub_date": "2005-02-01",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "1|2|79949798",
-  "importance_rank": 36
+  "importance_rank": 36,
+  "population_type": "natural",
+  "population_type_note": "标题：\"Evaluation of the association between initial proteinuria and morbidity rate or \""
  },
  {
   "id": "11990962",
@@ -1811,7 +1883,9 @@
   "pub_date": "2002-04-01",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "1|2|79979598",
-  "importance_rank": 37
+  "importance_rank": 37,
+  "population_type": "natural",
+  "population_type_note": "标题：\"Clinical evaluation of dietary modification for treatment of spontaneous chronic\""
  },
  {
   "id": "42207576",
@@ -1860,7 +1934,9 @@
   "pub_date": "2026-05-01",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "1|3|79739498",
-  "importance_rank": 38
+  "importance_rank": 38,
+  "population_type": "natural",
+  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：前瞻性观察队列）"
  },
  {
   "id": "32139728",
@@ -1909,7 +1985,9 @@
   "pub_date": "2020-03-05",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "1|3|79799694",
-  "importance_rank": 39
+  "importance_rank": 39,
+  "population_type": "natural",
+  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：横断面问卷）"
  },
  {
   "id": "30548336",
@@ -1958,7 +2036,9 @@
   "pub_date": "2018-12-11",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "1|3|79818788",
-  "importance_rank": 40
+  "importance_rank": 40,
+  "population_type": "natural",
+  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：回顾性队列）"
  },
  {
   "id": "29660848",
@@ -2007,7 +2087,9 @@
   "pub_date": "2018-04-16",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "1|3|79819583",
-  "importance_rank": 41
+  "importance_rank": 41,
+  "population_type": "natural",
+  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：回顾性队列）"
  },
  {
   "id": "26776583",
@@ -2056,7 +2138,9 @@
   "pub_date": "2015-12-01",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "1|3|79848798",
-  "importance_rank": 42
+  "importance_rank": 42,
+  "population_type": "natural",
+  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：横断面研究）"
  },
  {
   "id": "26581469",
@@ -2104,7 +2188,9 @@
   "pub_date": "2015-11-18",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "1|3|79848881",
-  "importance_rank": 43
+  "importance_rank": 43,
+  "population_type": "natural",
+  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：回顾性队列（保险数据））"
  },
  {
   "id": "25896026",
@@ -2152,7 +2238,9 @@
   "pub_date": "2015-04-08",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "1|3|79849591",
-  "importance_rank": 44
+  "importance_rank": 44,
+  "population_type": "natural",
+  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：回顾性队列（保险数据））"
  },
  {
   "id": "25231385",
@@ -2201,7 +2289,9 @@
   "pub_date": "2014-09-17",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "1|3|79859082",
-  "importance_rank": 45
+  "importance_rank": 45,
+  "population_type": "experimental",
+  "population_type_note": "实验猫群，CKD 猫与对照均来自同一研究猫群（摘要：\"Healthy geriatric cats (n = 21) were selected from the same colony\"）"
  },
  {
   "id": "24217707",
@@ -2250,7 +2340,9 @@
   "pub_date": "2013-11-11",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "1|3|79868888",
-  "importance_rank": 46
+  "importance_rank": 46,
+  "population_type": "natural",
+  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：回顾性横断面）"
  },
  {
   "id": "23647231",
@@ -2300,7 +2392,9 @@
   "pub_date": "2013-05-06",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "1|3|79869493",
-  "importance_rank": 47
+  "importance_rank": 47,
+  "population_type": "natural",
+  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：纵向队列（VetCompass））"
  },
  {
   "id": "22269057",
@@ -2349,7 +2443,9 @@
   "pub_date": "2012-01-23",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "1|3|79879876",
-  "importance_rank": 48
+  "importance_rank": 48,
+  "population_type": "natural",
+  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：回顾性队列）"
  },
  {
   "id": "20005753",
@@ -2398,7 +2494,9 @@
   "pub_date": "2009-12-14",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "1|3|79908785",
-  "importance_rank": 49
+  "importance_rank": 49,
+  "population_type": "natural",
+  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：横断面调查）"
  },
  {
   "id": "18691369",
@@ -2447,7 +2545,9 @@
   "pub_date": "2008-08-06",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "1|3|79919193",
-  "importance_rank": 50
+  "importance_rank": 50,
+  "population_type": "natural",
+  "population_type_note": "标题：\"Survival in cats with naturally occurring chronic kidney disease (2000-2002).\""
  },
  {
   "id": "18289298",
@@ -2496,7 +2596,9 @@
   "pub_date": "2008-01-01",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "1|3|79919898",
-  "importance_rank": 51
+  "importance_rank": 51,
+  "population_type": "natural",
+  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：回顾性队列）"
  },
  {
   "id": "17939542",
@@ -2545,7 +2647,9 @@
   "pub_date": "2007-09-01",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "1|3|79929098",
-  "importance_rank": 52
+  "importance_rank": 52,
+  "population_type": "natural",
+  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：RCT 安慰剂组的预后分析）"
  },
  {
   "id": "16734085",
@@ -2594,7 +2698,9 @@
   "pub_date": "2006-05-01",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "1|3|79939498",
-  "importance_rank": 53
+  "importance_rank": 53,
+  "population_type": "natural",
+  "population_type_note": "标题：\"Survival of cats with naturally occurring chronic renal failure is related to se\""
  },
  {
   "id": "11991408",
@@ -2643,7 +2749,9 @@
   "pub_date": "2002-05-01",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "1|3|79979498",
-  "importance_rank": 54
+  "importance_rank": 54,
+  "population_type": "experimental",
+  "population_type_note": "Nestlé Purina 研究犬群拉布拉多终生配对限饲（摘要：\"48 Labrador Retrievers\"；\"Paired feeding study\"）"
  },
  {
   "id": "10879400",
@@ -2692,7 +2800,9 @@
   "pub_date": "2000-06-01",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "1|3|79999398",
-  "importance_rank": 55
+  "importance_rank": 55,
+  "population_type": "natural",
+  "population_type_note": "标题：\"Survival of cats with naturally occurring chronic renal failure: effect of dieta\""
  },
  {
   "id": "42949438",
@@ -2741,7 +2851,9 @@
   "pub_date": "2026-09-01",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "1|4|79739098",
-  "importance_rank": 56
+  "importance_rank": 56,
+  "population_type": "natural",
+  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：前瞻性单臂试点）"
  },
  {
   "id": "41834689",
@@ -2790,7 +2902,9 @@
   "pub_date": "2026-01-01",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "1|4|79739898",
-  "importance_rank": 57
+  "importance_rank": 57,
+  "population_type": "natural",
+  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：前瞻性单臂研究）"
  },
  {
   "id": "41035288",
@@ -2839,7 +2953,9 @@
   "pub_date": "2025-11-01",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "1|4|79748898",
-  "importance_rank": 58
+  "importance_rank": 58,
+  "population_type": "natural",
+  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：回顾性观察研究）"
  },
  {
   "id": "37732386",
@@ -2888,7 +3004,9 @@
   "pub_date": "2023-09-01",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "1|4|79769098",
-  "importance_rank": 59
+  "importance_rank": 59,
+  "population_type": "natural",
+  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：回顾性病例系列）"
  },
  {
   "id": "37548535",
@@ -2937,7 +3055,9 @@
   "pub_date": "2023-08-01",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "1|4|79769198",
-  "importance_rank": 60
+  "importance_rank": 60,
+  "population_type": "natural",
+  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：前瞻性随访研究）"
  },
  {
   "id": "37439383",
@@ -2986,7 +3106,9 @@
   "pub_date": "2023-07-13",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "1|4|79769286",
-  "importance_rank": 61
+  "importance_rank": 61,
+  "population_type": "natural",
+  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：前瞻性单臂研究）"
  },
  {
   "id": "37403259",
@@ -3035,7 +3157,9 @@
   "pub_date": "2023-07-04",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "1|4|79769295",
-  "importance_rank": 62
+  "importance_rank": 62,
+  "population_type": "natural",
+  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：回顾性病例系列）"
  },
  {
   "id": "36297266",
@@ -3084,7 +3208,9 @@
   "pub_date": "2022-10-20",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "1|4|79778979",
-  "importance_rank": 63
+  "importance_rank": 63,
+  "population_type": "natural",
+  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：回顾性病例系列（主人报告））"
  },
  {
   "id": "34835034",
@@ -3133,7 +3259,9 @@
   "pub_date": "2021-11-05",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "1|4|79788894",
-  "importance_rank": 64
+  "importance_rank": 64,
+  "population_type": "natural",
+  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：前瞻性单臂研究）"
  },
  {
   "id": "32441826",
@@ -3183,7 +3311,9 @@
   "pub_date": "2020-05-22",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "1|4|79799477",
-  "importance_rank": 65
+  "importance_rank": 65,
+  "population_type": "natural",
+  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：病例系列）"
  },
  {
   "id": "30755068",
@@ -3232,7 +3362,9 @@
   "pub_date": "2019-02-13",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "1|4|79809786",
-  "importance_rank": 66
+  "importance_rank": 66,
+  "population_type": "natural",
+  "population_type_note": "标题：\"Efficacy and safety of the nucleoside analog GS-441524 for treatment of cats wit\""
  },
  {
   "id": "30543707",
@@ -3283,7 +3415,9 @@
   "pub_date": "2018-12-13",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "1|4|79818786",
-  "importance_rank": 67
+  "importance_rank": 67,
+  "population_type": "natural",
+  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：病例系列）"
  },
  {
   "id": "30797439",
@@ -3334,7 +3468,9 @@
   "pub_date": "2018-12-05",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "1|4|79818794",
-  "importance_rank": 68
+  "importance_rank": 68,
+  "population_type": "natural",
+  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：回顾性队列）"
  },
  {
   "id": "28901812",
@@ -3383,7 +3519,9 @@
   "pub_date": "2017-09-13",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "1|4|79829086",
-  "importance_rank": 69
+  "importance_rank": 69,
+  "population_type": "natural",
+  "population_type_note": "主人饲养的自然发病 FIP 猫（摘要：\"tested on a cohort of client-owned cats with various forms of feline infectious peritonitis\"）"
  },
  {
   "id": "28152671",
@@ -3432,7 +3570,9 @@
   "pub_date": "2017-02-03",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "1|4|79829796",
-  "importance_rank": 70
+  "importance_rank": 70,
+  "population_type": "natural",
+  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：横断面/小样本探索）"
  },
  {
   "id": "27103204",
@@ -3481,7 +3621,9 @@
   "pub_date": "2016-04-22",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "1|4|79839577",
-  "importance_rank": 71
+  "importance_rank": 71,
+  "population_type": "natural",
+  "population_type_note": "标题：\"Serum Concentrations of Symmetric Dimethylarginine and Creatinine in Dogs with N\""
  },
  {
   "id": "26079532",
@@ -3530,7 +3672,9 @@
   "pub_date": "2015-06-16",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "1|4|79849383",
-  "importance_rank": 72
+  "importance_rank": 72,
+  "population_type": "experimental",
+  "population_type_note": "研究犬群 X 连锁遗传性肾病犬及其同窝对照（摘要：\"Eight male dogs affected with X-linked hereditary nephropathy and 4 unaffected male littermates\"）"
  },
  {
   "id": "25673019",
@@ -3551,7 +3695,7 @@
   "funding": "作者声明无利益冲突（资助未核）（来源：deep extract）",
   "errata": "",
   "internal_inconsistency": "",
-  "one_line_conclusion_zh": "2096 只甲亢猫中，病程越长 T4 越高、肿瘤越大，疑似甲状腺癌从 0.4% 升至 19.3%；横断面设计。",
+  "one_line_conclusion_zh": "2096 只甲亢猫中，病程越长 T4 越高、肿瘤越大，疑似甲状腺癌从 0.5% 升至 25.8%；横断面设计。",
   "clinical_utility": "提示性",
   "verified": "partial",
   "japan_source": "否",
@@ -3579,7 +3723,9 @@
   "pub_date": "2015-02-11",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "1|4|79849788",
-  "importance_rank": 73
+  "importance_rank": 73,
+  "population_type": "natural",
+  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：病例系列（病理））"
  },
  {
   "id": "3616607",
@@ -3630,7 +3776,9 @@
   "pub_date": "1987-08-01",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "1|4|80129198",
-  "importance_rank": 74
+  "importance_rank": 74,
+  "population_type": "natural",
+  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：实验）"
  },
  {
   "id": "41701235",
@@ -3679,7 +3827,9 @@
   "pub_date": "2026-02-17",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "1|6|79739782",
-  "importance_rank": 75
+  "importance_rank": 75,
+  "population_type": "na",
+  "population_type_note": "指南/综述，无原始研究对象（系统综述/Meta分析）"
  },
  {
   "id": "41527203",
@@ -3728,7 +3878,9 @@
   "pub_date": "2026-01-12",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "1|6|79739887",
-  "importance_rank": 76
+  "importance_rank": 76,
+  "population_type": "na",
+  "population_type_note": "指南/综述，无原始研究对象（系统综述）"
  },
  {
   "id": "40941356",
@@ -3777,7 +3929,9 @@
   "pub_date": "2025-08-31",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "1|6|79749168",
-  "importance_rank": 77
+  "importance_rank": 77,
+  "population_type": "na",
+  "population_type_note": "指南/综述，无原始研究对象（系统综述（未做 Meta 分析））"
  },
  {
   "id": "40732763",
@@ -3826,7 +3980,9 @@
   "pub_date": "2025-07-19",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "1|6|79749280",
-  "importance_rank": 78
+  "importance_rank": 78,
+  "population_type": "na",
+  "population_type_note": "指南/综述，无原始研究对象（系统综述）"
  },
  {
   "id": "40633571",
@@ -3876,7 +4032,9 @@
   "pub_date": "2025-07-09",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "1|7|79749290",
-  "importance_rank": 79
+  "importance_rank": 79,
+  "population_type": "natural",
+  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：分子流行病学/基因组研究）"
  },
  {
   "id": "34758043",
@@ -3925,7 +4083,9 @@
   "pub_date": "2021-11-10",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "1|7|79788889",
-  "importance_rank": 80
+  "importance_rank": 80,
+  "population_type": "natural",
+  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：实验）"
  },
  {
   "id": "31550468",
@@ -3974,7 +4134,9 @@
   "pub_date": "2019-09-01",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "1|7|79809098",
-  "importance_rank": 81
+  "importance_rank": 81,
+  "population_type": "natural",
+  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：实验）"
  },
  {
   "id": "31554584",
@@ -4025,7 +4187,9 @@
   "pub_date": "2019-07-27",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "1|7|79809272",
-  "importance_rank": 82
+  "importance_rank": 82,
+  "population_type": "na",
+  "population_type_note": "指南/综述，无原始研究对象（叙述性综述）"
  },
  {
   "id": "31076940",
@@ -4074,7 +4238,9 @@
   "pub_date": "2019-05-10",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "1|7|79809489",
-  "importance_rank": 83
+  "importance_rank": 83,
+  "population_type": "natural",
+  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：实验）"
  },
  {
   "id": "30948740",
@@ -4123,7 +4289,9 @@
   "pub_date": "2019-04-04",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "1|7|79809595",
-  "importance_rank": 84
+  "importance_rank": 84,
+  "population_type": "natural",
+  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：实验）"
  },
  {
   "id": "30451613",
@@ -4174,7 +4342,9 @@
   "pub_date": "2018-12-01",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "1|7|79818798",
-  "importance_rank": 85
+  "importance_rank": 85,
+  "population_type": "na",
+  "population_type_note": "指南/综述，无原始研究对象（叙述性综述）"
  },
  {
   "id": "29538681",
@@ -4223,7 +4393,9 @@
   "pub_date": "2018-06-01",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "1|7|79819398",
-  "importance_rank": 86
+  "importance_rank": 86,
+  "population_type": "natural",
+  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：关联研究）"
  },
  {
   "id": "29778200",
@@ -4272,7 +4444,9 @@
   "pub_date": "2018-04-22",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "1|7|79819577",
-  "importance_rank": 87
+  "importance_rank": 87,
+  "population_type": "experimental",
+  "population_type_note": "实验感染 FIPV 后给药（摘要：\"In an experimental FIPV infection\"；另含 CRFK 细胞体外实验）"
  },
  {
   "id": "29326623",
@@ -4321,7 +4495,9 @@
   "pub_date": "2017-12-18",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "1|7|79828781",
-  "importance_rank": 88
+  "importance_rank": 88,
+  "population_type": "natural",
+  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：关联研究）"
  },
  {
   "id": "28460795",
@@ -4370,7 +4546,9 @@
   "pub_date": "2017-04-28",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "1|7|79829571",
-  "importance_rank": 89
+  "importance_rank": 89,
+  "population_type": "na",
+  "population_type_note": "指南/综述，无原始研究对象（叙述性综述）"
  },
  {
   "id": "26915425",
@@ -4419,7 +4597,9 @@
   "pub_date": "2016-02-23",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "1|7|79839776",
-  "importance_rank": 90
+  "importance_rank": 90,
+  "population_type": "natural",
+  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：实验）"
  },
  {
   "id": "26776594",
@@ -4468,7 +4648,9 @@
   "pub_date": "2015-12-01",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "1|7|79848798",
-  "importance_rank": 91
+  "importance_rank": 91,
+  "population_type": "na",
+  "population_type_note": "指南/综述，无原始研究对象（叙述性综述）"
  },
  {
   "id": "25883356",
@@ -4517,7 +4699,9 @@
   "pub_date": "2015-04-16",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "1|7|79849583",
-  "importance_rank": 92
+  "importance_rank": 92,
+  "population_type": "natural",
+  "population_type_note": "临床/社区动物、登记或问卷人群，无造模（设计：实验）"
  },
  {
   "id": "23522175",
@@ -4567,7 +4751,9 @@
   "pub_date": "2013-03-01",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "1|7|79869698",
-  "importance_rank": 93
+  "importance_rank": 93,
+  "population_type": "na",
+  "population_type_note": "指南/综述，无原始研究对象（叙述性综述）"
  },
  {
   "id": "16236761",
@@ -4616,6 +4802,8 @@
   "pub_date": "2005-10-19",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": "1|7|79948980",
-  "importance_rank": 94
+  "importance_rank": 94,
+  "population_type": "experimental",
+  "population_type_note": "家族性 HCM 缅因猫研究繁育群谱系分析（摘要：\"Maine Coon cat with familial hypertrophic cardiomyopathy\"；繁育猫群，非造模）"
  }
 ]

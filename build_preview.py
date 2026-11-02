@@ -238,13 +238,14 @@ def paper(p):
 <p class="meta">{E_(p.get("first_author",""))} 等 · <em>{E_(p.get("journal",""))}</em> · {E_(p.get("pub_date") or str(p.get("year","")))}{f' · <a href="https://doi.org/{E_(p["doi"])}">DOI</a>' if p.get('doi') else ''}{f' · <a href="https://pubmed.ncbi.nlm.nih.gov/{p["pmid"]}/">PubMed</a>' if p.get('pmid') else ''}{f' · <a href="https://europepmc.org/article/PMC/{p["pmcid"]}">全文</a>' if p.get('pmcid') else ''}</p>{badges(p)}
 <p>{"".join(f'<a class="chip" href="{r}topics/{t}/">{E_(TBY[t]["name_zh"])}</a>' for t in (p.get("topics") or []) if t in TBY and TBY[t] in VIS)}</p>'''
     blk=lambda n,t,c: f'<section class="blk"><h2 class="sec"><span>{n}</span> {t}</h2>{c}</section>' if c else ''
-    exp=(p.get('population_type') or 'natural')=='experimental'
+    exp=(p.get('population_type') or 'natural') in ('experimental','mixed')
     conf=f'<p class="note">{E_(clean(p["confidence_sentence"]))}</p>' if has(p.get('confidence_sentence')) else ''
     why=f'<p class="why2">{E_(clean(p["why_it_matters"]))}</p>' if has(p.get('why_it_matters')) else ''
     concl=f'<section class="bottom"><p class="eb red">一句话结论</p><p>{E_(clean(p["one_line_conclusion_zh"]))}</p>{conf}</section>{why}' if has(p.get('one_line_conclusion_zh')) else ''
     sc=p.get('study_card') or {}
     pico=sec_get(S,'PICO')
     if pico: pico=mdc(re.sub(r'^\|\s*资助.*$','',pico,flags=re.M))
+    elif p.get('population_type')=='na': pico=''
     else:
         rows=[('设计',p.get('design_detail') or p.get('design')),('物种',species(p)),('入组样本量',p.get('n_enrolled')),('分析样本量',p.get('n_analysed')),('中心',sc.get('单/多中心'))]
         rows=''.join(f'<tr><th>{k}</th><td>{E_(clean(v))}</td></tr>' for k,v in rows if has(v))
