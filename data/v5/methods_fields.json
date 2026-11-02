@@ -20,12 +20,14 @@
   "text_source": "全文",
   "methods_slots": {
    "证据来源": {
-    "evidence_quote": "Although 84-day treatment courses have historically been used, emerging evidence suggests that shorter regimens of 42 days can be equally effective.",
-    "status": "已报告"
+    "status": "原文未报告",
+    "rejected_quote": "Although 84-day treatment courses have historically been used, emerging evidence suggests that shorter regimens of 42 days can be equally effective.",
+    "evidence_quote": null
    },
    "专家组成": {
-    "evidence_quote": "1559 viruses Viruses Viruses Multidisciplinary Digital Publishing Institute (MDPI) PMC13120026 13120026 13120026 42043241 10.3390/v18040452 Update on Treatment of Feline Infectious Peritonitis: European Advisory Board on Cat Diseases (ABCD) Guidelines Tasker Séverine 1 2 † Spiri Andrea M 3 * † Hartmann Katrin 4 Addie Diane D 5 Belák Sándor 6 Bergmann Michèle 4 Egberink Herman 7 Frymus Tadeusz 8 Hofmann-Lehmann Regina 3 Marsilio Fulvio 9 Pennisi Maria Grazia 10 11 Thiry Etienne 12 Truyen Uwe 13 Boucraut-Baralon Corine 14 Möstl Karin 15 Hosie Margaret J 16 Davidson Andrew Academic Editor 1 Brist",
-    "status": "已报告"
+    "status": "原文未报告",
+    "rejected_quote": "1559 viruses Viruses Viruses Multidisciplinary Digital Publishing Institute (MDPI) PMC13120026 13120026 13120026 42043241 10.3390/v18040452 Update on Treatment of Feline Infectious Peritonitis: European Advisory Board on Cat Diseases (ABCD) Guidelines Tasker Séverine 1 2 † Spiri Andrea M 3 * † Hartmann Katrin 4 Addie Diane D 5 Belák Sándor 6 Bergmann Michèle 4 Egberink Herman 7 Frymus Tadeusz 8 Hofmann-Lehmann Regina 3 Marsilio Fulvio 9 Pennisi Maria Grazia 10 11 Thiry Etienne 12 Truyen Uwe 13 Boucraut-Baralon Corine 14 Möstl Karin 15 Hosie Margaret J 16 Davidson Andrew Academic Editor 1 Brist",
+    "evidence_quote": null
    }
   }
  },
@@ -68,24 +70,28 @@
    "物种": "cat",
    "来源": "不适用（非原始研究）",
    "纳入标准": {
-    "evidence_quote": "Indeed, in an FCoV eradication study, one household (which failed to meet the inclusion criteria for the study, but in which FCoV eradication was performed) had FCoV re-introduced with the introduction of many FCoV-infected kittens.",
-    "status": "已报告"
+    "status": "原文未报告",
+    "rejected_quote": "Indeed, in an FCoV eradication study, one household (which failed to meet the inclusion criteria for the study, but in which FCoV eradication was performed) had FCoV re-introduced with the introduction of many FCoV-infected kittens.",
+    "evidence_quote": null
    },
    "排除标准": {
-    "evidence_quote": "Cats presenting with neurological signs were excluded from the study due to GC376 not penetrating the CNS [ 338 ].",
-    "status": "已报告"
+    "status": "原文未报告",
+    "rejected_quote": "Cats presenting with neurological signs were excluded from the study due to GC376 not penetrating the CNS [ 338 ].",
+    "evidence_quote": null
    },
    "疾病分期": null
   },
   "text_source": "全文",
   "methods_slots": {
    "证据来源": {
-    "evidence_quote": "There is no evidence that specific mutations in the 3a, 3b and 7a genes mediate the development of FIP [ 87 ].",
-    "status": "已报告"
+    "status": "原文未报告",
+    "rejected_quote": "There is no evidence that specific mutations in the 3a, 3b and 7a genes mediate the development of FIP [ 87 ].",
+    "evidence_quote": null
    },
    "专家组成": {
-    "evidence_quote": "1559 viruses Viruses Viruses Multidisciplinary Digital Publishing Institute (MDPI) PMC10535984 10535984 10535984 37766254 10.3390/v15091847 Feline Infectious Peritonitis: European Advisory Board on Cat Diseases Guidelines Tasker Séverine 1 2 * Addie Diane D 3 Egberink Herman 4 Hofmann-Lehmann Regina 5 Hosie Margaret J 6 Truyen Uwe 7 Belák Sándor 8 Boucraut-Baralon Corine 9 Frymus Tadeusz 10 Lloret Albert 11 Marsilio Fulvio 12 Pennisi Maria Grazia 13 † Thiry Etienne 14 Möstl Karin 15 † Hartmann Katrin 16 Nowotny Norbert Academic Editor 1 Bristol Veterinary School, University of Bristol, Bristol",
-    "status": "已报告"
+    "status": "原文未报告",
+    "rejected_quote": "1559 viruses Viruses Viruses Multidisciplinary Digital Publishing Institute (MDPI) PMC10535984 10535984 10535984 37766254 10.3390/v15091847 Feline Infectious Peritonitis: European Advisory Board on Cat Diseases Guidelines Tasker Séverine 1 2 * Addie Diane D 3 Egberink Herman 4 Hofmann-Lehmann Regina 5 Hosie Margaret J 6 Truyen Uwe 7 Belák Sándor 8 Boucraut-Baralon Corine 9 Frymus Tadeusz 10 Lloret Albert 11 Marsilio Fulvio 12 Pennisi Maria Grazia 13 † Thiry Etienne 14 Möstl Karin 15 † Hartmann Katrin 16 Nowotny Norbert Academic Editor 1 Bristol Veterinary School, University of Bristol, Bristol",
+    "evidence_quote": null
    }
   }
  },
@@ -99,23 +105,25 @@
    "来源": "不适用（非原始研究）",
    "纳入标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "排除标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "疾病分期": null
   },
   "text_source": "摘要",
   "methods_slots": {
    "证据来源": {
-    "evidence_quote": "The Task Force encourages veterinarians to review the literature and stay informed on clinical trials and new drug approvals.",
-    "status": "已报告"
+    "status": "摘要未提及",
+    "rejected_quote": "The Task Force encourages veterinarians to review the literature and stay informed on clinical trials and new drug approvals.",
+    "evidence_quote": null
    },
    "专家组成": {
     "evidence_quote": "This document has been developed by a Task Force of experts in feline clinical medicine as the 2022 AAFP/EveryCat Feline Infectious Peritonitis Diagnosis Guidelines to provide veterinarians with essential information to aid their ability to recognize cats presenting with FIP.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "AAFP/EveryCat 猫病专家工作组制定"
    }
   }
  },
@@ -129,11 +137,11 @@
    "来源": "不适用（非原始研究）",
    "纳入标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "排除标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "疾病分期": null
   },
@@ -141,11 +149,13 @@
   "methods_slots": {
    "证据来源": {
     "evidence_quote": "Based on the available literature, we offer recommendations for the approach to diagnosis and staging of cardiomyopathies, as well as for management at each stage.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "基于现有文献给出建议"
    },
    "专家组成": {
-    "evidence_quote": "Cardiomyopathy classification in cats can be challenging, and in this consensus statement we outline a classification system based on cardiac structure and function (phenotype).",
-    "status": "已报告"
+    "status": "摘要未提及",
+    "rejected_quote": "Cardiomyopathy classification in cats can be challenging, and in this consensus statement we outline a classification system based on cardiac structure and function (phenotype).",
+    "evidence_quote": null
    }
   }
  },
@@ -159,11 +169,11 @@
    "来源": "不适用（非原始研究）",
    "纳入标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "排除标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "疾病分期": null
   },
@@ -171,11 +181,13 @@
   "methods_slots": {
    "证据来源": {
     "evidence_quote": "The strength of these recommendations was based on both the quantity and quality of available evidence supporting diagnostic and therapeutic decisions.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "推荐强度依据证据数量与质量分级"
    },
    "专家组成": {
     "evidence_quote": "his report, issued by the ACVIM Specialty of Cardiology consensus panel, revises guidelines for the diagnosis and treatment of myxomatous mitral valve disease (MMVD, also known as endocardiosis and degenerative or chronic valvular heart disease) in dogs, originally published in 2009.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "ACVIM 心脏病学专科共识小组"
    }
   }
  },
@@ -189,11 +201,11 @@
    "来源": "不适用（非原始研究）",
    "纳入标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "排除标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "疾病分期": null
   },
@@ -201,11 +213,12 @@
   "methods_slots": {
    "证据来源": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "专家组成": {
     "evidence_quote": "n update to the 2007 American College of Veterinary Internal Medicine (ACVIM) consensus statement on the identification, evaluation, and management of systemic hypertension in dogs and cats was presented at the 2017 ACVIM Forum in National Harbor, MD.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "ACVIM 共识声明更新，2017 年论坛发布"
    }
   }
  },
@@ -219,11 +232,11 @@
    "来源": "不适用（非原始研究）",
    "纳入标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "排除标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "疾病分期": null
   },
@@ -231,11 +244,12 @@
   "methods_slots": {
    "证据来源": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "专家组成": {
     "evidence_quote": "The 2018 guidelines retain much of the information in the earlier guidelines that continues to be applicable in clinical practice, along with new information that represents current expert opinion on controlling DM.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "2018 版纳入当前专家意见"
    }
   }
  },
@@ -249,11 +263,11 @@
    "来源": "不适用（非原始研究）",
    "纳入标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "排除标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "疾病分期": null
   },
@@ -261,11 +275,11 @@
   "methods_slots": {
    "证据来源": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "专家组成": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    }
   }
  },
@@ -279,23 +293,25 @@
    "来源": "不适用（非原始研究）",
    "纳入标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "排除标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "疾病分期": null
   },
   "text_source": "摘要",
   "methods_slots": {
    "证据来源": {
-    "evidence_quote": "ince 1979 and 1980 when the first reports of clinical feline hyperthyroidism (FHT) appeared in the literature, our understanding of the disease has evolved tremendously.",
-    "status": "已报告"
+    "status": "摘要未提及",
+    "rejected_quote": "ince 1979 and 1980 when the first reports of clinical feline hyperthyroidism (FHT) appeared in the literature, our understanding of the disease has evolved tremendously.",
+    "evidence_quote": null
    },
    "专家组成": {
-    "evidence_quote": "Inclusion of the measurement of total thyroxine concentration in senior wellness panels, as well as in diagnostic work-ups for sick cats, now enables diagnosis of the condition long before the cat becomes the classic scrawny, unkempt, agitated patient with a bulge in its neck.",
-    "status": "已报告"
+    "status": "摘要未提及",
+    "rejected_quote": "Inclusion of the measurement of total thyroxine concentration in senior wellness panels, as well as in diagnostic work-ups for sick cats, now enables diagnosis of the condition long before the cat becomes the classic scrawny, unkempt, agitated patient with a bulge in its neck.",
+    "evidence_quote": null
    }
   }
  },
@@ -309,11 +325,11 @@
    "来源": "不适用（非原始研究）",
    "纳入标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "排除标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "疾病分期": null
   },
@@ -321,11 +337,13 @@
   "methods_slots": {
    "证据来源": {
     "evidence_quote": "In preparing these Guidelines, the Panel has carefully reviewed the existing published literature, and has also graded the quality of evidence for different interventions to help to provide practical recommendations on the therapeutic options for feline CKD.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "专家组复核已发表文献并对证据质量分级"
    },
    "专家组成": {
     "evidence_quote": "These ISFM Consensus Guidelines have been developed by an independent panel of clinicians and academics to provide practical advice on the diagnosis and management of this complex disease.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "ISFM 独立临床医师与学者小组"
    }
   }
  },
@@ -339,23 +357,25 @@
    "来源": "不适用（非原始研究）",
    "纳入标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "排除标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "疾病分期": null
   },
   "text_source": "摘要",
   "methods_slots": {
    "证据来源": {
-    "evidence_quote": "There is also some evidence that improved glycaemic control and reversal of glucose toxicity may promote the chances of diabetic remission.",
-    "status": "已报告"
+    "status": "摘要未提及",
+    "rejected_quote": "There is also some evidence that improved glycaemic control and reversal of glucose toxicity may promote the chances of diabetic remission.",
+    "evidence_quote": null
    },
    "专家组成": {
     "evidence_quote": "These ISFM Guidelines have been developed by an independent, international expert panel of clinicians and academics to provide practical advice on the management of routine (uncomplicated) diabetic cats.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "ISFM 国际独立专家组"
    }
   }
  },
@@ -369,11 +389,11 @@
    "来源": "不适用（非原始研究）",
    "纳入标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "排除标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "疾病分期": null
   },
@@ -381,11 +401,12 @@
   "methods_slots": {
    "证据来源": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "专家组成": {
     "evidence_quote": "his report offers a consensus opinion on the diagnosis of spontaneous canine hyperadrenocorticism.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "共识意见"
    }
   }
  },
@@ -399,11 +420,11 @@
    "来源": "不适用（非原始研究）",
    "纳入标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "排除标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "疾病分期": null
   },
@@ -411,11 +432,12 @@
   "methods_slots": {
    "证据来源": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "专家组成": {
     "evidence_quote": "FIVE 'PILLARS' FRAMEWORK: The authorship panel has organized the Guidelines around five primary concepts ('pillars') that provide the framework for a healthy feline environment.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "作者小组按五大支柱组织"
    }
   }
  },
@@ -429,11 +451,11 @@
    "来源": "不适用（非原始研究）",
    "纳入标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "排除标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "疾病分期": null
   },
@@ -441,11 +463,11 @@
   "methods_slots": {
    "证据来源": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "专家组成": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    }
   }
  },
@@ -470,12 +492,14 @@
   "text_source": "全文",
   "methods_slots": {
    "证据来源": {
-    "evidence_quote": "Courtesy of MerialSusceptible cats are most likely to be infected following contact with FCoV in faeces from asymptomatic cats.EBM ranking used in this articleEvidence-based medicine (EBM) is a process of clinical decision-making that allows clinicians to find, appraise and integrate the current best evidence with individual clinical expertise, client wishes and patient needs (see Editorial on page 529 of this special issue, doi:10.1016/j.jfms.2009.05.001).This article uses EBM ranking to grade the level of evidence of statements in relevant sections on epidemiology, diagnosis, disease managem",
-    "status": "已报告"
+    "evidence_quote": "This article uses EBM ranking to grade the level of evidence of statements in relevant sections on epidemiology, diagnosis, disease managem",
+    "status": "已报告",
+    "summary_zh": "文中采用循证医学（EBM）分级"
    },
    "专家组成": {
-    "evidence_quote": "Kittens may profit from vaccination when they have not been exposed to FCoV (eg, in an early-weaning programme), particularly if they enter a FCoV-endemic environment.European Advisory Board on Cat DiseasesThe European Advisory Board on Cat Diseases (ABCD) is a body of experts in immunology, vaccinology and clinical feline medicine that issues guidelines on prevention and management of feline infectious diseases in Europe, for the benefit of the health and welfare of cats.",
-    "status": "已报告"
+    "status": "原文未报告",
+    "rejected_quote": "Kittens may profit from vaccination when they have not been exposed to FCoV (eg, in an early-weaning programme), particularly if they enter a FCoV-endemic environment.European Advisory Board on Cat DiseasesThe European Advisory Board on Cat Diseases (ABCD) is a body of experts in immunology, vaccinology and clinical feline medicine that issues guidelines on prevention and management of feline infectious diseases in Europe, for the benefit of the health and welfare of cats.",
+    "evidence_quote": null
    }
   }
  },
@@ -489,11 +513,11 @@
    "来源": "不适用（非原始研究）",
    "纳入标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "排除标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "疾病分期": null
   },
@@ -501,11 +525,12 @@
   "methods_slots": {
    "证据来源": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "专家组成": {
     "evidence_quote": "The purposes of this consensus statement are to describe an appropriate approach for accomplishing these tasks and to provide specific recommendations for assessing and managing dogs and cats with proteinuria based on data that are currently available.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "共识声明，基于现有数据给出建议"
    }
   }
  },
@@ -519,19 +544,22 @@
    "来源": "不适用（非原始研究）",
    "纳入标准": {
     "evidence_quote": "Out of an initial 1727 documents, 20 studies met the inclusion criteria and were incorporated into this meta-analysis.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "1727 篇初筛，20 项研究符合纳入标准"
    },
    "排除标准": {
     "evidence_quote": "Inclusion and exclusion criteria: This meta-analysis included studies conducted on overweight and/or obese dogs, both male and female, neutered or intact, aged between 1 and 6 years.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "纳入超重或肥胖、1–6 岁、性别和绝育状态不限的犬研究"
    },
    "疾病分期": null
   },
   "text_source": "全文",
   "methods_slots": {
    "检索策略": {
-    "evidence_quote": "Search Strategy This meta-analysis was designed to evaluate and correlate the nutritional components of obesity-specific diets with their respective effects on weight, fat percentage, lean body mass percentage, and total weight loss in overweight and/or obese dogs.",
-    "status": "已报告"
+    "status": "原文未报告",
+    "rejected_quote": "Search Strategy This meta-analysis was designed to evaluate and correlate the nutritional components of obesity-specific diets with their respective effects on weight, fat percentage, lean body mass percentage, and total weight loss in overweight and/or obese dogs.",
+    "evidence_quote": null
    },
    "纳入标准": {
     "evidence_quote": "Out of an initial 1727 documents, 20 studies met the inclusion criteria and were incorporated into this meta-analysis.",
@@ -539,11 +567,13 @@
    },
    "偏倚评估": {
     "evidence_quote": "Eligibility Criteria After selecting the studies, a quality assessment was conducted, assigning scores based on the specific scientific criteria detailed below.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "选定研究后按特定科学标准评分做质量评估"
    },
    "合成方法": {
-    "evidence_quote": "pmc Animals (Basel) Animals (Basel) 2763 animals 101635614 animals Animals : an Open Access Journal from MDPI 2076-2615 Multidisciplinary Digital Publishing Institute (MDPI) PMC11759159 PMC11759159.1 11759159 11759159 39858209 10.3390/ani15020210 animals-15-00210 1 Systematic Review Impact of Hypocaloric Diets on Weight Loss and Body Composition in Obese Dogs: A Meta-Analysis https://orcid.org/0000-0002-1750-5764 Vanelli Karoline * https://orcid.org/0009-0004-4710-7611 Wisneski Rafael Fernando Estevão Camila https://orcid.org/0009-0002-2211-1433 Mayer Fernanda Caroline https://orcid.org/0000-0",
-    "status": "已报告"
+    "status": "原文未报告",
+    "rejected_quote": "pmc Animals (Basel) Animals (Basel) 2763 animals 101635614 animals Animals : an Open Access Journal from MDPI 2076-2615 Multidisciplinary Digital Publishing Institute (MDPI) PMC11759159 PMC11759159.1 11759159 11759159 39858209 10.3390/ani15020210 animals-15-00210 1 Systematic Review Impact of Hypocaloric Diets on Weight Loss and Body Composition in Obese Dogs: A Meta-Analysis https://orcid.org/0000-0002-1750-5764 Vanelli Karoline * https://orcid.org/0009-0004-4710-7611 Wisneski Rafael Fernando Estevão Camila https://orcid.org/0009-0002-2211-1433 Mayer Fernanda Caroline https://orcid.org/0000-0",
+    "evidence_quote": null
    }
   }
  },
@@ -557,11 +587,13 @@
    "来源": "自然发病临床病例",
    "纳入标准": {
     "evidence_quote": "Table 1 Enrollment criteria Definitive criteria FCoV-specific criteria FCoV-non-specific criteria Diagnosis - Histopathologic examination of tissues with FCoV antigen on immunohistochemistry within nucleated cells - Positive for FCoV RT-PCR on tissue specimens or biofluids (blood, cerebrospinal fluid, aqueous humor, scant/resolving effusion) - Positive for FCoV antibody titers - Documented fever ⩾103.1°F (39.5°C) - Lymphopenia - Hyperglobulinemia - A:G ratio <0.6 - Hyperbilirubinemia - Cytology of lesion(s) with pyogranulomatous inflammation determined by board-certified veterinary clinical pa",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "按确诊、FCoV 特异与非特异标准纳入（见表 1）"
    },
    "排除标准": {
     "evidence_quote": "Cats were excluded if they were moribund, had been previously treated with anti-coronavirus medications, had effusion on POCUS at the time of clinical trial screening or had any of the following: hematocrit (HCT) less than 15%, neutrophils less than 2000/µl, serum creatinine more than 2 × upper limit of normal, serum alanine aminotransferase (ALT) more than 2 × upper limit of normal or platelet count below 75,000/µl.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "濒死、曾用抗冠状病毒药、筛查时超声见积液或 HCT<15% 等排除"
    },
    "疾病分期": {
     "evidence_quote": null,
@@ -576,23 +608,28 @@
    },
    "分配隐藏": {
     "evidence_quote": "Trial design Cats were randomized 1:1 using the sealed envelope method (randomization known only to pharmacy staff and clinical trial coordinators) 30 to receive either GS-441524 (18–22 mg/kg PO) or remdesivir (38–42 mg/kg PO) (NM PharmTech) q24h for 84 days.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "信封法 1:1 随机，仅药房人员和试验协调员知晓分组"
    },
    "盲法": {
     "evidence_quote": "In this study, we evaluated the efficacy of oral remdesivir compared with oral GS-441524 in treating naturally occurring non-effusive FIP by conducting a double-blinded, non-inferiority clinical trial.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "双盲非劣效试验"
    },
    "样本量计算": {
     "evidence_quote": "Sample size determination and statistical analysis The study was powered to test the non-inferiority of orally administered remdesivir against orally administered GS-441524 for disease-free survival at 16 weeks.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "按 16 周无病生存的非劣效性计算检验效能"
    },
    "主要结局": {
     "evidence_quote": "The hypothesis of this study is that remdesivir will achieve a non-inferior primary outcome of disease-free remission compared with GS-441524 after a 12-week course of antiviral therapy.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "主要结局为 12 周疗程后无病缓解"
    },
    "统计方法": {
-    "evidence_quote": "Sample size determination and statistical analysis The study was powered to test the non-inferiority of orally administered remdesivir against orally administered GS-441524 for disease-free survival at 16 weeks.",
-    "status": "已报告"
+    "status": "原文未报告",
+    "rejected_quote": "Sample size determination and statistical analysis The study was powered to test the non-inferiority of orally administered remdesivir against orally administered GS-441524 for disease-free survival at 16 weeks.",
+    "evidence_quote": null
    },
    "试验注册": {
     "evidence_quote": null,
@@ -614,18 +651,21 @@
    },
    "排除标准": {
     "evidence_quote": "Dogs with concurrent major non‐renal diseases, specifically diseases that can lead to hypo or hypercalcemia (e.g., primary hypo‐ or hyperparathyroidism, protein‐losing enteropathy, hypo‐ or hyperadrenocorticism, or neoplasia), or other urinary tract diseases (e.g., acute kidney injury or acute exacerbation of CKD, urinary tract infection, urolithiasis) were excluded.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "合并可致低/高钙血症的重大非肾病（如甲状旁腺病、PLE、肾上腺皮质病、肿瘤）排除"
    },
    "疾病分期": {
     "evidence_quote": "Adult dogs (≥ 12‐month‐old) diagnosed with stable CKD IRIS Stages 2–4 were considered for inclusion with their owners' signed consent.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "IRIS 2–4 期稳定 CKD 成年犬"
    }
   },
   "text_source": "全文",
   "methods_slots": {
    "随机序列生成": {
     "evidence_quote": "Group allocation was done by one of the researchers (Hilla Chen), using commercial block randomization software (Sealed Envelope), while the owners, attending clinicians, and other researchers were blinded to the treatment administered.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "由一名研究者用商业区组随机软件分组"
    },
    "分配隐藏": {
     "evidence_quote": null,
@@ -633,11 +673,13 @@
    },
    "盲法": {
     "evidence_quote": "Group allocation was done by one of the researchers (Hilla Chen), using commercial block randomization software (Sealed Envelope), while the owners, attending clinicians, and other researchers were blinded to the treatment administered.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "主人、主治医师及其他研究者对治疗设盲"
    },
    "样本量计算": {
     "evidence_quote": "A priori sample size calculation (G*Power 3.1.9.7) was based on the reduction in PTH concentration as the main outcome.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "以 PTH 下降为主要结局，用 G*Power 事先计算样本量"
    },
    "主要结局": {
     "evidence_quote": null,
@@ -645,7 +687,8 @@
    },
    "统计方法": {
     "evidence_quote": "Data were analyzed using SPSS 26.0 for Windows, and p ≤ 0.05 was considered significant.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "SPSS 26.0 分析，P≤0.05 为显著"
    },
    "试验注册": {
     "evidence_quote": null,
@@ -662,16 +705,19 @@
    "物种": "cat",
    "来源": "自然发病临床病例",
    "纳入标准": {
-    "evidence_quote": "Results A total of 35 cats met the inclusion criteria, of which 20 received AB070597 and 15 received a placebo.",
-    "status": "已报告"
+    "status": "原文未报告",
+    "rejected_quote": "Results A total of 35 cats met the inclusion criteria, of which 20 received AB070597 and 15 received a placebo.",
+    "evidence_quote": null
    },
    "排除标准": {
     "evidence_quote": "Inclusion and exclusion criteria Cats of all ages and breeds with clinically stable CKD were included.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "纳入各年龄与品种、临床稳定的 CKD 猫"
    },
    "疾病分期": {
     "evidence_quote": "The aim of this study was to evaluate the effect of AB070597 on CKD in International Renal Interest Society (IRIS) stage 2 or 3 cats compared with a placebo.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "IRIS 2 或 3 期猫"
    }
   },
   "text_source": "全文",
@@ -686,11 +732,13 @@
    },
    "盲法": {
     "evidence_quote": "Therefore, the aim of this study was to evaluate the effects of AB070597 in cats with CKD through a double-blinded, placebo-controlled, prospective, randomised study.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "双盲、安慰剂对照、前瞻性随机研究"
    },
    "样本量计算": {
     "evidence_quote": "Using these data (delta 0.4, SD 0.7), sample size estimation suggested a group size of 25 at an alpha of 5% and a beta of 0.8.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "按 delta 0.4、SD 0.7 估算每组 25 只"
    },
    "主要结局": {
     "evidence_quote": null,
@@ -698,7 +746,8 @@
    },
    "统计方法": {
     "evidence_quote": "Statistical analyses were performed using the StatMate V software (Atoms).",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "StatMate V 软件分析"
    },
    "试验注册": {
     "evidence_quote": null,
@@ -715,8 +764,9 @@
    "物种": "cat",
    "来源": "自然发病临床病例",
    "纳入标准": {
-    "evidence_quote": "Inclusion Criteria and Study Cohort Client-owned cats were recruited for the study ( Table 2 and Table S1 ).",
-    "status": "已报告"
+    "status": "原文未报告",
+    "rejected_quote": "Inclusion Criteria and Study Cohort Client-owned cats were recruited for the study ( Table 2 and Table S1 ).",
+    "evidence_quote": null
    },
    "排除标准": {
     "evidence_quote": null,
@@ -735,11 +785,13 @@
    },
    "分配隐藏": {
     "evidence_quote": "Cats were randomly assigned to one of two treatment arms using envelopes as an allocation concealment method ( www.random.org (accessed on 5 September 2022)).",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "用信封作为分配隐藏，随机序列来自 random.org"
    },
    "盲法": {
     "evidence_quote": "Allocation to groups was blinded until day 7 of the study, when envelopes were opened.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "分组在第 7 天开封前保持盲态"
    },
    "样本量计算": {
     "evidence_quote": null,
@@ -747,11 +799,13 @@
    },
    "主要结局": {
     "evidence_quote": "The primary outcome parameter was the remission rate at day 84.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "主要结局为第 84 天缓解率"
    },
    "统计方法": {
     "evidence_quote": "During the treatment, all variables were analyzed using mixed-effects linear models, with an individual cat as a random effect due to the repeated measures for an individual cat on multiple days.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "混合效应线性模型，个体猫为随机效应"
    },
    "试验注册": {
     "evidence_quote": null,
@@ -769,22 +823,26 @@
    "来源": "自然发病临床病例",
    "纳入标准": {
     "evidence_quote": "Cats were eligible for MAGMA enrollment if they were diagnosed with azotemic CKD and had normal calcium concentrations (plasma tCa ≤11.8 mg/dL and blood ionized calcium concentration [iCa] ≤6 mg/dL) and had been stabilized on a PRD (Feline Veterinary Diet Renal [dry and wet], Royal Canin SAS, Aimargues, France [dry] and Masterfoods, Bruck, Austria [wet]) with a phosphorus content of 0.7 to 1.1 g/Mcal and calcium‐to‐phosphorus ratio (Ca : P) of 1.3‐2 (see Table S3 for diet composition).",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "诊断为氮质血症 CKD 且血钙正常的猫"
    },
    "排除标准": {
     "evidence_quote": "5 Cats were excluded if they had suspected hyperthyroidism, plasma total thyroxine concentration >40 nmol/L, were undergoing medical treatment for hyperthyroidism, or had comorbid disease conditions including diabetes mellitus, bacterial urinary tract infection (UTI), food hypersensitivity to poultry (both trial diets were poultry‐based), a history of struvite crystalluria within the previous 12 months, or were receiving corticosteroids, furosemide, bisphosphonates, calcium‐based phosphate binders, or angiotensin II receptor blockers (ARB).",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "疑似或正在治疗甲亢、总 T4>40 nmol/L 等排除"
    },
    "疾病分期": {
-    "evidence_quote": "Abbreviations β coefficient ALT alanine aminotransferase ARB angiotensin II receptor blocker BCS body condition score Ca : P calcium‐to‐phosphorus ratio CKD chronic kidney disease CKD‐MBD chronic kidney disease–mineral and bone disorder CONSORT Consolidated Standards of Reporting Trials EDTA ethylenediaminetetraacetic acid FGF23 fibroblast growth factor‐23 HCO 3 − bicarbonate iCa ionized calcium concentration IRIS International Renal Interest Society ln natural logarithm ln[FGF23] log‐transformed fibroblast growth factor‐23 ln[PTH] log‐transformed parathyroid hormone MCS muscle condition score",
-    "status": "已报告"
+    "status": "原文未报告",
+    "rejected_quote": "Abbreviations β coefficient ALT alanine aminotransferase ARB angiotensin II receptor blocker BCS body condition score Ca : P calcium‐to‐phosphorus ratio CKD chronic kidney disease CKD‐MBD chronic kidney disease–mineral and bone disorder CONSORT Consolidated Standards of Reporting Trials EDTA ethylenediaminetetraacetic acid FGF23 fibroblast growth factor‐23 HCO 3 − bicarbonate iCa ionized calcium concentration IRIS International Renal Interest Society ln natural logarithm ln[FGF23] log‐transformed fibroblast growth factor‐23 ln[PTH] log‐transformed parathyroid hormone MCS muscle condition score",
+    "evidence_quote": null
    }
   },
   "text_source": "全文",
   "methods_slots": {
    "随机序列生成": {
     "evidence_quote": "Block randomization with a block size of 6 cats was used, with treatment allocation ratio set at 1 to 1.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "区组随机，区组大小 6，1:1 分配"
    },
    "分配隐藏": {
     "evidence_quote": null,
@@ -792,11 +850,13 @@
    },
    "盲法": {
     "evidence_quote": "Study design A prospective, double‐blinded, parallel‐group randomized controlled dietary trial (referred to herein as MAGMA) was designed to evaluate the effects of a magnesium‐enriched phosphate‐restricted diet (PRD), containing additional magnesium oxide (MgO), on CKD‐MBD variables when fed for 12 to 16 weeks to cats with azotemic CKD.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "双盲、平行组随机对照饮食试验"
    },
    "样本量计算": {
     "evidence_quote": "Sample size calculation Before trial commencement, a pilot study was conducted to evaluate the change in plasma FGF23 concentration after PO administration of magnesium glycinate.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "试验前做预试验估计 FGF23 变化以计算样本量"
    },
    "主要结局": {
     "evidence_quote": null,
@@ -804,7 +864,8 @@
    },
    "统计方法": {
     "evidence_quote": "Statistical analyses Statistical analyses were performed using R software (R 4.1.1 GUI 1.77 High Sierra build, R Foundation for Statistical Computing, Vienna, Austria).",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "R 4.1.1 统计分析"
    },
    "试验注册": {
     "evidence_quote": null,
@@ -822,11 +883,13 @@
    "来源": "自然发病临床病例",
    "纳入标准": {
     "evidence_quote": "Inclusion criteria—screening Exclusion criteria—screening Exclusion—postinclusion Signed owner consent in accordance with GCP and local legislation History of inappetence within 14 days before screening visit Withdrawal of owner consent Age ≥1 year History of chronic or acute vomiting within 14 days before screening visit a Repeated clinical hypoglycemia Naïve diabetic (defined as not insulin pretreated for more than 4 days) or previously treated with insulin History of chronic or acute diarrhea within 14 days before screening visit Occurrence of an adverse event that requires withdrawal (eg, ",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "纳入、筛查排除及入组后排除标准列于表格"
    },
    "排除标准": {
-    "evidence_quote": "Candidate client‐owned diabetic cats were considered suitable for inclusion in case of signed informed consent and fulfillment of all inclusion and none of the exclusion criteria (Table 1 ) at time of screening on Day −7 to Day −1 before trial start (Day 0).",
-    "status": "已报告"
+    "status": "原文未报告",
+    "rejected_quote": "Candidate client‐owned diabetic cats were considered suitable for inclusion in case of signed informed consent and fulfillment of all inclusion and none of the exclusion criteria (Table 1 ) at time of screening on Day −7 to Day −1 before trial start (Day 0).",
+    "evidence_quote": null
    },
    "疾病分期": {
     "evidence_quote": null,
@@ -837,7 +900,8 @@
   "methods_slots": {
    "随机序列生成": {
     "evidence_quote": "Included cats were randomized (using permuted‐block randomization lists) in a 1 : 1 ratio to oral q24h velagliflozin (velagliflozin group; 1 mg/kg; given with or without feeding at a time convenient to the owner; 24 hours apart) or q12h SC Caninsulin injection (insulin group; given at time of food, 12 hours apart).",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "置换区组随机表，1:1 分配"
    },
    "分配隐藏": {
     "evidence_quote": null,
@@ -849,15 +913,18 @@
    },
    "样本量计算": {
     "evidence_quote": "Sample size calculation is detailed in Data S1 .",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "样本量计算见补充材料 S1"
    },
    "主要结局": {
-    "evidence_quote": "TABLE 8 Primary endpoint analysis on Day 45.",
-    "status": "已报告"
+    "status": "原文未报告",
+    "rejected_quote": "TABLE 8 Primary endpoint analysis on Day 45.",
+    "evidence_quote": null
    },
    "统计方法": {
     "evidence_quote": "Statistical analysis For the purpose of primary efficacy endpoint analysis, noninferiority was tested with hypotheses: H0: Overall treatment success rate of insulin group−overall treatment success rate of velagliflozin group ≥15%; H1: Overall treatment success rate of insulin group−overall treatment success rate of velagliflozin group <15%, implying that 15% was the prespecified noninferiority margin.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "主要疗效终点做非劣效检验"
    },
    "试验注册": {
     "evidence_quote": null,
@@ -875,11 +942,13 @@
    "来源": "自然发病临床病例",
    "纳入标准": {
     "evidence_quote": "Inclusion Criteria A diagnosis of effusive FIP was made if pleural, peritoneal, or pericardial effusion was noted and (1) there was detection of FCoV antigen by immunohistochemistry in the context of biopsied granulomatous lesions as determined by a veterinary pathologist [ 17 , 18 ] or (2) detection of FCoV antigen by immunocytochemistry within nucleated cells upon cytologic evaluation of effusions as determined by a veterinary pathologist [ 19 , 20 , 21 ].",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "有积液且免疫组化检出 FCoV 抗原等条件诊断积液型 FIP"
    },
    "排除标准": {
     "evidence_quote": "Cats were excluded from the clinical trial if they had been treated with any anti-coronaviral medications before enrollment, if the cat or caretaker was unable to cooperate fully with the requirements of the study protocol, including the schedule of assessments, or was likely to be non-compliant with any study requirements.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "曾用抗冠状病毒药或无法配合方案等排除"
    },
    "疾病分期": {
     "evidence_quote": null,
@@ -897,8 +966,9 @@
     "status": "原文未报告"
    },
    "盲法": {
-    "evidence_quote": "pmc Viruses Viruses 1559 viruses 101509722 viruses Viruses 1999-4915 Multidisciplinary Digital Publishing Institute (MDPI) PMC10458979 PMC10458979.1 10458979 10458979 37632022 10.3390/v15081680 viruses-15-01680 1 Article Efficacy of Oral Remdesivir Compared to GS-441524 for Treatment of Cats with Naturally Occurring Effusive Feline Infectious Peritonitis: A Blinded, Non-Inferiority Study Cosaro Emma Conceptualization Methodology Formal analysis Investigation Data curation Writing – original draft Writing – review & editing Visualization Funding acquisition 1 * Pires Jully Methodology Formal an",
-    "status": "已报告"
+    "status": "原文未报告",
+    "rejected_quote": "pmc Viruses Viruses 1559 viruses 101509722 viruses Viruses 1999-4915 Multidisciplinary Digital Publishing Institute (MDPI) PMC10458979 PMC10458979.1 10458979 10458979 37632022 10.3390/v15081680 viruses-15-01680 1 Article Efficacy of Oral Remdesivir Compared to GS-441524 for Treatment of Cats with Naturally Occurring Effusive Feline Infectious Peritonitis: A Blinded, Non-Inferiority Study Cosaro Emma Conceptualization Methodology Formal analysis Investigation Data curation Writing – original draft Writing – review & editing Visualization Funding acquisition 1 * Pires Jully Methodology Formal an",
+    "evidence_quote": null
    },
    "样本量计算": {
     "evidence_quote": null,
@@ -906,11 +976,13 @@
    },
    "主要结局": {
     "evidence_quote": "A primary outcome measure of survival and disease remission as defined by absence of effusion and resolution of all clinical signs at 16 weeks was established.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "主要结局为 16 周时生存且缓解（无积液、临床症状消失）"
    },
    "统计方法": {
     "evidence_quote": "Survival Evaluation and Statistical Analysis A non-inferiority margin of 15% was selected based on perceived clinically relevant changes in outcomes.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "非劣效界值 15%"
    },
    "试验注册": {
     "evidence_quote": null,
@@ -927,12 +999,14 @@
    "物种": "dog",
    "来源": "自然发病临床病例",
    "纳入标准": {
-    "evidence_quote": "Dogs Enrollment Criteria Dogs were eligible for participation in the study provided that the owner had given informed consent.",
-    "status": "已报告"
+    "status": "原文未报告",
+    "rejected_quote": "Dogs Enrollment Criteria Dogs were eligible for participation in the study provided that the owner had given informed consent.",
+    "evidence_quote": null
    },
    "排除标准": {
     "evidence_quote": "16 Exclusion Criteria Dogs were excluded from the study if they had any of the following: known clinically important systemic or other organ‐related disease that was expected to limit the dog's life expectancy or required chronic cardiovascular medication precluded as part of the trial (Table 1 ).",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "有预计缩短寿命或需长期治疗的其他系统疾病等排除"
    },
    "疾病分期": {
     "evidence_quote": null,
@@ -943,7 +1017,8 @@
   "methods_slots": {
    "随机序列生成": {
     "evidence_quote": "Randomization and Allocation Block randomization 17 was used with a 1:1 allocation ratio in blocks of 20 to maintain similar sample sizes in both treatment groups.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "区组随机，1:1，区组大小 20"
    },
    "分配隐藏": {
     "evidence_quote": null,
@@ -951,23 +1026,28 @@
    },
    "盲法": {
     "evidence_quote": "Methods Prospective, randomized, placebo‐controlled, blinded, multicenter clinical trial.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "前瞻性、随机、安慰剂对照、盲法、多中心"
    },
    "样本量计算": {
     "evidence_quote": "Statistical Methods Power Calculation Power calculations for study population size were performed by nQuery platform.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "用 nQuery 做检验效能计算"
    },
    "主要结局": {
     "evidence_quote": "Primary outcome variable was time to a composite of the onset of CHF, cardiac‐related death, or euthanasia.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "主要结局为发生 CHF、心源性死亡或安乐死的复合终点"
    },
    "统计方法": {
     "evidence_quote": "Statistical analyses were performed by a statistician 3 independent of the sponsor by a commercially available software program.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "由独立于申办方的统计师分析"
    },
    "试验注册": {
-    "evidence_quote": "Trial Medication Pimobendan verum (Vetmedin 2.5 mg chewable tablets) was administered PO at a target dose of 0.4–0.6 mg/kg/d as per registered label instructions in most countries where the product was licensed.",
-    "status": "已报告"
+    "status": "原文未报告",
+    "rejected_quote": "Trial Medication Pimobendan verum (Vetmedin 2.5 mg chewable tablets) was administered PO at a target dose of 0.4–0.6 mg/kg/d as per registered label instructions in most countries where the product was licensed.",
+    "evidence_quote": null
    }
   }
  },
@@ -985,7 +1065,8 @@
    },
    "排除标准": {
     "evidence_quote": "All cats for which data could not be accurately retrieved were excluded from analysis.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "无法准确提取数据的猫排除"
    },
    "疾病分期": {
     "evidence_quote": null,
@@ -995,12 +1076,14 @@
   "text_source": "全文",
   "methods_slots": {
    "研究设计": {
-    "evidence_quote": "3 A recent retrospective study reported an increased odds of diagnosis of CKD in cats with weight loss, thin body condition, dehydration, a recent history of general anesthesia, prior diagnosis of periodontal disease or cystitis and being male.",
-    "status": "已报告"
+    "status": "原文未报告",
+    "rejected_quote": "3 A recent retrospective study reported an increased odds of diagnosis of CKD in cats with weight loss, thin body condition, dehydration, a recent history of general anesthesia, prior diagnosis of periodontal disease or cystitis and being male.",
+    "evidence_quote": null
    },
    "研究场所与时间": {
     "evidence_quote": "Materials and Methods Study population Healthy geriatric (>9 years old) nonazotemic (plasma creatinine concentration <2.0 mg/dL [177 μmol/L]) cats were recruited into a longitudinal study between 2005 and 2009 that was conducted at 2 London‐based first opinion practices (Beaumont Sainsbury Animals' Hospital [BAH], Royal Veterinary College, Camden and People's Dispensary for Sick Animals [PDSA], Bow).",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "2005–2009 年伦敦初诊诊所的纵向研究"
    },
    "暴露与结局定义": {
     "evidence_quote": null,
@@ -1008,15 +1091,18 @@
    },
    "混杂处理": {
     "evidence_quote": "Variables were explored in univariable and multivariable Cox regression models.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "单变量与多变量 Cox 回归"
    },
    "缺失数据": {
-    "evidence_quote": "Abbreviations BAH Beaumont Sainsbury Animals' Hospital CKD chronic kidney disease CRFK Crandell‐Rees feline kidney DSH domestic short hair DLH domestic long hair FIV feline immunodeficiency virus GIS geospatial information system GFR glomerular filtration rate LTF lost to follow‐up KEEP National Kidney Foundation's Kidney Early Evaluation Program PDSA People's Dispensary for Sick Animals USG urine specific gravity Chronic kidney disease (CKD) has a high prevalence in both humans and domestic cats.",
-    "status": "已报告"
+    "status": "原文未报告",
+    "rejected_quote": "Abbreviations BAH Beaumont Sainsbury Animals' Hospital CKD chronic kidney disease CRFK Crandell‐Rees feline kidney DSH domestic short hair DLH domestic long hair FIV feline immunodeficiency virus GIS geospatial information system GFR glomerular filtration rate LTF lost to follow‐up KEEP National Kidney Foundation's Kidney Early Evaluation Program PDSA People's Dispensary for Sick Animals USG urine specific gravity Chronic kidney disease (CKD) has a high prevalence in both humans and domestic cats.",
+    "evidence_quote": null
    },
    "统计方法": {
-    "evidence_quote": "Because of the low numbers in each breed group, cats were classified as domestic short hair (DSH)/domestic long hair (DLH) or pedigree for statistical analysis.",
-    "status": "已报告"
+    "status": "原文未报告",
+    "rejected_quote": "Because of the low numbers in each breed group, cats were classified as domestic short hair (DSH)/domestic long hair (DLH) or pedigree for statistical analysis.",
+    "evidence_quote": null
    }
   }
  },
@@ -1030,46 +1116,46 @@
    "来源": "自然发病临床病例",
    "纳入标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "排除标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "疾病分期": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    }
   },
   "text_source": "摘要",
   "methods_slots": {
    "随机序列生成": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "分配隐藏": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "盲法": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "样本量计算": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "主要结局": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "统计方法": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "试验注册": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    }
   }
  },
@@ -1083,15 +1169,18 @@
    "来源": "自然发病临床病例",
    "纳入标准": {
     "evidence_quote": "Inclusion Criteria Cats of either sex were eligible for inclusion only if owner informed consent was given and they were >2.0 kg body weight and diagnosed with clinically stable CKD International Renal Interest Society (IRIS) 27 stage 2–3.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "体重>2.0 kg、临床稳定的 IRIS CKD 猫（需主人知情同意）"
    },
    "排除标准": {
     "evidence_quote": "Exclusion Criteria Cats were ineligible for inclusion if they had received ACEinhibitors, ARBs or other vasodilating agents, or diuretics (eg, furosemide) <14 days before screening or had their diet changed <4 weeks before screening.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "筛查前 14 天内用过 ACEI、ARB、扩血管药或利尿剂，或 4 周内换粮者排除"
    },
    "疾病分期": {
-    "evidence_quote": "Abbreviations ACE angiotensin converting enzyme AE adverse event AT‐II angiotensin‐II ARB angiotensin receptor blocker AT 1 angiotensin II type 1 receptor AT 2 angiotensin II type 2 receptor AUC area under curve CFU colony forming units CI confidence interval CKD chronic kidney disease CP control product (benazepril) GCP good clinical practice GFR glomerular filtration rate ITT intention‐to‐treat population IVP investigational product (telmisartan) IRIS International Renal Interest Society NYHA New York Heart Association UP/C urine protein‐to‐creatinine ratio PPAR‐γ peroxisome proliferator‐act",
-    "status": "已报告"
+    "status": "原文未报告",
+    "rejected_quote": "Abbreviations ACE angiotensin converting enzyme AE adverse event AT‐II angiotensin‐II ARB angiotensin receptor blocker AT 1 angiotensin II type 1 receptor AT 2 angiotensin II type 2 receptor AUC area under curve CFU colony forming units CI confidence interval CKD chronic kidney disease CP control product (benazepril) GCP good clinical practice GFR glomerular filtration rate ITT intention‐to‐treat population IVP investigational product (telmisartan) IRIS International Renal Interest Society NYHA New York Heart Association UP/C urine protein‐to‐creatinine ratio PPAR‐γ peroxisome proliferator‐act",
+    "evidence_quote": null
    }
   },
   "text_source": "全文",
@@ -1106,23 +1195,28 @@
    },
    "盲法": {
     "evidence_quote": "Methods Prospective, multicenter, controlled, randomized, parallel group, blinded clinical trial with noninferiority design.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "前瞻性、多中心、对照、随机、平行组、盲法非劣效试验"
    },
    "样本量计算": {
     "evidence_quote": "Because internal pilot and published data 4 showed a skewed distribution of the calculated AUC UP/C values, sample size determination and statistical analysis of the primary efficacy variable were based on the log transformed AUC UP/C values.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "基于对数转换后的 AUC UP/C 计算样本量"
    },
    "主要结局": {
     "evidence_quote": "The primary endpoint was prospectively defined as the change in proteinuria (benazepril:telmisartan) based on a log transformed weighted average of UP/C change from baseline (AUC 0→t/t) as a percentage compared using a confidence interval (CI) approach.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "主要终点为蛋白尿变化（对数转换的 UP/C AUC）"
    },
    "统计方法": {
-    "evidence_quote": "Because internal pilot and published data 4 showed a skewed distribution of the calculated AUC UP/C values, sample size determination and statistical analysis of the primary efficacy variable were based on the log transformed AUC UP/C values.",
-    "status": "已报告"
+    "status": "原文未报告",
+    "rejected_quote": "Because internal pilot and published data 4 showed a skewed distribution of the calculated AUC UP/C values, sample size determination and statistical analysis of the primary efficacy variable were based on the log transformed AUC UP/C values.",
+    "evidence_quote": null
    },
    "试验注册": {
-    "evidence_quote": "Elliott has acted as a paid independent consultant to Boehringer Ingelheim Vetmedica GmbH providing advice on study design and critically evaluating the results of the study for registration purposes.",
-    "status": "已报告"
+    "status": "原文未报告",
+    "rejected_quote": "Elliott has acted as a paid independent consultant to Boehringer Ingelheim Vetmedica GmbH providing advice on study design and critically evaluating the results of the study for registration purposes.",
+    "evidence_quote": null
    }
   }
  },
@@ -1136,42 +1230,45 @@
    "来源": "自然发病临床病例",
    "纳入标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "排除标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "疾病分期": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    }
   },
   "text_source": "摘要",
   "methods_slots": {
    "研究设计": {
-    "evidence_quote": "Previous studies investigating risk factors for feline obesity have been cross-sectional, where reverse causality cannot be ruled out.",
-    "status": "已报告"
+    "status": "摘要未提及",
+    "rejected_quote": "Previous studies investigating risk factors for feline obesity have been cross-sectional, where reverse causality cannot be ruled out.",
+    "evidence_quote": null
    },
    "研究场所与时间": {
     "evidence_quote": "Data analysed were collected via three owner-completed questionnaires (for cats aged 2-4 months, 6.5-7 months and 12.5-13 months) completed between May 2010 and August 2013.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "2010 年 5 月至 2013 年 8 月三次主人问卷"
    },
    "暴露与结局定义": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "混杂处理": {
     "evidence_quote": "Significant potential explanatory variables from univariable logistic regression models were included in multivariable logistic regression models built using stepwise forward-selection.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "单变量筛选后进入多变量逻辑回归（逐步前向）"
    },
    "缺失数据": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "统计方法": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    }
   }
  },
@@ -1185,46 +1282,47 @@
    "来源": "自然发病临床病例",
    "纳入标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "排除标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "疾病分期": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    }
   },
   "text_source": "摘要",
   "methods_slots": {
    "随机序列生成": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "分配隐藏": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "盲法": {
     "evidence_quote": "The aim of this placebo-controlled, double-masked crossover clinical trial was to evaluate the effects of mirtazapine on bodyweight, appetite and vomiting in cats with CKD.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "安慰剂对照、双盲交叉试验"
    },
    "样本量计算": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "主要结局": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "统计方法": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "试验注册": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    }
   }
  },
@@ -1237,12 +1335,14 @@
    "物种": "dog",
    "来源": "自然发病临床病例",
    "纳入标准": {
-    "evidence_quote": "In each country, owners were invited to present apparently healthy Dobermans for screening to determine their eligibility for study participation.",
-    "status": "已报告"
+    "status": "原文未报告",
+    "rejected_quote": "In each country, owners were invited to present apparently healthy Dobermans for screening to determine their eligibility for study participation.",
+    "evidence_quote": null
    },
    "排除标准": {
-    "evidence_quote": "The study conducted by one of the authors [MOG] assessed the relationship between left ventricular dimension and body weight resulting in the equation; predicted LVIDS equals 0.1402 × BW + 26.7 mm.) Body Weight (kg) up to: LVIDS ≥ (mm) 25 38.8 30 39.5 35 40.2 40 40.9 45 41.6 50 42.3 Exclusion Criteria Dogs were ineligible for inclusion in the study if they had any of the following: other cardiac disease (congenital or acquired); current or previous clinical signs attributable to DCM; an episode of syncope within the previous 6 months; sustained (≥30 seconds) ventricular tachycardia based on ev",
-    "status": "已报告"
+    "status": "原文未报告",
+    "rejected_quote": "The study conducted by one of the authors [MOG] assessed the relationship between left ventricular dimension and body weight resulting in the equation; predicted LVIDS equals 0.1402 × BW + 26.7 mm.) Body Weight (kg) up to: LVIDS ≥ (mm) 25 38.8 30 39.5 35 40.2 40 40.9 45 41.6 50 42.3 Exclusion Criteria Dogs were ineligible for inclusion in the study if they had any of the following: other cardiac disease (congenital or acquired); current or previous clinical signs attributable to DCM; an episode of syncope within the previous 6 months; sustained (≥30 seconds) ventricular tachycardia based on ev",
+    "evidence_quote": null
    },
    "疾病分期": {
     "evidence_quote": null,
@@ -1261,19 +1361,23 @@
    },
    "盲法": {
     "evidence_quote": "Methods The trial was a randomized, blinded, placebo-controlled, parallel group multicenter study.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "随机、盲法、安慰剂对照、平行组、多中心"
    },
    "样本量计算": {
     "evidence_quote": "Statistical Methods Power Analysis An a priori power analysis was undertaken to determine the group sizes required for the study.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "事先做检验效能分析确定组样本量"
    },
    "主要结局": {
     "evidence_quote": "The composite primary endpoint was prospectively defined as either onset of CHF or sudden death.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "主要终点为发生 CHF 或猝死的复合终点"
    },
    "统计方法": {
-    "evidence_quote": "For all other statistical analyses, P < .05 was considered significant.",
-    "status": "已报告"
+    "status": "原文未报告",
+    "rejected_quote": "For all other statistical analyses, P < .05 was considered significant.",
+    "evidence_quote": null
    },
    "试验注册": {
     "evidence_quote": null,
@@ -1291,46 +1395,49 @@
    "来源": "自然发病临床病例",
    "纳入标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "排除标准": {
     "evidence_quote": "Eight dogs were excluded from analysis.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "8 只犬被排除出分析"
    },
    "疾病分期": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    }
   },
   "text_source": "摘要",
   "methods_slots": {
    "随机序列生成": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "分配隐藏": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "盲法": {
     "evidence_quote": "A prospective single-blinded study with dogs randomized to PO receive pimobendan (0.4-0.6 mg/kg/d) or benazepril hydrochloride (0.25-1.0 mg/kg/d).",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "前瞻性单盲"
    },
    "样本量计算": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "主要结局": {
     "evidence_quote": "The primary endpoint was a composite of cardiac death, euthanized for heart failure, or treatment failure.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "主要终点为心源性死亡、因心衰安乐死或治疗失败的复合终点"
    },
    "统计方法": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "试验注册": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    }
   }
  },
@@ -1344,46 +1451,48 @@
    "来源": "自然发病临床病例",
    "纳入标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "排除标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "疾病分期": {
     "evidence_quote": "bjective-To determine whether a renal diet modified in protein, phosphorus, sodium, and lipid content was superior to an adult maintenance diet in minimizing uremic episodes and mortality rate in cats with stage 2 or 3 chronic kidney disease (CKD).",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "2 或 3 期 CKD 猫"
    }
   },
   "text_source": "摘要",
   "methods_slots": {
    "随机序列生成": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "分配隐藏": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "盲法": {
     "evidence_quote": "Design-Double-masked, randomized, controlled clinical trial.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "双盲、随机、对照"
    },
    "样本量计算": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "主要结局": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "统计方法": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "试验注册": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    }
   }
  },
@@ -1397,46 +1506,46 @@
    "来源": "自然发病临床病例",
    "纳入标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "排除标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "疾病分期": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    }
   },
   "text_source": "摘要",
   "methods_slots": {
    "随机序列生成": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "分配隐藏": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "盲法": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "样本量计算": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "主要结局": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "统计方法": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "试验注册": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    }
   }
  },
@@ -1450,42 +1559,43 @@
    "来源": "自然发病临床病例",
    "纳入标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "排除标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "疾病分期": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    }
   },
   "text_source": "摘要",
   "methods_slots": {
    "研究设计": {
     "evidence_quote": "Prospective cohort study.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "前瞻性队列研究"
    },
    "研究场所与时间": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "暴露与结局定义": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "混杂处理": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "缺失数据": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "统计方法": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    }
   }
  },
@@ -1499,46 +1609,47 @@
    "来源": "自然发病临床病例",
    "纳入标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "排除标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "疾病分期": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    }
   },
   "text_source": "摘要",
   "methods_slots": {
    "随机序列生成": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "分配隐藏": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "盲法": {
     "evidence_quote": "Double-masked, randomized, controlled clinical trial.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "双盲、随机、对照"
    },
    "样本量计算": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "主要结局": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "统计方法": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "试验注册": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    }
   }
  },
@@ -1552,34 +1663,41 @@
    "来源": "自然发病临床病例",
    "纳入标准": {
     "evidence_quote": "Study cohort Client-owned dogs aged 1 year or older were eligible for inclusion if they presented to either hospital for management or monitoring of International Renal Interest Society (IRIS) stages II-IV CKD between June 2022 and August 2024.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "1 岁以上、IRIS II–IV 期 CKD 的就诊犬"
    },
    "排除标准": {
     "evidence_quote": "Exclusion criteria included evidence of active urine sediment (>5 white blood cells per high-power field [HPF], > 5 red blood cells per HPF, or bacteriuria), or receipt of alkali therapy, potassium-sparing diuretics, or the need for hospitalization for CKD management, or a documented history of congestive heart failure.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "活动性尿沉渣或接受碱化治疗、保钾利尿剂等排除"
    },
    "疾病分期": {
     "evidence_quote": "Animals Fifty client-owned dogs with International Renal Interest Society (IRIS) stages II-IV CKD receiving a therapeutic renal diet.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "IRIS II–IV 期 CKD 犬，接受肾病处方粮"
    }
   },
   "text_source": "全文",
   "methods_slots": {
    "研究设计": {
     "evidence_quote": "Methods Prospective, observational longitudinal study.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "前瞻性观察纵向研究"
    },
    "研究场所与时间": {
     "evidence_quote": "Study cohort Client-owned dogs aged 1 year or older were eligible for inclusion if they presented to either hospital for management or monitoring of International Renal Interest Society (IRIS) stages II-IV CKD between June 2022 and August 2024.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "2022 年 6 月至 2024 年 8 月，两家医院"
    },
    "暴露与结局定义": {
     "evidence_quote": "Progressive CKD was defined as a > 25% increase in serum creatinine from baseline.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "进展定义为血肌酐较基线升高>25%"
    },
    "混杂处理": {
     "evidence_quote": "To reduce overfitting relative to the number of observed events, a parsimonious multivariable model was constructed including serum phosphorus and UPC ratio, given their established prognostic importance in canine CKD, and serum bicarbonate based on its mechanistic relationship to renal ammoniagenesis and acid–base homeostasis.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "简约多变量模型（磷、UPC 等）以减少过拟合"
    },
    "缺失数据": {
     "evidence_quote": null,
@@ -1587,7 +1705,8 @@
    },
    "统计方法": {
     "evidence_quote": "Statistical analysis All data were recorded in a Microsoft Excel (Microsoft Office, 2019) and analyzed using GraphPad Prism version 10.5 (GraphPad Software, San Diego, CA).",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "GraphPad Prism 10.5"
    }
   }
  },
@@ -1601,42 +1720,42 @@
    "来源": "自然发病临床病例",
    "纳入标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "排除标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "疾病分期": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    }
   },
   "text_source": "摘要",
   "methods_slots": {
    "研究设计": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "研究场所与时间": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "暴露与结局定义": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "混杂处理": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "缺失数据": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "统计方法": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    }
   }
  },
@@ -1650,42 +1769,43 @@
    "来源": "自然发病临床病例",
    "纳入标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "排除标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "疾病分期": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    }
   },
   "text_source": "摘要",
   "methods_slots": {
    "研究设计": {
     "evidence_quote": "Retrospective case-control study.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "回顾性病例对照"
    },
    "研究场所与时间": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "暴露与结局定义": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "混杂处理": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "缺失数据": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "统计方法": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    }
   }
  },
@@ -1699,11 +1819,13 @@
    "来源": "自然发病临床病例",
    "纳入标准": {
     "evidence_quote": "2.2.1 Inclusion criteria Medical records were searched for cats diagnosed with preclinical hypertrophic cardiomyopathy (both HCM and HOCM) as well as AH free of cardiomyopathy, the health outcomes of which could be ascertained for at least 5 years after initial diagnosis.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "检索病历中临床前 HCM/HOCM 猫及无心肌病对照"
    },
    "排除标准": {
     "evidence_quote": "2.2.2 Exclusion criteria Cats were not included in the study if echocardiograms were of non‐diagnostic quality, or if any of the following conditions were diagnosed at or before study entry: CHF, ATE, syncope, heartworm disease, systemic arterial hypertension (defined as acute neurologic signs or retinal changes consistent with systemic hypertension, or when measured systolic arterial blood pressure [SBP] ≥ 180 mm Hg), hyperthyroidism, anemia, renal disease (either serum creatinine concentration above laboratory reference range, urine concentrating ability deemed to be inadequate, or proteinur",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "超声不合格或入组前已有 CHF、ATE、晕厥等排除"
    },
    "疾病分期": {
     "evidence_quote": null,
@@ -1714,27 +1836,32 @@
   "methods_slots": {
    "研究设计": {
     "evidence_quote": "Methods Retrospective multicenter, longitudinal, cohort study.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "回顾性多中心纵向队列"
    },
    "研究场所与时间": {
     "evidence_quote": "52 2.5 Data collection and outcomes assessment Cats for which first diagnosis was made between November 2001 and January 2011 were assessed during the study period, which extended between January 2010 and January 2016.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "首次诊断 2001.11–2011.1，研究期 2010.1–2016.1"
    },
    "暴露与结局定义": {
     "evidence_quote": "Sudden death was defined as unanticipated death with absence of clinical signs or illness within 24 hours of last being observed healthy, or occurring at least 7 days after resolution of CHF.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "猝死定义为观察健康后 24 小时内意外死亡"
    },
    "混杂处理": {
     "evidence_quote": null,
     "status": "原文未报告"
    },
    "缺失数据": {
-    "evidence_quote": "End‐date was defined as first instance of death, cardiovascular morbidity, or being lost to follow‐up, depending upon the analysis.",
-    "status": "已报告"
+    "status": "原文未报告",
+    "rejected_quote": "End‐date was defined as first instance of death, cardiovascular morbidity, or being lost to follow‐up, depending upon the analysis.",
+    "evidence_quote": null
    },
    "统计方法": {
-    "evidence_quote": "2.6 Statistical analysis Power calculation to estimate study population size was guided by results of prior studies, 7 , 9 and a planned 5‐year minimum follow‐up period.",
-    "status": "已报告"
+    "status": "原文未报告",
+    "rejected_quote": "2.6 Statistical analysis Power calculation to estimate study population size was guided by results of prior studies, 7 , 9 and a planned 5‐year minimum follow‐up period.",
+    "evidence_quote": null
    }
   }
  },
@@ -1748,42 +1875,45 @@
    "来源": "自然发病临床病例",
    "纳入标准": {
     "evidence_quote": "In this prospective, cross-sectional study, the inclusion criteria were: apparently healthy cats, aged ≥ 6 months, available for rehoming over a 17-month period from two rehoming centres.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "≥6 月龄、外观健康、待领养的猫"
    },
    "排除标准": {
     "evidence_quote": "Hypertensive or hyperthyroid cats were excluded.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "高血压或甲亢猫排除"
    },
    "疾病分期": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    }
   },
   "text_source": "摘要",
   "methods_slots": {
    "研究设计": {
     "evidence_quote": "In this prospective, cross-sectional study, the inclusion criteria were: apparently healthy cats, aged ≥ 6 months, available for rehoming over a 17-month period from two rehoming centres.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "前瞻性横断面研究"
    },
    "研究场所与时间": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "暴露与结局定义": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "混杂处理": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "缺失数据": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "统计方法": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    }
   }
  },
@@ -1797,42 +1927,42 @@
    "来源": "自然发病临床病例",
    "纳入标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "排除标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "疾病分期": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    }
   },
   "text_source": "摘要",
   "methods_slots": {
    "研究设计": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "研究场所与时间": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "暴露与结局定义": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "混杂处理": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "缺失数据": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "统计方法": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    }
   }
  },
@@ -1846,42 +1976,42 @@
    "来源": "自然发病临床病例",
    "纳入标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "排除标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "疾病分期": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    }
   },
   "text_source": "摘要",
   "methods_slots": {
    "研究设计": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "研究场所与时间": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "暴露与结局定义": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "混杂处理": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "缺失数据": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "统计方法": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    }
   }
  },
@@ -1895,15 +2025,15 @@
    "来源": "研究猫群",
    "纳入标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "排除标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "疾病分期": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    }
   },
   "动物来源与实验处理": {
@@ -1914,23 +2044,24 @@
   "methods_slots": {
    "参考标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "指标检测": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "检测者盲法": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "截断值": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "诊断效能统计": {
     "evidence_quote": "Serum SDMA had higher sensitivity (100%) compared with sCr (17%), but lower specificity (91% versus 100%) and positive predictive value (86% versus 100%).",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "SDMA 敏感度 100% vs 肌酐 17%，特异度 91% vs 100%"
    }
   }
  },
@@ -1944,42 +2075,43 @@
    "来源": "自然发病临床病例",
    "纳入标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "排除标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "疾病分期": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    }
   },
   "text_source": "摘要",
   "methods_slots": {
    "研究设计": {
     "evidence_quote": "This retrospective study was designed to determine the prevalence of CKD in two cohorts of cats: cats randomly selected from four evenly distributed age groups (RS group) and cats recruited for degenerative joint disease studies (DJD group), and to evaluate the concurrence of CKD and DJD in these cohorts.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "回顾性研究，两个队列"
    },
    "研究场所与时间": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "暴露与结局定义": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "混杂处理": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "缺失数据": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "统计方法": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    }
   }
  },
@@ -1993,42 +2125,43 @@
    "来源": "自然发病临床病例",
    "纳入标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "排除标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "疾病分期": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    }
   },
   "text_source": "摘要",
   "methods_slots": {
    "研究设计": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "研究场所与时间": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "暴露与结局定义": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "混杂处理": {
     "evidence_quote": "Survival analysis used the Kaplan-Meier survival curve method and multivariable Cox proportional hazards regression modeling.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "多变量 Cox 比例风险回归"
    },
    "缺失数据": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "统计方法": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    }
   }
  },
@@ -2042,42 +2175,45 @@
    "来源": "自然发病临床病例",
    "纳入标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "排除标准": {
     "evidence_quote": "Cases that remained in stages 2 or 3, but did not have renal function assessed in the last 60 days of life, were excluded from analysis of the proportion reaching stage 4.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "最后 60 天未评估肾功能的病例排除出第 4 期比例分析"
    },
    "疾病分期": {
-    "evidence_quote": "A total of 213 cats with CKD (plasma creatinine concentration > 2 mg/dL, urine specific gravity < 1.035) were followed up until progression occurred or for at least 1 year; 132, 73, and 8 cats were in International Renal Interest Society (IRIS) stages 2, 3, and 4, respectively.",
-    "status": "已报告"
+    "status": "摘要未提及",
+    "rejected_quote": "A total of 213 cats with CKD (plasma creatinine concentration > 2 mg/dL, urine specific gravity < 1.035) were followed up until progression occurred or for at least 1 year; 132, 73, and 8 cats were in International Renal Interest Society (IRIS) stages 2, 3, and 4, respectively.",
+    "evidence_quote": null
    }
   },
   "text_source": "摘要",
   "methods_slots": {
    "研究设计": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "研究场所与时间": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "暴露与结局定义": {
     "evidence_quote": "Progression was defined as a 25% increase in plasma creatinine concentration.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "进展定义为血肌酐升高 25%"
    },
    "混杂处理": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "缺失数据": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "统计方法": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    }
   }
  },
@@ -2091,42 +2227,44 @@
    "来源": "自然发病临床病例",
    "纳入标准": {
     "evidence_quote": "Of the eligible survey responses obtained (n=957) a randomly selected one-half (n=497) was used for this study.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "957 份合格问卷中随机抽一半（497 份）"
    },
    "排除标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "疾病分期": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    }
   },
   "text_source": "摘要",
   "methods_slots": {
    "研究设计": {
     "evidence_quote": "Using a large cross-sectional epidemiological study of older dogs, this study aimed to estimate the prevalence of CCD amongst community based dogs (mean age 11.67years; range 8-19.75) and to determine the rate of veterinary diagnosis amongst affected dogs.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "大样本横断面流行病学研究"
    },
    "研究场所与时间": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "暴露与结局定义": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "混杂处理": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "缺失数据": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "统计方法": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    }
   }
  },
@@ -2140,42 +2278,46 @@
    "来源": "自然发病临床病例",
    "纳入标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "排除标准": {
-    "evidence_quote": "Examination of the medical records identified 211 cats that met all other inclusion and exclusion criteria for this study.",
-    "status": "已报告"
+    "status": "摘要未提及",
+    "rejected_quote": "Examination of the medical records identified 211 cats that met all other inclusion and exclusion criteria for this study.",
+    "evidence_quote": null
    },
    "疾病分期": {
     "evidence_quote": "Kaplan-Meier survival curves were performed to determine survival times for International Renal Interest Society (IRIS) stage both at diagnosis and at baseline (ie, after correction of prerenal azotemia).",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "按 IRIS 分期做 Kaplan-Meier 生存分析"
    }
   },
   "text_source": "摘要",
   "methods_slots": {
    "研究设计": {
     "evidence_quote": "Retrospective case review of 733 cats with SCr > 2.3 mg/dL.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "回顾性病例回顾"
    },
    "研究场所与时间": {
     "evidence_quote": "Two hundred and eleven client-owned cats with naturally occurring CKD evaluated between April 2000 and January 2002.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "2000 年 4 月至 2002 年 1 月"
    },
    "暴露与结局定义": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "混杂处理": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "缺失数据": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "统计方法": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    }
   }
  },
@@ -2189,42 +2331,42 @@
    "来源": "自然发病临床病例",
    "纳入标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "排除标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "疾病分期": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    }
   },
   "text_source": "摘要",
   "methods_slots": {
    "研究设计": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "研究场所与时间": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "暴露与结局定义": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "混杂处理": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "缺失数据": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "统计方法": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    }
   }
  },
@@ -2238,42 +2380,44 @@
    "来源": "自然发病临床病例",
    "纳入标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "排除标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "疾病分期": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    }
   },
   "text_source": "摘要",
   "methods_slots": {
    "研究设计": {
     "evidence_quote": "Cats with CKD with initial plasma creatinine concentration > or =2.0 mg/dL and urine specific gravity (USG) < or = 1.025 were recruited into a prospective clinical trial that compared benazepril with a placebo.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "前瞻性临床试验"
    },
    "研究场所与时间": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "暴露与结局定义": {
     "evidence_quote": "Renal survival time was defined as the time from initiation of therapy to the need for parenteral fluid therapy, euthanasia, or death related to renal failure.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "肾脏生存时间定义为至需输液、安乐死或肾衰死亡"
    },
    "混杂处理": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "缺失数据": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "统计方法": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    }
   }
  },
@@ -2287,42 +2431,43 @@
    "来源": "自然发病临床病例",
    "纳入标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "排除标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "疾病分期": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    }
   },
   "text_source": "摘要",
   "methods_slots": {
    "研究设计": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "研究场所与时间": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "暴露与结局定义": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "混杂处理": {
     "evidence_quote": "Multivariable linear regression was used to determine the relation between severity of proteinuria and predictive variables, including age, plasma creatinine concentration, systolic blood pressure, sex, and urine specific gravity.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "多变量线性回归"
    },
    "缺失数据": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "统计方法": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    }
   }
  },
@@ -2336,15 +2481,15 @@
    "来源": "研究犬群（配对喂养）",
    "纳入标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "排除标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "疾病分期": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    }
   },
   "动物来源与实验处理": {
@@ -2355,27 +2500,28 @@
   "methods_slots": {
    "动物与饲养": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "实验设计与对照": {
     "evidence_quote": "Paired feeding study.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "配对喂养研究"
    },
    "随机化": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "盲法": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "伦理批准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "统计方法": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    }
   }
  },
@@ -2389,42 +2535,43 @@
    "来源": "自然发病临床病例",
    "纳入标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "排除标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "疾病分期": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    }
   },
   "text_source": "摘要",
   "methods_slots": {
    "研究设计": {
     "evidence_quote": "ifty cats with naturally occurring stable chronic renal failure (CRF) were entered into a prospective study on the effect of feeding a veterinary diet restricted in phosphorus and protein with or without an intestinal phosphate binding agent on their survival from initial diagnosis.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "前瞻性研究"
    },
    "研究场所与时间": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "暴露与结局定义": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "混杂处理": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "缺失数据": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "统计方法": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    }
   }
  },
@@ -2438,11 +2585,13 @@
    "来源": "自然发病临床病例",
    "纳入标准": {
     "evidence_quote": "Cats with negative RT-PCR results were included if clinical findings were consistent with FIP and sustained clinical improvement was observed after antiviral therapy.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "RT-PCR 阴性但临床符合且治疗后持续改善者纳入"
    },
    "排除标准": {
     "evidence_quote": "Cats with ocular or neurological involvement were excluded.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "有眼部或神经受累者排除"
    },
    "疾病分期": {
     "evidence_quote": null,
@@ -2452,16 +2601,19 @@
   "text_source": "全文",
   "methods_slots": {
    "研究设计": {
-    "evidence_quote": "2684 jvim Journal of Veterinary Internal Medicine J Vet Intern Med Oxford University Press PMC13714784 13714784 13714784 42949438 10.1093/jvimsj/aalag268 Outcomes of a 42-day course of molnupiravir in cats with feline infectious peritonitis: a prospective descriptive study Hishinuma Kenta Investigation, Writing - original draft 1 Inoue Akiko Data curation, Investigation 2 Fukushima Kenjiro Investigation, Supervision 3 Sato Masahiko Conceptualization, Methodology, Project administration, Supervision, Writing - review & editing 4 ✉ 1 Veterinary Specialists Emergency Center, Saitama 333-0823, Jap",
-    "status": "已报告"
+    "status": "原文未报告",
+    "rejected_quote": "2684 jvim Journal of Veterinary Internal Medicine J Vet Intern Med Oxford University Press PMC13714784 13714784 13714784 42949438 10.1093/jvimsj/aalag268 Outcomes of a 42-day course of molnupiravir in cats with feline infectious peritonitis: a prospective descriptive study Hishinuma Kenta Investigation, Writing - original draft 1 Inoue Akiko Data curation, Investigation 2 Fukushima Kenjiro Investigation, Supervision 3 Sato Masahiko Conceptualization, Methodology, Project administration, Supervision, Writing - review & editing 4 ✉ 1 Veterinary Specialists Emergency Center, Saitama 333-0823, Jap",
+    "evidence_quote": null
    },
    "研究场所与时间": {
     "evidence_quote": "Materials and methods This was a prospective observational study conducted at a referral center between 2023 and 2025.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "2023–2025 年单一转诊中心前瞻性观察研究"
    },
    "暴露与结局定义": {
     "evidence_quote": "Relapse was defined as recurrence of clinical signs consistent with FIP after treatment discontinuation.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "复发定义为停药后 FIP 症状再现"
    },
    "混杂处理": {
     "evidence_quote": null,
@@ -2473,7 +2625,8 @@
    },
    "统计方法": {
     "evidence_quote": "Statistical analyses were performed using StatMate V (Atoms).",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "StatMate V 分析"
    }
   }
  },
@@ -2486,12 +2639,14 @@
    "物种": "cat",
    "来源": "自然发病临床病例",
    "纳入标准": {
-    "evidence_quote": "By reducing the number of criteria required for treatment termination, the proportion of cases eligible for discontinuation within 12 weeks increased compared with previous reports.",
-    "status": "已报告"
+    "status": "原文未报告",
+    "rejected_quote": "By reducing the number of criteria required for treatment termination, the proportion of cases eligible for discontinuation within 12 weeks increased compared with previous reports.",
+    "evidence_quote": null
    },
    "排除标准": {
     "evidence_quote": "17 , 18 Therefore, cats presenting exclusively with neurological signs were excluded from this study, and alternative APP-independent criteria for determining treatment cessation may be required for such cases.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "仅表现神经症状的猫排除"
    },
    "疾病分期": {
     "evidence_quote": null,
@@ -2501,8 +2656,9 @@
   "text_source": "全文",
   "methods_slots": {
    "研究设计": {
-    "evidence_quote": "Informed consent: Informed consent (verbal or written) was obtained from the owner or legal custodian of all animal(s) described in this work (experimental or non-experimental animals, including cadavers, tissues and samples) for all procedure(s) undertaken (prospective or retrospective studies).",
-    "status": "已报告"
+    "status": "原文未报告",
+    "rejected_quote": "Informed consent: Informed consent (verbal or written) was obtained from the owner or legal custodian of all animal(s) described in this work (experimental or non-experimental animals, including cadavers, tissues and samples) for all procedure(s) undertaken (prospective or retrospective studies).",
+    "evidence_quote": null
    },
    "研究场所与时间": {
     "evidence_quote": null,
@@ -2521,8 +2677,9 @@
     "status": "原文未报告"
    },
    "统计方法": {
-    "evidence_quote": "However, the number of cats treated with remdesivir was limited, and we were unable to perform a sufficiently powered statistical analysis to evaluate the relationships among treatment modality, trends in disease severity and treatment duration.",
-    "status": "已报告"
+    "status": "原文未报告",
+    "rejected_quote": "However, the number of cats treated with remdesivir was limited, and we were unable to perform a sufficiently powered statistical analysis to evaluate the relationships among treatment modality, trends in disease severity and treatment duration.",
+    "evidence_quote": null
    }
   }
  },
@@ -2543,35 +2700,42 @@
     "status": "原文未报告"
    },
    "疾病分期": {
-    "evidence_quote": "Ocular manifestations of FIP include anterior or posterior uveitis with examination findings such as keratic precipitates, dyscoria, anisocoria, change in iris color, hyphema, hypopyon, and fibrinous exudate [ 8 , 9 , 11 ].",
-    "status": "已报告"
+    "status": "原文未报告",
+    "rejected_quote": "Ocular manifestations of FIP include anterior or posterior uveitis with examination findings such as keratic precipitates, dyscoria, anisocoria, change in iris color, hyphema, hypopyon, and fibrinous exudate [ 8 , 9 , 11 ].",
+    "evidence_quote": null
    }
   },
   "text_source": "全文",
   "methods_slots": {
    "研究设计": {
-    "evidence_quote": "2684 jvim Journal of Veterinary Internal Medicine J Vet Intern Med Oxford University Press PMC12489177 12489177 12489177 41035288 10.1111/jvim.70253 Treatment With Remdesivir Alone or in Combination With GS‐441524 in Cats With Ocular Involvement of Feline Infectious Peritonitis: An Observational Case Series Andrews Amy L M M 1 ✉ Izaguirre Eneko 1 Green Jodie 2 Scurrell Emma 3 Gogova Savina 4 Tayler Sarah 2 Kafarnik Christiane 1 1 Department of Clinical Science and Research, Royal Veterinary College, Queen Mother Hospital for Animals, Ophthalmology Service, Hatfield, Hertfordshire, UK 2 Departm",
-    "status": "已报告"
+    "status": "原文未报告",
+    "rejected_quote": "2684 jvim Journal of Veterinary Internal Medicine J Vet Intern Med Oxford University Press PMC12489177 12489177 12489177 41035288 10.1111/jvim.70253 Treatment With Remdesivir Alone or in Combination With GS‐441524 in Cats With Ocular Involvement of Feline Infectious Peritonitis: An Observational Case Series Andrews Amy L M M 1 ✉ Izaguirre Eneko 1 Green Jodie 2 Scurrell Emma 3 Gogova Savina 4 Tayler Sarah 2 Kafarnik Christiane 1 1 Department of Clinical Science and Research, Royal Veterinary College, Queen Mother Hospital for Animals, Ophthalmology Service, Hatfield, Hertfordshire, UK 2 Departm",
+    "evidence_quote": null
    },
    "研究场所与时间": {
     "evidence_quote": "Animals Sixty‐one cats diagnosed with FIP by the Internal Medicine services between October 2021 and December 2022 that were treated with injectable, oral, or a combination of anti‐viral therapies were reviewed.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "2021 年 10 月至 2022 年 12 月诊断的 61 只猫"
    },
    "暴露与结局定义": {
     "evidence_quote": "Secondary glaucoma was defined as an intraocular pressure (IOP) > 25 mmHg [ 20 ].",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "继发青光眼定义为眼压>25 mmHg"
    },
    "混杂处理": {
-    "evidence_quote": "Although a combination of topical and systemic treatment was used in most cases, and this could be a confounding factor, both oral and topical anti‐inflammatory medication were discontinued in most cases without reported relapse in clinical signs, suggesting that the concurrent inflammatory stimulation and response were resolved.",
-    "status": "已报告"
+    "status": "原文未报告",
+    "rejected_quote": "Although a combination of topical and systemic treatment was used in most cases, and this could be a confounding factor, both oral and topical anti‐inflammatory medication were discontinued in most cases without reported relapse in clinical signs, suggesting that the concurrent inflammatory stimulation and response were resolved.",
+    "evidence_quote": null
    },
    "缺失数据": {
-    "evidence_quote": "One cat (1/11; 9%) had resolution of uveitis of the right eye at day 63; however, persistent low‐grade anterior uveitis of the left eye remained, this cat was later lost to follow‐up.",
-    "status": "已报告"
+    "status": "原文未报告",
+    "rejected_quote": "One cat (1/11; 9%) had resolution of uveitis of the right eye at day 63; however, persistent low‐grade anterior uveitis of the left eye remained, this cat was later lost to follow‐up.",
+    "evidence_quote": null
    },
    "统计方法": {
     "evidence_quote": "Statistical Analysis Basic descriptive statistics were recorded, manually reviewed and analyzed using Microsoft Excel (Microsoft Corporation, Redmond, WA, USA, 2022).",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "描述性统计，Excel 分析"
    }
   }
  },
@@ -2589,7 +2753,8 @@
    },
    "排除标准": {
     "evidence_quote": "Cats were excluded if they were deemed unlikely to have FIP, were not treated exclusively with the veterinary compounded products, or if there was a lack of cat and/or treatment (including response) data.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "不太可能是 FIP、未只用兽用复方药或资料不足者排除"
    },
    "疾病分期": {
     "evidence_quote": null,
@@ -2599,16 +2764,19 @@
   "text_source": "全文",
   "methods_slots": {
    "研究设计": {
-    "evidence_quote": "4524 jfms Journal of Feline Medicine and Surgery J Feline Med Surg SAGE Publications PMC10812036 10812036 10812036 37732386 10.1177/1098612X231194460 Retrospective study and outcome of 307 cats with feline infectious peritonitis treated with legally sourced veterinary compounded preparations of remdesivir and GS-441524 (2020–2022) Taylor Samantha S 1 2 3 ✉ Coggins Sally 4 Barker Emi N 5 6 Gunn-Moore Danièlle 7 Jeevaratnam Kamalan 3 Norris Jacqueline M 4 Hughes David 8 Stacey Emily 9 MacFarlane Laura 10 O’Brien Carolyn 11 Korman Rachel 12 McLauchlan Gerard 13 Salord Torres Xavier 14 Taylor Aime",
-    "status": "已报告"
+    "status": "原文未报告",
+    "rejected_quote": "4524 jfms Journal of Feline Medicine and Surgery J Feline Med Surg SAGE Publications PMC10812036 10812036 10812036 37732386 10.1177/1098612X231194460 Retrospective study and outcome of 307 cats with feline infectious peritonitis treated with legally sourced veterinary compounded preparations of remdesivir and GS-441524 (2020–2022) Taylor Samantha S 1 2 3 ✉ Coggins Sally 4 Barker Emi N 5 6 Gunn-Moore Danièlle 7 Jeevaratnam Kamalan 3 Norris Jacqueline M 4 Hughes David 8 Stacey Emily 9 MacFarlane Laura 10 O’Brien Carolyn 11 Korman Rachel 12 McLauchlan Gerard 13 Salord Torres Xavier 14 Taylor Aime",
+    "evidence_quote": null
    },
    "研究场所与时间": {
     "evidence_quote": "Cases were recruited between March 2022 and September 2022 and follow-up sought in December 2022; treatment for FIP had been given from 2020 to 2022.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "2022 年 3–9 月招募，2022 年 12 月随访"
    },
    "暴露与结局定义": {
     "evidence_quote": "Cats were also categorised according to whether or not they had any relapse of FIP; a ‘relapse’ was defined as a recurrence of clinical signs, physical findings and/or diagnostic test results consistent with FIP (as decided by one of the board-certified internal medicine specialist authors [SST]) after an initial response to nucleoside analogue treatment.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "复发定义为症状、体征或诊断异常再现"
    },
    "混杂处理": {
     "evidence_quote": null,
@@ -2620,7 +2788,8 @@
    },
    "统计方法": {
     "evidence_quote": "Statistical analysis Data were recorded in Excel, version 2212 (Microsoft Corp) and exported into SPSS, version 29.0.0.0 (IBM Corp) for analysis.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "Excel 录入，SPSS 29 分析"
    }
   }
  },
@@ -2648,16 +2817,18 @@
   "text_source": "全文",
   "methods_slots": {
    "研究设计": {
-    "evidence_quote": "In the first controlled prospective oral treatment study, 18 cats with confirmed FIP were successfully treated with the antiviral drug Xraphconn (Mutian), containing GS-441524, for 12 weeks.",
-    "status": "已报告"
+    "status": "原文未报告",
+    "rejected_quote": "In the first controlled prospective oral treatment study, 18 cats with confirmed FIP were successfully treated with the antiviral drug Xraphconn (Mutian), containing GS-441524, for 12 weeks.",
+    "evidence_quote": null
    },
    "研究场所与时间": {
     "evidence_quote": null,
     "status": "原文未报告"
    },
    "暴露与结局定义": {
-    "evidence_quote": "The reference range for the Karnofsky’s score was defined as 90–100%.",
-    "status": "已报告"
+    "status": "原文未报告",
+    "rejected_quote": "The reference range for the Karnofsky’s score was defined as 90–100%.",
+    "evidence_quote": null
    },
    "混杂处理": {
     "evidence_quote": null,
@@ -2665,11 +2836,13 @@
    },
    "缺失数据": {
     "evidence_quote": "Four cats were lost to follow-up: two cats (cats 3 and 9) were not presented due to lack of owner compliance and one cat had died in a road traffic accident in week 35 (cat 1).",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "4 只失访（含 2 只主人不配合、1 只车祸死亡）"
    },
    "统计方法": {
     "evidence_quote": "Statistical analysis Data were analysed using the statistical language R version 4.0.3 (R Core Team, 2020).",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "R 4.0.3 分析"
    }
   }
  },
@@ -2683,11 +2856,13 @@
    "来源": "自然发病临床病例",
    "纳入标准": {
     "evidence_quote": "Study cohort, inclusion criteria, and case recruitment Client‐owned cats with a convincing diagnosis of FIP were recruited for this non‐randomized prospective case series.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "诊断可信的 FIP 病例，非随机前瞻性病例系列"
    },
    "排除标准": {
-    "evidence_quote": "Cats were tested on enrolment using Anigen Rapid FIV Ab/FeLV Ag test kits (BioNote Inc, Life Bioscience, Australia), although feline retroviral positivity was only to be noted and was not an exclusion criteria.",
-    "status": "已报告"
+    "status": "原文未报告",
+    "rejected_quote": "Cats were tested on enrolment using Anigen Rapid FIV Ab/FeLV Ag test kits (BioNote Inc, Life Bioscience, Australia), although feline retroviral positivity was only to be noted and was not an exclusion criteria.",
+    "evidence_quote": null
    },
    "疾病分期": {
     "evidence_quote": null,
@@ -2698,15 +2873,18 @@
   "methods_slots": {
    "研究设计": {
     "evidence_quote": "The aim of this prospective case‐series was to document survival and describe the clinical course of cats with FIP treated with compounded remdesivir administered parenterally as monotherapy, with or without transition to compounded GS‐441524 administered orally.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "前瞻性病例系列"
    },
    "研究场所与时间": {
     "evidence_quote": "Methods Cats were prospectively recruited between May 2021 and May 2022.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "2021 年 5 月至 2022 年 5 月前瞻性招募"
    },
    "暴露与结局定义": {
     "evidence_quote": "Remission was defined as (a) body condition score of ≥5/9, 19 (b) normothermia, (c) complete resolution of presenting signs of FIP, (d) normalization of the following analytes to within the relevant reference intervals: plasma total bilirubin concentration, plasma globulin concentration (with an albumin:globulin [AG] ratio of ≥0.6), neutrophil, and lymphocyte counts, (d) quality of life (QoL) score equating to a score ≥44/55 (average of 4/5 or higher for questions 1 to 11 in the owner assessment questionnaire [Appendix 2 ]).",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "缓解定义含 BCS≥5/9、体温正常、症状消失、指标正常"
    },
    "混杂处理": {
     "evidence_quote": null,
@@ -2718,7 +2896,8 @@
    },
    "统计方法": {
     "evidence_quote": "Statistical analysis All statistical analyses were conducted in R Studio (v2022.07.1) using R (v 4.2.1) and figures were produced using the package ggplot2, by statistician and author Hall.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "R 4.2.1 分析，由统计人员完成"
    }
   }
  },
@@ -2732,11 +2911,13 @@
    "来源": "自然发病临床病例",
    "纳入标准": {
     "evidence_quote": "Cats were included if a diagnosis of FIP was made by a board‐certified small animal internal medicine specialist or a resident working under their supervision and the cat received treatment with either remdesivir or GS‐441524.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "由内科专科医师或其指导的住院医师诊断 FIP"
    },
    "排除标准": {
     "evidence_quote": "Cats were excluded if investigations were considered inadequate to support a diagnosis of FIP.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "诊断依据不足者排除"
    },
    "疾病分期": {
     "evidence_quote": null,
@@ -2747,15 +2928,18 @@
   "methods_slots": {
    "研究设计": {
     "evidence_quote": "Ours is a retrospective, observational case series describing treatment protocols, adverse effects, treatment response including clinical and biochemical changes, outcomes and survival rates in 32 cats with FIP treated with a combination of PO GS‐441524, injectable remdesivir or both.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "回顾性观察病例系列"
    },
    "研究场所与时间": {
     "evidence_quote": "Methods Cats diagnosed with FIP at a single university hospital between August 2021 and July 2022 were included.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "2021 年 8 月至 2022 年 7 月，单一大学医院"
    },
    "暴露与结局定义": {
-    "evidence_quote": "Significance was defined as P < .05 for all analyses.",
-    "status": "已报告"
+    "status": "原文未报告",
+    "rejected_quote": "Significance was defined as P < .05 for all analyses.",
+    "evidence_quote": null
    },
    "混杂处理": {
     "evidence_quote": null,
@@ -2766,8 +2950,9 @@
     "status": "原文未报告"
    },
    "统计方法": {
-    "evidence_quote": "Statistical analyses were carried out to identify whether there was a significant increase in albumin: globulin ratios for cats with albumin: globulin ratios performed at the following time points: from 0 to 4 weeks, from 4 to 8 weeks, and from 8 to 12 weeks after starting treatment.",
-    "status": "已报告"
+    "status": "原文未报告",
+    "rejected_quote": "Statistical analyses were carried out to identify whether there was a significant increase in albumin: globulin ratios for cats with albumin: globulin ratios performed at the following time points: from 0 to 4 weeks, from 4 to 8 weeks, and from 8 to 12 weeks after starting treatment.",
+    "evidence_quote": null
    }
   }
  },
@@ -2781,11 +2966,13 @@
    "来源": "自然发病临床病例",
    "纳入标准": {
     "evidence_quote": "Inclusion criteria were surveys regarding cats presumed to have FIP based on diagnostics from a veterinarian, failure to respond to initial therapy or relapse of clinical signs after the completion of an initial therapy other than molnupiravir (e.g., GS-441524 or GC376), and the completion of 8–10 weeks of orally administered molnupiravir therapy (or those who subsequently died or were euthanized during therapy).",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "经兽医推定 FIP 且初治无效或复发的问卷"
    },
    "排除标准": {
     "evidence_quote": "Exclusion criteria were surveys with incomplete data or cats that were not diagnosed with FIP by a veterinarian.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "数据不全或未经兽医诊断者排除"
    },
    "疾病分期": {
     "evidence_quote": null,
@@ -2796,7 +2983,8 @@
   "methods_slots": {
    "研究设计": {
     "evidence_quote": "Some limitations of this study are due to the retrospective nature and the legality of the therapies being used.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "回顾性研究"
    },
    "研究场所与时间": {
     "evidence_quote": null,
@@ -2830,22 +3018,26 @@
    "来源": "自然发病临床病例",
    "纳入标准": {
     "evidence_quote": "Inclusion criteria were (1) diagnosis of FIP, (2) body weight of at least 2 kg, (3) negative test results for feline immunodeficiency virus (FIV) and feline leukemia virus (FeLV) infection, and (4) absence of other severe diseases.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "确诊 FIP、体重≥2 kg、FIV/FeLV 阴性等"
    },
    "排除标准": {
     "evidence_quote": "Cats were excluded if (1) they were in a severe moribund or comatose condition at the time of presentation (as in such condition oral medications cannot be expected to be reliably absorbed), (2) it was not possible to administer tablets to the cats, or (3) owners were not compliant to either medicate their cats properly or to attend appointments.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "濒死或昏迷等排除"
    },
    "疾病分期": {
-    "evidence_quote": "To some extent, these lymphocyte responses remind the clinician of features seen in Immune-Reconstitution Inflammatory Syndrome (IRIS) [ 62 ].",
-    "status": "已报告"
+    "status": "原文未报告",
+    "rejected_quote": "To some extent, these lymphocyte responses remind the clinician of features seen in Immune-Reconstitution Inflammatory Syndrome (IRIS) [ 62 ].",
+    "evidence_quote": null
    }
   },
   "text_source": "全文",
   "methods_slots": {
    "研究设计": {
-    "evidence_quote": "Cats in these prospective studies received GS-441524 subcutaneously for various time periods and owners were instructed by social media groups to inject the compounds likewise for a period of 12 weeks or longer.",
-    "status": "已报告"
+    "status": "原文未报告",
+    "rejected_quote": "Cats in these prospective studies received GS-441524 subcutaneously for various time periods and owners were instructed by social media groups to inject the compounds likewise for a period of 12 weeks or longer.",
+    "evidence_quote": null
    },
    "研究场所与时间": {
     "evidence_quote": null,
@@ -2865,7 +3057,8 @@
    },
    "统计方法": {
     "evidence_quote": "Data Analysis Data were analyzed using R statistical language (version 4.0.3; R Core Team, 2020).",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "R 4.0.3 分析"
    }
   }
  },
@@ -2886,8 +3079,9 @@
     "status": "原文未报告"
    },
    "疾病分期": {
-    "evidence_quote": "At presentation (A, B) predilatation and (G, H) postdilatation cranial segment photographs showing mild diffuse corneal edema, pigmented keratic precipitates, rubeosis iridis, obscured detail of the iris because of aqueous flare, and incomplete dilatation OU; dyscoria with incomplete pupillary dilatation because of caudal synechia OS (H) was also observed.",
-    "status": "已报告"
+    "status": "原文未报告",
+    "rejected_quote": "At presentation (A, B) predilatation and (G, H) postdilatation cranial segment photographs showing mild diffuse corneal edema, pigmented keratic precipitates, rubeosis iridis, obscured detail of the iris because of aqueous flare, and incomplete dilatation OU; dyscoria with incomplete pupillary dilatation because of caudal synechia OS (H) was also observed.",
+    "evidence_quote": null
    }
   },
   "text_source": "全文",
@@ -2954,8 +3148,9 @@
     "status": "原文未报告"
    },
    "混杂处理": {
-    "evidence_quote": "One cat in the study (CT80) had confounding clinical signs.",
-    "status": "已报告"
+    "status": "原文未报告",
+    "rejected_quote": "One cat in the study (CT80) had confounding clinical signs.",
+    "evidence_quote": null
    },
    "缺失数据": {
     "evidence_quote": null,
@@ -2977,11 +3172,13 @@
    "来源": "自然发病临床病例",
    "纳入标准": {
     "evidence_quote": "Client-owned golden retrievers with documented blood taurine deficiency and dilated cardiomyopathy met inclusion criteria and were enrolled in a multicenter, prospective, observational study to evaluate dietary factors that may contribute to this condition as well as describe their clinical response to treatment.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "有牛磺酸缺乏和 DCM 记录的金毛犬"
    },
    "排除标准": {
     "evidence_quote": "patent ductus arteriosus, aortic regurgitation or severe myxomatous mitral valve disease) were excluded from the study.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "PDA、主动脉反流或重度 MMVD 等排除"
    },
    "疾病分期": {
     "evidence_quote": null,
@@ -2992,7 +3189,8 @@
   "methods_slots": {
    "研究设计": {
     "evidence_quote": "Methods In this multicenter prospective observational study, baseline and follow-up echocardiographic data, complete diet and medical histories, and whole blood, plasma, or serum taurine concentrations were obtained.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "多中心前瞻性观察研究"
    },
    "研究场所与时间": {
     "evidence_quote": null,
@@ -3000,19 +3198,23 @@
    },
    "暴露与结局定义": {
     "evidence_quote": "For purposes of this study, in this breed, a low taurine level was defined as a whole blood taurine concentration of ≤ 250 nmol/mL; plasma taurine concentration of ≤ 60 nmol/mL [ 13 , 14 ] and serum taurine concentration of ≤110 nmol/mL [ 15 ].",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "低牛磺酸定义为全血≤250 nmol/mL 或血浆≤60 nmol/mL"
    },
    "混杂处理": {
-    "evidence_quote": "To confound the assessment of taurine concentrations even further, the degree to which breed- or size-specific reference ranges are necessary is unknown but is supported by data that establish specific breeds like golden retrievers, Newfoundlands and American cocker spaniels as having a greater risk for taurine deficiency and subsequent cardiac disease [ 3 , 5 – 9 ].",
-    "status": "已报告"
+    "status": "原文未报告",
+    "rejected_quote": "To confound the assessment of taurine concentrations even further, the degree to which breed- or size-specific reference ranges are necessary is unknown but is supported by data that establish specific breeds like golden retrievers, Newfoundlands and American cocker spaniels as having a greater risk for taurine deficiency and subsequent cardiac disease [ 3 , 5 – 9 ].",
+    "evidence_quote": null
    },
    "缺失数据": {
     "evidence_quote": "In the two remaining dogs, one dog remained in congestive heart failure and the other was lost to follow-up.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "1 只失访"
    },
    "统计方法": {
     "evidence_quote": "Statistical analysis Statistical analysis was performed with commercially available software (GraphPad Prism 7.0d Macintosh Version by Software MacKiev 1994–2017 GraphPad Software, Inc).",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "GraphPad Prism 7.0d"
    }
   }
  },
@@ -3026,42 +3228,43 @@
    "来源": "自然发病临床病例",
    "纳入标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "排除标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "疾病分期": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    }
   },
   "text_source": "摘要",
   "methods_slots": {
    "研究设计": {
     "evidence_quote": "This was a retrospective analysis of dogs with DCM from January 1, 2015 to May 1, 2018 with a known diet history.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "回顾性分析，2015.1.1–2018.5.1"
    },
    "研究场所与时间": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "暴露与结局定义": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "混杂处理": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "缺失数据": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "统计方法": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    }
   }
  },
@@ -3079,7 +3282,8 @@
    },
    "排除标准": {
     "evidence_quote": "Cats with neurologic signs were excluded from the study.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "有神经症状的猫排除"
    },
    "疾病分期": {
     "evidence_quote": null,
@@ -3124,38 +3328,38 @@
    "来源": "自然发病临床病例",
    "纳入标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "排除标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "疾病分期": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    }
   },
   "text_source": "摘要",
   "methods_slots": {
    "参考标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "指标检测": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "检测者盲法": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "截断值": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "诊断效能统计": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    }
   }
  },
@@ -3169,26 +3373,30 @@
    "来源": "自然发病临床病例",
    "纳入标准": {
     "evidence_quote": "Inclusion criteria included histopathologically confirmed evidence of CKD at necropsy (fibrosis, tubular proteinosis, chronic interstitial nephritis, mononuclear inflammatory infiltrates, and glomerulosclerosis).",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "剖检组织学证实 CKD"
    },
    "排除标准": {
     "evidence_quote": null,
     "status": "原文未报告"
    },
    "疾病分期": {
-    "evidence_quote": "Abbreviations ADMA asymmetric dimethylarginine BUN blood urea nitrogen CKD chronic kidney disease GFR glomerular filtration rate IRIS International Renal Interest Society Cr creatinine SDMA symmetric dimethylarginine UPC urine protein: creatinine USG urine specific gravity IBD inflammatory bowel disease Chronic kidney disease (CKD) is a common cause of morbidity and mortality in dogs.",
-    "status": "已报告"
+    "status": "原文未报告",
+    "rejected_quote": "Abbreviations ADMA asymmetric dimethylarginine BUN blood urea nitrogen CKD chronic kidney disease GFR glomerular filtration rate IRIS International Renal Interest Society Cr creatinine SDMA symmetric dimethylarginine UPC urine protein: creatinine USG urine specific gravity IBD inflammatory bowel disease Chronic kidney disease (CKD) is a common cause of morbidity and mortality in dogs.",
+    "evidence_quote": null
    }
   },
   "text_source": "全文",
   "methods_slots": {
    "参考标准": {
-    "evidence_quote": "6 , 7 , 8 Measurement of GFR is the gold standard method for estimating renal function and staging kidney disease.",
-    "status": "已报告"
+    "status": "原文未报告",
+    "rejected_quote": "6 , 7 , 8 Measurement of GFR is the gold standard method for estimating renal function and staging kidney disease.",
+    "evidence_quote": null
    },
    "指标检测": {
-    "evidence_quote": "10 However, limitations of using serum Cr as a biomarker to monitor renal function are that serum Cr does not increase above the reference range until approximately 75% of nephrons are nonfunctioning, 11 falsely increased concentrations can occur with some types of assays, 12 and there is secretion of serum Cr into renal tubules in male dogs.",
-    "status": "已报告"
+    "status": "原文未报告",
+    "rejected_quote": "10 However, limitations of using serum Cr as a biomarker to monitor renal function are that serum Cr does not increase above the reference range until approximately 75% of nephrons are nonfunctioning, 11 falsely increased concentrations can occur with some types of assays, 12 and there is secretion of serum Cr into renal tubules in male dogs.",
+    "evidence_quote": null
    },
    "检测者盲法": {
     "evidence_quote": null,
@@ -3196,11 +3404,13 @@
    },
    "截断值": {
     "evidence_quote": "23 Therefore, we also used an upper threshold of ≤ 4 mL/min/kg in the healthy mature‐adult dogs in our study for GFR values.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "健康成年犬 GFR 上限阈值 ≤4 mL/min/kg"
    },
    "诊断效能统计": {
-    "evidence_quote": "An empirical correction formula for GFR (Brochner‐Mortensen formula 22 : Cl = 0.990778 Cl 1 ‐ 0.001218 Cl 1 2 ), normalized to body weight in kg, was applied to GFR values for healthy dogs and dogs with CKD.",
-    "status": "已报告"
+    "status": "原文未报告",
+    "rejected_quote": "An empirical correction formula for GFR (Brochner‐Mortensen formula 22 : Cl = 0.990778 Cl 1 ‐ 0.001218 Cl 1 2 ), normalized to body weight in kg, was applied to GFR values for healthy dogs and dogs with CKD.",
+    "evidence_quote": null
    }
   }
  },
@@ -3236,8 +3446,9 @@
     "status": "原文未报告"
    },
    "指标检测": {
-    "evidence_quote": "Med 2684 jvim JVIM Journal of Veterinary Internal Medicine 0891-6640 1939-1676 Oxford University Press PMC4895368 PMC4895368.1 4895368 4895368 26079532 10.1111/jvim.12835 JVIM12835 1 Standard Article SMALL ANIMAL Standard Articles Nephrology/Urology Symmetric Dimethylarginine Assay Validation, Stability, and Evaluation as a Marker for the Early Detection of Chronic Kidney Disease in Dogs Nabity et al Nabity M.B.",
-    "status": "已报告"
+    "status": "原文未报告",
+    "rejected_quote": "Med 2684 jvim JVIM Journal of Veterinary Internal Medicine 0891-6640 1939-1676 Oxford University Press PMC4895368 PMC4895368.1 4895368 4895368 26079532 10.1111/jvim.12835 JVIM12835 1 Standard Article SMALL ANIMAL Standard Articles Nephrology/Urology Symmetric Dimethylarginine Assay Validation, Stability, and Evaluation as a Marker for the Early Detection of Chronic Kidney Disease in Dogs Nabity et al Nabity M.B.",
+    "evidence_quote": null
    },
    "检测者盲法": {
     "evidence_quote": null,
@@ -3245,11 +3456,13 @@
    },
    "截断值": {
     "evidence_quote": "Timepoints at which sC r, SDMA , and GFR identified decreased renal function were compared using defined cutoffs, trending in an individual dog, and comparison with unaffected littermates.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "用既定截断值、个体趋势和与未患病犬比较三种方法"
    },
    "诊断效能统计": {
-    "evidence_quote": "Although trending improved sC r's sensitivity, SDMA identified, on average, <20% decrease in GFR , which was earlier than sC r using any comparison method.",
-    "status": "已报告"
+    "status": "原文未报告",
+    "rejected_quote": "Although trending improved sC r's sensitivity, SDMA identified, on average, <20% decrease in GFR , which was earlier than sC r using any comparison method.",
+    "evidence_quote": null
    }
   }
  },
@@ -3263,7 +3476,8 @@
    "来源": "自然发病临床病例",
    "纳入标准": {
     "evidence_quote": "All cats referred to our clinics for radioiodine treatment were potentially eligible for the study.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "所有转诊做放射碘治疗的猫均可纳入"
    },
    "排除标准": {
     "evidence_quote": null,
@@ -3277,8 +3491,9 @@
   "text_source": "全文",
   "methods_slots": {
    "研究设计": {
-    "evidence_quote": "@media screen and (min-width: 64em) { div.pmc-wm { background: repeat-y; background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='350' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cfilter x='-.02' y='0' width='1.05' height='1' id='c'%3E%3CfeFlood flood-color='%23FFF'/%3E%3CfeComposite in='SourceGraphic'/%3E%3C/filter%3E%3Ctext id='b' font-family='Helvetica' font-size='11pt' style='opacity:1;fill:%23005ea2;stroke:none;text-anchor:middle' x='175' y='14'%3E%3C/text%3E%3Cpath id='a' style='fill:%23005ea2' d='M0 8h350v3H0z'/%3E%3C/defs%3E%3C",
-    "status": "已报告"
+    "status": "原文未报告",
+    "rejected_quote": "@media screen and (min-width: 64em) { div.pmc-wm { background: repeat-y; background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='350' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cfilter x='-.02' y='0' width='1.05' height='1' id='c'%3E%3CfeFlood flood-color='%23FFF'/%3E%3CfeComposite in='SourceGraphic'/%3E%3C/filter%3E%3Ctext id='b' font-family='Helvetica' font-size='11pt' style='opacity:1;fill:%23005ea2;stroke:none;text-anchor:middle' x='175' y='14'%3E%3C/text%3E%3Cpath id='a' style='fill:%23005ea2' d='M0 8h350v3H0z'/%3E%3C/defs%3E%3C",
+    "evidence_quote": null
    },
    "研究场所与时间": {
     "evidence_quote": null,
@@ -3298,7 +3513,8 @@
    },
    "统计方法": {
     "evidence_quote": "Statistical analysis Data were assessed for normality by the D’Agostino-Pearson test and by visual inspection of graphical plots.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "D’Agostino-Pearson 检验正态性"
    }
   }
  },
@@ -3312,42 +3528,42 @@
    "来源": "自然发病临床病例",
    "纳入标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "排除标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "疾病分期": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    }
   },
   "text_source": "摘要",
   "methods_slots": {
    "动物与饲养": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "实验设计与对照": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "随机化": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "盲法": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "伦理批准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "统计方法": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    }
   }
  },
@@ -3361,11 +3577,11 @@
    "来源": "不适用（非原始研究）",
    "纳入标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "排除标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "疾病分期": null
   },
@@ -3373,19 +3589,20 @@
   "methods_slots": {
    "检索策略": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "纳入标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "偏倚评估": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "合成方法": {
-    "evidence_quote": "he objective of the present meta-analysis was to get a conclusion about the diagnostic value of urine protein to creatinine (UPC) ratio in dogs with chronic kidney disease (CKD).",
-    "status": "已报告"
+    "status": "摘要未提及",
+    "rejected_quote": "he objective of the present meta-analysis was to get a conclusion about the diagnostic value of urine protein to creatinine (UPC) ratio in dogs with chronic kidney disease (CKD).",
+    "evidence_quote": null
    }
   }
  },
@@ -3399,11 +3616,11 @@
    "来源": "不适用（非原始研究）",
    "纳入标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "排除标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "疾病分期": null
   },
@@ -3411,19 +3628,22 @@
   "methods_slots": {
    "检索策略": {
     "evidence_quote": "Electronic databases and grey literature were systematically searched for all relevant studies up to October 2024.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "截至 2024 年 10 月系统检索电子数据库和灰色文献"
    },
    "纳入标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "偏倚评估": {
     "evidence_quote": "Studies were assessed for risk of bias and applicability concerns.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "评估偏倚风险与适用性"
    },
    "合成方法": {
     "evidence_quote": "Heterogeneity and risk of bias present precluded meta-analysis.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "因异质性和偏倚未做 Meta 分析"
    }
   }
  },
@@ -3436,12 +3656,14 @@
    "物种": "cat",
    "来源": "不适用（非原始研究）",
    "纳入标准": {
-    "evidence_quote": "The protocol for this systematic review was established a priori but was not eligible for registration in the PROSPERO database, as the review had already progressed to the data extraction phase at the time of the submission attempt.",
-    "status": "已报告"
+    "status": "原文未报告",
+    "rejected_quote": "The protocol for this systematic review was established a priori but was not eligible for registration in the PROSPERO database, as the review had already progressed to the data extraction phase at the time of the submission attempt.",
+    "evidence_quote": null
    },
    "排除标准": {
     "evidence_quote": "In the second stage, the full texts of these articles were retrieved and assessed independently by the same two reviewers against the predefined inclusion and exclusion criteria ( Table 1 ).",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "两名评价者按预设纳入和排除标准独立评估全文"
    },
    "疾病分期": null
   },
@@ -3449,19 +3671,23 @@
   "methods_slots": {
    "检索策略": {
     "evidence_quote": "Major databases were searched for studies evaluating NIADs in diabetic cats or at-risk/experimental models.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "检索主要数据库"
    },
    "纳入标准": {
-    "evidence_quote": "The protocol for this systematic review was established a priori but was not eligible for registration in the PROSPERO database, as the review had already progressed to the data extraction phase at the time of the submission attempt.",
-    "status": "已报告"
+    "status": "原文未报告",
+    "rejected_quote": "The protocol for this systematic review was established a priori but was not eligible for registration in the PROSPERO database, as the review had already progressed to the data extraction phase at the time of the submission attempt.",
+    "evidence_quote": null
    },
    "偏倚评估": {
     "evidence_quote": "Risk of bias was assessed using RoB 2 and ROBINS-I tools.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "用 RoB 2 和 ROBINS-I 评估偏倚"
    },
    "合成方法": {
-    "evidence_quote": "Protocol A systematic review following the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) guidelines was conducted [ 35 ].",
-    "status": "已报告"
+    "status": "原文未报告",
+    "rejected_quote": "Protocol A systematic review following the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) guidelines was conducted [ 35 ].",
+    "evidence_quote": null
    }
   }
  },
@@ -3475,19 +3701,22 @@
    "来源": "不适用（非原始研究）",
    "纳入标准": {
     "evidence_quote": "Inclusion Criteria Studies were included if they (1) evaluated GS-441524 (alone or with other antivirals/immunomodulators) in cats with naturally occurring FIP; (2) monitored clinical outcomes (survival/remission) and reported sufficient data on FIP form, clinical signs, or treatment parameters.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "纳入评估 GS-441524 治疗自然发病 FIP 猫的研究"
    },
    "排除标准": {
     "evidence_quote": "Studies were excluded if they were in vitro or experimental infection studies, did not actually use GS-441524 in cats, or lacked sufficient clinical detail.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "排除体外或实验感染研究等"
    },
    "疾病分期": null
   },
   "text_source": "全文",
   "methods_slots": {
    "检索策略": {
-    "evidence_quote": "Duplicates across databases were removed.",
-    "status": "已报告"
+    "status": "原文未报告",
+    "rejected_quote": "Duplicates across databases were removed.",
+    "evidence_quote": null
    },
    "纳入标准": {
     "evidence_quote": "Inclusion Criteria Studies were included if they (1) evaluated GS-441524 (alone or with other antivirals/immunomodulators) in cats with naturally occurring FIP; (2) monitored clinical outcomes (survival/remission) and reported sufficient data on FIP form, clinical signs, or treatment parameters.",
@@ -3495,11 +3724,13 @@
    },
    "偏倚评估": {
     "evidence_quote": "Bias and Quality Assessment The risk of bias in each study was assessed using the Joanna Briggs Institute (JBI) critical appraisal tools appropriate to the study design (case reports or case series) [ 18 , 19 ].",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "用 JBI 关键评价工具评估偏倚"
    },
    "合成方法": {
-    "evidence_quote": "Literature Search A systematic literature search was conducted following the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) 2020 guidelines [ 13 ].",
-    "status": "已报告"
+    "status": "原文未报告",
+    "rejected_quote": "Literature Search A systematic literature search was conducted following the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) 2020 guidelines [ 13 ].",
+    "evidence_quote": null
    }
   }
  },
@@ -3513,7 +3744,8 @@
    "来源": "自然发病临床病例",
    "纳入标准": {
     "evidence_quote": "The inclusion criteria were defined based on comprehensive histopathological assessments.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "按组织病理学评估确定纳入"
    },
    "排除标准": {
     "evidence_quote": null,
@@ -3532,7 +3764,8 @@
    },
    "研究场所与时间": {
     "evidence_quote": "RNA samples were obtained from 163 confirmed FIP cases between 2021 and November 2023, representing a mixture of geographical origin, sex and clinical presentation (Supplementary Tables 7 – 12 ).",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "2021 年至 2023 年 11 月 163 例确诊病例"
    },
    "暴露与结局定义": {
     "evidence_quote": null,
@@ -3562,42 +3795,42 @@
    "来源": "自然发病临床病例",
    "纳入标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "排除标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "疾病分期": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    }
   },
   "text_source": "摘要",
   "methods_slots": {
    "动物与饲养": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "实验设计与对照": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "随机化": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "盲法": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "伦理批准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "统计方法": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    }
   }
  },
@@ -3611,42 +3844,42 @@
    "来源": "自然发病临床病例",
    "纳入标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "排除标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "疾病分期": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    }
   },
   "text_source": "摘要",
   "methods_slots": {
    "动物与饲养": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "实验设计与对照": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "随机化": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "盲法": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "伦理批准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "统计方法": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    }
   }
  },
@@ -3660,11 +3893,11 @@
    "来源": "不适用（非原始研究）",
    "纳入标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "排除标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "疾病分期": null
   },
@@ -3672,11 +3905,11 @@
   "methods_slots": {
    "证据来源": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "专家组成": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    }
   }
  },
@@ -3690,42 +3923,42 @@
    "来源": "自然发病临床病例",
    "纳入标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "排除标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "疾病分期": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    }
   },
   "text_source": "摘要",
   "methods_slots": {
    "动物与饲养": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "实验设计与对照": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "随机化": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "盲法": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "伦理批准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "统计方法": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    }
   }
  },
@@ -3753,8 +3986,9 @@
   "text_source": "全文",
   "methods_slots": {
    "动物与饲养": {
-    "evidence_quote": "We added housing environment (ordinary households or cat café) as a fixed effect for group-level analysis.",
-    "status": "已报告"
+    "status": "原文未报告",
+    "rejected_quote": "We added housing environment (ordinary households or cat café) as a fixed effect for group-level analysis.",
+    "evidence_quote": null
    },
    "实验设计与对照": {
     "evidence_quote": null,
@@ -3762,19 +3996,23 @@
    },
    "随机化": {
     "evidence_quote": "The orders of presentation of general nouns and cohabiting cats’ names were pseudo-randomized.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "刺激呈现顺序伪随机"
    },
    "盲法": {
     "evidence_quote": "It is confirmed that effectiveness of quantitative analysis with the response magnitude coded by blind raters.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "反应强度由盲法评分者编码"
    },
    "伦理批准": {
     "evidence_quote": "The study was approved by the Animal Experiments Committee of the Graduate School of Arts and Sciences of the University of Tokyo and by the Animal Experiments Committee of Musashino University.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "东京大学动物实验委员会批准"
    },
    "统计方法": {
     "evidence_quote": "Group-level analysis using a generalized linear mixed model (GLMM) revealed a significant effect of stimulus category ( F (1,10) = 11.18, P = 0.007), indicating eleven habituated cats significantly increased in response magnitude from noun 4 to their own name ( t (10) = −3.34, P = 0.007, Fig.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "广义线性混合模型（GLMM）"
    }
   }
  },
@@ -3818,46 +4056,47 @@
    "来源": "自然发病临床病例",
    "纳入标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "排除标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "疾病分期": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    }
   },
   "text_source": "摘要",
   "methods_slots": {
    "研究设计": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "研究场所与时间": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "暴露与结局定义": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "混杂处理": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "缺失数据": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "统计方法": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "基因分型方法": {
     "evidence_quote": "We genotyped an exonic SNP (rs8679682) in the OXTR gene and compared the training success rate of dogs with different genotypes.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "对 OXTR 基因外显子 SNP rs8679682 分型"
    }
   }
  },
@@ -3890,7 +4129,8 @@
   "methods_slots": {
    "动物与饲养": {
     "evidence_quote": "Experimental animals Specific pathogen free (SPF) cats were purposefully bred in the Feline Research Laboratory (FRL) breeding colony of the Feline Nutrition Center, UC Davis.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "加州大学戴维斯分校猫研究实验室繁育群的 SPF 猫"
    },
    "实验设计与对照": {
     "evidence_quote": null,
@@ -3898,7 +4138,8 @@
    },
    "随机化": {
     "evidence_quote": "Six laboratory cats were randomly divided into group A (n = 3; IV administration) or B (n = 3; SC administration).",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "6 只实验猫随机分为静脉组与皮下组"
    },
    "盲法": {
     "evidence_quote": null,
@@ -3906,7 +4147,8 @@
    },
    "伦理批准": {
     "evidence_quote": "Experiments involving the use of laboratory bred cats were conducted under UC Davis IACUC protocol #19936.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "UC Davis IACUC 批准（#19936）"
    },
    "统计方法": {
     "evidence_quote": null,
@@ -3924,46 +4166,47 @@
    "来源": "自然发病临床病例",
    "纳入标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "排除标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "疾病分期": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    }
   },
   "text_source": "摘要",
   "methods_slots": {
    "研究设计": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "研究场所与时间": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "暴露与结局定义": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "混杂处理": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "缺失数据": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "统计方法": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "基因分型方法": {
-    "evidence_quote": "We examined the association between the microsatellite genotypes, age, sex, neutering status, and personality scores.",
-    "status": "已报告"
+    "status": "摘要未提及",
+    "rejected_quote": "We examined the association between the microsatellite genotypes, age, sex, neutering status, and personality scores.",
+    "evidence_quote": null
    }
   }
  },
@@ -3977,11 +4220,11 @@
    "来源": "不适用（非原始研究）",
    "纳入标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "排除标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "疾病分期": null
   },
@@ -3989,11 +4232,11 @@
   "methods_slots": {
    "证据来源": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "专家组成": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    }
   }
  },
@@ -4007,42 +4250,42 @@
    "来源": "自然发病临床病例",
    "纳入标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "排除标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "疾病分期": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    }
   },
   "text_source": "摘要",
   "methods_slots": {
    "动物与饲养": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "实验设计与对照": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "随机化": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "盲法": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "伦理批准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "统计方法": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    }
   }
  },
@@ -4056,11 +4299,11 @@
    "来源": "不适用（非原始研究）",
    "纳入标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "排除标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "疾病分期": null
   },
@@ -4068,11 +4311,11 @@
   "methods_slots": {
    "证据来源": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "专家组成": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    }
   }
  },
@@ -4086,42 +4329,42 @@
    "来源": "自然发病临床病例",
    "纳入标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "排除标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "疾病分期": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    }
   },
   "text_source": "摘要",
   "methods_slots": {
    "动物与饲养": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "实验设计与对照": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "随机化": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "盲法": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "伦理批准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "统计方法": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    }
   }
  },
@@ -4135,11 +4378,11 @@
    "来源": "不适用（非原始研究）",
    "纳入标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "排除标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "疾病分期": null
   },
@@ -4147,11 +4390,11 @@
   "methods_slots": {
    "证据来源": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "专家组成": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    }
   }
  },
@@ -4165,15 +4408,15 @@
    "来源": "研究猫群",
    "纳入标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "排除标准": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "疾病分期": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    }
   },
   "动物来源与实验处理": {
@@ -4184,31 +4427,32 @@
   "methods_slots": {
    "研究设计": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "研究场所与时间": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "暴露与结局定义": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "混杂处理": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "缺失数据": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "统计方法": {
     "evidence_quote": null,
-    "status": "摘要未给出"
+    "status": "摘要未提及"
    },
    "基因分型方法": {
     "evidence_quote": "DNA sequencing was performed and sequence alterations were evaluated for evidence that they changed the amino acid produced, that the amino acid was conserved and that the protein structure was altered.",
-    "status": "已报告"
+    "status": "已报告",
+    "summary_zh": "DNA 测序并评估序列改变"
    }
   }
  }

@@ -1,0 +1,100 @@
+{
+ "scope": "样本量、中心、资助、许可；指南推荐强度由 extracts/guideline_strength.json 负责，不在此处",
+ "records": {
+  "10879400": [
+   {
+    "field": "中心",
+    "value": null,
+    "status": "摘要未提及",
+    "evidence_quote": null,
+    "location": "PubMed 摘要；JSAP 全文非开放获取"
+   }
+  ],
+  "11991408": [
+   {
+    "field": "样本量",
+    "value": "48 只拉布拉多犬（24 对）",
+    "status": "已从摘要核实",
+    "evidence_quote": "48 Labrador Retrievers.",
+    "location": "PubMed 摘要 ANIMALS"
+   }
+  ],
+  "19481039": [
+   {
+    "field": "许可",
+    "value": null,
+    "status": "原文未报告 CC 许可（PMC 仅有版权声明）",
+    "evidence_quote": "© 2009 International Society of Feline Medicine and American Association of Feline Practitioners",
+    "location": "PMC7129471 <permissions>"
+   }
+  ],
+  "25231385": [
+   {
+    "field": "许可",
+    "value": null,
+    "status": "原文未报告 CC 许可（PMC 仅有版权声明）",
+    "evidence_quote": "Copyright © 2014 by the American College of Veterinary Internal Medicine",
+    "location": "PMC4895610 <permissions>"
+   }
+  ],
+  "24217707": [
+   {
+    "field": "样本量",
+    "value": "随机抽样组 86 只 + 关节病组 128 只（共 214 只猫）",
+    "status": "已从全文核实",
+    "evidence_quote": "Of the 86 remaining, 24 cats were aged 0–4.9 years, 22 cats were aged 5.0–9.9 years, 19 cats were aged 10.0–14.9 years and 21 cats were aged 15–20 years",
+    "location": "PMC4414065 Results（RS group）"
+   },
+   {
+    "field": "样本量（续）",
+    "value": "见上",
+    "status": "已从全文核实",
+    "evidence_quote": "One hundred and twenty-eight cats were included from studies A (24 cats), B (37 cats), C (24 cats) and D (43 cats).",
+    "location": "PMC4414065 Results（Part 2: DJD group）"
+   }
+  ],
+  "32139728": [
+   {
+    "field": "样本量",
+    "value": "13715 份问卷，264 个品种（题名取整为 13700）",
+    "status": "已从全文核实",
+    "evidence_quote": "We collected 13,715 responses in 264 dog breeds.",
+    "location": "PMC7058607 Results"
+   },
+   {
+    "field": "许可",
+    "value": "CC BY 4.0",
+    "status": "已从全文核实",
+    "evidence_quote": "https://creativecommons.org/licenses/by/4.0/ Open Access This article is licensed under a Creative Commons Attr",
+    "location": "PMC7058607 permissions"
+   }
+  ],
+  "30543707": [
+   {
+    "field": "中心数",
+    "value": null,
+    "status": "原文未报告（仅称北美私立或学术机构，未给数量）",
+    "evidence_quote": "All dogs were recruited from either private or academic institutions in North America",
+    "location": "全文 Methods"
+   }
+  ],
+  "38884190": [
+   {
+    "field": "中心数",
+    "value": null,
+    "status": "原文未报告（仅称德、法、荷 3 国）",
+    "evidence_quote": "as well as the appropriate national authorities of each country (Germany, France, the Netherlands)",
+    "location": "全文 Methods"
+   }
+  ],
+  "x-international-renal-interest-society-2026-iris-staging-of-ckd-modified-2026": [
+   {
+    "field": "许可",
+    "value": null,
+    "status": "原文未报告 CC 许可（官网仅版权声明）",
+    "evidence_quote": "© 2026 International Renal Interest Society (IRIS) Ltd.",
+    "location": "IRIS 官网分期文件页脚"
+   }
+  ]
+ }
+}

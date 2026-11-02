@@ -96,7 +96,7 @@ if os.path.exists(MF):
     for r in mf:
         p=matcher(r)
         if not p: MERGE['mf_un'].append(r.get('pmid') or r.get('id')); continue
-        MERGE['mf']+=1; p['methods']=r.get('动物来源与实验处理') or {}; p['pop']=r.get('population') or {}
+        MERGE['mf']+=1; p['methods']=r.get('动物来源与实验处理') or {}; p['pop']=r.get('population') or {}; p['slots']=r.get('methods_slots') or {}
 MERGE['pn']=0
 for k,v in json.load(open(os.path.join(ROOT,'data','v5','population_notes.json'),encoding='utf-8')).items():
     p=matcher({'pmid':k,'id':k})
@@ -295,13 +295,19 @@ def paper(p):
     if kr and absonly: kr+='<p class="note">本页数字来自摘要，未经全文核对</p>'
     m=dict(p.get('methods') or {}); RES=p.get('res') or {}
     rv=lambda f: (E_(clean(RES[f][0]))+(f'<blockquote lang="en">{E_(RES[f][1])}</blockquote>' if RES[f][1] else '')) if f in RES else ''
-    POP=[('研究对象',E_(clean(p.get('pop_note') or '')))]+[(k,E_(clean(v))) for k,v in (p.get('pop') or {}).items() if k in ('来源',) and v]
+    POP=[('研究对象',E_(clean(p.get('pop_note') or '')))]+[(k,E_(clean(v if isinstance(v,str) else (v.get('summary_zh') or '')))) for k,v in (p.get('pop') or {}).items() if k in ('来源',) and v]
     if 'multicenter' in RES: POP.append(('单/多中心',rv('multicenter')))
     popt=''.join(f'<tr><th>{E_(k)}</th><td>{v}</td></tr>' for k,v in POP if v)
     if popt: pico=f'<table class="kv">{popt}</table>'+(pico or '')
     MK=[]
     mitems=[(k,m.get(k)) for k,model in MK if not (model and not m.get(k))]+[(k,v) for k,v in m.items() if k not in dict(MK)]
     mt=''.join(f'<tr><th>{E_(k)}</th><td>{E_(clean(v if v else "原文未报告"))}</td></tr>' for k,v in mitems) if m else ''
+    def slot(v):
+        if not isinstance(v,dict): return E_(clean(str(v)))
+        if v.get('status')=='已报告' and (v.get('summary_zh') or v.get('evidence_quote')):
+            return E_(clean(v.get('summary_zh') or ''))+(f'<blockquote lang="en">{E_(v["evidence_quote"])}</blockquote>' if v.get('evidence_quote') else '')
+        return f'<span class="muted">{E_(v.get("status") or "原文未报告")}</span>'
+    mt+=''.join(f'<tr><th>{E_(k)}</th><td>{slot(v)}</td></tr>' for k,v in (p.get('slots') or {}).items() if k not in ('纳入标准','排除标准','疾病分期'))
     meth=f'<table class="kv">{mt}</table>' if mt else ''
     cs=''
     if p.get('can_say') and '见页面' not in str(p['can_say']) and (p.get('p38') or not sec_get(S,'能说')):
@@ -364,7 +370,23 @@ def main():
     shutil.rmtree(OUT,ignore_errors=True)
     w('index.html',home()); w('library/index.html',library()); w('topics/index.html',topics_index())
     for t in VIS: w(f'topics/{t["id"]}/index.html',topic_page(t))
-    for p in P.values(): w(f'papers/{p["sid"]}/index.html',paper(p))
+    R2=json.load(open(os.path.join(ROOT,'data','v5','unverified_resolution_r2.json'),encoding='utf-8'))['records']; MERGE['ur2']=0
+    for k,v in R2.items():
+        q=matcher({'pmid':k,'id':k})
+        if q: q['r2']=v; MERGE['ur2']+=1
+    print('ur2',MERGE['ur2'])
+    for p in P.values():
+        h=paper(p)
+        for x in p.get('r2') or []:
+            f=re.sub(r'（续）$','',x['field']); base='中心' if f.startswith('中心') else f
+            if x.get('value')=='见上': continue
+            val=x['value'] or ('摘要未提及' if str(x['status']).startswith('摘要未提及') else x['status'])
+            cell=E_(val)+(f'<blockquote lang="en">{E_(x["evidence_quote"])}</blockquote>' if x.get('evidence_quote') and x['value'] else '')
+            if base=='许可':
+                h=re.sub(r'(<summary>原文与许可</summary>)',r'\1'+f'<p>许可：{cell}</p>'.replace('\\','\\\\'),h,count=1); continue
+            h=re.sub(r'(<tr><th>[^<]*'+base+r'[^<]*</th><td>)[^<]*未核[^<]*(</td></tr>)',lambda m:m.group(1)+cell+m.group(2),h)
+            if base=='样本量' and x['value']: h=re.sub(r'n=[^<]*未核[^<]*','n='+E_(x['value']),h)
+        w(f'papers/{p["sid"]}/index.html',h)
     os.makedirs(os.path.join(OUT,'static'),exist_ok=True); shutil.copy(os.path.join(ROOT,'static','preview','v.css'),os.path.join(OUT,'static','v.css'))
     import collections; print('templates',collections.Counter((p.get('population_type') or 'natural') for p in P.values()))
     print('merge',{k:(v if isinstance(v,int) else len(v)) for k,v in MERGE.items()},MERGE['sr_un'],MERGE['ap_un'])
