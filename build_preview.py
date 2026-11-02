@@ -168,7 +168,7 @@ def page(title,body,depth,cur_nav=''):
 <header class="top"><div class="in"><a class="brand" href="{r}">VETLIT<i>.</i></a><nav>{nav}</nav></div></header>
 <div class="pv">预览版 · 改版中，正式站点仍在 <a href="{r}../">原址</a></div>
 <main class="wrap">{body}</main>
-<footer class="foot"><div class="in">犬猫兽医文献速读 · 仅供专业参考，不构成诊疗建议 · 速读由 AI 撰写，单人评估，未双人复核 · 构建于 {datetime.date.today().isoformat()}</div></footer></body></html>'''
+<footer class="foot"><div class="in">犬猫兽医文献速读 · 仅供专业参考，不构成诊疗建议 · 构建于 {datetime.date.today().isoformat()}</div></footer></body></html>'''
 # ---------- home ----------
 ALL=sorted(P.values(),key=lambda p:p.get('importance_rank') or 999)
 def home():
@@ -372,7 +372,7 @@ def paper(p):
         orig=f'<p>许可{("（"+E_(str(p["license"]))+"）") if has(p.get("license")) else ""}不允许全文翻译转载，本站只提供速读与术语对照。</p>'
     bib=B.bibtex(B.view({**p,'id':p['sid']})); ris=B.ris(B.view({**p,'id':p['sid']}))
     body+=f'<details class="fold"><summary>原文与许可</summary>{orig}</details><details class="fold"><summary>引用（BibTeX / RIS）</summary><pre>{E_(bib)}</pre><pre>{E_(ris)}</pre></details>'
-    body+=f'<p class="note sig">依据：{"摘要" if absonly else "全文"} · 速读：AI 撰写，单人评估，未双人复核</p>'
+    body+=f'<p class="note sig">依据：{"摘要" if absonly else "全文"} · 速读由 AI 提取；偏倚风险经 AI 双重独立评估与第三方裁定（仅已裁定篇目），未经临床兽医审阅</p>'
     return page(clean(p.get('title_zh') or p.get('first_author','')+' '+str(p.get('year',''))),body,2)
 def w(rel,s):
     f=os.path.join(OUT,rel); os.makedirs(os.path.dirname(f),exist_ok=True); open(f,'w',encoding='utf-8').write(s)
@@ -396,6 +396,8 @@ def main():
                 h=re.sub(r'(<summary>原文与许可</summary>)',r'\1'+f'<p>许可：{cell}</p>'.replace('\\','\\\\'),h,count=1); continue
             h=re.sub(r'(<tr><th>[^<]*'+base+r'[^<]*</th><td>)[^<]*未核[^<]*(</td></tr>)',lambda m:m.group(1)+cell+m.group(2),h)
             if base=='样本量' and x['value']: h=re.sub(r'n=[^<]*未核[^<]*','n='+E_(x['value']),h)
+        rep='摘要未提及' if p.get('reading_depth')!='全文' else '原文未报告'
+        h=h.replace('原文未给出',rep).replace('摘要未给出',rep)
         w(f'papers/{p["sid"]}/index.html',h)
     os.makedirs(os.path.join(OUT,'static'),exist_ok=True); shutil.copy(os.path.join(ROOT,'static','preview','v.css'),os.path.join(OUT,'static','v.css'))
     import collections; print('templates',collections.Counter((p.get('population_type') or 'natural') for p in P.values()))
