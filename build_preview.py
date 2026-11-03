@@ -300,7 +300,7 @@ def cmeta(p):
     sp={'cat':'猫','dog':'犬','cat+dog':'猫犬','猫/犬':'猫犬'}.get(species(p),species(p))
     sp=sp if sp in ('猫','犬','猫犬') else ''
     j=p.get('journal') or ''; j=JABBR.get(j,j)
-    seg=[str(p.get('year') or ''),j,sp,DSHORT.get(p.get('design_category') or '',p.get('design_category') or ''),_n(p),_ctext(p) if SHOW_CERTAINTY else '']
+    seg=[str(p.get('year') or ''),j,sp,DSHORT.get(p.get('design_category') or '',p.get('design_category') or ''),_n(p),('CEBM '+level(p)[6:]+'级') if level(p).startswith('Level') else '',_ctext(p) if SHOW_CERTAINTY else '']
     return ' · '.join(x for x in seg if x and x not in ('待评定','不适用','None'))
 def _short(t,m=30):
     t=clean(str(t or '')).strip()
@@ -451,7 +451,7 @@ def appraisal(p):
 def paper(p):
     r='../../'; S=sections(p)
     head=f'''<p class="crumb"><a href="{r}library/">文献库</a>{"".join(f' › <a href="{r}topics/{t}/">{E_(TBY[t]["name_zh"])}</a>' for t in (p.get("topics") or [])[:1] if t in TBY and t in [v["id"] for v in VIS])}</p>
-<p class="eb">{E_(" / ".join(specs(p)))} · {E_(species(p))}</p>{title_html(p,'h1')}
+<p class="eb">{E_(" / ".join(specs(p)))} · {E_(species(p))}</p>{title_html(p,'h1')}<p class="cmeta">{E_(cmeta(p))}</p>
 <p class="meta">{E_(p.get("first_author",""))} 等 · <em>{E_(p.get("journal",""))}</em> · {E_(p.get("pub_date") or str(p.get("year","")))}{f' · <a href="https://doi.org/{E_(p["doi"])}">DOI</a>' if p.get('doi') else ''}{f' · <a href="https://pubmed.ncbi.nlm.nih.gov/{p["pmid"]}/">PubMed</a>' if p.get('pmid') else ''}{f' · <a href="https://europepmc.org/article/PMC/{p["pmcid"]}">全文</a>' if p.get('pmcid') else ''}</p>
 <p>{"".join(f'<a class="chip" href="{r}topics/{t}/">{E_(TBY[t]["name_zh"])}</a>' for t in (p.get("topics") or []) if t in TBY and TBY[t] in VIS)}</p>'''
     blk=lambda n,t,c: f'<section class="blk"><h2 class="sec"><span>{n}</span> {t}</h2>{c}</section>' if c else ''
