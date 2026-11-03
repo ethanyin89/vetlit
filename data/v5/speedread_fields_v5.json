@@ -1517,14 +1517,20 @@
         "groups": "63%（34/54）",
         "effect_ci": "摘要未给出",
         "p": "摘要未给出"
+      },
+      {
+        "measure": "1 年内进展的预测因素（全部猫）",
+        "groups": "高血磷、高 UPC（\"High plasma phosphate concentration and high urine protein-to-creatinine ratio (UPC) predicted progression in all cats\"）",
+        "effect_ci": "摘要未给出",
+        "p": "摘要未给出"
       }
     ],
     "confidence_sentence": "本文为回顾性队列，CEBM 3 级，QUIPS 尚未评估偏倚风险，结论基于摘要。",
-    "clinical_meaning": "CKD 猫应监测血磷和蛋白尿，二者升高提示进展风险高。",
+    "clinical_meaning": "血磷和 UPC 较高的 CKD 猫进展更常见",
     "key_results_top3": [
       0,
-      1,
-      2
+      3,
+      1
     ]
   },
   {
@@ -1893,7 +1899,7 @@
       }
     ],
     "confidence_sentence": "本文为前瞻性随访研究，CEBM 4 级，无对应偏倚工具，结论基于全文。",
-    "clinical_meaning": "GS-441524 治愈的 FIP 猫一年内少见复发，但可能再排毒。",
+    "clinical_meaning": "GS-441524 缓解的 FIP 猫 1 年随访未见确证复发，但可再排毒。",
     "key_results_top3": [
       1,
       0,
@@ -2551,7 +2557,7 @@
       }
     ],
     "confidence_sentence": "本文为系统综述，CEBM 等级未核、AMSTAR 2未评，结论基于全文，证据强度取决于纳入研究质量。",
-    "clinical_meaning": "GS-441524 多数能治愈 FIP，积液型和神经型效果较差。",
+    "clinical_meaning": "GS-441524 多数能治愈 FIP，但原文分型数据前后不一致。",
     "key_results_top3": [
       0,
       3,
