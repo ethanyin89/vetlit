@@ -8,7 +8,7 @@ def _load(n):
     f=os.path.join(D,n)
     try: return json.load(open(f,encoding='utf-8'))
     except Exception: return None
-TOP=_load('top_picks.json'); REL=_load('related_reading.json'); TS=_load('text_source.json')
+TOP=_load('top_picks.json'); LA=_load('licence_audit.json'); REL=_load('related_reading.json'); TS=_load('text_source.json')
 TR={}
 for f in glob.glob(os.path.join(D,'translations','*.json')):
     try: t=json.load(open(f,encoding='utf-8')); TR[str(t.get('pmid') or os.path.basename(f)[:-5])]=t
@@ -26,6 +26,14 @@ def text_source(pmid):
     return '全文' if ('full' in v or '全文' in v) else '摘要'
 CCBY=re.compile(r'^cc[\s\-]?by(\s*[\d.]+)?$',re.I)
 def ccby(lic): return bool(CCBY.match(str(lic or '').strip().replace('-4.0','').replace(' 4.0','')))
+def _audit_ok(pmid):
+    if LA is None: return True
+    v=_recs(LA,'records').get(str(pmid))
+    if isinstance(v,dict): v=v.get('translatable', v.get('verdict', v.get('status')))
+    if v is True: return True
+    return isinstance(v,str) and v.strip().lower() in ('translatable','true','yes','可翻译')
+def can_translate(p):
+    return ccby(p.get('license')) and not p.get('no_translation') and _audit_ok(p.get('pmid'))
 def translation(pmid,lic):
     t=TR.get(str(pmid))
     if not t or not ccby(t.get('license') or lic): return None
@@ -57,7 +65,11 @@ def top_block(get,card):
         for it in items[:3]:
             pid=str(it.get('pmid') or it.get('id') if isinstance(it,dict) else it)
             p=get(pid)
-            if p: cards+=card(p,'')
+            if p:
+                c=card(p,'')
+                rs=it.get('reason') if isinstance(it,dict) else ''
+                if rs: c=c.replace('</article>',f'<p class="note">推荐理由：{E_(rs)}</p></article>',1)
+                cards+=c
         if cards: out+=f'<h3 class="dg">{E_(g.get("topic_zh") or g.get("name_zh") or g.get("topic") or "")}</h3>'+cards
     if not out: return ''
     return f'<section><h2 class="sec"><span>00</span> 最新 / 最重要</h2>'+(f'<p class="note">排序规则：{E_(rule)}</p>' if rule else '')+out+'</section>'

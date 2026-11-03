@@ -1,0 +1,4346 @@
+{
+ "42043241": [
+  {
+   "pmid": "41781382",
+   "doi": "10.1177/1098612x261433057",
+   "title": "Treatment of non-effusive feline infectious peritonitis using oral remdesivir or GS-441524: a randomized, double-blind, non-inferiority trial.",
+   "reason": "本库已收录；OpenAlex 相关文献",
+   "first_author": "Brostoff T",
+   "journal": "Journal of feline medicine and surgery",
+   "year": 2026
+  },
+  {
+   "pmid": "41035288",
+   "doi": "10.1111/jvim.70253",
+   "title": "Treatment With Remdesivir Alone or in Combination With GS-441524 in Cats With Ocular Involvement of Feline Infectious Peritonitis: An Observational Case Series.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Andrews ALMM",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2025
+  },
+  {
+   "pmid": "39066306",
+   "doi": "10.3390/v16071144",
+   "title": "Short Treatment of 42 Days with Oral GS-441524 Results in Equal Efficacy as the Recommended 84-Day Treatment in Cats Suffering from Feline Infectious Peritonitis with Effusion-A Prospective Randomized Controlled Study.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Zuzzi-Krebitz AM",
+   "journal": "Viruses",
+   "year": 2024
+  },
+  {
+   "pmid": "37403259",
+   "doi": "10.1111/jvim.16804",
+   "title": "Thirty-two cats with effusive or non-effusive feline infectious peritonitis treated with a combination of remdesivir and GS-441524.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Green J",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2023
+  },
+  {
+   "pmid": "37439383",
+   "doi": "10.1111/jvim.16803",
+   "title": "Outcomes of treatment of cats with feline infectious peritonitis using parenterally administered remdesivir, with or without transition to orally administered GS-441524.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Coggins SJ",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2023
+  }
+ ],
+ "x-international-renal-interest-society-2026-iris-staging-of-ckd-modified-2026": [],
+ "37766254": [
+  {
+   "pmid": "42043241",
+   "doi": "10.3390/v18040452",
+   "title": "Update on Treatment of Feline Infectious Peritonitis: European Advisory Board on Cat Diseases (ABCD) Guidelines.",
+   "reason": "本库已收录；引用了本文",
+   "first_author": "Tasker S",
+   "journal": "Viruses",
+   "year": 2026
+  },
+  {
+   "pmid": "40633571",
+   "doi": "10.1038/s41586-025-09340-0",
+   "title": "Feline infectious peritonitis epizootic caused by a recombinant coronavirus.",
+   "reason": "本库已收录；引用了本文",
+   "first_author": "Attipa C",
+   "journal": "Nature",
+   "year": 2025
+  },
+  {
+   "pmid": "40732763",
+   "doi": "10.3390/pathogens14070717",
+   "title": "Efficacy of GS-441524 for Feline Infectious Peritonitis: A Systematic Review (2018-2024).",
+   "reason": "本库已收录；引用了本文",
+   "first_author": "Gokalsing E",
+   "journal": "Pathogens (Basel, Switzerland)",
+   "year": 2025
+  },
+  {
+   "pmid": "39066306",
+   "doi": "10.3390/v16071144",
+   "title": "Short Treatment of 42 Days with Oral GS-441524 Results in Equal Efficacy as the Recommended 84-Day Treatment in Cats Suffering from Feline Infectious Peritonitis with Effusion-A Prospective Randomized Controlled Study.",
+   "reason": "本库已收录；引用了本文",
+   "first_author": "Zuzzi-Krebitz AM",
+   "journal": "Viruses",
+   "year": 2024
+  },
+  {
+   "pmid": "37403259",
+   "doi": "10.1111/jvim.16804",
+   "title": "Thirty-two cats with effusive or non-effusive feline infectious peritonitis treated with a combination of remdesivir and GS-441524.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Green J",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2023
+  }
+ ],
+ "36002137": [
+  {
+   "pmid": "40732763",
+   "doi": "10.3390/pathogens14070717",
+   "title": "Efficacy of GS-441524 for Feline Infectious Peritonitis: A Systematic Review (2018-2024).",
+   "reason": "本库已收录；引用了本文",
+   "first_author": "Gokalsing E",
+   "journal": "Pathogens (Basel, Switzerland)",
+   "year": 2025
+  },
+  {
+   "pmid": "39066306",
+   "doi": "10.3390/v16071144",
+   "title": "Short Treatment of 42 Days with Oral GS-441524 Results in Equal Efficacy as the Recommended 84-Day Treatment in Cats Suffering from Feline Infectious Peritonitis with Effusion-A Prospective Randomized Controlled Study.",
+   "reason": "本库已收录；引用了本文",
+   "first_author": "Zuzzi-Krebitz AM",
+   "journal": "Viruses",
+   "year": 2024
+  },
+  {
+   "pmid": "37766254",
+   "doi": "10.3390/v15091847",
+   "title": "Feline Infectious Peritonitis: European Advisory Board on Cat Diseases Guidelines.",
+   "reason": "本库已收录；引用了本文",
+   "first_author": "Tasker S",
+   "journal": "Viruses",
+   "year": 2023
+  },
+  {
+   "pmid": "37732386",
+   "doi": "10.1177/1098612x231194460",
+   "title": "Retrospective study and outcome of 307 cats with feline infectious peritonitis treated with legally sourced veterinary compounded preparations of remdesivir and GS-441524 (2020-2022).",
+   "reason": "本库已收录；引用了本文",
+   "first_author": "Taylor SS",
+   "journal": "Journal of feline medicine and surgery",
+   "year": 2023
+  },
+  {
+   "pmid": "37403259",
+   "doi": "10.1111/jvim.16804",
+   "title": "Thirty-two cats with effusive or non-effusive feline infectious peritonitis treated with a combination of remdesivir and GS-441524.",
+   "reason": "本库已收录；引用了本文",
+   "first_author": "Green J",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2023
+  }
+ ],
+ "32243654": [
+  {
+   "pmid": "30974015",
+   "doi": "10.1111/jvim.15488",
+   "title": "ACVIM consensus guidelines for the diagnosis and treatment of myxomatous mitral valve disease in dogs.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Keene BW",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2019
+  },
+  {
+   "pmid": "29660848",
+   "doi": "10.1111/jvim.15122",
+   "title": "International collaborative study to assess cardiovascular risk and evaluate long-term health in cats with preclinical hypertrophic cardiomyopathy and apparently healthy cats: The REVEAL Study.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Fox PR",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2018
+  },
+  {
+   "pmid": "26776583",
+   "doi": "10.1016/j.jvc.2015.03.008",
+   "title": "Cardiomyopathy prevalence in 780 apparently healthy cats in rehoming centres (the CatScan study).",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Payne JR",
+   "journal": "Journal of veterinary cardiology : the official journal of the European Society of Veterinary Cardiology",
+   "year": 2015
+  },
+  {
+   "pmid": "26776588",
+   "doi": "10.1016/j.jvc.2015.10.004",
+   "title": "Secondary prevention of cardiogenic arterial thromboembolism in the cat: The double-blind, randomized, positive-controlled feline arterial thromboembolism; clopidogrel vs. aspirin trial (FAT CAT).",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Hogan DF",
+   "journal": "Journal of veterinary cardiology : the official journal of the European Society of Veterinary Cardiology",
+   "year": 2015
+  },
+  {
+   "pmid": "16236761",
+   "doi": "10.1093/hmg/ddi386",
+   "title": "A cardiac myosin binding protein C mutation in the Maine Coon cat with familial hypertrophic cardiomyopathy.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Meurs KM",
+   "journal": "Human molecular genetics",
+   "year": 2005
+  }
+ ],
+ "30974015": [
+  {
+   "pmid": "32243654",
+   "doi": "10.1111/jvim.15745",
+   "title": "ACVIM consensus statement guidelines for the classification, diagnosis, and management of cardiomyopathies in cats.",
+   "reason": "本库已收录；引用了本文",
+   "first_author": "Luis Fuentes V",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2020
+  },
+  {
+   "pmid": "27678080",
+   "doi": "10.1111/jvim.14586",
+   "title": "Effect of Pimobendan in Dogs with Preclinical Myxomatous Mitral Valve Disease and Cardiomegaly: The EPIC Study-A Randomized Clinical Trial.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Boswood A",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2016
+  },
+  {
+   "pmid": "18638016",
+   "doi": "10.1111/j.1939-1676.2008.0150.x",
+   "title": "Effect of pimobendan or benazepril hydrochloride on survival times in dogs with congestive heart failure caused by naturally occurring myxomatous mitral valve disease: the QUEST study.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Häggström J",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2008
+  },
+  {
+   "title": "Guidelines for the Diagnosis and Treatment of Canine Chronic Valvular Heart Disease",
+   "reason": "库外；本文引用；标题含指南/共识/系统综述/随机对照字样；OpenAlex 被引 548 次",
+   "first_author": "Clarke E. Atkins",
+   "journal": "Journal of Veterinary Internal Medicine",
+   "year": 2009,
+   "pmid": "19780929",
+   "doi": "10.1111/j.1939-1676.2009.0392.x"
+  },
+  {
+   "title": "ACVIM consensus statement guidelines for the diagnosis, classification, treatment, and monitoring of pulmonary hypertension in dogs",
+   "reason": "库外；引用了本文；标题含指南/共识/系统综述/随机对照字样；OpenAlex 被引 304 次",
+   "first_author": "Carol R. Reinero",
+   "journal": "Journal of Veterinary Internal Medicine",
+   "year": 2020,
+   "pmid": "32065428",
+   "doi": "10.1111/jvim.15725"
+  }
+ ],
+ "30353952": [
+  {
+   "pmid": "26474314",
+   "doi": "10.1111/jvim.13639",
+   "title": "Comparison of Efficacy of Long-term Oral Treatment with Telmisartan and Benazepril in Cats with Chronic Kidney Disease.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Sent U",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2015
+  },
+  {
+   "pmid": "23647231",
+   "doi": "10.1111/jvim.12090",
+   "title": "Chronic kidney disease in dogs in UK veterinary practices: prevalence, risk factors, and survival.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "O'Neill DG",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2013
+  },
+  {
+   "pmid": "22269057",
+   "doi": "10.1111/j.1939-1676.2011.00874.x",
+   "title": "Clinicopathological variables predicting progression of azotemia in cats with chronic kidney disease.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Chakrabarti S",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2012
+  },
+  {
+   "pmid": "16734085",
+   "doi": "10.1892/0891-6640(2006)20[528:socwno]2.0.co;2",
+   "title": "Survival of cats with naturally occurring chronic renal failure is related to severity of proteinuria.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Syme HM",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2006
+  },
+  {
+   "pmid": "17063696",
+   "doi": "10.1892/0891-6640(2006)20[1054:taeobi]2.0.co;2",
+   "title": "Tolerability and efficacy of benazepril in cats with chronic kidney disease.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "King JN",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2006
+  }
+ ],
+ "29314873": [
+  {
+   "pmid": "38884190",
+   "doi": "10.1111/jvim.17124",
+   "title": "Efficacy and safety of once daily oral administration of sodium-glucose cotransporter-2 inhibitor velagliflozin compared with twice daily insulin injection in diabetic cats.",
+   "reason": "本库已收录；引用了本文",
+   "first_author": "Niessen SJM",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2024
+  },
+  {
+   "pmid": "25701862",
+   "doi": "10.1177/1098612x15571880",
+   "title": "ISFM consensus guidelines on the practical management of diabetes mellitus in cats.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Sparkes AH",
+   "journal": "Journal of feline medicine and surgery",
+   "year": 2015
+  },
+  {
+   "title": "2021 AAHA/AAFP Feline Life Stage Guidelines",
+   "reason": "库外；引用了本文；标题含指南/共识/系统综述/随机对照字样；OpenAlex 被引 170 次",
+   "first_author": "Jessica M. Quimby",
+   "journal": "Journal of Feline Medicine and Surgery",
+   "year": 2021,
+   "pmid": "33627003",
+   "doi": "10.1177/1098612x21993657"
+  },
+  {
+   "title": "2019 AAHA Canine Life Stage Guidelines*",
+   "reason": "库外；引用了本文；标题含指南/共识/系统综述/随机对照字样；OpenAlex 被引 149 次",
+   "first_author": "Kate E. Creevy",
+   "journal": "Journal of the American Animal Hospital Association",
+   "year": 2019,
+   "pmid": "31622127",
+   "doi": "10.5326/jaaha-ms-6999"
+  },
+  {
+   "title": "AAHA Diabetes Management Guidelines for Dogs and Cats",
+   "reason": "库外；本文引用；标题含指南/共识/系统综述/随机对照字样；OpenAlex 被引 97 次",
+   "first_author": "Renee Rucinsky",
+   "journal": "Journal of the American Animal Hospital Association",
+   "year": 2010,
+   "pmid": "20439947",
+   "doi": "10.5326/0460215"
+  }
+ ],
+ "28965673": [
+  {
+   "pmid": "23078651",
+   "doi": "10.1111/j.1939-1676.2012.01026.x",
+   "title": "Efficacy of pimobendan in the prevention of congestive heart failure or sudden death in Doberman Pinschers with preclinical dilated cardiomyopathy (the PROTECT Study).",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Summerfield NJ",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2012
+  },
+  {
+   "title": "Proposed Guidelines for the Diagnosis of Canine Idiopathic Dilated Cardiomyopathy",
+   "reason": "库外；本文引用；标题含指南/共识/系统综述/随机对照字样；OpenAlex 被引 230 次",
+   "first_author": "Joanna Dukes‐McEwan",
+   "journal": "Journal of Veterinary Cardiology",
+   "year": 2003,
+   "pmid": "19081360",
+   "doi": "10.1016/s1760-2734(06)70047-9"
+  },
+  {
+   "title": "Clinical Practice Guidelines: An Opinion of the Legal Implication to Veterinary Medicine",
+   "reason": "库外；引用了本文；标题含指南/共识/系统综述/随机对照字样；OpenAlex 被引 18 次",
+   "first_author": "Michela Pugliese",
+   "journal": "Animals",
+   "year": 2019,
+   "pmid": "31430919",
+   "doi": "10.3390/ani9080577"
+  },
+  {
+   "title": "Recommendations for Standards in Transthoracic Two-Dimensional Echocardiography in the Dog and Cat",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 1010 次",
+   "first_author": "William P. Thomas",
+   "journal": "Journal of Veterinary Internal Medicine",
+   "year": 1993,
+   "pmid": "8246215",
+   "doi": "10.1111/j.1939-1676.1993.tb01015.x"
+  },
+  {
+   "title": "Hypothyroidism in dogs: 66 cases (1987-1992)",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 233 次",
+   "first_author": "David L. Panciera",
+   "journal": "Journal of the American Veterinary Medical Association",
+   "year": 1994,
+   "pmid": "8175472",
+   "doi": "10.2460/javma.1994.204.05.761"
+  }
+ ],
+ "27143042": [
+  {
+   "pmid": "25673019",
+   "doi": "10.1177/1098612x15572416",
+   "title": "Prevalence and degree of thyroid pathology in hyperthyroid cats increases with disease duration: a cross-sectional analysis of 2096 cats referred for radioiodine therapy.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Peterson ME",
+   "journal": "Journal of feline medicine and surgery",
+   "year": 2016
+  },
+  {
+   "pmid": "21704901",
+   "doi": "10.1016/j.jfms.2011.05.009",
+   "title": "WSAVA nutritional assessment guidelines.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Freeman",
+   "journal": "Journal of feline medicine and surgery",
+   "year": 2011
+  },
+  {
+   "title": "2021 AAHA/AAFP Feline Life Stage Guidelines",
+   "reason": "库外；引用了本文；标题含指南/共识/系统综述/随机对照字样；OpenAlex 被引 170 次",
+   "first_author": "Jessica M. Quimby",
+   "journal": "Journal of Feline Medicine and Surgery",
+   "year": 2021,
+   "pmid": "33627003",
+   "doi": "10.1177/1098612x21993657"
+  },
+  {
+   "title": "AAFP Feline Anesthesia Guidelines",
+   "reason": "库外；引用了本文；标题含指南/共识/系统综述/随机对照字样；OpenAlex 被引 143 次",
+   "first_author": "Sheilah Ann Robertson",
+   "journal": "Journal of Feline Medicine and Surgery",
+   "year": 2018,
+   "pmid": "29989502",
+   "doi": "10.1177/1098612x18781391"
+  },
+  {
+   "title": "2021 AAFP Feline Senior Care Guidelines",
+   "reason": "库外；引用了本文；标题含指南/共识/系统综述/随机对照字样；OpenAlex 被引 60 次",
+   "first_author": "Michael Ray",
+   "journal": "Journal of Feline Medicine and Surgery",
+   "year": 2021,
+   "pmid": "34167339",
+   "doi": "10.1177/1098612x211021538"
+  }
+ ],
+ "26936494": [
+  {
+   "pmid": "26474314",
+   "doi": "10.1111/jvim.13639",
+   "title": "Comparison of Efficacy of Long-term Oral Treatment with Telmisartan and Benazepril in Cats with Chronic Kidney Disease.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Sent U",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2015
+  },
+  {
+   "pmid": "25231385",
+   "doi": "10.1111/jvim.12445",
+   "title": "Comparison of serum concentrations of symmetric dimethylarginine and creatinine as kidney function biomarkers in cats with chronic kidney disease.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Hall JA",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2014
+  },
+  {
+   "pmid": "24217707",
+   "doi": "10.1177/1098612x13511446",
+   "title": "Prevalence and classification of chronic kidney disease in cats randomly selected from four age groups and in cats recruited for degenerative joint disease studies.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Marino CL",
+   "journal": "Journal of feline medicine and surgery",
+   "year": 2014
+  },
+  {
+   "pmid": "23838205",
+   "doi": "10.1016/j.tvjl.2013.05.048",
+   "title": "Mirtazapine as an appetite stimulant and anti-emetic in cats with chronic kidney disease: a masked placebo-controlled crossover clinical trial.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Quimby JM",
+   "journal": "Veterinary journal (London, England : 1997)",
+   "year": 2013
+  },
+  {
+   "pmid": "22269057",
+   "doi": "10.1111/j.1939-1676.2011.00874.x",
+   "title": "Clinicopathological variables predicting progression of azotemia in cats with chronic kidney disease.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Chakrabarti S",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2012
+  }
+ ],
+ "25701862": [
+  {
+   "pmid": "38884190",
+   "doi": "10.1111/jvim.17124",
+   "title": "Efficacy and safety of once daily oral administration of sodium-glucose cotransporter-2 inhibitor velagliflozin compared with twice daily insulin injection in diabetic cats.",
+   "reason": "本库已收录；引用了本文",
+   "first_author": "Niessen SJM",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2024
+  },
+  {
+   "pmid": "29314873",
+   "doi": "10.5326/jaaha-ms-6822",
+   "title": "2018 AAHA Diabetes Management Guidelines for Dogs and Cats.",
+   "reason": "本库已收录；引用了本文",
+   "first_author": "Behrend E",
+   "journal": "Journal of the American Animal Hospital Association",
+   "year": 2018
+  },
+  {
+   "title": "2021 AAHA/AAFP Feline Life Stage Guidelines",
+   "reason": "库外；引用了本文；标题含指南/共识/系统综述/随机对照字样；OpenAlex 被引 170 次",
+   "first_author": "Jessica M. Quimby",
+   "journal": "Journal of Feline Medicine and Surgery",
+   "year": 2021,
+   "pmid": "33627003",
+   "doi": "10.1177/1098612x21993657"
+  },
+  {
+   "title": "2021 AAFP Feline Senior Care Guidelines",
+   "reason": "库外；引用了本文；标题含指南/共识/系统综述/随机对照字样；OpenAlex 被引 60 次",
+   "first_author": "Michael Ray",
+   "journal": "Journal of Feline Medicine and Surgery",
+   "year": 2021,
+   "pmid": "34167339",
+   "doi": "10.1177/1098612x211021538"
+  },
+  {
+   "title": "2026 AAHA Diabetes Management Guidelines for Cats",
+   "reason": "库外；OpenAlex 相关文献；标题含指南/共识/系统综述/随机对照字样；OpenAlex 被引 3 次",
+   "first_author": "Andrew C. Bugbee",
+   "journal": "Journal of the American Animal Hospital Association",
+   "year": 2026,
+   "pmid": "42014100",
+   "doi": "10.5326/jaaha-ms-7572"
+  }
+ ],
+ "24112317": [
+  {
+   "pmid": "31554584",
+   "doi": "10.1016/j.tvjl.2019.105343",
+   "title": "Diagnosis of spontaneous hyperadrenocorticism in dogs. Part 2: Adrenal function testing and differentiating tests.",
+   "reason": "本库已收录；OpenAlex 相关文献",
+   "first_author": "Bennaim M",
+   "journal": "Veterinary journal (London, England : 1997)",
+   "year": 2019
+  },
+  {
+   "title": "Clinical Findings, Diagnostic Test Results, and Treatment Outcome in Cats with Spontaneous Hyperadrenocorticism: 30 Cases",
+   "reason": "库外；OpenAlex 相关文献；犬猫研究，按被引排序；OpenAlex 被引 56 次",
+   "first_author": "S.Y. Valentin",
+   "journal": "Journal of Veterinary Internal Medicine",
+   "year": 2014,
+   "pmid": "24433386",
+   "doi": "10.1111/jvim.12298"
+  },
+  {
+   "title": "Diagnosis of spontaneous hyperadrenocorticism in dogs. Part 1: Pathophysiology, aetiology, clinical and clinicopathological features",
+   "reason": "库外；OpenAlex 相关文献；犬猫研究，按被引排序；OpenAlex 被引 48 次",
+   "first_author": "Michaël Bennaim",
+   "journal": "The Veterinary Journal",
+   "year": 2019,
+   "pmid": "31554593",
+   "doi": "10.1016/j.tvjl.2019.105342"
+  },
+  {
+   "title": "Diagnosis of hyperadrenocorticism in dogs: a survey of internists and dermatologists",
+   "reason": "库外；OpenAlex 相关文献；犬猫研究，按被引排序；OpenAlex 被引 30 次",
+   "first_author": "Ellen N. Behrend",
+   "journal": "Journal of the American Veterinary Medical Association",
+   "year": 2002,
+   "pmid": "12051503",
+   "doi": "10.2460/javma.2002.220.1643"
+  },
+  {
+   "title": "Diagnosis of Canine Hyperadrenocorticism",
+   "reason": "库外；OpenAlex 相关文献；犬猫研究，按被引排序；OpenAlex 被引 26 次",
+   "first_author": "Lynn F. Guptill",
+   "journal": "Veterinary Clinics of North America Small Animal Practice",
+   "year": 1997,
+   "pmid": "9076904",
+   "doi": "10.1016/s0195-5616(97)50028-3"
+  }
+ ],
+ "23422366": [
+  {
+   "title": "2015 AAHA/AAFP Pain Management Guidelines for Dogs and Cats",
+   "reason": "库外；引用了本文；标题含指南/共识/系统综述/随机对照字样；OpenAlex 被引 360 次",
+   "first_author": "Mark E. Epstein",
+   "journal": "Journal of Feline Medicine and Surgery",
+   "year": 2015,
+   "pmid": "25701863",
+   "doi": "10.1177/1098612x15572062"
+  },
+  {
+   "title": "2020 AAFP Feline Retrovirus Testing and Management Guidelines",
+   "reason": "库外；引用了本文；标题含指南/共识/系统综述/随机对照字样；OpenAlex 被引 237 次",
+   "first_author": "Susan E. Little",
+   "journal": "Journal of Feline Medicine and Surgery",
+   "year": 2020,
+   "pmid": "31916872",
+   "doi": "10.1177/1098612x19895940"
+  },
+  {
+   "title": "2021 AAHA/AAFP Feline Life Stage Guidelines",
+   "reason": "库外；引用了本文；标题含指南/共识/系统综述/随机对照字样；OpenAlex 被引 170 次",
+   "first_author": "Jessica M. Quimby",
+   "journal": "Journal of Feline Medicine and Surgery",
+   "year": 2021,
+   "pmid": "33627003",
+   "doi": "10.1177/1098612x21993657"
+  },
+  {
+   "title": "2014 AAHA Weight Management Guidelines for Dogs and Cats*†",
+   "reason": "库外；引用了本文；标题含指南/共识/系统综述/随机对照字样；OpenAlex 被引 150 次",
+   "first_author": "Dawn Brooks",
+   "journal": "Journal of the American Animal Hospital Association",
+   "year": 2013,
+   "pmid": "24216501",
+   "doi": "10.5326/jaaha-ms-6331"
+  },
+  {
+   "title": "A systematic review of social and environmental factors and their implications for indoor cat welfare",
+   "reason": "库外；OpenAlex 相关文献；标题含指南/共识/系统综述/随机对照字样；OpenAlex 被引 84 次",
+   "first_author": "Rachel Foreman-Worsley",
+   "journal": "Applied Animal Behaviour Science",
+   "year": 2019,
+   "doi": "10.1016/j.applanim.2019.104841"
+  }
+ ],
+ "21704901": [
+  {
+   "pmid": "39066306",
+   "doi": "10.3390/v16071144",
+   "title": "Short Treatment of 42 Days with Oral GS-441524 Results in Equal Efficacy as the Recommended 84-Day Treatment in Cats Suffering from Feline Infectious Peritonitis with Effusion-A Prospective Randomized Controlled Study.",
+   "reason": "本库已收录；引用了本文",
+   "first_author": "Zuzzi-Krebitz AM",
+   "journal": "Viruses",
+   "year": 2024
+  },
+  {
+   "pmid": "27143042",
+   "doi": "10.1177/1098612x16643252",
+   "title": "2016 AAFP Guidelines for the Management of Feline Hyperthyroidism.",
+   "reason": "本库已收录；引用了本文",
+   "first_author": "Carney HC",
+   "journal": "Journal of feline medicine and surgery",
+   "year": 2016
+  },
+  {
+   "pmid": "16978113",
+   "doi": "10.2460/javma.229.6.949",
+   "title": "Clinical evaluation of dietary modification for treatment of spontaneous chronic kidney disease in cats.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Ross SJ",
+   "journal": "Journal of the American Veterinary Medical Association",
+   "year": 2006
+  },
+  {
+   "pmid": "10879400",
+   "doi": "10.1111/j.1748-5827.2000.tb03932.x",
+   "title": "Survival of cats with naturally occurring chronic renal failure: effect of dietary management.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Elliott J",
+   "journal": "The Journal of small animal practice",
+   "year": 2000
+  },
+  {
+   "title": "AAHA Nutritional Assessment Guidelines for Dogs and Cats",
+   "reason": "库外；OpenAlex 相关文献；标题含指南/共识/系统综述/随机对照字样；OpenAlex 被引 293 次",
+   "first_author": "Kimberly Baldwin",
+   "journal": "Journal of the American Animal Hospital Association",
+   "year": 2010,
+   "pmid": "20610704",
+   "doi": "10.5326/0460285"
+  }
+ ],
+ "19481039": [
+  {
+   "pmid": "37766254",
+   "doi": "10.3390/v15091847",
+   "title": "Feline Infectious Peritonitis: European Advisory Board on Cat Diseases Guidelines.",
+   "reason": "本库已收录；引用了本文",
+   "first_author": "Tasker S",
+   "journal": "Viruses",
+   "year": 2023
+  },
+  {
+   "title": "Randomized, Placebo Controlled Study of the Effect of Propentofylline on Survival Time and Quality of Life of Cats with Feline Infectious Peritonitis",
+   "reason": "库外；引用了本文；标题含指南/共识/系统综述/随机对照字样；OpenAlex 被引 59 次",
+   "first_author": "Y. Fischer",
+   "journal": "Journal of Veterinary Internal Medicine",
+   "year": 2011,
+   "pmid": "22092616",
+   "doi": "10.1111/j.1939-1676.2011.00806.x"
+  },
+  {
+   "title": "Feline Coronavirus Type II Strains 79-1683 and 79-1146 Originate from a Double Recombination between Feline Coronavirus Type I and Canine Coronavirus",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 419 次",
+   "first_author": "Arnold A. P. M. Herrewegh",
+   "journal": "Journal of Virology",
+   "year": 1998,
+   "pmid": "9557750",
+   "doi": "10.1128/jvi.72.5.4508-4514.1998"
+  },
+  {
+   "title": "Feline Infectious Peritonitis Viruses Arise by Mutation from Endemic Feline Enteric Coronaviruses",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 396 次",
+   "first_author": "Harry Vennema",
+   "journal": "Virology",
+   "year": 1998,
+   "pmid": "9527924",
+   "doi": "10.1006/viro.1998.9045"
+  },
+  {
+   "title": "Early death after feline infectious peritonitis virus challenge due to recombinant vaccinia virus immunization",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 276 次",
+   "first_author": "Harry Vennema",
+   "journal": "Journal of Virology",
+   "year": 1990,
+   "pmid": "2154621",
+   "doi": "10.1128/jvi.64.3.1407-1409.1990"
+  }
+ ],
+ "15954557": [
+  {
+   "pmid": "26936494",
+   "doi": "10.1177/1098612x16631234",
+   "title": "ISFM Consensus Guidelines on the Diagnosis and Management of Feline Chronic Kidney Disease.",
+   "reason": "本库已收录；引用了本文",
+   "first_author": "Sparkes AH",
+   "journal": "Journal of feline medicine and surgery",
+   "year": 2016
+  },
+  {
+   "pmid": "15702689",
+   "doi": "10.2460/javma.2005.226.393",
+   "title": "Evaluation of the association between initial proteinuria and morbidity rate or death in dogs with naturally occurring chronic renal failure.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Jacob F",
+   "journal": "Journal of the American Veterinary Medical Association",
+   "year": 2005
+  },
+  {
+   "title": "ACVIM consensus update on Lyme borreliosis in dogs and cats",
+   "reason": "库外；引用了本文；标题含指南/共识/系统综述/随机对照字样；OpenAlex 被引 151 次",
+   "first_author": "Meryl P. Littman",
+   "journal": "Journal of Veterinary Internal Medicine",
+   "year": 2018,
+   "pmid": "29566442",
+   "doi": "10.1111/jvim.15085"
+  },
+  {
+   "title": "ACVIM Small Animal Consensus Statement on Lyme Disease in Dogs: Diagnosis, Treatment, and Prevention",
+   "reason": "库外；引用了本文；标题含指南/共识/系统综述/随机对照字样；OpenAlex 被引 141 次",
+   "first_author": "Meryl P. Littman",
+   "journal": "Journal of Veterinary Internal Medicine",
+   "year": 2006,
+   "pmid": "16594606",
+   "doi": "10.1892/0891-6640(2006)20[422:asacso]2.0.co;2"
+  },
+  {
+   "title": "Consensus Recommendations for Standard Therapy of Glomerular Disease in Dogs",
+   "reason": "库外；OpenAlex 相关文献；标题含指南/共识/系统综述/随机对照字样；OpenAlex 被引 118 次",
+   "first_author": "IRIS Canine GN Study Group Standard Therapy Subgroup",
+   "journal": "Journal of Veterinary Internal Medicine",
+   "year": 2013,
+   "pmid": "24635378",
+   "doi": "10.1111/jvim.12230"
+  }
+ ],
+ "39858209": [
+  {
+   "title": "Soybean meal and poultry offal meal effects on digestibility of adult dogs diets: Systematic review",
+   "reason": "库外；本文引用；标题含指南/共识/系统综述/随机对照字样；OpenAlex 被引 18 次",
+   "first_author": "Karoline Vanelli",
+   "journal": "PLoS ONE",
+   "year": 2021,
+   "pmid": "34043623",
+   "doi": "10.1371/journal.pone.0249321"
+  },
+  {
+   "title": "Understanding and Managing Obesity in Dogs and Cats",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 189 次",
+   "first_author": "Dottie P. Laflamme",
+   "journal": "Veterinary Clinics of North America Small Animal Practice",
+   "year": 2006,
+   "pmid": "17085235",
+   "doi": "10.1016/j.cvsm.2006.08.005"
+  },
+  {
+   "title": "Influence of obesity on plasma lipid and lipoprotein concentrations in dogs",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 173 次",
+   "first_author": "Isabelle C. Jeusette",
+   "journal": "American Journal of Veterinary Research",
+   "year": 2005,
+   "pmid": "15691040",
+   "doi": "10.2460/ajvr.2005.66.81"
+  },
+  {
+   "title": "Dietary Energy Restriction and Successful Weight Loss in Obese Client-Owned Dogs",
+   "reason": "库外；OpenAlex 相关文献；犬猫研究，按被引排序；OpenAlex 被引 108 次",
+   "first_author": "Alexander J. German",
+   "journal": "Journal of Veterinary Internal Medicine",
+   "year": 2007,
+   "pmid": "18196722",
+   "doi": "10.1892/06-280.1"
+  },
+  {
+   "title": "A high protein high fibre diet improves weight loss in obese dogs",
+   "reason": "库外；OpenAlex 相关文献；犬猫研究，按被引排序；OpenAlex 被引 92 次",
+   "first_author": "Alexander J. German",
+   "journal": "The Veterinary Journal",
+   "year": 2009,
+   "pmid": "19138868",
+   "doi": "10.1016/j.tvjl.2008.12.004"
+  }
+ ],
+ "41781382": [
+  {
+   "pmid": "37632022",
+   "doi": "10.3390/v15081680",
+   "title": "Efficacy of Oral Remdesivir Compared to GS-441524 for Treatment of Cats with Naturally Occurring Effusive Feline Infectious Peritonitis: A Blinded, Non-Inferiority Study.",
+   "reason": "本库已收录；OpenAlex 相关文献",
+   "first_author": "Cosaro E",
+   "journal": "Viruses",
+   "year": 2023
+  },
+  {
+   "pmid": "37439383",
+   "doi": "10.1111/jvim.16803",
+   "title": "Outcomes of treatment of cats with feline infectious peritonitis using parenterally administered remdesivir, with or without transition to orally administered GS-441524.",
+   "reason": "本库已收录；OpenAlex 相关文献",
+   "first_author": "Coggins SJ",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2023
+  },
+  {
+   "pmid": "37403259",
+   "doi": "10.1111/jvim.16804",
+   "title": "Thirty-two cats with effusive or non-effusive feline infectious peritonitis treated with a combination of remdesivir and GS-441524.",
+   "reason": "本库已收录；OpenAlex 相关文献",
+   "first_author": "Green J",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2023
+  },
+  {
+   "pmid": "37732386",
+   "doi": "10.1177/1098612x231194460",
+   "title": "Retrospective study and outcome of 307 cats with feline infectious peritonitis treated with legally sourced veterinary compounded preparations of remdesivir and GS-441524 (2020-2022).",
+   "reason": "本库已收录；OpenAlex 相关文献",
+   "first_author": "Taylor SS",
+   "journal": "Journal of feline medicine and surgery",
+   "year": 2023
+  },
+  {
+   "title": "Successful treatment of a South African cat with effusive feline infectious peritonitis with remdesivir",
+   "reason": "库外；OpenAlex 相关文献；犬猫研究，按被引排序；OpenAlex 被引 8 次",
+   "first_author": "M Bohm",
+   "journal": "Journal of the South African Veterinary Association",
+   "year": 2022,
+   "pmid": "35934910",
+   "doi": "10.36303/jsava.238"
+  }
+ ],
+ "40110605": [
+  {
+   "pmid": "23647231",
+   "doi": "10.1111/jvim.12090",
+   "title": "Chronic kidney disease in dogs in UK veterinary practices: prevalence, risk factors, and survival.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "O'Neill DG",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2013
+  },
+  {
+   "title": "Vitamin D shows in vivo efficacy in a placebo‐controlled, double‐blinded, randomised clinical trial on canine atopic dermatitis",
+   "reason": "库外；本文引用；标题含指南/共识/系统综述/随机对照字样；OpenAlex 被引 37 次",
+   "first_author": "Christoph J. Klinger",
+   "journal": "Veterinary Record",
+   "year": 2018,
+   "pmid": "29419484",
+   "doi": "10.1136/vr.104492"
+  },
+  {
+   "title": "On the pathogenesis of hyperparathyroidism in chronic experimental renal insufficiency in the dog",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 483 次",
+   "first_author": "Eduardo Slatopolsky",
+   "journal": "Journal of Clinical Investigation",
+   "year": 1971,
+   "pmid": "5545116",
+   "doi": "10.1172/jci106517"
+  },
+  {
+   "title": "Calcitriol, calcidiol, parathyroid hormone, and fibroblast growth factor‐23 interactions in chronic kidney disease",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 114 次",
+   "first_author": "Joao Felipe de Brito Galvão",
+   "journal": "Journal of Veterinary Emergency and Critical Care",
+   "year": 2013,
+   "pmid": "23566108",
+   "doi": "10.1111/vec.12036"
+  },
+  {
+   "title": "Calcium and Phosphorus Homeostasis in Dogs with Spontaneous Chronic Kidney Disease at Different Stages of Severity",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 97 次",
+   "first_author": "Óscar. Cortadellas",
+   "journal": "Journal of Veterinary Internal Medicine",
+   "year": 2009,
+   "pmid": "19925576",
+   "doi": "10.1111/j.1939-1676.2009.0415.x"
+  }
+ ],
+ "39417648": [
+  {
+   "pmid": "30353952",
+   "doi": "10.1111/jvim.15331",
+   "title": "ACVIM consensus statement: Guidelines for the identification, evaluation, and management of systemic hypertension in dogs and cats.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Acierno MJ",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2018
+  },
+  {
+   "pmid": "26936494",
+   "doi": "10.1177/1098612x16631234",
+   "title": "ISFM Consensus Guidelines on the Diagnosis and Management of Feline Chronic Kidney Disease.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Sparkes AH",
+   "journal": "Journal of feline medicine and surgery",
+   "year": 2016
+  },
+  {
+   "pmid": "25231385",
+   "doi": "10.1111/jvim.12445",
+   "title": "Comparison of serum concentrations of symmetric dimethylarginine and creatinine as kidney function biomarkers in cats with chronic kidney disease.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Hall JA",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2014
+  },
+  {
+   "pmid": "24217707",
+   "doi": "10.1177/1098612x13511446",
+   "title": "Prevalence and classification of chronic kidney disease in cats randomly selected from four age groups and in cats recruited for degenerative joint disease studies.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Marino CL",
+   "journal": "Journal of feline medicine and surgery",
+   "year": 2014
+  },
+  {
+   "pmid": "22269057",
+   "doi": "10.1111/j.1939-1676.2011.00874.x",
+   "title": "Clinicopathological variables predicting progression of azotemia in cats with chronic kidney disease.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Chakrabarti S",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2012
+  }
+ ],
+ "39066306": [
+  {
+   "pmid": "42043241",
+   "doi": "10.3390/v18040452",
+   "title": "Update on Treatment of Feline Infectious Peritonitis: European Advisory Board on Cat Diseases (ABCD) Guidelines.",
+   "reason": "本库已收录；引用了本文",
+   "first_author": "Tasker S",
+   "journal": "Viruses",
+   "year": 2026
+  },
+  {
+   "pmid": "41781382",
+   "doi": "10.1177/1098612x261433057",
+   "title": "Treatment of non-effusive feline infectious peritonitis using oral remdesivir or GS-441524: a randomized, double-blind, non-inferiority trial.",
+   "reason": "本库已收录；OpenAlex 相关文献",
+   "first_author": "Brostoff T",
+   "journal": "Journal of feline medicine and surgery",
+   "year": 2026
+  },
+  {
+   "pmid": "40732763",
+   "doi": "10.3390/pathogens14070717",
+   "title": "Efficacy of GS-441524 for Feline Infectious Peritonitis: A Systematic Review (2018-2024).",
+   "reason": "本库已收录；引用了本文",
+   "first_author": "Gokalsing E",
+   "journal": "Pathogens (Basel, Switzerland)",
+   "year": 2025
+  },
+  {
+   "pmid": "41035288",
+   "doi": "10.1111/jvim.70253",
+   "title": "Treatment With Remdesivir Alone or in Combination With GS-441524 in Cats With Ocular Involvement of Feline Infectious Peritonitis: An Observational Case Series.",
+   "reason": "本库已收录；引用了本文",
+   "first_author": "Andrews ALMM",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2025
+  },
+  {
+   "pmid": "37403259",
+   "doi": "10.1111/jvim.16804",
+   "title": "Thirty-two cats with effusive or non-effusive feline infectious peritonitis treated with a combination of remdesivir and GS-441524.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Green J",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2023
+  }
+ ],
+ "38952053": [
+  {
+   "title": "2026 iCatCare consensus guidelines on the diagnosis and management of chronic kidney disease in cats",
+   "reason": "库外；引用了本文；标题含指南/共识/系统综述/随机对照字样；OpenAlex 被引 1 次",
+   "first_author": "Samantha S Taylor",
+   "journal": "Journal of Feline Medicine and Surgery",
+   "year": 2026,
+   "pmid": "42693626",
+   "doi": "10.1177/1098612x261466553"
+  },
+  {
+   "title": "Prevalence of systolic hypertension in cats with chronic renal failure at initial evaluation",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 189 次",
+   "first_author": "Harriet M. Syme",
+   "journal": "Journal of the American Veterinary Medical Association",
+   "year": 2002,
+   "pmid": "12092951",
+   "doi": "10.2460/javma.2002.220.1799"
+  },
+  {
+   "title": "Correlation of a feline muscle mass score with body composition determined by dual-energy X-ray absorptiometry",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 115 次",
+   "first_author": "Kathryn E. Michel",
+   "journal": "British Journal Of Nutrition",
+   "year": 2011,
+   "pmid": "22005437",
+   "doi": "10.1017/s000711451100050x"
+  },
+  {
+   "title": "Fibroblast Growth Factor 23 in Feline Chronic Kidney Disease",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 95 次",
+   "first_author": "Rebecca F. Geddes",
+   "journal": "Journal of Veterinary Internal Medicine",
+   "year": 2013,
+   "pmid": "23398216",
+   "doi": "10.1111/jvim.12044"
+  },
+  {
+   "title": "Effect of dietary phosphate restriction on renal secondary hyperparathyroidism in the cat",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 91 次",
+   "first_author": "Penney J. Barber",
+   "journal": "Journal of Small Animal Practice",
+   "year": 1999,
+   "pmid": "10088085",
+   "doi": "10.1111/j.1748-5827.1999.tb03039.x"
+  }
+ ],
+ "38884190": [
+  {
+   "pmid": "29314873",
+   "doi": "10.5326/jaaha-ms-6822",
+   "title": "2018 AAHA Diabetes Management Guidelines for Dogs and Cats.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Behrend E",
+   "journal": "Journal of the American Animal Hospital Association",
+   "year": 2018
+  },
+  {
+   "pmid": "25701862",
+   "doi": "10.1177/1098612x15571880",
+   "title": "ISFM consensus guidelines on the practical management of diabetes mellitus in cats.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Sparkes AH",
+   "journal": "Journal of feline medicine and surgery",
+   "year": 2015
+  },
+  {
+   "title": "International Society for Companion Animal Infectious Diseases (ISCAID) guidelines for the diagnosis and management of bacterial urinary tract infections in dogs and cats",
+   "reason": "库外；本文引用；标题含指南/共识/系统综述/随机对照字样；OpenAlex 被引 477 次",
+   "first_author": "Jeffrey Scott Weese",
+   "journal": "The Veterinary Journal",
+   "year": 2019,
+   "pmid": "30971357",
+   "doi": "10.1016/j.tvjl.2019.02.008"
+  },
+  {
+   "title": "Systematic review of feline diabetic remission: Separating fact from opinion",
+   "reason": "库外；本文引用；标题含指南/共识/系统综述/随机对照字样；OpenAlex 被引 52 次",
+   "first_author": "Ruth Gostelow",
+   "journal": "The Veterinary Journal",
+   "year": 2014,
+   "pmid": "25312717",
+   "doi": "10.1016/j.tvjl.2014.08.014"
+  },
+  {
+   "title": "Development and validation of a body condition score system for cats: a clinical tool",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 509 次",
+   "first_author": "Dorothy P. Laflamme",
+   "journal": "Feline Practice",
+   "year": 1997,
+   "doi": ""
+  }
+ ],
+ "37632022": [
+  {
+   "pmid": "42043241",
+   "doi": "10.3390/v18040452",
+   "title": "Update on Treatment of Feline Infectious Peritonitis: European Advisory Board on Cat Diseases (ABCD) Guidelines.",
+   "reason": "本库已收录；引用了本文",
+   "first_author": "Tasker S",
+   "journal": "Viruses",
+   "year": 2026
+  },
+  {
+   "pmid": "41781382",
+   "doi": "10.1177/1098612x261433057",
+   "title": "Treatment of non-effusive feline infectious peritonitis using oral remdesivir or GS-441524: a randomized, double-blind, non-inferiority trial.",
+   "reason": "本库已收录；OpenAlex 相关文献",
+   "first_author": "Brostoff T",
+   "journal": "Journal of feline medicine and surgery",
+   "year": 2026
+  },
+  {
+   "pmid": "40732763",
+   "doi": "10.3390/pathogens14070717",
+   "title": "Efficacy of GS-441524 for Feline Infectious Peritonitis: A Systematic Review (2018-2024).",
+   "reason": "本库已收录；引用了本文",
+   "first_author": "Gokalsing E",
+   "journal": "Pathogens (Basel, Switzerland)",
+   "year": 2025
+  },
+  {
+   "pmid": "39066306",
+   "doi": "10.3390/v16071144",
+   "title": "Short Treatment of 42 Days with Oral GS-441524 Results in Equal Efficacy as the Recommended 84-Day Treatment in Cats Suffering from Feline Infectious Peritonitis with Effusion-A Prospective Randomized Controlled Study.",
+   "reason": "本库已收录；引用了本文",
+   "first_author": "Zuzzi-Krebitz AM",
+   "journal": "Viruses",
+   "year": 2024
+  },
+  {
+   "pmid": "37403259",
+   "doi": "10.1111/jvim.16804",
+   "title": "Thirty-two cats with effusive or non-effusive feline infectious peritonitis treated with a combination of remdesivir and GS-441524.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Green J",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2023
+  }
+ ],
+ "27678080": [
+  {
+   "pmid": "30974015",
+   "doi": "10.1111/jvim.15488",
+   "title": "ACVIM consensus guidelines for the diagnosis and treatment of myxomatous mitral valve disease in dogs.",
+   "reason": "本库已收录；引用了本文",
+   "first_author": "Keene BW",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2019
+  },
+  {
+   "pmid": "23078651",
+   "doi": "10.1111/j.1939-1676.2012.01026.x",
+   "title": "Efficacy of pimobendan in the prevention of congestive heart failure or sudden death in Doberman Pinschers with preclinical dilated cardiomyopathy (the PROTECT Study).",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Summerfield NJ",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2012
+  },
+  {
+   "pmid": "18289298",
+   "doi": "10.1111/j.1939-1676.2007.0008.x",
+   "title": "Survival characteristics and prognostic variables of dogs with mitral regurgitation attributable to myxomatous valve disease.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Borgarelli M",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2008
+  },
+  {
+   "pmid": "18638016",
+   "doi": "10.1111/j.1939-1676.2008.0150.x",
+   "title": "Effect of pimobendan or benazepril hydrochloride on survival times in dogs with congestive heart failure caused by naturally occurring myxomatous mitral valve disease: the QUEST study.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Häggström J",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2008
+  },
+  {
+   "title": "Guidelines for the Diagnosis and Treatment of Canine Chronic Valvular Heart Disease",
+   "reason": "库外；本文引用；标题含指南/共识/系统综述/随机对照字样；OpenAlex 被引 548 次",
+   "first_author": "Clarke E. Atkins",
+   "journal": "Journal of Veterinary Internal Medicine",
+   "year": 2009,
+   "pmid": "19780929",
+   "doi": "10.1111/j.1939-1676.2009.0392.x"
+  }
+ ],
+ "26948860": [
+  {
+   "title": "2024 guidelines for the vaccination of dogs and cats – compiled by the Vaccination Guidelines Group (VGG) of the World Small Animal Veterinary Association (WSAVA)",
+   "reason": "库外；引用了本文；标题含指南/共识/系统综述/随机对照字样；OpenAlex 被引 99 次",
+   "first_author": "Richard A. Squires",
+   "journal": "Journal of Small Animal Practice",
+   "year": 2024,
+   "pmid": "38568777",
+   "doi": "10.1111/jsap.13718"
+  },
+  {
+   "title": "2022 AAFP/ISFM Cat Friendly Veterinary Interaction Guidelines: Approach and Handling Techniques",
+   "reason": "库外；引用了本文；标题含指南/共识/系统综述/随机对照字样；OpenAlex 被引 97 次",
+   "first_author": "Ilona Rodan",
+   "journal": "Journal of Feline Medicine and Surgery",
+   "year": 2022,
+   "pmid": "36259500",
+   "doi": "10.1177/1098612x221128760"
+  },
+  {
+   "title": "2021 AAFP Feline Senior Care Guidelines",
+   "reason": "库外；引用了本文；标题含指南/共识/系统综述/随机对照字样；OpenAlex 被引 60 次",
+   "first_author": "Michael Ray",
+   "journal": "Journal of Feline Medicine and Surgery",
+   "year": 2021,
+   "pmid": "34167339",
+   "doi": "10.1177/1098612x211021538"
+  },
+  {
+   "title": "Clinicopathologic findings associated with chronic renal disease in cats: 74 cases (1973–1984)",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 278 次",
+   "first_author": "Stephen P. DiBartola",
+   "journal": "Journal of the American Veterinary Medical Association",
+   "year": 1987,
+   "pmid": "3583899",
+   "doi": "10.2460/javma.1987.190.09.1196"
+  },
+  {
+   "title": "Association of Periodontal Disease and Histologic Lesions in Multiple Organs from 45 Dogs",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 221 次",
+   "first_author": "Linda J. DeBowes",
+   "journal": "Journal of Veterinary Dentistry",
+   "year": 1996,
+   "pmid": "9520780",
+   "doi": "10.1177/089875649601300201"
+  }
+ ],
+ "26776588": [
+  {
+   "pmid": "32243654",
+   "doi": "10.1111/jvim.15745",
+   "title": "ACVIM consensus statement guidelines for the classification, diagnosis, and management of cardiomyopathies in cats.",
+   "reason": "本库已收录；引用了本文",
+   "first_author": "Luis Fuentes V",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2020
+  },
+  {
+   "title": "Consensus on the Rational Use of Antithrombotics in Veterinary Critical Care (CURATIVE): Domain 3—Defining antithrombotic protocols",
+   "reason": "库外；引用了本文；标题含指南/共识/系统综述/随机对照字样；OpenAlex 被引 67 次",
+   "first_author": "Marie‐Claude Blais",
+   "journal": "Journal of Veterinary Emergency and Critical Care",
+   "year": 2019,
+   "pmid": "30654416",
+   "doi": "10.1111/vec.12795"
+  },
+  {
+   "title": "Consensus on the Rational Use of Antithrombotics in Veterinary Critical Care (CURATIVE): Domain 4—Refining and monitoring antithrombotic therapies",
+   "reason": "库外；引用了本文；标题含指南/共识/系统综述/随机对照字样；OpenAlex 被引 36 次",
+   "first_author": "Claire R. Sharp",
+   "journal": "Journal of Veterinary Emergency and Critical Care",
+   "year": 2019,
+   "pmid": "30654420",
+   "doi": "10.1111/vec.12794"
+  },
+  {
+   "title": "Bilateral lysis of aortic saddle thrombus with early tissue plasminogen activator (BLASTT): a prospective, randomized, placebo-controlled study in feline acute aortic thromboembolism",
+   "reason": "库外；引用了本文；标题含指南/共识/系统综述/随机对照字样；OpenAlex 被引 22 次",
+   "first_author": "Julien Guillaumin",
+   "journal": "Journal of Feline Medicine and Surgery",
+   "year": 2022,
+   "pmid": "36350753",
+   "doi": "10.1177/1098612x221135105"
+  },
+  {
+   "title": "Effects of pimobendan in cats with hypertrophic cardiomyopathy and recent congestive heart failure: Results of a prospective, double-blind, randomized, nonpivotal, exploratory field study",
+   "reason": "库外；引用了本文；标题含指南/共识/系统综述/随机对照字样；OpenAlex 被引 18 次",
+   "first_author": "Karsten E. Schober",
+   "journal": "Journal of Veterinary Internal Medicine",
+   "year": 2021,
+   "pmid": "33543810",
+   "doi": "10.1111/jvim.16054"
+  }
+ ],
+ "26474314": [
+  {
+   "pmid": "30353952",
+   "doi": "10.1111/jvim.15331",
+   "title": "ACVIM consensus statement: Guidelines for the identification, evaluation, and management of systemic hypertension in dogs and cats.",
+   "reason": "本库已收录；引用了本文",
+   "first_author": "Acierno MJ",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2018
+  },
+  {
+   "pmid": "26936494",
+   "doi": "10.1177/1098612x16631234",
+   "title": "ISFM Consensus Guidelines on the Diagnosis and Management of Feline Chronic Kidney Disease.",
+   "reason": "本库已收录；引用了本文",
+   "first_author": "Sparkes AH",
+   "journal": "Journal of feline medicine and surgery",
+   "year": 2016
+  },
+  {
+   "pmid": "22269057",
+   "doi": "10.1111/j.1939-1676.2011.00874.x",
+   "title": "Clinicopathological variables predicting progression of azotemia in cats with chronic kidney disease.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Chakrabarti S",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2012
+  },
+  {
+   "pmid": "18691369",
+   "doi": "10.1111/j.1939-1676.2008.0163.x",
+   "title": "Survival in cats with naturally occurring chronic kidney disease (2000-2002).",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Boyd LM",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2008
+  },
+  {
+   "pmid": "17939542",
+   "doi": "10.1111/j.1939-1676.2007.tb03042.x",
+   "title": "Prognostic factors in cats with chronic kidney disease.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "King JN",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2007
+  }
+ ],
+ "26265631": [
+  {
+   "pmid": "28460795",
+   "doi": "10.1016/j.jcpa.2017.03.006",
+   "title": "Obesity and Associated Comorbidities in People and Companion Animals: A One Health Perspective.",
+   "reason": "本库已收录；引用了本文",
+   "first_author": "Chandler M",
+   "journal": "Journal of comparative pathology",
+   "year": 2017
+  },
+  {
+   "pmid": "11991408",
+   "doi": "10.2460/javma.2002.220.1315",
+   "title": "Effects of diet restriction on life span and age-related changes in dogs.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Kealy RD",
+   "journal": "Journal of the American Veterinary Medical Association",
+   "year": 2002
+  },
+  {
+   "title": "Assessing the impact of different persuasive messages on the intentions and behaviour of cat owners: A randomised control trial",
+   "reason": "库外；引用了本文；标题含指南/共识/系统综述/随机对照字样；OpenAlex 被引 44 次",
+   "first_author": "Lynette J. McLeod",
+   "journal": "Preventive Veterinary Medicine",
+   "year": 2017,
+   "pmid": "28992918",
+   "doi": "10.1016/j.prevetmed.2017.08.005"
+  },
+  {
+   "title": "Determining priority welfare issues for cats in the United Kingdom using expert consensus",
+   "reason": "库外；引用了本文；标题含指南/共识/系统综述/随机对照字样；OpenAlex 被引 30 次",
+   "first_author": "Fiona C. Rioja-Lang",
+   "journal": "Veterinary Record Open",
+   "year": 2019,
+   "pmid": "31798909",
+   "doi": "10.1136/vetreco-2019-000365"
+  },
+  {
+   "title": "The Growing Problem of Obesity in Dogs and Cats",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 860 次",
+   "first_author": "Alexander J. German",
+   "journal": "Journal of Nutrition",
+   "year": 2006,
+   "pmid": "16772464",
+   "doi": "10.1093/jn/136.7.1940s"
+  }
+ ],
+ "23838205": [
+  {
+   "pmid": "26936494",
+   "doi": "10.1177/1098612x16631234",
+   "title": "ISFM Consensus Guidelines on the Diagnosis and Management of Feline Chronic Kidney Disease.",
+   "reason": "本库已收录；引用了本文",
+   "first_author": "Sparkes AH",
+   "journal": "Journal of feline medicine and surgery",
+   "year": 2016
+  },
+  {
+   "pmid": "18691369",
+   "doi": "10.1111/j.1939-1676.2008.0163.x",
+   "title": "Survival in cats with naturally occurring chronic kidney disease (2000-2002).",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Boyd LM",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2008
+  },
+  {
+   "pmid": "16978113",
+   "doi": "10.2460/javma.229.6.949",
+   "title": "Clinical evaluation of dietary modification for treatment of spontaneous chronic kidney disease in cats.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Ross SJ",
+   "journal": "Journal of the American Veterinary Medical Association",
+   "year": 2006
+  },
+  {
+   "pmid": "10879400",
+   "doi": "10.1111/j.1748-5827.2000.tb03932.x",
+   "title": "Survival of cats with naturally occurring chronic renal failure: effect of dietary management.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Elliott J",
+   "journal": "The Journal of small animal practice",
+   "year": 2000
+  },
+  {
+   "title": "ACVIM consensus statement on pancreatitis in cats",
+   "reason": "库外；引用了本文；标题含指南/共识/系统综述/随机对照字样；OpenAlex 被引 84 次",
+   "first_author": "Marnin A. Forman",
+   "journal": "Journal of Veterinary Internal Medicine",
+   "year": 2021,
+   "pmid": "33587762",
+   "doi": "10.1111/jvim.16053"
+  }
+ ],
+ "23078651": [
+  {
+   "pmid": "28965673",
+   "doi": "10.1016/j.jvc.2017.08.006",
+   "title": "European Society of Veterinary Cardiology screening guidelines for dilated cardiomyopathy in Doberman Pinschers.",
+   "reason": "本库已收录；引用了本文",
+   "first_author": "Wess G",
+   "journal": "Journal of veterinary cardiology : the official journal of the European Society of Veterinary Cardiology",
+   "year": 2017
+  },
+  {
+   "pmid": "27678080",
+   "doi": "10.1111/jvim.14586",
+   "title": "Effect of Pimobendan in Dogs with Preclinical Myxomatous Mitral Valve Disease and Cardiomegaly: The EPIC Study-A Randomized Clinical Trial.",
+   "reason": "本库已收录；引用了本文",
+   "first_author": "Boswood A",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2016
+  },
+  {
+   "title": "ACVIM consensus statement guidelines for the diagnosis, classification, treatment, and monitoring of pulmonary hypertension in dogs",
+   "reason": "库外；引用了本文；标题含指南/共识/系统综述/随机对照字样；OpenAlex 被引 304 次",
+   "first_author": "Carol R. Reinero",
+   "journal": "Journal of Veterinary Internal Medicine",
+   "year": 2020,
+   "pmid": "32065428",
+   "doi": "10.1111/jvim.15725"
+  },
+  {
+   "title": "A Double-Blind, Randomized, Placebo-Controlled Study of Pimobendan in Dogs with Dilated Cardiomyopathy",
+   "reason": "库外；本文引用；标题含指南/共识/系统综述/随机对照字样；OpenAlex 被引 100 次",
+   "first_author": "Virginia Luis Fuentes",
+   "journal": "Journal of Veterinary Internal Medicine",
+   "year": 2002,
+   "pmid": "12041654",
+   "doi": "10.1111/j.1939-1676.2002.tb02366.x"
+  },
+  {
+   "title": "Cardiac Effects of a Single Dose of Pimobendan in Cats With Hypertrophic Cardiomyopathy; A Randomized, Placebo-Controlled, Crossover Study",
+   "reason": "库外；引用了本文；标题含指南/共识/系统综述/随机对照字样；OpenAlex 被引 36 次",
+   "first_author": "Maureen S. Oldach",
+   "journal": "Frontiers in Veterinary Science",
+   "year": 2019,
+   "pmid": "30778391",
+   "doi": "10.3389/fvets.2019.00015"
+  }
+ ],
+ "18638016": [
+  {
+   "pmid": "30974015",
+   "doi": "10.1111/jvim.15488",
+   "title": "ACVIM consensus guidelines for the diagnosis and treatment of myxomatous mitral valve disease in dogs.",
+   "reason": "本库已收录；引用了本文",
+   "first_author": "Keene BW",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2019
+  },
+  {
+   "pmid": "27678080",
+   "doi": "10.1111/jvim.14586",
+   "title": "Effect of Pimobendan in Dogs with Preclinical Myxomatous Mitral Valve Disease and Cardiomegaly: The EPIC Study-A Randomized Clinical Trial.",
+   "reason": "本库已收录；引用了本文",
+   "first_author": "Boswood A",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2016
+  },
+  {
+   "pmid": "18289298",
+   "doi": "10.1111/j.1939-1676.2007.0008.x",
+   "title": "Survival characteristics and prognostic variables of dogs with mitral regurgitation attributable to myxomatous valve disease.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Borgarelli M",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2008
+  },
+  {
+   "title": "Guidelines for the Diagnosis and Treatment of Canine Chronic Valvular Heart Disease",
+   "reason": "库外；引用了本文；标题含指南/共识/系统综述/随机对照字样；OpenAlex 被引 548 次",
+   "first_author": "Clarke E. Atkins",
+   "journal": "Journal of Veterinary Internal Medicine",
+   "year": 2009,
+   "pmid": "19780929",
+   "doi": "10.1111/j.1939-1676.2009.0392.x"
+  },
+  {
+   "title": "The effect of benazepril on survival times and clinical signs of dogs with congestive heart failure: Results of a multicenter, prospective, randomized, double-blinded, placebo-controlled, long-term clinical trial",
+   "reason": "库外；本文引用；标题含指南/共识/系统综述/随机对照字样；OpenAlex 被引 148 次",
+   "first_author": "The BENCH (BENazepril in Canine Heart disease) Study Group",
+   "journal": "Journal of Veterinary Cardiology",
+   "year": 1999,
+   "pmid": "19081317",
+   "doi": "10.1016/s1760-2734(06)70025-x"
+  }
+ ],
+ "16978113": [
+  {
+   "pmid": "26936494",
+   "doi": "10.1177/1098612x16631234",
+   "title": "ISFM Consensus Guidelines on the Diagnosis and Management of Feline Chronic Kidney Disease.",
+   "reason": "本库已收录；引用了本文",
+   "first_author": "Sparkes AH",
+   "journal": "Journal of feline medicine and surgery",
+   "year": 2016
+  },
+  {
+   "pmid": "27103204",
+   "doi": "10.1111/jvim.13942",
+   "title": "Serum Concentrations of Symmetric Dimethylarginine and Creatinine in Dogs with Naturally Occurring Chronic Kidney Disease.",
+   "reason": "本库已收录；引用了本文",
+   "first_author": "Hall JA",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2016
+  },
+  {
+   "pmid": "25231385",
+   "doi": "10.1111/jvim.12445",
+   "title": "Comparison of serum concentrations of symmetric dimethylarginine and creatinine as kidney function biomarkers in cats with chronic kidney disease.",
+   "reason": "本库已收录；引用了本文",
+   "first_author": "Hall JA",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2014
+  },
+  {
+   "pmid": "23838205",
+   "doi": "10.1016/j.tvjl.2013.05.048",
+   "title": "Mirtazapine as an appetite stimulant and anti-emetic in cats with chronic kidney disease: a masked placebo-controlled crossover clinical trial.",
+   "reason": "本库已收录；引用了本文",
+   "first_author": "Quimby JM",
+   "journal": "Veterinary journal (London, England : 1997)",
+   "year": 2013
+  },
+  {
+   "pmid": "22269057",
+   "doi": "10.1111/j.1939-1676.2011.00874.x",
+   "title": "Clinicopathological variables predicting progression of azotemia in cats with chronic kidney disease.",
+   "reason": "本库已收录；引用了本文",
+   "first_author": "Chakrabarti S",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2012
+  }
+ ],
+ "17063696": [
+  {
+   "pmid": "30353952",
+   "doi": "10.1111/jvim.15331",
+   "title": "ACVIM consensus statement: Guidelines for the identification, evaluation, and management of systemic hypertension in dogs and cats.",
+   "reason": "本库已收录；引用了本文",
+   "first_author": "Acierno MJ",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2018
+  },
+  {
+   "pmid": "26936494",
+   "doi": "10.1177/1098612x16631234",
+   "title": "ISFM Consensus Guidelines on the Diagnosis and Management of Feline Chronic Kidney Disease.",
+   "reason": "本库已收录；引用了本文",
+   "first_author": "Sparkes AH",
+   "journal": "Journal of feline medicine and surgery",
+   "year": 2016
+  },
+  {
+   "pmid": "22269057",
+   "doi": "10.1111/j.1939-1676.2011.00874.x",
+   "title": "Clinicopathological variables predicting progression of azotemia in cats with chronic kidney disease.",
+   "reason": "本库已收录；引用了本文",
+   "first_author": "Chakrabarti S",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2012
+  },
+  {
+   "pmid": "18691369",
+   "doi": "10.1111/j.1939-1676.2008.0163.x",
+   "title": "Survival in cats with naturally occurring chronic kidney disease (2000-2002).",
+   "reason": "本库已收录；引用了本文",
+   "first_author": "Boyd LM",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2008
+  },
+  {
+   "pmid": "17939542",
+   "doi": "10.1111/j.1939-1676.2007.tb03042.x",
+   "title": "Prognostic factors in cats with chronic kidney disease.",
+   "reason": "本库已收录；引用了本文",
+   "first_author": "King JN",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2007
+  }
+ ],
+ "15702689": [
+  {
+   "pmid": "41701235",
+   "doi": "10.1007/s11259-026-11088-5",
+   "title": "Diagnostic value of urinary protein to creatinine (UPC) ratio in dogs with chronic kidney disease (CKD): a systematic meta-analysis.",
+   "reason": "本库已收录；OpenAlex 相关文献",
+   "first_author": "Marzok M",
+   "journal": "Veterinary research communications",
+   "year": 2026
+  },
+  {
+   "pmid": "17063696",
+   "doi": "10.1892/0891-6640(2006)20[1054:taeobi]2.0.co;2",
+   "title": "Tolerability and efficacy of benazepril in cats with chronic kidney disease.",
+   "reason": "本库已收录；引用了本文",
+   "first_author": "King JN",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2006
+  },
+  {
+   "pmid": "15954557",
+   "doi": "10.1892/0891-6640(2005)19[377:aamopi]2.0.co;2",
+   "title": "Assessment and management of proteinuria in dogs and cats: 2004 ACVIM Forum Consensus Statement (small animal).",
+   "reason": "本库已收录；引用了本文",
+   "first_author": "Lees GE",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2005
+  },
+  {
+   "pmid": "11990962",
+   "doi": "10.2460/javma.2002.220.1163",
+   "title": "Clinical evaluation of dietary modification for treatment of spontaneous chronic renal failure in dogs.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Jacob F",
+   "journal": "Journal of the American Veterinary Medical Association",
+   "year": 2002
+  },
+  {
+   "title": "Assessment and Management of Proteinuria in Dogs and Cats: 2004 ACVIM Forum Consensus Statement (Small Animal)",
+   "reason": "库外；引用了本文；标题含指南/共识/系统综述/随机对照字样；OpenAlex 被引 338 次",
+   "first_author": "George E. Lees",
+   "journal": "Journal of Veterinary Internal Medicine",
+   "year": 2005,
+   "pmid": "15954557",
+   "doi": "10.1111/j.1939-1676.2005.tb02713.x"
+  }
+ ],
+ "11990962": [
+  {
+   "pmid": "16978113",
+   "doi": "10.2460/javma.229.6.949",
+   "title": "Clinical evaluation of dietary modification for treatment of spontaneous chronic kidney disease in cats.",
+   "reason": "本库已收录；OpenAlex 相关文献",
+   "first_author": "Ross SJ",
+   "journal": "Journal of the American Veterinary Medical Association",
+   "year": 2006
+  },
+  {
+   "title": "Beneficial effects of chronic administration of dietary ω-3 polyunsaturated fatty acids in dogs with renal insufficiency",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 144 次",
+   "first_author": "Scott A. Brown",
+   "journal": "Journal of Laboratory and Clinical Medicine",
+   "year": 1998,
+   "pmid": "9605110",
+   "doi": "10.1016/s0022-2143(98)90146-9"
+  },
+  {
+   "title": "Canine and feline urology",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 137 次",
+   "first_author": "Carl A. Osborne",
+   "journal": "",
+   "year": 1972,
+   "doi": ""
+  },
+  {
+   "title": "Effects of dietary phosphorus and protein in dogs with chronic renal failure",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 92 次",
+   "first_author": "Delmar R. Finco",
+   "journal": "American Journal of Veterinary Research",
+   "year": 1992,
+   "pmid": "1476305",
+   "doi": "10.2460/ajvr.1992.53.12.2264"
+  },
+  {
+   "title": "Progression of Chronic Renal Disease in the Dog",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 82 次",
+   "first_author": "Delmar R. Finco",
+   "journal": "Journal of Veterinary Internal Medicine",
+   "year": 1999,
+   "pmid": "10587250",
+   "doi": "10.1111/j.1939-1676.1999.tb02204.x"
+  }
+ ],
+ "42207576": [
+  {
+   "pmid": "22269057",
+   "doi": "10.1111/j.1939-1676.2011.00874.x",
+   "title": "Clinicopathological variables predicting progression of azotemia in cats with chronic kidney disease.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Chakrabarti S",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2012
+  },
+  {
+   "pmid": "15702689",
+   "doi": "10.2460/javma.2005.226.393",
+   "title": "Evaluation of the association between initial proteinuria and morbidity rate or death in dogs with naturally occurring chronic renal failure.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Jacob F",
+   "journal": "Journal of the American Veterinary Medical Association",
+   "year": 2005
+  },
+  {
+   "title": "Metabolism of Glutamine by the Intact Functioning Kidney of the Dog STUDIES IN METABOLIC ACIDOSIS AND ALKALOSIS",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 66 次",
+   "first_author": "Robert F. Pitts",
+   "journal": "Journal of Clinical Investigation",
+   "year": 1972,
+   "pmid": "5011100",
+   "doi": "10.1172/jci106844"
+  },
+  {
+   "title": "Assessment of acid‐base status of cats with naturally occurring chronic renal failure",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 64 次",
+   "first_author": "Jonathan Elliott",
+   "journal": "Journal of Small Animal Practice",
+   "year": 2003,
+   "pmid": "12622470",
+   "doi": "10.1111/j.1748-5827.2003.tb00122.x"
+  },
+  {
+   "title": "Acute on chronic kidney disease in dogs: Etiology, clinical and clinicopathologic findings, prognostic markers, and survival",
+   "reason": "库外；OpenAlex 相关文献；犬猫研究，按被引排序；OpenAlex 被引 64 次",
+   "first_author": "Asia Dunaevich",
+   "journal": "Journal of Veterinary Internal Medicine",
+   "year": 2020,
+   "doi": "10.1111/jvim.15931"
+  }
+ ],
+ "32139728": [
+  {
+   "title": "Effects of trazodone on behavioral and physiological signs of stress in dogs during veterinary visits: a randomized double-blind placebo-controlled crossover clinical trial",
+   "reason": "库外；引用了本文；标题含指南/共识/系统综述/随机对照字样；OpenAlex 被引 28 次",
+   "first_author": "Suna Kim",
+   "journal": "Journal of the American Veterinary Medical Association",
+   "year": 2022,
+   "pmid": "35333743",
+   "doi": "10.2460/javma.20.10.0547"
+  },
+  {
+   "title": "Heritability of behavioural traits in domestic dogs: A meta-analysis",
+   "reason": "库外；本文引用；标题含指南/共识/系统综述/随机对照字样；OpenAlex 被引 26 次",
+   "first_author": "Lenka Hradecká",
+   "journal": "Applied Animal Behaviour Science",
+   "year": 2015,
+   "doi": "10.1016/j.applanim.2015.06.006"
+  },
+  {
+   "title": "Development and validation of a questionnaire for measuring behavior and temperament traits in pet dogs",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 710 次",
+   "first_author": "Yuying Hsu",
+   "journal": "Journal of the American Veterinary Medical Association",
+   "year": 2003,
+   "pmid": "14621216",
+   "doi": "10.2460/javma.2003.223.1293"
+  },
+  {
+   "title": "Breed differences in canine aggression",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 334 次",
+   "first_author": "Deborah L. Duffy",
+   "journal": "Applied Animal Behaviour Science",
+   "year": 2008,
+   "doi": "10.1016/j.applanim.2008.04.006"
+  },
+  {
+   "title": "Longevity and mortality of owned dogs in England",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 328 次",
+   "first_author": "Dan Gerard O'Neill",
+   "journal": "The Veterinary Journal",
+   "year": 2013,
+   "pmid": "24206631",
+   "doi": "10.1016/j.tvjl.2013.09.020"
+  }
+ ],
+ "30548336": [
+  {
+   "pmid": "25896026",
+   "doi": "10.1016/j.prevetmed.2015.03.018",
+   "title": "A current life table and causes of death for insured dogs in Japan.",
+   "reason": "本库已收录；OpenAlex 相关文献",
+   "first_author": "Inoue M",
+   "journal": "Preventive veterinary medicine",
+   "year": 2015
+  },
+  {
+   "pmid": "11991408",
+   "doi": "10.2460/javma.2002.220.1315",
+   "title": "Effects of diet restriction on life span and age-related changes in dogs.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Kealy RD",
+   "journal": "Journal of the American Veterinary Medical Association",
+   "year": 2002
+  },
+  {
+   "title": "WSAVA guidelines for the control of reproduction in dogs and cats",
+   "reason": "库外；引用了本文；标题含指南/共识/系统综述/随机对照字样；OpenAlex 被引 54 次",
+   "first_author": "Stefano E. Romagnoli",
+   "journal": "Journal of Small Animal Practice",
+   "year": 2024,
+   "pmid": "38804079",
+   "doi": "10.1111/jsap.13724"
+  },
+  {
+   "title": "Comparative Longevity of Pet Dogs and Humans: Implications for Gerontology Research",
+   "reason": "库外；OpenAlex 相关文献；犬猫研究，按被引排序；OpenAlex 被引 337 次",
+   "first_author": "Gary J. Patronek",
+   "journal": "The Journals of Gerontology Series A",
+   "year": 1997,
+   "pmid": "9158552",
+   "doi": "10.1093/gerona/52a.3.b171"
+  },
+  {
+   "title": "Longevity and mortality of owned dogs in England",
+   "reason": "库外；OpenAlex 相关文献；犬猫研究，按被引排序；OpenAlex 被引 328 次",
+   "first_author": "Dan Gerard O'Neill",
+   "journal": "The Veterinary Journal",
+   "year": 2013,
+   "pmid": "24206631",
+   "doi": "10.1016/j.tvjl.2013.09.020"
+  }
+ ],
+ "29660848": [
+  {
+   "pmid": "32243654",
+   "doi": "10.1111/jvim.15745",
+   "title": "ACVIM consensus statement guidelines for the classification, diagnosis, and management of cardiomyopathies in cats.",
+   "reason": "本库已收录；引用了本文",
+   "first_author": "Luis Fuentes V",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2020
+  },
+  {
+   "pmid": "26581469",
+   "doi": "10.1177/1098612x15616433",
+   "title": "Morbidity pattern by age, sex and breed in insured cats in Japan (2008-2013).",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Inoue M",
+   "journal": "Journal of feline medicine and surgery",
+   "year": 2016
+  },
+  {
+   "pmid": "26776583",
+   "doi": "10.1016/j.jvc.2015.03.008",
+   "title": "Cardiomyopathy prevalence in 780 apparently healthy cats in rehoming centres (the CatScan study).",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Payne JR",
+   "journal": "Journal of veterinary cardiology : the official journal of the European Society of Veterinary Cardiology",
+   "year": 2015
+  },
+  {
+   "pmid": "16236761",
+   "doi": "10.1093/hmg/ddi386",
+   "title": "A cardiac myosin binding protein C mutation in the Maine Coon cat with familial hypertrophic cardiomyopathy.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Meurs KM",
+   "journal": "Human molecular genetics",
+   "year": 2005
+  },
+  {
+   "title": "Consensus on the Rational Use of Antithrombotics in Veterinary Critical Care (CURATIVE): Domain 1—Defining populations at risk",
+   "reason": "库外；引用了本文；标题含指南/共识/系统综述/随机对照字样；OpenAlex 被引 68 次",
+   "first_author": "Armelle M. deLaforcade",
+   "journal": "Journal of Veterinary Emergency and Critical Care",
+   "year": 2019,
+   "pmid": "30654424",
+   "doi": "10.1111/vec.12797"
+  }
+ ],
+ "26776583": [
+  {
+   "pmid": "16236761",
+   "doi": "10.1093/hmg/ddi386",
+   "title": "A cardiac myosin binding protein C mutation in the Maine Coon cat with familial hypertrophic cardiomyopathy.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Meurs KM",
+   "journal": "Human molecular genetics",
+   "year": 2005
+  },
+  {
+   "title": "Guidelines for the Identification, Evaluation, and Management of Systemic Hypertension in Dogs and Cats",
+   "reason": "库外；本文引用；标题含指南/共识/系统综述/随机对照字样；OpenAlex 被引 748 次",
+   "first_author": "Scott A. Brown",
+   "journal": "Journal of Veterinary Internal Medicine",
+   "year": 2007,
+   "pmid": "17552466",
+   "doi": "10.1111/j.1939-1676.2007.tb03005.x"
+  },
+  {
+   "title": "Recommendations for Standards in Transthoracic Two-Dimensional Echocardiography in the Dog and Cat",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 1010 次",
+   "first_author": "William P. Thomas",
+   "journal": "Journal of Veterinary Internal Medicine",
+   "year": 1993,
+   "pmid": "8246215",
+   "doi": "10.1111/j.1939-1676.1993.tb01015.x"
+  },
+  {
+   "title": "The Growing Problem of Obesity in Dogs and Cats",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 860 次",
+   "first_author": "Alexander J. German",
+   "journal": "Journal of Nutrition",
+   "year": 2006,
+   "pmid": "16772464",
+   "doi": "10.1093/jn/136.7.1940s"
+  },
+  {
+   "title": "Development and validation of a body condition score system for cats: a clinical tool",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 509 次",
+   "first_author": "Dorothy P. Laflamme",
+   "journal": "Feline Practice",
+   "year": 1997,
+   "doi": ""
+  }
+ ],
+ "26581469": [
+  {
+   "pmid": "25896026",
+   "doi": "10.1016/j.prevetmed.2015.03.018",
+   "title": "A current life table and causes of death for insured dogs in Japan.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Inoue M",
+   "journal": "Preventive veterinary medicine",
+   "year": 2015
+  },
+  {
+   "title": "Epidemiologic study of risk factors for lower urinary tract diseases in cats",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 270 次",
+   "first_author": "Chalermpol Lekcharoensuk",
+   "journal": "Journal of the American Veterinary Medical Association",
+   "year": 2001,
+   "pmid": "11345305",
+   "doi": "10.2460/javma.2001.218.1429"
+  },
+  {
+   "title": "Parasites of domestic owned cats in Europe: co-infestations and risk factors",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 198 次",
+   "first_author": "Frédéric Beugnet",
+   "journal": "Parasites & Vectors",
+   "year": 2014,
+   "pmid": "24965063",
+   "doi": "10.1186/1756-3305-7-291"
+  },
+  {
+   "title": "Prevalence of disorders recorded in cats attending primary-care veterinary practices in England",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 195 次",
+   "first_author": "Dan Gerard O'Neill",
+   "journal": "The Veterinary Journal",
+   "year": 2014,
+   "pmid": "25178688",
+   "doi": "10.1016/j.tvjl.2014.08.004"
+  },
+  {
+   "title": "Mortality in insured Swedish dogs: rates and causes of death in various breeds",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 114 次",
+   "first_author": "Brenda N. Bonnett",
+   "journal": "Veterinary Record",
+   "year": 1997,
+   "pmid": "9253830",
+   "doi": "10.1136/vr.141.2.40"
+  }
+ ],
+ "25896026": [
+  {
+   "title": "A Single IGF1 Allele Is a Major Determinant of Small Size in Dogs",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 673 次",
+   "first_author": "Nathan B. Sutter",
+   "journal": "Science",
+   "year": 2007,
+   "pmid": "17412960",
+   "doi": "10.1126/science.1137045"
+  },
+  {
+   "title": "Mortality in North American Dogs from 1984 to 2004: An Investigation into Age-, Size-, and Breed-Related Causes of Death",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 412 次",
+   "first_author": "Jamie M Fleming",
+   "journal": "Journal of Veterinary Internal Medicine",
+   "year": 2011,
+   "pmid": "21352376",
+   "doi": "10.1111/j.1939-1676.2011.0695.x"
+  },
+  {
+   "title": "Comparative Longevity of Pet Dogs and Humans: Implications for Gerontology Research",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 337 次",
+   "first_author": "Gary J. Patronek",
+   "journal": "The Journals of Gerontology Series A",
+   "year": 1997,
+   "pmid": "9158552",
+   "doi": "10.1093/gerona/52a.3.b171"
+  },
+  {
+   "title": "Longevity and mortality of owned dogs in England",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 328 次",
+   "first_author": "Dan Gerard O'Neill",
+   "journal": "The Veterinary Journal",
+   "year": 2013,
+   "pmid": "24206631",
+   "doi": "10.1016/j.tvjl.2013.09.020"
+  },
+  {
+   "title": "Longevit of British breeds of dog and its relationships with‐sex, size, cardiovascular variables and disease",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 261 次",
+   "first_author": "Alastair R. Michell",
+   "journal": "Veterinary Record",
+   "year": 1999,
+   "pmid": "10619607",
+   "doi": "10.1136/vr.145.22.625"
+  }
+ ],
+ "25231385": [
+  {
+   "pmid": "26936494",
+   "doi": "10.1177/1098612x16631234",
+   "title": "ISFM Consensus Guidelines on the Diagnosis and Management of Feline Chronic Kidney Disease.",
+   "reason": "本库已收录；引用了本文",
+   "first_author": "Sparkes AH",
+   "journal": "Journal of feline medicine and surgery",
+   "year": 2016
+  },
+  {
+   "pmid": "27103204",
+   "doi": "10.1111/jvim.13942",
+   "title": "Serum Concentrations of Symmetric Dimethylarginine and Creatinine in Dogs with Naturally Occurring Chronic Kidney Disease.",
+   "reason": "本库已收录；引用了本文",
+   "first_author": "Hall JA",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2016
+  },
+  {
+   "pmid": "26079532",
+   "doi": "10.1111/jvim.12835",
+   "title": "Symmetric Dimethylarginine Assay Validation, Stability, and Evaluation as a Marker for the Early Detection of Chronic Kidney Disease in Dogs.",
+   "reason": "本库已收录；引用了本文",
+   "first_author": "Nabity MB",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2015
+  },
+  {
+   "pmid": "16978113",
+   "doi": "10.2460/javma.229.6.949",
+   "title": "Clinical evaluation of dietary modification for treatment of spontaneous chronic kidney disease in cats.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Ross SJ",
+   "journal": "Journal of the American Veterinary Medical Association",
+   "year": 2006
+  },
+  {
+   "title": "Renal biomarkers in domestic species",
+   "reason": "库外；引用了本文；犬猫研究，按被引排序；OpenAlex 被引 194 次",
+   "first_author": "Jessica Anne Hokamp",
+   "journal": "Veterinary Clinical Pathology",
+   "year": 2016,
+   "pmid": "26918420",
+   "doi": "10.1111/vcp.12333"
+  }
+ ],
+ "24217707": [
+  {
+   "pmid": "26936494",
+   "doi": "10.1177/1098612x16631234",
+   "title": "ISFM Consensus Guidelines on the Diagnosis and Management of Feline Chronic Kidney Disease.",
+   "reason": "本库已收录；引用了本文",
+   "first_author": "Sparkes AH",
+   "journal": "Journal of feline medicine and surgery",
+   "year": 2016
+  },
+  {
+   "pmid": "22269057",
+   "doi": "10.1111/j.1939-1676.2011.00874.x",
+   "title": "Clinicopathological variables predicting progression of azotemia in cats with chronic kidney disease.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Chakrabarti S",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2012
+  },
+  {
+   "title": "AAFP Feline Anesthesia Guidelines",
+   "reason": "库外；引用了本文；标题含指南/共识/系统综述/随机对照字样；OpenAlex 被引 143 次",
+   "first_author": "Sheilah Ann Robertson",
+   "journal": "Journal of Feline Medicine and Surgery",
+   "year": 2018,
+   "pmid": "29989502",
+   "doi": "10.1177/1098612x18781391"
+  },
+  {
+   "title": "AAFP–AAHA: Feline Life Stage Guidelines",
+   "reason": "库外；本文引用；标题含指南/共识/系统综述/随机对照字样；OpenAlex 被引 88 次",
+   "first_author": "Amy Hoyumpa Vogt",
+   "journal": "Journal of the American Animal Hospital Association",
+   "year": 2010,
+   "pmid": "20045841",
+   "doi": "10.5326/0460070"
+  },
+  {
+   "title": "Clinical safety of robenacoxib in feline osteoarthritis: results of a randomized, blinded, placebo-controlled clinical trial",
+   "reason": "库外；引用了本文；标题含指南/共识/系统综述/随机对照字样；OpenAlex 被引 70 次",
+   "first_author": "Jonathan N. King",
+   "journal": "Journal of Feline Medicine and Surgery",
+   "year": 2015,
+   "pmid": "26058587",
+   "doi": "10.1177/1098612x15590870"
+  }
+ ],
+ "23647231": [
+  {
+   "pmid": "30353952",
+   "doi": "10.1111/jvim.15331",
+   "title": "ACVIM consensus statement: Guidelines for the identification, evaluation, and management of systemic hypertension in dogs and cats.",
+   "reason": "本库已收录；引用了本文",
+   "first_author": "Acierno MJ",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2018
+  },
+  {
+   "pmid": "27103204",
+   "doi": "10.1111/jvim.13942",
+   "title": "Serum Concentrations of Symmetric Dimethylarginine and Creatinine in Dogs with Naturally Occurring Chronic Kidney Disease.",
+   "reason": "本库已收录；引用了本文",
+   "first_author": "Hall JA",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2016
+  },
+  {
+   "title": "A randomized controlled clinical trial of the use of benazepril and heparin for the treatment of chronic kidney disease in dogs",
+   "reason": "库外；本文引用；标题含指南/共识/系统综述/随机对照字样；OpenAlex 被引 32 次",
+   "first_author": "Jörg Tenhündfeld",
+   "journal": "Journal of the American Veterinary Medical Association",
+   "year": 2009,
+   "pmid": "19366333",
+   "doi": "10.2460/javma.234.8.1031"
+  },
+  {
+   "title": "Textbook of veterinary internal medicine: Diseases of the dog and cat",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 1213 次",
+   "first_author": "Stephen J. Ettinger",
+   "journal": "",
+   "year": 1983,
+   "doi": ""
+  },
+  {
+   "title": "Health status and population characteristics of dogs and cats examined at private veterinary practices in the United States",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 613 次",
+   "first_author": "Elizabeth M. Lund",
+   "journal": "Journal of the American Veterinary Medical Association",
+   "year": 1999,
+   "pmid": "10319174",
+   "doi": "10.2460/javma.1999.214.09.1336"
+  }
+ ],
+ "22269057": [
+  {
+   "pmid": "18691369",
+   "doi": "10.1111/j.1939-1676.2008.0163.x",
+   "title": "Survival in cats with naturally occurring chronic kidney disease (2000-2002).",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Boyd LM",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2008
+  },
+  {
+   "pmid": "17939542",
+   "doi": "10.1111/j.1939-1676.2007.tb03042.x",
+   "title": "Prognostic factors in cats with chronic kidney disease.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "King JN",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2007
+  },
+  {
+   "pmid": "16978113",
+   "doi": "10.2460/javma.229.6.949",
+   "title": "Clinical evaluation of dietary modification for treatment of spontaneous chronic kidney disease in cats.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Ross SJ",
+   "journal": "Journal of the American Veterinary Medical Association",
+   "year": 2006
+  },
+  {
+   "pmid": "16734085",
+   "doi": "10.1892/0891-6640(2006)20[528:socwno]2.0.co;2",
+   "title": "Survival of cats with naturally occurring chronic renal failure is related to severity of proteinuria.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Syme HM",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2006
+  },
+  {
+   "pmid": "17063696",
+   "doi": "10.1892/0891-6640(2006)20[1054:taeobi]2.0.co;2",
+   "title": "Tolerability and efficacy of benazepril in cats with chronic kidney disease.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "King JN",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2006
+  }
+ ],
+ "20005753": [
+  {
+   "title": "Prevalence of obesity in dogs examined by Australian veterinary practices and the risk factors involved",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 377 次",
+   "first_author": "Paul Damien McGreevy",
+   "journal": "Veterinary Record",
+   "year": 2005,
+   "pmid": "15923551",
+   "doi": "10.1136/vr.156.22.695"
+  },
+  {
+   "title": "Comparative Longevity of Pet Dogs and Humans: Implications for Gerontology Research",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 337 次",
+   "first_author": "Gary J. Patronek",
+   "journal": "The Journals of Gerontology Series A",
+   "year": 1997,
+   "pmid": "9158552",
+   "doi": "10.1093/gerona/52a.3.b171"
+  },
+  {
+   "title": "Longevit of British breeds of dog and its relationships with‐sex, size, cardiovascular variables and disease",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 261 次",
+   "first_author": "Alastair R. Michell",
+   "journal": "Veterinary Record",
+   "year": 1999,
+   "pmid": "10619607",
+   "doi": "10.1136/vr.145.22.625"
+  },
+  {
+   "title": "Prevalence of behavioral changes associated with age-related cognitive impairment in dogs",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 241 次",
+   "first_author": "Jacqueline C. Neilson",
+   "journal": "Journal of the American Veterinary Medical Association",
+   "year": 2001,
+   "pmid": "11394831",
+   "doi": "10.2460/javma.2001.218.1787"
+  },
+  {
+   "title": "Prevalence and risk factors of behavioural changes associated with age‐related cognitive impairment in geriatric dogs",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 148 次",
+   "first_author": "Garikoitz Azkona",
+   "journal": "Journal of Small Animal Practice",
+   "year": 2009,
+   "pmid": "19200264",
+   "doi": "10.1111/j.1748-5827.2008.00718.x"
+  }
+ ],
+ "18691369": [
+  {
+   "pmid": "17939542",
+   "doi": "10.1111/j.1939-1676.2007.tb03042.x",
+   "title": "Prognostic factors in cats with chronic kidney disease.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "King JN",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2007
+  },
+  {
+   "pmid": "16978113",
+   "doi": "10.2460/javma.229.6.949",
+   "title": "Clinical evaluation of dietary modification for treatment of spontaneous chronic kidney disease in cats.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Ross SJ",
+   "journal": "Journal of the American Veterinary Medical Association",
+   "year": 2006
+  },
+  {
+   "pmid": "17063696",
+   "doi": "10.1892/0891-6640(2006)20[1054:taeobi]2.0.co;2",
+   "title": "Tolerability and efficacy of benazepril in cats with chronic kidney disease.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "King JN",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2006
+  },
+  {
+   "pmid": "10879400",
+   "doi": "10.1111/j.1748-5827.2000.tb03932.x",
+   "title": "Survival of cats with naturally occurring chronic renal failure: effect of dietary management.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Elliott J",
+   "journal": "The Journal of small animal practice",
+   "year": 2000
+  },
+  {
+   "title": "Health status and population characteristics of dogs and cats examined at private veterinary practices in the United States",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 613 次",
+   "first_author": "Elizabeth M. Lund",
+   "journal": "Journal of the American Veterinary Medical Association",
+   "year": 1999,
+   "pmid": "10319174",
+   "doi": "10.2460/javma.1999.214.09.1336"
+  }
+ ],
+ "18289298": [
+  {
+   "title": "Proposed Guidelines for the Diagnosis of Canine Idiopathic Dilated Cardiomyopathy",
+   "reason": "库外；本文引用；标题含指南/共识/系统综述/随机对照字样；OpenAlex 被引 230 次",
+   "first_author": "Joanna Dukes‐McEwan",
+   "journal": "Journal of Veterinary Cardiology",
+   "year": 2003,
+   "pmid": "19081360",
+   "doi": "10.1016/s1760-2734(06)70047-9"
+  },
+  {
+   "title": "The effect of benazepril on survival times and clinical signs of dogs with congestive heart failure: Results of a multicenter, prospective, randomized, double-blinded, placebo-controlled, long-term clinical trial",
+   "reason": "库外；本文引用；标题含指南/共识/系统综述/随机对照字样；OpenAlex 被引 148 次",
+   "first_author": "The BENCH (BENazepril in Canine Heart disease) Study Group",
+   "journal": "Journal of Veterinary Cardiology",
+   "year": 1999,
+   "pmid": "19081317",
+   "doi": "10.1016/s1760-2734(06)70025-x"
+  },
+  {
+   "title": "LEFT ATRIAL TO AORTIC ROOT INDICES USING TWO‐DIMENSIONAL AND M‐MODE ECHOCARDIOGRAPHY IN CAVALIER KING CHARLES SPANIELS WITH AND WITHOUT LEFT ATRIAL ENLARGEMENT",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 572 次",
+   "first_author": "Kerstin Hansson",
+   "journal": "Veterinary Radiology & Ultrasound",
+   "year": 2002,
+   "pmid": "12502113",
+   "doi": "10.1111/j.1740-8261.2002.tb01051.x"
+  },
+  {
+   "title": "Combined influence of ventricular loading and relaxation on the transmitral flow velocity profile in dogs measured by Doppler echocardiography.",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 414 次",
+   "first_author": "Christopher Y.P. Choong",
+   "journal": "Circulation",
+   "year": 1988,
+   "pmid": "3409503",
+   "doi": "10.1161/01.cir.78.3.672"
+  },
+  {
+   "title": "Chronic valvular disease (endocardiosis) in dogs.",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 216 次",
+   "first_author": "J W Buchanan",
+   "journal": "PubMed",
+   "year": 1977,
+   "pmid": "146409",
+   "doi": ""
+  }
+ ],
+ "17939542": [
+  {
+   "pmid": "18691369",
+   "doi": "10.1111/j.1939-1676.2008.0163.x",
+   "title": "Survival in cats with naturally occurring chronic kidney disease (2000-2002).",
+   "reason": "本库已收录；OpenAlex 相关文献",
+   "first_author": "Boyd LM",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2008
+  },
+  {
+   "pmid": "16734085",
+   "doi": "10.1892/0891-6640(2006)20[528:socwno]2.0.co;2",
+   "title": "Survival of cats with naturally occurring chronic renal failure is related to severity of proteinuria.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Syme HM",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2006
+  },
+  {
+   "pmid": "17063696",
+   "doi": "10.1892/0891-6640(2006)20[1054:taeobi]2.0.co;2",
+   "title": "Tolerability and efficacy of benazepril in cats with chronic kidney disease.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "King JN",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2006
+  },
+  {
+   "pmid": "10879400",
+   "doi": "10.1111/j.1748-5827.2000.tb03932.x",
+   "title": "Survival of cats with naturally occurring chronic renal failure: effect of dietary management.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Elliott J",
+   "journal": "The Journal of small animal practice",
+   "year": 2000
+  },
+  {
+   "title": "The effect of benazepril on survival times and clinical signs of dogs with congestive heart failure: Results of a multicenter, prospective, randomized, double-blinded, placebo-controlled, long-term clinical trial",
+   "reason": "库外；本文引用；标题含指南/共识/系统综述/随机对照字样；OpenAlex 被引 148 次",
+   "first_author": "The BENCH (BENazepril in Canine Heart disease) Study Group",
+   "journal": "Journal of Veterinary Cardiology",
+   "year": 1999,
+   "pmid": "19081317",
+   "doi": "10.1016/s1760-2734(06)70025-x"
+  }
+ ],
+ "16734085": [
+  {
+   "pmid": "26474314",
+   "doi": "10.1111/jvim.13639",
+   "title": "Comparison of Efficacy of Long-term Oral Treatment with Telmisartan and Benazepril in Cats with Chronic Kidney Disease.",
+   "reason": "本库已收录；OpenAlex 相关文献",
+   "first_author": "Sent U",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2015
+  },
+  {
+   "title": "The effect of benazepril on survival times and clinical signs of dogs with congestive heart failure: Results of a multicenter, prospective, randomized, double-blinded, placebo-controlled, long-term clinical trial",
+   "reason": "库外；本文引用；标题含指南/共识/系统综述/随机对照字样；OpenAlex 被引 148 次",
+   "first_author": "The BENCH (BENazepril in Canine Heart disease) Study Group",
+   "journal": "Journal of Veterinary Cardiology",
+   "year": 1999,
+   "pmid": "19081317",
+   "doi": "10.1016/s1760-2734(06)70025-x"
+  },
+  {
+   "title": "Effects of Benazepril on Survival of Dogs with Chronic Kidney Disease: A Multicenter, Randomized, Blinded, Placebo-Controlled Clinical Trial",
+   "reason": "库外；OpenAlex 相关文献；标题含指南/共识/系统综述/随机对照字样；OpenAlex 被引 12 次",
+   "first_author": "Jonathan N. King",
+   "journal": "Journal of Veterinary Internal Medicine",
+   "year": 2017,
+   "pmid": "28669137",
+   "doi": "10.1111/jvim.14726"
+  },
+  {
+   "title": "Efficacy of Enalapril for Prevention of Congestive Heart Failure in Dogs with Myxomatous Valve Disease and Asymptomatic Mitral Regurgitation",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 171 次",
+   "first_author": "Clarence Kvart",
+   "journal": "Journal of Veterinary Internal Medicine",
+   "year": 2002,
+   "pmid": "11822810",
+   "doi": "10.1111/j.1939-1676.2002.tb01610.x"
+  },
+  {
+   "title": "Feline hypertension: clinical findings and response to antihypertensive treatment in 30 cases",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 159 次",
+   "first_author": "Jonathan Elliott",
+   "journal": "Journal of Small Animal Practice",
+   "year": 2001,
+   "pmid": "11303854",
+   "doi": "10.1111/j.1748-5827.2001.tb02008.x"
+  }
+ ],
+ "11991408": [
+  {
+   "title": "2015 AAHA/AAFP Pain Management Guidelines for Dogs and Cats",
+   "reason": "库外；引用了本文；标题含指南/共识/系统综述/随机对照字样；OpenAlex 被引 360 次",
+   "first_author": "Mark E. Epstein",
+   "journal": "Journal of Feline Medicine and Surgery",
+   "year": 2015,
+   "pmid": "25701863",
+   "doi": "10.1177/1098612x15572062"
+  },
+  {
+   "title": "A randomized controlled trial to establish effects of short-term rapamycin treatment in 24 middle-aged companion dogs",
+   "reason": "库外；引用了本文；标题含指南/共识/系统综述/随机对照字样；OpenAlex 被引 169 次",
+   "first_author": "Silvan R. Urfer",
+   "journal": "GeroScience",
+   "year": 2017,
+   "pmid": "28374166",
+   "doi": "10.1007/s11357-017-9972-z"
+  },
+  {
+   "title": "2014 AAHA Weight Management Guidelines for Dogs and Cats*†",
+   "reason": "库外；引用了本文；标题含指南/共识/系统综述/随机对照字样；OpenAlex 被引 150 次",
+   "first_author": "Dawn Brooks",
+   "journal": "Journal of the American Animal Hospital Association",
+   "year": 2013,
+   "pmid": "24216501",
+   "doi": "10.5326/jaaha-ms-6331"
+  },
+  {
+   "title": "2019 AAHA Canine Life Stage Guidelines*",
+   "reason": "库外；引用了本文；标题含指南/共识/系统综述/随机对照字样；OpenAlex 被引 149 次",
+   "first_author": "Kate E. Creevy",
+   "journal": "Journal of the American Animal Hospital Association",
+   "year": 2019,
+   "pmid": "31622127",
+   "doi": "10.5326/jaaha-ms-6999"
+  },
+  {
+   "title": "The Growing Problem of Obesity in Dogs and Cats",
+   "reason": "库外；引用了本文；犬猫研究，按被引排序；OpenAlex 被引 860 次",
+   "first_author": "Alexander J. German",
+   "journal": "Journal of Nutrition",
+   "year": 2006,
+   "pmid": "16772464",
+   "doi": "10.1093/jn/136.7.1940s"
+  }
+ ],
+ "10879400": [
+  {
+   "pmid": "26936494",
+   "doi": "10.1177/1098612x16631234",
+   "title": "ISFM Consensus Guidelines on the Diagnosis and Management of Feline Chronic Kidney Disease.",
+   "reason": "本库已收录；引用了本文",
+   "first_author": "Sparkes AH",
+   "journal": "Journal of feline medicine and surgery",
+   "year": 2016
+  },
+  {
+   "pmid": "23838205",
+   "doi": "10.1016/j.tvjl.2013.05.048",
+   "title": "Mirtazapine as an appetite stimulant and anti-emetic in cats with chronic kidney disease: a masked placebo-controlled crossover clinical trial.",
+   "reason": "本库已收录；引用了本文",
+   "first_author": "Quimby JM",
+   "journal": "Veterinary journal (London, England : 1997)",
+   "year": 2013
+  },
+  {
+   "pmid": "22269057",
+   "doi": "10.1111/j.1939-1676.2011.00874.x",
+   "title": "Clinicopathological variables predicting progression of azotemia in cats with chronic kidney disease.",
+   "reason": "本库已收录；引用了本文",
+   "first_author": "Chakrabarti S",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2012
+  },
+  {
+   "pmid": "21704901",
+   "doi": "10.1016/j.jfms.2011.05.009",
+   "title": "WSAVA nutritional assessment guidelines.",
+   "reason": "本库已收录；引用了本文",
+   "first_author": "Freeman",
+   "journal": "Journal of feline medicine and surgery",
+   "year": 2011
+  },
+  {
+   "pmid": "18691369",
+   "doi": "10.1111/j.1939-1676.2008.0163.x",
+   "title": "Survival in cats with naturally occurring chronic kidney disease (2000-2002).",
+   "reason": "本库已收录；引用了本文",
+   "first_author": "Boyd LM",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2008
+  }
+ ],
+ "42949438": [
+  {
+   "pmid": "40732763",
+   "doi": "10.3390/pathogens14070717",
+   "title": "Efficacy of GS-441524 for Feline Infectious Peritonitis: A Systematic Review (2018-2024).",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Gokalsing E",
+   "journal": "Pathogens (Basel, Switzerland)",
+   "year": 2025
+  },
+  {
+   "pmid": "41035288",
+   "doi": "10.1111/jvim.70253",
+   "title": "Treatment With Remdesivir Alone or in Combination With GS-441524 in Cats With Ocular Involvement of Feline Infectious Peritonitis: An Observational Case Series.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Andrews ALMM",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2025
+  },
+  {
+   "pmid": "39066306",
+   "doi": "10.3390/v16071144",
+   "title": "Short Treatment of 42 Days with Oral GS-441524 Results in Equal Efficacy as the Recommended 84-Day Treatment in Cats Suffering from Feline Infectious Peritonitis with Effusion-A Prospective Randomized Controlled Study.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Zuzzi-Krebitz AM",
+   "journal": "Viruses",
+   "year": 2024
+  },
+  {
+   "pmid": "37766254",
+   "doi": "10.3390/v15091847",
+   "title": "Feline Infectious Peritonitis: European Advisory Board on Cat Diseases Guidelines.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Tasker S",
+   "journal": "Viruses",
+   "year": 2023
+  },
+  {
+   "pmid": "37732386",
+   "doi": "10.1177/1098612x231194460",
+   "title": "Retrospective study and outcome of 307 cats with feline infectious peritonitis treated with legally sourced veterinary compounded preparations of remdesivir and GS-441524 (2020-2022).",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Taylor SS",
+   "journal": "Journal of feline medicine and surgery",
+   "year": 2023
+  }
+ ],
+ "41834689": [
+  {
+   "pmid": "41781382",
+   "doi": "10.1177/1098612x261433057",
+   "title": "Treatment of non-effusive feline infectious peritonitis using oral remdesivir or GS-441524: a randomized, double-blind, non-inferiority trial.",
+   "reason": "本库已收录；OpenAlex 相关文献",
+   "first_author": "Brostoff T",
+   "journal": "Journal of feline medicine and surgery",
+   "year": 2026
+  },
+  {
+   "pmid": "42043241",
+   "doi": "10.3390/v18040452",
+   "title": "Update on Treatment of Feline Infectious Peritonitis: European Advisory Board on Cat Diseases (ABCD) Guidelines.",
+   "reason": "本库已收录；OpenAlex 相关文献",
+   "first_author": "Tasker S",
+   "journal": "Viruses",
+   "year": 2026
+  },
+  {
+   "pmid": "39066306",
+   "doi": "10.3390/v16071144",
+   "title": "Short Treatment of 42 Days with Oral GS-441524 Results in Equal Efficacy as the Recommended 84-Day Treatment in Cats Suffering from Feline Infectious Peritonitis with Effusion-A Prospective Randomized Controlled Study.",
+   "reason": "本库已收录；OpenAlex 相关文献",
+   "first_author": "Zuzzi-Krebitz AM",
+   "journal": "Viruses",
+   "year": 2024
+  },
+  {
+   "pmid": "37439383",
+   "doi": "10.1111/jvim.16803",
+   "title": "Outcomes of treatment of cats with feline infectious peritonitis using parenterally administered remdesivir, with or without transition to orally administered GS-441524.",
+   "reason": "本库已收录；OpenAlex 相关文献",
+   "first_author": "Coggins SJ",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2023
+  },
+  {
+   "pmid": "37403259",
+   "doi": "10.1111/jvim.16804",
+   "title": "Thirty-two cats with effusive or non-effusive feline infectious peritonitis treated with a combination of remdesivir and GS-441524.",
+   "reason": "本库已收录；OpenAlex 相关文献",
+   "first_author": "Green J",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2023
+  }
+ ],
+ "41035288": [
+  {
+   "pmid": "41781382",
+   "doi": "10.1177/1098612x261433057",
+   "title": "Treatment of non-effusive feline infectious peritonitis using oral remdesivir or GS-441524: a randomized, double-blind, non-inferiority trial.",
+   "reason": "本库已收录；OpenAlex 相关文献",
+   "first_author": "Brostoff T",
+   "journal": "Journal of feline medicine and surgery",
+   "year": 2026
+  },
+  {
+   "pmid": "39066306",
+   "doi": "10.3390/v16071144",
+   "title": "Short Treatment of 42 Days with Oral GS-441524 Results in Equal Efficacy as the Recommended 84-Day Treatment in Cats Suffering from Feline Infectious Peritonitis with Effusion-A Prospective Randomized Controlled Study.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Zuzzi-Krebitz AM",
+   "journal": "Viruses",
+   "year": 2024
+  },
+  {
+   "pmid": "37403259",
+   "doi": "10.1111/jvim.16804",
+   "title": "Thirty-two cats with effusive or non-effusive feline infectious peritonitis treated with a combination of remdesivir and GS-441524.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Green J",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2023
+  },
+  {
+   "pmid": "37766254",
+   "doi": "10.3390/v15091847",
+   "title": "Feline Infectious Peritonitis: European Advisory Board on Cat Diseases Guidelines.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Tasker S",
+   "journal": "Viruses",
+   "year": 2023
+  },
+  {
+   "pmid": "37732386",
+   "doi": "10.1177/1098612x231194460",
+   "title": "Retrospective study and outcome of 307 cats with feline infectious peritonitis treated with legally sourced veterinary compounded preparations of remdesivir and GS-441524 (2020-2022).",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Taylor SS",
+   "journal": "Journal of feline medicine and surgery",
+   "year": 2023
+  }
+ ],
+ "37732386": [
+  {
+   "pmid": "42043241",
+   "doi": "10.3390/v18040452",
+   "title": "Update on Treatment of Feline Infectious Peritonitis: European Advisory Board on Cat Diseases (ABCD) Guidelines.",
+   "reason": "本库已收录；引用了本文",
+   "first_author": "Tasker S",
+   "journal": "Viruses",
+   "year": 2026
+  },
+  {
+   "pmid": "41781382",
+   "doi": "10.1177/1098612x261433057",
+   "title": "Treatment of non-effusive feline infectious peritonitis using oral remdesivir or GS-441524: a randomized, double-blind, non-inferiority trial.",
+   "reason": "本库已收录；OpenAlex 相关文献",
+   "first_author": "Brostoff T",
+   "journal": "Journal of feline medicine and surgery",
+   "year": 2026
+  },
+  {
+   "pmid": "40633571",
+   "doi": "10.1038/s41586-025-09340-0",
+   "title": "Feline infectious peritonitis epizootic caused by a recombinant coronavirus.",
+   "reason": "本库已收录；引用了本文",
+   "first_author": "Attipa C",
+   "journal": "Nature",
+   "year": 2025
+  },
+  {
+   "pmid": "40732763",
+   "doi": "10.3390/pathogens14070717",
+   "title": "Efficacy of GS-441524 for Feline Infectious Peritonitis: A Systematic Review (2018-2024).",
+   "reason": "本库已收录；引用了本文",
+   "first_author": "Gokalsing E",
+   "journal": "Pathogens (Basel, Switzerland)",
+   "year": 2025
+  },
+  {
+   "pmid": "41035288",
+   "doi": "10.1111/jvim.70253",
+   "title": "Treatment With Remdesivir Alone or in Combination With GS-441524 in Cats With Ocular Involvement of Feline Infectious Peritonitis: An Observational Case Series.",
+   "reason": "本库已收录；引用了本文",
+   "first_author": "Andrews ALMM",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2025
+  }
+ ],
+ "37548535": [
+  {
+   "pmid": "39066306",
+   "doi": "10.3390/v16071144",
+   "title": "Short Treatment of 42 Days with Oral GS-441524 Results in Equal Efficacy as the Recommended 84-Day Treatment in Cats Suffering from Feline Infectious Peritonitis with Effusion-A Prospective Randomized Controlled Study.",
+   "reason": "本库已收录；OpenAlex 相关文献",
+   "first_author": "Zuzzi-Krebitz AM",
+   "journal": "Viruses",
+   "year": 2024
+  },
+  {
+   "pmid": "34835034",
+   "doi": "10.3390/v13112228",
+   "title": "Curing Cats with Feline Infectious Peritonitis with an Oral Multi-Component Drug Containing GS-441524.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Krentz D",
+   "journal": "Viruses",
+   "year": 2021
+  },
+  {
+   "pmid": "32441826",
+   "doi": "10.1111/jvim.15780",
+   "title": "Antiviral treatment using the adenosine nucleoside analogue GS-441524 in cats with clinically diagnosed neurological feline infectious peritonitis.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Dickinson PJ",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2020
+  },
+  {
+   "pmid": "30755068",
+   "doi": "10.1177/1098612x19825701",
+   "title": "Efficacy and safety of the nucleoside analog GS-441524 for treatment of cats with naturally occurring feline infectious peritonitis.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Pedersen NC",
+   "journal": "Journal of feline medicine and surgery",
+   "year": 2019
+  },
+  {
+   "pmid": "28901812",
+   "doi": "10.1177/1098612x17729626",
+   "title": "Efficacy of a 3C-like protease inhibitor in treating various forms of acquired feline infectious peritonitis.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Pedersen NC",
+   "journal": "Journal of feline medicine and surgery",
+   "year": 2018
+  }
+ ],
+ "37439383": [
+  {
+   "pmid": "42043241",
+   "doi": "10.3390/v18040452",
+   "title": "Update on Treatment of Feline Infectious Peritonitis: European Advisory Board on Cat Diseases (ABCD) Guidelines.",
+   "reason": "本库已收录；引用了本文",
+   "first_author": "Tasker S",
+   "journal": "Viruses",
+   "year": 2026
+  },
+  {
+   "pmid": "41781382",
+   "doi": "10.1177/1098612x261433057",
+   "title": "Treatment of non-effusive feline infectious peritonitis using oral remdesivir or GS-441524: a randomized, double-blind, non-inferiority trial.",
+   "reason": "本库已收录；OpenAlex 相关文献",
+   "first_author": "Brostoff T",
+   "journal": "Journal of feline medicine and surgery",
+   "year": 2026
+  },
+  {
+   "pmid": "40732763",
+   "doi": "10.3390/pathogens14070717",
+   "title": "Efficacy of GS-441524 for Feline Infectious Peritonitis: A Systematic Review (2018-2024).",
+   "reason": "本库已收录；引用了本文",
+   "first_author": "Gokalsing E",
+   "journal": "Pathogens (Basel, Switzerland)",
+   "year": 2025
+  },
+  {
+   "pmid": "39066306",
+   "doi": "10.3390/v16071144",
+   "title": "Short Treatment of 42 Days with Oral GS-441524 Results in Equal Efficacy as the Recommended 84-Day Treatment in Cats Suffering from Feline Infectious Peritonitis with Effusion-A Prospective Randomized Controlled Study.",
+   "reason": "本库已收录；引用了本文",
+   "first_author": "Zuzzi-Krebitz AM",
+   "journal": "Viruses",
+   "year": 2024
+  },
+  {
+   "pmid": "37766254",
+   "doi": "10.3390/v15091847",
+   "title": "Feline Infectious Peritonitis: European Advisory Board on Cat Diseases Guidelines.",
+   "reason": "本库已收录；引用了本文",
+   "first_author": "Tasker S",
+   "journal": "Viruses",
+   "year": 2023
+  }
+ ],
+ "37403259": [
+  {
+   "pmid": "42043241",
+   "doi": "10.3390/v18040452",
+   "title": "Update on Treatment of Feline Infectious Peritonitis: European Advisory Board on Cat Diseases (ABCD) Guidelines.",
+   "reason": "本库已收录；引用了本文",
+   "first_author": "Tasker S",
+   "journal": "Viruses",
+   "year": 2026
+  },
+  {
+   "pmid": "41781382",
+   "doi": "10.1177/1098612x261433057",
+   "title": "Treatment of non-effusive feline infectious peritonitis using oral remdesivir or GS-441524: a randomized, double-blind, non-inferiority trial.",
+   "reason": "本库已收录；OpenAlex 相关文献",
+   "first_author": "Brostoff T",
+   "journal": "Journal of feline medicine and surgery",
+   "year": 2026
+  },
+  {
+   "pmid": "40732763",
+   "doi": "10.3390/pathogens14070717",
+   "title": "Efficacy of GS-441524 for Feline Infectious Peritonitis: A Systematic Review (2018-2024).",
+   "reason": "本库已收录；引用了本文",
+   "first_author": "Gokalsing E",
+   "journal": "Pathogens (Basel, Switzerland)",
+   "year": 2025
+  },
+  {
+   "pmid": "41035288",
+   "doi": "10.1111/jvim.70253",
+   "title": "Treatment With Remdesivir Alone or in Combination With GS-441524 in Cats With Ocular Involvement of Feline Infectious Peritonitis: An Observational Case Series.",
+   "reason": "本库已收录；引用了本文",
+   "first_author": "Andrews ALMM",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2025
+  },
+  {
+   "pmid": "39066306",
+   "doi": "10.3390/v16071144",
+   "title": "Short Treatment of 42 Days with Oral GS-441524 Results in Equal Efficacy as the Recommended 84-Day Treatment in Cats Suffering from Feline Infectious Peritonitis with Effusion-A Prospective Randomized Controlled Study.",
+   "reason": "本库已收录；引用了本文",
+   "first_author": "Zuzzi-Krebitz AM",
+   "journal": "Viruses",
+   "year": 2024
+  }
+ ],
+ "36297266": [
+  {
+   "pmid": "30755068",
+   "doi": "10.1177/1098612x19825701",
+   "title": "Efficacy and safety of the nucleoside analog GS-441524 for treatment of cats with naturally occurring feline infectious peritonitis.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Pedersen NC",
+   "journal": "Journal of feline medicine and surgery",
+   "year": 2019
+  },
+  {
+   "pmid": "28901812",
+   "doi": "10.1177/1098612x17729626",
+   "title": "Efficacy of a 3C-like protease inhibitor in treating various forms of acquired feline infectious peritonitis.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Pedersen NC",
+   "journal": "Journal of feline medicine and surgery",
+   "year": 2018
+  },
+  {
+   "title": "Diagnosis of Feline Infectious Peritonitis: A Review of the Current Literature",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 185 次",
+   "first_author": "Sandra Felten",
+   "journal": "Viruses",
+   "year": 2019,
+   "pmid": "31731711",
+   "doi": "10.3390/v11111068"
+  },
+  {
+   "title": "Unlicensed GS-441524-Like Antiviral Therapy Can Be Effective for at-Home Treatment of Feline Infectious Peritonitis",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 75 次",
+   "first_author": "Sarah Jones",
+   "journal": "Animals",
+   "year": 2021,
+   "pmid": "34438720",
+   "doi": "10.3390/ani11082257"
+  },
+  {
+   "title": "Molnupiravir treatment of 18 cats with feline infectious peritonitis: A case series",
+   "reason": "库外；OpenAlex 相关文献；犬猫研究，按被引排序；OpenAlex 被引 22 次",
+   "first_author": "Okihiro Sase",
+   "journal": "Journal of Veterinary Internal Medicine",
+   "year": 2023,
+   "pmid": "37551843",
+   "doi": "10.1111/jvim.16832"
+  }
+ ],
+ "34835034": [
+  {
+   "pmid": "40732763",
+   "doi": "10.3390/pathogens14070717",
+   "title": "Efficacy of GS-441524 for Feline Infectious Peritonitis: A Systematic Review (2018-2024).",
+   "reason": "本库已收录；引用了本文",
+   "first_author": "Gokalsing E",
+   "journal": "Pathogens (Basel, Switzerland)",
+   "year": 2025
+  },
+  {
+   "pmid": "39066306",
+   "doi": "10.3390/v16071144",
+   "title": "Short Treatment of 42 Days with Oral GS-441524 Results in Equal Efficacy as the Recommended 84-Day Treatment in Cats Suffering from Feline Infectious Peritonitis with Effusion-A Prospective Randomized Controlled Study.",
+   "reason": "本库已收录；引用了本文",
+   "first_author": "Zuzzi-Krebitz AM",
+   "journal": "Viruses",
+   "year": 2024
+  },
+  {
+   "pmid": "37766254",
+   "doi": "10.3390/v15091847",
+   "title": "Feline Infectious Peritonitis: European Advisory Board on Cat Diseases Guidelines.",
+   "reason": "本库已收录；引用了本文",
+   "first_author": "Tasker S",
+   "journal": "Viruses",
+   "year": 2023
+  },
+  {
+   "pmid": "37732386",
+   "doi": "10.1177/1098612x231194460",
+   "title": "Retrospective study and outcome of 307 cats with feline infectious peritonitis treated with legally sourced veterinary compounded preparations of remdesivir and GS-441524 (2020-2022).",
+   "reason": "本库已收录；引用了本文",
+   "first_author": "Taylor SS",
+   "journal": "Journal of feline medicine and surgery",
+   "year": 2023
+  },
+  {
+   "pmid": "37439383",
+   "doi": "10.1111/jvim.16803",
+   "title": "Outcomes of treatment of cats with feline infectious peritonitis using parenterally administered remdesivir, with or without transition to orally administered GS-441524.",
+   "reason": "本库已收录；引用了本文",
+   "first_author": "Coggins SJ",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2023
+  }
+ ],
+ "32441826": [
+  {
+   "pmid": "39066306",
+   "doi": "10.3390/v16071144",
+   "title": "Short Treatment of 42 Days with Oral GS-441524 Results in Equal Efficacy as the Recommended 84-Day Treatment in Cats Suffering from Feline Infectious Peritonitis with Effusion-A Prospective Randomized Controlled Study.",
+   "reason": "本库已收录；引用了本文",
+   "first_author": "Zuzzi-Krebitz AM",
+   "journal": "Viruses",
+   "year": 2024
+  },
+  {
+   "pmid": "37766254",
+   "doi": "10.3390/v15091847",
+   "title": "Feline Infectious Peritonitis: European Advisory Board on Cat Diseases Guidelines.",
+   "reason": "本库已收录；引用了本文",
+   "first_author": "Tasker S",
+   "journal": "Viruses",
+   "year": 2023
+  },
+  {
+   "pmid": "37732386",
+   "doi": "10.1177/1098612x231194460",
+   "title": "Retrospective study and outcome of 307 cats with feline infectious peritonitis treated with legally sourced veterinary compounded preparations of remdesivir and GS-441524 (2020-2022).",
+   "reason": "本库已收录；引用了本文",
+   "first_author": "Taylor SS",
+   "journal": "Journal of feline medicine and surgery",
+   "year": 2023
+  },
+  {
+   "pmid": "37439383",
+   "doi": "10.1111/jvim.16803",
+   "title": "Outcomes of treatment of cats with feline infectious peritonitis using parenterally administered remdesivir, with or without transition to orally administered GS-441524.",
+   "reason": "本库已收录；引用了本文",
+   "first_author": "Coggins SJ",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2023
+  },
+  {
+   "pmid": "37403259",
+   "doi": "10.1111/jvim.16804",
+   "title": "Thirty-two cats with effusive or non-effusive feline infectious peritonitis treated with a combination of remdesivir and GS-441524.",
+   "reason": "本库已收录；引用了本文",
+   "first_author": "Green J",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2023
+  }
+ ],
+ "30755068": [
+  {
+   "pmid": "39066306",
+   "doi": "10.3390/v16071144",
+   "title": "Short Treatment of 42 Days with Oral GS-441524 Results in Equal Efficacy as the Recommended 84-Day Treatment in Cats Suffering from Feline Infectious Peritonitis with Effusion-A Prospective Randomized Controlled Study.",
+   "reason": "本库已收录；引用了本文",
+   "first_author": "Zuzzi-Krebitz AM",
+   "journal": "Viruses",
+   "year": 2024
+  },
+  {
+   "pmid": "37766254",
+   "doi": "10.3390/v15091847",
+   "title": "Feline Infectious Peritonitis: European Advisory Board on Cat Diseases Guidelines.",
+   "reason": "本库已收录；引用了本文",
+   "first_author": "Tasker S",
+   "journal": "Viruses",
+   "year": 2023
+  },
+  {
+   "pmid": "37732386",
+   "doi": "10.1177/1098612x231194460",
+   "title": "Retrospective study and outcome of 307 cats with feline infectious peritonitis treated with legally sourced veterinary compounded preparations of remdesivir and GS-441524 (2020-2022).",
+   "reason": "本库已收录；引用了本文",
+   "first_author": "Taylor SS",
+   "journal": "Journal of feline medicine and surgery",
+   "year": 2023
+  },
+  {
+   "pmid": "37439383",
+   "doi": "10.1111/jvim.16803",
+   "title": "Outcomes of treatment of cats with feline infectious peritonitis using parenterally administered remdesivir, with or without transition to orally administered GS-441524.",
+   "reason": "本库已收录；引用了本文",
+   "first_author": "Coggins SJ",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2023
+  },
+  {
+   "pmid": "37548535",
+   "doi": "10.1177/1098612x231183250",
+   "title": "Long-term follow-up of cats in complete remission after treatment of feline infectious peritonitis with oral GS-441524.",
+   "reason": "本库已收录；OpenAlex 相关文献",
+   "first_author": "Zwicklbauer K",
+   "journal": "Journal of feline medicine and surgery",
+   "year": 2023
+  }
+ ],
+ "30543707": [
+  {
+   "pmid": "30797439",
+   "doi": "10.1016/j.jvc.2018.11.002",
+   "title": "Echocardiographic phenotype of canine dilated cardiomyopathy differs based on diet type.",
+   "reason": "本库已收录；OpenAlex 相关文献",
+   "first_author": "Adin D",
+   "journal": "Journal of veterinary cardiology : the official journal of the European Society of Veterinary Cardiology",
+   "year": 2019
+  },
+  {
+   "pmid": "3616607",
+   "doi": "10.1126/science.3616607",
+   "title": "Myocardial failure in cats associated with low plasma taurine: a reversible cardiomyopathy.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Pion PD",
+   "journal": "Science (New York, N.Y.)",
+   "year": 1987
+  },
+  {
+   "title": "Responses in randomised groups of healthy, adult Labrador retrievers fed grain-free diets with high legume inclusion for 30 days display commonalities with dogs with suspected dilated cardiomyopathy",
+   "reason": "库外；OpenAlex 相关文献；标题含指南/共识/系统综述/随机对照字样；OpenAlex 被引 14 次",
+   "first_author": "Anne Marie Bakke",
+   "journal": "BMC Veterinary Research",
+   "year": 2022,
+   "pmid": "35484585",
+   "doi": "10.1186/s12917-022-03264-x"
+  },
+  {
+   "title": "Allometric Scaling of M-Mode Cardiac Measurements in Normal Adult Dogs",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 819 次",
+   "first_author": "Craig Cornell",
+   "journal": "Journal of Veterinary Internal Medicine",
+   "year": 2004,
+   "pmid": "15188817",
+   "doi": "10.1111/j.1939-1676.2004.tb02551.x"
+  },
+  {
+   "title": "Evaluation of Four 2-Dimensional Echocardiographic Methods of Assessing Left Atrial Size in Dogs",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 370 次",
+   "first_author": "Mark Rishniw",
+   "journal": "Journal of Veterinary Internal Medicine",
+   "year": 2000,
+   "pmid": "10935894",
+   "doi": "10.1111/j.1939-1676.2000.tb02252.x"
+  }
+ ],
+ "30797439": [
+  {
+   "title": "Proposed Guidelines for the Diagnosis of Canine Idiopathic Dilated Cardiomyopathy",
+   "reason": "库外；本文引用；标题含指南/共识/系统综述/随机对照字样；OpenAlex 被引 230 次",
+   "first_author": "Joanna Dukes‐McEwan",
+   "journal": "Journal of Veterinary Cardiology",
+   "year": 2003,
+   "pmid": "19081360",
+   "doi": "10.1016/s1760-2734(06)70047-9"
+  },
+  {
+   "title": "Responses in randomised groups of healthy, adult Labrador retrievers fed grain-free diets with high legume inclusion for 30 days display commonalities with dogs with suspected dilated cardiomyopathy",
+   "reason": "库外；OpenAlex 相关文献；标题含指南/共识/系统综述/随机对照字样；OpenAlex 被引 14 次",
+   "first_author": "Anne Marie Bakke",
+   "journal": "BMC Veterinary Research",
+   "year": 2022,
+   "pmid": "35484585",
+   "doi": "10.1186/s12917-022-03264-x"
+  },
+  {
+   "title": "Allometric Scaling of M-Mode Cardiac Measurements in Normal Adult Dogs",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 819 次",
+   "first_author": "Craig Cornell",
+   "journal": "Journal of Veterinary Internal Medicine",
+   "year": 2004,
+   "pmid": "15188817",
+   "doi": "10.1111/j.1939-1676.2004.tb02551.x"
+  },
+  {
+   "title": "Vertebral scale system to measure canine heart size in radiographs",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 591 次",
+   "first_author": "James W. Buchanan",
+   "journal": "Journal of the American Veterinary Medical Association",
+   "year": 1995,
+   "pmid": "7751220",
+   "doi": "10.2460/javma.1995.206.02.194"
+  },
+  {
+   "title": "Evaluation of Four 2-Dimensional Echocardiographic Methods of Assessing Left Atrial Size in Dogs",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 370 次",
+   "first_author": "Mark Rishniw",
+   "journal": "Journal of Veterinary Internal Medicine",
+   "year": 2000,
+   "pmid": "10935894",
+   "doi": "10.1111/j.1939-1676.2000.tb02252.x"
+  }
+ ],
+ "28901812": [
+  {
+   "pmid": "37766254",
+   "doi": "10.3390/v15091847",
+   "title": "Feline Infectious Peritonitis: European Advisory Board on Cat Diseases Guidelines.",
+   "reason": "本库已收录；引用了本文",
+   "first_author": "Tasker S",
+   "journal": "Viruses",
+   "year": 2023
+  },
+  {
+   "pmid": "37732386",
+   "doi": "10.1177/1098612x231194460",
+   "title": "Retrospective study and outcome of 307 cats with feline infectious peritonitis treated with legally sourced veterinary compounded preparations of remdesivir and GS-441524 (2020-2022).",
+   "reason": "本库已收录；OpenAlex 相关文献",
+   "first_author": "Taylor SS",
+   "journal": "Journal of feline medicine and surgery",
+   "year": 2023
+  },
+  {
+   "pmid": "37548535",
+   "doi": "10.1177/1098612x231183250",
+   "title": "Long-term follow-up of cats in complete remission after treatment of feline infectious peritonitis with oral GS-441524.",
+   "reason": "本库已收录；OpenAlex 相关文献",
+   "first_author": "Zwicklbauer K",
+   "journal": "Journal of feline medicine and surgery",
+   "year": 2023
+  },
+  {
+   "pmid": "32441826",
+   "doi": "10.1111/jvim.15780",
+   "title": "Antiviral treatment using the adenosine nucleoside analogue GS-441524 in cats with clinically diagnosed neurological feline infectious peritonitis.",
+   "reason": "本库已收录；引用了本文",
+   "first_author": "Dickinson PJ",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2020
+  },
+  {
+   "pmid": "30755068",
+   "doi": "10.1177/1098612x19825701",
+   "title": "Efficacy and safety of the nucleoside analog GS-441524 for treatment of cats with naturally occurring feline infectious peritonitis.",
+   "reason": "本库已收录；引用了本文",
+   "first_author": "Pedersen NC",
+   "journal": "Journal of feline medicine and surgery",
+   "year": 2019
+  }
+ ],
+ "28152671": [
+  {
+   "title": "Evaluation of Four 2-Dimensional Echocardiographic Methods of Assessing Left Atrial Size in Dogs",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 370 次",
+   "first_author": "Mark Rishniw",
+   "journal": "Journal of Veterinary Internal Medicine",
+   "year": 2000,
+   "pmid": "10935894",
+   "doi": "10.1111/j.1939-1676.2000.tb02252.x"
+  },
+  {
+   "title": "Population and survival characteristics of cats with hypertrophic cardiomyopathy: 260 cases (1990–1999)",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 308 次",
+   "first_author": "John E. Rush",
+   "journal": "Journal of the American Veterinary Medical Association",
+   "year": 2002,
+   "pmid": "12126131",
+   "doi": "10.2460/javma.2002.220.202"
+  },
+  {
+   "title": "Prevalence of cardiomyopathy in apparently healthy cats",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 272 次",
+   "first_author": "Christopher F. Paige",
+   "journal": "Journal of the American Veterinary Medical Association",
+   "year": 2009,
+   "pmid": "19480619",
+   "doi": "10.2460/javma.234.11.1398"
+  },
+  {
+   "title": "Pulsed Tissue Doppler Imaging in Normal Cats and Cats with Hypertrophic Cardiomyopathy",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 82 次",
+   "first_author": "H. Koffas",
+   "journal": "Journal of Veterinary Internal Medicine",
+   "year": 2006,
+   "pmid": "16496925",
+   "doi": "10.1892/0891-6640(2006)20[65:ptdiin]2.0.co;2"
+  },
+  {
+   "title": "Pulsed Tissue Doppler Imaging in Normal Cats and Cats with Hypertrophic Cardiomyopathy",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 78 次",
+   "first_author": "H. Koffas",
+   "journal": "Journal of Veterinary Internal Medicine",
+   "year": 2006,
+   "doi": "10.1111/j.1939-1676.2006.tb02825.x"
+  }
+ ],
+ "27103204": [
+  {
+   "pmid": "26079532",
+   "doi": "10.1111/jvim.12835",
+   "title": "Symmetric Dimethylarginine Assay Validation, Stability, and Evaluation as a Marker for the Early Detection of Chronic Kidney Disease in Dogs.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Nabity MB",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2015
+  },
+  {
+   "pmid": "25231385",
+   "doi": "10.1111/jvim.12445",
+   "title": "Comparison of serum concentrations of symmetric dimethylarginine and creatinine as kidney function biomarkers in cats with chronic kidney disease.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Hall JA",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2014
+  },
+  {
+   "pmid": "23647231",
+   "doi": "10.1111/jvim.12090",
+   "title": "Chronic kidney disease in dogs in UK veterinary practices: prevalence, risk factors, and survival.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "O'Neill DG",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2013
+  },
+  {
+   "pmid": "16978113",
+   "doi": "10.2460/javma.229.6.949",
+   "title": "Clinical evaluation of dietary modification for treatment of spontaneous chronic kidney disease in cats.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Ross SJ",
+   "journal": "Journal of the American Veterinary Medical Association",
+   "year": 2006
+  },
+  {
+   "pmid": "11990962",
+   "doi": "10.2460/javma.2002.220.1163",
+   "title": "Clinical evaluation of dietary modification for treatment of spontaneous chronic renal failure in dogs.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Jacob F",
+   "journal": "Journal of the American Veterinary Medical Association",
+   "year": 2002
+  }
+ ],
+ "26079532": [
+  {
+   "pmid": "27103204",
+   "doi": "10.1111/jvim.13942",
+   "title": "Serum Concentrations of Symmetric Dimethylarginine and Creatinine in Dogs with Naturally Occurring Chronic Kidney Disease.",
+   "reason": "本库已收录；OpenAlex 相关文献",
+   "first_author": "Hall JA",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2016
+  },
+  {
+   "pmid": "25231385",
+   "doi": "10.1111/jvim.12445",
+   "title": "Comparison of serum concentrations of symmetric dimethylarginine and creatinine as kidney function biomarkers in cats with chronic kidney disease.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Hall JA",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2014
+  },
+  {
+   "title": "Relationship between lean body mass and serum renal biomarkers in healthy dogs",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 151 次",
+   "first_author": "Jean A. Hall",
+   "journal": "Journal of Veterinary Internal Medicine",
+   "year": 2015,
+   "pmid": "25913398",
+   "doi": "10.1111/jvim.12607"
+  },
+  {
+   "title": "Relationship between Serum Symmetric Dimethylarginine Concentration and Glomerular Filtration Rate in Cats",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 122 次",
+   "first_author": "Jennifer C. Braff",
+   "journal": "Journal of Veterinary Internal Medicine",
+   "year": 2014,
+   "pmid": "25272985",
+   "doi": "10.1111/jvim.12446"
+  },
+  {
+   "title": "Symmetric Dimethylarginine",
+   "reason": "库外；OpenAlex 相关文献；犬猫研究，按被引排序；OpenAlex 被引 116 次",
+   "first_author": "Roberta L. Relford",
+   "journal": "Veterinary Clinics of North America Small Animal Practice",
+   "year": 2016,
+   "pmid": "27499007",
+   "doi": "10.1016/j.cvsm.2016.06.010"
+  }
+ ],
+ "25673019": [
+  {
+   "title": "Methimazole Treatment of 262 Cats With Hyperthyroidism",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 174 次",
+   "first_author": "Mark E. Peterson",
+   "journal": "Journal of Veterinary Internal Medicine",
+   "year": 1988,
+   "pmid": "3265728",
+   "doi": "10.1111/j.1939-1676.1988.tb02812.x"
+  },
+  {
+   "title": "Measurement of serum concentrations of free thyroxine, total thyroxine, and total triiodothyronine in cats with hyperthyroidism and cats with nonthyroidal disease",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 165 次",
+   "first_author": "Mark E. Peterson",
+   "journal": "Journal of the American Veterinary Medical Association",
+   "year": 2001,
+   "pmid": "11229503",
+   "doi": "10.2460/javma.2001.218.529"
+  },
+  {
+   "title": "Radioiodine treatment of 524 cats with hyperthyroidism",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 144 次",
+   "first_author": "Mark E. Peterson",
+   "journal": "Journal of the American Veterinary Medical Association",
+   "year": 1995,
+   "pmid": "7493869",
+   "doi": "10.2460/javma.1995.207.11.1422"
+  },
+  {
+   "title": "The Cat: Clinical Medicine and Management",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 142 次",
+   "first_author": "E Susan Little",
+   "journal": "",
+   "year": 2011,
+   "doi": ""
+  },
+  {
+   "title": "Hyperthyroidism in Cats",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 139 次",
+   "first_author": "Mark E. Peterson",
+   "journal": "Journal of Feline Medicine and Surgery",
+   "year": 2012,
+   "pmid": "23087006",
+   "doi": "10.1177/1098612x12464462"
+  }
+ ],
+ "3616607": [
+  {
+   "title": "Retinal Degeneration Associated with Taurine Deficiency in the Cat",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 596 次",
+   "first_author": "K. C. Hayes",
+   "journal": "Science",
+   "year": 1975,
+   "pmid": "1138364",
+   "doi": "10.1126/science.1138364"
+  },
+  {
+   "title": "Taurine: An Essential Nutrient for the Cat",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 251 次",
+   "first_author": "Karen Knopf",
+   "journal": "Journal of Nutrition",
+   "year": 1978,
+   "pmid": "641594",
+   "doi": "10.1093/jn/108.5.773"
+  },
+  {
+   "title": "Myocardial diseases of animals.",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 157 次",
+   "first_author": "John F. Van Vleet",
+   "journal": "PubMed Central",
+   "year": 1986,
+   "pmid": "3524254",
+   "doi": ""
+  },
+  {
+   "title": "Feline Maternal Taurine Deficiency: Effect on Mother and Offspring",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 138 次",
+   "first_author": "John A. Sturman",
+   "journal": "Journal of Nutrition",
+   "year": 1986,
+   "pmid": "3754276",
+   "doi": "10.1093/jn/116.4.655"
+  },
+  {
+   "title": "Dietary Influence on Bile Acid Conjugation in the Cat",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 93 次",
+   "first_author": "B. Rabin",
+   "journal": "Journal of Nutrition",
+   "year": 1976,
+   "pmid": "956906",
+   "doi": "10.1093/jn/106.9.1241"
+  }
+ ],
+ "41701235": [
+  {
+   "pmid": "15702689",
+   "doi": "10.2460/javma.2005.226.393",
+   "title": "Evaluation of the association between initial proteinuria and morbidity rate or death in dogs with naturally occurring chronic renal failure.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Jacob F",
+   "journal": "Journal of the American Veterinary Medical Association",
+   "year": 2005
+  },
+  {
+   "title": "Diagnostic significance of neutrophil-lymphocyte ratio (NLR) in dogs with chronic enteropathy: A meta-analytical study",
+   "reason": "库外；本文引用；标题含指南/共识/系统综述/随机对照字样；OpenAlex 被引 3 次",
+   "first_author": "Mohamed A. Marzok",
+   "journal": "The Thai Journal of Veterinary Medicine",
+   "year": 2025,
+   "doi": "10.56808/2985-1130.3829"
+  },
+  {
+   "title": "Evaluation of albuminuria and its relationship with blood pressure in dogs with chronic kidney disease",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 120 次",
+   "first_author": "Angela Bacic",
+   "journal": "Veterinary Clinical Pathology",
+   "year": 2010,
+   "pmid": "20059754",
+   "doi": "10.1111/j.1939-165x.2009.00207.x"
+  },
+  {
+   "title": "Urinary Markers in Healthy Young and Aged Dogs and Dogs with Chronic Kidney Disease",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 93 次",
+   "first_author": "Pascale M. Y. Smets",
+   "journal": "Journal of Veterinary Internal Medicine",
+   "year": 2009,
+   "pmid": "20041990",
+   "doi": "10.1111/j.1939-1676.2009.0426.x"
+  },
+  {
+   "title": "Factors associated with survival in dogs with chronic kidney disease",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 85 次",
+   "first_author": "Adam Joseph Rudinsky",
+   "journal": "Journal of Veterinary Internal Medicine",
+   "year": 2018,
+   "pmid": "30325060",
+   "doi": "10.1111/jvim.15322"
+  }
+ ],
+ "41527203": [
+  {
+   "pmid": "26936494",
+   "doi": "10.1177/1098612x16631234",
+   "title": "ISFM Consensus Guidelines on the Diagnosis and Management of Feline Chronic Kidney Disease.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Sparkes AH",
+   "journal": "Journal of feline medicine and surgery",
+   "year": 2016
+  },
+  {
+   "pmid": "27103204",
+   "doi": "10.1111/jvim.13942",
+   "title": "Serum Concentrations of Symmetric Dimethylarginine and Creatinine in Dogs with Naturally Occurring Chronic Kidney Disease.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Hall JA",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2016
+  },
+  {
+   "pmid": "26079532",
+   "doi": "10.1111/jvim.12835",
+   "title": "Symmetric Dimethylarginine Assay Validation, Stability, and Evaluation as a Marker for the Early Detection of Chronic Kidney Disease in Dogs.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Nabity MB",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2015
+  },
+  {
+   "pmid": "25231385",
+   "doi": "10.1111/jvim.12445",
+   "title": "Comparison of serum concentrations of symmetric dimethylarginine and creatinine as kidney function biomarkers in cats with chronic kidney disease.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Hall JA",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2014
+  },
+  {
+   "pmid": "23647231",
+   "doi": "10.1111/jvim.12090",
+   "title": "Chronic kidney disease in dogs in UK veterinary practices: prevalence, risk factors, and survival.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "O'Neill DG",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2013
+  }
+ ],
+ "40941356": [
+  {
+   "pmid": "38884190",
+   "doi": "10.1111/jvim.17124",
+   "title": "Efficacy and safety of once daily oral administration of sodium-glucose cotransporter-2 inhibitor velagliflozin compared with twice daily insulin injection in diabetic cats.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Niessen SJM",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2024
+  },
+  {
+   "pmid": "29314873",
+   "doi": "10.5326/jaaha-ms-6822",
+   "title": "2018 AAHA Diabetes Management Guidelines for Dogs and Cats.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Behrend E",
+   "journal": "Journal of the American Animal Hospital Association",
+   "year": 2018
+  },
+  {
+   "title": "Sodium-glucose cotransporter 2 inhibitors versus insulin therapy in companion animals with diabetes mellitus: a systematic review of current evidence and therapeutic perspectives",
+   "reason": "库外；引用了本文；标题含指南/共识/系统综述/随机对照字样；OpenAlex 被引 0 次",
+   "first_author": "Luminiţa Diana Hrițcu",
+   "journal": "Romanian Journal of Veterinary Sciences",
+   "year": 2026,
+   "doi": "10.59463/rjvs.2026.3.01"
+  },
+  {
+   "title": "A Feline Model of Experimentally Induced Islet Amyloidosis",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 94 次",
+   "first_author": "Margarethe E. Hoenig",
+   "journal": "American Journal Of Pathology",
+   "year": 2000,
+   "pmid": "11106586",
+   "doi": "10.1016/s0002-9440(10)64852-3"
+  },
+  {
+   "title": "Treatment of feline diabetes mellitus using an α-glucosidase inhibitor and a low-carbohydrate diet",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 83 次",
+   "first_author": "EM Mazzaferro",
+   "journal": "Journal of Feline Medicine and Surgery",
+   "year": 2003,
+   "pmid": "12765629",
+   "doi": "10.1016/s1098-612x(03)00006-8"
+  }
+ ],
+ "40732763": [
+  {
+   "pmid": "39066306",
+   "doi": "10.3390/v16071144",
+   "title": "Short Treatment of 42 Days with Oral GS-441524 Results in Equal Efficacy as the Recommended 84-Day Treatment in Cats Suffering from Feline Infectious Peritonitis with Effusion-A Prospective Randomized Controlled Study.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Zuzzi-Krebitz AM",
+   "journal": "Viruses",
+   "year": 2024
+  },
+  {
+   "pmid": "37403259",
+   "doi": "10.1111/jvim.16804",
+   "title": "Thirty-two cats with effusive or non-effusive feline infectious peritonitis treated with a combination of remdesivir and GS-441524.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Green J",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2023
+  },
+  {
+   "pmid": "37439383",
+   "doi": "10.1111/jvim.16803",
+   "title": "Outcomes of treatment of cats with feline infectious peritonitis using parenterally administered remdesivir, with or without transition to orally administered GS-441524.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Coggins SJ",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2023
+  },
+  {
+   "pmid": "37632022",
+   "doi": "10.3390/v15081680",
+   "title": "Efficacy of Oral Remdesivir Compared to GS-441524 for Treatment of Cats with Naturally Occurring Effusive Feline Infectious Peritonitis: A Blinded, Non-Inferiority Study.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Cosaro E",
+   "journal": "Viruses",
+   "year": 2023
+  },
+  {
+   "pmid": "37548535",
+   "doi": "10.1177/1098612x231183250",
+   "title": "Long-term follow-up of cats in complete remission after treatment of feline infectious peritonitis with oral GS-441524.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Zwicklbauer K",
+   "journal": "Journal of feline medicine and surgery",
+   "year": 2023
+  }
+ ],
+ "40633571": [
+  {
+   "pmid": "37766254",
+   "doi": "10.3390/v15091847",
+   "title": "Feline Infectious Peritonitis: European Advisory Board on Cat Diseases Guidelines.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Tasker S",
+   "journal": "Viruses",
+   "year": 2023
+  },
+  {
+   "pmid": "37732386",
+   "doi": "10.1177/1098612x231194460",
+   "title": "Retrospective study and outcome of 307 cats with feline infectious peritonitis treated with legally sourced veterinary compounded preparations of remdesivir and GS-441524 (2020-2022).",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Taylor SS",
+   "journal": "Journal of feline medicine and surgery",
+   "year": 2023
+  },
+  {
+   "title": "Feline Coronavirus Type II Strains 79-1683 and 79-1146 Originate from a Double Recombination between Feline Coronavirus Type I and Canine Coronavirus",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 419 次",
+   "first_author": "Arnold A. P. M. Herrewegh",
+   "journal": "Journal of Virology",
+   "year": 1998,
+   "pmid": "9557750",
+   "doi": "10.1128/jvi.72.5.4508-4514.1998"
+  },
+  {
+   "title": "Coronavirus Infections in Companion Animals: Virology, Epidemiology, Clinical and Pathologic Features",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 192 次",
+   "first_author": "Christine J. E. Haake",
+   "journal": "Viruses",
+   "year": 2020,
+   "pmid": "32933150",
+   "doi": "10.3390/v12091023"
+  },
+  {
+   "title": "One-tube fluorogenic reverse transcription-polymerase chain reaction for the quantitation of feline coronaviruses",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 190 次",
+   "first_author": "Marco Gut",
+   "journal": "Journal of Virological Methods",
+   "year": 1999,
+   "pmid": "10029323",
+   "doi": "10.1016/s0166-0934(98)00129-3"
+  }
+ ],
+ "34758043": [
+  {
+   "pmid": "30948740",
+   "doi": "10.1038/s41598-019-40616-4",
+   "title": "Domestic cats (Felis catus) discriminate their names from other words.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Saito A",
+   "journal": "Scientific reports",
+   "year": 2019
+  },
+  {
+   "pmid": "31076940",
+   "doi": "10.1007/s10071-019-01265-2",
+   "title": "Cats match voice and face: cross-modal representation of humans in cats (Felis catus).",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Takagi S",
+   "journal": "Animal cognition",
+   "year": 2019
+  },
+  {
+   "title": "The Domestic Cat: The Biology of its Behaviour",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 501 次",
+   "first_author": "Judith K. Blackshaw",
+   "journal": "Applied Animal Behaviour Science",
+   "year": 2001,
+   "doi": "10.1016/s0168-1591(00)00192-1"
+  },
+  {
+   "title": "The Domestic cat: the biology of its behaviour",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 464 次",
+   "first_author": "",
+   "journal": "Choice Reviews Online",
+   "year": 2015,
+   "doi": "10.5860/choice.187987"
+  },
+  {
+   "title": "Description of the behaviour of domestic dog (Canis familiaris) by experienced and inexperienced people",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 228 次",
+   "first_author": "Gabriella Tami",
+   "journal": "Applied Animal Behaviour Science",
+   "year": 2009,
+   "doi": "10.1016/j.applanim.2009.06.009"
+  }
+ ],
+ "31550468": [
+  {
+   "title": "Attachment to humans: a comparative study on hand-reared wolves and differently socialized dog puppies",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 289 次",
+   "first_author": "József Topál",
+   "journal": "Animal Behaviour",
+   "year": 2005,
+   "doi": "10.1016/j.anbehav.2005.03.025"
+  },
+  {
+   "title": "What’s inside your cat’s head? A review of cat (Felis silvestris catus) cognition research past, present and future",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 110 次",
+   "first_author": "Kristyn R. Vitale",
+   "journal": "Animal Cognition",
+   "year": 2015,
+   "pmid": "26154131",
+   "doi": "10.1007/s10071-015-0897-6"
+  },
+  {
+   "title": "Social factors influencing cortisol modulation in dogs during a strange situation procedure",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 91 次",
+   "first_author": "Iris Schöberl",
+   "journal": "Journal of Veterinary Behavior",
+   "year": 2015,
+   "doi": "10.1016/j.jveb.2015.09.007"
+  },
+  {
+   "title": "The quality of being sociable: The influence of human attentional state, population, and human familiarity on domestic cat sociability",
+   "reason": "库外；OpenAlex 相关文献；犬猫研究，按被引排序；OpenAlex 被引 55 次",
+   "first_author": "Kristyn R. Vitale",
+   "journal": "Behavioural Processes",
+   "year": 2018,
+   "pmid": "30391492",
+   "doi": "10.1016/j.beproc.2018.10.026"
+  },
+  {
+   "title": "Conspecific and Human Sociality in the Domestic Cat: Consideration of Proximate Mechanisms, Human Selection and Implications for Cat Welfare",
+   "reason": "库外；OpenAlex 相关文献；犬猫研究，按被引排序；OpenAlex 被引 53 次",
+   "first_author": "Lauren R. Finka",
+   "journal": "Animals",
+   "year": 2022,
+   "pmid": "35158622",
+   "doi": "10.3390/ani12030298"
+  }
+ ],
+ "31554584": [
+  {
+   "title": "Diagnosis of Spontaneous Canine Hyperadrenocorticism: 2012 ACVIM Consensus Statement (Small Animal)",
+   "reason": "库外；本文引用；标题含指南/共识/系统综述/随机对照字样；OpenAlex 被引 254 次",
+   "first_author": "Ellen N. Behrend",
+   "journal": "Journal of Veterinary Internal Medicine",
+   "year": 2013,
+   "pmid": "24112317",
+   "doi": "10.1111/jvim.12192"
+  },
+  {
+   "title": "Canine and Feline Endocrinology",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 175 次",
+   "first_author": "",
+   "journal": "Elsevier eBooks",
+   "year": 2015,
+   "doi": "10.1016/c2010-0-67113-6"
+  },
+  {
+   "title": "Assessment of two tests for the diagnosis of canine hyperadrenocorticism",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 165 次",
+   "first_author": "Ad Rijnberk",
+   "journal": "Veterinary Record",
+   "year": 1988,
+   "pmid": "3358285",
+   "doi": "10.1136/vr.122.8.178"
+  },
+  {
+   "title": "Trilostane treatment of 78 dogs with pituitary‐dependent hyperadrenocorticism",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 154 次",
+   "first_author": "Reto Neiger",
+   "journal": "Veterinary Record",
+   "year": 2002,
+   "pmid": "12120922",
+   "doi": "10.1136/vr.150.26.799"
+  },
+  {
+   "title": "Validation of Nonradioactive Chemiluminescent Immunoassay Methods for the Analysis of Thyroxine and Cortisol in Blood Samples Obtained from Dogs, Cats, and Horses",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 147 次",
+   "first_author": "Ashok Kumar Singh",
+   "journal": "Journal of Veterinary Diagnostic Investigation",
+   "year": 1997,
+   "pmid": "9249165",
+   "doi": "10.1177/104063879700900307"
+  }
+ ],
+ "31076940": [
+  {
+   "pmid": "34758043",
+   "doi": "10.1371/journal.pone.0257611",
+   "title": "Socio-spatial cognition in cats: Mentally mapping owner's location from voice.",
+   "reason": "本库已收录；OpenAlex 相关文献",
+   "first_author": "Takagi S",
+   "journal": "PloS one",
+   "year": 2021
+  },
+  {
+   "pmid": "30948740",
+   "doi": "10.1038/s41598-019-40616-4",
+   "title": "Domestic cats (Felis catus) discriminate their names from other words.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Saito A",
+   "journal": "Scientific reports",
+   "year": 2019
+  },
+  {
+   "title": "A Comparative Study of the Use of Visual Communicative Signals in Interactions Between Dogs (Canis familiaris) and Humans and Cats (Felis catus) and Humans.",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 331 次",
+   "first_author": "Ádám Miklósi",
+   "journal": "Journal of comparative psychology",
+   "year": 2005,
+   "pmid": "15982161",
+   "doi": "10.1037/0735-7036.119.2.179"
+  },
+  {
+   "title": "Dogs recall their owner's face upon hearing the owner's voice",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 225 次",
+   "first_author": "Ikuma Adachi",
+   "journal": "Animal Cognition",
+   "year": 2006,
+   "pmid": "16802145",
+   "doi": "10.1007/s10071-006-0025-8"
+  },
+  {
+   "title": "Sociality in cats: A comparative review",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 182 次",
+   "first_author": "John W.S. Bradshaw",
+   "journal": "Journal of Veterinary Behavior",
+   "year": 2015,
+   "doi": "10.1016/j.jveb.2015.09.004"
+  }
+ ],
+ "30948740": [
+  {
+   "title": "Word Learning in a Domestic Dog: Evidence for \"Fast Mapping\"",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 684 次",
+   "first_author": "Juliane Kaminski",
+   "journal": "Science",
+   "year": 2004,
+   "pmid": "15192233",
+   "doi": "10.1126/science.1097859"
+  },
+  {
+   "title": "From wild animals to domestic pets, an evolutionary view of domestication",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 640 次",
+   "first_author": "Carlos A. Driscoll",
+   "journal": "Proceedings of the National Academy of Sciences",
+   "year": 2009,
+   "pmid": "19528637",
+   "doi": "10.1073/pnas.0901586106"
+  },
+  {
+   "title": "Domestic dogs (Canis familiaris) are sensitive to the attentional state of humans.",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 339 次",
+   "first_author": "Josep Call",
+   "journal": "Journal of comparative psychology",
+   "year": 2003,
+   "pmid": "14498801",
+   "doi": "10.1037/0735-7036.117.3.257"
+  },
+  {
+   "title": "What did domestication do to dogs? A new account of dogs' sensitivity to human actions",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 336 次",
+   "first_author": "Monique A. R. Udell",
+   "journal": "Biological reviews/Biological reviews of the Cambridge Philosophical Society",
+   "year": 2009,
+   "pmid": "19961472",
+   "doi": "10.1111/j.1469-185x.2009.00104.x"
+  },
+  {
+   "title": "A Comparative Study of the Use of Visual Communicative Signals in Interactions Between Dogs (Canis familiaris) and Humans and Cats (Felis catus) and Humans.",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 331 次",
+   "first_author": "Ádám Miklósi",
+   "journal": "Journal of comparative psychology",
+   "year": 2005,
+   "pmid": "15982161",
+   "doi": "10.1037/0735-7036.119.2.179"
+  }
+ ],
+ "30451613": [
+  {
+   "pmid": "3616607",
+   "doi": "10.1126/science.3616607",
+   "title": "Myocardial failure in cats associated with low plasma taurine: a reversible cardiomyopathy.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Pion PD",
+   "journal": "Science (New York, N.Y.)",
+   "year": 1987
+  },
+  {
+   "title": "AAHA Nutritional Assessment Guidelines for Dogs and Cats",
+   "reason": "库外；本文引用；标题含指南/共识/系统综述/随机对照字样；OpenAlex 被引 293 次",
+   "first_author": "Kimberly Baldwin",
+   "journal": "Journal of the American Animal Hospital Association",
+   "year": 2010,
+   "pmid": "20610704",
+   "doi": "10.5326/0460285"
+  },
+  {
+   "title": "Cachexia and Sarcopenia: Emerging Syndromes of Importance in Dogs and Cats",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 209 次",
+   "first_author": "Lisa M. Freeman",
+   "journal": "Journal of Veterinary Internal Medicine",
+   "year": 2011,
+   "pmid": "22111652",
+   "doi": "10.1111/j.1939-1676.2011.00838.x"
+  },
+  {
+   "title": "Results of the Multicenter Spaniel Trial (MUST): Taurine-and Carnitine-Responsive Dilated Cardiomyopathy in American Cocker Spaniels With Decreased Plasma Taurine Concentration",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 152 次",
+   "first_author": "Mark D. Kittleson",
+   "journal": "Journal of Veterinary Internal Medicine",
+   "year": 1997,
+   "pmid": "9298474",
+   "doi": "10.1111/j.1939-1676.1997.tb00092.x"
+  },
+  {
+   "title": "Taurine deficiency in dogs with dilated cardiomyopathy: 12 cases (1997–2001)",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 100 次",
+   "first_author": "Andrea J. Fascetti",
+   "journal": "Journal of the American Veterinary Medical Association",
+   "year": 2003,
+   "pmid": "14584743",
+   "doi": "10.2460/javma.2003.223.1137"
+  }
+ ],
+ "29538681": [
+  {
+   "pmid": "25883356",
+   "doi": "10.1126/science.1261022",
+   "title": "Social evolution. Oxytocin-gaze positive loop and the coevolution of human-dog bonds.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Nagasawa M",
+   "journal": "Science (New York, N.Y.)",
+   "year": 2015
+  },
+  {
+   "title": "Genome sequence, comparative analysis and haplotype structure of the domestic dog",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 2572 次",
+   "first_author": "Broad Sequencing Platform members",
+   "journal": "Nature",
+   "year": 2005,
+   "pmid": "16341006",
+   "doi": "10.1038/nature04338"
+  },
+  {
+   "title": "Multiple and Ancient Origins of the Domestic Dog",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 1092 次",
+   "first_author": "Carles Vilà",
+   "journal": "Science",
+   "year": 1997,
+   "pmid": "9180076",
+   "doi": "10.1126/science.276.5319.1687"
+  },
+  {
+   "title": "The Domestication of Social Cognition in Dogs",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 1048 次",
+   "first_author": "Brian A. Hare",
+   "journal": "Science",
+   "year": 2002,
+   "pmid": "12446914",
+   "doi": "10.1126/science.1072702"
+  },
+  {
+   "title": "The Domestic dog: its evolution, behaviour, and interactions with people",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 738 次",
+   "first_author": "Williams",
+   "journal": "Choice Reviews Online",
+   "year": 1996,
+   "doi": "10.5860/choice.33-5715"
+  }
+ ],
+ "29778200": [
+  {
+   "pmid": "32441826",
+   "doi": "10.1111/jvim.15780",
+   "title": "Antiviral treatment using the adenosine nucleoside analogue GS-441524 in cats with clinically diagnosed neurological feline infectious peritonitis.",
+   "reason": "本库已收录；OpenAlex 相关文献",
+   "first_author": "Dickinson PJ",
+   "journal": "Journal of veterinary internal medicine",
+   "year": 2020
+  },
+  {
+   "pmid": "30755068",
+   "doi": "10.1177/1098612x19825701",
+   "title": "Efficacy and safety of the nucleoside analog GS-441524 for treatment of cats with naturally occurring feline infectious peritonitis.",
+   "reason": "本库已收录；OpenAlex 相关文献",
+   "first_author": "Pedersen NC",
+   "journal": "Journal of feline medicine and surgery",
+   "year": 2019
+  },
+  {
+   "pmid": "28901812",
+   "doi": "10.1177/1098612x17729626",
+   "title": "Efficacy of a 3C-like protease inhibitor in treating various forms of acquired feline infectious peritonitis.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Pedersen NC",
+   "journal": "Journal of feline medicine and surgery",
+   "year": 2018
+  },
+  {
+   "title": "Randomized, Placebo Controlled Study of the Effect of Propentofylline on Survival Time and Quality of Life of Cats with Feline Infectious Peritonitis",
+   "reason": "库外；本文引用；标题含指南/共识/系统综述/随机对照字样；OpenAlex 被引 59 次",
+   "first_author": "Y. Fischer",
+   "journal": "Journal of Veterinary Internal Medicine",
+   "year": 2011,
+   "pmid": "22092616",
+   "doi": "10.1111/j.1939-1676.2011.00806.x"
+  },
+  {
+   "title": "Feline Infectious Peritonitis",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 272 次",
+   "first_author": "Anja Kipar",
+   "journal": "Veterinary Pathology",
+   "year": 2014,
+   "pmid": "24569616",
+   "doi": "10.1177/0300985814522077"
+  }
+ ],
+ "29326623": [
+  {
+   "title": "The Near Eastern Origin of Cat Domestication",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 573 次",
+   "first_author": "Carlos A. Driscoll",
+   "journal": "Science",
+   "year": 2007,
+   "pmid": "17600185",
+   "doi": "10.1126/science.1139518"
+  },
+  {
+   "title": "Oxytocin Receptor Gene Polymorphisms Are Associated with Human Directed Social Behavior in Dogs (Canis familiaris)",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 138 次",
+   "first_author": "Anna Kis",
+   "journal": "PLoS ONE",
+   "year": 2014,
+   "pmid": "24454713",
+   "doi": "10.1371/journal.pone.0083993"
+  },
+  {
+   "title": "Feral cats: their role in the population dynamics of Felis catus",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 100 次",
+   "first_author": "John W.S. Bradshaw",
+   "journal": "Applied Animal Behaviour Science",
+   "year": 1999,
+   "doi": "10.1016/s0168-1591(99)00086-6"
+  },
+  {
+   "title": "Behavioral associations with breed, coat type, and eye color in single-breed cats",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 66 次",
+   "first_author": "Jacqueline Wilhelmy",
+   "journal": "Journal of Veterinary Behavior",
+   "year": 2016,
+   "doi": "10.1016/j.jveb.2016.03.009"
+  },
+  {
+   "title": "Extent of Linkage Disequilibrium in the Domestic Cat, Felis silvestris catus, and Its Breeds",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 62 次",
+   "first_author": "Hasan Alhaddad",
+   "journal": "PLoS ONE",
+   "year": 2013,
+   "pmid": "23308248",
+   "doi": "10.1371/journal.pone.0053537"
+  }
+ ],
+ "28460795": [
+  {
+   "pmid": "26265631",
+   "doi": "10.1016/j.prevetmed.2015.07.011",
+   "title": "Risk factors identified for owner-reported feline obesity at around one year of age: Dry diet and indoor lifestyle.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Rowe E",
+   "journal": "Preventive veterinary medicine",
+   "year": 2015
+  },
+  {
+   "title": "Development and validation of a body condition score system for dogs",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 1078 次",
+   "first_author": "Dorothy P. Laflamme",
+   "journal": "Canine practice",
+   "year": 1997,
+   "doi": ""
+  },
+  {
+   "title": "The Growing Problem of Obesity in Dogs and Cats",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 860 次",
+   "first_author": "Alexander J. German",
+   "journal": "Journal of Nutrition",
+   "year": 2006,
+   "pmid": "16772464",
+   "doi": "10.1093/jn/136.7.1940s"
+  },
+  {
+   "title": "Development and validation of a body condition score system for cats: a clinical tool",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 509 次",
+   "first_author": "Dorothy P. Laflamme",
+   "journal": "Feline Practice",
+   "year": 1997,
+   "doi": ""
+  },
+  {
+   "title": "Prevalence and risk factors for obesity in adult cats from private US veterinary practices.",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 457 次",
+   "first_author": "Erik Lund",
+   "journal": "The journal of applied research in veterinary medicine",
+   "year": 2005,
+   "doi": ""
+  }
+ ],
+ "26915425": [
+  {
+   "pmid": "25883356",
+   "doi": "10.1126/science.1261022",
+   "title": "Social evolution. Oxytocin-gaze positive loop and the coevolution of human-dog bonds.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Nagasawa M",
+   "journal": "Science (New York, N.Y.)",
+   "year": 2015
+  },
+  {
+   "title": "Multiple and Ancient Origins of the Domestic Dog",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 1092 次",
+   "first_author": "Carles Vilà",
+   "journal": "Science",
+   "year": 1997,
+   "pmid": "9180076",
+   "doi": "10.1126/science.276.5319.1687"
+  },
+  {
+   "title": "The Domestication of Social Cognition in Dogs",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 1048 次",
+   "first_author": "Brian A. Hare",
+   "journal": "Science",
+   "year": 2002,
+   "pmid": "12446914",
+   "doi": "10.1126/science.1072702"
+  },
+  {
+   "title": "Use of experimenter-given cues in dogs",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 428 次",
+   "first_author": "Ádám Miklósi",
+   "journal": "Animal Cognition",
+   "year": 1998,
+   "pmid": "24399275",
+   "doi": "10.1007/s100710050016"
+  },
+  {
+   "title": "Dog's gaze at its owner increases owner's urinary oxytocin during social interaction",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 375 次",
+   "first_author": "Miho Nagasawa",
+   "journal": "Hormones and Behavior",
+   "year": 2008,
+   "pmid": "19124024",
+   "doi": "10.1016/j.yhbeh.2008.12.002"
+  }
+ ],
+ "26776594": [
+  {
+   "pmid": "16236761",
+   "doi": "10.1093/hmg/ddi386",
+   "title": "A cardiac myosin binding protein C mutation in the Maine Coon cat with familial hypertrophic cardiomyopathy.",
+   "reason": "本库已收录；本文引用",
+   "first_author": "Meurs KM",
+   "journal": "Human molecular genetics",
+   "year": 2005
+  },
+  {
+   "title": "Familial Hypertrophic Cardiomyopathy in Maine Coon Cats",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 246 次",
+   "first_author": "Mark D. Kittleson",
+   "journal": "Circulation",
+   "year": 1999,
+   "pmid": "10377082",
+   "doi": "10.1161/01.cir.99.24.3172"
+  },
+  {
+   "title": "Genome-wide association identifies a deletion in the 3′ untranslated region of Striatin in a canine model of arrhythmogenic right ventricular cardiomyopathy",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 137 次",
+   "first_author": "Kathryn M. Meurs",
+   "journal": "Human Genetics",
+   "year": 2010,
+   "pmid": "20596727",
+   "doi": "10.1007/s00439-010-0855-y"
+  },
+  {
+   "title": "Comparative Echocardiographic and Clinical Features of Hypertrophic Cardiomyopathy in 5 Breeds of Cats: A Retrospective Analysis of 344 Cases (2001–2011)",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 88 次",
+   "first_author": "Emilie Tréhiou-Sechi",
+   "journal": "Journal of Veterinary Internal Medicine",
+   "year": 2012,
+   "pmid": "22443341",
+   "doi": "10.1111/j.1939-1676.2012.00906.x"
+  },
+  {
+   "title": "Feline Hypertrophic Cardiomyopathy: An Update",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 74 次",
+   "first_author": "Jonathan A. Abbott",
+   "journal": "Veterinary Clinics of North America Small Animal Practice",
+   "year": 2010,
+   "pmid": "20610019",
+   "doi": "10.1016/j.cvsm.2010.04.004"
+  }
+ ],
+ "25883356": [
+  {
+   "title": "Human-like social skills in dogs?",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 967 次",
+   "first_author": "Brian A. Hare",
+   "journal": "Trends in Cognitive Sciences",
+   "year": 2005,
+   "pmid": "16061417",
+   "doi": "10.1016/j.tics.2005.07.003"
+  },
+  {
+   "title": "Neurophysiological Correlates of Affiliative Behaviour between Humans and Dogs",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 742 次",
+   "first_author": "Johannes S. J. Odendaal",
+   "journal": "The Veterinary Journal",
+   "year": 2003,
+   "pmid": "12672376",
+   "doi": "10.1016/s1090-0233(02)00237-x"
+  },
+  {
+   "title": "Dog's gaze at its owner increases owner's urinary oxytocin during social interaction",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 375 次",
+   "first_author": "Miho Nagasawa",
+   "journal": "Hormones and Behavior",
+   "year": 2008,
+   "pmid": "19124024",
+   "doi": "10.1016/j.yhbeh.2008.12.002"
+  },
+  {
+   "title": "Dogs recognize dog and human emotions",
+   "reason": "库外；引用了本文；犬猫研究，按被引排序；OpenAlex 被引 347 次",
+   "first_author": "Natalia de Souza Albuquerque",
+   "journal": "Biology Letters",
+   "year": 2016,
+   "pmid": "26763220",
+   "doi": "10.1098/rsbl.2015.0883"
+  },
+  {
+   "title": "Attachment to humans: a comparative study on hand-reared wolves and differently socialized dog puppies",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 289 次",
+   "first_author": "József Topál",
+   "journal": "Animal Behaviour",
+   "year": 2005,
+   "doi": "10.1016/j.anbehav.2005.03.025"
+  }
+ ],
+ "23522175": [
+  {
+   "title": "2025 iCatCare consensus guidelines on the diagnosis and management of diabetes mellitus in cats",
+   "reason": "库外；引用了本文；标题含指南/共识/系统综述/随机对照字样；OpenAlex 被引 9 次",
+   "first_author": "Samantha S Taylor",
+   "journal": "Journal of Feline Medicine and Surgery",
+   "year": 2025,
+   "pmid": "41224734",
+   "doi": "10.1177/1098612x251399103"
+  },
+  {
+   "title": "Canine and Feline Endocrinology and Reproduction",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 1392 次",
+   "first_author": "Mark E. Peterson",
+   "journal": "Journal of Veterinary Internal Medicine",
+   "year": 1988,
+   "doi": "10.1111/j.1939-1676.1988.tb02815.x"
+  },
+  {
+   "title": "Canine and Feline Endocrinology and Reproduction",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 892 次",
+   "first_author": "Edward C. Feldman",
+   "journal": "",
+   "year": 1987,
+   "doi": ""
+  },
+  {
+   "title": "Canine and Feline Diabetes Mellitus: Nature or Nurture?",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 288 次",
+   "first_author": "Jacquie S Rand",
+   "journal": "Journal of Nutrition",
+   "year": 2004,
+   "pmid": "15284406",
+   "doi": "10.1093/jn/134.8.2072s"
+  },
+  {
+   "title": "Feline Intracranial Neoplasia: Retrospective Review of 160 Cases (1985–2001)",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 260 次",
+   "first_author": "Mark T. Troxel",
+   "journal": "Journal of Veterinary Internal Medicine",
+   "year": 2003,
+   "pmid": "14658723",
+   "doi": "10.1111/j.1939-1676.2003.tb02525.x"
+  }
+ ],
+ "16236761": [
+  {
+   "title": "Familial Hypertrophic Cardiomyopathy in Maine Coon Cats",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 246 次",
+   "first_author": "Mark D. Kittleson",
+   "journal": "Circulation",
+   "year": 1999,
+   "pmid": "10377082",
+   "doi": "10.1161/01.cir.99.24.3172"
+  },
+  {
+   "title": "Electrophoretic separation and quantitation of cardiac myosin heavy chain isoforms in eight mammalian species",
+   "reason": "库外；本文引用；犬猫研究，按被引排序；OpenAlex 被引 155 次",
+   "first_author": "Peter J. Reiser",
+   "journal": "American Journal of Physiology-Heart and Circulatory Physiology",
+   "year": 1998,
+   "pmid": "9530220",
+   "doi": "10.1152/ajpheart.1998.274.3.h1048"
+  },
+  {
+   "title": "Analysis of 8 Sarcomeric Candidate Genes for Feline Hypertrophic Cardiomyopathy Mutations in Cats with Hypertrophic Cardiomyopathy",
+   "reason": "库外；OpenAlex 相关文献；犬猫研究，按被引排序；OpenAlex 被引 43 次",
+   "first_author": "Kathryn M. Meurs",
+   "journal": "Journal of Veterinary Internal Medicine",
+   "year": 2009,
+   "pmid": "19566849",
+   "doi": "10.1111/j.1939-1676.2009.0341.x"
+  },
+  {
+   "title": "Hypertrophic cardiomyopathy in young Maine Coon cats caused by the p.A31P cMyBP-C mutation - the clinical significance of having the mutation",
+   "reason": "库外；OpenAlex 相关文献；犬猫研究，按被引排序；OpenAlex 被引 38 次",
+   "first_author": "M.T. Nyberg Godiksen",
+   "journal": "Acta veterinaria Scandinavica",
+   "year": 2011,
+   "pmid": "21306647",
+   "doi": "10.1186/1751-0147-53-7"
+  },
+  {
+   "title": "Prevalence of cardiac myosin-binding protein C3 mutations in Maine Coon cats with hypertrophic cardiomyopathy",
+   "reason": "库外；OpenAlex 相关文献；犬猫研究，按被引排序；OpenAlex 被引 8 次",
+   "first_author": "Pratch Sukumolanan",
+   "journal": "Veterinary World",
+   "year": 2022,
+   "pmid": "35400937",
+   "doi": "10.14202/vetworld.2022.502-508"
+  }
+ ]
+}

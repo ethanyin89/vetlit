@@ -102,6 +102,19 @@ for k,r in json.load(open(os.path.join(ROOT,'data','v5','cebm_fill.json'),encodi
     if not p: continue
     MERGE['cebm']+=1; p['cebm_level']=r['cebm_level']
     p['appraisal_note']=re.sub(r'CEBM 等级未核',f'CEBM 等级 {r["cebm_level"]}',p.get('appraisal_note') or '')
+MERGE['cebm_r2']=0
+for k,r in json.load(open(os.path.join(ROOT,'data','v5','cebm_fill_r2.json'),encoding='utf-8'))['records'].items():
+    p=matcher({'pmid':k,'id':k})
+    if not p: continue
+    MERGE['cebm_r2']+=1
+    if r.get('cebm_level_v6'): p['cebm_level']=r['cebm_level_v6']
+    if r.get('cebm_basis'): p['cebm_basis']=r['cebm_basis']
+MERGE['ovr']=0
+for k,r in json.load(open(os.path.join(ROOT,'data','v5','overrides.json'),encoding='utf-8')).items():
+    if k.startswith('_'): continue
+    p=matcher({'pmid':k,'id':k})
+    if not p: continue
+    MERGE['ovr']+=1; p.update(r)
 MERGE['amstar']=0
 AM=json.load(open(os.path.join(ROOT,'data','v5','amstar2_adjudicated.json'),encoding='utf-8'))
 JA={'Yes':'是','Partial Yes':'部分是','No':'否'}; OA={'Critically low':'极低','Low':'低','Moderate':'中','High':'高'}
@@ -343,6 +356,7 @@ def paper(p):
         kr=sec_get(S,'关键结果'); kr=mdc(kr) if kr and not re.fullmatch(r'[\s—\-|指标结果统计:]*',kr) else (f'<p>{E_(clean(p["results"]))}</p>' if has(p.get('results')) else '')
     _ts=X.text_source(p.get('pmid'))
     if _ts: p['reading_depth']=_ts
+    if p.get('text_source_force'): p['reading_depth']=p['text_source_force']
     absonly=p.get('reading_depth')!='全文'
     if kr and absonly: kr+='<p class="note">本页数字来自摘要，未经全文核对</p>'
     m=dict(p.get('methods') or {}); RES=p.get('res') or {}
@@ -388,7 +402,7 @@ def paper(p):
     elif hi: why1=f'{tool}：{len(hi)}/{len(it)} 项判为高风险或不满足（{"、".join(hi[:3])}）'
     elif unk*2>=len(it): why1=f'{tool}：{unk}/{len(it)} 项信息不足，无法判断，不等于高风险'
     else: why1=f'{tool}：{len(it)} 项中 {unk} 项信息不足，其余未见高风险'
-    ev=f'<table class="kv"><tr><th>Oxford CEBM 2011</th><td>{E_(clean(lv or "未分级"))}{("（"+E_(clean(p["cebm_basis"]))+"）") if has(p.get("cebm_basis")) else ""}</td></tr><tr><th>偏倚风险</th><td>{E_(clean(why1))}</td></tr>'+''.join(f'<tr><th>{k}</th><td>{E_(clean(v))}</td></tr>' for k,v in [('报告规范',p.get('reporting_checklist')),('指南推荐强度（原文）',p.get('guideline_recommendation') if p.get('design_category')=='指南/共识' and not p.get('gs') else '')] if has(v))+'</table>'
+    ev=f'<table class="kv"><tr><th>Oxford CEBM 2011</th><td>{E_(clean(lv or "未分级"))}{("（"+E_(clean(p["cebm_basis"]))+"）") if has(p.get("cebm_basis")) else ""}{("<br>设计说明："+E_(p["cebm_note"])) if p.get("cebm_note") else ""}</td></tr><tr><th>偏倚风险</th><td>{E_(clean(why1))}</td></tr>'+''.join(f'<tr><th>{k}</th><td>{E_(clean(v))}</td></tr>' for k,v in [('报告规范',p.get('reporting_checklist')),('指南推荐强度（原文）',p.get('guideline_recommendation') if p.get('design_category')=='指南/共识' and not p.get('gs') else '')] if has(v))+'</table>'
     if p.get('gs'):
         g=p['gs']; segs=[x.strip() for x in re.split(r'\s*(?:\|\||…)\s*',g.get('quote') or '') if x.strip()]
         src='引自 2022 更新版' if str(p.get('pmid'))=='29314873' else (g.get('location') or '')
@@ -427,10 +441,10 @@ def paper(p):
     body+=extra
     terms=sec_get(S,'关键术语')
     if terms: body+=f'<details class="fold"><summary>关键术语中英对照</summary>{mdc(terms)}</details>'
-    _tr=X.translation(p.get('pmid'),p.get('license')) if X.ccby(p.get('license')) else None
+    _tr=X.translation(p.get('pmid'),p.get('license')) if X.can_translate(p) else None
     if _tr:
         orig=f'<p>许可 {E_(str(p.get("license","")).upper())}。<a class="btn" href="bilingual/">阅读中英对照全文 →</a></p><p class="note">AI 翻译，未经人工审校</p>'
-    elif X.ccby(p.get('license')):
+    elif X.can_translate(p):
         orig=f'<p>许可 {E_(str(p.get("license","")).upper())} 允许翻译，中英对照尚未生成。{f'<a href="https://doi.org/{E_(p["doi"])}">阅读原文 →</a>' if p.get('doi') else ''}</p>'
     else:
         orig=f'<p>许可{("（"+E_(str(p["license"]))+"）") if has(p.get("license")) else ""}不允许全文翻译转载，本站只提供速读与术语对照。{f'<a href="https://doi.org/{E_(p["doi"])}">阅读原文 →</a>' if p.get('doi') else ''}</p>'
@@ -481,7 +495,7 @@ def main():
             return t+('<p class="note">空白处仅据摘要，其余细节见原文</p>' if rep=='摘要未提及' else '<p class="note">空白处原文未报告</p>')
         h=re.sub(r'<table(?! class="kv")[^>]*>.*?</table>',coll2,h,flags=re.S)
         w(f'papers/{p["sid"]}/index.html',h)
-        _tr=X.translation(p.get('pmid'),p.get('license')) if X.ccby(p.get('license')) else None
+        _tr=X.translation(p.get('pmid'),p.get('license')) if X.can_translate(p) else None
         if _tr: w(f'papers/{p["sid"]}/bilingual/index.html',X.bilingual_page(p,_tr,page)); MERGE.setdefault('bi',0); MERGE['bi']+=1
     os.makedirs(os.path.join(OUT,'static'),exist_ok=True); shutil.copy(os.path.join(ROOT,'static','preview','v.css'),os.path.join(OUT,'static','v.css'))
     import collections; print('templates',collections.Counter((p.get('population_type') or 'natural') for p in P.values()))

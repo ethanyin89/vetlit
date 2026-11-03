@@ -1,0 +1,557 @@
+{
+ "rule": "排序规则（参照牛津循证医学中心 OCEBM 证据等级与 BMJ Best Practice 的做法）：先看研究类型，指南/共识 > 系统综述/Meta分析 > 随机对照试验 > 非随机对照试验 > 队列研究 > 病例对照 > 横断面 > 病例系列 > 叙述性综述 > 实验/基础研究；同一类型里，近 5 年（2021 年及以后）发表的排在前面；再按 OpenAlex 被引次数除以发表年数（年均被引）从高到低。研究类型取自本库标注；被引数据于 2026-11-03 抓取。每个主题列前 3 篇，不足 3 篇的有几篇列几篇。注意：OCEBM 本身不给指南分级，把指南放在最前是沿用临床速查工具的惯例；年均被引偏向老文献和开放获取文献，因此同类最新指南可能排在后面（如 FIP 的 ABCD 2026 指南）。",
+ "topics": [
+  {
+   "topic": "behavior",
+   "topic_zh": "行为医学",
+   "items": [
+    {
+     "pmid": "23422366",
+     "reason": "指南/共识；2013 年发表；OpenAlex 被引 327 次，年均 23.36 次；本主题第 1 名",
+     "title": "AAFP and ISFM feline environmental needs guidelines.",
+     "year": "2013",
+     "design": "指南/共识",
+     "reason_en": "tier 0 (guideline/consensus); older than 5 years; 327 OpenAlex citations = 23.36/yr since 2013; library verified=partial"
+    },
+    {
+     "pmid": "32139728",
+     "reason": "横断面研究；2020 年发表；OpenAlex 被引 182 次，年均 26.0 次；本主题第 2 名",
+     "title": "Prevalence, comorbidity, and breed differences in canine anxiety in 13,700 Finnish pet dogs.",
+     "year": "2020",
+     "design": "横断面研究",
+     "reason_en": "tier 6 (cross-sectional); older than 5 years; 182 OpenAlex citations = 26.0/yr since 2020; library verified=partial"
+    },
+    {
+     "pmid": "20005753",
+     "reason": "横断面研究；2010 年发表；OpenAlex 被引 165 次，年均 9.71 次；本主题第 3 名",
+     "title": "Under diagnosis of canine cognitive dysfunction: a cross-sectional survey of older companion dogs.",
+     "year": "2010",
+     "design": "横断面研究",
+     "reason_en": "tier 6 (cross-sectional); older than 5 years; 165 OpenAlex citations = 9.71/yr since 2010; library verified=partial"
+    }
+   ]
+  },
+  {
+   "topic": "cardiology",
+   "topic_zh": "心脏病学",
+   "items": [
+    {
+     "pmid": "30974015",
+     "reason": "指南/共识；2019 年发表；OpenAlex 被引 842 次，年均 105.25 次；本主题第 1 名",
+     "title": "ACVIM consensus guidelines for the diagnosis and treatment of myxomatous mitral valve disease in dogs.",
+     "year": "2019",
+     "design": "指南/共识",
+     "reason_en": "tier 0 (guideline/consensus); older than 5 years; 842 OpenAlex citations = 105.25/yr since 2019; library verified=partial"
+    },
+    {
+     "pmid": "30353952",
+     "reason": "指南/共识；2018 年发表；OpenAlex 被引 608 次，年均 67.56 次；本主题第 2 名",
+     "title": "ACVIM consensus statement: Guidelines for the identification, evaluation, and management of systemic hypertension in dogs and cats.",
+     "year": "2018",
+     "design": "指南/共识",
+     "reason_en": "tier 0 (guideline/consensus); older than 5 years; 608 OpenAlex citations = 67.56/yr since 2018"
+    },
+    {
+     "pmid": "32243654",
+     "reason": "指南/共识；2020 年发表；OpenAlex 被引 436 次，年均 62.29 次；本主题第 3 名",
+     "title": "ACVIM consensus statement guidelines for the classification, diagnosis, and management of cardiomyopathies in cats.",
+     "year": "2020",
+     "design": "指南/共识",
+     "reason_en": "tier 0 (guideline/consensus); older than 5 years; 436 OpenAlex citations = 62.29/yr since 2020; library verified=partial"
+    }
+   ]
+  },
+  {
+   "topic": "cardiomyopathy",
+   "topic_zh": "心肌病",
+   "items": [
+    {
+     "pmid": "28965673",
+     "reason": "指南/共识；2017 年发表；OpenAlex 被引 124 次，年均 12.4 次；本主题第 1 名",
+     "title": "European Society of Veterinary Cardiology screening guidelines for dilated cardiomyopathy in Doberman Pinschers.",
+     "year": "2017",
+     "design": "指南/共识",
+     "reason_en": "tier 0 (guideline/consensus); older than 5 years; 124 OpenAlex citations = 12.4/yr since 2017; library verified=partial"
+    },
+    {
+     "pmid": "26776588",
+     "reason": "随机对照试验；2015 年发表；OpenAlex 被引 138 次，年均 11.5 次；本主题第 2 名",
+     "title": "Secondary prevention of cardiogenic arterial thromboembolism in the cat: The double-blind, randomized, positive-controlled feline arterial thromboembolism; clopidogrel vs. aspirin trial (FAT CAT).",
+     "year": "2015",
+     "design": "随机对照试验",
+     "reason_en": "tier 2 (RCT); older than 5 years; 138 OpenAlex citations = 11.5/yr since 2015; library verified=partial"
+    },
+    {
+     "pmid": "23078651",
+     "reason": "随机对照试验；2012 年发表；OpenAlex 被引 153 次，年均 10.2 次；本主题第 3 名",
+     "title": "Efficacy of pimobendan in the prevention of congestive heart failure or sudden death in Doberman Pinschers with preclinical dilated cardiomyopathy (the PROTECT Study).",
+     "year": "2012",
+     "design": "随机对照试验",
+     "reason_en": "tier 2 (RCT); older than 5 years; 153 OpenAlex citations = 10.2/yr since 2012"
+    }
+   ]
+  },
+  {
+   "topic": "ckd",
+   "topic_zh": "慢性肾病",
+   "items": [
+    {
+     "pmid": "x-international-renal-interest-society-2026-iris-staging-of-ckd-modified-2026",
+     "reason": "指南/共识；2026 年发表（近 5 年）；OpenAlex 被引 0 次，年均 0.0 次；本主题第 1 名",
+     "title": "IRIS Staging of CKD (modified 2026)",
+     "year": "2026",
+     "design": "指南/共识",
+     "reason_en": "tier 0 (guideline/consensus); published within last 5 years (≥2021); 0 OpenAlex citations = 0.0/yr since 2026; library verified=partial"
+    },
+    {
+     "pmid": "26936494",
+     "reason": "指南/共识；2016 年发表；OpenAlex 被引 215 次，年均 19.55 次；本主题第 2 名",
+     "title": "ISFM Consensus Guidelines on the Diagnosis and Management of Feline Chronic Kidney Disease.",
+     "year": "2016",
+     "design": "指南/共识",
+     "reason_en": "tier 0 (guideline/consensus); older than 5 years; 215 OpenAlex citations = 19.55/yr since 2016; library verified=partial"
+    },
+    {
+     "pmid": "15954557",
+     "reason": "指南/共识；2005 年发表；OpenAlex 被引 116 次，年均 5.27 次；本主题第 3 名",
+     "title": "Assessment and management of proteinuria in dogs and cats: 2004 ACVIM Forum Consensus Statement (small animal).",
+     "year": "2005",
+     "design": "指南/共识",
+     "reason_en": "tier 0 (guideline/consensus); older than 5 years; 116 OpenAlex citations = 5.27/yr since 2005; library verified=partial"
+    }
+   ]
+  },
+  {
+   "topic": "cognition",
+   "topic_zh": "认知与人宠关系",
+   "items": [
+    {
+     "pmid": "23422366",
+     "reason": "指南/共识；2013 年发表；OpenAlex 被引 327 次，年均 23.36 次；本主题第 1 名",
+     "title": "AAFP and ISFM feline environmental needs guidelines.",
+     "year": "2013",
+     "design": "指南/共识",
+     "reason_en": "tier 0 (guideline/consensus); older than 5 years; 327 OpenAlex citations = 23.36/yr since 2013; library verified=partial"
+    },
+    {
+     "pmid": "34758043",
+     "reason": "实验/基础研究；2021 年发表（近 5 年）；OpenAlex 被引 29 次，年均 4.83 次；本主题第 2 名",
+     "title": "Socio-spatial cognition in cats: Mentally mapping owner's location from voice.",
+     "year": "2021",
+     "design": "实验/基础研究",
+     "reason_en": "tier 9 (experimental/basic); published within last 5 years (≥2021); 29 OpenAlex citations = 4.83/yr since 2021; library verified=partial"
+    },
+    {
+     "pmid": "25883356",
+     "reason": "实验/基础研究；2015 年发表；OpenAlex 被引 753 次，年均 62.75 次；本主题第 3 名",
+     "title": "Social evolution. Oxytocin-gaze positive loop and the coevolution of human-dog bonds.",
+     "year": "2015",
+     "design": "实验/基础研究",
+     "reason_en": "tier 9 (experimental/basic); older than 5 years; 753 OpenAlex citations = 62.75/yr since 2015; library verified=partial"
+    }
+   ]
+  },
+  {
+   "topic": "cognitive_dysfunction",
+   "topic_zh": "认知功能障碍/焦虑",
+   "items": [
+    {
+     "pmid": "32139728",
+     "reason": "横断面研究；2020 年发表；OpenAlex 被引 182 次，年均 26.0 次；本主题第 1 名",
+     "title": "Prevalence, comorbidity, and breed differences in canine anxiety in 13,700 Finnish pet dogs.",
+     "year": "2020",
+     "design": "横断面研究",
+     "reason_en": "tier 6 (cross-sectional); older than 5 years; 182 OpenAlex citations = 26.0/yr since 2020; library verified=partial"
+    },
+    {
+     "pmid": "20005753",
+     "reason": "横断面研究；2010 年发表；OpenAlex 被引 165 次，年均 9.71 次；本主题第 2 名",
+     "title": "Under diagnosis of canine cognitive dysfunction: a cross-sectional survey of older companion dogs.",
+     "year": "2010",
+     "design": "横断面研究",
+     "reason_en": "tier 6 (cross-sectional); older than 5 years; 165 OpenAlex citations = 9.71/yr since 2010; library verified=partial"
+    }
+   ]
+  },
+  {
+   "topic": "diabetes",
+   "topic_zh": "糖尿病",
+   "items": [
+    {
+     "pmid": "29314873",
+     "reason": "指南/共识；2018 年发表；OpenAlex 被引 221 次，年均 24.56 次；本主题第 1 名",
+     "title": "2018 AAHA Diabetes Management Guidelines for Dogs and Cats.",
+     "year": "2018",
+     "design": "指南/共识",
+     "reason_en": "tier 0 (guideline/consensus); older than 5 years; 221 OpenAlex citations = 24.56/yr since 2018; library verified=partial"
+    },
+    {
+     "pmid": "25701862",
+     "reason": "指南/共识；2015 年发表；OpenAlex 被引 131 次，年均 10.92 次；本主题第 2 名",
+     "title": "ISFM consensus guidelines on the practical management of diabetes mellitus in cats.",
+     "year": "2015",
+     "design": "指南/共识",
+     "reason_en": "tier 0 (guideline/consensus); older than 5 years; 131 OpenAlex citations = 10.92/yr since 2015; library verified=partial"
+    },
+    {
+     "pmid": "40941356",
+     "reason": "系统综述/Meta分析；2025 年发表（近 5 年）；OpenAlex 被引 1 次，年均 0.5 次；本主题第 3 名",
+     "title": "Efficacy and Safety of Non-Insulin Antidiabetic Drugs in Cats: A Systematic Review.",
+     "year": "2025",
+     "design": "系统综述/Meta分析",
+     "reason_en": "tier 1 (systematic review/meta-analysis); published within last 5 years (≥2021); 1 OpenAlex citations = 0.5/yr since 2025; library verified=partial"
+    }
+   ]
+  },
+  {
+   "topic": "diet_dcm",
+   "topic_zh": "饮食相关扩张型心肌病",
+   "items": [
+    {
+     "pmid": "30797439",
+     "reason": "横断面研究；2019 年发表；OpenAlex 被引 69 次，年均 8.62 次；本主题第 1 名",
+     "title": "Echocardiographic phenotype of canine dilated cardiomyopathy differs based on diet type.",
+     "year": "2019",
+     "design": "横断面研究",
+     "reason_en": "tier 6 (cross-sectional); older than 5 years; 69 OpenAlex citations = 8.62/yr since 2019; library verified=partial"
+    },
+    {
+     "pmid": "30543707",
+     "reason": "病例系列（无对照）；2018 年发表；OpenAlex 被引 101 次，年均 11.22 次；本主题第 2 名",
+     "title": "Taurine deficiency and dilated cardiomyopathy in golden retrievers fed commercial diets.",
+     "year": "2018",
+     "design": "病例系列（无对照）",
+     "reason_en": "tier 7 (case series); older than 5 years; 101 OpenAlex citations = 11.22/yr since 2018; library verified=partial"
+    },
+    {
+     "pmid": "30451613",
+     "reason": "叙述性综述；2018 年发表；OpenAlex 被引 67 次，年均 7.44 次；本主题第 3 名",
+     "title": "Diet-associated dilated cardiomyopathy in dogs: what do we know?",
+     "year": "2018",
+     "design": "叙述性综述",
+     "reason_en": "tier 8 (narrative review); older than 5 years; 67 OpenAlex citations = 7.44/yr since 2018; library verified=partial"
+    }
+   ]
+  },
+  {
+   "topic": "endocrinology",
+   "topic_zh": "内分泌学",
+   "items": [
+    {
+     "pmid": "29314873",
+     "reason": "指南/共识；2018 年发表；OpenAlex 被引 221 次，年均 24.56 次；本主题第 1 名",
+     "title": "2018 AAHA Diabetes Management Guidelines for Dogs and Cats.",
+     "year": "2018",
+     "design": "指南/共识",
+     "reason_en": "tier 0 (guideline/consensus); older than 5 years; 221 OpenAlex citations = 24.56/yr since 2018; library verified=partial"
+    },
+    {
+     "pmid": "25701862",
+     "reason": "指南/共识；2015 年发表；OpenAlex 被引 131 次，年均 10.92 次；本主题第 2 名",
+     "title": "ISFM consensus guidelines on the practical management of diabetes mellitus in cats.",
+     "year": "2015",
+     "design": "指南/共识",
+     "reason_en": "tier 0 (guideline/consensus); older than 5 years; 131 OpenAlex citations = 10.92/yr since 2015; library verified=partial"
+    },
+    {
+     "pmid": "27143042",
+     "reason": "指南/共识；2016 年发表；OpenAlex 被引 114 次，年均 10.36 次；本主题第 3 名",
+     "title": "2016 AAFP Guidelines for the Management of Feline Hyperthyroidism.",
+     "year": "2016",
+     "design": "指南/共识",
+     "reason_en": "tier 0 (guideline/consensus); older than 5 years; 114 OpenAlex citations = 10.36/yr since 2016; library verified=partial"
+    }
+   ]
+  },
+  {
+   "topic": "epidemiology",
+   "topic_zh": "流行病学与预防医学",
+   "items": [
+    {
+     "pmid": "23647231",
+     "reason": "队列研究；2013 年发表；OpenAlex 被引 200 次，年均 14.29 次；本主题第 1 名",
+     "title": "Chronic kidney disease in dogs in UK veterinary practices: prevalence, risk factors, and survival.",
+     "year": "2013",
+     "design": "队列研究",
+     "reason_en": "tier 4 (cohort); older than 5 years; 200 OpenAlex citations = 14.29/yr since 2013; library verified=partial"
+    },
+    {
+     "pmid": "25896026",
+     "reason": "队列研究；2015 年发表；OpenAlex 被引 71 次，年均 5.92 次；本主题第 2 名",
+     "title": "A current life table and causes of death for insured dogs in Japan.",
+     "year": "2015",
+     "design": "队列研究",
+     "reason_en": "tier 4 (cohort); older than 5 years; 71 OpenAlex citations = 5.92/yr since 2015; library verified=partial"
+    },
+    {
+     "pmid": "26581469",
+     "reason": "队列研究；2016 年发表；OpenAlex 被引 19 次，年均 1.73 次；本主题第 3 名",
+     "title": "Morbidity pattern by age, sex and breed in insured cats in Japan (2008-2013).",
+     "year": "2016",
+     "design": "队列研究",
+     "reason_en": "tier 4 (cohort); older than 5 years; 19 OpenAlex citations = 1.73/yr since 2016; library verified=partial"
+    }
+   ]
+  },
+  {
+   "topic": "fip",
+   "topic_zh": "猫传染性腹膜炎",
+   "items": [
+    {
+     "pmid": "37766254",
+     "reason": "指南/共识；2023 年发表（近 5 年）；OpenAlex 被引 118 次，年均 29.5 次；本主题第 1 名",
+     "title": "Feline Infectious Peritonitis: European Advisory Board on Cat Diseases Guidelines.",
+     "year": "2023",
+     "design": "指南/共识",
+     "reason_en": "tier 0 (guideline/consensus); published within last 5 years (≥2021); 118 OpenAlex citations = 29.5/yr since 2023; library verified=partial"
+    },
+    {
+     "pmid": "36002137",
+     "reason": "指南/共识；2022 年发表（近 5 年）；OpenAlex 被引 128 次，年均 25.6 次；本主题第 2 名",
+     "title": "2022 AAFP/EveryCat Feline Infectious Peritonitis Diagnosis Guidelines.",
+     "year": "2022",
+     "design": "指南/共识",
+     "reason_en": "tier 0 (guideline/consensus); published within last 5 years (≥2021); 128 OpenAlex citations = 25.6/yr since 2022; library verified=partial"
+    },
+    {
+     "pmid": "42043241",
+     "reason": "指南/共识；2026 年发表（近 5 年）；OpenAlex 被引 9 次，年均 9.0 次；本主题第 3 名",
+     "title": "Update on Treatment of Feline Infectious Peritonitis: European Advisory Board on Cat Diseases (ABCD) Guidelines.",
+     "year": "2026",
+     "design": "指南/共识",
+     "reason_en": "tier 0 (guideline/consensus); published within last 5 years (≥2021); 9 OpenAlex citations = 9.0/yr since 2026; library verified=partial"
+    }
+   ]
+  },
+  {
+   "topic": "hyperadrenocorticism",
+   "topic_zh": "肾上腺皮质功能亢进",
+   "items": [
+    {
+     "pmid": "24112317",
+     "reason": "指南/共识；2013 年发表；OpenAlex 被引 0 次，年均 0.0 次；本主题第 1 名",
+     "title": "Diagnosis of spontaneous canine hyperadrenocorticism: 2012 ACVIM consensus statement (small animal).",
+     "year": "2013",
+     "design": "指南/共识",
+     "reason_en": "tier 0 (guideline/consensus); older than 5 years; 0 OpenAlex citations = 0.0/yr since 2013; library verified=partial"
+    },
+    {
+     "pmid": "31554584",
+     "reason": "叙述性综述；2019 年发表；OpenAlex 被引 40 次，年均 5.0 次；本主题第 2 名",
+     "title": "Diagnosis of spontaneous hyperadrenocorticism in dogs. Part 2: Adrenal function testing and differentiating tests.",
+     "year": "2019",
+     "design": "叙述性综述",
+     "reason_en": "tier 8 (narrative review); older than 5 years; 40 OpenAlex citations = 5.0/yr since 2019; library verified=partial"
+    },
+    {
+     "pmid": "23522175",
+     "reason": "叙述性综述；2013 年发表；OpenAlex 被引 57 次，年均 4.07 次；本主题第 3 名",
+     "title": "Hypersomatotropism, acromegaly, and hyperadrenocorticism and feline diabetes mellitus.",
+     "year": "2013",
+     "design": "叙述性综述",
+     "reason_en": "tier 8 (narrative review); older than 5 years; 57 OpenAlex citations = 4.07/yr since 2013; library verified=partial"
+    }
+   ]
+  },
+  {
+   "topic": "hypertension",
+   "topic_zh": "系统性高血压",
+   "items": [
+    {
+     "pmid": "30353952",
+     "reason": "指南/共识；2018 年发表；OpenAlex 被引 608 次，年均 67.56 次；本主题第 1 名",
+     "title": "ACVIM consensus statement: Guidelines for the identification, evaluation, and management of systemic hypertension in dogs and cats.",
+     "year": "2018",
+     "design": "指南/共识",
+     "reason_en": "tier 0 (guideline/consensus); older than 5 years; 608 OpenAlex citations = 67.56/yr since 2018"
+    }
+   ]
+  },
+  {
+   "topic": "hyperthyroidism",
+   "topic_zh": "甲状腺功能亢进",
+   "items": [
+    {
+     "pmid": "27143042",
+     "reason": "指南/共识；2016 年发表；OpenAlex 被引 114 次，年均 10.36 次；本主题第 1 名",
+     "title": "2016 AAFP Guidelines for the Management of Feline Hyperthyroidism.",
+     "year": "2016",
+     "design": "指南/共识",
+     "reason_en": "tier 0 (guideline/consensus); older than 5 years; 114 OpenAlex citations = 10.36/yr since 2016; library verified=partial"
+    },
+    {
+     "pmid": "25673019",
+     "reason": "病例系列（无对照）；2016 年发表；OpenAlex 被引 55 次，年均 5.0 次；本主题第 2 名",
+     "title": "Prevalence and degree of thyroid pathology in hyperthyroid cats increases with disease duration: a cross-sectional analysis of 2096 cats referred for radioiodine therapy.",
+     "year": "2016",
+     "design": "病例系列（无对照）",
+     "reason_en": "tier 7 (case series); older than 5 years; 55 OpenAlex citations = 5.0/yr since 2016; library verified=partial"
+    }
+   ]
+  },
+  {
+   "topic": "infectious",
+   "topic_zh": "感染性疾病",
+   "items": [
+    {
+     "pmid": "37766254",
+     "reason": "指南/共识；2023 年发表（近 5 年）；OpenAlex 被引 118 次，年均 29.5 次；本主题第 1 名",
+     "title": "Feline Infectious Peritonitis: European Advisory Board on Cat Diseases Guidelines.",
+     "year": "2023",
+     "design": "指南/共识",
+     "reason_en": "tier 0 (guideline/consensus); published within last 5 years (≥2021); 118 OpenAlex citations = 29.5/yr since 2023; library verified=partial"
+    },
+    {
+     "pmid": "36002137",
+     "reason": "指南/共识；2022 年发表（近 5 年）；OpenAlex 被引 128 次，年均 25.6 次；本主题第 2 名",
+     "title": "2022 AAFP/EveryCat Feline Infectious Peritonitis Diagnosis Guidelines.",
+     "year": "2022",
+     "design": "指南/共识",
+     "reason_en": "tier 0 (guideline/consensus); published within last 5 years (≥2021); 128 OpenAlex citations = 25.6/yr since 2022; library verified=partial"
+    },
+    {
+     "pmid": "42043241",
+     "reason": "指南/共识；2026 年发表（近 5 年）；OpenAlex 被引 9 次，年均 9.0 次；本主题第 3 名",
+     "title": "Update on Treatment of Feline Infectious Peritonitis: European Advisory Board on Cat Diseases (ABCD) Guidelines.",
+     "year": "2026",
+     "design": "指南/共识",
+     "reason_en": "tier 0 (guideline/consensus); published within last 5 years (≥2021); 9 OpenAlex citations = 9.0/yr since 2026; library verified=partial"
+    }
+   ]
+  },
+  {
+   "topic": "mmvd",
+   "topic_zh": "黏液瘤样二尖瓣病",
+   "items": [
+    {
+     "pmid": "30974015",
+     "reason": "指南/共识；2019 年发表；OpenAlex 被引 842 次，年均 105.25 次；本主题第 1 名",
+     "title": "ACVIM consensus guidelines for the diagnosis and treatment of myxomatous mitral valve disease in dogs.",
+     "year": "2019",
+     "design": "指南/共识",
+     "reason_en": "tier 0 (guideline/consensus); older than 5 years; 842 OpenAlex citations = 105.25/yr since 2019; library verified=partial"
+    },
+    {
+     "pmid": "27678080",
+     "reason": "随机对照试验；2016 年发表；OpenAlex 被引 330 次，年均 30.0 次；本主题第 2 名",
+     "title": "Effect of Pimobendan in Dogs with Preclinical Myxomatous Mitral Valve Disease and Cardiomegaly: The EPIC Study-A Randomized Clinical Trial.",
+     "year": "2016",
+     "design": "随机对照试验",
+     "reason_en": "tier 2 (RCT); older than 5 years; 330 OpenAlex citations = 30.0/yr since 2016"
+    },
+    {
+     "pmid": "18638016",
+     "reason": "随机对照试验；2008 年发表；OpenAlex 被引 293 次，年均 15.42 次；本主题第 3 名",
+     "title": "Effect of pimobendan or benazepril hydrochloride on survival times in dogs with congestive heart failure caused by naturally occurring myxomatous mitral valve disease: the QUEST study.",
+     "year": "2008",
+     "design": "随机对照试验",
+     "reason_en": "tier 2 (RCT); older than 5 years; 293 OpenAlex citations = 15.42/yr since 2008; library verified=partial"
+    }
+   ]
+  },
+  {
+   "topic": "nephrology",
+   "topic_zh": "肾脏病学/泌尿学",
+   "items": [
+    {
+     "pmid": "x-international-renal-interest-society-2026-iris-staging-of-ckd-modified-2026",
+     "reason": "指南/共识；2026 年发表（近 5 年）；OpenAlex 被引 0 次，年均 0.0 次；本主题第 1 名",
+     "title": "IRIS Staging of CKD (modified 2026)",
+     "year": "2026",
+     "design": "指南/共识",
+     "reason_en": "tier 0 (guideline/consensus); published within last 5 years (≥2021); 0 OpenAlex citations = 0.0/yr since 2026; library verified=partial"
+    },
+    {
+     "pmid": "30353952",
+     "reason": "指南/共识；2018 年发表；OpenAlex 被引 608 次，年均 67.56 次；本主题第 2 名",
+     "title": "ACVIM consensus statement: Guidelines for the identification, evaluation, and management of systemic hypertension in dogs and cats.",
+     "year": "2018",
+     "design": "指南/共识",
+     "reason_en": "tier 0 (guideline/consensus); older than 5 years; 608 OpenAlex citations = 67.56/yr since 2018"
+    },
+    {
+     "pmid": "26936494",
+     "reason": "指南/共识；2016 年发表；OpenAlex 被引 215 次，年均 19.55 次；本主题第 3 名",
+     "title": "ISFM Consensus Guidelines on the Diagnosis and Management of Feline Chronic Kidney Disease.",
+     "year": "2016",
+     "design": "指南/共识",
+     "reason_en": "tier 0 (guideline/consensus); older than 5 years; 215 OpenAlex citations = 19.55/yr since 2016; library verified=partial"
+    }
+   ]
+  },
+  {
+   "topic": "neurology",
+   "topic_zh": "神经病学",
+   "items": [
+    {
+     "pmid": "32441826",
+     "reason": "病例系列（无对照）；2020 年发表；OpenAlex 被引 123 次，年均 17.57 次；本主题第 1 名",
+     "title": "Antiviral treatment using the adenosine nucleoside analogue GS-441524 in cats with clinically diagnosed neurological feline infectious peritonitis.",
+     "year": "2020",
+     "design": "病例系列（无对照）",
+     "reason_en": "tier 7 (case series); older than 5 years; 123 OpenAlex citations = 17.57/yr since 2020; library verified=partial"
+    }
+   ]
+  },
+  {
+   "topic": "nutrition",
+   "topic_zh": "营养学",
+   "items": [
+    {
+     "pmid": "21704901",
+     "reason": "指南/共识；2011 年发表；OpenAlex 被引 117 次，年均 7.31 次；本主题第 1 名",
+     "title": "WSAVA nutritional assessment guidelines.",
+     "year": "2011",
+     "design": "指南/共识",
+     "reason_en": "tier 0 (guideline/consensus); older than 5 years; 117 OpenAlex citations = 7.31/yr since 2011; library verified=partial"
+    },
+    {
+     "pmid": "39858209",
+     "reason": "系统综述/Meta分析；2025 年发表（近 5 年）；OpenAlex 被引 4 次，年均 2.0 次；本主题第 2 名",
+     "title": "Impact of Hypocaloric Diets on Weight Loss and Body Composition in Obese Dogs: A Meta-Analysis.",
+     "year": "2025",
+     "design": "系统综述/Meta分析",
+     "reason_en": "tier 1 (systematic review/meta-analysis); published within last 5 years (≥2021); 4 OpenAlex citations = 2.0/yr since 2025; library verified=partial"
+    },
+    {
+     "pmid": "38952053",
+     "reason": "随机对照试验；2024 年发表（近 5 年）；OpenAlex 被引 5 次，年均 1.67 次；本主题第 3 名",
+     "title": "Dietary magnesium supplementation in cats with chronic kidney disease: A prospective double-blind randomized controlled trial.",
+     "year": "2024",
+     "design": "随机对照试验",
+     "reason_en": "tier 2 (RCT); published within last 5 years (≥2021); 5 OpenAlex citations = 1.67/yr since 2024; library verified=partial"
+    }
+   ]
+  },
+  {
+   "topic": "obesity",
+   "topic_zh": "肥胖与体况",
+   "items": [
+    {
+     "pmid": "39858209",
+     "reason": "系统综述/Meta分析；2025 年发表（近 5 年）；OpenAlex 被引 4 次，年均 2.0 次；本主题第 1 名",
+     "title": "Impact of Hypocaloric Diets on Weight Loss and Body Composition in Obese Dogs: A Meta-Analysis.",
+     "year": "2025",
+     "design": "系统综述/Meta分析",
+     "reason_en": "tier 1 (systematic review/meta-analysis); published within last 5 years (≥2021); 4 OpenAlex citations = 2.0/yr since 2025; library verified=partial"
+    },
+    {
+     "pmid": "11991408",
+     "reason": "非随机对照试验；2002 年发表；OpenAlex 被引 618 次，年均 24.72 次；本主题第 2 名",
+     "title": "Effects of diet restriction on life span and age-related changes in dogs.",
+     "year": "2002",
+     "design": "非随机对照试验",
+     "reason_en": "tier 3 (non-randomised controlled trial); older than 5 years; 618 OpenAlex citations = 24.72/yr since 2002; library verified=partial"
+    },
+    {
+     "pmid": "30548336",
+     "reason": "队列研究；2019 年发表；OpenAlex 被引 120 次，年均 15.0 次；本主题第 3 名",
+     "title": "Association between life span and body condition in neutered client-owned dogs.",
+     "year": "2019",
+     "design": "队列研究",
+     "reason_en": "tier 4 (cohort); older than 5 years; 120 OpenAlex citations = 15.0/yr since 2019; library verified=partial"
+    }
+   ]
+  }
+ ]
+}
