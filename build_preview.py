@@ -91,6 +91,15 @@ for r in json.load(open(os.path.join(ROOT,'data','v5','selfcheck_adjudication.js
     if not p: MERGE['adj_un'].append(r['pmid']); continue
     MERGE['adj']+=1; p['rob_tool']='RoB 2'; p['adj']=True; p['appraisal_note']=''; p['adj_overall']='未完整评估（仅据摘要；D1 有一定担忧，其余领域未评）'
     p['appraisal_items']=[{'item':DN[r['domain']],'judgment':JM[r['final']],'reason':'仅据摘要。原文位置：摘要','evidence_quote':r['quote']}]
+DN3={'patient_selection_rob':'患者选择 · 偏倚风险','patient_selection_applicability':'患者选择 · 适用性','index_test_rob':'待评价试验 · 偏倚风险','index_test_applicability':'待评价试验 · 适用性','reference_standard_rob':'参考标准 · 偏倚风险','reference_standard_applicability':'参考标准 · 适用性','flow_and_timing_rob':'病例流程与时间 · 偏倚风险',
+ 'study_participation':'研究参与','study_attrition':'研究失访','prognostic_factor_measurement':'预后因素测量','outcome_measurement':'结局测量','study_confounding':'混杂','statistical_analysis_reporting':'统计分析与报告'}
+MERGE['rob3']=0
+for pm,r in json.load(open(os.path.join(ROOT,'data','v5','rob_adjudicated_r3.json'),encoding='utf-8')).items():
+    p=matcher({'pmid':pm})
+    if not p: MERGE['adj_un'].append(pm); continue
+    MERGE['rob3']+=1; p['rob_tool']=r['tool']; p['adj']=True; p['adj_dual']=True; p['rob3']=True; p['appraisal_note']=''
+    p['adj_overall']=r['overall_final']; p['rob_rule']=r.get('overall_rule_zh') if r['tool']=='QUIPS' else ''
+    p['appraisal_items']=[{'item':DN3.get(k,k),'judgment':v.get('final') or '','reason':(v.get('rationale_zh') or '')+(f' 原文位置：{v["location"]}' if v.get('location') else ''),'evidence_quote':v.get('quote') or ''} for k,v in r['domains'].items()]
 MERGE['gs']=0; MERGE['gs_un']=[]
 for r in json.load(open(os.path.join(ROOT,'data','v5','guideline_strength.json'),encoding='utf-8')):
     p=matcher({'pmid':r['pmid'],'id':r['pmid']}) if r['pmid'] else next((x for x in P.values() if 'iris' in str(x.get('sid','')).lower() and 'staging' in str(x.get('sid','')).lower()),None)
@@ -393,7 +402,7 @@ def paper(p):
     NOTOOL=v6t.startswith('无') or v6j.startswith('不适用（无公认工具')
     if (REEVAL or NOTOOL) and not p.get('adj') and not p.get('amstar'): it=[]
     rc=re.search(r'仅\s*([A-Za-z\-0-9 ]+?)\s*报告规范',v6t); rcs=rc.group(1) if rc else (p.get('reporting_checklist') if has(p.get('reporting_checklist')) else '')
-    if p.get('adj'): why1=f'RoB 2 总体：{p.get("adj_overall","")}'
+    if p.get('adj'): why1=f'{p.get("rob_tool") or "RoB 2"} 总体：{p.get("adj_overall","")}'
     elif p.get('amstar'): why1=p['amstar_overall']
     elif REEVAL: why1='未评（仅摘要）'
     elif NOTOOL: why1='不适用（无公认工具）'+(f'；报告规范：{rcs}' if rcs else '')
@@ -411,6 +420,7 @@ def paper(p):
     ROBJ=not (REEVAL or NOTOOL or why1=='未评') or p.get('adj')
     if p.get('amstar_limit'): ev+=f'<p class="note">局限性：{p["amstar_limit"]}</p>'
     if p.get('amstar'): ev+='<p class="note">偏倚风险：AI 双重独立评估并经第三方裁定，未经临床兽医审阅</p>'
+    elif p.get('rob3'): ev+=(f'<p class="note">总体判定规则：{E_(p["rob_rule"])}</p>' if p.get('rob_rule') else '')+'<p class="note">偏倚风险：由 AI 双重独立评估并经第三方裁定，未经临床兽医审阅</p>'
     elif p.get('adj_dual'): ev+='<p class="note">偏倚风险：AI 双重独立评估并经第三方裁定，未经临床兽医审阅</p>'
     elif ROBJ: ev+='<p class="note">偏倚风险：AI 单次评估，未经临床兽医审阅</p>'
     if has(p.get('rob_tool_note')) and not REEVAL: ev+=f'<p class="note">工具说明：{E_(clean(p["rob_tool_note"]))}</p>'

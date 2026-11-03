@@ -1,0 +1,143 @@
+{
+ "25231385": {
+  "tool": "QUADAS-2",
+  "overall_final": "高偏倚风险；适用性：高度关注",
+  "overall_rule_zh": "QUADAS-2（Whiting 2011）：任一偏倚风险领域为\"高\"即总体高风险；全部\"低\"才为低风险；适用性同理分开汇总。",
+  "domains": {
+   "patient_selection_rob": {
+    "final": "高",
+    "rationale_zh": "一致；引文已在全文中逐字核对（仅空白/连字符归一化）。病例对照（双门）设计，健康对照从同一群体挑选，非连续/随机。",
+    "quote": "Healthy geriatric cats (n = 21) were selected from the same colony.",
+    "location": "Abstract – Animals"
+   },
+   "patient_selection_applicability": {
+    "final": "高度关注",
+    "rationale_zh": "一致；引文已在全文中逐字核对（仅空白/连字符归一化）。研究群体为既往做适口性研究的商业资助方猫群，含肾结石非氮质血症病例。",
+    "quote": "All cats had been used historically for palatability studies.",
+    "location": "Methods – Animals and Study Design"
+   },
+   "index_test_rob": {
+    "final": "低",
+    "rationale_zh": "分歧。SDMA 为 LC-MS 客观自动测定、阈值（14 μg/dL）为既往研究预设；Whiting 2011 允许在指标为客观测定、知晓参考标准不太可能影响判读时判低风险。全文未提设盲（检索 'blind' 无结果），但对客观实验室测定影响有限。检测时间不一致归入 D4 处理。",
+    "quote": "The normal reference limit for SDMA in other healthy cats previously was determined to be <14 μg/dL.",
+    "location": "Methods – Symmetric Dimethylarginine"
+   },
+   "index_test_applicability": {
+    "final": "低度关注",
+    "rationale_zh": "一致；引文已在全文中逐字核对（仅空白/连字符归一化）（首评引文原文为 'sC r'，排版拆分，内容逐字一致）。研究用 LC-MS 而非商用检测，仅轻度关注。",
+    "quote": "Symmetric dimethylarginine concentrations (liquid chromatography‐mass spectroscopy) and sCr (enzymatic colorimetry) were determined retrospectively",
+    "location": "Abstract – Methods"
+   },
+   "reference_standard_rob": {
+    "final": "高",
+    "rationale_zh": "一致；引文已在全文中逐字核对（仅空白/连字符归一化）。15/21 例 CKD 依据持续氮质血症（即 sCr，比较指标）确定，存在纳入（incorporation）偏倚；参考标准不统一。",
+    "quote": "Chronic kidney disease cats (n = 21) included those persistently azotemic for ≥3 months (n = 15), nonazotemic cats with GFR >30% decreased from median GFR of normal cats (n = 4), and nonazotemic cats with calcium oxalate kidney stones (n = 2).",
+    "location": "Abstract – Animals"
+   },
+   "reference_standard_applicability": {
+    "final": "高度关注",
+    "rationale_zh": "分歧。目标状况由研究自定义：GFR 阈值取自同一批对照猫的 2.5 百分位，且将 sCr 从未升高的草酸钙肾结石猫也算作 CKD，与临床通用的 CKD（如 IRIS）定义不符；按 Whiting 2011，参考标准所定义的目标状况与评价问题不符即为高度关注。",
+    "quote": "Nonazotemic cats with calcium oxalate kidney stones also were considered as having CKD (n = 2).",
+    "location": "Methods – Animals and Study Design（另见 Results：'All cats with GFR < 1.36 mL/min/kg (which corresponds to a >30% decrease below the median GFR) were considered to have CKD'）"
+   },
+   "flow_and_timing_rob": {
+    "final": "高",
+    "rationale_zh": "一致；引文已在全文中逐字核对（仅空白/连字符归一化）。不同猫用不同参考标准，样本取自历史/冻存，间隔不明。",
+    "quote": "Serum samples had been banked as part of annual examinations or as part of protocols for other studies. Thus, exact interval data were not available.",
+    "location": "Discussion – 第 1 段"
+   }
+  }
+ },
+ "28152671": {
+  "tool": "QUADAS-2",
+  "overall_final": "高偏倚风险；适用性：高度关注",
+  "overall_rule_zh": "QUADAS-2（Whiting 2011）：任一偏倚风险领域为\"高\"即总体高风险；全部\"低\"才为低风险；适用性同理分开汇总。",
+  "domains": {
+   "patient_selection_rob": {
+    "final": "高",
+    "rationale_zh": "一致；引文已在全文中逐字核对（仅空白/连字符归一化）。32 例 HCM 与 14 例健康对照的病例对照设计，回顾性，未说明连续入组（检索 'consecutive' 仅见心动周期）。",
+    "quote": "Our study population consisted of 32 client-owned cats with HCM and 14 healthy cats serving as controls.",
+    "location": "Materials and methods – Animals"
+   },
+   "patient_selection_applicability": {
+    "final": "高度关注",
+    "rationale_zh": "一致；引文已在全文中逐字核对（仅空白/连字符归一化）。对照为全面检查正常的健康猫，非临床上需鉴别的可疑病例；年龄未匹配；部分 HCM 猫已用药。",
+    "quote": "Fourth, the enrolled cats were not matched for age.",
+    "location": "Discussion – limitations"
+   },
+   "index_test_rob": {
+    "final": "高",
+    "rationale_zh": "一致；引文已在全文中逐字核对（仅空白/连字符归一化）。单一观察者手动描记心内膜/调整 ROI，未报告设盲，且该观察者知晓 HCM 诊断。",
+    "quote": "Images were again analysed by a single observer using an offline EchoPAC workstation as described previously.",
+    "location": "Materials and methods – 2D-STE"
+   },
+   "index_test_applicability": {
+    "final": "低度关注",
+    "rationale_zh": "一致；引文已在全文中逐字核对（仅空白/连字符归一化）。标准商用 2D-STE（Vivid 7/EchoPAC），与问题一致。",
+    "quote": "Images were again analysed by a single observer using an offline EchoPAC workstation as described previously.",
+    "location": "Materials and methods – 2D-STE"
+   },
+   "reference_standard_rob": {
+    "final": "不清楚",
+    "rationale_zh": "分歧。信号问题1：超声壁厚≥6 mm 是临床通用的 HCM 形态学诊断，但非病理/基因确诊，作者自认局限，且仅排除高血压/系统性疾病，可能误分类——'不清楚'而非明确'否'。信号问题2：参考标准（常规超声壁厚）在检查时测定，2D-STE 系事后离线分析，参考标准判读不会受指标结果影响；同一操作者不构成参考标准被指标污染。按 Whiting 2011，信息不足以判定高风险时判'不清楚'。",
+    "quote": "Second, diagnosis of HCM was based on morphological rather than pathological criteria.",
+    "location": "Discussion – limitations"
+   },
+   "reference_standard_applicability": {
+    "final": "低度关注",
+    "rationale_zh": "一致；引文已在全文中逐字核对（仅空白/连字符归一化）。",
+    "quote": "Cats with HCM were diagnosed if the echocardiographic left ventricular (LV) wall thickness was 6 mm or more, measured by 2D methods.",
+    "location": "Materials and methods – Animals"
+   },
+   "flow_and_timing_rob": {
+    "final": "不清楚",
+    "rationale_zh": "分歧。间隔、参考标准一致性均无问题，但'是否所有入组者均纳入分析'无法确认：Table 1 入组 14+17+9+6=46 只；每只 6 个节段×3 个心动周期=18 个节段，792/18=44 只（46 只应为 828）。全文未说明任何整只猫的排除（'excluded' 仅出现在入组排除标准和'failed segment was excluded'），无流程图，约 2 只猫去向不明。另：方法中 2D-STE 写'We selected one cardiac cycle'，与'three consecutive cardiac cycles'并存，分母推算存在不确定性。故判'不清楚'。",
+    "quote": "After analysis using an off-line workstation, 777/792 (98.1%) segments for long-axis images and 792/792 (100%) segments for short-axis images were included for statistical analysis.",
+    "location": "Results – 2D-STE（入组数见 Table 1 'Number of cats (male) 14 (8) 17 (13) 9 (5) 6 (4)'）"
+   }
+  }
+ },
+ "30548336": {
+  "tool": "QUIPS",
+  "overall_final": "高偏倚风险",
+  "overall_rule_zh": "QUIPS（Hayden 2013）无官方总体评级规则。采用常用约定：任一领域为'高'即总体'高'；全部或大多数为'低'且无'高'为'低'；其余为'中'。",
+  "domains": {
+   "study_participation": {
+    "final": "中",
+    "rationale_zh": "一致；引文已在全文中逐字核对（仅空白/连字符归一化）。来源人群描述清楚，但需存活至 9.5 岁且持续就诊，大量筛选。",
+    "quote": "Dogs were eligible for inclusion when they had at least 1 “in‐clinic” visit (defined as an appointment when both the owner and dog were in attendance), were between 6.5 and 8.5 years, and whose veterinary care had not ceased (eg, because of death or moving to a different veterinary practice) before 9.5 years.",
+    "location": "Methods 2.3 Eligibility criteria"
+   },
+   "study_attrition": {
+    "final": "中",
+    "rationale_zh": "一致；引文已在全文中逐字核对（仅空白/连字符归一化）。仅 28.2% 记录死亡日期，其余按末次接触删失，未比较删失者特征。",
+    "quote": "After filtering the dataset and matching, the total number of dogs available was 50 787, and date of death was recorded in 14 316 of these (28.2%).",
+    "location": "Results 3.1"
+   },
+   "prognostic_factor_measurement": {
+    "final": "中",
+    "rationale_zh": "分歧。体况为主观评分、2010 年前后量表变更、2013 年前缺失值默认'normal'（作者以外推法校正）——属测量可靠性/缺失处理不足。但 Hayden 2013 判'高'的关键是测量方法不充分且可能因结局不同而不同（差异性错分）；体况在死亡前按常规就诊记录，错分应为非差异性、偏向零效应，且作者采取了校正。判'中'。",
+    "quote": "One further issue for pre‐2013 data was that the body condition field defaulted to “normal” if a body condition category was not entered.",
+    "location": "Methods 2.5 Body condition assessment"
+   },
+   "outcome_measurement": {
+    "final": "中",
+    "rationale_zh": "一致；引文已在全文中逐字核对（仅空白/连字符归一化）。全因死亡定义客观，但出生/死亡日期未核实，未区分安乐死。",
+    "quote": "Neither the date of birth nor date of death fields are verified for accuracy.",
+    "location": "Methods 2.4"
+   },
+   "study_confounding": {
+    "final": "高",
+    "rationale_zh": "分歧。匹配变量为性别、就诊年龄、年份及经纬度（首评引文核实；次评称仅匹配性别/年份/年龄，漏记经纬度，但不影响判断）。Hayden 2013：重要混杂未测量即应判'高'。体况与寿命之间最关键的混杂——并发疾病、饮食与能量摄入——作者明确未评估；品种分层与绝育（全为绝育犬）不能替代。判'高'。",
+    "quote": "Given that, in our study, information on concurrent disease, diet, and energy intake were not assessed",
+    "location": "Discussion"
+   },
+   "statistical_analysis_reporting": {
+    "final": "低",
+    "rationale_zh": "一致；引文已在全文中逐字核对（仅空白/连字符归一化）。Cox 模型、检验比例风险假设、多重比较校正，12 个品种结果全部报告。",
+    "quote": "This assumption was tested for all explanatory variables (sex, BCS, visit year, and visit age) using weighted residuals.",
+    "location": "Methods 2.6"
+   }
+  }
+ }
+}
