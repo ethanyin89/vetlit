@@ -1,0 +1,156 @@
+{
+  "39858209": {
+    "severity": "affects_conclusion",
+    "status": "adjudicated",
+    "note_zh": "原文报告不一致影响结论：结果部分称总膳食纤维<12%时效果最佳，摘要、营养建议及结论称>12%有益；另纳入研究数（20 vs 21）、阈值与方案时长前后不一。",
+    "basis_quotes": [
+      "原文结果部分称总膳食纤维<12%时效果最佳，而摘要、营养建议及结论称>12%有益",
+      "原文此处为“21篇文章”，其余部分为20篇"
+    ]
+  },
+  "40732763": {
+    "severity": "affects_conclusion",
+    "status": "adjudicated",
+    "note_zh": "原文报告不一致影响结论：联合治疗 vs 单药的 OR 按文中数据约 3.7，原文报告约 2.3；病例数合计不符（551/648 vs 650），同一比较 p 值给出两个。",
+    "basis_quotes": [
+      "按文中数据（联合92/97成功，单药458/551成功）计算的OR约为3.7，而非报告的~2.3",
+      "单药治疗551例与联合治疗97例（12 + 37 + 48）合计648例，而非650例",
+      "p = 0.039和p = 0.029"
+    ]
+  },
+  "41781382": {
+    "severity": "minor",
+    "status": "adjudicated",
+    "note_zh": "给药频率：以方法部分 q24h 为准，原文结论处写作 q12h。",
+    "basis_quotes": [
+      "Cats with non-effusive FIP were randomly assigned to receive either oral remdesivir (38–42 mg/kg, n = 10) or oral GS-441524 (18–22 mg/kg, n = 10) q24h for 84 days (12 weeks).",
+      "This study supports the use of remdesivir at 38–42 mg/kg PO q12h for 84 days as a safe and effective treatment for non-effusive FIP."
+    ]
+  },
+  "37632022": {
+    "severity": "minor",
+    "status": "adjudicated",
+    "note_zh": "原文小处不一致：药名笔误、评估周次（12 vs 6 周）、CI 标注（90% vs 95%）、图号；不影响主要结论。",
+    "basis_quotes": [
+      "摘要称在第0、12和16周评估，而方法部分（第8段）为第0、6和16周",
+      "正文报告生存差异的90% CI，而图3图例称显示的是95%置信区间"
+    ]
+  },
+  "39066306": {
+    "severity": "minor",
+    "status": "adjudicated",
+    "note_zh": "原文小处不一致：讨论写 8/40、结果为 8/26；伦理编号两处不同；不影响主要结论。",
+    "basis_quotes": [
+      "原文此处为“8/40只猫”，结果部分（第23、26段）为“8/26只猫”",
+      "伦理委员会参考编号为345-19-12-2022，方法部分（第4段）为261-19-03-2021"
+    ]
+  },
+  "42949438": {
+    "severity": "minor",
+    "status": "adjudicated",
+    "note_zh": "复发比例分母不一（3/19 vs 3/17）；不影响主要结论。",
+    "basis_quotes": [
+      "讨论（第32段）将其比例表述为3/19（16%），第33段为3/17（18%）"
+    ]
+  },
+  "41035288": {
+    "severity": "minor",
+    "status": "adjudicated",
+    "note_zh": "原文多处计数/百分比小错（公猫 14 vs 13、12/20 写作 71% 等）；不影响主要结论。",
+    "basis_quotes": [
+      "原文称公猫14/20（70%），但所列为七只未去势公猫加六只去势公猫共13只",
+      "原文“超过半数（12/20；71%）”中12/20应为60%"
+    ]
+  },
+  "29326623": {
+    "severity": "minor",
+    "status": "adjudicated",
+    "note_zh": "性别效应 p=0.021 与跨 0 的 95% CI 不符；非主要结论。",
+    "basis_quotes": [
+      "性别对友好性的效应报告为p = 0.021，但所给95% CI [-4.863, 0.361]跨越0"
+    ]
+  },
+  "29660848": {
+    "severity": "minor",
+    "status": "adjudicated",
+    "note_zh": "已勘误：中位发生时间为 857 天（据勘误），原文误为 57 天。",
+    "basis_quotes": [
+      "勘误 PMID 30417429：HCM 中“CHF 不伴 ATE”的 90 只猫，中位发生时间为 857 天而不是 57 天"
+    ]
+  },
+  "28901812": {
+    "severity": "minor",
+    "status": "adjudicated",
+    "note_zh": "持续缓解只数：正文 7 只，图 2 图注 6 只（正文与图注不一致）。",
+    "basis_quotes": [
+      "持续缓解只数：正文 7，图 2 图注 6"
+    ]
+  },
+  "40941356": {
+    "severity": "minor",
+    "status": "adjudicated",
+    "note_zh": "检索日期前后矛盾（表 1：2025-03-03；局限性一节：2025-04-04）；仅影响方法学描述。",
+    "basis_quotes": [
+      "检索日期前后矛盾（表 1：2025-03-03；局限性一节：2025-04-04）"
+    ]
+  },
+  "30948740": {
+    "severity": "minor",
+    "status": "adjudicated",
+    "note_zh": "作者讨论用“理解”，实验只测“分辨”；本站表述为猫能分辨自己的名字。",
+    "basis_quotes": [
+      "作者讨论用\"理解\"，实验只测\"分辨\""
+    ]
+  },
+  "26948860": {
+    "severity": "minor",
+    "status": "adjudicated",
+    "note_zh": "两个“148 只”指不同群体未说明；讨论末句问卷来源疑指文献 28；不影响主要结论。",
+    "basis_quotes": [
+      "原文称148只（43%）猫因未回访被排除，而最终问卷分析也纳入148只猫"
+    ]
+  },
+  "34835034": {
+    "severity": "minor",
+    "status": "adjudicated",
+    "note_zh": "海因茨小体分级标签与表注不符、四舍五入、药名笔误；不影响主要结论。",
+    "basis_quotes": [
+      "本段称19.8%红细胞含海因茨小体为“轻度”，但表2脚注定义10–25%为中度"
+    ]
+  },
+  "36297266": {
+    "severity": "affects_conclusion",
+    "status": "adjudicated",
+    "note_zh": "原文报告不一致影响结论：一处称 26 只猫全部存活，另一处称 1 只完成治疗一周后死亡、1 只复发后安乐死；“超过 81%（18 只）”与 18/26≈69% 不符；分组计数不一致。",
+    "basis_quotes": [
+      "本段称所有26只猫均存活，但第17段称1只猫在完成治疗一周后死亡、21号猫复发后被安乐死",
+      "原文称“超过81%的猫（18）”，但18/26≈69%"
+    ]
+  },
+  "37403259": {
+    "severity": "minor",
+    "status": "adjudicated",
+    "note_zh": "眼部受累 6 vs 7 只、百分比取整、药名笔误、32 只与图注排除 1 只未说明；不影响主要结论。",
+    "basis_quotes": [
+      "原文称6只猫有眼部受累，但所列为4+1+1+1=7只",
+      "图1注称1只猫因使用未许可GS‐441524被排除，但正文其余部分均按32只猫报告"
+    ]
+  },
+  "38952053": {
+    "severity": "minor",
+    "status": "adjudicated",
+    "note_zh": "以结果部分 1.2%/月 为准，讨论处写作 12%",
+    "basis_quotes": [
+      "原文结果部分报告血浆总镁（tMg）平均每月升高 1.2%，与此处“12%”不一致"
+    ]
+  },
+  "40633571": {
+    "severity": "minor",
+    "status": "adjudicated",
+    "note_zh": "图/补充表编号引用错误、基因组编号与一致性百分比（>99.35% vs >99.17%）小差异；不影响主要结论。",
+    "basis_quotes": [
+      "本段全基因组一致性为>99.35%，第16段为>99.17%",
+      "IHC阳性细胞引用“图1c”，但图1c为临床表现照片，IHC见图1e"
+    ]
+  }
+}
