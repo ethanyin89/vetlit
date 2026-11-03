@@ -235,7 +235,17 @@ def grade(p):
     return t,h
 def chip(p,href):
     if not SHOW_CERTAINTY: return ''
-    t,_=grade(p); return f'<a class="echip" href="{href}">{E_(t)}</a>'
+    t,_=grade(p)
+    if t.endswith('待评定'): return ''
+    if t.endswith('不适用'): return f'<a class="echip na" href="{href}">非临床研究</a>'
+    return f'<a class="echip" href="{href}">{E_(t)}</a>'
+def nochip_reason(p):
+    if not SHOW_CERTAINTY: return '本页暂不显示证据确定性：评级规则尚在核对，未上线。'
+    t,_=grade(p)
+    if t.endswith('待评定'):
+        r=CERT.get(str(p.get('pmid') or '')) or {}
+        return '证据确定性待评定：'+(clean(r['notes_zh']) if r.get('notes_zh') else '尚未做偏倚风险评估。')
+    return ''
 def title_html(p,tag='h3',href=None):
     main=p.get('title_zh') or p.get('one_line_conclusion_zh')
     t=E_(clean(main)) if main else f'<span lang="en">{E_(p["title"])}</span>'
@@ -513,7 +523,7 @@ def paper(p):
         orig=f'<p>许可{("（"+E_(str(p["license"]))+"）") if has(p.get("license")) else ""}不允许全文翻译转载，本站只提供速读与术语对照。{f'<a href="https://doi.org/{E_(p["doi"])}">阅读原文 →</a>' if p.get('doi') else ''}</p>'
     fb+=f'<details class="sub"><summary>原文与许可</summary>{orig}</details>'
     fb+=f'<p class="note sig">依据：{p.get("basis_label") or ("仅题录，无摘要" if p.get("reading_depth")=="题录" else "摘要" if absonly else "全文")} · 速读：<a href="{CA(2)}">单人提取</a>{'（结论、关键数字、样本量除外，见各处标注）' if p.get('dual_x') else ''}</p>'
-    body=vis+f'<details class="fold evf" id="evidence"><summary>证据与方法</summary>{fb}</details>'
+    body=vis+f'<details class="fold evf" id="evidence"><summary>证据与方法</summary>{('<p class="why0">'+E_(nochip_reason(p))+'</p>') if nochip_reason(p) else ''}{fb}</details>'
     terms=sec_get(S,'关键术语')
     if terms: body+=f'<details class="fold"><summary>关键术语中英对照</summary>{mdc(terms)}</details>'
     bib=B.bibtex(B.view({**p,'id':p['sid']})); ris=B.ris(B.view({**p,'id':p['sid']}))
