@@ -373,10 +373,26 @@ def is_super(p):
     return is_full(sup_info(p))
 def has_contra(p):
     return bool(p.get('rep_inc') or has(p.get('internal_inconsistency')) or p.get('amstar_limit') or sec_get(sections(p),'原文报告不一致'))
+# reporting_inconsistency: read from paper data, else extras (top_picks.json top-level map,
+# or data/v5/extras/reporting_inconsistency.json {pmid:{severity,note_zh}}). Only severity
+# "affects_conclusion" excludes from 最重要/最新; "minor" or absent ranks normally.
+try: _RI_FILE=json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)),'data/v5/extras/reporting_inconsistency.json'),encoding='utf-8'))
+except Exception: _RI_FILE={}
+def rep_inc(p):
+    v=p.get('reporting_inconsistency')
+    if isinstance(v,dict): return v
+    k=str(p.get('pmid') or '')
+    for src in ((X.TOP.get('reporting_inconsistency') or {}),_RI_FILE):
+        if isinstance(src.get(k),dict): return src[k]
+    return {}
+def affects_conclusion(p): return rep_inc(p).get('severity')=='affects_conclusion'
+def ri_notice(p):
+    n=rep_inc(p).get('note_zh')
+    return f'<p class="note">⚠ {E_(" ".join(str(n).split()))}</p>' if n else ''
 def _fill(cands,k=3):
     out,seen=[],set()
     for p in cands:
-        if p and not is_super(p) and p['sid'] not in seen: seen.add(p['sid']); out.append(p)
+        if p and not is_super(p) and not affects_conclusion(p) and p['sid'] not in seen: seen.add(p['sid']); out.append(p)
         if len(out)==k: break
     return out
 def tops(tid):
@@ -495,7 +511,7 @@ def appraisal(p):
 def paper(p):
     r='../../'; S=sections(p)
     head=f'''<p class="crumb"><a href="{r}library/">文献库</a>{"".join(f' › <a href="{r}topics/{t}/">{E_(TBY[t]["name_zh"])}</a>' for t in (p.get("topics") or [])[:1] if t in TBY and t in [v["id"] for v in VIS])}</p>
-<p class="eb">{E_(" / ".join(specs(p)))} · {E_(species(p))}</p>{title_html(p,'h1')}<p class="cmeta">{E_(cmeta(p))}</p>{superlink(p,'../../')}
+<p class="eb">{E_(" / ".join(specs(p)))} · {E_(species(p))}</p>{title_html(p,'h1')}<p class="cmeta">{E_(cmeta(p))}</p>{superlink(p,'../../')}{ri_notice(p)}
 <p class="meta">{E_(p.get("first_author",""))} 等 · <em>{E_(p.get("journal",""))}</em> · {E_(p.get("pub_date") or str(p.get("year","")))}{f' · <a href="https://doi.org/{E_(p["doi"])}">DOI</a>' if p.get('doi') else ''}{f' · <a href="https://pubmed.ncbi.nlm.nih.gov/{p["pmid"]}/">PubMed</a>' if p.get('pmid') else ''}{f' · <a href="https://europepmc.org/article/PMC/{p["pmcid"]}">全文</a>' if p.get('pmcid') else ''}</p>
 <p>{"".join(f'<a class="chip" href="{r}topics/{t}/">{E_(TBY[t]["name_zh"])}</a>' for t in (p.get("topics") or []) if t in TBY and TBY[t] in VIS)}</p>'''
     blk=lambda n,t,c: f'<section class="blk"><h2 class="sec"><span>{n}</span> {t}</h2>{c}</section>' if c else ''
