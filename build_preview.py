@@ -336,12 +336,19 @@ def trim_reason(t,p):
     seg=[x.strip() for x in re.split(r'[；;]',clean(t or '')) if x.strip()]
     seg=[re.sub(r'，?年均[^，；]*','',x) for x in seg if x not in (p.get('design_category'),) and not re.fullmatch(r'\d{4} 年发表',x)]
     return '，'.join(x for x in seg if x)
+SUPER={str(i.get('pmid') or i.get('id')):str(i['superseded_by']) for g in (X.TOP.get('topics') or []) for i in (g.get('items') or []) if isinstance(i,dict) and i.get('superseded_by')}
+def superlink(p,r):
+    sb=SUPER.get(str(p.get('pmid') or ''))
+    if not sb: return ''
+    q=get(sb)
+    h=f'{r}papers/{E_(q["sid"])}/' if q else f'https://pubmed.ncbi.nlm.nih.gov/{E_(sb)}/'
+    return f'<p class="note"><a class="tag2" href="{h}">已有更新版 →</a></p>'
 def hcard(p,r,tid=None):
     href=f'{r}papers/{p["sid"]}/'
     m=cmeta(p); sm=summ(p); rs=_short(trim_reason(reason(p,tid),p)) if tid else ''
     lk=f'<a class="go" href="{href}">速读 →</a>'+(f' <a class="go" href="{href}bilingual/">中英对照 →</a>' if has_tr(p) else '')
     return (f'<article class="card">{title_html(p,"h3",href)}'+(f'<p class="cmeta">{E_(m)}</p>' if m else '')
-      +(f'<p class="bl">{E_(clean(sm))}</p>' if sm else '')+(f'<p class="why">{E_(rs)}</p>' if rs else '')+f'<p class="ft">{lk}</p></article>')
+      +(f'<p class="bl">{E_(clean(sm))}</p>' if sm else '')+(f'<p class="why">{E_(rs)}</p>' if rs else '')+superlink(p,r)+f'<p class="ft">{lk}</p></article>')
 def tops(tid):
     for g in (X.TOP.get('topics') or []):
         if g.get('topic')==tid: return [x for x in (get(str(i.get('pmid') or i.get('id') if isinstance(i,dict) else i)) for i in (g.get('items') or g.get('picks') or [])) if x][:3]
@@ -452,7 +459,7 @@ def appraisal(p):
 def paper(p):
     r='../../'; S=sections(p)
     head=f'''<p class="crumb"><a href="{r}library/">文献库</a>{"".join(f' › <a href="{r}topics/{t}/">{E_(TBY[t]["name_zh"])}</a>' for t in (p.get("topics") or [])[:1] if t in TBY and t in [v["id"] for v in VIS])}</p>
-<p class="eb">{E_(" / ".join(specs(p)))} · {E_(species(p))}</p>{title_html(p,'h1')}<p class="cmeta">{E_(cmeta(p))}</p>
+<p class="eb">{E_(" / ".join(specs(p)))} · {E_(species(p))}</p>{title_html(p,'h1')}<p class="cmeta">{E_(cmeta(p))}</p>{superlink(p,'../../')}
 <p class="meta">{E_(p.get("first_author",""))} 等 · <em>{E_(p.get("journal",""))}</em> · {E_(p.get("pub_date") or str(p.get("year","")))}{f' · <a href="https://doi.org/{E_(p["doi"])}">DOI</a>' if p.get('doi') else ''}{f' · <a href="https://pubmed.ncbi.nlm.nih.gov/{p["pmid"]}/">PubMed</a>' if p.get('pmid') else ''}{f' · <a href="https://europepmc.org/article/PMC/{p["pmcid"]}">全文</a>' if p.get('pmcid') else ''}</p>
 <p>{"".join(f'<a class="chip" href="{r}topics/{t}/">{E_(TBY[t]["name_zh"])}</a>' for t in (p.get("topics") or []) if t in TBY and TBY[t] in VIS)}</p>'''
     blk=lambda n,t,c: f'<section class="blk"><h2 class="sec"><span>{n}</span> {t}</h2>{c}</section>' if c else ''
