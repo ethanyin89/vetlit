@@ -336,20 +336,33 @@ def trim_reason(t,p):
     seg=[x.strip() for x in re.split(r'[；;]',clean(t or '')) if x.strip()]
     seg=[re.sub(r'，?年均[^，；]*','',x) for x in seg if x not in (p.get('design_category'),) and not re.fullmatch(r'\d{4} 年发表',x)]
     return '，'.join(x for x in seg if x)
-SUPER={str(i.get('pmid') or i.get('id')):str(i['superseded_by']) for g in (X.TOP.get('topics') or []) for i in (g.get('items') or []) if isinstance(i,dict) and i.get('superseded_by')}
+# Supersession: field names are deep extract's; set here once confirmed.
+F_SUP='superseded_by'; F_SCOPE='superseded_scope'
+SCOPE_ZH={'treatment':'治疗','diagnosis':'诊断','management':'管理'}
+SUPER={}
+for _g in (X.TOP.get('topics') or []):
+    for _i in (_g.get('items') or []):
+        if isinstance(_i,dict) and _i.get(F_SUP): SUPER[str(_i.get('pmid') or _i.get('id'))]={'by':str(_i[F_SUP]),'scope':_i.get(F_SCOPE)}
+def sup_info(p):
+    if p.get(F_SUP): return {'by':str(p[F_SUP]),'scope':p.get(F_SCOPE)}
+    return SUPER.get(str(p.get('pmid') or ''))
 def superlink(p,r):
-    sb=SUPER.get(str(p.get('pmid') or ''))
-    if not sb: return ''
-    q=get(sb)
+    i=sup_info(p)
+    if not i: return ''
+    sb=i['by']; q=get(sb)
     h=f'{r}papers/{E_(q["sid"])}/' if q else f'https://pubmed.ncbi.nlm.nih.gov/{E_(sb)}/'
-    return f'<p class="note"><a class="tag2" href="{h}">已有更新版 →</a></p>'
+    lab=(SCOPE_ZH.get(i['scope'],str(i['scope']))+'部分已有更新版 →') if i.get('scope') else '已有更新版 →'
+    return f'<p class="note"><a class="tag2" href="{h}">{E_(lab)}</a></p>'
 def hcard(p,r,tid=None):
     href=f'{r}papers/{p["sid"]}/'
     m=cmeta(p); sm=summ(p); rs=_short(trim_reason(reason(p,tid),p)) if tid else ''
     lk=f'<a class="go" href="{href}">速读 →</a>'+(f' <a class="go" href="{href}bilingual/">中英对照 →</a>' if has_tr(p) else '')
     return (f'<article class="card">{title_html(p,"h3",href)}'+(f'<p class="cmeta">{E_(m)}</p>' if m else '')
       +(f'<p class="bl">{E_(clean(sm))}</p>' if sm else '')+(f'<p class="why">{E_(rs)}</p>' if rs else '')+superlink(p,r)+f'<p class="ft">{lk}</p></article>')
-def is_super(p): return bool(SUPER.get(str(p.get('pmid') or '')) or p.get('superseded_by'))
+def is_super(p):
+    i=sup_info(p); return bool(i and not i.get('scope'))
+def has_contra(p):
+    return bool(p.get('rep_inc') or has(p.get('internal_inconsistency')) or p.get('amstar_limit') or sec_get(sections(p),'原文报告不一致'))
 def _fill(cands,k=3):
     out,seen=[],set()
     for p in cands:
@@ -366,7 +379,7 @@ def tops(tid):
         c+=[get(x['id']) for x in (t.get('core') or [])]
         c+=sorted(tpapers(t),key=lambda p:p.get('importance_rank') or 999)
     return _fill(c)
-def newest3(ps): return _fill(sorted(ps,key=lambda p:p.get('pub_date') or '',reverse=True))
+def newest3(ps): return _fill([p for p in sorted(ps,key=lambda p:p.get('pub_date') or '',reverse=True) if not has_contra(p)])
 def duo(imp,new,r,tid=None): return (f'<h4 class="tb">最重要</h4>'+''.join(hcard(p,r,tid) for p in imp) if imp else '')+(f'<h4 class="tb">最新</h4>'+''.join(hcard(p,r,tid) for p in new) if new else '')
 def home():
     picks=ALL[:8]
