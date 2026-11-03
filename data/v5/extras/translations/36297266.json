@@ -1,0 +1,324 @@
+{
+ "pmid": "36297266",
+ "license": "CC BY 4.0",
+ "attribution": {
+  "authors": [
+   "Roy Meagan",
+   "Jacque Nicole",
+   "Novicoff Wendy",
+   "Li Emma",
+   "Negash Rosa",
+   "Evans Samantha J M",
+   "Giordano Alessia",
+   "Lauzi Stefania"
+  ],
+  "title": "Unlicensed Molnupiravir is an Effective Rescue Treatment Following Failure of Unlicensed GS-441524-like Therapy for Cats with Suspected Feline Infectious Peritonitis",
+  "journal": "Pathogens",
+  "year": "2022",
+  "doi": "10.3390/pathogens11101209",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "note": "中文为 AI 翻译，以英文原文为准；已对原文做翻译改编"
+ },
+ "scope_zh": "标题、关键词（源XML无摘要正文）、全文正文（引言、材料与方法、结果、讨论）、致谢、作者贡献、伦理及知情同意声明、利益冲突、资助；表1–3表题、图1–3图注。未含：数据可用性声明、参考文献、表格正文、补充数据S1–S3。",
+ "paragraphs": [
+  {
+   "section": "Title",
+   "section_zh": "标题",
+   "en": "Unlicensed Molnupiravir is an Effective Rescue Treatment Following Failure of Unlicensed GS-441524-like Therapy for Cats with Suspected Feline Infectious Peritonitis",
+   "zh": "未经许可的Molnupiravir是未经许可的类GS-441524治疗失败后疑似猫传染性腹膜炎猫的有效挽救治疗"
+  },
+  {
+   "section": "Abstract / Keywords",
+   "section_zh": "摘要 / 关键词",
+   "en": "Keywords: FIP, coronavirus, antiviral, EIDD-2801, black market",
+   "zh": "关键词：FIP，冠状病毒，抗病毒，EIDD-2801，黑市",
+   "note_zh": "源XML中摘要仅含关键词，无摘要正文。"
+  },
+  {
+   "section": "1. Introduction",
+   "section_zh": "1. 引言",
+   "en": "Feline infectious peritonitis (FIP) is a complex and historically fatal disease caused by a mutation of the ubiquitous feline enteric coronavirus (FECV) [1]. Recent advances in feline and antiviral medicine have uncovered potential treatments for FIP. The 3C-like-protease inhibitor GC376 was the first targeted antiviral therapy used against this disease [2]. GC376 was highly effective at improving the clinical signs of FIP in 19 out of 20 naturally infected cats but showed a limited ability to control long-term disease [2]. Pedersen et al. continued to investigate the antiviral compound GS-441524, a nucleoside analogue and active metabolite of remdesivir (GS-5734). GS-441524 demonstrated a superior ability to treat and control disease in naturally infected cats compared to GC-376, with 25 out of 31 cats being disease-free at the time the report was written [3].",
+   "zh": "猫传染性腹膜炎（FIP）是一种复杂且历史上致死的疾病，由普遍存在的猫肠道冠状病毒（FECV）突变引起[1]。猫医学和抗病毒医学的最新进展揭示了FIP的潜在治疗方法。3C样蛋白酶抑制剂GC376是首个用于该病的靶向抗病毒疗法[2]。GC376在20只自然感染猫中的19只中能高效改善FIP临床症状，但长期控制疾病的能力有限[2]。Pedersen等继续研究抗病毒化合物GS-441524，它是一种核苷类似物，也是remdesivir（瑞德西韦，GS-5734）的活性代谢物。与GC-376相比，GS-441524在自然感染猫中表现出更强的治疗和控制疾病能力，在撰写报告时31只猫中有25只无病[3]。"
+  },
+  {
+   "section": "1. Introduction",
+   "section_zh": "1. 引言",
+   "en": "Since these discoveries, cat owners around the globe have been obtaining these mostly unlicensed drugs to treat their FIP cats with remarkably high success [4]. In the United States, there is high demand for legal FIP therapy due to the ethical and legal concerns surrounding unlicensed GC376 and GS-441524. Additionally, some cats with FIP have exhausted all current treatment options due to disease relapse and/or treatment failures after GS-441524, GC376, and/or combination therapy. Thus, there is an urgent need for an effective, legal treatment option for FIP.",
+   "zh": "自这些发现以来，全球各地的猫主人一直在获取这些大多未经许可的药物来治疗其FIP猫，成功率非常高[4]。在美国，由于围绕未经许可的GC376和GS-441524的伦理和法律问题，对合法FIP治疗的需求很高。此外，一些FIP猫因在GS-441524、GC376和/或联合治疗后疾病复发和/或治疗失败，已用尽所有现有治疗选择。因此，迫切需要一种有效、合法的FIP治疗选择。"
+  },
+  {
+   "section": "1. Introduction",
+   "section_zh": "1. 引言",
+   "en": "With the recent SARS-CoV-2 outbreak, numerous novel antivirals have been brought onto the market. Molnupiravir (EIDD-2801), manufactured by Merck, is currently available under emergency use authorization (EUA) by the FDA to treat COVID-19 in adults [5]. It is an oral prodrug of the nucleoside analog B-D-N4-hydroxycytidine that increases guanine to adenine and cytosine to uracil nucleotide transition mutations in coronaviruses [6]. This mechanism increases the mutation rate beyond the accepted threshold, subsequently inactivating the virus [7]. Molnupiravir has been found to be safe and well-tolerated at a dose of up to 800 mg twice daily in COVID-19 patients [8]. Some studies have reported a drastic decrease in hospitalization rates and death for COVID-19 patients with mild to moderate disease, though the efficacy appears to be lacking for COVID-19 patients with severe disease [7].",
+   "zh": "随着近期SARS-CoV-2的暴发，众多新型抗病毒药物进入市场。由Merck生产的Molnupiravir（莫努匹韦，EIDD-2801）目前获FDA紧急使用授权（EUA）用于治疗成人COVID-19[5]。它是核苷类似物B-D-N4-羟基胞苷的口服前药，可增加冠状病毒中鸟嘌呤至腺嘌呤和胞嘧啶至尿嘧啶的核苷酸转换突变[6]。这一机制使突变率超过可接受阈值，随后使病毒失活[7]。已发现molnupiravir在COVID-19患者中以最高800 mg每日两次的剂量使用安全且耐受良好[8]。一些研究报告轻度至中度COVID-19患者的住院率和死亡率大幅下降，但对重症COVID-19患者似乎缺乏疗效[7]。"
+  },
+  {
+   "section": "1. Introduction",
+   "section_zh": "1. 引言",
+   "en": "Due to the strong potential of molnupiravir to treat other coronavirus infections, cat owners have been using unlicensed molnupiravir (or its active metabolite, EIDD-1931) purchased over the internet as a therapy for FIP. However, the use of molnupiravir for the treatment of FIP is not currently documented in the scientific literature. Unlicensed molnupiravir is being used as a first-line therapy for suspected FIP and as a rescue therapy to treat cats who have persistent or relapsed clinical signs of FIP after GS-441524 and/or GC376 therapy. The purpose of this study is to document that usage and provide a proof of principle for molnupiravir as a potential therapeutic for FIP, according to owner-reported data.",
+   "zh": "由于molnupiravir治疗其他冠状病毒感染的潜力很大，猫主人一直在使用从互联网购买的未经许可的molnupiravir（或其活性代谢物EIDD-1931）作为FIP的治疗。然而，molnupiravir用于治疗FIP目前在科学文献中尚无记录。未经许可的molnupiravir正被用作疑似FIP的一线治疗，以及用于在GS-441524和/或GC376治疗后FIP临床症状持续或复发的猫的挽救治疗。本研究的目的是根据主人报告的数据记录这种使用情况，并为molnupiravir作为FIP潜在治疗药物提供原理验证。"
+  },
+  {
+   "section": "2. Materials and Methods",
+   "section_zh": "2. 材料与方法",
+   "en": "A survey was created using Qualtrics XM (Qualtrics Version May–August 2022, Provo, UT, USA) under the Ohio State University’s license. The survey (Supplemental Data S1) was written in English and consisted of 94 multiple choice and free response questions asking about FIP diagnosis, clinical signs, initial therapies (used prior to molnupiravir), molnupiravir therapy, adverse events, the duration of treatment, and remission times. The number of free response questions was limited to reduce recall bias. The survey also allowed owners to upload relevant documents (e.g., veterinary medical records and laboratory results). The survey was formatted using questions from previous studies, to remain consistent in language and style, as well as newly created questions specific to the molnupiravir therapy experience. Survey logic dictated that some questions only appeared after a particular answer was selected, while others were skipped if a particular answer was selected. This conditional logic was used to reduce reporting bias and survey-taking fatigue. The survey took approximately 20–30 min to complete and could be saved and completed later, if needed. This study was approved by the Ohio State University Institutional Review Board (protocol #2021E0162).",
+   "zh": "在俄亥俄州立大学（Ohio State University）的许可下，使用Qualtrics XM（Qualtrics Version May–August 2022, Provo, UT, USA）创建了一份调查问卷。该问卷（补充数据S1）以英文撰写，由94道选择题和开放式问题组成，询问FIP诊断、临床症状、初始治疗（在molnupiravir之前使用的）、molnupiravir治疗、不良事件、疗程和缓解时间。开放式问题的数量受到限制以减少回忆偏倚。问卷还允许主人上传相关文件（如兽医病历和实验室结果）。问卷采用既往研究中的问题编排，以保持语言和风格一致，同时加入针对molnupiravir治疗经历新设计的问题。问卷逻辑规定，某些问题仅在选择特定答案后出现，而另一些问题在选择特定答案后被跳过。采用这种条件逻辑以减少报告偏倚和答卷疲劳。完成问卷约需20–30 min，如有需要可保存并稍后完成。本研究经俄亥俄州立大学机构审查委员会批准（方案#2021E0162）。"
+  },
+  {
+   "section": "2. Materials and Methods",
+   "section_zh": "2. 材料与方法",
+   "en": "The survey was distributed by email individually to participants, and data were collected from June to August 2022. Participants were identified from a subset of owners seeking molnupiravir therapy for their cat with suspected FIP through popular FIP therapy and support groups on social media. Inclusion criteria were surveys regarding cats presumed to have FIP based on diagnostics from a veterinarian, failure to respond to initial therapy or relapse of clinical signs after the completion of an initial therapy other than molnupiravir (e.g., GS-441524 or GC376), and the completion of 8–10 weeks of orally administered molnupiravir therapy (or those who subsequently died or were euthanized during therapy). A small cohort of cats who received molnupiravir for 8–10 weeks as the initial and only therapy, to be referred to as first-line therapy for the remainder of the paper, for suspect FIP were also included in this study. Exclusion criteria were surveys with incomplete data or cats that were not diagnosed with FIP by a veterinarian.",
+   "zh": "问卷通过电子邮件逐一分发给参与者，数据于2022年6月至8月收集。参与者从通过社交媒体上流行的FIP治疗和支持群组为其疑似FIP猫寻求molnupiravir治疗的主人中选取。纳入标准为：问卷所涉猫根据兽医的诊断被推定患有FIP，对初始治疗无反应或在完成molnupiravir以外的初始治疗（如GS-441524或GC376）后临床症状复发，且完成了8–10周的口服molnupiravir治疗（或在治疗期间死亡或被安乐死者）。一小组以molnupiravir作为疑似FIP初始且唯一治疗、持续8–10周的猫（本文其余部分称为一线治疗）也被纳入本研究。排除标准为数据不完整的问卷或未经兽医诊断为FIP的猫。"
+  },
+  {
+   "section": "3. Results / 3.1. Demographics",
+   "section_zh": "3. 结果 / 3.1. 人口学特征",
+   "en": "A total of 80 potential participants were identified through the social media FIP support group, and 37 survey invitations were sent to those participants with available contact information. In total, 33 surveys were submitted, and follow-up emails were sent to 21 participants in order to obtain complete survey data. Seventeen owners attached relevant documents to their survey submissions, and two additional owners emailed relevant documents to the study’s email account, which included veterinary medical records, laboratory results, and diagnostic imaging. These aforementioned documents were used to support the adverse reactions reported by one participant. One response was to decline to participate. Two cases were excluded because the cats did not receive a diagnosis of FIP from a veterinarian (one was reportedly self-diagnosed following the loss of a sibling to FIP, and the other was seen by a veterinarian who concluded that bloodwork was not consistent with FIP). Thus, a total of 30 cats with suspect FIP were included in this study, 4 of which did not receive any therapy prior to molnupiravir. These four cats were included as a separate small cohort of first-line molnupiravir treatment. A flowchart of these cases is shown in Figure 1. The represented countries of origin were the United States (25), Germany (2), Poland (2), and Sweden (1). The sex/neuter status of the cats at the time of diagnosis was 40% neutered male, 40% spayed female, and 20% non-neutered male. The mean age at diagnosis was 9.7 months of age, with a range from 1 month to 6 years. Most cats were of mixed or unknown breed (70%); there were seven purebred cats and two designer mixed breed cats (e.g., a Balinese/Ragdoll mix and a Siamese mix). Responses indicating a cat as an “American Shorthair” or “American Longhair” were instead categorized as mixed breed, due to the commonly observed confusion of American owners pertaining to this breed’s nomenclature.",
+   "zh": "通过社交媒体FIP支持群组共识别出80名潜在参与者，向其中有可用联系方式的37名参与者发出了调查邀请。共提交了33份问卷，并向21名参与者发送了跟进邮件以获取完整的问卷数据。十七名主人在提交问卷时附上了相关文件，另有两名主人将相关文件通过电子邮件发送至研究邮箱，包括兽医病历、实验室结果和影像学检查。上述文件被用于佐证一名参与者报告的不良反应。一份回复为拒绝参与。两例因猫未获兽医FIP诊断而被排除（一例据报告是在一只同胞死于FIP后由主人自行诊断，另一例经兽医检查后认为血液检查结果与FIP不符）。因此，本研究共纳入30只疑似FIP猫，其中4只在molnupiravir之前未接受任何治疗。这四只猫作为一个单独的一线molnupiravir治疗小组纳入。这些病例的流程图见图1。代表的来源国为美国（25）、德国（2）、波兰（2）和瑞典（1）。诊断时猫的性别/绝育状况为40%去势公猫、40%已绝育母猫和20%未去势公猫。诊断时平均年龄为9.7月龄，范围为1个月至6岁。大多数猫为混种或品种不明（70%）；有七只纯种猫和两只设计师混种猫（如巴厘猫/布偶猫混种和暹罗猫混种）。由于美国主人对该品种命名常见的混淆，回答为“American Shorthair”或“American Longhair”的猫被改归为混种。"
+  },
+  {
+   "section": "3. Results / 3.1. Demographics",
+   "section_zh": "3. 结果 / 3.1. 人口学特征",
+   "en": "With regard to comorbidities, only one cat was reported to have feline leukemia virus, and one other cat was reported to have calicivirus. Low numbers also reported a history of external and/or internal parasitic infections (3), conjunctivitis/ocular infections (2), and bacterial skin infections (pyoderma) (1). A total of 16 cats were reported to have neurological manifestations of FIP. Three were reported to have both neurological and ocular manifestations of FIP, and two reported only ocular FIP. Of the remaining cases, seven were effusive, while five cases were noneffusive. A complete breakdown of the FIP types is shown in Table 1.",
+   "zh": "关于合并症，仅一只猫报告有猫白血病病毒，另一只猫报告有杯状病毒。少数猫还报告有体外和/或体内寄生虫感染史（3）、结膜炎/眼部感染（2）和细菌性皮肤感染（脓皮病）（1）。共有16只猫报告有FIP神经系统表现。三只报告同时有神经系统和眼部表现，两只报告仅有眼型FIP。其余病例中，七例为渗出型，五例为非渗出型。FIP类型的完整分类见表1。"
+  },
+  {
+   "section": "3. Results / 3.2. Initial Therapy Prior to Molnupiravir",
+   "section_zh": "3. 结果 / 3.2. Molnupiravir之前的初始治疗",
+   "en": "In total, 26 out of 30 cats received an initial treatment for suspect FIP with unlicensed GS-441524 or a drug combination including unlicensed GS-441524 as the main base drug (GS-441524-based). Half (13) of the cats were treated with injectable GS-441524. Only three cats were treated with oral GS-441524, with an additional seven treated with a combination of injectable and oral GS-441524 throughout the duration of therapy. Two were treated with a combination of unlicensed GS-441524 and unlicensed GC376. Cat #6 was treated with all the previously mentioned drugs along with molnupiravir for 12 weeks of a highly complicated regimen (Supplemental Data S2). The dosages for the combination drugs used as part of the first-line therapy (e.g., GC376 and molnupiravir) were not collected. The reported starting dosages for unlicensed GS-441524 ranged from 2 mg/kg to 10 mg/kg; the most commonly reported were 5–6 mg/kg (eight cats) and 10 mg/kg (seven cats). Most (21) cats were dosed once a day. Only four were dosed twice a day, and one cat was initially dosed twice a day for one week before switching to once a day. The median duration of GS-441524-based therapy was 12 weeks (IQR = 12–13). Fifteen cats were reported to have changed daily doses during the treatment duration. Several cats increased the daily dose according to body weight to maintain the same dosage in mg/kg. Others increased the dosage in mg/kg due to a lack of clinical response or a change in the route of administration (e.g., injectable to oral GS-441524). No decreases in dose over the duration of therapy were reported by any participants.",
+   "zh": "30只猫中共有26只接受了未经许可的GS-441524或以未经许可的GS-441524为主要基础药物的药物组合（以GS-441524为基础）作为疑似FIP的初始治疗。半数（13）猫接受了注射用GS-441524治疗。仅三只猫接受了口服GS-441524治疗，另有七只在整个疗程中接受了注射与口服GS-441524联合治疗。两只接受了未经许可的GS-441524与未经许可的GC376联合治疗。6号猫在一个高度复杂的方案中接受了上述所有药物以及molnupiravir，共12周（补充数据S2）。作为一线治疗一部分的联合药物（如GC376和molnupiravir）的剂量未收集。报告的未经许可GS-441524起始剂量为2 mg/kg至10 mg/kg；最常报告的是5–6 mg/kg（八只猫）和10 mg/kg（七只猫）。大多数（21）猫每日给药一次。仅四只每日给药两次，一只猫最初每日给药两次持续一周后改为每日一次。以GS-441524为基础的治疗时长中位数为12周（IQR = 12–13）。十五只猫报告在治疗期间改变了每日剂量。若干猫根据体重增加每日剂量，以维持相同的mg/kg剂量。另一些猫因缺乏临床反应或给药途径改变（如注射用改为口服GS-441524）而提高mg/kg剂量。没有参与者报告在治疗期间减少剂量。"
+  },
+  {
+   "section": "3. Results / 3.2. Initial Therapy Prior to Molnupiravir",
+   "section_zh": "3. 结果 / 3.2. Molnupiravir之前的初始治疗",
+   "en": "A total of 6 out of 26 cats received less than the median 12-week duration of GS-441524-based therapy due to a lack of clinical response and immediately began a different course of treatment. Two out of six cats began another route or dosage of treatment with unlicensed GS-441524, as shown in Table 1. One cat switched from injectable to oral GS-441524 for the second treatment. The other cat simply increased the dosage of GS-441524 for the second treatment. The remaining four cats began treatment with unlicensed molnupiravir at this time, as seen in Table 2. Of the 20 cats who completed at least the 12-week duration of GS-441524 therapy, 16 were reported to have reached a clinical remission. All 16 were in remission for less than 6 months, with 2 cats in remission for less than a week prior to the return of clinical signs. All 16 began a second round of therapy, with 10 receiving a second round of GS-441524-based therapy and 6 starting molnupiravir at this time. The four cats who completed the course of GS-441524 but did not reach clinical remission immediately began molnupiravir therapy. In summary, 26 cats received GS-441524-based first-line therapy, and all 26 relapsed or did not respond adequately. In total, 10 out of 26 received a second round of GS-441524-based therapy, and 16 began molnupiravir.",
+   "zh": "26只猫中共有6只因缺乏临床反应，接受以GS-441524为基础的治疗不足12周中位时长，并立即开始了不同的治疗方案。6只中有两只开始了另一种给药途径或剂量的未经许可GS-441524治疗，见表1。一只猫在第二次治疗中由注射用改为口服GS-441524。另一只猫仅在第二次治疗中提高了GS-441524剂量。其余四只猫此时开始了未经许可的molnupiravir治疗，见表2。在完成至少12周GS-441524治疗的20只猫中，16只报告达到临床缓解。所有16只缓解时间均不足6个月，其中2只猫缓解不足一周即临床症状复发。所有16只开始了第二轮治疗，其中10只接受第二轮以GS-441524为基础的治疗，6只此时开始molnupiravir。完成GS-441524疗程但未达到临床缓解的四只猫立即开始了molnupiravir治疗。总之，26只猫接受了以GS-441524为基础的一线治疗，全部26只均复发或反应不足。26只中共有10只接受了第二轮以GS-441524为基础的治疗，16只开始了molnupiravir。",
+   "note_zh": "按本段分述，开始molnupiravir的猫为4+6+4=14只，接受第二轮GS-441524的为2+10=12只，与本段末“10只第二轮、16只开始molnupiravir”的小结不一致；按原文保留。"
+  },
+  {
+   "section": "3. Results / 3.3. Second Therapy Prior to Molnupiravir",
+   "section_zh": "3. 结果 / 3.3. Molnupiravir之前的第二次治疗",
+   "en": "In total, 10 of the 26 cats who received initial GS-441524 therapy and subsequently relapsed were reported to have received a second round of unlicensed GS-441524 before starting molnupiravir therapy. Again, most cats received injectable GS-441524 (6), with two receiving oral GS-441524 and two receiving both injectable and oral GS-441524. The reported dosages ranged from 4–5 mg/kg to 15 mg/kg; the most common dosages used were 7–8 mg/kg (two cats) and 15 mg/kg (two cats). Most cats were treated once a day (seven cats), with one cat dosed twice a day and one cat dosed three times a day. Most cats were reported to have had dose changes over the duration of therapy. Two doses were adjusted with weight gain to maintain the same mg/kg dosage. The dosage in mg/kg was increased for five cats who were not responding adequately or had new clinical signs (e.g., neurological signs).",
+   "zh": "在接受初始GS-441524治疗后复发的26只猫中，共有10只报告在开始molnupiravir治疗前接受了第二轮未经许可的GS-441524治疗。同样，大多数猫接受注射用GS-441524（6），两只接受口服GS-441524，两只接受注射与口服GS-441524。报告的剂量为4–5 mg/kg至15 mg/kg；最常用的剂量为7–8 mg/kg（两只猫）和15 mg/kg（两只猫）。大多数猫每日治疗一次（七只猫），一只猫每日给药两次，一只猫每日给药三次。大多数猫报告在治疗期间有剂量调整。两只随体重增加调整剂量以维持相同的mg/kg剂量。对反应不足或出现新临床症状（如神经症状）的五只猫提高了mg/kg剂量。"
+  },
+  {
+   "section": "3. Results / 3.3. Second Therapy Prior to Molnupiravir",
+   "section_zh": "3. 结果 / 3.3. Molnupiravir之前的第二次治疗",
+   "en": "The median duration of therapy was 12.5 weeks (IQR 9.75–14.25). Only two cats did not receive at least 12 weeks of therapy. One of the two added GC376 and molnupiravir to the current GS-441524 therapy, and the other started molnupiravir as a sole therapy. Of the eight cats who completed at least a 12-week duration of GS-441524 therapy, two did not report reaching clinical remission. Both cats began unlicensed molnupiravir therapy at that time. The remaining six cats were reported to have reached clinical remission after the second round of GS-441524 therapy. Five of the six cats were in remission for less than 4 weeks, the exception being one cat who was in remission for more than 6 months but less than a year. Seven out of ten cats began unlicensed molnupiravir at this time.",
+   "zh": "治疗时长中位数为12.5周（IQR 9.75–14.25）。仅两只猫未接受至少12周治疗。两只中一只在当前GS-441524治疗基础上加用了GC376和molnupiravir，另一只开始以molnupiravir作为单一治疗。在完成至少12周GS-441524治疗的八只猫中，两只未报告达到临床缓解。这两只猫此时均开始了未经许可的molnupiravir治疗。其余六只猫报告在第二轮GS-441524治疗后达到临床缓解。六只中有五只缓解时间不足4周，例外的一只猫缓解超过6个月但不足一年。十只中有七只此时开始了未经许可的molnupiravir。"
+  },
+  {
+   "section": "3. Results / 3.4. Third Therapy Prior to Molnupiravir",
+   "section_zh": "3. 结果 / 3.4. Molnupiravir之前的第三次治疗",
+   "en": "The three remaining cats received a final round of GS-441524-based therapy before switching to molnupiravir therapy. Cat #2 received oral GS-441524 for 5 weeks before beginning molnupiravir. Cat #9 received 6 weeks of oral and injectable GS-441524 and then continued with 6 weeks of only oral GS-442524. The dosage and frequency for both cats are unknown, as the survey only collected data for two therapies prior to molnupiravir. Cat #21 received a combination of GS-441524, GC376, and molnupiravir for 12 weeks. The dosage, frequency, and duration of each changed drastically over 12 weeks (Supplemental Data S3). All three cats began molnupiravir with no clinical remission from this third round of therapy.",
+   "zh": "其余三只猫在改用molnupiravir治疗前接受了最后一轮以GS-441524为基础的治疗。2号猫在开始molnupiravir前接受了5周口服GS-441524。9号猫接受了6周口服与注射用GS-441524，随后继续6周仅口服GS-442524。由于问卷仅收集molnupiravir之前两次治疗的数据，这两只猫的剂量和给药频率不详。21号猫接受了GS-441524、GC376和molnupiravir联合治疗12周。各药的剂量、频率和疗程在12周内变化很大（补充数据S3）。这三只猫均在第三轮治疗未达到临床缓解的情况下开始molnupiravir。",
+   "note_zh": "原文“GS-442524”应为GS-441524的笔误；按原文保留。"
+  },
+  {
+   "section": "3. Results / 3.5. Molnupiravir as Rescue Therapy",
+   "section_zh": "3. 结果 / 3.5. Molnupiravir作为挽救治疗",
+   "en": "Of the 26 cats receiving unlicensed molnupiravir as rescue therapy, most used an Aura brand of the medication, with only 2 reported to use a different brand of molnupiravir. Over 81% of the cats (18) were treated with Aura 2801, 1 cat was treated with Aura 1931, and 2 other cats were treated with both Aura formulations. The average starting dosage was 12.8 mg/kg twice a day. One cat was dosed only once a day, and two cats were dosed 2 to 3 times a day. The most common starting dosage used was 12 mg/kg twice a day. The dosage ranged from 6 to 28 mg/kg twice a day. There were 11 dosage changes reported, with all but one being a dosage increase. No explanation was given for the dosage decrease for cat #3. The average ending dosage was 14.7 mg/kg twice a day, with the same three cats differing in the frequency of dosing. The most common ending dosage was also 12 mg/kg twice a day. The dosage range was 7 to 30 mg/kg twice a day.",
+   "zh": "在接受未经许可的molnupiravir作为挽救治疗的26只猫中，大多数使用了Aura品牌的药物，仅2只报告使用了其他品牌的molnupiravir。超过81%的猫（18）接受Aura 2801治疗，1只猫接受Aura 1931治疗，另有2只猫接受了两种Aura制剂。平均起始剂量为12.8 mg/kg每日两次。一只猫仅每日给药一次，两只猫每日给药2至3次。最常用的起始剂量为12 mg/kg每日两次。剂量范围为6至28 mg/kg每日两次。共报告11次剂量调整，除一次外均为剂量增加。3号猫减少剂量的原因未作说明。平均终止剂量为14.7 mg/kg每日两次，同样有三只猫的给药频率不同。最常见的终止剂量也是12 mg/kg每日两次。剂量范围为7至30 mg/kg每日两次。",
+   "note_zh": "原文称“超过81%的猫（18）”，但18/26≈69%；且18+1+2+2（其他品牌）=23，不足26只；按原文保留。"
+  },
+  {
+   "section": "3. Results / 3.5. Molnupiravir as Rescue Therapy",
+   "section_zh": "3. 结果 / 3.5. Molnupiravir作为挽救治疗",
+   "en": "The median duration of therapy was 12 weeks (IQR 10–15). There was a wide reported range overall of 7–20 weeks. Only eight cats received less than 12 weeks of treatment. The cat who only completed 7 weeks of therapy was reported to have ceased therapy due to reaching clinical remission. All 26 cats completed a duration of therapy of 7 weeks or greater, and all 26 cats survived. There were no reports of missed doses of molnupiravir therapy.",
+   "zh": "治疗时长中位数为12周（IQR 10–15）。报告的总体范围较宽，为7–20周。仅八只猫接受了不足12周的治疗。仅完成7周治疗的猫据报告因达到临床缓解而停药。所有26只猫均完成了7周或更长的治疗，且所有26只猫均存活。没有漏服molnupiravir的报告。",
+   "note_zh": "本段称所有26只猫均存活，但第17段称1只猫在完成治疗一周后死亡、21号猫复发后被安乐死；按原文保留。"
+  },
+  {
+   "section": "3. Results / 3.5. Molnupiravir as Rescue Therapy",
+   "section_zh": "3. 结果 / 3.5. Molnupiravir作为挽救治疗",
+   "en": "Owners reported the improvement of clinical signs in over 92% of cats within three weeks of commencing molnupiravir therapy, with 84.6% of cats reported to display improvement within two weeks and almost half (46.2%) within one week. Only two cases were reported differently, with one cat not exhibiting any signs of improvement until 1.5 months and the owner of the other cat being unsure of the timeline and the degree of improvement of clinical signs. A total of seven cats were reported to have persistent clinical signs of FIP. One was reported to have a resolution of clinical signs after one week of the observation period. The remainder are thought to be residual, such as difficulty walking or jumping, tremors, MRI changes, and fecal incontinence. The full extent of the persistent clinical signs is found in Table 2. Only three cats were reported to have experienced adverse effects in response to molnupiravir, including nausea/vomiting, anorexia, folded ear tips (Figure 2), brittle whiskers, leukopenia, flaky skin, and muscle wasting. At the time of publication, 24 of 26 cats are living in clinical remission of FIP after oral molnupiravir therapy. One cat reportedly passed away one week after completing molnupiravir therapy due to a prolonged seizure, and the other cat (#21) was disease-free for 4 weeks before relapsing. Cat #21 was then started on a second round of molnupiravir at the same dosage but was subsequently euthanized due to a lack of response to treatment.",
+   "zh": "主人报告，超过92%的猫在开始molnupiravir治疗后三周内临床症状改善，84.6%的猫在两周内、近半数（46.2%）在一周内显示改善。仅两例报告情况不同，一只猫直到1.5个月才出现任何改善征象，另一只猫的主人不确定临床症状改善的时间线和程度。共有七只猫报告有持续的FIP临床症状。其中一只报告在观察期一周后临床症状消退。其余被认为是残留症状，如行走或跳跃困难、震颤、MRI改变和大便失禁。持续临床症状的完整情况见表2。仅三只猫报告对molnupiravir出现不良反应，包括恶心/呕吐、厌食、耳尖折叠（图2）、胡须易断、白细胞减少、皮肤脱屑和肌肉萎缩。截至发表时，26只猫中有24只在口服molnupiravir治疗后处于FIP临床缓解状态存活。一只猫据报告在完成molnupiravir治疗一周后因长时间癫痫发作死亡，另一只猫（#21）无病4周后复发。21号猫随后以相同剂量开始第二轮molnupiravir，但因治疗无反应最终被安乐死。"
+  },
+  {
+   "section": "3. Results / 3.5. Molnupiravir as Rescue Therapy",
+   "section_zh": "3. 结果 / 3.5. Molnupiravir作为挽救治疗",
+   "en": "Cat #22 was reported to have severe leukopenia. Through veterinary records, cat #22 was found to have moderate panleukopenia with lymphopenia, neutropenia, and normal hemogram and thrombogram on 4 out of 5 sequential complete blood counts, which were confirmed through veterinary records of sequential complete blood counts. The first reported white blood cell count was 10,700 cells per microliter (reference range 3500–16,000 cells per microliter). The next four complete blood counts showed white blood cell counts ranging from 1200 to 1900 cells per microliter. The first neutrophil count was 8560 cells per microliter (reference range 2500–8500 cells per microliter). The next four neutrophil counts ranged from 696 to 1292 cells per microliter. The first lymphocyte count was 1177 cells per microliter (reference range 1200–8000 cells per microliter). The next four lymphocyte counts ranged from 330 to 532 cells per microliter.",
+   "zh": "22号猫报告有严重白细胞减少。通过兽医病历发现，22号猫在5次连续全血细胞计数中的4次显示中度全白细胞减少伴淋巴细胞减少、中性粒细胞减少，血象和血小板象正常，这已通过连续全血细胞计数的兽医记录得到证实。首次报告的白细胞计数为10,700个/微升（参考范围3500–16,000个/微升）。随后四次全血细胞计数的白细胞计数为1200至1900个/微升。首次中性粒细胞计数为8560个/微升（参考范围2500–8500个/微升）。随后四次中性粒细胞计数为696至1292个/微升。首次淋巴细胞计数为1177个/微升（参考范围1200–8000个/微升）。随后四次淋巴细胞计数为330至532个/微升。"
+  },
+  {
+   "section": "3. Results / 3.6. Molnupiravir as a First-Line Therapy",
+   "section_zh": "3. 结果 / 3.6. Molnupiravir作为一线治疗",
+   "en": "A small cohort of four cats was treated with unlicensed molnupiravir as a sole therapy for suspect FIP, as shown in Table 3. Three reportedly chose molnupiravir over the unlicensed GS-441524 counterpart due to financial constraints. Cat #29 received a 12-week treatment of 12 mg/kg oral molnupiravir twice daily prior to the one shown in Table 3. This cat was disease-free for less than one week before restarting oral molnupiravir at 19 mg/kg twice daily for 10 weeks.",
+   "zh": "一小组四只猫接受未经许可的molnupiravir作为疑似FIP的单一治疗，见表3。据报告其中三只因经济限制选择molnupiravir而非未经许可的GS-441524。29号猫在表3所示疗程之前接受了12 mg/kg口服molnupiravir每日两次的12周治疗。该猫无病不足一周后，以19 mg/kg每日两次重新开始口服molnupiravir 10周。"
+  },
+  {
+   "section": "3. Results / 3.6. Molnupiravir as a First-Line Therapy",
+   "section_zh": "3. 结果 / 3.6. Molnupiravir作为一线治疗",
+   "en": "All four cats were treated with Aura 2801 oral molnupiravir with an average starting dosage of 11.75 mg/kg twice daily (range 8–19 mg/kg) and an average ending dosage of 12.25 mg/kg twice daily (range of 8–19 mg/kg). The median duration of therapy was 11.5 weeks (IQR 10–13), with two cats being treated for 10 weeks, and two cats being treated for 13 weeks. A Mann–Whitney test was performed and found no significant difference between the median duration of therapy for molnupiravir as a rescue therapy (12) and the duration of therapy for molnupiravir as an initial therapy (11.5) (p = 0.692). All owners reported seeing clinical improvement within two weeks, and one cat appeared to improve within one week. All cats survived treatment, were disease-free at the time of publication, and did not report adverse effects of the treatment.",
+   "zh": "所有四只猫均接受Aura 2801口服molnupiravir治疗，平均起始剂量为11.75 mg/kg每日两次（范围8–19 mg/kg），平均终止剂量为12.25 mg/kg每日两次（范围8–19 mg/kg）。治疗时长中位数为11.5周（IQR 10–13），两只猫治疗10周，两只猫治疗13周。进行了Mann–Whitney检验，发现molnupiravir作为挽救治疗的治疗时长中位数（12）与作为初始治疗的治疗时长（11.5）之间无显著差异（p = 0.692）。所有主人报告在两周内看到临床改善，一只猫似乎在一周内改善。所有猫均存活过治疗，截至发表时无病，且未报告治疗不良反应。"
+  },
+  {
+   "section": "3. Results / 3.7. Molnupiravir Based on Type of FIP",
+   "section_zh": "3. 结果 / 3.7. 按FIP类型的Molnupiravir治疗",
+   "en": "The above information was combined for all 30 cats and then further separated according to the clinical forms of FIP. The 16 cats reported to have the neurological form of FIP were considered first. Then, the remaining cats were separated by ocular (2), effusive (7), and noneffusive (5) forms. The average starting dosage of molnupiravir for neurological FIP was 14.4 mg/kg twice daily, where two cats were treated 2–3 times a day. The average ending dosage was 16.4 mg/kg twice a day, again with two cats being treated 2–3 times a day. The most commonly used starting and ending dosage was 12 mg/kg twice a day. The median duration of treatment for neurological FIP was 12 weeks (IQR 10–12.641).",
+   "zh": "将上述信息合并用于全部30只猫，再按FIP临床类型进一步区分。首先考虑报告为神经型FIP的16只猫。然后，将其余猫按眼型（2）、渗出型（7）和非渗出型（5）区分。神经型FIP的molnupiravir平均起始剂量为14.4 mg/kg每日两次，其中两只猫每日治疗2–3次。平均终止剂量为16.4 mg/kg每日两次，同样有两只猫每日治疗2–3次。最常用的起始和终止剂量为12 mg/kg每日两次。神经型FIP的治疗时长中位数为12周（IQR 10–12.641）。"
+  },
+  {
+   "section": "3. Results / 3.7. Molnupiravir Based on Type of FIP",
+   "section_zh": "3. 结果 / 3.7. 按FIP类型的Molnupiravir治疗",
+   "en": "For the two remaining ocular FIP cases, the average starting dosage was 11 mg/kg twice daily, and the average ending dosage was 13.5 mg/kg twice daily. They were treated for an average of 16.5 weeks. The seven effusive cases were treated with an average starting dosage of 10.5 mg/kg twice daily and an average ending dosage of 11.1 mg/kg twice daily. They were treated for a median of 13 weeks (IQR 12–16). The five noneffusive cases were treated with an average starting dosage of 10.6 mg/kg twice daily and an average ending dosage of 12.8 mg/kg twice daily. One cat was treated once daily. The median duration of therapy was 10 weeks (IQR 8.5–13.5).",
+   "zh": "其余两例眼型FIP病例的平均起始剂量为11 mg/kg每日两次，平均终止剂量为13.5 mg/kg每日两次。平均治疗16.5周。七例渗出型病例的平均起始剂量为10.5 mg/kg每日两次，平均终止剂量为11.1 mg/kg每日两次。治疗时长中位数为13周（IQR 12–16）。五例非渗出型病例的平均起始剂量为10.6 mg/kg每日两次，平均终止剂量为12.8 mg/kg每日两次。一只猫每日治疗一次。治疗时长中位数为10周（IQR 8.5–13.5）。"
+  },
+  {
+   "section": "3. Results / 3.8. Cost and Owner Satisfaction",
+   "section_zh": "3. 结果 / 3.8. 费用与主人满意度",
+   "en": "Most cats in this study were switched to unlicensed molnupiravir therapy due to treatment failure/relapse or lack of response. In addition to cats relapsing or not responding to unlicensed GS-441524-based therapy, one cat was reported to not tolerate the injectable form of GS, and three owners were limited due to the cost of therapy. Owners were not required to disclose the financial cost of treatment; the following information was disclosed on a voluntary basis only. Additionally, responses of “0” that were reported were not included when calculating the following averages due to the inability to decipher whether a “0” meant no cost or an unknown cost. The average reported cost for the initial round of GS-441524-based therapy was USD 3448.83, and similarly the average reported cost for the second round of GS-441524-based therapy was USD 3509.09. Only 4 owners reported paying for molnupiravir therapy, while 16 others reported “0” (or no cost/cost unknown). The overall average for the 20 who recorded a response to the financial cost survey question (including responses of “0”) for molnupiravir was USD 209. The average cost for the four owners who did not respond with “0” was USD 1045. While 90% of owners reported being “extremely” or “somewhat” satisfied with their experience treating their cat with molnupiravir, three were “extremely dissatisfied” with their experience. Unfortunately, no explanation for the reported dissatisfaction was given.",
+   "zh": "本研究中大多数猫因治疗失败/复发或无反应而改用未经许可的molnupiravir治疗。除对未经许可的以GS-441524为基础的治疗复发或无反应的猫外，一只猫据报告不耐受注射用GS，三名主人受治疗费用所限。主人无须披露治疗的经济费用；以下信息仅为自愿披露。此外，计算以下平均值时未纳入报告为“0”的回答，因为无法判断“0”是指无费用还是费用不明。以GS-441524为基础的首轮治疗报告平均费用为USD 3448.83，类似地，第二轮以GS-441524为基础的治疗报告平均费用为USD 3509.09。仅4名主人报告为molnupiravir治疗付费，另有16名报告“0”（或无费用/费用不明）。在对费用问题作答的20人中（包括“0”的回答），molnupiravir的总体平均费用为USD 209。未回答“0”的四名主人的平均费用为USD 1045。虽然90%的主人报告对使用molnupiravir治疗其猫的经历“非常”或“比较”满意，但有三名对其经历“非常不满意”。遗憾的是，未给出不满意的原因。"
+  },
+  {
+   "section": "4. Discussion",
+   "section_zh": "4. 讨论",
+   "en": "Here, we report the first known usage of unlicensed molnupiravir to treat suspected FIP in cats, according to owner-reported data. To treat cats using unlicensed molnupiravir as a first-line therapy for suspected FIP, a dosage of 12 mg/kg twice daily for approximately 12 weeks appears to be effective at achieving clinical remission, according to the combined data from this study. To treat cats using molnupiravir as a rescue therapy for failure or relapse after GS-441524-based therapy, a dosage of 12–15 mg/kg twice daily for 12–13 weeks appears to be effective at achieving clinical remission, according to the combined data from this study. However, when broken down by the clinical form of FIP, it was found that the neurological cases of FIP were generally treated at a higher dosage than the average for all types of FIP. The ocular, effusive, and noneffusive cases were treated with dosages around 12 mg/kg twice daily, with some variation. Therefore, a 15 mg/kg dosage of molnupiravir twice daily for 12 weeks appears to be effective for neurological cases of FIP. For ocular, effusive, and noneffusive cases, a 12 mg/kg dosage of molnupiravir twice daily for 12–13 weeks appears to be effective.",
+   "zh": "根据主人报告的数据，本文报告了已知首次使用未经许可的molnupiravir治疗猫疑似FIP。根据本研究的综合数据，使用未经许可的molnupiravir作为疑似FIP的一线治疗时，12 mg/kg每日两次、持续约12周的剂量似乎能有效实现临床缓解。根据本研究的综合数据，使用molnupiravir作为以GS-441524为基础的治疗失败或复发后的挽救治疗时，12–15 mg/kg每日两次、持续12–13周的剂量似乎能有效实现临床缓解。然而，按FIP临床类型细分时发现，神经型FIP病例的治疗剂量通常高于所有类型FIP的平均值。眼型、渗出型和非渗出型病例的治疗剂量约为12 mg/kg每日两次，略有差异。因此，15 mg/kg每日两次、持续12周的molnupiravir剂量似乎对神经型FIP病例有效。对于眼型、渗出型和非渗出型病例，12 mg/kg每日两次、持续12–13周的molnupiravir剂量似乎有效。"
+  },
+  {
+   "section": "4. Discussion",
+   "section_zh": "4. 讨论",
+   "en": "These data somewhat contrast with a proposed treatment protocol from a company manufacturing unlicensed molnupiravir under the brand name HERO Plus 2801. The package insert’s recommended dosages are 25 mg/kg once daily for effusive and noneffusive FIP, 37.5 mg/kg once daily for ocular FIP, and 50 mg/kg once daily for neurologic FIP [9]. The HERO Plus 2801 package insert also reveals preliminary data for “Oral Nutrition Treatment Effects on the Survival Time and Quality of Life for Feline Infectious Peritonitis”, a white paper that included 286 cats diagnosed with FIP. According to this package insert, 28 cats were cured with 4 weeks of treatment and 258 cats were cured after 8 weeks of treatment, with no deaths at the time of reporting [9]. The data from this study have yet to be published in the scientific literature.",
+   "zh": "这些数据与一家以HERO Plus 2801品牌生产未经许可molnupiravir的公司提出的治疗方案有所不同。其包装说明书推荐的剂量为：渗出型和非渗出型FIP 25 mg/kg每日一次，眼型FIP 37.5 mg/kg每日一次，神经型FIP 50 mg/kg每日一次[9]。HERO Plus 2801包装说明书还披露了“口服营养治疗对猫传染性腹膜炎存活时间和生活质量的影响”（Oral Nutrition Treatment Effects on the Survival Time and Quality of Life for Feline Infectious Peritonitis）的初步数据，这是一份纳入286只诊断为FIP的猫的白皮书。根据该包装说明书，28只猫经4周治疗治愈，258只猫经8周治疗治愈，报告时无死亡[9]。该研究的数据尚未在科学文献中发表。"
+  },
+  {
+   "section": "4. Discussion",
+   "section_zh": "4. 讨论",
+   "en": "Cats in this study, however, used molnupiravir from another supplier, Aura, who did not make specific treatment recommendations. The treatment protocols used were therefore based on the advice and information shared in social media groups, white papers published on the internet [10,11], and information about potential adverse effects contained in information published as part of human drug approval applications [12].",
+   "zh": "然而，本研究中的猫使用的是另一供应商Aura的molnupiravir，该供应商未给出具体治疗建议。因此，所用治疗方案基于社交媒体群组中分享的建议和信息、网上发布的白皮书[10,11]，以及人用药物审批申请中发布的有关潜在不良反应的信息[12]。"
+  },
+  {
+   "section": "4. Discussion",
+   "section_zh": "4. 讨论",
+   "en": "The molnupiravir treatment protocol deduced from this study aligns closer to an independently proposed protocol [10] published as a white paper online. By using data from in vitro cell cultures of EIDD-1931 and EIDD-2801, laboratory and field studies of GS-441524, and pharmacokinetic studies on people, these authors extrapolated an effective dosage for oral molnupiravir [10]. Their calculations suggested a dosage of 4.5 mg/kg every 12 h for effusive and noneffusive FIP, 8 mg/kg every 12 h for ocular FIP, and 10 mg/kg every 12 h for neurologic FIP [10]. Although the dosages in this study were generally higher than those proposed by the aforementioned authors, the high survival rate and low relapse rate at the time of survey completion suggest that unlicensed manufacturer recommendations may not represent the lowest effective dosage. Ultimately, controlled scientific experiments are badly needed to evaluate the lowest effective dosage of molnupiravir in cats with suspected FIP.",
+   "zh": "本研究推导出的molnupiravir治疗方案更接近网上以白皮书形式发布的一个独立提出的方案[10]。这些作者利用EIDD-1931和EIDD-2801的体外细胞培养数据、GS-441524的实验室和现场研究以及人体药代动力学研究，外推出了口服molnupiravir的有效剂量[10]。其计算建议渗出型和非渗出型FIP为4.5 mg/kg每12 h一次，眼型FIP为8 mg/kg每12 h一次，神经型FIP为10 mg/kg每12 h一次[10]。尽管本研究中的剂量普遍高于上述作者提出的剂量，但问卷完成时的高存活率和低复发率提示，未经许可厂商的建议可能并不代表最低有效剂量。归根结底，迫切需要对照科学实验来评估molnupiravir在疑似FIP猫中的最低有效剂量。"
+  },
+  {
+   "section": "4. Discussion",
+   "section_zh": "4. 讨论",
+   "en": "Several cats reported treatment with Aura 1931, which is the active metabolite of molnupiravir, EIDD-1931. The reported dosages used were similar in range to those reported for molnupiravir. Nominally, since the molecular weight of EIDD-1931 is lower than that of EIDD-2801, these cats received more of the active drug than cats using molnupiravir. However, a previous study showed decreasing oral bioavailability with increasing doses in mice. Therefore, the difference in bioavailable may not be proportional [13]. Unfortunately, feline pharmacokinetic studies of both molnupiravir and EIDD-1931 are lacking.",
+   "zh": "有几只猫报告接受了Aura 1931治疗，即molnupiravir的活性代谢物EIDD-1931。报告使用的剂量范围与molnupiravir报告的相似。名义上，由于EIDD-1931的分子量低于EIDD-2801，这些猫比使用molnupiravir的猫获得了更多的活性药物。然而，既往一项研究显示小鼠中口服生物利用度随剂量增加而降低。因此，生物可利用量的差异可能并不成比例[13]。遗憾的是，缺乏molnupiravir和EIDD-1931的猫药代动力学研究。"
+  },
+  {
+   "section": "4. Discussion",
+   "section_zh": "4. 讨论",
+   "en": "No adverse effects were reported on the HERO Plus 2801 package insert, contrasting what was reported in this study. Among the reported adverse effects of molnupiravir, the most notable were folded ears, losing whiskers, and severe leukopenia. No dermal or follicular lesions have been reported in the human medical literature to correspond with the whisker loss or ear folding reported here. However, it should be noted that the cats who experienced these side effects were receiving the two highest doses of molnupiravir reported in this study: 23 mg/kg three times a day and 30 mg/kg twice a day, respectively.",
+   "zh": "HERO Plus 2801包装说明书未报告不良反应，这与本研究报告的情况不同。在报告的molnupiravir不良反应中，最值得注意的是耳廓折叠、胡须脱落和严重白细胞减少。人类医学文献中未报告与此处报告的胡须脱落或耳廓折叠相对应的皮肤或毛囊病变。然而应注意，出现这些副作用的猫接受的是本研究报告的两个最高molnupiravir剂量：分别为23 mg/kg每日三次和30 mg/kg每日两次。"
+  },
+  {
+   "section": "4. Discussion",
+   "section_zh": "4. 讨论",
+   "en": "Severe bone marrow toxicity was reported in dogs during a 28-day trial that was cut short due to the severe effects of the drug [12]. All hematopoietic cell lines were reported to be affected at dosages of 17 mg/kg/day and 50 mg/kg/day [12]. Cat #22 received a maximum dosage of 23 mg/kg three times a day, which was much higher than the toxic dosage in dogs of 17 mg/kg once a day. The potential for reversibility was noted in the 17 mg/kg study group if treatment was halted [12].",
+   "zh": "在一项28天犬试验中报告了严重骨髓毒性，该试验因药物的严重作用而提前终止[12]。据报告，在17 mg/kg/day和50 mg/kg/day剂量下所有造血细胞系均受影响[12]。22号猫接受的最大剂量为23 mg/kg每日三次，远高于犬的中毒剂量17 mg/kg每日一次。在17 mg/kg研究组中注意到停药后有可逆的可能[12]。"
+  },
+  {
+   "section": "4. Discussion",
+   "section_zh": "4. 讨论",
+   "en": "There is concern about the contents of the unlicensed brands of molnupiravir, as these brands are not currently regulated and are frequently not labeled with their actual contents. The Hero brand (same manufacturer as HERO Plus 2801) shown in Figure 3 was analyzed by our group in December 2021 through Toxicology Associates Inc. (Columbus, OH). It was found to contain 97.3% molnupiravir, with no detection of other contaminants. The Aura 2801 product used by most of the participants in this study was analyzed in September 2022 by the same laboratory. It was found to contain 96.8% pure molnupiravir. A more controlled assessment of the true content and purity of the unlicensed formulations of both GS-441524 and molnupiravir is of great interest to the veterinary community and an active area of investigation for our group.",
+   "zh": "未经许可的molnupiravir品牌的成分令人担忧，因为这些品牌目前不受监管，且常常未标注其实际成分。图3所示的Hero品牌（与HERO Plus 2801为同一厂商）由本团队于2021年12月通过Toxicology Associates Inc.（Columbus, OH）进行了分析。发现其含97.3%的molnupiravir，未检出其他污染物。本研究大多数参与者使用的Aura 2801产品于2022年9月由同一实验室分析。发现其含96.8%的纯molnupiravir。对GS-441524和molnupiravir未经许可制剂的真实成分和纯度进行更受控的评估，是兽医界非常关注的问题，也是本团队正在积极研究的领域。"
+  },
+  {
+   "section": "4. Discussion",
+   "section_zh": "4. 讨论",
+   "en": "Some limitations of this study are due to the retrospective nature and the legality of the therapies being used. First, all data used for this study were owner-reported. Working closely with the owners and the social media website administrators who supported this cohort allowed for a greater understanding and interpretation of many survey responses. Due to the lack of definitive antemortem FIP diagnostics available for practical use, there was also an inability to confirm that the cats enrolled in this study had FIP. Moreover, the data are likely biased toward positive outcomes and may suffer from recall error. During the distribution phase, a possible study participant responded by asking to be removed from our email list and indicated they would not like to participate in the study. Their cat did not respond to molnupiravir treatment and was ultimately euthanized. It is hypothesized that others may have felt the same way, as three additional possible participants did not respond to the study invitation. This may limit the number of participants with unfavorable outcomes and falsely elevate the apparent survival. Thus, the data reported here are meant to serve as proof of the possibility of molnupiravir as a first-line or rescue therapy for FIP, not as a true rate of efficacy.",
+   "zh": "本研究的一些局限源于其回顾性质和所用疗法的合法性。首先，本研究使用的所有数据均为主人报告。与主人以及支持该群组的社交媒体网站管理员密切合作，有助于更好地理解和解读许多问卷回答。由于缺乏可实际使用的确定性生前FIP诊断方法，也无法确认本研究纳入的猫患有FIP。此外，数据可能偏向积极结局，并可能存在回忆误差。在分发阶段，一名可能的研究参与者回复要求从我们的邮件列表中删除，并表示不愿参与研究。其猫对molnupiravir治疗无反应，最终被安乐死。推测其他人可能也有同样的感受，因为另有三名可能的参与者未回复研究邀请。这可能限制了结局不佳的参与者数量，并虚高了表观存活率。因此，此处报告的数据旨在证明molnupiravir作为FIP一线或挽救治疗的可能性，而非真实的疗效率。"
+  },
+  {
+   "section": "4. Discussion",
+   "section_zh": "4. 讨论",
+   "en": "For the cats who used unlicensed molnupiravir as a rescue therapy, the cause of failure to respond or relapse following GS-441524-based therapy was not identified. It may have been related to drug quality, viral resistance, or some other factor. Since there is currently no testing or regulation in the USA, unlicensed versions of GS-441524 or GC376 may have insufficient purity or concentration, leading to treatment failure. Another possible cause is natural or acquired resistance to GS-441524. These two causes can also be related, as acquired resistance may be encouraged when an insufficient amount of the antiviral is used in therapy, such as with low-quality preparations of the drug.",
+   "zh": "对于使用未经许可的molnupiravir作为挽救治疗的猫，以GS-441524为基础的治疗后无反应或复发的原因未能确定。这可能与药物质量、病毒耐药或其他因素有关。由于美国目前没有检测或监管，未经许可的GS-441524或GC376可能纯度或浓度不足，导致治疗失败。另一个可能原因是对GS-441524的天然或获得性耐药。这两个原因也可能相关，因为治疗中使用的抗病毒药量不足时（例如使用低质量的药物制剂），可能促使获得性耐药产生。"
+  },
+  {
+   "section": "4. Discussion",
+   "section_zh": "4. 讨论",
+   "en": "A recent article found no SARS-CoV-2 drug-induced viral mutations during molnupiravir treatment [14]. This suggests that SARS-CoV-2 viral resistance is unlikely to emerge with molnupiravir therapy. Thus, molnupiravir therapy may be similarly unlikely to induce viral resistance in FIPV, making it an attractive therapeutic option.",
+   "zh": "最近一篇文章发现molnupiravir治疗期间未出现SARS-CoV-2药物诱导的病毒突变[14]。这提示molnupiravir治疗不太可能产生SARS-CoV-2病毒耐药。因此，molnupiravir治疗同样可能不太会在FIPV中诱导病毒耐药，使其成为一种有吸引力的治疗选择。"
+  },
+  {
+   "section": "4. Discussion",
+   "section_zh": "4. 讨论",
+   "en": "However, there is clearly a need for (1) a legal (in the United States and elsewhere) alternative to unlicensed GS-441524 therapy and (2) the availability of alternative rescue drugs, either alone or in combination, following GS-441524 therapy failure. Molnupiravir has the potential to fill both of these niches, and this is the first known report of its use in cats in the scientific literature. Nevertheless, unlicensed products may continue to be used for FIP due to the cost and the widely established networks available to obtain them.",
+   "zh": "然而，显然需要（1）一种（在美国及其他地区）合法的、可替代未经许可GS-441524治疗的方案，以及（2）在GS-441524治疗失败后可单用或联用的替代挽救药物。Molnupiravir有潜力填补这两个空白，这是科学文献中已知首个关于其在猫中使用的报告。尽管如此，由于费用以及获取渠道网络的广泛建立，未经许可的产品可能会继续被用于FIP。"
+  },
+  {
+   "section": "4. Discussion",
+   "section_zh": "4. 讨论",
+   "en": "In conclusion, unlicensed molnupiravir appears to be an effective treatment for suspected FIP both as a first-line therapy and as a rescue therapy, according to owner-reported data. There are minimal reported side effects at the dosage of 12–15 mg/kg every twelve hours, and it provides the possibility of survival with the clinical remission of signs of FIP. Although unconventional and potentially unlawful, the experiences of these owners in treating and apparently curing cats of FIP is undeniably remarkable, and there is much we can learn from the experiments being conducted by these “citizen scientists.” By reporting these experiences, we aim to provide a starting point for the investigation of molnupiravir for use in cats with suspected FIP and to document a crowd-sourced health phenomenon that should not be ignored by our profession.",
+   "zh": "总之，根据主人报告的数据，未经许可的molnupiravir无论作为一线治疗还是挽救治疗，似乎都是疑似FIP的有效治疗。在12–15 mg/kg每十二小时一次的剂量下，报告的副作用很少，并提供了FIP症状临床缓解而存活的可能。尽管非常规且可能违法，这些主人治疗并显然治愈FIP猫的经历无疑是非凡的，我们可以从这些“公民科学家”所进行的实验中学到很多。通过报告这些经历，我们旨在为研究molnupiravir用于疑似FIP猫提供一个起点，并记录一种我们这个行业不应忽视的众包健康现象。"
+  },
+  {
+   "section": "Acknowledgments",
+   "section_zh": "致谢",
+   "en": "The authors wish to sincerely thank the owners and cats involved in this study.",
+   "zh": "作者衷心感谢参与本研究的主人和猫。"
+  },
+  {
+   "section": "Author Contributions",
+   "section_zh": "作者贡献",
+   "en": "Conceptualization, N.J. and S.J.M.E.; methodology, M.R., E.L. and R.N.; investigation, M.R. and N.J.; data curation, M.R., N.J. and W.N.; writing—original draft preparation, M.R.; writing—review and editing, M.R., E.L., R.N., W.N. and S.J.M.E.; supervision, S.J.M.E. All authors have read and agreed to the published version of the manuscript.",
+   "zh": "构思，N.J.和S.J.M.E.；方法，M.R.、E.L.和R.N.；调查，M.R.和N.J.；数据管理，M.R.、N.J.和W.N.；写作——初稿，M.R.；写作——审阅与编辑，M.R.、E.L.、R.N.、W.N.和S.J.M.E.；指导，S.J.M.E.。所有作者均已阅读并同意稿件的发表版本。"
+  },
+  {
+   "section": "Institutional Review Board Statement",
+   "section_zh": "机构审查委员会声明",
+   "en": "The study was conducted in accordance with the Declaration of Helsinki and was approved by the Institutional Review Board of Ohio State University (protocol #2021E0162).",
+   "zh": "本研究按照《赫尔辛基宣言》开展，并经俄亥俄州立大学机构审查委员会批准（方案#2021E0162）。"
+  },
+  {
+   "section": "Informed Consent Statement",
+   "section_zh": "知情同意声明",
+   "en": "Informed consent was obtained from all subjects involved in the study.",
+   "zh": "已获得所有参与研究对象的知情同意。"
+  },
+  {
+   "section": "Conflicts of Interest",
+   "section_zh": "利益冲突",
+   "en": "The authors declare no conflict of interest.",
+   "zh": "作者声明不存在利益冲突。"
+  },
+  {
+   "section": "Funding Statement",
+   "section_zh": "资助声明",
+   "en": "This research received no external funding.",
+   "zh": "本研究未获得外部资助。"
+  },
+  {
+   "section": "Figure legend",
+   "section_zh": "图注",
+   "en": "Figure 1 This flowchart depicts the number of cases in each treatment block.",
+   "zh": "图1 该流程图描述了各治疗阶段的病例数。"
+  },
+  {
+   "section": "Table caption",
+   "section_zh": "表题",
+   "en": "Table 1 Signalment and characteristics of initial therapies for all 30 cats treated with unlicensed molnupiravir for suspected FIP.",
+   "zh": "表1 30只接受未经许可molnupiravir治疗疑似FIP的猫的基本信息及初始治疗特征。"
+  },
+  {
+   "section": "Table caption",
+   "section_zh": "表题",
+   "en": "Table 2 Treatment and outcome characteristics of 26 cats that received unlicensed molnupiravir as a rescue therapy.",
+   "zh": "表2 26只接受未经许可molnupiravir作为挽救治疗的猫的治疗和结局特征。"
+  },
+  {
+   "section": "Figure legend",
+   "section_zh": "图注",
+   "en": "Figure 2 Folded ear tips were reported as an adverse effect of unlicensed molnupiravir therapy in Cat #21.",
+   "zh": "图2 21号猫报告的耳尖折叠，为未经许可molnupiravir治疗的不良反应。"
+  },
+  {
+   "section": "Table caption",
+   "section_zh": "表题",
+   "en": "Table 3 Treatment and outcome characteristics of 4 cats who received unlicensed molnupiravir as first-line therapy.* Received two rounds of molnupiravir therapy; first round documented in Table 1.",
+   "zh": "表3 4只接受未经许可molnupiravir作为一线治疗的猫的治疗和结局特征。* 接受了两轮molnupiravir治疗；第一轮记录于表1。"
+  },
+  {
+   "section": "Figure legend",
+   "section_zh": "图注",
+   "en": "Figure 3 Images of packaging of Hero brand unlicensed molnupiravir product.",
+   "zh": "图3 Hero品牌未经许可molnupiravir产品的包装图片。"
+  }
+ ]
+}

@@ -1,0 +1,397 @@
+{
+ "pmid": "41035288",
+ "license": "CC BY 4.0",
+ "attribution": {
+  "authors": [
+   "Andrews Amy L M M",
+   "Izaguirre Eneko",
+   "Green Jodie",
+   "Scurrell Emma",
+   "Gogova Savina",
+   "Tayler Sarah",
+   "Kafarnik Christiane"
+  ],
+  "title": "Treatment With Remdesivir Alone or in Combination With GS‐441524 in Cats With Ocular Involvement of Feline Infectious Peritonitis: An Observational Case Series",
+  "journal": "Journal of Veterinary Internal Medicine",
+  "year": "2025",
+  "doi": "10.1111/jvim.70253",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "note": "中文为 AI 翻译，以英文原文为准；已对原文做翻译改编"
+ },
+ "scope_zh": "标题、结构化摘要、关键词、全文正文（引言、材料与方法、结果、讨论）、超说明书用药声明、伦理声明、利益冲突、致谢；表1–2表题、图1–7图注。未含：引用格式行、参考文献、表格正文、补充材料（表S1）。",
+ "paragraphs": [
+  {
+   "section": "Title",
+   "section_zh": "标题",
+   "en": "Treatment With Remdesivir Alone or in Combination With GS‐441524 in Cats With Ocular Involvement of Feline Infectious Peritonitis: An Observational Case Series",
+   "zh": "Remdesivir单用或联合GS‐441524治疗眼部受累的猫传染性腹膜炎猫：一项观察性病例系列"
+  },
+  {
+   "section": "Abstract / Background",
+   "section_zh": "摘要 / 背景",
+   "en": "Remdesivir and GS‐441524 have successfully treated cats with feline infectious peritonitis (FIP) but the changes in associated signs of ocular disease are not reported.",
+   "zh": "Remdesivir（瑞德西韦）和GS‐441524已成功治疗猫传染性腹膜炎（FIP）猫，但相关眼病征象的变化尚未见报告。"
+  },
+  {
+   "section": "Abstract / Objective",
+   "section_zh": "摘要 / 目的",
+   "en": "Evaluate the response of FIP‐associated signs of ocular disease before and after treatment with remdesivir, GS‐441524, or both.",
+   "zh": "评估FIP相关眼病征象在remdesivir、GS‐441524或二者联合治疗前后的反应。"
+  },
+  {
+   "section": "Abstract / Animals",
+   "section_zh": "摘要 / 动物",
+   "en": "Sixty‐one cats diagnosed with FIP by the Internal Medicine services between October 2021 and December 2022 that were treated with injectable, oral, or a combination of anti‐viral therapies were reviewed.",
+   "zh": "回顾了2021年10月至2022年12月间由内科服务诊断为FIP、并接受注射、口服或联合抗病毒治疗的六十一只猫。"
+  },
+  {
+   "section": "Abstract / Methods",
+   "section_zh": "摘要 / 方法",
+   "en": "Observation study. Signalment, associated signs of ocular disease, treatment, outcome, and follow‐up of affected cats were analyzed.",
+   "zh": "观察性研究。分析受累猫的基本信息、相关眼病征象、治疗、结局和随访。"
+  },
+  {
+   "section": "Abstract / Results",
+   "section_zh": "摘要 / 结果",
+   "en": "Associated signs of ocular disease in cats with FIP were diagnosed in 33% (20/61) cats, with a median follow‐up of 55 days (IQR 47.3–90.8, range: 16–1071 days) in 11 cats with FIP. Ocular changes were all associated with uveitis, of which 20% (4/20) had anterior uveitis, 25% (5/20) had posterior uveitis, and 55% (11/20) had panuveitis. Ocular disease occurred in effusive (11/20; 55%) and non‐effusive (9/20; 45%) FIP and was bilateral in 70% (14/20) cats. All cats started an 84‐day course of treatment, with the majority (17/20; 85%) receiving remdesivir in the initial period. Of those, 70% (12/17) received a high dose of 15–20 mg/kg/day. Eleven cats with uveitis had long‐term follow‐up nine (9/11; 82%) of these had resolution of uveitis. Eighty‐seven percent (13/15) of cases with anterior uveitis received topical anti‐inflammatory medication. Eighty percent (16/20) of cats survived.",
+   "zh": "33%（20/61）的FIP猫被诊断出相关眼病征象，其中11只FIP猫的随访时间中位数为55天（IQR 47.3–90.8，范围：16–1071天）。眼部改变均与葡萄膜炎相关，其中20%（4/20）为前葡萄膜炎，25%（5/20）为后葡萄膜炎，55%（11/20）为全葡萄膜炎。眼病见于渗出型（11/20；55%）和非渗出型（9/20；45%）FIP，70%（14/20）的猫为双侧。所有猫均开始84天疗程，大多数（17/20；85%）在初始阶段接受remdesivir。其中70%（12/17）接受15–20 mg/kg/天的高剂量。十一只葡萄膜炎猫有长期随访，其中九只（9/11；82%）葡萄膜炎消退。前葡萄膜炎病例中87%（13/15）接受了局部抗炎药物。80%（16/20）的猫存活。",
+   "note_zh": "摘要称“前葡萄膜炎病例中87%（13/15）”，正文第28段该数据针对“前/全葡萄膜炎”病例（4+11=15）；按原文保留。"
+  },
+  {
+   "section": "Abstract / Conclusion and Clinical Importance",
+   "section_zh": "摘要 / 结论与临床意义",
+   "en": "Cats with FIP commonly have ocular involvement. Associated uveitis responded to remdesivir or GS‐441524 treatment effectively in 82% of cases.",
+   "zh": "FIP猫常有眼部受累。相关葡萄膜炎在82%的病例中对remdesivir或GS‐441524治疗有效应答。"
+  },
+  {
+   "section": "Abstract / Keywords",
+   "section_zh": "摘要 / 关键词",
+   "en": "Keywords: anterior uveitis, cat, coronavirus, FIP, posterior uveitis, viral",
+   "zh": "关键词：前葡萄膜炎，猫，冠状病毒，FIP，后葡萄膜炎，病毒"
+  },
+  {
+   "section": "Introduction",
+   "section_zh": "引言",
+   "en": "Feline infectious peritonitis (FIP) is a widespread disease caused by a highly pathogenic mutant of the ubiquitous feline enteric coronavirus (FCoV). Historically, no effective treatment has been available. However, in recent years, multiple studies describe antiviral compounds that inhibit viral ribonucleic acid (RNA) synthesis with promising outcomes [1, 2, 3, 4, 5, 6].",
+   "zh": "猫传染性腹膜炎（FIP）是一种广泛存在的疾病，由普遍存在的猫肠道冠状病毒（FCoV）的高致病性突变株引起。历史上一直没有有效的治疗方法。然而近年来，多项研究描述了可抑制病毒核糖核酸（RNA）合成的抗病毒化合物，结局令人鼓舞[1, 2, 3, 4, 5, 6]。"
+  },
+  {
+   "section": "Introduction",
+   "section_zh": "引言",
+   "en": "FIP can be classified as effusive (wet) or non‐effusive (dry), with or without ocular or neurological involvement [5]. Whilst clinical classification guides diagnostics and treatment, the histopathological overlap, such as the presence of pyogranulomas identified on post‐mortem examination in both non‐effusive and effusive cats, suggests these forms are not distinct disease entities [7, 8]. Ocular and neurological involvement occur more frequently in cats with non‐effusive FIP and are documented in up to 36% of cases [7, 8, 9, 10]. Less often, ocular involvement occurs in up to 5% of effusive cases of FIP [8, 10].",
+   "zh": "FIP可分为渗出型（湿性）或非渗出型（干性），伴或不伴眼部或神经系统受累[5]。虽然临床分类可指导诊断和治疗，但组织病理学上的重叠，例如在非渗出型和渗出型猫尸检中均发现脓性肉芽肿，提示这些类型并非不同的疾病实体[7, 8]。眼部和神经系统受累在非渗出型FIP猫中更为常见，有记录者可达36%的病例[7, 8, 9, 10]。较少见的是，渗出型FIP病例中眼部受累可达5%[8, 10]。"
+  },
+  {
+   "section": "Introduction",
+   "section_zh": "引言",
+   "en": "Ocular manifestations of FIP include anterior or posterior uveitis with examination findings such as keratic precipitates, dyscoria, anisocoria, change in iris color, hyphema, hypopyon, and fibrinous exudate [8, 9, 11]. Posterior segment abnormalities include hyporeflective tapetal lesions, gray to white non‐tapetal lesions, retinal hemorrhage, tortuosity of retinal vasculature, detachment, and perivascular effusions [8, 9]. There is an “ocular‐signs dominant” form of FIP, in which uveitis is the most commonly observed clinical feature [12].",
+   "zh": "FIP的眼部表现包括前或后葡萄膜炎，检查所见包括角膜后沉着物、瞳孔变形、瞳孔不等、虹膜颜色改变、前房积血、前房积脓和纤维素性渗出物[8, 9, 11]。后节异常包括低反射性绒毡层病变、灰色至白色非绒毡层病变、视网膜出血、视网膜血管迂曲、脱离和血管周围渗出[8, 9]。存在一种“眼部征象为主”型FIP，其中葡萄膜炎是最常见的临床特征[12]。"
+  },
+  {
+   "section": "Introduction",
+   "section_zh": "引言",
+   "en": "Antiviral treatment of FIP consists of the use of GS‐441524 with or without prior administration of its prodrug remdesivir (GS‐5734) [1, 2, 4, 5, 13, 14]. GS‐441524 is a nucleoside analogue that competes with endogenous nucleoside pools, preventing viral RNA replication by causing premature termination of viral RNA synthesis, therefore, preventing viral transcription and translation [15]. Remdesivir improves cellular penetration of the parent nucleoside GS‐441524 [15]. Before the use of antiviral medication, the prognosis for cats with FIP was grave, with uveitis remaining persistent despite supportive anti‐inflammatory drugs [16].",
+   "zh": "FIP的抗病毒治疗包括使用GS‐441524，之前可先给予或不给予其前药remdesivir（GS‐5734）[1, 2, 4, 5, 13, 14]。GS‐441524是一种核苷类似物，与内源性核苷池竞争，通过使病毒RNA合成过早终止来阻止病毒RNA复制，从而阻止病毒转录和翻译[15]。Remdesivir可改善母体核苷GS‐441524的细胞穿透性[15]。在使用抗病毒药物之前，FIP猫的预后严重，尽管给予支持性抗炎药物，葡萄膜炎仍持续存在[16]。"
+  },
+  {
+   "section": "Introduction",
+   "section_zh": "引言",
+   "en": "There is limited information on cats with FIP with ocular involvement having undergone treatment with remdesivir or GS‐441524 [1, 2, 3, 4, 5, 13, 17]. In experimentally infected cats treated with GS‐441524, 22%–33% of the plasma concentration was detected in the aqueous humor [4]. Resolution of signs of ocular disease occurs in cats with naturally occurring FIP under treatment with GS‐441524 [2]. Absence of FCoV antigen in numerous tissue samples from around the body and the aqueous humor 164 days after the treatment course of GS‐441524 is documented [13]. Dose ranges for the use of remdesivir and GS‐441524 are variable, with higher doses of up to 20 mg/kg being recommended in cases with ocular or neurologic involvement [18].",
+   "zh": "关于眼部受累的FIP猫接受remdesivir或GS‐441524治疗的信息有限[1, 2, 3, 4, 5, 13, 17]。在接受GS‐441524治疗的实验感染猫中，房水中检测到的浓度为血浆浓度的22%–33%[4]。自然发生FIP的猫在GS‐441524治疗下眼病征象可消退[2]。有文献记录GS‐441524疗程结束后164天，全身多处组织样本和房水中均无FCoV抗原[13]。Remdesivir和GS‐441524的剂量范围不一，对于眼部或神经系统受累的病例推荐最高达20 mg/kg的较高剂量[18]。"
+  },
+  {
+   "section": "Introduction",
+   "section_zh": "引言",
+   "en": "The aim of this observational case series was to describe presenting signs of ocular disease, treatment protocols, clinical progression, and outcomes of cats with FIP and ocular involvement treated with remdesivir, GS‐441524, or a combination of both.",
+   "zh": "本观察性病例系列的目的是描述接受remdesivir、GS‐441524或二者联合治疗的眼部受累FIP猫的眼病表现征象、治疗方案、临床进展和结局。"
+  },
+  {
+   "section": "Materials and Methods",
+   "section_zh": "材料与方法",
+   "en": "This observational study was carried out at the Queen Mother Hospital for Animals (QMHA) and North Down Specialist Referrals (NDSR) recruiting cats from October 2021 to December 2022 (ethical approval URN: amended SS2021‐0208).",
+   "zh": "本观察性研究在Queen Mother Hospital for Animals（QMHA）和North Down Specialist Referrals（NDSR）开展，于2021年10月至2022年12月招募猫（伦理批准URN：amended SS2021‐0208）。"
+  },
+  {
+   "section": "Materials and Methods",
+   "section_zh": "材料与方法",
+   "en": "All cats diagnosed with FIP underwent an ophthalmic examination including tonometry, slit lamp biomicroscopy and posterior segment examination including fundoscopy. Clinical diagnosis of concurrent ocular disease in cats diagnosed with FIP was made by a diplomate of the European College of Veterinary Ophthalmologists or a resident working under their direct supervision. All cats included had been treated with either remdesivir, GS‐441524 or a combination of both, for a period of 84 consecutive days (unless the cat died or was humanly euthanized before completion of the course) [5]. If active signs of uveitis consistent with FIP were identified, then the cat was included in the current study. Each cat that was diagnosed with ocular involvement underwent ophthalmic examination daily during hospitalization. After discharge, cats with FIP‐associated signs of uveitis underwent ophthalmic examination at every subsequent consultation at the QMHA. The case diagnosed at NDSR was recruited solely by an author due to the specific histopathologic findings in that cat. Any cat treated with medication not sourced from a veterinary‐approved pharmaceutical manufacturer was excluded due to legal considerations and uncertainty regarding drug composition [12, 19].",
+   "zh": "所有诊断为FIP的猫均接受了眼科检查，包括眼压测量、裂隙灯生物显微镜检查以及包括眼底镜检查在内的后节检查。FIP猫并发眼病的临床诊断由欧洲兽医眼科学院（European College of Veterinary Ophthalmologists）专科医师或在其直接指导下工作的住院医师作出。所有纳入的猫均接受了remdesivir、GS‐441524或二者联合治疗，疗程为连续84天（除非猫在疗程结束前死亡或被人道安乐死）[5]。若发现与FIP相符的活动性葡萄膜炎征象，则将该猫纳入本研究。每只被诊断为眼部受累的猫在住院期间每日接受眼科检查。出院后，有FIP相关葡萄膜炎征象的猫在QMHA的每次后续复诊时均接受眼科检查。在NDSR诊断的病例因该猫特殊的组织病理学发现而仅由一名作者招募。任何使用非兽医批准制药厂商来源药物治疗的猫，均因法律考虑和药物成分不确定而被排除[12, 19]。",
+   "note_zh": "原文“humanly euthanized”应为“humanely”（人道），译文按词义译为“人道安乐死”。"
+  },
+  {
+   "section": "Materials and Methods / Signalment and Presenting Clinical Signs",
+   "section_zh": "材料与方法 / 基本信息与就诊临床症状",
+   "en": "Data recorded included sex and neuter status, age (in months) at the time of presentation, breed, days from admission to starting antiviral medication, presence or absence of concurrent signs of neurological disease, diagnosis of effusive or non‐effusive form of FIP and the number of days of hospitalization. The findings of the ocular examination were classified as anterior, posterior and panuveitis. Secondary glaucoma was defined as an intraocular pressure (IOP) > 25 mmHg [20]. Ocular hypotension was classified as < 10 mmHg and notably (> 20%) lower intraocular pressure than the normal eye, if there was unilateral disease [21].",
+   "zh": "记录的数据包括性别和绝育状况、就诊时年龄（月）、品种、从入院到开始抗病毒药物的天数、是否并发神经系统疾病征象、FIP渗出型或非渗出型诊断以及住院天数。眼科检查结果分为前葡萄膜炎、后葡萄膜炎和全葡萄膜炎。继发性青光眼定义为眼压（IOP）> 25 mmHg[20]。眼压过低定义为< 10 mmHg，且在单侧患病时眼压明显（> 20%）低于正常眼[21]。"
+  },
+  {
+   "section": "Materials and Methods / Diagnosis of FIP",
+   "section_zh": "材料与方法 / FIP的诊断",
+   "en": "Clinical diagnosis of FIP was carried out by a board certified diplomate of Internal Medicine or a resident under their direct supervision, based on a combination of signalment, clinical signs, hematologic and serum biochemistry findings, imaging, coronavirus reverse transcription polymerase chain reaction (RT‐PCR) in cerebrospinal fluid (CSF) and cytologic examination as previously published [5, 8]. Coronavirus RT‐PCR on effusions, aqueous humor or lymph node aspirates, immunocytochemistry and immunohistochemistry were considered desirable but not essential for diagnosis if there was a very high index of suspicion for the disease based upon other clinicopathologic findings. Details of the results of selected hematology/biochemistry values and further diagnostic tests for each cat can be found in Table S1 of the supplementary information.",
+   "zh": "FIP的临床诊断由委员会认证的内科专科医师或在其直接指导下的住院医师作出，依据基本信息、临床症状、血液学和血清生化结果、影像学、脑脊液（CSF）冠状病毒逆转录聚合酶链反应（RT‐PCR）以及细胞学检查的组合，如既往发表文献所述[5, 8]。若基于其他临床病理结果对该病的怀疑指数非常高，则积液、房水或淋巴结抽吸物的冠状病毒RT‐PCR、免疫细胞化学和免疫组织化学被视为可取但非诊断必需。各猫部分血液学/生化指标结果及进一步诊断检查的详情见补充信息表S1。"
+  },
+  {
+   "section": "Materials and Methods / Treatment of FIP",
+   "section_zh": "材料与方法 / FIP的治疗",
+   "en": "The information regarding the therapeutic regime was recorded as: dose, route of administration (injectable, oral), duration (days) of remdesivir and GS‐441524; duration of topical ocular medication, concurrent systemic anti‐inflammatory medication; concurrent oral administration of gabapentin or local anesthetic administered topically (EMLA 5%, AstraZeneca) during subcutaneous treatment. Concurrent topical and systemic anti‐inflammatory treatment, topical cycloplegic, anti‐glaucoma medication, and topical antibiotic treatment were prescribed at the discretion of the ophthalmologist or resident under supervision. The decision regarding choice and route of administration of antiviral medication was at the discretion of the attending internal medicine clinician, however, was largely based upon the ability to administer oral medications and availability of GS‐441524 suitable for oral administration, as at the beginning of case recruitment there was only legal access to injectable remdesivir necessitating some cases to receive subcutaneous injections. The initial treatment phase was defined as the treatment received during hospitalization followed by the continuing treatment after discharge to complete the treatment course of 84 days [5].",
+   "zh": "治疗方案信息记录为：remdesivir和GS‐441524的剂量、给药途径（注射、口服）、疗程（天）；局部眼用药物疗程、并用的全身抗炎药物；皮下治疗期间并用口服gabapentin（加巴喷丁）或局部外用麻醉剂（EMLA 5%, AstraZeneca）。并用的局部和全身抗炎治疗、局部睫状肌麻痹剂、抗青光眼药物和局部抗生素治疗由眼科医生或在指导下的住院医师酌情开具。抗病毒药物的选择和给药途径由主治内科临床医生决定，但主要取决于能否口服给药以及适合口服的GS‐441524是否可得，因为在病例招募初期只能合法获得注射用remdesivir，致使部分病例需接受皮下注射。初始治疗阶段定义为住院期间接受的治疗，随后为出院后的持续治疗，以完成84天疗程[5]。"
+  },
+  {
+   "section": "Materials and Methods / Follow‐Up",
+   "section_zh": "材料与方法 / 随访",
+   "en": "Follow‐up information was recorded to the last ophthalmological re‐examination in days after starting the 84‐day treatment course, ophthalmic examination findings, ocular topical and systemic anti‐inflammatory treatment and duration, cause for enucleation and reason for euthanasia. Short‐term follow‐up was defined as the period from initial presentation to the time of discharge (after clinical improvement once antiviral therapy was initiated). Long‐term follow‐up referred to any continued monitoring or reassessment beyond this initial discharge period.",
+   "zh": "随访信息记录至开始84天疗程后最后一次眼科复查的天数、眼科检查结果、眼部局部和全身抗炎治疗及其疗程、眼球摘除原因和安乐死原因。短期随访定义为从首次就诊至出院的时间段（开始抗病毒治疗并临床改善后）。长期随访指超出首次出院期之后的任何持续监测或再评估。"
+  },
+  {
+   "section": "Materials and Methods / Histopathological Analysis and Coronavirus RT‐PCR",
+   "section_zh": "材料与方法 / 组织病理学分析与冠状病毒RT‐PCR",
+   "en": "Two eyes were enucleated, one from each cat, of which one aqueous humor sample was tested for feline coronavirus viral RNA by RT‐PCR (Veterinary Pathology Group, Exeter, United Kingdom). The remaining globe was transferred into a 10% neutral‐buffered formalin. The sample was submitted for histopathological analysis. The fixed sample underwent tissue processing, paraffin embedding, sectioning at 5 μm slice thickness, and hematoxylin–eosin staining.",
+   "zh": "摘除了两只眼球，每只猫各一只，其中一份房水样本进行了猫冠状病毒病毒RNA的RT‐PCR检测（Veterinary Pathology Group, Exeter, United Kingdom）。剩余眼球转入10%中性缓冲福尔马林中。样本送检组织病理学分析。固定样本经组织处理、石蜡包埋、以5 μm厚度切片及苏木精–伊红染色。"
+  },
+  {
+   "section": "Materials and Methods / Statistical Analysis",
+   "section_zh": "材料与方法 / 统计分析",
+   "en": "Basic descriptive statistics were recorded, manually reviewed and analyzed using Microsoft Excel (Microsoft Corporation, Redmond, WA, USA, 2022). Categorical data were summarized with count and percentage. Data with a normal distribution were reported as mean ± standard deviation, whereas skewed data were presented as median with interquartile range (IQR) and range.",
+   "zh": "基本描述性统计使用Microsoft Excel（Microsoft Corporation, Redmond, WA, USA, 2022）记录、人工审核和分析。分类数据以计数和百分比汇总。正态分布数据以均值±标准差报告，偏态数据以中位数及四分位距（IQR）和范围表示。"
+  },
+  {
+   "section": "Results",
+   "section_zh": "结果",
+   "en": "A total of 61 cats were diagnosed with FIP during the 14‐month recruitment period by a diplomate of the European or American College of Veterinary Internal Medicine or a resident working under their supervision, of which 60 presented to the QMHA Internal Medicine or Ophthalmology service and one cat to the Ophthalmology service at North Down Specialist Referrals [5].",
+   "zh": "在14个月的招募期内，共有61只猫由欧洲或美国兽医内科学院专科医师或在其指导下工作的住院医师诊断为FIP，其中60只就诊于QMHA内科或眼科服务，一只猫就诊于North Down Specialist Referrals眼科服务[5]。"
+  },
+  {
+   "section": "Results / Signalment",
+   "section_zh": "结果 / 基本信息",
+   "en": "Twenty out of 61 FIP cases (20/61; 33%) presented with signs of ocular disease (Table S1 of supplementary information). Four of these cats (4/20; 20%) were also included in a previous case series [5]. Three‐quarters of the study sample were purebred cats (15/20; 75%), composed of six British Short Hair (BSH), three Ragdoll, two Maine Coon one Burmese, one Turkish Van, one Sphynx, and one Siberian cat. The remaining five cats were Domestic Short Hair (DSH). Over two‐thirds of the study sample were male cats (14/20; 70%; seven entire males, six neutered males) and four entire females and three spayed females. Median age at presentation was 11 months (IQR 6–19.5, range: 1–60).",
+   "zh": "61例FIP病例中有二十例（20/61；33%）表现出眼病征象（补充信息表S1）。其中四只猫（4/20；20%）也被纳入既往一项病例系列[5]。研究样本的四分之三为纯种猫（15/20；75%），包括六只英国短毛猫（BSH）、三只布偶猫、两只缅因猫、一只缅甸猫、一只土耳其梵猫、一只斯芬克斯猫和一只西伯利亚猫。其余五只猫为家养短毛猫（DSH）。研究样本中超过三分之二为公猫（14/20；70%；七只未去势公猫，六只去势公猫），另有四只未绝育母猫和三只已绝育母猫。就诊时年龄中位数为11个月（IQR 6–19.5，范围：1–60）。",
+   "note_zh": "原文称公猫14/20（70%），但所列为七只未去势公猫加六只去势公猫共13只，另母猫4+3=7只；数字内部不一致，按原文保留。"
+  },
+  {
+   "section": "Results / Clinical Presentation",
+   "section_zh": "结果 / 临床表现",
+   "en": "The majority of cats were primarily referred to the Internal Medicine service via the Emergency and Critical Care service; two cats were referred primarily for ocular abnormalities (2/20; 10%). Out of 20 FIP cats with associated signs of ocular disease, 11 presented with the effusive form of FIP (11/20; 55%), and 9 (9/20; 45%) with the non‐effusive form.",
+   "zh": "大多数猫经急诊与重症监护服务首先转诊至内科服务；两只猫主要因眼部异常而转诊（2/20；10%）。在20只有相关眼病征象的FIP猫中，11只表现为渗出型FIP（11/20；55%），9只（9/20；45%）为非渗出型。"
+  },
+  {
+   "section": "Results / Clinical Presentation",
+   "section_zh": "结果 / 临床表现",
+   "en": "The majority of cases had bilateral ocular disease (14/20; 70%) and over half presented with signs of panuveitis (11/20; 55%), four cases with clinical signs of anterior uveitis only (4/20; 20%), and five with signs of posterior uveitis only (5/20; 25%; Table 1). Four of the cases presented with or developed secondary glaucoma (4/20; 20%). Concurrent FIP‐associated signs of neurological disease were found in five cases (5/20; 25%).",
+   "zh": "大多数病例为双侧眼病（14/20；70%），超过半数表现为全葡萄膜炎征象（11/20；55%），四例仅有前葡萄膜炎临床征象（4/20；20%），五例仅有后葡萄膜炎征象（5/20；25%；表1）。四例就诊时即有或之后发生继发性青光眼（4/20；20%）。五例（5/20；25%）并发FIP相关神经系统疾病征象。"
+  },
+  {
+   "section": "Results / Treatment / Antiviral Treatment",
+   "section_zh": "结果 / 治疗 / 抗病毒治疗",
+   "en": "Initial treatment in 17 cats (17/20; 85%) with FIP‐associated signs of ocular disease was injectable remdesivir (SC or IV), whereas three cats (3/20; 15%) received only GS‐441524 (16–19 mg/kg) orally. Over half (12/20; 71%) of the cats received a dose of 15–20 mg/kg of remdesivir, and two cats (2/20; 10%) started at a lower dose of 10–14 mg/kg of remdesivir for a median of 5 days (IQR 3–6, range: 3–84 days) [5]. Three cats (3/20; 15%) were euthanized before transitioning to GS‐441524 orally, two (2/3; 66%) of which had received a 10–13 mg/kg dose of remdesivir previously the remaining cat (1/3; 33%) received a 20 mg/kg dose (Figure 1).",
+   "zh": "17只（17/20；85%）有FIP相关眼病征象的猫初始治疗为注射用remdesivir（SC或IV），三只猫（3/20；15%）仅口服GS‐441524（16–19 mg/kg）。超过半数（12/20；71%）的猫接受15–20 mg/kg的remdesivir剂量，两只猫（2/20；10%）以10–14 mg/kg的较低remdesivir剂量开始，中位数为5天（IQR 3–6，范围：3–84天）[5]。三只猫（3/20；15%）在转为口服GS‐441524前被安乐死，其中两只（2/3；66%）之前接受过10–13 mg/kg剂量的remdesivir，其余一只猫（1/3；33%）接受20 mg/kg剂量（图1）。",
+   "note_zh": "原文“超过半数（12/20；71%）”中12/20应为60%；摘要表述为12/17（70%）。另“2/3；66%”按四舍五入应为67%。均按原文保留。"
+  },
+  {
+   "section": "Results / Treatment / Antiviral Treatment",
+   "section_zh": "结果 / 治疗 / 抗病毒治疗",
+   "en": "Seventeen cats received GS‐441524 (17/20; 85%) for a median of 79 days (IQR 74.5–81, range: 0–84 days). Fourteen cats (14/17; 82%) received the higher dose 15–22 mg/kg, and three cats (3/17; 18%) received GS‐441524 administered orally at the lower dose (10–14 mg/kg). One cat receiving the higher dose of GS‐441524 orally was euthanized the evening after discharge from the hospital due to suspected gastric hemorrhage.",
+   "zh": "十七只猫（17/20；85%）接受了GS‐441524，中位数为79天（IQR 74.5–81，范围：0–84天）。十四只猫（14/17；82%）接受了15–22 mg/kg的较高剂量，三只猫（3/17；18%）口服较低剂量（10–14 mg/kg）的GS‐441524。一只口服较高剂量GS‐441524的猫因疑似胃出血在出院当晚被安乐死。"
+  },
+  {
+   "section": "Results / Treatment / Other Concurrent Treatment",
+   "section_zh": "结果 / 治疗 / 其他并用治疗",
+   "en": "Meloxicam was administered to six cats (6/20; 30%). Of these, one cat received it for 3 days before euthanasia due to suspected gastric hemorrhage, and in two cats, meloxicam was discontinued due to the development of diarrhea. Two further cats received meloxicam; however, this was discontinued by the owner due to difficulties medicating at home. The remaining cats received meloxicam for a total of 53 and 98 days. Robenacoxib (1/20; 5%) was received by one cat for 12 days due to the onset of diarrhea after one dose of meloxicam. Meloxicam was administered for a median duration of 22 days (IQR 16–53, range: 4–98 days). A 14‐day course of prednisolone was administered orally to one cat (1/20; 5%) another cat received prednisolone systemically, however, it was later excluded from the study. Topical anti‐inflammatory (13/15; 87%) and cycloplegic (9/15; 60%) treatment atropine (Minims Atropine Sulphate 1%), cyclopentolate (Minims Cyclopentolate Hydrochloride 0.5%, or tropicamide (Mydriacyl 1%)) was initiated in cats presenting with anterior/panuveitis and was administered for a median of 43 (IQR 8–81, range 1–1071) and 20.5 days (IQR 13.25–21.25, range 1–41), respectively. Four cases with glaucomatous disease were treated with carbonic anhydrase inhibitors (4/15; 27%; Table 2). Three cats developed a superficial corneal ulcer and received chloramphenicol eye drops (3/20; 15%). One cat (1/20; 5%) received gabapentin orally and local anesthetic topically (EMLA 5%, AstraZeneca) due to discomfort associated with SC treatment of remdesivir.",
+   "zh": "六只猫（6/20；30%）接受了Meloxicam（美洛昔康）。其中，一只猫在因疑似胃出血安乐死前接受了3天，两只猫因发生腹泻而停用meloxicam。另有两只猫接受了meloxicam；但因在家给药困难被主人停用。其余猫接受meloxicam的总时长分别为53天和98天。一只猫（1/20；5%）因单剂meloxicam后出现腹泻而改用Robenacoxib（罗贝考昔）12天。Meloxicam给药时长中位数为22天（IQR 16–53，范围：4–98天）。一只猫（1/20；5%）口服了14天疗程的prednisolone（泼尼松龙），另一只猫全身给予了prednisolone，但后来被排除出研究。在表现为前/全葡萄膜炎的猫中开始局部抗炎（13/15；87%）和睫状肌麻痹（9/15；60%）治疗：atropine（阿托品）（Minims Atropine Sulphate 1%）、cyclopentolate（环喷托酯）（Minims Cyclopentolate Hydrochloride 0.5%）或tropicamide（托吡卡胺）（Mydriacyl 1%），给药时长中位数分别为43天（IQR 8–81，范围1–1071）和20.5天（IQR 13.25–21.25，范围1–41）。四例青光眼病例接受了碳酸酐酶抑制剂治疗（4/15；27%；表2）。三只猫发生浅表性角膜溃疡并接受了chloramphenicol（氯霉素）滴眼液（3/20；15%）。一只猫（1/20；5%）因remdesivir皮下治疗相关的不适而口服gabapentin并局部外用麻醉剂（EMLA 5%, AstraZeneca）。",
+   "note_zh": "原文称6只猫接受meloxicam，但其后分述为1+2+2+“其余猫”（53天和98天，即2只），合计7只；按原文保留。"
+  },
+  {
+   "section": "Results / Outcome",
+   "section_zh": "结果 / 结局",
+   "en": "Of the 16 (16/20; 80%) surviving cats, 11 included cases (11/20; 55%) that had long‐term follow‐up (Figure 1). The median time of follow‐up was 55 days (IQR 47.3–90.8, range: 16–1071 days) after starting treatment with remdesivir or GS‐441524. Six cats (6/20; 35%) were lost to ophthalmic follow‐up, however, no clinical signs suggestive of ocular disease were raised with the Internal Medicine service during ongoing verbal communications. Two cases with uveitis had uncontrolled secondary glaucoma and underwent unilateral enucleation (2/20; 10%). Four cases (4/20; 20%) were euthanized due to FIP‐associated clinical signs after a median of 1.5 days from commencing treatment with antiviral medication (IQR 1–3.75, range: 1–6 days). Two of the cats (2/20; 10%) were euthanized due to deterioration in systemic health, one cat was euthanized due to worsening neurological status (1/20; 5%) and the remaining cat (1/20; 5%) suffered suspected gastric hemorrhage and was euthanized. One case (1/20; 5%) with persistent uveitis was excluded during long‐term follow‐up due to sourcing medication from a non‐licensed supplier.",
+   "zh": "在16只（16/20；80%）存活猫中，11例纳入病例（11/20；55%）有长期随访（图1）。开始remdesivir或GS‐441524治疗后的随访时间中位数为55天（IQR 47.3–90.8，范围：16–1071天）。六只猫（6/20；35%）失去眼科随访，但在与内科服务的持续口头沟通中未提出提示眼病的临床症状。两例葡萄膜炎病例因继发性青光眼无法控制而接受单侧眼球摘除（2/20；10%）。四例（4/20；20%）在开始抗病毒药物治疗后中位数1.5天（IQR 1–3.75，范围：1–6天）因FIP相关临床症状被安乐死。其中两只猫（2/20；10%）因全身健康状况恶化被安乐死，一只猫因神经状况恶化被安乐死（1/20；5%），其余一只猫（1/20；5%）疑似胃出血并被安乐死。一例（1/20；5%）持续性葡萄膜炎病例因从非许可供应商获取药物，在长期随访期间被排除。",
+   "note_zh": "原文“六只猫（6/20；35%）”中6/20应为30%；第44段称“另有五只猫……失访”；按原文保留。"
+  },
+  {
+   "section": "Results / Outcome",
+   "section_zh": "结果 / 结局",
+   "en": "Clinical resolution of the uveitis (determined by the lack of aqueous humor flare and hyporeflective fundic tapetal lesions) was reported in nine cats (9/11; 82%) after a median duration of 44 days (IQR 32–52.5, range 20–71) of antiviral medication, and eight cats (8/11; 73%) were no longer receiving topical or systemic medication at the time of the last follow‐up (Figures 2, 3, and 4). One cat (1/11; 9%) had resolution of uveitis of the right eye at day 63; however, persistent low‐grade anterior uveitis of the left eye remained, this cat was later lost to follow‐up. One cat (1/11; 9%) received antiviral treatment only and had complete resolution of FIP‐associated ocular disease. One cat (1/11; 9%) had secondary glaucoma identified on day 24 of antiviral treatment and received brinzolamide for 35 days before the glaucoma resolved. One cat with documented glaucoma (1/11; 9%) continues to be managed with brinzolamide (Azopt) and bromfenac (Yellox) 3 years later and undergoes regular intraocular pressure curves despite resolution of uveitis (Figure 5, cat 5). The case with vision loss associated with retinal detachment (Figure 6A) regained vision after retinal reattachment (Figure 6B) once antiviral medication and systemic meloxicam had been initiated (Table S1, cat 9).",
+   "zh": "九只猫（9/11；82%）在抗病毒药物治疗中位数44天（IQR 32–52.5，范围20–71）后报告葡萄膜炎临床消退（以无房水闪辉和无低反射性眼底绒毡层病变判定），八只猫（8/11；73%）在最后一次随访时已不再接受局部或全身药物（图2、3和4）。一只猫（1/11；9%）右眼葡萄膜炎在第63天消退；但左眼仍有持续的低度前葡萄膜炎，该猫后来失访。一只猫（1/11；9%）仅接受抗病毒治疗，FIP相关眼病完全消退。一只猫（1/11；9%）在抗病毒治疗第24天发现继发性青光眼，接受brinzolamide（布林佐胺）35天后青光眼消退。一只有记录青光眼的猫（1/11；9%）3年后仍以brinzolamide（Azopt）和bromfenac（溴芬酸）（Yellox）维持治疗，尽管葡萄膜炎已消退，仍定期进行眼压曲线监测（图5，猫5）。视网膜脱离相关视力丧失的病例（图6A）在开始抗病毒药物和全身meloxicam后视网膜复位（图6B）并恢复视力（表S1，猫9）。"
+  },
+  {
+   "section": "Results / Coronavirus PCR and Histopathology",
+   "section_zh": "结果 / 冠状病毒PCR与组织病理学",
+   "en": "One cat (1/20; 5%) required enucleation of one eye due to unresponsive secondary glaucoma 106 days after having completed its 84‐day course of antiviral treatment (14 days of remdesivir administered subcutaneously at 20 mg/kg followed by 70 days of GS‐441524 administered orally) and remained free of FCoV in the aqueous humor. Histopathology results revealed mild to moderate lymphoplasmacytic anterior uveitis (Figure 7A), mild intermediate uveitis associated with pre‐iridal inflammatory membranes and peripheral anterior synechiae with collapse of the ciliary cleft and trabecular meshwork (Figure 7B), focal posterior cortical cataract, and inner retinal atrophy with ganglion cell loss most marked in the non‐tapetal retina.",
+   "zh": "一只猫（1/20；5%）在完成84天抗病毒疗程（皮下注射remdesivir 20 mg/kg 14天，随后口服GS‐441524 70天）后106天，因无反应的继发性青光眼需摘除一只眼，其房水中仍无FCoV。组织病理学结果显示轻度至中度淋巴浆细胞性前葡萄膜炎（图7A），伴虹膜前炎性膜和周边虹膜前粘连的轻度中间葡萄膜炎，伴睫状裂和小梁网塌陷（图7B），局灶性后皮质性白内障，以及以非绒毡层视网膜最明显的视网膜内层萎缩伴神经节细胞丢失。"
+  },
+  {
+   "section": "Results / Coronavirus PCR and Histopathology",
+   "section_zh": "结果 / 冠状病毒PCR与组织病理学",
+   "en": "Histopathology was obtained for a second cat that had received 5 days of remdesivir (20 mg/kg dose) followed by GS‐441524 orally. On day 12 of treatment, the eye was enucleated due to refractory glaucoma and persistent uveitis. Histopathology showed a mixed inflammatory population within the anterior chamber consisting of eosinophils, neutrophils, and foamy macrophages. A pre‐iridal fibrovascular membrane spanned across the iridocorneal angle and was infiltrated with plasma cells, lymphocytes, and macrophages retinal ganglion cell loss was also identified.",
+   "zh": "获得了第二只猫的组织病理学，该猫接受了5天remdesivir（20 mg/kg剂量），随后口服GS‐441524。治疗第12天，因难治性青光眼和持续性葡萄膜炎摘除该眼。组织病理学显示前房内混合性炎症细胞群，包括嗜酸性粒细胞、中性粒细胞和泡沫样巨噬细胞。一层虹膜前纤维血管膜跨越虹膜角膜角，有浆细胞、淋巴细胞和巨噬细胞浸润，并发现视网膜神经节细胞丢失。"
+  },
+  {
+   "section": "Results / Coronavirus PCR and Histopathology",
+   "section_zh": "结果 / 冠状病毒PCR与组织病理学",
+   "en": "One cat that was euthanized (1/4; 25%) underwent post‐mortem examination and histopathological findings were consistent with FIP.",
+   "zh": "一只被安乐死的猫（1/4；25%）接受了尸检，组织病理学结果与FIP相符。"
+  },
+  {
+   "section": "Discussion",
+   "section_zh": "讨论",
+   "en": "This observational case series provides detailed ophthalmic data and follow‐up findings on cats with FIP treated with the antiviral agents remdesivir and GS‐441524. These results add to the limited peer‐reviewed literature, which currently consists mainly of case reports reporting the ocular response to treatment in such cases.",
+   "zh": "本观察性病例系列提供了接受抗病毒药物remdesivir和GS‐441524治疗的FIP猫的详细眼科数据和随访结果。这些结果补充了有限的同行评审文献，目前这类文献主要为报告此类病例眼部治疗反应的病例报告。"
+  },
+  {
+   "section": "Discussion",
+   "section_zh": "讨论",
+   "en": "In the present study, 80% (16/20) of cats diagnosed with FIP with ocular involvement survived and recovered with dramatic improvement of the associated signs of ocular disease during the treatment period of 84 days. The systemic follow‐up of these cases is beyond the scope of the current study [5]. Nine cases (9/11; 82%) with ophthalmic follow‐up information remained without signs of clinical uveitis within the follow‐up time, with only one cat requiring long‐term topical medication for associated secondary glaucoma. One case with follow‐up (1/11; 9%) received antiviral treatment only and had complete clinical resolution of the associated ocular disease without topical or systemic anti‐inflammatory treatment; this management approach could be considered. It is unknown whether this confers a long‐term risk of developing secondary glaucoma due to long periods of low‐grade, subclinical uveitis. Overall, these are encouraging results with the limitation of this being a small case series, but they demonstrate the high efficacy of remdesivir and GS‐441524 for the treatment of naturally occurring FIP with ocular involvement, in line with previously published studies [1, 2, 4, 5].",
+   "zh": "在本研究中，80%（16/20）诊断为眼部受累FIP的猫存活并康复，在84天治疗期内相关眼病征象显著改善。这些病例的全身随访超出本研究范围[5]。有眼科随访信息的九例（9/11；82%）在随访期内保持无临床葡萄膜炎征象，仅一只猫因相关继发性青光眼需要长期局部用药。一例有随访的病例（1/11；9%）仅接受抗病毒治疗，未经局部或全身抗炎治疗，相关眼病即临床完全消退；可考虑这种管理方法。尚不清楚长期低度亚临床葡萄膜炎是否会带来继发性青光眼的长期风险。总体而言，尽管受限于小型病例系列，这些结果令人鼓舞，并证明remdesivir和GS‐441524治疗眼部受累的自然发生FIP疗效很高，与既往发表的研究一致[1, 2, 4, 5]。"
+  },
+  {
+   "section": "Discussion",
+   "section_zh": "讨论",
+   "en": "The higher incidence of FIP in younger purebred cats has been repeatedly reported in the literature and was confirmed by the present case series, with three quarters being purebred and young cats (15/20; 75%) [1, 11, 22]. Proposed explanations include enhanced susceptibility or resistance in highly inbred purebred populations and increased population density in purebred catteries [17]. There were more male cats affected than females which has also been consistently reported in the literature and has been attributed to their behavioral traits [17, 23, 24]. The percentage of FIP cats with ocular involvement in the current study (20/61; 33%) was similar to previous reports of 29% (25/86) [7]. This demonstrates the importance of performing a full ophthalmic examination in any cat for which FIP is suspected [7].",
+   "zh": "年轻纯种猫FIP发病率较高已在文献中反复报告，本病例系列也证实了这一点，四分之三为纯种年轻猫（15/20；75%）[1, 11, 22]。提出的解释包括高度近交的纯种群体易感性或抵抗力增强以及纯种猫舍的群体密度增加[17]。公猫受累多于母猫，这也在文献中一致报告，并被归因于其行为特征[17, 23, 24]。本研究中眼部受累FIP猫的比例（20/61；33%）与既往报告的29%（25/86）相似[7]。这表明对任何怀疑FIP的猫进行全面眼科检查的重要性[7]。"
+  },
+  {
+   "section": "Discussion",
+   "section_zh": "讨论",
+   "en": "Uveitis is most commonly (60%) identified in the non‐effusive form of FIP and with less than 5% of effusive cases of FIP developing ocular involvement [8, 10, 11]. Contrary to these findings, the present case series presented with over half of cases (11/20; 55%) being affected by the effusive form of FIP. This could be explained by the implications of the disease's historical grave prognosis, particularly in cases exhibiting more “classic” clinical signs of thoracic or abdominal cavity effusions. In such instances, the incubation period of the disease can be shorter, therefore, the urgency of the clinical situation might have led to a reduced emphasis on comprehensive ophthalmic examinations [11]. This oversight could contribute to the discrepancies observed in previous literature, as the potential ocular manifestations of FIP were not fully explored in affected cats.",
+   "zh": "葡萄膜炎最常（60%）见于非渗出型FIP，渗出型FIP病例中发生眼部受累者不足5%[8, 10, 11]。与这些发现相反，本病例系列中超过半数病例（11/20；55%）为渗出型FIP。这可以用该病历史上严重预后的影响来解释，特别是表现出胸腔或腹腔积液等更“典型”临床症状的病例。在这些情况下，疾病的潜伏期可能较短，因此，临床情况的紧迫性可能导致对全面眼科检查的重视不足[11]。这种疏忽可能导致既往文献中观察到的差异，因为受累猫FIP潜在的眼部表现未被充分探查。",
+   "note_zh": "本段称渗出型病例中眼部受累“不足5%”，引言（第9段）表述为“可达5%”；按原文保留。"
+  },
+  {
+   "section": "Discussion",
+   "section_zh": "讨论",
+   "en": "The initial subjective clinical observation that the majority of FIP cases with signs of ocular disease also present with signs of neurological disease could not be confirmed by this case series [25]. Only a quarter of cases with signs of ocular disease also had neurological disease (5/20; 25%), similar to other reports [2, 25]. Four out of five (4/5; 80%) cats that presented with ocular and neurological disease treated with higher doses of remdesivir, GS‐441524, or a combination of the two medications, recovered fully [5].",
+   "zh": "最初主观的临床观察认为，大多数有眼病征象的FIP病例也表现出神经系统疾病征象，本病例系列未能证实这一点[25]。有眼病征象的病例中仅四分之一同时有神经系统疾病（5/20；25%），与其他报告相似[2, 25]。在表现为眼部和神经系统疾病、接受较高剂量remdesivir、GS‐441524或二者联合治疗的猫中，五只中有四只（4/5；80%）完全康复[5]。"
+  },
+  {
+   "section": "Discussion",
+   "section_zh": "讨论",
+   "en": "Treatment protocols in this study were based on dosages used in human medicine and previous veterinary studies on the dosing of GS‐441524 [1, 2, 4, 5, 13, 26, 27]. Optimal dosing for GS‐441524 administered orally is also yet to be established, however, doses of 10–20 mg/kg/day for 84 days have been used with successful results which is higher than the doses used in initial studies (2–10 mg/kg) [1, 2, 4, 5, 13, 27]. Splitting the daily dose of GS‐441524 into twice daily could result in optimized GS‐441524 serum concentrations [28]. A shorter duration treatment protocol of 42 days has promising results [24]. Several preliminary studies suggest that ocular and neurological forms of FIP require higher dosages due to limited drug penetration through the blood‐ocular and blood–brain barriers [1, 2, 4, 25].",
+   "zh": "本研究的治疗方案基于人类医学中使用的剂量以及既往关于GS‐441524给药的兽医研究[1, 2, 4, 5, 13, 26, 27]。口服GS‐441524的最佳剂量也尚待确立，但10–20 mg/kg/天、持续84天的剂量已获得成功结果，高于早期研究使用的剂量（2–10 mg/kg）[1, 2, 4, 5, 13, 27]。将GS‐441524每日剂量分为每日两次可能使GS‐441524血清浓度更优化[28]。42天的较短疗程方案结果令人鼓舞[24]。若干初步研究提示，由于药物通过血–眼屏障和血–脑屏障的穿透有限，眼型和神经型FIP需要更高剂量[1, 2, 4, 25]。"
+  },
+  {
+   "section": "Discussion",
+   "section_zh": "讨论",
+   "en": "There are reports that all cats with the neurological form of FIP have ocular involvement; but, only a quarter of cats (5/20; 25%) in our study exhibited signs of both forms, similar to other reports, although there are reports of concurrent ocular and neurological involvement in only 3% of FIP cases [1, 2, 12]. These findings highlight the considerable variability in the co‐occurrence of ocular and neurological manifestations, likely influenced by the immune‐privileged status of these sites and the unpredictable nature of FIP progression. Aqueous humor concentrations of GS‐441524 reach 22%–33% of plasma levels [4]. This, in combination with clinical experience during the study period, resulted in most of the FIP cases with ocular involvement being administered dosages of 15 to 20 mg/kg remdesivir or GS‐441524 once daily [5]. All cases were administered remdesivir exclusively at the beginning of the case collection period as GS‐441524 was not yet available in an oral preparation. GS‐441524 became available as an oral preparation in November 2021 and became the initial antiviral therapy in appetent cats [5]. Two of the four FIP cats which were euthanized before finishing the 84 days treatment course presented with signs of systemic disease, which were too advanced to draw a conclusion on dosing regime, but were initially treated with lower doses of remdesivir.",
+   "zh": "有报告称所有神经型FIP猫都有眼部受累；但本研究中仅四分之一的猫（5/20；25%）同时表现出两种类型的征象，与其他报告相似，尽管也有报告称仅3%的FIP病例同时存在眼部和神经系统受累[1, 2, 12]。这些发现凸显了眼部和神经系统表现共同发生的相当大差异，可能受这些部位的免疫豁免状态以及FIP进展的不可预测性影响。GS‐441524的房水浓度可达血浆水平的22%–33%[4]。这一点结合研究期间的临床经验，导致大多数眼部受累的FIP病例接受15至20 mg/kg remdesivir或GS‐441524每日一次的剂量[5]。在病例收集初期，所有病例均仅接受remdesivir，因为当时GS‐441524尚无口服制剂。GS‐441524于2021年11月有了口服制剂，并成为有食欲猫的初始抗病毒治疗[5]。在完成84天疗程前被安乐死的四只FIP猫中，有两只表现出全身疾病征象，病情过于严重而无法对给药方案得出结论，但它们最初接受的是较低剂量的remdesivir。"
+  },
+  {
+   "section": "Discussion",
+   "section_zh": "讨论",
+   "en": "Clinical resolution of secondary uveitis was reported in nine cats (9/11; 82%) that had follow‐up ophthalmic examinations. All but one cat had discontinuation of topical and systemic anti‐inflammatory medication, suggesting that the concurrent inflammatory stimulation had resolved. The histopathology of an enucleated eye reported the absence of pyogranulomatous inflammation, perivasculitis, or proteinaceous effusion to support active FIP infection [13, 29]. An aqueous humor sample from the same globe was obtained at the time of enucleation which demonstrated absence of feline coronavirus RNA by RT‐PCR. These results suggest complete resolution of ocular involvement. A pre‐treatment sample of the aqueous humor, however, was not obtained, so the presence of viral RNA in the aqueous humor before commencement of treatment cannot be ascertained. FCoV RNA can be detected in blood before treatment, blood viral loads decrease by day two to four after treatment initiation and by day 14, viral RNA is no longer detected [13]. Whether this holds true for aqueous humor viral RNA remains unknown.",
+   "zh": "在有眼科随访检查的猫中，九只（9/11；82%）报告继发性葡萄膜炎临床消退。除一只猫外，所有猫均停用了局部和全身抗炎药物，提示并存的炎症刺激已消退。一只摘除眼球的组织病理学报告未见支持活动性FIP感染的脓性肉芽肿性炎症、血管周围炎或蛋白性渗出[13, 29]。摘除时从同一眼球获取的房水样本经RT‐PCR显示无猫冠状病毒RNA。这些结果提示眼部受累已完全消退。然而，未获取治疗前的房水样本，因此无法确定治疗开始前房水中是否存在病毒RNA。治疗前可在血液中检测到FCoV RNA，开始治疗后第二至四天血液病毒载量下降，至第14天已检测不到病毒RNA[13]。房水病毒RNA是否同样如此仍不清楚。"
+  },
+  {
+   "section": "Discussion",
+   "section_zh": "讨论",
+   "en": "Associated secondary uveitis responded to remdesivir or GS‐441524 treatment effectively in the short‐term in most of these cases. However, the median follow‐up time in the present case series was 55 days, therefore, long‐term ocular follow‐up is needed to draw further conclusions on failures.",
+   "zh": "在大多数病例中，相关继发性葡萄膜炎在短期内对remdesivir或GS‐441524治疗有效应答。然而，本病例系列的随访时间中位数为55天，因此需要长期眼科随访才能对治疗失败得出进一步结论。"
+  },
+  {
+   "section": "Discussion",
+   "section_zh": "讨论",
+   "en": "In the initial study sample, four (4/20; 20%) cats presented with glaucoma secondary to uveitis. Of these, two of the cats that completed the antiviral course required unilateral enucleation due to uncontrolled glaucoma. One cat received brinzolamide for 35 days until glaucoma resolved, and the other cat remains controlled on anti‐glaucoma medication (brinzolamide, Azopt) and had resolution of uveitis long‐term. Clinicians should be vigilant for uveitis‐associated secondary glaucoma and perform tonometry at regular intervals, particularly in uveitic eyes which have inappropriate normal to high‐normal intraocular pressure. Carbonic anhydrase inhibitors are the topical treatment of choice for cats with secondary glaucoma, and steroid‐induced ocular hypertension should be considered as a potential contributing factor [30, 31].",
+   "zh": "在初始研究样本中，四只（4/20；20%）猫表现为继发于葡萄膜炎的青光眼。其中，完成抗病毒疗程的两只猫因青光眼无法控制需要单侧眼球摘除。一只猫接受brinzolamide 35天直至青光眼消退，另一只猫仍以抗青光眼药物（brinzolamide, Azopt）控制，葡萄膜炎长期消退。临床医生应警惕葡萄膜炎相关的继发性青光眼，并定期进行眼压测量，尤其是眼压呈不恰当的正常至正常偏高的葡萄膜炎眼。碳酸酐酶抑制剂是猫继发性青光眼的首选局部治疗，并应考虑类固醇诱导的眼压升高可能是一个促成因素[30, 31]。"
+  },
+  {
+   "section": "Discussion",
+   "section_zh": "讨论",
+   "en": "Systemic antiviral medication as sole treatment of uveitis would be of great interest for future studies. One cat that presented with panuveitis received antiviral treatment as a sole therapy and showed a rapid response to treatment with complete resolution of signs of ocular disease within the treatment course. Five further cats received antiviral treatment as a sole therapy but were lost to follow‐up, so definitive resolution cannot be assumed; however, no ocular concerns were reported by their owners during verbal communications with the Internal Medicine service. Although a combination of topical and systemic treatment was used in most cases, and this could be a confounding factor, both oral and topical anti‐inflammatory medication were discontinued in most cases without reported relapse in clinical signs, suggesting that the concurrent inflammatory stimulation and response were resolved. The choice of additional systemic NSAIDs or glucocorticoids was based on the presence of pan‐ and posterior uveitis but was rejected by the Internal Medicine service when there were concerns for hypotension and increased chances of gastrointestinal hemorrhage. One of the four cats that did not complete the full course during initial antiviral treatment suffered suspected gastric hemorrhage and death after 3 days of administration of meloxicam for the treatment of posterior uveitis. Therefore, the clinical benefit of systemic anti‐inflammatory medication should be considered as the pharmacokinetics of this drug in combination with antiviral therapy in cats with FIP is currently unknown. They should be used in caution particularly in critical cases in which there could be periods of gut hypoperfusion that could contribute to NSAID or glucocorticoid‐related gastrointestinal hemorrhage [18, 32].",
+   "zh": "以全身抗病毒药物作为葡萄膜炎的唯一治疗，将是未来研究非常感兴趣的方向。一只表现为全葡萄膜炎的猫仅接受抗病毒治疗，对治疗反应迅速，在疗程内眼病征象完全消退。另有五只猫仅接受抗病毒治疗但失访，因此不能认定已确定消退；但在与内科服务的口头沟通中，其主人未报告眼部问题。尽管大多数病例联合使用局部和全身治疗，这可能是一个混杂因素，但大多数病例在停用口服和局部抗炎药物后未报告临床症状复发，提示并存的炎症刺激和反应已消退。是否加用全身NSAIDs或糖皮质激素基于全葡萄膜炎和后葡萄膜炎的存在，但当担心低血压和胃肠道出血可能性增加时被内科服务否决。在初始抗病毒治疗期间未完成全疗程的四只猫中，有一只在为治疗后葡萄膜炎给予meloxicam 3天后疑似胃出血并死亡。因此，鉴于目前尚不清楚该药与抗病毒治疗联用在FIP猫中的药代动力学，应权衡全身抗炎药物的临床获益。应谨慎使用，尤其是在危重病例中，这类病例可能存在肠道低灌注期，可能促成NSAID或糖皮质激素相关的胃肠道出血[18, 32]。"
+  },
+  {
+   "section": "Discussion",
+   "section_zh": "讨论",
+   "en": "This study's main limitations were associated with its observational nature and the small number of cases. Diagnosing FIP can be challenging; therefore, it is possible that some cats included in this study were misdiagnosed. However, as diagnoses were made in accordance with recognized guidelines, the likelihood of misdiagnosis is considered low [8]. Another limitation is the limited follow‐up of the cases, as most of the cats were managed by their primary care veterinarian and did not return for repeated ophthalmic follow‐up examinations. The timing of follow‐up examinations was inconsistent and was often scheduled depending on pre‐existing visits to the Internal Medicine service and client availability. This was a limiting factor as clinical resolution of uveitis might have occurred sooner than the documented time. The financial burden of remdesivir and GS‐441524 treatment resulted in many owners being unable to pursue further ophthalmic monitoring at the QMHA despite recommendations. In addition, some owners expressed concern that stress, particularly associated with travel, could contribute to FIP relapse, leading to reluctance to return to the QMHA, especially in cases where long distances were required to access the hospital [33, 34]. These factors contributed significantly to the follow‐up of included cases.",
+   "zh": "本研究的主要局限与其观察性质和病例数少有关。FIP的诊断可能具有挑战性；因此，本研究纳入的部分猫可能被误诊。然而，由于诊断是按照公认指南作出的，误诊的可能性被认为较低[8]。另一个局限是病例随访有限，因为大多数猫由其初诊兽医管理，未返回进行重复的眼科随访检查。随访检查的时间不一致，通常根据内科服务的既定就诊和客户的时间安排。这是一个限制因素，因为葡萄膜炎的临床消退可能早于记录时间。remdesivir和GS‐441524治疗的经济负担导致许多主人尽管被建议，仍无法在QMHA继续进行眼科监测。此外，一些主人担心应激，尤其是与出行相关的应激，可能促成FIP复发，导致不愿返回QMHA，特别是需要长途前往医院的病例[33, 34]。这些因素对纳入病例的随访有重大影响。"
+  },
+  {
+   "section": "Discussion",
+   "section_zh": "讨论",
+   "en": "Another limitation of the current study is that the potential systemic absorption of topically administered glucocorticoid/NSAIDs via the conjunctiva and nasolacrimal duct was not quantified. As such, we were unable to determine whether systemic corticosteroid/NSAID exposure could have contributed to adverse effects, such as gastrointestinal ulceration, particularly in cats receiving concurrent systemic NSAID therapy. Glucocorticoid administration could also exacerbate clinical disease and reduce capacity for viral clearance in cats with FIP [18, 35, 36].",
+   "zh": "本研究的另一个局限是未定量局部给予的糖皮质激素/NSAIDs经结膜和鼻泪管的潜在全身吸收。因此，我们无法确定全身皮质类固醇/NSAID暴露是否可能促成了胃肠道溃疡等不良反应，尤其是在同时接受全身NSAID治疗的猫中。糖皮质激素给药也可能加重FIP猫的临床疾病并降低病毒清除能力[18, 35, 36]。"
+  },
+  {
+   "section": "Discussion",
+   "section_zh": "讨论",
+   "en": "In conclusion, cats diagnosed with FIP‐associated uveitis have a good prognosis for resolution of ocular inflammation after an 84‐day course of antiviral medication combined with anti‐inflammatory medication. Persistent uveitis and secondary glaucoma can occur so close monitoring of ophthalmic changes is recommended particularly during the early stages of treatment.",
+   "zh": "总之，诊断为FIP相关葡萄膜炎的猫在接受84天抗病毒药物联合抗炎药物疗程后，眼部炎症消退的预后良好。可能发生持续性葡萄膜炎和继发性青光眼，因此建议密切监测眼科变化，尤其是在治疗早期。"
+  },
+  {
+   "section": "Disclosure",
+   "section_zh": "声明",
+   "en": "Authors declare no off‐label use of antimicrobials.",
+   "zh": "作者声明无抗菌药物超说明书使用。"
+  },
+  {
+   "section": "Ethics Statement",
+   "section_zh": "伦理声明",
+   "en": "Approval was granted for this study by the Social Science Research Ethical Review Board at The Royal Veterinary College (ethical approval URN:SS2021‐0208). Authors declare human ethics approval was not needed.",
+   "zh": "本研究经皇家兽医学院（The Royal Veterinary College）社会科学研究伦理审查委员会批准（伦理批准URN:SS2021‐0208）。作者声明无需人类伦理批准。"
+  },
+  {
+   "section": "Conflicts of Interest",
+   "section_zh": "利益冲突",
+   "en": "The authors declare no conflicts of interest.",
+   "zh": "作者声明不存在利益冲突。"
+  },
+  {
+   "section": "Acknowledgments",
+   "section_zh": "致谢",
+   "en": "A travel grant was generously provided by BOVA to allow the results of this study to be presented at the European Conference of Veterinary Ophthalmologists 2023.",
+   "zh": "BOVA慷慨提供了差旅资助，使本研究结果得以在2023年欧洲兽医眼科学会议（European Conference of Veterinary Ophthalmologists 2023）上展示。"
+  },
+  {
+   "section": "Table caption",
+   "section_zh": "表题",
+   "en": "TABLE 1 Classification criteria and ophthalmic signs in feline infectious peritonitis cases presenting with anterior and posterior uveitis.",
+   "zh": "表1 表现为前葡萄膜炎和后葡萄膜炎的猫传染性腹膜炎病例的分类标准和眼科征象。"
+  },
+  {
+   "section": "Figure legend",
+   "section_zh": "图注",
+   "en": "FIGURE 1 Flow diagram illustrating the different treatment courses and outcomes with injectable remdesivir (15–20 mg/kg; 10–14 mg/kg) and oral GS‐441524 (15–22 mg/kg; 10–14 mg/kg) for 20 cats diagnosed with feline infectious peritonitis (FIP) with ocular involvement.",
+   "zh": "图1 流程图，展示20只诊断为眼部受累猫传染性腹膜炎（FIP）的猫接受注射remdesivir（15–20 mg/kg；10–14 mg/kg）和口服GS‐441524（15–22 mg/kg；10–14 mg/kg）的不同疗程和结局。"
+  },
+  {
+   "section": "Table caption",
+   "section_zh": "表题",
+   "en": "TABLE 2 Concurrent topical medication feline infectious peritonitis cats presenting with signs of anterior/panuveitis.",
+   "zh": "表2 表现为前/全葡萄膜炎征象的猫传染性腹膜炎猫的并用局部药物。"
+  },
+  {
+   "section": "Figure legend",
+   "section_zh": "图注",
+   "en": "FIGURE 2 A 6‐month‐old, female entire, Ragdoll diagnosed with effusive FIP with unilateral anterior uveitis. Image A shows iris color change of the left eye (mydriatic agent had been applied). Image B shows marked improvement in iris color change after 3 days of remdesivir administered intravenously.",
+   "zh": "图2 一只6月龄未绝育雌性布偶猫，诊断为渗出型FIP伴单侧前葡萄膜炎。图A显示左眼虹膜颜色改变（已使用散瞳剂）。图B显示静脉给予remdesivir 3天后虹膜颜色改变明显改善。"
+  },
+  {
+   "section": "Figure legend",
+   "section_zh": "图注",
+   "en": "FIGURE 3 A 2‐year‐old, male neutered, domestic short hair diagnosed with non‐effusive FIP with bilateral panuveitis. Image A shows hyphema, fibrinous uveitis, rubeosis iridis, and keratic precipitates before treatment. Image B shows resolution of uveitis 3 months after completion of an 84‐day course of antiviral medication.",
+   "zh": "图3 一只2岁去势雄性家养短毛猫，诊断为非渗出型FIP伴双侧全葡萄膜炎。图A显示治疗前的前房积血、纤维素性葡萄膜炎、虹膜红变和角膜后沉着物。图B显示完成84天抗病毒药物疗程后3个月葡萄膜炎消退。"
+  },
+  {
+   "section": "Figure legend",
+   "section_zh": "图注",
+   "en": "FIGURE 4 A 9‐month‐old, male neutered, Burmese with non‐effusive FIP with bilateral posterior uveitis. Image A shows multifocal regions of retinal hemorrhage (black arrow) and hyporeflective tapetal lesions (dashed arrow) with tortuosity of the retinal vessels (asterisk) on the first day of antiviral treatment. Image B shows resolution of active posterior uveitis 3 days after completion of an 84‐day course of antiviral medication.",
+   "zh": "图4 一只9月龄去势雄性缅甸猫，患非渗出型FIP伴双侧后葡萄膜炎。图A显示抗病毒治疗第一天的多灶性视网膜出血区（黑色箭头）和低反射性绒毡层病变（虚线箭头），伴视网膜血管迂曲（星号）。图B显示完成84天抗病毒药物疗程后3天活动性后葡萄膜炎消退。"
+  },
+  {
+   "section": "Figure legend",
+   "section_zh": "图注",
+   "en": "FIGURE 5 A 1 year 6‐month‐old, male neutered, Siberian with non‐effusive FIP presented with bilateral asymmetrical anterior uveitis. Image A shows mutton fat precipitates (black arrow) and rubeosis iridis before antiviral treatment (mydriatic agent had been applied). Image B resolution of rubeosis iridis on day 22 of treatment, keratic precipitates remained (white arrow). Image C shows resolution of keratic precipitates 2.5 months after completion of an 84‐day course of antiviral medication. The cat remains on long‐term management for unilateral secondary glaucoma and sub‐trace aqueous humor flare in the right eye.",
+   "zh": "图5 一只1岁6月龄去势雄性西伯利亚猫，患非渗出型FIP，表现为双侧不对称性前葡萄膜炎。图A显示抗病毒治疗前的羊脂状沉着物（黑色箭头）和虹膜红变（已使用散瞳剂）。图B显示治疗第22天虹膜红变消退，角膜后沉着物仍存在（白色箭头）。图C显示完成84天抗病毒药物疗程后2.5个月角膜后沉着物消退。该猫仍因单侧继发性青光眼和右眼微量以下房水闪辉接受长期管理。"
+  },
+  {
+   "section": "Figure legend",
+   "section_zh": "图注",
+   "en": "FIGURE 6 A 1‐year 5‐month‐old female neutered British Short Hair with non‐effusive FIP presented with vision loss. Image A shows retinal edema and a ventromedial retinal detachment. Image B shows reattachment of the retina 4 months after the course of antiviral medication; some regions of tapetal hyperreflectivity remained.",
+   "zh": "图6 一只1岁5月龄已绝育雌性英国短毛猫，患非渗出型FIP，表现为视力丧失。图A显示视网膜水肿和腹内侧视网膜脱离。图B显示抗病毒药物疗程后4个月视网膜复位；部分区域仍有绒毡层高反射。"
+  },
+  {
+   "section": "Figure legend",
+   "section_zh": "图注",
+   "en": "FIGURE 7 Histopathology image of the ciliary process of an enucleated globe with uveitis and glaucoma revealed coating of lymphocytes and plasma cells: Hematoxylin and eosin stain. 400 × magnification (A). Histopathology image of the iris base with mild perivascular lymphoplasmacytic inflammation (black arrow) and a collapsed trabecular meshwork (dashed arrow). S, sclera, PI, posterior aspect of the iris: Hematoxylin and eosin stain. 200 × magnification (B).",
+   "zh": "图7 一只伴葡萄膜炎和青光眼的摘除眼球睫状突的组织病理学图像，显示淋巴细胞和浆细胞覆盖：苏木精–伊红染色。400 ×放大（A）。虹膜根部的组织病理学图像，伴轻度血管周围淋巴浆细胞性炎症（黑色箭头）和小梁网塌陷（虚线箭头）。S，巩膜，PI，虹膜后面：苏木精–伊红染色。200 ×放大（B）。"
+  }
+ ]
+}

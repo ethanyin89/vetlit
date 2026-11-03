@@ -1,0 +1,329 @@
+{
+ "pmid": "42949438",
+ "license": "CC BY 4.0",
+ "attribution": {
+  "authors": [
+   "Hishinuma Kenta",
+   "Inoue Akiko",
+   "Fukushima Kenjiro",
+   "Sato Masahiko"
+  ],
+  "title": "Outcomes of a 42-day course of molnupiravir in cats with feline infectious peritonitis: a prospective descriptive study",
+  "journal": "Journal of Veterinary Internal Medicine",
+  "year": "2026",
+  "doi": "10.1093/jvimsj/aalag268",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "note": "中文为 AI 翻译，以英文原文为准；已对原文做翻译改编"
+ },
+ "scope_zh": "标题、英文结构化摘要、关键词、全文正文（引言、材料与方法、结果、讨论、结论）、致谢、作者贡献、利益冲突、资助、超说明书用药声明、伦理批准声明；表1–3表题、图1图注。未含：日文摘要（与英文摘要内容重复）、作者单位信息、数据可用性声明、参考文献、表格正文、补充材料。",
+ "paragraphs": [
+  {
+   "section": "Title",
+   "section_zh": "标题",
+   "en": "Outcomes of a 42-day course of molnupiravir in cats with feline infectious peritonitis: a prospective descriptive study",
+   "zh": "猫传染性腹膜炎猫接受42天molnupiravir疗程的结局：一项前瞻性描述性研究"
+  },
+  {
+   "section": "Abstract / Background",
+   "section_zh": "摘要 / 背景",
+   "en": "Antiviral therapy for cats with feline infectious peritonitis (FIP) has traditionally been administered for 84 days, although the optimal duration of molnupiravir treatment remains unknown.",
+   "zh": "猫传染性腹膜炎（FIP）猫的抗病毒治疗传统上持续84天，但molnupiravir（莫努匹韦）的最佳疗程仍不清楚。"
+  },
+  {
+   "section": "Abstract / Hypothesis/Objectives",
+   "section_zh": "摘要 / 假设/目的",
+   "en": "To evaluate the efficacy of a 42-day course of molnupiravir, orally (PO), for naturally occurring FIP in cats.",
+   "zh": "评估口服（PO）molnupiravir 42天疗程治疗猫自然发生FIP的疗效。"
+  },
+  {
+   "section": "Abstract / Animals",
+   "section_zh": "摘要 / 动物",
+   "en": "Nineteen client-owned cats with newly diagnosed FIP.",
+   "zh": "十九只新诊断FIP的客户自养猫。"
+  },
+  {
+   "section": "Abstract / Methods",
+   "section_zh": "摘要 / 方法",
+   "en": "Prospective pilot study. Cats received molnupiravir, PO, q12h for 42 days at a median dosage of 11.5 mg/kg (IQR, 10.2-12.5 mg/kg). Cats with ocular or neurological involvement were excluded. Clinical assessments were performed during treatment and for 6 months after treatment cessation.",
+   "zh": "前瞻性预试验研究。猫接受molnupiravir，PO，q12h，共42天，剂量中位数为11.5 mg/kg（IQR，10.2-12.5 mg/kg）。有眼部或神经系统受累的猫被排除。在治疗期间及停药后6个月内进行临床评估。"
+  },
+  {
+   "section": "Abstract / Results",
+   "section_zh": "摘要 / 结果",
+   "en": "Nineteen cats were enrolled. Two cats failed to complete treatment because of death or persistent clinical signs. Fourteen of 19 cats (74%; 95% CI, 49-91) achieved sustained remission on an intention-to-treat basis. Each non-completer failed on day 5 or 10, respectively, within a window common to 42- and 84-day protocols, and therefore do not inform the question of treatment duration; among the 17 cats reaching day 42, 14 (82%; 95% CI, 57-96) remained in remission for at least 6 months. Three cats relapsed after treatment cessation; all responded to retreatment with molnupiravir at the same dosage extended to 84 days.",
+   "zh": "共纳入十九只猫。两只猫因死亡或临床症状持续未能完成治疗。在意向治疗基础上，19只猫中有十四只（74%；95% CI，49-91）达到持续缓解。两只未完成治疗的猫分别在第5天或第10天治疗失败，这一时间窗为42天和84天方案所共有，因此无法为疗程问题提供信息；在达到第42天的17只猫中，14只（82%；95% CI，57-96）保持缓解至少6个月。三只猫在停药后复发；所有复发猫在以相同剂量、疗程延长至84天的molnupiravir再治疗后均有反应。",
+   "note_zh": "原文摘要称“3只猫复发”，讨论（第32段）将其比例表述为3/19（16%），第33段为3/17（18%），分母不同；译文按原文保留。"
+  },
+  {
+   "section": "Abstract / Conclusions and clinical importance",
+   "section_zh": "摘要 / 结论与临床意义",
+   "en": "This prospective study suggests that a shortened course of molnupiravir is feasible in selected cats with non-ocular, non-neurological FIP.",
+   "zh": "这项前瞻性研究提示，在经选择的非眼型、非神经型FIP猫中，缩短的molnupiravir疗程是可行的。"
+  },
+  {
+   "section": "Abstract / Keywords",
+   "section_zh": "摘要 / 关键词",
+   "en": "Keywords: antiviral therapy, feline infectious peritonitis, molnupiravir, nucleoside analogue, treatment duration",
+   "zh": "关键词：抗病毒治疗，猫传染性腹膜炎，molnupiravir，核苷类似物，疗程"
+  },
+  {
+   "section": "Introduction",
+   "section_zh": "引言",
+   "en": "Feline infectious peritonitis (FIP) was historically considered a uniformly fatal disease resulting from mutation of feline coronavirus (FCoV) into pathogenic strains capable of replicating within monocytes and macrophages, leading to dysregulated immune responses and severe systemic inflammation.1",
+   "zh": "猫传染性腹膜炎（FIP）历史上被视为一种一律致死的疾病，由猫冠状病毒（FCoV）突变为能够在单核细胞和巨噬细胞内复制的致病毒株所致，导致免疫反应失调和严重的全身炎症。1"
+  },
+  {
+   "section": "Introduction",
+   "section_zh": "引言",
+   "en": "In recent years, nucleoside analog antivirals have fundamentally changed the clinical outlook for cats with FIP. These agents inhibit viral replication, induce rapid clinical improvement and long-term survival, and have transformed FIP into a treatable and potentially curable disease.2 GS-441524 and its prodrug remdesivir (GS-5734) were the first to demonstrate high efficacy and favorable safety in experimental and clinical studies, establishing nucleoside analog therapy as the cornerstone of modern FIP treatment.3,4",
+   "zh": "近年来，核苷类似物抗病毒药物从根本上改变了FIP猫的临床前景。这些药物可抑制病毒复制，使临床症状迅速改善并实现长期生存，已将FIP转变为一种可治疗且可能治愈的疾病。2 GS-441524及其前药remdesivir（瑞德西韦，GS-5734）最先在实验和临床研究中显示出高疗效和良好的安全性，确立了核苷类似物治疗作为现代FIP治疗的基石。3,4"
+  },
+  {
+   "section": "Introduction",
+   "section_zh": "引言",
+   "en": "Molnupiravir, another nucleoside analog originally developed for human viral infections, is an effective treatment for FIP.5 GS-441524 and molnupiravir as first-line treatments have comparable efficacy and safety, supporting molnupiravir as a viable alternative antiviral therapy.6 However, GS-441524 remains the preferred first-line treatment because molnupiravir might have a narrower therapeutic window, is associated with adverse effects such as neutropenia, and there are theoretical concerns regarding viral mutation and antiviral resistance.7",
+   "zh": "molnupiravir是另一种最初为人类病毒感染开发的核苷类似物，是治疗FIP的有效药物。5 GS-441524和molnupiravir作为一线治疗具有相当的疗效和安全性，支持molnupiravir作为一种可行的替代抗病毒疗法。6 然而，GS-441524仍是首选的一线治疗，因为molnupiravir的治疗窗可能较窄，与中性粒细胞减少等不良反应相关，并且在理论上存在病毒突变和抗病毒耐药方面的担忧。7"
+  },
+  {
+   "section": "Introduction",
+   "section_zh": "引言",
+   "en": "Traditionally, antiviral treatment for FIP is administered for 12 weeks based on early treatment protocols and subsequent clinical experience.3,4,8 However, the optimal treatment duration has not been established. Prolonged therapy increases financial burden, complicates medication administration, and could reduce caregiver compliance and quality of life for both cats and caregivers. Shorter treatment durations could also minimize unnecessary drug exposure and the potential risk of antiviral resistance. In human medicine, antiviral therapy for RNA viral infections is typically administered for only 3-5 days once clinical improvement is achieved.9 However, because FIP differs markedly from human respiratory coronavirus infections in its pathogenesis and clinical course, its optimal treatment duration remains uncertain.",
+   "zh": "传统上，基于早期治疗方案和随后的临床经验，FIP的抗病毒治疗持续12周。3,4,8 然而，最佳疗程尚未确立。延长治疗会增加经济负担、使给药复杂化，并可能降低看护人的依从性以及猫和看护人的生活质量。较短的疗程还可尽量减少不必要的药物暴露和潜在的抗病毒耐药风险。在人类医学中，RNA病毒感染的抗病毒治疗在达到临床改善后通常仅持续3-5天。9 然而，由于FIP在发病机制和临床病程上与人类呼吸道冠状病毒感染明显不同，其最佳疗程仍不确定。"
+  },
+  {
+   "section": "Introduction",
+   "section_zh": "引言",
+   "en": "Forty-two-day and 84-day courses of GS-441524, orally (PO), in cats with effusive FIP have comparable outcomes, suggesting that a shorter course might be sufficient.10 Shortened treatment protocols could therefore reduce treatment costs and the burden of prolonged daily medication.",
+   "zh": "在渗出型FIP猫中，口服（PO）GS-441524 42天与84天疗程结局相当，提示较短的疗程可能足够。10 因此，缩短的治疗方案可降低治疗费用和长期每日给药的负担。"
+  },
+  {
+   "section": "Introduction",
+   "section_zh": "引言",
+   "en": "Despite these findings, whether a shortened treatment duration is similarly effective for molnupiravir, particularly in cats with non-effusive FIP, remains unknown. Therefore, the objective of this study was to report the efficacy of a 42-day course of molnupiravir, PO, in cats with naturally occurring effusive and non-effusive FIP.",
+   "zh": "尽管有这些发现，缩短疗程对molnupiravir是否同样有效，尤其是在非渗出型FIP猫中，仍不清楚。因此，本研究的目的是报告口服molnupiravir 42天疗程治疗自然发生的渗出型和非渗出型FIP猫的疗效。"
+  },
+  {
+   "section": "Materials and methods",
+   "section_zh": "材料与方法",
+   "en": "This was a prospective observational study conducted at a referral center between 2023 and 2025. Client-owned cats with clinically diagnosed FIP were enrolled after caregiver consent. The study protocol was approved by the ethical committee of our institution (approval number R71127-1).",
+   "zh": "本研究为2023年至2025年间在一家转诊中心开展的前瞻性观察性研究。临床诊断为FIP的客户自养猫在获得看护人同意后入组。研究方案经本机构伦理委员会批准（批准编号R71127-1）。"
+  },
+  {
+   "section": "Materials and methods",
+   "section_zh": "材料与方法",
+   "en": "Cats exhibited signalment, clinical signs, and disease progression consistent with FIP based on the Advisory Board on Cat Diseases guidelines.11 A presumptive diagnosis was established by an American College of Veterinary Internal Medicine board-certified internist using clinicopathologic testing, radiography, ultrasonography, cytology, FCoV reverse transcription polymerase chain reaction (RT-PCR) performed at IDEXX Laboratories, and overall clinical assessment. Cats with negative RT-PCR results were included if clinical findings were consistent with FIP and sustained clinical improvement was observed after antiviral therapy.",
+   "zh": "根据猫病咨询委员会（Advisory Board on Cat Diseases）指南，猫的基本信息、临床症状和疾病进展与FIP相符。11 由一名美国兽医内科学院（American College of Veterinary Internal Medicine）委员会认证的内科专科医生，根据临床病理检查、X线摄影、超声检查、细胞学、在IDEXX Laboratories进行的FCoV逆转录聚合酶链反应（RT-PCR）以及整体临床评估作出推定诊断。若临床表现与FIP相符且抗病毒治疗后观察到持续临床改善，RT-PCR结果阴性的猫也被纳入。"
+  },
+  {
+   "section": "Materials and methods",
+   "section_zh": "材料与方法",
+   "en": "Cats with overt ocular lesions or signs of neurological disease were excluded because these forms are associated with poorer outcomes and often require longer treatment durations.12,13 Therefore, these cases were excluded from the short-course treatment protocol. Additional exclusion criteria included caregiver selection of alternative treatment protocols (GS-441524 or an 84-day molnupiravir regimen) and positive feline immunodeficiency virus or feline leukemia virus status.",
+   "zh": "有明显眼部病变或神经系统疾病征象的猫被排除，因为这些类型与较差的结局相关，且通常需要更长的疗程。12,13 因此，这些病例被排除在短疗程治疗方案之外。其他排除标准包括看护人选择替代治疗方案（GS-441524或84天molnupiravir方案）以及猫免疫缺陷病毒或猫白血病病毒阳性。"
+  },
+  {
+   "section": "Materials and methods",
+   "section_zh": "材料与方法",
+   "en": "All cats received molnupiravir monotherapy, PO, (Molnuvid 200; Healing Pharma India Pvt. Ltd.) at a dosage of 10-15 mg/kg, compounded by a pharmacist, every 12 h for a fixed duration of 42 days. The purity or composition of the compounded molnupiravir preparation was not independently verified. Supportive treatments, including fluid therapy and appetite stimulants, were permitted at the clinician’s discretion. Dosage adjustments were made based on changes in body weight at follow-up visits.",
+   "zh": "所有猫均接受口服molnupiravir单药治疗（Molnuvid 200; Healing Pharma India Pvt. Ltd.），剂量为10-15 mg/kg，由药剂师配制，每12 h一次，固定疗程42天。所配制molnupiravir制剂的纯度或成分未经独立验证。允许临床医生酌情给予支持治疗，包括液体疗法和食欲刺激剂。根据复诊时体重的变化调整剂量。"
+  },
+  {
+   "section": "Materials and methods",
+   "section_zh": "材料与方法",
+   "en": "Re-evaluations were performed at weeks 1, 3, and 6 during treatment and at months 1, 2, 3, and 6 after treatment cessation. Each visit included a physical examination, complete blood count, serum biochemistry profile, and point-of-care in-house serum amyloid A measurement (SAA), as previously reported.14 Ultrasonography was performed during treatment and follow-up as clinically indicated.",
+   "zh": "在治疗期间第1、3和6周以及停药后第1、2、3和6个月进行复查。每次就诊包括体格检查、全血细胞计数、血清生化检查以及按既往报告方法进行的院内床旁血清淀粉样蛋白A（SAA）测定。14 治疗和随访期间根据临床需要进行超声检查。"
+  },
+  {
+   "section": "Materials and methods",
+   "section_zh": "材料与方法",
+   "en": "The primary outcome was treatment success, defined as the absence of FIP-related clinical signs for at least 6 months after treatment cessation. Relapse was defined as recurrence of clinical signs consistent with FIP after treatment discontinuation.",
+   "zh": "主要结局为治疗成功，定义为停药后至少6个月无FIP相关临床症状。复发定义为停药后再次出现与FIP相符的临床症状。"
+  },
+  {
+   "section": "Materials and methods",
+   "section_zh": "材料与方法",
+   "en": "Statistical analyses were performed using StatMate V (Atoms). Linear mixed-effects models were used to assess changes in hematologic variables over time. Statistical significance was set at P < .05.",
+   "zh": "统计分析使用StatMate V（Atoms）进行。采用线性混合效应模型评估血液学变量随时间的变化。统计学显著性设为P < .05。"
+  },
+  {
+   "section": "Results / Enrollment",
+   "section_zh": "结果 / 入组",
+   "en": "A total of 32 cats were diagnosed with FIP during the study period. Of these, 13 cats were excluded due to suspected ocular or neurological FIP (4 cats), caregiver selection of an alternative treatment protocol (8 cats), or loss to follow-up associated with poor owner compliance (1 cat). Nineteen cats that met the inclusion criteria were enrolled in the study. The signalment of the cats is summarized in Table 1. At enrollment, 10 cats were classified as having effusive FIP (7 cats with abdominal effusion, 2 cats with both pleural and abdominal effusions, and 1 cat with pleural effusion), while 9 cats were classified as having non-effusive FIP (4 cats with enlarged abdominal lymph nodes, 2 cats with multiple peritoneal nodules and thickening, 2 cats with enlarged abdominal lymph nodes and a colonic mass, and 1 cat with enlarged abdominal lymph nodes and renomegaly). Sixteen cats tested positive for FCoV by RT-PCR in effusion samples, enlarged lymph nodes, or mass lesions. In the remaining 3 cats, RT-PCR testing of lesions was negative; however, a diagnosis of FIP was established based on concordant clinical findings and a positive, sustained response to treatment. Clinical signs and clinicopathological abnormalities at enrollment are summarized in Tables 2 and 3.",
+   "zh": "研究期间共有32只猫被诊断为FIP。其中，13只猫因疑似眼型或神经型FIP（4只）、看护人选择替代治疗方案（8只）或因主人依从性差而失访（1只）被排除。十九只符合纳入标准的猫入组研究。猫的基本信息汇总于表1。入组时，10只猫被归为渗出型FIP（7只有腹腔积液，2只同时有胸腔和腹腔积液，1只有胸腔积液），9只猫被归为非渗出型FIP（4只腹腔淋巴结肿大，2只有多发腹膜结节和增厚，2只腹腔淋巴结肿大并有结肠肿块，1只腹腔淋巴结肿大并有肾肿大）。十六只猫的积液样本、肿大淋巴结或肿块病变FCoV RT-PCR检测阳性。其余3只猫病变的RT-PCR检测为阴性；但根据一致的临床表现以及对治疗的积极、持续反应确立了FIP诊断。入组时的临床症状和临床病理异常汇总于表2和表3。"
+  },
+  {
+   "section": "Results / Treatment response and outcome",
+   "section_zh": "结果 / 治疗反应与结局",
+   "en": "The median dose of molnupiravir was 11.5 mg/kg (interquartile range [IQR], 10.2-12.5 mg/kg). One cat with effusive FIP died suddenly 5 days after initiation of therapy while receiving molnupiravir at 10.1 mg/kg twice daily. Because a necropsy was not performed, the cause of death could not be determined. Another cat with non-effusive FIP received molnupiravir at a dose of 12.9 mg/kg twice daily; however, fever and lethargy persisted on day 5 and the molnupiravir dose was subsequently increased to 18 mg/kg twice daily, but no clinical improvement was observed. Therefore, the treatment protocol was changed to GS-441524 on day 10, after which the cat responded favorably to therapy.",
+   "zh": "molnupiravir的剂量中位数为11.5 mg/kg（四分位距[IQR]，10.2-12.5 mg/kg）。一只渗出型FIP猫在开始治疗后5天突然死亡，当时接受molnupiravir 10.1 mg/kg每日两次。由于未进行尸检，死因无法确定。另一只非渗出型FIP猫接受molnupiravir 12.9 mg/kg每日两次；然而第5天发热和嗜睡持续存在，随后molnupiravir剂量增加至18 mg/kg每日两次，但未见临床改善。因此，在第10天将治疗方案改为GS-441524，此后该猫对治疗反应良好。"
+  },
+  {
+   "section": "Results / Treatment response and outcome",
+   "section_zh": "结果 / 治疗反应与结局",
+   "en": "Seventeen cats completed the 42-day course of molnupiravir and underwent scheduled follow-up monitoring for at least 6 months after treatment discontinuation.",
+   "zh": "十七只猫完成了42天molnupiravir疗程，并在停药后接受了至少6个月的计划随访监测。"
+  },
+  {
+   "section": "Results / Treatment response and outcome",
+   "section_zh": "结果 / 治疗反应与结局",
+   "en": "Administration of molnupiravir resulted in consistent clinical and clinicopathological improvement in the 17 cats. Clinical signs improved by the first recheck visit. By week 2 of treatment, 8 of the 9 cats with effusion at diagnosis showed marked reduction in pleural or abdominal effusion, while abdominal effusion persisted in the remaining cat but demonstrated clear improvement by week 6. Ultrasonographic abnormalities—including lymphadenopathy, colonic mass, pleural or peritoneal thickening, renomegaly and intra-abdominal nodular lesions—resolved rapidly; the resolution was observed in 10 cats by week 3 and in the remaining 7 cats by week 6.",
+   "zh": "给予molnupiravir使这17只猫的临床和临床病理状况持续改善。至首次复查时临床症状已改善。至治疗第2周，诊断时有积液的9只猫中有8只胸腔或腹腔积液明显减少，其余一只猫腹腔积液持续存在，但至第6周明显改善。超声异常——包括淋巴结病、结肠肿块、胸膜或腹膜增厚、肾肿大和腹腔内结节性病变——迅速消退；10只猫在第3周前消退，其余7只猫在第6周前消退。",
+   "note_zh": "入组时渗出型为10只（第22段），此处“诊断时有积液的9只猫”系指完成42天疗程的17只猫中的有积液者（1只渗出型猫已于第5天死亡），原文未明说；按原文保留。"
+  },
+  {
+   "section": "Results / Treatment response and outcome",
+   "section_zh": "结果 / 治疗反应与结局",
+   "en": "Hematologic and biochemical abnormalities improved after initiation of treatment (Figure 1). White blood cell counts, SAA, and bilirubin concentrations decreased significantly (P < .05) by the 1-week recheck, whereas an increase in packed cell volume (PCV) required up to 3 weeks. Serum globulin concentrations decreased significantly (P < .05) by the 6-week recheck; however, complete resolution of hyperglobulinemia required up to 3 months after treatment discontinuation in 1 case.",
+   "zh": "开始治疗后血液学和生化异常有所改善（图1）。至第1周复查时，白细胞计数、SAA和胆红素浓度显著下降（P < .05），而红细胞压积（PCV）的升高需要长达3周。至第6周复查时，血清球蛋白浓度显著下降（P < .05）；但有1例的高球蛋白血症在停药后长达3个月才完全消退。"
+  },
+  {
+   "section": "Results / Treatment response and outcome",
+   "section_zh": "结果 / 治疗反应与结局",
+   "en": "Fourteen cats maintained remission for at least 6 months after treatment discontinuation. The median follow-up duration after treatment cessation among cats that maintained remission was 26 weeks (range, 26-29 weeks). Three cats developed recurrence of clinical signs, including fever, lethargy, and anorexia, at 21, 27, and 91 days after cessation of treatment, respectively. One cat with effusive FIP developed recurrent pleural effusion, and RT-PCR for coronavirus was positive in the effusion sample. Another cat with non-effusive FIP showed enlargement of the abdominal lymph nodes, and RT-PCR for coronavirus was positive in the lymph node aspirate sample. The third cat with non-effusive FIP, which initially presented with abdominal lymphadenopathy and renomegaly, developed fever accompanied by increased SAA and globulin concentrations on bloodwork. However, abdominal ultrasonography did not reveal any obvious abnormalities at the time relapse was suspected, and RT-PCR testing was not performed in this case. The cat was initially treated with fluid therapy and an appetite stimulant for 5 days; however, the clinical signs did not improve. FIP relapse was still suspected, and the clinical signs resolved within 1 day after restarting molnupiravir therapy. Therefore, all 3 cats were classified as relapse cases. In 2 cats that relapsed at 21 and 27 days after treatment cessation, no interim recheck data were available between discontinuation and relapse. In the cat that relapsed at 91 days after treatment cessation, re-evaluation data were available at 1, 2, and 3 months after discontinuation. In this cat, serum globulin concentrations increased gradually after cessation of therapy, rising from 4.2 g/dL at the end of treatment to 5.0, 5.2, and 5.5 g/dL at the 1-, 2-, and 3-month rechecks, respectively, before the development of clinical signs 7 days after the final recheck. No other clinicopathological changes predictive of relapse were identified at 1, 2, or 3 months after treatment cessation.",
+   "zh": "十四只猫在停药后保持缓解至少6个月。保持缓解的猫停药后随访时间中位数为26周（范围，26-29周）。三只猫分别在停药后21、27和91天再次出现临床症状，包括发热、嗜睡和厌食。一只渗出型FIP猫再次出现胸腔积液，积液样本冠状病毒RT-PCR阳性。另一只非渗出型FIP猫出现腹腔淋巴结肿大，淋巴结抽吸样本冠状病毒RT-PCR阳性。第三只非渗出型FIP猫最初表现为腹腔淋巴结病和肾肿大，此次出现发热，血液检查显示SAA和球蛋白浓度升高。然而，在怀疑复发时腹部超声检查未发现任何明显异常，该病例也未进行RT-PCR检测。该猫最初接受液体疗法和食欲刺激剂治疗5天；但临床症状未改善。仍怀疑FIP复发，重新开始molnupiravir治疗后1天内临床症状消退。因此，所有3只猫均被归为复发病例。在停药后21天和27天复发的2只猫中，停药与复发之间没有中期复查数据。在停药后91天复发的猫中，有停药后1、2和3个月的复查数据。该猫停药后血清球蛋白浓度逐渐升高，从治疗结束时的4.2 g/dL分别升至1、2和3个月复查时的5.0、5.2和5.5 g/dL，随后在最后一次复查后7天出现临床症状。停药后1、2或3个月时未发现其他可预测复发的临床病理变化。"
+  },
+  {
+   "section": "Results / Treatment response and outcome",
+   "section_zh": "结果 / 治疗反应与结局",
+   "en": "All 3 relapse cases were restarted on molnupiravir at the same dosage as the initial treatment (10.2, 11.5 and 14.3 mg/kg q12h, respectively) and treatment duration was extended to approximately 84 days. All cats showed rapid clinical improvement, and antiviral therapy was discontinued after completion of the extended course. All cats maintained remission for more than 6 months after retreatment. The signalment, FIP type, molnupiravir dosage, and treatment outcomes are summarized in the Supplementary material.",
+   "zh": "所有3例复发病例均以与初始治疗相同的剂量重新开始molnupiravir治疗（分别为10.2、11.5和14.3 mg/kg q12h），疗程延长至约84天。所有猫均迅速临床改善，延长疗程完成后停止抗病毒治疗。所有猫在再治疗后均保持缓解超过6个月。基本信息、FIP类型、molnupiravir剂量和治疗结局汇总于补充材料。"
+  },
+  {
+   "section": "Results / Adverse events",
+   "section_zh": "结果 / 不良事件",
+   "en": "Mild, asymptomatic increases in alanine aminotransferase (ALT) activity, ranging from 100 to 200 U/L (reference intervals: 22-84 U/L), were observed in 5 of 19 exposed cats (26%) after initiation of molnupiravir therapy and were monitored without intervention. These elevations resolved either during treatment or after treatment cessation.",
+   "zh": "开始molnupiravir治疗后，在19只暴露猫中有5只（26%）观察到轻度、无症状的丙氨酸氨基转移酶（ALT）活性升高，范围为100至200 U/L（参考区间：22-84 U/L），仅予监测而未作干预。这些升高在治疗期间或停药后消退。"
+  },
+  {
+   "section": "Results / Adverse events",
+   "section_zh": "结果 / 不良事件",
+   "en": "Neutropenia was observed in 2 of 19 cats (11%) after initiation of molnupiravir therapy, with neutrophil counts ranging from 700/μL to 1490/μL (reference intervals: 2500-12 500/μL). No cats developed clinical signs attributable to neutropenia, and antimicrobial therapy was not administered. Neutrophil counts returned to within the reference interval by the 1-month recheck after molnupiravir cessation.",
+   "zh": "开始molnupiravir治疗后，19只猫中有2只（11%）观察到中性粒细胞减少，中性粒细胞计数为700/μL至1490/μL（参考区间：2500-12 500/μL）。没有猫出现可归因于中性粒细胞减少的临床症状，也未给予抗菌治疗。停用molnupiravir后1个月复查时，中性粒细胞计数恢复至参考区间内。"
+  },
+  {
+   "section": "Results / Adverse events",
+   "section_zh": "结果 / 不良事件",
+   "en": "No other adverse events, such as signs of gastrointestinal disease, hair loss, or ear folding, were observed.",
+   "zh": "未观察到其他不良事件，如胃肠道疾病征象、脱毛或耳廓折叠。"
+  },
+  {
+   "section": "Discussion",
+   "section_zh": "讨论",
+   "en": "This prospective study reports that a 42-day course of oral molnupiravir monotherapy was effective and well tolerated in cats with naturally occurring FIP. Among the 19 cats included in this study, 2 cats (11%) failed to achieve remission and did not complete the 42-day treatment protocol, 3 cats (16%) relapsed after completing the 42-day protocol, and 14 cats (74%) achieved long-term remission after the initial 42-day treatment course.",
+   "zh": "这项前瞻性研究报告，口服molnupiravir单药42天疗程对自然发生FIP的猫有效且耐受良好。在本研究纳入的19只猫中，2只（11%）未能达到缓解且未完成42天治疗方案，3只（16%）在完成42天方案后复发，14只（74%）在首个42天疗程后达到长期缓解。"
+  },
+  {
+   "section": "Discussion",
+   "section_zh": "讨论",
+   "en": "Eleven percent of cats treated with GS-441524 died without achieving remission after the initial treatment course,15 and that relapse rates after completion of an 84-day GS-441524 treatment regimen ranged from 0% to 16%.3,4,6,16 A recent prospective study evaluating an 84-day molnupiravir treatment protocol with or without an immune stimulant reported that 23% of cats failed to complete the 84-day treatment course,17 and relapse rates range from 0% to 19% after completion of an 84-day molnupiravir treatment regimen.5,6,17,18 The variability in reported relapse rates is likely attributable, at least in part, to institutional differences in case populations, such as private practices versus referral hospitals, where more severe or advanced cases are more commonly encountered. The timing of treatment initiation and access to treatment might also influence the outcome. Although direct comparisons across studies are not possible, the point estimates for long-term remission and relapse fell within the ranges reported previously. The relapse proportion of 3/17 (18%) carries a 95% CI of 4%-43%, an upper bound well above the 0%-19% range reported after 84-day regimens; these data are therefore compatible with either equivalent or substantially inferior performance and do not establish non-inferiority. This study supports previous findings suggesting that a 42-day course of GS-441524 demonstrates efficacy comparable to that of an 84-day course in cats with effusive FIP.10 Importantly, our study also included cats with non-effusive FIP and demonstrated that a shortened treatment course was effective in these cases as well.",
+   "zh": "接受GS-441524治疗的猫中有11%在首个疗程后未达到缓解即死亡，15 而完成84天GS-441524治疗方案后的复发率为0%至16%。3,4,6,16 最近一项评估84天molnupiravir治疗方案（联合或不联合免疫刺激剂）的前瞻性研究报告，23%的猫未能完成84天疗程，17 完成84天molnupiravir治疗方案后的复发率为0%至19%。5,6,17,18 报告的复发率存在差异，可能至少部分归因于各机构病例群体的差异，如私人诊所与转诊医院，后者更常接诊较重或较晚期的病例。开始治疗的时机和获得治疗的途径也可能影响结局。虽然无法在研究之间直接比较，但长期缓解和复发的点估计值落在既往报告的范围内。复发比例3/17（18%）的95% CI为4%-43%，其上限远高于84天方案后报告的0%-19%范围；因此，这些数据既可能与同等表现相符，也可能与明显较差的表现相符，并不能确立非劣效性。本研究支持既往研究的发现，即在渗出型FIP猫中，GS-441524 42天疗程的疗效与84天疗程相当。10 重要的是，本研究还纳入了非渗出型FIP猫，并证明缩短的疗程在这些病例中同样有效。"
+  },
+  {
+   "section": "Discussion",
+   "section_zh": "讨论",
+   "en": "Improvement in clinical signs was observed within one week of treatment initiation, consistent with previous reports.11 In contrast, normalization of PCV and serum globulin concentrations required a longer period than that of SAA, total bilirubin, and neutrophil counts after initiation of therapy; therefore, PCV and globulin concentrations might be less suitable as early markers of treatment response. SAA was evaluated in this study because in-house SAA measurement was available at our hospital. In the present cohort, SAA was more frequently elevated (89%) at the time of FIP diagnosis than other clinicopathological parameters, including total bilirubin concentration (47%), neutrophil count (63%), and globulin concentration (68%). In addition, SAA concentrations declined rapidly after treatment initiation, suggesting that SAA is a useful and objective biomarker for monitoring early clinical response to antiviral therapy, consistent with the findings in the previous study.10,19",
+   "zh": "开始治疗后一周内观察到临床症状改善，与既往报告一致。11 相比之下，开始治疗后PCV和血清球蛋白浓度恢复正常所需时间长于SAA、总胆红素和中性粒细胞计数；因此，PCV和球蛋白浓度可能不太适合作为治疗反应的早期标志物。本研究评估SAA是因为本院可进行院内SAA测定。在本队列中，FIP诊断时SAA升高（89%）比其他临床病理参数更常见，包括总胆红素浓度（47%）、中性粒细胞计数（63%）和球蛋白浓度（68%）。此外，开始治疗后SAA浓度迅速下降，提示SAA是监测抗病毒治疗早期临床反应的有用且客观的生物标志物，与既往研究的发现一致。10,19"
+  },
+  {
+   "section": "Discussion",
+   "section_zh": "讨论",
+   "en": "Relapse occurred between 3 and 13 weeks after treatment cessation, consistent with previously reported relapse intervals.3,4 All relapsed cats responded favorably to retreatment with molnupiravir at the same dosage, and sustained remission was achieved after extension of the treatment duration. These findings suggest that relapse does not necessarily indicate the development of antiviral resistance, but might instead be associated with persistence of viral infection within tissues. Although dose escalation is often recommended for relapse, all 3 cats in the present study responded to retreatment with the same molnupiravir dosage combined with an extended treatment duration. However, the optimal retreatment strategy for cats that relapse after treatment cessation remains unknown.",
+   "zh": "复发发生在停药后3至13周之间，与既往报告的复发间隔一致。3,4 所有复发猫以相同剂量molnupiravir再治疗均反应良好，延长疗程后达到持续缓解。这些发现提示，复发不一定意味着产生了抗病毒耐药，而可能与病毒感染在组织内持续存在有关。尽管复发时通常建议增加剂量，但本研究中所有3只猫在相同molnupiravir剂量联合延长疗程的再治疗下均有反应。然而，停药后复发猫的最佳再治疗策略仍不清楚。"
+  },
+  {
+   "section": "Discussion",
+   "section_zh": "讨论",
+   "en": "Adverse events associated with molnupiravir were infrequent and generally mild. Transient, asymptomatic increases in ALT activity and neutropenia were observed but did not result in clinical complications or necessitate treatment discontinuation. These findings are consistent with reports of good tolerability of molnupiravir administered at similar or higher dosages and for longer treatment durations.5,6,8,17",
+   "zh": "与molnupiravir相关的不良事件不常见，且通常轻微。观察到一过性、无症状的ALT活性升高和中性粒细胞减少，但未导致临床并发症，也无需停药。这些发现与以相似或更高剂量、更长疗程给予molnupiravir时耐受性良好的报告一致。5,6,8,17"
+  },
+  {
+   "section": "Discussion",
+   "section_zh": "讨论",
+   "en": "The median age of cats in this study was older than that typically reported for cats with FIP, which are usually younger than 2 years of age.11 The reason for this difference is unclear, but it might reflect differences in the study sample and referral bias. As antiviral therapies have become more widely available in general practice, more typical and straightforward FIP cases can now be diagnosed and treated without referral, resulting in an older and potentially more complex referral sample in this study.",
+   "zh": "本研究中猫的年龄中位数高于FIP猫的典型报告年龄，后者通常小于2岁。11 这一差异的原因尚不清楚，但可能反映了研究样本的差异和转诊偏倚。随着抗病毒疗法在全科诊所中更广泛可得，更多典型且简单的FIP病例现在无需转诊即可诊断和治疗，导致本研究的转诊样本年龄更大、病情可能更复杂。"
+  },
+  {
+   "section": "Discussion",
+   "section_zh": "讨论",
+   "en": "Cats with ocular or neurological FIP were excluded from this study because these forms are associated with less favorable outcomes and typically require longer treatment durations.12,13 Consequently, it remains unclear whether a short-course molnupiravir regimen would be equally effective in cats with ocular or neurological FIP.",
+   "zh": "眼型或神经型FIP猫被排除出本研究，因为这些类型的结局较差，通常需要更长的疗程。12,13 因此，短疗程molnupiravir方案对眼型或神经型FIP猫是否同样有效仍不清楚。"
+  },
+  {
+   "section": "Discussion",
+   "section_zh": "讨论",
+   "en": "This study has several limitations. The sample size was small. Ophthalmologic and neurological examinations were performed in all cases; however, mild ocular or neurological abnormalities associated with FIP might have been overlooked. The purity and composition of the compounded molnupiravir product were not independently verified. At the time this study was initiated, evidence supporting the efficacy of a shortened treatment course of GS-441524 was not yet available; therefore, this investigation was designed as a pilot study, with the intent of informing subsequent randomized trials should comparable outcomes be observed. The absence of a control group receiving an 84-day molnupiravir regimen represents an important limitation. Larger, controlled prospective randomized studies are warranted to further define the optimal treatment duration of molnupiravir for FIP.",
+   "zh": "本研究存在若干局限。样本量较小。所有病例均进行了眼科和神经学检查；但与FIP相关的轻微眼部或神经系统异常可能被遗漏。所配制molnupiravir产品的纯度和成分未经独立验证。本研究启动时，尚无支持GS-441524缩短疗程疗效的证据；因此，本研究被设计为预试验研究，意在若观察到相当的结局，可为后续随机试验提供依据。缺乏接受84天molnupiravir方案的对照组是一个重要局限。有必要开展更大规模的对照前瞻性随机研究，以进一步确定molnupiravir治疗FIP的最佳疗程。"
+  },
+  {
+   "section": "Conclusions",
+   "section_zh": "结论",
+   "en": "In this prospective study of cats with non-ocular, non-neurological FIP, a 42-day course of molnupiravir resulted in sustained remission in 14 of 19 cats (74%).",
+   "zh": "在这项针对非眼型、非神经型FIP猫的前瞻性研究中，42天molnupiravir疗程使19只猫中的14只（74%）达到持续缓解。"
+  },
+  {
+   "section": "Acknowledgments",
+   "section_zh": "致谢",
+   "en": "The authors thank the staff of the Veterinary Specialists Emergency Center for their support in patient care and data collection.",
+   "zh": "作者感谢Veterinary Specialists Emergency Center的工作人员在患病动物护理和数据收集方面的支持。"
+  },
+  {
+   "section": "Author contributions",
+   "section_zh": "作者贡献",
+   "en": "Kenta Hishinuma (Investigation, Writing—original draft), Akiko Inoue (Data curation, Investigation), Kenjiro Fukushima (Investigation, Supervision), Masahiko Sato (Conceptualization, Methodology, Project administration, Supervision, Writing—review & editing)",
+   "zh": "Kenta Hishinuma（调查，写作——初稿），Akiko Inoue（数据管理，调查），Kenjiro Fukushima（调查，指导），Masahiko Sato（构思，方法，项目管理，指导，写作——审阅与编辑）"
+  },
+  {
+   "section": "Conflicts of interest",
+   "section_zh": "利益冲突",
+   "en": "Authors declare no conflicts of interest.",
+   "zh": "作者声明不存在利益冲突。"
+  },
+  {
+   "section": "Funding",
+   "section_zh": "资助",
+   "en": "Authors received no specific funding for this work.",
+   "zh": "作者未就本工作获得专门资助。"
+  },
+  {
+   "section": "Off-label antimicrobial declaration",
+   "section_zh": "超说明书用药声明",
+   "en": "Molnupiravir was used off-label for the treatment of feline infectious peritonitis.",
+   "zh": "molnupiravir在超说明书范围内用于治疗猫传染性腹膜炎。"
+  },
+  {
+   "section": "Institutional animal care and use committee or other approval declaration",
+   "section_zh": "机构动物护理与使用委员会或其他批准声明",
+   "en": "The study protocol was approved by the Animal Ethics Committee of Veterinary Specialists Emergency Center (approval number R71127-1). Written informed consent was obtained from all owners prior to enrollment of their cats in the study.",
+   "zh": "研究方案经Veterinary Specialists Emergency Center动物伦理委员会批准（批准编号R71127-1）。所有主人在其猫入组研究前均提供了书面知情同意。"
+  },
+  {
+   "section": "Human ethics approval declaration",
+   "section_zh": "人类伦理批准声明",
+   "en": "Authors declare human ethics approval was not needed.",
+   "zh": "作者声明无需人类伦理批准。"
+  },
+  {
+   "section": "Table caption",
+   "section_zh": "表题",
+   "en": "Table 1 Summary of baseline characteristics of cats included in this study.",
+   "zh": "表1 本研究纳入猫的基线特征汇总。"
+  },
+  {
+   "section": "Table caption",
+   "section_zh": "表题",
+   "en": "Table 2 Clinical signs observed at enrollment.",
+   "zh": "表2 入组时观察到的临床症状。"
+  },
+  {
+   "section": "Table caption",
+   "section_zh": "表题",
+   "en": "Table 3 Clinicopathological data at enrollment.",
+   "zh": "表3 入组时的临床病理数据。"
+  },
+  {
+   "section": "Figure legend",
+   "section_zh": "图注",
+   "en": "Figure 1 Clinicopathological variables during the follow-up period. The gray background indicates the reference intervals. Boxes represent the interquartile range, the horizontal line within each box indicates the median, and the cross marks indicate the mean values. Whiskers represent the minimum and maximum values, and outliers are shown as filled circles. P values shown in the figure were calculated using a linear mixed model. Abbreviations: NS = not statistically significant; PCV = packed cell volume; WBC = white blood cell count.",
+   "zh": "图1 随访期间的临床病理变量。灰色背景表示参考区间。箱体代表四分位距，箱内水平线表示中位数，十字标记表示均值。须线代表最小值和最大值，离群值以实心圆表示。图中所示P值采用线性混合模型计算。缩写：NS = 无统计学意义；PCV = 红细胞压积；WBC = 白细胞计数。"
+  }
+ ]
+}

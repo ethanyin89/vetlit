@@ -23,6 +23,8 @@ jobs:
           git add data/papers && (git diff --cached --quiet || (git commit -m "ingest: $(date -u +%F)" && git push))
       - run: python3 build.py
       - run: python3 build_preview.py
+        env: {VETLIT_LIVE: '1', SITE_URL: 'https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}'}
+      - run: python3 build_preview.py
         env: {SITE_URL: 'https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}'}
       - run: python3 scripts/check_links.py
       - uses: actions/upload-pages-artifact@v3

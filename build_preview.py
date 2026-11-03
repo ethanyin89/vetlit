@@ -2,7 +2,7 @@
 import json, os, glob, re, html, datetime, shutil
 import build as B
 import preview_extras as X
-ROOT=B.ROOT; OUT=os.path.join(B.DIST,'preview'); E_=html.escape
+ROOT=B.ROOT; LIVE=os.environ.get('VETLIT_LIVE')=='1'; OUT=B.DIST if LIVE else os.path.join(B.DIST,'preview'); E_=html.escape
 def clean(s):
     s=str(s or '')
     s=re.sub(r'[。；，]?\s*(数据)?来源[:：]\s*(deep extract|Vibe Feline|vibe-feline)[^。；|\n]*','',s,flags=re.I)
@@ -218,7 +218,7 @@ def title_html(p,tag='h3',href=None):
     return f'<{tag} class="ct">{t}</{tag}>'+sub
 def card(p,r):
     href=f'{r}papers/{p["sid"]}/'
-    bl=f'<p class="bl"><span class="eb">底线</span>{E_(clean(p["one_line_conclusion_zh"]))}</p>' if p.get('title_zh') and p.get('one_line_conclusion_zh') else ''
+    bl=f'<p class="bl"><span class="eb">一句话结论</span>{E_(clean(p["one_line_conclusion_zh"]))}</p>' if p.get('title_zh') and p.get('one_line_conclusion_zh') else ''
     lab=' · '.join(x for x in [' / '.join(specs(p)),species(p)] if x)
     return f'''<article class="card"><p class="eb">{E_(lab)}</p>{title_html(p,'h3',href)}{bl}{badges(p)}<p class="ft"><span><em>{E_(p.get("journal",""))}</em> · {E_(str(p.get("year","")))}</span><a class="go" href="{href}">阅读速读 →</a></p></article>'''
 def row(p,r):
@@ -231,11 +231,11 @@ def fresh_list(fs,r):
 FONTS='<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Anton&family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">'
 def page(title,body,depth,cur_nav=''):
     r='../'*depth
-    nav=''.join(f'<a href="{r}{h}"{" aria-current=page" if k==cur_nav else ""}>{t}</a>' for k,h,t in [('home','','本周'),('topics','topics/','专题'),('lib','library/','文献库'),('about','../about/index.html','方法')])
-    return f'''<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow">
-<title>{E_(title)} · VetLit 预览</title>{FONTS}<link rel="stylesheet" href="{r}static/v.css"></head><body>
+    nav=''.join(f'<a href="{r}{h}"{" aria-current=page" if k==cur_nav else ""}>{t}</a>' for k,h,t in [('home','','本周'),('topics','topics/','专题'),('lib','library/','文献库'),('about',('about/index.html' if LIVE else '../about/index.html'),'方法')])
+    return f'''<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">{"" if LIVE else '<meta name="robots" content="noindex,nofollow">'}
+<title>{E_(title)}{" · VetLit" if LIVE else " · VetLit 预览"}</title>{FONTS}<link rel="stylesheet" href="{r}static/v.css"></head><body>
 <header class="top"><div class="in"><a class="brand" href="{r}">VETLIT<i>.</i></a><nav>{nav}</nav></div></header>
-<div class="pv">预览版 · 改版中，正式站点仍在 <a href="{r}../">原址</a></div>
+{"" if LIVE else f'<div class="pv">预览版 · 正式站点见 <a href="{r}../">原址</a></div>'}
 <main class="wrap">{body}</main>
 <footer class="foot"><div class="in">犬猫兽医文献速读 · 仅供专业参考，不构成诊疗建议 · 构建于 {datetime.date.today().isoformat()}</div></footer></body></html>'''
 # ---------- home ----------
@@ -276,7 +276,7 @@ REAL=lambda t: bool(t.get('bottom_line')) and t.get('bottom_line_clinical') is T
 def topic_page(t):
     ps=tpapers(t); r='../../'
     crumb=f'<p class="crumb"><a href="{r}topics/">专题</a>'+(f' › <a href="{r}topics/{t["parent"]}/">{E_(TBY[t["parent"]]["name_zh"])}</a>' if t.get('parent') else '')+'</p>'
-    bl=f'<section class="bottom"><p class="eb red">临床底线 · 单人草稿·未经临床兽医审阅</p><p>{E_(clean(t["bottom_line"]))}</p></section>' if REAL(t) else ''
+    bl=f'<section class="bottom"><p class="eb red">一句话结论 · 单人草稿·未经临床兽医审阅</p><p>{E_(clean(t["bottom_line"]))}</p></section>' if REAL(t) else ''
     core=[(get(c['id']),c.get('reason')) for c in (t.get('core') or [])]
     if not t.get('core') and not t.get('all_ids'):
         core=[(p,None) for p in sorted(ps,key=lambda p:p.get('importance_rank') or 999)[:8]]
@@ -467,10 +467,15 @@ def paper(p):
     body+=f'<details class="fold"><summary>原文与许可</summary>{orig}</details><details class="fold"><summary>引用（BibTeX / RIS）</summary><pre>{E_(bib)}</pre><pre>{E_(ris)}</pre></details>'
     body+=f'<p class="note sig">依据：{p.get("basis_label") or ("仅题录，无摘要" if p.get("reading_depth")=="题录" else "摘要" if absonly else "全文")} · 速读：AI 单次提取{'（结论、关键数字、样本量除外，见各处标注）' if p.get('dual_x') else ''}</p>'
     return page(clean(p.get('title_zh') or p.get('first_author','')+' '+str(p.get('year',''))),body,2)
+def ranking_page():
+    rule=X.rule_text()
+    body=f'<p class="crumb"><a href="../../">← 返回本周</a></p><section class="hero"><p class="eb red">// 方法</p><h1>排序规则</h1></section><section><p>{E_(rule)}</p></section>'
+    return page('排序规则',body,2,'about')
 def w(rel,s):
     f=os.path.join(OUT,rel); os.makedirs(os.path.dirname(f),exist_ok=True); open(f,'w',encoding='utf-8').write(s)
 def main():
-    shutil.rmtree(OUT,ignore_errors=True)
+    if not LIVE: shutil.rmtree(OUT,ignore_errors=True)
+    w('about/ranking/index.html',ranking_page())
     w('index.html',home()); w('library/index.html',library()); w('topics/index.html',topics_index())
     for t in VIS: w(f'topics/{t["id"]}/index.html',topic_page(t))
     R2=json.load(open(os.path.join(ROOT,'data','v5','unverified_resolution_r2.json'),encoding='utf-8'))['records']; MERGE['ur2']=0

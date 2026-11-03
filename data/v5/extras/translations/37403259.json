@@ -1,0 +1,391 @@
+{
+ "pmid": "37403259",
+ "license": "CC BY 4.0",
+ "attribution": {
+  "authors": [
+   "Green Jodie",
+   "Syme Harriet",
+   "Tayler Sarah"
+  ],
+  "title": "Thirty‐two cats with effusive or non‐effusive feline infectious peritonitis treated with a combination of remdesivir and GS‐441524",
+  "journal": "Journal of Veterinary Internal Medicine",
+  "year": "2023",
+  "doi": "10.1111/jvim.16804",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "note": "中文为 AI 翻译，以英文原文为准；已对原文做翻译改编"
+ },
+ "scope_zh": "标题、结构化摘要、全文正文（引言、材料与方法、结果、讨论）、利益冲突、超说明书用药及伦理声明；表1–3表题、图1–3图注。未含：参考文献、表格正文、补充材料（表S1）。",
+ "paragraphs": [
+  {
+   "section": "Title",
+   "section_zh": "标题",
+   "en": "Thirty‐two cats with effusive or non‐effusive feline infectious peritonitis treated with a combination of remdesivir and GS‐441524",
+   "zh": "三十二只渗出型或非渗出型猫传染性腹膜炎猫接受remdesivir与GS‐441524联合治疗"
+  },
+  {
+   "section": "Abstract / Background",
+   "section_zh": "摘要 / 背景",
+   "en": "GS‐441524 has been successfully used to treat feline infectious peritonitis (FIP) in cats. However, the use of its prodrug, remdesivir, in combination with a PO GS‐441524 containing product for the treatment of FIP has not yet been described.",
+   "zh": "GS‐441524已成功用于治疗猫传染性腹膜炎（FIP）。然而，其前药remdesivir（瑞德西韦）与含GS‐441524的PO产品联合用于FIP治疗尚未见描述。"
+  },
+  {
+   "section": "Abstract / Objectives",
+   "section_zh": "摘要 / 目的",
+   "en": "Describe treatment protocols, response to treatment and outcomes in cats with FIP treated with a combination of PO GS‐441524 and injectable remdesivir.",
+   "zh": "描述接受PO GS‐441524与注射用remdesivir联合治疗的FIP猫的治疗方案、治疗反应和结局。"
+  },
+  {
+   "section": "Abstract / Animals",
+   "section_zh": "摘要 / 动物",
+   "en": "Thirty‐two client‐owned cats diagnosed with effusive or non‐effusive FIP including those with ocular and neurological involvement.",
+   "zh": "三十二只诊断为渗出型或非渗出型FIP的客户自养猫，包括有眼部和神经系统受累者。"
+  },
+  {
+   "section": "Abstract / Methods",
+   "section_zh": "摘要 / 方法",
+   "en": "Cats diagnosed with FIP at a single university hospital between August 2021 and July 2022 were included. Variables were recorded from time of diagnosis, and subsequent follow‐up information was obtained from the records of referring veterinarians. All surviving cats were observed for the entire 12‐week treatment period.",
+   "zh": "纳入2021年8月至2022年7月间在一家大学医院诊断为FIP的猫。自诊断时起记录各变量，后续随访信息从转诊兽医的记录中获取。所有存活猫均在整个12周治疗期内接受观察。"
+  },
+  {
+   "section": "Abstract / Results",
+   "section_zh": "摘要 / 结果",
+   "en": "Cats received treatment with different combinations of IV remdesivir, SC remdesivir, and PO GS‐441524 at a median (range) dosage of 15 (10‐20) mg/kg. Clinical response to treatment was observed in 28 of 32 cats (87.5%) in a median (range) of 2 (1‐5) days. Twenty‐six of 32 cats (81.3%) were alive and in clinical and biochemical remission at the end of the 12‐week treatment period. Six of 32 cats (18.8%) died or were euthanized during treatment with 4 of the 6 cats (66%) dying within 3 days of starting treatment.",
+   "zh": "猫接受IV remdesivir、SC remdesivir和PO GS‐441524的不同组合治疗，剂量中位数（范围）为15（10‐20）mg/kg。32只猫中有28只（87.5%）在中位数（范围）2（1‐5）天内出现临床治疗反应。32只猫中有二十六只（81.3%）在12周治疗期结束时存活并处于临床和生化缓解。32只猫中有六只（18.8%）在治疗期间死亡或被安乐死，其中6只中有4只（66%）在开始治疗后3天内死亡。",
+   "note_zh": "6只中4只原文写作66%（按四舍五入应为67%，第34段同时出现67%与66%）；按原文保留。"
+  },
+  {
+   "section": "Abstract / Conclusions",
+   "section_zh": "摘要 / 结论",
+   "en": "We describe the effective use of injectable remdesivir and PO GS‐441524 for the treatment of FIP in cats. Success occurred using different treatment protocols and with different presentations of FIP including cats with ocular and neurological involvement.",
+   "zh": "我们描述了注射用remdesivir和PO GS‐441524有效治疗猫FIP的情况。采用不同治疗方案、在不同FIP表现（包括有眼部和神经系统受累的猫）中均获得成功。"
+  },
+  {
+   "section": "INTRODUCTION",
+   "section_zh": "引言",
+   "en": "Feline infectious peritonitis (FIP) is caused by a mutated biotype of the ubiquitous feline enteric coronavirus. 1 Until recently it carried a grave prognosis because of a lack of efficacious treatments. 2 In humans, emerging infectious diseases caused by RNA viruses such as Ebola and severe acute respiratory syndrome (SARS) have accelerated research into broad spectrum anti‐viral drugs including GS‐441524 and its prodrug remdesivir (GS‐5734). 3 , 4 , 5",
+   "zh": "猫传染性腹膜炎（FIP）由普遍存在的猫肠道冠状病毒的一种突变生物型引起。1 直到最近，由于缺乏有效治疗，其预后严重。2 在人类中，埃博拉和严重急性呼吸综合征（SARS）等RNA病毒引起的新发传染病加速了对广谱抗病毒药物的研究，包括GS‐441524及其前药remdesivir（GS‐5734）。3 , 4 , 5"
+  },
+  {
+   "section": "INTRODUCTION",
+   "section_zh": "引言",
+   "en": "GS‐441524 is a nucleoside analog which prevents viral RNA replication by causing premature termination of viral RNA synthesis. 4 Remdesivir is monophosphate prodrug of GS‐441524 which improves cellular penetration of the parent nucleoside. 5 GS‐441524 and remdesivir are effective at inhibiting different species of coronavirus in tissue culture and in experimental animal models. 3 , 4 , 5 GS‐441524 was found to successfully inhibit FIP virus replication in feline macrophages, and preliminary studies using GS‐441524 for the treatment of FIP in cats have shown promising results. 2 , 6 , 7 , 8 , 9",
+   "zh": "GS‐441524是一种核苷类似物，通过使病毒RNA合成过早终止来阻止病毒RNA复制。4 Remdesivir是GS‐441524的单磷酸前药，可改善母体核苷的细胞穿透性。5 GS‐441524和remdesivir在组织培养和实验动物模型中可有效抑制不同种类的冠状病毒。3 , 4 , 5 已发现GS‐441524能成功抑制FIP病毒在猫巨噬细胞中的复制，使用GS‐441524治疗猫FIP的初步研究显示了令人鼓舞的结果。2 , 6 , 7 , 8 , 9"
+  },
+  {
+   "section": "INTRODUCTION",
+   "section_zh": "引言",
+   "en": "Injectable GS‐441524 has been successfully used for the treatment of effusive and non‐effusive FIP in 25 of 31 cats treated with daily SC injections at a dosage of 2 to 4 mg/kg. 7 Adverse effects were minimal and mostly attributable to injection site reactions. Disease relapse occurred in 8 of 26 cats within the first 3 to 84 days of treatment and was associated with lower treatment doses or treatment interruptions. 7 Higher dosages of 5 to 10 mg/kg also have been effective in treating 3 of 4 cats with neurological FIP. 8 A PO multi‐component drug (Xraphconn) containing GS‐441524 was used to successfully treat 18 cats with FIP with minimal adverse effects. 9 However, neither of these drug formulations are licensed, nor legally accessible, for veterinary use in the United Kingdom (UK).",
+   "zh": "注射用GS‐441524以2至4 mg/kg剂量每日SC注射，已成功治疗31只渗出型和非渗出型FIP猫中的25只。7 不良反应轻微，多归因于注射部位反应。26只猫中有8只在治疗的前3至84天内疾病复发，复发与较低治疗剂量或治疗中断相关。7 5至10 mg/kg的较高剂量也已有效治疗4只神经型FIP猫中的3只。8 一种含GS‐441524的PO多组分药物（Xraphconn）已成功治疗18只FIP猫，不良反应轻微。9 然而，这两种药物制剂在英国（UK）均未获兽用许可，也无法合法获得。"
+  },
+  {
+   "section": "INTRODUCTION",
+   "section_zh": "引言",
+   "en": "After the onset of the COVID‐19 pandemic, remdesivir was granted provisional licensing for the treatment of SARS‐Cov2 in humans in 2020. 5 , 10 , 11 , 12 As a result, access to injectable remdesivir for FIP treatment through a UK based compounding pharmaceuticals company became possible in August 2021 via the veterinary licensing cascade. This was followed by access to a PO formulation of GS‐441524 3 months later. However, no studies have yet evaluated the combined use of injectable remdesivir and PO GS‐441524 for the treatment of FIP in cats. Similarly, dose recommendations for remdesivir and PO GS‐441524 so far have been based on in vitro studies, experimental and limited field studies using injectable GS‐441524 and anecdotal evidence. 2 , 6 , 7 , 8 , 9 , 13 , 14 Little therefore is known about optimal treatment doses for different disease presentations, treatment length and adverse effects with injectable remdesivir and PO GS‐441524.",
+   "zh": "COVID‐19大流行暴发后，remdesivir于2020年获临时许可用于治疗人类SARS‐Cov2。5 , 10 , 11 , 12 因此，自2021年8月起，可通过兽药许可级联（cascade）制度，经一家英国配制药品公司获得注射用remdesivir用于FIP治疗。3个月后又可获得PO GS‐441524制剂。然而，尚无研究评估注射用remdesivir与PO GS‐441524联合用于猫FIP治疗。同样，remdesivir和PO GS‐441524的剂量建议迄今基于体外研究、使用注射用GS‐441524的实验和有限的现场研究以及经验证据。2 , 6 , 7 , 8 , 9 , 13 , 14 因此，对于注射用remdesivir和PO GS‐441524在不同疾病表现下的最佳治疗剂量、疗程和不良反应所知甚少。"
+  },
+  {
+   "section": "INTRODUCTION",
+   "section_zh": "引言",
+   "en": "Ours is a retrospective, observational case series describing treatment protocols, adverse effects, treatment response including clinical and biochemical changes, outcomes and survival rates in 32 cats with FIP treated with a combination of PO GS‐441524, injectable remdesivir or both. In our study, cats are described as achieving remission from FIP if they had resolution of all clinical signs and biochemical abnormalities by the end of the observed 12‐week treatment period. We aimed to describe treatment protocols and outcomes in cases of both effusive and non‐effusive FIP as well as cats that presented with ocular and neurological involvement.",
+   "zh": "本研究为回顾性观察性病例系列，描述32只接受PO GS‐441524、注射用remdesivir或二者联合治疗的FIP猫的治疗方案、不良反应、治疗反应（包括临床和生化变化）、结局和存活率。在本研究中，若猫在观察的12周治疗期结束时所有临床症状和生化异常均已消退，则描述为FIP缓解。我们旨在描述渗出型和非渗出型FIP病例以及表现为眼部和神经系统受累的猫的治疗方案和结局。"
+  },
+  {
+   "section": "MATERIALS AND METHODS",
+   "section_zh": "材料与方法",
+   "en": "Ours was a retrospective study performed at the Queen Mother Hospital for Animals, Royal Veterinary College (London, UK) between August 2021 and July 2022. Ethical approval was granted by the institution's Ethical Review Board (URN SR2021‐0208). Cats were included if a diagnosis of FIP was made by a board‐certified small animal internal medicine specialist or a resident working under their supervision and the cat received treatment with either remdesivir or GS‐441524. A minimum follow‐up period of 12 weeks was required for all cats included, unless they were euthanized or died before the end of the follow‐up period. A treatment period of 12 weeks was used for all surviving cats based on previous studies. 2 , 7 , 13 All follow‐up data was acquired from subsequent visits or from records of referring veterinarians.",
+   "zh": "本研究为2021年8月至2022年7月间在皇家兽医学院Queen Mother Hospital for Animals（伦敦，英国）开展的回顾性研究。研究经本机构伦理审查委员会批准（URN SR2021‐0208）。若FIP诊断由委员会认证的小动物内科专科医师或在其指导下工作的住院医师作出，且猫接受了remdesivir或GS‐441524治疗，则纳入该猫。所有纳入的猫均要求至少12周的随访期，除非其在随访期结束前被安乐死或死亡。根据既往研究，所有存活猫均采用12周治疗期。2 , 7 , 13 所有随访数据均来自后续就诊或转诊兽医的记录。"
+  },
+  {
+   "section": "MATERIALS AND METHODS / Data collection / Signalment and presenting signs",
+   "section_zh": "材料与方法 / 数据收集 / 基本信息与就诊症状",
+   "en": "The following information was collected and recorded for all cats: weight, age, breed, sex and neuter status, body condition score, presenting signs and days from first clinical signs to diagnosis. Clinical examination findings were recorded including ocular examination by a board‐certified ophthalmologist or resident under their direct supervision and neurological findings by a board‐certified neurologist or resident under their direct supervision. All cats were classified as having effusive or non‐effusive FIP based on the presence or absence of pleural or peritoneal effusion or both on point‐of‐care ultrasound examination or other imaging modalities.",
+   "zh": "收集并记录所有猫的以下信息：体重、年龄、品种、性别和绝育状况、体况评分、就诊症状以及从首次出现临床症状到诊断的天数。记录临床检查结果，包括由委员会认证的眼科专科医师或在其直接指导下的住院医师进行的眼科检查，以及由委员会认证的神经科专科医师或在其直接指导下的住院医师进行的神经学检查结果。根据床旁超声检查或其他影像学方法是否发现胸腔或腹腔积液或二者，将所有猫分为渗出型或非渗出型FIP。"
+  },
+  {
+   "section": "MATERIALS AND METHODS / Data collection / Diagnosis",
+   "section_zh": "材料与方法 / 数据收集 / 诊断",
+   "en": "Diagnosis was based on a combination of signalment, clinical signs, hematologic findings, serum biochemistry, imaging, and cytologic examination. Coronavirus RT‐PCR on effusions or lymph node aspirates, immunocytochemistry and immunohistochemistry were considered desirable but not essential for diagnosis. All cases were reviewed by 2 authors—a resident in small animal internal medicine (JG) and a boarded‐certified small animal internal medicine specialist (ST). Cats were excluded if investigations were considered inadequate to support a diagnosis of FIP. 15",
+   "zh": "诊断依据基本信息、临床症状、血液学结果、血清生化、影像学和细胞学检查的组合。积液或淋巴结抽吸物的冠状病毒RT‐PCR、免疫细胞化学和免疫组织化学被视为可取但非诊断必需。所有病例均由2名作者审核——一名小动物内科住院医师（JG）和一名委员会认证的小动物内科专科医师（ST）。若检查被认为不足以支持FIP诊断，则排除该猫。15"
+  },
+  {
+   "section": "MATERIALS AND METHODS / Data collection / Treatment",
+   "section_zh": "材料与方法 / 数据收集 / 治疗",
+   "en": "The following information was recorded for all cats: dose of IV remdesivir treatment, number of days of IV remdesivir treatment, number of days of SC remdesivir treatment, dose of SC remdesivir treatment, number of days from diagnosis to starting treatment, dose of PO GS‐441524, number of days of PO GS‐441524 treatment, duration of total treatment course, changes to doses and treatment adverse effects. For cats with effusive FIP, the following was recorded: number of thoracocentesis procedures required before and after starting treatment and number of days until effusion improved or resolved. For all cats, days from first treatment to first clinical improvement, days from presentation to hospital discharge, concurrent medications, comorbidities, and procedures including sedation and general anesthesia were recorded.",
+   "zh": "记录所有猫的以下信息：IV remdesivir治疗剂量、IV remdesivir治疗天数、SC remdesivir治疗天数、SC remdesivir治疗剂量、从诊断到开始治疗的天数、PO GS‐441524剂量、PO GS‐441524治疗天数、总疗程、剂量调整和治疗不良反应。对于渗出型FIP猫，记录以下信息：开始治疗前后所需的胸腔穿刺次数以及积液改善或消退的天数。对所有猫，记录从首次治疗到首次临床改善的天数、从就诊到出院的天数、并用药物、合并症以及包括镇静和全身麻醉在内的操作。"
+  },
+  {
+   "section": "MATERIALS AND METHODS / Data collection / Follow‐up",
+   "section_zh": "材料与方法 / 数据收集 / 随访",
+   "en": "Repeat clinical examination, hematology, and serum biochemistry were performed at 4, 8, and 12 weeks after starting treatment. For all cats, complications of treatment and signs of clinical relapse were recorded. For the cats that died or were euthanized, necropsy examination was available for 3 of 6 cats.",
+   "zh": "在开始治疗后4、8和12周重复进行临床检查、血液学和血清生化检查。记录所有猫的治疗并发症和临床复发征象。在死亡或被安乐死的猫中，6只中有3只进行了尸检。"
+  },
+  {
+   "section": "MATERIALS AND METHODS / Statistics",
+   "section_zh": "材料与方法 / 统计",
+   "en": "Data collection, checking, and cleaning were performed using Microsoft Excel (2021). Categorical data were summarized with count and percentage. Data for continuous variables are reported as median (range). The data was imported into IBM SPSS (Statistical Product and Service Solutions) version 28 statistical software for analysis. Statistical analyses were carried out to identify whether there was a significant increase in albumin: globulin ratios for cats with albumin: globulin ratios performed at the following time points: from 0 to 4 weeks, from 4 to 8 weeks, and from 8 to 12 weeks after starting treatment. Shapiro‐Wilks test for normality was carried out on the difference between paired values. Parametric data was compared using a paired t test, and a paired Wilcoxon signed‐rank test was used for non‐parametric data. Significance was defined as P < .05 for all analyses.",
+   "zh": "数据收集、核查和清理使用Microsoft Excel（2021）进行。分类数据以计数和百分比汇总。连续变量数据以中位数（范围）报告。数据导入IBM SPSS（Statistical Product and Service Solutions）28版统计软件进行分析。对在以下时间点测定了白蛋白：球蛋白比值的猫进行统计分析，以确定比值是否显著升高：开始治疗后0至4周、4至8周以及8至12周。对配对值之差进行Shapiro‐Wilks正态性检验。参数数据采用配对t检验比较，非参数数据采用配对Wilcoxon符号秩检验。所有分析的显著性均定义为P < .05。"
+  },
+  {
+   "section": "RESULTS / Signalment",
+   "section_zh": "结果 / 基本信息",
+   "en": "Thirty‐two cats were included: 12 British Short Hair (BSH), 5 Siberian, 5 Ragdoll, 3 Bengal, 3 Domestic Short Hair (DSH), 2 Maine Coon, 1 Turkish Vann and 1 Domestic Long Hair. There were 6 intact males, 16 neutered males, 4 intact females and 6 spayed females. Age at presentation was 7.5 (4‐72) months, body weight was 2.9 (1.14‐6) kg, and body condition score was 3 (1‐7) out of 9.",
+   "zh": "共纳入三十二只猫：12只英国短毛猫（BSH）、5只西伯利亚猫、5只布偶猫、3只孟加拉猫、3只家养短毛猫（DSH）、2只缅因猫、1只土耳其梵猫和1只家养长毛猫。其中6只未去势公猫、16只去势公猫、4只未绝育母猫和6只已绝育母猫。就诊时年龄为7.5（4‐72）月，体重为2.9（1.14‐6）kg，体况评分为3（1‐7）/9。"
+  },
+  {
+   "section": "RESULTS / Clinical presentation",
+   "section_zh": "结果 / 临床表现",
+   "en": "Characteristics of 32 cats diagnosed with FIP are summarized in Figure 1 and Table S1.",
+   "zh": "32只诊断为FIP的猫的特征汇总于图1和表S1。"
+  },
+  {
+   "section": "RESULTS / Clinical presentation / Presenting signs",
+   "section_zh": "结果 / 临床表现 / 就诊症状",
+   "en": "The most common presenting signs for all 32 cats were lethargy (32/32; 100%), hyporexia or anorexia (28/32; 87.5%), weight loss or poor weight gain (19/32; 59.4%), abdominal distension (21/32; 65.6%), diarrhea (7/32; 21.9%), dyspnea (5/32; 15.6%), ataxia (5/32; 15.6%), and icterus (4/32; 12.5%); time from first clinical signs to presentation was 9 (3‐122) days.",
+   "zh": "所有32只猫最常见的就诊症状为嗜睡（32/32；100%）、食欲减退或厌食（28/32；87.5%）、体重减轻或增重不良（19/32；59.4%）、腹部膨胀（21/32；65.6%）、腹泻（7/32；21.9%）、呼吸困难（5/32；15.6%）、共济失调（5/32；15.6%）和黄疸（4/32；12.5%）；从首次出现临床症状到就诊的时间为9（3‐122）天。"
+  },
+  {
+   "section": "RESULTS / Clinical presentation / Effusive and non‐effusive disease",
+   "section_zh": "结果 / 临床表现 / 渗出型与非渗出型疾病",
+   "en": "Twenty‐five cats presented with effusive FIP. Four cats had pleural effusion, 16 cats had peritoneal effusion and 5 cats had bi‐cavitary effusions. Seven cats presented with non‐effusive FIP.",
+   "zh": "二十五只猫表现为渗出型FIP。四只猫有胸腔积液，16只猫有腹腔积液，5只猫有双腔积液。七只猫表现为非渗出型FIP。"
+  },
+  {
+   "section": "RESULTS / Clinical presentation / Ocular signs",
+   "section_zh": "结果 / 临床表现 / 眼部症状",
+   "en": "Six cats had evidence of ocular involvement. Four cats had chorioretinitis, 1 cat had left anterior uveitis with green iridial discoloration, 1 cat had bilateral anterior uveitis with keratoprecipitates, and 1 cat had bilateral uveitis and chorioretinitis.",
+   "zh": "六只猫有眼部受累证据。四只猫有脉络膜视网膜炎，1只猫有左侧前葡萄膜炎伴虹膜绿色变色，1只猫有双侧前葡萄膜炎伴角膜后沉着物，1只猫有双侧葡萄膜炎和脉络膜视网膜炎。",
+   "note_zh": "原文称6只猫有眼部受累，但所列为4+1+1+1=7只；按原文保留。"
+  },
+  {
+   "section": "RESULTS / Clinical presentation / Neurological signs",
+   "section_zh": "结果 / 临床表现 / 神经系统症状",
+   "en": "Five cats presented with neurological signs. All 5 cats had marked obtundation, 2 cats had proprioceptive ataxia, 1 cat had cerebellar ataxia, and 2 cats had vestibular ataxia.",
+   "zh": "五只猫表现出神经系统症状。所有5只猫均有明显意识迟钝，2只猫有本体感觉性共济失调，1只猫有小脑性共济失调，2只猫有前庭性共济失调。"
+  },
+  {
+   "section": "RESULTS / Diagnostic testing",
+   "section_zh": "结果 / 诊断检查",
+   "en": "Hematologic and biochemical findings are summarized in Table 1 and Table S1. Diagnostic imaging, cytologic, histopathologic, and immunocytochemistry findings are summarized in Table 2. Five of 16 cats (31%) that had non‐invasive blood pressure (NIBP) measured at presentation were hypotensive (Doppler NIBP <80 mmHg).",
+   "zh": "血液学和生化结果汇总于表1和表S1。影像学、细胞学、组织病理学和免疫细胞化学结果汇总于表2。就诊时测量了无创血压（NIBP）的16只猫中有5只（31%）低血压（Doppler NIBP <80 mmHg）。"
+  },
+  {
+   "section": "RESULTS / Treatment",
+   "section_zh": "结果 / 治疗",
+   "en": "Treatment protocols are summarized in Figure 2 and Table S1.",
+   "zh": "治疗方案汇总于图2和表S1。"
+  },
+  {
+   "section": "RESULTS / Treatment / Intravenous remdesivir treatment",
+   "section_zh": "结果 / 治疗 / 静脉remdesivir治疗",
+   "en": "Thirty of 32 cats commenced treatment with IV remdesivir. Median (range) time from admission to starting treatment was 1 (0‐9) days and duration of IV remdesivir treatment was 5 (1‐10) days. For all cats, remdesivir was diluted 50 : 50 with saline and given as a constant rate infusion over 1 h. Overall starting dosage was 15 (10‐20) mg/kg. Nine cats (mainly those with stable effusive FIP) were given a starting dosage of 10 mg/kg once daily, 15 cats 15 mg/kg and 6 cats 20 mg/kg. Higher doses were used for cats with neurological FIP, those with ocular involvement or those with unstable effusive FIP, including those with hypotension, hypoglycemia, and severe pleural effusion.",
+   "zh": "32只猫中有三十只以IV remdesivir开始治疗。从入院到开始治疗的时间中位数（范围）为1（0‐9）天，IV remdesivir治疗时长为5（1‐10）天。所有猫的remdesivir均以生理盐水按50 : 50稀释，经1 h恒速输注给予。总体起始剂量为15（10‐20）mg/kg。九只猫（主要为病情稳定的渗出型FIP）的起始剂量为10 mg/kg每日一次，15只猫为15 mg/kg，6只猫为20 mg/kg。较高剂量用于神经型FIP猫、眼部受累猫或病情不稳定的渗出型FIP猫，包括有低血压、低血糖和严重胸腔积液者。"
+  },
+  {
+   "section": "RESULTS / Treatment / Subcutaneous remdesivir treatment",
+   "section_zh": "结果 / 治疗 / 皮下remdesivir治疗",
+   "en": "Eleven cats received SC remdesivir treatment after initial IV remdesivir treatment. Two cats (1 effusive FIP and 1 non‐effusive, neurological FIP) received only SC remdesivir treatment after IV treatment and completed the 84‐day treatment course. One cat received 2 doses of SC remdesivir before euthanasia. Eight cats received SC injections of remdesivir for a median (range) of 14 (2‐68) days before transitioning onto an equivalent dose of PO GS‐441524 to complete the 84‐day treatment course. Median (range) dosage of SC remdesivir was 10 (10‐15) mg/kg.",
+   "zh": "十一只猫在初始IV remdesivir治疗后接受了SC remdesivir治疗。两只猫（1只渗出型FIP和1只非渗出型神经型FIP）在IV治疗后仅接受SC remdesivir治疗并完成了84天疗程。一只猫在安乐死前接受了2剂SC remdesivir。八只猫接受SC注射remdesivir中位数（范围）14（2‐68）天，随后转为等剂量PO GS‐441524以完成84天疗程。SC remdesivir剂量中位数（范围）为10（10‐15）mg/kg。"
+  },
+  {
+   "section": "RESULTS / Treatment / Oral GS‐441524 treatment",
+   "section_zh": "结果 / 治疗 / 口服GS‐441524治疗",
+   "en": "Two cats never received IV remdesivir and were started on PO GS‐441524 from initial presentation. One cat was markedly azotemic on presentation and was euthanized 48 h after beginning treatment because of worsening acute kidney injury. The second cat completed an 84‐day course of PO GS‐441524. Sixteen cats transitioned immediately from IV remdesivir to an equivalent dose of PO GS‐441524 after 5 (5‐10) days and completed the entire 84‐day course. The dosage of PO GS‐441524 was 15 (10‐20) mg/kg.",
+   "zh": "两只猫从未接受IV remdesivir，自首次就诊起即开始PO GS‐441524。一只猫就诊时有明显氮质血症，因急性肾损伤恶化在开始治疗后48 h被安乐死。第二只猫完成了84天PO GS‐441524疗程。十六只猫在5（5‐10）天后由IV remdesivir直接转为等剂量PO GS‐441524，并完成了整个84天疗程。PO GS‐441524剂量为15（10‐20）mg/kg。"
+  },
+  {
+   "section": "RESULTS / Concurrent medications and co‐morbidities / Concurrent medications",
+   "section_zh": "结果 / 并用药物与合并症 / 并用药物",
+   "en": "Concurrent medications included maropitant (n = 15), ondansetron (n = 12), mirtazapine (n = 10), dextrose supplementation (n = 5), buprenorphine (n = 3), antibiotics (n = 3), furosemide (n = 1), norepinephrine (n = 2) hydrocortisone (n = 2), methadone (n = 1), packed red blood cell transfusion (n = 2), clopidogrel (n = 1), and prednisolone (n = 1). All cats with ocular involvement received topical medications including cyclopentolate hydrochloride (n = 2), ketorolac (0.5%, Acular; n = 2) topical dexamethasone (0.1%, Maxidex; n = 2), and latanoprost (n = 1).",
+   "zh": "并用药物包括maropitant（马罗匹坦）（n = 15）、ondansetron（昂丹司琼）（n = 12）、mirtazapine（米氮平）（n = 10）、葡萄糖补充（n = 5）、buprenorphine（丁丙诺啡）（n = 3）、抗生素（n = 3）、furosemide（呋塞米）（n = 1）、norepinephrine（去甲肾上腺素）（n = 2）、hydrocortisone（氢化可的松）（n = 2）、methadone（美沙酮）（n = 1）、浓缩红细胞输血（n = 2）、clopidogrel（氯吡格雷）（n = 1）和prednisolone（泼尼松龙）（n = 1）。所有眼部受累的猫均接受了局部药物，包括cyclopentolate hydrochloride（盐酸环喷托酯）（n = 2）、ketorolac（酮咯酸）（0.5%, Acular; n = 2）、局部dexamethasone（地塞米松）（0.1%, Maxidex; n = 2）和latanoprost（拉坦前列素）（n = 1）。"
+  },
+  {
+   "section": "RESULTS / Concurrent medications and co‐morbidities / Co‐morbidities",
+   "section_zh": "结果 / 并用药物与合并症 / 合并症",
+   "en": "One cat developed congestive heart failure while hospitalized and echocardiography was suggestive of hypertrophic cardiomyopathy phenotype. One cat developed phlebitis and necrosis of the right cephalic skin at a previous IV catheter site and required multiple general anesthetic administrations for surgical debridement and primary closure. One cat underwent sedation for nasogastric feeding tube placement and developed suspected aspiration pneumonia. One cat that received IV meloxicam off‐license for 3 days before presentation developed worsening acute kidney injury within 48 h of presentation.",
+   "zh": "一只猫住院期间发生充血性心力衰竭，超声心动图提示肥厚型心肌病表型。一只猫在既往IV导管部位发生静脉炎和右头静脉处皮肤坏死，需多次全身麻醉进行外科清创和一期缝合。一只猫在镇静下放置鼻胃饲管后发生疑似吸入性肺炎。一只在就诊前超说明书接受3天IV meloxicam（美洛昔康）的猫，在就诊后48 h内急性肾损伤恶化。"
+  },
+  {
+   "section": "RESULTS / Adverse effects",
+   "section_zh": "结果 / 不良反应",
+   "en": "No clinically relevant adverse effects were observed with IV remdesivir or from PO GS‐441524 treatment. Seven cats reacted adversely to SC injections with immediate pain reactions. All 7 of these cats received gabapentin before SC injection and 10 cats received topical local anesthetic (EMLA 5%, AstraZeneca) at the injection site to facilitate administration. Two cats developed local skin reactions that resolved without intervention.",
+   "zh": "IV remdesivir或PO GS‐441524治疗未观察到具有临床意义的不良反应。七只猫对SC注射有不良反应，表现为即时疼痛反应。这7只猫均在SC注射前接受了gabapentin（加巴喷丁），10只猫在注射部位使用了局部麻醉剂（EMLA 5%, AstraZeneca）以便于给药。两只猫发生局部皮肤反应，未经干预即消退。"
+  },
+  {
+   "section": "RESULTS / Outcome / Clinical response",
+   "section_zh": "结果 / 结局 / 临床反应",
+   "en": "Clinical response was documented in 28 of 32 cats (87.5%) in 2 (1‐5) days. Clinical response was recorded as improvement in demeanor (28/28; 100%), improvement in appetite (24/24;100%), resolution of pyrexia (20/20; 100%), and improvement in neurological signs (4/4; 100%). Eight of 9 (89%) cats with pleural effusion underwent thoracocentesis before starting treatment. Four of 9 cats (44%) required repeat thoracocentesis within 24 h of starting treatment and no cats required repeat thoracocentesis >24 h after starting treatment. All 9 cats had improvement in pleural effusion documented within 3 days of commencing treatment. Only 3 cats required >3 days of treatment before clinical response was documented. All 3 of these cats were Ragdolls and all suffered subsequent relapses in their conditions while still receiving treatment. Two of these cats were euthanized as a result.",
+   "zh": "32只猫中有28只（87.5%）在2（1‐5）天内记录到临床反应。临床反应记录为精神状态改善（28/28；100%）、食欲改善（24/24;100%）、发热消退（20/20；100%）和神经症状改善（4/4；100%）。9只有胸腔积液的猫中有八只（89%）在开始治疗前接受了胸腔穿刺。9只猫中有四只（44%）在开始治疗后24 h内需要重复胸腔穿刺，开始治疗>24 h后没有猫需要重复胸腔穿刺。所有9只猫均在开始治疗后3天内记录到胸腔积液改善。仅3只猫需要>3天治疗才记录到临床反应。这3只猫均为布偶猫，且均在仍接受治疗期间病情复发。其中两只因此被安乐死。"
+  },
+  {
+   "section": "RESULTS / Outcome / Survivors",
+   "section_zh": "结果 / 结局 / 存活者",
+   "en": "Twenty‐eight of 32 cats (87.5%) survived to discharge from hospital. Time from admission to discharge was 7 (4‐19) days. Twenty‐six of 32 cats (81.3%) were still alive and considered to be in clinical remission at the end of the 12‐week treatment course. These included 4 of 5 cats (80%) that presented with neurological disease and 4 of 6 cats (67%) with ocular involvement. Follow‐up time after finishing treatment was 258 (151‐402) days and all cats were still alive at last follow‐up. One surviving cat (a Ragdoll with effusive and ocular FIP) with clinical signs that had initially improved substantially 4 days into treatment suffered a relapse of clinical signs consisting of pyrexia, anorexia, green irideal discoloration and anterior uveitis 7 days into treatment and 2 days after transitioning from IV to SC remdesivir at 15 mg/kg. This cat was returned to IV remdesivir at 20 mg/kg for 5 days before completing the 12‐week treatment period with 20 mg/kg PO GS‐441524. One cat (a DSH with effusive FIP) that survived to 12 weeks developed pyrexia and anorexia 2 days after finishing the initial treatment course. Clinical investigations were suspicious of a relapse, and the cat was started on a second 84‐day course of GS‐441524 at a dosage of 20 mg/kg (previously 10 mg/kg). The cat was in clinical remission after finishing the second 84‐day treatment course.",
+   "zh": "32只猫中有二十八只（87.5%）存活至出院。从入院到出院的时间为7（4‐19）天。32只猫中有二十六只（81.3%）在12周疗程结束时仍存活并被认为处于临床缓解。其中包括5只表现为神经系统疾病的猫中的4只（80%）和6只眼部受累猫中的4只（67%）。治疗结束后的随访时间为258（151‐402）天，所有猫在最后一次随访时均存活。一只存活猫（一只渗出型和眼型FIP的布偶猫）的临床症状在治疗第4天最初明显改善，但在治疗第7天、由IV转为15 mg/kg SC remdesivir后2天出现临床症状复发，包括发热、厌食、虹膜绿色变色和前葡萄膜炎。该猫重新接受20 mg/kg IV remdesivir 5天，随后以20 mg/kg PO GS‐441524完成12周治疗期。一只存活至12周的猫（一只渗出型FIP的DSH）在完成初始疗程后2天出现发热和厌食。临床检查怀疑复发，该猫开始第二个84天GS‐441524疗程，剂量为20 mg/kg（之前为10 mg/kg）。完成第二个84天疗程后该猫处于临床缓解。"
+  },
+  {
+   "section": "RESULTS / Outcome / Non survivors",
+   "section_zh": "结果 / 结局 / 非存活者",
+   "en": "Six of 32 cats (18.8%) died or were euthanized during treatment (2 BSH, 3 Ragdolls, and 1 Siberian). Four of 6 of these cats (67%) were hypoglycemic (blood glucose concentration [BG] < 3.5 mmol/L) on presentation and 3 of 4 of these cats (75%) were also hypotensive (Doppler NIBP <80 mmHg) on presentation. Four of 6 cats (66%) died or were euthanized within 3 days of starting treatment. One cat (BSH with effusive and ocular FIP) was euthanized 2 days into treatment because of condition severity. Necropsy examination confirmed the diagnosis of FIP. One cat (Siberian with effusive FIP) was euthanized after 2 days because of worsening acute kidney injury; this cat had been receiving IV meloxicam for 3 days before referral and was azotemic before starting treatment. One cat (BSH with effusive and neurological disease) with marked hypoglycemia and hypotension suffered cardiopulmonary arrest under anesthesia for placement of a jugular catheter 1 day after starting treatment. Necropsy examination confirmed the diagnosis of FIP. One cat (a Ragdoll with effusive and ocular FIP) deteriorated substantially within 24 h of admission with refractory hypotension and hypoglycemia and subsequently was euthanized.",
+   "zh": "32只猫中有六只（18.8%）在治疗期间死亡或被安乐死（2只BSH、3只布偶猫和1只西伯利亚猫）。其中6只中有四只（67%）就诊时低血糖（血糖浓度[BG] < 3.5 mmol/L），这4只中有3只（75%）就诊时也有低血压（Doppler NIBP <80 mmHg）。6只猫中有四只（66%）在开始治疗后3天内死亡或被安乐死。一只猫（渗出型和眼型FIP的BSH）因病情严重在治疗第2天被安乐死。尸检确认了FIP诊断。一只猫（渗出型FIP的西伯利亚猫）因急性肾损伤恶化在2天后被安乐死；该猫在转诊前已接受IV meloxicam 3天，开始治疗前即有氮质血症。一只猫（渗出型和神经系统疾病的BSH）有明显低血糖和低血压，在开始治疗后1天于麻醉下放置颈静脉导管时发生心肺骤停。尸检确认了FIP诊断。一只猫（渗出型和眼型FIP的布偶猫）入院24 h内病情明显恶化，出现难治性低血压和低血糖，随后被安乐死。"
+  },
+  {
+   "section": "RESULTS / Outcome / Non survivors",
+   "section_zh": "结果 / 结局 / 非存活者",
+   "en": "Two cats were euthanized after discharge at 12 and 13 days into treatment. One cat (Ragdoll with non‐effusive FIP) showed an initial response to 15 mg/kg IV and SC remdesivir treatment and was discharged after 7 days. This cat developed thoracolumbar myelopathy within 24 h of returning home. The cat was restarted on IV remdesivir at 20 mg/kg for 5 days with no clinical improvement and was euthanized 12 days into treatment. Necropsy examination confirmed the clinical suspicion of progressive FIP within the central nervous system. One cat (Ragdoll with effusive FIP) showed a slow clinical response to treatment with first signs of improvement after 5 days. This cat subsequently developed suspected aspiration pneumonia after placement of a nasogastric tube and was discharged 12 days into treatment. The cat suffered from a seizure 24 h after discharge with suspected progressive neurological FIP and was subsequently euthanized.",
+   "zh": "两只猫在出院后、治疗第12天和第13天被安乐死。一只猫（非渗出型FIP的布偶猫）对15 mg/kg IV和SC remdesivir治疗有初始反应，7天后出院。该猫回家后24 h内发生胸腰段脊髓病。该猫重新接受20 mg/kg IV remdesivir 5天，无临床改善，在治疗第12天被安乐死。尸检确认了中枢神经系统内FIP进展的临床怀疑。一只猫（渗出型FIP的布偶猫）对治疗临床反应缓慢，5天后才出现首个改善征象。该猫随后在放置鼻胃管后发生疑似吸入性肺炎，于治疗第12天出院。该猫在出院后24 h发生癫痫发作，怀疑神经型FIP进展，随后被安乐死。"
+  },
+  {
+   "section": "RESULTS / Outcome / Non survivors",
+   "section_zh": "结果 / 结局 / 非存活者",
+   "en": "Excluding the 4 cats that were euthanized within 3 days of starting treatment, 26 of 28 cats (92%) were still alive at the end of the 12‐week treatment period.",
+   "zh": "排除开始治疗后3天内被安乐死的4只猫，28只猫中有26只（92%）在12周治疗期结束时仍存活。",
+   "note_zh": "原文此处为26/28（92%），第41段为92.8%（26/28≈92.9%）；按原文保留。"
+  },
+  {
+   "section": "RESULTS / Follow‐up",
+   "section_zh": "结果 / 随访",
+   "en": "Follow‐up hematology and serum biochemistry results were available for 25 of the 26 surviving cats. Sixteen cats had follow‐up laboratory work performed at 4 weeks, 15 cats at 8 weeks and 18 cats at 12 weeks. No hematologic abnormalities were apparent at 4, 8, or 12 weeks. Serum biochemical abnormalities documented at each time point are summarized in Table 3 and in Table S1.",
+   "zh": "26只存活猫中有25只可获得随访血液学和血清生化结果。十六只猫在第4周、15只在第8周、18只在第12周进行了随访实验室检查。第4、8或12周未见血液学异常。各时间点记录的血清生化异常汇总于表3和表S1。"
+  },
+  {
+   "section": "RESULTS / Follow‐up",
+   "section_zh": "结果 / 随访",
+   "en": "Of the 25 cats, 8 cats (32.0%) had an increase in alanine aminotransferase (ALT) activity >2‐fold from baseline and above the reference interval (>60 U/L) at 4, 8, or 12 weeks into treatment. Two cats (8.0%) experienced transient increases in serum creatinine concentration of >30% and > 150 μmol/L (reference interval [RI], 50‐177 μmol/L).",
+   "zh": "在这25只猫中，8只（32.0%）在治疗第4、8或12周时丙氨酸氨基转移酶（ALT）活性较基线升高>2倍且高于参考区间（>60 U/L）。两只猫（8.0%）出现一过性血清肌酐浓度升高>30%且> 150 μmol/L（参考区间[RI]，50‐177 μmol/L）。"
+  },
+  {
+   "section": "RESULTS / Follow‐up",
+   "section_zh": "结果 / 随访",
+   "en": "Follow‐up echocardiography was performed 4 weeks into treatment and 4 weeks after finishing a 12‐week treatment course in 1 cat (DSH with effusive FIP) diagnosed with hypertrophic cardiomyopathy phenotype and congestive heart failure at presentation. Phenotype stage B2 was documented at 4 weeks but all phenotypical abnormalities had resolved by 12 weeks.",
+   "zh": "1只就诊时被诊断为肥厚型心肌病表型和充血性心力衰竭的猫（渗出型FIP的DSH），在治疗第4周和完成12周疗程后4周进行了随访超声心动图检查。第4周记录为表型B2期，但至第12周所有表型异常均已消退。"
+  },
+  {
+   "section": "RESULTS / Follow‐up / Serum albumin: globulin ratios",
+   "section_zh": "结果 / 随访 / 血清白蛋白：球蛋白比值",
+   "en": "Median serum albumin: globulin ratios continued to increase for all cats at 4, 8, and 12 weeks into treatment (Figure 3). A significant increase in albumin: globulin ratios occurred for cats with albumin: globulin ratios performed at both time points from week 0 to week 4 (P < .01), from week 4 to week 8 (P < .01) and from week 8 to week 12 (P = .01).",
+   "zh": "所有猫在治疗第4、8和12周的血清白蛋白：球蛋白比值中位数持续升高（图3）。在两个时间点均测定了白蛋白：球蛋白比值的猫中，比值从第0周至第4周（P < .01）、第4周至第8周（P < .01）以及第8周至第12周（P = .01）均显著升高。"
+  },
+  {
+   "section": "DISCUSSION",
+   "section_zh": "讨论",
+   "en": "Our case series demonstrates the effective use of injectable remdesivir and PO GS‐441524 for the treatment of naturally‐occurring FIP. When cats survived the initial 3 days of treatment, outcome was considered excellent, with 26 of 28 cats (92.8%) still alive and in clinical remission at the end of the 12‐week treatment period. This outcome is consistent with previous success rates reported with SC GS‐441524 treatment. 2 , 7 , 8 Our study also supports client‐reported survey results on a PO GS‐441524‐like compound for the successful treatment of FIP. 16",
+   "zh": "本病例系列证明了注射用remdesivir和PO GS‐441524治疗自然发生FIP的有效性。当猫度过治疗的最初3天后，结局被认为极佳，28只猫中有26只（92.8%）在12周治疗期结束时仍存活并处于临床缓解。这一结局与既往报告的SC GS‐441524治疗成功率一致。2 , 7 , 8 本研究也支持关于一种PO类GS‐441524化合物成功治疗FIP的客户报告调查结果。16"
+  },
+  {
+   "section": "DISCUSSION",
+   "section_zh": "讨论",
+   "en": "Herein, we describe treatment protocols for FIP using a combination of IV remdesivir, SC remdesivir and PO GS‐441524. No studies have yet assessed optimal dosing of remdesivir, the prodrug of GS‐441524, for the treatment of FIP in cats. Doses of remdesivir in our study therefore were extrapolated from dosages used in human medicine, from previous studies on GS‐441524 and from anecdotal evidence. 2 , 7 , 8 , 9 , 14 , 17 Optimal dosing of PO GS‐441524 also has not yet been established although dosages of 5 to 10 mg/kg for 12 weeks have been used successfully. 9 , 16 Doses equivalent to the doses used for IV remdesivir were used in our study because of the poor oral bioavailability of GS‐441524 identified in other species despite its molecular weight being roughly half that of remdesivir. 18 Additional pharmacokinetic studies are needed however to determine the optimal dosing of both remdesivir and PO GS‐441524 for cats with FIP.",
+   "zh": "本文描述了采用IV remdesivir、SC remdesivir和PO GS‐441524联合治疗FIP的方案。尚无研究评估GS‐441524前药remdesivir治疗猫FIP的最佳剂量。因此，本研究中remdesivir的剂量是从人类医学使用的剂量、既往GS‐441524研究以及经验证据外推而来。2 , 7 , 8 , 9 , 14 , 17 PO GS‐441524的最佳剂量也尚未确立，尽管5至10 mg/kg、持续12周的剂量已成功使用。9 , 16 本研究采用与IV remdesivir相当的剂量，是因为在其他物种中发现GS‐441524口服生物利用度差，尽管其分子量约为remdesivir的一半。18 然而，需要进一步的药代动力学研究来确定remdesivir和PO GS‐441524治疗FIP猫的最佳剂量。"
+  },
+  {
+   "section": "DISCUSSION",
+   "section_zh": "讨论",
+   "en": "Because of the small number of cats receiving each treatment protocol and the retrospective nature of our study, comparisons cannot be made among treatment protocols and conclusions cannot be drawn on associated treatment success. However, effective treatment did occur using all treatment combinations. Treatment protocols were decided on a case‐by‐case basis and were influenced by several factors. A PO formulation of GS‐441524 was not available for the period of August to November 2021 and, as a result, all cats were transitioned from IV to SC remdesivir. However, once available, cats were subsequently transitioned onto an equivalent dose of PO GS‐441524 after variable durations of SC treatment. Subcutaneous injections were associated with a larger financial burden, difficulties in administration, poor patient tolerance and adverse effects such as pain on injection. As a result, SC injections in many patients consisted only of a short course or were negated altogether. In contrast, PO GS‐44152 did not appear to be associated with clinically relevant complications and was well tolerated as has been reported previously. 9 These findings also are consistent with previously reported owner perceptions that administration by injection was a major disadvantage in SC GS‐441524 treatment. 16 Poor compliance with treatment previously has been associated with an increased risk of relapse and must be considered when designing treatment protocols. 7 The success of combining IV remdesivir and PO GS‐441524 for the treatment of FIP in our study, in light of the disadvantages of SC remdesivir injection, therefore may lead to preferential use of PO GS‐441524 over SC remdesivir injections in the future.",
+   "zh": "由于接受各治疗方案的猫数量少且本研究为回顾性，无法对各治疗方案进行比较，也无法得出与治疗成功相关的结论。然而，所有治疗组合均实现了有效治疗。治疗方案逐例决定，并受多种因素影响。2021年8月至11月期间无法获得PO GS‐441524制剂，因此所有猫均由IV转为SC remdesivir。但一旦可获得，猫在不同时长的SC治疗后随后转为等剂量PO GS‐441524。皮下注射与更大的经济负担、给药困难、患病动物耐受性差以及注射疼痛等不良反应相关。因此，许多患病动物的SC注射仅为短疗程或完全省略。相比之下，PO GS‐44152似乎不伴有具有临床意义的并发症，且耐受良好，与既往报告一致。9 这些发现也与既往报告的主人看法一致，即注射给药是SC GS‐441524治疗的主要缺点。16 治疗依从性差此前已被证明与复发风险增加相关，设计治疗方案时必须加以考虑。7 鉴于SC remdesivir注射的缺点，本研究中IV remdesivir与PO GS‐441524联合治疗FIP的成功，可能使未来优先使用PO GS‐441524而非SC remdesivir注射。",
+   "note_zh": "原文“PO GS‐44152”应为GS‐441524的笔误；按原文保留。"
+  },
+  {
+   "section": "DISCUSSION",
+   "section_zh": "讨论",
+   "en": "Treatment success also occurred in our study with different presentations of FIP including cats with neurological and ocular involvement. Cases of neurological and ocular FIP require higher doses of injectable GS‐441524 because of poor drug access across the blood‐ocular and blood‐brain barriers. 2 , 8 Previous pharmacokinetic studies have shown that dosages of 10 mg/kg of GS‐441524 result in cerebrospinal fluid concentrations in healthy cats capable of causing partial viral inhibition in vitro. 2 Cases of neurological FIP or ocular FIP in our study therefore were started on dosages of 15 to 20 mg/kg of remdesivir and PO GS‐441524 q24h. Four of 5 cats (80%) that presented with neurological disease and 4 of 6 cats (67%) with ocular involvement recovered fully. However, 2 cats (both Ragdolls) that had originally presented without neurological signs developed neurological signs after discharge >1 week into treatment and subsequently were euthanized. These findings suggest that neurological disease developed and progressed despite treatment in these cats. This phenomenon has been reported previously, but the cause of treatment failure is unknown. 7 It is possible that sub‐therapeutic concentrations of GS‐441524 within the cerebrospinal fluid and the development of viral resistance may play contributory roles. 2 , 7 , 13 Additional pharmacokinetic studies therefore are required to determine optimal remdesivir and GS‐441524 dosing in cases with ocular and neurological involvement.",
+   "zh": "本研究中，在不同FIP表现（包括神经系统和眼部受累的猫）中也取得了治疗成功。由于药物穿过血‐眼屏障和血‐脑屏障的能力差，神经型和眼型FIP病例需要更高剂量的注射用GS‐441524。2 , 8 既往药代动力学研究表明，10 mg/kg的GS‐441524剂量在健康猫中产生的脑脊液浓度能够在体外引起部分病毒抑制。2 因此，本研究中神经型或眼型FIP病例以15至20 mg/kg的remdesivir和PO GS‐441524 q24h开始治疗。5只表现为神经系统疾病的猫中有4只（80%）以及6只眼部受累猫中有4只（67%）完全康复。然而，2只最初无神经症状的猫（均为布偶猫）在治疗>1周出院后出现神经症状，随后被安乐死。这些发现提示，这些猫的神经系统疾病尽管经过治疗仍发生并进展。这一现象此前已有报告，但治疗失败的原因不明。7 脑脊液内GS‐441524浓度低于治疗水平以及病毒耐药的产生可能起促成作用。2 , 7 , 13 因此，需要进一步的药代动力学研究来确定眼部和神经系统受累病例中remdesivir和GS‐441524的最佳剂量。"
+  },
+  {
+   "section": "DISCUSSION",
+   "section_zh": "讨论",
+   "en": "In our study 6 of 32 cats did not survive the treatment period. Four of these cats (67%) were hypoglycemic on presentation, which may reflect disease severity and the presence of severe inflammatory response syndrome or sepsis. Unfortunately, necropsy examination and blood cultures were not available for all cats. All 4 cats died within 72 h of starting treatment. Mortality in our study however also was influenced by other contributing factors including financial constraints resulting in cats not being allowed sufficient time to respond to treatment. True rates of clinical response therefore may be higher than our case series suggests. Additional investigations are required to identify whether cats that do not respond are refractory to treatment because of the presence or development of viral resistance or because of severe and irreversible inflammatory changes. 7 , 13",
+   "zh": "本研究中32只猫中有6只未能存活过治疗期。其中四只（67%）就诊时低血糖，这可能反映了疾病严重程度以及严重炎症反应综合征或脓毒症的存在。遗憾的是，并非所有猫都进行了尸检和血培养。所有4只猫均在开始治疗后72 h内死亡。然而，本研究的死亡率还受其他促成因素影响，包括经济限制导致猫没有足够时间对治疗产生反应。因此，真实的临床反应率可能高于本病例系列所显示的。需要进一步研究以确定无反应的猫对治疗难治，是由于存在或产生病毒耐药，还是由于严重且不可逆的炎症变化。7 , 13"
+  },
+  {
+   "section": "DISCUSSION",
+   "section_zh": "讨论",
+   "en": "In our study, 3 of 5 Ragdolls were euthanized because of their disease. Three of the 4 Ragdolls that survived more than 24 h demonstrated a delayed response to treatment and relapsed while receiving treatment, raising concerns for a poorer response in this breed. Only 1 Ragdoll in our study survived to 12 weeks without evidence for clinical relapse, however, there were too few Ragdolls in our study to determine if this breed is associated with poorer outcome, because this finding has not been reported in previous studies using GS‐441524. Future studies investigating breed‐specific differences in response to treatment in a larger cohort of cats are warranted to investigate this association further.",
+   "zh": "本研究中，5只布偶猫中有3只因疾病被安乐死。存活超过24 h的4只布偶猫中有三只表现出延迟的治疗反应，并在接受治疗期间复发，引发了对该品种反应较差的担忧。本研究中仅1只布偶猫存活至12周且无临床复发证据，然而本研究中布偶猫数量太少，无法确定该品种是否与较差结局相关，因为这一发现在既往使用GS‐441524的研究中未见报告。有必要在更大的猫群中开展研究，探讨治疗反应的品种特异性差异，以进一步研究这一关联。"
+  },
+  {
+   "section": "DISCUSSION",
+   "section_zh": "讨论",
+   "en": "Follow‐up hematology and serum biochemistry results were available for 25 of 26 cats, but only 9 cats had blood tests performed at every time point, which likely was a consequence of financial constraints of the owners. In our study, albumin: globulin ratios continued to improve significantly at every time point. This observation supports previous findings that the albumin: globulin ratio may be a useful treatment monitoring marker. 7 Furthermore, complete resolution of hyperbilirubinemia, hyperglobulinemia, and hypoalbuminemia only occurred 8 to 12 weeks into treatment in some cats. These findings, along with similar findings in previous studies, therefore may support a minimum treatment period of 12 weeks. 7 Additional studies are needed to identify the most effective treatment duration for the different presentations of FIP using different treatment protocols.",
+   "zh": "26只猫中有25只可获得随访血液学和血清生化结果，但仅9只猫在每个时间点均进行了血液检查，这可能是主人经济限制所致。本研究中，白蛋白：球蛋白比值在每个时间点均持续显著改善。这一观察支持既往发现，即白蛋白：球蛋白比值可能是有用的治疗监测标志物。7 此外，部分猫的高胆红素血症、高球蛋白血症和低白蛋白血症在治疗第8至12周才完全消退。因此，这些发现连同既往研究中的类似发现，可能支持至少12周的治疗期。7 需要进一步研究以确定采用不同治疗方案时各种FIP表现的最有效疗程。"
+  },
+  {
+   "section": "DISCUSSION",
+   "section_zh": "讨论",
+   "en": "In our study, 32% of the cats had more than a 2‐fold increase in ALT activity above the limit of the RI at 4, 8, or 12 weeks into treatment. This finding has been reported previously in cats treated with GS‐441524. 9 In humans with COVID‐19, minor serum aminotransferase increases occur in patients treated with remdesivir without other evidence of hepatic injury, and resolve after cessation of treatment. 19 , 20 The cause of hepatopathy with remdesivir and GS‐441524 treatment is not understood, but may be the result of direct toxicity because of inhibition of mitochondrial RNA polymerase. 19 , 20",
+   "zh": "本研究中，32%的猫在治疗第4、8或12周时ALT活性升高超过2倍且高于RI上限。这一发现此前在接受GS‐441524治疗的猫中已有报告。9 在COVID‐19人类患者中，接受remdesivir治疗的患者出现轻微血清转氨酶升高，无其他肝损伤证据，并在停药后消退。19 , 20 remdesivir和GS‐441524治疗引起肝病的原因尚不清楚，但可能是抑制线粒体RNA聚合酶导致的直接毒性。19 , 20"
+  },
+  {
+   "section": "DISCUSSION",
+   "section_zh": "讨论",
+   "en": "In our study follow‐up requirement was only the 12‐week treatment period. As a result, the frequency of relapse of clinical signs and the duration of sustained remission after finishing 12 weeks of treatment cannot be established. Additional studies are required to establish longterm follow‐up and outcome.",
+   "zh": "本研究的随访要求仅为12周治疗期。因此，无法确定完成12周治疗后临床症状复发的频率和持续缓解的时长。需要进一步研究以确定长期随访和结局。"
+  },
+  {
+   "section": "DISCUSSION",
+   "section_zh": "讨论",
+   "en": "In conclusion, our case series demonstrates the effective use of injectable remdesivir and PO GS‐441524 for the treatment of effusive and non‐effusive FIP in cats. Success occurred using different treatment protocols, and with different presentations of FIP, including cats with ocular and neurological involvement. Additional prospective studies are required to identify the most effective treatment protocols for the different presentations of FIP, and to provide longterm follow‐up information after the end of treatment.",
+   "zh": "总之，本病例系列证明了注射用remdesivir和PO GS‐441524治疗猫渗出型和非渗出型FIP的有效性。采用不同治疗方案、在不同FIP表现（包括有眼部和神经系统受累的猫）中均获得成功。需要进一步的前瞻性研究，以确定针对不同FIP表现的最有效治疗方案，并提供治疗结束后的长期随访信息。"
+  },
+  {
+   "section": "CONFLICT OF INTEREST DECLARATION",
+   "section_zh": "利益冲突声明",
+   "en": "United Kingdom based Specials Company BOVA contributed financially to the treatment of 1 cat in this study.",
+   "zh": "英国Specials公司BOVA为本研究中1只猫的治疗提供了资金支持。"
+  },
+  {
+   "section": "OFF‐LABEL ANTIMICROBIAL DECLARATION",
+   "section_zh": "超说明书抗菌药物使用声明",
+   "en": "Authors declare no off‐label use of antimicrobials.",
+   "zh": "作者声明无抗菌药物超说明书使用。"
+  },
+  {
+   "section": "INSTITUTIONAL ANIMAL CARE AND USE COMMITTEE (IACUC) OR OTHER APPROVAL DECLARATION",
+   "section_zh": "机构动物护理与使用委员会（IACUC）或其他批准声明",
+   "en": "Approved by the Royal Veterinary College University, URN SR2021‐0208.",
+   "zh": "经Royal Veterinary College University批准，URN SR2021‐0208。"
+  },
+  {
+   "section": "HUMAN ETHICS APPROVAL DECLARATION",
+   "section_zh": "人类伦理批准声明",
+   "en": "Authors declare human ethics approval was not needed for this study.",
+   "zh": "作者声明本研究无需人类伦理批准。"
+  },
+  {
+   "section": "Figure legend",
+   "section_zh": "图注",
+   "en": "FIGURE 1 Diagram reflecting the different presentations of feline infectious peritonitis for the 32 cats included in this study. *One cat was excluded due to the owner obtaining non‐licensed GS‐441524 4 weeks into the treatment period.",
+   "zh": "图1 示意图，反映本研究纳入的32只猫的不同猫传染性腹膜炎表现。*一只猫因主人在治疗期第4周获取了未许可的GS‐441524而被排除。",
+   "note_zh": "图1注称1只猫因使用未许可GS‐441524被排除，但正文其余部分均按32只猫报告；原文未进一步说明。"
+  },
+  {
+   "section": "Table caption",
+   "section_zh": "表题",
+   "en": "TABLE 1 Table showing biochemical and hematological findings in 32 cats with feline infectious peritonitis at the time of diagnosis.",
+   "zh": "表1 32只猫传染性腹膜炎猫诊断时的生化和血液学结果。"
+  },
+  {
+   "section": "Table caption",
+   "section_zh": "表题",
+   "en": "TABLE 2 Table showing diagnostic findings in 32 cats with feline infectious peritonitis.",
+   "zh": "表2 32只猫传染性腹膜炎猫的诊断结果。"
+  },
+  {
+   "section": "Figure legend",
+   "section_zh": "图注",
+   "en": "FIGURE 2 Diagram depicting the different treatment courses with remdesivir and GS‐441524 for 32 cats diagnosed with effusive and non‐effusive feline infectious peritonitis.",
+   "zh": "图2 示意图，描述32只诊断为渗出型和非渗出型猫传染性腹膜炎的猫接受remdesivir和GS‐441524的不同疗程。"
+  },
+  {
+   "section": "Table caption",
+   "section_zh": "表题",
+   "en": "TABLE 3 Table showing biochemical abnormalities present in cats with feline infectious peritonitis at time points 0, 4, 8, and 12 weeks into treatment with a combination of injectable remdesivir and oral GS‐441524.",
+   "zh": "表3 猫传染性腹膜炎猫在注射用remdesivir与口服GS‐441524联合治疗第0、4、8和12周时存在的生化异常。"
+  },
+  {
+   "section": "Figure legend",
+   "section_zh": "图注",
+   "en": "FIGURE 3 Box and whisker plot depicting albumin: globulin ratios of 25 cats with feline infectious peritonitis at 4, 8, and 12 weeks into treatment with remdesivir and/or GS441524.",
+   "zh": "图3 箱须图，描述25只猫传染性腹膜炎猫在remdesivir和/或GS441524治疗第4、8和12周时的白蛋白：球蛋白比值。"
+  }
+ ]
+}

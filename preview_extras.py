@@ -54,6 +54,8 @@ def related_block(pmid,link):
     if not li: return ''
     note=(REL.get('rule') if isinstance(REL,dict) else '') or '同专题、共同引用与关键词；外部条目来自 OpenAlex related_works，仅犬猫。'
     return f'<section class="blk"><h2 class="sec"><span>+</span> 相关阅读</h2><ul class="rows">{li}</ul><p class="note">{E_(note)}</p></section>'
+def rule_text():
+    return (TOP.get('rule') or TOP.get('rule_text') or '') if TOP else ''
 def top_block(get,card):
     if not TOP: return ''
     rule=TOP.get('rule') or TOP.get('rule_text') or ''
@@ -77,7 +79,7 @@ def top_block(get,card):
                 cards+=c
         if cards: out+=f'<h3 class="dg">{E_(g.get("topic_zh") or g.get("name_zh") or g.get("topic") or "")}</h3>'+cards
     if not out: return ''
-    return f'<section><h2 class="sec"><span>00</span> 最新 / 最重要</h2>'+(f'<p class="note">排序规则：{E_(rule)}</p>' if rule else '')+out+'</section>'
+    return f'<section><h2 class="sec"><span>00</span> 最新 / 最重要</h2>'+(f'<p class="note">按证据等级与时效排序 · <a href="about/ranking/">规则说明</a></p>' if rule else '')+out+'</section>'
 def bilingual_page(p,t,page):
     paras=t.get('paragraphs') or t.get('segments') or []
     rows=''; sec=None
