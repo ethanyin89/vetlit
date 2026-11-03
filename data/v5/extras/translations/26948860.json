@@ -1,0 +1,293 @@
+{
+ "pmid": "26948860",
+ "license": "CC BY 4.0",
+ "attribution": {
+  "authors": [
+   "Finch N.C.",
+   "Syme H.M.",
+   "Elliott J."
+  ],
+  "title": "Risk Factors for Development of Chronic Kidney Disease in Cats",
+  "journal": "Journal of Veterinary Internal Medicine",
+  "year": "2016",
+  "doi": "10.1111/jvim.13917",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "note": "中文为 AI 翻译，以英文原文为准；已对原文做翻译改编"
+ },
+ "scope_zh": "标题、结构化摘要、全文正文（引言、材料与方法、结果、讨论）；表1–4表题及表注、图1–2图注。未含：参考文献、脚注a/b所指的软件/设备说明、表格正文。源XML未提取到致谢/资助/利益冲突部分。",
+ "paragraphs": [
+  {
+   "section": "Title",
+   "section_zh": "标题",
+   "en": "Risk Factors for Development of Chronic Kidney Disease in Cats",
+   "zh": "猫慢性肾病发生的风险因素"
+  },
+  {
+   "section": "Abstract / Background",
+   "section_zh": "摘要 / 背景",
+   "en": "Identification of risk factors for development of chronic kidney disease (CKD) in cats may aid in its earlier detection.",
+   "zh": "识别猫慢性肾病（CKD）发生的风险因素可能有助于其早期发现。"
+  },
+  {
+   "section": "Abstract / Hypothesis/objectives",
+   "section_zh": "摘要 / 假设/目的",
+   "en": "Evaluation of clinical and questionnaire data will identify risk factors for development of azotemic CKD in cats.",
+   "zh": "对临床数据和问卷数据的评估将识别出猫氮质血症性CKD发生的风险因素。"
+  },
+  {
+   "section": "Abstract / Animals",
+   "section_zh": "摘要 / 动物",
+   "en": "One hundred and forty‐eight client‐owned geriatric (>9 years) cats.",
+   "zh": "一百四十八只客户自养老年（>9岁）猫。"
+  },
+  {
+   "section": "Abstract / Methods",
+   "section_zh": "摘要 / 方法",
+   "en": "Cats were recruited into the study and followed longitudinally for a variable time. Owners were asked to complete a questionnaire regarding their pet at enrollment. Additional data regarding dental disease were obtained when available by development of a dental categorization system. Variables were explored in univariable and multivariable Cox regression models.",
+   "zh": "招募猫入组研究，并进行时间不等的纵向随访。入组时请主人填写一份关于其宠物的问卷。在可获得时，通过建立一套牙科疾病分类系统获取有关牙科疾病的额外数据。在单变量和多变量Cox回归模型中探讨各变量。"
+  },
+  {
+   "section": "Abstract / Results",
+   "section_zh": "摘要 / 结果",
+   "en": "In the final multivariable Cox regression model, annual/frequent vaccination (P value, .003; hazard ratio, 5.68; 95% confidence interval, 1.83–17.64), moderate dental disease (P value, .008; hazard ratio, 13.83; 95% confidence interval, 2.01–94.99), and severe dental disease (P value, .001; hazard ratio, 35.35; 95% confidence interval, 4.31–289.73) predicted development of azotemic CKD.",
+   "zh": "在最终多变量Cox回归模型中，每年/频繁接种疫苗（P值，.003；风险比，5.68；95%置信区间，1.83–17.64）、中度牙科疾病（P值，.008；风险比，13.83；95%置信区间，2.01–94.99）和重度牙科疾病（P值，.001；风险比，35.35；95%置信区间，4.31–289.73）可预测氮质血症性CKD的发生。"
+  },
+  {
+   "section": "Abstract / Conclusion",
+   "section_zh": "摘要 / 结论",
+   "en": "Our study suggests independent associations between both vaccination frequency and severity of dental disease and development of CKD. Further studies to explore the pathophysiological mechanism of renal injury for these risk factors are warranted.",
+   "zh": "本研究提示疫苗接种频率和牙科疾病严重程度均与CKD的发生独立相关。有必要进一步研究探讨这些风险因素导致肾损伤的病理生理机制。"
+  },
+  {
+   "section": "Body",
+   "section_zh": "正文",
+   "en": "Chronic kidney disease (CKD) has a high prevalence in both humans and domestic cats. In human patients across Europe, Asia, and North America the prevalence is reported to be 2.5–11.2%.1 The figure is similar in cats with approximately 10% of cats >10 years of age reported to be affected although the etiopathogenesis may have some differences.2 Chronic kidney disease is defined as a sustained decrease in renal function over at least 3 months. It is not a single entity but a heterogeneous syndrome resulting in loss of functioning renal mass. In veterinary patients, congenital or acquired disorders can lead to development of CKD. Acute kidney damage (single or repeated episodes) secondary to urinary obstruction, nephrotoxins, pyelonephritis, or ischemic injury also can progress to CKD. The disease syndrome is an important cause of morbidity and mortality in cats and as a result, there is much interest in identifying risk factors for disease. These risk factors may not only aid in early detection, but also may help in understanding disease pathogenesis and development of new treatments.",
+   "zh": "慢性肾病（CKD）在人类和家猫中均有较高的患病率。在欧洲、亚洲和北美的人类患者中，报告的患病率为2.5–11.2%。1 猫的数字与之相似，据报告约10%的>10岁猫受累，尽管病因发病机制可能存在一些差异。2 慢性肾病定义为肾功能持续下降至少3个月。它不是单一疾病，而是一种导致功能性肾单位丧失的异质性综合征。在兽医患病动物中，先天性或后天性疾病均可导致CKD的发生。继发于尿路梗阻、肾毒素、肾盂肾炎或缺血性损伤的急性肾损伤（单次或反复发作）也可进展为CKD。该疾病综合征是猫发病和死亡的重要原因，因此识别该病的风险因素备受关注。这些风险因素不仅有助于早期发现，还可能有助于理解疾病发病机制和开发新疗法。",
+   "note_zh": "原文使用上标数字引用格式（如“11.2%.1”中句末的“1”为文献编号）；译文将文献编号置于相应句后保留。"
+  },
+  {
+   "section": "Body",
+   "section_zh": "正文",
+   "en": "Few studies have explored risk factors and predictors of CKD in cats. Biochemical variables that predict development of azotemic CKD within 12 months have been reported.3 A recent retrospective study reported an increased odds of diagnosis of CKD in cats with weight loss, thin body condition, dehydration, a recent history of general anesthesia, prior diagnosis of periodontal disease or cystitis and being male.4 A case–control study reported hyperthyroidism, lower urinary tract disease, frequent vomiting, altered appetite, and weight loss to be risk factors for CKD in cats.5 However, many of these risk factors may have resulted from CKD rather than leading to its development. An earlier case–control study identified ad libitum feeding, low dietary fiber, various nutritional factors, and low body weight to be associated with increased odds of CKD.6 Other studies have suggested certain breeds of cat, particularly the Maine coon, Abyssinian, Siamese, Russian blue, and Burmese2 and also cats infected with feline immunodeficiency virus (FIV)7 to have increased risk of CKD compared to control cats. Certain breeds such as the Birman normally may have higher serum creatinine concentrations which could lead to misclassification in these studies.8 Results of these previous studies should be interpreted with caution because they were of case–control design, having potential to introduce bias and confounders.9 A further limitation was collection of data retrospectively, which can introduce additional bias.",
+   "zh": "很少有研究探讨猫CKD的风险因素和预测因子。已有报告提出可预测12个月内发生氮质血症性CKD的生化变量。3 最近一项回顾性研究报告，体重减轻、体况偏瘦、脱水、近期全身麻醉史、既往诊断为牙周病或膀胱炎以及雄性的猫，诊断为CKD的比值升高。4 一项病例对照研究报告，甲状腺功能亢进、下泌尿道疾病、频繁呕吐、食欲改变和体重减轻是猫CKD的风险因素。5 然而，这些风险因素中有许多可能是CKD的结果，而非导致其发生的原因。较早的一项病例对照研究发现，自由采食、低膳食纤维、多种营养因素和低体重与CKD比值升高相关。6 其他研究提示，某些猫品种，尤其是缅因猫、阿比西尼亚猫、暹罗猫、俄罗斯蓝猫和缅甸猫，2 以及感染猫免疫缺陷病毒（FIV）的猫，7 与对照猫相比CKD风险升高。某些品种如伯曼猫的血清肌酐浓度可能正常即偏高，这可能导致这些研究中的错误分类。8 这些既往研究的结果应谨慎解读，因为它们采用病例对照设计，有可能引入偏倚和混杂因素。9 另一个局限是回顾性收集数据，这可能引入额外偏倚。"
+  },
+  {
+   "section": "Body",
+   "section_zh": "正文",
+   "en": "Dietary factors have been suggested to contribute to development of CKD in cats.10, 11, 12, 13 Feeding a commercially available high protein, acidifying diet which was potassium depleted led to hypokalemia and development of CKD in healthy cats, although the formulation of this diet is unlikely to represent typical commercial diets fed to cats.10 An earlier study found cats fed an acidifying diet developed both hypokalemia and azotemia, but was limited by the low number of cats included.11",
+   "zh": "有研究提出饮食因素会促成猫CKD的发生。10, 11, 12, 13 给健康猫饲喂一种市售的高蛋白、酸化且缺钾的日粮，导致了低钾血症和CKD的发生，尽管这种日粮的配方不太可能代表猫常吃的典型商品日粮。10 一项更早的研究发现，饲喂酸化日粮的猫出现了低钾血症和氮质血症，但该研究受限于纳入猫数量较少。11"
+  },
+  {
+   "section": "Body",
+   "section_zh": "正文",
+   "en": "Previous studies found cats given commercially available vaccines by SC injection developed anti‐Crandell‐Rees feline kidney (CRFK) proteins and antirenal tissue antibodies.14, 15 Furthermore, interstitial nephritis was identified in renal biopsy tissue collected after SC vaccination.16 A large proportion of the feline population receives regular vaccinations and, based on findings from previous studies described above, this practice may be considered a potential risk factor for CKD in cats. No epidemiological studies have evaluated the effects of vaccination on kidney function in cats.",
+   "zh": "既往研究发现，经SC注射市售疫苗的猫产生了抗Crandell-Rees猫肾（CRFK）蛋白抗体和抗肾组织抗体。14, 15 此外，在SC接种疫苗后采集的肾活检组织中发现了间质性肾炎。16 很大比例的猫群定期接种疫苗，根据上述既往研究的发现，这种做法可被视为猫CKD的潜在风险因素。尚无流行病学研究评估疫苗接种对猫肾功能的影响。"
+  },
+  {
+   "section": "Body",
+   "section_zh": "正文",
+   "en": "Identification of risk factors and predictors for development of azotemia in cats would allow targeted population screening and identification of high‐risk patients. The information also would be important because it may provide an opportunity for early detection of the underlying disease and intervention to manage the primary disease process and prevent further renal damage. The aim of our study was to identify lifestyle and healthcare variables that predicted development of azotemia using a longitudinal cohort study.",
+   "zh": "识别猫发生氮质血症的风险因素和预测因子，将有助于开展针对性的群体筛查并识别高风险患病动物。这些信息也很重要，因为它可能为早期发现潜在疾病、干预管理原发病程并防止进一步肾损伤提供机会。本研究的目的是通过一项纵向队列研究，识别能预测氮质血症发生的生活方式和医疗保健变量。"
+  },
+  {
+   "section": "Materials and Methods / Study population",
+   "section_zh": "材料与方法 / 研究群体",
+   "en": "Healthy geriatric (>9 years old) nonazotemic (plasma creatinine concentration <2.0 mg/dL [177 μmol/L]) cats were recruited into a longitudinal study between 2005 and 2009 that was conducted at 2 London‐based first opinion practices (Beaumont Sainsbury Animals' Hospital [BAH], Royal Veterinary College, Camden and People's Dispensary for Sick Animals [PDSA], Bow). Healthy cats were defined based on normal clinical history, physical examination and blood and urine screening. The study was conducted with approval from the Royal Veterinary College's Ethics and Welfare committee. Cats were followed longitudinally until either they developed azotemia, were lost to follow‐up (LTF), died, or the study end point (31.12.09) was reached. Reassessment of cats was performed at approximately 6‐month intervals in normal healthy cats. More frequent evaluations were performed in some cats depending on the clinical management required. At least 2 visits (1 to include the enrollment visit) were required for inclusion in the study. Cats that developed concurrent disease, such as hyperthyroidism, during the follow‐up period were censored. Data from cats that died or were LTF also were censored. At the initial and all subsequent visits, a full medical history was obtained and physical examination performed. At the study end‐point cats were categorized according to their renal status (azotemic or nonazotemic). Cats were classified as having azotemic CKD if they had a plasma creatinine concentration above the laboratory reference range (>2.0 mg/dL [177 μmol/L]) in association with decreased urine concentrating ability (USG < 1.035) or demonstrated persistently increased plasma creatinine concentration at 2 visits typically 6–8 weeks apart. Renal biopsies were not performed.",
+   "zh": "2005年至2009年间，健康的老年（>9岁）非氮质血症（血浆肌酐浓度<2.0 mg/dL [177 μmol/L]）猫被招募进入一项纵向研究，该研究在伦敦的2家初诊兽医机构（皇家兽医学院Beaumont Sainsbury动物医院[BAH]，Camden；以及病患动物人民诊所[PDSA]，Bow）开展。健康猫的定义基于正常的临床病史、体格检查以及血液和尿液筛查。本研究经皇家兽医学院伦理与福利委员会批准。猫被纵向随访，直至发生氮质血症、失访（LTF）、死亡或到达研究终点（31.12.09）。对正常健康猫约每6个月复查一次。根据所需的临床管理，部分猫评估更为频繁。纳入研究至少需要2次就诊（其中1次为入组就诊）。随访期间发生并发疾病（如甲状腺功能亢进）的猫作删失处理。死亡或LTF的猫的数据也作删失处理。在首次及所有后续就诊时，均获取完整病史并进行体格检查。在研究终点，根据肾脏状况（氮质血症或非氮质血症）对猫进行分类。若猫的血浆肌酐浓度高于实验室参考范围（>2.0 mg/dL [177 μmol/L]）并伴有尿浓缩能力下降（USG < 1.035），或在通常间隔6–8周的2次就诊时血浆肌酐浓度持续升高，则被归为氮质血症性CKD。未进行肾活检。"
+  },
+  {
+   "section": "Materials and Methods / Questionnaire data",
+   "section_zh": "材料与方法 / 问卷数据",
+   "en": "At the initial visit, cat owners were asked to complete a questionnaire regarding their pet's lifestyle, dietary habits, and vaccination status. This questionnaire has been presented in a previous study evaluating risk factors for hyperthyroidism in cats.17 When questionnaires were not completed fully or further information was required owners were contacted retrospectively by telephone and additional information obtained. Information was collected regarding breed, sex, diet, environment, cigarette smoke exposure, vaccination, and history of dental disease. Because of the low numbers in each breed group, cats were classified as domestic short hair (DSH)/domestic long hair (DLH) or pedigree for statistical analysis. Dietary variables evaluated included type of food fed (wet versus dry) and feeding of urinary or senior diets. Information regarding the environment the cat lived in included whether the cat lived predominantly indoors or outdoors and whether the household was situated in an urban or semirural/rural environment. Vaccination status was categorized as (1) never vaccinated, (2) primary vaccination only, (3) occasional vaccination (>2‐year interval), (4) frequent or annual vaccination (every 1–2 years), or (5) unknown vaccination status. For the purposes of statistical analysis, never vaccinated, primary vaccination only and occasional vaccination categories were combined and renamed never/occasional vaccination. Data for dental disease included a dental disease category and history of previously diagnosed dental disease or treatment. Categories for variables are presented in Table 1.",
+   "zh": "首次就诊时，请猫主人填写一份关于其宠物生活方式、饮食习惯和疫苗接种状况的问卷。该问卷已在既往一项评估猫甲状腺功能亢进风险因素的研究中介绍。17 若问卷未完整填写或需要进一步信息，则事后通过电话联系主人获取补充信息。收集的信息包括品种、性别、饮食、环境、香烟烟雾暴露、疫苗接种和牙科疾病史。由于各品种组数量较少，统计分析时将猫分为家养短毛猫（DSH）/家养长毛猫（DLH）或纯种猫。评估的饮食变量包括所喂食物类型（湿粮与干粮）以及是否饲喂泌尿道日粮或老年日粮。关于猫生活环境的信息包括猫主要生活在室内还是室外，以及家庭位于城市还是半农村/农村环境。疫苗接种状况分为：(1) 从未接种，(2) 仅基础免疫，(3) 偶尔接种（间隔>2年），(4) 频繁或每年接种（每1–2年），或(5) 接种状况不明。为便于统计分析，将从未接种、仅基础免疫和偶尔接种类别合并，并重新命名为从未/偶尔接种。牙科疾病数据包括牙科疾病类别以及既往诊断的牙科疾病或治疗史。各变量的类别见表1。"
+  },
+  {
+   "section": "Materials and Methods / Questionnaire data",
+   "section_zh": "材料与方法 / 问卷数据",
+   "en": "A categorization system for dental disease was established and where possible applied to clinical findings recorded at initial evaluation. The veterinarian examining the cat awarded a calculus index of 0–3 and a gingivitis index of 0–3. These were combined and the sum of the index formed the dental disease category. Criteria for determining dental disease category are listed in Table 2. Where a gingivitis and calculus index was not recorded, dental disease category was defined based on oral examination findings described in the medical record by the examining clinician (61/148; 42%).",
+   "zh": "建立了一套牙科疾病分类系统，并在可能时应用于首次评估时记录的临床检查结果。检查猫的兽医给出0–3分的牙结石指数和0–3分的牙龈炎指数。将二者合并，指数之和构成牙科疾病类别。确定牙科疾病类别的标准列于表2。若未记录牙龈炎和牙结石指数，则根据检查临床医生在病历中描述的口腔检查结果确定牙科疾病类别（61/148；42%）。"
+  },
+  {
+   "section": "Materials and Methods / Geospatial information system (GIS) analysis of geographical data",
+   "section_zh": "材料与方法 / 地理数据的地理信息系统（GIS）分析",
+   "en": "Further analysis of environmental data was performed by evaluating geographical information. A GIS software program was employed that allowed epidemiological data to be analyzed and displayed spatially. Postcode data were obtained for cats included in the prospective study. The postcode of the address for which the cat had spent the predominant part of its life was used in the analysis. All cats for which data could not be accurately retrieved were excluded from analysis. Postcodes for the study area were downloaded from the UK Borders postcode directory (https://census.edina.ac.uk/pcluts.html) and the easting and northing co‐ordinates extracted for each cat based on postcode. Data were mapped in ArcMap9.3a using a projected co‐ordinate system (British National Grid). The location of cats that remained nonazotemic and cats that developed azotemia was mapped.",
+   "zh": "通过评估地理信息对环境数据作进一步分析。采用一款GIS软件程序，可对流行病学数据进行空间分析和展示。获取了前瞻性研究中纳入猫的邮政编码数据。分析中使用猫一生大部分时间所居住地址的邮政编码。所有无法准确获取数据的猫均被排除出分析。研究区域的邮政编码从UK Borders邮政编码目录（https://census.edina.ac.uk/pcluts.html）下载，并根据邮政编码提取每只猫的东向和北向坐标。数据在ArcMap9.3a中使用投影坐标系（英国国家网格）绘图。绘制了保持非氮质血症的猫和发生氮质血症的猫的位置。"
+  },
+  {
+   "section": "Materials and Methods / Geospatial information system (GIS) analysis of geographical data",
+   "section_zh": "材料与方法 / 地理数据的地理信息系统（GIS）分析",
+   "en": "Geographical clusters of azotemic cats were explored using saTScan8.0 software to determine the spatial scan statistic.18 This statistic was obtained by comparing the number of observed and expected cases occurring within the area of a randomly generated circle with the area outside the circle. The detection of clusters was performed using the Bernoulli probability model with a maximum cluster size of 50% of the total population (the default setting for the software). The P value of any clusters was obtained using Monte Carlo hypothesis testing where the number of simulations for Monte Carlo replications was 999.",
+   "zh": "使用saTScan8.0软件确定空间扫描统计量，以探讨氮质血症猫的地理聚集。18 该统计量通过比较随机生成的圆形区域内与圆外区域内观察到的和预期的病例数获得。采用Bernoulli概率模型检测聚集，最大聚集规模为总群体的50%（软件默认设置）。任何聚集的P值通过Monte Carlo假设检验获得，Monte Carlo重复模拟次数为999。"
+  },
+  {
+   "section": "Materials and Methods / Statistical methods",
+   "section_zh": "材料与方法 / 统计方法",
+   "en": "Statistical analyses were performed using a statistical software package.b Data were assessed for normality using the Kolmogorov–Smirnov test and by visual inspection of graphical plots. Descriptive statistics were performed to assess the distribution of data. Continuous variables were compared at baseline between cats that developed azotemia and cats that remained nonazotemic using the Mann–Whitney U‐test. Categorical variables were compared using Pearson's chi‐square test or Fisher's exact test. Where data were unknown or unavailable, the cat was placed into an unknown/missing data category to ensure results were not biased. Cox regression analysis was performed to identify variables that were independent predictors of development of azotemia. Data were censored if the cat developed concurrent disease, was LTF or died before the study end‐point. Univariable Cox regression analysis was performed initially. Variables with a P value < .2 in the univariable analysis subsequently were entered into a manual, forward selection, stepwise multivariable Cox regression model. Two‐way interactions of significant variables were explored by creating product terms. The product terms of any significant interactions were evaluated in the final multivariable model. The proportionality assumption was assessed by examining Kaplan–Meier and log‐minus‐log survival curves. Multicollinearity was assessed by evaluating the correlation matrix. Hazard ratios with 95% confidence intervals also were calculated. Kaplan–Meier curves were constructed for categorical variables significant in the final multivariable model to show the risk relationship for development of azotemia for each category. Statistical testing of Kaplan–Meier curves was performed using the log rank test. Significance was set at P < .05.",
+   "zh": "统计分析使用统计软件包进行。b 采用Kolmogorov–Smirnov检验和目视检查图形评估数据正态性。进行描述性统计以评估数据分布。采用Mann–Whitney U检验比较发生氮质血症的猫与保持非氮质血症的猫基线时的连续变量。分类变量采用Pearson卡方检验或Fisher精确检验进行比较。若数据未知或不可获得，则将该猫归入未知/缺失数据类别，以确保结果不产生偏倚。进行Cox回归分析以识别作为氮质血症发生独立预测因子的变量。若猫在研究终点前发生并发疾病、LTF或死亡，则数据作删失处理。首先进行单变量Cox回归分析。单变量分析中P值< .2的变量随后进入人工、前向选择、逐步多变量Cox回归模型。通过构建乘积项探讨显著变量的双向交互作用。在最终多变量模型中评估任何显著交互作用的乘积项。通过检查Kaplan–Meier曲线和log-minus-log生存曲线评估比例假设。通过评估相关矩阵评估多重共线性。同时计算风险比及95%置信区间。对最终多变量模型中显著的分类变量绘制Kaplan–Meier曲线，以显示各类别发生氮质血症的风险关系。Kaplan–Meier曲线的统计检验采用log rank检验。显著性水平设为P < .05。"
+  },
+  {
+   "section": "Results / Study population",
+   "section_zh": "结果 / 研究群体",
+   "en": "Between January 2005 and December 2009, 343 healthy nonazotemic geriatric cats without evidence of concurrent disease were presented to the study group at 2 London‐based first opinion clinics. Of these, 148 (43%) cats did not return to the clinics for subsequent visits after the initial evaluation and therefore were excluded from the study. Of the 195 cats that were followed longitudinally over the study period, 39 (20%) developed concurrent nonrenal disease. These included hyperthyroidism (n = 36 [18%]), hepatic tumor (n = 1 [0.5%]), and hyperaldosteronism (n = 2 [1%]). Aldosterone concentrations were not routinely measured in all cats, rather the diagnosis of hyperaldosteronism was based on clinical suspicion and additional testing. Questionnaire data were available for analysis from 148 cats and was used for statistical analysis.",
+   "zh": "2005年1月至2009年12月间，343只无并发疾病证据的健康非氮质血症老年猫在伦敦的2家初诊诊所就诊于研究团队。其中，148只（43%）猫在首次评估后未再回诊所进行后续就诊，因此被排除出研究。在研究期间被纵向随访的195只猫中，39只（20%）发生了并发的非肾脏疾病。包括甲状腺功能亢进（n = 36 [18%]）、肝脏肿瘤（n = 1 [0.5%]）和醛固酮增多症（n = 2 [1%]）。并未对所有猫常规测定醛固酮浓度，醛固酮增多症的诊断是基于临床怀疑和附加检查。148只猫的问卷数据可供分析，并用于统计分析。",
+   "note_zh": "原文称148只（43%）猫因未回访被排除，而最终问卷分析也纳入148只猫；两个148为不同群体，原文未进一步说明；按原文保留。"
+  },
+  {
+   "section": "Results / Questionnaire data",
+   "section_zh": "结果 / 问卷数据",
+   "en": "Data from 148 cats were included in the final analysis of questionnaire data. Twenty‐seven (18%) cats developed azotemic CKD. At baseline, the median (range) plasma creatinine concentration, BUN concentration and USG in the cats that remained nonazotemic were 1.5 (0.6–2.0) mg/dL, 29.4 (16.8–62.7) mg/dL and 1.045 (1.013–1.090), respectively. The median (range) plasma creatinine concentration, BUN concentration and USG in the cats that developed azotemic CKD was 1.8 (1.2 –2.0) mg/dL, 37.2 (20.7–63.8) mg/dL and 1.032 (1.017–1.068), respectively. Plasma creatinine and BUN concentrations were significantly higher (P < .001) and USG significantly lower (P = .014) in cats that developed azotemic CKD. The median (range) number of days to development of azotemic CKD was 294 (14–1442). The median (range) number of days of follow‐up for cats remaining nonazotemic was 381 (14–1575). The mean incidence of development of azotemia within 12 months was 11%. The 22 pedigree cats included Persian (n = 7), Burmese (n = 5), Russian blue (n = 3), Bengal (n = 3), British short hair (n = 2), Balinese (n = 1), and British blue (n = 1).",
+   "zh": "148只猫的数据被纳入问卷数据的最终分析。二十七只（18%）猫发生了氮质血症性CKD。基线时，保持非氮质血症的猫的血浆肌酐浓度、BUN浓度和USG的中位数（范围）分别为1.5 (0.6–2.0) mg/dL、29.4 (16.8–62.7) mg/dL和1.045 (1.013–1.090)。发生氮质血症性CKD的猫的血浆肌酐浓度、BUN浓度和USG的中位数（范围）分别为1.8 (1.2 –2.0) mg/dL、37.2 (20.7–63.8) mg/dL和1.032 (1.017–1.068)。发生氮质血症性CKD的猫血浆肌酐和BUN浓度显著较高（P < .001），USG显著较低（P = .014）。发生氮质血症性CKD的天数中位数（范围）为294 (14–1442)。保持非氮质血症的猫的随访天数中位数（范围）为381 (14–1575)。12个月内发生氮质血症的平均发生率为11%。22只纯种猫包括波斯猫（n = 7）、缅甸猫（n = 5）、俄罗斯蓝猫（n = 3）、孟加拉猫（n = 3）、英国短毛猫（n = 2）、巴厘猫（n = 1）和英国蓝猫（n = 1）。"
+  },
+  {
+   "section": "Results / Questionnaire data",
+   "section_zh": "结果 / 问卷数据",
+   "en": "The following variables were significantly different at baseline between cats remaining nonazotemic and cats developing azotemia: lifestyle (P = .026), vaccination status (P = .007) and dental disease category (P = .001). Results of statistical analyses comparing the 2 groups of cats using either the Mann–Whitney U‐test for continuous variables or chi‐square test for categorical variables are presented in Table 1.",
+   "zh": "保持非氮质血症的猫与发生氮质血症的猫之间，以下变量在基线时存在显著差异：生活方式（P = .026）、疫苗接种状况（P = .007）和牙科疾病类别（P = .001）。对连续变量采用Mann–Whitney U检验、对分类变量采用卡方检验比较2组猫的统计分析结果见表1。"
+  },
+  {
+   "section": "Results / Questionnaire data",
+   "section_zh": "结果 / 问卷数据",
+   "en": "The following variables were significant in the univariable Cox regression analysis of risk factors for development of azotemia: age (P = .018), frequent/annual vaccination (P = .003), moderate dental disease (P = .003), and severe dental disease (P = .001). Unknown or missing data categories for variables were not significant in the univariable analysis Results of the univariable Cox regression analysis including hazard ratio and 95% confidence intervals are presented in Table 3. In the final multivariable model, the following variables remained independent risk factors for development of azotemia: frequent/annual vaccination (P = .003), moderate dental disease (P = .008), and severe dental disease (P = .001). Examination of the correlations matrix identified no variables to be highly correlated and no significant interactions among variables was identified. Results of the final multivariable Cox regression model are presented in Table 4. Kaplan–Meier curves for variables found to be significant in the final multivariable Cox regression model (vaccination status and dental disease category) are presented in Fig 1. A significant difference was identified between cats receiving frequent/annual vaccinations and cats that received no/occasional vaccinations when Kaplan–Meier curves were analyzed using the log rank test (P = .016). A significant difference between different categories of dental disease was identified when Kaplan–Meier curves were analyzed using the log rank test (P < .001).",
+   "zh": "在氮质血症发生风险因素的单变量Cox回归分析中，以下变量具有显著性：年龄（P = .018）、频繁/每年接种疫苗（P = .003）、中度牙科疾病（P = .003）和重度牙科疾病（P = .001）。各变量的未知或缺失数据类别在单变量分析中不显著。单变量Cox回归分析结果（包括风险比和95%置信区间）见表3。在最终多变量模型中，以下变量仍为氮质血症发生的独立风险因素：频繁/每年接种疫苗（P = .003）、中度牙科疾病（P = .008）和重度牙科疾病（P = .001）。检查相关矩阵未发现高度相关的变量，也未发现变量之间存在显著交互作用。最终多变量Cox回归模型的结果见表4。在最终多变量Cox回归模型中显著的变量（疫苗接种状况和牙科疾病类别）的Kaplan–Meier曲线见图1。采用log rank检验分析Kaplan–Meier曲线时，频繁/每年接种疫苗的猫与未接种/偶尔接种疫苗的猫之间存在显著差异（P = .016）。采用log rank检验分析Kaplan–Meier曲线时，不同牙科疾病类别之间存在显著差异（P < .001）。"
+  },
+  {
+   "section": "Results / Geospatial information system (GIS) analysis of geographical data",
+   "section_zh": "结果 / 地理数据的地理信息系统（GIS）分析",
+   "en": "Figure 2 presents cats developing azotemia and cats remaining nonazotemic projected onto a map of England. Results of the spatial scan analysis identified a single cluster of azotemic cats. However, this was not a statistically significant spatial cluster (P = .341).",
+   "zh": "图2展示了投影在英格兰地图上的发生氮质血症的猫和保持非氮质血症的猫。空间扫描分析结果识别出一个氮质血症猫聚集。然而，这不是一个具有统计学意义的空间聚集（P = .341）。"
+  },
+  {
+   "section": "Discussion",
+   "section_zh": "讨论",
+   "en": "Our study identified frequent or annual vaccination and moderate and severe dental disease as risk factors for development of azotemic CKD in geriatric cats.",
+   "zh": "本研究识别出频繁或每年接种疫苗以及中度和重度牙科疾病是老年猫发生氮质血症性CKD的风险因素。"
+  },
+  {
+   "section": "Discussion",
+   "section_zh": "讨论",
+   "en": "Research in human patients has indicated that oral infections such as periodontal disease are not only local diseases affecting oral tissues but have systemic effects.19 In addition, periodontal disease has been identified as a risk factor for CKD in human patients,20, 21 and systematic review supports an association of periodontal disease and CKD.22 A retrospective case–control study found dental disease to be a risk factor for CKD in dogs but not cats.5 However, a more recent retrospective study identified prior diagnosis of periodontal disease to be a risk factor for CKD in cats although it was not possible to evaluate if dental disease preceded CKD development.4 The present study also suggests dental disease may be a risk factor for cats. Periodontal disease grade in dogs predicted histopathological changes in renal glomeruli and interstitium.23 A different study also found correlations between renal pathology and periodontal disease in dogs,24 suggesting that periodontal disease may contribute to development of chronic disease as a result of persistent low‐grade insults. Mechanisms by which periodontal disease may cause kidney injury include host factors, such as production of inflammatory cytokines or endotoxemia, and immune responses to bacteria. Chronic inflammatory responses secondary to periodontal disease may play a role in development of CKD in human patients. C‐reactive protein, an inflammatory biomarker, is increased in human patients with CKD.25, 26 Leukocytosis and hypoalbuminaemia, considered to be markers of systemic inflammation, also predicted future risk for CKD in human subjects.27 A limitation of our study is that confounding factors influencing dental disease as a predictor of development of azotemia cannot be excluded. Several infectious diseases are associated with gingivitis in cats and may play a role in development of kidney disease. Another potential confounder may be the effect of management of dental disease in cats including the use of antibiotics or nonsteroidal anti‐inflammatory drugs (NSAIDs) or a history of general anesthesia required for a dental procedure. Previous history of dental disease management was included in the analysis and not found to be significant in the final model. This finding suggests that factors related to dental disease itself, rather than its management, are important in development of azotemia in cats. Calculus and gingivitis index were assigned by a number of different clinicians, which also is a limitation of our study because neither intra‐ nor inter‐observer variability was assessed. In a proportion of cases (approximately 40%) the dental categorization system could not be applied and the clinician examining the cat had recorded the dental disease as mild, moderate, or severe or the category was defined based on the description of oral examination findings, therefore, we cannot be certain in these cases that the objective criteria were applied. Further studies are required to confirm these findings and also to explore the relationships among inflammatory biomarkers, dental disease, and CKD in cats. Furthermore, intervention studies also may be useful in evaluating if effective and early management of dental disease or preventative care programs are associated with a decrease in the incidence or progression of CKD. The effect of periodontal treatment in human patients on renal function remains uncertain.22 The severity of dental disease in our study may not be representative of the population of cats in the United Kingdom presented to veterinary practices in general because some of the cats included were presented to a charity hospital providing veterinary care for owners who are unable to afford regular veterinary fees, thus leading to a lack of early or preventative dental treatment.",
+   "zh": "人类患者的研究表明，牙周病等口腔感染不仅是影响口腔组织的局部疾病，还具有全身性影响。19 此外，牙周病已被确定为人类患者CKD的风险因素，20, 21 系统评价也支持牙周病与CKD之间存在关联。22 一项回顾性病例对照研究发现，牙科疾病是犬而非猫CKD的风险因素。5 然而，最近一项回顾性研究确定既往诊断为牙周病是猫CKD的风险因素，尽管无法评估牙科疾病是否先于CKD发生。4 本研究也提示牙科疾病可能是猫的风险因素。犬的牙周病分级可预测肾小球和肾间质的组织病理学改变。23 另一项研究也发现犬的肾脏病理与牙周病之间存在相关性，24 提示牙周病可能因持续的低度损伤而促成慢性疾病的发生。牙周病可能导致肾损伤的机制包括宿主因素（如炎性细胞因子产生或内毒素血症）以及对细菌的免疫反应。继发于牙周病的慢性炎症反应可能在人类患者CKD的发生中起作用。炎症生物标志物C反应蛋白在CKD人类患者中升高。25, 26 被视为全身炎症标志物的白细胞增多和低白蛋白血症也可预测人类受试者未来发生CKD的风险。27 本研究的一个局限是无法排除影响牙科疾病作为氮质血症发生预测因子的混杂因素。多种感染性疾病与猫的牙龈炎相关，并可能在肾病发生中起作用。另一个潜在混杂因素可能是猫牙科疾病管理的影响，包括使用抗生素或非甾体抗炎药（NSAIDs），或牙科操作所需的全身麻醉史。既往牙科疾病管理史已纳入分析，在最终模型中不显著。这一发现提示，与牙科疾病本身相关的因素而非其管理，在猫氮质血症的发生中较为重要。牙结石和牙龈炎指数由多名不同临床医生给出，这也是本研究的局限，因为未评估观察者内和观察者间的变异。在一部分病例（约40%）中，牙科分类系统无法应用，检查猫的临床医生将牙科疾病记录为轻度、中度或重度，或根据口腔检查结果的描述确定类别，因此我们无法确定这些病例中是否应用了客观标准。需要进一步研究来证实这些发现，并探讨猫的炎症生物标志物、牙科疾病和CKD之间的关系。此外，干预研究也可能有助于评估牙科疾病的有效早期管理或预防保健计划是否与CKD发生率或进展的降低相关。牙周治疗对人类患者肾功能的影响仍不确定。22 本研究中牙科疾病的严重程度可能不能代表英国一般兽医机构就诊的猫群，因为部分纳入的猫就诊于一家为无力负担常规兽医费用的主人提供兽医服务的慈善医院，从而导致缺乏早期或预防性牙科治疗。"
+  },
+  {
+   "section": "Discussion",
+   "section_zh": "讨论",
+   "en": "The vaccinal viruses feline herpesvirus 1, calicivirus, and panleukopenia are cultured using CRFK cells. During manufacture of vaccines, CRFK proteins may become incorporated into vaccines to be administered to cats. Once vaccines are administered, cats may become exposed to CRFK antigens and develop an immune response. The CRFK cells are related to endogenous renal tissue and therefore it is possible cats may produce autoantibodies. In addition, immune complexes themselves may be damaging to the kidney although this generally would be associated with glomerulonephritis rather than tubulointerstitial nephritis which is the more common histopathological lesion in CKD in cats. Previous studies have suggested associations between kidney injury and vaccination in cats.14, 15, 16 Vaccination plays an important role in preventative feline medicine and its use has led to a decline in the prevalence of many infectious diseases. Nevertheless, results of the present study suggest vaccination may be a risk factor for development of CKD in cats, which raises some concern regarding frequent vaccination. In the present study, approximately 26% of all cats were frequently vaccinated. This is lower than a previous UK study that reported that 69% of cats belonging to owners completing a web‐based questionnaire were vaccinated.28 The reason for this disparity is unclear but may be attributable to differences in attitudes of the owners of cats included in each study (owners completing a questionnaire online regarding feline health may be more inclined to vaccinate their cats). In addition, vaccination was not offered at 1 of the clinics during part of the study period, and therefore cats were required to be taken to another clinic to receive vaccination. Further studies exploring the pathophysiological mechanism of renal injury associated with vaccination, perhaps by evaluating antirenal tissue antibodies, might advance our understanding of the relationship between frequency of vaccination and risk of developing azotemic CKD.",
+   "zh": "疫苗病毒猫疱疹病毒1型、杯状病毒和泛白细胞减少症病毒均使用CRFK细胞培养。在疫苗生产过程中，CRFK蛋白可能被掺入将要给猫接种的疫苗中。接种疫苗后，猫可能暴露于CRFK抗原并产生免疫反应。CRFK细胞与内源性肾组织相关，因此猫可能产生自身抗体。此外，免疫复合物本身可能损伤肾脏，尽管这通常与肾小球肾炎相关，而非猫CKD中更常见的组织病理学病变——肾小管间质性肾炎。既往研究提示猫的肾损伤与疫苗接种之间存在关联。14, 15, 16 疫苗接种在猫预防医学中起着重要作用，其使用已使许多传染病的流行率下降。尽管如此，本研究结果提示疫苗接种可能是猫发生CKD的风险因素，这引起了对频繁接种疫苗的一些担忧。在本研究中，约26%的猫频繁接种疫苗。这低于英国既往一项研究，该研究报告填写网络问卷的主人所养的猫中69%接种了疫苗。28 这一差异的原因尚不清楚，但可能归因于各研究所纳入猫的主人态度不同（在线填写关于猫健康问卷的主人可能更倾向于给猫接种疫苗）。此外，在研究期间的部分时间里，其中1家诊所不提供疫苗接种，因此猫须被带到另一家诊所接种。进一步研究探讨与疫苗接种相关的肾损伤病理生理机制（或许通过评估抗肾组织抗体），可能会加深我们对疫苗接种频率与发生氮质血症性CKD风险之间关系的理解。"
+  },
+  {
+   "section": "Discussion",
+   "section_zh": "讨论",
+   "en": "Results of our multivariate analysis regarding lifestyle variables are in agreement with that of a case–control study exploring risk factors for kidney disease in cats.6 Both studies found lifestyle variables such as environment and indoor/outdoor status not to be significantly associated with CKD in cats. Region of the United States in which a cat lived was reported to be a risk factor for CKD.4 To further evaluate the role of environment in development of CKD, GIS software was used. A single cluster of azotemic cats was detected, but, the cluster was not significant indicating a random distribution of disease. Analysis of geographical information supports the finding from the questionnaire data that the environment lived in (urban or semirural/rural) is not a risk factor for CKD in cats. However, an important consideration in interpreting these results is that most of the cats in the present study lived in an urban environment and were from a relatively small area within the United Kingdom (London and the surrounding area).",
+   "zh": "本研究关于生活方式变量的多变量分析结果，与一项探讨猫肾病风险因素的病例对照研究一致。6 两项研究均发现环境和室内/室外状况等生活方式变量与猫CKD无显著关联。有报告称猫所居住的美国地区是CKD的风险因素。4 为进一步评估环境在CKD发生中的作用，使用了GIS软件。检测到一个氮质血症猫聚集，但该聚集不显著，表明疾病呈随机分布。地理信息分析支持问卷数据的发现，即所居住环境（城市或半农村/农村）不是猫CKD的风险因素。然而，解读这些结果时一个重要的考虑是，本研究中大多数猫生活在城市环境中，且来自英国一个相对较小的区域（伦敦及周边地区）。"
+  },
+  {
+   "section": "Discussion",
+   "section_zh": "讨论",
+   "en": "Glomerular filtration rate (GFR) decreases with age in human patients and this decrease has been identified in both cross‐sectional29 and longitudinal studies.30 Descriptive studies indicate that the prevalence of CKD increases with age in cats.2, 31 Results of studies exploring the relationship between GFR and age in cats have been conflicting with some studies reporting no correlation32 and others reporting an effect of age.33 A decrease in renal function with age also has been proposed to be a survival‐driven adaptive process in cats aimed at preserving life.34 In the present study, age was not found to be an independent predictor for development of azotemia in cats. However, the data are limited in that many cat owners were unable to provide an accurate age but rather an estimate only. Furthermore, all cats included in our study were geriatric (>9 years old) and a more varied age population may have resulted in different findings.",
+   "zh": "人类患者的肾小球滤过率（GFR）随年龄下降，这种下降已在横断面29和纵向研究30中得到确认。描述性研究表明猫CKD的患病率随年龄增加。2, 31 探讨猫GFR与年龄关系的研究结果相互矛盾，一些研究报告无相关性，32 另一些研究报告存在年龄效应。33 也有人提出，猫肾功能随年龄下降是一种以保存生命为目的、由生存驱动的适应性过程。34 在本研究中，年龄未被发现是猫发生氮质血症的独立预测因子。然而，数据存在局限，因为许多猫主人无法提供准确年龄，只能提供估计值。此外，本研究纳入的所有猫均为老年猫（>9岁），年龄分布更多样的群体可能会得出不同的结果。"
+  },
+  {
+   "section": "Discussion",
+   "section_zh": "讨论",
+   "en": "High protein intake is a dietary factor associated with progression of CKD in dogs35 and humans.36 Studies of cats with surgically induced models of kidney disease did not identify effects of dietary protein content on renal function.37, 38 Senior diets for cats typically are lower in protein content. In our study, there was no difference in the rate of development of azotemia in cats fed standard adult diets compared to senior diets suggesting no effect of protein content on the development of azotemia. A limitation is that information regarding specific diets fed to cats was highly variable among cats and the questionnaire data analyzed in the study did not include lifetime dietary information. Therefore, detailed analysis of protein and phosphorous content could not be performed. In addition, type of diet fed (wet versus dry) also was not a significant risk factor for development of CKD in the present study, which is in accordance with results from a previous study.4",
+   "zh": "高蛋白摄入是与犬35和人36 CKD进展相关的饮食因素。对手术诱导肾病模型猫的研究未发现日粮蛋白质含量对肾功能有影响。37, 38 猫的老年日粮通常蛋白质含量较低。在本研究中，饲喂标准成年日粮与老年日粮的猫氮质血症发生率无差异，提示蛋白质含量对氮质血症的发生无影响。一个局限是，各猫所喂具体日粮的信息差异很大，且本研究分析的问卷数据不包括终生饮食信息。因此无法对蛋白质和磷含量进行详细分析。此外，在本研究中，所喂日粮类型（湿粮与干粮）也不是CKD发生的显著风险因素，这与既往一项研究的结果一致。4"
+  },
+  {
+   "section": "Discussion",
+   "section_zh": "讨论",
+   "en": "Cigarette smoking has been identified in human patients as a risk factor for CKD.20, 21, 39, 40, 41 Healthy rats exposed to passive smoke over a 4‐month period showed no difference in histopathology of the kidney compared to control rats.42 However, a longer term study of rats exposed to passive smoke at a concentration similar to human passive smoking, found significant histopathological evidence of glomerulosclerosis and tubulointerstitial fibrosis compared to control rats.43 Results of the present study suggest that passive smoking is not an important risk factor for development of azotemia in cats. However, level of exposure could not be evaluated and dose‐dependent studies may be required to determine any effect.",
+   "zh": "吸烟已被确定为人类患者CKD的风险因素。20, 21, 39, 40, 41 暴露于被动吸烟4个月的健康大鼠，其肾脏组织病理学与对照大鼠相比无差异。42 然而，一项长期研究让大鼠暴露于与人类被动吸烟浓度相似的被动烟雾中，发现与对照大鼠相比存在肾小球硬化和肾小管间质纤维化的显著组织病理学证据。43 本研究结果提示，被动吸烟不是猫发生氮质血症的重要风险因素。然而，无法评估暴露水平，可能需要剂量依赖性研究来确定是否存在任何影响。"
+  },
+  {
+   "section": "Discussion",
+   "section_zh": "讨论",
+   "en": "The mean incidence of development of azotemic CKD within 12 months in our study was 11%. An earlier study using data from our group reported that 30.5% of cats developed azotemia within 12 months.3 This discrepancy likely is related to age differences between the 2 populations with the cats developing azotemic CKD in the earlier study3 having a median age of 14.6 years at baseline compared to the cats developing azotemic CKD in the present study that had a median age of 13.4 years.",
+   "zh": "本研究中12个月内发生氮质血症性CKD的平均发生率为11%。使用本团队数据的一项早期研究报告，30.5%的猫在12个月内发生氮质血症。3 这一差异可能与2个群体的年龄差异有关：早期研究3中发生氮质血症性CKD的猫基线年龄中位数为14.6岁，而本研究中发生氮质血症性CKD的猫基线年龄中位数为13.4岁。"
+  },
+  {
+   "section": "Discussion",
+   "section_zh": "讨论",
+   "en": "Several possible risk factors for CKD in cats are of interest, but they were not explored in our study. Infection with FIV is reported to be a risk factor for CKD in cats,7, 44 but the association is reported only in younger and not older cats.7 Histopathological examination of renal tissue from cats infected with FIV shows tubulointerstitial lesions, glomerulosclerosis, amyloid deposits, and high viral antigen load in tubular epithelial cells in a large proportion of cats.44, 45 Cats included in the present study were not routinely screened for FIV status. It would be interesting to evaluate this risk factor further. Nevertheless, the importance of FIV infection in the older feline population is unclear. Genetic factors may contribute to development of CKD but remain to be explored in cats. With increasing advances in the field of feline genetics it is likely further evidence for the role of genetic factors in development of CKD will be identified. Prior exposure to renal toxins (eg, NSAIDs, antineoplastic drugs, mycotoxins, heavy metals, Easter lilies) is an important risk factor to consider but was not evaluated in the present study because collection of data regarding toxin exposure by means of a questionnaire would have been difficult. Many toxins are known to cause acute kidney injury at high doses, but the role of low‐dose cumulative exposure in development of CKD in cats remains unknown.",
+   "zh": "猫CKD的一些可能风险因素值得关注，但本研究未予探讨。据报告感染FIV是猫CKD的风险因素，7, 44 但这种关联仅见于较年轻而非较老的猫。7 对感染FIV猫的肾组织进行组织病理学检查，在很大比例的猫中发现肾小管间质病变、肾小球硬化、淀粉样沉积以及肾小管上皮细胞中的高病毒抗原载量。44, 45 本研究纳入的猫未常规筛查FIV状况。进一步评估这一风险因素将很有意义。尽管如此，FIV感染在老年猫群中的重要性尚不清楚。遗传因素可能促成CKD的发生，但在猫中仍有待探讨。随着猫遗传学领域的不断进步，很可能会发现更多关于遗传因素在CKD发生中作用的证据。既往暴露于肾毒素（例如NSAIDs、抗肿瘤药物、霉菌毒素、重金属、复活节百合）是一个需要考虑的重要风险因素，但本研究未予评估，因为通过问卷收集毒素暴露数据会很困难。已知许多毒素在高剂量下可引起急性肾损伤，但低剂量累积暴露在猫CKD发生中的作用仍不清楚。"
+  },
+  {
+   "section": "Discussion",
+   "section_zh": "讨论",
+   "en": "Several limitations of our study warrant comment. The first is use of plasma creatinine concentration (ie, azotemia) as a marker of renal function. The exponential relationship between plasma creatinine concentration and GFR means that creatinine is not a sensitive marker for detecting early decrease in renal function. Furthermore, decreased muscle mass will result in decreased endogenous production of creatinine. Prospective longitudinal studies evaluating predictors and risk factors for decreasing GFR in cats may have been more optimal. Obtaining vaccination history from owners may be an inaccurate method of collecting information because owners may be unable to provide an accurate vaccination history. Social desirability bias also may result in owners responding to the question in a way that is inaccurate because they feel this would be viewed more favorably. This limitation could have been avoided by obtaining vaccination history from practice records. Doing so would have been extremely difficult because many owners presented their cats to several clinics. Furthermore, computer records at both first opinion practices only were available for a limited number of years because of changes in systems. Support for the use of a questionnaire to collect data regarding vaccination history comes from a previous study exploring owner attitudes to vaccination in cats.28 Our study used a web‐based questionnaire completed by owners and was found to be a satisfactory method to collect data.",
+   "zh": "本研究的若干局限值得说明。第一是使用血浆肌酐浓度（即氮质血症）作为肾功能标志物。血浆肌酐浓度与GFR之间呈指数关系，这意味着肌酐不是检测早期肾功能下降的敏感标志物。此外，肌肉量减少会导致内源性肌酐生成减少。评估猫GFR下降的预测因子和风险因素的前瞻性纵向研究可能更为理想。从主人处获取疫苗接种史可能是一种不准确的信息收集方法，因为主人可能无法提供准确的疫苗接种史。社会期望偏倚也可能导致主人以不准确的方式回答问题，因为他们认为这样会被更正面地看待。通过从兽医机构记录中获取疫苗接种史本可避免这一局限。但这样做会极其困难，因为许多主人带猫到多家诊所就诊。此外，由于系统更换，两家初诊兽医机构的电子记录仅有有限年份可用。一项探讨主人对猫疫苗接种态度的既往研究支持使用问卷收集疫苗接种史数据。28 我们的研究使用了由主人填写的网络问卷，并被发现是一种令人满意的数据收集方法。",
+   "note_zh": "原文末句称“我们的研究使用了由主人填写的网络问卷”，但从上下文看所指似为文献28的既往研究（本研究问卷于就诊时填写，见第13段）；译文按原文保留。"
+  },
+  {
+   "section": "Discussion",
+   "section_zh": "讨论",
+   "en": "Early identification of cats with CKD is desirable because interventional treatment can be implemented which may attenuate progression of disease and prevent secondary metabolic complications. Population‐based screening may improve detection of CKD, it is expensive, however, and it may be difficult to convince many owners that testing is necessary, particularly if their pet appears clinically healthy or is showing only very subtle clinical signs. Therefore, targeted screening is likely to be a more useful approach. Evidence from human medicine suggests that population‐based screening is not cost effective and that targeted screening is more valuable.46 Targeted screening has proved to be successful in human patients with establishment of the National Kidney Foundation's Kidney Early Evaluation Program (KEEP). Targeted screening requires identification of risk factors to establish at‐risk cats within the population. Future work investigating risk factors identified in the present study may address development of risk scores for CKD in cats. A useful tool for clinical practice could be developed based on weighted scores of multiple factors entered by practitioners to define an individual cat's risk of developing azotemia. Cats identified to have a high risk would be recommended to be screened for CKD. In human patients, the development of categorization systems based on certain risk factors such as age, sex, hypertension, diabetes mellitus, cardiovascular disease, and anemia have proved to be helpful in identifying patients in the population at risk of developing CKD.1, 47",
+   "zh": "早期识别CKD猫是可取的，因为可以实施干预治疗，这可能减缓疾病进展并预防继发性代谢并发症。基于群体的筛查可能改善CKD的发现，但费用昂贵，而且可能难以说服许多主人相信检测是必要的，尤其是当其宠物看起来临床健康或仅表现出非常轻微的临床症状时。因此，针对性筛查可能是更有用的方法。来自人类医学的证据表明，基于群体的筛查不具成本效益，针对性筛查更有价值。46 随着美国国家肾脏基金会肾脏早期评估计划（KEEP）的建立，针对性筛查已在人类患者中被证明是成功的。针对性筛查需要识别风险因素以确定群体中的高风险猫。未来研究本研究所识别的风险因素，或可用于建立猫CKD风险评分。可以基于兽医输入的多个因素的加权评分，开发一个用于临床实践的有用工具，以确定个体猫发生氮质血症的风险。被识别为高风险的猫将被建议进行CKD筛查。在人类患者中，基于年龄、性别、高血压、糖尿病、心血管疾病和贫血等特定风险因素建立的分类系统，已被证明有助于识别群体中有发生CKD风险的患者。1, 47"
+  },
+  {
+   "section": "Discussion",
+   "section_zh": "讨论",
+   "en": "Results of our study suggest there is no single risk factor, exposure, or predictor that can explain development of CKD in cats and therefore cumulative effects of multiple risk factors and interactive factors should be considered. Cumulative exposure to risk factors in certain possibly genetically predisposed cats may contribute to a decrease in renal function. The rate of decrease also may be accelerated by additional risk factors once CKD has developed. Host factors may play a role as may exogenous factors such as frequent vaccination and the presence of dental disease. Epidemiological studies, as conducted in our study, do not necessarily imply causality, but simply suggest associations. Prevention of decreased renal function may involve minimization of lifelong exposure to risk factors. Doing so potentially includes maintenance of good oral health and avoiding excessive vaccination of cats.",
+   "zh": "本研究结果提示，没有单一的风险因素、暴露或预测因子可以解释猫CKD的发生，因此应考虑多种风险因素和交互因素的累积效应。在某些可能具有遗传易感性的猫中，风险因素的累积暴露可能促成肾功能下降。一旦CKD形成，额外的风险因素也可能加快下降速度。宿主因素可能起作用，频繁接种疫苗和存在牙科疾病等外源性因素也可能起作用。像本研究这样的流行病学研究不一定意味着因果关系，而只是提示关联。预防肾功能下降可能需要尽量减少对风险因素的终生暴露。这可能包括保持良好的口腔健康和避免给猫过度接种疫苗。"
+  },
+  {
+   "section": "Table caption",
+   "section_zh": "表题",
+   "en": "Table 1 Results at baseline of the statistical analysis comparing cats remaining nonazotemic and cats developing azotemia",
+   "zh": "表1 比较保持非氮质血症的猫与发生氮质血症的猫的基线统计分析结果"
+  },
+  {
+   "section": "Table footnote",
+   "section_zh": "表注",
+   "en": "Categories in bold font are the reference categories against which other categories within the variable were compared in the Cox regression analysis.",
+   "zh": "粗体类别为参照类别，在Cox回归分析中该变量内的其他类别与之比较。"
+  },
+  {
+   "section": "Table caption",
+   "section_zh": "表题",
+   "en": "Table 2 Criteria for dental disease category",
+   "zh": "表2 牙科疾病类别的标准"
+  },
+  {
+   "section": "Table footnote",
+   "section_zh": "表注",
+   "en": "Criteria for calculus and gingivitis index for assessing dental disease in cats at the initial evaluation. Calculus and gingivitis index were combined to give the dental disease category (no dental disease, mild, moderate, and severe).",
+   "zh": "首次评估时用于评估猫牙科疾病的牙结石和牙龈炎指数标准。将牙结石和牙龈炎指数合并得出牙科疾病类别（无牙科疾病、轻度、中度和重度）。"
+  },
+  {
+   "section": "Table caption",
+   "section_zh": "表题",
+   "en": "Table 3 Results of the univariable Cox regression analysis of risk factors for development of azotemia in cats",
+   "zh": "表3 猫发生氮质血症风险因素的单变量Cox回归分析结果"
+  },
+  {
+   "section": "Table footnote",
+   "section_zh": "表注",
+   "en": "P values for significant variables (P < .05) are highlighted in bold font. Reference categories for variables are presented in bold font in Table 1.",
+   "zh": "显著变量（P < .05）的P值以粗体标出。各变量的参照类别在表1中以粗体显示。"
+  },
+  {
+   "section": "Table caption",
+   "section_zh": "表题",
+   "en": "Table 4 Results of the final multivariable Cox regression model for risk factors for development of azotemia in cats",
+   "zh": "表4 猫发生氮质血症风险因素的最终多变量Cox回归模型结果"
+  },
+  {
+   "section": "Table footnote",
+   "section_zh": "表注",
+   "en": "The reference category for vaccination status was never/occasional vaccination and for dental disease was no dental disease. B is the beta coefficient of the variable.",
+   "zh": "疫苗接种状况的参照类别为从未/偶尔接种，牙科疾病的参照类别为无牙科疾病。B为该变量的β系数。"
+  },
+  {
+   "section": "Figure legend",
+   "section_zh": "图注",
+   "en": "Figure 1 Kaplan–Meier curve of the risk of developing azotemia. (A) Vaccination status. (B) Dental disease category.",
+   "zh": "图1 发生氮质血症风险的Kaplan–Meier曲线。(A) 疫苗接种状况。(B) 牙科疾病类别。"
+  },
+  {
+   "section": "Figure legend",
+   "section_zh": "图注",
+   "en": "Figure 2 Geographical location of cats included in the study. Map of the geographical location of cats remaining nonazotemic (blue triangles) and cats developing azotemia (red triangles). Enlarged is a map of greater London and the counties surrounding London where the majority of cats lived. A single cluster of azotemic cats was detected (circled on enlarged map), however, this was not significant (P = .341).",
+   "zh": "图2 纳入研究的猫的地理位置。保持非氮质血症的猫（蓝色三角形）和发生氮质血症的猫（红色三角形）地理位置图。放大图为大伦敦及大多数猫居住的伦敦周边各郡。检测到一个氮质血症猫聚集（在放大图中圈出），但不显著（P = .341）。"
+  }
+ ]
+}

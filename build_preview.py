@@ -106,7 +106,9 @@ for r in json.load(open(os.path.join(ROOT,'data','v5','guideline_strength.json')
     if not p: MERGE['gs_un'].append(r['guideline']); continue
     MERGE['gs']+=1; p['gs']=r
 MERGE['cebm']=0
-for k,r in json.load(open(os.path.join(ROOT,'data','v5','cebm_fill.json'),encoding='utf-8'))['records'].items():
+_CF=json.load(open(os.path.join(ROOT,'data','v5','cebm_fill.json'),encoding='utf-8'))
+_CFR=dict(_CF.get('records',{})); _CFR.update({k:v for k,v in _CF.items() if k.isdigit() and isinstance(v,dict) and v.get('cebm_level')})
+for k,r in _CFR.items():
     p=matcher({'pmid':k,'id':k})
     if not p: continue
     MERGE['cebm']+=1; p['cebm_level']=r['cebm_level']

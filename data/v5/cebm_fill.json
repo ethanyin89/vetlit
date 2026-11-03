@@ -2,18 +2,44 @@
  "date": "2026-11-02",
  "rule": "grading_method.md §1: OCEBM 2011 by question type and the design of the included studies. No quality up- or downgrades ('本站不做任何下调/上调'). An SR takes the level of the designs it includes (SR of case series / case-control = 4). seed_library_v6.json already holds cebm_level=4 for all four rows; deep extract's '未核' does not match v6.",
  "records": {
-  "40732763": {"cebm_question": "治疗获益", "cebm_level": "4", "source": "全文 PMC12298711",
+  "40732763": {
+   "cebm_question": "治疗获益",
+   "cebm_level": "4",
+   "source": "全文 PMC12298711",
    "quote": "Given that all included studies were uncontrolled case series or reports, the initial GRADE rating for each outcome was “low”.",
-   "reasoning": "An SR of uncontrolled case series and case reports only (11 studies, 650 cats). SR of case series = Level 4. Matches v6.", "confidence": "high"},
-  "40941356": {"cebm_question": "治疗获益", "cebm_level": "4", "source": "全文 PMC12427183",
+   "reasoning": "An SR of uncontrolled case series and case reports only (11 studies, 650 cats). SR of case series = Level 4. Matches v6.",
+   "confidence": "high"
+  },
+  "40941356": {
+   "cebm_question": "治疗获益",
+   "cebm_level": "4",
+   "source": "全文 PMC12427183",
    "quote": "The study designs were heterogeneous: two were RCTs, two were non-RCTs, and six were uncontrolled prospective trials (case series).",
-   "reasoning": "For diabetic cats, 6 of the 10 studies are case series; the other 10 studies are in experimental or at-risk models (indirect). The mixed body of evidence is mostly case series, so Level 4. Matches v6. Caveat: the SGLT2 inhibitor vs insulin comparison alone rests on an RCT (Niessen, 38884190), so that conclusion is better supported than Level 4 implies.", "confidence": "medium"},
-  "41527203": {"cebm_question": "诊断", "cebm_level": "4", "source": "仅摘要（非开放获取）",
+   "reasoning": "For diabetic cats, 6 of the 10 studies are case series; the other 10 studies are in experimental or at-risk models (indirect). The mixed body of evidence is mostly case series, so Level 4. Matches v6. Caveat: the SGLT2 inhibitor vs insulin comparison alone rests on an RCT (Niessen, 38884190), so that conclusion is better supported than Level 4 implies.",
+   "confidence": "medium"
+  },
+  "41527203": {
+   "cebm_question": "诊断",
+   "cebm_level": "4",
+   "source": "仅摘要（非开放获取）",
    "quote": "There was marked heterogeneity in the design, population and tests used. Nine studies were at high risk of bias, and nine had high applicability concerns.",
-   "reasoning": "PROVISIONAL. The abstract does not say which designs were included. v6's cebm_basis reaches Level 4 by downgrading for quality ('按质量降至 Level 4'), and grading_method.md forbids that. Level 4 is kept on design grounds: the project classes SDMA diagnostic-accuracy studies as case-control sampling, and the abstract asks for studies 'in clinically relevant populations' (suggesting spectrum/case-control designs). This needs the full text to confirm. Rewrite the v6 cebm_basis to give the design reason, not quality.", "confidence": "low"},
-  "41701235": {"cebm_question": "诊断", "cebm_level": "4", "source": "仅摘要",
+   "reasoning": "PROVISIONAL. The abstract does not say which designs were included. v6's cebm_basis reaches Level 4 by downgrading for quality ('按质量降至 Level 4'), and grading_method.md forbids that. Level 4 is kept on design grounds: the project classes SDMA diagnostic-accuracy studies as case-control sampling, and the abstract asks for studies 'in clinically relevant populations' (suggesting spectrum/case-control designs). This needs the full text to confirm. Rewrite the v6 cebm_basis to give the design reason, not quality.",
+   "confidence": "low"
+  },
+  "41701235": {
+   "cebm_question": "诊断",
+   "cebm_level": "4",
+   "source": "仅摘要",
    "quote": "Nine studies, with a total of 891 dogs were included in the meta-analysis ... Of all, 543 dogs had CKD and 348 were healthy control.",
-   "reasoning": "The pooled studies compare CKD dogs with healthy controls, which is case-control diagnostic sampling. SR of case-control diagnostic studies = Level 4. Matches v6.", "confidence": "medium-high"}
+   "reasoning": "The pooled studies compare CKD dogs with healthy controls, which is case-control diagnostic sampling. SR of case-control diagnostic studies = Level 4. Matches v6.",
+   "confidence": "medium-high"
+  }
  },
- "pmid_25385_check": "Europe PMC: PMID 25385 = 'A manpower policy for primary health care.' (1978), unrelated. It is not a key or value anywhere in unverified_resolution_r2.json or seed_library_v6.json. The non-CC licence records in r2 are 19481039, 25231385 and IRIS 2026, so '25385' in deep extract's room message is a typo (likely a garbled 25231385)."
+ "pmid_25385_check": "Europe PMC: PMID 25385 = 'A manpower policy for primary health care.' (1978), unrelated. It is not a key or value anywhere in unverified_resolution_r2.json or seed_library_v6.json. The non-CC licence records in r2 are 19481039, 25231385 and IRIS 2026, so '25385' in deep extract's room message is a typo (likely a garbled 25231385).",
+ "39858209": {
+  "cebm_question": "治疗获益",
+  "cebm_level": "3",
+  "source": "全文 PMC11759159",
+  "reason_zh": "20 项纳入研究仅 9 项随机（\"Nine studies employed randomization\"），营养素阈值为跨研究比较；按较弱设计定级，非 RCT 的系统综述"
+ }
 }
