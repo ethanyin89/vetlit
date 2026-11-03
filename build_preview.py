@@ -1,6 +1,7 @@
 """Preview build (redesign, cindy.app tokens): data/v5 + data/papers + content -> dist/preview/. Root site untouched."""
 import json, os, glob, re, html, datetime, shutil
 import build as B
+import preview_extras as X
 ROOT=B.ROOT; OUT=os.path.join(B.DIST,'preview'); E_=html.escape
 def clean(s):
     s=str(s or '')
@@ -224,7 +225,7 @@ def home():
     chips=topic_chips('')
     wk=datetime.date.today().isocalendar()
     body=f'''<section class="hero"><p class="eb red">// {wk[0]} 第 {wk[1]} 周</p><h1>本周精选</h1><p class="lede">犬猫兽医文献，结论先行。每篇注明研究设计、Oxford CEBM 2011 证据等级与偏倚风险。</p></section>
-<section><h2 class="sec"><span>01</span> 编辑精选</h2><p class="note">按指南/共识 → 证据等级 → 发表时间排序。</p>{''.join(card(p,'') for p in picks)}</section>
+{X.top_block(get,card)}<section><h2 class="sec"><span>01</span> 编辑精选</h2><p class="note">按指南/共识 → 证据等级 → 发表时间排序。</p>{''.join(card(p,'') for p in picks)}</section>
 <section><h2 class="sec"><span>02</span> 最新发表</h2>{gl}</section>
 <section><h2 class="sec"><span>03</span> 按专题浏览</h2>{chips}</section>
 <p class="more"><a class="btn" href="library/">进入文献库（{len(P)} 篇）→</a></p>{fresh_list(FRESH,'')}'''
@@ -340,6 +341,8 @@ def paper(p):
     if krs: kr='<div class="tw"><table><thead><tr><th>指标</th><th>组别/数值</th><th>效应量（95% CI）</th><th>P</th></tr></thead><tbody>'+''.join(f'<tr><td>{cell(k.get("measure"))}</td><td>{cell(k.get("groups"))}</td><td>{cell(k.get("effect_ci"))}</td><td>{cell(k.get("p"))}</td></tr>' for k in krs)+'</tbody></table></div>'
     else:
         kr=sec_get(S,'关键结果'); kr=mdc(kr) if kr and not re.fullmatch(r'[\s—\-|指标结果统计:]*',kr) else (f'<p>{E_(clean(p["results"]))}</p>' if has(p.get('results')) else '')
+    _ts=X.text_source(p.get('pmid'))
+    if _ts: p['reading_depth']=_ts
     absonly=p.get('reading_depth')!='全文'
     if kr and absonly: kr+='<p class="note">本页数字来自摘要，未经全文核对</p>'
     m=dict(p.get('methods') or {}); RES=p.get('res') or {}
@@ -424,10 +427,14 @@ def paper(p):
     body+=extra
     terms=sec_get(S,'关键术语')
     if terms: body+=f'<details class="fold"><summary>关键术语中英对照</summary>{mdc(terms)}</details>'
-    if p.get('fulltext_translation_allowed') is True:
-        orig=f'<p>许可 {E_(str(p.get("license","")).upper())} 允许全文翻译；逐段中英对照译文尚未生成。</p>'
+    _tr=X.translation(p.get('pmid'),p.get('license')) if X.ccby(p.get('license')) else None
+    if _tr:
+        orig=f'<p>许可 {E_(str(p.get("license","")).upper())}。<a class="btn" href="bilingual/">阅读中英对照全文 →</a></p><p class="note">AI 翻译，未经人工审校</p>'
+    elif X.ccby(p.get('license')):
+        orig=f'<p>许可 {E_(str(p.get("license","")).upper())} 允许翻译，中英对照尚未生成。{f'<a href="https://doi.org/{E_(p["doi"])}">阅读原文 →</a>' if p.get('doi') else ''}</p>'
     else:
-        orig=f'<p>许可{("（"+E_(str(p["license"]))+"）") if has(p.get("license")) else ""}不允许全文翻译转载，本站只提供速读与术语对照。</p>'
+        orig=f'<p>许可{("（"+E_(str(p["license"]))+"）") if has(p.get("license")) else ""}不允许全文翻译转载，本站只提供速读与术语对照。{f'<a href="https://doi.org/{E_(p["doi"])}">阅读原文 →</a>' if p.get('doi') else ''}</p>'
+    body+=X.related_block(p.get('pmid'),lambda q:(f"{r}papers/{get(str(q.get('pmid'))).get('sid')}/" if q.get('pmid') and get(str(q.get('pmid'))) else ('https://doi.org/'+q['doi'] if q.get('doi') else (q.get('url') or q.get('openalex') or '#'))))
     bib=B.bibtex(B.view({**p,'id':p['sid']})); ris=B.ris(B.view({**p,'id':p['sid']}))
     body+=f'<details class="fold"><summary>原文与许可</summary>{orig}</details><details class="fold"><summary>引用（BibTeX / RIS）</summary><pre>{E_(bib)}</pre><pre>{E_(ris)}</pre></details>'
     body+=f'<p class="note sig">依据：{"摘要" if absonly else "全文"} · 速读：AI 单次提取{'（结论、关键数字、样本量除外，见各处标注）' if p.get('dual_x') else ''}</p>'
@@ -474,6 +481,8 @@ def main():
             return t+('<p class="note">空白处仅据摘要，其余细节见原文</p>' if rep=='摘要未提及' else '<p class="note">空白处原文未报告</p>')
         h=re.sub(r'<table(?! class="kv")[^>]*>.*?</table>',coll2,h,flags=re.S)
         w(f'papers/{p["sid"]}/index.html',h)
+        _tr=X.translation(p.get('pmid'),p.get('license')) if X.ccby(p.get('license')) else None
+        if _tr: w(f'papers/{p["sid"]}/bilingual/index.html',X.bilingual_page(p,_tr,page)); MERGE.setdefault('bi',0); MERGE['bi']+=1
     os.makedirs(os.path.join(OUT,'static'),exist_ok=True); shutil.copy(os.path.join(ROOT,'static','preview','v.css'),os.path.join(OUT,'static','v.css'))
     import collections; print('templates',collections.Counter((p.get('population_type') or 'natural') for p in P.values()))
     print('merge',{k:(v if isinstance(v,int) else len(v)) for k,v in MERGE.items()},MERGE['sr_un'],MERGE['ap_un'])
