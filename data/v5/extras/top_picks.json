@@ -288,7 +288,11 @@
      "title": "Feline Infectious Peritonitis: European Advisory Board on Cat Diseases Guidelines.",
      "year": "2023",
      "design": "指南/共识",
-     "superseded_by": "42043241"
+     "superseded_by": "42043241",
+     "supersession_scope": "treatment_only",
+     "supersession_quote": "This review presents a further update on a section of the full guidelines describing the treatment of FIP, a field of rapidly evolving evidence on an increasing number of antiviral drugs used for FIP.",
+     "supersession_quote_location": "42043241 (PMC13120026) §1 Introduction; refs [1]=19481039, [2]=37766254",
+     "link_text_zh": "治疗部分已有更新版"
     }
    ]
   },
@@ -376,7 +380,11 @@
      "title": "Feline Infectious Peritonitis: European Advisory Board on Cat Diseases Guidelines.",
      "year": "2023",
      "design": "指南/共识",
-     "superseded_by": "42043241"
+     "superseded_by": "42043241",
+     "supersession_scope": "treatment_only",
+     "supersession_quote": "This review presents a further update on a section of the full guidelines describing the treatment of FIP, a field of rapidly evolving evidence on an increasing number of antiviral drugs used for FIP.",
+     "supersession_quote_location": "42043241 (PMC13120026) §1 Introduction; refs [1]=19481039, [2]=37766254",
+     "link_text_zh": "治疗部分已有更新版"
     }
    ]
   },
@@ -501,5 +509,20 @@
     }
    ]
   }
- ]
+ ],
+ "supersessions": {
+  "19481039": {
+   "superseded_by": "37766254",
+   "supersession_scope": "full",
+   "supersession_quote": "The current guidelines are a major revision of the previous ABCD FIP guidelines, published in 2009 [46], and review the large body of research published in the field of FIP over the past 14 years.",
+   "supersession_quote_location": "37766254 (PMC10535984) §1 Introduction; ref [46] = Addie 2009"
+  },
+  "37766254": {
+   "superseded_by": "42043241",
+   "supersession_scope": "treatment_only",
+   "supersession_quote": "This review presents a further update on a section of the full guidelines describing the treatment of FIP, a field of rapidly evolving evidence on an increasing number of antiviral drugs used for FIP.",
+   "supersession_quote_location": "42043241 (PMC13120026) §1 Introduction; refs [1]=19481039, [2]=37766254",
+   "link_text_zh": "治疗部分已有更新版"
+  }
+ }
 }
