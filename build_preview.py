@@ -130,7 +130,7 @@ JA={'Yes':'是','Partial Yes':'部分是','No':'否'}; OA={'Critically low':'极
 for k,r in AM['records'].items():
     p=matcher({'pmid':k,'id':k})
     if not p: continue
-    MERGE['amstar']+=1; p['rob_tool']='AMSTAR 2'; p['amstar']=True; p['appraisal_note']=''
+    MERGE['amstar']+=1; p['rob_tool']='AMSTAR 2'; p['amstar']=True; p['appraisal_note']=''; p['rep_inc']=r.get('reporting_inconsistencies') or []
     p['amstar_overall']=f'AMSTAR 2 总体：{OA.get(r["final_overall"],r["final_overall"])}（关键缺陷：第 {"、".join(map(str,r["critical_flaws"]))} 项）'
     p['appraisal_items']=[{'item':f'第 {n} 项'+('（关键）' if int(n) in AM['critical_items'] else ''),'judgment':JA.get(i['final'],i['final']),'reason':re.sub(r'^(核对全文后同意第一评估员：|维持 No。)','',i.get('reason') or '')+(f'（{i["location"]}）' if i.get('location') else ''),'evidence_quote':i.get('quote') or ''} for n,i in r['items'].items()]
     if r.get('search_date_inconsistency'): p['amstar_limit']='检索日期前后矛盾（表 1：2025-03-03；局限性一节：2025-04-04）'
@@ -419,6 +419,8 @@ def paper(p):
         ev=ev.replace('</table>',f'<tr><th>指南推荐强度（原文）</th><td>{gc}</td></tr></table>',1)
     ROBJ=not (REEVAL or NOTOOL or why1=='未评') or p.get('adj')
     if p.get('amstar_limit'): ev+=f'<p class="note">局限性：{p["amstar_limit"]}</p>'
+    if p.get('rep_inc'):
+        ev+='<div class="blk"><p><b>报告质量问题</b>（原文内部前后不一致）</p><ul>'+''.join(f'<li>{E_(i.get("issue_zh",""))}'+(f'<blockquote lang="en">{E_(i["quote_a"])}</blockquote><p class="note">{E_(i.get("loc_a",""))}</p>' if i.get('quote_a') else '')+(f'<blockquote lang="en">{E_(i["quote_b"])}</blockquote><p class="note">{E_(i.get("loc_b",""))}</p>' if i.get('quote_b') else '')+'</li>' for i in p['rep_inc'])+'</ul></div>'
     if p.get('amstar'): ev+='<p class="note">偏倚风险：AI 双重独立评估并经第三方裁定，未经临床兽医审阅</p>'
     elif p.get('rob3'): ev+=(f'<p class="note">总体判定规则：{E_(p["rob_rule"])}</p>' if p.get('rob_rule') else '')+'<p class="note">偏倚风险：由 AI 双重独立评估并经第三方裁定，未经临床兽医审阅</p>'
     elif p.get('adj_dual'): ev+='<p class="note">偏倚风险：AI 双重独立评估并经第三方裁定，未经临床兽医审阅</p>'
