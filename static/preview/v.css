@@ -71,3 +71,6 @@ details.evf{margin-top:18px}details.evf>summary{font-size:14px}
 @media (max-width:480px){.kn li{font-size:15px}.echip{font-size:11px}}
 .echip.na{background:#eee;color:#666;border-color:#ccc}
 .why0{margin:.2em 0 .8em;color:#555;font-size:.95em}
+h4.tb{margin:1.2em 0 .4em;font-size:.85em;letter-spacing:.08em;color:#c0392b}
+.deep .btn.big{display:block;text-align:center;padding:.9em 1em;font-size:1.05em;font-weight:700}
+.orig a{font-weight:600}

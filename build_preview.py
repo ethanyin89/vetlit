@@ -215,7 +215,7 @@ def badges(p):
     if has(n) and len(str(n))<=14: b.append(('',f'n={n}'))
     if level(p).startswith('Level'): b.append(('lv','CEBM '+level(p)))
     return '<p class="bd">'+''.join(f'<span class="b {c}">{E_(str(t))}</span>' for c,t in b if t)+'</p>'
-SHOW_CERTAINTY=os.environ.get('SHOW_CERTAINTY','false').lower() in ('1','true','yes')
+SHOW_CERTAINTY=os.environ.get('SHOW_CERTAINTY','true').lower() in ('1','true','yes')
 _CJ=os.path.join(ROOT,'data','v5','certainty.json')
 CERT=json.load(open(_CJ,encoding='utf-8')).get('papers',{}) if os.path.exists(_CJ) else {}
 CVALS=('高','中','低','极低','待评定','不适用')
@@ -233,18 +233,23 @@ def grade(p):
     rows=[('起始等级',(r.get('start') or '—')+(f'（{r["start_basis"]}）' if r.get('start_basis') else ''))]+[('降一级',d.get('reason_zh','') if isinstance(d,dict) else str(d)) for d in r.get('downgrades') or []]+([('说明',r['notes_zh'])] if r.get('notes_zh') else [])+[('结果',t)]
     h='<table class="kv">'+''.join(f'<tr><th>{k}</th><td>{E_(clean(v))}</td></tr>' for k,v in rows)+'</table>'
     return t,h
+CHIP_HOLD={'41527203','41701235','30797439'}
+def _crec(p):
+    return CERT.get(str(p.get('pmid') or '')) or CERT.get(str(p.get('sid') or '')) or CERT.get(str(p.get('sid') or '').replace('pmid-','')) or {}
 def chip(p,href):
-    if not SHOW_CERTAINTY: return ''
-    t,_=grade(p)
-    if t.endswith('待评定'): return ''
-    if t.endswith('不适用'): return f'<a class="echip na" href="{href}">非临床研究</a>'
-    return f'<a class="echip" href="{href}">{E_(t)}</a>'
+    if not SHOW_CERTAINTY or str(p.get('pmid') or '') in CHIP_HOLD: return ''
+    r=_crec(p); c=r.get('certainty')
+    if c in ('高','中','低','极低'): return f'<a class="echip" href="{href}">证据确定性：{c}</a>'
+    if c=='不适用': return f'<a class="echip na" href="{href}" title="{E_(clean(r.get("na_reason_zh") or ""))}">不分级</a>'
+    if c is None and r and (p.get('design_category')=='指南/共识' or r.get('guideline_strength') is not None):
+        st=str(r.get('guideline_strength') or '').strip()
+        if st: return f'<a class="echip" href="{href}">指南推荐强度：{E_(st if len(st)<=30 else st[:30]+"…")}</a>'
+    return ''
 def nochip_reason(p):
-    if not SHOW_CERTAINTY: return '本页暂不显示证据确定性：评级规则尚在核对，未上线。'
-    t,_=grade(p)
-    if t.endswith('待评定'):
-        r=CERT.get(str(p.get('pmid') or '')) or {}
-        return '证据确定性待评定：'+(clean(r['notes_zh']) if r.get('notes_zh') else '尚未做偏倚风险评估。')
+    if not SHOW_CERTAINTY: return '本页暂不显示证据确定性。'
+    if str(p.get('pmid') or '') in CHIP_HOLD: return '证据确定性：评定结果复核中，暂不显示。'
+    r=_crec(p)
+    if not r or r.get('certainty')=='待评定': return '证据确定性待评定：'+clean(r.get('pending_reason_zh') or r.get('notes_zh') or '尚未做偏倚风险评估')
     return ''
 def title_html(p,tag='h3',href=None):
     main=p.get('title_zh') or p.get('one_line_conclusion_zh')
@@ -276,6 +281,18 @@ def page(title,body,depth,cur_nav=''):
 <footer class="foot"><div class="in">犬猫兽医文献速读 · 仅供专业参考，不构成诊疗建议 · 构建于 {datetime.date.today().isoformat()}</div></footer></body></html>'''
 # ---------- home ----------
 ALL=sorted(P.values(),key=lambda p:p.get('importance_rank') or 999)
+def has_tr(p): return bool(X.can_translate(p) and X.translation(p.get('pmid'),p.get('license')))
+def hcard(p,r):
+    href=f'{r}papers/{p["sid"]}/'
+    c=f'<p class="bl">{E_(clean(p["one_line_conclusion_zh"]))}</p>' if p.get('one_line_conclusion_zh') else ''
+    lk=f'<a class="go" href="{href}">速读 →</a>'+(f' <a class="go" href="{href}bilingual/">中英对照 →</a>' if has_tr(p) else '')
+    return f'<article class="card">{title_html(p,"h3",href)}{c}<p class="ft">{lk}</p></article>'
+def tops(tid):
+    for g in (X.TOP.get('topics') or []):
+        if g.get('topic')==tid: return [x for x in (get(str(i.get('pmid') or i.get('id') if isinstance(i,dict) else i)) for i in (g.get('items') or g.get('picks') or [])) if x][:3]
+    return []
+def newest3(ps): return sorted(ps,key=lambda p:p.get('pub_date') or '',reverse=True)[:3]
+def duo(imp,new,r): return (f'<h4 class="tb">最重要</h4>'+''.join(hcard(p,r) for p in imp) if imp else '')+(f'<h4 class="tb">最新</h4>'+''.join(hcard(p,r) for p in new) if new else '')
 def home():
     picks=ALL[:8]
     new=sorted(P.values(),key=lambda p:p.get('pub_date') or '',reverse=True)[:10]
@@ -284,10 +301,12 @@ def home():
     gl=''.join(f'<h3 class="dg">{E_(k[:4])} 年 {int(k[5:7])} 月</h3>'+''.join(card(p,'') for p in v) for k,v in groups.items() if k)
     chips=topic_chips('')
     wk=datetime.date.today().isocalendar()
-    body=f'''<section class="hero"><p class="eb red">// {wk[0]} 第 {wk[1]} 周</p><h1>本周精选</h1><p class="lede">犬猫兽医文献，结论先行。每篇注明研究设计、Oxford CEBM 2011 证据等级与偏倚风险。</p></section>
-{X.top_block(get,card)}<section><h2 class="sec"><span>01</span> 编辑精选</h2><p class="note">按指南/共识 → 证据等级 → 发表时间排序。</p>{''.join(card(p,'') for p in picks)}</section>
-<section><h2 class="sec"><span>02</span> 最新发表</h2>{gl}</section>
-<section><h2 class="sec"><span>03</span> 按专题浏览</h2>{chips}</section>
+    blocks=''
+    for g in (X.TOP.get('topics') or []):
+        t=TBY.get(g.get('topic')); imp=tops(g.get('topic')); new=newest3(tpapers(t)) if t else []
+        if imp or new: blocks+=f'<section class="tp"><h3 class="dg">'+(f'<a href="topics/{t["id"]}/">' if t else '')+E_(g.get('topic_zh') or '')+('</a>' if t else '')+f'</h3>{duo(imp,new,"")}</section>'
+    body=f'''<section class="hero"><p class="eb red">// {wk[0]} 第 {wk[1]} 周</p><h1>本周精选</h1><p class="lede">犬猫兽医文献，结论先行。</p></section>
+{blocks}<section><h2 class="sec"><span>//</span> 按专题浏览</h2>{chips}</section>
 <p class="more"><a class="btn" href="library/">进入文献库（{len(P)} 篇）→</a></p>{fresh_list(FRESH,'')}'''
     return page('本周精选',body,0,'home')
 # ---------- topics ----------
@@ -323,8 +342,7 @@ def topic_page(t):
     sub=f'<section><h2 class="sec"><span>//</span> 子专题</h2>'+''.join(f'<a class="chip" href="{r}topics/{k["id"]}/">{E_(k["name_zh"])} <b>{len(tpapers(k))}</b></a>' for k in ks)+'</section>' if ks else ''
     fr=[f for f in FRESH if t['id'] in (f.get('topics') or [])]
     body=f'''{crumb}<section class="hero"><p class="eb">{E_(t.get("name_en",""))}</p><h1>{E_(t["name_zh"])}</h1><p class="lede">{len(ps)} 篇已速读文献</p></section>{bl}{sub}
-<section><h2 class="sec"><span>01</span> 核心文献</h2>{cs}</section>
-<section><h2 class="sec"><span>02</span> 最新</h2><ul class="rows">{''.join(row(p,r) for p in newest if p)}</ul></section>
+<section>{duo((tops(t['id']) or [p for p,_ in core][:3]),newest3(ps),r)}</section>
 <section><h2 class="sec"><span>03</span> 全部 {len(ps)} 篇</h2><ul class="rows">{''.join(row(p,r) for p in sorted(ps,key=lambda p:p.get('pub_date') or '',reverse=True))}</ul></section>{fresh_list(fr,r)}'''
     return page(t['name_zh'],body,2,'topics')
 def topics_index():
@@ -484,8 +502,6 @@ def paper(p):
     vis=head
     if p.get('warn_speed'): vis+=f'<p class="warn" style="background:#fff4d6;border-left:4px solid #e0a100;padding:.5em .8em;margin:.4em 0;color:#5a4300">{E_(p["warn_speed"])}</p>'
     inc_md=sec_get(S,'原文报告不一致')
-    if p.get('rep_inc') or inc_md or has(p.get('internal_inconsistency')) or p.get('amstar_limit'):
-        vis+=f'<p class="incline"><a href="#inconsistency" onclick="{OPEN}">原文数据有前后不一致，详见下方</a></p>'
     vis+=concl
     if has(p.get('clinical_meaning')): vis+=f'<p class="cm">{E_(clean(p["clinical_meaning"]))}</p>'
     kn=[]
@@ -498,9 +514,13 @@ def paper(p):
     if not kn and p.get('can_say') and '见页面' not in str(p['can_say']): kn=[f'<li>{E_(clean(x))}</li>' for x in p['can_say'][:3]]
     if kn: vis+=f'<section class="kn"><p class="eb">关键数字</p><ul>{"".join(kn)}</ul></section>'
     gt,gh=grade(p)
-    if SHOW_CERTAINTY: vis+=f'<p class="bd"><a class="echip" href="#evidence" onclick="{OPEN}">{E_(gt)}</a></p>'
+    _c=chip(p,'#evidence')
+    if _c: vis+='<p class="bd">'+_c.replace('<a ',f'<a onclick="{OPEN}" ',1)+'</p>'
     _tr=X.translation(p.get('pmid'),p.get('license')) if X.can_translate(p) else None
-    if _tr: vis+='<p><a class="btn" href="bilingual/">阅读中英对照全文 →</a></p>'
+    if _tr: vis+='<p class="deep"><a class="btn big" href="bilingual/">中英对照深入阅读 →</a></p>'
+    else:
+        _o=f'https://doi.org/{p["doi"]}' if p.get('doi') else (p.get('url') or (f'https://pubmed.ncbi.nlm.nih.gov/{p["pmid"]}/' if p.get('pmid') else ''))
+        if _o: vis+=f'<p class="orig"><a href="{E_(_o)}">阅读原文 →</a></p>'
     vis+=X.related_block(p.get('pmid'),lambda q:(f"{r}papers/{get(str(q.get('pmid'))).get('sid')}/" if q.get('pmid') and get(str(q.get('pmid'))) else ('https://doi.org/'+q['doi'] if q.get('doi') else (q.get('url') or q.get('openalex') or '#'))))
     # ---- fold: 证据与方法 ----
     fb=(f'<section class="blk"><h3>证据确定性</h3>{gh}</section>' if SHOW_CERTAINTY else '')+badges(p)+conf+why
