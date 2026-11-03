@@ -10,6 +10,8 @@ def _load(n):
     except Exception: return None
 TOP=_load('top_picks.json'); LA=_load('licence_audit.json'); REL=_load('related_reading.json'); TS=_load('text_source.json')
 TR={}
+try: TN=json.load(open(os.path.join(os.path.dirname(D),'translator_notes.json'),encoding='utf-8'))
+except Exception: TN={}
 for f in glob.glob(os.path.join(D,'translations','*.json')):
     try: t=json.load(open(f,encoding='utf-8')); TR[str(t.get('pmid') or os.path.basename(f)[:-5])]=t
     except Exception: pass
@@ -26,17 +28,15 @@ def text_source(pmid):
     return '全文' if ('full' in v or '全文' in v) else '摘要'
 CCBY=re.compile(r'^cc[\s\-]?by(\s*[\d.]+)?$',re.I)
 def ccby(lic): return bool(CCBY.match(str(lic or '').strip().replace('-4.0','').replace(' 4.0','')))
-def _audit_ok(pmid):
-    if LA is None: return True
-    v=_recs(LA,'records').get(str(pmid))
-    if isinstance(v,dict): v=v.get('translatable', v.get('verdict', v.get('status')))
-    if v is True: return True
-    return isinstance(v,str) and v.strip().lower() in ('translatable','true','yes','可翻译')
+def _audit(pmid):
+    v=_recs(LA,'records').get(str(pmid)) if LA else None
+    return v.get('translation_ok') if isinstance(v,dict) else None
 def can_translate(p):
-    return ccby(p.get('license')) and not p.get('no_translation') and _audit_ok(p.get('pmid'))
+    a=_audit(p.get('pmid'))
+    return (a is True) if a is not None else p.get('fulltext_translation_allowed') is True
 def translation(pmid,lic):
     t=TR.get(str(pmid))
-    if not t or not ccby(t.get('license') or lic): return None
+    if not t: return None
     return t
 def related_block(pmid,link):
     rs=_recs(REL,'records').get(str(pmid))
@@ -83,9 +83,14 @@ def bilingual_page(p,t,page):
     for x in paras:
         s=x.get('section') or ''
         if s and s!=sec: rows+=f'<tr><th colspan="2" class="bsec">{E_(s)}{(" / "+E_(x["section_zh"])) if x.get("section_zh") else ""}</th></tr>'; sec=s
-        rows+=f'<tr><td lang="en">{E_(x.get("en") or "")}</td><td lang="zh-CN">{E_(x.get("zh") or "")}</td></tr>'
+        nt=''.join(f'<p class="note tag2">{E_(n["note_zh"])}</p>' for n in TN.get(str(p.get('pmid')),[]) if n.get('match_en') and n['match_en'] in (x.get('en') or ''))
+        rows+=f'<tr><td lang="en">{E_(x.get("en") or "")}</td><td lang="zh-CN">{E_(x.get("zh") or "")}{nt}</td></tr>'
     lic=t.get('license') or p.get('license') or ''
-    attr=t.get('attribution') or f'{p.get("first_author","")} 等，{p.get("journal","")}，{p.get("year","")}'
+    a=t.get('attribution')
+    if isinstance(a,dict):
+        au=a.get('authors') or []
+        a=f"{', '.join(au[:3])}{' 等' if len(au)>3 else ''}. {a.get('title','')}. {a.get('journal','')}, {a.get('year','')}"+(f" · 许可文本 {a['license_url']}" if a.get('license_url') else '')
+    attr=a or f'{p.get("first_author","")} 等，{p.get("journal","")}，{p.get("year","")}'
     scope=t.get('scope_zh') or ''
     doi=p.get('doi')
     body=f'''<p class="crumb"><a href="../">← 返回速读</a></p><h1 class="ct">中英对照</h1><p class="en" lang="en">{E_(p.get("title",""))}</p>

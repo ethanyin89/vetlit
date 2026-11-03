@@ -1,0 +1,536 @@
+{
+ "pmid": "38952053",
+ "license": "CC BY 4.0",
+ "attribution": {
+  "authors": [
+   "Tang Pak‐Kan",
+   "van den Broek Dirk Hendrik Nicolaas",
+   "Jepson Rosanne E",
+   "Geddes Rebecca F",
+   "Chang Yu‐Mei",
+   "Lötter Nicola",
+   "Moniot Delphine",
+   "Biourge Vincent",
+   "Elliott Jonathan"
+  ],
+  "title": "Dietary magnesium supplementation in cats with chronic kidney disease: A prospective double‐blind randomized controlled trial",
+  "journal": "Journal of Veterinary Internal Medicine",
+  "year": "2024",
+  "doi": "10.1111/jvim.17134",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "note": "中文为 AI 翻译，以英文原文为准；已对原文做翻译改编"
+ },
+ "scope_zh": "标题、摘要（含关键词）、引言、方法、结果、讨论（含结论段）、利益冲突/伦理/资助声明；表1–7表题与表注、图1–4图注。未含：参考文献、补充材料、表格正文数据、引用格式行。",
+ "paragraphs": [
+  {
+   "section": "Title",
+   "section_zh": "标题",
+   "en": "Dietary magnesium supplementation in cats with chronic kidney disease: A prospective double‐blind randomized controlled trial",
+   "zh": "慢性肾病猫的饮食镁补充：一项前瞻性双盲随机对照试验"
+  },
+  {
+   "section": "Abstract / Background",
+   "section_zh": "摘要 / 背景",
+   "en": "Plasma total magnesium concentration (tMg) is a prognostic indicator in cats with chronic kidney disease (CKD), shorter survival time being associated with hypomagnesemia. Whether this risk factor is modifiable with dietary magnesium supplementation remains unexplored.",
+   "zh": "血浆总镁浓度（tMg）是慢性肾病（CKD）猫的预后指标，低镁血症与较短的生存时间相关。这一风险因素能否通过饮食镁补充加以改变，尚未得到研究。"
+  },
+  {
+   "section": "Abstract / Objectives",
+   "section_zh": "摘要 / 目的",
+   "en": "Evaluate effects of a magnesium‐enriched phosphate‐restricted diet (PRD) on CKD–mineral bone disorder (CKD‐MBD) variables.",
+   "zh": "评价富镁限磷饮食（phosphate‐restricted diet，PRD）对CKD–矿物质与骨异常（CKD‐MBD）相关指标的影响。"
+  },
+  {
+   "section": "Abstract / Animals",
+   "section_zh": "摘要 / 动物",
+   "en": "Sixty euthyroid client‐owned cats with azotemic CKD, with 27 and 33 allocated to magnesium‐enriched PRD or control PRD, respectively.",
+   "zh": "60只甲状腺功能正常、患氮质血症性CKD的客户自有猫，分别有27只和33只被分配至富镁PRD组和对照PRD组。"
+  },
+  {
+   "section": "Abstract / Methods",
+   "section_zh": "摘要 / 方法",
+   "en": "Prospective double‐blind, parallel‐group randomized trial. Cats with CKD, stabilized on a PRD, without hypermagnesemia (tMg >2.43 mg/dL) or hypercalcemia (plasma ionized calcium concentration, (iCa) >6 mg/dL), were recruited. Both intention‐to‐treat and per‐protocol (eating ≥50% of study diet) analyses were performed; effects of dietary magnesium supplementation on clinicopathological variables were evaluated using linear mixed effects models.",
+   "zh": "前瞻性、双盲、平行组随机试验。招募已在PRD上病情稳定、无高镁血症（tMg >2.43 mg/dL）或高钙血症（血浆离子钙浓度（iCa）>6 mg/dL）的CKD猫。同时进行意向性治疗分析和符合方案分析（摄入≥50%的试验饮食）；采用线性混合效应模型评价饮食镁补充对临床病理指标的影响。"
+  },
+  {
+   "section": "Abstract / Results",
+   "section_zh": "摘要 / 结果",
+   "en": "In the per‐protocol analysis, tMg increased in cats consuming a magnesium‐enriched PRD (β, 0.25 ± .07 mg/dL/month; P < .001). Five magnesium supplemented cats had tMg >2.92 mg/dL, but none experienced adverse effects. Rate of change in iCa differed between groups (P = .01), with decreasing and increasing trends observed in cats fed magnesium‐enriched PRD and control PRD, respectively. Four control cats developed ionized hypercalcemia versus none in the magnesium supplemented group. Log‐transformed plasma fibroblast growth factor‐23 concentration (FGF23) increased significantly in controls (β, 0.14 ± .05 pg/mL/month; P = .01), but remained stable in the magnesium supplemented group (β, 0.05±.06 pg/mL/month; P =.37).",
+   "zh": "在符合方案分析中，食用富镁PRD的猫tMg升高（β，0.25 ± .07 mg/dL/月；P < .001）。5只补镁猫的tMg >2.92 mg/dL，但均未出现不良反应。两组iCa的变化速率不同（P = .01），食用富镁PRD的猫呈下降趋势，食用对照PRD的猫呈上升趋势。4只对照猫出现离子性高钙血症，而补镁组无一例。对数转换后的血浆成纤维细胞生长因子‐23浓度（FGF23）在对照组显著升高（β，0.14 ± .05 pg/mL/月；P = .01），而在补镁组保持稳定（β，0.05±.06 pg/mL/月；P =.37）。"
+  },
+  {
+   "section": "Abstract / Conclusions and Clinical Importance",
+   "section_zh": "摘要 / 结论与临床意义",
+   "en": "Magnesium‐enriched PRD is a novel therapeutic strategy for managing feline CKD‐MBD in cats, further stabilizing plasma FGF23 and preventing hypercalcemia.",
+   "zh": "富镁PRD是治疗猫CKD‐MBD的一种新策略，可进一步稳定血浆FGF23并预防高钙血症。"
+  },
+  {
+   "section": "Abstract / Keywords",
+   "section_zh": "摘要 / 关键词",
+   "en": "Keywords: anti‐calcemic, calcium, CKD‐MBD, fibroblast growth factor‐23, hypercalcemia, magnesium oxide",
+   "zh": "关键词：抗高钙、钙、CKD‐MBD、成纤维细胞生长因子‐23、高钙血症、氧化镁"
+  },
+  {
+   "section": "INTRODUCTION",
+   "section_zh": "引言",
+   "en": "Increasing evidence in both the human and veterinary medical literature has suggested that magnesium influences disease progression and mortality among patients with chronic kidney disease (CKD). 1 , 2 , 3 , 4 , 5 , 6 Hypomagnesemia was a common electrolyte abnormality among 5126 human patients with stage 1 to 5 CKD. 7",
+   "zh": "人医和兽医文献中越来越多的证据表明，镁会影响慢性肾病（CKD）患者的疾病进展和死亡率。 1 , 2 , 3 , 4 , 5 , 6 在5126名1至5期CKD人类患者中，低镁血症是一种常见的电解质异常。 7"
+  },
+  {
+   "section": "INTRODUCTION",
+   "section_zh": "引言",
+   "en": "Magnesium is a potent calcification inhibitor 8 ; hypomagnesemia is associated with vascular calcification (VC) and increased risk of cardiovascular events in rodent models and human CKD patients. 4 , 9 Dietary magnesium supplementation prevented VC in rat CKD models, 1 , 10 and increased serum magnesium concentration in hemodialysis patients is associated with decreased mortality risk. 11",
+   "zh": "镁是一种强效的钙化抑制剂 8 ；在啮齿类模型和人类CKD患者中，低镁血症与血管钙化（VC）以及心血管事件风险升高相关。 4 , 9 在大鼠CKD模型中，饮食镁补充可预防VC， 1 , 10 而在血液透析患者中，血清镁浓度升高与死亡风险降低相关。 11"
+  },
+  {
+   "section": "INTRODUCTION",
+   "section_zh": "引言",
+   "en": "Magnesium appears to be involved in calcium and fibroblast growth factor‐23 (FGF23) regulation. Rats fed a magnesium‐deficient diet (0.005% w/w) for 21 days had significantly lower serum magnesium concentration and higher serum calcium and FGF23 concentrations, compared with their counterparts fed a control diet (0.051% w/w). 12 Furthermore, an inverse relationship between serum magnesium concentration and FGF23 was identified in a cross‐sectional study involving 255 human CKD patients undergoing hemodialysis. 13 Similar findings between these 2 variables also were observed in cats with azotemic CKD, 5 and hypomagnesemia was associated with increased risk of death. 5",
+   "zh": "镁似乎参与钙和成纤维细胞生长因子‐23（FGF23）的调节。与饲喂对照饮食（0.051% w/w）的大鼠相比，饲喂缺镁饮食（0.005% w/w）21天的大鼠血清镁浓度显著降低，血清钙和FGF23浓度升高。 12 此外，一项纳入255名接受血液透析的人类CKD患者的横断面研究发现，血清镁浓度与FGF23呈负相关。 13 在氮质血症性CKD猫中也观察到这2个指标之间的类似关系， 5 且低镁血症与死亡风险升高相关。 5"
+  },
+  {
+   "section": "INTRODUCTION",
+   "section_zh": "引言",
+   "en": "Oral administration of magnesium significantly lowers serum FGF23 13 and calcium concentrations 14 in human patients receiving hemodialysis. However, the effects of magnesium supplementation on CKD–mineral and bone disorder (CKD‐MBD) in cats have never been evaluated. Because increasing plasma total calcium concentration (tCa) and FGF23 excess are associated with CKD progression in cats, 15 we hypothesized that dietary magnesium supplementation would improve CKD‐MBD in cats by stabilizing FGF23 and calcium disturbances.",
+   "zh": "在接受血液透析的人类患者中，口服镁可显著降低血清FGF23 13 和钙浓度 14 。然而，镁补充对猫CKD–矿物质与骨异常（CKD‐MBD）的影响从未被评价过。由于血浆总钙浓度（tCa）升高和FGF23过量与猫CKD进展相关， 15 我们假设饮食镁补充可通过稳定FGF23和钙紊乱改善猫的CKD‐MBD。"
+  },
+  {
+   "section": "INTRODUCTION",
+   "section_zh": "引言",
+   "en": "Our prospective randomized controlled trial was designed, first, to determine the effect of dietary magnesium supplementation on plasma total magnesium concentration (tMg) in cats with azotemic CKD; and, second, to evaluate changes in clinicopathological variables associated with CKD‐MBD in relation to dietary magnesium supplementation.",
+   "zh": "我们的前瞻性随机对照试验旨在：第一，确定饮食镁补充对氮质血症性CKD猫血浆总镁浓度（tMg）的影响；第二，评价与饮食镁补充相关的CKD‐MBD临床病理指标的变化。"
+  },
+  {
+   "section": "METHODS / Study design",
+   "section_zh": "方法 / 研究设计",
+   "en": "A prospective, double‐blinded, parallel‐group randomized controlled dietary trial (referred to herein as MAGMA) was designed to evaluate the effects of a magnesium‐enriched phosphate‐restricted diet (PRD), containing additional magnesium oxide (MgO), on CKD‐MBD variables when fed for 12 to 16 weeks to cats with azotemic CKD. The study was conducted at the Royal Veterinary College (Hatfield, UK) held at 2 first‐opinion practices in London from November 1, 2017 to March 28, 2023. Ethical approval for our study protocol was granted by the Royal Veterinary College Ethics and Welfare Committee (URN20171713‐3). A participant information sheet was provided and owner informed consent was obtained before study enrollment (Tables S1 and S2). The study was funded by Royal Canin SAS (Aimargues, France), who manufactured both diets (control and magnesium‐enriched PRD; see Table 1 for diet composition) with the dietary design based on the results obtained from a pilot study. 16 The funder did not participate in data collection or analyses.",
+   "zh": "我们设计了一项前瞻性、双盲、平行组随机对照饮食试验（本文称为MAGMA），以评价向氮质血症性CKD猫饲喂12至16周添加氧化镁（magnesium oxide，MgO）的富镁限磷饮食（PRD）对CKD‐MBD指标的影响。本研究由英国皇家兽医学院（Royal Veterinary College，Hatfield, UK）开展，于2017年11月1日至2023年3月28日在伦敦的2家初诊兽医诊所进行。研究方案经英国皇家兽医学院伦理与福利委员会批准（URN20171713‐3）。入组前向主人提供参与者信息表并取得知情同意（表S1和S2）。本研究由Royal Canin SAS（Aimargues, France）资助，该公司生产了两种饮食（对照PRD和富镁PRD；饮食成分见表1），饮食设计基于一项预试验的结果。 16 资助方未参与数据收集或分析。"
+  },
+  {
+   "section": "METHODS / Study participants",
+   "section_zh": "方法 / 研究对象",
+   "en": "All enrolled client‐owned cats included previously had been participating in standardized longitudinal observational studies with ethical approval granted by the Royal Veterinary College Ethics and Welfare Committee (URN20131258E). Cats were eligible for MAGMA enrollment if they were diagnosed with azotemic CKD and had normal calcium concentrations (plasma tCa ≤11.8 mg/dL and blood ionized calcium concentration [iCa] ≤6 mg/dL) and had been stabilized on a PRD (Feline Veterinary Diet Renal [dry and wet], Royal Canin SAS, Aimargues, France [dry] and Masterfoods, Bruck, Austria [wet]) with a phosphorus content of 0.7 to 1.1 g/Mcal and calcium‐to‐phosphorus ratio (Ca : P) of 1.3‐2 (see Table S3 for diet composition). This PRD had to be fed at a minimum of 50% in proportion by volume of the total amount of food fed for a minimum of 4 weeks before enrollment. To be included, a cat initially had to have hypomagnesemia (plasma tMg <1.94 mg/dL), but because of low recruitment rates, from May 2019, this cutoff was increased to include cats with normomagnesemia (tMg <2.44 mg/dL). 5",
+   "zh": "所有入组的客户自有猫此前均参加过经英国皇家兽医学院伦理与福利委员会批准（URN20131258E）的标准化纵向观察研究。符合MAGMA入组条件的猫须：诊断为氮质血症性CKD，钙浓度正常（血浆tCa ≤11.8 mg/dL且血液离子钙浓度[iCa] ≤6 mg/dL），并已在一种PRD（Feline Veterinary Diet Renal [干粮和湿粮]，Royal Canin SAS, Aimargues, France [干粮]及Masterfoods, Bruck, Austria [湿粮]）上病情稳定，该饮食磷含量为0.7至1.1 g/Mcal，钙磷比（Ca : P）为1.3‐2（饮食成分见表S3）。入组前至少4周内，该PRD按体积计须至少占全部饲喂食物的50%。最初入组要求猫存在低镁血症（血浆tMg <1.94 mg/dL），但由于招募率低，自2019年5月起该界值上调，以纳入血镁正常的猫（tMg <2.44 mg/dL）。 5"
+  },
+  {
+   "section": "METHODS / Study participants",
+   "section_zh": "方法 / 研究对象",
+   "en": "Cats were excluded if they had suspected hyperthyroidism, plasma total thyroxine concentration >40 nmol/L, were undergoing medical treatment for hyperthyroidism, or had comorbid disease conditions including diabetes mellitus, bacterial urinary tract infection (UTI), food hypersensitivity to poultry (both trial diets were poultry‐based), a history of struvite crystalluria within the previous 12 months, or were receiving corticosteroids, furosemide, bisphosphonates, calcium‐based phosphate binders, or angiotensin II receptor blockers (ARB). Cats with International Renal Interest Society (IRIS) stage 4 CKD with substantial worsening of azotemia (>25% increase in plasma creatinine concentration) at enrollment were excluded from the trial. Cats receiving amlodipine besylate for systemic hypertension were eligible for enrollment, with no changes made to the treatment regimen (ie, dosage of amlodipine) within 14 days before study enrollment.",
+   "zh": "排除标准为：疑似甲状腺功能亢进、血浆总甲状腺素浓度 >40 nmol/L、正在接受甲状腺功能亢进药物治疗，或患有合并症，包括糖尿病、细菌性尿路感染（UTI）、对禽肉食物过敏（两种试验饮食均以禽肉为基础）、过去12个月内有鸟粪石结晶尿病史，或正在使用皮质类固醇、呋塞米（furosemide）、双膦酸盐、含钙磷结合剂或血管紧张素II受体阻滞剂（ARB）。入组时处于国际肾脏病学会（IRIS）4期CKD且氮质血症明显加重（血浆肌酐浓度升高>25%）的猫被排除。因全身性高血压而使用苯磺酸氨氯地平（amlodipine besylate）的猫可以入组，但入组前14天内治疗方案（即氨氯地平剂量）不得改变。"
+  },
+  {
+   "section": "METHODS / Randomization and intervention",
+   "section_zh": "方法 / 随机化与干预",
+   "en": "Eligible cats were randomly assigned to either a magnesium‐enriched PRD (with a magnesium content of 0.62 g/Mcal; 0.2% elemental magnesium) or a control PRD (with a magnesium content of 0.13‐0.18 g/Mcal; 0.07% elemental magnesium) according to a predetermined randomized sequence generated using an online‐based randomization program (QuickCalcs, GraphPad Software, Boston, MA). Block randomization with a block size of 6 cats was used, with treatment allocation ratio set at 1 to 1. Both study diets were designed and manufactured by Royal Canin SAS (Aimargues, France) with identical packaging but labeled differently for the 2 trial diets with code names “AYC” and “XBZ”. Only a dry formulation of the trial diet was available for the 1st 11 months of the trial (November 2017 to September 2018), thereafter both wet and dry formulations were available for the remainder of the study period.",
+   "zh": "符合条件的猫按照在线随机化程序（QuickCalcs, GraphPad Software, Boston, MA）生成的预定随机序列，被随机分配至富镁PRD（镁含量0.62 g/Mcal；元素镁0.2%）或对照PRD（镁含量0.13‐0.18 g/Mcal；元素镁0.07%）。采用区组随机化，区组大小为6只猫，分配比例为1比1。两种试验饮食均由Royal Canin SAS（Aimargues, France）设计和生产，包装相同，但2种试验饮食分别以代号“AYC”和“XBZ”标注。试验最初的11个月（2017年11月至2018年9月）只提供干粮型试验饮食，此后在研究剩余期间提供湿粮和干粮两种剂型。"
+  },
+  {
+   "section": "METHODS / Randomization and intervention",
+   "section_zh": "方法 / 随机化与干预",
+   "en": "The screening visit was designated as baseline, and the cats enrolled in the study subsequently were fed their assigned diet, with reexamination and blood and urine sampling performed at 4 to 8 weeks (visit 1) and 12 to 16 weeks (visit 2). Owners were encouraged to feed their cats the highest proportion of trial diet possible, but if necessary, feeding a proportion of the original pretrial PRD or a maintenance diet was allowed. A detailed dietary questionnaire (Figures S1 and S2) was completed at all visits to quantify the proportion of different diets consumed. Owners were advised to observe for possible adverse effects associated with hypermagnesemia, including diarrhea or signs of stranguria, hematuria, or dysuria throughout the study. The trial was terminated if moderate hypermagnesemia (defined as tMg >2.92 mg/dL) was documented.",
+   "zh": "筛选访视定为基线，入组的猫随后饲喂分配的饮食，并在第4至8周（访视1）和第12至16周（访视2）进行复查及采集血液和尿液样本。鼓励主人尽可能提高试验饮食在猫饮食中的比例，但必要时允许饲喂一部分试验前原有的PRD或维持饮食。每次访视均填写详细的饮食问卷（图S1和S2），以量化各种饮食的摄入比例。建议主人在整个研究期间观察与高镁血症相关的可能不良反应，包括腹泻或排尿困难（痛性尿淋漓）、血尿或尿痛的迹象。若记录到中度高镁血症（定义为tMg >2.92 mg/dL），则终止该猫的试验。"
+  },
+  {
+   "section": "METHODS / Sample size calculation",
+   "section_zh": "方法 / 样本量计算",
+   "en": "Before trial commencement, a pilot study was conducted to evaluate the change in plasma FGF23 concentration after PO administration of magnesium glycinate. Eight cats with azotemic CKD and hypomagnesemia received magnesium glycinate supplementation at 100 mg/kg (18.2 mg/kg elemental magnesium) once daily for 4 weeks. 16 Three cats did not tolerate or were not given the magnesium salt and therefore served as the control group for comparison. Based on the paired differences (0.55 ± 0.7) on log‐transformed fibroblast growth factor‐23 (lnFGF23) between CKD cats with and without PO magnesium supplementation, a sample size of 60 cats (30 per group) was required to detect the decrease in lnFGF23, with 85% power and 5% type I error rate, in CKD cats fed a magnesium‐enriched PRD compared with the control group.",
+   "zh": "试验开始前进行了一项预试验，评价口服（PO）甘氨酸镁（magnesium glycinate）后血浆FGF23浓度的变化。8只患氮质血症性CKD并伴低镁血症的猫接受甘氨酸镁补充，剂量100 mg/kg（元素镁18.2 mg/kg），每日1次，持续4周。 16 3只猫不耐受或未被给予该镁盐，因此作为对照组进行比较。根据口服补镁与未补镁CKD猫之间对数转换成纤维细胞生长因子‐23（lnFGF23）的配对差值（0.55 ± 0.7），要在85%检验效能和5% I类错误率下检测出饲喂富镁PRD的CKD猫相对于对照组lnFGF23的下降，需要60只猫（每组30只）的样本量。"
+  },
+  {
+   "section": "METHODS / Data collection",
+   "section_zh": "方法 / 数据收集",
+   "en": "At all visits, physical examination was performed including measurement of body weight, body condition score (BCS; 9‐point scale), and muscle condition score (MCS; 4‐point scale). 17 Blood samples were collected by jugular venipuncture into heparinized, ethylenediaminetetraacetic acid (EDTA), and plain tubes, whereas urine was obtained by cystocentesis. Measurements of iCa and bicarbonate (HCO3 −) concentrations, and venous pH were obtained immediately using nonanticoagulated whole blood or using electrolyte‐balanced heparinized whole blood within 5 min of venipuncture, 18 using a point‐of‐care blood analyzer (i‐STAT 1, Abbott Point of Care, Inc, Princeton, New Jersey). All samples collected were stored at 4°C for <6 h before centrifugation and separation. Full biochemical analyses were performed on heparinized plasma by an external laboratory (IDEXX laboratories, Wetherby, UK). In‐house urinalyses, including urine specific gravity (USG) measurement by refractometry, dipstick chemistry, and microscopic urine sediment examination, were performed on the day of collection. Bacterial culture (Royal Veterinary College Diagnostic Laboratory Services, Hatfield, UK) was used to confirm UTI. Systolic blood pressure (SBP) was measured by the Doppler method. 19",
+   "zh": "每次访视均进行体格检查，包括测量体重、体况评分（BCS；9分制）和肌肉状况评分（MCS；4分制）。 17 经颈静脉穿刺采血，分装至肝素抗凝管、乙二胺四乙酸（EDTA）管和普通管，尿液经膀胱穿刺采集。使用床旁血液分析仪（i‐STAT 1, Abbott Point of Care, Inc, Princeton, New Jersey），在静脉穿刺后5 min内用未抗凝全血或电解质平衡肝素抗凝全血立即测定iCa、碳酸氢根（HCO3 −）浓度和静脉pH。 18 所有采集的样本在离心分离前于4°C保存<6 h。完整的生化分析由外部实验室（IDEXX laboratories, Wetherby, UK）用肝素血浆进行。院内尿液分析于采样当天完成，包括折射仪测定尿比重（USG）、试纸化学检测和尿沉渣镜检。采用细菌培养（Royal Veterinary College Diagnostic Laboratory Services, Hatfield, UK）确诊UTI。收缩压（SBP）采用多普勒法测量。 19"
+  },
+  {
+   "section": "METHODS / Data collection",
+   "section_zh": "方法 / 数据收集",
+   "en": "Intact FGF23 was measured on stored EDTA plasma samples using a validated enzyme‐linked immunosorbent assay (FGF23 ELISA Kit, Kainos Laboratories, Tokyo, Japan), 20 and parathyroid hormone (PTH) was measured using either a validated total intact PTH immunoradiometric assay 21 (IRA; total intact PTH immunoradiometric assay–coated bead version, 3KG600, Scantibodies, Santee, California) or a validated 2‐site immunoenzymatic assay 22 (IEA; ST AIA‐PACK Intact PTH, Tosoh Bioscience, Tessenderlo, Belgium) for samples collected before or after January 2021, respectively. All PTH measurements from the same cat were obtained using the same assay. Alteration in PTH assay during this trial was caused by the unforeseen discontinuation of the IRA in 2020. The PTH measurements obtained using the 2 assays were comparable (Figure S3). Parathyroid hormone concentrations of 2.6 and 0.55 pg/mL were assigned to samples measured at <5.2 and < 1.1 pg/mL, the lower limit of detection of the IRA and IEA, respectively. 21 , 22",
+   "zh": "完整FGF23采用经验证的酶联免疫吸附测定（FGF23 ELISA Kit, Kainos Laboratories, Tokyo, Japan）在冻存的EDTA血浆样本上测定， 20 甲状旁腺激素（PTH）则视样本采集于2021年1月之前或之后，分别采用经验证的总完整PTH免疫放射测定法 21 （IRA；total intact PTH immunoradiometric assay–coated bead version, 3KG600, Scantibodies, Santee, California）或经验证的2位点免疫酶测定法 22 （IEA；ST AIA‐PACK Intact PTH, Tosoh Bioscience, Tessenderlo, Belgium）测定。同一只猫的所有PTH测定均采用同一方法。本试验期间PTH检测方法的变更是由于IRA于2020年意外停产。2种方法所得PTH测定值具有可比性（图S3）。对于测定值<5.2 pg/mL和< 1.1 pg/mL（分别为IRA和IEA的检测下限）的样本，PTH浓度分别赋值为2.6 pg/mL和0.55 pg/mL。 21 , 22"
+  },
+  {
+   "section": "METHODS / Statistical analyses",
+   "section_zh": "方法 / 统计分析",
+   "en": "Statistical analyses were performed using R software (R 4.1.1 GUI 1.77 High Sierra build, R Foundation for Statistical Computing, Vienna, Austria). Type I error rate was set at 0.05. The normality of continuous variables was assessed by visual inspection of Q‐Q plots and using the Shapiro‐Wilk test. Levene's test was used to determine if the groups had equal variances. Most data were not normally distributed and therefore numerical data are presented as median (25th, 75th percentile) for consistency. Categorical data are presented as percentages.",
+   "zh": "统计分析使用R软件（R 4.1.1 GUI 1.77 High Sierra build, R Foundation for Statistical Computing, Vienna, Austria）进行。I类错误率设为0.05。通过目视检查Q‐Q图和Shapiro‐Wilk检验评估连续变量的正态性。采用Levene检验判断各组方差是否相等。多数数据不服从正态分布，因此为保持一致，数值型数据均以中位数（第25, 第75百分位数）表示。分类数据以百分比表示。"
+  },
+  {
+   "section": "METHODS / Statistical analyses",
+   "section_zh": "方法 / 统计分析",
+   "en": "Plasma FGF23 and PTH were log‐transformed (natural logarithm [ln]) for normalization. Independent samples t‐test or Mann‐Whitney U test was used to compare baseline continuous variables between the diet groups. Comparison of the proportions of categorical outcomes was made using Chi‐squared or Fisher's exact test.",
+   "zh": "血浆FGF23和PTH经对数转换（自然对数[ln]）以实现正态化。采用独立样本t检验或Mann‐Whitney U检验比较各饮食组之间的基线连续变量。分类结局比例的比较采用卡方检验或Fisher精确检验。"
+  },
+  {
+   "section": "METHODS / Statistical analyses",
+   "section_zh": "方法 / 统计分析",
+   "en": "Pearson's or Spearman's correlation was used to evaluate the relationships between baseline tMg and other CKD‐MBD variables, namely tCa, iCa, creatinine, symmetric dimethylarginine (SDMA), urea, phosphate, FGF23, and PTH.",
+   "zh": "采用Pearson或Spearman相关分析评价基线tMg与其他CKD‐MBD指标之间的关系，这些指标包括tCa、iCa、肌酐、对称性二甲基精氨酸（SDMA）、尿素、磷、FGF23和PTH。"
+  },
+  {
+   "section": "METHODS / Statistical analyses",
+   "section_zh": "方法 / 统计分析",
+   "en": "Data were analyzed using both intention‐to‐treat (all cats that were enrolled and randomized into this trial with at least 1 follow‐up visit available) and per‐protocol (only cats eating ≥50% of study diet at revisits were included). The proportion of cats with “uptrend” total and ionized calcium concentrations (defined as tCa and iCa regression gradient >0 by linear regression) between the diet groups was compared using Chi‐squared or Fisher's exact test.",
+   "zh": "数据同时进行意向性治疗分析（所有入组并随机分配、且至少有1次随访的猫）和符合方案分析（仅纳入复诊时摄入≥50%试验饮食的猫）。采用卡方检验或Fisher精确检验比较各饮食组中总钙和离子钙浓度呈“上升趋势”（定义为线性回归所得tCa和iCa回归斜率>0）的猫所占比例。"
+  },
+  {
+   "section": "METHODS / Statistical analyses",
+   "section_zh": "方法 / 统计分析",
+   "en": "The effects of the study diets on longitudinal biochemical data and SBP measurements from baseline and all follow‐up visits (approximately 4 months) were assessed using linear mixed effects models (R packages <lme4> and < ImerTest>); generalized estimating equations with binomial logistic link function and exchangeable correlation structure (R package <geepack>) and generalized linear mixed model with cumulative logistic link function (R package <ordinal>) were used to assess the change in binary and ordinal variables (ie, BCS and MCS) over time. Body condition score was categorized into 2 levels (“1‐3”, “4‐9”) before analysis because most measurements (96%) were below 6. Group (“magnesium‐enriched PRD” vs “control PRD”), time (in months [30.4 days]) and the interaction between group and time were treated as fixed effects; cat identification and time nested within individual cats were included as 2 uncorrelated random effects. Residuals were assumed to be independent in the model, and normality of the residuals from linear mixed effects models was evaluated by visual inspection of histograms. For BCS, MCS, log‐transformed parathyroid hormone (ln[PTH]), alanine aminotransferase activity (ALT) and venous HCO3 − in intention‐to‐treat analysis and BCS, MCS, body weight, plasma sodium concentration, ALT and venous pH in per‐protocol analysis, only the case number of each individual cat was included as random effect because of a model convergence issue. Imputation of missing data was not attempted. Results are reported as rate of change coefficient (β) ± SE.",
+   "zh": "采用线性混合效应模型（R程序包<lme4>和< ImerTest>）评估试验饮食对基线及所有随访（约4个月）的纵向生化数据和SBP测量值的影响；采用具有二项logistic连接函数和可交换相关结构的广义估计方程（R程序包<geepack>）以及具有累积logistic连接函数的广义线性混合模型（R程序包<ordinal>）评估二分类和有序变量（即BCS和MCS）随时间的变化。由于大多数测量值（96%）低于6，分析前将体况评分分为2个等级（“1‐3”、“4‐9”）。组别（“富镁PRD” vs “对照PRD”）、时间（以月计[30.4天]）以及组别与时间的交互作用作为固定效应；猫的个体编号和嵌套于个体内的时间作为2个互不相关的随机效应。模型中假定残差相互独立，并通过目视检查直方图评估线性混合效应模型残差的正态性。在意向性治疗分析中的BCS、MCS、对数转换甲状旁腺激素（ln[PTH]）、丙氨酸氨基转移酶活性（ALT）和静脉HCO3 −，以及符合方案分析中的BCS、MCS、体重、血浆钠浓度、ALT和静脉pH，由于模型收敛问题，仅将每只猫的病例编号作为随机效应。未对缺失数据进行插补。结果以变化速率系数（β）± SE报告。"
+  },
+  {
+   "section": "RESULTS",
+   "section_zh": "结果",
+   "en": "A Consolidated Standards of Reporting Trials (CONSORT) flow diagram illustrating progress through different phases of the randomized controlled clinical trial MAGMA is presented in Figure 1. Between November 2017 and May 2019, 88 cats with CKD were screened for study eligibility. Eight (9.1%) and 57 (64.8%) cats were hypermagnesemic and normomagnesemic at screening, respectively, and therefore were not eligible for enrollment at that time. Between June 2019 and December 2022, 115 cats with CKD underwent eligibility screening, including 25 cats that previously had been screened. Twelve cats (10.4%) were hypermagnesemic at screening and therefore not eligible for the trial. Therefore, an additional 57 cats were enrolled, with 29 and 28 cats allocated to a magnesium‐enriched PRD and control PRD, respectively. Details of cats that were excluded from the trial are presented in Figure 1.",
+   "zh": "图1为MAGMA随机对照临床试验各阶段进展的试验报告统一标准（CONSORT）流程图。2017年11月至2019年5月，共筛选88只CKD猫是否符合研究条件。分别有8只（9.1%）和57只（64.8%）猫在筛选时为高镁血症和血镁正常，因此当时不符合入组条件。2019年6月至2022年12月，115只CKD猫接受了入组资格筛选，其中包括25只此前已筛选过的猫。12只猫（10.4%）在筛选时为高镁血症，因此不符合试验条件。由此另有57只猫入组，其中29只和28只分别被分配至富镁PRD和对照PRD。被排除出试验的猫的详情见图1。"
+  },
+  {
+   "section": "RESULTS",
+   "section_zh": "结果",
+   "en": "Overall, 68 cats, with 34 in each diet group, were recruited into the trial. However, 4 cats (all allocated randomly to the magnesium group with 3 from the same household) recruited in March 2020 had no follow‐up visits because of the COVID‐19 pandemic; another 4 cats were inappropriately enrolled, of which 3 were hypercalcemic at enrollment (Data S1), and 1 cat that normally consumed a diet of exclusively wet food was recruited in December 2017, at a time when only dry formulation of the trial diet was available.",
+   "zh": "总体而言，共招募68只猫进入试验，每个饮食组34只。然而，2020年3月招募的4只猫（均被随机分配至补镁组，其中3只来自同一家庭）因COVID‐19疫情未能进行任何随访；另有4只猫属于不当入组，其中3只入组时已有高钙血症（数据S1），1只平时只吃湿粮的猫于2017年12月被招募，而当时试验饮食只有干粮剂型。"
+  },
+  {
+   "section": "RESULTS",
+   "section_zh": "结果",
+   "en": "Subsequently, 60 CKD cats met the inclusion and exclusion criteria for the trial, with 27 cats allocated to a magnesium‐enriched PRD (“AYC”) and 33 allocated to a control PRD (“XBZ”). At enrollment, 2 had IRIS stage 1, 46 had IRIS stage 2, 11 had IRIS Stage 3, and 1 had IRIS stage 4 CKD. Domestic shorthair was the most common breed (n = 43), followed by domestic longhair (n = 9) and 1 of each of the following breeds: Bengal, Birman, Burmese, Devon Rex, Norwegian Forest, Siamese, Tiffany, and Tonkinese. Of the 60 cats enrolled, 20 (33.3%) cats were hypomagnesemic (tMg <1.94 mg/dL) at baseline, with 11 and 9 cats allocated to a magnesium‐enriched PRD and control PRD, respectively (P = .27).",
+   "zh": "最终，60只CKD猫符合试验的纳入和排除标准，其中27只被分配至富镁PRD（“AYC”），33只被分配至对照PRD（“XBZ”）。入组时，2只为IRIS 1期，46只为IRIS 2期，11只为IRIS 3期，1只为IRIS 4期CKD。最常见的品种为家养短毛猫（n = 43），其次为家养长毛猫（n = 9），以下品种各1只：孟加拉猫、伯曼猫、缅甸猫、德文卷毛猫、挪威森林猫、暹罗猫、蒂芙尼猫和东奇尼猫。在入组的60只猫中，20只（33.3%）基线时为低镁血症（tMg <1.94 mg/dL），其中11只和9只分别被分配至富镁PRD和对照PRD（P = .27）。"
+  },
+  {
+   "section": "RESULTS / Comparison of baseline variables between cats in different treatment arms",
+   "section_zh": "结果 / 不同治疗组猫基线指标的比较",
+   "en": "As shown in Table 2, baseline demographic and clinicopathological characteristics were similar between the 2 study groups, except for plasma ALT activity which was higher in the control group (P = .02). However, the proportion of cats with increased ALT activity (defined as >60 U/L) did not differ between the 2 groups (P = .16). Thirteen cats were receiving amlodipine besylate to control systemic hypertension at baseline, with no difference in proportion between groups (P = .93). No cats received phosphate binders during the trial. For the per‐protocol analysis, 16 cats (26.7%) did not consume a minimum of 50% study diet and therefore were excluded; 44 cats remained for analysis, with 21 and 23 cats allocated to a magnesium‐enriched PRD and a control PRD, respectively, and no difference in any baseline clinicopathological variables between the 2 diet groups was found (Table 3).",
+   "zh": "如表2所示，2个研究组的基线人口学和临床病理特征相似，唯血浆ALT活性在对照组较高（P = .02）。然而，ALT活性升高（定义为>60 U/L）的猫所占比例在2组间无差异（P = .16）。基线时有13只猫使用苯磺酸氨氯地平控制全身性高血压，两组比例无差异（P = .93）。试验期间没有猫使用磷结合剂。在符合方案分析中，16只猫（26.7%）未摄入至少50%的试验饮食而被排除；剩余44只猫纳入分析，其中21只和23只分别被分配至富镁PRD和对照PRD，2个饮食组之间任何基线临床病理指标均无差异（表3）。"
+  },
+  {
+   "section": "RESULTS / Comparison of baseline variables between cats in different treatment arms",
+   "section_zh": "结果 / 不同治疗组猫基线指标的比较",
+   "en": "All enrolled cats had been eating ≥50% of a standardized PRD before recruitment, for a median of 101 (42, 355) days at enrollment. No difference was found in the period of dietary phosphate restriction between the magnesium and control groups, with a median of 62 (44, 343) days and 112 (42, 371) days, respectively (P = .73).",
+   "zh": "所有入组猫在招募前均已摄入≥50%的标准化PRD，至入组时中位时间为101（42, 355）天。补镁组与对照组的饮食限磷时长无差异，中位数分别为62（44, 343）天和112（42, 371）天（P = .73）。"
+  },
+  {
+   "section": "RESULTS / Correlations between baseline total magnesium and CKD‐MBD variables",
+   "section_zh": "结果 / 基线总镁与CKD‐MBD指标的相关性",
+   "en": "Correlation analysis showed that baseline plasma tMg correlated negatively with FGF23 (r = −0.29; P = .03) and positively with plasma creatinine concentration (r s = 0.34; P = .01). Plasma creatinine concentration correlated positively with FGF23 (r s = 0.32; P = .02). No significant correlations were found between tMg and tCa, iCa, SDMA, urea, phosphate, or PTH (Table 4).",
+   "zh": "相关分析显示，基线血浆tMg与FGF23呈负相关（r = −0.29；P = .03），与血浆肌酐浓度呈正相关（r s = 0.34；P = .01）。血浆肌酐浓度与FGF23呈正相关（r s = 0.32；P = .02）。tMg与tCa、iCa、SDMA、尿素、磷或PTH之间均未发现显著相关性（表4）。"
+  },
+  {
+   "section": "RESULTS / Changes in clinical variables over time in relation to dietary magnesium supplementation / Intention‐to‐treat analysis",
+   "section_zh": "结果 / 与饮食镁补充相关的临床指标随时间的变化 / 意向性治疗分析",
+   "en": "A summary of the results from intention‐to‐treat (n = 60) are presented in Table 5 and Table S4. Rate of change in plasma tMg differed significantly between groups (P = .02; Figure 2A); only cats fed a magnesium‐enriched PRD had significantly increased plasma tMg over time (β, 0.17 ± .05 mg/dL/month; P < .001) with no change for those fed control PRD. Six cats (5 eating the magnesium‐enriched PRD and 1 eating control PRD) reached trial termination because of the development of moderate hypermagnesemia, with a median plasma tMg of 3.74 (range, 3.28‐4.37) mg/dL, at a median of 49 (range, 49‐105) days after starting the trial (Figure 3). One cat from each group had severe azotemia with plasma creatinine concentration of 5.74 and 6.69 mg/dL, respectively, at the time of hypermagnesemia. All 6 cats were reported to have eaten the trial diets exclusively since enrollment.",
+   "zh": "意向性治疗分析（n = 60）的结果汇总见表5和表S4。两组血浆tMg的变化速率差异显著（P = .02；图2A）；只有饲喂富镁PRD的猫血浆tMg随时间显著升高（β，0.17 ± .05 mg/dL/月；P < .001），饲喂对照PRD的猫无变化。6只猫（5只食用富镁PRD，1只食用对照PRD）因出现中度高镁血症而终止试验，其血浆tMg中位数为3.74（范围3.28‐4.37）mg/dL，发生于开始试验后中位49（范围49‐105）天（图3）。两组各有1只猫在出现高镁血症时伴有严重氮质血症，血浆肌酐浓度分别为5.74和6.69 mg/dL。据报告，这6只猫自入组以来均只吃试验饮食。"
+  },
+  {
+   "section": "RESULTS / Changes in clinical variables over time in relation to dietary magnesium supplementation / Intention‐to‐treat analysis",
+   "section_zh": "结果 / 与饮食镁补充相关的临床指标随时间的变化 / 意向性治疗分析",
+   "en": "Although no difference was found in the rate of change in plasma phosphate concentration (P = .71) and ln[FGF23] (P = .17) between groups, cats fed a control PRD had a significant increase in ln[FGF23] (β, 0.12 ± .04 pg/mL/month; P = .003), but ln[FGF23] remained stable over time in the magnesium group (Figure 2B). Rate of change in blood iCa differed, albeit not significantly (P = .05), between groups, with decreasing and increasing iCa observed in cats fed a magnesium‐enriched and control PRD, respectively (Figure 2D). A significantly lower proportion of magnesium supplemented CKD cats had “uptrend” iCa during the trial than those in the control group (9.1% vs 40%; P = .02). At the end of the trial, blood iCa was lower in cats fed a magnesium‐enriched PRD than in those fed a control PRD (5.2 [4.96, 5.4] vs 5.4 [5.24, 5.56] mg/dL; P = .01). Body weight decreased by 0.7% to 1.1% per month in both groups with no difference in rate of change identified between groups (P = .62), but the decrease was only significant in the magnesium group (β, 0.046 ± .015 kg/month; P = .01; Figure 2E).",
+   "zh": "尽管两组之间血浆磷浓度（P = .71）和ln[FGF23]（P = .17）的变化速率无差异，但饲喂对照PRD的猫ln[FGF23]显著升高（β，0.12 ± .04 pg/mL/月；P = .003），而补镁组的ln[FGF23]随时间保持稳定（图2B）。两组血液iCa的变化速率存在差异，但未达显著（P = .05），饲喂富镁PRD和对照PRD的猫分别观察到iCa下降和上升（图2D）。试验期间，补镁CKD猫中iCa呈“上升趋势”的比例显著低于对照组（9.1% vs 40%；P = .02）。试验结束时，饲喂富镁PRD的猫血液iCa低于饲喂对照PRD的猫（5.2 [4.96, 5.4] vs 5.4 [5.24, 5.56] mg/dL；P = .01）。两组体重每月均下降0.7%至1.1%，两组间变化速率无差异（P = .62），但仅在补镁组下降显著（β，0.046 ± .015 kg/月；P = .01；图2E）。"
+  },
+  {
+   "section": "RESULTS / Changes in clinical variables over time in relation to dietary magnesium supplementation / Per‐protocol analysis",
+   "section_zh": "结果 / 与饮食镁补充相关的临床指标随时间的变化 / 符合方案分析",
+   "en": "A summary of the results from per‐protocol analysis (n = 44) is presented in Table 6 and Table S5. The results confirmed a significant increase in plasma tMg by an average of 1.2% per month, in magnesium supplemented cats (β, 0.25 ± .07 mg/dL/month; P < .001), but no change in the controls (Figure 4A). Plasma ln[FGF23] increased significantly in the control group, by an average of 2.3% per month (β, 0.14 ± .05 pg/mL/month; P = .01), but remained stable in the magnesium group (β, 0.05 ± .06 pg/mL/month; P = .37; Figure 4B). Rate of change in blood iCa differed significantly between groups (P = .01), with decreasing and increasing iCa observed in cats fed a magnesium‐enriched PRD and a control PRD, respectively (Figure 4D). Similar to the intention‐to‐treat analysis, a lower proportion of magnesium supplemented cats had “uptrend” iCa compared to those eating a control PRD (11.8% vs 52.9%; P = .03). At the end of the trial, both iCa and tCa were significantly lower in cats fed a magnesium‐enriched PRD than in those fed a control PRD (iCa, 5.12 [4.92, 5.24] vs 5.48 [5.24, 5.68] mg/dL); P < .001; tCa, 9.8 (9.48, 10.44) vs 10.36 (10.04, 11.04) mg/dL; P = .01. Venous HCO3 − concentration also increased significantly, by an average of 2.4% per month, in cats eating a magnesium‐enriched PRD (β, 0.51 ± .16 mEq/L/month; P = .004), but no change was observed in cats eating a control PRD (Figure 4E). Body weight decreased significantly in both groups, with an average decrease of 1.1% and 0.8% per month in the magnesium group (β, −0.04 ± .02 kg per month; P = .01) and control group (β, −0.03 ± .02 kg per month; P = .05), respectively (Figure 4F); no difference in the rate of change was found between groups (P = .62).",
+   "zh": "符合方案分析（n = 44）的结果汇总见表6和表S5。结果证实，补镁猫的血浆tMg显著升高，平均每月升高1.2%（β，0.25 ± .07 mg/dL/月；P < .001），而对照组无变化（图4A）。对照组血浆ln[FGF23]显著升高，平均每月升高2.3%（β，0.14 ± .05 pg/mL/月；P = .01），而补镁组保持稳定（β，0.05 ± .06 pg/mL/月；P = .37；图4B）。两组血液iCa的变化速率差异显著（P = .01），饲喂富镁PRD和对照PRD的猫分别观察到iCa下降和上升（图4D）。与意向性治疗分析类似，补镁猫中iCa呈“上升趋势”的比例低于食用对照PRD的猫（11.8% vs 52.9%；P = .03）。试验结束时，饲喂富镁PRD的猫iCa和tCa均显著低于饲喂对照PRD的猫（iCa，5.12 [4.92, 5.24] vs 5.48 [5.24, 5.68] mg/dL）；P < .001；tCa，9.8（9.48, 10.44）vs 10.36（10.04, 11.04）mg/dL；P = .01。食用富镁PRD的猫静脉HCO3 −浓度也显著升高，平均每月升高2.4%（β，0.51 ± .16 mEq/L/月；P = .004），而食用对照PRD的猫未见变化（图4E）。两组体重均显著下降，补镁组（β，−0.04 ± .02 kg/月；P = .01）和对照组（β，−0.03 ± .02 kg/月；P = .05）平均每月分别下降1.1%和0.8%（图4F）；两组间变化速率无差异（P = .62）。"
+  },
+  {
+   "section": "RESULTS / Changes in clinical variables over time in relation to dietary magnesium supplementation / Clinical events",
+   "section_zh": "结果 / 与饮食镁补充相关的临床指标随时间的变化 / 临床事件",
+   "en": "Clinical events that occurred during the trial are summarized in Table 7. Both trial diets were well tolerated without substantive adverse effects. Overall, 3 cats (all in the control group) were euthanized because of renal disease (n = 2) or liver disease (n = 1). Two control group cats developed diabetes mellitus and 1 cat from the magnesium group had a suspected intestinal mass palpated at its 1st follow‐up revisit. During the trial period, 6 cats developed hypermagnesemia, 5 of which were magnesium supplemented (Figure 3). None of the cats that developed hypermagnesemia had adverse effects observed, with no evidence of either diarrhea or crystalluria. However, in all cases, the trial diet was discontinued and cats were transitioned back onto their original commercial PRD. Four of the 6 cats developed hypermagnesemia after 49 days at their 1st follow‐up visit (all in the magnesium group); plasma tMg in these cats increased by an average of 73% (range, 58%‐98%), whereas iCa decreased by an average of 13% (range, 9%‐17%). Their iCa increased by an average of 12.5% (range, 4%‐18%) after being transferred back to their original commercial PRD (Figure 3).",
+   "zh": "试验期间发生的临床事件汇总于表7。两种试验饮食的耐受性均良好，无实质性不良反应。总体而言，3只猫（均在对照组）因肾脏疾病（n = 2）或肝脏疾病（n = 1）被安乐死。2只对照组猫发生糖尿病，补镁组有1只猫在第1次随访复诊时触诊到疑似肠道肿物。试验期间，6只猫出现高镁血症，其中5只为补镁猫（图3）。出现高镁血症的猫均未观察到不良反应，没有腹泻或结晶尿的证据。但在所有病例中均停用试验饮食，并将猫换回其原有的商品化PRD。6只猫中有4只在49天后的第1次随访时出现高镁血症（均在补镁组）；这些猫的血浆tMg平均升高73%（范围58%‐98%），而iCa平均下降13%（范围9%‐17%）。换回原有商品化PRD后，它们的iCa平均升高12.5%（范围4%‐18%）（图3）。"
+  },
+  {
+   "section": "RESULTS / Changes in clinical variables over time in relation to dietary magnesium supplementation / Clinical events",
+   "section_zh": "结果 / 与饮食镁补充相关的临床指标随时间的变化 / 临床事件",
+   "en": "Seven cats developed intermittent diarrhea (2 in the magnesium group, 5 in the control group). Four cats from the control group developed ionized hypercalcemia during the trial and were transitioned onto a moderately PRD (Feline Veterinary Early Renal [dry and wet], Royal Canin SAS, Aimargues, France) with a phosphorus content of 1.5 g/Mcal and Ca : P of 1.3.",
+   "zh": "7只猫出现间歇性腹泻（补镁组2只，对照组5只）。对照组有4只猫在试验期间出现离子性高钙血症，被换用磷含量为1.5 g/Mcal、Ca : P为1.3的中度限磷PRD（Feline Veterinary Early Renal [干粮和湿粮]，Royal Canin SAS, Aimargues, France）。"
+  },
+  {
+   "section": "DISCUSSION",
+   "section_zh": "讨论",
+   "en": "Our study is the 1st randomized controlled clinical trial to evaluate the effect of short‐term dietary magnesium supplementation on CKD‐MBD in cats. Feeding a magnesium supplemented PRD for 4 months substantially increased plasma tMg (without hypermagnesemia in most cases) and venous HCO3 − concentration. Cats with CKD eating a magnesium‐enriched PRD also exhibited greater stability in plasma FGF23 and iCa over time compared with the CKD cats fed a control PRD, indicating a potential benefit of dietary magnesium supplementation on the control of CKD‐MBD in cats with low or normal tMg. These beneficial effects of dietary magnesium supplementation were of a clinically relevant magnitude.",
+   "zh": "本研究是首个（1st）评价短期饮食镁补充对猫CKD‐MBD影响的随机对照临床试验。饲喂补镁PRD 4个月可显著升高血浆tMg（多数情况下未出现高镁血症）和静脉HCO3 −浓度。与饲喂对照PRD的CKD猫相比，食用富镁PRD的CKD猫血浆FGF23和iCa随时间也更稳定，提示饮食镁补充可能有助于控制tMg偏低或正常的猫的CKD‐MBD。饮食镁补充的这些有益作用达到了具有临床意义的幅度。"
+  },
+  {
+   "section": "DISCUSSION",
+   "section_zh": "讨论",
+   "en": "In cats with CKD eating ≥50% of a magnesium‐enriched PRD, dietary supplementation of MgO significantly increased plasma tMg over time, with an average increment of 12% per month. This finding is in agreement with numerous studies showing an increase in serum magnesium concentration after PO magnesium supplementation in rodent models 23 , 24 and human CKD patients. 25 , 26 , 27 , 28 Intestinal magnesium absorption correlates positively with dietary magnesium intake. 29 , 30 In our study, 5 cats (23.8%) in the magnesium group developed moderate hypermagnesemia and were removed from the trial, compared with only 1 cat (4.3%) in the control group (Figure 3). The control cat that developed moderate hypermagnesemia had progressive azotemia and was euthanized 3 days after the end of the trial; plasma tMg and plasma creatinine concentration were increased by 79.3% and 54.3% within 15 weeks, respectively. This finding suggested that, unlike the cats fed a magnesium‐enriched PRD, accumulation of magnesium in this cat likely was caused by decreased urinary clearance of magnesium. A recent retrospective study found that most IRIS stage 4 CKD cats were hypermagnesemic. 5",
+   "zh": "在摄入≥50%富镁PRD的CKD猫中，饮食补充MgO可使血浆tMg随时间显著升高，平均每月增加12%。这一发现与大量研究一致，这些研究显示啮齿类模型 23 , 24 和人类CKD患者 25 , 26 , 27 , 28 口服补镁后血清镁浓度升高。肠道镁吸收与饮食镁摄入量呈正相关。 29 , 30 在本研究中，补镁组有5只猫（23.8%）出现中度高镁血症并退出试验，而对照组只有1只（4.3%）（图3）。对照组中出现中度高镁血症的那只猫氮质血症呈进行性加重，在试验结束3天后被安乐死；其血浆tMg和血浆肌酐浓度在15周内分别升高79.3%和54.3%。这一发现提示，与饲喂富镁PRD的猫不同，这只猫体内镁的蓄积可能是由于尿镁清除减少所致。最近一项回顾性研究发现，大多数IRIS 4期CKD猫存在高镁血症。 5"
+  },
+  {
+   "section": "DISCUSSION",
+   "section_zh": "讨论",
+   "en": "The rate of change in iCa differed significantly between the 2 study groups in per‐protocol analysis, with decreasing and increasing trends observed in cats fed a magnesium‐enriched PRD and control PRD, respectively. Magnesium supplemented cats were less likely to develop an increasing trend in iCa compared to those fed a control PRD; 4 cats from the control group developed ionized hypercalcemia (iCa >6 mg/dL), whereas none in the magnesium group did. Four cats in the magnesium group developed moderate hypermagnesemia at their 1st follow‐up visits after eating exclusively a magnesium‐enriched PRD for 7 weeks. A concomitant decrease in tMg and increase in iCa were observed after transferring them onto the original standardized PRD (Figure 3), reinforcing the calcium‐lowering effect of magnesium. In parallel, a meta‐analysis of 3 randomized controlled trials 26 , 27 , 31 recently has shown that dietary magnesium supplementation significantly decreased serum calcium concentration in human hemodialysis patients, 14 supporting our results and the comparable effect of dietary magnesium on calcium control between human patients and cats with CKD. The calcium‐lowering effect associated with the additional MgO in the magnesium‐enriched PRD remains to be determined. It could be explained by a decrease in intestinal absorption of calcium. 32 , 33 , 34 However, conflicting data exist on the relationship between magnesium intake and calcium balance. Some studies showed that dietary magnesium supplementation increased intestinal calcium absorption, 35 , 36 , 37 whereas others found no effect. 38 Another explanation could be attributed to enhanced urinary excretion of calcium induced by magnesium, possibly caused by the antagonism of magnesium ions as they compete for the same paracellular route for renal reabsorption, 39 and inhibition of calcium uptake via transient receptor potential vanilloid‐5 in distal convoluted tubules by magnesium. 40 The exact mechanisms underlying the effect of magnesium on calcium in cats with CKD remain to be determined.",
+   "zh": "在符合方案分析中，2个研究组iCa的变化速率差异显著，饲喂富镁PRD和对照PRD的猫分别呈下降和上升趋势。与饲喂对照PRD的猫相比，补镁猫较少出现iCa上升趋势；对照组有4只猫出现离子性高钙血症（iCa >6 mg/dL），而补镁组无一例。补镁组有4只猫在只吃富镁PRD 7周后，于第1次随访时出现中度高镁血症。将它们换回原有的标准化PRD后，观察到tMg下降同时iCa上升（图3），进一步印证了镁的降钙作用。与此同时，最近一项纳入3项随机对照试验 26 , 27 , 31 的荟萃分析显示，饮食镁补充可显著降低人类血液透析患者的血清钙浓度， 14 这支持了我们的结果，也说明饮食镁对钙控制的作用在人类患者与CKD猫之间具有可比性。富镁PRD中额外添加的MgO所带来的降钙作用机制尚待确定。其可能的解释是肠道钙吸收减少。 32 , 33 , 34 然而，关于镁摄入与钙平衡之间的关系，现有数据存在矛盾。一些研究显示饮食镁补充可增加肠道钙吸收， 35 , 36 , 37 而另一些研究则未发现影响。 38 另一种解释可能是镁诱导的尿钙排泄增加，其原因可能是镁离子与钙竞争肾脏重吸收的同一细胞旁途径而产生拮抗作用， 39 以及镁抑制远曲小管中经瞬时受体电位香草酸亚型5（transient receptor potential vanilloid‐5）的钙摄取。 40 镁影响CKD猫钙代谢的确切机制仍有待确定。"
+  },
+  {
+   "section": "DISCUSSION",
+   "section_zh": "讨论",
+   "en": "Dietary phosphate restriction is the mainstay of CKD management in cats, but feeding a PRD may be associated with development of hypercalcemia in some cats. 41 , 42 , 43 , 44 Moderate dietary phosphorus attenuation normalized calcium status in these cats, which is likely, at least in part, attributed to the decrease in dietary Ca : P, and no apparent changes in kidney function were observed in the study. 42 This hypothesis is further supported by a recent case series that reported the calcium‐lowering effect of diets with a calcium content of <2 g/Mcal and Ca : P of <1.4 in successfully managing idiopathic or CKD‐associated hypercalcemia in cats. 45 However, 41 long‐term implications on renal health and mortality associated with the consumption of a less PRD in azotemic CKD cats have not been investigated. Increasing plasma calcium concentration in cats with CKD was independently associated with nephrocalcinosis and progression of azotemia. 46 , 47 Therefore, the calcium‐stabilizing effect of a magnesium‐enriched PRD may assist in countering the hypercalcemic effect of PRDs, without compromising the degree of dietary phosphate restriction, in certain cats with CKD. Future prospective randomized clinical trials comparing long‐term implications of a moderately phosphate‐restricted diet with magnesium‐enriched PRD in azotemic CKD cats with hypercalcemia are warranted.",
+   "zh": "饮食限磷是猫CKD管理的基石，但饲喂PRD可能与部分猫出现高钙血症有关。 41 , 42 , 43 , 44 适度放宽饮食磷限制可使这些猫的钙状态恢复正常，这可能至少部分归因于饮食Ca : P的降低，且该研究中未观察到肾功能的明显变化。 42 最近一组病例报告进一步支持了这一假设，该报告显示钙含量<2 g/Mcal、Ca : P <1.4的饮食具有降钙作用，可成功管理猫的特发性或CKD相关高钙血症。 45 然而， 41 氮质血症性CKD猫食用限磷程度较低的饮食对肾脏健康和死亡率的长期影响尚未得到研究。CKD猫血浆钙浓度升高与肾钙质沉着症和氮质血症进展独立相关。 46 , 47 因此，对于某些CKD猫，富镁PRD的稳钙作用可能有助于抵消PRD的升钙效应，而又不降低饮食限磷的程度。今后有必要开展前瞻性随机临床试验，在伴高钙血症的氮质血症性CKD猫中比较中度限磷饮食与富镁PRD的长期影响。"
+  },
+  {
+   "section": "DISCUSSION",
+   "section_zh": "讨论",
+   "en": "Significant reductions in plasma FGF23, plasma phosphate concentration and plasma PTH concentration were observed in CKD cats fed a commercially available PRD for 4 to 8 weeks. 48 All cats in our study were fed a standardized PRD for a median of 14 weeks before commencement of the randomized diet trial, which ensured that the CKD‐MBD variables from all enrolled cats were stabilized and therefore any clinicopathological changes identified during the trial were primarily attributed to the alteration made in the treatment (ie, dietary magnesium content).",
+   "zh": "在饲喂市售PRD 4至8周的CKD猫中，观察到血浆FGF23、血浆磷浓度和血浆PTH浓度显著下降。 48 本研究中所有猫在随机饮食试验开始前均已饲喂标准化PRD中位14周，从而确保所有入组猫的CKD‐MBD指标已趋于稳定，因此试验期间发现的任何临床病理变化主要可归因于治疗上所做的改变（即饮食镁含量）。"
+  },
+  {
+   "section": "DISCUSSION",
+   "section_zh": "讨论",
+   "en": "Plasma FGF23 concentration was found to significantly increase in cats fed a control PRD, whereas it did not change in those fed a magnesium‐enriched PRD. Our finding suggests that dietary magnesium supplementation could further stabilize FGF23 in cats with azotemic CKD that have already been transitioned to a PRD. Because excess FGF23 concentration is known to be associated with phosphate disturbance and progression of CKD in cats, 15 , 20 a magnesium‐enriched PRD may provide additional benefit in phosphate homeostasis. This hypothesis is supported by the phosphate‐binding ability of magnesium. 26 Consistent results regarding FGF23 suppression by MgO have been reported in human patients undergoing hemodialysis. 13 Dietary loading of magnesium also has been shown to decrease serum FGF23 concentration in rodent models with normal kidney function. 12 Although a decrease in plasma FGF23 concentration was not observed in the cats fed a magnesium‐enriched PRD, it did increase significantly in those maintained on a control PRD. A negative correlation also was found between baseline plasma tMg and FGF23 concentration in all randomized cats in our study (Table 4), emphasizing the potential involvement of magnesium in FGF23 regulation.",
+   "zh": "饲喂对照PRD的猫血浆FGF23浓度显著升高，而饲喂富镁PRD的猫则无变化。我们的发现提示，对于已换用PRD的氮质血症性CKD猫，饮食镁补充可以进一步稳定FGF23。由于已知FGF23浓度过高与猫的磷紊乱和CKD进展相关， 15 , 20 富镁PRD可能在磷稳态方面带来额外获益。镁的磷结合能力支持这一假设。 26 在接受血液透析的人类患者中，也报告了MgO抑制FGF23的一致结果。 13 在肾功能正常的啮齿类模型中，饮食镁负荷也被证明可降低血清FGF23浓度。 12 虽然在饲喂富镁PRD的猫中未观察到血浆FGF23浓度下降，但在继续饲喂对照PRD的猫中其显著升高。本研究还在所有随机分组的猫中发现基线血浆tMg与FGF23浓度呈负相关（表4），强调了镁可能参与FGF23的调节。"
+  },
+  {
+   "section": "DISCUSSION",
+   "section_zh": "讨论",
+   "en": "Bicarbonate is a base buffer that helps to prevent metabolic acidosis, a common complication associated with CKD, which contributes to disease progression. 49 Our results showed that CKD cats fed a magnesium‐enriched PRD had increased venous HCO3 − concentration over time, suggesting that dietary magnesium supplementation with MgO may prevent development of metabolic acidosis and further stabilize CKD in cats. Increased serum HCO3 − concentration is associated with decreased risk of CKD progression and all‐cause mortality in human patients with CKD. 50 Meta‐analysis also demonstrated the effectiveness of PO sodium bicarbonate in increasing serum HCO3 − concentration and delaying CKD progression in human patients. 51 Metabolic acidosis is associated with increased bone resorption and decreased bone formation 52 ; increased venous HCO3 − concentration could be responsible for the decrease in plasma iCa observed in our study caused by a decrease in calcium mobilization from bone. 53 Additional studies are warranted to determine the effects of magnesium supplementation on bone turnover.",
+   "zh": "碳酸氢根是一种碱性缓冲物质，有助于预防代谢性酸中毒；代谢性酸中毒是CKD的常见并发症，会促进疾病进展。 49 我们的结果显示，饲喂富镁PRD的CKD猫静脉HCO3 −浓度随时间升高，提示用MgO进行饮食镁补充可能预防代谢性酸中毒的发生，并进一步稳定猫的CKD。在人类CKD患者中，血清HCO3 −浓度升高与CKD进展风险和全因死亡率降低相关。 50 荟萃分析也证明，口服碳酸氢钠（sodium bicarbonate）可有效提高人类患者的血清HCO3 −浓度并延缓CKD进展。 51 代谢性酸中毒与骨吸收增加和骨形成减少相关 52 ；静脉HCO3 −浓度升高可能通过减少骨钙动员，导致本研究观察到的血浆iCa下降。 53 有必要开展更多研究，以确定镁补充对骨转换的影响。"
+  },
+  {
+   "section": "DISCUSSION",
+   "section_zh": "讨论",
+   "en": "Body weight of enrolled cats decreased over the study period, with no difference in rate of change between the 2 diet groups. These results agree with previous findings from several cohort studies showing a significant decrease in body weight in CKD cats over time. 46 , 47 , 54 Sixteen of 60 (26.7%) cats enrolled in our trial did not have a follow‐up visit with ≥50% of trial diet consumed during the trial. Of the 16 cats that were excluded from the per‐protocol analysis, 6 cats (22.2%) were allocated to the magnesium group whereas 10 cats (30.3%) were allocated to the control group with no difference in dietary adherence observed between groups (P = .48). Overall, no difference in acceptability was found between trial diets. Although 5 magnesium supplemented CKD cats developed hypermagnesemia, none of them had any adverse effects observed throughout the trial.",
+   "zh": "入组猫的体重在研究期间下降，2个饮食组之间的变化速率无差异。这些结果与此前多项队列研究的发现一致，即CKD猫体重随时间显著下降。 46 , 47 , 54 本试验入组的60只猫中有16只（26.7%）在试验期间没有一次随访达到≥50%的试验饮食摄入。在被排除出符合方案分析的16只猫中，6只（22.2%）被分配至补镁组，10只（30.3%）被分配至对照组，两组饮食依从性无差异（P = .48）。总体而言，两种试验饮食的接受度无差异。虽然5只补镁CKD猫出现了高镁血症，但在整个试验期间均未观察到任何不良反应。"
+  },
+  {
+   "section": "DISCUSSION",
+   "section_zh": "讨论",
+   "en": "Our clinical trial had several limitations. Protocol amendment to increase the inclusion limit of plasma tMg was made during the study because of the low prevalence (12%) of CKD cats with hypomagnesemia reported in a cohort study. 5 Subanalyses were performed to compare baseline characteristics between the 2 treatment groups before and after the amendment; results similar to the main findings (Table 2) were obtained, supporting the similarity in cats recruited and therefore pooling of all enrolled cats for analyses was deemed admissible. 55 Sixteen cats (26.7%) were excluded in our per‐protocol analysis because of dietary nonadherence (<50% of trial diet consumed as defined a priori). A similar proportion of cats was excluded from each diet group, suggesting that the palatability of the 2 study diets was comparable, with no food aversion toward the test diet and therefore minimizing the possibility of attrition bias. An adherence of 73% for a dietary interventional trial is considered acceptable. 56",
+   "zh": "本临床试验存在若干局限性。由于一项队列研究报告CKD猫低镁血症的患病率较低（12%）， 5 研究期间修订了方案，提高了血浆tMg的入组上限。我们进行了亚组分析，比较方案修订前后2个治疗组的基线特征，结果与主要发现（表2）相似，支持所招募猫的相似性，因此认为将所有入组猫合并分析是可接受的。 55 符合方案分析中有16只猫（26.7%）因饮食依从性不佳（按预先定义，试验饮食摄入<50%）被排除。各饮食组被排除的猫比例相近，提示2种试验饮食的适口性相当，没有对试验饮食的厌食，从而将失访偏倚的可能性降至最低。饮食干预试验73%的依从率被认为是可以接受的。 56"
+  },
+  {
+   "section": "DISCUSSION",
+   "section_zh": "讨论",
+   "en": "Lack of adequate masking of intervention remains a major challenging issue in randomized dietary clinical trials 57 and was a possibility during our study because 5 cats developed hypermagnesemia in 1 arm of the trial, compared with only 1 cat in the other arm. The impact of this difference was minimized by focusing the study results on measurements of objectively quantifiable variables (eg, FGF23, tCa) that were measured in a blinded fashion.",
+   "zh": "干预措施缺乏充分的盲法仍是随机饮食临床试验面临的一大难题， 57 在本研究中也有可能存在，因为试验的1个组中有5只猫出现高镁血症，而另一组只有1只。通过将研究结果集中于以盲法测定的可客观量化的指标（例如FGF23、tCa），这一差异的影响被降至最低。"
+  },
+  {
+   "section": "DISCUSSION",
+   "section_zh": "讨论",
+   "en": "In conclusion, our results showed that dietary magnesium supplementation was successful in increasing tMg in cats with CKD. Additionally, our study provided clear evidence that a magnesium‐enriched PRD stabilizes plasma calcium and FGF23 concentrations in CKD cats with low or normal plasma tMg, compared with their counterparts eating a standardized PRD. These findings may provide a foundation for future therapeutic strategies in the management of hypercalcemia in cats with CKD, especially for cats that develop hypercalcemia secondary to dietary phosphate restriction. However, before dietary magnesium supplementation can be recommended as part of the armamentarium to better control CKD‐MBD in cats, future studies with a longer follow‐up period will be required to evaluate not only long‐term effects on magnesium status but also effects on the progression of CKD and survival outcome in cats with CKD.",
+   "zh": "总之，我们的结果表明，饮食镁补充成功提高了CKD猫的tMg。此外，我们的研究提供了明确的证据：与食用标准化PRD的猫相比，富镁PRD可稳定血浆tMg偏低或正常的CKD猫的血浆钙和FGF23浓度。这些发现可能为今后管理CKD猫高钙血症的治疗策略奠定基础，尤其是对于继发于饮食限磷而出现高钙血症的猫。然而，在将饮食镁补充推荐为更好控制猫CKD‐MBD的手段之一之前，还需要开展随访期更长的研究，不仅评价其对镁状态的长期影响，还要评价其对CKD进展和CKD猫生存结局的影响。"
+  },
+  {
+   "section": "CONFLICT OF INTEREST DECLARATION",
+   "section_zh": "利益冲突声明",
+   "en": "Pak‐Kan Tang received a PhD studentship funded by Royal Canin SAS. Rebecca Geddes received funding from Petplan, Royal Canin, an RVC Internal Grant, The Academy of Medical Sciences and The Everycat Foundation; has previously had a consultancy agreement with Boehringer Ingelheim; has received speaking honoraria from Boehringer Ingelheim, Idexx and Royal Canin. Rosanne Jepson received funding from PetPlan, Feline Foundation for Renal Research, RVC Internal Grant, PetSavers, and consultancy agreements: Boehringer Ingelheim, Merial, CEVA. Speaking honoraria: Boehringer Ingelheim, Hills Pet Nutrition, CEVA. Jonathan Elliott has Consultancy agreements with: Elanco Ltd, CEVA Animal Health Ltd, Boehringer Ingelheim Ltd, MSD Animal Health Ltd, Orion Incorp, Idexx Ltd, Waltham Petcare Science Institute, Invetx Inc and Zoetis Ltd received grant funding from Elanco Ltd, Waltham Centre for Pet Nutrition, Royal Canin SAS, Idexx Ltd, CEVA Animal Health. He is a member of the International Renal Interest Society which receives sponsorship from Zoetis.",
+   "zh": "Pak‐Kan Tang获得由Royal Canin SAS资助的博士研究生奖学金。Rebecca Geddes获得Petplan、Royal Canin、RVC内部基金、英国医学科学院（The Academy of Medical Sciences）和The Everycat Foundation的资助；曾与Boehringer Ingelheim签订咨询协议；曾获得Boehringer Ingelheim、Idexx和Royal Canin的演讲酬金。Rosanne Jepson获得PetPlan、Feline Foundation for Renal Research、RVC内部基金、PetSavers的资助，并有咨询协议：Boehringer Ingelheim、Merial、CEVA。演讲酬金：Boehringer Ingelheim、Hills Pet Nutrition、CEVA。Jonathan Elliott与以下公司有咨询协议：Elanco Ltd、CEVA Animal Health Ltd、Boehringer Ingelheim Ltd、MSD Animal Health Ltd、Orion Incorp、Idexx Ltd、Waltham Petcare Science Institute、Invetx Inc和Zoetis Ltd；获得Elanco Ltd、Waltham Centre for Pet Nutrition、Royal Canin SAS、Idexx Ltd、CEVA Animal Health的资助。他是国际肾脏病学会（International Renal Interest Society）成员，该学会接受Zoetis的赞助。"
+  },
+  {
+   "section": "OFF‐LABEL ANTIMICROBIAL DECLARATION",
+   "section_zh": "超说明书使用抗菌药物声明",
+   "en": "Authors declare no off‐label use of antimicrobials.",
+   "zh": "作者声明未超说明书使用抗菌药物。"
+  },
+  {
+   "section": "INSTITUTIONAL ANIMAL CARE AND USE COMMITTEE (IACUC) OR OTHER APPROVAL DECLARATION",
+   "section_zh": "动物实验伦理委员会（IACUC）或其他批准声明",
+   "en": "Approved by the Ethics and Welfare Committee of the Royal Veterinary College (URN 2017 1713‐3).",
+   "zh": "经英国皇家兽医学院伦理与福利委员会批准（URN 2017 1713‐3）。"
+  },
+  {
+   "section": "HUMAN ETHICS APPROVAL DECLARATION",
+   "section_zh": "人类伦理审批声明",
+   "en": "Authors declare human ethics approval was not needed for this study.",
+   "zh": "作者声明本研究无需人类伦理审批。"
+  },
+  {
+   "section": "ACKNOWLEDGMENT",
+   "section_zh": "致谢",
+   "en": "Funding provided by a grant from Royal Canin SAS, Aimargues, France.",
+   "zh": "本研究由Royal Canin SAS（Aimargues, France）提供资助。"
+  },
+  {
+   "section": "Table caption",
+   "section_zh": "表题",
+   "en": "TABLE 1 Nutritional composition and ingredients for the diets in this prospective dietary trial (MAGMA).",
+   "zh": "表1 本前瞻性饮食试验（MAGMA）中各饮食的营养成分和原料。"
+  },
+  {
+   "section": "Table footnote",
+   "section_zh": "表注",
+   "en": "Abbreviations: Ca : P, calcium‐to‐phosphorus ratio; PRD, phosphate‐restricted diet.",
+   "zh": "缩写：Ca : P，钙磷比；PRD，限磷饮食。"
+  },
+  {
+   "section": "Table footnote",
+   "section_zh": "表注",
+   "en": "Calculated according to the National Research Council (NRC) 2006 equation using crude fiber.",
+   "zh": "根据美国国家研究委员会（NRC）2006年公式，使用粗纤维计算。"
+  },
+  {
+   "section": "Figure legend",
+   "section_zh": "图注",
+   "en": "FIGURE 1 A Consolidated Standards of Reporting Trials (CONSORT) flow diagram of this prospective dietary trial (MAGMA). UTI, urinary tract infection.",
+   "zh": "图1 本前瞻性饮食试验（MAGMA）的试验报告统一标准（CONSORT）流程图。UTI，尿路感染。"
+  },
+  {
+   "section": "Table caption",
+   "section_zh": "表题",
+   "en": "TABLE 2 Descriptive statistics at enrolment for all randomized cats (n = 60) in this prospective dietary trial (MAGMA), grouped based on the allocated study diet (control PRD vs magnesium‐enriched PRD).",
+   "zh": "表2 本前瞻性饮食试验（MAGMA）中全部随机分组猫（n = 60）入组时的描述性统计，按所分配的试验饮食分组（对照PRD vs 富镁PRD）。"
+  },
+  {
+   "section": "Table footnote",
+   "section_zh": "表注",
+   "en": "Note: Significant difference between groups (P ≤ .05) are highlighted in bold.",
+   "zh": "注：组间差异显著（P ≤ .05）者以粗体标示。"
+  },
+  {
+   "section": "Table footnote",
+   "section_zh": "表注",
+   "en": "Abbreviations: ALP, alkaline phosphatase; ALT, alanine aminotransferase; BCS, body condition score; FGF23, fibroblast growth factor‐23; HCO3 −, bicarbonate; MCS, muscle condition score; n, number of cats; PRD, phosphate‐restricted diet; PTH, parathyroid hormone; SBP, systolic blood pressure; SDMA, symmetric dimethylarginine; USG, urine specific gravity.",
+   "zh": "缩写：ALP，碱性磷酸酶；ALT，丙氨酸氨基转移酶；BCS，体况评分；FGF23，成纤维细胞生长因子‐23；HCO3 −，碳酸氢根；MCS，肌肉状况评分；n，猫的数量；PRD，限磷饮食；PTH，甲状旁腺激素；SBP，收缩压；SDMA，对称性二甲基精氨酸；USG，尿比重。"
+  },
+  {
+   "section": "Table footnote",
+   "section_zh": "表注",
+   "en": "Baseline FGF23 and PTH were log‐transformed for comparison using independent samples t‐test and Mann‐Whitney U test, respectively.",
+   "zh": "基线FGF23和PTH经对数转换后，分别采用独立样本t检验和Mann‐Whitney U检验进行比较。"
+  },
+  {
+   "section": "Table footnote",
+   "section_zh": "表注",
+   "en": "Combined PTH results were obtained from immunoradiometric assay (n = 22) and 2‐site immunoenzymatic assay (n = 20).",
+   "zh": "合并的PTH结果分别来自免疫放射测定法（n = 22）和2位点免疫酶测定法（n = 20）。"
+  },
+  {
+   "section": "Table caption",
+   "section_zh": "表题",
+   "en": "TABLE 3 Descriptive statistics at enrolment for the per‐protocol cats (n = 44) in this prospective dietary trial (MAGMA), grouped based on the allocated study diet (control PRD vs magnesium‐enriched PRD).",
+   "zh": "表3 本前瞻性饮食试验（MAGMA）中符合方案猫（n = 44）入组时的描述性统计，按所分配的试验饮食分组（对照PRD vs 富镁PRD）。"
+  },
+  {
+   "section": "Table footnote",
+   "section_zh": "表注",
+   "en": "Abbreviations: ALP, alkaline phosphatase; ALT, alanine aminotransferase; BCS, body condition score; FGF23, fibroblast growth factor‐23; HCO3 –, bicarbonate; MCS, muscle condition score; n, number of cats; PRD, phosphate‐restricted diet; PTH, parathyroid hormone; SBP, systolic blood pressure; SDMA, symmetric dimethylarginine; USG, urine specific gravity.",
+   "zh": "缩写：ALP，碱性磷酸酶；ALT，丙氨酸氨基转移酶；BCS，体况评分；FGF23，成纤维细胞生长因子‐23；HCO3 –，碳酸氢根；MCS，肌肉状况评分；n，猫的数量；PRD，限磷饮食；PTH，甲状旁腺激素；SBP，收缩压；SDMA，对称性二甲基精氨酸；USG，尿比重。"
+  },
+  {
+   "section": "Table footnote",
+   "section_zh": "表注",
+   "en": "Baseline FGF23 and PTH were log‐transformed for comparison using independent samples t‐test.",
+   "zh": "基线FGF23和PTH经对数转换后，采用独立样本t检验进行比较。"
+  },
+  {
+   "section": "Table footnote",
+   "section_zh": "表注",
+   "en": "Combined PTH results were obtained from immunoradiometric assay (n = 19) and 2‐site immunoenzymatic assay (n = 14).",
+   "zh": "合并的PTH结果分别来自免疫放射测定法（n = 19）和2位点免疫酶测定法（n = 14）。"
+  },
+  {
+   "section": "Table caption",
+   "section_zh": "表题",
+   "en": "TABLE 4 Correlations with total magnesium at enrolment for all randomized cats (n = 60) in this prospective dietary trial (MAGMA).",
+   "zh": "表4 本前瞻性饮食试验（MAGMA）中全部随机分组猫（n = 60）入组时与总镁的相关性。"
+  },
+  {
+   "section": "Table footnote",
+   "section_zh": "表注",
+   "en": "Note: Significant correlations (P ≤ .05) are highlighted in bold.",
+   "zh": "注：显著相关（P ≤ .05）者以粗体标示。"
+  },
+  {
+   "section": "Table footnote",
+   "section_zh": "表注",
+   "en": "Abbreviations: FGF23, fibroblast growth factor‐23; PTH, parathyroid hormone; r, correlation; SDMA, symmetric dimethylarginine.",
+   "zh": "缩写：FGF23，成纤维细胞生长因子‐23；PTH，甲状旁腺激素；r，相关系数；SDMA，对称性二甲基精氨酸。"
+  },
+  {
+   "section": "Table footnote",
+   "section_zh": "表注",
+   "en": "Combined PTH results were obtained from immunoradiometric assay (n = 22) and 2‐site immunoenzymatic assay (n = 20).",
+   "zh": "合并的PTH结果分别来自免疫放射测定法（n = 22）和2位点免疫酶测定法（n = 20）。"
+  },
+  {
+   "section": "Table caption",
+   "section_zh": "表题",
+   "en": "TABLE 5 Linear mixed model, generalized estimating equation and generalized linear mixed model analyses examining the change in clinicopathological variables over time in all randomized cats (n = 60) during the study period.",
+   "zh": "表5 研究期间全部随机分组猫（n = 60）临床病理指标随时间变化的线性混合模型、广义估计方程和广义线性混合模型分析。"
+  },
+  {
+   "section": "Table footnote",
+   "section_zh": "表注",
+   "en": "Note: Summary of P‐values for all variables included in the model. Group represents cats in “control PRD” or “magnesium‐enriched PRD” group based on the allocated trial diet according to the randomization list. Outcome variables showing significant change over time and between groups (P ≤ .05) are highlighted in bold. The unit used for time was month (30.4 days). A significant effect in the group column indicates a significant difference between the 2 groups at baseline for a given parameter (the start of the regression line at time 0). A significant effect of Group × Time interaction indicates that the rate of change of the outcome variable differs significantly between groups (“control PRD” vs “magnesium‐enriched PRD”) over time. If Group × Time was not significant, and the effect of Time was significant, this indicates no difference in the rate of change of the outcome variable between groups, however, the overall gradient of the outcome variable plotted against time (with the data from all groups combined) differs significantly from zero.",
+   "zh": "注：模型中所有变量的P值汇总。组别指根据随机化列表所分配的试验饮食而归入“对照PRD”组或“富镁PRD”组的猫。随时间及组间变化显著（P ≤ .05）的结局变量以粗体标示。时间单位为月（30.4天）。组别列中的显著效应表示某一参数在基线时（即时间0处回归线的起点）2组之间存在显著差异。组别 × 时间交互作用显著，表示结局变量随时间的变化速率在两组（“对照PRD” vs “富镁PRD”）之间存在显著差异。如果组别 × 时间不显著而时间效应显著，则表示结局变量的变化速率在组间无差异，但结局变量对时间作图的总体斜率（合并所有组的数据）显著不为零。"
+  },
+  {
+   "section": "Table footnote",
+   "section_zh": "表注",
+   "en": "Abbreviations: ALP, alkaline phosphatase; ALT, alanine aminotransferase; BCS, body condition score; HCO3 −, bicarbonate; ln[FGF23], log‐transformed fibroblast growth factor‐23; ln[PTH], log‐transformed parathyroid hormone; MCS, muscle condition score; SBP, systolic blood pressure; SDMA, symmetric dimethylarginine.",
+   "zh": "缩写：ALP，碱性磷酸酶；ALT，丙氨酸氨基转移酶；BCS，体况评分；HCO3 −，碳酸氢根；ln[FGF23]，对数转换成纤维细胞生长因子‐23；ln[PTH]，对数转换甲状旁腺激素；MCS，肌肉状况评分；SBP，收缩压；SDMA，对称性二甲基精氨酸。"
+  },
+  {
+   "section": "Table footnote",
+   "section_zh": "表注",
+   "en": "Only the case number of each individual cat was included as random effect in the model.",
+   "zh": "模型中仅将每只猫的病例编号作为随机效应。"
+  },
+  {
+   "section": "Figure legend",
+   "section_zh": "图注",
+   "en": "FIGURE 2 Scatter plots illustrating the linear change of plasma concentrations of (A) total magnesium (tMg); (B) log‐transformed fibroblast growth factor‐23 (ln[FGF23]); (C) total calcium (tCa); (D) ionized calcium (iCa); and (E) body weight in all randomized cats (n = 60) according to the allocated trial diet (“control phosphate‐restricted diet [PRD]” [crosses] vs “magnesium‐enriched PRD” [dots]) during the study period. The P‐value refers to the Group × Time interaction (as shown in Table 5) analyzed using linear mixed effects models, which assessed the difference in rate of change of the outcome variable between groups (“control PRD” vs “magnesium‐enriched PRD”) over time.",
+   "zh": "图2 研究期间全部随机分组猫（n = 60）按所分配试验饮食（“对照限磷饮食[PRD]”[叉号] vs “富镁PRD”[圆点]）显示的(A) 总镁（tMg）、(B) 对数转换成纤维细胞生长因子‐23（ln[FGF23]）、(C) 总钙（tCa）、(D) 离子钙（iCa）血浆浓度及(E) 体重线性变化的散点图。P值指采用线性混合效应模型分析的组别 × 时间交互作用（见表5），用于评估结局变量随时间的变化速率在两组（“对照PRD” vs “富镁PRD”）之间的差异。"
+  },
+  {
+   "section": "Figure legend",
+   "section_zh": "图注",
+   "en": "FIGURE 3 Line graphs illustrating the change of plasma concentrations of (A) total magnesium (tMg); (B) fibroblast growth factor‐23 (FGF23); (C) ionized calcium (iCa); (D) total calcium (tCa); (E) phosphate; and (F) creatinine in individual cats with chronic kidney disease (CKD) that developed hypermagnesemia (n = 6) grouped according to allocation of trial diet (“control phosphate‐restricted diet [PRD]” vs “magnesium‐enriched PRD”) during the study period of this prospective diet trial (MAGMA).",
+   "zh": "图3 本前瞻性饮食试验（MAGMA）研究期间出现高镁血症的慢性肾病（CKD）猫个体（n = 6）按所分配试验饮食（“对照限磷饮食[PRD]” vs “富镁PRD”）分组显示的(A) 总镁（tMg）、(B) 成纤维细胞生长因子‐23（FGF23）、(C) 离子钙（iCa）、(D) 总钙（tCa）、(E) 磷和(F) 肌酐血浆浓度变化折线图。"
+  },
+  {
+   "section": "Table caption",
+   "section_zh": "表题",
+   "en": "TABLE 6 Linear mixed model, generalized estimating equation, and generalized linear mixed model analyses examining the change in clinicopathological variables over time in the per‐protocol cats (n = 44) during the study period.",
+   "zh": "表6 研究期间符合方案猫（n = 44）临床病理指标随时间变化的线性混合模型、广义估计方程和广义线性混合模型分析。"
+  },
+  {
+   "section": "Table footnote",
+   "section_zh": "表注",
+   "en": "Note: Summary of P‐values for all variables included in the model. Group represents cats in “control phosphate‐restricted diet (PRD)” or “magnesium‐enriched PRD” group based on the allocated trial diet according to the randomization list. Outcome variables showing significant change over time and between groups (P ≤ .05) are highlighted in bold. The unit used for time was month (30.4 days). A significant effect in the group column indicates a significant difference between the 2 groups at baseline for a given parameter (the start of the regression line at time 0). A significant effect of Group × Time interaction indicates that the rate of change of the outcome variable differs significantly between groups (“control PRD” vs “magnesium‐enriched PRD”) over time. If Group × Time was not significant, and the effect of Time was significant, this indicates no difference in the rate of change of the outcome variable between groups; however, the overall gradient of the outcome variable plotted against time (with the data from all groups combined) differs significantly from zero.",
+   "zh": "注：模型中所有变量的P值汇总。组别指根据随机化列表所分配的试验饮食而归入“对照限磷饮食（PRD）”组或“富镁PRD”组的猫。随时间及组间变化显著（P ≤ .05）的结局变量以粗体标示。时间单位为月（30.4天）。组别列中的显著效应表示某一参数在基线时（即时间0处回归线的起点）2组之间存在显著差异。组别 × 时间交互作用显著，表示结局变量随时间的变化速率在两组（“对照PRD” vs “富镁PRD”）之间存在显著差异。如果组别 × 时间不显著而时间效应显著，则表示结局变量的变化速率在组间无差异；但结局变量对时间作图的总体斜率（合并所有组的数据）显著不为零。"
+  },
+  {
+   "section": "Table footnote",
+   "section_zh": "表注",
+   "en": "Abbreviations: ALP, alkaline phosphatase; ALT, alanine aminotransferase; BCS, body condition score; HCO3 −, bicarbonate; ln[FGF23], log‐transformed fibroblast growth factor‐23; ln[PTH], log‐transformed parathyroid hormone; MCS, muscle condition score; SBP, systolic blood pressure; SDMA, symmetric dimethylarginine.",
+   "zh": "缩写：ALP，碱性磷酸酶；ALT，丙氨酸氨基转移酶；BCS，体况评分；HCO3 −，碳酸氢根；ln[FGF23]，对数转换成纤维细胞生长因子‐23；ln[PTH]，对数转换甲状旁腺激素；MCS，肌肉状况评分；SBP，收缩压；SDMA，对称性二甲基精氨酸。"
+  },
+  {
+   "section": "Table footnote",
+   "section_zh": "表注",
+   "en": "Only the case number of each individual cat was included as random effect in the model.",
+   "zh": "模型中仅将每只猫的病例编号作为随机效应。"
+  },
+  {
+   "section": "Figure legend",
+   "section_zh": "图注",
+   "en": "FIGURE 4 Scatter plots illustrating the linear change of plasma concentrations of (A) total magnesium concentration (tMg); (B) log‐transformed fibroblast growth factor‐23 (ln[FGF23]); (C) total calcium (tCa); (D) ionized calcium (iCa); (E) venous bicarbonate (HCO3−); and (F) body weight in the per‐protocol cats (n = 44) according to the allocated trial diet (“control phosphate‐restricted diet [PRD]” [crosses] vs “magnesium‐enriched PRD” [dots]) during the study period. The P‐value refers to the Group × Time interaction (as shown in Table 6) analyzed using linear mixed effects models, which assessed the difference in rate of change of the outcome variable between groups (“control PRD” vs “magnesium‐enriched PRD”) over time.",
+   "zh": "图4 研究期间符合方案猫（n = 44）按所分配试验饮食（“对照限磷饮食[PRD]”[叉号] vs “富镁PRD”[圆点]）显示的(A) 总镁浓度（tMg）、(B) 对数转换成纤维细胞生长因子‐23（ln[FGF23]）、(C) 总钙（tCa）、(D) 离子钙（iCa）、(E) 静脉碳酸氢根（HCO3−）血浆浓度及(F) 体重线性变化的散点图。P值指采用线性混合效应模型分析的组别 × 时间交互作用（见表6），用于评估结局变量随时间的变化速率在两组（“对照PRD” vs “富镁PRD”）之间的差异。"
+  },
+  {
+   "section": "Table caption",
+   "section_zh": "表题",
+   "en": "TABLE 7 Clinical events in all randomized cats (n = 60) during this prospective dietary trial (MAGMA).",
+   "zh": "表7 本前瞻性饮食试验（MAGMA）中全部随机分组猫（n = 60）的临床事件。"
+  },
+  {
+   "section": "Table footnote",
+   "section_zh": "表注",
+   "en": "Abbreviation: PRD, phosphate‐restricted diet.",
+   "zh": "缩写：PRD，限磷饮食。"
+  },
+  {
+   "section": "Table footnote",
+   "section_zh": "表注",
+   "en": "Hypermagnesemia was defined as plasma total magnesium concentration (tMg) >2.92 mg/dL (1.2 mmol/L).",
+   "zh": "高镁血症定义为血浆总镁浓度（tMg）>2.92 mg/dL（1.2 mmol/L）。"
+  },
+  {
+   "section": "Table footnote",
+   "section_zh": "表注",
+   "en": "Hypercalcemia was defined as blood ionized calcium (iCa) concentration >6 mg/dL (1.5 mmol/L).",
+   "zh": "高钙血症定义为血液离子钙浓度（iCa）>6 mg/dL（1.5 mmol/L）。"
+  }
+ ]
+}

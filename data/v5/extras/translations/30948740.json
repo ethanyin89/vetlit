@@ -1,0 +1,243 @@
+{
+ "pmid": "30948740",
+ "license": "CC BY 4.0",
+ "attribution": {
+  "authors": [
+   "Saito Atsuko",
+   "Shinozuka Kazutaka",
+   "Ito Yuki",
+   "Hasegawa Toshikazu"
+  ],
+  "title": "Domestic cats (Felis catus) discriminate their names from other words",
+  "journal": "Scientific Reports",
+  "year": "2019",
+  "doi": "10.1038/s41598-019-40616-4",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "note": "中文为 AI 翻译，以英文原文为准；已对原文做翻译改编"
+ },
+ "scope_zh": "标题、摘要、引言、结果、讨论、方法全文正文；图1–2图注与表1表题。未含：参考文献、补充材料、表1表格正文。",
+ "paragraphs": [
+  {
+   "section": "Title",
+   "section_zh": "标题",
+   "en": "Domestic cats (Felis catus) discriminate their names from other words",
+   "zh": "家猫（Felis catus）能够将自己的名字与其他词语区分开来"
+  },
+  {
+   "section": "Abstract",
+   "section_zh": "摘要",
+   "en": "Two of the most common nonhuman animals that interact with humans are domestic dogs (Canis familiaris) and cats (Felis catus). In contrast to dogs, the ability of domestic cats to communicate with humans has not been explored thoroughly. We used a habituation-dishabituation method to investigate whether domestic cats could discriminate human utterances, which consisted of cats’ own names, general nouns, and other cohabiting cats’ names. Cats from ordinary households and from a ‘cat café’ participated in the experiments. Among cats from ordinary households, cats habituated to the serial presentation of four different general nouns or four names of cohabiting cats showed a significant rebound in response to the subsequent presentation of their own names; these cats discriminated their own names from general nouns even when unfamiliar persons uttered them. These results indicate that cats are able to discriminate their own names from other words. There was no difference in discrimination of their own names from general nouns between cats from the cat café and household cats, but café cats did not discriminate their own names from other cohabiting cats’ names. We conclude that cats can discriminate the content of human utterances based on phonemic differences.",
+   "zh": "与人类互动最常见的两种非人类动物是家犬（Canis familiaris）和家猫（Felis catus）。与犬不同，家猫与人类交流的能力尚未得到充分研究。我们采用习惯化－去习惯化方法，研究家猫能否区分人类的话语，这些话语包括猫自己的名字、普通名词以及同住其他猫的名字。来自普通家庭和一家“猫咖啡馆”的猫参加了实验。在普通家庭的猫中，对连续呈现的四个不同普通名词或四个同住猫名字产生习惯化的猫，在随后听到自己的名字时反应显著回升；即使由陌生人说出，这些猫也能将自己的名字与普通名词区分开来。这些结果表明，猫能够将自己的名字与其他词语区分开来。在区分自己名字与普通名词方面，猫咖啡馆的猫与家庭饲养的猫没有差异，但咖啡馆的猫不能将自己的名字与其他同住猫的名字区分开来。我们的结论是：猫能够基于音位差异区分人类话语的内容。"
+  },
+  {
+   "section": "Introduction",
+   "section_zh": "引言",
+   "en": "Domestic cats (Felis catus) and dogs (Canis familiaris) are the most popular companion animals; worldwide, over 600 million cats live with humans1, and in some countries their number equals or exceeds the number of dogs (e.g., Japan: dogs: 8,920,000, cats: 9,526,000)2,3. Cats started to cohabit with humans about 9,500 years ago4; their history of cohabitation with humans is shorter than that of dogs5, and they have been domesticated by natural selection, not by artificial selection6–8. Despite these differences in their process of domestication compared to that of dogs, cats too have developed behaviours related to communication with humans; for example, for human listeners, the vocalisations of domestic cats are more comfortable than those of African wild cats (Felis silvestris lybica)9. In addition, purring has different acoustical components during solicitation of foods than at other times, and humans perceive such solicitation purrs as more urgent and unpleasant than non-solicitation purrs10. These facts clearly indicate that domestic cats have developed the ability to communicate with humans and frequently do so; Bradshaw8 suggested that this inter-species communicative ability is descended from intra-species communicative ability.",
+   "zh": "家猫（Felis catus）和犬（Canis familiaris）是最受欢迎的伴侣动物；全世界有超过600 million（6亿）只猫与人类共同生活1，在一些国家，猫的数量等于或超过犬的数量（例如日本：犬8,920,000只，猫9,526,000只）2,3。猫大约在9,500年前开始与人类共同生活4；它们与人类共处的历史比犬短5，且是通过自然选择而非人工选择被驯化的6–8。尽管与犬相比其驯化过程存在这些差异，猫也发展出了与人类交流相关的行为；例如，对人类听者而言，家猫的叫声比非洲野猫（Felis silvestris lybica）的叫声更令人舒适9。此外，猫在索要食物时发出的呼噜声与其他时候具有不同的声学成分，人类会觉得这种索食呼噜声比非索食呼噜声更急迫、更令人不快10。这些事实清楚表明，家猫已经发展出与人类交流的能力，并且经常这样做；Bradshaw8认为这种种间交流能力源自种内交流能力。"
+  },
+  {
+   "section": "Introduction",
+   "section_zh": "引言",
+   "en": "Researchers have only recently begun to investigate cats’ ability to communicate with humans. Miklósi et al. showed that cats are able to use the human pointing gesture as a cue to find hidden food, similarly to dogs11. The researchers also suggested that cats do not gaze toward humans when they cannot access food, unlike dogs. However, a recent study revealed that cats show social referencing behaviour (gazing at human face) when exposed to a potentially frightening object, and to some extent cats changed their behaviour depending on the facial expression of their owner (positive or negative)12. Cats in food begging situations can also discriminate the attentional states of humans who look at and call to them13. In addition, Galvan and Vonk demonstrated that cats were modestly sensitive to their owner’s emotions14, and other research has indicated that cats’ behaviour is influenced by human mood15,16. Further, cats can discriminate their owner’s voice from a stranger’s17. This research evidence illustrates that domestic cats have the ability to recognize human gestural, facial, and vocal cues.",
+   "zh": "研究人员直到最近才开始研究猫与人类交流的能力。Miklósi等人发现，猫与犬类似，能够利用人类的指示手势作为线索找到隐藏的食物11。研究者还指出，与犬不同，猫在无法获得食物时不会注视人类。然而，最近一项研究显示，猫在面对可能令其恐惧的物体时会表现出社会参照行为（注视人的面部），并且在一定程度上会根据主人的面部表情（积极或消极）改变自身行为12。处于乞食情境的猫还能区分注视并呼唤它们的人的注意状态13。此外，Galvan和Vonk证明猫对主人的情绪有一定程度的敏感性14，其他研究也表明猫的行为受人类情绪影响15,16。再者，猫能够区分主人的声音和陌生人的声音17。这些研究证据说明，家猫具备识别人类手势、面部和声音线索的能力。"
+  },
+  {
+   "section": "Introduction",
+   "section_zh": "引言",
+   "en": "In contrast to cats, numerous research studies have shown the ability of domestic dogs to communicate with humans. Dogs are skilful at reading human communicative gestures, such as pointing (reviewed in Miklósi & Soproni18). Dogs can differentiate human attentional states19–22 and distinguish human smiling faces from blank expressions23. They are also capable of using some human emotional expressions to help them find hidden food and fetch objects24,25.",
+   "zh": "与猫相比，已有大量研究表明家犬具备与人类交流的能力。犬善于解读人类的交流手势，例如指示（综述见Miklósi & Soproni18）。犬能区分人类的注意状态19–22，并能区分人的微笑面孔与无表情面孔23。它们还能利用某些人类情绪表达来帮助寻找隐藏的食物和衔回物品24,25。"
+  },
+  {
+   "section": "Introduction",
+   "section_zh": "引言",
+   "en": "Although the majority of prior studies have focused on visual communication between humans and dogs26, some studies have investigated the dog’s ability to respond to human vocalisations. For example, the pitch of a human voice affects dog behaviour27: dogs obey high-pitched voices to a greater extent than low-pitched voices. Dogs can discriminate expressions of emotion with voice28, and obey a command with angry voice more slowly than with happy voice. Dogs trained to sit and come in response to tape-recorded commands change their performance when the phonemes of commands are changed29. Many dog owners believe their dogs understand about 30 utterances30. Extensively trained dogs are able to differentiate 200–1000 human words or labels31,32. The ability to understand human verbal utterances is also shown in other species, such as apes33, dolphins34, and parrots35; however, whether such an ability exists in domestic cats remains untested.",
+   "zh": "尽管以往大多数研究集中于人与犬之间的视觉交流26，但也有一些研究考察了犬对人类发声作出反应的能力。例如，人声的音高会影响犬的行为27：犬对高音调声音的服从程度高于低音调声音。犬能区分声音中的情绪表达28，对愤怒语气下达的指令比对愉快语气下达的指令服从得更慢。经训练能对录音指令作出坐下和过来反应的犬，在指令音位改变后其表现会发生变化29。许多犬主人认为他们的犬能理解约30个话语30。经过大量训练的犬能够区分200–1000个人类词语或标签31,32。理解人类言语的能力在其他物种中也有体现，如类人猿33、海豚34和鹦鹉35；然而，家猫是否具有这种能力尚未经过检验。"
+  },
+  {
+   "section": "Introduction",
+   "section_zh": "引言",
+   "en": "In the present study, we investigated the ability of domestic cats to discriminate human verbal utterances. Cats are sensitive to differences in human voice characteristics17. Some owners insist that their cats can recognize their own names and words related to food. Therefore, we can make the following hypothesis: cats can discriminate words uttered by humans from other words—especially their own names, because a cat’s name is a salient stimulus as it may be the human utterance most frequently heard by domestic cats (cats kept by humans) and may be associated with rewards, such as food, petting, and play.",
+   "zh": "在本研究中，我们考察了家猫区分人类言语的能力。猫对人声特征的差异很敏感17。一些主人坚称他们的猫能认出自己的名字以及与食物有关的词语。因此我们可以提出如下假设：猫能够将人类说出的某些词语与其他词语区分开来——尤其是它们自己的名字，因为猫的名字是一个显著刺激：它可能是家猫（由人饲养的猫）最常听到的人类话语，并且可能与食物、抚摸和玩耍等奖励相关联。"
+  },
+  {
+   "section": "Introduction",
+   "section_zh": "引言",
+   "en": "We conducted experiments in cats’ homes, using a habituation-dishabituation method, as in our previous study17. In general, dogs’ ability to recognize human utterances are tested using command and retrieval tasks31,36. These tasks require pre-training, and the training of cats to perform on command would require a lot of effort and time. On the other hand, habituation-dishabituation method enabled us to measure cats’ natural reactions during a single visit, without extensive training. To test the hypothesis, we presented four different words serially as habituation stimuli, then presented the cats’ own names as test stimuli. If the cats were habituated to the other 4 words and dishabituated to their own names, a rebound response to the presentation of their own names would be observed, indicating the ability to discriminate their own names from other words.",
+   "zh": "与我们之前的研究17一样，我们在猫的家中采用习惯化－去习惯化方法开展实验。一般而言，犬识别人类话语的能力是通过指令任务和衔取任务来测试的31,36。这些任务需要预先训练，而训练猫按指令完成任务需要大量精力和时间。相比之下，习惯化－去习惯化方法使我们能够在单次访问中测量猫的自然反应，无需大量训练。为检验该假设，我们先连续呈现四个不同的词语作为习惯化刺激，然后呈现猫自己的名字作为测试刺激。如果猫对其他4个词语产生了习惯化，并对自己的名字产生去习惯化，就会观察到对自己名字的反应回升，表明其具有将自己名字与其他词语区分开来的能力。"
+  },
+  {
+   "section": "Introduction",
+   "section_zh": "引言",
+   "en": "We conducted four experiments to test the hypothesis. In Experiment 1, we investigated whether cats can discriminate their own names from general nouns with the same length and accents as their own names. If cats can discriminate their own names from other words by using phonetic characteristics other than length of or accent of stimuli, cats habituated to the other 4 words should show dishabituation when hearing their own names. The test cats were living either with no other cats or with a small number of other cats. In this experiment, although we equalized the familiarity of the nouns, the relative familiarity of names and other nouns was markedly different, that is, cats heard their own names more frequently than other nouns. Therefore, cats discriminated their own names depending both on phonetic characteristics and on familiarity. In Experiment 2, we investigated cats’ ability to discriminate their own names from other cats’ names, by using cats living with 4 or more other cats. It can be assumed that the test cats were exposed to the other cats’ names as well as their own names; stimuli were prepared using cohabiting cats’ names. Then, in Experiment 3, we examined effects of multiple-cat living environments on discrimination of general nouns and cats’ own names, similar to Experiment 1. In Experiments 2 and 3, we tested cats both from ordinary households and from a ‘cat café’, a business establishment where visitors can freely interact with cats. In Experiments 1 to 3, stimuli used cats’ owners’ own voices, because they exhibit a marked response to their owner’s voice17. However, this leaves open the possibility that cats can discriminate their own names only when their owners utter them. Thus, in Experiment 4, we tested whether cats can discriminate their own names from general nouns even when unfamiliar persons utter them; if they showed discrimination ability in this experiment, we would take them to recognize their own names based on common phonetic characteristics in human verbal utterances.",
+   "zh": "我们进行了四项实验来检验该假设。实验1考察猫能否将自己的名字与长度和重音均与其名字相同的普通名词区分开来。如果猫能利用刺激长度或重音以外的语音特征将自己的名字与其他词语区分开，那么对其他4个词语习惯化的猫在听到自己的名字时应表现出去习惯化。受试猫要么不与其他猫同住，要么只与少数其他猫同住。在本实验中，虽然我们使各名词的熟悉度相同，但名字与其他名词的相对熟悉度明显不同，即猫听到自己名字的频率高于其他名词。因此，猫对自己名字的区分同时取决于语音特征和熟悉度。实验2利用与4只或更多其他猫同住的猫，考察猫将自己的名字与其他猫名字区分开的能力。可以假定受试猫既接触自己的名字也接触其他猫的名字；刺激用同住猫的名字制作。随后在实验3中，我们以与实验1类似的方式，考察多猫生活环境对区分普通名词与猫自己名字的影响。在实验2和3中，我们既测试了普通家庭的猫，也测试了一家“猫咖啡馆”（访客可以自由与猫互动的营业场所）的猫。在实验1至3中，刺激使用的是猫主人自己的声音，因为猫对主人的声音反应明显17。然而，这留下了一种可能性：猫只有在主人说出时才能区分自己的名字。因此，实验4检验了即使由陌生人说出，猫能否将自己的名字与普通名词区分开来；如果它们在本实验中表现出区分能力，我们就认为它们是基于人类言语中共同的语音特征识别自己名字的。"
+  },
+  {
+   "section": "Results / Behaviour score",
+   "section_zh": "结果 / 行为评分",
+   "en": "The upper panels of Fig. 1 summarise the cats’ responses to the stimuli, as scored by the experimenter. Through all the experiments, more than half of the cats responded to voice stimuli by moving their ears and heads; fewer than 10% of the cats demonstrated vocalisation, tail movement, and displacement. This trend did not differ contingent on whether stimuli were nouns, other cats’ names, or tested cats’ own names. Fisher’s exact test revealed that number of cats which showed orienting response (moving ear and/or moving head) were significantly higher than which showed communicative response (vocalization and/or tail movement) in all trials from Experiment 1 to 4 (Supplementary Table S1).",
+   "zh": "图1上图汇总了实验者评分的猫对刺激的反应。在所有实验中，半数以上的猫通过移动耳朵和头部对声音刺激作出反应；表现出发声、尾部活动和位移的猫不足10%。无论刺激是名词、其他猫的名字还是受试猫自己的名字，这一趋势均无差异。Fisher精确检验显示，在实验1至4的所有试次中，表现出定向反应（动耳和/或动头）的猫数量均显著多于表现出交流反应（发声和/或尾部活动）的猫数量（补充表S1）。"
+  },
+  {
+   "section": "Results / Behaviour score",
+   "section_zh": "结果 / 行为评分",
+   "en": "The total scores (Fig. 1 lower panels) were moderately correlated with the average response magnitude evaluated by the raters, as shown in the next section (Spearman’s rank correlation, ρ = 0.70, P < 0.001; ρ = 0.61, P < 0.001; ρ = 0.64, P < 0.001, ρ = 0.60, P < 0.001 for Experiments 1, 2, 3, and 4, respectively). Thus, the raters’ evaluations of the response magnitudes might have partly depended on the number of simultaneously occurring responses by the cats.",
+   "zh": "总分（图1下图）与下一节所述评分者评定的平均反应强度呈中度相关（Spearman秩相关，实验1、2、3和4分别为ρ = 0.70，P < 0.001；ρ = 0.61，P < 0.001；ρ = 0.64，P < 0.001，ρ = 0.60，P < 0.001）。因此，评分者对反应强度的评价可能部分取决于猫同时出现的反应数量。"
+  },
+  {
+   "section": "Results / Response magnitude",
+   "section_zh": "结果 / 反应强度",
+   "en": "In Experiment 1, the raters’ evaluations revealed that eleven out of the 16 test cats decreased their average response magnitude from noun 1 to noun 4. These cats were considered to have successfully habituated to the general nouns vocalised by the owners. Then, nine out of the eleven habituated cats increased their response magnitude from noun 4 to their own name. Group-level analysis using a generalized linear mixed model (GLMM) revealed a significant effect of stimulus category (F(1,10) = 11.18, P = 0.007), indicating eleven habituated cats significantly increased in response magnitude from noun 4 to their own name (t(10) = −3.34, P = 0.007, Fig. 2a). Thus, habituated cats dishabituated when they heard their own names.",
+   "zh": "在实验1中，评分者的评价显示，16只受试猫中有11只从名词1到名词4的平均反应强度下降。这些猫被认为已对主人说出的普通名词成功习惯化。随后，11只习惯化的猫中有9只从名词4到自己名字的反应强度上升。采用广义线性混合模型（GLMM）的群体水平分析显示刺激类别效应显著（F(1,10) = 11.18，P = 0.007），表明11只习惯化猫从名词4到自己名字的反应强度显著上升（t(10) = −3.34，P = 0.007，图2a）。因此，习惯化的猫在听到自己的名字时出现了去习惯化。"
+  },
+  {
+   "section": "Results / Response magnitude",
+   "section_zh": "结果 / 反应强度",
+   "en": "In Experiment 2, 15 out of the 34 test cats decreased average response magnitude from name 1 to name 4, and were considered to have successfully habituated to stimuli consisting of the names of other cohabiting cats. The ratio of successfully habituated cats was different between the ordinary households and the cat café (ordinary households: 6 out of 24, cat café: 9 out of 10; χ2 = 9.60, df = 1, P = 0.002). Although the ratio of successfully habituated cats from ordinary households is very low, we analysed the data from these six cats because of methodological restriction. We added housing environment (ordinary households or cat café) as a fixed effect for group-level analysis. GLMM revealed a significant effect of interaction (stimulus category * environment; F(1,13) = 8.26, P = 0.013). All six habituated cats from ordinary households increased their response magnitudes from name 4 to their own names. Post-hoc analysis revealed that response magnitudes to stimuli for cats’ own names were significantly higher than those for name 4 in these six habituated cats (t(13) = −3.43, P = 0.005, Fig. 2b). In contrast, only three out of nine habituated cats from the cat café increased their response magnitudes from name 4 to their own name. The response magnitudes to cats’ own names did not differ from those to name 4 in these nine habituated cats (t(13) = 0.35, P = 0.732, Fig. 2b). Significantly higher response was also seen in household cats compared to café cats in response to own name (t (20.24) = −2.39, P = 0.027), but not in response to noun 4 (t (20.24) = 0.38, P = 0.705, Fig. 2b).",
+   "zh": "在实验2中，34只受试猫中有15只从名字1到名字4的平均反应强度下降，被认为已对由其他同住猫名字构成的刺激成功习惯化。成功习惯化的猫所占比例在普通家庭与猫咖啡馆之间存在差异（普通家庭：24只中6只，猫咖啡馆：10只中9只；χ2 = 9.60，df = 1，P = 0.002）。尽管普通家庭中成功习惯化的猫比例很低，但由于方法学限制，我们仍分析了这6只猫的数据。在群体水平分析中，我们加入饲养环境（普通家庭或猫咖啡馆）作为固定效应。GLMM显示交互作用显著（刺激类别 * 环境；F(1,13) = 8.26，P = 0.013）。来自普通家庭的6只习惯化猫从名字4到自己名字的反应强度全部上升。事后分析显示，在这6只习惯化猫中，对自己名字的反应强度显著高于对名字4的反应强度（t(13) = −3.43，P = 0.005，图2b）。相反，来自猫咖啡馆的9只习惯化猫中只有3只从名字4到自己名字的反应强度上升。在这9只习惯化猫中，对自己名字的反应强度与对名字4的反应强度无差异（t(13) = 0.35，P = 0.732，图2b）。对自己名字的反应，家庭猫也显著高于咖啡馆猫（t (20.24) = −2.39，P = 0.027），但对名词4的反应则无此差异（t (20.24) = 0.38，P = 0.705，图2b）。"
+  },
+  {
+   "section": "Results / Response magnitude",
+   "section_zh": "结果 / 反应强度",
+   "en": "In Experiment 3, following the results of Experiment 2, we again included the environment as a fixed effect. Fourteen out of the 20 household cats decreased average response magnitude from noun 1 to noun 4. Seven out of nine café cats decreased average response magnitude from noun 1 to noun 4. These cats were considered to have successfully habituated to the stimuli consisting of spoken nouns. In contrast to Experiment 2, interaction of stimulus category * environment was not significant (F (1,19) = 1.52, P = 0.233). A final model only included the effect of stimulus category (F (1,20) = 6.05, P = 0.023). Thirteen out of the 21 habituated cats increased their response magnitude from noun 4 to their own name. The response magnitude to cats’ own names was significantly higher from that to noun 4 in these 21 habituated cats (t(20) = −2.46, P = 0.023, Fig. 2c). Thus, these habituated cats dishabituated when they heard their own names.",
+   "zh": "在实验3中，依据实验2的结果，我们再次将环境纳入固定效应。20只家庭猫中有14只从名词1到名词4的平均反应强度下降。9只咖啡馆猫中有7只从名词1到名词4的平均反应强度下降。这些猫被认为已对由口述名词构成的刺激成功习惯化。与实验2不同，刺激类别 * 环境的交互作用不显著（F (1,19) = 1.52，P = 0.233）。最终模型只包含刺激类别效应（F (1,20) = 6.05，P = 0.023）。21只习惯化猫中有13只从名词4到自己名字的反应强度上升。在这21只习惯化猫中，对自己名字的反应强度显著高于对名词4的反应强度（t(20) = −2.46，P = 0.023，图2c）。因此，这些习惯化的猫在听到自己的名字时出现了去习惯化。"
+  },
+  {
+   "section": "Results / Response magnitude",
+   "section_zh": "结果 / 反应强度",
+   "en": "In Experiment 4, the raters’ evaluations revealed that 20 out of the 33 test cats decreased their average response magnitude from noun 1 to noun 4; these cats were considered to have successfully habituated to the general nouns vocalised by unfamiliar persons. Then, 13 out of the 20 habituated cats increased their response magnitude from noun 4 to their own name. Group-level analysis revealed a significant effect of stimulus category in twenty habituated cats (F(1,19) = 4.41, P = 0.049), who dishabituated significantly when they heard their own name uttered by an unfamiliar person as compared to noun 4 (t(19) = −2.10, P = 0.049, Fig. 2d).",
+   "zh": "在实验4中，评分者的评价显示，33只受试猫中有20只从名词1到名词4的平均反应强度下降；这些猫被认为已对陌生人说出的普通名词成功习惯化。随后，20只习惯化猫中有13只从名词4到自己名字的反应强度上升。群体水平分析显示，在这20只习惯化猫中刺激类别效应显著（F(1,19) = 4.41，P = 0.049），与名词4相比，它们在听到陌生人说出自己的名字时出现了显著的去习惯化（t(19) = −2.10，P = 0.049，图2d）。"
+  },
+  {
+   "section": "Results / Response magnitude",
+   "section_zh": "结果 / 反应强度",
+   "en": "We also analysed habituated cats’ sum of behaviour score (total score) to test whether number of responses simultaneously elicited in response to a vocal stimulus increased from trial 4 (noun or other cat’s name) to trial 5 (test cat’s name). However, unlike response magnitude, significant increase in the total score was not observed except for Experiment 2 (Supplementary Fig. S1). This result suggests that qualitative analysis of behaviour with present/absent manner is less sensitive to detect dishabituation. It is confirmed that effectiveness of quantitative analysis with the response magnitude coded by blind raters.",
+   "zh": "我们还分析了习惯化猫的行为得分之和（总分），以检验对声音刺激同时引发的反应数量是否从第4试次（名词或其他猫的名字）到第5试次（受试猫的名字）有所增加。然而，与反应强度不同，除实验2外均未观察到总分的显著增加（补充图S1）。这一结果提示，以有/无方式进行的行为定性分析在检测去习惯化方面敏感性较低。这证实了由盲法评分者编码反应强度的定量分析是有效的。"
+  },
+  {
+   "section": "Discussion",
+   "section_zh": "讨论",
+   "en": "In Experiments 1, 3, and 4, cats that habituated to general nouns with the same length and accent as their own names dishabituated to their own names. This was true both when their owner’s voice was presented (Experiments 1 and 3) and when the unfamiliar person’s voice was presented (Experiment 4), in spite of the fact that cats distinguish owners’ voices from unfamiliar persons’ voices17. These results show that cats can identify their own names from other words that consisted of the same number of mora but with different phonemes when they are uttered both by familiar person and by unfamiliar person. The results of Experiment 2 suggest that cats from ordinary households discriminate their own names from those of cohabiting cats but that cats from a cat café may not. From the results of all experiments, it thus appears that at least cats living in ordinary households can distinguish their own names from general words and names of other cats. This is the first experimental evidence showing cats’ ability to understand human verbal utterances.",
+   "zh": "在实验1、3和4中，对与自己名字长度和重音相同的普通名词习惯化的猫，对自己的名字出现了去习惯化。无论呈现的是主人的声音（实验1和3）还是陌生人的声音（实验4），情况都是如此，尽管猫能区分主人的声音和陌生人的声音17。这些结果表明，无论由熟悉的人还是陌生人说出，猫都能将自己的名字与由相同音拍数但不同音位构成的其他词语区分开来。实验2的结果提示，普通家庭的猫能将自己的名字与同住猫的名字区分开，而猫咖啡馆的猫可能不能。综合所有实验结果，至少生活在普通家庭中的猫能够将自己的名字与普通词语及其他猫的名字区分开来。这是首个显示猫具有理解人类言语能力的实验证据。"
+  },
+  {
+   "section": "Discussion",
+   "section_zh": "讨论",
+   "en": "How can we explain this ability and behaviour on the part of the cats? Their own names must be one of the most-heard human utterances by cats. If they have no meaning, frequently experienced stimuli should be habituated and not elicit reaction from cats. However, the results of our experiment were to the contrary; thus, the association between hearing their names and receiving rewards or punishments might affect the behaviour of cats. This implies that cats’ names can be associated with rewards, such as food, petting, and play, or with punishments, such as taking them to a veterinary clinic or to a bath. Sometimes, owners who keep multiple cats will call all of their cats’ names at the same time. In that situation, a cat may associate both its own name and those of cohabiting cats with reward. These situations could explain the results of Experiment 2: the ratio of ordinary household cats that successfully habituated to names of other cohabiting cats was very low (6 out of 24). There is a possibility that cats housed with other multiple cats may associate other cats’ names with rewarding or unpleasant events. However, in some situations, for example, when the owner wishes to take it to a veterinary clinic, or to pet a cat, they may call only one cat’s name. Taking them to clinic should be a stressor. Petting could be rewarding to the cat37, although depending on the cats’ personality, it could also be a stressor38. These situations would facilitate a cat’s learning to discriminate its own name from those of other cats.",
+   "zh": "如何解释猫的这种能力和行为？猫自己的名字必定是它们最常听到的人类话语之一。如果名字没有意义，频繁经历的刺激应当被习惯化而不引起猫的反应。然而我们的实验结果恰恰相反；因此，听到名字与获得奖励或惩罚之间的联系可能影响了猫的行为。这意味着猫的名字可能与食物、抚摸和玩耍等奖励相关联，或与带去兽医诊所、洗澡等惩罚相关联。有时，饲养多只猫的主人会同时呼唤所有猫的名字。在这种情况下，一只猫可能会把自己的名字和同住猫的名字都与奖励联系起来。这些情况可以解释实验2的结果：对其他同住猫名字成功习惯化的普通家庭猫比例很低（24只中6只）。与多只其他猫同住的猫有可能将其他猫的名字与奖励性或不愉快的事件联系起来。然而在某些情况下，例如主人想带某只猫去兽医诊所或想抚摸它时，可能只呼唤一只猫的名字。去诊所应当是一种应激源。抚摸对猫可能是奖励37，但取决于猫的个性，也可能是应激源38。这些情况会促进猫学会将自己的名字与其他猫的名字区分开来。"
+  },
+  {
+   "section": "Discussion",
+   "section_zh": "讨论",
+   "en": "If cats associate their own name with rewards or stressors, it is reasonable to think that they react to their name. In these experiments, cats responded to owner vocalisation not with communicative behaviour (vocalisation and tail moving)39 but just with orienting behaviour (ear moving and head moving)40. This tendency replicated that reported in our previous study17. This may be caused by the difference between the situation where we conducted the experiments and the natural situation. In normal reward or stress situations, name calling by owners may elicit more dynamic, or communicative reaction from cats.",
+   "zh": "如果猫将自己的名字与奖励或应激源联系起来，那么它们对自己的名字作出反应是合理的。在这些实验中，猫对主人发声的反应并非交流行为（发声和尾部活动）39，而只是定向行为（动耳和动头）40。这一趋势重复了我们之前研究17的报告。这可能是由于实验情境与自然情境之间的差异所致。在正常的奖励或应激情境下，主人呼唤名字可能会引起猫更活跃的或交流性的反应。"
+  },
+  {
+   "section": "Discussion",
+   "section_zh": "讨论",
+   "en": "Next, we consider the results from the cat café. The café cats did not discriminate their own names from the names of cohabiting cats, though their performance in the discrimination of their own names from general nouns did not differ from that of ordinary household cats. The social environment may explain this difference in results. Many different humans visit cat cafés, and since the cats’ names are listed in cafés, visitors can call the names of the cats. However, the way names are called may vary by visitor (e.g., intonation may vary); such a condition may hinder cats in discriminating their name from those of other cats. Or, café cats may hear their name mentioned along with other cat names frequently without accurate reward discrimination by visitors. For example, if a visitor calls cat A, but cat B approaches to the visitor and cat B gets petting and treats instead of cat A. These situations would make name discrimination less relevant for these cats. Additionally, the number of cohabiting cats may have affected the results. Usually, the number of cats in a cat café is greater than the number in an ordinary household. Further, because we conducted the experiment in only one cat café, we cannot assure their generalisability or reach a definitive conclusion.",
+   "zh": "接下来，我们讨论猫咖啡馆的结果。咖啡馆的猫不能将自己的名字与同住猫的名字区分开来，尽管它们区分自己名字与普通名词的表现与普通家庭猫没有差异。社会环境可能可以解释这种结果差异。猫咖啡馆有许多不同的人来访，而且由于店内列出了猫的名字，访客可以呼唤这些猫的名字。然而，不同访客呼唤名字的方式可能不同（例如语调可能不同）；这种情况可能妨碍猫将自己的名字与其他猫的名字区分开。或者，咖啡馆的猫可能经常听到自己的名字与其他猫的名字一起被提及，而访客给予奖励时并无准确区分。例如，访客呼唤猫A，但猫B走近访客，于是猫B代替猫A得到了抚摸和零食。这些情况会使名字区分对这些猫而言不那么重要。此外，同住猫的数量也可能影响了结果。通常，猫咖啡馆中的猫数量多于普通家庭。再者，由于我们只在一家猫咖啡馆进行了实验，我们无法保证其可推广性，也无法得出确定的结论。"
+  },
+  {
+   "section": "Discussion",
+   "section_zh": "讨论",
+   "en": "Nevertheless, this study has demonstrated that cats can discriminate human utterances based on phonemic differences. Although such discrimination is acquired without explicit discrimination training, instead emerging from the patterns of natural daily communication between humans and cats, we may utilise this ability positively for cats’ quality of life. For example, perhaps we can get cats to learn that dangerous objects or places are referred to by specific utterances. This work has shed new light on the ability of cats to communicate with humans; further clarifying cats’ abilities with respect to cat–human communication will potentially enhance the welfare of both humans and cats.",
+   "zh": "尽管如此，本研究证明了猫能够基于音位差异区分人类话语。虽然这种区分并非通过明确的辨别训练获得，而是源于人与猫日常自然交流的模式，但我们或许可以积极利用这种能力来提高猫的生活质量。例如，或许我们可以让猫学会特定话语指代危险的物体或地点。这项工作为猫与人类交流的能力提供了新的认识；进一步阐明猫在猫－人交流方面的能力，有望同时提升人和猫的福利。"
+  },
+  {
+   "section": "Methods / Subjects",
+   "section_zh": "方法 / 受试对象",
+   "en": "In Experiment 1, the participants were 16 domestic cats (8 males and 8 females; age range: 1–11 years, mean age: 3.69 years, SD = 3.01) living with 11 families (three male and eight female owners), each of whom lived with 2 or fewer other cats. By breed, there were 12 mongrels, two Scottish Folds, an American Shorthair, and a Himalayan. Fifteen of the cats had begun to live with their owner within one year of birth, and one cat when it was 5 years old. Fifteen of the cats were neutered (one female was not).",
+   "zh": "实验1的受试对象为16只家猫（公猫8只、母猫8只；年龄范围：1–11岁，平均年龄：3.69岁，SD = 3.01），生活在11个家庭中（主人3男8女），每只猫同住的其他猫不超过2只。按品种分，有12只混种猫、两只苏格兰折耳猫、一只美国短毛猫和一只喜马拉雅猫。其中15只猫在出生后一年内开始与主人共同生活，1只在5岁时开始。15只猫已绝育（1只母猫未绝育）。"
+  },
+  {
+   "section": "Methods / Subjects",
+   "section_zh": "方法 / 受试对象",
+   "en": "In Experiment 2, 34 domestic cats (16 males and 18 females) each of which was living with 4 or more other cats, participated. Twenty-four cats were owned by four families and the remaining 10 were part of a ‘cat café’, a business establishment where visitors can freely interact with cats. The cats had six female owners (two owners were members of the same household). Of the 34 cats, there were 24 mongrels, three LaPerms, a Devon Rex, a Somali, a Scottish Fold, an American Curl, a LaPerm Shorthair, a Tonkinese, and a Munchkin. Their ages ranged from 0.5 to 10 years (mean age: 5.51 years, SD = 2.95), and the ages when they began to live with their owners ranged from birth to 36 months after birth. All cats were neutered.",
+   "zh": "实验2有34只家猫（公猫16只、母猫18只）参加，每只均与4只或更多其他猫同住。其中24只由四个家庭饲养，其余10只属于一家“猫咖啡馆”（访客可以自由与猫互动的营业场所）。这些猫共有6位女性主人（其中两位主人属于同一家庭）。34只猫中有24只混种猫、三只拉邦猫（LaPerm）、一只德文卷毛猫、一只索马里猫、一只苏格兰折耳猫、一只美国卷耳猫、一只短毛拉邦猫、一只东奇尼猫和一只曼基康猫。它们的年龄范围为0.5至10岁（平均年龄：5.51岁，SD = 2.95），开始与主人共同生活的年龄从出生时至出生后36个月不等。所有猫均已绝育。"
+  },
+  {
+   "section": "Methods / Subjects",
+   "section_zh": "方法 / 受试对象",
+   "en": "In Experiment 3, participants were 29 domestic cats (16 males and 13 females) living with 4 or more other cats. They were kept by three families and one cat café, which had four female owners; of the 29 cats, 9 were from the cat café. Breeds were 21 mongrels, three LaPerms, a Scottish Fold, an American Curl, a LaPerm Shorthair, a Tonkinese, and a Munchkin. Their ages ranged from 1 to 11 years (mean age: 6.48 years, SD = 3.29). The ages when they began to live with their owners ranged from birth to 36 months after birth. All cats were neutered. Of these 29 cats, 26 cats participated in Experiment 2. Interval between Experiment 2 and 3 was at least 2 weeks.",
+   "zh": "实验3的受试对象为29只家猫（公猫16只、母猫13只），均与4只或更多其他猫同住。它们由三个家庭和一家猫咖啡馆饲养，共有4位女性主人；29只猫中有9只来自猫咖啡馆。品种为21只混种猫、三只拉邦猫、一只苏格兰折耳猫、一只美国卷耳猫、一只短毛拉邦猫、一只东奇尼猫和一只曼基康猫。它们的年龄范围为1至11岁（平均年龄：6.48岁，SD = 3.29）。开始与主人共同生活的年龄从出生时至出生后36个月不等。所有猫均已绝育。这29只猫中有26只参加过实验2。实验2与实验3之间至少间隔2周。"
+  },
+  {
+   "section": "Methods / Subjects",
+   "section_zh": "方法 / 受试对象",
+   "en": "In Experiment 4, participants were 33 domestic cats (14 males and 19 females) living with from 0 to 5 other cats. Of them, 30 cats were kept in 21 families (2 male and 19 female owners) and 3 cats were kept in university laboratories. Of the 33 cats, 24 were mongrels, two LaPerms, two American Shorthair, a Scottish Fold, a Himalayan, a Russian Blue, a Norwegian Forest Cat, and a Bengal. Their ages ranged from 1 to 17 years (mean age: 6.48 years, SD = 4.14), and the ages when they began to live with their owners ranged from one month to 36 months after birth. All cats were neutered, excepting one female. Of these 33 cats, 3 had participated in Experiment 1 and 5 had participated in Experiments 2 and 3. Experiment 4 was conducted about 3 years after Experiment 3. In all experiments, all cats were indoor only except one, and cats were not subjected to food deprivation during the study period. Detailed information is presented in the electronic Supplementary Material (Tables S2–S5).",
+   "zh": "实验4的受试对象为33只家猫（公猫14只、母猫19只），各自同住的其他猫为0至5只。其中30只由21个家庭饲养（主人2男19女），3只饲养在大学实验室。33只猫中有24只混种猫、两只拉邦猫、两只美国短毛猫、一只苏格兰折耳猫、一只喜马拉雅猫、一只俄罗斯蓝猫、一只挪威森林猫和一只孟加拉猫。它们的年龄范围为1至17岁（平均年龄：6.48岁，SD = 4.14），开始与主人共同生活的年龄从出生后1个月至36个月不等。除1只母猫外，所有猫均已绝育。这33只猫中，3只参加过实验1，5只参加过实验2和3。实验4在实验3之后约3年进行。在所有实验中，除1只外所有猫均为纯室内饲养，研究期间未对猫进行禁食。详细信息见电子补充材料（表S2–S5）。"
+  },
+  {
+   "section": "Methods / Apparatus and Stimuli",
+   "section_zh": "方法 / 设备与刺激",
+   "en": "Before the experiments began, for each cat, five sound stimuli consisting of human voice were recorded. One stimulus consisted of a human calling the cat’s name. The other four stimuli consisted of a human vocalising four different general nouns (Experiments 1, 3, and 4) or four names of other cats living with the test cats (Experiment 2). For Experiments 1, 2, and 3, the stimuli were recorded by the owners of the tested cats. For Experiment 4, the stimuli were recorded by two women unfamiliar to the tested cats. Each owner was instructed to vocalise the cat’s names as he/she normally would; if the owner usually called the cat by a nickname instead of its real name, the nickname was used. In Experiments 1, 3, and 4, four different general Japanese nouns were selected from the list of Matsumoto41; all nouns had the same level of familiarity and were emotionally neutral. The numbers of moras and accents in the nouns were the same as in the cat’s name. Speakers were instructed to vocalise the nouns with the same intonation and manner as they vocalised the cats’ names. In Experiment 2, four of the other cohabiting cats’ names were recorded similarly to the test cats’ names. The orders of presentation of general nouns and cohabiting cats’ names were pseudo-randomized.",
+   "zh": "实验开始前，为每只猫录制了五个由人声构成的声音刺激。其中一个刺激是人呼唤该猫的名字。另外四个刺激是人说出四个不同的普通名词（实验1、3和4）或与受试猫同住的四只其他猫的名字（实验2）。在实验1、2和3中，刺激由受试猫的主人录制。在实验4中，刺激由两名受试猫不熟悉的女性录制。每位主人被要求以平时的方式说出猫的名字；如果主人平时用昵称而非真名呼唤猫，则使用昵称。在实验1、3和4中，从Matsumoto41的列表中选出四个不同的日语普通名词；所有名词熟悉度水平相同且情绪中性。名词的音拍（mora）数和重音与猫的名字相同。说话者被要求以与说猫名字相同的语调和方式说出这些名词。在实验2中，四只其他同住猫的名字以与受试猫名字相同的方式录制。普通名词和同住猫名字的呈现顺序为伪随机。"
+  },
+  {
+   "section": "Methods / Apparatus and Stimuli",
+   "section_zh": "方法 / 设备与刺激",
+   "en": "We recorded the vocalisations with a handheld digital audio recorder (ZOOM H2 Handy Recorder) in WAV format; the sampling rate was 44100 Hz with 16-bit quantisation. The sound stimuli were adjusted to the same volume level using sound editing software (Adobe Soundbooth CS4 or Adobe Audition CS6). During the experiment, the handheld recorder was used to present the stimuli through a speaker (Sony SRS-Z100), which was hidden from the test cat. The distance between the test cat and the speaker was about 3 m, and the volume of the voices was approximately 65 dB at 3 m from the speaker. A video camera (Sanyo DNX-CA9 or Panasonic HX-WA20) placed in front of the test cats recorded their reactions during the playback of the stimuli.",
+   "zh": "我们使用手持数字录音机（ZOOM H2 Handy Recorder）以WAV格式录制发声；采样率为44100 Hz，16位量化。使用音频编辑软件（Adobe Soundbooth CS4或Adobe Audition CS6）将声音刺激调整到相同音量。实验中，用该手持录音机通过一个对受试猫隐藏的扬声器（Sony SRS-Z100）播放刺激。受试猫与扬声器之间的距离约为3 m，在距扬声器3 m处声音音量约为65 dB。放在受试猫前方的摄像机（Sanyo DNX-CA9或Panasonic HX-WA20）记录了刺激播放期间猫的反应。"
+  },
+  {
+   "section": "Methods / Apparatus and Stimuli",
+   "section_zh": "方法 / 设备与刺激",
+   "en": "For Experiment 1, 3, and 4, the discriminant analysis was performed to confirm that there was no implicit difference in acoustic characteristics between noun and name stimuli. Vocal stimuli for cats which showed dishabituation (habituated cats with increasing response magnitude from noun 4 to own name: N = 9, 13, and 13 in Experiment 1, 3, and 4, respectively) were selected for analysis. Six acoustic parameters were extracted from each vocal stimulus by using Praat 6.0.43 software: total duration (sec), mean pitch (Hz), f1 (Hz), f2 (Hz), f3 (Hz), and mean intensity (dB). Then the discriminant analysis was applied with IBM SPSS Statistics 21. Above acoustic parameters were set as independent variables, and type of stimulus (noun or name) was set as a group. As a result of the analysis, high values of Wilks lambda were obtained (Experiment 1, Wilks lambda = 0.930, χ2 = 2.884, df = 6, P = 0.823; Experiment 3, Wilks lambda = 0.821, χ2 = 11.866, df = 6, P = 0.065; Experiment 4, Wilks lambda = 0.979, χ2 = 1.294, df = 6, P = 0.972), indicating that it was difficult to discriminate between noun and name stimuli by using implicit acoustical characteristics as a cue.",
+   "zh": "对于实验1、3和4，进行了判别分析，以确认名词刺激与名字刺激之间不存在隐含的声学特征差异。选取表现出去习惯化的猫（从名词4到自己名字反应强度上升的习惯化猫：实验1、3和4中分别为N = 9、13和13）的声音刺激进行分析。使用Praat 6.0.43软件从每个声音刺激中提取六个声学参数：总时长（sec）、平均音高（Hz）、f1（Hz）、f2（Hz）、f3（Hz）和平均强度（dB）。随后用IBM SPSS Statistics 21进行判别分析。以上述声学参数为自变量，刺激类型（名词或名字）为分组。分析得到较高的Wilks lambda值（实验1，Wilks lambda = 0.930，χ2 = 2.884，df = 6，P = 0.823；实验3，Wilks lambda = 0.821，χ2 = 11.866，df = 6，P = 0.065；实验4，Wilks lambda = 0.979，χ2 = 1.294，df = 6，P = 0.972），表明难以利用隐含的声学特征作为线索区分名词刺激和名字刺激。"
+  },
+  {
+   "section": "Methods / Procedure",
+   "section_zh": "方法 / 程序",
+   "en": "Experiments 1, 2, and 3 were conducted from December 2012 to November 2013; Experiment 4 was conducted from September 2016 to April 2017. All experiments were held in each owner’s home or in the cat café, wherever the particular cats lived. The experimenter waited until cats were calm before beginning the experiment. During the experiment, the owners were out of their cat’s sight. We used a habituation-dishabituation procedure in which prepared stimuli were played serially with a 15-s inter-stimulus interval (ISI); the order of presentation was word 1, word 2, word 3, word 4, and test cat’s name. The number of habituation stimuli and the ISI were improved versions of those used in a previous study17. Cats’ responses to the stimuli were expected to decrease during the presentation of words 1 through 4 due to habituation; then, if the cats could discriminate their own names from the other words, responses were expected to increase again when their own names were presented, due to dishabituation. The experiment lasted around 1.5 minutes. During presentation, the test cat was not actively isolated from cohabiting cats, to keep the test cat’s behaviour natural. There was no need for any interruption in the experimental sessions due to cohabiting cats’ behaviour.",
+   "zh": "实验1、2和3于2012年12月至2013年11月进行；实验4于2016年9月至2017年4月进行。所有实验均在相应猫所生活的主人家中或猫咖啡馆内进行。实验者等猫平静下来后才开始实验。实验期间，主人位于猫的视线之外。我们采用习惯化－去习惯化程序，以15 s刺激间隔（ISI）连续播放预先准备的刺激；呈现顺序为词语1、词语2、词语3、词语4和受试猫的名字。习惯化刺激的数量和ISI是对以往研究17所用设置的改进版本。预期由于习惯化，猫对词语1至4的反应会逐渐减弱；然后，如果猫能将自己的名字与其他词语区分开，则在呈现自己的名字时，由于去习惯化，反应会再次增强。实验持续约1.5分钟。呈现期间，为使受试猫的行为保持自然，未主动将受试猫与同住猫隔离。实验过程中没有因同住猫的行为而需要中断。"
+  },
+  {
+   "section": "Methods / Procedure",
+   "section_zh": "方法 / 程序",
+   "en": "All procedures related to animal care and experimentation in our research adhered to the ‘Guidelines for the treatment of animals in behavioural research and teaching’ as published by the Association for the Study of Animal Behaviour in Animal Behaviour 71, 245–253 (2006) and to the ethical guidelines of the University of Tokyo. The study was approved by the Animal Experiments Committee of the Graduate School of Arts and Sciences of the University of Tokyo and by the Animal Experiments Committee of Musashino University.",
+   "zh": "本研究中所有与动物护理和实验相关的程序均遵守动物行为研究学会（Association for the Study of Animal Behaviour）发表于Animal Behaviour 71, 245–253 (2006)的《行为研究与教学中动物处理指南》（‘Guidelines for the treatment of animals in behavioural research and teaching’）以及东京大学的伦理准则。本研究经东京大学大学院综合文化研究科动物实验委员会和武藏野大学动物实验委员会批准。"
+  },
+  {
+   "section": "Methods / Behavioural analysis",
+   "section_zh": "方法 / 行为分析",
+   "en": "Video-recordings of cats’ responses were trimmed to show from 5 s before stimulus onset to 10 s after stimulus offset, using Adobe Premiere CS6. Vocalisation of the words and cats’ names in the clips was masked by pure tones to facilitate blind evaluation of the clips. In total, 80, 170, 145, and 165 clips were created for Experiments 1, 2, 3, and 4, respectively.",
+   "zh": "使用Adobe Premiere CS6将猫反应的录像剪辑为从刺激开始前5 s至刺激结束后10 s。片段中词语和猫名字的发声用纯音掩蔽，以便对片段进行盲法评估。实验1、2、3和4分别共制作了80、170、145和165个片段。"
+  },
+  {
+   "section": "Methods / Behavioural analysis",
+   "section_zh": "方法 / 行为分析",
+   "en": "We conducted two kinds of analyses to investigate the cats’ response styles and magnitudes, as in our previous study17. The first analysis describes response style. One of the experimenters (KS) observed the clips of each cat in random order and classified the cat’s responses to the stimuli into five categories: ear moving, head moving, vocalising, tail moving, and displacement; each category is described in Table 1. These categories cover orienting responses (ear moving and head moving)40 and communicative responses (vocalising and tail moving)39. Each category was scored separately as 0 (absent) or 1 (present) for each clip, to determine the proportion of cats showing each response in each presentation trial. Then, the summed score was calculated as the total score for each clip, to enable examination of the correlation between the numbers of categories occurring simultaneously and response magnitude rated by blind raters (described in the next section). To check for reliability, the other experimenter (AS) observed a random selection of one-fourth of the clips and scored the cats’ behaviours. The indices of concordance were 0.75 for ear moving, 0.81 for head moving, 0.99 for vocalising, 0.97 for tail moving, and 0.99 for displacement (κ = 0.76, P < 0.001 for overall observation).",
+   "zh": "与之前的研究17一样，我们进行了两类分析来考察猫的反应方式和反应强度。第一类分析描述反应方式。一名实验者（KS）以随机顺序观察每只猫的片段，并将猫对刺激的反应分为五类：动耳、动头、发声、摆尾和位移；各类别的描述见表1。这些类别涵盖定向反应（动耳和动头）40和交流反应（发声和摆尾）39。每个片段的每个类别分别记为0（无）或1（有），以确定每个呈现试次中表现出各种反应的猫所占比例。然后计算各片段的得分之和作为总分，以便检验同时出现的类别数量与盲法评分者评定的反应强度（见下一节）之间的相关性。为检验信度，另一名实验者（AS）随机观察了四分之一的片段并对猫的行为评分。一致性指数为：动耳0.75、动头0.81、发声0.99、摆尾0.97、位移0.99（总体观察κ = 0.76，P < 0.001）。"
+  },
+  {
+   "section": "Methods / Behavioural analysis",
+   "section_zh": "方法 / 行为分析",
+   "en": "The second analysis was conducted to examine response magnitude. Raters who were blind to the stimuli and their presentation order scored each cat’s responses in the clips, which were presented in random order within each test cat. In Experiment 1, there were ten blind raters (6 men and 4 women; mean age = 21.7 years), whereas in Experiment 2 and 3 there were six blind raters (all women; mean age = 27.5 years), and in Experiment 4, nine blind raters (one man and 8 women; mean age = 22.9 years). The raters were instructed to compare each cat’s behaviours before and after the presentation of each stimulus and rate the magnitude of the cat’s responses to the stimuli from 0 (no response) to 3 (marked response). Kendall’s coefficient of concordance showed significant, moderate concordance among the raters (W = 0.73, df = 79, P < 0.001; W = 0.73, df = 169, P < 0.001; W = 0.65, df = 144, P < 0.001, W = 0.55, df = 164, P < 0.001 for Experiments 1, 2 3, and 4, respectively).",
+   "zh": "第二类分析用于考察反应强度。对刺激及其呈现顺序不知情的评分者对片段中每只猫的反应进行评分，片段在每只受试猫内以随机顺序呈现。实验1有十名盲法评分者（6男4女；平均年龄 = 21.7岁），实验2和3有六名盲法评分者（均为女性；平均年龄 = 27.5岁），实验4有九名盲法评分者（1男8女；平均年龄 = 22.9岁）。评分者被要求比较每个刺激呈现前后猫的行为，并将猫对刺激的反应强度评为0（无反应）至3（明显反应）。Kendall一致性系数显示评分者之间存在显著的中度一致性（实验1、2、3和4分别为W = 0.73，df = 79，P < 0.001；W = 0.73，df = 169，P < 0.001；W = 0.65，df = 144，P < 0.001，W = 0.55，df = 164，P < 0.001）。"
+  },
+  {
+   "section": "Methods / Behavioural analysis",
+   "section_zh": "方法 / 行为分析",
+   "en": "Mean response magnitude was calculated for each video clip and used for subsequent analysis. GLMM was applied using the lme4 package version 1.1–13 on R software version 3.4.1. Stimulus category (Experiment 1; noun 4 v. own name, Experiment 2; other cat’s name 4 v. own name, Experiment 3; noun 4 v. own name, Experiment 4; noun 4 v. own name) was set as a fixed effect. Environment (ordinary households v. cat café) and interaction of stimulus category * environment were also set as fixed effects for Experiments 2 and 3. Subjects were set as a random effect. Gaussian distribution with identity link function was specified for lmer function. Then, post-hoc analysis was conducted using the step function in the lmerTest package version 2.0–33; the step function reduced non-significant fixed effects and determined a final model. The random effect (subjects) was manually kept regardless of significance, to control pseudo-replication.",
+   "zh": "计算每个视频片段的平均反应强度，用于后续分析。在R软件3.4.1版上使用lme4程序包1.1–13版拟合GLMM。刺激类别（实验1：名词4 vs. 自己名字；实验2：其他猫名字4 vs. 自己名字；实验3：名词4 vs. 自己名字；实验4：名词4 vs. 自己名字）设为固定效应。对于实验2和3，环境（普通家庭 vs. 猫咖啡馆）及刺激类别 * 环境的交互作用也设为固定效应。受试个体设为随机效应。lmer函数指定为采用恒等连接函数的高斯分布。随后使用lmerTest程序包2.0–33版中的step函数进行事后分析；step函数剔除不显著的固定效应并确定最终模型。为控制伪重复，无论是否显著，均人工保留随机效应（受试个体）。"
+  },
+  {
+   "section": "Figure legend",
+   "section_zh": "图注",
+   "en": "Figure 1 Response style to vocal stimuli in overall cats. Upper panels: Behaviour observed in response to voice stimuli and the percentage of cats that expressed each behaviour in (a) Experiment 1, (b) Experiment 2, (c) Experiment 3, and (d) Experiment 4. Black solid lines indicate orienting response. Black dashed lines indicate communicative response. Gray solid lines indicate displacement. Lower panels: Mean total behavioural scores for all cats in (a) Experiment 1, (b) Experiment 2, (c) Experiment 3, and (d) Experiment 4. Error bars indicate SEs.",
+   "zh": "图1 全部猫对声音刺激的反应方式。上图：(a) 实验1、(b) 实验2、(c) 实验3和(d) 实验4中对声音刺激观察到的行为以及表现出各行为的猫所占百分比。黑色实线表示定向反应。黑色虚线表示交流反应。灰色实线表示位移。下图：(a) 实验1、(b) 实验2、(c) 实验3和(d) 实验4中全部猫的平均行为总分。误差线表示标准误（SE）。"
+  },
+  {
+   "section": "Figure legend",
+   "section_zh": "图注",
+   "en": "Figure 2 Mean magnitude of responses to each voice in habituated cats in (a) Experiment 1, (b) Experiment 2, (c) Experiment 3, and (d) Experiment 4. Error bars indicate SEs. Asterisks indicate significant differences (P < 0.05).",
+   "zh": "图2 (a) 实验1、(b) 实验2、(c) 实验3和(d) 实验4中习惯化猫对各声音的平均反应强度。误差线表示标准误（SE）。星号表示差异显著（P < 0.05）。"
+  },
+  {
+   "section": "Table caption",
+   "section_zh": "表题",
+   "en": "Table 1 Descriptions of categories for behavioural scores.",
+   "zh": "表1 行为评分各类别的描述。"
+  }
+ ]
+}
