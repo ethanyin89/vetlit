@@ -459,7 +459,7 @@ def paper(p):
     if terms: body+=f'<details class="fold"><summary>关键术语中英对照</summary>{mdc(terms)}</details>'
     _tr=X.translation(p.get('pmid'),p.get('license')) if X.can_translate(p) else None
     if _tr:
-        orig=f'<p>许可 {E_(str(p.get("license","")).upper())}。<a class="btn" href="bilingual/">阅读中英对照全文 →</a></p><p class="note">译者：<a href="{CA(2)}">deep extract</a>；数字逐项核对；尚未经第二译者审校。如有出入，以英文原文为准。</p>'
+        orig=f'<p>许可 {E_(str(p.get("license","")).upper())}。<a class="btn" href="bilingual/">阅读中英对照全文 →</a></p><p class="note">译文：<a href="{CA(2)}">VetLit 翻译流程</a>（全文翻译 + 数字与单位逐项校验，原文矛盾处加译注；尚无第二译者审校）。如有出入，以英文原文为准。</p>'
     elif X.can_translate(p):
         orig=f'<p>许可 {E_(str(p.get("license","")).upper())} 允许翻译，中英对照尚未生成。{f'<a href="https://doi.org/{E_(p["doi"])}">阅读原文 →</a>' if p.get('doi') else ''}</p>'
     else:
