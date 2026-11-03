@@ -1,0 +1,378 @@
+{
+ "pmid": "34758043",
+ "license": "CC BY 4.0",
+ "attribution": {
+  "authors": [
+   "Takagi Saho",
+   "Chijiiwa Hitomi",
+   "Arahori Minori",
+   "Saito Atsuko",
+   "Fujita Kazuo",
+   "Kuroshima Hika"
+  ],
+  "title": "Socio-spatial cognition in cats: Mentally mapping owner’s location from voice",
+  "journal": "PLoS ONE",
+  "year": "2021",
+  "doi": "10.1371/journal.pone.0257611",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "note": "中文为 AI 翻译，以英文原文为准；已对原文做翻译改编"
+ },
+ "scope_zh": "标题、摘要、引言、一般程序、实验1–3（方法、结果与讨论）、总讨论全文正文；图1–6图注、表1表题及表注。未含：参考文献、支持信息（S1–S5 Table、视频）、表格正文。来源：Europe PMC全文XML（PMC8580247）。",
+ "paragraphs": [
+  {
+   "section": "Title",
+   "section_zh": "标题",
+   "en": "Socio-spatial cognition in cats: Mentally mapping owner’s location from voice",
+   "zh": "猫的社会‐空间认知：根据声音在心理上定位主人的位置"
+  },
+  {
+   "section": "Abstract",
+   "section_zh": "摘要",
+   "en": "Many animals probably hold mental representations about the whereabouts of others; this is a form of socio-spatial cognition. We tested whether cats mentally map the spatial position of their owner or a familiar cat to the source of the owner’s or familiar cat’s vocalization. In Experiment 1, we placed one speaker outside a familiar room (speaker 1) and another (speaker 2) inside the room, as far as possible from speaker 1, then we left the subject alone in the room. In the habituation phase, the cat heard its owner’s voice calling its name five times from speaker 1. In the test phase, shortly after the 5th habituation phase vocalization, one of the two speakers played either the owner’s voice or a stranger’s voice calling the cat’s name once. There were four test combinations of speaker location and sound: SamesoundSamelocation, SamesoundDifflocation, DiffsoundSamelocation, DiffsoundDifflocation. In line with our prediction, cats showed most surprise in the SamesoundDifflocation condition, where the owner suddenly seemed to be in a new place. This reaction disappeared when we used cat vocalizations (Experiment 2) or non-vocal sounds (Experiment 3) as the auditory stimuli. Our results suggest that cats have mental representations about their out-of-sight owner linked to hearing the owner’s voice, indicating a previously unidentified socio-spatial cognitive ability.",
+   "zh": "许多动物可能对其他个体的下落持有心理表征；这是社会‐空间认知的一种形式。我们检验了猫是否会依据主人或熟悉的猫的叫声来源，在心理上标定主人或该熟悉猫的空间位置。在实验1中，我们在一个熟悉的房间外放置一个扬声器（扬声器1），在房间内尽可能远离扬声器1的位置放置另一个扬声器（扬声器2），然后让受试猫独自留在房间里。在习惯化阶段，猫从扬声器1听到主人呼唤其名字的声音五次。在测试阶段，在第5次习惯化阶段发声后不久，两个扬声器中的一个播放一次主人或陌生人呼唤猫名字的声音。扬声器位置与声音共有四种测试组合：SamesoundSamelocation（同声同位）、SamesoundDifflocation（同声异位）、DiffsoundSamelocation（异声同位）、DiffsoundDifflocation（异声异位）。与我们的预测一致，猫在SamesoundDifflocation条件下表现出最大的惊讶，此时主人似乎突然出现在一个新地点。当我们使用猫的叫声（实验2）或非发声类声音（实验3）作为听觉刺激时，这种反应消失。我们的结果表明，猫对看不见的主人持有与听到主人声音相关联的心理表征，提示了一种此前未被认识的社会‐空间认知能力。"
+  },
+  {
+   "section": "Introduction",
+   "section_zh": "引言",
+   "en": "Mental representations about the whereabouts of living things such as other group members, predators, or prey are likely to be advantageous for many animals, especially in conditions of poor visibility [1, 2]. Noë & Laporte called this ability “socio-spatial cognition” [1]; it can be seen as a valuable cognitive ability that involves spatially mapping others by using auditory information such as vocalizations or other auditory cues.",
+   "zh": "对群体其他成员、捕食者或猎物等生物下落的心理表征，很可能对许多动物有利，尤其是在能见度差的条件下[1, 2]。Noë和Laporte将这种能力称为“社会‐空间认知”[1]；它可被视为一种有价值的认知能力，涉及利用叫声或其他听觉线索等听觉信息在空间上标定其他个体。"
+  },
+  {
+   "section": "Introduction",
+   "section_zh": "引言",
+   "en": "Mentally representing non-visible living things might be strongly related to “object permanence,” which involves maintaining a mental representation of an object even though it can no longer be directly perceived [3]. In humans, the ability is known to be present at a relatively early developmental stage [4]. Many non-human species have tested positively for at least some levels of object permanence (see review in [5]; for example, chimpanzees (Pan troglodytes): [6–9], bonobos (Pan paniscus): [6, 7], orangutans (Pongo pygmaeus): [6, 8], gorillas (Gorilla gorilla): [6, 10], Eurasian jays (Garrulus glandarius): [11], bears (Melursus ursinus and Helarctos malayanus euryspilus): [12], dogs (Canis lupus familiaris):[13] and cats (Felis catus): [14]). Subjects belonging to these diverse species searched in the correct place when food or another object was seen to disappear (visible displacement). Some apes even passed “invisible displacement” trials that required tracking of invisible object movements [15]. Almost all object permanence tests present the subjects with visual information only. But for animals in their natural environment, it could be important to mentally track other individuals’ whereabouts using other sensory modalities (e.g., audition).",
+   "zh": "对不可见生物的心理表征可能与“客体永久性”密切相关，后者指即使某一物体不再能被直接感知，仍保持对它的心理表征[3]。已知人类在相对较早的发育阶段即具备这种能力[4]。许多非人类物种在至少某种程度的客体永久性测试中表现为阳性（综述见[5]；例如黑猩猩（Pan troglodytes）：[6–9]，倭黑猩猩（Pan paniscus）：[6, 7]，猩猩（Pongo pygmaeus）：[6, 8]，大猩猩（Gorilla gorilla）：[6, 10]，松鸦（Garrulus glandarius）：[11]，熊（Melursus ursinus和Helarctos malayanus euryspilus）：[12]，犬（Canis lupus familiaris）：[13]和猫（Felis catus）：[14]）。当看到食物或其他物体消失时（可见位移），这些不同物种的受试动物都能在正确的位置寻找。一些类人猿甚至通过了需要追踪不可见物体移动的“不可见位移”试验[15]。几乎所有客体永久性测试都只向受试动物呈现视觉信息。但对于处于自然环境中的动物而言，利用其他感觉通道（如听觉）在心理上追踪其他个体的下落可能很重要。"
+  },
+  {
+   "section": "Introduction",
+   "section_zh": "引言",
+   "en": "Vervet monkeys (Chlorocebus pygerythrus) were shown to mentally track out-of-sight conspecifics through playbacks of their vocalizations [1]. The monkeys responded more when a group member appeared to be implausibly displaced, suggesting the ability to mentally follow invisible displacements of familiar individuals. Similar results were obtained in meerkats (Suricata suricatta) [16] and tropical birds: green woodhoopoes (Phoeniculus purpureus) [17]. Meerkats also showed strong responses when a conspecific suddenly appeared to be “teleported,” with its vocalization coming from a location other that the one where they heard the conspecific’s vocalization just a moment ago. Green woodhoopoes responded more rapidly to strangers and to neighbors in the wrong location than to neighbors in their expected location. In sum, animals that live in social groups or that hunt prey under conditions of poor visibility might be expected to hold mental representations of other animate things.",
+   "zh": "研究表明，黑长尾猴（Chlorocebus pygerythrus）能通过回放同类的叫声，在心理上追踪看不见的同类[1]。当一名群体成员似乎发生了不合理的位移时，这些猴子的反应更强，提示它们能在心理上追踪熟悉个体的不可见位移。在狐獴（Suricata suricatta）[16]和热带鸟类绿林戴胜（Phoeniculus purpureus）[17]中也得到了类似结果。当某一同类的叫声来自一个与刚才听到其叫声的位置不同的地点、即该同类仿佛突然被“瞬间移动”时，狐獴也表现出强烈反应。绿林戴胜对陌生个体以及出现在错误位置的邻居的反应，比对出现在预期位置的邻居更快。总之，可以预期那些群居或在能见度差的条件下捕猎的动物会对其他生物持有心理表征。"
+  },
+  {
+   "section": "Introduction",
+   "section_zh": "引言",
+   "en": "In this study, we tested cats (Felis catus). This animal has remarkable hearing ability and can use sounds to infer the location of unseen prey under conditions of low visibility [18]. Cats have sensitive ears that have more than 20 muscles and are capable of moving independently in all directions [19]. The auditory range for cats extends from 55 Hz to 79 kHz [20]. These ecological and anatomical features might promote cognitive processing of auditory information. Indeed, cats appear to be good at inferring physical and social presence from sounds. Takagi et al demonstrated this kind of inference for unseen inanimate objects [21], and Takagi et al showed that cats expected to see their owner’s face upon hearing their owner’s voice [22]. These studies provide evidence that cats can predict visual events based on auditory information.",
+   "zh": "在本研究中，我们以猫（Felis catus）为研究对象。这种动物听力出众，在能见度低的条件下能利用声音推断看不见的猎物的位置[18]。猫的耳朵很灵敏，有20多块肌肉，能够独立地向各个方向转动[19]。猫的听觉范围为55 Hz至79 kHz[20]。这些生态学和解剖学特征可能促进了对听觉信息的认知加工。事实上，猫似乎善于从声音推断物理存在和社会存在。Takagi等证明了猫对看不见的无生命物体存在这类推断[21]，Takagi等还表明，猫在听到主人的声音时会预期看到主人的脸[22]。这些研究提供了证据，表明猫能根据听觉信息预测视觉事件。"
+  },
+  {
+   "section": "Introduction",
+   "section_zh": "引言",
+   "en": "Other studies have also shown that cats acquire social information from audition. They discriminate between their owner’s voice and a stranger’s [23], and they can recognize emotional sounds from other cats and humans, by matching vocalizations to facial expressions (Angry vs. Happy) [24]. In addition, they pass visible displacement tasks [25], confirming cats’ ability to form mental representations of objects. In sum, cats use sounds to identify individual humans and discriminate emotional states of humans and cats. Considering their natural crepuscular profile and hearing-dominant ecology along with their social cognitive abilities described above, it seems plausible that cats should be able to mentally map others’ locations based on vocalizations.",
+   "zh": "其他研究也表明猫能从听觉中获取社会信息。它们能区分主人的声音和陌生人的声音[23]，并能通过将叫声与面部表情（愤怒vs.高兴）相匹配，识别来自其他猫和人类的情绪声音[24]。此外，它们能通过可见位移任务[25]，证实了猫形成物体心理表征的能力。总之，猫利用声音识别人类个体，并区分人和猫的情绪状态。考虑到猫天然的晨昏活动习性、以听觉为主的生态特点以及上述社会认知能力，猫应当能够根据叫声在心理上标定其他个体的位置，这似乎是合理的。"
+  },
+  {
+   "section": "Introduction",
+   "section_zh": "引言",
+   "en": "Here we tested whether cats hold mental representations of others and spatially map others based on auditory information in the form of vocalizations. To this aim, we presented cats with “teleportation”-like scenarios as used in studies with vervet monkeys [1] and meerkats [16]. In Experiment 1, the owner’s voice was played back sequentially from two separate locations, in a simulation of apparent teleportation. In Experiment 2 we presented a vocalization from a familiar cat to examine whether similar socio-spatial cognitive processing would occur with a conspecific vocalization. We used nonsocial physical sounds in Experiment 3 as a control condition, to test whether reactions seen in Experiments 1 and 2 were specific to social stimuli. As live agents move spontaneously, it is impossible for the same live agent to exist in two places at the same time, whereas it might be at least theoretically possible for non-social objects to replicate and occupy two locations simultaneously. For this reason, we included a non-social sound as a control condition. Our hypothesis was that if cats identify a familiar individual (owner or cat) from vocalizations and mentally map their location, they should react more strongly when the same sound is sequentially played back from different locations, simulating an “impossible teleportation” of the owner or familiar cat.",
+   "zh": "在此，我们检验了猫是否对其他个体持有心理表征，并根据叫声形式的听觉信息在空间上标定其他个体。为此，我们向猫呈现了类似“瞬间移动”的情景，与黑长尾猴[1]和狐獴[16]研究中所用的相同。在实验1中，主人的声音先后从两个分开的位置回放，模拟明显的瞬间移动。在实验2中，我们呈现一只熟悉的猫的叫声，以检验同类叫声是否会引发类似的社会‐空间认知加工。在实验3中，我们使用非社会性的物理声音作为对照条件，以检验实验1和2中所见反应是否特异于社会性刺激。由于活的个体会自发移动，同一活体不可能同时存在于两个地方，而非社会性物体至少在理论上可能被复制并同时占据两个位置。因此，我们纳入了非社会性声音作为对照条件。我们的假设是：如果猫能从叫声中识别熟悉的个体（主人或猫）并在心理上标定其位置，那么当同一声音先后从不同位置回放、模拟主人或熟悉的猫发生“不可能的瞬间移动”时，猫应会反应更强烈。"
+  },
+  {
+   "section": "General procedure",
+   "section_zh": "一般程序",
+   "en": "The cats were individually tested in their familiar environment: house or café. In the latter case we tested cats in the café, each of which had at least two separate rooms, one of which served as the test room and the other as a waiting room. The owner and the experimenter were in the room next to the test room. We used two wireless speakers (SONY SRS-X11, Japan) connected by Bluetooth. Speaker 1 was placed outside the test room, near the door. Speaker 2 was placed inside the test room close to another door or a window (Fig 1). The distance between the two speakers varied depending on the room layout, but it was at least 4 m, large enough to make it impossible for anyone to move from one to the other in 2.5 sec. After the experimenter positioned the speakers and five cameras (SONY HDR-CX675, Japan; three GOPRO HERO 5, United states; RICOH Theta V, Japan) to focus on the cat in the room, the experimenter left the room, leaving the cat to move freely. After 3 min to allow the cat to acclimate and relax, the experimenter started a trial by pressing a key on the computer that controlled the presentation of the stimuli. Note that we determined that a cat was relaxed if it explored the room normally, without hiding.",
+   "zh": "猫在其熟悉的环境（家中或猫咖啡馆）中逐只接受测试。对于后者，我们在咖啡馆中测试猫，每家咖啡馆至少有两个独立的房间，一个作为测试室，另一个作为等候室。主人和实验者待在测试室隔壁的房间。我们使用两台通过蓝牙连接的无线扬声器（SONY SRS-X11，日本）。扬声器1放在测试室外、靠近门的位置。扬声器2放在测试室内、靠近另一扇门或窗户的位置（图1）。两个扬声器之间的距离因房间布局而异，但至少为4 m，足以使任何人都不可能在2.5 sec内从一处移动到另一处。实验者布置好扬声器和五台摄像机（SONY HDR-CX675，日本；三台GOPRO HERO 5，美国；RICOH Theta V，日本）并对准房间中的猫后离开房间，让猫自由活动。经过3 min让猫适应并放松后，实验者按下控制刺激呈现的电脑上的按键开始一次试验。注：若猫正常探索房间且不躲藏，我们即判定其已放松。"
+  },
+  {
+   "section": "General procedure",
+   "section_zh": "一般程序",
+   "en": "Three experiments (2 tests and 1 control experiment) were conducted, with two types of sounds played in each experiment for each condition (Table 1). The sounds were different in each experiment, each of which consisted of two phases: habituation and test. In the habituation phase, a sound (habituation stimulus) was played five times from speaker 1, and then in the test phase either the same sound or a different sound (test stimulus) was played once from either speaker 1 or 2, for a total of six presentations during the trial. The test phase continued for 15 sec after the test stimulus was played, and during this time the cat’s behavior was video recorded. There were four conditions depending on “what” test stimulus was played back from “where”: SamesoundSamelocation, DiffsoundSamelocation, SamesoundDifflocation, and DiffsoundDifflocation. For example, in DiffsoundDifflocation, the sound used in the habituation phase was different from that used in the test phase, and the latter was played from speaker 2, which was also different from the one in the habituation phase (Table 1). Combinations of sounds (same or different) were between-subject conditions, while location of speaker (same or different) was a within-subject condition. Each cat participated once in each of two conditions, for example, Diffsound Samelocation and DiffsoundDifflocation. The order of conditions was counterbalanced across subjects.",
+   "zh": "共进行了三项实验（2项测试实验和1项对照实验），每项实验的每种条件下播放两类声音（表1）。各实验所用声音不同，每项实验包括两个阶段：习惯化和测试。在习惯化阶段，从扬声器1播放某一声音（习惯化刺激）五次，然后在测试阶段，从扬声器1或2播放一次相同或不同的声音（测试刺激），一次试验共呈现六次。测试阶段在播放测试刺激后持续15 sec，期间对猫的行为进行录像。根据“什么”测试刺激从“哪里”回放，共有四种条件：SamesoundSamelocation、DiffsoundSamelocation、SamesoundDifflocation和DiffsoundDifflocation。例如，在DiffsoundDifflocation中，习惯化阶段所用声音与测试阶段所用声音不同，且后者从扬声器2播放，也与习惯化阶段的扬声器不同（表1）。声音组合（相同或不同）为被试间条件，扬声器位置（相同或不同）为被试内条件。每只猫在两种条件下各参加一次，例如Diffsound Samelocation和DiffsoundDifflocation。条件顺序在受试猫之间进行了平衡。"
+  },
+  {
+   "section": "General procedure",
+   "section_zh": "一般程序",
+   "en": "The inter-stimulus interval (ISI) was 2.5 sec, and the inter-trial interval (ITI) was at least 3 min. During the ITI, cats could move freely in the room. All sounds were adjusted to be around 1 sec in duration, and volume was equated using Audacity® version 2.3.0 [26]. Presentations of sound stimuli were controlled via the Visual Studio 2013 program on a personal laptop computer (NEC Lavie G type Z, Japan).",
+   "zh": "刺激间隔（ISI）为2.5 sec，试验间隔（ITI）至少为3 min。在ITI期间，猫可以在房间内自由活动。所有声音的时长均调整为约1 sec，并使用Audacity® version 2.3.0 [26]统一音量。声音刺激的呈现通过个人笔记本电脑（NEC Lavie G type Z，日本）上的Visual Studio 2013程序控制。"
+  },
+  {
+   "section": "General procedure",
+   "section_zh": "一般程序",
+   "en": "We predicted that cats would be especially surprised by test stimuli in the SamesoundDifflocation condition, in which the familiar individual was apparently teleported (Experiments 1 and 2), but that they would show no such response when non-social sounds were used (Experiment 3).",
+   "zh": "我们预测，在SamesoundDifflocation条件下，即熟悉的个体明显发生了瞬间移动时（实验1和2），猫会对测试刺激特别惊讶；但在使用非社会性声音时（实验3），猫不会表现出这种反应。"
+  },
+  {
+   "section": "General procedure",
+   "section_zh": "一般程序",
+   "en": "This study adhered to the ethical guidelines of Kyoto University, and was approved by the Animal Experiments Committee of the Graduate School of Letters, Kyoto University (No. 17–35). Rating procedures adhered to the ethical guidelines of Kyoto University and Bukkyo University. This study was approved by the unit for advanced study of mind, Kyoto University (30-P-18) and Human Experiment Committee, Bukkyo University (H30-27-A). We obtained informed consent from all owners both verbally and on paper. Cats were not deprived of water or food for any reason related to the study.",
+   "zh": "本研究遵守京都大学伦理准则，并经京都大学文学研究科动物实验委员会批准（No. 17–35）。评分程序遵守京都大学和佛教大学的伦理准则。本研究经京都大学心灵高等研究单元（30-P-18）和佛教大学人体实验委员会（H30-27-A）批准。我们以口头和书面形式获得了所有主人的知情同意。猫未因本研究相关的任何原因被限制饮水或进食。",
+   "note_zh": "译注：原文（PMC XML）中该伦理声明段落在“一般程序”与“实验1/方法/伦理声明”两处重复出现，此处按原文保留。"
+  },
+  {
+   "section": "Experiment 1 / Methods / Ethical statement",
+   "section_zh": "实验1 / 方法 / 伦理声明",
+   "en": "This study adhered to the ethical guidelines of Kyoto University, and was approved by the Animal Experiments Committee of the Graduate School of Letters, Kyoto University (No. 17–35). Rating procedures adhered to the ethical guidelines of Kyoto University and Bukkyo University. This study was approved by the unit for advanced study of mind, Kyoto University (30-P-18) and Human Experiment Committee, Bukkyo University (H30-27-A). We obtained informed consent from all owners both verbally and on paper. Cats were not deprived of water or food for any reason related to the study.",
+   "zh": "本研究遵守京都大学伦理准则，并经京都大学文学研究科动物实验委员会批准（No. 17–35）。评分程序遵守京都大学和佛教大学的伦理准则。本研究经京都大学心灵高等研究单元（30-P-18）和佛教大学人体实验委员会（H30-27-A）批准。我们以口头和书面形式获得了所有主人的知情同意。猫未因本研究相关的任何原因被限制饮水或进食。"
+  },
+  {
+   "section": "Experiment 1 / Methods / Subjects",
+   "section_zh": "实验1 / 方法 / 受试对象",
+   "en": "Fifty domestic cats (Felis catus) (23 males, 27 females) participated in Exp.1. Twenty-seven were kept at five “cat cafés” (11 males, 16 females, mean age 4.81 years, SD = 3.36 years, range 11 months to 12.6 years), where visitors enjoy contact with the resident cats. Cafés cats lived in rooms with other cats. The remaining subjects were house cats (12 males, 11 females, mean age 6.61 years, SD = 4.02 years, range 11 months to 15.6 years) (see details in S1 Table). An additional five cats were excluded due to two of them staying out of camera range, and inadequate sound due to a poor Bluetooth connection (three cats).",
+   "zh": "五十只家猫（Felis catus）（23只雄性，27只雌性）参加了实验1。其中二十七只饲养于五家“猫咖啡馆”（11只雄性，16只雌性，平均年龄4.81岁，SD = 3.36岁，范围11个月至12.6岁），访客可在那里与店内的猫接触。咖啡馆的猫与其他猫同住在房间里。其余受试猫为家养猫（12只雄性，11只雌性，平均年龄6.61岁，SD = 4.02岁，范围11个月至15.6岁）（详见S1 Table）。另有五只猫被排除，其中两只停留在摄像范围外，另有三只因蓝牙连接不佳导致声音不合格。"
+  },
+  {
+   "section": "Experiment 1 / Methods / Apparatus & stimuli",
+   "section_zh": "实验1 / 方法 / 设备与刺激",
+   "en": "We used the owner’s voice calling the cat’s name as the habituation stimulus and/or test stimulus, and the voice of a same-sex unfamiliar person calling the cat’s name as a test stimulus. In cat cafés, we regarded the main caregivers as owners. We asked the owner to call the cat’s name as usual and recorded the call using a handheld digital audio recorder (SONY ICD-UX560F, Japan) in WAV format. The sampling rate was 44,100 Hz and the sampling resolution was 16-bit. The call lasted about 1 sec, depending on the length of cat’s name (mean duration = 1.24 sec, SD = 0.21, average frequency = 222.92 Hz, SD = 114.87, mean loudness = -15.07 dB, SD = 2.12). Note that the habituation stimulus was always the owner’s voice, and the test stimulus was either owner’s voice or stranger’s voice in Exp.1 (see Table 1).",
+   "zh": "我们使用主人呼唤猫名字的声音作为习惯化刺激和/或测试刺激，并使用同性别陌生人呼唤猫名字的声音作为测试刺激。在猫咖啡馆中，我们将主要照护者视为主人。我们请主人像平常一样呼唤猫的名字，并用手持数字录音机（SONY ICD-UX560F，日本）以WAV格式录音。采样率为44,100 Hz，采样分辨率为16-bit。呼唤持续约1 sec，具体取决于猫名字的长度（平均时长 = 1.24 sec，SD = 0.21，平均频率 = 222.92 Hz，SD = 114.87，平均响度 = -15.07 dB，SD = 2.12）。注：在实验1中，习惯化刺激始终是主人的声音，测试刺激则为主人或陌生人的声音（见表1）。"
+  },
+  {
+   "section": "Experiment 1 / Methods / Analysis",
+   "section_zh": "实验1 / 方法 / 分析",
+   "en": "We extracted a video clip for evaluation from 2 sec before the test stimulus sound onset until 12 sec after the sound offset for each test phase. Test sounds were replaced by pure tones for the purpose of blind coding of the clips. All data from “error” trials (nine due to a bad Bluetooth connection, two due to experimenter error, and seven due to the cat being out of camera range) were excluded from the analysis. In total, 82 clips were created using Adobe Premiere CC 2019 (USA): 20 for SamesoundSamelocation, 22 for DiffsoundSamelocation, 21 for SamesoundDifflocation, and 19 for DiffsoundDifflocation. We used subjective ratings by raters instead of coding some behaviors following Kubinyi, Gosling, and Miklósi’s report that such ratings are appropriate when the target concept consists of multiple behaviors [27]. Our target concept, “surprise”, included multiple behaviors including moving ears, head direction, looking back and displace. Therefore, we used subjective ratings in addition to latency to look back. Eight “blind” raters (4 men, 4 women, mean age 21 years) evaluated the subjects’ reaction in all clips, in random order. They were instructed to subjectively rate the cat’s level of surprise to the pure tones on a 5-point scale ranging from 0 (no surprised) to 4 (strongly surprised) (see video clips which show typical cats’ reaction rated 0 and 4 in supporting information). They were also instructed to ignore any reaction to other environmental sounds.",
+   "zh": "对于每个测试阶段，我们截取从测试刺激声音开始前2 sec至声音结束后12 sec的视频片段用于评估。为对片段进行盲法编码，测试声音被替换为纯音。所有“错误”试验的数据（九次因蓝牙连接不良、两次因实验者失误、七次因猫在摄像范围外）均被排除在分析之外。使用Adobe Premiere CC 2019（美国）共制作了82个片段：SamesoundSamelocation 20个，DiffsoundSamelocation 22个，SamesoundDifflocation 21个，DiffsoundDifflocation 19个。根据Kubinyi、Gosling和Miklósi的报告，当目标概念由多种行为组成时，评分者的主观评分是合适的[27]，因此我们采用评分者的主观评分，而非对某些行为进行编码。我们的目标概念“惊讶”包括多种行为，如耳朵转动、头部朝向、回头看和移位。因此，除回头看的潜伏期外，我们还采用了主观评分。八名“盲法”评分者（4男4女，平均年龄21岁）以随机顺序评价了所有片段中受试猫的反应。他们被要求按5-point量表从0（不惊讶）到4（非常惊讶）主观评定猫对纯音的惊讶程度（典型的评分为0和4的猫反应视频片段见支持信息）。还要求他们忽略对其他环境声音的任何反应。"
+  },
+  {
+   "section": "Experiment 1 / Methods / Analysis",
+   "section_zh": "实验1 / 方法 / 分析",
+   "en": "All statistical analyses were conducted using R version 3.5.1 [28]. The magnitude of surprise was analyzed by a linear mixed model (LMM) using a lmer function in lme4 package version 1.1.10 [29], in which location (same/diff), sound (same/diff), the interaction between location and voice type and trial order (first/second) were entered as fixed factors, and subject identity was entered as a random factor. To test whether factor effects were significant, we ran Wald chi square tests by an Anova function in car package [30]. We used a difflsmeans function in lmer Test package [31] which tested differences of least squares to compare each condition. Degrees of freedom were adjusted by Kenward-Roger, and p-value was adjusted using the Tukey method.",
+   "zh": "所有统计分析均使用R version 3.5.1 [28]进行。惊讶程度采用线性混合模型（LMM）分析，使用lme4 package version 1.1.10 [29]中的lmer函数，以位置（相同/不同）、声音（相同/不同）、位置与声音类型的交互作用以及试验顺序（第一次/第二次）为固定因素，以受试个体为随机因素。为检验因素效应是否显著，我们使用car包[30]中的Anova函数进行Wald卡方检验。我们使用lmer Test包[31]中的difflsmeans函数检验最小二乘差异，以比较各条件。自由度采用Kenward-Roger法调整，p值采用Tukey法调整。"
+  },
+  {
+   "section": "Experiment 1 / Methods / Analysis",
+   "section_zh": "实验1 / 方法 / 分析",
+   "en": "In addition to the ratings analysis, we analyzed latency to look toward speaker 2. One of the experimenters (H.C.), blind to the conditions, counted the number of frames (30 frames/sec.) until the subjects looked toward speaker 2 in all conditions. Looking onset was defined as the cat’s head starting to orient toward speaker 2. Although cats had no reason to look back in the Samelocation conditions, we analyzed looking back as a control. Seventeen, 13, 13 and 8 cats who looked back toward speaker 2 during test phase for SamesoundDifflocaation, DiffsoundDifflocation, DiffsoundSamelocation and SamesoundSamelocation conditions were included. The videos were analyzed using Adobe Premiere CC 2019. To check reliability of coding, an assistant who was blind to the conditions coded a randomly chosen 20% of the videos. The correlation between the two coders was high and positive (Pearson’s r = 0.92, n = 24, p < 0.01).",
+   "zh": "除评分分析外，我们还分析了看向扬声器2的潜伏期。一名对条件不知情的实验者（H.C.）在所有条件下计数受试猫看向扬声器2之前的帧数（30帧/sec.）。看的起始定义为猫的头部开始转向扬声器2。尽管在Samelocation条件下猫没有理由回头看，但我们仍将回头看作为对照进行分析。纳入了在测试阶段回头看向扬声器2的猫：SamesoundDifflocaation、DiffsoundDifflocation、DiffsoundSamelocation和SamesoundSamelocation条件下分别为十七只、13只、13只和8只。视频使用Adobe Premiere CC 2019进行分析。为检验编码的信度，一名对条件不知情的助手对随机抽取的20%视频进行了编码。两名编码者之间的相关性高且为正（Pearson’s r = 0.92，n = 24，p < 0.01）。"
+  },
+  {
+   "section": "Experiment 1 / Methods / Analysis",
+   "section_zh": "实验1 / 方法 / 分析",
+   "en": "To analyze latency to look back at speaker 2, we ran a linear model (GLM) in which sound (same/diff), location (same/diff) and interaction were entered as fixed factors using a glmer function with Gamma distribution in lme4 package version 1.1.10 [29].",
+   "zh": "为分析回头看向扬声器2的潜伏期，我们使用lme4 package version 1.1.10 [29]中采用Gamma分布的glmer函数，运行了以声音（相同/不同）、位置（相同/不同）及其交互作用为固定因素的线性模型（GLM）。"
+  },
+  {
+   "section": "Experiment 1 / Methods / Analysis",
+   "section_zh": "实验1 / 方法 / 分析",
+   "en": "Finally, we computed correlations between magnitude of surprise and latency to look back at speaker 2, using Pearson’s product-moment correlation test to confirm whether raters judged “surprise” based on looking back.",
+   "zh": "最后，我们采用Pearson积矩相关检验计算了惊讶程度与回头看向扬声器2的潜伏期之间的相关性，以确认评分者是否根据回头看来判断“惊讶”。"
+  },
+  {
+   "section": "Experiment 1 / Results & discussion / Magnitude of surprise",
+   "section_zh": "实验1 / 结果与讨论 / 惊讶程度",
+   "en": "Fig 2 shows the magnitude of the cats’ surprise reactions. As predicted, the cats showed more surprise in SamesoundDifflocation than the other conditions. LMM revealed an interaction of location and sound (X2 (1) = 5.675, p = .017). There was no significant main effect of trial order (X2 (1) = 1.763, p = .184) or sound (X2 (1) = 2.772, p = .095), which shows that cats did not react strongly when they heard a different voice. Multiple comparisons showed a significant difference between SamesoundDifflocation and DiffsoundDifflocation (t(628) = 2.871, p = .021), and between SamesoundDifflocation and SamesoundSamelocation (t(628) = 7.357, p < .001). These results indicate that cats were most surprised in the SamesoundDifflocation condition, possibly because they mentally mapped the owner’s location when they heard the owner’s voice in the habituation phase and were surprised by their “impossible teleportation” in the test phase. Note that we did not conduct a stranger habituation condition; the results might therefore be limited to when the owner’s voice is involved.",
+   "zh": "图2显示猫惊讶反应的程度。如预测的那样，猫在SamesoundDifflocation中比在其他条件下表现出更多惊讶。LMM显示位置与声音存在交互作用（X2 (1) = 5.675，p = .017）。试验顺序（X2 (1) = 1.763，p = .184）或声音（X2 (1) = 2.772，p = .095）的主效应均不显著，表明猫在听到不同的声音时并未强烈反应。多重比较显示，SamesoundDifflocation与DiffsoundDifflocation之间（t(628) = 2.871，p = .021）以及SamesoundDifflocation与SamesoundSamelocation之间（t(628) = 7.357，p < .001）存在显著差异。这些结果表明猫在SamesoundDifflocation条件下最为惊讶，可能是因为它们在习惯化阶段听到主人声音时在心理上标定了主人的位置，并在测试阶段对主人“不可能的瞬间移动”感到惊讶。注：我们未设置以陌生人声音进行习惯化的条件，因此结果可能仅限于涉及主人声音的情况。"
+  },
+  {
+   "section": "Experiment 1 / Results & discussion / Latency to look at speaker 2",
+   "section_zh": "实验1 / 结果与讨论 / 看向扬声器2的潜伏期",
+   "en": "Fig 3(A) shows latencies to look toward speaker 2. Although cats appeared to look sooner in SamesoundDifflocation condition, GLM revealed a significant main effect of location (X2 (1) = 8.303, p = .003), but not sound (X2 (1) = 0.019, p = .890) nor an interaction (X2 (1) = 0.457, p = .498). Looking toward speaker 2 did not vary as a function of the conditions, possibly because cats oriented regardless of the nature of the sound they heard.",
+   "zh": "图3(A)显示看向扬声器2的潜伏期。尽管猫在SamesoundDifflocation条件下似乎看得更早，但GLM显示位置的主效应显著（X2 (1) = 8.303，p = .003），而声音（X2 (1) = 0.019，p = .890）及交互作用（X2 (1) = 0.457，p = .498）均不显著。看向扬声器2的情况未随条件而变化，可能是因为无论听到的声音性质如何，猫都会转向声源。"
+  },
+  {
+   "section": "Experiment 1 / Results & discussion / Correlation between response magnitude and latency",
+   "section_zh": "实验1 / 结果与讨论 / 反应程度与潜伏期的相关性",
+   "en": "Fig 6(A) shows the relationship between the magnitude of the cats’ surprise responses as rated by humans, and latency to look back toward speaker 2. The correlation between the two measures was significant (Pearson’s correlation, t (48) = -4.064, p < 0.001): cats showing greater surprise were quicker to look back at speaker 2. In Exp.2 we examined whether similar socio-spatial cognitive processing would apply with conspecific rather than human auditory stimuli.",
+   "zh": "图6(A)显示人类评定的猫惊讶反应程度与回头看向扬声器2的潜伏期之间的关系。两项指标之间的相关性显著（Pearson相关，t (48) = -4.064，p < 0.001）：惊讶程度更大的猫回头看向扬声器2更快。在实验2中，我们检验了以同类而非人类听觉刺激时是否会出现类似的社会‐空间认知加工。"
+  },
+  {
+   "section": "Experiment 2",
+   "section_zh": "实验2",
+   "en": "Would cats mentally map the location of a familiar cat from its vocalization? To study this, we recorded cats’ “meow” when they were alone and used these calls as stimuli. We chose “meow” because many cats often emitted this vocalization when they were alone. If cats do map the location of a familiar cat, then they might react with surprise when they suddenly hear the latter’s vocalization coming from a different location.",
+   "zh": "猫能否根据熟悉的猫的叫声在心理上标定其位置？为研究这一问题，我们录制了猫独处时的“喵”声，并将这些叫声用作刺激。之所以选择“喵”，是因为许多猫独处时常发出这种叫声。如果猫确实会标定熟悉的猫的位置，那么当它们突然听到后者的叫声来自不同位置时，可能会表现出惊讶。"
+  },
+  {
+   "section": "Experiment 2 / Methods / Subjects",
+   "section_zh": "实验2 / 方法 / 受试对象",
+   "en": "Forty-five cats (22 males, 23 females) participated. Sixteen cats were also tested in Exp.1 (see details in S2 Table), which was conducted at least 6 months earlier. All cats (mean age 3.96 years, SD = 2.80 years, range 5 months to 9.75 years) were housed in four different “cat cafés” (mean number of cats living together: 17.25, SD = 10.25, range 7 to 30).",
+   "zh": "四十五只猫（22只雄性，23只雌性）参加了实验。其中十六只猫也参加过实验1（详见S2 Table），实验1至少在6个月前进行。所有猫（平均年龄3.96岁，SD = 2.80岁，范围5个月至9.75岁）饲养于四家不同的“猫咖啡馆”（平均同住猫数：17.25，SD = 10.25，范围7至30）。"
+  },
+  {
+   "section": "Experiment 2 / Methods / Apparatus & stimuli",
+   "section_zh": "实验2 / 方法 / 设备与刺激",
+   "en": "To record “meows” from individual cats, an experimenter placed a sound recorder (Tascam DR-05, USA) with a Sennheiser ME66+K6 super-cardioid shotgun condenser microphone on the floor of the room and left the cat alone in the room for between 30 sec and 5 min. Recording in lossless WAV format (44.1 kHz; 24bit), we thus obtained 6 to 11 “meow” isolation calls, emitted by kittens and adult cats when they are separated from their mother or caretaker, respectively [32, 33]. Vocalizations were obtained from three to five cats per café (for details see S4 Table). The vocalizations were edited to 1 sec in duration (average = 0.923 sec, SD = 0.30) and adjusted to the same volume using version 2.3.0 of Audacity® described in the General procedure section [26]. Other settings and apparatus were the same as in Exp.1. Note that we used only familiar cats’ vocalizations to avoid any potential excessively strong reactions to vocalizations from an unfamiliar cat.",
+   "zh": "为录制个体猫的“喵”声，一名实验者将一台录音机（Tascam DR-05，美国）连接Sennheiser ME66+K6超心形枪式电容麦克风放在房间地板上，并让猫独自留在房间内30 sec至5 min。以无损WAV格式（44.1 kHz；24bit）录音，我们获得了6至11次“喵”声分离叫声，即幼猫与母猫分离、成年猫与照护者分离时分别发出的叫声[32, 33]。每家咖啡馆录取了三至五只猫的叫声（详见S4 Table）。叫声被剪辑为1 sec时长（平均 = 0.923 sec，SD = 0.30），并使用一般程序部分所述的Audacity® version 2.3.0调整为相同音量[26]。其他设置和设备与实验1相同。注：我们只使用熟悉的猫的叫声，以避免对陌生猫叫声可能产生的过强反应。"
+  },
+  {
+   "section": "Experiment 2 / Methods / Analysis",
+   "section_zh": "实验2 / 方法 / 分析",
+   "en": "Data from trials with sound error (6 trials) or camera error (1) were excluded from the analysis. One cat was tested in just one condition because she slept on high furniture, out of reach after the first trial. In total, 82 clips were created the same way as in Exp.1; 21 clips for SamesoundSamelocation, 21 clips for DiffsoundSamelocation, 21 clips for SamesoundDifflocation, and 19 clips for DiffsoundDifflocation.",
+   "zh": "存在声音错误（6次试验）或摄像机错误（1次）的试验数据被排除在分析之外。一只猫只在一种条件下接受了测试，因为第一次试验后她在高处家具上睡觉，无法够到。按照与实验1相同的方式共制作了82个片段：SamesoundSamelocation 21个，DiffsoundSamelocation 21个，SamesoundDifflocation 21个，DiffsoundDifflocation 19个。"
+  },
+  {
+   "section": "Experiment 2 / Methods / Analysis",
+   "section_zh": "实验2 / 方法 / 分析",
+   "en": "We conducted the same statistical analysis as in Exp.1. Eight blind raters (four men, four women, mean age 23.5 years) scored the degree of surprise to test stimuli masked with pure tones, in a random order for each cat. For latency to look at speaker 2, data were analyzed for 12, 13, 10 and 7 cats who looked back during test phase for SamesoundDifflocaation, DiffsoundDifflocation, DiffsoundSamelocation and SamesoundSamelocation conditions, respectively. We ran a GLM test in which sound (same/diff), location (same/diff) and interaction were entered as fixed factors with Gamma distribution as in Exp.1. We computed the correlation coefficient between magnitude of surprise and latency to look back at speaker 2, using Pearson’s product-moment correlation test.",
+   "zh": "我们进行了与实验1相同的统计分析。八名盲法评分者（四男四女，平均年龄23.5岁）以随机顺序对每只猫对经纯音掩蔽的测试刺激的惊讶程度评分。对于看向扬声器2的潜伏期，分别分析了在SamesoundDifflocaation、DiffsoundDifflocation、DiffsoundSamelocation和SamesoundSamelocation条件下测试阶段回头看的12、13、10和7只猫的数据。与实验1相同，我们运行了以声音（相同/不同）、位置（相同/不同）及其交互作用为固定因素、采用Gamma分布的GLM检验。我们采用Pearson积矩相关检验计算了惊讶程度与回头看向扬声器2的潜伏期之间的相关系数。"
+  },
+  {
+   "section": "Experiment 2 / Results & discussion / Magnitude of surprise",
+   "section_zh": "实验2 / 结果与讨论 / 惊讶程度",
+   "en": "Fig 4 shows the magnitude of surprise responses. Cats appeared most surprised in the DiffsoundDifflocation condition when another cat’s meow was played back in a different location than the first stimulus; this result did not fit our prediction. LMM revealed significant main effects of location (X2 (1) = 84.231, p < .001) and sound (X2 (1) = 23.160, p < .001), trial order (X2 (1) = 5.814, p = .015), and interactions between location and sound (X2 (1) = 58.980, p < .001). Multiple comparisons showed significant differences between SamesoundDifflocation and DiffsoundDifflocation (t(644) = 8.866, p < .001) and between DiffsoundDifflocation and DiffsoundSamelocation (t(644) = 11.909, p < .001).",
+   "zh": "图4显示惊讶反应的程度。猫在DiffsoundDifflocation条件下（即另一只猫的喵声在与第一个刺激不同的位置回放时）似乎最为惊讶；这一结果不符合我们的预测。LMM显示位置（X2 (1) = 84.231，p < .001）和声音（X2 (1) = 23.160，p < .001）、试验顺序（X2 (1) = 5.814，p = .015）的主效应以及位置与声音的交互作用（X2 (1) = 58.980，p < .001）均显著。多重比较显示，SamesoundDifflocation与DiffsoundDifflocation之间（t(644) = 8.866，p < .001）以及DiffsoundDifflocation与DiffsoundSamelocation之间（t(644) = 11.909，p < .001）存在显著差异。"
+  },
+  {
+   "section": "Experiment 2 / Results & discussion / Magnitude of surprise",
+   "section_zh": "实验2 / 结果与讨论 / 惊讶程度",
+   "en": "To explain these results, two points should be considered. First, the isolation calls were probably more emotional in content than the voices calling subjects’ names in Exp.1, eliciting a response that could override any response toward the impossible teleportation. Second, adult cats do not direct “meow” to conspecifics [32]; they only use it when requesting something from a human ([34] as cited in [35]). It is possible that they did not in fact recognize the cat they heard meowing.",
+   "zh": "为解释这些结果，应考虑两点。第一，分离叫声的情绪内容可能比实验1中呼唤受试猫名字的声音更强，所引发的反应可能压过了对不可能瞬间移动的任何反应。第二，成年猫不会对同类发出“喵”声[32]；它们只在向人类索求某物时使用这种叫声（[34]，转引自[35]）。有可能它们实际上并没有认出所听到的正在喵叫的那只猫。"
+  },
+  {
+   "section": "Experiment 2 / Results & discussion / Latency to look at speaker 2",
+   "section_zh": "实验2 / 结果与讨论 / 看向扬声器2的潜伏期",
+   "en": "Fig 3(B) shows the latency to look at speaker 2. Cats did not look differentially in the various conditions. GLM revealed no significant main effects of location (X2 (1) = 3.317, p = .068) or sound (X2 (1) = 0.003, p = .950), and no interaction (X2 (1) = 0.559, p = .454). Again, cats probably looked involuntarily at speaker 2 regardless of the sound it played, as it was a novel stimulus.",
+   "zh": "图3(B)显示看向扬声器2的潜伏期。猫在各条件下看的情况没有差异。GLM显示位置（X2 (1) = 3.317，p = .068）或声音（X2 (1) = 0.003，p = .950）的主效应均不显著，交互作用也不显著（X2 (1) = 0.559，p = .454）。同样，由于扬声器2是一个新刺激，无论其播放什么声音，猫可能都会不由自主地看向它。"
+  },
+  {
+   "section": "Experiment 2 / Results & discussion / Correlation between response magnitude and latency",
+   "section_zh": "实验2 / 结果与讨论 / 反应程度与潜伏期的相关性",
+   "en": "Fig 6(B) shows the relationship between the magnitude of surprise responses as rated by humans and latency to look back toward speaker 2. The correlation was significant (Pearson’s correlation, t (40) = -2.473, p = 0.017): unlike in Exp. 1, cats reacting with greater surprise took longer to look back at speaker 2. In Exp.3 we used non-social sounds as a control to further assess cats’ response in this expectancy violation situation.",
+   "zh": "图6(B)显示人类评定的惊讶反应程度与回头看向扬声器2的潜伏期之间的关系。相关性显著（Pearson相关，t (40) = -2.473，p = 0.017）：与实验1不同，惊讶反应更大的猫回头看向扬声器2所需时间更长。在实验3中，我们使用非社会性声音作为对照，以进一步评估猫在这种预期违背情境中的反应。"
+  },
+  {
+   "section": "Experiment 3",
+   "section_zh": "实验3",
+   "en": "To clarify the meaning of the results of Exps.1 and 2, in Exp.3 we used non-social sounds as stimuli. We predicted that cats would not show a strong reaction even in the SamesoundDifflocation condition, because this would not represent an “impossible teleportation”.",
+   "zh": "为阐明实验1和2结果的意义，我们在实验3中使用非社会性声音作为刺激。我们预测，即使在SamesoundDifflocation条件下，猫也不会表现出强烈反应，因为这并不代表“不可能的瞬间移动”。"
+  },
+  {
+   "section": "Experiment 3 / Methods / Subjects",
+   "section_zh": "实验3 / 方法 / 受试对象",
+   "en": "Forty-seven domestic cats (24 males, 23 females) participated. Sixteen cats were tested in at least one of the previous experiments (see details in S3 Table). The interval between Exps. 2 and 3 was at least 6 months. Twenty-four cats lived at five “cat cafés” (11 males, 13 females, mean age 2.57 years, SD = 1.92 years, range 8 months to 7.4 years), and 23 were house cats (13 males, 10 females, mean age 5.97 years, SD = 5.03 years, range 6 months to 18.2 years). An additional seven cats were excluded due to camera error (2 cats), external noise disturbance (2) and bad Bluetooth connection (3).",
+   "zh": "四十七只家猫（24只雄性，23只雌性）参加了实验。其中十六只猫至少参加过之前的一项实验（详见S3 Table）。实验2与实验3之间至少间隔6个月。二十四只猫生活在五家“猫咖啡馆”（11只雄性，13只雌性，平均年龄2.57岁，SD = 1.92岁，范围8个月至7.4岁），23只为家养猫（13只雄性，10只雌性，平均年龄5.97岁，SD = 5.03岁，范围6个月至18.2岁）。另有七只猫因摄像机错误（2只）、外部噪声干扰（2只）和蓝牙连接不良（3只）被排除。"
+  },
+  {
+   "section": "Experiment 3 / Methods / Apparatus & stimuli",
+   "section_zh": "实验3 / 方法 / 设备与刺激",
+   "en": "We used electronic sounds instead of vocalizations to assess the cats’ behavior when the sounds were played back as in the first two experiments. Ideally, it would be better to use familiar sounds such as a door opening sound to match familiarity with the stimuli used in Exp.1. However, it was difficult to equalize the intensity of the stimuli for each house or cat café. We used six electronic sounds downloaded from a web site with many available sounds. S5 Table shows the details of the sounds. All sound stimuli were around 1 sec. (average duration = 1.01 sec., SD = 0.01), with volume adjusted using Audacity® [26]. Depending on condition, one or two sound stimuli were randomly chosen for each cat.",
+   "zh": "我们使用电子声音代替叫声，以评估按照前两项实验的方式回放声音时猫的行为。理想情况下，使用开门声等熟悉的声音以匹配实验1所用刺激的熟悉度会更好。然而，难以使每个家庭或猫咖啡馆的刺激强度一致。我们使用了从一个提供大量声音的网站下载的六种电子声音。S5 Table显示了这些声音的详细信息。所有声音刺激时长约为1 sec.（平均时长 = 1.01 sec.，SD = 0.01），并使用Audacity® [26]调整音量。根据条件，为每只猫随机选择一种或两种声音刺激。"
+  },
+  {
+   "section": "Experiment 3 / Methods / Analysis",
+   "section_zh": "实验3 / 方法 / 分析",
+   "en": "Data from trials spoiled by camera error (2 trials) and sound error (8 trials) were excluded from the analysis. One subject was tested in just one condition to equate the number of subjects in each condition. In total, 83 clips were created: 22 SamesoundSamelocation, 21 DiffsoundSamelocation, 20 SamesoundDifflocation, and 21 DiffsoundDifflocation.",
+   "zh": "因摄像机错误（2次试验）和声音错误（8次试验）而受损的试验数据被排除在分析之外。为使各条件的受试数量相等，一只受试猫只在一种条件下接受了测试。共制作了83个片段：SamesoundSamelocation 22个，DiffsoundSamelocation 21个，SamesoundDifflocation 20个，DiffsoundDifflocation 21个。"
+  },
+  {
+   "section": "Experiment 3 / Methods / Analysis",
+   "section_zh": "实验3 / 方法 / 分析",
+   "en": "We conducted rating analyses as in Exps. 1 and 2. Another eight blind raters (four men, four women, mean age = 26.5 years) scored the subjects’ degree of surprise to the now-masked test stimuli. The raters observed the 83 clips in random order. For latency to look at speaker 2, data from 12, 13, 9 and 8 cats who looked back toward speaker 2 were analyzed during the test phase for SamesoundDifflocaation, DiffsoundDifflocation, DiffsoundSamelocation and SamesoundSamelocation conditions, respectively. We ran GLM test in which sound (same/diff), location (same/diff) and interaction were entered as fixed factors with Gamma distribution as in the previous experiments. The correlation between magnitude of surprise and latency to look back at speaker 2 was computed as in the two previous experiments.",
+   "zh": "我们按照实验1和2的方式进行评分分析。另外八名盲法评分者（四男四女，平均年龄 = 26.5岁）对受试猫对经掩蔽的测试刺激的惊讶程度评分。评分者以随机顺序观看了83个片段。对于看向扬声器2的潜伏期，分别分析了在SamesoundDifflocaation、DiffsoundDifflocation、DiffsoundSamelocation和SamesoundSamelocation条件下测试阶段回头看向扬声器2的12、13、9和8只猫的数据。与之前的实验相同，我们运行了以声音（相同/不同）、位置（相同/不同）及其交互作用为固定因素、采用Gamma分布的GLM检验。惊讶程度与回头看向扬声器2的潜伏期之间的相关性按前两项实验的方法计算。"
+  },
+  {
+   "section": "Experiment 3 / Results & discussion / Magnitude of surprise",
+   "section_zh": "实验3 / 结果与讨论 / 惊讶程度",
+   "en": "Fig 5 shows the magnitude of surprise reactions. Cats reacted more when a non-social sound was played from a different location than the first (habituation) sound, regardless of whether or not it was the same sound. LMM revealed significant main effects of location (X2 (1) = 36.654, p < .001) and trial order (X2 (1) = 20.667, p < .001). There was no significant main effect of sound (X2 (1) = 0.881, p = .347) nor an interaction between location and sound (X2 (1) = .045, p = .830). These results suggest that cats simply reacted to a sound from an unexpected location; they did not react differently when the same sound was played from a different location, which contrasts sharply with reaction observed in Exp.1.",
+   "zh": "图5显示惊讶反应的程度。当非社会性声音从与第一个（习惯化）声音不同的位置播放时，无论是否为同一声音，猫的反应都更大。LMM显示位置（X2 (1) = 36.654，p < .001）和试验顺序（X2 (1) = 20.667，p < .001）的主效应显著。声音的主效应（X2 (1) = 0.881，p = .347）以及位置与声音的交互作用（X2 (1) = .045，p = .830）均不显著。这些结果表明，猫只是对来自意外位置的声音作出反应；当同一声音从不同位置播放时，它们并未表现出不同的反应，这与实验1中观察到的反应形成鲜明对比。"
+  },
+  {
+   "section": "Experiment 3 / Results & discussion / Latency to look at speaker 2",
+   "section_zh": "实验3 / 结果与讨论 / 看向扬声器2的潜伏期",
+   "en": "Fig 3(C) shows the latency to look toward speaker 2. Cats looked back at speaker 2 in the Difflocation conditions. GLM test revealed a significant main effect of location (X2 (1) = 6.048, p = .013), but not sound (X2 (1) = 0.003, p = .950), and no interaction (X2 (1) = 3.155, p = .075). Their looks toward speaker 2 probably simply reflect high sensitivity to sounds from unpredicted locations.",
+   "zh": "图3(C)显示看向扬声器2的潜伏期。在Difflocation条件下，猫回头看向扬声器2。GLM检验显示位置的主效应显著（X2 (1) = 6.048，p = .013），而声音（X2 (1) = 0.003，p = .950）不显著，交互作用也不显著（X2 (1) = 3.155，p = .075）。它们看向扬声器2可能只是反映了对来自意外位置的声音的高度敏感。"
+  },
+  {
+   "section": "Experiment 3 / Results & discussion / Correlation between response magnitude and latency",
+   "section_zh": "实验3 / 结果与讨论 / 反应程度与潜伏期的相关性",
+   "en": "Fig 6(C) shows the relationship between magnitude of the surprise response as rated by humans and latency to look back toward speaker 2. The correlation was significant (Pearson’s correlation, t (40) = -3.051, p = 0.004): similar to Exp. 1, cats showing greater surprise were quicker to look back at speaker 2.",
+   "zh": "图6(C)显示人类评定的惊讶反应程度与回头看向扬声器2的潜伏期之间的关系。相关性显著（Pearson相关，t (40) = -3.051，p = 0.004）：与实验1相似，惊讶程度更大的猫回头看向扬声器2更快。"
+  },
+  {
+   "section": "General discussion",
+   "section_zh": "总讨论",
+   "en": "We asked whether cats mentally map other individuals’ locations from their voices. Cats were tested with the owner’s voice (Exp. 1), a familiar cat’s vocalization (Exp. 2) and non-social sounds (Exp. 3), with the habituation and test stimuli played sequentially from two spatially separated speakers. We predicted that cats would be more surprised when the first individual heard was apparently teleported, based on the auditory stimuli, in Exps. 1 and 2. In contrast, we predicted that no such response would occur when the sounds were non-social (Exp. 3). Results showed that cats were surprised when their owner appeared to be “teleported” to a new, unexpected location, but they did not react in the same way when tested with non-social stimuli. These results suggest that cats hold a mental representation of the unseen owner and map their owner’s location from the owner’s voice, showing evidence of socio-spatial cognition.",
+   "zh": "我们探讨了猫是否会根据其他个体的声音在心理上标定其位置。我们用主人的声音（实验1）、熟悉的猫的叫声（实验2）和非社会性声音（实验3）测试猫，习惯化刺激和测试刺激先后从两个空间上分开的扬声器播放。我们预测，在实验1和2中，当根据听觉刺激所听到的第一个个体明显发生了瞬间移动时，猫会更惊讶。相反，我们预测当声音为非社会性时（实验3），不会出现这种反应。结果显示，当主人似乎被“瞬间移动”到一个新的、意外的位置时，猫感到惊讶，但在用非社会性刺激测试时，它们没有同样的反应。这些结果表明，猫对看不见的主人持有心理表征，并能根据主人的声音标定主人的位置，显示出社会‐空间认知的证据。"
+  },
+  {
+   "section": "General discussion",
+   "section_zh": "总讨论",
+   "en": "As stated in the Introduction, socio-spatial cognition appears strongly related to object permanence, the facility which allows children to eventually hold a representation of an object that goes out of sight [1]. Cats succeed in “visible displacement” tasks where they maintain a representation of an object that was previously in sight but no longer is [14]. We found that cats show a similar ability using only auditory information; they maintain a representation of their unseen owner from her voice. We cannot conclude that cats understand “invisible displacement” from our results because it is unclear whether cats were surprised by owner’s presence in an unexpected location or by her apparent absence in the expected location. To address this issue, it would be useful to add a “plausible” condition with enough time between the final habituation sound and the test sound for the stimulus individual to have moved from the first to the second location, as in a study with vervet monkeys [1].",
+   "zh": "如引言所述，社会‐空间认知似乎与客体永久性密切相关，客体永久性是使儿童最终能对离开视线的物体保持表征的能力[1]。猫能完成“可见位移”任务，即对先前在视线内但已不在视线内的物体保持表征[14]。我们发现猫仅凭听觉信息就表现出类似的能力；它们能根据主人的声音对看不见的主人保持表征。我们无法根据结果得出猫理解“不可见位移”的结论，因为尚不清楚猫是因主人出现在意外位置而惊讶，还是因主人明显不在预期位置而惊讶。为解决这一问题，可以像黑长尾猴研究[1]那样，增加一个“合理”条件，即在最后一次习惯化声音与测试声音之间留出足够时间，使刺激个体能够从第一个位置移动到第二个位置。"
+  },
+  {
+   "section": "General discussion",
+   "section_zh": "总讨论",
+   "en": "In Exp.2, cats showed no surprise when a familiar conspecific was apparently teleported, unlike in vervet monkeys and meerkats [1, 16]. In our experiment, cats reacted more in the DiffsoundDifflocation condition than any other condition. In contrast to vervet monkeys and meerkats, in which the vocal communication repertoire develops through living in a social group [36, 37], the ancestral relative of the modern domestic cat, the Libyan wildcat (Felis Lybica), is a solitary species. Vocal communication among adult cats is limited to two situations, namely fighting and sexual intercourse, although it is more prevalent in kitten-mother and human-cat interactions [32]. For example, Noë and Laporte used vervet monkey affiliative “contact grunts” as stimuli, because they believed that these vocalizations were ecologically valid for testing the monkeys’ socio-spatial cognition [1].",
+   "zh": "在实验2中，与黑长尾猴和狐獴不同[1, 16]，当一只熟悉的同类明显发生瞬间移动时，猫并未表现出惊讶。在我们的实验中，猫在DiffsoundDifflocation条件下的反应比其他任何条件都大。黑长尾猴和狐獴的发声交流库是在群居生活中发展起来的[36, 37]，与之不同，现代家猫的祖先近亲——利比亚野猫（Felis Lybica）是独居物种。成年猫之间的发声交流仅限于两种情境，即打斗和交配，但在幼猫‐母猫互动以及人‐猫互动中更为普遍[32]。例如，Noë和Laporte使用黑长尾猴的亲和性“接触咕噜声”作为刺激，因为他们认为这些叫声在生态学上适合检验猴子的社会‐空间认知[1]。"
+  },
+  {
+   "section": "General discussion",
+   "section_zh": "总讨论",
+   "en": "The cat vocalizations used in Exp.2 might be unsuitable for examining socio-spatial cognition for at least four reasons. First is the emotional valence of the “isolation call,” which might have masked any reaction to the “impossible teleportation” event. Second, perhaps cats do not individually recognize conspecifics only from their vocalizations, although they appear to discriminate their owner’s voice from a stranger’s voice [23] and have a cross-modal concept of their owner [22]. Third, given the difference in auditory range between humans and cats (20 Hz to 20 kHz, and 55 Hz to 79 kHz respectively; see [20, 38]), information critical for individual recognition might not have been emitted by the speakers we used. Although we know that cats discriminate conspecific emotional vocalizations (negative vocalization: “Hiss”, positive vocalization: “Purr”) [24] from speakers designed for human hearing, it remains unknown whether they discriminate “meow” vocalizations and individual identity from stimuli played from such speakers. Fourth, “meow” was possibly inappropriate as a stimulus, as adult cats direct this vocalization only to humans, not conspecifics ([34] as cited in [35]).",
+   "zh": "实验2中使用的猫叫声可能不适合检验社会‐空间认知，原因至少有四个。第一是“分离叫声”的情绪效价，可能掩盖了对“不可能的瞬间移动”事件的任何反应。第二，或许猫并不能仅凭叫声识别同类个体，尽管它们似乎能区分主人的声音和陌生人的声音[23]，并对主人具有跨通道概念[22]。第三，鉴于人和猫的听觉范围不同（分别为20 Hz至20 kHz和55 Hz至79 kHz；见[20, 38]），我们所用扬声器可能未能发出对个体识别至关重要的信息。尽管我们知道猫能通过为人耳设计的扬声器区分同类的情绪叫声（负性叫声：“嘶嘶声”，正性叫声：“呼噜声”）[24]，但尚不清楚它们能否从这类扬声器播放的刺激中区分“喵”声及个体身份。第四，“喵”可能不适合作为刺激，因为成年猫只对人类而非同类发出这种叫声（[34]，转引自[35]）。"
+  },
+  {
+   "section": "General discussion",
+   "section_zh": "总讨论",
+   "en": "Might different degrees of familiarity of the sounds have affected the data in Exps.1 and 3, given that we used familiar (owner) vs unfamiliar (stranger) voices in Exp.1 and unfamiliar vs unfamiliar sounds in Exp.3. Cats show caution in the presence of strangers [39] and they discriminate owner from stranger only from voices [23], therefore we predicted surprise reaction from cats upon hearing a stranger’s voice from an unexpected location. However, the magnitude of responses in Exp. 1 was higher when the habituated owner’s voice came from a different location than when a stranger’s voice came from the different location. This finding supports our conclusion that cats mentally mapped their owner’s location from her voice. Ideally, future work will include one familiar person’s voice as the habituation stimulus and another familiar person’s voice as the test stimulus, to further clarify the role of familiarity with the humans in this task.",
+   "zh": "鉴于我们在实验1中使用熟悉（主人）vs陌生（陌生人）的声音，而在实验3中使用陌生vs陌生的声音，声音熟悉程度的不同是否可能影响了实验1和3的数据？猫在陌生人面前表现谨慎[39]，且仅凭声音就能区分主人和陌生人[23]，因此我们预测猫听到陌生人的声音来自意外位置时会有惊讶反应。然而，在实验1中，已习惯化的主人声音来自不同位置时的反应程度，高于陌生人声音来自不同位置时。这一发现支持我们的结论，即猫根据主人的声音在心理上标定了主人的位置。理想情况下，未来的研究将以一名熟悉者的声音作为习惯化刺激，另一名熟悉者的声音作为测试刺激，以进一步阐明对人的熟悉度在该任务中的作用。"
+  },
+  {
+   "section": "General discussion",
+   "section_zh": "总讨论",
+   "en": "In Exp.3, we used electronic sounds as auditory stimuli instead of an object sound tied to a specific object (e.g., the squeak of a dog toy is tied to the toy). Some argued that these sounds would not be appropriate as control stimuli because we used voices tied to specific person in Exp.1. Further studies should use the sound tied to some object to confirm that cats do not strongly react to the condition where habituated sounds are played back from a novel location as seen in Exp.1.",
+   "zh": "在实验3中，我们使用电子声音作为听觉刺激，而非与特定物体相关联的物体声音（例如犬玩具的吱吱声与该玩具相关联）。有人认为，由于我们在实验1中使用了与特定人相关联的声音，这些声音不适合作为对照刺激。进一步的研究应使用与某一物体相关联的声音，以确认在已习惯化的声音从新位置回放的条件下，猫不会像实验1中那样强烈反应。"
+  },
+  {
+   "section": "General discussion",
+   "section_zh": "总讨论",
+   "en": "In Exps.2 and 3 we found a trial order effect: cats reacted more in the first trial than second trial regardless of the conditions. Interestingly, we did not find this effect in Exp.1. As a trial order effect probably reflects response to stimulus strength or simply novelty rather than the experimental condition, the absence of such an effect actually strengthens our interpretation: cats probably reacted to the “impossible movement of owner” in Exp.1, but to mere novelty of location or sound in Exps.2 and 3.",
+   "zh": "在实验2和3中，我们发现了试验顺序效应：无论条件如何，猫在第一次试验中的反应都比第二次试验更大。有趣的是，我们在实验1中没有发现这一效应。由于试验顺序效应可能反映的是对刺激强度或仅仅是新奇性的反应，而非实验条件，这种效应的缺失实际上加强了我们的解释：在实验1中，猫可能是对“主人不可能的移动”作出反应，而在实验2和3中，仅是对位置或声音的新奇性作出反应。"
+  },
+  {
+   "section": "General discussion",
+   "section_zh": "总讨论",
+   "en": "Our main results are based on magnitude of cats’ responses as judged by human raters. Although the latter were not animal behavior experts, previous studies have indicated that familiarity with animal subjects is not critical for rating many of behaviors. Tami and Gallagher demonstrated that different types of observers including dog-owners, veterinarians, dog trainers and non-owners classified dogs’ behaviors (e.g., as friendly or aggressive) correctly [40], regardless of degree of familiarity with dogs (see also [23, 41]). Furthermore, agreements between raters in our three experiments, as indicated by Cronbach’s coefficient alphas, were high (Exp.1: 0.93, Exp.2: 0.96, Exp.3: 0.97).",
+   "zh": "我们的主要结果基于人类评分者判断的猫反应程度。虽然评分者并非动物行为专家，但既往研究表明，对动物受试的熟悉程度对于评定许多行为并不关键。Tami和Gallagher证明，包括犬主人、兽医、驯犬师和非犬主人在内的不同类型观察者，无论对犬的熟悉程度如何，都能正确地对犬的行为（如友好或攻击性）进行分类[40]（另见[23, 41]）。此外，以Cronbach’s α系数表示的三项实验中评分者间一致性均很高（实验1：0.93，实验2：0.96，实验3：0.97）。"
+  },
+  {
+   "section": "General discussion",
+   "section_zh": "总讨论",
+   "en": "We found no clear overall differences in latency, although there were significant correlations between the magnitude of surprise reactions and cats’ latency to look back at speaker 2. It seems likely that wide variability among cats reduced the likelihood of finding overall differences among conditions. Some cats stared toward the owner’s “original” location, whereas other cats moved around the room when the test stimulus was presented. Previous studies have discussed dissociation between rating and coding outcomes and proposed that “subjective” ratings are superior when the targeted concept consists of multiple behaviors. Kubinyi, Gosling, and Miklósi investigated personality in dogs and found that video rating of activity-impulsivity correlated with the scale scores of the owner, but video coding did not [42] (see also [43]). In this study, raters rated cats’ surprise responses expressed by a combination of behaviors including moving ears, head direction, looking back and displace, not just latency to look back; we would argue that this approach is valid for detecting surprise.",
+   "zh": "尽管惊讶反应程度与猫回头看向扬声器2的潜伏期之间存在显著相关，但我们未发现潜伏期在总体上的明显差异。猫之间的巨大变异很可能降低了发现各条件总体差异的可能性。在呈现测试刺激时，有些猫盯着主人的“原始”位置，而另一些猫则在房间里走动。既往研究讨论过评分与编码结果之间的分离，并提出当目标概念由多种行为组成时，“主观”评分更为优越。Kubinyi、Gosling和Miklósi研究了犬的个性，发现活动性‐冲动性的视频评分与主人的量表得分相关，而视频编码则不相关[42]（另见[43]）。在本研究中，评分者评定的是由耳朵转动、头部朝向、回头看和移位等多种行为共同表现的猫惊讶反应，而不仅仅是回头看的潜伏期；我们认为这种方法对于检测惊讶是有效的。"
+  },
+  {
+   "section": "General discussion",
+   "section_zh": "总讨论",
+   "en": "Our finding that cats mentally map their owner’s location from their voice corresponds at least to visible displacement in object permanence. Further studies on invisible displacement could benefit from using auditory stimuli, as indeed could similar research on other species. Mentally representing the outside world and manipulating those representations flexibly is an important feature in complex thinking and a fundamental aspect of cognition. Continuing comparative research on this ability can help shed light on how intelligence has evolved in various species and the potential influence of ecological factors.",
+   "zh": "我们发现猫能根据主人的声音在心理上标定主人的位置，这至少相当于客体永久性中的可见位移。关于不可见位移的进一步研究可受益于使用听觉刺激，其他物种的类似研究也是如此。在心理上表征外部世界并灵活地操作这些表征，是复杂思维的一个重要特征，也是认知的一个基本方面。持续开展对这种能力的比较研究，有助于阐明智力在不同物种中如何进化以及生态因素的潜在影响。"
+  },
+  {
+   "section": "Figure legend",
+   "section_zh": "图注",
+   "en": "Fig 1 Arrangement of a testing room.There were slight differences across testing rooms depending on cats’ familiar spaces (house or cat café). The Experimenter placed speaker 1 outside the test room and speaker 2 inside the test room close to another door or window leading to another room or outside. Cats were left alone and could move freely. Cat behaviors were recorded by video cameras during tests.",
+   "zh": "图1 测试房间布置。测试房间因猫熟悉的空间（家中或猫咖啡馆）不同而略有差异。实验者将扬声器1放在测试室外，将扬声器2放在测试室内靠近通往另一房间或室外的另一扇门或窗户处。猫被单独留下，可自由活动。测试期间用摄像机记录猫的行为。"
+  },
+  {
+   "section": "Table caption",
+   "section_zh": "表题",
+   "en": "Table 1 Explanation of conditions in Exp.1 to Exp.3.",
+   "zh": "表1 实验1至实验3各条件的说明。"
+  },
+  {
+   "section": "Table footnote",
+   "section_zh": "表注",
+   "en": "In Exp.1, we used owner voices as habituation sounds and owner or stranger voices as test sounds. In Exp.2 and Exp.3, we used familiar cats’ vocalization or physical sounds as habituation sounds and test sound.",
+   "zh": "在实验1中，我们使用主人的声音作为习惯化声音，主人或陌生人的声音作为测试声音。在实验2和实验3中，我们使用熟悉的猫的叫声或物理声音作为习惯化声音和测试声音。"
+  },
+  {
+   "section": "Figure legend",
+   "section_zh": "图注",
+   "en": "Fig 2 The magnitude of subjects’ surprise rated by eight blind raters in Exp.1.Black blue bar represents Diffsound. Orange bar represents Samesound. Left panel represents Difflocation and right panel represents Samelocation. Each point represents mean magnitude of surprise for each trial.",
+   "zh": "图2 实验1中八名盲法评分者评定的受试猫惊讶程度。深蓝色柱代表Diffsound。橙色柱代表Samesound。左图代表Difflocation，右图代表Samelocation。每个点代表每次试验的平均惊讶程度。"
+  },
+  {
+   "section": "Figure legend",
+   "section_zh": "图注",
+   "en": "Fig 3 Latency to look back at speaker 2 in (A) Exp.1, (B) Exp.2, and (C) Exp.3. Orange boxplot represents Samesound, black blue boxplot represents Diffsound.",
+   "zh": "图3 (A)实验1、(B)实验2和(C)实验3中回头看向扬声器2的潜伏期。橙色箱线图代表Samesound，深蓝色箱线图代表Diffsound。"
+  },
+  {
+   "section": "Figure legend",
+   "section_zh": "图注",
+   "en": "Fig 4 The magnitude of subjects’ surprise rated by eight blind raters in Exp.2.Black blue bar represents Diffsound. Orange bar represents Samesound. Left panel represents Difflocation and right panel represents Samelocation. Each point represents mean magnitude of surprise for each trial.",
+   "zh": "图4 实验2中八名盲法评分者评定的受试猫惊讶程度。深蓝色柱代表Diffsound。橙色柱代表Samesound。左图代表Difflocation，右图代表Samelocation。每个点代表每次试验的平均惊讶程度。"
+  },
+  {
+   "section": "Figure legend",
+   "section_zh": "图注",
+   "en": "Fig 5 The magnitude of subjects’ surprise rated by eight blind raters in Exp.3.Black blue bar represents Diffsound. Orange bar represents Samesound. Left panel represents Difflocation and right panel represents Samelocation. Each point represents mean magnitude of surprise for each trial.",
+   "zh": "图5 实验3中八名盲法评分者评定的受试猫惊讶程度。深蓝色柱代表Diffsound。橙色柱代表Samesound。左图代表Difflocation，右图代表Samelocation。每个点代表每次试验的平均惊讶程度。"
+  },
+  {
+   "section": "Figure legend",
+   "section_zh": "图注",
+   "en": "Fig 6 Correlation between latency to look back at speaker 2 and the magnitude of “surprise” as rated in (A) Exp.1, (B) Exp.2 and (C) Exp.3. Orange point represents Samelocation, blue black points represent Difflocation, regardless of Sound condition.",
+   "zh": "图6 (A)实验1、(B)实验2和(C)实验3中回头看向扬声器2的潜伏期与评定的“惊讶”程度之间的相关性。无论声音条件如何，橙色点代表Samelocation，深蓝色点代表Difflocation。"
+  }
+ ]
+}

@@ -1,0 +1,428 @@
+{
+ "pmid": "32243654",
+ "license": "CC BY 4.0",
+ "attribution": {
+  "authors": [
+   "Luis Fuentes Virginia",
+   "Abbott Jonathan",
+   "Chetboul Valérie",
+   "Côté Etienne",
+   "Fox Philip R",
+   "Häggström Jens",
+   "Kittleson Mark D",
+   "Schober Karsten",
+   "Stern Joshua A"
+  ],
+  "title": "ACVIM consensus statement guidelines for the classification, diagnosis, and management of cardiomyopathies in cats",
+  "journal": "Journal of Veterinary Internal Medicine",
+  "year": "2020",
+  "doi": "10.1111/jvim.15745",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "note": "中文为 AI 翻译，以英文原文为准；已对原文做翻译改编"
+ },
+ "scope_zh": "标题、关键词、正文全部章节（引言、共识方法、定义与分类、患病率与自然病程、诊断、治疗、结论）及利益冲突/伦理声明；表1–5表题、表5表注、图1–2图注。未含：参考文献、表格正文、引用格式行。原文PMC XML中摘要仅含关键词。",
+ "paragraphs": [
+  {
+   "section": "Title",
+   "section_zh": "标题",
+   "en": "ACVIM consensus statement guidelines for the classification, diagnosis, and management of cardiomyopathies in cats",
+   "zh": "ACVIM共识声明：猫心肌病分类、诊断与管理指南"
+  },
+  {
+   "section": "Abstract / Keywords",
+   "section_zh": "摘要 / 关键词",
+   "en": "Keywords: arrhythmogenic, cardiovascular, congestive heart failure, consensus statement, echocardiography, feline, heart, hypertrophic cardiomyopathy, restrictive cardiomyopathy, review, treatment",
+   "zh": "关键词：致心律失常性、心血管、充血性心力衰竭、共识声明、超声心动图、猫、心脏、肥厚型心肌病、限制型心肌病、综述、治疗"
+  },
+  {
+   "section": "INTRODUCTION",
+   "section_zh": "引言",
+   "en": "Cardiomyopathies are a heterogeneous group of myocardial diseases with variable phenotype and prognosis. Cardiomyopathies are common in cats, and cardiovascular disease is among the 10 most common causes of death in cats.1, 2, 3 The following report by the American College of Veterinary Internal Medicine consensus statement panel on cardiomyopathy in cats proposes an updated classification of cardiomyopathies based on echocardiographic phenotype, and provides recommendations for the diagnostic approach and management of cats with myocardial disease.",
+   "zh": "心肌病是一组表型和预后各异的异质性心肌疾病。心肌病在猫中很常见，心血管疾病是猫的10大常见死因之一。1, 2, 3 本报告由美国兽医内科学院（ACVIM）猫心肌病共识声明专家组撰写，提出了基于超声心动图表型的心肌病更新分类，并就心肌疾病猫的诊断思路和管理给出建议。"
+  },
+  {
+   "section": "CONSENSUS METHODS",
+   "section_zh": "共识方法",
+   "en": "A modified Delphi method was applied to a series of statements produced by members of the committee that summarized the most important issues related to cardiomyopathy in cats. A combination of online anonymous voting with free text comments, face‐to‐face meetings and video‐conferences was used to modify the statements. Consensus was defined as ≧6 of the 9 committee members agreeing with a statement. A PubMed search using the MeSH terms “feline” and “cardiomyopathies” yielded 475 references, and further references were identified using other databases and other search terms. References documenting peer‐reviewed published studies containing original data were reviewed by the panel and graded. For each statement for which consensus was reached, a level of evidence (low/medium/high), was determined based on review of the literature (Table 1), and a class (strength) of recommendation was assigned (is recommended/should be considered/may be considered/is not recommended) according to the results of voting (Table 2).",
+   "zh": "专家组成员编写了一系列陈述，概括了与猫心肌病相关的最重要问题，并对其采用改良德尔菲法（Delphi method）。通过在线匿名投票（附自由文本评论）、面对面会议和视频会议相结合的方式修订这些陈述。共识定义为9名委员会成员中≧6名同意某一陈述。以MeSH主题词“feline”和“cardiomyopathies”检索PubMed得到475篇文献，并通过其他数据库和其他检索词找到更多文献。专家组审阅了记录含原始数据的同行评议已发表研究的文献并对其分级。对于每一条达成共识的陈述，根据文献审阅确定证据等级（低/中/高）（表1），并根据投票结果给出推荐类别（强度）（推荐/应考虑/可考虑/不推荐）（表2）。"
+  },
+  {
+   "section": "DEFINITIONS AND CLASSIFICATION OF CARDIOMYOPATHIES IN CATS",
+   "section_zh": "猫心肌病的定义与分类",
+   "en": "Cardiomyopathy is defined as a myocardial disorder in which the heart muscle is structurally and functionally abnormal in the absence of any other cardiovascular disease sufficient to cause the observed myocardial abnormality.4 Classification of cardiomyopathies in cats previously has been based on schemes that were applied to cardiomyopathy in humans, but currently several competing classification systems are used in humans, highlighting the difficulties inherent in cardiomyopathy classification.4, 5, 6, 7 The aim of disease classification is to categorize conditions according to logical principles, such as by organ involvement, pathophysiology, phenotype, or underlying cause. An ideal classification system would standardize terminology and facilitate clinical management, but all classification systems have limitations, and this is particularly true when the underlying causes of disease are unknown. In humans, the cause of cardiomyopathy often can be determined, but this is rarely true in cats. We propose an adaptation of the European Society of Cardiology (ESC) classification4 for use in cats, because this scheme is based on phenotypic features without assumptions regarding underlying cause, and it focuses on a clinical, rather than genetic, approach to these disorders (Figure 1, Table 3). The ESC classification is based on the traditional phenotypic categories of hypertrophic cardiomyopathy (HCM), restrictive cardiomyopathy (RCM), dilated cardiomyopathy (DCM), unclassified cardiomyopathy (UCM), and arrhythmogenic right ventricular cardiomyopathy (ARVC), and we recommend retaining these categories (with the exception of UCM) as a basic framework, while acknowledging their limitations. For example, in some cats, the cardiac phenotype changes over time, because of disease progression, comorbidities or unknown factors.",
+   "zh": "心肌病定义为一种心肌疾患，即在不存在足以导致所观察到的心肌异常的任何其他心血管疾病的情况下，心肌在结构和功能上出现异常。4 以往猫心肌病的分类基于用于人类心肌病的方案，但目前人类中同时使用若干相互竞争的分类系统，凸显了心肌病分类本身固有的困难。4, 5, 6, 7 疾病分类的目的是按照合乎逻辑的原则（如受累器官、病理生理、表型或潜在病因）对病症进行归类。理想的分类系统应能使术语标准化并便于临床管理，但所有分类系统都有局限性，在疾病潜在病因未知时尤其如此。人类心肌病的病因往往可以确定，但在猫中却很少能做到。我们建议将欧洲心脏病学会（ESC）分类4改编用于猫，因为该方案基于表型特征，不对潜在病因作假设，并且侧重于对这些疾病采用临床而非遗传学的处理思路（图1，表3）。ESC分类基于传统的表型类别：肥厚型心肌病（HCM）、限制型心肌病（RCM）、扩张型心肌病（DCM）、未分类心肌病（UCM）和致心律失常性右心室心肌病（ARVC）；我们建议保留这些类别（UCM除外）作为基本框架，同时承认其局限性。例如，在一些猫中，心脏表型会随时间而改变，原因包括疾病进展、共病或未知因素。"
+  },
+  {
+   "section": "DEFINITIONS AND CLASSIFICATION OF CARDIOMYOPATHIES IN CATS",
+   "section_zh": "猫心肌病的定义与分类",
+   "en": "We propose a classification of cardiomyopathies in cats based on structural and functional characteristics, or phenotype. The phenotypic categories include cats with cardiomyopathy of both known causes (eg, hyperthyroidism, sarcomeric gene mutation) and unknown causes (most cats with a cardiomyopathy phenotype). Until an underlying cause is sought, a cat is said to have a “hypertrophic cardiomyopathy phenotype” or a “dilated cardiomyopathy phenotype” (according to the cardiac morphology and function). If no underlying cause is found, a cat is said to have “hypertrophic cardiomyopathy (HCM)” or “dilated cardiomyopathy (DCM),” as appropriate. The proposed classification therefore does not define specific disease entities, but phenotypic categories instead. The description in any individual cat can be further refined by details of cause when known. Thus, a cat with left ventricular (LV) hypertrophy and hyperthyroidism is said to have an HCM phenotype in conjunction with hyperthyroidism.",
+   "zh": "我们建议根据结构和功能特征（即表型）对猫心肌病进行分类。各表型类别既包括病因已知（如甲状腺功能亢进症、肌节基因突变）的心肌病猫，也包括病因未知（大多数具有心肌病表型的猫）的心肌病猫。在查找潜在病因之前，称猫具有“肥厚型心肌病表型”或“扩张型心肌病表型”（依据心脏形态和功能）。如果未发现潜在病因，则视情况称猫患有“肥厚型心肌病（HCM）”或“扩张型心肌病（DCM）”。因此，所提出的分类并不界定具体的疾病实体，而是界定表型类别。对于任何个体猫，若病因已知，可以进一步补充病因细节以完善描述。因此，一只左心室（LV）肥厚并伴甲状腺功能亢进症的猫，称为具有HCM表型并伴甲状腺功能亢进症。"
+  },
+  {
+   "section": "DEFINITIONS AND CLASSIFICATION OF CARDIOMYOPATHIES IN CATS",
+   "section_zh": "猫心肌病的定义与分类",
+   "en": "Some cats have myocardial disease that does not fit well into any category. Rather than describe these cases as having “unclassified cardiomyopathy,” according to the proposed classification these cats should be described as having cardiomyopathy with a “nonspecific phenotype.” This term always should be accompanied by a description of the morphologic and functional features to characterize the phenotype in more detail.",
+   "zh": "有些猫的心肌疾病无法很好地归入任何类别。根据所提出的分类，这些猫不应被描述为“未分类心肌病”，而应描述为具有“非特异性表型”的心肌病。使用这一术语时，始终应附上对形态和功能特征的描述，以更详细地刻画其表型。"
+  },
+  {
+   "section": "DEFINITIONS AND CLASSIFICATION OF CARDIOMYOPATHIES IN CATS / Staging cardiomyopathies in cats",
+   "section_zh": "猫心肌病的定义与分类 / 猫心肌病分期",
+   "en": "For describing the clinical impact of cardiomyopathy in affected cats, we propose a staging system adapted from the American Heart Association (AHA) and American College of Veterinary Internal Medicine (ACVIM) heart disease staging systems8, 9, 10 (Figure 2), with the aim of providing a framework for prognostication and therapeutic decision‐making. Stage A includes cats that are predisposed to cardiomyopathy but have no evidence of myocardial disease. Stage B describes cats with cardiomyopathy but without clinical signs. Stage B is further divided into stage B1: cats at low risk of imminent congestive heart failure (CHF) or arterial thromboembolism (ATE), and stage B2: cats at higher risk of imminent CHF or ATE. Atrial size is an important prognostic marker, and it can be used as a means of subdividing cats with subclinical cardiomyopathy into low risk (B1) and higher risk (B2) cats. The more severe the left atrial (LA) enlargement, the higher the risk of CHF and ATE.11 Other factors also should be taken into consideration when staging cats with subclinical cardiomyopathy, such as LA and LV systolic function, and extreme LV hypertrophy, among others (see Figure 2). Cats that have developed signs of CHF or ATE are classified as stage C, even if clinical signs resolve with treatment. Cats with signs of CHF refractory to treatment are classified as stage D.",
+   "zh": "为描述心肌病对患病猫的临床影响，我们提出一个改编自美国心脏协会（AHA）和美国兽医内科学院（ACVIM）心脏病分期系统的分期体系8, 9, 10（图2），旨在为预后判断和治疗决策提供框架。A期包括易患心肌病但无心肌疾病证据的猫。B期指患有心肌病但无临床症状的猫。B期进一步分为B1期：近期发生充血性心力衰竭（CHF）或动脉血栓栓塞（ATE）风险低的猫；以及B2期：近期发生CHF或ATE风险较高的猫。心房大小是重要的预后指标，可据此将亚临床心肌病猫细分为低风险（B1）和较高风险（B2）。左心房（LA）扩大越严重，CHF和ATE的风险越高。11 对亚临床心肌病猫进行分期时，还应考虑其他因素，例如LA和LV收缩功能以及极度LV肥厚等（见图2）。已出现CHF或ATE症状的猫归为C期，即使临床症状经治疗后消退亦然。CHF症状对治疗无反应的猫归为D期。"
+  },
+  {
+   "section": "PREVALENCE AND NATURAL HISTORY",
+   "section_zh": "患病率与自然病程",
+   "en": "The most common type of cardiomyopathic phenotype is HCM and thus it is the major focus in these guidelines, but other phenotypes will be addressed separately where appropriate. Hypertrophic cardiomyopathy has an estimated prevalence of approximately 15% in the general cat population.12, 13, 14, 15, 16 In older cats, the prevalence is much higher, with up to 29% reported affected, even when cats with hypertension and hyperthyroidism are excluded.15 Most cats with HCM have subclinical disease, with a 5‐year cumulative incidence of cardiac mortality of approximately 23%, independent of age at diagnosis.17 Congestive heart failure (CHF) is the most common cause of clinical signs in cats with HCM, followed by arterial thromboembolism (ATE).17 A minority of cats die suddenly without prior clinical signs.11, 17, 18 The prevalence of other cardiomyopathy phenotypes in the general cat population is not known, but a hypertrophic phenotype appears to predominate in cats with subclinical cardiomyopathy.15",
+   "zh": "最常见的心肌病表型是HCM，因此它是本指南的重点，但在适当之处也会单独讨论其他表型。在一般猫群中，肥厚型心肌病的估计患病率约为15%。12, 13, 14, 15, 16 老年猫的患病率高得多，即使排除高血压和甲状腺功能亢进症的猫，报告的患病比例也高达29%。15 大多数HCM猫为亚临床疾病，5‐年心源性死亡累积发生率约为23%，与诊断时年龄无关。17 充血性心力衰竭（CHF）是HCM猫出现临床症状的最常见原因，其次是动脉血栓栓塞（ATE）。17 少数猫在此前无临床症状的情况下猝死。11, 17, 18 其他心肌病表型在一般猫群中的患病率尚不清楚，但在亚临床心肌病猫中似乎以肥厚型表型为主。15"
+  },
+  {
+   "section": "PREVALENCE AND NATURAL HISTORY",
+   "section_zh": "患病率与自然病程",
+   "en": "Compared with normal cats, cats with HCM are more likely to be older, male, and have a loud systolic murmur, although HCM still can be seen in young cats, females, and in cats without a murmur.15, 19, 20, 21, 22 Most cats with HCM are nonpedigree, but some pedigree breeds are believed to be at increased risk, including Maine Coon, Ragdoll, British Shorthair, Persian, Bengal, Sphynx, Norwegian Forest cat, and Birman breeds.20, 23, 24, 25, 26, 27 However, comprehensive prevalence data are lacking for pedigree cats. Sarcomeric gene mutations are common in people with HCM, but only 2 mutations have been identified in cats, both in the myosin binding protein C (MyBPC3) gene.23, 28 The estimated prevalence of the MyBPC3‐A31P mutation in Maine Coon cats is approximately 35% to 42%,29, 30 which is substantially higher than the prevalence of the HCM phenotype in this breed.30 Maine Coon cats that are homozygous for this mutation, Ragdolls homozygous for the MyBPC3‐R820W mutation, and first‐degree relatives of affected cats are at higher risk of developing HCM.30, 31, 32, 33 The role of nongenetic and epigenetic factors in HCM in cats is unknown, although such factors might be important in humans with HCM.34",
+   "zh": "与正常猫相比，HCM猫更可能为老年、雄性，并有响亮的收缩期杂音，但年轻猫、雌性猫和无杂音的猫仍可能患HCM。15, 19, 20, 21, 22 大多数HCM猫为非纯种猫，但一些纯种品种被认为风险增加，包括缅因猫（Maine Coon）、布偶猫（Ragdoll）、英国短毛猫（British Shorthair）、波斯猫（Persian）、孟加拉猫（Bengal）、斯芬克斯猫（Sphynx）、挪威森林猫（Norwegian Forest cat）和伯曼猫（Birman）。20, 23, 24, 25, 26, 27 然而，纯种猫缺乏全面的患病率数据。肌节基因突变在HCM患者中很常见，但在猫中仅发现了2种突变，均位于肌球蛋白结合蛋白C（MyBPC3）基因。23, 28 缅因猫中MyBPC3‐A31P突变的估计携带率约为35%至42%，29, 30 显著高于该品种HCM表型的患病率。30 该突变的纯合缅因猫、MyBPC3‐R820W突变的纯合布偶猫以及患病猫的一级亲属发生HCM的风险较高。30, 31, 32, 33 非遗传和表观遗传因素在猫HCM中的作用尚不清楚，尽管这些因素在人类HCM中可能很重要。34"
+  },
+  {
+   "section": "PREVALENCE AND NATURAL HISTORY / Prognosis",
+   "section_zh": "患病率与自然病程 / 预后",
+   "en": "Some cats with an HCM phenotype remain subclinical, whereas others develop CHF or ATE.13, 17, 19, 20, 21, 32, 35, 36, 37 Younger age22 and lack of clinical signs19, 20, 22, 35 have been associated with longer survival. Markers of increased risk of CHF or ATE include presence of a gallop sound or arrhythmia on physical examination, moderate to severe LA enlargement, decreased LA fractional shortening (LA FS%), extreme LV hypertrophy, decreased LV systolic function, spontaneous echo‐contrast or intracardiac thrombus, regional wall thinning with hypokinesis, and a restrictive diastolic filling pattern.11, 22, 38 Sudden cardiac death also occurs in cats with HCM.17, 18, 21 Less is known about risk factors for sudden cardiac death, but these might include a history of syncope, ventricular arrhythmias, LA enlargement, and regional LV wall hypokinesis.11 Median survival times are substantially shorter in cats with HCM that develop CHF or ATE compared to those with subclinical cardiomyopathy.17, 19, 20, 21, 22, 35 Cats that develop CHF associated with stress, IV fluid therapy, general anesthesia, or extended‐release corticosteroid treatment might have longer survival times compared with cats that develop CHF in the absence of these factors.3, 17, 39 Factors associated with longer survival times after treatment for CHF include a greater decrease in NT‐proBNP concentrations during hospitalization and resolution of CHF at reexamination.40",
+   "zh": "一些HCM表型猫始终处于亚临床状态，而另一些则发展为CHF或ATE。13, 17, 19, 20, 21, 32, 35, 36, 37 年龄较小22和无临床症状19, 20, 22, 35与生存期较长相关。提示CHF或ATE风险增加的指标包括：体格检查时存在奔马律或心律失常、中度至重度LA扩大、LA缩短分数（LA FS%）降低、极度LV肥厚、LV收缩功能降低、自发性超声显影或心内血栓、伴运动减弱的局部室壁变薄，以及限制性舒张充盈模式。11, 22, 38 HCM猫也会发生心源性猝死。17, 18, 21 对心源性猝死危险因素的了解较少，但可能包括晕厥史、室性心律失常、LA扩大和局部LV室壁运动减弱。11 与亚临床心肌病猫相比，发生CHF或ATE的HCM猫中位生存时间显著缩短。17, 19, 20, 21, 22, 35 与在不存在下列因素情况下发生CHF的猫相比，因应激、静脉输液、全身麻醉或长效皮质类固醇治疗而发生CHF的猫可能生存时间更长。3, 17, 39 CHF治疗后生存时间较长的相关因素包括住院期间NT‐proBNP浓度下降幅度较大以及复查时CHF已消退。40"
+  },
+  {
+   "section": "PREVALENCE AND NATURAL HISTORY / Prognosis",
+   "section_zh": "患病率与自然病程 / 预后",
+   "en": "In contrast to HCM in people, in whom dynamic left ventricular outflow tract obstruction (DLVOTO) has been associated with increased morbidity and mortality,41 DLVOTO does not appear to be a poor prognostic factor in cats.17, 21, 22 This might be a true difference between HCM in humans and cats, but also could reflect differences in how DLVOTO is defined between species, or the result of bias in retrospective studies (cats with DLVOTO are more likely to be investigated for an incidentally detected murmur than cats with nonobstructive HCM, which often are not diagnosed until clinical signs develop).",
+   "zh": "人类HCM中，动态左心室流出道梗阻（DLVOTO）与发病率和死亡率增加相关，41 而在猫中DLVOTO似乎并非不良预后因素。17, 21, 22 这可能是人和猫HCM之间的真实差异，也可能反映了不同物种间DLVOTO定义的差异，或是回顾性研究中偏倚的结果（与非梗阻性HCM猫相比，DLVOTO猫更可能因偶然发现杂音而接受检查，而非梗阻性HCM猫往往直到出现临床症状才被诊断）。"
+  },
+  {
+   "section": "DIAGNOSIS",
+   "section_zh": "诊断",
+   "en": "Establishing the diagnosis of cardiomyopathy in cats can be challenging, particularly in general practice. Echocardiography performed by a veterinary cardiology specialist is the diagnostic test of choice, but differentiation of the various phenotypic categories sometimes can be challenging, even for specialists. Fortunately, with regard to therapeutic decision‐making, the requirement for diuretics in cats with CHF and the approach to management of ATE are similar regardless of the form of cardiomyopathy. A basic level of echocardiographic skill (eg, ability to detect moderate to severe left atrial enlargement) can be sufficient to identify the more advanced stages of cardiomyopathy.42, 43 Other diagnostic tests may facilitate disease staging, identification of important comorbidities and establishing prognosis. Importantly, tests are recommended to screen for a possible underlying cause for the cardiomyopathy phenotype, such as serum thyroxine concentration for hyperthyroidism or blood pressure measurement for systemic hypertension in cats with an HCM phenotype.",
+   "zh": "确诊猫心肌病可能具有挑战性，在全科诊所中尤其如此。由兽医心脏病专科医师进行的超声心动图检查是首选诊断方法，但即使对专科医师而言，区分各种表型类别有时也很困难。所幸就治疗决策而言，无论心肌病类型如何，CHF猫对利尿剂的需求以及ATE的处理思路都是相似的。基本水平的超声心动图技能（例如能够发现中度至重度左心房扩大）可能足以识别较晚期的心肌病。42, 43 其他诊断检查可能有助于疾病分期、识别重要共病和判断预后。重要的是，建议进行检查以筛查心肌病表型可能的潜在病因，例如对HCM表型的猫检测血清甲状腺素浓度以排查甲状腺功能亢进症，或测量血压以排查系统性高血压。"
+  },
+  {
+   "section": "DIAGNOSIS / Genetic testing",
+   "section_zh": "诊断 / 基因检测",
+   "en": "Genetic testing for the MyBPC3‐A31P mutation and the MyBPC3 R820W mutation is recommended in Maine Coon and Ragdoll cats (respectively) intended for breeding (level of evidence [LOE] high), with the aim of decreasing the incidence of these mutations and HCM in these breeds.29, 30, 44 It is recommended that cats homozygous for either mutation not be used for breeding, but heterozygous cats can be bred to genotype‐negative cats if they have other outstanding characteristics (LOE low). The same genetic tests can be considered in nonbreeding Maine Coon or Ragdoll cats to determine the relative risk of developing HCM (LOE medium). In Maine Coon cats it is primarily individuals that are homozygous for the A31P mutation that develop clinically relevant HCM.44 Maine Coon and Ragdoll cats that test negative for these MYBPC3 mutations have been reported with HCM (LOE high),44, 45 and thus regular echocardiographic screening should be considered even in Maine Coon and Ragdoll cats without these mutations (LOE low). Genetic testing for the A31P and R820W MYBPC3 mutations in non‐Maine Coon or non‐Ragdoll cats is not recommended, because these 2 mutations are almost completely specific to Maine Coon and Ragdoll cats (LOE high).29, 30",
+   "zh": "建议分别对拟用于繁育的缅因猫和布偶猫进行MyBPC3‐A31P突变和MyBPC3 R820W突变的基因检测（证据等级[LOE]高），以降低这些突变及HCM在这些品种中的发生率。29, 30, 44 建议任一突变的纯合猫不用于繁育，但杂合猫若有其他突出特征，可与基因型阴性猫配种（LOE低）。对于非繁育用途的缅因猫或布偶猫，可考虑进行相同的基因检测，以确定其发生HCM的相对风险（LOE中）。在缅因猫中，主要是A31P突变纯合个体会发展为具有临床意义的HCM。44 已有报告这些MYBPC3突变检测阴性的缅因猫和布偶猫患HCM（LOE高），44, 45 因此即使是不携带这些突变的缅因猫和布偶猫，也应考虑定期进行超声心动图筛查（LOE低）。不推荐对非缅因猫或非布偶猫进行A31P和R820W MYBPC3突变的基因检测，因为这2种突变几乎完全特异于缅因猫和布偶猫（LOE高）。29, 30"
+  },
+  {
+   "section": "DIAGNOSIS / History",
+   "section_zh": "诊断 / 病史",
+   "en": "The history is unremarkable in many cats with cardiomyopathy, particularly those with HCM. The most common presenting sign is labored breathing,17 although some cats only show nonspecific signs such as hiding or inappetence. Congestive heart failure appears to be the most common cause of respiratory distress in cats.46, 47 Paresis or paralysis associated with ATE is also a common presenting sign,17 with syncope being less common.19 In some cats with cardiomyopathy, sudden death may occur with no premonitory signs.18",
+   "zh": "许多心肌病猫（尤其是HCM猫）的病史并无特殊。最常见的就诊症状是呼吸费力，17 但有些猫仅表现出躲藏或食欲不振等非特异性症状。充血性心力衰竭似乎是猫呼吸窘迫的最常见原因。46, 47 与ATE相关的轻瘫或瘫痪也是常见的就诊症状，17 晕厥较少见。19 部分心肌病猫可能在无先兆症状的情况下猝死。18"
+  },
+  {
+   "section": "DIAGNOSIS / Physical examination / Subclinical cardiomyopathy",
+   "section_zh": "诊断 / 体格检查 / 亚临床心肌病",
+   "en": "A parasternal systolic heart murmur has been reported in up to 80% of cats with subclinical HCM, compared with 30%‐45% of healthy cats without HCM.14, 15, 16, 17 Third heart sounds such as gallop sounds have been reported in 2.6%‐19% of cats with subclinical HCM and are seldom present in healthy cats.15 Arrhythmias also can be associated with cardiomyopathies.48, 49 Many affected cats have no auscultatory abnormality.15, 42 Further investigations are recommended if a heart murmur is detected in any cat (LOE medium).15, 42 A loud systolic murmur (grade 3‐4/6) is more common in cats with HCM than in normal cats, but an increase in heart murmur intensity over time does not necessarily indicate the presence or worsening of disease. A palpable thrill (grade 5‐6/6 murmur) seldom is associated with cardiomyopathy in cats and is more likely to be associated with a congenital malformation. Cats with more advanced disease (or those with restrictive or dilated phenotypes) may not have an audible murmur.13, 21, 42, 50 Auscultation of a gallop sound or an arrhythmia is more likely to be associated with cardiomyopathy, although differentiation of a gallop sound from other third heart sounds or a bigeminal rhythm can be challenging.",
+   "zh": "据报告，在亚临床HCM猫中，胸骨旁收缩期心脏杂音的检出率高达80%，而在无HCM的健康猫中为30%‐45%。14, 15, 16, 17 奔马律等第三心音在亚临床HCM猫中的检出率为2.6%‐19%，在健康猫中很少出现。15 心律失常也可能与心肌病相关。48, 49 许多患病猫听诊无异常。15, 42 建议对任何检出心脏杂音的猫进行进一步检查（LOE中）。15, 42 响亮的收缩期杂音（3‐4/6级）在HCM猫中比正常猫更常见，但心脏杂音强度随时间增加并不一定提示存在疾病或病情加重。可触及的震颤（5‐6/6级杂音）在猫中很少与心肌病相关，更可能与先天性畸形相关。病情较重的猫（或具有限制型或扩张型表型的猫）可能听不到杂音。13, 21, 42, 50 听诊发现奔马律或心律失常更可能与心肌病相关，但区分奔马律与其他第三心音或二联律可能有困难。"
+  },
+  {
+   "section": "DIAGNOSIS / Physical examination / Cardiomyopathy associated with CHF",
+   "section_zh": "诊断 / 体格检查 / 伴CHF的心肌病",
+   "en": "Tachypnea, labored breathing or both are the typical historical and physical examination findings in cats with left heart failure. Compared with cats that have subclinical HCM, a gallop sound or an audible arrhythmia are more common in cats with CHF, and murmurs are less common.13, 21, 43 In one study, cats presented to first opinion practices for evaluation of respiratory distress with respiratory rates >80 breaths/min, gallop sounds, rectal temperatures <37.5°C or heart rates >200 bpm were more likely to have CHF than other causes of dyspnea.47 Pulmonary crackles can be heard when pulmonary edema is present, and breath sounds are often diminished ventrally when pleural effusion is present, together with paradoxical breathing.51",
+   "zh": "呼吸急促、呼吸费力或二者兼有，是左心衰竭猫典型的病史和体格检查发现。与亚临床HCM猫相比，CHF猫更常出现奔马律或可闻及的心律失常，而杂音较少见。13, 21, 43 一项研究中，因呼吸窘迫就诊于初级诊疗机构的猫，若呼吸频率>80次/分钟、存在奔马律、直肠温度<37.5°C或心率>200 bpm，则其呼吸困难更可能由CHF而非其他原因引起。47 存在肺水肿时可听到肺部湿啰音；存在胸腔积液时，腹侧呼吸音常减弱，并伴有反常呼吸。51"
+  },
+  {
+   "section": "DIAGNOSIS / Radiography",
+   "section_zh": "诊断 / X线检查",
+   "en": "Cardiomyopathy might be suspected when severe cardiomegaly is present radiographically, when a left auricular bulge is present on dorsoventral/ventrodorsal radiographic views, or both.52, 53 Thoracic radiography is insensitive for identification of mild or moderate cardiac changes associated with cardiomyopathy, and in some cats the cardiac silhouette may appear normal even when disease is severe enough to cause CHF.54 Furthermore, it is difficult to identify the cardiomyopathy phenotype from the shape of the cardiac silhouette, and the classic “valentine‐shaped” heart is not specific for HCM, as previously thought.55, 56 Although radiography is considered the gold standard for confirming the presence of cardiogenic pulmonary edema, if radiographs cannot be obtained safely consideration should be given to delaying thoracic radiography (LOE low). In contrast to dogs, the radiographic pattern associated with cardiogenic pulmonary edema in cats is highly variable.52, 57 A combination of physical examination, point‐of‐care ultrasound examination and point‐of‐care NT‐proBNP often can be helpful when deciding if CHF is the cause of respiratory distress (LOE high).58",
+   "zh": "X线片显示严重心脏增大，或背腹位/腹背位X线片上可见左心耳膨出，或二者兼有时，可怀疑心肌病。52, 53 胸部X线检查对识别与心肌病相关的轻度或中度心脏改变不敏感，在一些猫中，即使病情严重到足以引起CHF，心影也可能看起来正常。54 此外，难以根据心影形状判断心肌病表型，经典的“情人节心形”心脏并不像以前认为的那样特异于HCM。55, 56 尽管X线检查被视为确认心源性肺水肿的金标准，但如果无法安全地拍摄X线片，应考虑推迟胸部X线检查（LOE低）。与犬不同，猫心源性肺水肿的X线表现变化很大。52, 57 在判断CHF是否为呼吸窘迫原因时，结合体格检查、床旁超声检查和床旁NT‐proBNP检测通常很有帮助（LOE高）。58"
+  },
+  {
+   "section": "DIAGNOSIS / Cardiac biomarkers / NT‐proBNP",
+   "section_zh": "诊断 / 心脏生物标志物 / NT‐proBNP",
+   "en": "The quantitative feline‐specific NT‐proBNP assay using plasma or pleural fluid has good diagnostic accuracy for discriminating between cats with cardiac and noncardiac causes of respiratory distress (LOE high),59, 60, 61, 62, 63, 64 but it is not recommended for guiding therapeutic decision‐making in cats with respiratory distress because of the delay in receiving test results from an external laboratory. Instead, a point‐of‐care NT‐proBNP assay provides rapid results while maintaining reasonable diagnostic accuracy in discriminating between cardiac and noncardiac causes of respiratory distress, and should be considered when point‐of‐care ultrasound examination is not available (LOE medium).58, 65 The point‐of‐care assay can be used on plasma or pleural fluid,64, 66 the latter diluted 1:1 with saline for greater specificity.65",
+   "zh": "使用血浆或胸腔积液进行的定量猫特异性NT‐proBNP检测，在区分心源性与非心源性呼吸窘迫方面具有良好的诊断准确性（LOE高），59, 60, 61, 62, 63, 64 但由于外部实验室出具结果存在延迟，不推荐用于指导呼吸窘迫猫的治疗决策。相反，床旁NT‐proBNP检测能快速出结果，同时在区分心源性与非心源性呼吸窘迫方面保持合理的诊断准确性，在无法进行床旁超声检查时应考虑使用（LOE中）。58, 65 床旁检测可用于血浆或胸腔积液，64, 66 后者用生理盐水1:1稀释可提高特异性。65"
+  },
+  {
+   "section": "DIAGNOSIS / Cardiac biomarkers / NT‐proBNP",
+   "section_zh": "诊断 / 心脏生物标志物 / NT‐proBNP",
+   "en": "When investigating a cat suspected to have subclinical cardiomyopathy there is less urgency for test results, and so the quantitative NT‐proBNP assay can be considered in situations where echocardiography is not available (LOE high). The quantitative NT‐proBNP assay is not recommended for differentiating normal cats from cats with mild to moderate HCM (LOE high).67, 68, 69 The point‐of‐care assay can be considered in cats with suspected subclinical cardiomyopathy, but its principal value is in differentiating cats with severe subclinical cardiomyopathy from normal cats or cats with only mild disease (LOE high).70, 71",
+   "zh": "在检查疑似亚临床心肌病的猫时，对检测结果的时效要求较低，因此在无法进行超声心动图检查时可考虑定量NT‐proBNP检测（LOE高）。不推荐用定量NT‐proBNP检测区分正常猫与轻度至中度HCM猫（LOE高）。67, 68, 69 对疑似亚临床心肌病的猫可考虑床旁检测，但其主要价值在于区分重度亚临床心肌病猫与正常猫或仅有轻度疾病的猫（LOE高）。70, 71"
+  },
+  {
+   "section": "DIAGNOSIS / Cardiac biomarkers / Troponin‐I",
+   "section_zh": "诊断 / 心脏生物标志物 / 肌钙蛋白I",
+   "en": "Measuring circulating cardiac troponin‐I (cTnI) concentrations can help discriminate between cardiac and noncardiac causes of respiratory distress (LOE medium), but only when results can be obtained rapidly.72, 73, 74 High‐sensitivity assays for human cTnI might be considered for differentiating between normal cats and cats with subclinical HCM when cardiac disease is suspected (LOE medium).75, 76 In addition, cTnI also might be considered for its prognostic value, because an increased circulating cTnI concentration is associated with increased risk of cardiovascular death independent of LA size (LOE high).77",
+   "zh": "测量循环心肌肌钙蛋白I（cTnI）浓度有助于区分心源性与非心源性呼吸窘迫（LOE中），但仅限于能快速获得结果时。72, 73, 74 在怀疑心脏病时，可考虑使用人cTnI高敏检测来区分正常猫与亚临床HCM猫（LOE中）。75, 76 此外，也可考虑cTnI的预后价值，因为循环cTnI浓度升高与心血管死亡风险增加相关，且独立于LA大小（LOE高）。77"
+  },
+  {
+   "section": "DIAGNOSIS / Electrocardiography",
+   "section_zh": "诊断 / 心电图",
+   "en": "The sensitivity of a 6‐lead ECG for detecting LV hypertrophy or LA enlargement is low,13, 78, 79 and ECG is not recommended as a screening method for cardiomyopathies in cats (LOE medium), despite its use in screening people for HCM.80 Nevertheless, a variety of arrhythmias can occur in cats with cardiomyopathy,48, 49, 78, 81, 82, 83, 84, 85 and can contribute to clinical signs such as weakness, syncope, and hypoxic‐anoxic seizures.86, 87 Although ambulatory (Holter) ECG monitoring is tolerated less well by cats than dogs, it can identify arrhythmias that might otherwise go undetected.49, 88 It is recommended that cats experiencing episodic weakness and collapse (including seizure‐like activity) should undergo a cardiovascular evaluation that includes echocardiography, ECG, and telemetric or Holter ECG monitoring if necessary. Implantable loop recorders also should be considered for cats with intermittent clinical signs that could be attributed to arrhythmias89, 90 (LOE low). Other options for recording cardiac rhythm in the cat's home environment include use of a portable electrode plate (Kardia AliveCor) in conjunction with a smartphone to record an ECG that can be interpreted by a specialist.",
+   "zh": "6‐导联ECG检测LV肥厚或LA扩大的敏感性低，13, 78, 79 尽管ECG被用于人类HCM筛查，80 但不推荐将其作为猫心肌病的筛查方法（LOE中）。不过，心肌病猫可发生多种心律失常，48, 49, 78, 81, 82, 83, 84, 85 并可导致虚弱、晕厥和缺氧‐缺血性抽搐等临床症状。86, 87 虽然猫对动态（Holter）ECG监测的耐受性不如犬，但它可以发现可能被漏诊的心律失常。49, 88 建议对出现发作性虚弱和虚脱（包括类似抽搐的活动）的猫进行心血管评估，包括超声心动图、ECG，必要时进行遥测或Holter ECG监测。对于可能由心律失常引起的间歇性临床症状的猫，也应考虑植入式循环记录仪89, 90（LOE低）。在猫的家庭环境中记录心律的其他方法包括使用便携式电极板（Kardia AliveCor）配合智能手机记录ECG，并由专科医师判读。"
+  },
+  {
+   "section": "DIAGNOSIS / Blood pressure",
+   "section_zh": "诊断 / 血压",
+   "en": "Diffuse or segmental LV hypertrophy is common in cats with systemic hypertension and is observed in up to 85% of cases, although HCM and systemic hypertension may exist concurrently. For many hypertensive cats, LV hypertrophy is only mild to moderate.91, 92, 93, 94 Blood pressure determination should be considered for all cats with increased LV wall thickness (LOE medium).",
+   "zh": "弥漫性或节段性LV肥厚在系统性高血压猫中很常见，见于多达85%的病例，但HCM与系统性高血压可能同时存在。许多高血压猫的LV肥厚仅为轻度至中度。91, 92, 93, 94 对所有LV壁厚增加的猫均应考虑测量血压（LOE中）。"
+  },
+  {
+   "section": "DIAGNOSIS / Thyroxine measurement",
+   "section_zh": "诊断 / 甲状腺素测定",
+   "en": "Hyperthyroidism is common in older cats, and is associated with auscultatory abnormalities (murmur, gallop, arrhythmias), cardiac remodeling (LV hypertrophy or increased cardiac chamber diameters), and in some cases, CHF or ATE.95, 96, 97, 98 Hyperthyroid cats with severe LV hypertrophy are sometimes seen, but this association is suspected to be the result of hyperthyroidism exacerbating preexisting mild to moderate HCM (LOE low). It is recommended that serum thyroxine concentrations be measured in all cats ≧6 years of age with abnormal cardiac auscultation findings with or without LV hypertrophy on an echocardiogram (LOE low).",
+   "zh": "甲状腺功能亢进症在老年猫中很常见，并与听诊异常（杂音、奔马律、心律失常）、心脏重构（LV肥厚或心腔内径增大）相关，在某些病例中还与CHF或ATE相关。95, 96, 97, 98 有时可见伴重度LV肥厚的甲状腺功能亢进猫，但这种关联被怀疑是甲状腺功能亢进症加重了原已存在的轻度至中度HCM所致（LOE低）。建议对所有≧6岁、心脏听诊异常的猫测量血清甲状腺素浓度，无论超声心动图上是否有LV肥厚（LOE低）。"
+  },
+  {
+   "section": "DIAGNOSIS / Echocardiography",
+   "section_zh": "诊断 / 超声心动图",
+   "en": "Echocardiography is the gold standard test for diagnosis of cardiomyopathies in cats. Indications for echocardiography are listed in Table 4. Echocardiography ideally should be performed by trained operators99 in unsedated cats in quiet conditions, and cats should be handled with minimal restraint. When necessary, sedation of the cat may be considered for echocardiographic examination.100 Adequate echocardiographic images can be obtained whether the cat is in lateral recumbency or standing.99",
+   "zh": "超声心动图是诊断猫心肌病的金标准检查。超声心动图检查的适应证列于表4。理想情况下，超声心动图检查应由受过培训的操作者99在安静环境中对未镇静的猫进行，并以最少的保定方式处理猫。必要时可考虑对猫进行镇静后再行超声心动图检查。100 无论猫处于侧卧位还是站立位，都可以获得满意的超声心动图图像。99"
+  },
+  {
+   "section": "DIAGNOSIS / Echocardiography",
+   "section_zh": "诊断 / 超声心动图",
+   "en": "Measurements of LV wall thickness traditionally have been made from 2D‐guided M‐mode echocardiographic images, although this mode is limited to focal sampling of the LV. Because of regional heterogeneity of LV hypertrophy in many cats with HCM, measurements using M‐mode echocardiography can miss focal wall thickening. Inadvertent measurement of papillary muscles also is possible as a result of translational motion of the heart. Two‐dimensional echocardiography allows measurement of LV wall thickness in multiple locations. The frame rate should be sufficiently high (>40 Hz) to allow measurement of the true end‐diastolic wall thickness. Measurements of LV wall thickness currently are made using 2D, M‐mode or both, but the 2 techniques can yield different values for wall thickness and are not interchangeable.16",
+   "zh": "传统上LV壁厚是在2D引导的M型超声心动图图像上测量的，但该模式仅限于对LV的局部取样。由于许多HCM猫的LV肥厚存在区域异质性，M型超声心动图测量可能遗漏局灶性室壁增厚。由于心脏的平移运动，也可能误将乳头肌测量在内。二维超声心动图可在多个位置测量LV壁厚。帧频应足够高（>40 Hz），以便测量真正的舒张末期壁厚。目前LV壁厚采用2D、M型或二者结合测量，但这2种技术得出的壁厚值可能不同，不可互换。16"
+  },
+  {
+   "section": "DIAGNOSIS / Echocardiography",
+   "section_zh": "诊断 / 超声心动图",
+   "en": "If M‐mode echocardiography is used, it is recommended that it be guided by a 2D short‐axis view (LOE low). With 2D echocardiography, it is recommended that end‐diastolic LV wall thicknesses be measured in at least 2 right parasternal views (long axis and short axis), measuring the thickest part of the septum and free wall in each view (LOE low). Using 2D‐guided M‐mode, it is recommended that septal and free wall thicknesses be measured using a leading edge‐to‐leading edge technique, so that for the septum, the LV endocardial layer is excluded, and for the free wall, the pericardium is excluded (LOE low).101 Using 2D echocardiography, a leading edge‐to‐trailing edge technique should be considered for measuring the septum, and a leading edge‐to‐leading edge technique (excluding the pericardium) for measuring the LV free wall (LOE low). In regions in which marked endocardial thickening occurs, it is recommended that the endocardial layer be excluded from the measurements (LOE low). It is recommended that end‐diastolic LV wall thickness be measured from at least 3 cardiac cycles and averaged (LOE low). End‐diastolic and end‐systolic LV diameters traditionally have been measured using M‐mode (using a leading edge‐to‐leading edge technique), but also can be measured from 2D images (using a trailing‐to‐leading edge technique). Left ventricular fractional shortening is the most commonly used quantitative index of LV systolic function, and regional wall motion abnormalities usually are noted as a subjective finding. Papillary muscle size and geometry are evaluated from right parasternal long and short axis images and usually are described qualitatively, although they can be quantitatively assessed.102",
+   "zh": "如果使用M型超声心动图，建议在2D短轴切面引导下进行（LOE低）。使用2D超声心动图时，建议至少在2个右胸骨旁切面（长轴和短轴）测量舒张末期LV壁厚，在每个切面中测量室间隔和游离壁最厚的部分（LOE低）。使用2D引导的M型时，建议采用前缘‐前缘法测量室间隔和游离壁厚度，即测量室间隔时排除LV心内膜层，测量游离壁时排除心包（LOE低）。101 使用2D超声心动图时，测量室间隔应考虑采用前缘‐后缘法，测量LV游离壁采用前缘‐前缘法（排除心包）（LOE低）。在心内膜明显增厚的区域，建议测量时排除心内膜层（LOE低）。建议至少测量3个心动周期的舒张末期LV壁厚并取平均值（LOE低）。传统上用M型（采用前缘‐前缘法）测量舒张末期和收缩末期LV内径，但也可在2D图像上测量（采用后缘‐前缘法）。左心室缩短分数是最常用的LV收缩功能定量指标，局部室壁运动异常通常作为主观所见记录。乳头肌的大小和几何形态在右胸骨旁长轴和短轴图像上评估，通常作定性描述，但也可进行定量评估。102"
+  },
+  {
+   "section": "DIAGNOSIS / Echocardiography",
+   "section_zh": "诊断 / 超声心动图",
+   "en": "Left atrial size can be measured in short axis and long axis views. Left atrial diameter can be measured in a right parasternal short‐axis view that includes the aortic valve cusps, and can be indexed to aortic diameter (LA/Ao) in the same frame. Measurements can be made either at end‐systole103 or end‐diastole.104 Reference intervals will vary according to the timing within the cardiac cycle (LOE medium). The LA diameter also can be measured in a right parasternal long‐axis 4‐chamber view at end‐systole, from the interatrial septum to the LA free wall (LOE medium).105 Left atrial fractional shortening is an index of LA function, and can be measured using 2D‐guided M‐mode from the same right parasternal short axis view as used for measurement of LA/Ao.103 The presence of spontaneous echo‐contrast (SEC) is associated with decreased LA function and blood stasis, and it is recommended that the LA appendage be evaluated in cats with LA enlargement for the presence of SEC or thrombus106 and for evidence of blood stasis using pulsed wave Doppler LA appendage flow velocities (LOE Low).",
+   "zh": "左心房大小可在短轴和长轴切面测量。可在包含主动脉瓣叶的右胸骨旁短轴切面测量左心房内径，并在同一帧图像中以主动脉内径进行标化（LA/Ao）。测量可在收缩末期103或舒张末期104进行。参考区间会因心动周期中的测量时点不同而不同（LOE中）。也可在收缩末期的右胸骨旁长轴4腔心切面上，从房间隔至LA游离壁测量LA内径（LOE中）。105 左心房缩短分数是LA功能指标，可在与测量LA/Ao相同的右胸骨旁短轴切面上用2D引导的M型测量。103 自发性超声显影（SEC）的存在与LA功能降低和血液淤滞相关，建议对LA扩大的猫评估左心耳是否存在SEC或血栓，106 并用脉冲多普勒测量左心耳血流速度以评估血液淤滞的证据（LOE低）。"
+  },
+  {
+   "section": "DIAGNOSIS / Echocardiography",
+   "section_zh": "诊断 / 超声心动图",
+   "en": "In addition to measuring cardiac chamber dimensions, it is recommended that the presence or absence of dynamic left ventricular outflow tract obstruction (DLVOTO) be evaluated. Assessment of DLVOTO can be made using a combination of 2D, M‐mode, and Doppler echocardiography. Careful imaging of the LVOT using 2D echocardiography should allow identification of systolic anterior motion of the mitral valve (SAM), where the septal leaflet of the mitral valve is displaced towards the septum in systole, obstructing the LVOT. Chordal anterior motion (CAM) also can be identified in the same imaging view.107 Mitral valve SAM also can be imaged using M‐mode echocardiography. Color Doppler can be used to identify the characteristic blood flow jets of LVOT obstruction and mitral regurgitation, and spectral Doppler can be used to estimate the peak LVOT gradient from left apical views (LOE Low). It is recommended that diastolic function be assessed and a class of diastolic dysfunction assigned using a combination of spectral Doppler and tissue Doppler imaging (LOE medium).108, 109 Table 5 summarizes recommended echocardiographic protocols.",
+   "zh": "除测量心腔大小外，建议评估是否存在动态左心室流出道梗阻（DLVOTO）。可结合2D、M型和多普勒超声心动图评估DLVOTO。用2D超声心动图仔细显像LVOT，应能识别二尖瓣收缩期前向运动（SAM），即收缩期二尖瓣前叶（隔侧瓣叶）向室间隔移位，阻塞LVOT。在同一切面中也可识别腱索前向运动（CAM）。107 二尖瓣SAM也可通过M型超声心动图显示。彩色多普勒可用于识别LVOT梗阻和二尖瓣反流的特征性血流束，频谱多普勒可用于在左心尖切面估测LVOT峰值压差（LOE低）。建议结合频谱多普勒和组织多普勒成像评估舒张功能，并划分舒张功能障碍等级（LOE中）。108, 109 表5总结了推荐的超声心动图检查方案。"
+  },
+  {
+   "section": "DIAGNOSIS / Echocardiography / Echocardiographic protocol for cardiomyopathy screening in pedigree breeding cats",
+   "section_zh": "诊断 / 超声心动图 / 纯种繁育猫心肌病筛查的超声心动图方案",
+   "en": "A standard‐of‐care scan should be undertaken at a minimum for screening pedigree breeding cats. Such a scan consists of a quantitative assessment of left heart chamber dimensions, including LA size, LV wall thickness and LV diameter, as well as LA and LV fractional shortening and a qualitative assessment of abnormal cardiac chamber geometry and presence or absence of SAM of the mitral valve (Table 5). No reference interval for maximal end‐diastolic LV wall thickness is universally accepted, and it is overly simplistic to expect a single cutoff value for wall thickness to differentiate a normal ventricle from a hypertrophied ventricle. Furthermore, wall thickness increases with increasing body size,26, 110, 111 and is influenced by hydration112, 113 and heart rate.114 For the majority of normally‐sized cats, an end‐diastolic LV wall thickness <5 mm is considered normal, and ≧6 mm is indicative of hypertrophy. It is recommended that LV wall thicknesses between 5 and 6 mm should be interpreted in the context of body size, family history, qualitative assessment of LA and LV morphology and function, presence of DLVOTO and tissue Doppler imaging velocities. Where there is doubt, it is recommended that the cat be classified as equivocal for LV hypertrophy and reevaluated at a later date.",
+   "zh": "对纯种繁育猫进行筛查时，至少应进行一次标准诊疗级扫查。此类扫查包括定量评估左心各腔室大小（包括LA大小、LV壁厚和LV内径）、LA和LV缩短分数，以及定性评估心腔几何形态异常及是否存在二尖瓣SAM（表5）。目前没有被普遍接受的舒张末期LV最大壁厚参考区间，期望用单一的壁厚界值来区分正常心室与肥厚心室过于简单化。此外，壁厚随体型增大而增加，26, 110, 111 并受水合状态112, 113和心率影响。114 对于大多数体型正常的猫，舒张末期LV壁厚<5 mm视为正常，≧6 mm提示肥厚。建议对介于5和6 mm之间的LV壁厚，结合体型、家族史、LA和LV形态与功能的定性评估、是否存在DLVOTO以及组织多普勒成像速度进行解读。存在疑问时，建议将该猫归为LV肥厚可疑，并在日后复查。"
+  },
+  {
+   "section": "DIAGNOSIS / Echocardiography / Echocardiographic protocol for a cat suspected to have cardiomyopathy",
+   "section_zh": "诊断 / 超声心动图 / 疑似心肌病猫的超声心动图方案",
+   "en": "Further investigations are recommended when history, physical examination findings, or both suggest that a cat might have cardiomyopathy (Table 4, LOE medium). Further investigations also should be considered in older cats when anesthesia or treatment with IV fluid therapy or extended‐release corticosteroids is planned (LOE low). It is recommended that a standard of care examination include a qualitative evaluation of SEC and regional wall motion abnormalities (Table 5). A best practice examination includes the above evaluations and Doppler blood flow velocities recorded in the LVOT, across the mitral valve, in the pulmonary veins, and in the LA appendage. Mitral annulus velocities also should be recorded with tissue Doppler imaging. If a standard‐of‐care assessment is not possible, a focused point‐of‐care examination still can provide some information on the presence of disease and risk of CHF or ATE based on a qualitative assessment of LA size and cardiac chamber geometry.",
+   "zh": "当病史、体格检查结果或二者提示猫可能患有心肌病时，建议进一步检查（表4，LOE中）。当计划对老年猫实施麻醉、静脉输液或长效皮质类固醇治疗时，也应考虑进一步检查（LOE低）。建议标准诊疗级检查包括对SEC和局部室壁运动异常的定性评估（表5）。最佳实践级检查包括上述评估，以及记录LVOT、二尖瓣口、肺静脉和左心耳的多普勒血流速度。还应用组织多普勒成像记录二尖瓣环速度。如果无法进行标准诊疗级评估，基于对LA大小和心腔几何形态的定性评估，聚焦床旁检查仍能提供有关是否存在疾病以及CHF或ATE风险的一些信息。"
+  },
+  {
+   "section": "DIAGNOSIS / Echocardiography / Echocardiographic protocol for a cat suspected to have congestive heart failure",
+   "section_zh": "诊断 / 超声心动图 / 疑似充血性心力衰竭猫的超声心动图方案",
+   "en": "For clinically unstable cats or where specialist level echocardiography is not available, a focused point‐of‐care examination can be used to identify the presence of pleural or pericardial fluid or both, presence of B lines in lungs, and to provide a subjective estimate of LA size and LV systolic function (Table 5).58 It is recommended that this examination be followed by a best practice examination or at least a standard‐of‐care examination once the cat is more stable, using the protocol suggested for cats with suspected cardiomyopathy.",
+   "zh": "对于临床不稳定的猫或无法进行专科级超声心动图检查的情况，可采用聚焦床旁检查来识别是否存在胸腔积液或心包积液或二者兼有、肺部是否存在B线，并对LA大小和LV收缩功能作主观估计（表5）。58 建议在猫病情较稳定后，按照疑似心肌病猫的推荐方案，进行最佳实践级检查或至少进行标准诊疗级检查。"
+  },
+  {
+   "section": "DIAGNOSIS / Approach to the diagnosis of subclinical cardiomyopathy",
+   "section_zh": "诊断 / 亚临床心肌病的诊断思路",
+   "en": "Cats with subclinical cardiomyopathy can be difficult to identify. Cardiac evaluation should be considered for cats with a suspicious history or physical examination findings that include a gallop sound, murmur, or arrhythmia, and in cats judged to be at high risk of CHF if subjected to interventions such as anesthesia or IV fluid therapy (LOE low; Table 4). Echocardiography is currently the most accurate clinical test for diagnosis of cardiomyopathy in cats, and is also the best technique for estimating prognosis, but is highly user‐dependent.99 However, with appropriate training and experience, focused point‐of‐care echocardiography is feasible in first opinion (general) practice and can be used to improve the accuracy of cardiomyopathy diagnosis by nonspecialist practitioners, particularly in cats with more advanced disease.42 It is recommended that focused point‐of‐care echocardiography be undertaken only after appropriate training and practice42, 99 (LOE high) and a point‐of‐care examination should be followed at a later time point with a standard echocardiographic examination to characterize the phenotype.",
+   "zh": "亚临床心肌病猫可能难以识别。对于病史可疑或体格检查发现奔马律、杂音或心律失常的猫，以及被判断在接受麻醉或静脉输液等干预时CHF风险高的猫，应考虑进行心脏评估（LOE低；表4）。超声心动图是目前诊断猫心肌病最准确的临床检查，也是评估预后的最佳技术，但高度依赖操作者。99 然而，经过适当的培训并积累经验后，聚焦床旁超声心动图在初级（全科）诊疗中是可行的，并可提高非专科兽医诊断心肌病的准确性，尤其是对病情较重的猫。42 建议仅在经过适当培训和练习后才进行聚焦床旁超声心动图检查42, 99（LOE高），并在之后进行标准超声心动图检查以明确表型。"
+  },
+  {
+   "section": "DIAGNOSIS / Approach to the diagnosis of subclinical cardiomyopathy",
+   "section_zh": "诊断 / 亚临床心肌病的诊断思路",
+   "en": "When echocardiography is unavailable, evaluation of NT‐proBNP concentrations may be considered. Circulating NT‐proBNP concentrations increase with increasing clinical severity of cardiomyopathy in groups of cats, but overlap precludes using NT‐proBNP to categorize individual cats into mild, moderate, and severe groups.69 The measurement of NT‐proBNP can be considered as an initial screening test for identifying advanced cardiomyopathy. Normal NT‐pro‐BNP results do not assure that a cat is free of cardiomyopathy, especially when mild heart disease is present, nor do they guarantee that a cat will remain free of cardiomyopathy later in life. They do however indicate a low likelihood of cardiomyopathy that is immediately, clinically harmful. Therefore, in a cat suspected of cardiomyopathy, follow‐up echocardiography still should be considered, even if initial NT‐proBNP results are within normal reference intervals (LOE low). It is recommended that a positive NT‐proBNP test always be followed by an echocardiographic examination.",
+   "zh": "无法进行超声心动图检查时，可考虑评估NT‐proBNP浓度。在猫群中，循环NT‐proBNP浓度随心肌病临床严重程度增加而升高，但由于存在重叠，无法用NT‐proBNP将个体猫归入轻度、中度和重度组。69 NT‐proBNP测定可作为识别晚期心肌病的初筛检查。NT‐pro‐BNP结果正常并不能确保猫没有心肌病（尤其是存在轻度心脏病时），也不能保证猫日后不会患心肌病。不过，它们确实提示存在即刻造成临床危害的心肌病的可能性较低。因此，对于疑似心肌病的猫，即使初始NT‐proBNP结果在正常参考区间内，仍应考虑后续进行超声心动图检查（LOE低）。建议在NT‐proBNP检测阳性后始终进行超声心动图检查。"
+  },
+  {
+   "section": "DIAGNOSIS / Approach to the diagnosis of subclinical cardiomyopathy",
+   "section_zh": "诊断 / 亚临床心肌病的诊断思路",
+   "en": "In older cats with heart murmurs, gallop sounds or arrhythmias, it is recommended that serum T4 concentration and blood pressure be measured (LOE high). Echocardiography also should be considered (LOE low).",
+   "zh": "对于有心脏杂音、奔马律或心律失常的老年猫，建议测量血清T4浓度和血压（LOE高）。也应考虑进行超声心动图检查（LOE低）。"
+  },
+  {
+   "section": "DIAGNOSIS / Approach to diagnosis in cats with suspected CHF",
+   "section_zh": "诊断 / 疑似CHF猫的诊断思路",
+   "en": "Physical examination findings of tachypnea, labored breathing, respiratory crackles, hypothermia, and a gallop sound are highly suggestive of CHF,47 but in some cats tachypnea with labored breathing might be the only abnormality detected. Although thoracic radiography traditionally has been considered the gold standard test for detecting cardiogenic pulmonary edema, care should be taken to minimize stress when taking radiographs of cats with respiratory distress. Pulmonary infiltrates and cardiomegaly are the key findings with CHF, but classic radiographic features of CHF such as LA enlargement and distended pulmonary vessels are inconsistently identified in affected cats.52, 54",
+   "zh": "体格检查发现呼吸急促、呼吸费力、肺部湿啰音、低体温和奔马律高度提示CHF，47 但有些猫可能仅检出呼吸急促伴呼吸费力。尽管胸部X线检查传统上被视为检测心源性肺水肿的金标准，但对呼吸窘迫的猫拍摄X线片时应注意尽量减少应激。肺部浸润和心脏增大是CHF的关键发现，但在患病猫中，LA扩大和肺血管扩张等CHF的经典X线特征并不总能见到。52, 54"
+  },
+  {
+   "section": "DIAGNOSIS / Approach to diagnosis in cats with suspected CHF",
+   "section_zh": "诊断 / 疑似CHF猫的诊断思路",
+   "en": "If radiographs cannot be obtained safely, point‐of‐care thoracic ultrasound examination or a point‐of‐care NT‐proBNP test should be considered (LOE high). With point‐of‐care ultrasound examination, the presence of effusions or B‐lines in association with severe LA enlargement is highly suggestive of CHF.58, 115 A negative result on a point‐of‐care NT‐proBNP test suggests that respiratory disease is more likely to be the cause of respiratory distress than is cardiac disease. Once a cat with CHF has been stabilized, a standard‐of‐care or best practice echocardiographic examination should be considered (Table 5, LOE low).",
+   "zh": "如果无法安全地拍摄X线片，应考虑床旁胸部超声检查或床旁NT‐proBNP检测（LOE高）。床旁超声检查中，存在积液或B线并伴重度LA扩大高度提示CHF。58, 115 床旁NT‐proBNP检测结果阴性提示呼吸窘迫更可能由呼吸系统疾病而非心脏病引起。CHF猫病情稳定后，应考虑进行标准诊疗级或最佳实践级超声心动图检查（表5，LOE低）。"
+  },
+  {
+   "section": "TREATMENT / Stage B1 cardiomyopathy",
+   "section_zh": "治疗 / B1期心肌病",
+   "en": "Treatment of cats with subclinical cardiomyopathy is controversial because evidence is lacking. Although the majority of cats with stage B1 cardiomyopathy will not develop clinical signs, it is recommended that stage B1 cats be monitored annually for development of moderate to severe LA enlargement (progression to stage B2). Cats with stage B1 cardiomyopathy are considered at low risk of CHF or ATE, and in general treatment is not recommended (LOE low).",
+   "zh": "由于缺乏证据，亚临床心肌病猫的治疗存在争议。尽管大多数B1期心肌病猫不会出现临床症状，但建议每年监测B1期猫是否出现中度至重度LA扩大（进展至B2期）。B1期心肌病猫被视为CHF或ATE低风险，一般不建议治疗（LOE低）。"
+  },
+  {
+   "section": "TREATMENT / Stage B1 cardiomyopathy",
+   "section_zh": "治疗 / B1期心肌病",
+   "en": "There is no evidence that DLVOTO is associated with increased morbidity or mortality in cats, and atenolol has not been shown to have any effect on the 5‐year survival rate in cats with subclinical HCM.116 However, atenolol is expected to decrease DLVOTO gradient and heart rate,117 and may be considered in cats with stage B1 cardiomyopathy and severe DLVOTO, provided it can be administered consistently (LOE low).",
+   "zh": "没有证据表明DLVOTO与猫的发病率或死亡率增加相关，也未证实阿替洛尔（atenolol）对亚临床HCM猫的5‐年生存率有任何影响。116 然而，预期阿替洛尔可降低DLVOTO压差和心率，117 对于B1期心肌病并伴重度DLVOTO的猫，若能坚持规律给药，可考虑使用（LOE低）。"
+  },
+  {
+   "section": "TREATMENT / Stage B2 cardiomyopathy",
+   "section_zh": "治疗 / B2期心肌病",
+   "en": "Cats with stage B2 HCM have an increased risk of developing CHF or ATE. Primary prevention of ATE in cats with subclinical cardiomyopathy has not been studied, but thromboprophylaxis is recommended when known risk factors for ATE are present.11, 106 Clopidogrel was more effective than aspirin in cats that had survived a previous ATE episode,118 and no other randomized, controlled studies have been reported. Clopidogrel therefore is recommended in cats considered at risk of ATE (moderate to severe LA enlargement, low LA FS%, low LA appendage velocities, SEC; LOE medium). Clopidogrel does not eliminate the risk of ATE, and thus other antithrombotic drugs can be considered in addition to clopidogrel in cats believed to be at very high risk of ATE (eg, clopidogrel plus aspirin, clopidogrel plus a PO factor Xa inhibitor, or clopidogrel plus aspirin plus a PO factor Xa inhibitor; LOE low).",
+   "zh": "B2期HCM猫发生CHF或ATE的风险增加。亚临床心肌病猫ATE的一级预防尚未被研究，但存在已知ATE危险因素时推荐进行血栓预防。11, 106 在曾经历过ATE且存活的猫中，氯吡格雷（clopidogrel）比阿司匹林（aspirin）更有效，118 目前尚无其他随机对照研究报告。因此，推荐对被认为有ATE风险的猫（中度至重度LA扩大、LA FS%低、左心耳血流速度低、SEC）使用氯吡格雷（LOE中）。氯吡格雷不能消除ATE风险，因此对于被认为ATE风险极高的猫，可考虑在氯吡格雷基础上加用其他抗血栓药物（例如氯吡格雷加阿司匹林、氯吡格雷加口服Xa因子抑制剂，或氯吡格雷加阿司匹林加口服Xa因子抑制剂；LOE低）。"
+  },
+  {
+   "section": "TREATMENT / Stage B2 cardiomyopathy",
+   "section_zh": "治疗 / B2期心肌病",
+   "en": "Cats with stage B2 cardiomyopathy should be monitored for progression of disease and development of clinical signs, but the effects of stress caused by reexamination also should be taken into consideration. If a stage B2 cat is reexamined, attention to appropriate handling and minimizing stressful stimuli is important. If these measures are (or are likely to be) insufficient, PO administration of appropriate pharmaceuticals,119, 120 synthetic feline pheromone application121, 122, 123 or both can be considered (LOE medium). Once the LA is moderately to severely enlarged and antithrombotic treatment is started, management is unlikely to change until clinical signs develop, but at a minimum, it is recommended that owners monitor the cat's resting or sleeping respiratory rate124 (LOE medium).",
+   "zh": "应监测B2期心肌病猫的疾病进展和临床症状的出现，但也应考虑复查所致应激的影响。如果对B2期猫进行复查，注意恰当的处理方式和尽量减少应激刺激很重要。如果这些措施不足（或可能不足），可考虑口服适当的药物119, 120、使用合成猫信息素121, 122, 123或二者兼用（LOE中）。一旦LA中度至重度扩大并开始抗血栓治疗，在出现临床症状之前管理方案不太可能改变，但至少建议主人监测猫的静息或睡眠呼吸频率124（LOE中）。"
+  },
+  {
+   "section": "TREATMENT / Stage B2 cardiomyopathy",
+   "section_zh": "治疗 / B2期心肌病",
+   "en": "In 2 randomized, placebo‐controlled studies, neither an angiotensin converting enzyme (ACE) inhibitor (ramipril) nor spironolactone had any effect on LV mass or diastolic function in cats with subclinical HCM, but study populations were small and limited to cats of a single breed that had heritable cardiomyopathy.125, 126 Similarly, benazepril had no effect on time to treatment failure compared to placebo in a randomized placebo‐controlled study that included cats with subclinical heart disease.127 No studies have been reported of pimobendan use in cats with subclinical cardiomyopathy.",
+   "zh": "在2项随机、安慰剂对照研究中，血管紧张素转换酶（ACE）抑制剂（雷米普利，ramipril）和螺内酯（spironolactone）均未对亚临床HCM猫的LV质量或舒张功能产生任何影响，但研究群体样本量小，且仅限于患遗传性心肌病的单一品种猫。125, 126 同样，在一项纳入亚临床心脏病猫的随机安慰剂对照研究中，与安慰剂相比，贝那普利（benazepril）对至治疗失败时间没有影响。127 尚无关于匹莫苯丹（pimobendan）用于亚临床心肌病猫的研究报告。"
+  },
+  {
+   "section": "TREATMENT / Stage B2 cardiomyopathy",
+   "section_zh": "治疗 / B2期心肌病",
+   "en": "Ventricular ectopy is common in cats with HCM48, 49and ARVC48, 128, 129 and is associated with sudden death in people with these cardiomyopathies.80, 129, 130 Treatment options in cats are limited, but atenolol has been shown to decrease ventricular ectopy in cats with HCM.117 It is recommended that cats with complex ventricular ectopy be treated with atenolol (6.25 mg/cat q12h PO) or sotalol (10‐20 mg/cat q12h PO; LOE low). Markedly increased heart rate is observed in a minority of cats with atrial fibrillation (AF),83 but AF occurs most often in the setting of advanced cardiomyopathy where tachycardia is poorly tolerated. Diltiazem, atenolol or sotalol may be considered in cats with AF and a rapid ventricular response rate (LOE Low).",
+   "zh": "室性异位搏动在HCM48, 49和ARVC48, 128, 129猫中很常见，在患有这些心肌病的人中与猝死相关。80, 129, 130 猫的治疗选择有限，但已证明阿替洛尔可减少HCM猫的室性异位搏动。117 建议对复杂室性异位搏动的猫使用阿替洛尔（6.25 mg/只 q12h PO）或索他洛尔（sotalol，10‐20 mg/只 q12h PO；LOE低）治疗。少数心房颤动（AF）猫可见心率明显增快，83 但AF最常发生于晚期心肌病，此时心动过速耐受性差。对于AF伴快速心室率的猫，可考虑使用地尔硫䓬（diltiazem）、阿替洛尔或索他洛尔（LOE低）。"
+  },
+  {
+   "section": "TREATMENT / Stage C / Acute decompensated heart failure",
+   "section_zh": "治疗 / C期 / 急性失代偿性心力衰竭",
+   "en": "Cats with pulmonary edema or pleural effusion caused by CHF usually are presented with tachypnea and labored breathing. Empirical diuretic treatment should be considered immediately when the index of suspicion for CHF is high, for example, if hypothermia and a gallop sound are present, especially when echocardiography or thoracic radiography is unavailable or the risk of restraint for diagnostic evaluation appears to exceed the benefits (LOE low). Supplementary oxygen administration is recommended for any cat with respiratory distress, and sedation with an anxiolytic (eg, butorphanol) also should be considered (LOE low). Stress should be further minimized by gentle handling, a quiet environment, and provision of a hiding box.131",
+   "zh": "因CHF导致肺水肿或胸腔积液的猫通常以呼吸急促和呼吸费力就诊。当高度怀疑CHF时（例如存在低体温和奔马律），尤其是在无法进行超声心动图或胸部X线检查，或为诊断评估而保定的风险似乎超过获益时，应立即考虑经验性利尿治疗（LOE低）。推荐对任何呼吸窘迫的猫进行补充给氧，也应考虑使用抗焦虑药（如布托啡诺，butorphanol）进行镇静（LOE低）。应通过轻柔操作、安静环境和提供躲藏箱进一步减少应激。131"
+  },
+  {
+   "section": "TREATMENT / Stage C / Acute decompensated heart failure",
+   "section_zh": "治疗 / C期 / 急性失代偿性心力衰竭",
+   "en": "Intravenous administration of furosemide, either as multiple boluses of 1 to 2 mg/kg or a constant rate infusion, is recommended for CHF and pulmonary edema in particular (LOE low). Thoracocentesis should be performed when respiratory distress results from pleural effusion (LOE low). Intravenous fluid treatment is contraindicated in cats with clinically evident congestion, edema or effusion, and can exacerbate signs of CHF even if diuretics are administered concurrently (LOE low). Ideally, measuring blood chemistries can be considered before treatment if samples can be obtained without compromising patient safety (LOE low), but diuretic treatment is recommended for acute heart failure regardless of the presence of azotemia (LOE low).",
+   "zh": "对于CHF，尤其是肺水肿，推荐静脉注射呋塞米（furosemide），可采用1至2 mg/kg多次推注或恒速输注（LOE低）。当呼吸窘迫由胸腔积液引起时，应进行胸腔穿刺（LOE低）。对于有明显临床淤血、水肿或积液的猫，静脉输液属禁忌，即使同时使用利尿剂，也可能加重CHF症状（LOE低）。理想情况下，若能在不危及患病动物安全的前提下采集样本，可考虑在治疗前测定血液生化（LOE低），但无论是否存在氮质血症，均推荐对急性心力衰竭进行利尿治疗（LOE低）。"
+  },
+  {
+   "section": "TREATMENT / Stage C / Acute decompensated heart failure",
+   "section_zh": "治疗 / C期 / 急性失代偿性心力衰竭",
+   "en": "In cats with signs of low cardiac output (eg, hypotension, hypothermia, bradycardia), PO treatment with pimobendan could be considered, provided DLVOTO is absent (LOE low). In cats with acute heart failure and low cardiac output signs that do not show clinical improvement after administration of pimobendan, a constant rate infusion of dobutamine could be considered (LOE low). Evidence of the efficacy of transdermal administration of nitroglycerin in cats is lacking or conflicting, and its use is not recommended (LOE medium). Angiotensin converting enzyme inhibition is not indicated during acute decompensation of cats with cardiomyopathy (LOE low). Monitoring body temperature, respiratory rate, body weight, blood pressure, and estimated urine output is recommended (LOE high).",
+   "zh": "对于有低心输出量体征（如低血压、低体温、心动过缓）的猫，若不存在DLVOTO，可考虑口服匹莫苯丹（LOE低）。对于急性心力衰竭伴低心输出量体征、且使用匹莫苯丹后临床未改善的猫，可考虑恒速输注多巴酚丁胺（dobutamine）（LOE低）。经皮给予硝酸甘油（nitroglycerin）在猫中的疗效证据缺乏或相互矛盾，不推荐使用（LOE中）。心肌病猫急性失代偿期间不适用ACE抑制（LOE低）。推荐监测体温、呼吸频率、体重、血压和估计尿量（LOE高）。"
+  },
+  {
+   "section": "TREATMENT / Stage C / Acute decompensated heart failure",
+   "section_zh": "治疗 / C期 / 急性失代偿性心力衰竭",
+   "en": "Once stabilized, it is recommended that cats be discharged to the care of their owners as soon as possible (LOE low). Reevaluation is recommended 3‐7 days after discharge to evaluate for resolution of CHF and to evaluate renal function and serum electrolyte concentrations (LOE low). It is recommended that owners monitor the cat's resting or sleeping respiratory rate with the goal of maintaining the respiratory rate <30 breaths/min (LOE medium).",
+   "zh": "病情稳定后，建议尽快让猫出院，交由主人照护（LOE低）。建议在出院后3‐7天复查，以评估CHF是否消退，并评估肾功能和血清电解质浓度（LOE低）。建议主人监测猫的静息或睡眠呼吸频率，目标是将呼吸频率维持在<30次/分钟（LOE中）。"
+  },
+  {
+   "section": "TREATMENT / Stage C / Chronic heart failure",
+   "section_zh": "治疗 / C期 / 慢性心力衰竭",
+   "en": "Furosemide is the primary drug used for control of pulmonary edema and effusions in cats with CHF. Typically, treatment consists of furosemide 0.5 to 2 mg/kg PO q8‐12 h, depending on the severity of clinical signs of CHF. A common starting dosage is 1 to 2 mg/kg PO q12h (LOE low). Intravenous administration is preferred in cats with marked respiratory distress from pulmonary edema (see treatment of acute decompensated heart failure, above). The maintenance dose of furosemide should be titrated to maintain a resting or sleeping respiratory rate at home of <30 breaths/min (LOE low). Measurement of serum creatinine, blood urea nitrogen, and electrolyte concentrations is recommended 3‐7 days after initiating furosemide (LOE low). Angiotensin converting enzyme inhibition with benazepril did not delay the onset of treatment failure in a randomized, placebo‐controlled study of cats with CHF127 (LOE high) although ACE inhibitors still are used by some cardiologists. Prophylactic antithrombotic treatment with clopidogrel (18.75 mg/cat PO q24h, with food) is recommended in any cat with a history of CHF and moderate to severe LA enlargement (LOE low). Some cats react to clopidogrel with salivation and retching or vomiting, which can be minimized by administering the medication in an empty gelatin capsule, followed by water. Pimobendan can be considered in cats without clinically relevant LVOTO (LOE low).132 A commonly used dosage is 0.625 to 1.25 mg per cat q12h PO.",
+   "zh": "呋塞米是控制CHF猫肺水肿和积液的主要药物。通常根据CHF临床症状的严重程度，使用呋塞米0.5至2 mg/kg PO q8‐12 h。常用起始剂量为1至2 mg/kg PO q12h（LOE低）。对于因肺水肿出现明显呼吸窘迫的猫，首选静脉给药（见上文急性失代偿性心力衰竭的治疗）。呋塞米维持剂量应逐步调整，使猫在家中的静息或睡眠呼吸频率维持在<30次/分钟（LOE低）。建议在开始使用呋塞米后3‐7天测定血清肌酐、血尿素氮和电解质浓度（LOE低）。在一项针对CHF猫的随机、安慰剂对照研究中，使用贝那普利进行ACE抑制并未推迟治疗失败的发生127（LOE高），不过仍有一些心脏病专科医师使用ACE抑制剂。推荐对任何有CHF病史且伴中度至重度LA扩大的猫使用氯吡格雷（18.75 mg/只 PO q24h，随食物给予）进行预防性抗血栓治疗（LOE低）。有些猫对氯吡格雷出现流涎、干呕或呕吐反应，可将药物装入空明胶胶囊给药后再喂水，以减少此类反应。对于无具有临床意义的LVOTO的猫，可考虑使用匹莫苯丹（LOE低）。132 常用剂量为0.625至1.25 mg/只 q12h PO。"
+  },
+  {
+   "section": "TREATMENT / Stage C / Chronic heart failure",
+   "section_zh": "治疗 / C期 / 慢性心力衰竭",
+   "en": "It is recommended that cats with stage C cardiomyopathy be reexamined at approximately 2‐4 month intervals or as needed. Consideration should be given to the effects of stress caused by reexamination on an individual basis. Owner‐recorded resting or sleeping respiratory rate can provide useful information for adjusting medication over the phone without the need for clinic visits, although the presence of comorbidities and the risk of disease progression may necessitate periodic reexaminations. For cats with a DCM phenotype, enquiries about dietary history and measurement of plasma taurine concentrations are recommended, with supplementation and dietary change as necessary.",
+   "zh": "建议C期心肌病猫约每隔2‐4个月或根据需要复查。应针对个体考虑复查所致应激的影响。主人记录的静息或睡眠呼吸频率可为通过电话调整用药提供有用信息，无需到诊所就诊，但共病的存在和疾病进展的风险可能需要定期复查。对于DCM表型的猫，建议询问饮食史并测定血浆牛磺酸浓度，必要时进行补充和更换饮食。"
+  },
+  {
+   "section": "TREATMENT / Stage D (refractory)",
+   "section_zh": "治疗 / D期（难治性）",
+   "en": "Torsemide may be considered in place of furosemide in cats with persistent CHF despite high doses of furosemide (>6 mg/kg/day PO), at a starting dose of 0.1 to 0.2 mg/kg PO q24h and uptitrating to effect (LOE low). Spironolactone 1 to 2 mg/kg PO q12h to q24h also can be considered for management of chronic CHF.133 Adverse reactions (eg, ulcerative dermatitis) have been reported in Maine Coon cats treated with spironolactone at a dosage of 2 mg/kg q12h (LOE medium).126 In cats with global LV systolic dysfunction, pimobendan is recommended (LOE low).134 Taurine supplementation at 250 mg PO q12h also is recommended for cats with global LV systolic dysfunction unless plasma taurine concentrations are in the normal range (LOE low).135 Foods high in salt should be avoided (LOE low). As the number of medications increases, owner compliance is likely to decrease, and unnecessary medications should be avoided (LOE low).",
+   "zh": "对于尽管使用高剂量呋塞米（>6 mg/kg/天 PO）仍持续CHF的猫，可考虑以托拉塞米（torsemide）替代呋塞米，起始剂量0.1至0.2 mg/kg PO q24h，并逐步上调至起效（LOE低）。也可考虑使用螺内酯1至2 mg/kg PO q12h至q24h管理慢性CHF。133 已有报告缅因猫使用螺内酯2 mg/kg q12h治疗时出现不良反应（如溃疡性皮炎）（LOE中）。126 对于LV整体收缩功能障碍的猫，推荐使用匹莫苯丹（LOE低）。134 对于LV整体收缩功能障碍的猫，除非血浆牛磺酸浓度在正常范围内，也推荐补充牛磺酸250 mg PO q12h（LOE低）。135 应避免高盐食物（LOE低）。随着药物数量增加，主人依从性可能下降，应避免不必要的药物（LOE低）。"
+  },
+  {
+   "section": "TREATMENT / Stage D (refractory)",
+   "section_zh": "治疗 / D期（难治性）",
+   "en": "Cardiac cachexia, defined as loss of muscle or lean body mass associated with heart failure, may be present in cats with stage D cardiomyopathy. Calorie intake should be prioritized over restriction of sodium intake and body condition score should be recorded and an accurate body weight obtained at every clinic visit (LOE low). It is recommended that serum potassium concentration be monitored and if hypokalemia is identified, the diet should be supplemented with potassium from either natural or commercial sources (LOE low).",
+   "zh": "D期心肌病猫可能出现心脏恶病质，其定义为与心力衰竭相关的肌肉或瘦体重丢失。应优先保证热量摄入，而非限制钠摄入；每次就诊时应记录体况评分并准确称量体重（LOE低）。建议监测血清钾浓度，如发现低钾血症，应通过天然或商品来源在饮食中补钾（LOE低）。"
+  },
+  {
+   "section": "TREATMENT / Management of ATE",
+   "section_zh": "治疗 / ATE的管理",
+   "en": "Most cats with ATE presented to first opinion practice are euthanized.136 This approach is justifiable In terms of the cat's welfare and generally poor prognosis, but if analgesia is adequate and favorable prognostic factors are present (eg, normothermia, only 1 limb affected, absence of CHF),136, 137 an attempt at treatment can be considered provided the owner is fully informed of the risks and overall poor prognosis.",
+   "zh": "就诊于初级诊疗机构的大多数ATE猫被安乐死。136 就猫的福利和总体较差的预后而言，这一做法是合理的；但如果镇痛充分且存在有利的预后因素（例如体温正常、仅1个肢体受累、无CHF），136, 137 在主人充分知情风险和总体不良预后的前提下，可考虑尝试治疗。"
+  },
+  {
+   "section": "TREATMENT / Management of ATE",
+   "section_zh": "治疗 / ATE的管理",
+   "en": "Analgesia is a priority for management of acute ATE in the first 24 hours, and treatment with a mu opioid agonist such as fentanyl, hydromorphone, or methadone is recommended (LOE low). Anticoagulant treatment is recommended using low‐molecular‐weight heparin (LMWH) or unfractionated heparin, or a PO factor Xa inhibitor, which should be started as soon as possible (LOE low). Thrombolytic treatment is not recommended for cats with ATE (LOE high).138, 139, 140 If CHF is present with ATE, management with furosemide and oxygen is recommended as necessary (LOE high), but it is important to note that pain also can cause tachypnea, and this should not be mistaken for the presence of CHF. It is recommended that clopidogrel be started as soon as the cat can tolerate PO medications, with an initial loading dose of 75 mg PO (LOE low) followed by 18.75 mg PO q24h (LOE high). Heparin can be replaced by a PO factor Xa inhibitor in combination with clopidogrel (LOE low).",
+   "zh": "镇痛是急性ATE前24小时管理的优先事项，推荐使用μ阿片受体激动剂，如芬太尼（fentanyl）、氢吗啡酮（hydromorphone）或美沙酮（methadone）（LOE低）。推荐使用低分子量肝素（LMWH）或普通肝素，或口服Xa因子抑制剂进行抗凝治疗，并应尽早开始（LOE低）。不推荐对ATE猫进行溶栓治疗（LOE高）。138, 139, 140 如果ATE伴CHF，推荐根据需要使用呋塞米和给氧进行管理（LOE高），但需注意疼痛也可引起呼吸急促，不应误认为存在CHF。建议在猫能耐受口服药物后立即开始使用氯吡格雷，初始负荷剂量为75 mg PO（LOE低），随后18.75 mg PO q24h（LOE高）。肝素可由口服Xa因子抑制剂联合氯吡格雷替代（LOE低）。"
+  },
+  {
+   "section": "TREATMENT / Management of ATE / Post‐ATE",
+   "section_zh": "治疗 / ATE的管理 / ATE后",
+   "en": "Reexamination is recommended 3‐7 days after discharge from the hospital, as well as 1‐2 weeks after the ATE event. Evaluation should include assessment of the distal limbs for evidence of necrosis, electrolyte status, appetite, and treatment compliance, as well as the degree of improvement in neuromuscular function. Resolution of lower motor neuron dysfunction can take weeks or months in some cats,141 and reexamination should be considered every 1‐3 months, considering the effects of stress in the individual cat. It is recommended that the owner continue to monitor resting or sleeping respiratory rate.",
+   "zh": "建议在出院后3‐7天以及ATE事件后1‐2周复查。评估应包括检查远端肢体有无坏死迹象、电解质状况、食欲和治疗依从性，以及神经肌肉功能的改善程度。在一些猫中，下运动神经元功能障碍的恢复可能需要数周或数月，141 应考虑每1‐3个月复查一次，同时考虑个体猫的应激影响。建议主人继续监测静息或睡眠呼吸频率。"
+  },
+  {
+   "section": "CONCLUSIONS",
+   "section_zh": "结论",
+   "en": "Cardiomyopathies in cats are a heterogeneous group of myocardial disorders of mostly unknown etiology and with potentially life‐threatening consequences. However, it is possible to identify cats at high risk of adverse events. In this consensus statement, we have outlined an approach to diagnosis and treatment that should be accessible to general practitioners as well as specialists. We make several new recommendations: cardiomyopathy classification should be focused on phenotype, but staging is more important for management than type of cardiomyopathy. Echocardiography is a very powerful tool that can provide valuable information, but even a simple focused point‐of‐care ultrasound examination can be performed by nonspecialist practitioners to identify cats at high risk of CHF or ATE, or those already presenting with CHF. Evidence‐based recommendations are provided on diagnosis and treatment of cardiomyopathies according to stage.",
+   "zh": "猫心肌病是一组病因大多未明、可能危及生命的异质性心肌疾患。不过，识别不良事件高风险的猫是可能的。在本共识声明中，我们概述了一套全科兽医和专科医师都能使用的诊断和治疗思路。我们提出了若干新建议：心肌病分类应以表型为重点，但对于管理而言，分期比心肌病类型更重要。超声心动图是一种非常强大的工具，可提供有价值的信息，但即使是简单的聚焦床旁超声检查，非专科兽医也能进行，以识别CHF或ATE高风险的猫或已出现CHF的猫。本文按分期就心肌病的诊断和治疗提供了循证建议。"
+  },
+  {
+   "section": "CONFLICT OF INTEREST DECLARATION",
+   "section_zh": "利益冲突声明",
+   "en": "Luis Fuentes: Boehringer Ingelheim Vetmedica (consultancy, speaking); CEVA (program support), IDEXX (research support). Abbott: IDEXX (research); CEVA (program support); Boehringer Ingelheim Vetmedica (consultancy, speaking). Chetboul: Boehringer Ingelheim Vetmedica (consultancy, speaking); CEVA (speaking); Vetoquinol (consultancy, speaking); Elanco (speaking). Côté: Boehringer Ingelheim Vetmedica, Iams, IDEXX Laboratories, Nestlé Purina, Royal Canin (speaking); IDEXX Laboratories Canada, Zoetis Canada (research support). Fox: Boehringer Ingelheim Vetmedica (consultancy, speaking). Häggström: Boehringer Ingelheim Vetmedica GmbH; CEVA Sante Animale; Nestle Purina. Kittleson: none. Schober: Boehringer Ingelheim Vetmedica GmbH. Stern: Myokardia (research support); Cytokinetics (research support).",
+   "zh": "Luis Fuentes：Boehringer Ingelheim Vetmedica（咨询、演讲）；CEVA（项目支持），IDEXX（研究支持）。Abbott：IDEXX（研究）；CEVA（项目支持）；Boehringer Ingelheim Vetmedica（咨询、演讲）。Chetboul：Boehringer Ingelheim Vetmedica（咨询、演讲）；CEVA（演讲）；Vetoquinol（咨询、演讲）；Elanco（演讲）。Côté：Boehringer Ingelheim Vetmedica、Iams、IDEXX Laboratories、Nestlé Purina、Royal Canin（演讲）；IDEXX Laboratories Canada、Zoetis Canada（研究支持）。Fox：Boehringer Ingelheim Vetmedica（咨询、演讲）。Häggström：Boehringer Ingelheim Vetmedica GmbH；CEVA Sante Animale；Nestle Purina。Kittleson：无。Schober：Boehringer Ingelheim Vetmedica GmbH。Stern：Myokardia（研究支持）；Cytokinetics（研究支持）。"
+  },
+  {
+   "section": "OFF‐LABEL ANTIMICROBIAL DECLARATIONS",
+   "section_zh": "超说明书使用抗菌药物声明",
+   "en": "Authors declare no off‐label use of antimicrobials.",
+   "zh": "作者声明未超说明书使用抗菌药物。"
+  },
+  {
+   "section": "INSTITUTIONAL ANIMAL CARE AND USE COMMITTEE (IACUC) OR OTHER APPROVAL DECLARATION",
+   "section_zh": "动物实验伦理委员会（IACUC）或其他批准声明",
+   "en": "Authors declare no IACUC or other approval was needed.",
+   "zh": "作者声明无需IACUC或其他批准。"
+  },
+  {
+   "section": "HUMAN ETHICS APPROVAL DECLARATION",
+   "section_zh": "人类伦理审批声明",
+   "en": "Authors declare human ethics approval was not needed for this study.",
+   "zh": "作者声明本研究无需人类伦理审批。"
+  },
+  {
+   "section": "Table caption",
+   "section_zh": "表题",
+   "en": "Table 1 Levels of evidence",
+   "zh": "表1 证据等级"
+  },
+  {
+   "section": "Table caption",
+   "section_zh": "表题",
+   "en": "Table 2 Class of recommendations",
+   "zh": "表2 推荐类别"
+  },
+  {
+   "section": "Figure legend",
+   "section_zh": "图注",
+   "en": "Figure 1 Classification of cardiomyopathy phenotypes. (adapted with permission from Clinical Small Animal Internal Medicine, Ed David Bruyette, John Wiley & Son). ARVC, arrhythmogenic right ventricular cardiomyopathy; DCM, dilated cardiomyopathy; End‐stage HCM, HCM with systolic dysfunction; HCM, hypertrophic cardiomyopathy; RCM, restrictive cardiomyopathy; TMT, transient myocardial thickening",
+   "zh": "图1 心肌病表型分类。（经许可改编自Clinical Small Animal Internal Medicine，David Bruyette主编，John Wiley & Son出版）。ARVC，致心律失常性右心室心肌病；DCM，扩张型心肌病；终末期HCM，伴收缩功能障碍的HCM；HCM，肥厚型心肌病；RCM，限制型心肌病；TMT，一过性心肌增厚"
+  },
+  {
+   "section": "Table caption",
+   "section_zh": "表题",
+   "en": "Table 3 Definitions of cardiomyopathy phenotypes. Cardiomyopathy is defined as a myocardial disorder in which the heart muscle is structurally and functionally abnormal in the absence of any other disease sufficient to cause the observed myocardial abnormality",
+   "zh": "表3 心肌病表型的定义。心肌病定义为一种心肌疾患，即在不存在足以导致所观察到的心肌异常的任何其他疾病的情况下，心肌在结构和功能上出现异常"
+  },
+  {
+   "section": "Figure legend",
+   "section_zh": "图注",
+   "en": "Figure 2 Stages of feline cardiomyopathy. Within stage B2, additional risk factors include a gallop sound, arrhythmia, decreased left atrial function, extreme left ventricular hypertrophy, left ventricular systolic dysfunction, spontaneous echo‐contrast/thrombus, regional wall motion abnormalities. ATE, arterial thromboembolism; CHF, congestive heart failure",
+   "zh": "图2 猫心肌病分期。在B2期内，其他危险因素包括奔马律、心律失常、左心房功能降低、极度左心室肥厚、左心室收缩功能障碍、自发性超声显影/血栓、局部室壁运动异常。ATE，动脉血栓栓塞；CHF，充血性心力衰竭"
+  },
+  {
+   "section": "Table caption",
+   "section_zh": "表题",
+   "en": "Table 4 Main indications for cardiac evaluation",
+   "zh": "表4 心脏评估的主要适应证"
+  },
+  {
+   "section": "Table caption",
+   "section_zh": "表题",
+   "en": "Table 5 Echocardiographic protocols for a cat suspected of having cardiomyopathy according to level (basic to advanced)",
+   "zh": "表5 疑似心肌病猫按级别（由基础到高级）的超声心动图检查方案"
+  },
+  {
+   "section": "Table footnote",
+   "section_zh": "表注",
+   "en": "Note: “Focused point‐of‐care” scan: an abbreviated echocardiographic examination conducted because of patient instability, because the operator has limited training in echocardiography, or both; “standard of care” scan: an echocardiographic examination that includes the content considered to be standard by a trained, competent observer; “best practice” scan: an echocardiographic examination conducted by a cardiologist with particular expertise in echocardiography. IVSd: end‐diastolic interventricular septal thickness, LA: left atrial, LA FS%: left atrial fractional shortening, LA/Ao: left atrial to aortic ratio at end‐diastole and end‐systole, or both, LAA: left atrial appendage, LV: left ventricular, LV FS%: left ventricular fractional shortening, LVFWd: end‐diastolic left ventricular free wall thickness, LVIDd: left ventricular internal dimension at end‐diastole, LVIDs: left ventricular internal dimension at end‐systole, LVOT: left ventricular outflow tract, PVF: pulmonary venous flow, RP: right parasternal, RVOT: right ventricular outflow tract, SAM: systolic anterior motion of the mitral valve.",
+   "zh": "注：“聚焦床旁”扫查：由于患病动物不稳定、操作者超声心动图培训有限或二者兼有而进行的简化超声心动图检查；“标准诊疗级”扫查：包含经过培训、能胜任的观察者所认为的标准内容的超声心动图检查；“最佳实践级”扫查：由在超声心动图方面具有专门经验的心脏病专科医师进行的超声心动图检查。IVSd：舒张末期室间隔厚度，LA：左心房，LA FS%：左心房缩短分数，LA/Ao：舒张末期和收缩末期或二者之一的左心房与主动脉内径比，LAA：左心耳，LV：左心室，LV FS%：左心室缩短分数，LVFWd：舒张末期左心室游离壁厚度，LVIDd：舒张末期左心室内径，LVIDs：收缩末期左心室内径，LVOT：左心室流出道，PVF：肺静脉血流，RP：右胸骨旁，RVOT：右心室流出道，SAM：二尖瓣收缩期前向运动。"
+  }
+ ]
+}

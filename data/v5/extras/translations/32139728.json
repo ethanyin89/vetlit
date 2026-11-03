@@ -1,0 +1,313 @@
+{
+ "pmid": "32139728",
+ "license": "CC BY 4.0",
+ "attribution": {
+  "authors": [
+   "Salonen Milla",
+   "Sulkama Sini",
+   "Mikkola Salla",
+   "Puurunen Jenni",
+   "Hakanen Emma",
+   "Tiira Katriina",
+   "Araujo César",
+   "Lohi Hannes"
+  ],
+  "title": "Prevalence, comorbidity, and breed differences in canine anxiety in 13,700 Finnish pet dogs",
+  "journal": "Scientific Reports",
+  "year": "2020",
+  "doi": "10.1038/s41598-020-59837-z",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "note": "中文为 AI 翻译，以英文原文为准；已对原文做翻译改编"
+ },
+ "scope_zh": "标题、摘要、引言、结果、讨论、方法全文正文；图1–5图注。未含：参考文献、补充材料（补充表/图）。",
+ "paragraphs": [
+  {
+   "section": "Title",
+   "section_zh": "标题",
+   "en": "Prevalence, comorbidity, and breed differences in canine anxiety in 13,700 Finnish pet dogs",
+   "zh": "13,700只芬兰宠物犬焦虑的患病率、共病及品种差异"
+  },
+  {
+   "section": "Abstract",
+   "section_zh": "摘要",
+   "en": "Behaviour problems and anxieties in dogs decrease their quality of life and may lead to relinquishment or euthanasia. Considering the large number of pet dogs and the commonness of these problematic behaviours, a better understanding of the epidemiology and related molecular and environmental factors is needed. We have here studied the prevalence, comorbidity, and breed specificity of seven canine anxiety-like traits: noise sensitivity, fearfulness, fear of surfaces and heights, inattention/impulsivity, compulsion, separation related behaviour and aggression with an online behaviour questionnaire answered by dog owners. Our results show that noise sensitivity is the most common anxiety-related trait with a prevalence of 32% in 13,700 Finnish pet dogs. Due to the high prevalence of noise sensitivity and fear, they were the most common comorbidities. However, when comparing the relative risk, the largest risk ratios were seen between hyperactivity/inattention, separation related behaviour and compulsion, and between fear and aggression. Furthermore, dog breeds showed large differences in prevalence of all anxiety-related traits, suggesting a strong genetic contribution. As a result, selective breeding focusing on behaviour may reduce the prevalence of canine anxieties. Anxious animals may suffer from chronic stress and thus, modified breeding policies could improve the welfare of our companion dogs.",
+   "zh": "犬的行为问题和焦虑会降低其生活质量，并可能导致被弃养或被安乐死。鉴于宠物犬数量庞大且这些问题行为十分常见，有必要更好地了解其流行病学及相关的分子和环境因素。本研究通过一份由犬主人作答的在线行为问卷，研究了七种犬焦虑样特质的患病率、共病情况和品种特异性：噪声敏感、恐惧、对地面和高处的恐惧、注意力不集中/冲动、强迫行为、分离相关行为以及攻击行为。结果显示，在13,700只芬兰宠物犬中，噪声敏感是最常见的焦虑相关特质，患病率为32%。由于噪声敏感和恐惧的患病率高，二者是最常见的共病。然而，在比较相对风险时，最大的风险比出现在多动/注意力不集中、分离相关行为与强迫行为之间，以及恐惧与攻击行为之间。此外，各犬种在所有焦虑相关特质的患病率上均存在较大差异，提示遗传因素有重要作用。因此，以行为为重点的选择性育种可能降低犬焦虑的患病率。焦虑的动物可能承受慢性应激，因此，调整育种政策可改善伴侣犬的福利。"
+  },
+  {
+   "section": "Introduction",
+   "section_zh": "引言",
+   "en": "Problematic behaviours can be a threat to dog welfare. Anxious dogs may be more vulnerable to diseases and show decreased lifespan1. Satisfaction with the dog’s behaviour may increase attachment to the dog2 and problematic behaviours, especially aggressiveness, destructiveness, fearfulness and hyperactivity are a common reason for relinquishment to shelters3,4. Problematic behaviours can even lead to euthanasia at a young age5,6. Behaviour problems, especially aggressiveness, may be public health concerns7. Some of these behaviour problems have been suggested to be analogous, or possibly even homologous to human anxiety disorders8, and the study of these spontaneous behaviour problems arising in a shared environment with people may reveal important biological factors underlying many psychiatric conditions. For example, canine compulsive disorder resembles human OCD on both phenotypic and neurochemical level8.",
+   "zh": "问题行为可能威胁犬的福利。焦虑的犬可能更易患病，寿命也可能缩短1。对犬行为的满意度可能增强主人对犬的依恋2，而问题行为，尤其是攻击性、破坏性、恐惧和多动，是犬被送往收容所的常见原因3,4。问题行为甚至可能导致犬在年幼时被安乐死5,6。行为问题，尤其是攻击性，可能构成公共卫生问题7。有观点认为其中一些行为问题与人类焦虑障碍相似，甚至可能同源8；研究这些在与人共享的环境中自发出现的行为问题，可能揭示许多精神疾病背后的重要生物学因素。例如，犬强迫障碍在表型和神经化学层面上都类似于人类强迫症（OCD）8。"
+  },
+  {
+   "section": "Introduction",
+   "section_zh": "引言",
+   "en": "Behaviour problems are common in our companion canines9. The most common reported behaviour problems include excessive barking, inappropriate elimination, destructiveness, aggression and fearfulness6,10–13. The prevalence of noise sensitivity in previous studies has varied between 20% and 50%14–18. Around 20–25% of dogs show fearfulness of strangers, dogs or situations15,16 and separation anxiety occurs in 14–20% of dogs15,16,19. Furthermore, comorbidity between noise sensitivity and separation anxiety has also been observed15,20.",
+   "zh": "行为问题在伴侣犬中很常见9。最常报告的行为问题包括过度吠叫、不当排泄、破坏行为、攻击和恐惧6,10–13。既往研究中噪声敏感的患病率在20%至50%之间14–18。约20–25%的犬对陌生人、其他犬或某些情境表现出恐惧15,16，分离焦虑见于14–20%的犬15,16,19。此外，也观察到噪声敏感与分离焦虑之间存在共病15,20。"
+  },
+  {
+   "section": "Introduction",
+   "section_zh": "引言",
+   "en": "Behaviour has a major genetic component21–27 and many traits are both phenotypically and genetically correlated22. For example, relatives of compulsive dogs are often also affected28. Some genomic areas and loci are associated with problematic behaviour, including compulsion29, fear and noise sensitivity30. Furthermore, problematic behaviour may be influenced by many environmental factors, including, for example, maternal care, owner experience, training and exercise31–33. Behaviours are complex traits affected by several genes with small effects, multiple environmental factors varying in effect, and intricate interactions between them34.",
+   "zh": "行为具有重要的遗传成分21–27，许多特质在表型和遗传上均相关22。例如，强迫症犬的亲属也常受累28。一些基因组区域和位点与问题行为相关，包括强迫行为29、恐惧和噪声敏感30。此外，问题行为可能受到许多环境因素的影响，例如母性照料、主人经验、训练和运动31–33。行为属于复杂性状，受多个效应较小的基因、多种效应不一的环境因素以及它们之间错综复杂的相互作用影响34。"
+  },
+  {
+   "section": "Introduction",
+   "section_zh": "引言",
+   "en": "Many epidemiological cross-sectional studies of behaviour are hindered by a small sample size and breed coverage or limited number of traits for a comprehensive overview. For example, our earlier anxiety survey included only three traits and reached ~3,300 participants16. Therefore, we developed here a more comprehensive owner-completed online questionnaire to collect a large data set of companion dogs in the study of canine anxiety. We expanded the study from three to seven anxiety-related traits and acquired four times as many records to assess the prevalence of different anxiety-like behaviour problems in a large home living population of companion canines, comorbidity between the anxiety-related traits, and trait-specific behavioural variation between breeds, which could indicate genetic inheritance.",
+   "zh": "许多行为流行病学横断面研究受限于样本量小、品种覆盖面窄或纳入特质数量有限，难以提供全面概览。例如，我们此前的焦虑调查仅包括三种特质，约有~3,300名参与者16。因此，本研究开发了一份更全面的、由主人填写的在线问卷，用于收集大规模伴侣犬数据集以研究犬焦虑。我们将研究从三种扩展到七种焦虑相关特质，获得的记录数量是此前的四倍，以评估在大规模家养伴侣犬群体中不同焦虑样行为问题的患病率、焦虑相关特质之间的共病，以及品种间特质特异性的行为差异（这种差异可能提示遗传性）。"
+  },
+  {
+   "section": "Results / Demography",
+   "section_zh": "结果 / 人口学特征",
+   "en": "We examined the epidemiology of seven anxiety-like traits in dogs: noise sensitivity, fear, fear of surfaces, inattention/impulsivity, compulsive behaviour, aggression and separation related behaviour with a comprehensive owner-answered online questionnaire. We collected 13,715 responses in 264 dog breeds. In total, 51.5% of the dogs were female and the age of the dogs varied between 10 weeks and 17 years 10 months (mean 4.7 years). We received more than 200 responses from mixed breed dogs and from 14 breeds: Bernese Mountain Dog, Border Collie, Finnish Lapponian Dog, German Shepherd Dog, Labrador Retriever, Lagotto Romagnolo, Lapponian Herder, Miniature Schnauzer, Rough Collie, Shetland Sheepdog, Smooth Collie, Soft-Coated Wheaten Terrier (labelled Wheaten Terrier), Spanish Water Dog and Staffordshire Bull Terrier (labelled Staff. Bull Terrier). These breeds and mixed breed dogs made up 35% of all dogs in the data. The sex ratio did not significantly differ between these breeds (χ2 = 4.17, DF = 14, P = 0.994), but the mean age differed (Kruskal-Wallis χ2 = 77.53, DF = 14, P < 0.001): Bernese Mountain Dogs (x¯ = 3.8 years, SD = 2.7) were, on average, younger and Miniature Schnauzers (x¯ = 5.3 years, SD = 3.4) and Wheaten Terriers (x¯ = 5.7 years, SD = 3.7) older than other breeds.",
+   "zh": "我们通过一份全面的、由主人作答的在线问卷，研究了犬七种焦虑样特质的流行病学：噪声敏感、恐惧、对地面的恐惧、注意力不集中/冲动、强迫行为、攻击行为和分离相关行为。共收集到264个犬种的13,715份回复。总体上，51.5%的犬为雌性，年龄范围为10周至17岁10个月（平均4.7岁）。混种犬及以下14个犬种的回复均超过200份：伯恩山犬（Bernese Mountain Dog）、边境牧羊犬（Border Collie）、芬兰拉普猎犬（Finnish Lapponian Dog）、德国牧羊犬（German Shepherd Dog）、拉布拉多寻回犬（Labrador Retriever）、拉戈托罗马阁挪露犬（Lagotto Romagnolo）、拉普兰驯鹿犬（Lapponian Herder）、迷你雪纳瑞（Miniature Schnauzer）、粗毛柯利犬（Rough Collie）、喜乐蒂牧羊犬（Shetland Sheepdog）、短毛柯利犬（Smooth Collie）、软毛麦色㹴（Soft-Coated Wheaten Terrier，标注为Wheaten Terrier）、西班牙水犬（Spanish Water Dog）和斯塔福郡斗牛㹴（Staffordshire Bull Terrier，标注为Staff. Bull Terrier）。这些犬种和混种犬占数据中全部犬只的35%。这些犬种之间性别比例无显著差异（χ2 = 4.17，DF = 14，P = 0.994），但平均年龄存在差异（Kruskal-Wallis χ2 = 77.53，DF = 14，P < 0.001）：伯恩山犬（x¯ = 3.8岁，SD = 2.7）平均较年轻，而迷你雪纳瑞（x¯ = 5.3岁，SD = 3.4）和麦色㹴（x¯ = 5.7岁，SD = 3.7）比其他犬种年长。"
+  },
+  {
+   "section": "Results / Prevalence",
+   "section_zh": "结果 / 患病率",
+   "en": "In total, 72.5% of dogs had some kind of highly problematic behaviour. Noise sensitivity was the most common anxiety trait with 32% of dogs being highly fearful of at least one noise (Fig. 1a, Supplementary Table S1). Fear was the second most common trait with a prevalence of 29%. Separation related behaviour and aggression were the most uncommon traits with prevalences of 5% and 14%, respectively.",
+   "zh": "总体上，72.5%的犬存在某种高度问题行为。噪声敏感是最常见的焦虑特质，32%的犬对至少一种噪声高度恐惧（图1a，补充表S1）。恐惧是第二常见的特质，患病率为29%。分离相关行为和攻击行为是最不常见的特质，患病率分别为5%和14%。"
+  },
+  {
+   "section": "Results / Prevalence",
+   "section_zh": "结果 / 患病率",
+   "en": "The prevalence of the subtraits varied (Fig. 1b, Supplementary Table S1). In noise sensitivity, fear of fireworks was the most common subtrait with a prevalence of 26%. When comparing subtraits of fear, fear of other dogs was the most common. Aggression toward human family members was slightly more common than aggression toward strangers. From compulsion subtraits, self-biting was the most commonly reported.",
+   "zh": "各亚特质的患病率不一（图1b，补充表S1）。在噪声敏感中，对烟花的恐惧是最常见的亚特质，患病率为26%。比较恐惧的亚特质时，对其他犬的恐惧最常见。对家庭成员的攻击略多于对陌生人的攻击。在强迫行为亚特质中，自咬是最常报告的。"
+  },
+  {
+   "section": "Results / Comorbidity",
+   "section_zh": "结果 / 共病",
+   "en": "Many dogs exhibited comorbidities between different anxiety-related traits (Fig. 2a). Most common comorbidity was fear, especially in aggressive and hyperactive/impulsive dogs, and the second most common was noise sensitivity, especially in fearful dogs. However, a somewhat different pattern emerged when comparing the relative risks (Fig. 2b, Supplementary Table S2). Dogs displaying separation related behaviour were 4.1 times more often hyperactive/impulsive and 3.4 times more often inattentive than dogs not displaying separation related behaviour. Similar comorbidities were seen between compulsion and hyperactivity/inattention, and compulsion and separation related behaviour. Finally, aggressive dogs were 3.2 times more often fearful, and dogs showing separation related behaviour were 2.8 times more likely fearful.",
+   "zh": "许多犬在不同焦虑相关特质之间存在共病（图2a）。最常见的共病是恐惧，尤其见于有攻击行为和多动/冲动的犬；第二常见的是噪声敏感，尤其见于恐惧的犬。然而，比较相对风险时出现了略有不同的模式（图2b，补充表S2）。与无分离相关行为的犬相比，有分离相关行为的犬出现多动/冲动的频率高4.1倍，出现注意力不集中的频率高3.4倍。强迫行为与多动/注意力不集中之间、强迫行为与分离相关行为之间也存在类似的共病。最后，有攻击行为的犬出现恐惧的频率高3.2倍，有分离相关行为的犬出现恐惧的可能性高2.8倍。"
+  },
+  {
+   "section": "Results / Comorbidity",
+   "section_zh": "结果 / 共病",
+   "en": "Comorbidity between subtraits was also common but showed high variability (Supplementary Table S3). Of the highly noise sensitive dogs, 53% displayed noise sensitivity toward more than one target. Similarly, 38% of the highly fearful dogs were highly fearful toward more than one subtrait. However, only 9% of aggressive dogs showed aggression toward both family members and strangers.",
+   "zh": "亚特质之间的共病同样常见，但变异很大（补充表S3）。在高度噪声敏感的犬中，53%对不止一种对象表现出噪声敏感。同样，在高度恐惧的犬中，38%对不止一种亚特质对象高度恐惧。然而，有攻击行为的犬中只有9%同时对家庭成员和陌生人表现出攻击。"
+  },
+  {
+   "section": "Results / Age and sex differences",
+   "section_zh": "结果 / 年龄与性别差异",
+   "en": "Male dogs were more often aggressive and hyperactive/impulsive, but female dogs were more often fearful (Fig. 3b–d, Supplementary Fig. S1, Supplementary Table S4). Separation related behaviour was slightly more common in male dogs. The prevalence of noise sensitivity increased with age, especially fear of thunder (Fig. 3a, Supplementary Fig. S1, Supplementary Table S5). Similarly, fear of surfaces and heights increased with age, whereas hyperactivity/impulsivity and tail chasing decreased. Other traits did not show clear linear changes.",
+   "zh": "雄性犬更常表现出攻击和多动/冲动，而雌性犬更常表现出恐惧（图3b–d，补充图S1，补充表S4）。分离相关行为在雄性犬中略常见。噪声敏感的患病率随年龄增长而升高，尤其是对雷声的恐惧（图3a，补充图S1，补充表S5）。同样，对地面和高处的恐惧随年龄增长而增加，而多动/冲动和追尾行为则减少。其他特质未表现出明显的线性变化。"
+  },
+  {
+   "section": "Results / Breed specificity",
+   "section_zh": "结果 / 品种特异性",
+   "en": "Large breed differences were observed in all behavioural traits (Fig. 4, Supplementary Fig. S2, Supplementary Table S6). For example, 10.6% of Miniature Schnauzers were aggressive toward strangers, whereas only 0.4% of Labrador Retrievers showed aggression (Fig. 4). Similarly, 9.5% of Staffordshire Bull Terriers were reported to display tail chasing, but none of the Lagotto Romagnolo dogs chased their tails.",
+   "zh": "所有行为特质均存在较大的品种差异（图4，补充图S2，补充表S6）。例如，10.6%的迷你雪纳瑞对陌生人有攻击行为，而拉布拉多寻回犬仅有0.4%表现出攻击（图4）。同样，据报告9.5%的斯塔福郡斗牛㹴有追尾行为，而拉戈托罗马阁挪露犬中没有一只追尾。"
+  },
+  {
+   "section": "Results / Breed specificity",
+   "section_zh": "结果 / 品种特异性",
+   "en": "When focusing on individual breeds, these differences in prevalences resulted in breed-specific patterns (Fig. 5). Border Collies displayed a very high prevalence of compulsive staring and fly snapping, but only moderate levels of other traits (Fig. 5). In contrast, Miniature Schnauzers displayed high levels of aggression and social fear (fear of strangers and other dogs), but few stereotypies. Lagotto Romagnolos displayed high levels of noise sensitivity, social fear, and aggression. Staffordshire Bull Terriers showed high levels of compulsive behaviour, hyperactivity, and inattention. For more breeds, see Supplementary Fig. S3.",
+   "zh": "聚焦到单个犬种时，这些患病率差异形成了品种特异性的模式（图5）。边境牧羊犬强迫性凝视和扑咬苍蝇的患病率很高，但其他特质仅为中等水平（图5）。相反，迷你雪纳瑞攻击行为和社交恐惧（对陌生人和其他犬的恐惧）水平高，但刻板行为少。拉戈托罗马阁挪露犬噪声敏感、社交恐惧和攻击行为水平高。斯塔福郡斗牛㹴强迫行为、多动和注意力不集中水平高。更多犬种见补充图S3。"
+  },
+  {
+   "section": "Discussion",
+   "section_zh": "讨论",
+   "en": "We have here developed a comprehensive behavioural survey and applied a citizen science approach to collect a large canine behavioural dataset of over 260 breeds of dogs. Our data replicates results from some earlier studies and the study also shows a number of novel insights, including prevalences, comorbidities and breed differences of traits not described before. These results improve the overall understanding of problematic behaviour.",
+   "zh": "本研究开发了一份全面的行为调查问卷，并采用公民科学方法，收集了涵盖260多个犬种的大规模犬行为数据集。我们的数据重复了一些早期研究的结果，本研究也提供了若干新见解，包括此前未描述过的特质的患病率、共病和品种差异。这些结果加深了对问题行为的整体认识。"
+  },
+  {
+   "section": "Discussion",
+   "section_zh": "讨论",
+   "en": "Based on the results here and in previous studies, noise sensitivity stands out as the most common canine anxiety with a prevalence of 32% in this study. Earlier, the prevalence has varied between 20% and 50%9,12,14–18. Based on our study and previous studies14,17,18, the most common noise sensitivity is the fear of fireworks. Fear was the second most common canine anxiety, with a prevalence of 29%. Specifically, 17% of dogs showed fear of other dogs, 15% fear of strangers and 11% fear of novel situations. Prevalence of total fearfulness12,16 and prevalence of fear subtraits9,15,16,35 were quite similar in previous studies as well. Fear of surfaces and heights appears to be highly prevalent in our study population, as 23.5% of dog owners reported that their dogs were highly fearful of different surfaces and heights.",
+   "zh": "根据本研究和既往研究的结果，噪声敏感是最常见的犬焦虑，本研究中的患病率为32%。既往的患病率在20%至50%之间9,12,14–18。根据本研究和既往研究14,17,18，最常见的噪声敏感是对烟花的恐惧。恐惧是第二常见的犬焦虑，患病率为29%。具体而言，17%的犬对其他犬恐惧，15%对陌生人恐惧，11%对新情境恐惧。总体恐惧的患病率12,16和恐惧亚特质的患病率9,15,16,35在既往研究中也相当接近。对地面和高处的恐惧在本研究群体中似乎非常普遍，23.5%的犬主人报告其犬对不同地面和高处高度恐惧。"
+  },
+  {
+   "section": "Discussion",
+   "section_zh": "讨论",
+   "en": "Based on our results, every fifth dog displays high levels of inattention and 15% high levels of hyperactivity/impulsivity. Excessive activity has been reported in 12% to 34% of dogs9,12. Compulsive behaviour patterns were observed in 16% of the dogs, agreeing with a previous study9. Based on our results and previous studies9,28, self-mutilation is the most common compulsive behaviour. Self-mutilation may be a compulsion, but it may also be caused by allergies, ectoparasites or other skin problems, possibly explaining the high prevalence of the subtrait.",
+   "zh": "根据我们的结果，每五只犬中就有一只表现出高度注意力不集中，15%表现出高度多动/冲动。既往报告的过度活跃见于12%至34%的犬9,12。16%的犬观察到强迫行为模式，与一项既往研究一致9。根据我们的结果和既往研究9,28，自残是最常见的强迫行为。自残可能是一种强迫行为，但也可能由过敏、体外寄生虫或其他皮肤问题引起，这或许可以解释该亚特质患病率高的原因。"
+  },
+  {
+   "section": "Discussion",
+   "section_zh": "讨论",
+   "en": "The prevalence of aggression was 14%, with both aggression toward human family members and toward strangers occurring in 6% of dogs. In our previous study, 16% of dogs had at least once displayed aggressive behaviours toward family members and 45% toward strangers16. In previous studies, the prevalence of aggression and its subtraits has varied between 2% and 30%9,12,15. Studies focusing on referrals to veterinary/behaviour clinics often report aggression as the most common behaviour problem10,11,13, possibly because owners find aggressiveness more problematic than, for example, fear of fireworks. Separation related behaviours were only displayed by 6% of the dogs. Previously, the prevalence of separation anxiety has been 2–3 times higher than in this present study9,15,16,19, possibly because we only included dogs with high frequencies of separation related behaviour. Taken together, our results are surprisingly similar compared to previous studies, even though the populations studied and the criteria for anxiety-related traits differ in every study.",
+   "zh": "攻击行为的患病率为14%，对家庭成员的攻击和对陌生人的攻击各见于6%的犬。在我们此前的研究中，16%的犬至少一次对家庭成员表现出攻击行为，45%对陌生人表现出攻击行为16。既往研究中攻击行为及其亚特质的患病率在2%至30%之间9,12,15。聚焦于转诊至兽医/行为门诊病例的研究常报告攻击是最常见的行为问题10,11,13，可能是因为主人认为攻击性比例如对烟花的恐惧更成问题。仅有6%的犬表现出分离相关行为。既往研究中分离焦虑的患病率是本研究的2–3倍9,15,16,19，可能是因为本研究只纳入了分离相关行为频率高的犬。总体而言，尽管各研究的研究群体和焦虑相关特质的判定标准都不同，我们的结果与既往研究出人意料地相似。"
+  },
+  {
+   "section": "Discussion",
+   "section_zh": "讨论",
+   "en": "Male and female dogs displayed differences in the prevalence of behaviour problems. Male dogs had a higher prevalence of aggressiveness, separation related behaviour, inattention and hyperactivity/impulsivity. In contrast, female dogs had a higher prevalence of fearfulness. Noise sensitivity, fear of surfaces and compulsive behaviour occurred independent of sex. Previous studies have shown similar sex differences in aggression9,13,36–38, fearfulness13,32,39–41, separation related behaviour36 and compulsion33. Reported sex differences in noise sensitivity are less clear (more common in females17,32, more common in males14, no difference between sexes18).",
+   "zh": "雄性和雌性犬在行为问题的患病率上存在差异。雄性犬攻击性、分离相关行为、注意力不集中和多动/冲动的患病率较高。相反，雌性犬恐惧的患病率较高。噪声敏感、对地面的恐惧和强迫行为的发生与性别无关。既往研究在攻击9,13,36–38、恐惧13,32,39–41、分离相关行为36和强迫行为33方面也显示了类似的性别差异。噪声敏感方面报告的性别差异则不太明确（雌性更常见17,32，雄性更常见14，性别间无差异18）。"
+  },
+  {
+   "section": "Discussion",
+   "section_zh": "讨论",
+   "en": "We detected differences between age groups in the prevalence of most behaviour problems. Younger dogs had a higher prevalence of destroy/urinate when alone, inattention, hyperactivity/impulsivity, tail chasing and self-biting. Older dogs had a higher prevalence of aggression, noise sensitivity and fear of surfaces. Fearfulness was most common in dogs aged 4–8 years. Furthermore, vocalize/salivate/pant when alone and other compulsive behaviours (beside the aforementioned tail chasing and self-biting) occurred independent of age. Previous studies are in agreement at least in noise sensitivity14,17,18,32, inattention42,43, hyperactivity/impulsivity12,42–44 and aggression12,37. Tail chasing, destroying and urinating indoors are typical behaviours for puppies, and this likely explains the age differences in these subtraits.",
+   "zh": "我们发现大多数行为问题的患病率在不同年龄组之间存在差异。较年轻的犬独处时破坏/排尿、注意力不集中、多动/冲动、追尾和自咬的患病率较高。较年长的犬攻击、噪声敏感和对地面恐惧的患病率较高。恐惧在4–8岁的犬中最常见。此外，独处时吠叫/流涎/喘息以及其他强迫行为（除上述追尾和自咬外）的发生与年龄无关。既往研究至少在噪声敏感14,17,18,32、注意力不集中42,43、多动/冲动12,42–44和攻击12,37方面与本研究一致。追尾、破坏和室内排尿是幼犬的典型行为，这很可能解释了这些亚特质的年龄差异。"
+  },
+  {
+   "section": "Discussion",
+   "section_zh": "讨论",
+   "en": "We observed large behavioural differences between breeds. Noise sensitivity was the most common in Lagotto Romagnolo, Wheaten Terrier and mixed breed dogs. Previous studies have also ranked these breeds high in noise sensitivity14,16–18. Among some other breeds, Miniature Schnauzers and Staffordshire Bull Terriers were, in contrast, noise sensitive less often, as also observed in previous studies10,17. Fear was most common in Spanish Water Dogs, Shetland Sheepdogs and mixed breeds. In contrast, Labrador Retrievers were seldomly fearful. These results are in agreement with previous studies, ranking mixed breed dogs high in fearfulness9,13,35,40 and Labrador Retrievers and Staffordshire Bull Terriers low in fearfulness35,41,45,46. Fear of surfaces and heights was the most often observed in Rough Collie and mixed breed dogs.",
+   "zh": "我们观察到各犬种之间存在较大的行为差异。噪声敏感在拉戈托罗马阁挪露犬、麦色㹴和混种犬中最常见。既往研究也将这些犬种列为噪声敏感程度高的犬种14,16–18。相反，在其他一些犬种中，迷你雪纳瑞和斯塔福郡斗牛㹴噪声敏感较少见，与既往研究的观察一致10,17。恐惧在西班牙水犬、喜乐蒂牧羊犬和混种犬中最常见。相反，拉布拉多寻回犬很少恐惧。这些结果与既往研究一致：混种犬恐惧程度排名靠前9,13,35,40，拉布拉多寻回犬和斯塔福郡斗牛㹴恐惧程度排名靠后35,41,45,46。对地面和高处的恐惧在粗毛柯利犬和混种犬中最常观察到。"
+  },
+  {
+   "section": "Discussion",
+   "section_zh": "讨论",
+   "en": "Inattention was most often reported in mixed breed dogs, Finnish Lapponian Dogs and Lapponian Herders, and rarely reported in Spanish Water Dogs and Border Collies. Although Finnish Lapponian Dogs and Lapponian Herders have not been studied before, our results agree with previous results43. As the dog breeds showing high prevalence of inattention are breeds that are often regarded as “hard to train”, owners may rate dogs not easily motivated by food or petting as inattentive. Hyperactivity and impulsivity were the most common in mixed breed dogs, German Shepherds, Spanish Water Dogs and Staffordshire Bull Terriers, and the least common in Rough Collies and Miniature Schnauzers. Similar breed differences were observed in a previous study44. Furthermore, herding dogs (including, for example, Border Collie and German Shepherd) and terriers (including, for example, Staffordshire Bull Terriers) have ranked high in extraversion and, in contrast, toy dogs low in extraversion47. In our study, Labrador Retrievers and Rough Collies had a low prevalence of hyperactivity/impulsivity, but otherwise our results match previous studies. However, it seems that classification into traditional and genetic breed groups poorly reflect behavioural differences48, possibly explaining the differences in these results. Compulsive behaviour was most often reported by owners of German Shepherds, mixed breed dogs and Staffordshire Bull Terriers. However, the breed differences varied highly between different compulsions. For example, Staffordshire Bull Terriers had a high prevalence of tail chasing, with nearly 10% of them chasing their tails. In contrast, light chasing and staring were the most often observed in Border Collies. Interestingly, Border Collies were bred to herd livestock by staring at them intensely, and even though this method of herding can be perfected by training, the behaviour itself seems to be innate49. Pacing and excessive drinking were often performed by mixed breed dogs and German Shepherds. In a previous study, German shepherds had high odds of being presented to a behaviour clinic for obsessive behaviour10.",
+   "zh": "注意力不集中最常报告于混种犬、芬兰拉普猎犬和拉普兰驯鹿犬，而在西班牙水犬和边境牧羊犬中很少报告。尽管芬兰拉普猎犬和拉普兰驯鹿犬此前未被研究过，我们的结果与既往结果一致43。由于注意力不集中患病率高的犬种往往被认为“难以训练”，主人可能会把不容易被食物或抚摸激励的犬评为注意力不集中。多动和冲动在混种犬、德国牧羊犬、西班牙水犬和斯塔福郡斗牛㹴中最常见，在粗毛柯利犬和迷你雪纳瑞中最少见。一项既往研究观察到类似的品种差异44。此外，牧羊犬（例如边境牧羊犬和德国牧羊犬）和㹴犬（例如斯塔福郡斗牛㹴）的外向性排名靠前，相反，玩具犬的外向性排名靠后47。本研究中拉布拉多寻回犬和粗毛柯利犬多动/冲动的患病率低，除此之外我们的结果与既往研究相符。然而，传统犬种组和遗传犬种组的分类似乎难以很好地反映行为差异48，这可能解释了这些结果中的差异。强迫行为最常由德国牧羊犬、混种犬和斯塔福郡斗牛㹴的主人报告。然而，不同强迫行为之间的品种差异变化很大。例如，斯塔福郡斗牛㹴追尾的患病率高，近10%会追自己的尾巴。相反，追光和凝视在边境牧羊犬中最常观察到。有趣的是，边境牧羊犬是为通过紧盯牲畜来放牧而培育的，尽管这种放牧方式可通过训练完善，但该行为本身似乎是先天的49。踱步和过度饮水常见于混种犬和德国牧羊犬。在一项既往研究中，德国牧羊犬因强迫行为就诊于行为门诊的比值较高10。"
+  },
+  {
+   "section": "Discussion",
+   "section_zh": "讨论",
+   "en": "Mixed breed dogs and Miniature Schnauzers had the highest prevalence of aggression, whereas Labrador Retrievers had the lowest prevalence of aggression. Aggression toward strangers was most prevalent in Miniature Schnauzers, mixed breed dogs, German Shepherd Dogs and Spanish Water Dogs, and least prevalent in Labrador Retrievers. Aggression toward human family members was most common in Miniature Schnauzers and Lagotto Romagnolos. Our results agree with previous studies both in total aggression9,13 and in the subtraits, aggression toward strangers36–38,45 and aggression towards family members16,37. Separation related behaviour was most common in mixed breed dogs and Wheaten Terriers. Specifically, mixed breed dogs were likely to destroy, urinate or defecate when left alone, whereas Wheaten Terriers were likely to vocalize, salivate or pant. Based on our results and a previous study36, mixed breed dogs may be more prone to show separation related behaviour. It is possible that the high prevalence of separation distress and other anxieties in the mixed breed dogs is caused by a poor early life environment and adverse experiences in life, as many mixed breed dogs in our data are likely rescues.",
+   "zh": "混种犬和迷你雪纳瑞攻击行为的患病率最高，而拉布拉多寻回犬攻击行为的患病率最低。对陌生人的攻击在迷你雪纳瑞、混种犬、德国牧羊犬和西班牙水犬中最普遍，在拉布拉多寻回犬中最少见。对家庭成员的攻击在迷你雪纳瑞和拉戈托罗马阁挪露犬中最常见。我们的结果在总体攻击9,13以及亚特质（对陌生人的攻击36–38,45和对家庭成员的攻击16,37）方面均与既往研究一致。分离相关行为在混种犬和麦色㹴中最常见。具体而言，混种犬独处时容易破坏、排尿或排便，而麦色㹴容易吠叫、流涎或喘息。根据我们的结果和一项既往研究36，混种犬可能更容易表现出分离相关行为。混种犬中分离痛苦和其他焦虑的高患病率可能是由于早期生活环境差和生活中的不良经历所致，因为我们数据中的许多混种犬很可能是被救助的犬。"
+  },
+  {
+   "section": "Discussion",
+   "section_zh": "讨论",
+   "en": "Within-trait comorbidity was common in noise sensitivity and fear: 53% of dogs that were fearful of one noise were fearful of several noises, and 38% of fearful dogs were fearful of more than one target. This result was also discovered in our previous study16. Based on previous studies, noise sensitivity is often generalised and displayed toward several different noises9,14,17,18. We discovered that dogs were seldomly aggressive toward both family members and strangers, as reported before in some dog breeds50. In contrast, one previous study did report a significant comorbidity between stranger-directed and owner-directed aggression13. However, it seems that aggression toward strangers and family members are genetically distinct traits51.",
+   "zh": "噪声敏感和恐惧的特质内共病很常见：对一种噪声恐惧的犬中有53%对多种噪声恐惧，恐惧的犬中有38%对不止一种对象恐惧。我们此前的研究也发现了这一结果16。根据既往研究，噪声敏感常常是泛化的，表现为对多种不同噪声的恐惧9,14,17,18。我们发现犬很少同时对家庭成员和陌生人具有攻击性，这与此前在一些犬种中的报告一致50。相反，一项既往研究确实报告了针对陌生人的攻击与针对主人的攻击之间存在显著共病13。然而，针对陌生人和针对家庭成员的攻击似乎是遗传上不同的特质51。"
+  },
+  {
+   "section": "Discussion",
+   "section_zh": "讨论",
+   "en": "We discovered that noise sensitivity and fear were the most common comorbidities, likely due to their high prevalence in our study population. However, when comparing the risk ratios in comorbid traits, the largest risk ratios were seen between separation related behaviour, hyperactivity/impulsivity, inattention and compulsive behaviour, and between fear and aggression. Fearful dogs were 3.2 times more often aggressive than non-fearful dogs, a relationship found in previous studies as well9,13,16,38. This indicates that aggression is commonly motivated by fear. The connection between impulsivity, compulsive behaviour and separation related behaviour is an interesting finding that demands further research. One previous study discovered that excitable dogs had 9.8 times higher odds of separation distress52 and another study discovered a connection between compulsive behaviour and hyperactivity9. Intriguingly, impulsivity and compulsion are related constructs, as both are proposed to be caused by a failure of response control and mediated by basal ganglia53. We observed many trait connections detected in previous studies as well, including comorbidity between fear and noise sensitivity14,16,17, between fear and separation related behaviour16, between separation related behaviour and aggression13,16 and between fear and compulsive behaviour9,33. However, previous studies have detected a comorbidity between separation anxiety and noise sensitivity9,13,15,17,19,20. We indeed discovered that separation related behaviour was 1.4 times more prevalent in noise sensitive dogs. However, the opposite was not true, as dogs showing separation related behaviour were not fearful of noises more often than dogs not showing separation related behaviour. Furthermore, we discovered a positive connection between compulsive behaviour and aggression, contrasting with the results of our previous study33.",
+   "zh": "我们发现噪声敏感和恐惧是最常见的共病，这很可能是由于它们在本研究群体中患病率高。然而，比较共病特质的风险比时，最大的风险比出现在分离相关行为、多动/冲动、注意力不集中与强迫行为之间，以及恐惧与攻击之间。恐惧的犬出现攻击行为的频率是不恐惧犬的3.2倍，既往研究中也发现了这种关系9,13,16,38。这表明攻击行为通常由恐惧驱动。冲动、强迫行为与分离相关行为之间的联系是一个有趣的发现，有待进一步研究。一项既往研究发现，易兴奋的犬出现分离痛苦的比值高9.8倍52，另一项研究发现强迫行为与多动之间存在联系9。有趣的是，冲动和强迫是相关的构念，二者都被认为是由反应控制失败所致，并由基底神经节介导53。我们也观察到许多既往研究中发现的特质间联系，包括恐惧与噪声敏感之间14,16,17、恐惧与分离相关行为之间16、分离相关行为与攻击之间13,16以及恐惧与强迫行为之间9,33的共病。不过，既往研究发现分离焦虑与噪声敏感之间存在共病9,13,15,17,19,20。我们确实发现分离相关行为在噪声敏感犬中的患病率高1.4倍。然而，反之则不成立，因为有分离相关行为的犬对噪声恐惧的频率并不高于无分离相关行为的犬。此外，我们发现强迫行为与攻击之间存在正相关，这与我们此前研究的结果相反33。"
+  },
+  {
+   "section": "Discussion",
+   "section_zh": "讨论",
+   "en": "This study has limitations. Although the fear section of the questionnaire was validated and the test-retest reliability of the fear and noise sensitivity sections was good54 and that the results we have obtained from the data collected with it32,33,55 replicate many previous results, the psychometric properties of the rest of the questionnaire have not been formally evaluated. Future studies should aim to assess the reliability and validity of these additional components. Secondly, the categorisation into low, moderate, and high categories was mostly based on the frequency of signs and not the severity, except in aggression, separation anxiety, and impulsivity/inattention. Thus, in the high groups, the severity of the symptoms can be variable. Thirdly, our sample is a self-selected convenience sample, and may not be representative of the overall Finnish dog population. Although the most common breeds in our sample are also common in Finland56, the representativeness of our sample is still unknown. We are currently working on a separate study to understand the participant profiles and details of the sample demographics.",
+   "zh": "本研究存在局限性。尽管问卷的恐惧部分经过验证，恐惧和噪声敏感部分的重测信度良好54，且利用该问卷收集的数据所得结果32,33,55重复了许多既往结果，但问卷其余部分的心理测量学特性尚未经过正式评估。未来研究应评估这些附加部分的信度和效度。其次，除攻击、分离焦虑和冲动/注意力不集中外，低、中、高类别的划分主要基于体征出现的频率而非严重程度。因此，高分组中症状的严重程度可能参差不齐。第三，我们的样本是自我选择的方便样本，可能不能代表芬兰犬的整体群体。尽管我们样本中最常见的犬种在芬兰也很常见56，样本的代表性仍不明确。我们目前正在开展另一项研究，以了解参与者特征和样本人口学细节。"
+  },
+  {
+   "section": "Discussion",
+   "section_zh": "讨论",
+   "en": "Our findings on breed differences indicate that canine anxieties likely have a genetic basis. In previous studies, many behavioural traits have been indeed shown to have small to moderate heritabilities22,26,57 and recently we mapped two loci for generalized fear and noise sensitivity30. Therefore, it could be possible to decrease the prevalence of canine anxieties by selecting non-anxious animals for breeding. Our results also show that these canine anxieties are phenotypically correlated. Some of these traits, like many behaviour traits21,22, may also be genetically correlated, and therefore selection for one trait may influence other traits as well. Interestingly, a genomic region associated with noise sensitivity in German Shepherd Dogs30 contains the oxytocin receptor gene (OXTR). The gene is associated with social behaviour58 (but see a contrasting study with a smaller sample size59) and most likely has been under strong selection during domestication. This could explain the high prevalence of noise sensitivity in many study populations12,14–18 and could also indicate that breeding efforts to reduce the prevalence of noise sensitivity may prove difficult.",
+   "zh": "我们关于品种差异的发现表明，犬焦虑很可能具有遗传基础。既往研究确实表明许多行为特质具有低至中等的遗传力22,26,57，最近我们还定位了与泛化性恐惧和噪声敏感相关的两个位点30。因此，通过选择无焦虑的动物进行繁育，有可能降低犬焦虑的患病率。我们的结果还显示，这些犬焦虑在表型上相互关联。与许多行为特质一样21,22，其中一些特质也可能在遗传上相关，因此针对某一特质的选择可能也会影响其他特质。有趣的是，德国牧羊犬中与噪声敏感相关的一个基因组区域30包含催产素受体基因（OXTR）。该基因与社会行为相关58（但另有一项样本量较小的研究得出相反结论59），并且很可能在驯化过程中受到了强烈选择。这可以解释许多研究群体中噪声敏感的高患病率12,14–18，也可能表明通过育种来降低噪声敏感患病率可能较为困难。"
+  },
+  {
+   "section": "Discussion",
+   "section_zh": "讨论",
+   "en": "Based on our results, canine anxieties and behaviour problems are common across breeds. There are around 77 million dogs in the United States60 and 85 million in Europe61, and therefore these behaviour problems can affect millions of animals. As anxiety can impair welfare1 and problematic behaviour may be an indication of poor welfare62, efforts should be made to decrease the prevalence of these canine anxieties. Breeding policies may help to improve dog welfare, as could changes in the living environment14,19,32,33,37. Our ongoing efforts aim to identify environmental and genetic risk factors behind these canine anxiety-related traits using the large survey data collected here.",
+   "zh": "根据我们的结果，犬焦虑和行为问题在各犬种中普遍存在。美国约有77 million只犬60，欧洲约有85 million只犬61，因此这些行为问题可能影响数以百万计的动物。由于焦虑会损害福利1，问题行为可能是福利不佳的表现62，应努力降低这些犬焦虑的患病率。育种政策可能有助于改善犬的福利，生活环境的改变也可能如此14,19,32,33,37。我们正在进行的工作旨在利用此处收集的大规模调查数据，识别这些犬焦虑相关特质背后的环境和遗传风险因素。"
+  },
+  {
+   "section": "Methods / Questionnaire",
+   "section_zh": "方法 / 问卷",
+   "en": "A comprehensive online questionnaire was designed to collect extensive information about behaviour and background information of dogs (Supplementary information). The questionnaire consisted of a background section and sections focusing on seven canine anxiety-related traits: noise sensitivity, fear, fear of surfaces and heights, impulsivity/inattention, compulsive behaviour, aggression and separation related behaviour. These traits consisted of several subtraits (Fig. 1b). The fear part of this questionnaire was previously shown to have good validity and both the fear and noise sensitivity sections had good test-retest reliability54. A questionnaire can be a good method for collecting data, since the reliability of questionnaires has been good in behavioural science and the answers are strongly linked to the behaviour of the animals54,63–68. Furthermore, as the owners have a long history with the dogs, it is possible to study traits that would be difficult to study using other methods (for example, behaviour test batteries), including compulsive behaviour69.",
+   "zh": "我们设计了一份全面的在线问卷，用于收集犬行为及背景信息的大量资料（补充信息）。问卷包括背景部分和聚焦七种犬焦虑相关特质的部分：噪声敏感、恐惧、对地面和高处的恐惧、冲动/注意力不集中、强迫行为、攻击行为和分离相关行为。这些特质又包括若干亚特质（图1b）。此前已证明该问卷的恐惧部分效度良好，恐惧和噪声敏感部分的重测信度均良好54。问卷可以是一种很好的数据收集方法，因为在行为科学中问卷的信度良好，且答案与动物的行为密切相关54,63–68。此外，由于主人与犬长期相处，可以研究用其他方法（例如成套行为测试）难以研究的特质，包括强迫行为69。"
+  },
+  {
+   "section": "Methods / Subjects",
+   "section_zh": "方法 / 受试对象",
+   "en": "Owners were mainly recruited from a social media (Facebook) channel. Furthermore, dog breed organisations advertised the questionnaire on their own websites and Facebook pages. In total, we received questionnaire responses of 13,715 dogs in 264 breeds. To ensure reliable prevalence estimates in breed comparisons, we calculated a minimum sample size per breed with the Epitools sample size calculator70. For this calculation, we used the average prevalence of behaviour traits (19%), the average number of registrations per dog breed within the last 10 years (1500), a desired precision of 0.05 and a confidence level of 0.95. This calculation resulted in a minimum sample size of 200 individuals per breed. We obtained more than 200 answers from 14 breeds and mixed breed dogs (N = 418): Finnish Lapponian Dog (N = 538), Labrador Retriever (N = 465), German Shepherd Dog (N = 461), Shetland Sheepdog (N = 411), Soft-coated Wheaten Terrier (N = 351), Lapponian Herder (N = 294), Border Collie (N = 268), Miniature Schnauzer (N = 255), Spanish Water Dog (N = 251), Rough Collie (N = 248), Lagotto Romagnolo (N = 248), Bernese Mountain Dog (N = 209), Smooth Collie (N = 203) and Staffordshire Bull Terrier (N = 200).",
+   "zh": "犬主人主要通过社交媒体（Facebook）渠道招募。此外，犬种协会在其网站和Facebook页面上宣传了该问卷。我们共收到264个犬种13,715只犬的问卷回复。为确保品种比较中患病率估计的可靠性，我们使用Epitools样本量计算器70计算了每个犬种的最小样本量。计算时采用行为特质的平均患病率（19%）、近10年内每个犬种的平均注册数量（1500）、期望精度0.05和置信水平0.95。计算得出每个犬种的最小样本量为200只。我们从14个犬种和混种犬（N = 418）中获得了200份以上的回答：芬兰拉普猎犬（N = 538）、拉布拉多寻回犬（N = 465）、德国牧羊犬（N = 461）、喜乐蒂牧羊犬（N = 411）、软毛麦色㹴（N = 351）、拉普兰驯鹿犬（N = 294）、边境牧羊犬（N = 268）、迷你雪纳瑞（N = 255）、西班牙水犬（N = 251）、粗毛柯利犬（N = 248）、拉戈托罗马阁挪露犬（N = 248）、伯恩山犬（N = 209）、短毛柯利犬（N = 203）和斯塔福郡斗牛㹴（N = 200）。"
+  },
+  {
+   "section": "Methods / Subjects",
+   "section_zh": "方法 / 受试对象",
+   "en": "Informed consent was obtained from all participants. Participants agreed that all questionnaire answers could be used for research. We emphasized that all data will be handled strictly confidentially, and that individual dogs and owners cannot be recognized from the published results.",
+   "zh": "已获得所有参与者的知情同意。参与者同意所有问卷答案可用于研究。我们强调所有数据都将严格保密处理，且无法从发表的结果中识别出个体犬只和主人。"
+  },
+  {
+   "section": "Methods / Subject categorisation",
+   "section_zh": "方法 / 受试犬分类",
+   "en": "Based on the questionnaire scores, dogs were categorised into low, moderate, and high groups for each subtrait (Fig. 1b, Supplementary Table S1) depending on the frequency of the behaviour. The subtraits were, in turn, combined to form trait groups. Low trait groups consisted of dogs that fell into low groups in all subtraits, and high trait groups consisted of dogs that had a high score in at least one subtrait. The categorisation for different subtraits is explained below.",
+   "zh": "根据问卷得分，按照行为出现的频率，将犬在每个亚特质上分为低、中、高三组（图1b，补充表S1）。各亚特质再合并形成特质组。低特质组由在所有亚特质中均属于低分组的犬组成，高特质组由至少在一个亚特质中得分高的犬组成。各亚特质的分类方法说明如下。"
+  },
+  {
+   "section": "Methods / Subject categorisation / Noise sensitivity",
+   "section_zh": "方法 / 受试犬分类 / 噪声敏感",
+   "en": "Noise sensitivity consisted of three subtraits: fear of thunder, fireworks, and gunshot. The respondents were first asked whether their dog showed fear toward these targets, and secondly, how often their dog shows fear, from rarely (0–20% of the time) to always (100% of the time). Dogs belonging to low group did not show fear toward these targets and the owners did not report a frequency for noise sensitivity. Dogs belonging to the high group showed fear at least often (40–60% of the time).",
+   "zh": "噪声敏感包括三个亚特质：对雷声、烟花和枪声的恐惧。首先询问受访者其犬是否对这些对象表现出恐惧，其次询问犬表现出恐惧的频率，从很少（0–20%的时间）到总是（100%的时间）。低分组的犬对这些对象不表现出恐惧，主人也未报告噪声敏感的频率。高分组的犬至少经常（40–60%的时间）表现出恐惧。"
+  },
+  {
+   "section": "Methods / Subject categorisation / Fear",
+   "section_zh": "方法 / 受试犬分类 / 恐惧",
+   "en": "The fear section of the questionnaire consisted of three fear subtraits: fear of strangers, other dogs, and novel situations. Dogs that showed fear at least often (40–60% of the time) constituted the high group and dogs that never showed fear constituted the low group in all subtraits. Furthermore, low fear dogs never barked or growled at strangers or other dogs. Behaviour tests have previously been conducted to validate fear of strangers and fear of novel situations phenotypes54.",
+   "zh": "问卷的恐惧部分包括三个恐惧亚特质：对陌生人、其他犬和新情境的恐惧。在所有亚特质中，至少经常（40–60%的时间）表现出恐惧的犬构成高分组，从不表现出恐惧的犬构成低分组。此外，低恐惧组的犬从不对陌生人或其他犬吠叫或低吼。此前已通过行为测试验证了对陌生人的恐惧和对新情境的恐惧这两种表型54。"
+  },
+  {
+   "section": "Methods / Subject categorisation / Fear of surfaces and heights",
+   "section_zh": "方法 / 受试犬分类 / 对地面和高处的恐惧",
+   "en": "In this section, owners were asked whether their dog had difficulties walking on different surfaces, including on a metal grid, on shiny floors, or moving from one surface to another. Moreover, owners were asked whether their dog had difficulties in high places: climbing stairs where you can or cannot see between steps, walking next to glass railings, climbing metal stairs, and walking over narrow bridges. In all questions, these answers were scored between 0 (never) and 4 (always). Dogs were categorised as high fear of surfaces if at least one of the answers was 3 (often) or 4, and low group consisted of dogs that never had difficulties in any of these tasks.",
+   "zh": "在这一部分，询问主人其犬在不同地面上行走是否有困难，包括在金属格栅上、光滑地板上行走，或从一种地面移动到另一种地面。此外，还询问主人其犬在高处是否有困难：爬能看见或看不见台阶缝隙的楼梯、在玻璃栏杆旁行走、爬金属楼梯以及走过窄桥。所有问题的答案均按0（从不）至4（总是）评分。如果至少有一个答案为3（经常）或4，则将犬归为对地面高度恐惧组；低分组由在这些任务中从未出现困难的犬组成。"
+  },
+  {
+   "section": "Methods / Subject categorisation / Impulsivity/inattention",
+   "section_zh": "方法 / 受试犬分类 / 冲动/注意力不集中",
+   "en": "Dog owners were asked to rate their dog’s behaviour on a scale of 1 (never) to 4 (very often) in 13 questions, developed by Vas and colleagues42 and designed to measure inattention, hyperactivity, and impulsivity. A principal component analysis with a promax rotation was run to divide the questions into two components, inattention and hyperactivity/impulsivity (Supplementary Table S8), and component scores were calculated for each dog. One question (Item 11) was removed from the analysis, as it loaded equally on both components. The cut-off between low and moderate category was set at the first dog having a rating of 3 (often) in the item that had the highest loading (Item 2 in inattention, Item 5 in hyperactivity/impulsivity). The cut-off between the moderate and high category was set at the first dog having a rating of 4 (very often) in the highest loading item and the same rating on one additional item.",
+   "zh": "犬主人需在13个问题上按1（从不）至4（非常经常）对其犬的行为评分，这些问题由Vas及其同事编制42，旨在测量注意力不集中、多动和冲动。采用promax旋转进行主成分分析，将问题分为两个成分：注意力不集中和多动/冲动（补充表S8），并为每只犬计算成分得分。有一个问题（条目11）因在两个成分上载荷相同而被剔除。低与中类别之间的分界点设定为在载荷最高的条目（注意力不集中为条目2，多动/冲动为条目5）上首次出现评分为3（经常）的犬。中与高类别之间的分界点设定为在载荷最高的条目上首次出现评分为4（非常经常）且另有一个条目也为相同评分的犬。"
+  },
+  {
+   "section": "Methods / Subject categorisation / Compulsive behaviour",
+   "section_zh": "方法 / 受试犬分类 / 强迫行为",
+   "en": "Compulsive behaviour part of the questionnaire measured the occurrence of tail chasing, fly snapping/light chasing, surface licking, pacing, staring, excessive drinking, and self-biting. Tail chasing, fly snapping/light chasing, surface licking, pacing, and staring were scored on a scale of 0 (I’ve never noticed this behaviour) to 6 (several times per day). The dogs scoring from 4 (every other day-weekly) to 6 were placed in the high group, and dogs scoring 0 or 1 (a few times during the dog’s lifetime) were placed in the low group. Furthermore, owners were asked to estimate the time dog spent drinking or near the water bowl from less than 5 minutes to 1 hour or more. Dogs that spent less than 5 minutes near the water bowl formed the low group in excessive drinking, and dogs spending more than 15 minutes near it formed the high group. Finally, the prevalence of self-biting was rated from 0 (never) to 3 (several hours per day). Dogs scoring 2 (almost every day) or 3 constituted the high group whereas dogs scoring 0 constituted the low group.",
+   "zh": "问卷的强迫行为部分测量了追尾、扑咬苍蝇/追光、舔舐物体表面、踱步、凝视、过度饮水和自咬的发生情况。追尾、扑咬苍蝇/追光、舔舐物体表面、踱步和凝视按0（我从未注意到这种行为）至6（每天数次）评分。得分为4（隔天至每周一次）至6的犬归入高分组，得分为0或1（犬一生中出现过几次）的犬归入低分组。此外，要求主人估计犬饮水或待在水碗附近的时间，从少于5分钟到1小时或更长。在水碗附近停留少于5分钟的犬构成过度饮水的低分组，停留超过15分钟的犬构成高分组。最后，自咬的发生情况按0（从不）至3（每天数小时）评分。得分为2（几乎每天）或3的犬构成高分组，得分为0的犬构成低分组。"
+  },
+  {
+   "section": "Methods / Subject categorisation / Aggression",
+   "section_zh": "方法 / 受试犬分类 / 攻击行为",
+   "en": "The aggression trait in the questionnaire consisted of two subtraits: aggression toward strangers and toward family members. The respondents were asked to score the likelihood of their dog growling and trying to snap/bite from 1 (never) to 5 (always or almost always) when a stranger tries to pet the dog in its home or outside and when the owner handles the dog or tries to take a resource (food, bone, or toy) from the dog. If the dog tried to snap or bite at least sometimes (3) or it growled at least often (4), it was categorised as a high aggression dog in each subtrait. The dogs that never showed aggression in any of these situations constituted the low group.",
+   "zh": "问卷中的攻击特质包括两个亚特质：对陌生人的攻击和对家庭成员的攻击。要求受访者对以下情况下其犬低吼和试图咬/扑咬的可能性按1（从不）至5（总是或几乎总是）评分：陌生人在家中或户外试图抚摸犬时，以及主人摆弄犬或试图从犬那里拿走资源（食物、骨头或玩具）时。如果犬至少有时（3）试图扑咬或咬人，或至少经常（4）低吼，则在相应亚特质中被归为高攻击犬。在所有这些情境中从未表现出攻击的犬构成低分组。"
+  },
+  {
+   "section": "Methods / Subject categorisation / Separation related behaviour",
+   "section_zh": "方法 / 受试犬分类 / 分离相关行为",
+   "en": "Separation related behaviour was divided into two parts: destroy/urinate alone and vocalize/salivate/pant alone. Dog owners were asked whether their dog exhibited separation anxiety and how often did the dog perform the aforementioned behaviours from 0 (never) to 4 (very often). High group dogs were reported to exhibit separation anxiety and performed at least one of these behaviours often (3) or very often. With the subtrait vocalize/salivate/pant, high group dogs were reported to salivate or pant at least often (3–4), or barked at least often (3–4) and salivated or panted at least rarely (1–4). Low group dogs did not show separation anxiety and never performed these behaviours.",
+   "zh": "分离相关行为分为两部分：独处时破坏/排尿和独处时吠叫/流涎/喘息。询问犬主人其犬是否表现出分离焦虑，以及犬出现上述行为的频率，从0（从不）到4（非常经常）。高分组的犬被报告有分离焦虑，且至少有一种上述行为经常（3）或非常经常出现。在吠叫/流涎/喘息亚特质中，高分组的犬被报告至少经常（3–4）流涎或喘息，或至少经常（3–4）吠叫且至少很少（1–4）流涎或喘息。低分组的犬没有分离焦虑，且从不出现这些行为。"
+  },
+  {
+   "section": "Methods / Statistical analyses",
+   "section_zh": "方法 / 统计分析",
+   "en": "To estimate the prevalence of high anxiety dogs, the number of dogs in high group was divided by the sum of dogs in all trait groups, hence obtaining the percentage of dogs in the high group for each subtrait and trait in the population.",
+   "zh": "为估计高度焦虑犬的患病率，将高分组的犬数除以所有特质组犬数之和，从而得出群体中每个亚特质和特质高分组犬的百分比。"
+  },
+  {
+   "section": "Methods / Statistical analyses",
+   "section_zh": "方法 / 统计分析",
+   "en": "The same prevalence calculation was performed individually for different breeds (sample size > 200) and for defined age groups and both sexes. The dogs were divided into six age groups: less than 2 years, 2–4 years, 4–6 years, 6–8 years, 8–10 years, and more than 10 years. Chi-squared tests were run in R71 for breed, sex, and age group differences in all traits and subtraits to reveal the significant associations.",
+   "zh": "对不同犬种（样本量 > 200）以及设定的年龄组和两种性别分别进行了相同的患病率计算。犬被分为六个年龄组：小于2岁、2–4岁、4–6岁、6–8岁、8–10岁和大于10岁。在R71中对所有特质和亚特质的品种、性别和年龄组差异进行卡方检验，以揭示显著关联。"
+  },
+  {
+   "section": "Methods / Statistical analyses",
+   "section_zh": "方法 / 统计分析",
+   "en": "Comorbidities were calculated between all pairs of behaviour problems. In the pairs comorbidity/diagnosis adapted from Goldstein-Piekarsi et al.72, the number of dogs belonging to the high group in both of the traits was divided by the number of all dogs in the high group in the denominator trait, hence obtaining the percentage of dogs in each denominator trait that also had the comorbid trait. The relative risk was calculated by firstly calculating the same percentage and secondly calculating the percentage of dogs that belonged to the low group in the denominator trait but in the high group in the other trait. Thirdly, the first percentage was divided by the second. Two-proportions z-tests were run in R71 for all risk ratios to see whether any two traits have statistically significant comorbidity.",
+   "zh": "计算了所有行为问题两两之间的共病。在参照Goldstein-Piekarsi等72改编的成对共病/诊断计算中，将两种特质均属于高分组的犬数除以分母特质高分组的全部犬数，从而得出每个分母特质中同时具有共病特质的犬的百分比。相对风险的计算方法为：首先计算上述相同的百分比，其次计算在分母特质中属于低分组但在另一特质中属于高分组的犬的百分比；第三，将第一个百分比除以第二个百分比。在R71中对所有风险比进行两比例z检验，以确定任意两种特质是否存在具有统计学意义的共病。"
+  },
+  {
+   "section": "Methods / Statistical analyses",
+   "section_zh": "方法 / 统计分析",
+   "en": "All P-values were corrected for false discovery rate (FDR) to decrease the probability of type I error. The significance cut-off P-value was set at P < 0.05.",
+   "zh": "所有P值均经错误发现率（FDR）校正，以降低I类错误的概率。显著性界值设定为P < 0.05。"
+  },
+  {
+   "section": "Figure legend",
+   "section_zh": "图注",
+   "en": "Figure 1 Prevalence of the traits (a) and subtraits (b) in a sample of 13715 dogs in 264 breeds.",
+   "zh": "图1 264个犬种13715只犬样本中各特质（a）和亚特质（b）的患病率。"
+  },
+  {
+   "section": "Figure legend",
+   "section_zh": "图注",
+   "en": "Figure 2 Comorbidity heat maps. Proportion of dogs with pairs of diagnoses using the disorder listed in the column header as the denominator (a) and relative risk (b). (a) Adapted from Goldstein-Piekarski et al.72.",
+   "zh": "图2 共病热图。以列标题所列疾病为分母的成对诊断犬比例（a）和相对风险（b）。（a）改编自Goldstein-Piekarski等72。"
+  },
+  {
+   "section": "Figure legend",
+   "section_zh": "图注",
+   "en": "Figure 3 Prevalences of fear of thunder (a), aggression toward family members (b), hyperactivity/impulsivity (c) and fear of strangers (d) for both sexes and six age groups.",
+   "zh": "图3 两种性别和六个年龄组中对雷声的恐惧（a）、对家庭成员的攻击（b）、多动/冲动（c）和对陌生人的恐惧（d）的患病率。"
+  },
+  {
+   "section": "Figure legend",
+   "section_zh": "图注",
+   "en": "Figure 4 Breed differences in fear of thunder (a), fear of strangers (b), fear of surfaces and heights (c), hyperactivity/impulsivity (d), inattention (e), aggression toward strangers (f), tail chasing (g), fly snapping/light chasing (h) and vocalization/salivation/panting alone (i). For other breed-wise differences, see Supplementary Fig. S2.",
+   "zh": "图4 对雷声的恐惧（a）、对陌生人的恐惧（b）、对地面和高处的恐惧（c）、多动/冲动（d）、注意力不集中（e）、对陌生人的攻击（f）、追尾（g）、扑咬苍蝇/追光（h）以及独处时吠叫/流涎/喘息（i）的品种差异。其他品种差异见补充图S2。"
+  },
+  {
+   "section": "Figure legend",
+   "section_zh": "图注",
+   "en": "Figure 5 Radar chart representation of the behaviour of dog breeds: Border Collie (a), Miniature Schnauzer (b), Lagotto Romagnolo (c) and Staffordshire Bull Terrier (d). Colors represent the larger traits. Clockwise from top: blue – noise sensitivity, lime green – fear, violet – fear of surfaces and heights, orange – aggression, pine green – hyperactivity/inattention, purple – separation related behaviour, yellow – compulsive behaviour. Radar charts for other breeds in Supplementary Fig. S3. The minimum in all traits is the breed-wise minimum prevalence and the maximum in all traits is the breed-wise maximum prevalence. For the minimum and maximum prevalences, see Supplementary Table S7.",
+   "zh": "图5 各犬种行为的雷达图：边境牧羊犬（a）、迷你雪纳瑞（b）、拉戈托罗马阁挪露犬（c）和斯塔福郡斗牛㹴（d）。颜色代表较大的特质类别。自顶部顺时针：蓝色——噪声敏感，黄绿色——恐惧，紫罗兰色——对地面和高处的恐惧，橙色——攻击，松绿色——多动/注意力不集中，紫色——分离相关行为，黄色——强迫行为。其他犬种的雷达图见补充图S3。所有特质的最小值为各犬种中的最低患病率，最大值为各犬种中的最高患病率。最低和最高患病率见补充表S7。"
+  }
+ ]
+}
