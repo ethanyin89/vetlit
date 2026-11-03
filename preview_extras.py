@@ -83,7 +83,9 @@ def bilingual_page(p,t,page):
     for x in paras:
         s=x.get('section') or ''
         if s and s!=sec: rows+=f'<tr><th colspan="2" class="bsec">{E_(s)}{(" / "+E_(x["section_zh"])) if x.get("section_zh") else ""}</th></tr>'; sec=s
-        nt=''.join(f'<p class="note tag2">{E_(n["note_zh"])}</p>' for n in TN.get(str(p.get('pmid')),[]) if n.get('match_en') and n['match_en'] in (x.get('en') or ''))
+        if x.get('note_zh'): nt=f'<p class="note tag2">{E_(x["note_zh"])}</p>'
+        elif any(y.get('note_zh') for y in paras): nt=''
+        else: nt=''.join(f'<p class="note tag2">{E_(n["note_zh"])}</p>' for n in TN.get(str(p.get('pmid')),[]) if n.get('match_en') and n['match_en'] in (x.get('en') or ''))
         rows+=f'<tr><td lang="en">{E_(x.get("en") or "")}</td><td lang="zh-CN">{E_(x.get("zh") or "")}{nt}</td></tr>'
     lic=t.get('license') or p.get('license') or ''
     a=t.get('attribution')

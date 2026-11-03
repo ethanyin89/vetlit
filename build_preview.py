@@ -451,7 +451,7 @@ def paper(p):
     body+=X.related_block(p.get('pmid'),lambda q:(f"{r}papers/{get(str(q.get('pmid'))).get('sid')}/" if q.get('pmid') and get(str(q.get('pmid'))) else ('https://doi.org/'+q['doi'] if q.get('doi') else (q.get('url') or q.get('openalex') or '#'))))
     bib=B.bibtex(B.view({**p,'id':p['sid']})); ris=B.ris(B.view({**p,'id':p['sid']}))
     body+=f'<details class="fold"><summary>原文与许可</summary>{orig}</details><details class="fold"><summary>引用（BibTeX / RIS）</summary><pre>{E_(bib)}</pre><pre>{E_(ris)}</pre></details>'
-    body+=f'<p class="note sig">依据：{"摘要" if absonly else "全文"} · 速读：AI 单次提取{'（结论、关键数字、样本量除外，见各处标注）' if p.get('dual_x') else ''}</p>'
+    body+=f'<p class="note sig">依据：{p.get("basis_label") or ("摘要" if absonly else "全文")} · 速读：AI 单次提取{'（结论、关键数字、样本量除外，见各处标注）' if p.get('dual_x') else ''}</p>'
     return page(clean(p.get('title_zh') or p.get('first_author','')+' '+str(p.get('year',''))),body,2)
 def w(rel,s):
     f=os.path.join(OUT,rel); os.makedirs(os.path.dirname(f),exist_ok=True); open(f,'w',encoding='utf-8').write(s)
