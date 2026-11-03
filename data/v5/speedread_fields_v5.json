@@ -1,2474 +1,2486 @@
 [
- {
-  "pmid": "42043241",
-  "doi": "10.3390/v18040452",
-  "id": "42043241",
-  "matched_by": "pmid",
-  "title_zh": "ABCD 2026：FIP 首选口服 GS-441524",
-  "one_line_conclusion_zh": "ABCD 2026：口服 GS-441524 为 FIP 一线药，瑞德西韦用于不能口服的重症，42 天疗程或已足够。",
-  "why_it_matters": "这是 FIP 进入“可治愈”时代后欧洲最新的治疗共识，直接回答门诊最常问的选药、给药途径和疗程问题。它把瑞德西韦定位为注射过渡药，并提出 42 天短疗程，但短疗程的依据仍来自少量小样本研究。指南未给证据分级，具体剂量请以原文表格为准。",
-  "key_results": [
-   {
-    "measure": "GS-441524 治疗成功率",
-    "groups": "常超过 90%（指南综述已发表研究）",
-    "effect_ci": "不适用",
-    "p": "不适用"
-   },
-   {
-    "measure": "推荐",
-    "groups": "口服 GS-441524 一线；瑞德西韦用于不能口服的重症；42 天疗程或已足够",
-    "effect_ci": "不适用",
-    "p": "不适用"
-   }
-  ],
-  "confidence_sentence": "指南/共识不做 CEBM 分级，也未做 AGREE II 正式评分，推荐多属专家意见，引用时请核对原文。"
- },
- {
-  "pmid": "",
-  "doi": "",
-  "id": "x-international-renal-interest-society-2026-iris-staging-of-ckd-modified-2026",
-  "matched_by": "id",
-  "title_zh": "IRIS 2026 CKD 分期：新增犬猫贫血治疗阈值",
-  "one_line_conclusion_zh": "IRIS 2026 按肌酐或 SDMA 分 1–4 期，再按 UP/C 和血压亚分期；新增贫血治疗阈值。",
-  "why_it_matters": "犬猫 CKD 的分期、预后判断和治疗起点都以 IRIS 为共同语言，几乎所有 CKD 文献和药品说明都引用它。2026 版新增的贫血阈值会影响何时开始促红素类治疗。分期界值本身属于专家共识，不是由单项研究验证得出。",
-  "key_results": [
-   {
-    "measure": "肌酐 2 期（犬/猫）",
-    "groups": "125–250 / 140–250 μmol/L（1.4–2.8 / 1.6–2.8 mg/dL）",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
-   },
-   {
-    "measure": "SDMA 2 期（犬/猫）",
-    "groups": "18–35 / 18–25 μg/dL",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
-   },
-   {
-    "measure": "UP/C 蛋白尿（犬/猫）",
-    "groups": ">0.5 / >0.4",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
-   },
-   {
-    "measure": "SBP 亚分期",
-    "groups": "<140 / 140–159 / 160–179 / ≥180 mmHg",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
-   },
-   {
-    "measure": "2026 贫血阈值",
-    "groups": "犬 HCT <30%（或 30–35% 持续）；猫 <25%（或 25–28% 持续）",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
-   }
-  ],
-  "confidence_sentence": "指南/共识不做 CEBM 分级，也未做 AGREE II 正式评分，推荐多属专家意见，引用时请核对原文。"
- },
- {
-  "pmid": "37766254",
-  "doi": "10.3390/v15091847",
-  "id": "37766254",
-  "matched_by": "pmid",
-  "title_zh": "ABCD 2023 FIP 指南：诊断靠病理加抗原",
-  "one_line_conclusion_zh": "ABCD 2023：FIP 确诊通常需组织病理加 FCoV 抗原；口服核苷类似物非常有效。",
-  "why_it_matters": "FIP 诊断没有单一金标准，这份指南把积液、细针抽吸和组织病理各自的价值讲清楚，并配套诊断工具，适合作为门诊诊断流程的底本。治疗部分已被 2026 年更新版取代。",
-  "key_results": [
-   {
-    "measure": "确诊依据",
-    "groups": "组织病理加 FCoV 抗原检测（免疫组化）",
-    "effect_ci": "不适用",
-    "p": "不适用"
-   },
-   {
-    "measure": "治疗",
-    "groups": "口服核苷类似物非常有效（治疗部分已被 2026 版更新）",
-    "effect_ci": "不适用",
-    "p": "不适用"
-   }
-  ],
-  "confidence_sentence": "指南/共识不做 CEBM 分级，也未做 AGREE II 正式评分，推荐多属专家意见，引用时请核对原文。"
- },
- {
-  "pmid": "36002137",
-  "doi": "10.1177/1098612x221118761",
-  "id": "36002137",
-  "matched_by": "pmid",
-  "title_zh": "AAFP 2022 FIP 诊断指南：逐块建立怀疑度",
-  "one_line_conclusion_zh": "AAFP/EveryCat 2022 FIP 诊断指南：没有特征性体征或化验，需综合病史、体检和多项检查逐步建立怀疑度。",
-  "why_it_matters": "北美执业兽医最常用的 FIP 诊断参考。它强调每项检查都要先想清楚为什么做、结果怎么解读，并区分敏感度、特异度和预测值。指南只讲诊断，不涉及治疗，治疗请看 ABCD 2026。",
-  "key_results": [
-   {
-    "measure": "FIP 占兽医机构猫死亡比例",
-    "groups": "0.3%–1.4%（估计）",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
-   }
-  ],
-  "confidence_sentence": "指南/共识不做 CEBM 分级，也未做 AGREE II 正式评分，推荐多属专家意见，引用时请核对原文。"
- },
- {
-  "pmid": "32243654",
-  "doi": "10.1111/jvim.15745",
-  "id": "32243654",
-  "matched_by": "pmid",
-  "title_zh": "ACVIM 2020 猫心肌病指南：按 A–D 分期管理",
-  "one_line_conclusion_zh": "ACVIM 2020 猫心肌病共识：按 A–D 分期诊断和管理；有 CHF 史且左房中重度扩大的猫推荐氯吡格雷预防血栓。",
-  "why_it_matters": "这是猫心肌病分类、分期和治疗的标准参考，HCM 筛查、何时抗血栓、何时用利尿剂都以它为准。多数推荐的证据等级低，属于专家共识；部分推荐来自犬或人的数据，外推到猫时需谨慎。",
-  "key_results": [
-   {
-    "measure": "共识规则",
-    "groups": "9 名专家中 ≥6 名同意",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
-   },
-   {
-    "measure": "氯吡格雷剂量",
-    "groups": "18.75 mg/猫 q24h",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
-   }
-  ],
-  "confidence_sentence": "指南/共识不做 CEBM 分级，也未做 AGREE II 正式评分，推荐多属专家意见，引用时请核对原文。"
- },
- {
-  "pmid": "30974015",
-  "doi": "10.1111/jvim.15488",
-  "id": "30974015",
-  "matched_by": "pmid",
-  "title_zh": "ACVIM 2019 犬 MMVD：B2 期起用匹莫苯丹",
-  "one_line_conclusion_zh": "ACVIM 2019：B2 期（LA:Ao ≥1.6 且 LVIDDN ≥1.7）推荐匹莫苯丹（强推荐）。",
-  "why_it_matters": "犬二尖瓣病是犬最常见的心脏病。这份指南把 EPIC 试验结果转成了可操作的 B2 期判定标准和用药建议，是门诊心脏病管理的基本依据。B1、C、D 期的推荐多为共识，证据弱于 B2。",
-  "key_results": [
-   {
-    "measure": "B2 标准",
-    "groups": "LA:Ao ≥1.6；LVIDDN ≥1.7",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
-   },
-   {
-    "measure": "LOE strong 条目数",
-    "groups": "3",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
-   }
-  ],
-  "confidence_sentence": "指南/共识不做 CEBM 分级，也未做 AGREE II 正式评分，推荐多属专家意见，引用时请核对原文。"
- },
- {
-  "pmid": "30353952",
-  "doi": "10.1111/jvim.15331",
-  "id": "30353952",
-  "matched_by": "pmid",
-  "title_zh": "ACVIM 2018 犬猫高血压指南：按收缩压分四级",
-  "one_line_conclusion_zh": "犬猫按收缩压分四级，诊断需多次测量确认；目标 SBP <140 mmHg，首选药物猫用氨氯地平、犬用 RAAS 抑制剂。",
-  "why_it_matters": "高血压在 CKD 和甲亢猫中很常见，会导致失明等靶器官损伤。指南统一了测量方法、分级和治疗目标，是筛查和用药的直接依据。分级界值来自共识，不是由前瞻性研究验证得出。",
-  "key_results": [
-   {
-    "measure": "分级（SBP，mmHg）",
-    "groups": "正常 <140；前期 140–159；高血压 160–179；重度 ≥180",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
-   }
-  ],
-  "confidence_sentence": "指南/共识不做 CEBM 分级，也未做 AGREE II 正式评分，推荐多属专家意见，引用时请核对原文。"
- },
- {
-  "pmid": "29314873",
-  "doi": "10.5326/jaaha-ms-6822",
-  "id": "29314873",
-  "matched_by": "pmid",
-  "title_zh": "AAHA 2018 犬猫糖尿病指南：胰岛素仍是核心",
-  "one_line_conclusion_zh": "AAHA 2018 犬猫糖尿病管理指南：胰岛素是治疗核心，按物种选择剂型，并重视主人居家监测。",
-  "why_it_matters": "这是北美全科兽医管理犬猫糖尿病最常用的综合参考，涵盖胰岛素选择、居家监测和避免低血糖。内容多属专家意见，且发表于 SGLT2 抑制剂上市之前，口服药部分需结合新证据阅读。",
-  "key_results": [
-   {
-    "measure": "主要结局",
-    "groups": "摘要未给出",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
-   }
-  ],
-  "confidence_sentence": "指南/共识不做 CEBM 分级，也未做 AGREE II 正式评分，推荐多属专家意见，引用时请核对原文。"
- },
- {
-  "pmid": "28965673",
-  "doi": "10.1016/j.jvc.2017.08.006",
-  "id": "28965673",
-  "matched_by": "pmid",
-  "title_zh": "ESVC 2017：杜宾犬 3 岁起每年筛查 DCM",
-  "one_line_conclusion_zh": "杜宾犬 3 岁起每年做 Holter 和超声；VPC >300/24 h 即视为隐匿期 DCM。",
-  "why_it_matters": "杜宾犬 DCM 隐匿期长、可能猝死，早筛后可用匹莫苯丹延缓发病（见 PROTECT 研究）。这份指南给出了明确的筛查频率和诊断阈值，适用范围仅限杜宾犬，其他品种不能直接套用。",
-  "key_results": [
-   {
-    "measure": "VPC 正常",
-    "groups": "<50 次/24 h",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
-   },
-   {
-    "measure": "诊断阈值",
-    "groups": "VPC >300 次/24 h，或 1 年内两次 50–300",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
-   }
-  ],
-  "confidence_sentence": "指南/共识不做 CEBM 分级，也未做 AGREE II 正式评分，推荐多属专家意见，引用时请核对原文。"
- },
- {
-  "pmid": "27143042",
-  "doi": "10.1177/1098612x16643252",
-  "id": "27143042",
-  "matched_by": "pmid",
-  "title_zh": "AAFP 2016 猫甲亢指南：甲巯咪唑小剂量每日两次",
-  "one_line_conclusion_zh": "AAFP 2016：甲巯咪唑起始 1.25–2.5 mg/猫 q12h，避免医源性甲减，合并 CKD 按 IRIS 管理",
-  "why_it_matters": "甲亢是老年猫最常见的内分泌病，且常与 CKD 并存。指南给出了药物、放射碘、手术和限碘粮的选择要点，以及如何避免治疗后肾功能恶化。缺证据处以专家经验代替，未分级。",
-  "key_results": [
-   {
-    "measure": "甲巯咪唑起始",
-    "groups": "1.25–2.5 mg/猫 q12h",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
-   },
-   {
-    "measure": "恶性",
-    "groups": "仅约 2% 甲亢猫为癌",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
-   }
-  ],
-  "confidence_sentence": "指南/共识不做 CEBM 分级，也未做 AGREE II 正式评分，推荐多属专家意见，引用时请核对原文。"
- },
- {
-  "pmid": "26936494",
-  "doi": "10.1177/1098612x16631234",
-  "id": "26936494",
-  "matched_by": "pmid",
-  "title_zh": "ISFM 2016 猫 CKD 共识：处方粮证据最强",
-  "one_line_conclusion_zh": "ISFM 2016：猫 CKD 按 IRIS 分期管理，肾病处方粮是唯一有生存证据的干预。",
-  "why_it_matters": "这是全科兽医管理猫 CKD 最实用的共识，明确了诊断标准、降压目标和各项治疗的证据强弱。共识由厂商（BI）资助，未给正式证据分级，引用具体剂量时请核对原文表格。",
-  "key_results": [
-   {
-    "measure": "IRIS 分期与中位生存（表 2，Boyd 等）",
-    "groups": "2 期 1151 天 / 3 期 778 / 4 期 103",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
-   },
-   {
-    "measure": "Syme 等",
-    "groups": "504 / 154 / 57 天",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
-   },
-   {
-    "measure": "肾病处方粮中位生存（表 3）",
-    "groups": "Elliott 264→633 天；Plantinga 210→480 天",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
-   },
-   {
-    "measure": "诊断标准",
-    "groups": "肌酐 >140 µmol/l（>1.6 mg/dl）+ USG <1.035 + 持续性",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
-   },
-   {
-    "measure": "降压目标",
-    "groups": "SBP <150–160 mmHg；氨氯地平 0.0625–0.25 mg/kg q24h",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
-   },
-   {
-    "measure": "抗蛋白尿",
-    "groups": "UPCR >0.4 起始；替米沙坦 1 mg/kg q24h、贝那普利 0.25–0.5 mg/kg q12h",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
-   }
-  ],
-  "confidence_sentence": "指南/共识不做 CEBM 分级，也未做 AGREE II 正式评分，推荐多属专家意见，引用时请核对原文。"
- },
- {
-  "pmid": "25701862",
-  "doi": "10.1177/1098612x15571880",
-  "id": "25701862",
-  "matched_by": "pmid",
-  "title_zh": "ISFM 2015 猫糖尿病共识：长效胰岛素加饮食控制",
-  "one_line_conclusion_zh": "ISFM 2015：控制体重、合适饮食加长效胰岛素可改善多数糖尿病猫，加量不宜过频。",
-  "why_it_matters": "猫糖尿病有缓解的可能。这份共识把“如何提高缓解率又不引起低血糖”写成了具体做法，是门诊调整胰岛素剂量的常用参考。它发表于 SGLT2 抑制剂上市前，未给证据分级。",
-  "key_results": [
-   {
-    "measure": "加量间隔",
-    "groups": "一般不短于每 5–7 天",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
-   }
-  ],
-  "confidence_sentence": "指南/共识不做 CEBM 分级，也未做 AGREE II 正式评分，推荐多属专家意见，引用时请核对原文。"
- },
- {
-  "pmid": "24112317",
-  "doi": "10.1111/jvim.12192",
-  "id": "24112317",
-  "matched_by": "pmid",
-  "title_zh": "ACVIM 2012 犬库欣诊断共识：先有症状再检测",
-  "one_line_conclusion_zh": "犬肾上腺皮质功能亢进只应在有相符临床表现时做内分泌检测；所有筛查和鉴别试验都不完美。",
-  "why_it_matters": "犬库欣过度诊断很常见。这份共识的核心提醒是：没有相符症状就不要做筛查，并在解读 ACTH 刺激试验和低剂量地塞米松抑制试验时充分考虑它们的假阳性和假阴性，阅读时请结合原文的研究对象和方法。",
-  "key_results": [
-   {
-    "measure": "主要结局",
-    "groups": "摘要未给出",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
-   }
-  ],
-  "confidence_sentence": "指南/共识不做 CEBM 分级，也未做 AGREE II 正式评分，推荐多属专家意见，引用时请核对原文。"
- },
- {
-  "pmid": "23422366",
-  "doi": "10.1177/1098612x13477537",
-  "id": "23422366",
-  "matched_by": "pmid",
-  "title_zh": "AAFP/ISFM 2013 猫环境需求指南：五大支柱",
-  "one_line_conclusion_zh": "AAFP/ISFM 2013 猫环境需求指南：用“五大支柱”评估和改善家猫环境，减少应激相关的行为和疾病问题。",
-  "why_it_matters": null,
-  "key_results": [
-   {
-    "measure": "五大支柱",
-    "groups": "1 安全场所；2 多处且分开的关键资源（食、水、厕、抓、玩、睡）；3 玩耍与捕食行为；4 积极、一致、可预期的人猫互动；5 尊重嗅觉",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
-   }
-  ],
-  "confidence_sentence": "指南/共识不做 CEBM 分级，也未做 AGREE II 正式评分，推荐多属专家意见，引用时请核对原文。"
- },
- {
-  "pmid": "21704901",
-  "doi": "10.1016/j.jfms.2011.05.009",
-  "id": "21704901",
-  "matched_by": "pmid",
-  "title_zh": "WSAVA 2011 营养评估指南：营养是第五生命体征",
-  "one_line_conclusion_zh": "WSAVA 2011 营养评估指南：每次就诊都记录体重、体况评分和肌肉评分，筛出风险后再做扩展评估。",
-  "why_it_matters": null,
-  "key_results": [
-   {
-    "measure": "第五生命体征（5VA）",
-    "groups": "每次就诊记录 BW、BCS、MCS",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
-   }
-  ],
-  "confidence_sentence": "指南/共识不做 CEBM 分级，也未做 AGREE II 正式评分，推荐多属专家意见，引用时请核对原文。"
- },
- {
-  "pmid": "19481039",
-  "doi": "10.1016/j.jfms.2009.05.008",
-  "id": "19481039",
-  "matched_by": "pmid",
-  "title_zh": "ABCD 2009 FIP 指南：抗病毒药出现前的管理",
-  "one_line_conclusion_zh": "ABCD 2009 FIP 预防与管理指南（抗病毒药出现前）：多数病例致命，糖皮质激素等支持治疗缺乏对照研究证据。",
-  "why_it_matters": null,
-  "key_results": [
-   {
-    "measure": "感染 FCoV 的猫中发生 FIP 的比例",
-    "groups": "最高 12%",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
-   }
-  ],
-  "confidence_sentence": "指南/共识不做 CEBM 分级，也未做 AGREE II 正式评分，推荐多属专家意见，引用时请核对原文。"
- },
- {
-  "pmid": "15954557",
-  "doi": "10.1892/0891-6640(2005)19[377:aamopi]2.0.co;2",
-  "id": "15954557",
-  "matched_by": "pmid",
-  "title_zh": "ACVIM 2004 蛋白尿共识：三步评估",
-  "one_line_conclusion_zh": "持续性肾性蛋白尿提示 CKD 风险，应按来源、持续性和程度评估，再逐级采取监测、检查和治疗。",
-  "why_it_matters": "这是兽医临床判读 UP/C 的奠基性共识，后来的 IRIS 蛋白尿亚分期和抗蛋白尿治疗都由此而来。发表时间较早，具体阈值和用药请对照 IRIS 现行版本，不要直接照搬。",
-  "key_results": [
-   {
-    "measure": "主要结局",
-    "groups": "摘要未给出",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
-   }
-  ],
-  "confidence_sentence": "指南/共识不做 CEBM 分级，也未做 AGREE II 正式评分，推荐多属专家意见，引用时请核对原文。"
- },
- {
-  "pmid": "39858209",
-  "doi": "10.3390/ani15020210",
-  "id": "39858209",
-  "matched_by": "pmid",
-  "title_zh": "犬减重：高蛋白低热量粮减重和减脂更多",
-  "one_line_conclusion_zh": "犬减重饮食 Meta 分析：粗蛋白 >25% 的低热量粮减重和体脂下降更多，但研究间异质性很大。",
-  "why_it_matters": null,
-  "key_results": [
-   {
-    "measure": "纳入研究",
-    "groups": "初筛 1727 篇，纳入 20 项（共 397 只犬）",
-    "effect_ci": "原文未给出",
-    "p": "原文未给出"
-   },
-   {
-    "measure": "粗蛋白 >25% vs <25%：总减重",
-    "groups": "15.51%±14.77（n=87）vs 7.37%±2.12（n=89）",
-    "effect_ci": "原文报告均值±SD，未给 CI",
-    "p": "<0.001"
-   },
-   {
-    "measure": "粗蛋白 >25% 组",
-    "groups": "减重与体脂下降更多，瘦体重增加；异质性显著",
-    "effect_ci": "原文未给出",
-    "p": "异质性 <0.0001"
-   }
-  ],
-  "confidence_sentence": "本文为系统综述/Meta分析，CEBM 1 级，AMSTAR 2 尚未评估偏倚风险，结论基于全文。"
- },
- {
-  "pmid": "41781382",
-  "doi": "10.1177/1098612x261433057",
-  "id": "41781382",
-  "matched_by": "pmid",
-  "title_zh": "非积液型 FIP：口服瑞德西韦不劣于 GS-441524",
-  "one_line_conclusion_zh": "非积液型 FIP 中，口服瑞德西韦 16 周无病存活不劣于 GS-441524，但每组仅 10 只。",
-  "why_it_matters": "这是首个针对非积液型 FIP 的随机双盲试验，在 GS-441524 难以合法获得的地区，为口服瑞德西韦作为一线药提供了直接比较证据。样本很小，长期随访中两组各有 2 只疑似晚期复发。",
-  "key_results": [
-   {
-    "measure": "16 周存活并临床缓解",
-    "groups": "瑞德西韦 9/10（90%）；GS-441524 7/10（70%）",
-    "effect_ci": "差值 20%（90% CI −8.5 至 +48.5），达到非劣效",
-    "p": "原文未给出"
-   },
-   {
-    "measure": "16 周存活",
-    "groups": "瑞德西韦 9/10；GS-441524 8/10",
-    "effect_ci": "原文未给出",
-    "p": "原文未给出"
-   },
-   {
-    "measure": "疑似晚期复发（1.5–2 年随访）",
-    "groups": "每组各 2 只",
-    "effect_ci": "原文未给出",
-    "p": "原文未给出"
-   }
-  ],
-  "confidence_sentence": "本文为RCT（非劣效），CEBM 2 级，Cochrane RoB 2 尚未评估偏倚风险，结论基于全文。"
- },
- {
-  "pmid": "40110605",
-  "doi": "10.1111/jvim.70063",
-  "id": "40110605",
-  "matched_by": "pmid",
-  "title_zh": "CKD 犬：帕立骨化醇降低 PTH，蛋白尿保持稳定",
-  "one_line_conclusion_zh": "CKD 犬中，帕立骨化醇使 PTH 每次访视下降 22%，安慰剂组上升 18%；但 13 只中有 7 只出现轻度高钙。",
-  "why_it_matters": "肾性继发性甲旁亢在犬 CKD 中几乎必然发生，但犬的维生素 D 类似物证据很少。这项交叉 RCT 提示帕立骨化醇有效，但样本仅 13 只，高钙发生率高，用药需监测离子钙。",
-  "key_results": [
-   {
-    "measure": "PTH 每次访视变化",
-    "groups": "帕立骨化醇 −22%（95% CI 7%–35%）；安慰剂 +18%（95% CI 2%–37%）",
-    "effect_ci": "原文未给出",
-    "p": "0.006 / 0.022"
-   },
-   {
-    "measure": "PTH 第 12 周 vs 基线（帕立骨化醇）",
-    "groups": "62 vs 166 pg/mL（几何均值）",
-    "effect_ci": "95% CI 22–173 vs 54–514",
-    "p": "0.04"
-   },
-   {
-    "measure": "PTH 第 12 周 vs 基线（安慰剂）",
-    "groups": "157 vs 81 pg/mL",
-    "effect_ci": "95% CI 68–365 vs 27–237",
-    "p": "0.11"
-   },
-   {
-    "measure": "轻度高钙",
-    "groups": "7/13（54%）；中位 1.55 mmol/L（1.41–1.67）",
-    "effect_ci": "原文未给出",
-    "p": "原文未给出"
-   }
-  ],
-  "confidence_sentence": "本文为RCT（交叉），CEBM 2 级，Cochrane RoB 2 尚未评估偏倚风险，结论基于全文。"
- },
- {
-  "pmid": "39417648",
-  "doi": "10.1177/1098612x241275249",
-  "id": "39417648",
-  "matched_by": "pmid",
-  "title_zh": "猫 CKD：AB070597 可能延缓进展",
-  "one_line_conclusion_zh": "2–3 期 CKD 猫服用 AB070597 180 天，肌酐和磷未升高；安慰剂组 26% 从 2 期进展到 3 期。",
-  "why_it_matters": null,
-  "key_results": [
-   {
-    "measure": "IRIS 2→3 期进展（按肌酐）",
-    "groups": "安慰剂 4/15（27%）；AB070597 0/20",
-    "effect_ci": "原文未给出",
-    "p": "原文未给出"
-   },
-   {
-    "measure": "IRIS 2→1 期（按肌酐）",
-    "groups": "AB070597 2/20（10%）",
-    "effect_ci": "原文未给出",
-    "p": "原文未给出"
-   },
-   {
-    "measure": "BUN、肌酐、磷 180 天变化",
-    "groups": "安慰剂组较基线显著升高；AB070597 组无显著变化",
-    "effect_ci": "原文未给出",
-    "p": "<0.05（组内）"
-   },
-   {
-    "measure": "体重增加",
-    "groups": "AB070597 12/20（60%）；安慰剂 8/15（53%）",
-    "effect_ci": "原文未给出",
-    "p": "原文未给出"
-   }
-  ],
-  "confidence_sentence": "本文为RCT，CEBM 2 级，Cochrane RoB 2 尚未评估偏倚风险，结论基于全文。"
- },
- {
-  "pmid": "39066306",
-  "doi": "10.3390/v16071144",
-  "id": "39066306",
-  "matched_by": "pmid",
-  "title_zh": "积液型 FIP：GS-441524 42 天不逊于 84 天",
-  "one_line_conclusion_zh": "积液型 FIP 猫口服 GS-441524，42 天疗程与 84 天疗效相当，随访至第 168 天。",
-  "why_it_matters": "疗程减半能直接降低药费和主人负担，这是首个比较 FIP 疗程长短的随机试验，也是 ABCD 2026 提出 42 天方案的主要依据。研究只纳入积液型、无神经或眼部受累的猫，每组 20 只。",
-  "key_results": [
-   {
-    "measure": "42 天内完全临床缓解",
-    "groups": "37/40（92.5%；短疗程 19、长疗程 18）",
-    "effect_ci": "原文未给出",
-    "p": "原文未给出"
-   },
-   {
-    "measure": "治疗中安乐死",
-    "groups": "2 只（第 3、31 天，继发并发症）",
-    "effect_ci": "原文未给出",
-    "p": "原文未给出"
-   },
-   {
-    "measure": "第 168 天",
-    "groups": "存活猫均保持完全缓解",
-    "effect_ci": "原文未给出",
-    "p": "原文未给出"
-   },
-   {
-    "measure": "SDMA 轻度升高",
-    "groups": "25/40（62.5%）",
-    "effect_ci": "原文未给出",
-    "p": "原文未给出"
-   }
-  ],
-  "confidence_sentence": "本文为RCT，CEBM 2 级，Cochrane RoB 2 尚未评估偏倚风险，结论基于全文。"
- },
- {
-  "pmid": "38952053",
-  "doi": "10.1111/jvim.17134",
-  "id": "38952053",
-  "matched_by": "pmid",
-  "title_zh": "猫 CKD：加镁限磷粮稳定 FGF23、防止高钙",
-  "one_line_conclusion_zh": "加镁的限磷粮使 CKD 猫 FGF23 保持稳定，并防止离子钙升高；对照组 4 只出现高钙。",
-  "why_it_matters": "猫 CKD 常用限磷粮，但限磷可能伴随高钙和 FGF23 升高。这项双盲 RCT 提示加镁可减轻这些变化，但只看生化指标，样本 60 只，由处方粮厂商资助，暂不能据此推断生存获益。",
-  "key_results": [
-   {
-    "measure": "血浆 tMg 变化（按方案）",
-    "groups": "加镁组 β 0.25±0.07 mg/dL/月；对照组无变化",
-    "effect_ci": "原文未给出",
-    "p": "<0.001"
-   },
-   {
-    "measure": "ln[FGF23] 变化（按方案）",
-    "groups": "对照组 β 0.14±0.05 pg/mL/月（P=0.01）；加镁组 β 0.05±0.06 pg/mL/月（P=0.37）",
-    "effect_ci": "原文未给出",
-    "p": "见各组"
-   },
-   {
-    "measure": "iCa 变化速率组间差异",
-    "groups": "加镁组下降、对照组上升",
-    "effect_ci": "原文未给出",
-    "p": "0.01"
-   },
-   {
-    "measure": "试验结束 iCa",
-    "groups": "加镁 5.2 [4.96, 5.4] vs 对照 5.4 [5.24, 5.56] mg/dL（中位数 [IQR]）",
-    "effect_ci": "原文未给出",
-    "p": "0.01"
-   },
-   {
-    "measure": "离子高钙",
-    "groups": "对照组 4 只；加镁组 0 只",
-    "effect_ci": "原文未给出",
-    "p": "原文未给出"
-   }
-  ],
-  "confidence_sentence": "本文为RCT，CEBM 2 级，Cochrane RoB 2 尚未评估偏倚风险，结论基于全文。"
- },
- {
-  "pmid": "38884190",
-  "doi": "10.1111/jvim.17124",
-  "id": "38884190",
-  "matched_by": "pmid",
-  "title_zh": "糖尿病猫：维格列净单药不劣于胰岛素，但有 DKA 风险",
-  "one_line_conclusion_zh": "新诊断糖尿病猫中，维格列净单药第 45 天成功率不劣于胰岛素，但出现 4 例 DKA。",
-  "why_it_matters": "维格列净是首个获批的猫口服降糖药，免去主人每天打针。这项注册试验证明它不劣于胰岛素，但也显示酮症酸中毒风险，用药前需筛查残余胰岛功能并密切监测。研究由厂商资助。",
-  "key_results": [
-   {
-    "measure": "Day 45 治疗成功（FAS）",
-    "groups": "维格列净 29/54（54%）vs 胰岛素 26/62（42%）",
-    "effect_ci": "差值 −11.8%，单侧 97.5% CI −∞ 至 6.3%（界值 15%，非劣效）",
-    "p": "非劣效以 CI 判定"
-   },
-   {
-    "measure": "DKA",
-    "groups": "维格列净 4/61（7%）vs 胰岛素 0/66",
-    "effect_ci": "未做组间检验",
-    "p": "原文未给出"
-   },
-   {
-    "measure": "临床低血糖与非临床低血糖",
-    "groups": "胰岛素 35/66（53%）",
-    "effect_ci": "—",
-    "p": "原文未给出"
-   }
-  ],
-  "confidence_sentence": "本文为临床试验，CEBM 2 级，Cochrane RoB 2 总体有一定担忧，结论基于全文。"
- },
- {
-  "pmid": "37632022",
-  "doi": "10.3390/v15081680",
-  "id": "37632022",
-  "matched_by": "pmid",
-  "title_zh": "积液型 FIP：口服瑞德西韦与 GS-441524 疗效相近",
-  "one_line_conclusion_zh": "积液型 FIP 中，口服瑞德西韦达到对 GS-441524 的非劣效标准，但每组仅 9 只、置信区间很宽。",
-  "why_it_matters": null,
-  "key_results": [
-   {
-    "measure": "16 周存活",
-    "groups": "GS-441524 5/9（55.6%）；瑞德西韦 7/9（77.8%）",
-    "effect_ci": "死亡比例差 22%（90% CI −13.5% 至 57.5%），达预设非劣效界值",
-    "p": "原文未给出"
-   },
-   {
-    "measure": "全因死亡生存曲线",
-    "groups": "两组无差异",
-    "effect_ci": "原文未给出",
-    "p": "0.24"
-   },
-   {
-    "measure": "存活 ≥48 小时者（GS-441524）",
-    "groups": "5/6（83%）",
-    "effect_ci": "原文未给出",
-    "p": "原文未给出"
-   }
-  ],
-  "confidence_sentence": "本文为RCT（非劣效），CEBM 2 级，Cochrane RoB 2 尚未评估偏倚风险，结论基于全文。"
- },
- {
-  "pmid": "27678080",
-  "doi": "10.1111/jvim.14586",
-  "id": "27678080",
-  "matched_by": "pmid",
-  "title_zh": "EPIC：匹莫苯丹推迟 B2 期犬心衰",
-  "one_line_conclusion_zh": "已有心脏扩大的无症状 MMVD 犬，匹莫苯丹把到达心衰或心源性死亡的中位时间从 766 天延长到 1228 天。",
-  "why_it_matters": "这是兽医心脏病学影响最大的 RCT 之一，直接促成 ACVIM 2019 指南推荐 B2 期用药。终点主要由 CHF 驱动，心源性死亡本身无差异；研究由厂商资助，但结论稳健。",
-  "key_results": [
-   {
-    "measure": "主要终点中位时间（天）",
-    "groups": "匹莫苯丹 1228；安慰剂 766",
-    "effect_ci": "HR 0.64（95% CI 0.47–0.87）",
-    "p": "0.0038"
-   },
-   {
-    "measure": "CHF",
-    "groups": "匹莫苯丹 59/178；安慰剂 76/176",
-    "effect_ci": "HR 0.58（95% CI 0.42–0.82）",
-    "p": "0.0018"
-   },
-   {
-    "measure": "心源性死亡/安乐死",
-    "groups": "15 vs 12",
-    "effect_ci": "HR 0.96（95% CI 0.45–2.1）",
-    "p": "0.92"
-   },
-   {
-    "measure": "全因死亡中位时间（天）",
-    "groups": "1059 vs 902；研究结束时死亡 83/179 vs 103/180",
-    "effect_ci": "中位数 95% CI 952–未达 vs 747–1061",
-    "p": "0.012"
-   }
-  ],
-  "confidence_sentence": "本文为RCT，CEBM 2 级，Cochrane RoB 2 总体有一定担忧，结论基于全文。"
- },
- {
-  "pmid": "26948860",
-  "doi": "10.1111/jvim.13917",
-  "id": "26948860",
-  "matched_by": "pmid",
-  "title_zh": "老年猫 CKD 风险：频繁接种疫苗和牙病相关",
-  "one_line_conclusion_zh": "148 只老年猫随访中，每年或频繁接种疫苗、中重度牙病与发生氮质血症 CKD 独立相关。",
-  "why_it_matters": null,
-  "key_results": [
-   {
-    "measure": "每年/频繁接种（vs 从不/偶尔）",
-    "groups": "多变量 Cox",
-    "effect_ci": "HR 5.68（95% CI 1.83–17.64）",
-    "p": "0.003"
-   },
-   {
-    "measure": "中度牙病（vs 无）",
-    "groups": "多变量 Cox",
-    "effect_ci": "HR 13.83（95% CI 2.01–94.99）",
-    "p": "0.008"
-   },
-   {
-    "measure": "重度牙病（vs 无）",
-    "groups": "多变量 Cox",
-    "effect_ci": "HR 35.35（95% CI 4.31–289.73）",
-    "p": "0.001"
-   },
-   {
-    "measure": "轻度牙病（vs 无）",
-    "groups": "多变量 Cox",
-    "effect_ci": "HR 2.15（95% CI 0.36–12.77）",
-    "p": "0.398"
-   }
-  ],
-  "confidence_sentence": "本文为前瞻性队列，CEBM 2 级，QUIPS 尚未评估偏倚风险，结论基于全文。"
- },
- {
-  "pmid": "26776588",
-  "doi": "10.1016/j.jvc.2015.10.004",
-  "id": "26776588",
-  "matched_by": "pmid",
-  "title_zh": "FAT CAT：氯吡格雷预防猫血栓复发优于阿司匹林",
-  "one_line_conclusion_zh": "ATE 存活猫中，氯吡格雷比阿司匹林更少复发，中位复发时间 443 天 vs 192 天。",
-  "why_it_matters": "这是猫心源性血栓唯一的随机对照二级预防试验，奠定了氯吡格雷在 ACVIM 猫心肌病指南中的地位。研究对象是已发生过血栓的猫，从未发生血栓的猫是否需要预防，需另看证据。",
-  "key_results": [
-   {
-    "measure": "ATE 复发",
-    "groups": "氯吡格雷 vs 阿司匹林",
-    "effect_ci": "摘要未给出",
-    "p": "0.024"
-   },
-   {
-    "measure": "中位复发时间",
-    "groups": "443 vs 192 天",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
-   },
-   {
-    "measure": "ATE 复发或心源性死亡中位时间",
-    "groups": "346 vs 128 天",
-    "effect_ci": "摘要未给出",
-    "p": "0.033"
-   }
-  ],
-  "confidence_sentence": "本文为RCT，CEBM 2 级，Cochrane RoB 2 尚未评估偏倚风险，结论基于摘要。"
- },
- {
-  "pmid": "26474314",
-  "doi": "10.1111/jvim.13639",
-  "id": "26474314",
-  "matched_by": "pmid",
-  "title_zh": "猫 CKD 降蛋白尿：替米沙坦不劣于贝那普利",
-  "one_line_conclusion_zh": "IRIS 2–3 期 CKD 猫中，替米沙坦降 UP/C 不劣于贝那普利（180 天），但未证明更优，也未测生存。",
-  "why_it_matters": "这是猫用替米沙坦的注册级阳性对照试验，48 个中心共 224 只猫，说明 ARB 可作为 ACEI 之外的 RAAS 抑制剂选择。效应很小（第 180 天 UP/C 平均仅降 0.05），终点是替代指标，“效果更明显”的说法依据的是组内比较。研究由厂商资助。",
-  "key_results": [
-   {
-    "measure": "主要终点 log AUC UP/C 组间差",
-    "groups": "替米沙坦 vs 贝那普利",
-    "effect_ci": "95% CI −0.035 至 0.268（高于界值 −0.108，非劣效）",
-    "p": "非劣效以 CI 判定"
-   },
-   {
-    "measure": "第 180 天 UP/C 较基线变化",
-    "groups": "替米沙坦 −0.05±0.31（n=72）；贝那普利 −0.02±0.48（n=76）",
-    "effect_ci": "未做组间比较",
-    "p": "组内 0.016 / 0.136"
-   },
-   {
-    "measure": "治疗失败（PPS）",
-    "groups": "13/85（15.3%）vs 18/91（19.8%）",
-    "effect_ci": "未做组间检验",
-    "p": "未做组间检验"
-   },
-   {
-    "measure": "死亡（ITT）",
-    "groups": "13/112 vs 22/112",
-    "effect_ci": "未做组间检验",
-    "p": "未做组间检验"
-   }
-  ],
-  "confidence_sentence": "本文为RCT，CEBM 2 级，Cochrane RoB 2 总体有一定担忧，结论基于全文。"
- },
- {
-  "pmid": "26265631",
-  "doi": "10.1016/j.prevetmed.2015.07.011",
-  "id": "26265631",
-  "matched_by": "pmid",
-  "title_zh": "1 岁猫超重：室内生活和干粮是风险因素",
-  "one_line_conclusion_zh": "主人报告 1 岁猫超重或肥胖占 7.0%；户外活动受限和以干粮为主是独立风险因素。",
-  "why_it_matters": null,
-  "key_results": [
-   {
-    "measure": "1 岁时超重/肥胖",
-    "groups": "7.0%（966 只）",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
-   }
-  ],
-  "confidence_sentence": "本文为前瞻性队列，CEBM 2 级，QUIPS 尚未评估偏倚风险，结论基于摘要。"
- },
- {
-  "pmid": "23838205",
-  "doi": "10.1016/j.tvjl.2013.05.048",
-  "id": "23838205",
-  "matched_by": "pmid",
-  "title_zh": "米氮平改善 CKD 猫食欲、减少呕吐",
-  "one_line_conclusion_zh": "CKD 猫隔日口服米氮平 1.88 mg，比安慰剂食欲更好、呕吐更少、体重增加，但仅 11 只、疗程 3 周。",
-  "why_it_matters": "食欲差和呕吐是 CKD 猫生活质量和体重下降的主要原因。这项交叉 RCT 为米氮平隔日 1.88 mg 这一常用剂量提供了依据，但样本只有 11 只、疗程 3 周，长期效果和安全性未知。",
-  "key_results": [
-   {
-    "measure": "体重变化（中位）",
-    "groups": "米氮平 +0.18 kg；安慰剂 −0.07 kg",
-    "effect_ci": "摘要未给出",
-    "p": "0.002"
-   },
-   {
-    "measure": "食欲",
-    "groups": "米氮平 vs 安慰剂",
-    "effect_ci": "摘要未给出",
-    "p": "0.02"
-   },
-   {
-    "measure": "呕吐",
-    "groups": "米氮平 vs 安慰剂",
-    "effect_ci": "摘要未给出",
-    "p": "0.047"
-   }
-  ],
-  "confidence_sentence": "本文为RCT（交叉），CEBM 2 级，Cochrane RoB 2 尚未评估偏倚风险，结论基于摘要。"
- },
- {
-  "pmid": "23078651",
-  "doi": "10.1111/j.1939-1676.2012.01026.x",
-  "id": "23078651",
-  "matched_by": "pmid",
-  "title_zh": "PROTECT：匹莫苯丹推迟杜宾犬隐匿期 DCM 发病",
-  "one_line_conclusion_zh": "隐匿期 DCM 杜宾犬，匹莫苯丹把到达心衰或猝死的中位时间从 441 天延至 718 天。",
-  "why_it_matters": "这是唯一针对杜宾犬隐匿期 DCM 的 RCT，结论是筛查出隐匿期后应开始用药，可配合 ESVC 筛查指南使用。研究只纳入杜宾犬，到达终点的比例两组差异不显著，外推需谨慎。",
-  "key_results": [
-   {
-    "measure": "主要终点（CHF 或猝死）中位时间",
-    "groups": "匹莫苯丹 718 天（IQR 441–1152）；安慰剂 441 天（IQR 151–641）",
-    "effect_ci": "原文报告 IQR，未给 CI",
-    "p": "0.0088（log-rank）"
-   },
-   {
-    "measure": "到达主要终点比例",
-    "groups": "匹莫苯丹 19/39；安慰剂 25/37（据原文表格推算）",
-    "effect_ci": "—",
-    "p": "0.1（不显著）"
-   },
-   {
-    "measure": "仅甲状腺功能正常犬亚组中位时间",
-    "groups": "693 天（IQR 441–1152）vs 441 天（IQR 146–641）；来源：全文",
-    "effect_ci": "原文报告 IQR，未给 CI",
-    "p": "0.018"
-   },
-   {
-    "measure": "全因生存中位时间（非预设终点）",
-    "groups": "623 天（IQR 491–1531）vs 466 天（IQR 236–710）",
-    "effect_ci": "原文报告 IQR，未给 CI",
-    "p": "0.034"
-   }
-  ],
-  "confidence_sentence": "本文为RCT，CEBM 2 级，Cochrane RoB 2 总体有一定担忧，结论基于全文。"
- },
- {
-  "pmid": "18638016",
-  "doi": "10.1111/j.1939-1676.2008.0150.x",
-  "id": "18638016",
-  "matched_by": "pmid",
-  "title_zh": "QUEST：心衰期 MMVD 犬匹莫苯丹优于贝那普利",
-  "one_line_conclusion_zh": "CHF 期 MMVD 犬中，匹莫苯丹比贝那普利延长到达复合终点的时间（中位 267 天 vs 140 天）。",
-  "why_it_matters": "这项 RCT 确立了匹莫苯丹在犬 MMVD 心衰期的标准用药地位，是 ACVIM 指南 C 期推荐的主要依据。对照是贝那普利而不是安慰剂，两组都合用了呋塞米，结论只适用于犬。",
-  "key_results": [
-   {
-    "measure": "复合终点中位时间",
-    "groups": "匹莫苯丹 267 天；贝那普利 140 天",
-    "effect_ci": "HR 0.688（95% CI 0.516–0.916）",
-    "p": "0.0099"
-   }
-  ],
-  "confidence_sentence": "本文为RCT，CEBM 2 级，Cochrane RoB 2 尚未评估偏倚风险，结论基于摘要。"
- },
- {
-  "pmid": "16978113",
-  "doi": "10.2460/javma.229.6.949",
-  "id": "16978113",
-  "matched_by": "pmid",
-  "title_zh": "猫 CKD：肾病处方粮减少尿毒症发作和肾性死亡",
-  "one_line_conclusion_zh": "IRIS 2–3 期 CKD 猫中，肾病粮组尿毒症发作为 0%，维持粮组为 26%；肾性死亡更少，全因死亡无显著差异。",
-  "why_it_matters": "这是肾病处方粮在猫中唯一的双盲 RCT，也是 ISFM 和 IRIS 把处方粮列为 CKD 猫一线干预的核心证据。样本只有 45 只，由厂商资助，全因死亡差异未达显著。",
-  "key_results": [
-   {
-    "measure": "尿毒症发作",
-    "groups": "肾病粮 0%；维持粮 26%",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
-   }
-  ],
-  "confidence_sentence": "本文为RCT，CEBM 2 级，Cochrane RoB 2 尚未评估偏倚风险，结论基于摘要。"
- },
- {
-  "pmid": "17063696",
-  "doi": "10.1892/0891-6640(2006)20[1054:taeobi]2.0.co;2",
-  "id": "17063696",
-  "matched_by": "pmid",
-  "title_zh": "贝那普利降低 CKD 猫蛋白尿，但未延长肾脏生存",
-  "one_line_conclusion_zh": "192 只 CKD 猫中，贝那普利显著降低蛋白尿，但肾脏生存期与安慰剂无显著差异。",
-  "why_it_matters": "这项大样本 RCT 是猫 ACEI 的主要证据，提示降蛋白尿不一定能转化为生存获益。UPC ≥1 的亚组有获益趋势，但只有 13 只，不足以下结论，选择 RAAS 抑制剂时应注意这一点。",
-  "key_results": [
-   {
-    "measure": "UPC",
-    "groups": "贝那普利 vs 安慰剂",
-    "effect_ci": "摘要未给出",
-    "p": "0.005"
-   },
-   {
-    "measure": "肾脏生存（均值±SD）",
-    "groups": "贝那普利 637±480 天；安慰剂 520±323 天",
-    "effect_ci": "摘要未给出",
-    "p": "0.47"
-   },
-   {
-    "measure": "UPC ≥1 亚组肾脏生存",
-    "groups": "402±202 vs 149±90 天（n=13）",
-    "effect_ci": "摘要未给出",
-    "p": "0.27"
-   }
-  ],
-  "confidence_sentence": "本文为RCT，CEBM 2 级，Cochrane RoB 2 尚未评估偏倚风险，结论基于摘要。"
- },
- {
-  "pmid": "15702689",
-  "doi": "10.2460/javma.2005.226.393",
-  "id": "15702689",
-  "matched_by": "pmid",
-  "title_zh": "CKD 犬：UP/C ≥1 不良结局风险约高 3 倍",
-  "one_line_conclusion_zh": "CKD 犬初诊 UP/C ≥1.0 时，尿毒症危象和死亡的相对风险约为 UP/C <1.0 的 3 倍。",
-  "why_it_matters": "这是犬 CKD 中蛋白尿预后意义的早期证据，支持初诊时常规测 UP/C 并据此分层，也是 IRIS 蛋白尿亚分期的依据之一。样本只有 45 只，摘要未给置信区间，结论只适用于犬。",
-  "key_results": [
-   {
-    "measure": "尿毒症危象和死亡相对风险",
-    "groups": "UP:C ≥1.0 vs <1.0",
-    "effect_ci": "约 3 倍（摘要未给 CI）",
-    "p": "摘要未给出"
-   },
-   {
-    "measure": "UP:C 每升高 1",
-    "groups": "—",
-    "effect_ci": "不良结局风险约 1.5 倍",
-    "p": "摘要未给出"
-   }
-  ],
-  "confidence_sentence": "本文为前瞻性队列，CEBM 2 级，QUIPS 尚未评估偏倚风险，结论基于摘要。"
- },
- {
-  "pmid": "11990962",
-  "doi": "10.2460/javma.2002.220.1163",
-  "id": "11990962",
-  "matched_by": "pmid",
-  "title_zh": "CKD 犬：肾病处方粮减少尿毒症危象和死亡",
-  "one_line_conclusion_zh": "轻中度慢性肾衰竭犬中，肾病粮比成年维持粮减少尿毒症危象和死亡，并减缓肾功能下降。",
-  "why_it_matters": "这是犬肾病处方粮唯一的双盲 RCT，也是 IRIS 对犬 CKD 推荐饮食治疗的核心证据。样本只有 38 只，摘要未给具体数字，处方粮配方此后已有变化，引用时请核对原文。",
-  "key_results": [
-   {
-    "measure": "尿毒症危象和死亡",
-    "groups": "肾病粮优于维持粮",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
-   }
-  ],
-  "confidence_sentence": "本文为RCT，CEBM 2 级，Cochrane RoB 2 尚未评估偏倚风险，结论基于摘要。"
- },
- {
-  "pmid": "42207576",
-  "doi": "10.1093/jvimsj/aalag100",
-  "id": "42207576",
-  "matched_by": "pmid",
-  "title_zh": "CKD 犬：尿氨/肌酐比低预示死亡和进展更快",
-  "one_line_conclusion_zh": "稳定期 CKD 犬中，尿氨/肌酐比 <2.0 者死亡风险约为 3 倍，中位生存 189 天 vs 445 天。",
-  "why_it_matters": null,
-  "key_results": [
-   {
-    "measure": "全因死亡（UACR <2.0）",
-    "groups": "Cox 模型",
-    "effect_ci": "HR 3.045（95% CI 1.372–7.102）",
-    "p": "原文未给出"
-   },
-   {
-    "measure": "中位生存（全因）",
-    "groups": "189 vs 445 天",
-    "effect_ci": "原文未给出",
-    "p": "0.008"
-   },
-   {
-    "measure": "中位生存（肾性死亡）",
-    "groups": "270 vs 445 天",
-    "effect_ci": "原文未给出",
-    "p": "0.02"
-   },
-   {
-    "measure": "至进展中位时间",
-    "groups": "132 vs 445 天",
-    "effect_ci": "原文未给出",
-    "p": "0.0002"
-   },
-   {
-    "measure": "UPC <1.0 与死亡",
-    "groups": "Cox 模型",
-    "effect_ci": "HR 0.3506（95% CI 0.1417–0.8794）",
-    "p": "原文未给出"
-   }
-  ],
-  "confidence_sentence": "本文为前瞻性观察队列，CEBM 3 级，QUIPS 尚未评估偏倚风险，结论基于全文。"
- },
- {
-  "pmid": "32139728",
-  "doi": "10.1038/s41598-020-59837-z",
-  "id": "32139728",
-  "matched_by": "pmid",
-  "title_zh": "芬兰 1.37 万只犬：焦虑类问题行为很常见",
-  "one_line_conclusion_zh": "芬兰 13,700 只犬中，72.5% 至少有一种高度问题行为，噪声敏感最常见（32%）。",
-  "why_it_matters": null,
-  "key_results": [
-   {
-    "measure": "噪声敏感患病率",
-    "groups": "32%；来源：全文",
-    "effect_ci": "原文未给出",
-    "p": "原文未给出"
-   },
-   {
-    "measure": "至少一种高度问题行为",
-    "groups": "72.5%；来源：全文",
-    "effect_ci": "原文未给出",
-    "p": "原文未给出"
-   }
-  ],
-  "confidence_sentence": "本文为横断面问卷，CEBM 3 级，无对应偏倚工具，结论基于全文。"
- },
- {
-  "pmid": "30548336",
-  "doi": "10.1111/jvim.15367",
-  "id": "30548336",
-  "matched_by": "pmid",
-  "title_zh": "超重犬寿命缩短，12 个品种均如此",
-  "one_line_conclusion_zh": "5 万多只绝育家犬中，超重犬寿命缩短，各品种死亡 HR 为 1.35（德牧）至 2.86（约克夏）。",
-  "why_it_matters": "这项大样本研究把“超重缩短寿命”量化到了具体品种，是与主人沟通体重管理时最有说服力的数据之一。数据来自连锁医院病历，体况评分由不同兽医记录；研究由 Royal Canin 资助。",
-  "key_results": [
-   {
-    "measure": "超重 vs 正常体况死亡 HR",
-    "groups": "各品种 1.35（德牧）至 2.86（约克夏）",
-    "effect_ci": "99.79% CI（见原文）",
-    "p": "摘要未给出"
-   }
-  ],
-  "confidence_sentence": "本文为回顾性队列，CEBM 3 级，QUIPS 尚未评估偏倚风险，结论基于摘要。"
- },
- {
-  "pmid": "29660848",
-  "doi": "10.1111/jvim.15122",
-  "id": "29660848",
-  "matched_by": "pmid",
-  "title_zh": "临床前期 HCM 猫：约 3 成会发生心衰或血栓",
-  "one_line_conclusion_zh": "1008 只临床前期 HCM 猫中约 30% 发生心衰或血栓，10 年心血管死亡风险 28%。",
-  "why_it_matters": "这是猫 HCM 自然病程规模最大的国际研究，给出了门诊与主人沟通预后时可用的数字：多数临床前期猫长期不发病，但 10 年内约 3 成出事。梗阻型与非梗阻型结局无差异。",
-  "key_results": [
-   {
-    "measure": "CHF 或 ATE",
-    "groups": "307/1008（30.5%）；表面健康对照 7/722（0.97%）",
-    "effect_ci": "原文未给出",
-    "p": "原文未给出"
-   },
-   {
-    "measure": "心血管死亡风险 1/5/10 年",
-    "groups": "6.7% / 22.8% / 28.3%",
-    "effect_ci": "原文未给出",
-    "p": "原文未给出"
-   },
-   {
-    "measure": "CHF：HCM vs HOCM",
-    "groups": "106/430（24.7%）vs 138/578（23.9%）",
-    "effect_ci": "原文未给出",
-    "p": "0.834"
-   },
-   {
-    "measure": "ATE：HCM vs HOCM",
-    "groups": "41/430（9.5%）vs 76/578（13.2%）",
-    "effect_ci": "原文未给出",
-    "p": "0.094"
-   }
-  ],
-  "confidence_sentence": "本文为回顾性队列，CEBM 3 级，QUIPS 偏倚风险中等，结论基于全文。"
- },
- {
-  "pmid": "26776583",
-  "doi": "10.1016/j.jvc.2015.03.008",
-  "id": "26776583",
-  "matched_by": "pmid",
-  "title_zh": "CatScan：表面健康猫 HCM 患病率约 15%",
-  "one_line_conclusion_zh": "780 只表面健康的收容所猫中，HCM 患病率 14.7%；心杂音 40.8%，多为功能性。",
-  "why_it_matters": "这项研究常被引用来说明猫 HCM 远比想象常见，且听诊杂音既不敏感也不特异，提示筛查需要超声。研究对象是英国收容所猫，不一定代表家养名种猫，外推需谨慎，阅读时请结合原文的研究对象和方法。",
-  "key_results": [
-   {
-    "measure": "HCM 患病率",
-    "groups": "14.7%",
-    "effect_ci": "95% CI 12.3%–17.4%",
-    "p": "摘要未给出"
-   },
-   {
-    "measure": "心杂音",
-    "groups": "40.8%",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
-   }
-  ],
-  "confidence_sentence": "本文为横断面研究，CEBM 3 级，无对应偏倚工具，结论基于摘要。"
- },
- {
-  "pmid": "26581469",
-  "doi": "10.1177/1098612x15616433",
-  "id": "26581469",
-  "matched_by": "pmid",
-  "title_zh": "日本参保猫：消化系统疾病理赔最多",
-  "one_line_conclusion_zh": "日本约 6.5 万只参保猫中，消化系统疾病发病率最高，其次是泌尿和皮肤；多个纯种猫心血管病发病率高于混血。",
-  "why_it_matters": null,
-  "key_results": [
-   {
-    "measure": "≥1 次理赔年发病率",
-    "groups": "4632/万猫年；来源：全文",
-    "effect_ci": "95% CI 4608–4656",
-    "p": "原文未给出"
-   },
-   {
-    "measure": "消化系统",
-    "groups": "1172/万猫年；来源：全文",
-    "effect_ci": "95% CI 1156–1187",
-    "p": "原文未给出"
-   }
-  ],
-  "confidence_sentence": "本文为回顾性队列（保险数据），CEBM 3 级，无对应偏倚工具，结论基于全文。"
- },
- {
-  "pmid": "25896026",
-  "doi": "10.1016/j.prevetmed.2015.03.018",
-  "id": "25896026",
-  "matched_by": "pmid",
-  "title_zh": "日本参保犬：平均寿命 13.7 年，体型越大越短",
-  "one_line_conclusion_zh": "日本约 30 万只参保犬期望寿命 13.7 年，体重越大寿命越短，≥40 kg 组仅 10.6 年。",
-  "why_it_matters": null,
-  "key_results": [
-   {
-    "measure": "期望寿命",
-    "groups": "全体 13.7 年；≥40 kg 组 10.6 年",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
-   }
-  ],
-  "confidence_sentence": "本文为回顾性队列（保险数据），CEBM 3 级，无对应偏倚工具，结论基于摘要。"
- },
- {
-  "pmid": "25231385",
-  "doi": "10.1111/jvim.12445",
-  "id": "25231385",
-  "matched_by": "pmid",
-  "title_zh": "猫 CKD：SDMA 平均比肌酐早 17 个月升高",
-  "one_line_conclusion_zh": "21 只 CKD 猫中 17 只 SDMA 早于肌酐升高，平均提前 17 个月；但来自厂商猫群的回顾性数据。",
-  "why_it_matters": "SDMA 被 IRIS 纳入分期，这篇是“SDMA 更早发现猫 CKD”说法的主要来源。设计是病例对照式，研究对象是厂商猫群，敏感度和特异度可能被高估；2026 年系统综述认为其诊断优势仍不确定。",
-  "key_results": [
-   {
-    "measure": "SDMA 先于肌酐升高",
-    "groups": "17/21；平均提前 17.0 个月",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
-   },
-   {
-    "measure": "敏感度 SDMA vs 肌酐",
-    "groups": "100% vs 17%",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
-   },
-   {
-    "measure": "特异度 SDMA vs 肌酐",
-    "groups": "91% vs 100%",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
-   }
-  ],
-  "confidence_sentence": "本文为回顾性队列，CEBM 3 级，QUADAS-2 尚未评估偏倚风险，结论基于摘要。"
- },
- {
-  "pmid": "24217707",
-  "doi": "10.1177/1098612x13511446",
-  "id": "24217707",
-  "matched_by": "pmid",
-  "title_zh": "随机抽样猫中 CKD 约占一半，常与关节病并存",
-  "one_line_conclusion_zh": "随机抽取的各年龄段猫中 CKD 患病率约 50%，关节病研究猫中为 68.8%，两病常同时存在。",
-  "why_it_matters": null,
-  "key_results": [
-   {
-    "measure": "CKD 患病率",
-    "groups": "随机抽样组 50%；关节病组 68.8%",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
-   }
-  ],
-  "confidence_sentence": "本文为回顾性横断面，CEBM 3 级，无对应偏倚工具，结论基于摘要。"
- },
- {
-  "pmid": "23647231",
-  "doi": "10.1111/jvim.12090",
-  "id": "23647231",
-  "matched_by": "pmid",
-  "title_zh": "英国犬 CKD：确诊后中位生存 226 天",
-  "one_line_conclusion_zh": "英国初级诊疗犬 CKD 表观患病率 0.21%，确诊后中位生存 226 天；IRIS 分期和 BUN 与死亡风险相关。",
-  "why_it_matters": "这是犬 CKD 在全科门诊人群中的基线数据，不同于转诊医院样本，更接近一般门诊情况。患病率可能因漏诊而被低估，生存数据受安乐死决策影响，解读时需注意，阅读时请结合原文的研究对象和方法。",
-  "key_results": [
-   {
-    "measure": "表观患病率",
-    "groups": "0.21%",
-    "effect_ci": "95% CI 0.19%–0.24%",
-    "p": "摘要未给出"
-   },
-   {
-    "measure": "确诊后中位生存",
-    "groups": "226 天",
-    "effect_ci": "95% CI 112–326 天",
-    "p": "摘要未给出"
-   }
-  ],
-  "confidence_sentence": "本文为纵向队列（VetCompass），CEBM 3 级，QUIPS 尚未评估偏倚风险，结论基于摘要。"
- },
- {
-  "pmid": "22269057",
-  "doi": "10.1111/j.1939-1676.2011.00874.x",
-  "id": "22269057",
-  "matched_by": "pmid",
-  "title_zh": "猫 CKD：高血磷和高 UPC 预测一年内进展",
-  "one_line_conclusion_zh": "213 只 CKD 猫中 47% 在 1 年内进展（肌酐升高 ≥25%），高血磷和高 UPC 预测进展。",
-  "why_it_matters": "这项研究支持对 CKD 猫控制血磷、监测蛋白尿，是 IRIS 治疗建议的依据之一。它是回顾性设计，只能说明血磷和 UPC 与进展相关，不能证明降磷就能延缓进展。",
-  "key_results": [
-   {
-    "measure": "1 年内进展",
-    "groups": "47%（101）",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
-   },
-   {
-    "measure": "2 期→4 期",
-    "groups": "19%（18/94）",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
-   },
-   {
-    "measure": "3 期→4 期",
-    "groups": "63%（34/54）",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
-   }
-  ],
-  "confidence_sentence": "本文为回顾性队列，CEBM 3 级，QUIPS 尚未评估偏倚风险，结论基于摘要。"
- },
- {
-  "pmid": "20005753",
-  "doi": "10.1016/j.tvjl.2009.11.007",
-  "id": "20005753",
-  "matched_by": "pmid",
-  "title_zh": "老年犬认知障碍：患病率 14%，诊断仅 2%",
-  "one_line_conclusion_zh": "澳大利亚老年犬认知障碍患病率估计 14.2%，但仅 1.9% 被兽医诊断。",
-  "why_it_matters": null,
-  "key_results": [
-   {
-    "measure": "CCD 患病率",
-    "groups": "14.2%",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
-   },
-   {
-    "measure": "兽医诊断",
-    "groups": "1.9%",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
-   }
-  ],
-  "confidence_sentence": "本文为横断面调查，CEBM 3 级，无对应偏倚工具，结论基于摘要。"
- },
- {
-  "pmid": "18691369",
-  "doi": "10.1111/j.1939-1676.2008.0163.x",
-  "id": "18691369",
-  "matched_by": "pmid",
-  "title_zh": "猫 CKD：IRIS 分期强烈预测生存",
-  "one_line_conclusion_zh": "211 只 CKD 猫中，确诊时 IRIS 2b、3、4 期的中位生存分别为 1151、778、103 天。",
-  "why_it_matters": "这是 IRIS 分期在猫中预后价值的核心证据，门诊与主人沟通预后时最常引用这组数字。它是回顾性单中心数据，未校正治疗差异，个体猫的生存可能与中位数相差很大，阅读时请结合原文的研究对象和方法。",
-  "key_results": [
-   {
-    "measure": "中位生存",
-    "groups": "IIb 1151 天；III 778 天；IV 103 天",
-    "effect_ci": "摘要未给出",
-    "p": "<0.0001"
-   }
-  ],
-  "confidence_sentence": "本文为回顾性队列，CEBM 3 级，QUIPS 尚未评估偏倚风险，结论基于摘要。"
- },
- {
-  "pmid": "18289298",
-  "doi": "10.1111/j.1939-1676.2007.0008.x",
-  "id": "18289298",
-  "matched_by": "pmid",
-  "title_zh": "犬 MMVD：左房扩大是心源性死亡唯一独立预测因素",
-  "one_line_conclusion_zh": "MMVD 犬中位生存 19.5 个月；多变量分析中 LA/Ao >1.7 是心源性死亡唯一显著因素。",
-  "why_it_matters": null,
-  "key_results": [
-   {
-    "measure": "中位生存",
-    "groups": "19.5±13.2 个月",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
-   }
-  ],
-  "confidence_sentence": "本文为回顾性队列，CEBM 3 级，QUIPS 尚未评估偏倚风险，结论基于摘要。"
- },
- {
-  "pmid": "17939542",
-  "doi": "10.1111/j.1939-1676.2007.tb03042.x",
-  "id": "17939542",
-  "matched_by": "pmid",
-  "title_zh": "猫 CKD：肌酐、UPC 和白细胞升高预示肾脏生存更短",
-  "one_line_conclusion_zh": "95 只安慰剂组 CKD 猫中，肌酐、UPC 和白细胞升高是肾脏生存期缩短的独立风险因素。",
-  "why_it_matters": null,
-  "key_results": [
-   {
-    "measure": "达到肾脏生存终点",
-    "groups": "37/95",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
-   },
-   {
-    "measure": "独立风险因素",
-    "groups": "肌酐、UPC、白细胞",
-    "effect_ci": "摘要未给出",
-    "p": "<0.01"
-   }
-  ],
-  "confidence_sentence": "本文为RCT 安慰剂组的预后分析，CEBM 3 级，QUIPS 尚未评估偏倚风险，结论基于摘要。"
- },
- {
-  "pmid": "16734085",
-  "doi": "10.1892/0891-6640(2006)20[528:socwno]2.0.co;2",
-  "id": "16734085",
-  "matched_by": "pmid",
-  "title_zh": "猫 CKD：蛋白尿越重，生存越短",
-  "one_line_conclusion_zh": "CKD 猫 UPC 0.2–0.4 和 >0.4 的死亡风险分别为 <0.2 的 2.9 倍和 4.0 倍。",
-  "why_it_matters": "这是猫“边缘性蛋白尿也有预后意义”的主要证据，IRIS 猫的 UP/C 亚分期阈值（0.2、0.4）即来源于此。研究为回顾性，不能说明降低蛋白尿就能延长生存，阅读时请结合原文的研究对象和方法。",
-  "key_results": [
-   {
-    "measure": "死亡 HR：UPC 0.2–0.4 vs <0.2",
-    "groups": "—",
-    "effect_ci": "HR 2.9（95% CI 1.4–6.3）",
-    "p": "摘要未给出"
-   },
-   {
-    "measure": "死亡 HR：UPC >0.4 vs <0.2",
-    "groups": "—",
-    "effect_ci": "HR 4.0（95% CI 2.0–8.0）",
-    "p": "摘要未给出"
-   }
-  ],
-  "confidence_sentence": "本文为回顾性队列，CEBM 3 级，QUIPS 尚未评估偏倚风险，结论基于摘要。"
- },
- {
-  "pmid": "11991408",
-  "doi": "10.2460/javma.2002.220.1315",
-  "id": "11991408",
-  "matched_by": "pmid",
-  "title_zh": "限饲 25% 的拉布拉多寿命更长",
-  "one_line_conclusion_zh": "48 只拉布拉多配对研究中，终身少喂 25% 的犬中位寿命更长，慢性病症状出现更晚。",
-  "why_it_matters": "这是犬体重管理最常被引用的长期证据，说明终身保持偏瘦体况可延长寿命。研究只有拉布拉多一个品种，样本 48 只，由厂商资助，结论外推到其他品种需谨慎，阅读时请结合原文的研究对象和方法。",
-  "key_results": [
-   {
-    "measure": "中位寿命",
-    "groups": "限饲组显著更长（摘要未给数字）",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
-   }
-  ],
-  "confidence_sentence": "本文为配对对照试验，CEBM 3 级，ROBINS-I 尚未评估偏倚风险，结论基于摘要。"
- },
- {
-  "pmid": "10879400",
-  "doi": "10.1111/j.1748-5827.2000.tb03932.x",
-  "id": "10879400",
-  "matched_by": "pmid",
-  "title_zh": "肾衰竭猫：吃肾病粮者中位生存 633 天 vs 264 天",
-  "one_line_conclusion_zh": "慢性肾衰竭猫中，接受肾病粮者中位生存 633 天，未接受者 264 天；但分组由主人和猫的接受度决定，非随机。",
-  "why_it_matters": null,
-  "key_results": [
-   {
-    "measure": "中位生存",
-    "groups": "肾病粮 633 天；未接受 264 天",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
-   }
-  ],
-  "confidence_sentence": "本文为前瞻性队列（非随机），CEBM 3 级，ROBINS-I 尚未评估偏倚风险，结论基于摘要。"
- },
- {
-  "pmid": "42949438",
-  "doi": "10.1093/jvimsj/aalag268",
-  "id": "42949438",
-  "matched_by": "pmid",
-  "title_zh": "FIP：莫努匹韦 42 天，约四分之三持续缓解",
-  "one_line_conclusion_zh": "19 只 FIP 猫口服莫努匹韦 42 天，14 只（74%）持续缓解 ≥6 个月；3 只复发后重新治疗有效。",
-  "why_it_matters": null,
-  "key_results": [
-   {
-    "measure": "持续缓解 ≥6 个月",
-    "groups": "14/19（74%）",
-    "effect_ci": "原文未给出",
-    "p": "原文未给出"
-   },
-   {
-    "measure": "复发",
-    "groups": "3 只（停药后 21、27、91 天），再治疗均有效",
-    "effect_ci": "原文未给出",
-    "p": "原文未给出"
-   },
-   {
-    "measure": "ALT 轻度升高",
-    "groups": "5/19（26%）",
-    "effect_ci": "原文未给出",
-    "p": "原文未给出"
-   },
-   {
-    "measure": "中性粒细胞减少",
-    "groups": "2/19（11%）",
-    "effect_ci": "原文未给出",
-    "p": "原文未给出"
-   }
-  ],
-  "confidence_sentence": "本文为前瞻性单臂试点，CEBM 4 级，无对应偏倚工具，结论基于全文。"
- },
- {
-  "pmid": "41834689",
-  "doi": "10.1177/1098612x261435376",
-  "id": "41834689",
-  "matched_by": "pmid",
-  "title_zh": "FIP：高剂量诱导加炎症指标指导，可提前停药",
-  "one_line_conclusion_zh": "30 只 FIP 猫高剂量诱导后按 SAA 和 α1-AGP 提前停药，随访期内未见复发。",
-  "why_it_matters": null,
-  "key_results": [
-   {
-    "measure": "初始治疗有反应",
-    "groups": "29/30（瑞德西韦组 1 只死亡）",
-    "effect_ci": "原文未给出",
-    "p": "原文未给出"
-   },
-   {
-    "measure": "<12 周完成治疗",
-    "groups": "22 只；中位 54 天（IQR 45–57）",
-    "effect_ci": "原文未给出",
-    "p": "原文未给出"
-   },
-   {
-    "measure": "停药后 2、6、12 周复发",
-    "groups": "0 只",
-    "effect_ci": "原文未给出",
-    "p": "原文未给出"
-   }
-  ],
-  "confidence_sentence": "本文为前瞻性单臂研究，CEBM 4 级，无对应偏倚工具，结论基于全文。"
- },
- {
-  "pmid": "41035288",
-  "doi": "10.1111/jvim.70253",
-  "id": "41035288",
-  "matched_by": "pmid",
-  "title_zh": "FIP 眼部受累：三分之一有葡萄膜炎，抗病毒治疗有效",
-  "one_line_conclusion_zh": "61 只 FIP 猫中 33% 有眼部病变（均为葡萄膜炎），长期随访的 11 只中 9 只（82%）葡萄膜炎消退。",
-  "why_it_matters": null,
-  "key_results": [
-   {
-    "measure": "眼部病变",
-    "groups": "20/61（33%）",
-    "effect_ci": "原文未给出",
-    "p": "原文未给出"
-   },
-   {
-    "measure": "存活",
-    "groups": "16/20（80%）",
-    "effect_ci": "原文未给出",
-    "p": "原文未给出"
-   },
-   {
-    "measure": "葡萄膜炎消退",
-    "groups": "9/11（82%），中位 44 天",
-    "effect_ci": "原文未给出",
-    "p": "原文未给出"
-   },
-   {
-    "measure": "继发青光眼",
-    "groups": "4/20（20%）",
-    "effect_ci": "原文未给出",
-    "p": "原文未给出"
-   }
-  ],
-  "confidence_sentence": "本文为回顾性观察研究，CEBM 4 级，无对应偏倚工具，结论基于全文。"
- },
- {
-  "pmid": "37732386",
-  "doi": "10.1177/1098612x231194460",
-  "id": "37732386",
-  "matched_by": "pmid",
-  "title_zh": "英国 307 只 FIP 猫：合法来源抗病毒药，84% 存活",
-  "one_line_conclusion_zh": "307 只英国 FIP 猫用合法来源抗病毒药，末次随访 84.4% 存活，10.8% 复发。",
-  "why_it_matters": "这是使用成分明确的合法药物治疗 FIP 的最大样本研究，证明正规药物疗效与非正规药物报告相当，常被引用来支持临床应用。各猫方案不统一，无法比较不同疗法的优劣，阅读时请结合原文的研究对象和方法。",
-  "key_results": [
-   {
-    "measure": "末次随访存活",
-    "groups": "259/307（84.4%）",
-    "effect_ci": "原文未给出",
-    "p": "原文未给出"
-   },
-   {
-    "measure": "初始疗程结束时存活",
-    "groups": "272/307（88.6%）",
-    "effect_ci": "原文未给出",
-    "p": "原文未给出"
-   },
-   {
-    "measure": "复发",
-    "groups": "33/307（10.8%）",
-    "effect_ci": "原文未给出",
-    "p": "原文未给出"
-   },
-   {
-    "measure": "皮下瑞德西韦注射痛",
-    "groups": "122/255（47.8%）",
-    "effect_ci": "原文未给出",
-    "p": "原文未给出"
-   }
-  ],
-  "confidence_sentence": "本文为回顾性病例系列，CEBM 4 级，无对应偏倚工具，结论基于全文。"
- },
- {
-  "pmid": "37548535",
-  "doi": "10.1177/1098612x231183250",
-  "id": "37548535",
-  "matched_by": "pmid",
-  "title_zh": "FIP 康复猫 1 年随访：无确证复发",
-  "one_line_conclusion_zh": "口服 GS-441524 达到完全缓解的 18 只猫，1 年随访内无确证复发；5 只再次粪便排毒。",
-  "why_it_matters": null,
-  "key_results": [
-   {
-    "measure": "随访检查数",
-    "groups": "第 24 周 18/18；第 36 周 15/18；第 48 周 14/18",
-    "effect_ci": "原文未给出",
-    "p": "原文未给出"
-   },
-   {
-    "measure": "粪便 FCoV 再次排毒",
-    "groups": "5 只",
-    "effect_ci": "原文未给出",
-    "p": "原文未给出"
-   },
-   {
-    "measure": "类猫感觉过敏综合征表现",
-    "groups": "2 只",
-    "effect_ci": "原文未给出",
-    "p": "原文未给出"
-   }
-  ],
-  "confidence_sentence": "本文为前瞻性随访研究，CEBM 4 级，无对应偏倚工具，结论基于全文。"
- },
- {
-  "pmid": "37439383",
-  "doi": "10.1111/jvim.16803",
-  "id": "37439383",
-  "matched_by": "pmid",
-  "title_zh": "FIP：瑞德西韦注射转口服，6 个月存活 86%",
-  "one_line_conclusion_zh": "28 只 FIP 猫瑞德西韦注射诱导，再用瑞德西韦或口服 GS-441524 维持，6 个月存活 86%。",
-  "why_it_matters": null,
-  "key_results": [
-   {
-    "measure": "6 个月存活",
-    "groups": "24/28（86%）",
-    "effect_ci": "原文未给出",
-    "p": "原文未给出"
-   },
-   {
-    "measure": "排除 48 小时内死亡后",
-    "groups": "24/25（96%）",
-    "effect_ci": "原文未给出",
-    "p": "原文未给出"
-   },
-   {
-    "measure": "第 84 天缓解并完成治疗",
-    "groups": "15/25（60%）",
-    "effect_ci": "原文未给出",
-    "p": "原文未给出"
-   }
-  ],
-  "confidence_sentence": "本文为前瞻性单臂研究，CEBM 4 级，无对应偏倚工具，结论基于全文。"
- },
- {
-  "pmid": "37403259",
-  "doi": "10.1111/jvim.16804",
-  "id": "37403259",
-  "matched_by": "pmid",
-  "title_zh": "FIP：瑞德西韦加 GS-441524，缓解 81%",
-  "one_line_conclusion_zh": "32 只 FIP 猫（含眼部和神经型）用瑞德西韦加口服 GS-441524，12 周末 81% 临床和生化缓解。",
-  "why_it_matters": null,
-  "key_results": [
-   {
-    "measure": "12 周缓解",
-    "groups": "26/32（81.3%）",
-    "effect_ci": "原文未给出",
-    "p": "原文未给出"
-   },
-   {
-    "measure": "临床起效",
-    "groups": "28/32（87.5%），中位 2 天（1–5）",
-    "effect_ci": "原文未给出",
-    "p": "原文未给出"
-   },
-   {
-    "measure": "治疗中死亡/安乐死",
-    "groups": "6/32（18.8%），其中 4 只在 3 天内",
-    "effect_ci": "原文未给出",
-    "p": "原文未给出"
-   },
-   {
-    "measure": "第 12 周 ALT >60 U/L",
-    "groups": "6/18（33%）",
-    "effect_ci": "原文未给出",
-    "p": "原文未给出"
-   }
-  ],
-  "confidence_sentence": "本文为回顾性病例系列，CEBM 4 级，无对应偏倚工具，结论基于全文。"
- },
- {
-  "pmid": "36297266",
-  "doi": "10.3390/pathogens11101209",
-  "id": "36297266",
-  "matched_by": "pmid",
-  "title_zh": "FIP：GS-441524 失败后，莫努匹韦挽救有效",
-  "one_line_conclusion_zh": "26 只 GS-441524 治疗失败的 FIP 猫改用非正规莫努匹韦，24 只无病存活；数据来自主人报告。",
-  "why_it_matters": null,
-  "key_results": [
-   {
-    "measure": "挽救治疗后无病存活",
-    "groups": "24/26",
-    "effect_ci": "原文未给出",
-    "p": "原文未给出"
-   },
-   {
-    "measure": "2 周内症状改善（主人报告）",
-    "groups": "84.6%",
-    "effect_ci": "原文未给出",
-    "p": "原文未给出"
-   },
-   {
-    "measure": "一线使用（4 只）",
-    "groups": "全部存活、无病",
-    "effect_ci": "原文未给出",
-    "p": "原文未给出"
-   },
-   {
-    "measure": "疗程：挽救 vs 一线",
-    "groups": "中位 12 vs 11.5 周",
-    "effect_ci": "原文未给出",
-    "p": "0.692"
-   }
-  ],
-  "confidence_sentence": "本文为回顾性病例系列（主人报告），CEBM 4 级，无对应偏倚工具，结论基于全文。"
- },
- {
-  "pmid": "34835034",
-  "doi": "10.3390/v13112228",
-  "id": "34835034",
-  "matched_by": "pmid",
-  "title_zh": "口服 GS-441524 制剂：18 只 FIP 猫全愈",
-  "one_line_conclusion_zh": "18 只 FIP 猫口服含 GS-441524 的 Xraphconn 84 天，全部康复，未见严重不良反应。",
-  "why_it_matters": null,
-  "key_results": [
-   {
-    "measure": "康复",
-    "groups": "18/18",
-    "effect_ci": "原文未给出",
-    "p": "原文未给出"
-   },
-   {
-    "measure": "血液病毒载量",
-    "groups": "治疗 2–4 天内全部大幅下降（基线 15/18 可检出）",
-    "effect_ci": "原文未给出",
-    "p": "原文未给出"
-   },
-   {
-    "measure": "ALT 升高",
-    "groups": "7/18（38.9%），2 只重度",
-    "effect_ci": "原文未给出",
-    "p": "原文未给出"
-   },
-   {
-    "measure": "嗜酸性粒细胞增多（轻度）",
-    "groups": "11/18（61.1%）",
-    "effect_ci": "原文未给出",
-    "p": "原文未给出"
-   }
-  ],
-  "confidence_sentence": "本文为前瞻性单臂研究，CEBM 4 级，无对应偏倚工具，结论基于全文。"
- },
- {
-  "pmid": "32441826",
-  "doi": "10.1111/jvim.15780",
-  "id": "32441826",
-  "matched_by": "pmid",
-  "title_zh": "神经型 FIP：GS-441524 可长期缓解，需更高剂量",
-  "one_line_conclusion_zh": "4 只神经型 FIP 猫用 GS-441524 治疗 ≥12 周，3 只停药后长期正常；所需剂量可能高于非神经型。",
-  "why_it_matters": null,
-  "key_results": [
-   {
-    "measure": "停药后长期正常",
-    "groups": "3/4",
-    "effect_ci": "原文未给出",
-    "p": "原文未给出"
-   },
-   {
-    "measure": "剂量",
-    "groups": "5–10 mg/kg",
-    "effect_ci": "原文未给出",
-    "p": "原文未给出"
-   }
-  ],
-  "confidence_sentence": "本文为病例系列，CEBM 4 级，无对应偏倚工具，结论基于全文。"
- },
- {
-  "pmid": "30755068",
-  "doi": "10.1177/1098612x19825701",
-  "id": "30755068",
-  "matched_by": "pmid",
-  "title_zh": "GS-441524 首个现场试验：25 只长期存活",
-  "one_line_conclusion_zh": "31 只 FIP 猫注射 GS-441524，18 只一轮治愈，复发者加量后共 25 只长期存活。",
-  "why_it_matters": "这是 GS-441524 治疗自然发病 FIP 的首个前瞻性研究，标志着 FIP 从绝症变为可治。它确立了 4 mg/kg 皮下注射 12 周的早期方案，但未纳入神经和眼部重症，也没有对照组。",
-  "key_results": [
-   {
-    "measure": "早期死亡/安乐死",
-    "groups": "前 2–5 天 4 只；第 26 天 1 只",
-    "effect_ci": "原文未给出",
-    "p": "原文未给出"
-   },
-   {
-    "measure": "一轮治疗后保持健康",
-    "groups": "18/26",
-    "effect_ci": "原文未给出",
-    "p": "原文未给出"
-   },
-   {
-    "measure": "复发",
-    "groups": "8/26（2 只为神经型复发）",
-    "effect_ci": "原文未给出",
-    "p": "原文未给出"
-   },
-   {
-    "measure": "持续缓解",
-    "groups": "25/26（其中 1 只后来死于无关心脏病）",
-    "effect_ci": "原文未给出",
-    "p": "原文未给出"
-   }
-  ],
-  "confidence_sentence": "本文为前瞻性单臂现场试验，CEBM 4 级，无对应偏倚工具，结论基于全文。"
- },
- {
-  "pmid": "30543707",
-  "doi": "10.1371/journal.pone.0209112",
-  "id": "30543707",
-  "matched_by": "pmid",
-  "title_zh": "金毛 DCM 与牛磺酸缺乏和无谷粮相关",
-  "one_line_conclusion_zh": "24 只牛磺酸缺乏的 DCM 金毛中 23 只吃无谷或豆类饮食，换粮加补牛磺酸后 23 只超声改善。",
-  "why_it_matters": "这是引发 FDA 调查“无谷粮与犬 DCM”的关键病例系列，提示金毛 DCM 应查血牛磺酸并询问饮食史。研究没有对照组，样本只有 24 只，不能证明无谷粮导致 DCM。",
-  "key_results": [
-   {
-    "measure": "无谷、富豆类或两者兼有的饮食",
-    "groups": "23/24",
-    "effect_ci": "原文未给出",
-    "p": "原文未给出"
-   },
-   {
-    "measure": "换粮+补牛磺酸后超声改善且牛磺酸恢复",
-    "groups": "23/24",
-    "effect_ci": "原文未给出",
-    "p": "原文未给出"
-   },
-   {
-    "measure": "CHF 充血缓解",
-    "groups": "9/11（5 只停用利尿剂，4 只减量 >50%）",
-    "effect_ci": "原文未给出",
-    "p": "原文未给出"
-   }
-  ],
-  "confidence_sentence": "本文为病例系列，CEBM 4 级，无对应偏倚工具，结论基于全文。"
- },
- {
-  "pmid": "30797439",
-  "doi": "10.1016/j.jvc.2018.11.002",
-  "id": "30797439",
-  "matched_by": "pmid",
-  "title_zh": "DCM 犬：吃无谷粮者心脏更大，换粮后部分改善",
-  "one_line_conclusion_zh": "48 只 DCM 犬中，吃无谷粮（尤其最常见品牌）的犬左室更大；7 只换粮后改善，其中 6 只补了牛磺酸。",
-  "why_it_matters": null,
-  "key_results": [
-   {
-    "measure": "换粮后复查改善",
-    "groups": "7 只（6 只补牛磺酸）",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
-   }
-  ],
-  "confidence_sentence": "本文为回顾性队列，CEBM 4 级，无对应偏倚工具，结论基于摘要。"
- },
- {
-  "pmid": "28901812",
-  "doi": "10.1177/1098612x17729626",
-  "id": "28901812",
-  "matched_by": "pmid",
-  "title_zh": "GC376 治疗 FIP：短期有效，多数复发",
-  "one_line_conclusion_zh": "20 只 FIP 猫用 GC376，19 只 2 周内好转，但 13 只复发且不再有效；最终 7 只缓解。",
-  "why_it_matters": null,
-  "key_results": [
-   {
-    "measure": "治疗 1–4 周内明显好转",
-    "groups": "19/20",
-    "effect_ci": "原文未给出",
-    "p": "原文未给出"
-   },
-   {
-    "measure": "复发致死",
-    "groups": "13 只（停药 0–7 周后，含神经型）",
-    "effect_ci": "原文未给出",
-    "p": "原文未给出"
-   },
-   {
-    "measure": "12 周后持续缓解",
-    "groups": "7 只（图 2 图注写 6 只）",
-    "effect_ci": "原文未给出",
-    "p": "原文未给出"
-   },
-   {
-    "measure": "死亡猫尸检",
-    "groups": "12/13 只送检",
-    "effect_ci": "原文未给出",
-    "p": "原文未给出"
-   }
-  ],
-  "confidence_sentence": "本文为前瞻性单臂现场试验，CEBM 4 级，无对应偏倚工具，结论基于全文。"
- },
- {
-  "pmid": "28152671",
-  "doi": "10.1177/1098612x17691896",
-  "id": "28152671",
-  "matched_by": "pmid",
-  "title_zh": "HCM 猫：常规超声正常时，应变已下降",
-  "one_line_conclusion_zh": "单中心 32 只 HCM 猫中，常规超声收缩功能正常时，纵向和径向应变已比健康猫低。",
-  "why_it_matters": null,
-  "key_results": [
-   {
-    "measure": "纵向应变（中位）",
-    "groups": "对照 −22.5%；无症状 HCM −17.6%",
-    "effect_ci": "摘要未给出",
-    "p": "0.014"
-   }
-  ],
-  "confidence_sentence": "本文为横断面/小样本探索，CEBM 4 级，QUADAS-2 尚未评估偏倚风险，结论基于摘要。"
- },
- {
-  "pmid": "27103204",
-  "doi": "10.1111/jvim.13942",
-  "id": "27103204",
-  "matched_by": "pmid",
-  "title_zh": "犬 CKD：SDMA 平均比肌酐早约 10 个月升高",
-  "one_line_conclusion_zh": "19 只 CKD 犬中 17 只 SDMA 早于肌酐升高，平均提前 9.8 个月。",
-  "why_it_matters": "说明 SDMA 能比肌酐更早提示犬 CKD，是 IRIS 把 SDMA 纳入分期的主要依据之一。样本仅 19 只 CKD 犬，来自 Hill's 研究犬群，资助方和作者涉及饲料与检测厂商，外推需谨慎。",
-  "key_results": [
-   {
-    "measure": "SDMA 先于肌酐升高",
-    "groups": "17/19 只；平均提前 9.8 个月（范围 2.2–27.0）",
-    "effect_ci": "原文未给出",
-    "p": "原文未给出"
-   },
-   {
-    "measure": "肌酐生前始终未超参考区间",
-    "groups": "10/19 只（靠尸检诊断 CKD）",
-    "effect_ci": "原文未给出",
-    "p": "原文未给出"
-   },
-   {
-    "measure": "SDMA 首次升高时 IRIS 分期",
-    "groups": "1 期（非氮质血症）17/19；2 期 2/19",
-    "effect_ci": "原文未给出",
-    "p": "原文未给出"
-   },
-   {
-    "measure": "肌酐与 GFR（二次关系）",
-    "groups": "r = −0.89",
-    "effect_ci": "原文未给出",
-    "p": "<0.0001"
-   }
-  ],
-  "confidence_sentence": "本文为回顾性诊断研究，CEBM 4 级，QUADAS-2 尚未评估偏倚风险，结论基于全文。"
- },
- {
-  "pmid": "26079532",
-  "doi": "10.1111/jvim.12835",
-  "id": "26079532",
-  "matched_by": "pmid",
-  "title_zh": "遗传性肾病犬：SDMA 比肌酐更早发现 GFR 下降",
-  "one_line_conclusion_zh": "8 只 X 连锁遗传性肾病犬中，SDMA 在 GFR 下降 <20% 时即可识别，早于肌酐。",
-  "why_it_matters": null,
-  "key_results": [
-   {
-    "measure": "SDMA 与 GFR 相关（患犬）",
-    "groups": "r = −0.95（n=83 个样本点）",
-    "effect_ci": "95% CI −1 至 −0.72",
-    "p": "原文未给出"
-   },
-   {
-    "measure": "SDMA 与肌酐相关（患犬）",
-    "groups": "r = 0.95（n=329）",
-    "effect_ci": "95% CI 0.87–1",
-    "p": "原文未给出"
-   },
-   {
-    "measure": "检测 GFR 初始下降的时间",
-    "groups": "SDMA 与肌酐同时（5 只）或晚 1–3 周（3 只），以 SDMA ≥14 μg/dL 为界时",
-    "effect_ci": "原文未给出",
-    "p": "原文未给出"
-   },
-   {
-    "measure": "SDMA 样本稳定性",
-    "groups": "不同采血管、温度、冻融差异均在 ±10% 内",
-    "effect_ci": "差值 CI ±1.6%–8.4%",
-    "p": "原文未给出"
-   }
-  ],
-  "confidence_sentence": "本文为前瞻性诊断/方法学验证，CEBM 4 级，QUADAS-2 尚未评估偏倚风险，结论基于全文。"
- },
- {
-  "pmid": "25673019",
-  "doi": "10.1177/1098612x15572416",
-  "id": "25673019",
-  "matched_by": "pmid",
-  "title_zh": "甲亢猫病程越长，肿瘤越大、疑似癌越多",
-  "one_line_conclusion_zh": "2096 只甲亢猫中，病程越长 T4 越高、肿瘤越大，疑似甲状腺癌从 0.5% 升至 25.8%；横断面设计。",
-  "why_it_matters": "这项研究支持对甲亢猫尽早做根治性治疗（放射碘或手术），而不是长期只吃药。但它是横断面研究，样本来自转诊放射碘中心，不能证明病程长会导致恶变，阅读时请结合原文的研究对象和方法。",
-  "key_results": [
-   {
-    "measure": "T4 中位数",
-    "groups": "100 → 315 nmol/L（≤1 年 → >4–6.1 年）；与病程 r=0.47",
-    "effect_ci": "原文未给出",
-    "p": "<0.001"
-   },
-   {
-    "measure": "肿瘤体积",
-    "groups": "中位 1.6 → 6.4 cm³；与病程 r=0.58",
-    "effect_ci": "原文未给出",
-    "p": "<0.0001"
-   },
-   {
-    "measure": "多灶性病变",
-    "groups": "2.7% → 22.6%",
-    "effect_ci": "原文未给出",
-    "p": "<0.0001"
-   },
-   {
-    "measure": "疑似甲状腺癌",
-    "groups": "0.5% → 25.8%（其中 SHIM-RAD 亚组 0.4% → 19.3%）",
-    "effect_ci": "原文未给出",
-    "p": "<0.001"
-   }
-  ],
-  "confidence_sentence": "本文为病例系列（病理），CEBM 4 级，无对应偏倚工具，结论基于全文。"
- },
- {
-  "pmid": "3616607",
-  "doi": "10.1126/science.3616607",
-  "id": "3616607",
-  "matched_by": "pmid",
-  "title_zh": "猫扩张型心肌病与牛磺酸缺乏有关，补充后可逆",
-  "one_line_conclusion_zh": "低血浆牛磺酸与猫心肌衰竭相关，补充牛磺酸后左室功能恢复正常。",
-  "why_it_matters": "这项研究使商品猫粮普遍添加牛磺酸，猫营养性 DCM 因此大幅减少，至今仍是“饮食相关 DCM”的经典参照。样本只有 21 只，发表于 1987 年，结论只适用于猫。",
-  "key_results": [
-   {
-    "measure": "实验低牛磺酸饲喂心衰",
-    "groups": "2/11",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
-   }
-  ],
-  "confidence_sentence": "本文为实验，CEBM 4 级，SYRCLE 尚未评估偏倚风险，结论基于摘要。"
- },
- {
-  "pmid": "41701235",
-  "doi": "10.1007/s11259-026-11088-5",
-  "id": "41701235",
-  "matched_by": "pmid",
-  "title_zh": "犬 CKD：UPC 显著高于健康犬，但有发表偏倚",
-  "one_line_conclusion_zh": "9 项研究 891 只犬的 Meta 分析显示，CKD 犬 UPC 显著高于健康犬，但异质性大、存在明显发表偏倚。",
-  "why_it_matters": null,
-  "key_results": [
-   {
-    "measure": "UPC 合并效应",
-    "groups": "—",
-    "effect_ci": "SMD 0.85（95% CI 0.53–1.17）",
-    "p": "摘要未给出"
-   },
-   {
-    "measure": "OR",
-    "groups": "—",
-    "effect_ci": "2.93（95% CI 2.26–3.82）",
-    "p": "<0.001"
-   },
-   {
-    "measure": "异质性",
-    "groups": "—",
-    "effect_ci": "I² 73.79%",
-    "p": "摘要未给出"
-   }
-  ],
-  "confidence_sentence": "本文为系统综述/Meta分析，CEBM 等级未核、AMSTAR 2未评，结论基于摘要，证据强度取决于纳入研究质量。"
- },
- {
-  "pmid": "41527203",
-  "doi": "10.1002/vetr.70216",
-  "id": "41527203",
-  "matched_by": "pmid",
-  "title_zh": "SDMA 诊断犬猫 CKD：准确性仍不确定",
-  "one_line_conclusion_zh": "11 项研究的系统综述：SDMA 诊断犬猫 CKD 的研究异质性大，9 项高偏倚风险，尚不能确定优于肌酐。",
-  "why_it_matters": "这篇系统综述直接挑战了“SDMA 比肌酐更早、更准”的流行说法，并提示可能导致过度诊断。读 SDMA 原始研究（如 Hall 2014、2016）时应配合这篇一起看。综述本身的部分步骤未由两人独立完成。",
-  "key_results": [
-   {
-    "measure": "纳入研究",
-    "groups": "猫 5 项（481 只）；犬 6 项（460 只）",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
-   },
-   {
-    "measure": "高偏倚风险",
-    "groups": "9/11",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
-   }
-  ],
-  "confidence_sentence": "本文为系统综述，CEBM 等级未核、AMSTAR 2未评，结论基于摘要，证据强度取决于纳入研究质量。"
- },
- {
-  "pmid": "40941356",
-  "doi": "10.3390/ani15172561",
-  "id": "40941356",
-  "matched_by": "pmid",
-  "title_zh": "猫糖尿病口服药：SGLT2 抑制剂证据最多",
-  "one_line_conclusion_zh": "猫非胰岛素降糖药系统综述：SGLT2 抑制剂证据最多，但有正常血糖性 DKA 风险；传统口服药证据质量低。",
-  "why_it_matters": null,
-  "key_results": [
-   {
-    "measure": "纳入研究",
-    "groups": "20 项（糖尿病猫 10 项、高危/实验模型 10 项）",
-    "effect_ci": "原文未给出",
-    "p": "原文未给出"
-   },
-   {
-    "measure": "SGLT2 抑制剂（贝格列净、维格列净）",
-    "groups": "治疗成功率高、对胰岛素非劣效，但有正常血糖型 DKA 风险",
-    "effect_ci": "原文未给出",
-    "p": "原文未给出"
-   },
-   {
-    "measure": "传统药（格列吡嗪、二甲双胍、阿卡波糖）",
-    "groups": "疗效有限，证据偏倚风险高",
-    "effect_ci": "原文未给出",
-    "p": "原文未给出"
-   }
-  ],
-  "confidence_sentence": "本文为系统综述（未做 Meta 分析），CEBM 等级未核、AMSTAR 2未评，结论基于全文，证据强度取决于纳入研究质量。"
- },
- {
-  "pmid": "40732763",
-  "doi": "10.3390/pathogens14070717",
-  "id": "40732763",
-  "matched_by": "pmid",
-  "title_zh": "GS-441524 治 FIP 系统综述：成功率 85%",
-  "one_line_conclusion_zh": "650 只 FIP 猫系统综述：GS-441524 成功率 84.6%，积液型和神经型较低，缺乏 RCT。",
-  "why_it_matters": null,
-  "key_results": [
-   {
-    "measure": "总体治疗成功率",
-    "groups": "550/650（84.6%）",
-    "effect_ci": "原文未给出",
-    "p": "原文未给出"
-   },
-   {
-    "measure": "首轮即缓解",
-    "groups": "524/650（80.6%）",
-    "effect_ci": "原文未给出",
-    "p": "原文未给出"
-   },
-   {
-    "measure": "未缓解死亡",
-    "groups": "72/650（11.1%）",
-    "effect_ci": "原文未给出",
-    "p": "原文未给出"
-   },
-   {
-    "measure": "积液型首轮缓解",
-    "groups": "148/202（73.3%）",
-    "effect_ci": "原文未给出",
-    "p": "原文未给出"
-   }
-  ],
-  "confidence_sentence": "本文为系统综述，CEBM 等级未核、AMSTAR 2未评，结论基于全文，证据强度取决于纳入研究质量。"
- },
- {
-  "pmid": "40633571",
-  "doi": "10.1038/s41586-025-09340-0",
-  "id": "40633571",
-  "matched_by": "pmid",
-  "title_zh": "塞浦路斯 FIP 暴发：猫犬冠状病毒重组株所致",
-  "one_line_conclusion_zh": "塞浦路斯 FIP 快速暴发由高致病性猫—犬冠状病毒重组株引起，可在猫间直接传播。",
-  "why_it_matters": null,
-  "key_results": [
-   {
-    "measure": "S 区与犬冠状病毒 NA/09 同源性",
-    "groups": "96.5%",
-    "effect_ci": "原文未给出",
-    "p": "原文未给出"
-   },
-   {
-    "measure": "病例中神经型占比",
-    "groups": "26.05%",
-    "effect_ci": "原文未给出",
-    "p": "原文未给出"
-   },
-   {
-    "measure": "非积液型占比",
-    "groups": "10.23%",
-    "effect_ci": "原文未给出",
-    "p": "原文未给出"
-   }
-  ],
-  "confidence_sentence": "本文为分子流行病学/基因组研究，不属于 CEBM 分级对象；结论基于全文，不能直接用于临床决策。"
- },
- {
-  "pmid": "34758043",
-  "doi": "10.1371/journal.pone.0257611",
-  "id": "34758043",
-  "matched_by": "pmid",
-  "title_zh": "猫能根据声音推断看不见的主人位置",
-  "one_line_conclusion_zh": "主人声音突然从另一个位置出现时，猫表现得最“惊讶”，说明猫能在心里表征看不见的主人位置。",
-  "why_it_matters": null,
-  "key_results": [
-   {
-    "measure": "主要结局",
-    "groups": "摘要未给出",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
-   }
-  ],
-  "confidence_sentence": "本文为实验，不属于 CEBM 分级对象，SYRCLE 未评偏倚；结论基于摘要，不能直接用于临床决策。"
- },
- {
-  "pmid": "31550468",
-  "doi": "10.1016/j.cub.2019.08.036",
-  "id": "31550468",
-  "matched_by": "pmid",
-  "title_zh": "猫对主人有类似婴儿的依恋",
-  "one_line_conclusion_zh": "按人类婴儿的行为标准，猫对照护者表现出不同的依恋风格，与犬和婴儿相似。",
-  "why_it_matters": null,
-  "key_results": [
-   {
-    "measure": "主要结局",
-    "groups": "摘要未给出",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
-   }
-  ],
-  "confidence_sentence": "本文为实验，不属于 CEBM 分级对象，SYRCLE 未评偏倚；结论基于摘要，不能直接用于临床决策。"
- },
- {
-  "pmid": "31554584",
-  "doi": "10.1016/j.tvjl.2019.105343",
-  "id": "31554584",
-  "matched_by": "pmid",
-  "title_zh": "犬库欣诊断试验：没有真正的金标准",
-  "one_line_conclusion_zh": "叙述性综述：犬库欣没有真正的参考标准，需综合临床表现和多项肾上腺功能试验判断。",
-  "why_it_matters": null,
-  "key_results": [
-   {
-    "measure": "主要结局",
-    "groups": "摘要未给出",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
-   }
-  ],
-  "confidence_sentence": "本文为叙述性综述，不属于 CEBM 分级对象；结论基于摘要，不能直接用于临床决策。"
- },
- {
-  "pmid": "31076940",
-  "doi": "10.1007/s10071-019-01265-2",
-  "id": "31076940",
-  "matched_by": "pmid",
-  "title_zh": "猫咖的猫能把主人的声音和脸对上",
-  "one_line_conclusion_zh": "猫咖的猫在声音与面孔不一致时注视更久，说明能把主人声音和面孔对应起来；家养猫无此表现。",
-  "why_it_matters": null,
-  "key_results": [
-   {
-    "measure": "主要结局",
-    "groups": "摘要未给出",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
-   }
-  ],
-  "confidence_sentence": "本文为实验，不属于 CEBM 分级对象，SYRCLE 未评偏倚；结论基于摘要，不能直接用于临床决策。"
- },
- {
-  "pmid": "30948740",
-  "doi": "10.1038/s41598-019-40616-4",
-  "id": "30948740",
-  "matched_by": "pmid",
-  "title_zh": "猫能分辨自己的名字",
-  "one_line_conclusion_zh": "猫能把自己的名字和发音相近的普通词区分开，即使由陌生人呼唤也如此。",
-  "why_it_matters": null,
-  "key_results": [
-   {
-    "measure": "实验 1：自己名字 vs 普通名词",
-    "groups": "11 只习惯化的猫对自己名字反应增强",
-    "effect_ci": "F(1,10)=11.18",
-    "p": "0.007"
-   },
-   {
-    "measure": "实验 4：陌生人呼名",
-    "groups": "20 只习惯化的猫对自己名字反应增强",
-    "effect_ci": "F(1,19)=4.41",
-    "p": "0.049"
-   },
-   {
-    "measure": "习惯化成功率：普通家庭 vs 猫咖",
-    "groups": "6/24 vs 9/10",
-    "effect_ci": "χ²=9.60",
-    "p": "0.002"
-   }
-  ],
-  "confidence_sentence": "本文为实验，不属于 CEBM 分级对象，SYRCLE SYRCLE 不出总体判断；结论基于全文，不能直接用于临床决策。"
- },
- {
-  "pmid": "30451613",
-  "doi": "10.2460/javma.253.11.1390",
-  "id": "30451613",
-  "matched_by": "pmid",
-  "title_zh": "犬饮食相关 DCM：目前知道什么",
-  "one_line_conclusion_zh": "叙述性综述，题为“犬饮食相关扩张型心肌病：我们知道什么？”；本库只有题录，无法给出结论。",
-  "why_it_matters": null,
-  "key_results": [
-   {
-    "measure": "主要结局",
-    "groups": "摘要未给出",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
-   }
-  ],
-  "confidence_sentence": "本文为叙述性综述，不属于 CEBM 分级对象；结论基于摘要，不能直接用于临床决策。"
- },
- {
-  "pmid": "29538681",
-  "doi": "10.1093/jhered/esy012",
-  "id": "29538681",
-  "matched_by": "pmid",
-  "title_zh": "催产素受体基因型与缉毒犬训练成功率相关",
-  "one_line_conclusion_zh": "340 只拉布拉多中，OXTR 基因携带 C 等位基因的犬缉毒训练成功率更高。",
-  "why_it_matters": null,
-  "key_results": [
-   {
-    "measure": "样本",
-    "groups": "340 只拉布拉多",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
-   }
-  ],
-  "confidence_sentence": "本文为关联研究，不属于 CEBM 分级对象，SYRCLE 未评偏倚；结论基于摘要，不能直接用于临床决策。"
- },
- {
-  "pmid": "29778200",
-  "doi": "10.1016/j.vetmic.2018.04.026",
-  "id": "29778200",
-  "matched_by": "pmid",
-  "title_zh": "GS-441524 在细胞和实验猫中抑制 FIPV",
-  "one_line_conclusion_zh": "GS-441524 在细胞中强效抑制 FIPV；实验感染的 10 只猫治疗 2 周后全部恢复正常。",
-  "why_it_matters": null,
-  "key_results": [
-   {
-    "measure": "细胞毒性 CC50",
-    "groups": ">100 μM",
-    "effect_ci": "原文未给出",
-    "p": "原文未给出"
-   },
-   {
-    "measure": "细胞中 EC50",
-    "groups": "约 1 μM",
-    "effect_ci": "原文未给出",
-    "p": "原文未给出"
-   },
-   {
-    "measure": "实验感染猫恢复",
-    "groups": "10/10（2 周疗程）",
-    "effect_ci": "原文未给出",
-    "p": "原文未给出"
-   }
-  ],
-  "confidence_sentence": "本文为体外与实验感染研究，不属于 CEBM 分级对象，SYRCLE 未评偏倚；结论基于全文，不能直接用于临床决策。"
- },
- {
-  "pmid": "29326623",
-  "doi": "10.3389/fpsyg.2017.02165",
-  "id": "29326623",
-  "matched_by": "pmid",
-  "title_zh": "猫友好性与催产素受体（OXTR）基因多态性相关",
-  "one_line_conclusion_zh": "猫的友好性评分与受体基因邻近的微卫星多态性存在关联，但作者自称仅“边缘显著”。",
-  "why_it_matters": null,
-  "key_results": [
-   {
-    "measure": "OXTR 邻近微卫星多态性与友好性评分",
-    "groups": "140 只猫（混种 100、纯种 40）；作者称仅边缘显著",
-    "effect_ci": "—",
-    "p": "—"
-   }
-  ],
-  "confidence_sentence": "本文为关联研究，CEBM 4 级，无对应偏倚工具，结论基于全文。"
- },
- {
-  "pmid": "28460795",
-  "doi": "10.1016/j.jcpa.2017.03.006",
-  "id": "28460795",
-  "matched_by": "pmid",
-  "title_zh": "肥胖与糖尿病：猫有关联，犬未见",
-  "one_line_conclusion_zh": "叙述性综述：肥胖是人和猫 2 型糖尿病的重要风险因素，犬中未发现这一关联。",
-  "why_it_matters": null,
-  "key_results": [
-   {
-    "measure": "主要结局",
-    "groups": "摘要未给出",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
-   }
-  ],
-  "confidence_sentence": "本文为叙述性综述，不属于 CEBM 分级对象；结论基于摘要，不能直接用于临床决策。"
- },
- {
-  "pmid": "26915425",
-  "doi": "10.1016/j.beproc.2016.02.013",
-  "id": "26915425",
-  "matched_by": "pmid",
-  "title_zh": "主人直视时，犬更多呜咽和看主人",
-  "one_line_conclusion_zh": "主人直视犬时，犬呜咽和注视主人的时间更长，扒挠和靠近无差异。",
-  "why_it_matters": null,
-  "key_results": [
-   {
-    "measure": "主要结局",
-    "groups": "摘要未给出",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
-   }
-  ],
-  "confidence_sentence": "本文为实验，不属于 CEBM 分级对象，SYRCLE 未评偏倚；结论基于摘要，不能直接用于临床决策。"
- },
- {
-  "pmid": "26776594",
-  "doi": "10.1016/j.jvc.2015.03.001",
-  "id": "26776594",
-  "matched_by": "pmid",
-  "title_zh": "猫 HCM 遗传基础：已知突变只在 MYBPC3",
-  "one_line_conclusion_zh": "叙述性综述：猫 HCM 已知致病突变都在 MYBPC3（缅因猫 A31P、布偶猫 R820W），缅因猫携带率约 34%。",
-  "why_it_matters": null,
-  "key_results": [
-   {
-    "measure": "猫 HCM 已知突变",
-    "groups": "MYBPC3 A31P（缅因猫）、R820W（布偶猫）",
-    "effect_ci": "原文未给出",
-    "p": "原文未给出"
-   },
-   {
-    "measure": "缅因猫 A31P 携带率",
-    "groups": "34%（引自单项研究），约 10% 为纯合（约占群体 3%）；另两项研究为 32%、41%",
-    "effect_ci": "原文未给出",
-    "p": "原文未给出"
-   }
-  ],
-  "confidence_sentence": "本文为叙述性综述，不属于 CEBM 分级对象；结论基于全文，不能直接用于临床决策。"
- },
- {
-  "pmid": "25883356",
-  "doi": "10.1126/science.1261022",
-  "id": "25883356",
-  "matched_by": "pmid",
-  "title_zh": "犬与主人对视形成催产素正反馈",
-  "one_line_conclusion_zh": "犬（狼不会）注视主人可提高主人尿催产素，鼻喷催产素又增加犬的注视，提示存在跨物种正反馈。",
-  "why_it_matters": null,
-  "key_results": [
-   {
-    "measure": "主要结局",
-    "groups": "摘要未给出",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
-   }
-  ],
-  "confidence_sentence": "本文为实验，不属于 CEBM 分级对象，SYRCLE 未评偏倚；结论基于摘要，不能直接用于临床决策。"
- },
- {
-  "pmid": "23522175",
-  "doi": "10.1016/j.cvsm.2012.12.004",
-  "id": "23522175",
-  "matched_by": "pmid",
-  "title_zh": "猫糖尿病：部分由肢端肥大或库欣引起",
-  "one_line_conclusion_zh": "叙述性综述：相当比例的糖尿病猫由生长激素过多（肢端肥大）或库欣引起，诊疗不同于 2 型样糖尿病。",
-  "why_it_matters": null,
-  "key_results": [
-   {
-    "measure": "主要结局",
-    "groups": "摘要未给出",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
-   }
-  ],
-  "confidence_sentence": "本文为叙述性综述，不属于 CEBM 分级对象；结论基于摘要，不能直接用于临床决策。"
- },
- {
-  "pmid": "16236761",
-  "doi": "10.1093/hmg/ddi386",
-  "id": "16236761",
-  "matched_by": "pmid",
-  "title_zh": "缅因猫家族性 HCM：发现 MYBPC3 致病突变",
-  "one_line_conclusion_zh": "在缅因猫家族性 HCM 中发现 MYBPC3 单碱基突变，是首个非人类物种自发致 HCM 的突变。",
-  "why_it_matters": "这一发现催生了缅因猫 A31P 基因检测，繁育者据此筛查种猫。但携带突变不等于必然发病，外显率随年龄变化，其他品种的 HCM 多与此突变无关，检测阴性不能排除 HCM。",
-  "key_results": [
-   {
-    "measure": "主要结局",
-    "groups": "摘要未给出",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
-   }
-  ],
-  "confidence_sentence": "本文为遗传学研究，不属于 CEBM 分级对象，SYRCLE 未评偏倚；结论基于摘要，不能直接用于临床决策。"
- }
+  {
+    "pmid": "42043241",
+    "doi": "10.3390/v18040452",
+    "id": "42043241",
+    "matched_by": "pmid",
+    "title_zh": "ABCD 2026：FIP 首选口服 GS-441524",
+    "one_line_conclusion_zh": "ABCD 2026：口服 GS-441524 为 FIP 一线药，瑞德西韦用于不能口服的重症，42 天疗程或已足够。",
+    "why_it_matters": "这是 FIP 进入“可治愈”时代后欧洲最新的治疗共识，直接回答门诊最常问的选药、给药途径和疗程问题。它把瑞德西韦定位为注射过渡药，并提出 42 天短疗程，但短疗程的依据仍来自少量小样本研究。指南未给证据分级，具体剂量请以原文表格为准。",
+    "key_results": [
+      {
+        "measure": "GS-441524 治疗成功率",
+        "groups": "常超过 90%（指南综述已发表研究）",
+        "effect_ci": "不适用",
+        "p": "不适用"
+      },
+      {
+        "measure": "推荐",
+        "groups": "口服 GS-441524 一线；瑞德西韦用于不能口服的重症；42 天疗程或已足够",
+        "effect_ci": "不适用",
+        "p": "不适用"
+      }
+    ],
+    "confidence_sentence": "指南/共识不做 CEBM 分级，也未做 AGREE II 正式评分，推荐多属专家意见，引用时请核对原文。"
+  },
+  {
+    "pmid": "",
+    "doi": "",
+    "id": "x-international-renal-interest-society-2026-iris-staging-of-ckd-modified-2026",
+    "matched_by": "id",
+    "title_zh": "IRIS 2026 CKD 分期：新增犬猫贫血治疗阈值",
+    "one_line_conclusion_zh": "IRIS 2026 按肌酐或 SDMA 分 1–4 期，再按 UP/C 和血压亚分期；新增贫血治疗阈值。",
+    "why_it_matters": "犬猫 CKD 的分期、预后判断和治疗起点都以 IRIS 为共同语言，几乎所有 CKD 文献和药品说明都引用它。2026 版新增的贫血阈值会影响何时开始促红素类治疗。分期界值本身属于专家共识，不是由单项研究验证得出。",
+    "key_results": [
+      {
+        "measure": "肌酐 2 期（犬/猫）",
+        "groups": "125–250 / 140–250 μmol/L（1.4–2.8 / 1.6–2.8 mg/dL）",
+        "effect_ci": "摘要未给出",
+        "p": "摘要未给出"
+      },
+      {
+        "measure": "SDMA 2 期（犬/猫）",
+        "groups": "18–35 / 18–25 μg/dL",
+        "effect_ci": "摘要未给出",
+        "p": "摘要未给出"
+      },
+      {
+        "measure": "UP/C 蛋白尿（犬/猫）",
+        "groups": ">0.5 / >0.4",
+        "effect_ci": "摘要未给出",
+        "p": "摘要未给出"
+      },
+      {
+        "measure": "SBP 亚分期",
+        "groups": "<140 / 140–159 / 160–179 / ≥180 mmHg",
+        "effect_ci": "摘要未给出",
+        "p": "摘要未给出"
+      },
+      {
+        "measure": "2026 贫血阈值",
+        "groups": "犬 HCT <30%（或 30–35% 持续）；猫 <25%（或 25–28% 持续）",
+        "effect_ci": "摘要未给出",
+        "p": "摘要未给出"
+      }
+    ],
+    "confidence_sentence": "指南/共识不做 CEBM 分级，也未做 AGREE II 正式评分，推荐多属专家意见，引用时请核对原文。"
+  },
+  {
+    "pmid": "37766254",
+    "doi": "10.3390/v15091847",
+    "id": "37766254",
+    "matched_by": "pmid",
+    "title_zh": "ABCD 2023 FIP 指南：诊断靠病理加抗原",
+    "one_line_conclusion_zh": "ABCD 2023：FIP 确诊通常需组织病理加 FCoV 抗原；口服核苷类似物非常有效。",
+    "why_it_matters": "FIP 诊断没有单一金标准，这份指南把积液、细针抽吸和组织病理各自的价值讲清楚，并配套诊断工具，适合作为门诊诊断流程的底本。治疗部分已被 2026 年更新版取代。",
+    "key_results": [
+      {
+        "measure": "确诊依据",
+        "groups": "组织病理加 FCoV 抗原检测（免疫组化）",
+        "effect_ci": "不适用",
+        "p": "不适用"
+      },
+      {
+        "measure": "治疗",
+        "groups": "口服核苷类似物非常有效（治疗部分已被 2026 版更新）",
+        "effect_ci": "不适用",
+        "p": "不适用"
+      }
+    ],
+    "confidence_sentence": "指南/共识不做 CEBM 分级，也未做 AGREE II 正式评分，推荐多属专家意见，引用时请核对原文。"
+  },
+  {
+    "pmid": "36002137",
+    "doi": "10.1177/1098612x221118761",
+    "id": "36002137",
+    "matched_by": "pmid",
+    "title_zh": "AAFP 2022 FIP 诊断指南：逐块建立怀疑度",
+    "one_line_conclusion_zh": "AAFP/EveryCat 2022 FIP 诊断指南：没有特征性体征或化验，需综合病史、体检和多项检查逐步建立怀疑度。",
+    "why_it_matters": "北美执业兽医最常用的 FIP 诊断参考。它强调每项检查都要先想清楚为什么做、结果怎么解读，并区分敏感度、特异度和预测值。指南只讲诊断，不涉及治疗，治疗请看 ABCD 2026。",
+    "key_results": [
+      {
+        "measure": "FIP 占兽医机构猫死亡比例",
+        "groups": "0.3%–1.4%（估计）",
+        "effect_ci": "摘要未给出",
+        "p": "摘要未给出"
+      }
+    ],
+    "confidence_sentence": "指南/共识不做 CEBM 分级，也未做 AGREE II 正式评分，推荐多属专家意见，引用时请核对原文。"
+  },
+  {
+    "pmid": "32243654",
+    "doi": "10.1111/jvim.15745",
+    "id": "32243654",
+    "matched_by": "pmid",
+    "title_zh": "ACVIM 2020 猫心肌病指南：按 A–D 分期管理",
+    "one_line_conclusion_zh": "ACVIM 2020 猫心肌病共识：按 A–D 分期诊断和管理；有 CHF 史且左房中重度扩大的猫推荐氯吡格雷预防血栓。",
+    "why_it_matters": "这是猫心肌病分类、分期和治疗的标准参考，HCM 筛查、何时抗血栓、何时用利尿剂都以它为准。多数推荐的证据等级低，属于专家共识；部分推荐来自犬或人的数据，外推到猫时需谨慎。",
+    "key_results": [
+      {
+        "measure": "共识规则",
+        "groups": "9 名专家中 ≥6 名同意",
+        "effect_ci": "摘要未给出",
+        "p": "摘要未给出"
+      },
+      {
+        "measure": "氯吡格雷剂量",
+        "groups": "18.75 mg/猫 q24h",
+        "effect_ci": "摘要未给出",
+        "p": "摘要未给出"
+      }
+    ],
+    "confidence_sentence": "指南/共识不做 CEBM 分级，也未做 AGREE II 正式评分，推荐多属专家意见，引用时请核对原文。"
+  },
+  {
+    "pmid": "30974015",
+    "doi": "10.1111/jvim.15488",
+    "id": "30974015",
+    "matched_by": "pmid",
+    "title_zh": "ACVIM 2019 犬 MMVD：B2 期起用匹莫苯丹",
+    "one_line_conclusion_zh": "ACVIM 2019：B2 期（LA:Ao ≥1.6 且 LVIDDN ≥1.7）推荐匹莫苯丹（强推荐）。",
+    "why_it_matters": "犬二尖瓣病是犬最常见的心脏病。这份指南把 EPIC 试验结果转成了可操作的 B2 期判定标准和用药建议，是门诊心脏病管理的基本依据。B1、C、D 期的推荐多为共识，证据弱于 B2。",
+    "key_results": [
+      {
+        "measure": "B2 标准",
+        "groups": "LA:Ao ≥1.6；LVIDDN ≥1.7",
+        "effect_ci": "摘要未给出",
+        "p": "摘要未给出"
+      },
+      {
+        "measure": "LOE strong 条目数",
+        "groups": "3",
+        "effect_ci": "摘要未给出",
+        "p": "摘要未给出"
+      }
+    ],
+    "confidence_sentence": "指南/共识不做 CEBM 分级，也未做 AGREE II 正式评分，推荐多属专家意见，引用时请核对原文。"
+  },
+  {
+    "pmid": "30353952",
+    "doi": "10.1111/jvim.15331",
+    "id": "30353952",
+    "matched_by": "pmid",
+    "title_zh": "ACVIM 2018 犬猫高血压指南：按收缩压分四级",
+    "one_line_conclusion_zh": "犬猫按收缩压分四级，诊断需多次测量确认；目标 SBP <140 mmHg，首选药物猫用氨氯地平、犬用 RAAS 抑制剂。",
+    "why_it_matters": "高血压在 CKD 和甲亢猫中很常见，会导致失明等靶器官损伤。指南统一了测量方法、分级和治疗目标，是筛查和用药的直接依据。分级界值来自共识，不是由前瞻性研究验证得出。",
+    "key_results": [
+      {
+        "measure": "分级（SBP，mmHg）",
+        "groups": "正常 <140；前期 140–159；高血压 160–179；重度 ≥180",
+        "effect_ci": "摘要未给出",
+        "p": "摘要未给出"
+      }
+    ],
+    "confidence_sentence": "指南/共识不做 CEBM 分级，也未做 AGREE II 正式评分，推荐多属专家意见，引用时请核对原文。"
+  },
+  {
+    "pmid": "29314873",
+    "doi": "10.5326/jaaha-ms-6822",
+    "id": "29314873",
+    "matched_by": "pmid",
+    "title_zh": "AAHA 2018 犬猫糖尿病指南：胰岛素仍是核心",
+    "one_line_conclusion_zh": "AAHA 2018 犬猫糖尿病管理指南：胰岛素是治疗核心，按物种选择剂型，并重视主人居家监测。",
+    "why_it_matters": "这是北美全科兽医管理犬猫糖尿病最常用的综合参考，涵盖胰岛素选择、居家监测和避免低血糖。内容多属专家意见，且发表于 SGLT2 抑制剂上市之前，口服药部分需结合新证据阅读。",
+    "key_results": [
+      {
+        "measure": "主要结局",
+        "groups": "摘要未给出",
+        "effect_ci": "摘要未给出",
+        "p": "摘要未给出"
+      }
+    ],
+    "confidence_sentence": "指南/共识不做 CEBM 分级，也未做 AGREE II 正式评分，推荐多属专家意见，引用时请核对原文。"
+  },
+  {
+    "pmid": "28965673",
+    "doi": "10.1016/j.jvc.2017.08.006",
+    "id": "28965673",
+    "matched_by": "pmid",
+    "title_zh": "ESVC 2017：杜宾犬 3 岁起每年筛查 DCM",
+    "one_line_conclusion_zh": "杜宾犬 3 岁起每年做 Holter 和超声；VPC >300/24 h 即视为隐匿期 DCM。",
+    "why_it_matters": "杜宾犬 DCM 隐匿期长、可能猝死，早筛后可用匹莫苯丹延缓发病（见 PROTECT 研究）。这份指南给出了明确的筛查频率和诊断阈值，适用范围仅限杜宾犬，其他品种不能直接套用。",
+    "key_results": [
+      {
+        "measure": "VPC 正常",
+        "groups": "<50 次/24 h",
+        "effect_ci": "摘要未给出",
+        "p": "摘要未给出"
+      },
+      {
+        "measure": "诊断阈值",
+        "groups": "VPC >300 次/24 h，或 1 年内两次 50–300",
+        "effect_ci": "摘要未给出",
+        "p": "摘要未给出"
+      }
+    ],
+    "confidence_sentence": "指南/共识不做 CEBM 分级，也未做 AGREE II 正式评分，推荐多属专家意见，引用时请核对原文。"
+  },
+  {
+    "pmid": "27143042",
+    "doi": "10.1177/1098612x16643252",
+    "id": "27143042",
+    "matched_by": "pmid",
+    "title_zh": "AAFP 2016 猫甲亢指南：甲巯咪唑小剂量每日两次",
+    "one_line_conclusion_zh": "AAFP 2016：甲巯咪唑起始 1.25–2.5 mg/猫 q12h，避免医源性甲减，合并 CKD 按 IRIS 管理",
+    "why_it_matters": "甲亢是老年猫最常见的内分泌病，且常与 CKD 并存。指南给出了药物、放射碘、手术和限碘粮的选择要点，以及如何避免治疗后肾功能恶化。缺证据处以专家经验代替，未分级。",
+    "key_results": [
+      {
+        "measure": "甲巯咪唑起始",
+        "groups": "1.25–2.5 mg/猫 q12h",
+        "effect_ci": "摘要未给出",
+        "p": "摘要未给出"
+      },
+      {
+        "measure": "恶性",
+        "groups": "仅约 2% 甲亢猫为癌",
+        "effect_ci": "摘要未给出",
+        "p": "摘要未给出"
+      }
+    ],
+    "confidence_sentence": "指南/共识不做 CEBM 分级，也未做 AGREE II 正式评分，推荐多属专家意见，引用时请核对原文。"
+  },
+  {
+    "pmid": "26936494",
+    "doi": "10.1177/1098612x16631234",
+    "id": "26936494",
+    "matched_by": "pmid",
+    "title_zh": "ISFM 2016 猫 CKD 共识：处方粮生存证据最明确",
+    "one_line_conclusion_zh": "猫 CKD 按 IRIS 分期管理；指南引用的研究显示，肾病处方粮可减轻尿毒症症状并显著延长生存（表 3：中位全因生存期 264 vs 633 天、210 vs 480 天、约 730 天 vs 未达到），是指南中生存获益证据最明确的干预；促红素类药物“可能”改善生存，RAAS 阻断仅在重度蛋白尿猫中有弱证据。",
+    "why_it_matters": "这是全科兽医管理猫 CKD 最实用的共识，明确了诊断标准、降压目标和各项治疗的证据强弱。共识由厂商（BI）资助，未给正式证据分级，引用具体剂量时请核对原文表格。",
+    "key_results": [
+      {
+        "measure": "IRIS 分期与中位生存（表 2，Boyd 等）",
+        "groups": "2 期 1151 天 / 3 期 778 / 4 期 103",
+        "effect_ci": "原文未给出",
+        "p": "原文未给出"
+      },
+      {
+        "measure": "Syme 等",
+        "groups": "504 / 154 / 57 天",
+        "effect_ci": "原文未给出",
+        "p": "原文未给出"
+      },
+      {
+        "measure": "肾病处方粮中位生存（表 3）",
+        "groups": "Elliott 264→633 天；Plantinga 210→480 天；Ross 约 730 天→未达到（中位全因生存）",
+        "effect_ci": "原文未给出",
+        "p": "原文未给出"
+      },
+      {
+        "measure": "诊断标准",
+        "groups": "肌酐 >140 µmol/l（>1.6 mg/dl）+ USG <1.035 + 持续性",
+        "effect_ci": "原文未给出",
+        "p": "原文未给出"
+      },
+      {
+        "measure": "降压目标",
+        "groups": "SBP <150–160 mmHg；氨氯地平 0.0625–0.25 mg/kg q24h",
+        "effect_ci": "原文未给出",
+        "p": "原文未给出"
+      },
+      {
+        "measure": "抗蛋白尿",
+        "groups": "UPCR >0.4 起始；替米沙坦 1 mg/kg q24h、贝那普利 0.25–0.5 mg/kg q12h",
+        "effect_ci": "原文未给出",
+        "p": "原文未给出"
+      }
+    ],
+    "confidence_sentence": "指南/共识不做 CEBM 分级，也未做 AGREE II 正式评分，推荐多属专家意见，引用时请核对原文。"
+  },
+  {
+    "pmid": "25701862",
+    "doi": "10.1177/1098612x15571880",
+    "id": "25701862",
+    "matched_by": "pmid",
+    "title_zh": "ISFM 2015 猫糖尿病共识：长效胰岛素加饮食控制",
+    "one_line_conclusion_zh": "ISFM 2015：控制体重、合适饮食加长效胰岛素可改善多数糖尿病猫，加量不宜过频。",
+    "why_it_matters": "猫糖尿病有缓解的可能。这份共识把“如何提高缓解率又不引起低血糖”写成了具体做法，是门诊调整胰岛素剂量的常用参考。它发表于 SGLT2 抑制剂上市前，未给证据分级。",
+    "key_results": [
+      {
+        "measure": "加量间隔",
+        "groups": "一般不短于每 5–7 天",
+        "effect_ci": "摘要未给出",
+        "p": "摘要未给出"
+      }
+    ],
+    "confidence_sentence": "指南/共识不做 CEBM 分级，也未做 AGREE II 正式评分，推荐多属专家意见，引用时请核对原文。"
+  },
+  {
+    "pmid": "24112317",
+    "doi": "10.1111/jvim.12192",
+    "id": "24112317",
+    "matched_by": "pmid",
+    "title_zh": "ACVIM 2012 犬库欣诊断共识：先有症状再检测",
+    "one_line_conclusion_zh": "犬肾上腺皮质功能亢进只应在有相符临床表现时做内分泌检测；所有筛查和鉴别试验都不完美。",
+    "why_it_matters": "犬库欣过度诊断很常见。这份共识的核心提醒是：没有相符症状就不要做筛查，并在解读 ACTH 刺激试验和低剂量地塞米松抑制试验时充分考虑它们的假阳性和假阴性，阅读时请结合原文的研究对象和方法。",
+    "key_results": [
+      {
+        "measure": "主要结局",
+        "groups": "摘要未给出",
+        "effect_ci": "摘要未给出",
+        "p": "摘要未给出"
+      }
+    ],
+    "confidence_sentence": "指南/共识不做 CEBM 分级，也未做 AGREE II 正式评分，推荐多属专家意见，引用时请核对原文。"
+  },
+  {
+    "pmid": "23422366",
+    "doi": "10.1177/1098612x13477537",
+    "id": "23422366",
+    "matched_by": "pmid",
+    "title_zh": "AAFP/ISFM 2013 猫环境需求指南：五大支柱",
+    "one_line_conclusion_zh": "AAFP/ISFM 2013 猫环境需求指南：用“五大支柱”评估和改善家猫环境，减少应激相关的行为和疾病问题。",
+    "why_it_matters": null,
+    "key_results": [
+      {
+        "measure": "五大支柱",
+        "groups": "1 安全场所；2 多处且分开的关键资源（食、水、厕、抓、玩、睡）；3 玩耍与捕食行为；4 积极、一致、可预期的人猫互动；5 尊重嗅觉",
+        "effect_ci": "摘要未给出",
+        "p": "摘要未给出"
+      }
+    ],
+    "confidence_sentence": "指南/共识不做 CEBM 分级，也未做 AGREE II 正式评分，推荐多属专家意见，引用时请核对原文。"
+  },
+  {
+    "pmid": "21704901",
+    "doi": "10.1016/j.jfms.2011.05.009",
+    "id": "21704901",
+    "matched_by": "pmid",
+    "title_zh": "WSAVA 2011 营养评估指南：营养是第五生命体征",
+    "one_line_conclusion_zh": "WSAVA 2011 营养评估指南：每次就诊都记录体重、体况评分和肌肉评分，筛出风险后再做扩展评估。",
+    "why_it_matters": null,
+    "key_results": [
+      {
+        "measure": "第五生命体征（5VA）",
+        "groups": "每次就诊记录 BW、BCS、MCS",
+        "effect_ci": "摘要未给出",
+        "p": "摘要未给出"
+      }
+    ],
+    "confidence_sentence": "指南/共识不做 CEBM 分级，也未做 AGREE II 正式评分，推荐多属专家意见，引用时请核对原文。"
+  },
+  {
+    "pmid": "19481039",
+    "doi": "10.1016/j.jfms.2009.05.008",
+    "id": "19481039",
+    "matched_by": "pmid",
+    "title_zh": "ABCD 2009 FIP 指南：抗病毒药出现前的管理",
+    "one_line_conclusion_zh": "ABCD 2009 FIP 预防与管理指南（抗病毒药出现前）：多数病例致命，糖皮质激素等支持治疗缺乏对照研究证据。",
+    "why_it_matters": null,
+    "key_results": [
+      {
+        "measure": "感染 FCoV 的猫中发生 FIP 的比例",
+        "groups": "最高 12%",
+        "effect_ci": "摘要未给出",
+        "p": "摘要未给出"
+      }
+    ],
+    "confidence_sentence": "指南/共识不做 CEBM 分级，也未做 AGREE II 正式评分，推荐多属专家意见，引用时请核对原文。"
+  },
+  {
+    "pmid": "15954557",
+    "doi": "10.1892/0891-6640(2005)19[377:aamopi]2.0.co;2",
+    "id": "15954557",
+    "matched_by": "pmid",
+    "title_zh": "ACVIM 2004 蛋白尿共识：三步评估",
+    "one_line_conclusion_zh": "持续性肾性蛋白尿提示 CKD 风险，应按来源、持续性和程度评估，再逐级采取监测、检查和治疗。",
+    "why_it_matters": "这是兽医临床判读 UP/C 的奠基性共识，后来的 IRIS 蛋白尿亚分期和抗蛋白尿治疗都由此而来。发表时间较早，具体阈值和用药请对照 IRIS 现行版本，不要直接照搬。",
+    "key_results": [
+      {
+        "measure": "主要结局",
+        "groups": "摘要未给出",
+        "effect_ci": "摘要未给出",
+        "p": "摘要未给出"
+      }
+    ],
+    "confidence_sentence": "指南/共识不做 CEBM 分级，也未做 AGREE II 正式评分，推荐多属专家意见，引用时请核对原文。"
+  },
+  {
+    "pmid": "39858209",
+    "doi": "10.3390/ani15020210",
+    "id": "39858209",
+    "matched_by": "pmid",
+    "title_zh": "犬减重：高蛋白低热量粮减重和减脂更多",
+    "one_line_conclusion_zh": "犬减重饮食 Meta 分析：粗蛋白 >25% 的低热量粮减重和体脂下降更多，但研究间异质性很大。",
+    "why_it_matters": null,
+    "key_results": [
+      {
+        "measure": "纳入研究",
+        "groups": "初筛 1727 篇，纳入 20 项（共 397 只犬）",
+        "effect_ci": "原文未给出",
+        "p": "原文未给出"
+      },
+      {
+        "measure": "粗蛋白 >25% vs <25%：总减重",
+        "groups": "15.51%±14.77（n=87）vs 7.37%±2.12（n=89）",
+        "effect_ci": "原文报告均值±SD，未给 CI",
+        "p": "<0.001"
+      },
+      {
+        "measure": "粗蛋白 >25% 组",
+        "groups": "减重与体脂下降更多，瘦体重增加；异质性显著",
+        "effect_ci": "原文未给出",
+        "p": "异质性 <0.0001"
+      }
+    ],
+    "confidence_sentence": "本文为系统综述/Meta分析，CEBM 等级待核，AMSTAR 2 总体置信度极低，结论基于全文。"
+  },
+  {
+    "pmid": "41781382",
+    "doi": "10.1177/1098612x261433057",
+    "id": "41781382",
+    "matched_by": "pmid",
+    "title_zh": "非积液型 FIP：口服瑞德西韦不劣于 GS-441524",
+    "one_line_conclusion_zh": "非积液型 FIP 中，口服瑞德西韦 16 周无病存活不劣于 GS-441524，但每组仅 10 只。",
+    "why_it_matters": "这是首个针对非积液型 FIP 的随机双盲试验，在 GS-441524 难以合法获得的地区，为口服瑞德西韦作为一线药提供了直接比较证据。样本很小，长期随访中两组各有 2 只疑似晚期复发。",
+    "key_results": [
+      {
+        "measure": "16 周存活并临床缓解",
+        "groups": "瑞德西韦 9/10（90%）；GS-441524 7/10（70%）",
+        "effect_ci": "差值 20%（90% CI −8.5 至 +48.5），达到非劣效",
+        "p": "原文未给出"
+      },
+      {
+        "measure": "16 周存活",
+        "groups": "瑞德西韦 9/10；GS-441524 8/10",
+        "effect_ci": "原文未给出",
+        "p": "原文未给出"
+      },
+      {
+        "measure": "疑似晚期复发（1.5–2 年随访）",
+        "groups": "每组各 2 只",
+        "effect_ci": "原文未给出",
+        "p": "原文未给出"
+      }
+    ],
+    "confidence_sentence": "本文为RCT（非劣效），CEBM 2 级，Cochrane RoB 2 尚未评估偏倚风险，结论基于全文。"
+  },
+  {
+    "pmid": "40110605",
+    "doi": "10.1111/jvim.70063",
+    "id": "40110605",
+    "matched_by": "pmid",
+    "title_zh": "CKD 犬：帕立骨化醇降低 PTH，蛋白尿保持稳定",
+    "one_line_conclusion_zh": "CKD 犬中，帕立骨化醇使 PTH 每次访视下降 22%，安慰剂组上升 18%；但 13 只中有 7 只出现轻度高钙。",
+    "why_it_matters": "肾性继发性甲旁亢在犬 CKD 中几乎必然发生，但犬的维生素 D 类似物证据很少。这项交叉 RCT 提示帕立骨化醇有效，但样本仅 13 只，高钙发生率高，用药需监测离子钙。",
+    "key_results": [
+      {
+        "measure": "PTH 每次访视变化",
+        "groups": "帕立骨化醇 −22%（95% CI 7%–35%）；安慰剂 +18%（95% CI 2%–37%）",
+        "effect_ci": "原文未给出",
+        "p": "0.006 / 0.022"
+      },
+      {
+        "measure": "PTH 第 12 周 vs 基线（帕立骨化醇）",
+        "groups": "62 vs 166 pg/mL（几何均值）",
+        "effect_ci": "95% CI 22–173 vs 54–514",
+        "p": "0.04"
+      },
+      {
+        "measure": "PTH 第 12 周 vs 基线（安慰剂）",
+        "groups": "157 vs 81 pg/mL",
+        "effect_ci": "95% CI 68–365 vs 27–237",
+        "p": "0.11"
+      },
+      {
+        "measure": "轻度高钙",
+        "groups": "7/13（54%）；中位 1.55 mmol/L（1.41–1.67）",
+        "effect_ci": "原文未给出",
+        "p": "原文未给出"
+      }
+    ],
+    "confidence_sentence": "本文为RCT（交叉），CEBM 2 级，Cochrane RoB 2 尚未评估偏倚风险，结论基于全文。"
+  },
+  {
+    "pmid": "39417648",
+    "doi": "10.1177/1098612x241275249",
+    "id": "39417648",
+    "matched_by": "pmid",
+    "title_zh": "猫 CKD：AB070597 可能延缓进展",
+    "one_line_conclusion_zh": "2–3 期 CKD 猫服用 AB070597 180 天，肌酐和磷未升高；安慰剂组 26% 从 2 期进展到 3 期。",
+    "why_it_matters": null,
+    "key_results": [
+      {
+        "measure": "IRIS 2→3 期进展（按肌酐）",
+        "groups": "安慰剂 4/15（26%）；AB070597 0/20",
+        "effect_ci": "原文未给出",
+        "p": "原文未给出"
+      },
+      {
+        "measure": "IRIS 2→1 期（按肌酐）",
+        "groups": "AB070597 2/20（10%）",
+        "effect_ci": "原文未给出",
+        "p": "原文未给出"
+      },
+      {
+        "measure": "BUN、肌酐、磷 180 天变化",
+        "groups": "安慰剂组较基线显著升高；AB070597 组无显著变化",
+        "effect_ci": "原文未给出",
+        "p": "<0.05（组内）"
+      },
+      {
+        "measure": "体重增加",
+        "groups": "AB070597 12/20（60%）；安慰剂 8/15（53%）",
+        "effect_ci": "原文未给出",
+        "p": "原文未给出"
+      }
+    ],
+    "confidence_sentence": "本文为RCT，CEBM 2 级，Cochrane RoB 2 尚未评估偏倚风险，结论基于全文。"
+  },
+  {
+    "pmid": "39066306",
+    "doi": "10.3390/v16071144",
+    "id": "39066306",
+    "matched_by": "pmid",
+    "title_zh": "积液型 FIP：GS-441524 42 天不逊于 84 天",
+    "one_line_conclusion_zh": "积液型 FIP 猫口服 GS-441524，42 天疗程与 84 天疗效相当，随访至第 168 天。",
+    "why_it_matters": "疗程减半能直接降低药费和主人负担，这是首个比较 FIP 疗程长短的随机试验，也是 ABCD 2026 提出 42 天方案的主要依据。研究只纳入积液型、无神经或眼部受累的猫，每组 20 只。",
+    "key_results": [
+      {
+        "measure": "42 天内完全临床缓解",
+        "groups": "37/40（92.5%；短疗程 19、长疗程 18）",
+        "effect_ci": "原文未给出",
+        "p": "原文未给出"
+      },
+      {
+        "measure": "治疗中安乐死",
+        "groups": "2 只（第 3、31 天，继发并发症）",
+        "effect_ci": "原文未给出",
+        "p": "原文未给出"
+      },
+      {
+        "measure": "第 168 天",
+        "groups": "存活猫均保持完全缓解",
+        "effect_ci": "原文未给出",
+        "p": "原文未给出"
+      },
+      {
+        "measure": "SDMA 轻度升高",
+        "groups": "25/40（62.5%）",
+        "effect_ci": "原文未给出",
+        "p": "原文未给出"
+      }
+    ],
+    "confidence_sentence": "本文为RCT，CEBM 2 级，Cochrane RoB 2 尚未评估偏倚风险，结论基于全文。"
+  },
+  {
+    "pmid": "38952053",
+    "doi": "10.1111/jvim.17134",
+    "id": "38952053",
+    "matched_by": "pmid",
+    "title_zh": "猫 CKD：加镁限磷粮稳定 FGF23、防止高钙",
+    "one_line_conclusion_zh": "加镁的限磷粮使 CKD 猫 FGF23 保持稳定，并防止离子钙升高；对照组 4 只出现高钙。",
+    "why_it_matters": "猫 CKD 常用限磷粮，但限磷可能伴随高钙和 FGF23 升高。这项双盲 RCT 提示加镁可减轻这些变化，但只看生化指标，样本 60 只，由处方粮厂商资助，暂不能据此推断生存获益。",
+    "key_results": [
+      {
+        "measure": "血浆 tMg 变化（按方案）",
+        "groups": "加镁组 β 0.25±0.07 mg/dL/月；对照组无变化",
+        "effect_ci": "原文未给出",
+        "p": "<0.001"
+      },
+      {
+        "measure": "ln[FGF23] 变化（按方案）",
+        "groups": "对照组 β 0.14±0.05 pg/mL/月（P=0.01）；加镁组 β 0.05±0.06 pg/mL/月（P=0.37）",
+        "effect_ci": "原文未给出",
+        "p": "见各组"
+      },
+      {
+        "measure": "iCa 变化速率组间差异",
+        "groups": "加镁组下降、对照组上升",
+        "effect_ci": "原文未给出",
+        "p": "0.01"
+      },
+      {
+        "measure": "试验结束 iCa",
+        "groups": "加镁 5.2 [4.96, 5.4] vs 对照 5.4 [5.24, 5.56] mg/dL（中位数 [IQR]）",
+        "effect_ci": "原文未给出",
+        "p": "0.01"
+      },
+      {
+        "measure": "离子高钙",
+        "groups": "对照组 4 只；加镁组 0 只",
+        "effect_ci": "原文未给出",
+        "p": "原文未给出"
+      }
+    ],
+    "confidence_sentence": "本文为RCT，CEBM 2 级，Cochrane RoB 2 尚未评估偏倚风险，结论基于全文。"
+  },
+  {
+    "pmid": "38884190",
+    "doi": "10.1111/jvim.17124",
+    "id": "38884190",
+    "matched_by": "pmid",
+    "title_zh": "糖尿病猫：维格列净单药不劣于胰岛素，但有 DKA 风险",
+    "one_line_conclusion_zh": "新诊断糖尿病猫中，维格列净单药第 45 天成功率不劣于胰岛素，但出现 4 例 DKA。",
+    "why_it_matters": "维格列净是首个获批的猫口服降糖药，免去主人每天打针。这项注册试验证明它不劣于胰岛素，但也显示酮症酸中毒风险，用药前需筛查残余胰岛功能并密切监测。研究由厂商资助。",
+    "key_results": [
+      {
+        "measure": "Day 45 治疗成功（FAS）",
+        "groups": "维格列净 29/54（54%）vs 胰岛素 26/62（42%）",
+        "effect_ci": "差值 −11.8%，单侧 97.5% CI −∞ 至 6.3%（界值 15%，非劣效）",
+        "p": "非劣效以 CI 判定"
+      },
+      {
+        "measure": "DKA",
+        "groups": "维格列净 4/61（7%）vs 胰岛素 0/66",
+        "effect_ci": "未做组间检验",
+        "p": "原文未给出"
+      },
+      {
+        "measure": "临床低血糖与非临床低血糖",
+        "groups": "胰岛素 35/66（53%）",
+        "effect_ci": "—",
+        "p": "原文未给出"
+      }
+    ],
+    "confidence_sentence": "本文为临床试验，CEBM 2 级，Cochrane RoB 2 总体有一定担忧，结论基于全文。"
+  },
+  {
+    "pmid": "37632022",
+    "doi": "10.3390/v15081680",
+    "id": "37632022",
+    "matched_by": "pmid",
+    "title_zh": "积液型 FIP：口服瑞德西韦与 GS-441524 疗效相近",
+    "one_line_conclusion_zh": "积液型 FIP 中，口服瑞德西韦达到对 GS-441524 的非劣效标准，但每组仅 9 只、置信区间很宽。",
+    "why_it_matters": null,
+    "key_results": [
+      {
+        "measure": "16 周存活",
+        "groups": "GS-441524 5/9（55.6%）；瑞德西韦 7/9（77.8%）",
+        "effect_ci": "死亡比例差 22%（90% CI −13.5% 至 57.5%），达预设非劣效界值",
+        "p": "原文未给出"
+      },
+      {
+        "measure": "全因死亡生存曲线",
+        "groups": "两组无差异",
+        "effect_ci": "原文未给出",
+        "p": "0.24"
+      },
+      {
+        "measure": "存活 ≥48 小时者（GS-441524）",
+        "groups": "5/6（83%）",
+        "effect_ci": "原文未给出",
+        "p": "原文未给出"
+      }
+    ],
+    "confidence_sentence": "本文为RCT（非劣效），CEBM 2 级，Cochrane RoB 2 尚未评估偏倚风险，结论基于全文。"
+  },
+  {
+    "pmid": "27678080",
+    "doi": "10.1111/jvim.14586",
+    "id": "27678080",
+    "matched_by": "pmid",
+    "title_zh": "EPIC：匹莫苯丹推迟 B2 期犬心衰",
+    "one_line_conclusion_zh": "已有心脏扩大的无症状 MMVD 犬，匹莫苯丹把到达心衰或心源性死亡的中位时间从 766 天延长到 1228 天。",
+    "why_it_matters": "这是兽医心脏病学影响最大的 RCT 之一，直接促成 ACVIM 2019 指南推荐 B2 期用药。终点主要由 CHF 驱动，心源性死亡本身无差异；研究由厂商资助，但结论稳健。",
+    "key_results": [
+      {
+        "measure": "主要终点中位时间（天）",
+        "groups": "匹莫苯丹 1228；安慰剂 766",
+        "effect_ci": "HR 0.64（95% CI 0.47–0.87）",
+        "p": "0.0038"
+      },
+      {
+        "measure": "CHF",
+        "groups": "匹莫苯丹 59/178；安慰剂 76/176",
+        "effect_ci": "HR 0.58（95% CI 0.42–0.82）",
+        "p": "0.0018"
+      },
+      {
+        "measure": "心源性死亡/安乐死",
+        "groups": "15 vs 12",
+        "effect_ci": "HR 0.96（95% CI 0.45–2.1）",
+        "p": "0.92"
+      },
+      {
+        "measure": "全因死亡中位时间（天）",
+        "groups": "1059 vs 902；研究结束时死亡 83/179 vs 103/180",
+        "effect_ci": "中位数 95% CI 952–未达 vs 747–1061",
+        "p": "0.012"
+      }
+    ],
+    "confidence_sentence": "本文为RCT，CEBM 2 级，Cochrane RoB 2 总体有一定担忧，结论基于全文。"
+  },
+  {
+    "pmid": "26948860",
+    "doi": "10.1111/jvim.13917",
+    "id": "26948860",
+    "matched_by": "pmid",
+    "title_zh": "老年猫 CKD 风险：频繁接种疫苗和牙病相关",
+    "one_line_conclusion_zh": "148 只老年猫随访中，每年或频繁接种疫苗、中重度牙病与发生氮质血症 CKD 独立相关。",
+    "why_it_matters": null,
+    "key_results": [
+      {
+        "measure": "每年/频繁接种（vs 从不/偶尔）",
+        "groups": "多变量 Cox",
+        "effect_ci": "HR 5.68（95% CI 1.83–17.64）",
+        "p": "0.003"
+      },
+      {
+        "measure": "中度牙病（vs 无）",
+        "groups": "多变量 Cox",
+        "effect_ci": "HR 13.83（95% CI 2.01–94.99）",
+        "p": "0.008"
+      },
+      {
+        "measure": "重度牙病（vs 无）",
+        "groups": "多变量 Cox",
+        "effect_ci": "HR 35.35（95% CI 4.31–289.73）",
+        "p": "0.001"
+      },
+      {
+        "measure": "轻度牙病（vs 无）",
+        "groups": "多变量 Cox",
+        "effect_ci": "HR 2.15（95% CI 0.36–12.77）",
+        "p": "0.398"
+      }
+    ],
+    "confidence_sentence": "本文为前瞻性队列，CEBM 2 级，QUIPS 尚未评估偏倚风险，结论基于全文。"
+  },
+  {
+    "pmid": "26776588",
+    "doi": "10.1016/j.jvc.2015.10.004",
+    "id": "26776588",
+    "matched_by": "pmid",
+    "title_zh": "FAT CAT：氯吡格雷预防猫血栓复发优于阿司匹林",
+    "one_line_conclusion_zh": "ATE 存活猫中，氯吡格雷比阿司匹林更少复发，中位复发时间 443 天 vs 192 天。",
+    "why_it_matters": "这是猫心源性血栓唯一的随机对照二级预防试验，奠定了氯吡格雷在 ACVIM 猫心肌病指南中的地位。研究对象是已发生过血栓的猫，从未发生血栓的猫是否需要预防，需另看证据。",
+    "key_results": [
+      {
+        "measure": "ATE 复发",
+        "groups": "氯吡格雷 vs 阿司匹林",
+        "effect_ci": "摘要未给出",
+        "p": "0.024"
+      },
+      {
+        "measure": "中位复发时间",
+        "groups": "443 vs 192 天",
+        "effect_ci": "摘要未给出",
+        "p": "摘要未给出"
+      },
+      {
+        "measure": "ATE 复发或心源性死亡中位时间",
+        "groups": "346 vs 128 天",
+        "effect_ci": "摘要未给出",
+        "p": "0.033"
+      }
+    ],
+    "confidence_sentence": "本文为RCT，CEBM 2 级，Cochrane RoB 2 尚未评估偏倚风险，结论基于摘要。"
+  },
+  {
+    "pmid": "26474314",
+    "doi": "10.1111/jvim.13639",
+    "id": "26474314",
+    "matched_by": "pmid",
+    "title_zh": "猫 CKD 降蛋白尿：替米沙坦不劣于贝那普利",
+    "one_line_conclusion_zh": "IRIS 2–3 期 CKD 猫中，替米沙坦降 UP/C 不劣于贝那普利（180 天），但未证明更优，也未测生存。",
+    "why_it_matters": "这是猫用替米沙坦的注册级阳性对照试验，48 个中心共 224 只猫，说明 ARB 可作为 ACEI 之外的 RAAS 抑制剂选择。效应很小（第 180 天 UP/C 平均仅降 0.05），终点是替代指标，“效果更明显”的说法依据的是组内比较。研究由厂商资助。",
+    "key_results": [
+      {
+        "measure": "主要终点 log AUC UP/C 组间差",
+        "groups": "替米沙坦 vs 贝那普利",
+        "effect_ci": "95% CI −0.035 至 0.268（高于界值 −0.108，非劣效）",
+        "p": "非劣效以 CI 判定"
+      },
+      {
+        "measure": "第 180 天 UP/C 较基线变化",
+        "groups": "替米沙坦 −0.05±0.31（n=72）；贝那普利 −0.02±0.48（n=76）",
+        "effect_ci": "未做组间比较",
+        "p": "组内 0.016 / 0.136"
+      },
+      {
+        "measure": "治疗失败（PPS）",
+        "groups": "13/85（15.3%）vs 18/91（19.8%）",
+        "effect_ci": "未做组间检验",
+        "p": "未做组间检验"
+      },
+      {
+        "measure": "死亡（ITT）",
+        "groups": "13/112 vs 22/112",
+        "effect_ci": "未做组间检验",
+        "p": "未做组间检验"
+      }
+    ],
+    "confidence_sentence": "本文为RCT，CEBM 2 级，Cochrane RoB 2 总体有一定担忧，结论基于全文。"
+  },
+  {
+    "pmid": "26265631",
+    "doi": "10.1016/j.prevetmed.2015.07.011",
+    "id": "26265631",
+    "matched_by": "pmid",
+    "title_zh": "1 岁猫超重：室内生活和干粮是风险因素",
+    "one_line_conclusion_zh": "主人报告 1 岁猫超重或肥胖占 7.0%；户外活动受限和以干粮为主是独立风险因素。",
+    "why_it_matters": null,
+    "key_results": [
+      {
+        "measure": "1 岁时超重/肥胖",
+        "groups": "7.0%（966 只）",
+        "effect_ci": "摘要未给出",
+        "p": "摘要未给出"
+      }
+    ],
+    "confidence_sentence": "本文为前瞻性队列，CEBM 2 级，QUIPS 尚未评估偏倚风险，结论基于摘要。"
+  },
+  {
+    "pmid": "23838205",
+    "doi": "10.1016/j.tvjl.2013.05.048",
+    "id": "23838205",
+    "matched_by": "pmid",
+    "title_zh": "米氮平改善 CKD 猫食欲、减少呕吐",
+    "one_line_conclusion_zh": "CKD 猫隔日口服米氮平 1.88 mg，比安慰剂食欲更好、呕吐更少、体重增加，但仅 11 只、疗程 3 周。",
+    "why_it_matters": "食欲差和呕吐是 CKD 猫生活质量和体重下降的主要原因。这项交叉 RCT 为米氮平隔日 1.88 mg 这一常用剂量提供了依据，但样本只有 11 只、疗程 3 周，长期效果和安全性未知。",
+    "key_results": [
+      {
+        "measure": "体重变化（中位）",
+        "groups": "米氮平 +0.18 kg；安慰剂 −0.07 kg",
+        "effect_ci": "摘要未给出",
+        "p": "0.002"
+      },
+      {
+        "measure": "食欲",
+        "groups": "米氮平 vs 安慰剂",
+        "effect_ci": "摘要未给出",
+        "p": "0.02"
+      },
+      {
+        "measure": "呕吐",
+        "groups": "米氮平 vs 安慰剂",
+        "effect_ci": "摘要未给出",
+        "p": "0.047"
+      }
+    ],
+    "confidence_sentence": "本文为RCT（交叉），CEBM 2 级，Cochrane RoB 2 尚未评估偏倚风险，结论基于摘要。"
+  },
+  {
+    "pmid": "23078651",
+    "doi": "10.1111/j.1939-1676.2012.01026.x",
+    "id": "23078651",
+    "matched_by": "pmid",
+    "title_zh": "PROTECT：匹莫苯丹推迟杜宾犬隐匿期 DCM 发病",
+    "one_line_conclusion_zh": "隐匿期 DCM 杜宾犬，匹莫苯丹把到达心衰或猝死的中位时间从 441 天延至 718 天。",
+    "why_it_matters": "这是唯一针对杜宾犬隐匿期 DCM 的 RCT，结论是筛查出隐匿期后应开始用药，可配合 ESVC 筛查指南使用。研究只纳入杜宾犬，到达终点的比例两组差异不显著，外推需谨慎。",
+    "key_results": [
+      {
+        "measure": "主要终点（CHF 或猝死）中位时间",
+        "groups": "匹莫苯丹 718 天（IQR 441–1152）；安慰剂 441 天（IQR 151–641）",
+        "effect_ci": "原文报告 IQR，未给 CI",
+        "p": "0.0088（log-rank）"
+      },
+      {
+        "measure": "到达主要终点比例",
+        "groups": "匹莫苯丹 19/39；安慰剂 25/37（据原文表格推算）",
+        "effect_ci": "—",
+        "p": "0.1（不显著）"
+      },
+      {
+        "measure": "仅甲状腺功能正常犬亚组中位时间",
+        "groups": "693 天（IQR 441–1152）vs 441 天（IQR 146–641）；来源：全文",
+        "effect_ci": "原文报告 IQR，未给 CI",
+        "p": "0.018"
+      },
+      {
+        "measure": "全因生存中位时间（非预设终点）",
+        "groups": "623 天（IQR 491–1531）vs 466 天（IQR 236–710）",
+        "effect_ci": "原文报告 IQR，未给 CI",
+        "p": "0.034"
+      }
+    ],
+    "confidence_sentence": "本文为RCT，CEBM 2 级，Cochrane RoB 2 总体有一定担忧，结论基于全文。"
+  },
+  {
+    "pmid": "18638016",
+    "doi": "10.1111/j.1939-1676.2008.0150.x",
+    "id": "18638016",
+    "matched_by": "pmid",
+    "title_zh": "QUEST：心衰期 MMVD 犬匹莫苯丹优于贝那普利",
+    "one_line_conclusion_zh": "CHF 期 MMVD 犬中，匹莫苯丹比贝那普利延长到达复合终点的时间（中位 267 天 vs 140 天）。",
+    "why_it_matters": "这项 RCT 确立了匹莫苯丹在犬 MMVD 心衰期的标准用药地位，是 ACVIM 指南 C 期推荐的主要依据。对照是贝那普利而不是安慰剂，两组都合用了呋塞米，结论只适用于犬。",
+    "key_results": [
+      {
+        "measure": "复合终点中位时间",
+        "groups": "匹莫苯丹 267 天；贝那普利 140 天",
+        "effect_ci": "HR 0.688（95% CI 0.516–0.916）",
+        "p": "0.0099"
+      }
+    ],
+    "confidence_sentence": "本文为RCT，CEBM 2 级，Cochrane RoB 2 尚未评估偏倚风险，结论基于摘要。"
+  },
+  {
+    "pmid": "16978113",
+    "doi": "10.2460/javma.229.6.949",
+    "id": "16978113",
+    "matched_by": "pmid",
+    "title_zh": "猫 CKD：肾病处方粮减少尿毒症发作和肾性死亡",
+    "one_line_conclusion_zh": "IRIS 2–3 期 CKD 猫中，肾病粮组尿毒症发作为 0%，维持粮组为 26%；肾性死亡更少，全因死亡无显著差异。",
+    "why_it_matters": "这是肾病处方粮在猫中唯一的双盲 RCT，也是 ISFM 和 IRIS 把处方粮列为 CKD 猫一线干预的核心证据。样本只有 45 只，由厂商资助，全因死亡差异未达显著。",
+    "key_results": [
+      {
+        "measure": "尿毒症发作",
+        "groups": "肾病粮 0%；维持粮 26%",
+        "effect_ci": "摘要未给出",
+        "p": "摘要未给出"
+      }
+    ],
+    "confidence_sentence": "本文为RCT，CEBM 2 级，Cochrane RoB 2 尚未评估偏倚风险，结论基于摘要。"
+  },
+  {
+    "pmid": "17063696",
+    "doi": "10.1892/0891-6640(2006)20[1054:taeobi]2.0.co;2",
+    "id": "17063696",
+    "matched_by": "pmid",
+    "title_zh": "贝那普利降低 CKD 猫蛋白尿，但未延长肾脏生存",
+    "one_line_conclusion_zh": "192 只 CKD 猫中，贝那普利显著降低蛋白尿，但肾脏生存期与安慰剂无显著差异。",
+    "why_it_matters": "这项大样本 RCT 是猫 ACEI 的主要证据，提示降蛋白尿不一定能转化为生存获益。UPC ≥1 的亚组有获益趋势，但只有 13 只，不足以下结论，选择 RAAS 抑制剂时应注意这一点。",
+    "key_results": [
+      {
+        "measure": "UPC",
+        "groups": "贝那普利 vs 安慰剂",
+        "effect_ci": "摘要未给出",
+        "p": "0.005"
+      },
+      {
+        "measure": "肾脏生存（均值±SD）",
+        "groups": "贝那普利 637±480 天；安慰剂 520±323 天",
+        "effect_ci": "摘要未给出",
+        "p": "0.47"
+      },
+      {
+        "measure": "UPC ≥1 亚组肾脏生存",
+        "groups": "402±202 vs 149±90 天（n=13）",
+        "effect_ci": "摘要未给出",
+        "p": "0.27"
+      }
+    ],
+    "confidence_sentence": "本文为RCT，CEBM 2 级，Cochrane RoB 2 尚未评估偏倚风险，结论基于摘要。"
+  },
+  {
+    "pmid": "15702689",
+    "doi": "10.2460/javma.2005.226.393",
+    "id": "15702689",
+    "matched_by": "pmid",
+    "title_zh": "CKD 犬：UP/C ≥1 不良结局风险约高 3 倍",
+    "one_line_conclusion_zh": "CKD 犬初诊 UP/C ≥1.0 时，尿毒症危象和死亡的相对风险约为 UP/C <1.0 的 3 倍。",
+    "why_it_matters": "这是犬 CKD 中蛋白尿预后意义的早期证据，支持初诊时常规测 UP/C 并据此分层，也是 IRIS 蛋白尿亚分期的依据之一。样本只有 45 只，摘要未给置信区间，结论只适用于犬。",
+    "key_results": [
+      {
+        "measure": "尿毒症危象和死亡相对风险",
+        "groups": "UP:C ≥1.0 vs <1.0",
+        "effect_ci": "约 3 倍（摘要未给 CI）",
+        "p": "摘要未给出"
+      },
+      {
+        "measure": "UP:C 每升高 1",
+        "groups": "—",
+        "effect_ci": "不良结局风险约 1.5 倍",
+        "p": "摘要未给出"
+      }
+    ],
+    "confidence_sentence": "本文为前瞻性队列，CEBM 2 级，QUIPS 尚未评估偏倚风险，结论基于摘要。"
+  },
+  {
+    "pmid": "11990962",
+    "doi": "10.2460/javma.2002.220.1163",
+    "id": "11990962",
+    "matched_by": "pmid",
+    "title_zh": "CKD 犬：肾病处方粮减少尿毒症危象和死亡",
+    "one_line_conclusion_zh": "轻中度慢性肾衰竭犬中，肾病粮比成年维持粮减少尿毒症危象和死亡，并减缓肾功能下降。",
+    "why_it_matters": "这是犬肾病处方粮唯一的双盲 RCT，也是 IRIS 对犬 CKD 推荐饮食治疗的核心证据。样本只有 38 只，摘要未给具体数字，处方粮配方此后已有变化，引用时请核对原文。",
+    "key_results": [
+      {
+        "measure": "尿毒症危象和死亡",
+        "groups": "肾病粮优于维持粮",
+        "effect_ci": "摘要未给出",
+        "p": "摘要未给出"
+      }
+    ],
+    "confidence_sentence": "本文为RCT，CEBM 2 级，Cochrane RoB 2 尚未评估偏倚风险，结论基于摘要。"
+  },
+  {
+    "pmid": "42207576",
+    "doi": "10.1093/jvimsj/aalag100",
+    "id": "42207576",
+    "matched_by": "pmid",
+    "title_zh": "CKD 犬：尿氨/肌酐比低预示死亡和进展更快",
+    "one_line_conclusion_zh": "稳定期 CKD 犬中，尿氨/肌酐比 <2.0 者死亡风险约为 3 倍，中位生存 189 天 vs 445 天。",
+    "why_it_matters": null,
+    "key_results": [
+      {
+        "measure": "全因死亡（UACR <2.0）",
+        "groups": "Cox 模型",
+        "effect_ci": "HR 3.045（95% CI 1.372–7.102）",
+        "p": "原文未给出"
+      },
+      {
+        "measure": "中位生存（全因）",
+        "groups": "189 vs 445 天",
+        "effect_ci": "原文未给出",
+        "p": "0.008"
+      },
+      {
+        "measure": "中位生存（肾性死亡）",
+        "groups": "270 vs 445 天",
+        "effect_ci": "原文未给出",
+        "p": "0.02"
+      },
+      {
+        "measure": "至进展中位时间",
+        "groups": "132 vs 445 天",
+        "effect_ci": "原文未给出",
+        "p": "0.0002"
+      },
+      {
+        "measure": "UPC <1.0 与死亡",
+        "groups": "Cox 模型",
+        "effect_ci": "HR 0.3506（95% CI 0.1417–0.8794）",
+        "p": "原文未给出"
+      }
+    ],
+    "confidence_sentence": "本文为前瞻性观察队列，CEBM 3 级，QUIPS 尚未评估偏倚风险，结论基于全文。"
+  },
+  {
+    "pmid": "32139728",
+    "doi": "10.1038/s41598-020-59837-z",
+    "id": "32139728",
+    "matched_by": "pmid",
+    "title_zh": "芬兰 1.37 万只犬：焦虑类问题行为很常见",
+    "one_line_conclusion_zh": "芬兰 13,700 只犬中，72.5% 至少有一种高度问题行为，噪声敏感最常见（32%）。",
+    "why_it_matters": null,
+    "key_results": [
+      {
+        "measure": "噪声敏感患病率",
+        "groups": "32%；来源：全文",
+        "effect_ci": "原文未给出",
+        "p": "原文未给出"
+      },
+      {
+        "measure": "至少一种高度问题行为",
+        "groups": "72.5%；来源：全文",
+        "effect_ci": "原文未给出",
+        "p": "原文未给出"
+      }
+    ],
+    "confidence_sentence": "本文为横断面问卷，CEBM 3 级，无对应偏倚工具，结论基于全文。"
+  },
+  {
+    "pmid": "30548336",
+    "doi": "10.1111/jvim.15367",
+    "id": "30548336",
+    "matched_by": "pmid",
+    "title_zh": "超重犬寿命缩短，12 个品种均如此",
+    "one_line_conclusion_zh": "5 万多只绝育家犬中，超重犬寿命缩短，各品种死亡 HR 为 1.35（德牧）至 2.86（约克夏）。",
+    "why_it_matters": "这项大样本研究把“超重缩短寿命”量化到了具体品种，是与主人沟通体重管理时最有说服力的数据之一。数据来自连锁医院病历，体况评分由不同兽医记录；研究由 Royal Canin 资助。",
+    "key_results": [
+      {
+        "measure": "超重 vs 正常体况死亡 HR",
+        "groups": "各品种 1.35（德牧）至 2.86（约克夏）",
+        "effect_ci": "99.79% CI（见原文）",
+        "p": "摘要未给出"
+      }
+    ],
+    "confidence_sentence": "本文为回顾性队列，CEBM 3 级，QUIPS 尚未评估偏倚风险，结论基于摘要。"
+  },
+  {
+    "pmid": "29660848",
+    "doi": "10.1111/jvim.15122",
+    "id": "29660848",
+    "matched_by": "pmid",
+    "title_zh": "临床前期 HCM 猫：约 3 成会发生心衰或血栓",
+    "one_line_conclusion_zh": "1008 只临床前期 HCM 猫中约 30% 发生心衰或血栓，10 年心血管死亡风险 28%。",
+    "why_it_matters": "这是猫 HCM 自然病程规模最大的国际研究，给出了门诊与主人沟通预后时可用的数字：多数临床前期猫长期不发病，但 10 年内约 3 成出事。梗阻型与非梗阻型结局无差异。",
+    "key_results": [
+      {
+        "measure": "CHF 或 ATE",
+        "groups": "307/1008（30.5%）；表面健康对照 7/722（0.97%）",
+        "effect_ci": "原文未给出",
+        "p": "原文未给出"
+      },
+      {
+        "measure": "心血管死亡风险 1/5/10 年",
+        "groups": "6.7% / 22.8% / 28.3%",
+        "effect_ci": "原文未给出",
+        "p": "原文未给出"
+      },
+      {
+        "measure": "CHF：HCM vs HOCM",
+        "groups": "106/430（24.7%）vs 138/578（23.9%）",
+        "effect_ci": "原文未给出",
+        "p": "0.834"
+      },
+      {
+        "measure": "ATE：HCM vs HOCM",
+        "groups": "41/430（9.5%）vs 76/578（13.2%）",
+        "effect_ci": "原文未给出",
+        "p": "0.094"
+      }
+    ],
+    "confidence_sentence": "本文为回顾性队列，CEBM 3 级，QUIPS 偏倚风险中等，结论基于全文。"
+  },
+  {
+    "pmid": "26776583",
+    "doi": "10.1016/j.jvc.2015.03.008",
+    "id": "26776583",
+    "matched_by": "pmid",
+    "title_zh": "CatScan：表面健康猫 HCM 患病率约 15%",
+    "one_line_conclusion_zh": "780 只表面健康的收容所猫中，HCM 患病率 14.7%；心杂音 40.8%，多为功能性。",
+    "why_it_matters": "这项研究常被引用来说明猫 HCM 远比想象常见，且听诊杂音既不敏感也不特异，提示筛查需要超声。研究对象是英国收容所猫，不一定代表家养名种猫，外推需谨慎，阅读时请结合原文的研究对象和方法。",
+    "key_results": [
+      {
+        "measure": "HCM 患病率",
+        "groups": "14.7%",
+        "effect_ci": "95% CI 12.3%–17.4%",
+        "p": "摘要未给出"
+      },
+      {
+        "measure": "心杂音",
+        "groups": "40.8%",
+        "effect_ci": "摘要未给出",
+        "p": "摘要未给出"
+      }
+    ],
+    "confidence_sentence": "本文为横断面研究，CEBM 3 级，无对应偏倚工具，结论基于摘要。"
+  },
+  {
+    "pmid": "26581469",
+    "doi": "10.1177/1098612x15616433",
+    "id": "26581469",
+    "matched_by": "pmid",
+    "title_zh": "日本参保猫：消化系统疾病理赔最多",
+    "one_line_conclusion_zh": "日本约 6.5 万只参保猫中，消化系统疾病发病率最高，其次是泌尿和皮肤；多个纯种猫心血管病发病率高于混血。",
+    "why_it_matters": null,
+    "key_results": [
+      {
+        "measure": "≥1 次理赔年发病率",
+        "groups": "4632/万猫年；来源：全文",
+        "effect_ci": "95% CI 4608–4656",
+        "p": "原文未给出"
+      },
+      {
+        "measure": "消化系统",
+        "groups": "1172/万猫年；来源：全文",
+        "effect_ci": "95% CI 1156–1187",
+        "p": "原文未给出"
+      }
+    ],
+    "confidence_sentence": "本文为回顾性队列（保险数据），CEBM 3 级，无对应偏倚工具，结论基于全文。"
+  },
+  {
+    "pmid": "25896026",
+    "doi": "10.1016/j.prevetmed.2015.03.018",
+    "id": "25896026",
+    "matched_by": "pmid",
+    "title_zh": "日本参保犬：平均寿命 13.7 年，体型越大越短",
+    "one_line_conclusion_zh": "日本约 30 万只参保犬期望寿命 13.7 年，体重越大寿命越短，≥40 kg 组仅 10.6 年。",
+    "why_it_matters": null,
+    "key_results": [
+      {
+        "measure": "期望寿命",
+        "groups": "全体 13.7 年；≥40 kg 组 10.6 年",
+        "effect_ci": "摘要未给出",
+        "p": "摘要未给出"
+      }
+    ],
+    "confidence_sentence": "本文为回顾性队列（保险数据），CEBM 3 级，无对应偏倚工具，结论基于摘要。"
+  },
+  {
+    "pmid": "25231385",
+    "doi": "10.1111/jvim.12445",
+    "id": "25231385",
+    "matched_by": "pmid",
+    "title_zh": "猫 CKD：SDMA 平均比肌酐早 17 个月升高",
+    "one_line_conclusion_zh": "21 只 CKD 猫中 17 只 SDMA 早于肌酐升高，平均提前 17 个月；但来自厂商猫群的回顾性数据。",
+    "why_it_matters": "SDMA 被 IRIS 纳入分期，这篇是“SDMA 更早发现猫 CKD”说法的主要来源。设计是病例对照式，研究对象是厂商猫群，敏感度和特异度可能被高估；2026 年系统综述认为其诊断优势仍不确定。",
+    "key_results": [
+      {
+        "measure": "SDMA 先于肌酐升高",
+        "groups": "17/21；平均提前 17.0 个月",
+        "effect_ci": "摘要未给出",
+        "p": "摘要未给出"
+      },
+      {
+        "measure": "敏感度 SDMA vs 肌酐",
+        "groups": "100% vs 17%",
+        "effect_ci": "摘要未给出",
+        "p": "摘要未给出"
+      },
+      {
+        "measure": "特异度 SDMA vs 肌酐",
+        "groups": "91% vs 100%",
+        "effect_ci": "摘要未给出",
+        "p": "摘要未给出"
+      }
+    ],
+    "confidence_sentence": "本文为回顾性队列，CEBM 3 级，QUADAS-2 尚未评估偏倚风险，结论基于摘要。"
+  },
+  {
+    "pmid": "24217707",
+    "doi": "10.1177/1098612x13511446",
+    "id": "24217707",
+    "matched_by": "pmid",
+    "title_zh": "随机抽样猫中 CKD 约占一半，常与关节病并存",
+    "one_line_conclusion_zh": "随机抽取的各年龄段猫中 CKD 患病率约 50%，关节病研究猫中为 68.8%，两病常同时存在。",
+    "why_it_matters": null,
+    "key_results": [
+      {
+        "measure": "CKD 患病率",
+        "groups": "随机抽样组 50%；关节病组 68.8%",
+        "effect_ci": "摘要未给出",
+        "p": "摘要未给出"
+      }
+    ],
+    "confidence_sentence": "本文为回顾性横断面，CEBM 3 级，无对应偏倚工具，结论基于摘要。"
+  },
+  {
+    "pmid": "23647231",
+    "doi": "10.1111/jvim.12090",
+    "id": "23647231",
+    "matched_by": "pmid",
+    "title_zh": "英国犬 CKD：确诊后中位生存 226 天",
+    "one_line_conclusion_zh": "英国初级诊疗犬 CKD 表观患病率 0.21%，确诊后中位生存 226 天；IRIS 分期和 BUN 与死亡风险相关。",
+    "why_it_matters": "这是犬 CKD 在全科门诊人群中的基线数据，不同于转诊医院样本，更接近一般门诊情况。患病率可能因漏诊而被低估，生存数据受安乐死决策影响，解读时需注意，阅读时请结合原文的研究对象和方法。",
+    "key_results": [
+      {
+        "measure": "表观患病率",
+        "groups": "0.21%",
+        "effect_ci": "95% CI 0.19%–0.24%",
+        "p": "摘要未给出"
+      },
+      {
+        "measure": "确诊后中位生存",
+        "groups": "226 天",
+        "effect_ci": "95% CI 112–326 天",
+        "p": "摘要未给出"
+      }
+    ],
+    "confidence_sentence": "本文为纵向队列（VetCompass），CEBM 3 级，QUIPS 尚未评估偏倚风险，结论基于摘要。"
+  },
+  {
+    "pmid": "22269057",
+    "doi": "10.1111/j.1939-1676.2011.00874.x",
+    "id": "22269057",
+    "matched_by": "pmid",
+    "title_zh": "猫 CKD：高血磷和高 UPC 预测一年内进展",
+    "one_line_conclusion_zh": "213 只 CKD 猫中 47% 在 1 年内进展（肌酐升高 ≥25%），高血磷和高 UPC 预测进展。",
+    "why_it_matters": "这项研究支持对 CKD 猫控制血磷、监测蛋白尿，是 IRIS 治疗建议的依据之一。它是回顾性设计，只能说明血磷和 UPC 与进展相关，不能证明降磷就能延缓进展。",
+    "key_results": [
+      {
+        "measure": "1 年内进展",
+        "groups": "47%（101）",
+        "effect_ci": "摘要未给出",
+        "p": "摘要未给出"
+      },
+      {
+        "measure": "2 期→4 期",
+        "groups": "19%（18/94）",
+        "effect_ci": "摘要未给出",
+        "p": "摘要未给出"
+      },
+      {
+        "measure": "3 期→4 期",
+        "groups": "63%（34/54）",
+        "effect_ci": "摘要未给出",
+        "p": "摘要未给出"
+      }
+    ],
+    "confidence_sentence": "本文为回顾性队列，CEBM 3 级，QUIPS 尚未评估偏倚风险，结论基于摘要。"
+  },
+  {
+    "pmid": "20005753",
+    "doi": "10.1016/j.tvjl.2009.11.007",
+    "id": "20005753",
+    "matched_by": "pmid",
+    "title_zh": "老年犬认知障碍：患病率 14%，诊断仅 2%",
+    "one_line_conclusion_zh": "澳大利亚老年犬认知障碍患病率估计 14.2%，但仅 1.9% 被兽医诊断。",
+    "why_it_matters": null,
+    "key_results": [
+      {
+        "measure": "CCD 患病率",
+        "groups": "14.2%",
+        "effect_ci": "摘要未给出",
+        "p": "摘要未给出"
+      },
+      {
+        "measure": "兽医诊断",
+        "groups": "1.9%",
+        "effect_ci": "摘要未给出",
+        "p": "摘要未给出"
+      }
+    ],
+    "confidence_sentence": "本文为横断面调查，CEBM 3 级，无对应偏倚工具，结论基于摘要。"
+  },
+  {
+    "pmid": "18691369",
+    "doi": "10.1111/j.1939-1676.2008.0163.x",
+    "id": "18691369",
+    "matched_by": "pmid",
+    "title_zh": "猫 CKD：IRIS 分期强烈预测生存",
+    "one_line_conclusion_zh": "211 只 CKD 猫中，确诊时 IRIS 2b、3、4 期的中位生存分别为 1151、778、103 天。",
+    "why_it_matters": "这是 IRIS 分期在猫中预后价值的核心证据，门诊与主人沟通预后时最常引用这组数字。它是回顾性单中心数据，未校正治疗差异，个体猫的生存可能与中位数相差很大，阅读时请结合原文的研究对象和方法。",
+    "key_results": [
+      {
+        "measure": "中位生存",
+        "groups": "IIb 1151 天；III 778 天；IV 103 天",
+        "effect_ci": "摘要未给出",
+        "p": "<0.0001"
+      }
+    ],
+    "confidence_sentence": "本文为回顾性队列，CEBM 3 级，QUIPS 尚未评估偏倚风险，结论基于摘要。"
+  },
+  {
+    "pmid": "18289298",
+    "doi": "10.1111/j.1939-1676.2007.0008.x",
+    "id": "18289298",
+    "matched_by": "pmid",
+    "title_zh": "犬 MMVD：左房扩大是心源性死亡唯一独立预测因素",
+    "one_line_conclusion_zh": "MMVD 犬中位生存 19.5 个月；多变量分析中 LA/Ao >1.7 是心源性死亡唯一显著因素。",
+    "why_it_matters": null,
+    "key_results": [
+      {
+        "measure": "中位生存",
+        "groups": "19.5±13.2 个月",
+        "effect_ci": "摘要未给出",
+        "p": "摘要未给出"
+      }
+    ],
+    "confidence_sentence": "本文为回顾性队列，CEBM 3 级，QUIPS 尚未评估偏倚风险，结论基于摘要。"
+  },
+  {
+    "pmid": "17939542",
+    "doi": "10.1111/j.1939-1676.2007.tb03042.x",
+    "id": "17939542",
+    "matched_by": "pmid",
+    "title_zh": "猫 CKD：肌酐、UPC 和白细胞升高预示肾脏生存更短",
+    "one_line_conclusion_zh": "95 只安慰剂组 CKD 猫中，肌酐、UPC 和白细胞升高是肾脏生存期缩短的独立风险因素。",
+    "why_it_matters": null,
+    "key_results": [
+      {
+        "measure": "达到肾脏生存终点",
+        "groups": "37/95",
+        "effect_ci": "摘要未给出",
+        "p": "摘要未给出"
+      },
+      {
+        "measure": "独立风险因素",
+        "groups": "肌酐、UPC、白细胞",
+        "effect_ci": "摘要未给出",
+        "p": "<0.01"
+      }
+    ],
+    "confidence_sentence": "本文为RCT 安慰剂组的预后分析，CEBM 3 级，QUIPS 尚未评估偏倚风险，结论基于摘要。"
+  },
+  {
+    "pmid": "16734085",
+    "doi": "10.1892/0891-6640(2006)20[528:socwno]2.0.co;2",
+    "id": "16734085",
+    "matched_by": "pmid",
+    "title_zh": "猫 CKD：蛋白尿越重，生存越短",
+    "one_line_conclusion_zh": "CKD 猫 UPC 0.2–0.4 和 >0.4 的死亡风险分别为 <0.2 的 2.9 倍和 4.0 倍。",
+    "why_it_matters": "这是猫“边缘性蛋白尿也有预后意义”的主要证据，IRIS 猫的 UP/C 亚分期阈值（0.2、0.4）即来源于此。研究为回顾性，不能说明降低蛋白尿就能延长生存，阅读时请结合原文的研究对象和方法。",
+    "key_results": [
+      {
+        "measure": "死亡 HR：UPC 0.2–0.4 vs <0.2",
+        "groups": "—",
+        "effect_ci": "HR 2.9（95% CI 1.4–6.3）",
+        "p": "摘要未给出"
+      },
+      {
+        "measure": "死亡 HR：UPC >0.4 vs <0.2",
+        "groups": "—",
+        "effect_ci": "HR 4.0（95% CI 2.0–8.0）",
+        "p": "摘要未给出"
+      }
+    ],
+    "confidence_sentence": "本文为回顾性队列，CEBM 3 级，QUIPS 尚未评估偏倚风险，结论基于摘要。"
+  },
+  {
+    "pmid": "11991408",
+    "doi": "10.2460/javma.2002.220.1315",
+    "id": "11991408",
+    "matched_by": "pmid",
+    "title_zh": "限饲 25% 的拉布拉多寿命更长",
+    "one_line_conclusion_zh": "48 只拉布拉多配对研究中，终身少喂 25% 的犬中位寿命更长，慢性病症状出现更晚。",
+    "why_it_matters": "这是犬体重管理最常被引用的长期证据，说明终身保持偏瘦体况可延长寿命。研究只有拉布拉多一个品种，样本 48 只，由厂商资助，结论外推到其他品种需谨慎，阅读时请结合原文的研究对象和方法。",
+    "key_results": [
+      {
+        "measure": "中位寿命",
+        "groups": "限饲组显著更长（摘要未给数字）",
+        "effect_ci": "摘要未给出",
+        "p": "摘要未给出"
+      }
+    ],
+    "confidence_sentence": "本文为配对对照试验，CEBM 3 级，ROBINS-I 尚未评估偏倚风险，结论基于摘要。"
+  },
+  {
+    "pmid": "10879400",
+    "doi": "10.1111/j.1748-5827.2000.tb03932.x",
+    "id": "10879400",
+    "matched_by": "pmid",
+    "title_zh": "肾衰竭猫：吃肾病粮者中位生存 633 天 vs 264 天",
+    "one_line_conclusion_zh": "慢性肾衰竭猫中，接受肾病粮者中位生存 633 天，未接受者 264 天；但分组由主人和猫的接受度决定，非随机。",
+    "why_it_matters": null,
+    "key_results": [
+      {
+        "measure": "中位生存",
+        "groups": "肾病粮 633 天；未接受 264 天",
+        "effect_ci": "摘要未给出",
+        "p": "摘要未给出"
+      }
+    ],
+    "confidence_sentence": "本文为前瞻性队列（非随机），CEBM 3 级，ROBINS-I 尚未评估偏倚风险，结论基于摘要。"
+  },
+  {
+    "pmid": "42949438",
+    "doi": "10.1093/jvimsj/aalag268",
+    "id": "42949438",
+    "matched_by": "pmid",
+    "title_zh": "FIP：莫努匹韦 42 天，约四分之三持续缓解",
+    "one_line_conclusion_zh": "19 只 FIP 猫口服莫努匹韦 42 天，14 只（74%）持续缓解 ≥6 个月；3 只复发后重新治疗有效。",
+    "why_it_matters": null,
+    "key_results": [
+      {
+        "measure": "持续缓解 ≥6 个月",
+        "groups": "14/19（74%）",
+        "effect_ci": "原文未给出",
+        "p": "原文未给出"
+      },
+      {
+        "measure": "复发",
+        "groups": "3 只（停药后 21、27、91 天），再治疗均有效",
+        "effect_ci": "原文未给出",
+        "p": "原文未给出"
+      },
+      {
+        "measure": "ALT 轻度升高",
+        "groups": "5/19（26%）",
+        "effect_ci": "原文未给出",
+        "p": "原文未给出"
+      },
+      {
+        "measure": "中性粒细胞减少",
+        "groups": "2/19（11%）",
+        "effect_ci": "原文未给出",
+        "p": "原文未给出"
+      }
+    ],
+    "confidence_sentence": "本文为前瞻性单臂试点，CEBM 4 级，无对应偏倚工具，结论基于全文。"
+  },
+  {
+    "pmid": "41834689",
+    "doi": "10.1177/1098612x261435376",
+    "id": "41834689",
+    "matched_by": "pmid",
+    "title_zh": "FIP：高剂量诱导加炎症指标指导，可提前停药",
+    "one_line_conclusion_zh": "30 只 FIP 猫高剂量诱导后按 SAA 和 α1-AGP 提前停药，随访期内未见复发。",
+    "why_it_matters": null,
+    "key_results": [
+      {
+        "measure": "初始治疗有反应",
+        "groups": "29/30（瑞德西韦组 1 只死亡）",
+        "effect_ci": "原文未给出",
+        "p": "原文未给出"
+      },
+      {
+        "measure": "<12 周完成治疗",
+        "groups": "22 只；中位 54 天（IQR 45–57）",
+        "effect_ci": "原文未给出",
+        "p": "原文未给出"
+      },
+      {
+        "measure": "停药后 2、6、12 周复发",
+        "groups": "0 只",
+        "effect_ci": "原文未给出",
+        "p": "原文未给出"
+      }
+    ],
+    "confidence_sentence": "本文为前瞻性单臂研究，CEBM 4 级，无对应偏倚工具，结论基于全文。"
+  },
+  {
+    "pmid": "41035288",
+    "doi": "10.1111/jvim.70253",
+    "id": "41035288",
+    "matched_by": "pmid",
+    "title_zh": "FIP 眼部受累：三分之一有葡萄膜炎，抗病毒治疗有效",
+    "one_line_conclusion_zh": "61 只 FIP 猫中 33% 有眼部病变（均为葡萄膜炎），长期随访的 11 只中 9 只（82%）葡萄膜炎消退。",
+    "why_it_matters": null,
+    "key_results": [
+      {
+        "measure": "眼部病变",
+        "groups": "20/61（33%）",
+        "effect_ci": "原文未给出",
+        "p": "原文未给出"
+      },
+      {
+        "measure": "存活",
+        "groups": "16/20（80%）",
+        "effect_ci": "原文未给出",
+        "p": "原文未给出"
+      },
+      {
+        "measure": "葡萄膜炎消退",
+        "groups": "9/11（82%），中位 44 天",
+        "effect_ci": "原文未给出",
+        "p": "原文未给出"
+      },
+      {
+        "measure": "继发青光眼",
+        "groups": "4/20（20%）",
+        "effect_ci": "原文未给出",
+        "p": "原文未给出"
+      }
+    ],
+    "confidence_sentence": "本文为回顾性观察研究，CEBM 4 级，无对应偏倚工具，结论基于全文。"
+  },
+  {
+    "pmid": "37732386",
+    "doi": "10.1177/1098612x231194460",
+    "id": "37732386",
+    "matched_by": "pmid",
+    "title_zh": "英国 307 只 FIP 猫：合法来源抗病毒药，84% 存活",
+    "one_line_conclusion_zh": "307 只英国 FIP 猫用合法来源抗病毒药，末次随访 84.4% 存活，10.8% 复发。",
+    "why_it_matters": "这是使用成分明确的合法药物治疗 FIP 的最大样本研究，证明正规药物疗效与非正规药物报告相当，常被引用来支持临床应用。各猫方案不统一，无法比较不同疗法的优劣，阅读时请结合原文的研究对象和方法。",
+    "key_results": [
+      {
+        "measure": "末次随访存活",
+        "groups": "259/307（84.4%）",
+        "effect_ci": "原文未给出",
+        "p": "原文未给出"
+      },
+      {
+        "measure": "初始疗程结束时存活",
+        "groups": "272/307（88.6%）",
+        "effect_ci": "原文未给出",
+        "p": "原文未给出"
+      },
+      {
+        "measure": "复发",
+        "groups": "33/307（10.8%）",
+        "effect_ci": "原文未给出",
+        "p": "原文未给出"
+      },
+      {
+        "measure": "皮下瑞德西韦注射痛",
+        "groups": "122/255（47.8%）",
+        "effect_ci": "原文未给出",
+        "p": "原文未给出"
+      }
+    ],
+    "confidence_sentence": "本文为回顾性病例系列，CEBM 4 级，无对应偏倚工具，结论基于全文。"
+  },
+  {
+    "pmid": "37548535",
+    "doi": "10.1177/1098612x231183250",
+    "id": "37548535",
+    "matched_by": "pmid",
+    "title_zh": "FIP 康复猫 1 年随访：无确证复发",
+    "one_line_conclusion_zh": "口服 GS-441524 达到完全缓解的 18 只猫，1 年随访内无确证复发；5 只再次粪便排毒。",
+    "why_it_matters": null,
+    "key_results": [
+      {
+        "measure": "随访检查数",
+        "groups": "第 24 周 18/18；第 36 周 15/18；第 48 周 14/18",
+        "effect_ci": "原文未给出",
+        "p": "原文未给出"
+      },
+      {
+        "measure": "粪便 FCoV 再次排毒",
+        "groups": "5 只",
+        "effect_ci": "原文未给出",
+        "p": "原文未给出"
+      },
+      {
+        "measure": "类猫感觉过敏综合征表现",
+        "groups": "2 只",
+        "effect_ci": "原文未给出",
+        "p": "原文未给出"
+      }
+    ],
+    "confidence_sentence": "本文为前瞻性随访研究，CEBM 4 级，无对应偏倚工具，结论基于全文。"
+  },
+  {
+    "pmid": "37439383",
+    "doi": "10.1111/jvim.16803",
+    "id": "37439383",
+    "matched_by": "pmid",
+    "title_zh": "FIP：瑞德西韦注射转口服，6 个月存活 86%",
+    "one_line_conclusion_zh": "28 只 FIP 猫瑞德西韦注射诱导，再用瑞德西韦或口服 GS-441524 维持，6 个月存活 86%。",
+    "why_it_matters": null,
+    "key_results": [
+      {
+        "measure": "6 个月存活",
+        "groups": "24/28（86%）",
+        "effect_ci": "原文未给出",
+        "p": "原文未给出"
+      },
+      {
+        "measure": "排除 48 小时内死亡后",
+        "groups": "24/25（96%）",
+        "effect_ci": "原文未给出",
+        "p": "原文未给出"
+      },
+      {
+        "measure": "第 84 天缓解并完成治疗",
+        "groups": "15/25（60%）",
+        "effect_ci": "原文未给出",
+        "p": "原文未给出"
+      }
+    ],
+    "confidence_sentence": "本文为前瞻性单臂研究，CEBM 4 级，无对应偏倚工具，结论基于全文。"
+  },
+  {
+    "pmid": "37403259",
+    "doi": "10.1111/jvim.16804",
+    "id": "37403259",
+    "matched_by": "pmid",
+    "title_zh": "FIP：瑞德西韦加 GS-441524，缓解 81%",
+    "one_line_conclusion_zh": "32 只 FIP 猫（含眼部和神经型）用瑞德西韦加口服 GS-441524，12 周末 81% 临床和生化缓解。",
+    "why_it_matters": null,
+    "key_results": [
+      {
+        "measure": "12 周缓解",
+        "groups": "26/32（81.3%）",
+        "effect_ci": "原文未给出",
+        "p": "原文未给出"
+      },
+      {
+        "measure": "临床起效",
+        "groups": "28/32（87.5%），中位 2 天（1–5）",
+        "effect_ci": "原文未给出",
+        "p": "原文未给出"
+      },
+      {
+        "measure": "治疗中死亡/安乐死",
+        "groups": "6/32（18.8%），其中 4 只在 3 天内",
+        "effect_ci": "原文未给出",
+        "p": "原文未给出"
+      },
+      {
+        "measure": "第 12 周 ALT >60 U/L",
+        "groups": "6/18（33%）",
+        "effect_ci": "原文未给出",
+        "p": "原文未给出"
+      }
+    ],
+    "confidence_sentence": "本文为回顾性病例系列，CEBM 4 级，无对应偏倚工具，结论基于全文。"
+  },
+  {
+    "pmid": "36297266",
+    "doi": "10.3390/pathogens11101209",
+    "id": "36297266",
+    "matched_by": "pmid",
+    "title_zh": "FIP：GS-441524 失败后，莫努匹韦挽救有效",
+    "one_line_conclusion_zh": "26 只 GS-441524 治疗失败的 FIP 猫改用非正规莫努匹韦，24 只无病存活；数据来自主人报告。",
+    "why_it_matters": null,
+    "key_results": [
+      {
+        "measure": "挽救治疗后无病存活",
+        "groups": "24/26",
+        "effect_ci": "原文未给出",
+        "p": "原文未给出"
+      },
+      {
+        "measure": "2 周内症状改善（主人报告）",
+        "groups": "84.6%",
+        "effect_ci": "原文未给出",
+        "p": "原文未给出"
+      },
+      {
+        "measure": "一线使用（4 只）",
+        "groups": "全部存活、无病",
+        "effect_ci": "原文未给出",
+        "p": "原文未给出"
+      },
+      {
+        "measure": "疗程：挽救 vs 一线",
+        "groups": "中位 12 vs 11.5 周",
+        "effect_ci": "原文未给出",
+        "p": "0.692"
+      }
+    ],
+    "confidence_sentence": "本文为回顾性病例系列（主人报告），CEBM 4 级，无对应偏倚工具，结论基于全文。"
+  },
+  {
+    "pmid": "34835034",
+    "doi": "10.3390/v13112228",
+    "id": "34835034",
+    "matched_by": "pmid",
+    "title_zh": "口服 GS-441524 制剂：18 只 FIP 猫全愈",
+    "one_line_conclusion_zh": "18 只 FIP 猫口服含 GS-441524 的 Xraphconn 84 天，全部康复，未见严重不良反应。",
+    "why_it_matters": null,
+    "key_results": [
+      {
+        "measure": "康复",
+        "groups": "18/18",
+        "effect_ci": "原文未给出",
+        "p": "原文未给出"
+      },
+      {
+        "measure": "血液病毒载量",
+        "groups": "治疗 2–4 天内全部大幅下降（基线 15/18 可检出）",
+        "effect_ci": "原文未给出",
+        "p": "原文未给出"
+      },
+      {
+        "measure": "ALT 升高",
+        "groups": "7/18（38.9%），2 只重度",
+        "effect_ci": "原文未给出",
+        "p": "原文未给出"
+      },
+      {
+        "measure": "嗜酸性粒细胞增多（轻度）",
+        "groups": "11/18（61.1%）",
+        "effect_ci": "原文未给出",
+        "p": "原文未给出"
+      }
+    ],
+    "confidence_sentence": "本文为前瞻性单臂研究，CEBM 4 级，无对应偏倚工具，结论基于全文。"
+  },
+  {
+    "pmid": "32441826",
+    "doi": "10.1111/jvim.15780",
+    "id": "32441826",
+    "matched_by": "pmid",
+    "title_zh": "神经型 FIP：GS-441524 可长期缓解，需更高剂量",
+    "one_line_conclusion_zh": "4 只神经型 FIP 猫用 GS-441524 治疗 ≥12 周，3 只停药后长期正常；所需剂量可能高于非神经型。",
+    "why_it_matters": null,
+    "key_results": [
+      {
+        "measure": "停药后长期正常",
+        "groups": "3/4",
+        "effect_ci": "原文未给出",
+        "p": "原文未给出"
+      },
+      {
+        "measure": "剂量",
+        "groups": "5–10 mg/kg",
+        "effect_ci": "原文未给出",
+        "p": "原文未给出"
+      }
+    ],
+    "confidence_sentence": "本文为病例系列，CEBM 4 级，无对应偏倚工具，结论基于全文。"
+  },
+  {
+    "pmid": "30755068",
+    "doi": "10.1177/1098612x19825701",
+    "id": "30755068",
+    "matched_by": "pmid",
+    "title_zh": "GS-441524 首个现场试验：25 只长期存活",
+    "one_line_conclusion_zh": "31 只 FIP 猫注射 GS-441524，18 只一轮治愈，复发者加量后共 25 只长期存活。",
+    "why_it_matters": "这是 GS-441524 治疗自然发病 FIP 的首个前瞻性研究，标志着 FIP 从绝症变为可治。它确立了 4 mg/kg 皮下注射 12 周的早期方案，但未纳入神经和眼部重症，也没有对照组。",
+    "key_results": [
+      {
+        "measure": "早期死亡/安乐死",
+        "groups": "前 2–5 天 4 只；第 26 天 1 只",
+        "effect_ci": "原文未给出",
+        "p": "原文未给出"
+      },
+      {
+        "measure": "一轮治疗后保持健康",
+        "groups": "18/26",
+        "effect_ci": "原文未给出",
+        "p": "原文未给出"
+      },
+      {
+        "measure": "复发",
+        "groups": "8/26（2 只为神经型复发）",
+        "effect_ci": "原文未给出",
+        "p": "原文未给出"
+      },
+      {
+        "measure": "持续缓解",
+        "groups": "25/26（其中 1 只后来死于无关心脏病）",
+        "effect_ci": "原文未给出",
+        "p": "原文未给出"
+      }
+    ],
+    "confidence_sentence": "本文为前瞻性单臂现场试验，CEBM 4 级，无对应偏倚工具，结论基于全文。"
+  },
+  {
+    "pmid": "30543707",
+    "doi": "10.1371/journal.pone.0209112",
+    "id": "30543707",
+    "matched_by": "pmid",
+    "title_zh": "金毛 DCM 与牛磺酸缺乏和无谷粮相关",
+    "one_line_conclusion_zh": "24 只牛磺酸缺乏的 DCM 金毛中 23 只吃无谷或豆类饮食，换粮加补牛磺酸后 23 只超声改善。",
+    "why_it_matters": "这是引发 FDA 调查“无谷粮与犬 DCM”的关键病例系列，提示金毛 DCM 应查血牛磺酸并询问饮食史。研究没有对照组，样本只有 24 只，不能证明无谷粮导致 DCM。",
+    "key_results": [
+      {
+        "measure": "无谷、富豆类或两者兼有的饮食",
+        "groups": "23/24",
+        "effect_ci": "原文未给出",
+        "p": "原文未给出"
+      },
+      {
+        "measure": "换粮+补牛磺酸后超声改善且牛磺酸恢复",
+        "groups": "23/24",
+        "effect_ci": "原文未给出",
+        "p": "原文未给出"
+      },
+      {
+        "measure": "CHF 充血缓解",
+        "groups": "9/11（5 只停用利尿剂，4 只减量 >50%）",
+        "effect_ci": "原文未给出",
+        "p": "原文未给出"
+      }
+    ],
+    "confidence_sentence": "本文为病例系列，CEBM 4 级，无对应偏倚工具，结论基于全文。"
+  },
+  {
+    "pmid": "30797439",
+    "doi": "10.1016/j.jvc.2018.11.002",
+    "id": "30797439",
+    "matched_by": "pmid",
+    "title_zh": "DCM 犬：吃无谷粮者心脏更大，换粮后部分改善",
+    "one_line_conclusion_zh": "48 只 DCM 犬中，吃无谷粮（尤其最常见品牌）的犬左室更大；7 只换粮后改善，其中 6 只补了牛磺酸。",
+    "why_it_matters": null,
+    "key_results": [
+      {
+        "measure": "换粮后复查改善",
+        "groups": "7 只（6 只补牛磺酸）",
+        "effect_ci": "摘要未给出",
+        "p": "摘要未给出"
+      }
+    ],
+    "confidence_sentence": "本文为回顾性队列，CEBM 4 级，无对应偏倚工具，结论基于摘要。"
+  },
+  {
+    "pmid": "28901812",
+    "doi": "10.1177/1098612x17729626",
+    "id": "28901812",
+    "matched_by": "pmid",
+    "title_zh": "GC376 治疗 FIP：短期有效，多数复发",
+    "one_line_conclusion_zh": "20 只 FIP 猫用 GC376，19 只 2 周内好转，但 13 只复发且不再有效；最终 7 只缓解。",
+    "why_it_matters": null,
+    "key_results": [
+      {
+        "measure": "治疗 1–4 周内明显好转",
+        "groups": "19/20",
+        "effect_ci": "原文未给出",
+        "p": "原文未给出"
+      },
+      {
+        "measure": "复发致死",
+        "groups": "13 只（停药 0–7 周后，含神经型）",
+        "effect_ci": "原文未给出",
+        "p": "原文未给出"
+      },
+      {
+        "measure": "12 周后持续缓解",
+        "groups": "7 只（图 2 图注写 6 只）",
+        "effect_ci": "原文未给出",
+        "p": "原文未给出"
+      },
+      {
+        "measure": "死亡猫尸检",
+        "groups": "12/13 只送检",
+        "effect_ci": "原文未给出",
+        "p": "原文未给出"
+      }
+    ],
+    "confidence_sentence": "本文为前瞻性单臂现场试验，CEBM 4 级，无对应偏倚工具，结论基于全文。"
+  },
+  {
+    "pmid": "28152671",
+    "doi": "10.1177/1098612x17691896",
+    "id": "28152671",
+    "matched_by": "pmid",
+    "title_zh": "HCM 猫：常规超声正常时，应变已下降",
+    "one_line_conclusion_zh": "单中心 32 只 HCM 猫中，常规超声收缩功能正常时，纵向和径向应变已比健康猫低。",
+    "why_it_matters": null,
+    "key_results": [
+      {
+        "measure": "纵向应变（中位）",
+        "groups": "对照 −22.5%；无症状 HCM −17.6%",
+        "effect_ci": "摘要未给出",
+        "p": "0.014"
+      }
+    ],
+    "confidence_sentence": "本文为横断面/小样本探索，CEBM 4 级，QUADAS-2 尚未评估偏倚风险，结论基于摘要。"
+  },
+  {
+    "pmid": "27103204",
+    "doi": "10.1111/jvim.13942",
+    "id": "27103204",
+    "matched_by": "pmid",
+    "title_zh": "犬 CKD：SDMA 平均比肌酐早约 10 个月升高",
+    "one_line_conclusion_zh": "19 只 CKD 犬中 17 只 SDMA 早于肌酐升高，平均提前 9.8 个月。",
+    "why_it_matters": "说明 SDMA 能比肌酐更早提示犬 CKD，是 IRIS 把 SDMA 纳入分期的主要依据之一。样本仅 19 只 CKD 犬，来自 Hill's 研究犬群，资助方和作者涉及饲料与检测厂商，外推需谨慎。",
+    "key_results": [
+      {
+        "measure": "SDMA 先于肌酐升高",
+        "groups": "17/19 只；平均提前 9.8 个月（范围 2.2–27.0）",
+        "effect_ci": "原文未给出",
+        "p": "原文未给出"
+      },
+      {
+        "measure": "肌酐生前始终未超参考区间",
+        "groups": "10/19 只（靠尸检诊断 CKD）",
+        "effect_ci": "原文未给出",
+        "p": "原文未给出"
+      },
+      {
+        "measure": "SDMA 首次升高时 IRIS 分期",
+        "groups": "1 期（非氮质血症）17/19；2 期 2/19",
+        "effect_ci": "原文未给出",
+        "p": "原文未给出"
+      },
+      {
+        "measure": "肌酐与 GFR（二次关系）",
+        "groups": "r = −0.89",
+        "effect_ci": "原文未给出",
+        "p": "<0.0001"
+      }
+    ],
+    "confidence_sentence": "本文为回顾性诊断研究，CEBM 4 级，QUADAS-2 尚未评估偏倚风险，结论基于全文。"
+  },
+  {
+    "pmid": "26079532",
+    "doi": "10.1111/jvim.12835",
+    "id": "26079532",
+    "matched_by": "pmid",
+    "title_zh": "遗传性肾病犬：SDMA 比肌酐更早发现 GFR 下降",
+    "one_line_conclusion_zh": "在 8 只 X 连锁遗传性肾病公犬中，SDMA 平均在 GFR 下降不到 20% 时即升高，无论用哪种判读方法都早于血清肌酐；以 ≥14 μg/dL 为界，平均早于肌酐 4.8 周（此时 GFR 平均下降 8%，肌酐超界时为 48%），但该界值在一只健康同窝犬中也多次超出，改用 ≥16 μg/dL 仍平均早 3.4 周。",
+    "why_it_matters": null,
+    "key_results": [
+      {
+        "measure": "SDMA 与 GFR 相关（患犬）",
+        "groups": "r = −0.95（n=83 个样本点）",
+        "effect_ci": "95% CI −1 至 −0.72",
+        "p": "原文未给出"
+      },
+      {
+        "measure": "SDMA 与肌酐相关（患犬）",
+        "groups": "r = 0.95（n=329）",
+        "effect_ci": "95% CI 0.87–1",
+        "p": "原文未给出"
+      },
+      {
+        "measure": "SDMA ≥14 μg/dL 界值 vs 肌酐界值",
+        "groups": "SDMA 平均早 4.8 周（早于 GFR 下降 4.1 周）；超界时 GFR 平均降 8%（−6–24%） vs 肌酐 48%（39–68%）",
+        "effect_ci": "原文未给出",
+        "p": "原文未给出"
+      },
+      {
+        "measure": "SDMA ≥16 μg/dL 界值（敏感性分析）",
+        "groups": "平均早于肌酐 3.4 周、早于 GFR 2.75 周；GFR 平均降 16%（−6–35%）",
+        "effect_ci": "原文未给出",
+        "p": "原文未给出"
+      },
+      {
+        "measure": "SDMA≥14 vs SDMA 趋势法",
+        "groups": "趋势法同时（5 只）或晚 1–3 周（3 只）——这是 SDMA 两种判读方法之间的比较，不是与肌酐比较",
+        "effect_ci": "原文未给出",
+        "p": "原文未给出"
+      },
+      {
+        "measure": "SDMA 样本稳定性",
+        "groups": "不同采血管、温度、冻融差异均在 ±10% 内",
+        "effect_ci": "差值 CI ±1.6%–8.4%",
+        "p": "原文未给出"
+      }
+    ],
+    "confidence_sentence": "本文为前瞻性诊断/方法学验证，CEBM 4 级，QUADAS-2 尚未评估偏倚风险，结论基于全文。"
+  },
+  {
+    "pmid": "25673019",
+    "doi": "10.1177/1098612x15572416",
+    "id": "25673019",
+    "matched_by": "pmid",
+    "title_zh": "甲亢猫病程越长，肿瘤越大、疑似癌越多",
+    "one_line_conclusion_zh": "2096 只甲亢猫中，病程越长 T4 越高、肿瘤越大，疑似甲状腺癌从 0.5% 升至 25.8%；横断面设计。",
+    "why_it_matters": "这项研究支持对甲亢猫尽早做根治性治疗（放射碘或手术），而不是长期只吃药。但它是横断面研究，样本来自转诊放射碘中心，不能证明病程长会导致恶变，阅读时请结合原文的研究对象和方法。",
+    "key_results": [
+      {
+        "measure": "T4 中位数",
+        "groups": "100 → 315 nmol/L（≤1 年 → >4–6.1 年）；与病程 r=0.47",
+        "effect_ci": "原文未给出",
+        "p": "<0.001"
+      },
+      {
+        "measure": "肿瘤体积",
+        "groups": "中位 1.6 → 6.4 cm³；与病程 r=0.58",
+        "effect_ci": "原文未给出",
+        "p": "<0.0001"
+      },
+      {
+        "measure": "多灶性病变",
+        "groups": "2.7% → 22.6%",
+        "effect_ci": "原文未给出",
+        "p": "<0.0001"
+      },
+      {
+        "measure": "疑似甲状腺癌",
+        "groups": "0.5% → 25.8%（其中 SHIM-RAD 亚组 0.4% → 19.3%）",
+        "effect_ci": "原文未给出",
+        "p": "<0.001"
+      }
+    ],
+    "confidence_sentence": "本文为病例系列（病理），CEBM 4 级，无对应偏倚工具，结论基于全文。"
+  },
+  {
+    "pmid": "3616607",
+    "doi": "10.1126/science.3616607",
+    "id": "3616607",
+    "matched_by": "pmid",
+    "title_zh": "猫扩张型心肌病与牛磺酸缺乏有关，补充后可逆",
+    "one_line_conclusion_zh": "低血浆牛磺酸与猫心肌衰竭相关，补充牛磺酸后左室功能恢复正常。",
+    "why_it_matters": "这项研究使商品猫粮普遍添加牛磺酸，猫营养性 DCM 因此大幅减少，至今仍是“饮食相关 DCM”的经典参照。样本只有 21 只，发表于 1987 年，结论只适用于猫。",
+    "key_results": [
+      {
+        "measure": "实验低牛磺酸饲喂心衰",
+        "groups": "2/11",
+        "effect_ci": "摘要未给出",
+        "p": "摘要未给出"
+      }
+    ],
+    "confidence_sentence": "本文为实验，CEBM 4 级，SYRCLE 尚未评估偏倚风险，结论基于摘要。"
+  },
+  {
+    "pmid": "41701235",
+    "doi": "10.1007/s11259-026-11088-5",
+    "id": "41701235",
+    "matched_by": "pmid",
+    "title_zh": "犬 CKD：UPC 显著高于健康犬，但有发表偏倚",
+    "one_line_conclusion_zh": "9 项研究 891 只犬的 Meta 分析显示，CKD 犬 UPC 显著高于健康犬，但异质性大、存在明显发表偏倚。",
+    "why_it_matters": null,
+    "key_results": [
+      {
+        "measure": "UPC 合并效应",
+        "groups": "—",
+        "effect_ci": "SMD 0.85（95% CI 0.53–1.17）",
+        "p": "摘要未给出"
+      },
+      {
+        "measure": "OR",
+        "groups": "—",
+        "effect_ci": "2.93（95% CI 2.26–3.82）",
+        "p": "<0.001"
+      },
+      {
+        "measure": "异质性",
+        "groups": "—",
+        "effect_ci": "I² 73.79%",
+        "p": "摘要未给出"
+      }
+    ],
+    "confidence_sentence": "本文为系统综述/Meta分析，CEBM 等级未核、AMSTAR 2未评，结论基于摘要，证据强度取决于纳入研究质量。"
+  },
+  {
+    "pmid": "41527203",
+    "doi": "10.1002/vetr.70216",
+    "id": "41527203",
+    "matched_by": "pmid",
+    "title_zh": "SDMA 诊断犬猫 CKD：准确性仍不确定",
+    "one_line_conclusion_zh": "11 项研究的系统综述：SDMA 诊断犬猫 CKD 的研究异质性大，9 项高偏倚风险，尚不能确定优于肌酐。",
+    "why_it_matters": "这篇系统综述直接挑战了“SDMA 比肌酐更早、更准”的流行说法，并提示可能导致过度诊断。读 SDMA 原始研究（如 Hall 2014、2016）时应配合这篇一起看。综述本身的部分步骤未由两人独立完成。",
+    "key_results": [
+      {
+        "measure": "纳入研究",
+        "groups": "猫 5 项（481 只）；犬 6 项（460 只）",
+        "effect_ci": "摘要未给出",
+        "p": "摘要未给出"
+      },
+      {
+        "measure": "高偏倚风险",
+        "groups": "9/11",
+        "effect_ci": "摘要未给出",
+        "p": "摘要未给出"
+      }
+    ],
+    "confidence_sentence": "本文为系统综述，CEBM 等级未核、AMSTAR 2未评，结论基于摘要，证据强度取决于纳入研究质量。"
+  },
+  {
+    "pmid": "40941356",
+    "doi": "10.3390/ani15172561",
+    "id": "40941356",
+    "matched_by": "pmid",
+    "title_zh": "猫糖尿病口服药：SGLT2 抑制剂证据最多",
+    "one_line_conclusion_zh": "猫非胰岛素降糖药系统综述：SGLT2 抑制剂证据最多，但有正常血糖性 DKA 风险；传统口服药证据质量低。",
+    "why_it_matters": null,
+    "key_results": [
+      {
+        "measure": "纳入研究",
+        "groups": "20 项（糖尿病猫 10 项、高危/实验模型 10 项）",
+        "effect_ci": "原文未给出",
+        "p": "原文未给出"
+      },
+      {
+        "measure": "SGLT2 抑制剂（贝格列净、维格列净）",
+        "groups": "治疗成功率高、对胰岛素非劣效，但有正常血糖型 DKA 风险",
+        "effect_ci": "原文未给出",
+        "p": "原文未给出"
+      },
+      {
+        "measure": "传统药（格列吡嗪、二甲双胍、阿卡波糖）",
+        "groups": "疗效有限，证据偏倚风险高",
+        "effect_ci": "原文未给出",
+        "p": "原文未给出"
+      }
+    ],
+    "confidence_sentence": "本文为系统综述（未做 Meta 分析），CEBM 4 级（治疗获益）、AMSTAR 2 总体置信度极低，结论基于全文，证据强度取决于纳入研究质量。"
+  },
+  {
+    "pmid": "40732763",
+    "doi": "10.3390/pathogens14070717",
+    "id": "40732763",
+    "matched_by": "pmid",
+    "title_zh": "GS-441524 治 FIP 系统综述：成功率 85%",
+    "one_line_conclusion_zh": "650 只 FIP 猫系统综述：GS-441524 成功率 84.6%，积液型和神经型较低，缺乏 RCT。",
+    "why_it_matters": null,
+    "key_results": [
+      {
+        "measure": "总体治疗成功率",
+        "groups": "550/650（84.6%）",
+        "effect_ci": "原文未给出",
+        "p": "原文未给出"
+      },
+      {
+        "measure": "首轮即缓解",
+        "groups": "524/650（80.6%）",
+        "effect_ci": "原文未给出",
+        "p": "原文未给出"
+      },
+      {
+        "measure": "未缓解死亡",
+        "groups": "72/650（11.1%）",
+        "effect_ci": "原文未给出",
+        "p": "原文未给出"
+      },
+      {
+        "measure": "积液型首轮缓解",
+        "groups": "148/202（73.3%）",
+        "effect_ci": "原文未给出",
+        "p": "原文未给出"
+      }
+    ],
+    "confidence_sentence": "本文为系统综述，CEBM 等级未核、AMSTAR 2未评，结论基于全文，证据强度取决于纳入研究质量。"
+  },
+  {
+    "pmid": "40633571",
+    "doi": "10.1038/s41586-025-09340-0",
+    "id": "40633571",
+    "matched_by": "pmid",
+    "title_zh": "塞浦路斯 FIP 暴发：猫犬冠状病毒重组株所致",
+    "one_line_conclusion_zh": "塞浦路斯 FIP 快速暴发由高致病性猫—犬冠状病毒重组株引起，可在猫间直接传播。",
+    "why_it_matters": null,
+    "key_results": [
+      {
+        "measure": "S 区与犬冠状病毒 NA/09 同源性",
+        "groups": "96.5%",
+        "effect_ci": "原文未给出",
+        "p": "原文未给出"
+      },
+      {
+        "measure": "病例中神经型占比",
+        "groups": "26.05%",
+        "effect_ci": "原文未给出",
+        "p": "原文未给出"
+      },
+      {
+        "measure": "非积液型占比",
+        "groups": "10.23%",
+        "effect_ci": "原文未给出",
+        "p": "原文未给出"
+      }
+    ],
+    "confidence_sentence": "本文为分子流行病学/基因组研究，不属于 CEBM 分级对象；结论基于全文，不能直接用于临床决策。"
+  },
+  {
+    "pmid": "34758043",
+    "doi": "10.1371/journal.pone.0257611",
+    "id": "34758043",
+    "matched_by": "pmid",
+    "title_zh": "猫能根据声音推断看不见的主人位置",
+    "one_line_conclusion_zh": "主人声音突然从另一个位置出现时，猫表现得最“惊讶”，说明猫能在心里表征看不见的主人位置。",
+    "why_it_matters": null,
+    "key_results": [
+      {
+        "measure": "主要结局",
+        "groups": "摘要未给出",
+        "effect_ci": "摘要未给出",
+        "p": "摘要未给出"
+      }
+    ],
+    "confidence_sentence": "本文为实验，不属于 CEBM 分级对象，SYRCLE 未评偏倚；结论基于摘要，不能直接用于临床决策。"
+  },
+  {
+    "pmid": "31550468",
+    "doi": "10.1016/j.cub.2019.08.036",
+    "id": "31550468",
+    "matched_by": "pmid",
+    "title_zh": "猫对主人有类似婴儿的依恋",
+    "one_line_conclusion_zh": "按人类婴儿的行为标准，猫对照护者表现出不同的依恋风格，与犬和婴儿相似。",
+    "why_it_matters": null,
+    "key_results": [
+      {
+        "measure": "主要结局",
+        "groups": "摘要未给出",
+        "effect_ci": "摘要未给出",
+        "p": "摘要未给出"
+      }
+    ],
+    "confidence_sentence": "本文为实验，不属于 CEBM 分级对象，SYRCLE 未评偏倚；结论基于摘要，不能直接用于临床决策。"
+  },
+  {
+    "pmid": "31554584",
+    "doi": "10.1016/j.tvjl.2019.105343",
+    "id": "31554584",
+    "matched_by": "pmid",
+    "title_zh": "犬库欣诊断试验：没有真正的金标准",
+    "one_line_conclusion_zh": "叙述性综述：犬库欣没有真正的参考标准，需综合临床表现和多项肾上腺功能试验判断。",
+    "why_it_matters": null,
+    "key_results": [
+      {
+        "measure": "主要结局",
+        "groups": "摘要未给出",
+        "effect_ci": "摘要未给出",
+        "p": "摘要未给出"
+      }
+    ],
+    "confidence_sentence": "本文为叙述性综述，不属于 CEBM 分级对象；结论基于摘要，不能直接用于临床决策。"
+  },
+  {
+    "pmid": "31076940",
+    "doi": "10.1007/s10071-019-01265-2",
+    "id": "31076940",
+    "matched_by": "pmid",
+    "title_zh": "猫咖的猫能把主人的声音和脸对上",
+    "one_line_conclusion_zh": "猫咖的猫在声音与面孔不一致时注视更久，说明能把主人声音和面孔对应起来；家养猫无此表现。",
+    "why_it_matters": null,
+    "key_results": [
+      {
+        "measure": "主要结局",
+        "groups": "摘要未给出",
+        "effect_ci": "摘要未给出",
+        "p": "摘要未给出"
+      }
+    ],
+    "confidence_sentence": "本文为实验，不属于 CEBM 分级对象，SYRCLE 未评偏倚；结论基于摘要，不能直接用于临床决策。"
+  },
+  {
+    "pmid": "30948740",
+    "doi": "10.1038/s41598-019-40616-4",
+    "id": "30948740",
+    "matched_by": "pmid",
+    "title_zh": "猫能分辨自己的名字",
+    "one_line_conclusion_zh": "猫能把自己的名字和发音相近的普通词区分开，即使由陌生人呼唤也如此。",
+    "why_it_matters": null,
+    "key_results": [
+      {
+        "measure": "实验 1：自己名字 vs 普通名词",
+        "groups": "11 只习惯化的猫对自己名字反应增强",
+        "effect_ci": "F(1,10)=11.18",
+        "p": "0.007"
+      },
+      {
+        "measure": "实验 4：陌生人呼名",
+        "groups": "20 只习惯化的猫对自己名字反应增强",
+        "effect_ci": "F(1,19)=4.41",
+        "p": "0.049"
+      },
+      {
+        "measure": "习惯化成功率：普通家庭 vs 猫咖",
+        "groups": "6/24 vs 9/10",
+        "effect_ci": "χ²=9.60",
+        "p": "0.002"
+      }
+    ],
+    "confidence_sentence": "本文为实验，不属于 CEBM 分级对象，SYRCLE SYRCLE 不出总体判断；结论基于全文，不能直接用于临床决策。"
+  },
+  {
+    "pmid": "30451613",
+    "doi": "10.2460/javma.253.11.1390",
+    "id": "30451613",
+    "matched_by": "pmid",
+    "title_zh": "犬饮食相关 DCM：目前知道什么",
+    "one_line_conclusion_zh": "叙述性综述，题为“犬饮食相关扩张型心肌病：我们知道什么？”；本库只有题录，无法给出结论。",
+    "why_it_matters": null,
+    "key_results": [
+      {
+        "measure": "主要结局",
+        "groups": "摘要未给出",
+        "effect_ci": "摘要未给出",
+        "p": "摘要未给出"
+      }
+    ],
+    "confidence_sentence": "本文为叙述性综述，不属于 CEBM 分级对象；结论基于摘要，不能直接用于临床决策。"
+  },
+  {
+    "pmid": "29538681",
+    "doi": "10.1093/jhered/esy012",
+    "id": "29538681",
+    "matched_by": "pmid",
+    "title_zh": "催产素受体基因型与缉毒犬训练成功率相关",
+    "one_line_conclusion_zh": "340 只拉布拉多中，OXTR 基因携带 C 等位基因的犬缉毒训练成功率更高。",
+    "why_it_matters": null,
+    "key_results": [
+      {
+        "measure": "样本",
+        "groups": "340 只拉布拉多",
+        "effect_ci": "摘要未给出",
+        "p": "摘要未给出"
+      }
+    ],
+    "confidence_sentence": "本文为关联研究，不属于 CEBM 分级对象，SYRCLE 未评偏倚；结论基于摘要，不能直接用于临床决策。"
+  },
+  {
+    "pmid": "29778200",
+    "doi": "10.1016/j.vetmic.2018.04.026",
+    "id": "29778200",
+    "matched_by": "pmid",
+    "title_zh": "GS-441524 在细胞和实验猫中抑制 FIPV",
+    "one_line_conclusion_zh": "GS-441524 在细胞中强效抑制 FIPV；实验感染的 10 只猫治疗 2 周后全部恢复正常。",
+    "why_it_matters": null,
+    "key_results": [
+      {
+        "measure": "细胞毒性 CC50",
+        "groups": ">100 μM",
+        "effect_ci": "原文未给出",
+        "p": "原文未给出"
+      },
+      {
+        "measure": "细胞中 EC50",
+        "groups": "约 1 μM",
+        "effect_ci": "原文未给出",
+        "p": "原文未给出"
+      },
+      {
+        "measure": "实验感染猫恢复",
+        "groups": "10/10（2 周疗程）",
+        "effect_ci": "原文未给出",
+        "p": "原文未给出"
+      }
+    ],
+    "confidence_sentence": "本文为体外与实验感染研究，不属于 CEBM 分级对象，SYRCLE 未评偏倚；结论基于全文，不能直接用于临床决策。"
+  },
+  {
+    "pmid": "29326623",
+    "doi": "10.3389/fpsyg.2017.02165",
+    "id": "29326623",
+    "matched_by": "pmid",
+    "title_zh": "猫友好性与催产素受体（OXTR）基因多态性相关",
+    "one_line_conclusion_zh": "猫的友好性评分与受体基因邻近的微卫星多态性存在关联，但作者自称仅“边缘显著”。",
+    "why_it_matters": null,
+    "key_results": [
+      {
+        "measure": "OXTR 邻近微卫星多态性与友好性评分",
+        "groups": "140 只猫（混种 100、纯种 40）；作者称仅边缘显著",
+        "effect_ci": "—",
+        "p": "—"
+      }
+    ],
+    "confidence_sentence": "本文为关联研究，CEBM 4 级，无对应偏倚工具，结论基于全文。"
+  },
+  {
+    "pmid": "28460795",
+    "doi": "10.1016/j.jcpa.2017.03.006",
+    "id": "28460795",
+    "matched_by": "pmid",
+    "title_zh": "肥胖与糖尿病：猫有关联，犬未见",
+    "one_line_conclusion_zh": "叙述性综述：肥胖是人和猫 2 型糖尿病的重要风险因素，犬中未发现这一关联。",
+    "why_it_matters": null,
+    "key_results": [
+      {
+        "measure": "主要结局",
+        "groups": "摘要未给出",
+        "effect_ci": "摘要未给出",
+        "p": "摘要未给出"
+      }
+    ],
+    "confidence_sentence": "本文为叙述性综述，不属于 CEBM 分级对象；结论基于摘要，不能直接用于临床决策。"
+  },
+  {
+    "pmid": "26915425",
+    "doi": "10.1016/j.beproc.2016.02.013",
+    "id": "26915425",
+    "matched_by": "pmid",
+    "title_zh": "主人直视时，犬更多呜咽和看主人",
+    "one_line_conclusion_zh": "主人直视犬时，犬呜咽和注视主人的时间更长，扒挠和靠近无差异。",
+    "why_it_matters": null,
+    "key_results": [
+      {
+        "measure": "主要结局",
+        "groups": "摘要未给出",
+        "effect_ci": "摘要未给出",
+        "p": "摘要未给出"
+      }
+    ],
+    "confidence_sentence": "本文为实验，不属于 CEBM 分级对象，SYRCLE 未评偏倚；结论基于摘要，不能直接用于临床决策。"
+  },
+  {
+    "pmid": "26776594",
+    "doi": "10.1016/j.jvc.2015.03.001",
+    "id": "26776594",
+    "matched_by": "pmid",
+    "title_zh": "猫 HCM 遗传基础：已知突变只在 MYBPC3",
+    "one_line_conclusion_zh": "叙述性综述：猫 HCM 已知致病突变都在 MYBPC3（缅因猫 A31P、布偶猫 R820W），缅因猫携带率约 34%。",
+    "why_it_matters": null,
+    "key_results": [
+      {
+        "measure": "猫 HCM 已知突变",
+        "groups": "MYBPC3 A31P（缅因猫）、R820W（布偶猫）",
+        "effect_ci": "原文未给出",
+        "p": "原文未给出"
+      },
+      {
+        "measure": "缅因猫 A31P 携带率",
+        "groups": "34%（引自单项研究），约 10% 为纯合（约占群体 3%）；另两项研究为 32%、41%",
+        "effect_ci": "原文未给出",
+        "p": "原文未给出"
+      }
+    ],
+    "confidence_sentence": "本文为叙述性综述，不属于 CEBM 分级对象；结论基于全文，不能直接用于临床决策。"
+  },
+  {
+    "pmid": "25883356",
+    "doi": "10.1126/science.1261022",
+    "id": "25883356",
+    "matched_by": "pmid",
+    "title_zh": "犬与主人对视形成催产素正反馈",
+    "one_line_conclusion_zh": "犬（狼不会）注视主人可提高主人尿催产素，鼻喷催产素又增加犬的注视，提示存在跨物种正反馈。",
+    "why_it_matters": null,
+    "key_results": [
+      {
+        "measure": "主要结局",
+        "groups": "摘要未给出",
+        "effect_ci": "摘要未给出",
+        "p": "摘要未给出"
+      }
+    ],
+    "confidence_sentence": "本文为实验，不属于 CEBM 分级对象，SYRCLE 未评偏倚；结论基于摘要，不能直接用于临床决策。"
+  },
+  {
+    "pmid": "23522175",
+    "doi": "10.1016/j.cvsm.2012.12.004",
+    "id": "23522175",
+    "matched_by": "pmid",
+    "title_zh": "猫糖尿病：部分由肢端肥大或库欣引起",
+    "one_line_conclusion_zh": "叙述性综述：相当比例的糖尿病猫由生长激素过多（肢端肥大）或库欣引起，诊疗不同于 2 型样糖尿病。",
+    "why_it_matters": null,
+    "key_results": [
+      {
+        "measure": "主要结局",
+        "groups": "摘要未给出",
+        "effect_ci": "摘要未给出",
+        "p": "摘要未给出"
+      }
+    ],
+    "confidence_sentence": "本文为叙述性综述，不属于 CEBM 分级对象；结论基于摘要，不能直接用于临床决策。"
+  },
+  {
+    "pmid": "16236761",
+    "doi": "10.1093/hmg/ddi386",
+    "id": "16236761",
+    "matched_by": "pmid",
+    "title_zh": "缅因猫家族性 HCM：发现 MYBPC3 致病突变",
+    "one_line_conclusion_zh": "在缅因猫家族性 HCM 中发现 MYBPC3 单碱基突变，是首个非人类物种自发致 HCM 的突变。",
+    "why_it_matters": "这一发现催生了缅因猫 A31P 基因检测，繁育者据此筛查种猫。但携带突变不等于必然发病，外显率随年龄变化，其他品种的 HCM 多与此突变无关，检测阴性不能排除 HCM。",
+    "key_results": [
+      {
+        "measure": "主要结局",
+        "groups": "摘要未给出",
+        "effect_ci": "摘要未给出",
+        "p": "摘要未给出"
+      }
+    ],
+    "confidence_sentence": "本文为遗传学研究，不属于 CEBM 分级对象，SYRCLE 未评偏倚；结论基于摘要，不能直接用于临床决策。"
+  }
 ]

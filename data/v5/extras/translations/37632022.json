@@ -1,0 +1,302 @@
+{
+ "pmid": "37632022",
+ "license": "CC BY 4.0",
+ "attribution": {
+  "authors": [
+   "Cosaro Emma",
+   "Pires Jully",
+   "Castillo Diego",
+   "Murphy Brian G.",
+   "Reagan Krystle L."
+  ],
+  "title": "Efficacy of Oral Remdesivir Compared to GS-441524 for Treatment of Cats with Naturally Occurring Effusive Feline Infectious Peritonitis: A Blinded, Non-Inferiority Study",
+  "journal": "Viruses",
+  "year": "2023",
+  "doi": "10.3390/v15081680",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "note": "中文为 AI 翻译，以英文原文为准；已对原文做翻译改编"
+ },
+ "scope_zh": "标题、摘要、全文正文（引言、材料与方法、结果、讨论、结论）；图1–8图注、表1–2表题及表注。未含：参考文献、表格正文、补充材料。源XML未提取到致谢/资助/利益冲突部分。",
+ "paragraphs": [
+  {
+   "section": "Title",
+   "section_zh": "标题",
+   "en": "Efficacy of Oral Remdesivir Compared to GS-441524 for Treatment of Cats with Naturally Occurring Effusive Feline Infectious Peritonitis: A Blinded, Non-Inferiority Study",
+   "zh": "口服remdesivir与GS-441524治疗自然发生渗出型猫传染性腹膜炎猫的疗效比较：一项盲法非劣效性研究"
+  },
+  {
+   "section": "Abstract",
+   "section_zh": "摘要",
+   "en": "Nucleoside analogs GS-441524 and remdesivir (GS-5734) are effective in treating cats with feline infectious peritonitis (FIP). However, no studies have compared the efficacy between antiviral medications. The objective of this study was to evaluate the efficacy of orally administered GS-442514 (12.5–15 mg/kg) compared to orally administered remdesivir (25–30 mg/kg) in a double-blinded non-inferiority trial. Eighteen cats with effusive FIP were prospectively enrolled and randomly assigned to receive either GS-442514 or remdesivir. Cats were treated daily for 12 weeks and evaluated at week 0, 12, and 16. Survival and disease remission at week 16 were compared between groups. Five of 9 (55%) cats treated GS-441524 and 7/9 (77%) cats treated with remdesivir survived, with no difference in survival rate (p = 0.2). Remdesivir fulfilled the criteria for non-inferiority with a difference in survival of 22% (90% CI; −13.5–57.5%). Three of the 18 cats died within 48 h of enrollment. Excluding these cats, 5/6 (83%) of the cats treated with GS-441524 and 7/9 (77%) of the cats treated with remdesivir survived. These findings suggest that both orally administered GS-441524 and remdesivir are safe and effective anti-viral medications for the treatment of effusive FIP. Further optimization of the first 48 h of treatment is needed.",
+   "zh": "核苷类似物GS-441524和remdesivir（瑞德西韦，GS-5734）治疗猫传染性腹膜炎（FIP）猫有效。然而，尚无研究比较这些抗病毒药物之间的疗效。本研究的目的是在一项双盲非劣效性试验中，评估口服GS-442514（12.5–15 mg/kg）与口服remdesivir（25–30 mg/kg）的疗效。前瞻性纳入十八只渗出型FIP猫，随机分配接受GS-442514或remdesivir。猫每日治疗，共12周，并在第0、12和16周进行评估。比较两组第16周的生存和疾病缓解情况。接受GS-441524治疗的猫中5/9只（55%）、接受remdesivir治疗的猫中7/9只（77%）存活，生存率无差异（p = 0.2）。remdesivir符合非劣效性标准，生存差异为22%（90% CI；−13.5–57.5%）。18只猫中有三只在纳入后48 h内死亡。排除这些猫后，接受GS-441524治疗的猫中5/6只（83%）、接受remdesivir治疗的猫中7/9只（77%）存活。这些结果提示，口服GS-441524和remdesivir均是治疗渗出型FIP安全有效的抗病毒药物。治疗最初48 h的方案需要进一步优化。",
+   "note_zh": "原文摘要两处将药物写作“GS-442514”，应为GS-441524之笔误；摘要称在第0、12和16周评估，而方法部分（第8段）为第0、6和16周；译文均按原文保留。"
+  },
+  {
+   "section": "1. Introduction",
+   "section_zh": "1. 引言",
+   "en": "Feline coronavirus (FCoV) is a large single-stranded RNA virus in the family coronaviridae and is found in cats worldwide [1]. Feline infectious peritonitis (FIP) is a disease that results from a mutation or set of mutations in the ubiquitous, non-pathogenic biotype of FCoV referred to as feline enteric coronavirus (FECV). Mutations confer a cellular tropism switch from enterocytes to monocytes and macrophage, facilitating systemic distribution of the coronavirus. The prevalence of FCoV is high, with approximately 20% of cats living in private households and 87% of purebred cats housed in catteries testing seropositive for infection with FCoV [2]. Cats infected with FCoV often have no clinical signs or will have mild self-limiting gastroenteritis, with diarrhea being the most common clinical sign reported. Mutations in the gene encoding the viral surface receptor, Spike (S), are associated with an expansion of tropism from enterocytes to macrophages, resulting in systemic viral dissemination and immune-mediated perivasculitis and pyogranulomatous inflammation [2,3]. Approximately 5–12% of cats infected with FCoV will develop these mutations in the S gene and develop FIP [3]. FIP presents as a spectrum disease with two classic forms, the effusive or “wet” form which presents with cavitary effusions or the “dry” or non-effusive form which presents as pyogranulomatous infiltrates affecting the liver, kidneys, lymph nodes, central nervous system, or ocular structures. Without treatment, FIP is essentially 100% fatal [1,4].",
+   "zh": "猫冠状病毒（FCoV）是冠状病毒科的一种大型单链RNA病毒，在世界各地的猫中均有发现[1]。猫传染性腹膜炎（FIP）是由普遍存在的非致病性FCoV生物型——猫肠道冠状病毒（FECV）——发生一个或一组突变所致的疾病。突变使细胞嗜性从肠上皮细胞转变为单核细胞和巨噬细胞，促进冠状病毒的全身分布。FCoV的流行率很高，约20%的家庭饲养猫和87%的猫舍饲养纯种猫FCoV感染血清学检测阳性[2]。感染FCoV的猫通常无临床症状，或出现轻度自限性胃肠炎，腹泻是报告最多的临床症状。编码病毒表面受体刺突蛋白（S）的基因发生突变，与嗜性从肠上皮细胞扩展至巨噬细胞相关，导致病毒全身播散以及免疫介导的血管周围炎和脓性肉芽肿性炎症[2,3]。约5–12%感染FCoV的猫会在S基因中发生这些突变并发展为FIP[3]。FIP表现为一种谱系疾病，有两种经典形式：渗出型或“湿性”，表现为体腔积液；以及“干性”或非渗出型，表现为累及肝脏、肾脏、淋巴结、中枢神经系统或眼部结构的脓性肉芽肿浸润。不治疗时，FIP的致死率基本为100%[1,4]。"
+  },
+  {
+   "section": "1. Introduction",
+   "section_zh": "1. 引言",
+   "en": "Safe and effective antiviral therapies for cats with FIP have been identified, and the nucleoside analog GS-441524 has been used to treat thousands of cats worldwide with FIP [5,6,7,8,9,10,11,12]. In virus-infected cells, GS-441524 is incorporated into the nascent viral RNA strand resulting in the premature termination of viral RNA synthesis and halting viral replication. GS-441524 is the metabolite of the antiviral drug remdesivir (GS-5734) used to treat people with SARS-CoV-2 infections [13,14,15], and both drugs yield the same active metabolite in the host cell [14]. Remdesivir has been demonstrated to have equivalent efficacy to GS-441524 in suppressing FIPV replication in in vitro studies and has been used in combination with GS-441524 to treat cats with FIP [11,12,16]. However, no prospective studies have evaluated its efficacy and outcomes for cats treated with remdesivir alone compared to GS-441524 alone. The objective of this study was to compare the efficacy of oral remdesivir used to treat naturally occurring, effusive FIP in a prospective, blinded, non-inferiority clinical trial to cats treated with oral GS-441524.",
+   "zh": "针对FIP猫安全有效的抗病毒疗法已经确定，核苷类似物GS-441524已在全球用于治疗数千只FIP猫[5,6,7,8,9,10,11,12]。在病毒感染的细胞中，GS-441524被掺入新生病毒RNA链，导致病毒RNA合成提前终止并使病毒复制停止。GS-441524是用于治疗人SARS-CoV-2感染的抗病毒药物remdesivir（GS-5734）的代谢物[13,14,15]，两种药物在宿主细胞内产生相同的活性代谢物[14]。体外研究已证明remdesivir在抑制FIPV复制方面与GS-441524疗效相当，并已与GS-441524联合用于治疗FIP猫[11,12,16]。然而，尚无前瞻性研究评估单用remdesivir治疗的猫与单用GS-441524治疗的猫相比的疗效和结局。本研究的目的是在一项前瞻性、盲法、非劣效性临床试验中，比较口服remdesivir与口服GS-441524治疗自然发生的渗出型FIP猫的疗效。"
+  },
+  {
+   "section": "2. Materials and Methods / 2.1. Study Design",
+   "section_zh": "2. 材料与方法 / 2.1. 研究设计",
+   "en": "A single-center, prospective, double-blinded, longitudinal trial with two parallel treatment groups was performed. Cats diagnosed with naturally occurring, effusive FIP and met the study enrollment criteria were randomly assigned to one of two antiviral treatment groups, GS-441524 or remdesivir, as outlined below. The study was performed with caretaker-provided informed consent prior and with the approval of the University of California Davis Institutional Animal Care and Use Committee (IACUC 22773, approval date 2 May 2022).",
+   "zh": "本研究为单中心、前瞻性、双盲、纵向试验，设两个平行治疗组。确诊为自然发生的渗出型FIP并符合研究纳入标准的猫被随机分配至两个抗病毒治疗组之一：GS-441524或remdesivir，详见下文。本研究在事先获得看护人知情同意的情况下进行，并经加州大学戴维斯分校机构动物护理与使用委员会批准（IACUC 22773，批准日期2022年5月2日）。"
+  },
+  {
+   "section": "2. Materials and Methods / 2.2. Inclusion Criteria",
+   "section_zh": "2. 材料与方法 / 2.2. 纳入标准",
+   "en": "A diagnosis of effusive FIP was made if pleural, peritoneal, or pericardial effusion was noted and (1) there was detection of FCoV antigen by immunohistochemistry in the context of biopsied granulomatous lesions as determined by a veterinary pathologist [17,18] or (2) detection of FCoV antigen by immunocytochemistry within nucleated cells upon cytologic evaluation of effusions as determined by a veterinary pathologist [19,20,21]. Alternatively, cats were diagnosed with effusive FIP if (3) FCoV RNA was detected within the effusion using real time RT-PCR performed by a commercial laboratory or UC Davis laboratory [22,23,24,25,26] and demonstrated ≥3 of the following examination or clinicopathologic features; fever documented on two occasions over 12 h apart (rectal temperature > 102.5 °F), lymphocytes below the lower limit of normal, globulins above the upper limit of normal, albumin:globulin ratio < 0.6, bilirubin above the upper limit of normal, effusion with total protein > 3.5 g/dL with cytology assessed by a veterinary clinical pathologist to be consistent with FIP, or positive FCoV antibody serology tested through a commercial laboratory or the UC Davis Clinical Diagnostic Laboratory [27,28,29,30,31].",
+   "zh": "若观察到胸腔、腹腔或心包积液，且满足以下条件之一，则诊断为渗出型FIP：(1) 经兽医病理学家判定，在活检的肉芽肿性病变中通过免疫组织化学检出FCoV抗原[17,18]，或(2) 经兽医病理学家判定，在积液细胞学评估时通过免疫细胞化学在有核细胞内检出FCoV抗原[19,20,21]。此外，若满足以下条件，猫也可被诊断为渗出型FIP：(3) 经商业实验室或UC Davis实验室实时RT-PCR在积液中检出FCoV RNA[22,23,24,25,26]，并表现出以下检查或临床病理特征中的≥3项：间隔12 h以上两次记录到发热（直肠温度> 102.5 °F），淋巴细胞低于正常下限，球蛋白高于正常上限，白蛋白:球蛋白比值< 0.6，胆红素高于正常上限，积液总蛋白> 3.5 g/dL且经兽医临床病理学家评估细胞学符合FIP，或经商业实验室或UC Davis临床诊断实验室检测FCoV抗体血清学阳性[27,28,29,30,31]。"
+  },
+  {
+   "section": "2. Materials and Methods / 2.2. Inclusion Criteria",
+   "section_zh": "2. 材料与方法 / 2.2. 纳入标准",
+   "en": "To be included in the study, cats were required to have a negative feline leukemia virus antigen and feline immunodeficiency virus antibody test within the preceding one month. Cats were excluded from the clinical trial if they had been treated with any anti-coronaviral medications before enrollment, if the cat or caretaker was unable to cooperate fully with the requirements of the study protocol, including the schedule of assessments, or was likely to be non-compliant with any study requirements. Further, cats were excluded if they had a neutrophil count < 2000/μL, platelet count < 75,000/μL, creatinine above the upper limit of normal, ALT > twice the upper limit of normal, if they were clinically assessed as needing a blood transfusion, if they were hypothermic (rectal temperature < 97 °F), if they were not able to take per os medications, or if the study veterinarian did not have a reasonable expectation that the patient would live for 48 h.",
+   "zh": "纳入研究的猫须在之前一个月内猫白血病病毒抗原和猫免疫缺陷病毒抗体检测为阴性。若猫在纳入前接受过任何抗冠状病毒药物治疗，若猫或看护人无法完全配合研究方案要求（包括评估时间表），或可能不遵守任何研究要求，则将猫排除出临床试验。此外，若中性粒细胞计数< 2000/μL、血小板计数< 75,000/μL、肌酐高于正常上限、ALT >正常上限的两倍、临床评估需要输血、体温过低（直肠温度< 97 °F）、无法口服给药，或研究兽医无合理预期该患病动物能存活48 h，则将猫排除。"
+  },
+  {
+   "section": "2. Materials and Methods / 2.3. Treatment Groups and Drug Dosing Protocol",
+   "section_zh": "2. 材料与方法 / 2.3. 治疗分组与给药方案",
+   "en": "Cats were randomly assigned (1:1) to receive either oral GS-441524 or oral remdesivir using the envelope method [32]. Study veterinarians and cat caretakers were blinded to the treatment group. Antiviral compounds were sourced from Natural Micron Pharm Tech (NM PharmTech; Tai’an, China) and were compounded into identical gelatin capsules. In vitro assays determined that both GS-441524 and remdesivir were effective in inhibiting FIPV replication with EC50 values comparable to previously published values [16]. Bioequivalent dosing based on the compound molecular weight was utilized, with a dosing range of 12.5–15 mg/kg PO once daily for GS-441524 and 25–30 mg/kg PO once daily for remdesivir for 12 weeks. Cats were weighed weekly during the study and dosing was adjusted to remain within the study dosing range for the duration of the study.",
+   "zh": "采用信封法将猫随机分配（1:1）接受口服GS-441524或口服remdesivir[32]。研究兽医和猫的看护人对治疗分组不知情。抗病毒化合物来源于Natural Micron Pharm Tech（NM PharmTech；中国泰安），并被配制成外观相同的明胶胶囊。体外试验确定GS-441524和remdesivir均能有效抑制FIPV复制，EC50值与既往发表的数值相当[16]。采用基于化合物分子量的生物等效剂量，GS-441524剂量范围为12.5–15 mg/kg PO每日一次，remdesivir为25–30 mg/kg PO每日一次，共12周。研究期间每周给猫称重，并调整剂量，使其在整个研究期间保持在研究剂量范围内。"
+  },
+  {
+   "section": "2. Materials and Methods / 2.4. Study Protocol",
+   "section_zh": "2. 材料与方法 / 2.4. 研究方案",
+   "en": "Cats were evaluated during three visits, week 0, week 6, and week 16 (Figure 1). At each visit, a physical examination was performed by a study veterinarian (EC, KLR). At enrollment, a complete blood count (Advia 120; Siemens, Munich, Germany), serum chemistry panel (Cobas c501/6000; Roche, Basel, Switzerland), FCoV antibody titers (Clinical Virology and Immunology Laboratory, UC Davis Veterinary Medical Teaching Hospital), and effusion analysis and cytology (Clinical Diagnostic Laboratory, UC Davis Veterinary Medical Teaching Hospital) were performed if diagnostics had not been performed within one week before enrollment through a reference laboratory. Baseline FCoV antibody titers were recorded as an endpoint titer if available, the highest positive titer tested was recorded, or as positive or negative if no titer was reported. Effusion was quantified at each visit. Pleural and pericardial effusion volumes were recorded using a thoracic FAST scan. Unilateral or bilateral fluid accumulation was noted and quantified by recording the cm of fluid noted in the area of greatest accumulation [33]. Abdominal effusion was recorded using an abdominal FAST scan (AFS). An AFS score of 0 to 4 was assigned as previously described [34]. A CBC and serum chemistry panel were performed at week 6 and week 16, and FCoV antibody titer were performed at week 16 (Clinical Diagnostic Laboratory, UC Davis Veterinary Medical Teaching Hospital). Caretaker reported weight was recorded weekly. Additional visits and supportive care could be prescribed at the discretion of the attending veterinarian. The caretaker was instructed that they could withdraw their cat from the study at any time. All drug-associated adverse events were recorded. Cats that died or were humanely euthanized during the study were assessed with a postmortem examination when possible.",
+   "zh": "猫在三次就诊时接受评估：第0周、第6周和第16周（图1）。每次就诊时，由一名研究兽医（EC, KLR）进行体格检查。纳入时，若纳入前一周内未经参考实验室进行相关诊断，则进行全血细胞计数（Advia 120; Siemens, Munich, Germany）、血清生化检查（Cobas c501/6000; Roche, Basel, Switzerland）、FCoV抗体滴度（UC Davis兽医教学医院临床病毒学与免疫学实验室）以及积液分析和细胞学检查（UC Davis兽医教学医院临床诊断实验室）。基线FCoV抗体滴度如有则记录为终点滴度；或记录所检测的最高阳性滴度；若未报告滴度，则记录为阳性或阴性。每次就诊时对积液进行定量。胸腔和心包积液量通过胸部FAST扫查记录。注明单侧或双侧积液，并通过记录积液最多区域的液体厘米数进行定量[33]。腹腔积液通过腹部FAST扫查（AFS）记录。按既往描述的方法给予0至4分的AFS评分[34]。在第6周和第16周进行CBC和血清生化检查，在第16周进行FCoV抗体滴度检测（UC Davis兽医教学医院临床诊断实验室）。每周记录看护人报告的体重。主治兽医可酌情安排额外就诊和支持治疗。看护人被告知可随时让其猫退出研究。记录所有与药物相关的不良事件。研究期间死亡或被人道安乐死的猫在可能时进行死后检查。"
+  },
+  {
+   "section": "2. Materials and Methods / 2.5. Survival Evaluation and Statistical Analysis",
+   "section_zh": "2. 材料与方法 / 2.5. 生存评估与统计分析",
+   "en": "A non-inferiority margin of 15% was selected based on perceived clinically relevant changes in outcomes. The study was designed to have more than 90% power and alpha of 5% to detect non-inferiority of remdesivir compared to GS-441524 using previously described methods [35]. A minimum of eight individuals were required to test this hypothesis. Up to two additional cats were enrolled in each group to account for a potential caretaker withdrawal rate of up to 20%. A primary outcome measure of survival and disease remission as defined by absence of effusion and resolution of all clinical signs at 16 weeks was established. Overall survival for all cats in each group with 95% confidence intervals for each group were calculated with all cats in the per protocol treatment groups. Additionally, survival rates were also calculated with cats that died <2 days post enrollment being censored from analysis [12]. Survival curves were generated, and the groups were compared with a logrank (Mantel–Cox) test. Descriptive statistics were utilized to summarize clinicopathologic parameters. Normality was assessed using a Shapiro–Wilk normality test and parametric or non-parametric testing was utilized to compare parameters at baseline. Clinicopathologic parameters were evaluated using linear mixed-effects models due to the repeated measures (Prism Version 10.0.0, GraphPad).",
+   "zh": "根据被认为具有临床意义的结局变化，选择15%的非劣效界值。采用既往描述的方法[35]，研究设计具有90%以上的检验效能和5%的α水平，以检测remdesivir相对于GS-441524的非劣效性。检验该假设至少需要八个个体。每组额外纳入最多两只猫，以应对最高20%的潜在看护人退出率。确定主要结局指标为第16周的生存和疾病缓解，缓解定义为无积液且所有临床症状消退。以各治疗组中所有符合方案的猫计算各组所有猫的总生存率及各组95%置信区间。此外，还在将纳入后<2天死亡的猫作为删失数据排除出分析的情况下计算生存率[12]。绘制生存曲线，组间采用logrank（Mantel–Cox）检验进行比较。采用描述性统计汇总临床病理参数。采用Shapiro–Wilk正态性检验评估正态性，并采用参数或非参数检验比较基线参数。由于存在重复测量，临床病理参数采用线性混合效应模型评估（Prism Version 10.0.0, GraphPad）。"
+  },
+  {
+   "section": "2. Materials and Methods / 2.6. Necropsy and Tissue Analyses",
+   "section_zh": "2. 材料与方法 / 2.6. 尸检与组织分析",
+   "en": "If allowed by the caretaker, cats that succumbed to disease during the study had a timely and complete necropsy examination performed within 24 h of death. A complete set of tissues, including the brain, were collected in 10% buffered formalin for a minimum of 24 h. Tissues were then trimmed, embedded in paraffin, and routinely processed for histological examination. Tissues with pyogranulomatous perivascular inflammation, characteristic of FIP, were further evaluated by an immunohistochemistry (IHC) assay to detect coronaviral antigen (FIPV3-70, Custom Monoclonals International, Sacramento, CA, USA) [36]. Histology and immunohistochemical stains were performed at the UC Davis Veterinary Histology Laboratory and interpreted by a single pathologist (BM). Each IHC stain was performed in parallel with known FIP-positive feline control tissue and an irrelevant isotype-control antibody as the negative control.",
+   "zh": "在看护人允许的情况下，研究期间死于疾病的猫在死亡后24 h内及时进行完整的尸检。采集全套组织（包括脑），置于10%缓冲福尔马林中至少24 h。随后对组织进行修切、石蜡包埋，并常规处理用于组织学检查。具有FIP特征性脓性肉芽肿性血管周围炎的组织，进一步通过免疫组织化学（IHC）检测冠状病毒抗原（FIPV3-70, Custom Monoclonals International, Sacramento, CA, USA）[36]。组织学和免疫组织化学染色在UC Davis兽医组织学实验室进行，并由一名病理学家（BM）判读。每次IHC染色均平行使用已知FIP阳性的猫对照组织，并以无关同型对照抗体作为阴性对照。"
+  },
+  {
+   "section": "3. Results / 3.1. Cat Demographics and Diagnosis",
+   "section_zh": "3. 结果 / 3.1. 猫的人口学特征与诊断",
+   "en": "One-hundred and thirty-nine client-owned cats were screened for enrollment. One-hundred and twenty cats were excluded because they did not meet diagnostic criteria, they had already been administered anti-viral therapy, no effusion was noted, or the caretakers could not comply with the study criteria. One cat was initially allocated to the remdesivir group, but upon record review did not meet enrollment criteria, so was subsequently excluded from the analysis. This cat died on treatment day 2 and a necropsy was performed and described below. Eighteen cats met the study criteria and were randomly allocated to a treatment group, with nine cats in the remdesivir group and nine cats in the GS-441524 group (Figure 2). Baseline demographics data for the cats is summarized in Table 1. Purebred cats include two Bengals, two Maine Coons, and one each of Ragdoll, Siamese, and Sphinx cats. All cats had a positive real-time RT-PCR result for FCoV on effusion and fulfilled ≥3 other study criteria to meet inclusion criteria. This included 10 cats with a fever, 10 cats with hyperglobulinemia, 16 cats with an a:g ratio < 0.6, 11 cats with hyperbilirubinemia, 10 cats with lymphopenia, and 17 cats with an effusion cytology analysis. All cats were FeLV and FIV negative by point-of-care testing.",
+   "zh": "共筛查了一百三十九只客户自养猫。一百二十只猫因不符合诊断标准、已接受抗病毒治疗、未发现积液或看护人无法遵守研究标准而被排除。一只猫最初被分配至remdesivir组，但经病历审查不符合纳入标准，因此随后被排除出分析。该猫在治疗第2天死亡，进行了尸检，结果见下文。十八只猫符合研究标准并被随机分配至治疗组，remdesivir组九只，GS-441524组九只（图2）。猫的基线人口学数据汇总于表1。纯种猫包括两只孟加拉猫、两只缅因猫，以及布偶猫、暹罗猫和斯芬克斯猫各一只。所有猫积液FCoV实时RT-PCR结果均为阳性，并满足≥3项其他研究标准以符合纳入标准。其中包括10只发热、10只高球蛋白血症、16只a:g比值< 0.6、11只高胆红素血症、10只淋巴细胞减少，以及17只进行了积液细胞学分析。所有猫床旁检测FeLV和FIV均为阴性。"
+  },
+  {
+   "section": "3. Results / 3.2. Clinicopathologic Findings at Diagnosis",
+   "section_zh": "3. 结果 / 3.2. 诊断时的临床病理结果",
+   "en": "Clinicopathologic variables at the time of study enrollment are presented in Table 2. Twelve cats had abdominal effusion, five had pleural effusion, and one cat had pericardial effusion observed with an ultrasonographic evaluation. At the time of enrollment, all cats with abdominal effusion had an AFAST scores of 4/4. The abdominal effusion had a median total nucleated cell count of 2860 cells/μL (range 200–26,960 cells/μL) and median total protein of 6.5 g/dL (range 4.5–8.4 g/dL). The pleural effusion had a median total nucleated cell count of 1929 cells/μL (range 1280–11,660 cells/μL) and median total protein of 6.8 g/dL (range 5.0–7.6 g/dL). One cat had pericardial effusion, and the total nucleated cell count was 10,440 cells/μL with a total protein of 5.7 g/dL. Fluid cytology analyses did not identify any other etiologic diagnosis in any cat enrolled in the study.",
+   "zh": "研究纳入时的临床病理变量见表2。超声评估观察到十二只猫有腹腔积液，五只有胸腔积液，一只猫有心包积液。纳入时，所有有腹腔积液的猫AFAST评分均为4/4。腹腔积液的总有核细胞计数中位数为2860 cells/μL（范围200–26,960 cells/μL），总蛋白中位数为6.5 g/dL（范围4.5–8.4 g/dL）。胸腔积液的总有核细胞计数中位数为1929 cells/μL（范围1280–11,660 cells/μL），总蛋白中位数为6.8 g/dL（范围5.0–7.6 g/dL）。一只猫有心包积液，总有核细胞计数为10,440 cells/μL，总蛋白为5.7 g/dL。积液细胞学分析在任何纳入研究的猫中均未发现其他病因诊断。"
+  },
+  {
+   "section": "3. Results / 3.3. Concurrent Therapy, Co-Morbidities, and Adverse Effects",
+   "section_zh": "3. 结果 / 3.3. 合并治疗、合并症与不良反应",
+   "en": "In GS-441524 group, no cats experienced adverse events that necessitated stopping therapy. One cat had diarrhea prior to enrollment in the study that persisted during the study and was treated with a probiotic supplement and calcium aluminosilicate clay until resolution of signs. Two additional cats developed self-limiting diarrhea and vomiting during the study. One cat developed ocular discharge and was treated with ofloxacin 0.3% ophthalmic drops and lysine supplement orally. Another cat in this group developed signs of an upper respiratory infection including sneezing and nasal discharge and was treated with oral azithromycin. One cat had chronic otitis externa before study enrollment and was treated with topical thiabendazole, dexamethasone, neomycin solution. This cat also had chronic gingivostomatitis that was not treated during the study period. One cat was treated with transdermal mirtazapine. One cat was treated with intravenous lactated ringers, dextrose supplementation, pantoprazole, and ampicillin/sulbactam.",
+   "zh": "在GS-441524组中，没有猫发生需要停止治疗的不良事件。一只猫在纳入研究前即有腹泻，研究期间持续存在，接受益生菌补充剂和钙铝硅酸盐黏土治疗直至症状消退。另有两只猫在研究期间出现自限性腹泻和呕吐。一只猫出现眼分泌物，接受ofloxacin（氧氟沙星）0.3%滴眼液和口服赖氨酸补充剂治疗。该组另一只猫出现上呼吸道感染征象，包括打喷嚏和流鼻涕，接受口服azithromycin（阿奇霉素）治疗。一只猫在纳入研究前患有慢性外耳炎，接受局部thiabendazole（噻苯达唑）、dexamethasone（地塞米松）、neomycin（新霉素）溶液治疗。该猫还患有慢性齿龈口炎，研究期间未予治疗。一只猫接受经皮mirtazapine（米氮平）治疗。一只猫接受静脉乳酸林格液、葡萄糖补充、pantoprazole（泮托拉唑）和ampicillin/sulbactam（氨苄西林/舒巴坦）治疗。"
+  },
+  {
+   "section": "3. Results / 3.3. Concurrent Therapy, Co-Morbidities, and Adverse Effects",
+   "section_zh": "3. 结果 / 3.3. 合并治疗、合并症与不良反应",
+   "en": "For cats treated with GS-441524, no clinically relevant biochemical or hematologic abnormalities were noted that necessitated stopping therapy. Three cats in this group developed hypocholesterolemia (77 mg/dL, 85 mg/dL, 68 mg/dL; reference range 89–248 mg/dL) at week 6 which resolved in all but one cat (54 mg/dL at week 16). Hyperphosphatemia and elevated ALP above baseline values were noted in four juvenile cats. One cat developed a lymphopenia (481/uL; reference range 1000–7000/uL), basophilia (241/uL; reference range 0–200/uL), and monocytosis (722/uL; reference range 500–600/uL) of which only basophilia was persistent at week 16 (171/uL). One cat developed eosinophilia (2112/uL; reference range 150–1100/uL) which was persistent but improved at week 16 (1840/uL). One cat developed a mild anemia at week 6 (HCT 29.0%; reference range 30–50%) which resolved at week 16 (34.4%). One cat developed elevated BUN at week 16 (BUN 37 mg/dL; reference range 18–33 mg/dL). No hepatocellular enzyme elevations were noted during the study period.",
+   "zh": "对于接受GS-441524治疗的猫，未发现需要停止治疗的具有临床意义的生化或血液学异常。该组三只猫在第6周出现低胆固醇血症（77 mg/dL、85 mg/dL、68 mg/dL；参考范围89–248 mg/dL），除一只猫外均已消退（第16周为54 mg/dL）。四只幼龄猫出现高磷血症及ALP高于基线值。一只猫出现淋巴细胞减少（481/uL；参考范围1000–7000/uL）、嗜碱性粒细胞增多（241/uL；参考范围0–200/uL）和单核细胞增多（722/uL；参考范围500–600/uL），其中仅嗜碱性粒细胞增多在第16周持续存在（171/uL）。一只猫出现嗜酸性粒细胞增多（2112/uL；参考范围150–1100/uL），持续存在但在第16周有所改善（1840/uL）。一只猫在第6周出现轻度贫血（HCT 29.0%；参考范围30–50%），在第16周消退（34.4%）。一只猫在第16周出现BUN升高（BUN 37 mg/dL；参考范围18–33 mg/dL）。研究期间未发现肝细胞酶升高。"
+  },
+  {
+   "section": "3. Results / 3.3. Concurrent Therapy, Co-Morbidities, and Adverse Effects",
+   "section_zh": "3. 结果 / 3.3. 合并治疗、合并症与不良反应",
+   "en": "In the remdesivir group, no cats experienced adverse events that necessitated stopping therapy. Three cats developed self-limiting diarrhea. Two cats developed clinical signs of an upper respiratory tract infection, one of which was treated with ofloxacin 0.3% ophthalmic drops. One cat was diagnosed with restrictive pericarditis and underwent pericardiectomy on study day 20. That cat received anesthetic medications, ampicillin/sulbactam, robenacoxib, and fentanyl in the peri-operative period. One cat in this group was treated with methylprednisolone acetate three weeks before enrollment. General supportive therapies for cats in this group included subcutaneous lactated ringers in one cat, and transdermal mirtazapine in three cats. One cat was treated with oral fenbendazole. One cat developed hyperesthesia and was treated with gabapentin.",
+   "zh": "在remdesivir组中，没有猫发生需要停止治疗的不良事件。三只猫出现自限性腹泻。两只猫出现上呼吸道感染的临床症状，其中一只接受ofloxacin 0.3%滴眼液治疗。一只猫被诊断为缩窄性心包炎，并在研究第20天接受心包切除术。该猫在围手术期接受了麻醉药物、ampicillin/sulbactam、robenacoxib（罗贝考昔）和fentanyl（芬太尼）。该组一只猫在纳入前三周接受过methylprednisolone acetate（醋酸甲泼尼龙）治疗。该组猫的一般支持治疗包括一只猫皮下乳酸林格液，以及三只猫经皮mirtazapine。一只猫接受口服fenbendazole（芬苯达唑）治疗。一只猫出现感觉过敏，接受gabapentin（加巴喷丁）治疗。"
+  },
+  {
+   "section": "3. Results / 3.3. Concurrent Therapy, Co-Morbidities, and Adverse Effects",
+   "section_zh": "3. 结果 / 3.3. 合并治疗、合并症与不良反应",
+   "en": "No clinically relevant biochemical or hematologic abnormalities were noted in cats treated with remdesivir. Hyperphosphatemia and elevated ALP above baseline values were noted in five juvenile cats. Two cats had new elevations in creatine kinase at week 16 (325 IU/L and 380 IU/L; reference range 73–260 IU/L). One cat developed hypocholesterolemia at week 6 (98 mg/dL; reference range 89–248 mg/dL) which resolved at week 16. One cat developed a thrombocytosis at week 6 (517,000 platelets; reference range 180,000–500,000). One cat had elevated BUN at week 16 (34 mg/dL; reference range 18–33). No hepatocellular enzyme elevations were noted during the study period.",
+   "zh": "接受remdesivir治疗的猫未发现具有临床意义的生化或血液学异常。五只幼龄猫出现高磷血症及ALP高于基线值。两只猫在第16周出现新的肌酸激酶升高（325 IU/L和380 IU/L；参考范围73–260 IU/L）。一只猫在第6周出现低胆固醇血症（98 mg/dL；参考范围89–248 mg/dL），在第16周消退。一只猫在第6周出现血小板增多（517,000 platelets；参考范围180,000–500,000）。一只猫在第16周BUN升高（34 mg/dL；参考范围18–33）。研究期间未发现肝细胞酶升高。"
+  },
+  {
+   "section": "3. Results / 3.4. Survival Analysis",
+   "section_zh": "3. 结果 / 3.4. 生存分析",
+   "en": "In the GS-441524 treatment group, the average dose throughout the study was 13.6 mg/kg (range 12.6–15 mg/kg). Four of the nine cats died during the study period. Three cats died or were euthanized in the first 48 h of starting therapy, and one died on day 4. Necropsy findings were available for one cat that died 24 h after enrollment and are described below. Overall survival in this group was 55.6%, and for cats that survived at least 48 h of treatment, the survival was 5/6 (83%). All surviving cats were determined to be in clinical remission at 16 weeks based on the absence of effusion and the resolution of clinical signs. Two cats in this group had an albumin:globulin ratio > 0.6 at 16 weeks but continue to be clinically well at four months and two months post-study conclusion. A median survival time was not reached. All the surviving cats continued to be clinically well at the time of journal submission with a time post last antiviral treatment dose of 136–283 days. No cats in this group were treated for relapse of their disease.",
+   "zh": "在GS-441524治疗组中，整个研究期间的平均剂量为13.6 mg/kg（范围12.6–15 mg/kg）。九只猫中有四只在研究期间死亡。三只猫在开始治疗后最初48 h内死亡或被安乐死，一只在第4天死亡。一只在纳入后24 h死亡的猫有尸检结果，见下文。该组总生存率为55.6%，对于至少存活48 h治疗的猫，生存率为5/6（83%）。根据无积液和临床症状消退，所有存活猫在第16周均被判定为临床缓解。该组两只猫在第16周白蛋白:球蛋白比值> 0.6，但在研究结束后四个月和两个月仍临床状况良好。未达到中位生存时间。截至期刊投稿时，所有存活猫在最后一剂抗病毒治疗后136–283天仍临床状况良好。该组没有猫因疾病复发而接受治疗。"
+  },
+  {
+   "section": "3. Results / 3.4. Survival Analysis",
+   "section_zh": "3. 结果 / 3.4. 生存分析",
+   "en": "In the remdesivir treatment group, the average dose throughout the study was 25.9 mg/kg (range 23.2–27.9 mg/kg). Two of the 9 cats died during the study period. One cat was euthanized on treatment day 24 due to complications of restrictive pericarditis and post-operative pericardial stripping procedures and one cat died on treatment day 4 at home. A necropsy evaluation was performed on the cat that died on treatment day 4. All other cats survived and were in remission based on the absence of effusion and the resolution of clinical signs resulting in an overall survival of 7/9 (77.8%) in this group. A median survival time was not reached. One cat in this treatment group developed seizures at 139 days post-conclusion of treatment. This cat was euthanized, and no necropsy examination was performed. All the remaining surviving cats continued to be clinically well at the time of journal submission with a time post last antiviral treatment dose of 97–265 days. No cats in this group were treated for relapse of their disease.",
+   "zh": "在remdesivir治疗组中，整个研究期间的平均剂量为25.9 mg/kg（范围23.2–27.9 mg/kg）。9只猫中有两只在研究期间死亡。一只猫因缩窄性心包炎并发症及术后心包剥脱手术在治疗第24天被安乐死，一只猫在治疗第4天死于家中。对在治疗第4天死亡的猫进行了尸检评估。所有其他猫均存活，并根据无积液和临床症状消退处于缓解，该组总生存率为7/9（77.8%）。未达到中位生存时间。该治疗组一只猫在治疗结束后139天出现癫痫发作。该猫被安乐死，未进行尸检。截至期刊投稿时，其余所有存活猫在最后一剂抗病毒治疗后97–265天仍临床状况良好。该组没有猫因疾病复发而接受治疗。"
+  },
+  {
+   "section": "3. Results / 3.4. Survival Analysis",
+   "section_zh": "3. 结果 / 3.4. 生存分析",
+   "en": "The difference in proportion of cats that did not survive between the two treatment groups was 22% (90% CI; −13.5–57.5%) and treatment with remdesivir met the a priori set non-inferiority limit of −15%. (Figure 3) There was no difference noted between the survival curves for each treatment group when assessing all-cause mortality (p = 0.24) (Figure 4a). When cats that died within 48 h of enrollment were considered censored subjects, there were no difference between survival between groups (p = 0.82) (Figure 4b).",
+   "zh": "两个治疗组之间未存活猫的比例差异为22%（90% CI；−13.5–57.5%），remdesivir治疗达到了预先设定的−15%非劣效界值。（图3）评估全因死亡率时，各治疗组生存曲线之间未见差异（p = 0.24）（图4a）。将纳入后48 h内死亡的猫视为删失对象时，组间生存无差异（p = 0.82）（图4b）。",
+   "note_zh": "正文报告生存差异的90% CI，而图3图例（第37段）称显示的是95%置信区间；译文按原文保留。"
+  },
+  {
+   "section": "3. Results / 3.4. Survival Analysis",
+   "section_zh": "3. 结果 / 3.4. 生存分析",
+   "en": "Postmortem evaluations were performed for three non-survivors in the study. A five-month-old spayed female domestic shorthair cat that died on treatment day 1 in the GS-441524 group was evaluated. Gross and microscopic lesions identified included: icterus, severe abdominal effusion, and pyogranulomatous inflammation of multiple abdominal organs (intestinal serositis, splenic capsulitis, pancreatitis, hepatitis, and mesenteric lymphadenitis). An IHC assay was negative for detectable coronavirus antigens.",
+   "zh": "对研究中三只未存活猫进行了死后评估。评估了GS-441524组一只在治疗第1天死亡的五月龄已绝育雌性家养短毛猫。发现的大体和显微病变包括：黄疸、严重腹腔积液，以及多个腹腔器官的脓性肉芽肿性炎症（肠浆膜炎、脾被膜炎、胰腺炎、肝炎和肠系膜淋巴结炎）。IHC检测未检出冠状病毒抗原。"
+  },
+  {
+   "section": "3. Results / 3.4. Survival Analysis",
+   "section_zh": "3. 结果 / 3.4. 生存分析",
+   "en": "An 11-year-old spayed female domestic shorthair cat that died on treatment day 4 in the remdesivir group was also evaluated postmortem. Gross and microscopic lesions that were identified included: mild icterus, moderate abdominal effusion, fibrinous peritonitis, hepatitis, splenitis and lymphadenitis (Figure 5a). Phlebitis was identified in the vessels surrounding the abdominal lymph nodes and both the liver and the heart were smaller than normal (microhepatica and microcardia). Despite the presence of florid inflammatory lesions, only small numbers of intralesional macrophages demonstrated intracytoplasmic coronaviral antigens using IHC assays (Figure 5a,b).",
+   "zh": "还对remdesivir组一只在治疗第4天死亡的11岁已绝育雌性家养短毛猫进行了死后评估。发现的大体和显微病变包括：轻度黄疸、中度腹腔积液、纤维素性腹膜炎、肝炎、脾炎和淋巴结炎（图5a）。在腹腔淋巴结周围血管中发现静脉炎，肝脏和心脏均小于正常（小肝症和小心症）。尽管存在明显的炎性病变，IHC检测仅显示少量病变内巨噬细胞含有胞质内冠状病毒抗原（图5a,b）。",
+   "note_zh": "正文称肝炎等病变见图5a，而图5图例（第39段）中肝脏组织病理学为(c)；译文按原文保留。"
+  },
+  {
+   "section": "3. Results / 3.4. Survival Analysis",
+   "section_zh": "3. 结果 / 3.4. 生存分析",
+   "en": "A necropsy examination was also performed on a two-month-old male domestic short hair kitten that died on treatment day 2 in the remdesivir arm of the study. However, this cat was excluded from the overall survival analyses because it was determined that the cat did not meet the initial enrollment criteria. Gross and microscopic lesions included: ascites, intestinal serositis, hepatitis, pancreatitis, and ocular choroiditis. Coronaviral IHC assays revealed small amounts of intracytoplasmic coronaviral antigens in macrophages within lesions in the liver, intestinal serosa, pancreas, mesentery, and eye. In addition to the lesions consistent with FIP, this kitten also had lesions of bacterial hepatitis, embolic pneumonia, hypertrophic cardiomyopathy, and obstipation of the colon.",
+   "zh": "还对研究remdesivir组一只在治疗第2天死亡的两月龄雄性家养短毛幼猫进行了尸检。然而，由于确定该猫不符合初始纳入标准，其被排除出总生存分析。大体和显微病变包括：腹水、肠浆膜炎、肝炎、胰腺炎和眼脉络膜炎。冠状病毒IHC检测显示，肝脏、肠浆膜、胰腺、肠系膜和眼部病变内的巨噬细胞中有少量胞质内冠状病毒抗原。除符合FIP的病变外，该幼猫还有细菌性肝炎、栓塞性肺炎、肥厚型心肌病和结肠顽固性便秘的病变。"
+  },
+  {
+   "section": "3. Results / 3.5. Secondary Outcomes",
+   "section_zh": "3. 结果 / 3.5. 次要结局",
+   "en": "Effusion resolved in all the surviving cats by week 6, and there was no difference between treatment groups. The caretaker reported that weekly weights changed significantly over time (p = 0.0002), but there was no significant factor difference between the antiviral treatment groups (Figure 6). Biochemical parameters throughout the study period are reported in Figure 7. All cats with a documented hyperglobulinemia or hyperbilirubinemia had resolution of these abnormalities by week 16, except for one cat with concurrent gingivostomatitis and upper respiratory infection that had an elevated globulins (5.9 g/dL; reference range 2.8–5.4 g/dL) in the GS-441524 group. Further, in a mixed-effects model, time was a significant factor for hematocrit (p = 0.0004), neutrophil count (p = 0.0114), lymphocyte count (p = 0.0002), serum albumin concentration (p < 0.0001), serum globulin concentration (p = 0.0016), the albumin:globulin ratio (p < 0.0001), and serum bilirubin concentration (p = 0.0081). A significant factor effect was noted between anti-viral treatment groups for albumin:globulin ratio (p = 0.03), but none of the other evaluated biochemical parameters.",
+   "zh": "所有存活猫的积液在第6周前消退，治疗组之间无差异。看护人报告的每周体重随时间发生显著变化（p = 0.0002），但抗病毒治疗组之间无显著因素差异（图6）。研究期间的生化参数见图7。所有记录有高球蛋白血症或高胆红素血症的猫在第16周前这些异常均已消退，但GS-441524组一只同时患有齿龈口炎和上呼吸道感染的猫除外，其球蛋白升高（5.9 g/dL；参考范围2.8–5.4 g/dL）。此外，在混合效应模型中，时间是红细胞压积（p = 0.0004）、中性粒细胞计数（p = 0.0114）、淋巴细胞计数（p = 0.0002）、血清白蛋白浓度（p < 0.0001）、血清球蛋白浓度（p = 0.0016）、白蛋白:球蛋白比值（p < 0.0001）和血清胆红素浓度（p = 0.0081）的显著因素。抗病毒治疗组之间在白蛋白:球蛋白比值上存在显著因素效应（p = 0.03），但在其他评估的生化参数上均无。"
+  },
+  {
+   "section": "3. Results / 3.5. Secondary Outcomes",
+   "section_zh": "3. 结果 / 3.5. 次要结局",
+   "en": "Feline coronavirus serology was performed in 14/18 cats at baseline, and all were positive. In the GS-441524 treatment group, this included five cats with titers ≥1:20,480 and one cat with a titer ≥1:5120. In the remdesivir treatment group, this included five cats with titers ≥1:20,480, two cats each with titers ≥1:12,800, and one cat with a titer ≥1:5120. At study week 16, all surviving cats had serology performed in the same laboratory, and all cats had positive titers (Figure 8). There was no difference in FCoV titers between treatment groups at week 16.",
+   "zh": "基线时对14/18只猫进行了猫冠状病毒血清学检测，结果均为阳性。在GS-441524治疗组中，包括五只滴度≥1:20,480的猫和一只滴度≥1:5120的猫。在remdesivir治疗组中，包括五只滴度≥1:20,480的猫、各两只滴度≥1:12,800的猫，以及一只滴度≥1:5120的猫。在研究第16周，所有存活猫均在同一实验室进行了血清学检测，所有猫滴度均为阳性（图8）。第16周时治疗组之间FCoV滴度无差异。"
+  },
+  {
+   "section": "4. Discussion",
+   "section_zh": "4. 讨论",
+   "en": "This randomized, double-blinded treatment trial for cats with naturally occurring effusive FIP demonstrated that oral administration of remdesivir (25–30 mg/kg PO once daily) is non-inferior to treatment with oral GS-441524 (12.5–15 mg/kg PO once daily) at bioequivalent dosing. Overall survival did not differ between the treatment groups in this study and overall prognosis for remission was good for cats that survived >48 h of antiviral therapy. This study demonstrated survival rates near 80% for cats treated with either remdesivir or GS-441524, if they survived the first two days of therapy. The antiviral treatment group was not significantly associated with changes to hematocrit, albumin, or globulins during treatment, indicating that either medication can be effectively utilized to treat cats with naturally occurring effusive FIP.",
+   "zh": "这项针对自然发生渗出型FIP猫的随机双盲治疗试验表明，在生物等效剂量下，口服remdesivir（25–30 mg/kg PO每日一次）不劣于口服GS-441524（12.5–15 mg/kg PO每日一次）治疗。本研究中治疗组之间总生存无差异，对于抗病毒治疗存活>48 h的猫，缓解的总体预后良好。本研究表明，接受remdesivir或GS-441524治疗的猫若能度过治疗的最初两天，生存率接近80%。抗病毒治疗分组与治疗期间红细胞压积、白蛋白或球蛋白的变化无显著关联，表明两种药物均可有效用于治疗自然发生的渗出型FIP猫。"
+  },
+  {
+   "section": "4. Discussion",
+   "section_zh": "4. 讨论",
+   "en": "In this study, overall survival was 55% for cats treated with oral GS-441524 and 77% for cats treated with oral remdesivir. There was no statistical difference noted in the survival rates between these two treatment groups, but these rates are lower than previously reported survival rates for cats undergoing antiviral treatment for FIP. In an experimental FIP feline model, 100% (10/10) of cats had complete resolution of disease when treated with GS-441524 [5]. Further, a study evaluating GS-441524 in client-owned, naturally infected cats, including those with effusive and non-effusive FIP, also showed a favorable response [6]. Thirty-one cats in that study were treated with GS-441524 at a dose of 2 mg/kg SC q24h for 12 weeks with a dose escalation to 4 mg/kg q24h in five cats. At the conclusion of the study, 93% of the cats with the effusive form of FIP were in clinical remission [5]. Subsequent to the publication of these studies, many owners have turned to a variety of unlicensed antiviral therapies purchased online and administered at home, frequently without veterinary guidance. A recent study surveying an online community of owners using GS-441524 showed that 88.2% of owners reported improvements in clinical signs within one week of starting the drug and 96.7% of cats being treated were alive at the time of the study survey [7]. Unlicensed therapies available on the Internet are thought to be similar in chemical composition to the antiviral drug GS-441524, and a clinical trial evaluating the effectiveness of these drugs in a controlled setting revealed clinical remission in 100% (18/18) of cats [9]. Larger-scale studies have now demonstrated remission rates of 80–94% [10,11,12]. The reasons for the lower survival rates in our study may reflect a population of animals that are more medically compromised at the start of anti-viral therapy as a reflection of the patient population at our tertiary referral hospital. Often our patients need to travel significant distances or present first to a local veterinarian, which may in turn result in delays in starting antiviral therapy.",
+   "zh": "在本研究中，口服GS-441524治疗猫的总生存率为55%，口服remdesivir治疗猫的总生存率为77%。这两个治疗组的生存率之间未见统计学差异，但这些生存率低于既往报告的FIP猫接受抗病毒治疗的生存率。在一个FIP实验猫模型中，100%（10/10）的猫在接受GS-441524治疗后疾病完全消退[5]。此外，一项评估GS-441524治疗客户自养自然感染猫（包括渗出型和非渗出型FIP）的研究也显示了良好反应[6]。该研究中三十一只猫接受GS-441524治疗，剂量为2 mg/kg SC q24h，共12周，其中五只猫剂量递增至4 mg/kg q24h。研究结束时，93%的渗出型FIP猫处于临床缓解[5]。这些研究发表后，许多主人转向在网上购买的各种未获许可的抗病毒疗法并在家中给药，往往没有兽医指导。最近一项对使用GS-441524的主人在线社区的调查研究显示，88.2%的主人报告在开始用药一周内临床症状改善，96.7%接受治疗的猫在调查时存活[7]。网上可获得的未获许可疗法被认为在化学组成上与抗病毒药物GS-441524相似，一项在受控环境下评估这些药物有效性的临床试验显示100%（18/18）的猫达到临床缓解[9]。更大规模的研究现已证明缓解率为80–94%[10,11,12]。本研究生存率较低的原因，可能反映了我们三级转诊医院的患病动物群体在开始抗病毒治疗时健康状况更差。我们的患病动物往往需要长途转运，或先在当地兽医处就诊，这可能反过来导致抗病毒治疗开始时间延迟。",
+   "note_zh": "原文“93%的渗出型FIP猫处于临床缓解”引用文献[5]，但从上下文看所述为文献[6]的研究；译文按原文保留。"
+  },
+  {
+   "section": "4. Discussion",
+   "section_zh": "4. 讨论",
+   "en": "Another potential contribution to the lower-than-expected survival rate in this study is the route of antiviral administration. Cats in this study received exclusively oral antiviral therapy. While some previous studies utilized oral antiviral therapy, the large-scale studies allowed for initial administration of parenteral antiviral therapy with the hypothesis that this may result in more rapid achievement of therapeutic drug levels when compared to animals receiving exclusively oral therapy. Pharmacokinetic studies have demonstrated that oral dosing of GS-441524 and remdesivir yield therapeutic plasma drug concentrations exceeding the EC50 values over 24 h [16]. Three of the non-surviving cats underwent necropsy analyses, on days one, two, and four of antiviral therapy. Two cats had evidence of intralesional FCoV antigen detected using IHC, but at very low levels, and in one cat IHC staining did not reveal lesions associated FCoV antigen. This very low level of antigen detection after short courses of antiviral therapy indicates that the medications reach effective concentrations and rapidly decrease viral burdens. However, severe inflammatory responses were still present and likely contributed to the demise of these patients. Studies assessing differences between outcomes for cats with naturally occurring FIP receiving oral and parenterally administered antiviral therapy should be pursued to establish the optimal treatment protocol.",
+   "zh": "本研究生存率低于预期的另一个潜在原因是抗病毒药物的给药途径。本研究中的猫仅接受口服抗病毒治疗。虽然一些既往研究使用了口服抗病毒治疗，但大规模研究允许最初采用胃肠外抗病毒治疗，其假设是与仅接受口服治疗的动物相比，这可能更快达到治疗药物浓度。药代动力学研究已证明，口服GS-441524和remdesivir可使治疗性血浆药物浓度在24 h内超过EC50值[16]。三只未存活猫分别在抗病毒治疗第一、二和四天进行了尸检分析。两只猫通过IHC检出病变内FCoV抗原，但水平很低，另一只猫的IHC染色未显示病变相关FCoV抗原。短疗程抗病毒治疗后抗原检出水平极低，表明药物达到了有效浓度并迅速降低了病毒负荷。然而，严重的炎症反应仍然存在，并可能导致了这些患病动物的死亡。应开展研究评估自然发生FIP猫接受口服与胃肠外抗病毒治疗的结局差异，以确定最佳治疗方案。"
+  },
+  {
+   "section": "4. Discussion",
+   "section_zh": "4. 讨论",
+   "en": "Historically, the diagnosis of FIP relied upon the gold standard identification of FCoV antigen with IHC upon histopathology of affected tissues. However, this methodology often requires invasive procedures to procure biopsy specimens and is not attainable in moribund animals. Therefore, alternative diagnostic strategies have been established [22,23,24,26]. In this study, we relied upon identification of FCoV nucleic acid with RT-PCR from an affected lesion, such as effusion in the context of clinical diseases consistent with FIP. A limitation of this study is that the RT-PCR performed at the time of diagnosis was not standardized and performed in the same laboratory. Therefore, comparisons of viral nucleic acid load between cats cannot be performed.",
+   "zh": "历史上，FIP的诊断依赖于金标准——在受累组织的组织病理学检查中用IHC鉴定FCoV抗原。然而，这种方法通常需要侵入性操作获取活检标本，对濒死动物无法实施。因此，已建立了替代诊断策略[22,23,24,26]。在本研究中，我们依赖于在临床疾病符合FIP的情况下，通过RT-PCR从受累病灶（如积液）中鉴定FCoV核酸。本研究的一个局限是诊断时进行的RT-PCR未标准化，也未在同一实验室进行。因此，无法比较猫之间的病毒核酸载量。"
+  },
+  {
+   "section": "4. Discussion",
+   "section_zh": "4. 讨论",
+   "en": "Dosing strategies for GS-441524 in the literature are variable, ranging from 2–4 mg/kg SC or 5–15 mg/kg orally once daily for 12 weeks [6,7,9,10,11,12]. However, it is difficult to fully understand the dosing in some previous trials, as the compound administered is often of an unknown concentration and the true dose is difficult to elucidate. The dosing strategy utilized in this study was based on pharmacokinetic studies that demonstrated an oral remdesivir dose of 25 mg/kg once daily achieved therapeutic plasma concentrations [16]. From there, a dose of GS-441524 of 12.5 mg/kg was determined as the molecular weight of half that of remdesivir. Therefore, bioequivalent dosing was achieved, removing this factor impacting differences in patient outcomes. A dosing range was utilized for ease of drug-compounding and the dose was adjusted weekly based on patient weight to ensure the antiviral dose remained as close to the dosing target as possible. Further prospective studies are needed to fully investigate oral dosing strategies of remdesivir and GS-441524 for cats with FIP, including the necessary duration of therapy.",
+   "zh": "文献中GS-441524的给药策略各异，范围为2–4 mg/kg SC或5–15 mg/kg口服，每日一次，共12周[6,7,9,10,11,12]。然而，一些既往试验中的给药剂量难以完全理解，因为所给化合物的浓度往往未知，真实剂量难以确定。本研究所采用的给药策略基于药代动力学研究，该研究证明口服remdesivir 25 mg/kg每日一次可达到治疗性血浆浓度[16]。据此，由于GS-441524的分子量为remdesivir的一半，确定GS-441524剂量为12.5 mg/kg。因此实现了生物等效给药，排除了这一影响患病动物结局差异的因素。为便于药物配制采用了剂量范围，并每周根据患病动物体重调整剂量，以确保抗病毒剂量尽可能接近目标剂量。需要进一步的前瞻性研究来全面考察remdesivir和GS-441524对FIP猫的口服给药策略，包括必要的疗程。"
+  },
+  {
+   "section": "4. Discussion",
+   "section_zh": "4. 讨论",
+   "en": "In surviving cats, all effusion was resolved by the week 6 visit. Time to resolution of effusion comparisons between study groups could not be completed with this study design, as ultrasonographic evaluation would need to have been completed more frequently to determine when it resolved. Clinicopathologic parameters, including hematocrit, lymphocyte count, serum proteins, and bilirubin all largely normalized during the study in both treatment groups. There was no significant treatment effect noted in this study regarding the anti-viral drug administered, except for the albumin:globulin ratio. One cat in the GS-441524 group had persistently elevated globulins, without any other remaining signs of ongoing FIP. This cat was also diagnosed with chronic upper respiratory tract infections and chronic gingivostomatitis. At the time of manuscript submission, the caretakers had not reported any relapse of FIP clinical signs; therefore, this finding of a decreased albumin:globulin ratio in the GS-441524 group likely reflects a type 1 error rather than a true drug effect. All cats remained seropositive at week 16 and there was no difference in titers between antiviral treatment groups.",
+   "zh": "在存活猫中，所有积液在第6周就诊时均已消退。由于需要更频繁地进行超声评估才能确定积液何时消退，本研究设计无法完成研究组间积液消退时间的比较。两个治疗组在研究期间临床病理参数（包括红细胞压积、淋巴细胞计数、血清蛋白和胆红素）基本恢复正常。除白蛋白:球蛋白比值外，本研究未发现所给抗病毒药物有显著治疗效应。GS-441524组一只猫球蛋白持续升高，但无其他FIP持续存在的征象。该猫还被诊断为慢性上呼吸道感染和慢性齿龈口炎。截至稿件投稿时，看护人未报告任何FIP临床症状复发；因此，GS-441524组白蛋白:球蛋白比值降低这一发现可能反映的是1类错误（I型错误），而非真正的药物效应。所有猫在第16周仍为血清阳性，抗病毒治疗组之间滴度无差异。"
+  },
+  {
+   "section": "4. Discussion",
+   "section_zh": "4. 讨论",
+   "en": "One cat in the remdesivir treatment group developed seizures and was euthanized 139 days after completion of treatment. This cat had a positive response to therapy during the treatment period and the observation period post-treatment, with normalization of globulins, fever, peritoneal effusion. However, this cat developed hyperesthesia syndrome post-treatment and then developed seizures and there is concern this may be a manifestation of a neurologic form of FIP. A necropsy evaluation was not allowed, so confirmation of this suspicion was not possible. All other cats in both treatment groups have continued to remain in clinical remission of their disease. If it is assumed that this cat experienced a relapse of FIP, the relapse rate in this study (overall 8.3%) is similar to other studies that have a demonstrated relapse rate of 3.5–23% of cats treated with either GS-441524, remdesivir, or a combination of the medications [6,7,11,12].",
+   "zh": "remdesivir治疗组一只猫出现癫痫发作，在治疗完成后139天被安乐死。该猫在治疗期间和治疗后观察期对治疗反应良好，球蛋白、发热、腹腔积液均恢复正常。然而，该猫在治疗后出现感觉过敏综合征，继而出现癫痫发作，有人担心这可能是神经型FIP的表现。未获准进行尸检评估，因此无法证实这一怀疑。两个治疗组的所有其他猫均持续处于疾病临床缓解。若假定该猫发生了FIP复发，则本研究的复发率（总体8.3%）与其他研究相似，其他研究显示接受GS-441524、remdesivir或二者联合治疗的猫复发率为3.5–23%[6,7,11,12]。"
+  },
+  {
+   "section": "4. Discussion",
+   "section_zh": "4. 讨论",
+   "en": "No clinically relevant adverse events were noted in this study. In people, rare reports of liver enzyme elevations have been observed in remdesivir clinical trials [37]. However, this was not observed in our study for cats receiving the medication daily for 84 days. This is similar to other studies that have treated cats with GS-441524, remdesivir, or a combination of the medications [6,7,11,12]. Other, less-apparent toxicities, such as impairment of fetal devolvement were not investigated in this study [38].",
+   "zh": "本研究未观察到具有临床意义的不良事件。在人类中，remdesivir临床试验中有罕见的肝酶升高报告[37]。然而，在本研究中每日接受该药物84天的猫未观察到这一情况。这与其他使用GS-441524、remdesivir或二者联合治疗猫的研究相似[6,7,11,12]。本研究未考察其他不太明显的毒性，如对胎儿发育的损害[38]。"
+  },
+  {
+   "section": "4. Discussion",
+   "section_zh": "4. 讨论",
+   "en": "Study limitations included a lack of continual monitoring in the first weeks of the study. Cats were only examined three times during the study protocol to limit stress to the animals and associated costs. This prevented the collection of more granular details for some secondary-outcome measures such as the resolution of effusion. Cats received antivirals dosed within a dosing window corresponding to standard compounding-sized capsules rather than custom-made capsules that provided a consistent dose throughout the study; therefore, it is possible that there were dose-related effects between the groups since they were not individually compounded for patient weight. The collection of clinicopathologic data at baseline was not standardized and there may have been interlaboratory variation for some baseline data, especially FCoV antibody titers. If a patient had laboratory work that was performed with a reference laboratory within one week of presentation for study screening, further blood collection was not performed due to the severe illness, small blood-circulating volume, and marked anemia noted in many of the patients. Complete blood count and chemistry panel performed at study weeks 6 and 16 were all performed in the same diagnostic laboratory for consistency in evaluating study outcomes. Several of the cats enrolled in the study that succumbed to disease did not have follow-up postmortem examinations performed, limiting the ability to fully assess the causes of death in those patients.",
+   "zh": "本研究的局限包括研究最初几周缺乏持续监测。为减少动物应激和相关费用，研究方案中猫仅接受三次检查。这妨碍了对某些次要结局指标（如积液消退）收集更细致的信息。猫接受的抗病毒药物剂量处于与标准配制规格胶囊相对应的剂量窗口内，而非使用在整个研究期间提供恒定剂量的定制胶囊；因此，由于未根据患病动物体重单独配制，组间可能存在剂量相关效应。基线临床病理数据的采集未标准化，某些基线数据（尤其是FCoV抗体滴度）可能存在实验室间差异。若患病动物在就诊进行研究筛查前一周内已在参考实验室进行了实验室检查，由于许多患病动物病情严重、循环血量小且贫血明显，不再进一步采血。研究第6周和第16周的全血细胞计数和生化检查均在同一诊断实验室进行，以保证评估研究结局的一致性。部分纳入研究后死于疾病的猫未进行后续死后检查，限制了全面评估这些患病动物死因的能力。"
+  },
+  {
+   "section": "5. Conclusions",
+   "section_zh": "5. 结论",
+   "en": "Orally administered remdesivir at 25–30 mg/kg by mouth once daily for 12 weeks was non-inferior to orally administered GS-441524 at a bioequivalent dose of 12.5–15 mg/kg by mouth once daily for 12 weeks in cats with naturally occurring effusive FIP. These medications were well-tolerated without any clinically applicable adverse events. Mortality rates in this study were higher than in some previous reports and causes for this difference should be further evaluated with rigorous, prospective, controlled clinical trials evaluating the efficacy of oral versus parenteral antiviral therapy.",
+   "zh": "在自然发生渗出型FIP猫中，口服remdesivir 25–30 mg/kg每日一次、共12周，不劣于生物等效剂量的口服GS-441524 12.5–15 mg/kg每日一次、共12周。这些药物耐受性良好，无任何具有临床意义的不良事件。本研究的死亡率高于一些既往报告，这一差异的原因应通过严谨的前瞻性对照临床试验评估口服与胃肠外抗病毒治疗的疗效来进一步研究。"
+  },
+  {
+   "section": "Figure legend",
+   "section_zh": "图注",
+   "en": "Figure 1 Study timeline indicating timing of evaluation and study drug administration. Weight was recorded weekly for the study duration. (Figure made with Biorender).",
+   "zh": "图1 研究时间轴，显示评估时间和研究药物给药时间。研究期间每周记录体重。（图由Biorender制作）。"
+  },
+  {
+   "section": "Figure legend",
+   "section_zh": "图注",
+   "en": "Figure 2 Consort diagram describing study screening, exclusions, intention to treat animals that were allocated to the antiviral treatment group, and cats that were excluded from the final analysis. (Image made with Biorender).",
+   "zh": "图2 Consort流程图，描述研究筛查、排除、分配至抗病毒治疗组的意向治疗动物，以及被排除出最终分析的猫。（图像由Biorender制作）。"
+  },
+  {
+   "section": "Figure legend",
+   "section_zh": "图注",
+   "en": "Figure 3 Treatment difference. The difference in survival rate of remdesivir minus GS-441524 (black dot) displayed with the 95% confidence interval of the difference in survival. A solid vertical line is placed at 0% difference in survival and a dotted vertical line represents the 15% non-inferiority limit.",
+   "zh": "图3 治疗差异。remdesivir减GS-441524的生存率差值（黑点）及生存差值的95%置信区间。实线竖线位于生存差值0%处，虚线竖线代表15%非劣效界值。"
+  },
+  {
+   "section": "Figure legend",
+   "section_zh": "图注",
+   "en": "Figure 4 Survival curves: (a) survival curve that displays all-cause mortality; and (b) survival curve with cats that succumbed to disease within the first 48 h of therapy censored from analysis. Cats treated with GS-441524 are represented by the blue line and cats treated with remdesivir are represented by the red line.",
+   "zh": "图4 生存曲线：(a) 显示全因死亡率的生存曲线；以及(b) 将治疗最初48 h内死于疾病的猫作为删失数据排除出分析的生存曲线。接受GS-441524治疗的猫以蓝线表示，接受remdesivir治疗的猫以红线表示。"
+  },
+  {
+   "section": "Figure legend",
+   "section_zh": "图注",
+   "en": "Figure 5 (a) Lymph node exhibiting minimal positive IHC coronaviral antigen; (b) lymph node histopathology consistent with pyogranulomatous inflammation; and (c) liver histopathology exhibiting inflammation of the capsule (capsulitis).",
+   "zh": "图5 (a) 淋巴结显示极少量冠状病毒抗原IHC阳性；(b) 淋巴结组织病理学符合脓性肉芽肿性炎症；以及(c) 肝脏组织病理学显示被膜炎症（被膜炎）。"
+  },
+  {
+   "section": "Figure legend",
+   "section_zh": "图注",
+   "en": "Figure 6 Weight (kg) measured weekly for individual study cats. Truncated lines represent non-surviving cats. Cats in the GS-441524 treatment group are represented by blue lines and cats in the remdesivir treatment group are represented by red lines.",
+   "zh": "图6 各研究猫每周测量的体重（kg）。截断的线代表未存活的猫。GS-441524治疗组的猫以蓝线表示，remdesivir治疗组的猫以红线表示。"
+  },
+  {
+   "section": "Figure legend",
+   "section_zh": "图注",
+   "en": "Figure 7 Clinicopathologic features throughout the study period including: (a) hematocrit; (b) neutrophil count; (c) lymphocyte count; (d) serum albumin concentration; (e) serum albumin:globulin ratio; and (f) serum globulin concentrations. Cats treated with GS-441524 are represented by blue circles and cats treated with remdesivir with red triangles. The median value represented with a horizonal black line.",
+   "zh": "图7 研究期间的临床病理特征，包括：(a) 红细胞压积；(b) 中性粒细胞计数；(c) 淋巴细胞计数；(d) 血清白蛋白浓度；(e) 血清白蛋白:球蛋白比值；以及(f) 血清球蛋白浓度。接受GS-441524治疗的猫以蓝色圆点表示，接受remdesivir治疗的猫以红色三角形表示。中位数以黑色水平线表示。"
+  },
+  {
+   "section": "Figure legend",
+   "section_zh": "图注",
+   "en": "Figure 8 Feline coronavirus antibody serology at study week 16, presented as a reciprocal endpoint titer. Specimens were not tested at dilutions higher than 1:20,480. Cats in the GS-441524 treatment group are in represented by blue dots, and cats in the remdesivir treatment group are represented by red triangles. The black horizontal line represents the median antibody titer.",
+   "zh": "图8 研究第16周的猫冠状病毒抗体血清学，以终点滴度倒数表示。标本未在高于1:20,480的稀释度下检测。GS-441524治疗组的猫以蓝点表示，remdesivir治疗组的猫以红色三角形表示。黑色水平线代表抗体滴度中位数。"
+  },
+  {
+   "section": "Table caption",
+   "section_zh": "表题",
+   "en": "Table 1 Baseline demographics.",
+   "zh": "表1 基线人口学特征。"
+  },
+  {
+   "section": "Table footnote",
+   "section_zh": "表注",
+   "en": "* Presented as median and range for continuous variables.",
+   "zh": "* 连续变量以中位数和范围表示。"
+  },
+  {
+   "section": "Table caption",
+   "section_zh": "表题",
+   "en": "Table 2 Clinicopathologic data at study enrollment. Variables presented as median (range).",
+   "zh": "表2 研究纳入时的临床病理数据。变量以中位数（范围）表示。"
+  }
+ ]
+}
