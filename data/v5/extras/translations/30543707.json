@@ -1,0 +1,593 @@
+{
+ "pmid": "30543707",
+ "license": "CC BY 4.0",
+ "attribution": {
+  "authors": [
+   "Kaplan Joanna L",
+   "Stern Joshua A",
+   "Fascetti Andrea J",
+   "Larsen Jennifer A",
+   "Skolnik Hannah",
+   "Peddle Gordon D",
+   "Kienle Richard D",
+   "Waxman Andrew",
+   "Cocchiaro Michael",
+   "Gunther-Harrington Catherine T",
+   "Klose Tyler",
+   "LaFauci Kendra",
+   "Lefbom Bonnie",
+   "Machen Lamy Maggie",
+   "Malakoff Rebecca",
+   "Nishimura Satoko",
+   "Oldach Maureen",
+   "Rosenthal Steven",
+   "Stauthammer Christopher",
+   "O’Sullivan Lynne",
+   "Visser Lance C",
+   "William Regan",
+   "Ontiveros Eric",
+   "Loor Juan J"
+  ],
+  "title": "Taurine deficiency and dilated cardiomyopathy in golden retrievers fed commercial diets",
+  "journal": "PLoS ONE",
+  "year": "2018",
+  "doi": "10.1371/journal.pone.0209112",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "note": "中文为 AI 翻译，以英文原文为准；已对原文做翻译改编"
+ },
+ "scope_zh": "标题、结构式摘要、引言、材料与方法、结果、讨论、结论全文正文、资助声明；图1–2图注、表1–4表题及表注（含日粮产品注释，品牌与产品名保留英文）。未含：参考文献、数据可用性声明、表格正文。",
+ "paragraphs": [
+  {
+   "section": "Title",
+   "section_zh": "标题",
+   "en": "Taurine deficiency and dilated cardiomyopathy in golden retrievers fed commercial diets",
+   "zh": "饲喂商品日粮的金毛寻回犬的牛磺酸缺乏与扩张型心肌病"
+  },
+  {
+   "section": "Abstract / Introduction",
+   "section_zh": "摘要 / 引言",
+   "en": "Golden retrievers are over-represented in cases of taurine-deficient dilated cardiomyopathy and recently a surge in cases has prompted further investigation.",
+   "zh": "金毛寻回犬在牛磺酸缺乏性扩张型心肌病病例中占比过高，近期病例激增促使人们开展进一步调查。"
+  },
+  {
+   "section": "Abstract / Objective",
+   "section_zh": "摘要 / 目的",
+   "en": "To describe the clinical, dietary, and echocardiographic features in golden retrievers diagnosed with taurine deficiency and dilated cardiomyopathy, and to determine specific dietary associations. A second aim was to determine the whole blood taurine concentrations in a representative sample of healthy golden retrievers.",
+   "zh": "描述被诊断为牛磺酸缺乏和扩张型心肌病的金毛寻回犬的临床、饮食和超声心动图特征，并确定特定的饮食关联。第二个目的是测定具有代表性的健康金毛寻回犬样本的全血牛磺酸浓度。"
+  },
+  {
+   "section": "Abstract / Animals",
+   "section_zh": "摘要 / 动物",
+   "en": "Twenty-four client-owned golden retrievers with documented taurine deficiency and dilated cardiomyopathy and 52 healthy client-owned golden retrievers.",
+   "zh": "二十四只经证实患有牛磺酸缺乏和扩张型心肌病的客户自养金毛寻回犬，以及52只健康的客户自养金毛寻回犬。"
+  },
+  {
+   "section": "Abstract / Methods",
+   "section_zh": "摘要 / 方法",
+   "en": "In this multicenter prospective observational study, baseline and follow-up echocardiographic data, complete diet and medical histories, and whole blood, plasma, or serum taurine concentrations were obtained. Baseline and follow-up echocardiographic data were compared. Associations were evaluated between specific diets and taurine deficiency or congestive heart failure. The prevalence of low whole blood taurine concentrations in the healthy golden retrievers was calculated.",
+   "zh": "在这项多中心前瞻性观察性研究中，获取了基线和随访超声心动图数据、完整的饮食和病史，以及全血、血浆或血清牛磺酸浓度。比较了基线和随访超声心动图数据。评估了特定日粮与牛磺酸缺乏或充血性心力衰竭之间的关联。计算了健康金毛寻回犬中全血牛磺酸浓度偏低的患病率。"
+  },
+  {
+   "section": "Abstract / Results",
+   "section_zh": "摘要 / 结果",
+   "en": "Twenty-three of 24 dogs diagnosed with taurine deficiency and dilated cardiomyopathy were fed diets that were either grain-free, legume-rich, or a combination of these factors. None of these diets were feeding trial tested using Association of American Feed Control Officials (AAFCO) procedures. Twenty-three of 24 dogs had significant improvement in their echocardiographic parameters and normalization of taurine concentrations following diet change and taurine supplementation. Nine of 11 dogs diagnosed with congestive heart failure (CHF) had resolution of their congestion at follow-up with five no longer requiring diuretic therapy and four tolerating diuretic dose reduction by >50%.",
+   "zh": "24只被诊断为牛磺酸缺乏和扩张型心肌病的犬中有23只饲喂的日粮为无谷、富含豆类或兼具这两个特征。这些日粮均未按照美国饲料管理官员协会（AAFCO）程序进行饲喂试验检测。在更换日粮并补充牛磺酸后，24只犬中有23只的超声心动图参数显著改善、牛磺酸浓度恢复正常。11只被诊断为充血性心力衰竭（CHF）的犬中有9只在随访时充血消退，其中五只不再需要利尿治疗，四只可耐受利尿剂剂量减少>50%。"
+  },
+  {
+   "section": "Abstract / Conclusions",
+   "section_zh": "摘要 / 结论",
+   "en": "Certain diets and diet characteristics were associated with the development of taurine deficiency. Taurine deficiency and dilated cardiomyopathy in golden retrievers is likely multifactorial, including a combination of dietary, metabolic, and genetic factors.",
+   "zh": "某些日粮及日粮特征与牛磺酸缺乏的发生相关。金毛寻回犬的牛磺酸缺乏和扩张型心肌病很可能是多因素的，包括饮食、代谢和遗传因素的共同作用。"
+  },
+  {
+   "section": "Introduction",
+   "section_zh": "引言",
+   "en": "Taurine deficiency and its association with dilated cardiomyopathy (DCM) is well described in the cat and dog [1–10]. In the dog, this sulfur-containing amino acid is synthesized primarily in the liver and central nervous system from methionine and cysteine via the transsulfuration pathway [2]. Due to low enzyme activities of this pathway, which limit endogenous synthesis, taurine is nutritionally essential in the cat, and deficiency was easily and widely accepted as a direct cause of DCM in this species [2–4]. Less intuitive was the discovery that taurine deficiency also leads to DCM in the dog, despite the fact that taurine is not considered an essential amino acid in this species. In 1995, Kramer et al showed that a subset of dogs with DCM, in which golden retrievers and American cocker spaniels were overrepresented, had taurine deficiency [3]. Subsequent studies revealed that when dogs with taurine deficiency and DCM were supplemented with taurine and L-carnitine, several of the myocardial changes resolved, and supportive cardiac medications were removed successfully in the vast majority of these dogs [5–8]. These studies suggested a direct causal link between taurine deficiency and the development of canine DCM. In addition to nutritional etiologies of DCM, several dog breeds have been reported to have an inherited form of DCM. These include breeds like the Doberman Pinscher, Great Dane and Irish Wolfhound [11, 12]. Within these breeds some investigations of association to taurine deficiency have been performed with results that did not clearly indicate any relationship to development of DCM [12].",
+   "zh": "牛磺酸缺乏及其与扩张型心肌病（DCM）的关联在猫和犬中已有充分描述[1–10]。在犬中，这种含硫氨基酸主要在肝脏和中枢神经系统中经转硫途径由蛋氨酸和半胱氨酸合成[2]。由于该途径的酶活性低，限制了内源性合成，牛磺酸在猫是营养必需的，牛磺酸缺乏作为该物种DCM的直接原因很容易并被广泛接受[2–4]。不那么直观的是，人们发现牛磺酸缺乏也会导致犬的DCM，尽管牛磺酸在该物种中并不被视为必需氨基酸。1995年，Kramer等表明，部分DCM犬存在牛磺酸缺乏，其中金毛寻回犬和美国可卡犬占比过高[3]。随后的研究显示，当给牛磺酸缺乏合并DCM的犬补充牛磺酸和L-carnitine（左旋肉碱）后，若干心肌变化得以消退，且绝大多数犬成功停用了心脏支持药物[5–8]。这些研究提示牛磺酸缺乏与犬DCM的发生之间存在直接因果联系。除DCM的营养性病因外，已报道若干犬种存在遗传性DCM，包括杜宾犬、大丹犬和爱尔兰猎狼犬等[11, 12]。在这些品种中已开展了一些与牛磺酸缺乏关联的调查，结果未明确显示与DCM发生有任何关系[12]。"
+  },
+  {
+   "section": "Introduction",
+   "section_zh": "引言",
+   "en": "It has long been recognized that while any breed is at risk of developing DCM secondary to taurine deficiency, certain dog breeds appear to be more susceptible than others, including the golden retriever [3,5–9]. A 2005 case series described taurine deficiency and DCM in five related golden retrievers fed commercial diets consisting of primarily lamb and rice or chicken and rice [5]. In all five dogs, their echocardiographic indices of myocardial function were significantly improved after 3–6 months of taurine supplementation. A limitation of this study was that because these particular golden retrievers were closely related to one other, a hereditary cause for taurine deficiency could not be ruled out and a clear diet association could not be made. In addition to these cases, Fascetti et al. noted three golden retrievers living in the same household with taurine deficiency that were fed a vegetarian diet formulated by the owner [6]. Thus, the preponderance of evidence supports at least some breed-specific sensitivity to taurine deficiency in golden retrievers.",
+   "zh": "人们早已认识到，虽然任何品种都有继发于牛磺酸缺乏而发生DCM的风险，但某些犬种似乎比其他犬种更易感，包括金毛寻回犬[3,5–9]。2005年的一个病例系列描述了五只有亲缘关系、饲喂主要由羊肉和大米或鸡肉和大米组成的商品日粮的金毛寻回犬发生牛磺酸缺乏和DCM[5]。在全部五只犬中，补充牛磺酸3–6个月后，其心肌功能的超声心动图指标均显著改善。该研究的一个局限是，由于这些金毛寻回犬彼此亲缘关系密切，无法排除牛磺酸缺乏的遗传性原因，也无法确立明确的饮食关联。除这些病例外，Fascetti等注意到同一家庭中三只饲喂主人自配素食日粮的金毛寻回犬存在牛磺酸缺乏[6]。因此，大多数证据支持金毛寻回犬对牛磺酸缺乏至少存在一定的品种特异性易感性。"
+  },
+  {
+   "section": "Introduction",
+   "section_zh": "引言",
+   "en": "Normal reference ranges for whole blood and plasma taurine can be established based on a small handful of studies published in 2003. In a study by Torres et al, mean +/- standard deviation of plasma and whole blood taurine concentrations in 12 healthy beagle dogs fed purified diets were 109 +/-8 nmol/ml and 291 +/-25 nmol/ml, respectively [13]. A larger study by Delaney et al reported mean +/- standard error of plasma and whole blood taurine concentrations in 131 apparently healthy dogs of a variety of breeds consuming commercial diets to be 77+/-2.1 nmol/ml and 266 +/-5.1 nmol/ml, respectively [14]. Serum taurine concentrations, although less repeatable, in apparently healthy dogs were recently reported to have a median of 178 (range, 110–272) [15]. However, there is little understanding of how plasma and whole blood taurine concentrations correlate with myocardial taurine concentrations in the dog, as endomyocardial biopsy is challenging and not clinically practical. To confound the assessment of taurine concentrations even further, the degree to which breed- or size-specific reference ranges are necessary is unknown but is supported by data that establish specific breeds like golden retrievers, Newfoundlands and American cocker spaniels as having a greater risk for taurine deficiency and subsequent cardiac disease [3,5–9].",
+   "zh": "全血和血浆牛磺酸的正常参考范围可根据2003年发表的少数几项研究确定。在Torres等的研究中，12只饲喂纯化日粮的健康比格犬的血浆和全血牛磺酸浓度均值+/-标准差分别为109 +/-8 nmol/ml和291 +/-25 nmol/ml[13]。Delaney等的一项规模更大的研究报告，131只饲喂商品日粮的各品种表观健康犬的血浆和全血牛磺酸浓度均值+/-标准误分别为77+/-2.1 nmol/ml和266 +/-5.1 nmol/ml[14]。最近报道，表观健康犬的血清牛磺酸浓度（尽管可重复性较差）中位数为178（范围，110–272）[15]。然而，由于心内膜心肌活检具有挑战性且在临床上不实际，人们对犬血浆和全血牛磺酸浓度与心肌牛磺酸浓度之间的相关性知之甚少。使牛磺酸浓度的评估更加复杂的是，是否需要以及在多大程度上需要品种或体型特异性参考范围尚不清楚，但有数据确认金毛寻回犬、纽芬兰犬和美国可卡犬等特定品种发生牛磺酸缺乏及继发心脏病的风险更高，支持了这种需要[3,5–9]。"
+  },
+  {
+   "section": "Introduction",
+   "section_zh": "引言",
+   "en": "Several studies and case reports have established an association between canine taurine deficiency and dietary factors [5–8,16]. In 2001, a study by Sanderson et al was the first to demonstrate that diet could lead directly to taurine deficiency and DCM in the dog [17]. Healthy dogs were fed protein-restricted diets and developed taurine deficiency as a result. One dog that developed both taurine deficiency and DCM had significant improvement in cardiac function with taurine supplementation. Although some protein-restricted veterinary therapeutic diets were supplemented with taurine due to these concerns [9, 16, 17], this practice was not commonplace in over-the-counter dog foods until deficiencies were identified in dogs consuming certain maintenance diets [6,8]. As a result, the prevalence of dilated cardiomyopathy secondary to taurine deficiency was markedly reduced and limited primarily to dogs fed imbalanced, non-commercial, home-cooked or raw food diets. Recently, however, there has been an increase in the number of cases of canine DCM suspected to be related to diet [18].",
+   "zh": "若干研究和病例报告已确立犬牛磺酸缺乏与饮食因素之间的关联[5–8,16]。2001年，Sanderson等的研究首次证明饮食可直接导致犬的牛磺酸缺乏和DCM[17]。健康犬饲喂限制蛋白质的日粮后出现了牛磺酸缺乏。一只同时发生牛磺酸缺乏和DCM的犬在补充牛磺酸后心脏功能显著改善。尽管出于这些担忧，一些限制蛋白质的兽医处方日粮添加了牛磺酸[9, 16, 17]，但直到在食用某些维持日粮的犬中发现缺乏后，这一做法才在非处方犬粮中普遍起来[6,8]。因此，继发于牛磺酸缺乏的扩张型心肌病患病率显著下降，主要局限于饲喂不均衡的非商品化家庭自制或生食日粮的犬。然而，最近疑似与饮食相关的犬DCM病例数有所增加[18]。"
+  },
+  {
+   "section": "Introduction",
+   "section_zh": "引言",
+   "en": "The purpose of this prospective, observational study was to describe the diet histories, echocardiographic findings, blood taurine concentrations, and clinical outcomes in golden retrievers diagnosed with DCM and low blood taurine concentrations. A second aim of this study is to describe the blood taurine concentrations in a representative population of apparently healthy golden retrievers fed various commercial diets. We hypothesized that specific diets are associated with development of low blood taurine concentrations and taurine-responsive DCM in golden retrievers and that diet change and taurine supplementation would effectively improve the clinical status of these dogs.",
+   "zh": "这项前瞻性观察性研究的目的是描述被诊断为DCM且血液牛磺酸浓度偏低的金毛寻回犬的饮食史、超声心动图结果、血液牛磺酸浓度和临床结局。本研究的第二个目的是描述饲喂各种商品日粮的具有代表性的表观健康金毛寻回犬群体的血液牛磺酸浓度。我们假设特定日粮与金毛寻回犬血液牛磺酸浓度偏低和牛磺酸反应性DCM的发生相关，并且更换日粮和补充牛磺酸可有效改善这些犬的临床状况。"
+  },
+  {
+   "section": "Materials and methods / Animals and study design",
+   "section_zh": "材料与方法 / 动物与研究设计",
+   "en": "All animals were treated according to standard of care and informed consent for inclusion of patient information in this study was obtained. This is in accordance with the Institutional animal care and use committee of the University of California Davis. Client-owned golden retrievers with documented blood taurine deficiency and dilated cardiomyopathy met inclusion criteria and were enrolled in a multicenter, prospective, observational study to evaluate dietary factors that may contribute to this condition as well as describe their clinical response to treatment. All dogs were recruited from either private or academic institutions in North America from January 2016 to July 2018. All dogs were managed as clinical cases by an attending clinician following standard of clinical care. Client consent for contribution of images and medical records was obtained for all animals in the study. Complete diet histories [19] were obtained for all dogs. The following clinical data were collected for all dogs as part of their clinical management: baseline history, physical examination, standard routine echocardiogram, and either whole blood, plasma, serum, or a combination of whole blood and plasma taurine concentrations. Follow-up data was requested for all dogs if obtained for clinical reevaluation during the study period and included repeat taurine concentrations, updated diet histories, and echocardiograms. All dogs with follow-up data after the initial diagnosis were prescribed a diet change and taurine supplementation at a median dose of 3000mg (range 2000-4500mg) divided two to three times daily as recommended by their attending clinician.",
+   "zh": "所有动物均按照标准诊疗进行治疗，并获得了将患病动物信息纳入本研究的知情同意。这符合加州大学戴维斯分校动物护理和使用委员会的规定。经证实患有血液牛磺酸缺乏和扩张型心肌病的客户自养金毛寻回犬符合纳入标准，并被纳入一项多中心、前瞻性、观察性研究，以评估可能促成该病的饮食因素，并描述其对治疗的临床反应。所有犬均于2016年1月至2018年7月从北美的私立或学术机构招募。所有犬均由主治临床医生按照标准临床诊疗作为临床病例进行管理。研究中所有动物均获得了主人同意提供影像和病历。获取了所有犬的完整饮食史[19]。作为临床管理的一部分，收集了所有犬的以下临床数据：基线病史、体格检查、标准常规超声心动图，以及全血、血浆、血清或全血和血浆组合的牛磺酸浓度。若在研究期间因临床复查获得随访数据，则要求提供所有犬的随访数据，包括重复的牛磺酸浓度、更新的饮食史和超声心动图。所有在初诊后有随访数据的犬均按主治临床医生的建议，被处方更换日粮并补充牛磺酸，中位剂量为3000mg（范围2000-4500mg），每日分两至三次给予。"
+  },
+  {
+   "section": "Materials and methods / Animals and study design",
+   "section_zh": "材料与方法 / 动物与研究设计",
+   "en": "Presence or absence of congestive heart failure was recorded for each dog at each visit. Congestive heart failure was diagnosed when evidence of cardiogenic pulmonary edema was visualized on thoracic radiographs or when pleural or peritoneal effusion were identified on ultrasound with concurrent echocardiographic evidence of dilated cardiomyopathy. Thoracic radiographs were performed at the discretion of the attending clinicians. Treatment recommendations were made at the discretion of the attending clinician, thus medical management was not standardized in cases.",
+   "zh": "在每次就诊时记录每只犬是否存在充血性心力衰竭。当胸部X线片上可见心源性肺水肿证据，或超声检查发现胸腔或腹腔积液并同时有扩张型心肌病的超声心动图证据时，诊断为充血性心力衰竭。胸部X线检查由主治临床医生酌情进行。治疗建议由主治临床医生酌情决定，因此各病例的药物管理未标准化。"
+  },
+  {
+   "section": "Materials and methods / Echocardiography",
+   "section_zh": "材料与方法 / 超声心动图",
+   "en": "All echocardiograms were performed by a board-certified cardiologist or a resident-in-training under the direct supervision of a board-certified cardiologist. All echocardiographic images obtained from outside institutions were sent for off-line analysis by a single investigator (JS) using a commercially available workstation (Syngo Dynamic Workplace, Version 10.0.01_HF04_Rev5 [Build 2884], Siemens Medical Solutions, Malvern Pennsylvania). A diagnosis of DCM was made if echocardiographic measurements and calculations met at least two out of four of the following specific criteria: left ventricular percent fractional shortening (%FS) <25% [20, 21], percent fractional area change (%FAC) <35%, percent ejection fraction (%EF) <40% [22–24] and left ventricular internal diameter at end-systole (LVIDs)> 3.5 cm [20]. Percent fractional shortening and LVIDs were obtained either in M-mode or two-dimensional (2D) imaging from the right parasternal short-axis at the level of the papillary muscles [21]. In addition to the diagnostic criteria for DCM diagnosis, selected echocardiographic indices were measured and recorded for all animals at all visits when available. Left atrial to aortic root ratios (LA:Ao) were obtained from 2D imaging of the right parasternal short axis view at the heart base [25]. Left atrial enlargement was determined by an LA:Ao ratio of ≥1.6. Left ventricular internal dimension at end-diastole (LVIDd) and LVIDs were measured using the leading-edge method at end diastole and systole, respectively. Percent fractional shortening was calculated using the equation (LVIDd-LVIDs)/LVIDd x 100 [21]. An LVIDd >5.1 was criteria for an enlarged left ventricle [20]. Using planimetry, the left ventricular area at end-diastole (LVAd) and end-systole (LVAs) was determined by tracing the endocardial border of the left ventricle in the left apical four-chamber view excluding the papillary muscles. Percent fractional area change was calculated as (LVAd-LVAs)/LVAd x 100. Left ventricular volumes at end-diastole (LVVd) and end-systole (LVVs) were estimated by tracing the endocardial border of the left ventricle in the left-apical four chamber view and employing the modified Simpson’s rule of discs [23, 24]. Percent ejection fraction was calculated as (LVVd-LVVs)/LVVd x 100. Dogs with evidence of concurrent cardiac disease that could lead to a DCM phenocopy (i.e. patent ductus arteriosus, aortic regurgitation or severe myxomatous mitral valve disease) were excluded from the study. Dogs with incomplete imaging that did not permit assessment of presence or absence of DCM criteria were excluded from the study.",
+   "zh": "所有超声心动图均由委员会认证的心脏病专科医生或在其直接监督下的住院医师进行。从外部机构获得的所有超声心动图图像均使用商用工作站（Syngo Dynamic Workplace，Version 10.0.01_HF04_Rev5 [Build 2884]，Siemens Medical Solutions，Malvern Pennsylvania）由一名研究者（JS）进行离线分析。若超声心动图测量和计算值满足以下四项特定标准中的至少两项，则诊断为DCM：左心室缩短分数百分比（%FS）<25% [20, 21]、面积变化分数百分比（%FAC）<35%、射血分数百分比（%EF）<40% [22–24]以及左心室收缩末期内径（LVIDs）> 3.5 cm [20]。缩短分数百分比和LVIDs在乳头肌水平的右胸骨旁短轴切面通过M型或二维（2D）成像获得[21]。除DCM诊断标准外，在所有可获得数据的就诊中测量并记录所有动物的选定超声心动图指标。左心房与主动脉根部比值（LA:Ao）通过心基部右胸骨旁短轴切面的2D成像获得[25]。LA:Ao比值≥1.6判定为左心房扩大。左心室舒张末期内径（LVIDd）和LVIDs分别在舒张末期和收缩末期采用前缘法测量。缩短分数百分比按公式(LVIDd-LVIDs)/LVIDd x 100计算[21]。LVIDd >5.1为左心室扩大的标准[20]。采用面积测量法，在左心尖4腔心切面中描记左心室心内膜边界（不含乳头肌），确定左心室舒张末期面积（LVAd）和收缩末期面积（LVAs）。面积变化分数百分比按(LVAd-LVAs)/LVAd x 100计算。在左心尖4腔心切面中描记左心室心内膜边界，采用改良Simpson圆盘法估算左心室舒张末期容积（LVVd）和收缩末期容积（LVVs）[23, 24]。射血分数百分比按(LVVd-LVVs)/LVVd x 100计算。有可能导致DCM表型模拟的并发心脏病证据（即动脉导管未闭、主动脉瓣反流或严重黏液瘤性二尖瓣病）的犬被排除在研究之外。成像不完整、无法评估是否满足DCM标准的犬也被排除在研究之外。"
+  },
+  {
+   "section": "Materials and methods / Taurine analysis",
+   "section_zh": "材料与方法 / 牛磺酸分析",
+   "en": "Whole blood (lithium heparin), plasma (lithium heparin), or serum (additive-free tube) taurine concentrations were analyzed via commercial laboratories [26–29]. As this was an observational multicenter study, data regarding the volume of blood collected for each sample could not be obtained for all samples. For cases seen at UC Davis, at least 2 ml of blood was obtained for plasma samples and at least 1 ml of blood was obtained for whole blood samples. No serum analyses were performed through the UC Davis Amino Acid Laboratory. All samples were collected prior to initiation of taurine supplementation or diet change. For purposes of this study, in this breed, a low taurine level was defined as a whole blood taurine concentration of ≤ 250 nmol/mL; plasma taurine concentration of ≤ 60 nmol/mL [13, 14] and serum taurine concentration of ≤110 nmol/mL [15]. These concentrations were chosen based upon previously published manuscripts documenting higher mean blood taurine concentrations [13, 14] than currently reported reference ranges [26] as well as the authors clinical observations that golden retrievers with whole blood taurine concentrations between 200-250nmol/mL experienced DCM resolution with diet change and taurine supplementation. Although specific reference ranges for taurine concentrations in golden retrievers has not yet been established, support for breed specific reference ranges has been documented by multiple investigators [3, 5, 7–9, 13, 14]. Dogs with measured taurine concentrations that exceeded the pre-determined cut-off values were excluded from the study.",
+   "zh": "全血（肝素锂）、血浆（肝素锂）或血清（无添加剂管）牛磺酸浓度由商业实验室分析[26–29]。由于本研究为观察性多中心研究，无法获得所有样本的采血量数据。对于在UC Davis就诊的病例，血浆样本至少采血2 ml，全血样本至少采血1 ml。UC Davis氨基酸实验室未进行血清分析。所有样本均在开始补充牛磺酸或更换日粮之前采集。就本研究而言，在该品种中，低牛磺酸水平定义为全血牛磺酸浓度≤ 250 nmol/mL、血浆牛磺酸浓度≤ 60 nmol/mL [13, 14]、血清牛磺酸浓度≤110 nmol/mL [15]。选择这些浓度的依据是：既往发表的文献记录的平均血液牛磺酸浓度[13, 14]高于目前报告的参考范围[26]，以及作者的临床观察，即全血牛磺酸浓度在200-250nmol/mL之间的金毛寻回犬在更换日粮和补充牛磺酸后DCM消退。尽管尚未确立金毛寻回犬牛磺酸浓度的特定参考范围，但多名研究者已记录了支持品种特异性参考范围的证据[3, 5, 7–9, 13, 14]。所测牛磺酸浓度超过预定临界值的犬被排除在研究之外。"
+  },
+  {
+   "section": "Materials and methods / Diet history and nutritional analysis",
+   "section_zh": "材料与方法 / 饮食史与营养分析",
+   "en": "Complete diet histories [19] were obtained for all dogs. Data collected included brand names and varieties of the diet(s) fed at the time of sample collection for baseline taurine concentrations. In addition, daily quantity fed, and length of time (days) the dog had been receiving the baseline diet was recorded. Any medications, supplements, or probiotics the dog was receiving at the baseline visit were noted. When available, if a diet change was made, the same information was recorded. Dogs with incomplete diet histories were also excluded from this study. Each diet manufacturer was coded numerically (1–9) and when manufacturers produced more than one diet identified in the study the separate diets were categorized by an alphabetical letter (a-m).",
+   "zh": "获取了所有犬的完整饮食史[19]。收集的数据包括采集基线牛磺酸浓度样本时所饲喂日粮的品牌名称和品种。此外，记录了每日饲喂量以及犬食用基线日粮的时间长度（天）。记录了犬在基线就诊时所接受的任何药物、补充剂或益生菌。若更换了日粮，在可获得时记录相同信息。饮食史不完整的犬也被排除在本研究之外。每个日粮生产商以数字编码（1–9），当生产商生产了研究中识别出的多于一种日粮时，各日粮以字母分类（a-m）。"
+  },
+  {
+   "section": "Materials and methods / Diet history and nutritional analysis",
+   "section_zh": "材料与方法 / 饮食史与营养分析",
+   "en": "For each diet, the listed ingredients, caloric content (kcal/cup and kcal/kg), crude fiber as fed (%), crude fiber on a dry matter basis (%), moisture (%), total dietary fiber, insoluble fiber, and soluble fiber content when available were recorded [30, 31]. Actual caloric intake for each dog was recorded and compared to their calculated resting energy requirement (RER) and maintenance energy requirement (MER). The nutritional adequacy statement for each diet was assessed to determine if there was a complete and balanced claim and if so, the method of substantiation for the claim (formulation or feeding trials) per the Association of American Feed Control Officials (AAFCO) [32]. If diets did not undergo a feeding trial, but the pet food label claimed the diet was formulated to meet AAFCO guidelines, it was determined whether or not this was confirmed via formulations or analysis of the finished product based on the World Small Animal Veterinary Association (WSAVA) recommendations [33]. Research included a comprehensive evaluation of the pet food bag, the manufacturer’s website, and phone communications with representatives from both the supplier and manufacturer when available.",
+   "zh": "对于每种日粮，在可获得时记录所列成分、热量含量（kcal/cup和kcal/kg）、饲喂基础粗纤维（%）、干物质基础粗纤维（%）、水分（%）、总膳食纤维、不溶性纤维和可溶性纤维含量[30, 31]。记录每只犬的实际热量摄入，并与其计算的静息能量需要（RER）和维持能量需要（MER）进行比较。评估每种日粮的营养充足性声明，以确定是否有全价均衡声明，如有，则按照美国饲料管理官员协会（AAFCO）的规定确定该声明的证实方法（配方法或饲喂试验）[32]。若日粮未经饲喂试验，但宠物食品标签声称日粮配方符合AAFCO指南，则根据世界小动物兽医协会（WSAVA）的建议确定这是否经配方或成品分析得到证实[33]。调查包括全面评估宠物食品包装袋、生产商网站，并在可能时与供应商和生产商代表电话沟通。"
+  },
+  {
+   "section": "Materials and methods / Diet history and nutritional analysis",
+   "section_zh": "材料与方法 / 饮食史与营养分析",
+   "en": "The ingredient list for each diet were recorded and assessed. Whether or not the diet was advertised as grain-free was recorded, and diets were considered to have legumes (peas or pea components, lentils, beans, or chickpeas) as a primary ingredient if included in the first five listed ingredients.",
+   "zh": "记录并评估了每种日粮的成分表。记录日粮是否以无谷宣传；若豆类（豌豆或豌豆成分、扁豆、菜豆或鹰嘴豆）列于前五种成分中，则认为该日粮以豆类为主要成分。"
+  },
+  {
+   "section": "Materials and methods / Diet history and nutritional analysis",
+   "section_zh": "材料与方法 / 饮食史与营养分析",
+   "en": "The RER was calculated for each dog using the following equation: RER = 70 x BW ^ 0.75, where BW = body weight in kilograms at the time of diagnosis [34]. The MER range for each dog was calculated by multiplying the RER by a factor of 1.4 and 1.6 to account for a more sedentary or more active lifestyle, respectively [35]. Percent differences between amount fed (kcal/d) and calculated MER (kcal/d) were calculated. Percent differences between amount fed (kcal/d) and recommended amount (kcal/d) based on the individual’s weight as instructed by the feeding directions on the diet label or website were also calculated.",
+   "zh": "每只犬的RER按以下公式计算：RER = 70 x BW ^ 0.75，其中BW = 诊断时以千克计的体重[34]。每只犬的MER范围通过将RER分别乘以系数1.4和1.6计算，分别对应较少活动或较多活动的生活方式[35]。计算了饲喂量（kcal/d）与计算MER（kcal/d）之间的百分比差异。还计算了饲喂量（kcal/d）与根据日粮标签或网站饲喂说明按个体体重推荐的量（kcal/d）之间的百分比差异。"
+  },
+  {
+   "section": "Materials and methods / Prevalence of taurine deficiency in golden retrievers",
+   "section_zh": "材料与方法 / 金毛寻回犬牛磺酸缺乏的患病率",
+   "en": "Whole blood taurine concentrations were determined in samples collected from apparently healthy, client owned golden retrievers with no reported history of clinical signs related to cardiac disease. Dog data was obtained as the result of a screening clinic at the Golden Retriever Club of America National Specialty event. All golden retrievers were reported to have no clinical signs of cardiac disease based on client history and sought blood taurine screening for preventive medicine purposes. Complete diet histories were collected for all dogs being screened as described for the clinical cases. In each dog, at least 1 ml of blood was collected from a jugular vein and placed in a lithium heparin tube. Samples were frozen on dry ice and shipped overnight to be stored at -80°C until submitted. All samples were submitted for whole blood taurine analysis the following business day [26].",
+   "zh": "在从无心脏病相关临床症状报告史的表观健康客户自养金毛寻回犬采集的样本中测定全血牛磺酸浓度。犬只数据来自美国金毛寻回犬俱乐部全国专项展会上的一次筛查门诊。根据主人提供的病史，所有金毛寻回犬均报告无心脏病临床症状，出于预防医学目的寻求血液牛磺酸筛查。按照临床病例所述方法收集了所有接受筛查犬的完整饮食史。每只犬至少从颈静脉采血1 ml，置于肝素锂管中。样本在干冰上冷冻并隔夜运送，于-80°C保存直至送检。所有样本均在下一个工作日送检全血牛磺酸分析[26]。"
+  },
+  {
+   "section": "Materials and methods / Statistical analysis",
+   "section_zh": "材料与方法 / 统计分析",
+   "en": "Statistical analysis was performed with commercially available software (GraphPad Prism 7.0d Macintosh Version by Software MacKiev 1994–2017 GraphPad Software, Inc). All echocardiographic data at baseline and final recorded follow-up visit were tested for normality visually and using the D’Agostino-Pearson omnibus normality test. Column statistics were performed for all variables and reported as mean +/- standard deviation or median (IQR) for parametric or non-parametric data respectively. When applicable, range was reported as minimum (min) and maximum (max) values. Baseline and final follow-up echocardiographic data were compared using either a paired sample t-test (parametric) or Wilcoxon matched-pairs signed-rank test (non-parametric). A P value of less than 0.05 was considered significant.",
+   "zh": "统计分析使用商用软件进行（GraphPad Prism 7.0d Macintosh Version by Software MacKiev 1994–2017 GraphPad Software, Inc）。所有基线和最后一次随访的超声心动图数据均通过目视及D’Agostino-Pearson综合正态性检验进行正态性检验。对所有变量进行列统计，参数数据和非参数数据分别报告为均值+/-标准差或中位数（IQR）。适用时，范围报告为最小值（min）和最大值（max）。基线和最后一次随访的超声心动图数据比较采用配对样本t检验（参数）或Wilcoxon配对符号秩检验（非参数）。P值小于0.05视为显著。"
+  },
+  {
+   "section": "Materials and methods / Statistical analysis",
+   "section_zh": "材料与方法 / 统计分析",
+   "en": "Correlation analysis using Pearson’s correlation coefficient was performed to determine if severity of taurine deficiency was correlated with selected echocardiographic parameters (% FS, %FAC, %EF, LVIDs, and LA:Ao). All data for this analysis followed a parametric distribution.",
+   "zh": "采用Pearson相关系数进行相关分析，以确定牛磺酸缺乏的严重程度是否与选定的超声心动图参数（% FS、%FAC、%EF、LVIDs和LA:Ao）相关。该分析的所有数据均符合参数分布。"
+  },
+  {
+   "section": "Materials and methods / Statistical analysis",
+   "section_zh": "材料与方法 / 统计分析",
+   "en": "Statistical Fisher’s exact tests were computed to determine statistical associations between diet brand and low blood taurine concentrations and between diet brand and study cases of DCM with and without congestive heart failure (CHF). For the former, both clinical cases and healthy dogs were pooled. Taurine concentrations were categorized as normal or low based on cut-off values for whole blood of 250 nmol/ml and for plasma of 60 nmol/ml. These associations were tested for any diets fed to ≥2 dogs with DCM and low blood taurine concentrations within the clinically affected group of 24 dogs.",
+   "zh": "计算Fisher精确检验，以确定日粮品牌与血液牛磺酸浓度偏低之间，以及日粮品牌与伴或不伴充血性心力衰竭（CHF）的研究DCM病例之间的统计学关联。对于前者，将临床病例与健康犬合并分析。根据全血250 nmol/ml和血浆60 nmol/ml的临界值，将牛磺酸浓度分为正常或偏低。对于在24只临床患病犬组中饲喂给≥2只DCM且血液牛磺酸浓度偏低犬的任何日粮，检验了这些关联。"
+  },
+  {
+   "section": "Results",
+   "section_zh": "结果",
+   "en": "A total of 40 dogs were considered for study inclusion. Sixteen dogs were excluded from the study due to one of the following reasons: inadequate imaging to assess DCM status (n = 7), no evidence of dilated cardiomyopathy based on echocardiographic remeasurement by investigator (n = 8), taurine concentrations that were categorized as normal regardless of whether or not they had underlying cardiac disease (n = 1), incomplete diet history (n = 0), or concurrent cardiac disease that was considered hemodynamically significant (n = 0). A total of 24 client-owned golden retrievers diagnosed with taurine deficiency and DCM were enrolled in the clinical portion of this study. Of these dogs, 8/24 were female (5 intact and 3 spayed) and 16/24 were male (8 intact and 8 neutered). The mean age was 6 years +/- 3 years (min 1 year, max 11 years). Mean weight was 32.4 kg +/- 4.7 kg (min 22.9 kg, max 45.3 kg). Body condition scores (BCS) on a 9-point scale [36] were obtained in a total of 20/24 dogs. Mean BCS was 5 +/-1 (min 3 max 7). The majority of dogs (13/20) had an ideal BCS of either 4 or 5.",
+   "zh": "共有40只犬被考虑纳入研究。十六只犬因以下原因之一被排除：成像不足以评估DCM状态（n = 7），经研究者超声心动图重新测量无扩张型心肌病证据（n = 8），无论是否有潜在心脏病其牛磺酸浓度均被归为正常（n = 1），饮食史不完整（n = 0），或存在被认为具有血流动力学意义的并发心脏病（n = 0）。共有24只被诊断为牛磺酸缺乏和DCM的客户自养金毛寻回犬纳入本研究的临床部分。在这些犬中，8/24为雌性（5只未绝育，3只已绝育），16/24为雄性（8只未去势，8只已去势）。平均年龄为6岁+/- 3岁（最小1岁，最大11岁）。平均体重为32.4 kg +/- 4.7 kg（最小22.9 kg，最大45.3 kg）。共有20/24只犬获得了9-point量表[36]的体况评分（BCS）。平均BCS为5 +/-1（最小3，最大7）。大多数犬（13/20）的BCS为理想的4或5。"
+  },
+  {
+   "section": "Results / Echocardiographic findings",
+   "section_zh": "结果 / 超声心动图结果",
+   "en": "Baseline echocardiographic data obtained in all 24 dogs included left ventricular %FS, LVIDd, LVIDs, and LA:Ao ratio. Baseline %EF and %FAC were obtained in 18/24 dogs. Follow-up echocardiographic data for %FS, LVIDd, LVIDs, and LA:Ao ratio was available in 16/24 dogs, and %EF and %FAC was available in 12/16 dogs. Time elapsed between baseline and follow-up echocardiogram was a median of 250 days (IQR 166–291.5 days, range 26–860 days). Baseline and follow-up echocardiographic measurements are reported as means +/- standard deviations in Table 1.",
+   "zh": "所有24只犬均获得的基线超声心动图数据包括左心室%FS、LVIDd、LVIDs和LA:Ao比值。18/24只犬获得了基线%EF和%FAC。16/24只犬有%FS、LVIDd、LVIDs和LA:Ao比值的随访超声心动图数据，12/16只犬有%EF和%FAC数据。基线与随访超声心动图之间间隔时间的中位数为250天（IQR 166–291.5天，范围26–860天）。基线和随访超声心动图测量值以均值+/-标准差列于表1。"
+  },
+  {
+   "section": "Results / Echocardiographic findings",
+   "section_zh": "结果 / 超声心动图结果",
+   "en": "All twenty-four dogs met our criteria for DCM at baseline. All dogs had a %FS <25%, 17/18 dogs had a %FAC <35%, 12/18 dogs had a %EF <40%, 24/24 dogs had an LVIDs >3.5 cm, 20/24 dogs had an LVIDd of >5.1 cm, and 12/24 dogs had an LA:Ao ≥1.6. In addition to a diagnosis of DCM, one golden retriever had a restrictive ventricular septal defect while another had concurrent mild subaortic stenosis. However, these were not thought to be clinically or hemodynamically significant and therefore, these dogs were not excluded from the study. All other dogs had no echocardiographic evidence of concurrent chronic valvular disease or congenital cardiac anomalies.",
+   "zh": "所有二十四只犬在基线时均符合我们的DCM标准。所有犬的%FS <25%，17/18只犬%FAC <35%，12/18只犬%EF <40%，24/24只犬LVIDs >3.5 cm，20/24只犬LVIDd >5.1 cm，12/24只犬LA:Ao ≥1.6。除DCM诊断外，一只金毛寻回犬有限制性室间隔缺损，另一只合并轻度主动脉瓣下狭窄。然而，这些被认为不具有临床或血流动力学意义，因此这些犬未被排除在研究之外。所有其他犬均无并发慢性瓣膜病或先天性心脏异常的超声心动图证据。"
+  },
+  {
+   "section": "Results / Echocardiographic findings",
+   "section_zh": "结果 / 超声心动图结果",
+   "en": "Percent left ventricular fractional shortening, %FAC, and %EF were significantly increased from baseline to follow-up visits in all but one dog (Fig 1). Furthermore, LA:Ao and LVIDs were significantly decreased from baseline to follow-up visit in all but two dogs and one dog, respectively (Fig 2). Left ventricular internal diameter was increased in 20/24 dogs at baseline. Left ventricular internal diameter in diastole significantly decreased from baseline to follow-up visit in 13/16 dogs.",
+   "zh": "除一只犬外，所有犬的左心室缩短分数百分比、%FAC和%EF从基线到随访均显著增加（图1）。此外，除两只犬和一只犬外，LA:Ao和LVIDs从基线到随访分别显著降低（图2）。基线时20/24只犬的左心室内径增大。13/16只犬的舒张期左心室内径从基线到随访显著减小。"
+  },
+  {
+   "section": "Results / Taurine concentrations",
+   "section_zh": "结果 / 牛磺酸浓度",
+   "en": "Baseline whole blood (n = 16), plasma (n = 4), serum (n = 1), or both whole blood and plasma (n = 3) taurine concentrations were available. Follow-up whole blood (n = 13), plasma (n = 1), or both whole blood and plasma (n = 1) taurine concentrations were provided in 15/24 dogs, collected at a mean of 143 +/-93 days (range: 24–333 days) after diet change and supplementation. In 2/15 of these dogs, the baseline sample was plasma, and the follow-up taurine concentrations were measured in whole blood. In one dog, the baseline sample was serum, and the follow-up taurine concentration was measured in whole blood.",
+   "zh": "可获得基线全血（n = 16）、血浆（n = 4）、血清（n = 1）或全血和血浆两者（n = 3）牛磺酸浓度。15/24只犬提供了随访全血（n = 13）、血浆（n = 1）或全血和血浆两者（n = 1）的牛磺酸浓度，在更换日粮和补充后平均143 +/-93天（范围：24–333天）采集。其中2/15只犬基线样本为血浆，随访牛磺酸浓度在全血中测定。一只犬基线样本为血清，随访牛磺酸浓度在全血中测定。"
+  },
+  {
+   "section": "Results / Taurine concentrations",
+   "section_zh": "结果 / 牛磺酸浓度",
+   "en": "Mean baseline whole blood taurine concentrations of 19/24 dogs was 142.7 +/- 58.19 nmol/ml (min = 48 nmol/ml, max = 240 nmol/ml). Most dogs (16/19; 84%) had whole blood taurine concentrations less than 200 nmol/ml, while 3/19 (16%) dogs had whole blood taurine concentrations between 200 and 250 nmol/ml. Median baseline plasma taurine concentrations in 7 dogs was 28 nmol/mL (IQR 5.3–47). Of interest, the dog with a plasma taurine concentration of 61 nmol/mL had a whole blood taurine concentration of 174 nmol/ml. Therefore, this dog was assessed to have low taurine concentrations, as plasma taurine concentrations are more susceptible to artifactual elevations from improper sample handling.",
+   "zh": "19/24只犬的平均基线全血牛磺酸浓度为142.7 +/- 58.19 nmol/ml（最小 = 48 nmol/ml，最大 = 240 nmol/ml）。大多数犬（16/19；84%）的全血牛磺酸浓度低于200 nmol/ml，3/19（16%）只犬的全血牛磺酸浓度在200至250 nmol/ml之间。7只犬的基线血浆牛磺酸浓度中位数为28 nmol/mL（IQR 5.3–47）。值得注意的是，血浆牛磺酸浓度为61 nmol/mL的犬，其全血牛磺酸浓度为174 nmol/ml。因此，该犬被评估为牛磺酸浓度偏低，因为血浆牛磺酸浓度更容易因样本处理不当而出现假性升高。"
+  },
+  {
+   "section": "Results / Taurine concentrations",
+   "section_zh": "结果 / 牛磺酸浓度",
+   "en": "Follow-up whole blood taurine concentrations were available in 14/24 dogs, with a mean of 413.6 +/- 100 nmol/ml, (min = 213 nmol/ml, max = 604 nmol/ml). Thirteen out of 14 dogs had a follow-up whole blood taurine concentration greater than 250 nmol/ml. The remaining dog out of 14 had a follow-up whole blood taurine concentration of 213 nmol/ml. In addition, a follow-up plasma taurine concentration was available in one of these 14 dogs, measuring 191 nmol/ml. Of interest, the dog with a whole blood taurine concentration measuring 213 nmol/ml is the only dog that demonstrated worsening of systolic function with a reduced left ventricular %FS, %FAC, and %EF from baseline to follow-up visit.",
+   "zh": "14/24只犬有随访全血牛磺酸浓度，平均为413.6 +/- 100 nmol/ml，（最小 = 213 nmol/ml，最大 = 604 nmol/ml）。14只犬中有13只的随访全血牛磺酸浓度高于250 nmol/ml。14只犬中剩余的一只随访全血牛磺酸浓度为213 nmol/ml。此外，这14只犬中有一只有随访血浆牛磺酸浓度，为191 nmol/ml。值得注意的是，全血牛磺酸浓度为213 nmol/ml的犬是唯一一只从基线到随访收缩功能恶化、左心室%FS、%FAC和%EF降低的犬。"
+  },
+  {
+   "section": "Results / Taurine concentrations",
+   "section_zh": "结果 / 牛磺酸浓度",
+   "en": "When baseline whole blood taurine concentrations were compared to each baseline echocardiographic parameter individually, the severity of taurine deficiency was not significantly correlated with any single echocardiographic parameter.",
+   "zh": "将基线全血牛磺酸浓度分别与每项基线超声心动图参数比较时，牛磺酸缺乏的严重程度与任何单项超声心动图参数均无显著相关。"
+  },
+  {
+   "section": "Results / Clinical features and medical therapy for taurine-deficiency and DCM",
+   "section_zh": "结果 / 牛磺酸缺乏和DCM的临床特征与药物治疗",
+   "en": "At baseline, 11/24 dogs were diagnosed with congestive heart failure and prescribed diuretic therapy (furosemide). Nine out of these 11 dogs had resolution of congestion at time of follow-up. Of these nine dogs, five had successful discontinuation of furosemide therapy, and four had a reduction of their maintenance furosemide dose by 50–56%. In the two remaining dogs, one dog remained in congestive heart failure and the other was lost to follow-up. The remaining 13 dogs were considered to have occult DCM and no diuresis was prescribed.",
+   "zh": "基线时，11/24只犬被诊断为充血性心力衰竭并被处方利尿治疗（furosemide〔呋塞米〕）。这11只犬中有9只在随访时充血消退。在这9只犬中，五只成功停用furosemide，四只的维持furosemide剂量减少了50–56%。在剩余两只犬中，一只仍处于充血性心力衰竭，另一只失访。其余13只犬被认为患有隐匿性DCM，未处方利尿治疗。"
+  },
+  {
+   "section": "Results / Clinical features and medical therapy for taurine-deficiency and DCM",
+   "section_zh": "结果 / 牛磺酸缺乏和DCM的临床特征与药物治疗",
+   "en": "At baseline, 24 dogs were prescribed taurine supplementation at a median dose of 1500mg orally twice per day (daily dose range of 2000-4500mg) and thirteen dogs were additionally prescribed L-carnitine supplementation at a median dose of 2000mg per day (range 500-6000mg). Additional medications included pimobendan (Boehringer Ingelheim Vetmedica, Inc., Duluth, GA, USA) (n = 13), enalapril (n = 7), benazepril (n = 4), spironolactone (n = 6), and diltiazem (n = 2). Follow-up data was available in 16 dogs. One dog was successfully removed from all cardiac medications and remained on only taurine and L-carnitine supplementation. In addition, taurine and L-carnitine supplements were successfully discontinued in four dogs based upon echocardiographic resolution of DCM.",
+   "zh": "基线时，24只犬被处方补充牛磺酸，中位剂量为1500mg口服每日两次（每日剂量范围2000-4500mg），十三只犬另被处方补充L-carnitine，中位剂量为每日2000mg（范围500-6000mg）。其他药物包括pimobendan（匹莫苯丹；Boehringer Ingelheim Vetmedica, Inc., Duluth, GA, USA）（n = 13）、enalapril（依那普利）（n = 7）、benazepril（贝那普利）（n = 4）、spironolactone（螺内酯）（n = 6）和diltiazem（地尔硫䓬）（n = 2）。16只犬有随访数据。一只犬成功停用所有心脏药物，仅继续补充牛磺酸和L-carnitine。此外，根据超声心动图显示DCM消退，四只犬成功停用了牛磺酸和L-carnitine补充剂。"
+  },
+  {
+   "section": "Results / Non-cardiac medications and supplementation prior to diagnosis",
+   "section_zh": "结果 / 诊断前的非心脏药物与补充剂",
+   "en": "Fifteen out of twenty-four dogs were reported by owners to receive non-cardiac related medications and supplements including various antibiotics (n = 4), mibolerone (n = 1), biotin (n = 2), probiotics (n = 5), multivitamins (n = 4), non-steroidal anti-inflammatories (n = 2), joint supplementation (n = 4), levothyroxine (n = 1), fish oil (n = 3), coconut oil (n = 1), and Oclacitinib (Apoquel; Zoetis Inc., Forham Park, NJ, USA) (n = 1). All reported antibiotics were started either at the time of diagnosis or less than one month prior to diagnosis. No supplement products included taurine or carnitine prior to diagnosis.",
+   "zh": "据主人报告，24只犬中有15只接受过与心脏无关的药物和补充剂，包括各种抗生素（n = 4）、mibolerone（米勃酮）（n = 1）、生物素（n = 2）、益生菌（n = 5）、复合维生素（n = 4）、非甾体抗炎药（n = 2）、关节补充剂（n = 4）、levothyroxine（左甲状腺素）（n = 1）、鱼油（n = 3）、椰子油（n = 1）和Oclacitinib（奥拉替尼；Apoquel；Zoetis Inc., Forham Park, NJ, USA）（n = 1）。所有报告的抗生素均在诊断时或诊断前不到一个月开始使用。诊断前没有补充剂产品含有牛磺酸或肉碱。"
+  },
+  {
+   "section": "Results / Diet and nutritional analysis",
+   "section_zh": "结果 / 饮食与营养分析",
+   "en": "The group of 24 golden retrievers diagnosed with DCM and low taurine concentrations, were fed a total of nine different pet food brands (listed as diets 1–9) and a total of thirteen different varieties (listed as a-m) (Table 2). All diet labels included a complete and balanced claim substantiated by formulation to meet the AAFCO Dog Food Nutrient Profiles; none had undergone feeding trials for nutritional adequacy. No baseline diets met the recommendations of the World Small Animal Veterinary Association (WSAVA) Global Nutrition Committee [33]. Total dietary fiber, insoluble fiber, and soluble fiber concentrations were not available for any diets, confirmed by phone communication with both the pet food suppliers and manufacturers for each diet when available. Percent crude dietary fiber reported by diet company ranged from 2.7% to 9.09%. Of note 15/24 dogs were fed diet 1, 2/24 were fed diet 3, 2/24 were fed diet 5, and 1 dog each was fed each of the remaining diets listed in Table 2. Twelve of 13 diets were grain-free, and 10/13 diets contained legumes within the first five ingredients listed. A Fisher’s exact test revealed a statistically significant (P = 0.0012) association between diet 1 and a low taurine concentration when compared to all other diets (Table 3). The association test between diets 3 and 5 and a low taurine level was not statistically significant (P = 0.51, P = 0.14 respectively). Furthermore, having the clinical sequelae of CHF was not significantly associated with any of the 3 diets fed to at least 2 dogs in the DCM group (diets 1, 3, or 5). The length of time in days that dogs had been fed their diet at the time of diagnosis was available in 22 out of 24 dogs with a median of 814.5 days (min = 182 days, max = 3558 days). In the remaining 2/24 dogs, the length of time was not reported by the client in one dog and the length of time was described qualitatively by the client as “several years” in the other dog.",
+   "zh": "24只被诊断为DCM且牛磺酸浓度偏低的金毛寻回犬共饲喂了九个不同的宠物食品品牌（列为日粮1–9）和共十三个不同品种（列为a-m）（表2）。所有日粮标签均有全价均衡声明，并经配方法证实符合AAFCO犬粮营养标准；均未经过营养充足性饲喂试验。没有基线日粮符合世界小动物兽医协会（WSAVA）全球营养委员会的建议[33]。经与各日粮的宠物食品供应商和生产商（如可能）电话沟通确认，所有日粮均无法获得总膳食纤维、不溶性纤维和可溶性纤维浓度。日粮公司报告的粗膳食纤维百分比为2.7%至9.09%。值得注意的是，15/24只犬饲喂日粮1，2/24只饲喂日粮3，2/24只饲喂日粮5，表2中所列其余日粮各有1只犬饲喂。13种日粮中有12种为无谷日粮，10/13种日粮的前五种所列成分中含有豆类。Fisher精确检验显示，与所有其他日粮相比，日粮1与牛磺酸浓度偏低之间存在统计学显著关联（P = 0.0012）（表3）。日粮3和5与低牛磺酸水平之间的关联检验无统计学意义（分别为P = 0.51，P = 0.14）。此外，出现CHF临床后遗症与DCM组中至少饲喂给2只犬的3种日粮（日粮1、3或5）均无显著关联。24只犬中有22只可获得诊断时已饲喂该日粮的时间（天），中位数为814.5天（最小 = 182天，最大 = 3558天）。在其余2/24只犬中，一只犬的主人未报告时间长度，另一只犬的主人定性描述为“数年”。"
+  },
+  {
+   "section": "Results / Diet and nutritional analysis",
+   "section_zh": "结果 / 饮食与营养分析",
+   "en": "Actual daily caloric intake for baseline diet could be calculated for 23/24 dogs based on the number of cups consumed per day and the caloric content. Only 1 dog was consuming an amount that exceeded the predicted MER; 22/23 of the dogs for which this could be calculated were consuming up to 62% less than the predicted MER using the less active factor applied to RER (Table 4).",
+   "zh": "根据每日摄入的杯数和热量含量，23/24只犬可以计算基线日粮的实际每日热量摄入。只有1只犬的摄入量超过了预测MER；在可计算的犬中，22/23只犬的摄入量比采用较少活动系数乘以RER得出的预测MER低多达62%（表4）。"
+  },
+  {
+   "section": "Results / Diet and nutritional analysis",
+   "section_zh": "结果 / 饮食与营养分析",
+   "en": "Twenty-one of 24 dogs were switched to a new diet following a diagnosis of taurine deficiency and DCM. For 3 dogs follow-up data including diet information was not available. No dog was switched to a diet that was reported in the baseline diet histories for the group. Seventeen of 21 switched to a grain-inclusive diet while 4 switched to a different grain-free diet. Only one dog was found to have a persistently low whole blood taurine concentration, despite diet change and supplementation. Of interest, this dog was switched to a unique but still grain-free variety of food with legumes within the top 5 ingredients and with a complete and balanced claim substantiated by the formulation method rather than feeding trials; this diet did not meet the recommendations of the WSAVA Global Nutrition Committee [33].",
+   "zh": "24只犬中有21只在被诊断为牛磺酸缺乏和DCM后更换了新日粮。3只犬无包括日粮信息在内的随访数据。没有犬被更换为该组基线饮食史中报告过的日粮。21只犬中有17只更换为含谷日粮，4只更换为另一种无谷日粮。尽管更换了日粮并进行了补充，仅发现一只犬的全血牛磺酸浓度持续偏低。值得注意的是，该犬更换的是一种不同但仍为无谷的品种，其前5种成分中含有豆类，且其全价均衡声明经配方法而非饲喂试验证实；该日粮不符合WSAVA全球营养委员会的建议[33]。"
+  },
+  {
+   "section": "Results / Prevalence of low taurine in apparently healthy golden retrievers",
+   "section_zh": "结果 / 表观健康金毛寻回犬中低牛磺酸的患病率",
+   "en": "Mean whole blood taurine concentration in samples obtained from 52 apparently healthy golden retrievers (mean age 5.1 +/- 2.8; mean weight 27.7 +/- 4.6 kg; 15 females, 13 spayed females, 16 males, and 8 castrated males) was 279.1 +/- 51.5 (min 164 nmol/ml, max 382 nmol/ml). Forty-three of 52 had complete diet histories available. Twelve of 52 dogs had whole blood taurine concentrations of 200–250 nmol/mL, and 4/52 dogs (7.7%) had whole blood taurine concentrations < 200 nmol/mL. Interestingly, all 4 dogs with whole blood taurine concentrations < 200 nmol/mL, and 10 dogs with whole blood taurine concentrations between 200–250 nmol/ml in which complete diet histories were available, were on diets that were legume-rich, and/or were grain-free. None of the diets fed to these 14 dogs met the recommendations of the WSAVA Global Nutrition Committee [33]. Of the 27 dogs with whole blood taurine concentrations > 250 nmol/ml for which complete diet histories were available, 11 (40.7%) were being fed diets that met the WSAVA GNC recommendations, a much higher prevalence than in the group with taurine deficiency (0/14; 0%).",
+   "zh": "从52只表观健康的金毛寻回犬（平均年龄5.1 +/- 2.8；平均体重27.7 +/- 4.6 kg；15只雌性，13只已绝育雌性，16只雄性，8只已去势雄性）采集的样本中，平均全血牛磺酸浓度为279.1 +/- 51.5（最小164 nmol/ml，最大382 nmol/ml）。52只中有43只有完整的饮食史。52只犬中有12只的全血牛磺酸浓度为200–250 nmol/mL，4/52只犬（7.7%）的全血牛磺酸浓度< 200 nmol/mL。有趣的是，全血牛磺酸浓度< 200 nmol/mL的全部4只犬，以及全血牛磺酸浓度在200–250 nmol/ml之间且有完整饮食史的10只犬，所食日粮均富含豆类和/或为无谷日粮。饲喂给这14只犬的日粮均不符合WSAVA全球营养委员会的建议[33]。在全血牛磺酸浓度> 250 nmol/ml且有完整饮食史的27只犬中，11只（40.7%）饲喂的日粮符合WSAVA GNC建议，这一比例远高于牛磺酸缺乏组（0/14；0%）。"
+  },
+  {
+   "section": "Discussion",
+   "section_zh": "讨论",
+   "en": "This study represents both the largest scale and longest-term follow-up data available in dogs with low taurine concentrations and concurrent dilated cardiomyopathy. With 24 dogs enrolled and 16 dogs with follow-up data over a one-year period we identify the clinical and echocardiographic features, response to therapy, and dietary similarities among cases.",
+   "zh": "本研究代表了在牛磺酸浓度偏低并伴扩张型心肌病的犬中规模最大、随访时间最长的数据。纳入24只犬、16只犬有超过一年的随访数据，我们确定了各病例的临床和超声心动图特征、对治疗的反应以及饮食相似性。"
+  },
+  {
+   "section": "Discussion",
+   "section_zh": "讨论",
+   "en": "Significant improvement in echocardiographic parameters and normalization of whole blood taurine concentrations from baseline to follow-up visits were observed in all but one dog after implementing a diet change and supplementation with taurine +/- L-carnitine. This suggests a strong association between low taurine concentrations and the development of dilated cardiomyopathy. This is consistent with previous findings, demonstrating that low plasma taurine concentrations can be associated with DCM in breeds that do not typically develop the hereditary form of the disease [3]. In addition, several publications have documented the echocardiographic resolution of nutritionally-mediated dilated cardiomyopathy as early as one to two months following supplementation with taurine with or without L-carnitine [5–8]. While our study did not specifically aim to identify the time to improvement in echocardiographic parameters, we did note that by a median of 8 months the vast majority of dogs (15 of 16) showed significant echocardiographic improvement.",
+   "zh": "在实施更换日粮并补充牛磺酸+/- L-carnitine后，除一只犬外，所有犬从基线到随访均观察到超声心动图参数显著改善、全血牛磺酸浓度恢复正常。这提示低牛磺酸浓度与扩张型心肌病的发生之间存在强关联。这与既往发现一致，即在通常不发生遗传性DCM的品种中，低血浆牛磺酸浓度可能与DCM相关[3]。此外，若干出版物记录了在补充牛磺酸（伴或不伴L-carnitine）后最早一至两个月即出现营养介导性扩张型心肌病的超声心动图消退[5–8]。虽然本研究并非专门旨在确定超声心动图参数改善所需的时间，但我们确实注意到，到中位时间8个月时，绝大多数犬（16只中的15只）显示出显著的超声心动图改善。"
+  },
+  {
+   "section": "Discussion",
+   "section_zh": "讨论",
+   "en": "All but one dog in this cohort of golden retrievers demonstrated significant clinical improvement. In addition, in a total of eleven dogs diagnosed with congestive heart failure, nine had resolution of congestion, and five had successful discontinuation of furosemide. This is consistent with previous reports demonstrating that DCM secondary to taurine deficiency may carry a good prognosis as cardiac changes are potentially reversible [5–8]. One dog in our study remained in congestive heart failure, which may have been due to lack of a diet change, lack of owner compliance in medication or supplement administration, or lack of response to therapy. It should be emphasized that not all cases respond positively. Therefore, prevention of the disease is ideal.",
+   "zh": "在这一金毛寻回犬队列中，除一只犬外，所有犬均表现出显著的临床改善。此外，在总共十一只被诊断为充血性心力衰竭的犬中，九只充血消退，五只成功停用furosemide。这与既往报告一致，表明继发于牛磺酸缺乏的DCM因心脏变化可能可逆而预后良好[5–8]。本研究中有一只犬仍处于充血性心力衰竭，这可能是由于未更换日粮、主人在给药或补充方面依从性不足，或对治疗无反应。应当强调，并非所有病例都有积极反应。因此，预防该病是理想的。"
+  },
+  {
+   "section": "Discussion",
+   "section_zh": "讨论",
+   "en": "In addition to its major function in the conjugation of bile acids, taurine is thought to play an important role in myocardial health, as it is the most abundant free amino acid in the heart. It has been postulated that taurine is involved in cardiac contractility, modulation of calcium fluxes, and cell membrane stabilization [2,4]. Although DCM is perhaps the best described clinical manifestation, taurine deficiency has also been implicated in retinal lesions and ocular blindness, reproductive failure, growth retardation, central nervous system dysfunction, skeletal spinal malformations, increased platelet aggregation, and neutrophil dysfunction [2]. These additional sequelae were not evaluated in this cohort of dogs.",
+   "zh": "除在胆汁酸结合中的主要功能外，牛磺酸被认为在心肌健康中发挥重要作用，因为它是心脏中含量最丰富的游离氨基酸。有人提出牛磺酸参与心肌收缩力、钙通量调节和细胞膜稳定[2,4]。尽管DCM或许是描述最充分的临床表现，但牛磺酸缺乏还与视网膜病变和失明、繁殖失败、生长迟缓、中枢神经系统功能障碍、脊柱骨骼畸形、血小板聚集增加和中性粒细胞功能障碍有关[2]。本犬群未评估这些其他后遗症。"
+  },
+  {
+   "section": "Discussion",
+   "section_zh": "讨论",
+   "en": "The causes of taurine deficiency are multifactorial. Although taurine is not considered an essential amino acid in the dog, unlike in humans that can alternatively conjugate bile acids with glycine when taurine is less available, dogs are obligated to conjugate bile acids with taurine [4]. Therefore, it is postulated that this species variation may make dogs more vulnerable to developing taurine deficiency if metabolic demands are high or if taurine is not efficiently reabsorbed by the intestinal tract. Despite the role of taurine in cardiac health, the addition of taurine and dietary testing of taurine concentration is not required of pet food manufacturers.",
+   "zh": "牛磺酸缺乏的原因是多因素的。尽管牛磺酸在犬中不被视为必需氨基酸，但与人类在牛磺酸不足时可改用甘氨酸结合胆汁酸不同，犬必须用牛磺酸结合胆汁酸[4]。因此，有人推测这种物种差异可能使犬在代谢需求高或牛磺酸未被肠道有效重吸收时更易发生牛磺酸缺乏。尽管牛磺酸在心脏健康中有作用，但并未要求宠物食品生产商添加牛磺酸或检测日粮牛磺酸浓度。"
+  },
+  {
+   "section": "Discussion",
+   "section_zh": "讨论",
+   "en": "Taurine status is impacted by several dietary factors [5, 7–8, 13, 17, 37, 38]. For example, it is well established that certain cooking methods can result in taurine losses [38] and that cooking and processing can impact taurine status through effects on the intestinal microbiota [39, 40]. Although all of the baseline diets reported in this study were dry extruded kibble products, processing techniques and conditions applied to the raw materials and to the final product likely varied but are unknown and could not be assessed or compared in this study.",
+   "zh": "牛磺酸状态受若干饮食因素影响[5, 7–8, 13, 17, 37, 38]。例如，已明确某些烹饪方法会导致牛磺酸损失[38]，并且烹饪和加工可通过影响肠道菌群而影响牛磺酸状态[39, 40]。尽管本研究中报告的所有基线日粮均为干式膨化颗粒产品，但对原料和成品所采用的加工技术和条件可能各不相同，但这些情况未知，本研究无法对其进行评估或比较。"
+  },
+  {
+   "section": "Discussion",
+   "section_zh": "讨论",
+   "en": "Animal muscle tissue has the highest amounts of taurine compared to other dietary components common to commercial pet foods [38]. The increased use of previously uncommon animal protein sources such as rabbit, venison, bison, lamb, and wild boar, especially in the category of diets marketed as grain-free, warrants characterization of their typical amino acid profiles including the degree and nature of any variability. In fact, certain meats are unexpectedly low in taurine (such as rabbit) [41] or low in sulfur amino acid precursors (such as lamb meal) [42]. In addition, the bioavailability of taurine and its precursors in many animal protein sources is not known. Many of the baseline diets in this study contained animal protein sources that until recently were not commonly found in canine diets. Given the paucity of data available regarding the amino acid composition and bioavailability of many of these ingredients, it is impossible to say with any certainty what role, if any, they may have. Ideally, amino acid concentrations in the diet, especially taurine, methionine, and cystine would be obtained to determine if diets were deficient in any of these essential ingredients. However, this data was not made available by the diet manufacturers. Further research is needed to better understand their characteristics before any additional conclusions can be drawn.",
+   "zh": "与商品宠物食品中常见的其他饮食成分相比，动物肌肉组织的牛磺酸含量最高[38]。兔肉、鹿肉、野牛肉、羊肉和野猪肉等以前不常见的动物蛋白来源的使用增加，尤其是在以无谷为卖点的日粮类别中，需要对其典型氨基酸谱（包括任何变异的程度和性质）进行表征。事实上，某些肉类的牛磺酸含量出人意料地低（如兔肉）[41]，或含硫氨基酸前体含量低（如羊肉粉）[42]。此外，许多动物蛋白来源中牛磺酸及其前体的生物利用度尚不清楚。本研究中许多基线日粮所含的动物蛋白来源直到最近才在犬日粮中常见。鉴于有关其中许多成分的氨基酸组成和生物利用度的数据匮乏，无法确定地说它们可能起什么作用（如果有的话）。理想情况下，应获取日粮中的氨基酸浓度，尤其是牛磺酸、蛋氨酸和胱氨酸，以确定日粮是否缺乏这些必需成分。然而，日粮生产商并未提供这些数据。在得出任何进一步结论之前，需要进一步研究以更好地了解其特性。"
+  },
+  {
+   "section": "Discussion",
+   "section_zh": "讨论",
+   "en": "Although plants have little to no taurine [43], in some diets they may provide adequate precursors for taurine synthesis in the dog. Legumes are increasingly included in canine diets as a source of carbohydrate, protein, and fiber, and appeared to be a significant component in the majority of baseline diets reported in this study. However, legumes are limiting in sulfur amino acids, and the anti-nutritional factors they commonly contain such as proteolytic inhibitors and phytates further negatively impact the digestibility and bioavailability of these taurine precursors [44]. Also, legumes are high in fiber, and there is some evidence that certain fiber sources result in depletion of taurine in both dogs and cats [45, 46]. Characterization of the fiber types (concentration of total dietary fiber and proportion of soluble vs insoluble fiber) in the diets consumed at baseline by the dogs in this study was not possible due to lack of information provided by the manufacturers.",
+   "zh": "尽管植物几乎不含牛磺酸[43]，但在某些日粮中，它们可能为犬的牛磺酸合成提供足够的前体。豆类越来越多地作为碳水化合物、蛋白质和纤维的来源加入犬日粮中，并且似乎是本研究所报告的大多数基线日粮的重要组成部分。然而，豆类的含硫氨基酸是限制性的，其通常所含的蛋白酶抑制剂和植酸盐等抗营养因子会进一步对这些牛磺酸前体的消化率和生物利用度产生负面影响[44]。此外，豆类纤维含量高，有一些证据表明某些纤维来源会导致犬和猫的牛磺酸耗竭[45, 46]。由于生产商未提供信息，无法对本研究中犬基线时所食日粮的纤维类型（总膳食纤维浓度以及可溶性与不溶性纤维的比例）进行表征。"
+  },
+  {
+   "section": "Discussion",
+   "section_zh": "讨论",
+   "en": "Finally, many dogs in this study were consuming not only less than their predicted needs based on calculated MER ranges, but also less than the manufacturer’s feeding directions indicated. This may have been associated with suboptimal intakes of sulfur amino acid precursors in addition to other essential nutrients if diet formulation did not take into account this variability in energy requirement. It has previously been demonstrated that when diets are near-limiting in sulfur amino acids, dogs with lower energy requirements show slower taurine synthetic rates [47] and may therefore benefit from higher dietary concentrations of these taurine precursors. All of the baseline diets in this study had their complete and balanced claim substantiated by formulation to meet the AAFCO Dog Food Nutrient Profiles rather than by feeding trials for nutritional adequacy. Given that diet performance cannot be accurately predicted by use of the formulation method, and at least a subset of the canine population appears to be unable to adequately meet metabolic needs for taurine on some diets, in vivo testing of diets including assessment of taurine status may be indicated and should be encouraged. While this study focuses on dietary similarities between affected dogs and generates statistical associations implicating these diets, the complexities of canine taurine metabolism make causation impossible to prove. Randomized, prospective, controlled feeding trials and other mechanistic research are needed to fully explore the impacts and potential interactions among specific ingredients, nutrient concentrations, fiber sources, processing conditions, and other dietary factors as they relate to taurine status in the dog.",
+   "zh": "最后，本研究中许多犬的摄入量不仅低于根据计算MER范围预测的需要量，也低于生产商饲喂说明所示的量。如果日粮配方未考虑这种能量需要的变异性，这可能与含硫氨基酸前体以及其他必需营养素的摄入不足相关。既往已证明，当日粮的含硫氨基酸接近限制水平时，能量需要较低的犬牛磺酸合成速率较慢[47]，因此可能受益于日粮中更高浓度的这些牛磺酸前体。本研究中所有基线日粮的全价均衡声明均经配方法证实符合AAFCO犬粮营养标准，而非经营养充足性饲喂试验证实。鉴于配方法无法准确预测日粮的实际表现，且至少有一部分犬群在某些日粮下似乎无法充分满足对牛磺酸的代谢需要，可能需要并应鼓励对日粮进行包括牛磺酸状态评估在内的体内检测。虽然本研究侧重于患病犬之间的饮食相似性，并得出了涉及这些日粮的统计学关联，但犬牛磺酸代谢的复杂性使因果关系无法被证明。需要随机、前瞻性、对照的饲喂试验及其他机制研究，以充分探讨特定成分、营养素浓度、纤维来源、加工条件及其他饮食因素对犬牛磺酸状态的影响及其潜在相互作用。"
+  },
+  {
+   "section": "Discussion",
+   "section_zh": "讨论",
+   "en": "Golden retrievers are overrepresented as a breed at risk of developing taurine deficiency [3,5,6]. Taurine deficiency has been previously associated with certain diets in several breeds, including the golden retriever, Newfoundland, American Cocker Spaniels, English Setter, Labrador retriever, and several others [5–8]. The fact that some breeds have an apparent increased risk for diet-related DCM suggests that there may be genetic or metabolic differences between breeds that make them more vulnerable to developing taurine deficiency. In the sample of fifty-two apparently healthy golden retrievers, there was an unexpectedly high prevalence of low whole blood taurine concentrations, suggesting that the prevalence of taurine deficiency and DCM may be higher in the true population than observed and supporting that golden retrievers may represent a breed-specific sensitivity to this condition. Echocardiograms were not available for these apparently healthy dogs and therefore, it is unknown if any of these dogs had occult DCM.",
+   "zh": "金毛寻回犬作为有发生牛磺酸缺乏风险的品种占比过高[3,5,6]。牛磺酸缺乏此前已在若干品种中被发现与某些日粮相关，包括金毛寻回犬、纽芬兰犬、美国可卡犬、英国塞特犬、拉布拉多寻回犬等[5–8]。某些品种发生饮食相关DCM的风险明显增加，这一事实提示品种之间可能存在使其更易发生牛磺酸缺乏的遗传或代谢差异。在五十二只表观健康的金毛寻回犬样本中，全血牛磺酸浓度偏低的患病率出乎意料地高，提示在真实群体中牛磺酸缺乏和DCM的患病率可能高于观察到的水平，并支持金毛寻回犬可能对该病存在品种特异性易感性。这些表观健康的犬没有超声心动图，因此不清楚其中是否有犬患有隐匿性DCM。"
+  },
+  {
+   "section": "Discussion",
+   "section_zh": "讨论",
+   "en": "There are several limitations to this study, a majority of which are related to the enrollment of clinical cases and some variability in clinician-directed treatment protocols. Medical therapy, taurine analysis, baseline and treatment period diets, and supplementation were not standardized across all cases, making it difficult to identify any treatment-specific differences from our results. Currently, although controversial, supplementation with both taurine and L-carnitine is recommended in cases of nutritionally-mediated dilated cardiomyopathy [10]. This is because in previous studies documenting resolution of nutritionally-mediated DCM with taurine supplementation, L-carnitine was administered concurrently and with clinical success [7]. Therefore, whether or not taurine supplementation alone would be sufficient to result in the clinical improvement observed in this study could not be determined. However, several dogs in this study showed clinical and echocardiographic improvement without L-carnitine supplementation, suggesting that this may not be required in all cases. No differences were noted between dogs that were treated with taurine supplementation alone and dogs treated with both L-carnitine and taurine supplementation. Further controlled prospective studies would need to be performed to determine the relevance of L-carnitine in treatment of taurine deficient DCM.",
+   "zh": "本研究有若干局限，其中多数与临床病例的纳入以及临床医生主导的治疗方案存在一定变异有关。各病例的药物治疗、牛磺酸分析、基线和治疗期间日粮以及补充均未标准化，使得难以从我们的结果中识别任何治疗特异性差异。目前，尽管存在争议，但在营养介导性扩张型心肌病病例中推荐同时补充牛磺酸和L-carnitine[10]。这是因为在既往记录补充牛磺酸后营养介导性DCM消退的研究中，同时给予了L-carnitine并取得了临床成功[7]。因此，无法确定单独补充牛磺酸是否足以产生本研究中观察到的临床改善。然而，本研究中若干犬在未补充L-carnitine的情况下显示出临床和超声心动图改善，提示并非所有病例都需要补充L-carnitine。单独补充牛磺酸的犬与同时补充L-carnitine和牛磺酸的犬之间未发现差异。需要进一步开展对照前瞻性研究，以确定L-carnitine在牛磺酸缺乏性DCM治疗中的意义。"
+  },
+  {
+   "section": "Discussion",
+   "section_zh": "讨论",
+   "en": "In addition, sample collection and the methodology used for taurine analysis could not be standardized as this was an observational study mimicking clinical practice. For example, taurine analysis was performed at multiple reference laboratories and either plasma, whole blood, serum, or a combination of whole blood and plasma taurine concentrations were obtained. Currently, it is recommended that both whole blood and plasma taurine concentrations be obtained together, and that a diagnosis of taurine deficiency be made if either of those values are low. Serum has been shown in cats to be less repeatable and therefore, is not considered the gold standard for measuring taurine concentrations [48]. In addition, improper sample handing can result in falsely high (plasma) or low (whole blood) concentrations of taurine. Further, it is not known how accurately canine whole blood or plasma taurine concentrations reflect taurine concentrations in cardiac tissue. A 2001 study by Pacioretty et al determined that in sixteen taurine depleted cats, whole blood taurine concentrations appeared to more accurately reflect taurine concentrations in the skeletal muscle during taurine depletion, while plasma taurine concentrations more accurately reflected skeletal muscle taurine concentrations during taurine repletion [48]. Further studies are required to determine if taurine concentrations behave similarly in dogs. Because obtaining myocardial tissue for taurine measurement is not clinically practical, skeletal muscle biopsies may be considered as an acceptably accurate method of assessing whole body taurine status. Further studies are required.",
+   "zh": "此外，由于本研究是模拟临床实践的观察性研究，样本采集和牛磺酸分析方法无法标准化。例如，牛磺酸分析在多个参考实验室进行，获得的是血浆、全血、血清或全血和血浆组合的牛磺酸浓度。目前推荐同时获取全血和血浆牛磺酸浓度，若其中任一值偏低即诊断为牛磺酸缺乏。在猫中已证明血清的可重复性较差，因此不被视为测量牛磺酸浓度的金标准[48]。此外，样本处理不当可导致牛磺酸浓度假性升高（血浆）或假性降低（全血）。再者，犬全血或血浆牛磺酸浓度能多准确地反映心脏组织中的牛磺酸浓度尚不清楚。Pacioretty等2001年的一项研究确定，在十六只牛磺酸耗竭的猫中，牛磺酸耗竭期间全血牛磺酸浓度似乎能更准确地反映骨骼肌中的牛磺酸浓度，而在牛磺酸补充恢复期间，血浆牛磺酸浓度更准确地反映骨骼肌牛磺酸浓度[48]。需要进一步研究以确定牛磺酸浓度在犬中是否有类似表现。由于获取心肌组织进行牛磺酸测量在临床上不实际，可考虑将骨骼肌活检作为评估全身牛磺酸状态的可接受的准确方法。需要进一步研究。"
+  },
+  {
+   "section": "Discussion",
+   "section_zh": "讨论",
+   "en": "Currently, reference ranges for normal taurine concentrations as used in this study are not breed or size-specific. It is important to note that all-breed reference values established for taurine concentrations may not be appropriate for all dogs. This highlights the importance of establishing reference values in golden retrievers specifically to more accurately identify which golden retrievers are susceptible to developing nutritionally-mediated DCM. The fact that some of the golden retrievers in our study with DCM had whole blood taurine concentrations between 200–250 nmol/mL suggests that reference ranges may vary depending on the breed or individual dog, and for the golden retriever may be higher than expected. The reference ranges utilized in this study are supported by the literature but suggest that commercial laboratory values may require reevaluation [13, 14]. It is our current recommendation that in golden retrievers, taurine deficiency be considered at whole blood and plasma taurine concentrations of ≤ 250 nmol/ml and ≤ 60 nmol/ml, respectively. Additional studies are required to confirm the most appropriate reference ranges in the golden retriever to determine which dogs are at greatest risk for developing DCM. Importantly this study did not assess the true prevalence of taurine deficiency in the client-owned golden retriever population and as such the reported prevalence in this manuscript may represent an over or under representation of the population. This represents a future aim for prospective studies.",
+   "zh": "目前，本研究中使用的正常牛磺酸浓度参考范围不是品种或体型特异性的。需要指出的是，为所有品种确立的牛磺酸浓度参考值可能并不适用于所有犬。这凸显了专门为金毛寻回犬确立参考值的重要性，以便更准确地识别哪些金毛寻回犬易发生营养介导性DCM。本研究中一些患DCM的金毛寻回犬全血牛磺酸浓度在200–250 nmol/mL之间，这一事实提示参考范围可能因品种或个体犬而异，对金毛寻回犬而言可能高于预期。本研究所采用的参考范围得到文献支持，但提示商业实验室的数值可能需要重新评估[13, 14]。我们目前的建议是，在金毛寻回犬中，全血和血浆牛磺酸浓度分别≤ 250 nmol/ml和≤ 60 nmol/ml时即应考虑牛磺酸缺乏。需要更多研究来确认金毛寻回犬最合适的参考范围，以确定哪些犬发生DCM的风险最大。重要的是，本研究未评估客户自养金毛寻回犬群体中牛磺酸缺乏的真实患病率，因此本文报告的患病率可能高估或低估了该群体的情况。这是未来前瞻性研究的一个目标。"
+  },
+  {
+   "section": "Conclusions",
+   "section_zh": "结论",
+   "en": "All dogs with DCM in this study were consuming diets with similar characteristics, including grain-free, uncommon protein based, or legume-rich formulations. We also noted that all but one of these dogs were consuming less food than their calculated MER would suggest and thus cannot exclude the role of dietary intake in these cases. In addition, we identified an increased prevalence of taurine deficiency in a sample of apparently healthy golden retrievers fed similar diets. Although a cause and effect relationship cannot be proven, the associations are concerning and warrant caution as well as future prospective studies. Assessment of taurine status of golden retrievers consuming similar diets may be indicated; however, adequate blood concentrations of taurine may be higher than previously recognized for some dogs. This data also underscores the immense value of obtaining complete diet histories in canine patients with cardiac disease.",
+   "zh": "本研究中所有患DCM的犬所食日粮均具有相似特征，包括无谷、以不常见蛋白质为基础或富含豆类的配方。我们还注意到，除一只犬外，这些犬的进食量均低于其计算MER所提示的量，因此不能排除饮食摄入量在这些病例中的作用。此外，我们在饲喂类似日粮的表观健康金毛寻回犬样本中发现牛磺酸缺乏的患病率增加。尽管无法证明因果关系，但这些关联令人担忧，值得警惕并开展未来的前瞻性研究。对食用类似日粮的金毛寻回犬进行牛磺酸状态评估可能是有必要的；然而，对某些犬而言，充足的血液牛磺酸浓度可能高于以往的认识。这些数据还凸显了在患心脏病的犬患者中获取完整饮食史的巨大价值。"
+  },
+  {
+   "section": "Conclusions",
+   "section_zh": "结论",
+   "en": "Future, controlled, prospective studies of larger sample size are needed to determine if the clear associations identified in this manuscript represent a cause-and-effect relationship between DCM, taurine-deficiency, specific ingredients, and grain-free food varieties in general. Without such studies we cannot conclusively define which dietary characteristics are involved with the pathogenesis of this condition.",
+   "zh": "需要未来开展更大样本量的对照前瞻性研究，以确定本文发现的明确关联是否代表DCM、牛磺酸缺乏、特定成分以及无谷食品品种总体之间的因果关系。没有这样的研究，我们无法确定地界定哪些饮食特征参与了该病的发病机制。"
+  },
+  {
+   "section": "Funding Statement",
+   "section_zh": "资助声明",
+   "en": "The authors received no specific funding for this work.",
+   "zh": "作者未就本研究获得特定资助。"
+  },
+  {
+   "section": "Table caption",
+   "section_zh": "表题",
+   "en": "Table 1 Baseline and follow-up mean, standard deviation, and range for echocardiographic parameters.",
+   "zh": "表1 超声心动图参数的基线和随访均值、标准差及范围。"
+  },
+  {
+   "section": "Table footnote",
+   "section_zh": "表注",
+   "en": "%FS = percent fractional shortening, %FAC = percent fractional area change, %EF = percent ejection fraction using the modified Simpson’s rule of discs, LVIDs = left ventricular internal diameter at end-systole, LA:Ao = left atrial to aortic diameter, LVIDd = left ventricular internal diameter at end-diastole. SD = standard deviation. P values < 0.05 are considered significant. Reference intervals established in healthy golden retrievers are available for %FS, LVIDs, and LVIDd18. Reference intervals established for %FAC, %EF, and LA:Ao are based on all breeds as breed-specific reference values are not available to the authors’ knowledge [22–25].",
+   "zh": "%FS = 缩短分数百分比，%FAC = 面积变化分数百分比，%EF = 采用改良Simpson圆盘法的射血分数百分比，LVIDs = 左心室收缩末期内径，LA:Ao = 左心房与主动脉直径比，LVIDd = 左心室舒张末期内径。SD = 标准差。P值< 0.05视为显著。在健康金毛寻回犬中确立的参考区间适用于%FS、LVIDs和LVIDd18。%FAC、%EF和LA:Ao的参考区间基于所有品种，因为据作者所知尚无品种特异性参考值[22–25]。"
+  },
+  {
+   "section": "Figure legend",
+   "section_zh": "图注",
+   "en": "Fig 1 Percent fractional shortening, %FAC, and %EF in each dog from baseline to follow-up visit.P values <0.05 were significant.",
+   "zh": "图1 每只犬从基线到随访的缩短分数百分比、%FAC和%EF。P值<0.05为显著。"
+  },
+  {
+   "section": "Figure legend",
+   "section_zh": "图注",
+   "en": "Fig 2 Left atrial-to-aortic root ratio and LVIDs in each dog from baseline to follow-up visit.P values <0.05 were significant.",
+   "zh": "图2 每只犬从基线到随访的左心房与主动脉根部比值和LVIDs。P值<0.05为显著。"
+  },
+  {
+   "section": "Table caption",
+   "section_zh": "表题",
+   "en": "Table 2 List of pet food brands with their diet varieties and characteristics.For each pet food variety, the number of dogs diagnosed with DCM fed this diet and the number of dogs with taurine deficiency fed this diet were listed. G = grain-free diet, L = if a legume is listed as one of the first five ingredients of the diet. Note that one dog on diet 1a is the same dog receiving diet 9m. The one dog receiving diet 8k is the same dog receiving diet 8l.",
+   "zh": "表2 宠物食品品牌及其日粮品种和特征列表。对每个宠物食品品种，列出了饲喂该日粮的DCM确诊犬数量和饲喂该日粮的牛磺酸缺乏犬数量。G = 无谷日粮，L = 豆类列于日粮前五种成分之一。注意：饲喂日粮1a的一只犬与饲喂日粮9m的为同一只犬。饲喂日粮8k的一只犬与饲喂日粮8l的为同一只犬。"
+  },
+  {
+   "section": "Table footnote",
+   "section_zh": "表注",
+   "en": "1a = ACANA Singles Limited Ingredient Diet Pork & Squash Formula (dry); Manufactured",
+   "zh": "1a = ACANA Singles Limited Ingredient Diet Pork & Squash Formula（干粮）；生产商。"
+  },
+  {
+   "section": "Table footnote",
+   "section_zh": "表注",
+   "en": "by Champion Petfoods USA Inc., Auburn, KY 42206.",
+   "zh": "生产商：Champion Petfoods USA Inc., Auburn, KY 42206。"
+  },
+  {
+   "section": "Table footnote",
+   "section_zh": "表注",
+   "en": "1b = ACANA Singles Limited Ingredient Diet Lamb & Apple Formula (dry); Manufactured by Champion Petfoods USA Inc., Auburn, KY 42206.",
+   "zh": "1b = ACANA Singles Limited Ingredient Diet Lamb & Apple Formula（干粮）；生产商：Champion Petfoods USA Inc., Auburn, KY 42206。"
+  },
+  {
+   "section": "Table footnote",
+   "section_zh": "表注",
+   "en": "1c = ACANA, unknown variety; Manufactured by Champion Petfoods USA Inc., Auburn, KY 42206.",
+   "zh": "1c = ACANA, 品种不详；生产商：Champion Petfoods USA Inc., Auburn, KY 42206。"
+  },
+  {
+   "section": "Table footnote",
+   "section_zh": "表注",
+   "en": "2d = Taste of the Wild Pet Food Pine Forest Canine Recipe with Venison & Legumes (dry); Schell & Kampeter, Inc. Manufactured by Diamond Pet Foods.",
+   "zh": "2d = Taste of the Wild Pet Food Pine Forest Canine Recipe with Venison & Legumes（干粮）；Schell & Kampeter, Inc.；生产商：Diamond Pet Foods。"
+  },
+  {
+   "section": "Table footnote",
+   "section_zh": "表注",
+   "en": "3e = 4health Grain Free Beef & Potato Formula (dry); Tractor Supply Co.; Manufactured by Ainsworth Pet Nutrition, Meadville PA 16335.",
+   "zh": "3e = 4health Grain Free Beef & Potato Formula（干粮）；Tractor Supply Co.；生产商：Ainsworth Pet Nutrition, Meadville PA 16335。"
+  },
+  {
+   "section": "Table footnote",
+   "section_zh": "表注",
+   "en": "3f = 4health Grain Free Chicken & Vegetable Formula (dry); Tractor Supply Co.; Manufactured by Diamond Pet Foods.",
+   "zh": "3f = 4health Grain Free Chicken & Vegetable Formula（干粮）；Tractor Supply Co.；生产商：Diamond Pet Foods。"
+  },
+  {
+   "section": "Table footnote",
+   "section_zh": "表注",
+   "en": "4g = Zignature Lamb Formula Limited Ingredient (dry); Pets Global, Inc.; Manufactured by Tuffy’s Pet Foods, Perham, MN 56573.",
+   "zh": "4g = Zignature Lamb Formula Limited Ingredient（干粮）；Pets Global, Inc.；生产商：Tuffy’s Pet Foods, Perham, MN 56573。"
+  },
+  {
+   "section": "Table footnote",
+   "section_zh": "表注",
+   "en": "5h = Instinct Limited Ingredient Diet Grain-Free Recipe with Real Lamb (dry); Nature’s Variety, Saint Louis, MO 63146. Manufactured by CJ Foods, Inc, Bern, KS, 66408.",
+   "zh": "5h = Instinct Limited Ingredient Diet Grain-Free Recipe with Real Lamb（干粮）；Nature’s Variety, Saint Louis, MO 63146。生产商：CJ Foods, Inc, Bern, KS, 66408。"
+  },
+  {
+   "section": "Table footnote",
+   "section_zh": "表注",
+   "en": "6i = NutriSource Grain Free Chicken and Peas Formula (dry); Manufactured by KLM Family Brands, Tuffy’s Pet Foods, Perham, MN 56573.",
+   "zh": "6i = NutriSource Grain Free Chicken and Peas Formula（干粮）；生产商：KLM Family Brands, Tuffy’s Pet Foods, Perham, MN 56573。"
+  },
+  {
+   "section": "Table footnote",
+   "section_zh": "表注",
+   "en": "7j = Kirkland Signature Nature’s Domain, Turkey Meal & Sweet Potato Formula for Dogs (dry); Manufactured by Diamond Pet Foods.",
+   "zh": "7j = Kirkland Signature Nature’s Domain, Turkey Meal & Sweet Potato Formula for Dogs（干粮）；生产商：Diamond Pet Foods。"
+  },
+  {
+   "section": "Table footnote",
+   "section_zh": "表注",
+   "en": "8k = Fromm Lamb & Lentil Recipe Dog Food (dry); Manufactured by Fromm Family Foods LLC, Mequon WI 53092",
+   "zh": "8k = Fromm Lamb & Lentil Recipe Dog Food（干粮）；生产商：Fromm Family Foods LLC, Mequon WI 53092。"
+  },
+  {
+   "section": "Table footnote",
+   "section_zh": "表注",
+   "en": "8l = Fromm Salmon a La Veg (dry); Manufactured by Fromm Family Foods LLC, Mequon WI 53092",
+   "zh": "8l = Fromm Salmon a La Veg（干粮）；生产商：Fromm Family Foods LLC, Mequon WI 53092。"
+  },
+  {
+   "section": "Table footnote",
+   "section_zh": "表注",
+   "en": "9m = Orijen Regional Red (freeze-dried medallions); Manufactured by Champion Petfoods USA Inc., Auburn, KY 42206.",
+   "zh": "9m = Orijen Regional Red（冻干圆饼）；生产商：Champion Petfoods USA Inc., Auburn, KY 42206。"
+  },
+  {
+   "section": "Table footnote",
+   "section_zh": "表注",
+   "en": "(✓) Diet meets criteria under the specific category",
+   "zh": "（✓）日粮符合该特定类别的标准"
+  },
+  {
+   "section": "Table caption",
+   "section_zh": "表题",
+   "en": "Table 3 Dietary associations between taurine concentrations and congestive heart failure diagnosis.",
+   "zh": "表3 牛磺酸浓度和充血性心力衰竭诊断的饮食关联。"
+  },
+  {
+   "section": "Table footnote",
+   "section_zh": "表注",
+   "en": "P values are reported for Fisher’s exact test used to test for associations between the three most common diets fed within the cohort of 24 golden retrievers (diets 1, 3, and 5) and the development of low taurine or congestive heart failure (CHF). A P value of <0.05 is considered significant.",
+   "zh": "报告的P值来自Fisher精确检验，用于检验24只金毛寻回犬队列中最常饲喂的三种日粮（日粮1、3和5）与低牛磺酸或充血性心力衰竭（CHF）发生之间的关联。P值<0.05视为显著。"
+  },
+  {
+   "section": "Table footnote",
+   "section_zh": "表注",
+   "en": "1 = ACANA Manufactured by Champion Petfoods USA Inc., Auburn, KY 42206.",
+   "zh": "1 = ACANA，生产商：Champion Petfoods USA Inc., Auburn, KY 42206。"
+  },
+  {
+   "section": "Table footnote",
+   "section_zh": "表注",
+   "en": "3 = 4health Tractor Supply Company., Brentwood, TN, 37027.",
+   "zh": "3 = 4health Tractor Supply Company., Brentwood, TN, 37027。"
+  },
+  {
+   "section": "Table footnote",
+   "section_zh": "表注",
+   "en": "5 = Instinct Limited Ingredient Diet Grain-Free Recipe with Real Lamb (dry); Nature’s Variety, Saint Louis, MO 63146. Manufactured by CJ Foods, Inc, Bern, KS, 66408.",
+   "zh": "5 = Instinct Limited Ingredient Diet Grain-Free Recipe with Real Lamb（干粮）；Nature’s Variety, Saint Louis, MO 63146。生产商：CJ Foods, Inc, Bern, KS, 66408。"
+  },
+  {
+   "section": "Table caption",
+   "section_zh": "表题",
+   "en": "Table 4 Nutritional requirements and affected dog data.",
+   "zh": "表4 营养需要量与患病犬数据。"
+  },
+  {
+   "section": "Table footnote",
+   "section_zh": "表注",
+   "en": "List of individual weight, body condition score (BCS), diet brand and variety, calculated resting energy requirement (RER) in kilocalories per day (kcal/d), calculated maintenance energy requirements (MER) in kcal/d, percent (%) difference in actual amount of diet fed (kcal/d) to calculated MER, the recommended amount (kcal/d) to feed based on individual’s weight as instructed by diet bag label or website, and the percent (%) difference in actual amount of diet fed (kcal/d) to the recommended amount (kcal/d) based on individual’s weight as instructed by diet bag label or website. Maintenance energy requirements were listed as a range as RER multiplied by a factor of 1.4 to 1.6 to account for a less active and more active lifestyle, respectively. In several diets, recommended daily calorie intake was listed as a range to account for a less active or more active lifestyle. In a total of five subjects (2, 4, 6, 7, and 23) dogs received a range in the amount of food fed daily. For these dogs, their greatest and smallest amount of diet fed daily were averaged. Subject 16 received diet 8k or diet 8l and therefore, both diets were analyzed separately. Quantity of diet fed to subject 19 was not made available. Subject 21 received equal proportions of diet 1a with diet 9m, and therefore, actual calorie intake was calculated by adding kilocalories contributed from both diets.",
+   "zh": "列出了个体体重、体况评分（BCS）、日粮品牌和品种、计算的静息能量需要（RER，单位千卡/天，kcal/d）、计算的维持能量需要（MER，kcal/d）、实际饲喂日粮量（kcal/d）与计算MER的百分比（%）差异、根据日粮包装标签或网站说明按个体体重推荐的饲喂量（kcal/d），以及实际饲喂日粮量（kcal/d）与根据日粮包装标签或网站说明按个体体重推荐量（kcal/d）的百分比（%）差异。维持能量需要以范围列出，即RER乘以系数1.4至1.6，分别对应较少活动和较多活动的生活方式。在若干日粮中，推荐的每日热量摄入以范围列出，以对应较少活动或较多活动的生活方式。共有五只受试犬（2、4、6、7和23）的每日饲喂量为一个范围。对这些犬，将其每日最大和最小饲喂量取平均值。受试犬16饲喂日粮8k或日粮8l，因此两种日粮分别分析。受试犬19的日粮饲喂量未提供。受试犬21饲喂等比例的日粮1a和日粮9m，因此实际热量摄入通过将两种日粮提供的千卡相加计算。"
+  },
+  {
+   "section": "Table footnote",
+   "section_zh": "表注",
+   "en": "‡Because subject 21 was fed a combination of diet 1a and diet 9m, daily kilocalories recommended by manufacturer for both diets were averaged to calculate the percent difference between actual amount fed and amount recommended.",
+   "zh": "‡由于受试犬21饲喂日粮1a和日粮9m的组合，将生产商对两种日粮推荐的每日千卡数取平均值，用于计算实际饲喂量与推荐量之间的百分比差异。"
+  },
+  {
+   "section": "Table footnote",
+   "section_zh": "表注",
+   "en": "*Information not available.",
+   "zh": "*无可用信息。"
+  },
+  {
+   "section": "Table footnote",
+   "section_zh": "表注",
+   "en": "1a = ACANA Singles Limited Ingredient Diet Pork & Squash Formula (dry); Manufactured by Champion Petfoods USA Inc., Auburn, KY 42206.",
+   "zh": "1a = ACANA Singles Limited Ingredient Diet Pork & Squash Formula（干粮）；生产商：Champion Petfoods USA Inc., Auburn, KY 42206。"
+  },
+  {
+   "section": "Table footnote",
+   "section_zh": "表注",
+   "en": "1b = ACANA Singles Limited Ingredient Diet Lamb & Apple Formula (dry); Manufactured by Champion Petfoods USA Inc., Auburn, KY 42206.",
+   "zh": "1b = ACANA Singles Limited Ingredient Diet Lamb & Apple Formula（干粮）；生产商：Champion Petfoods USA Inc., Auburn, KY 42206。"
+  },
+  {
+   "section": "Table footnote",
+   "section_zh": "表注",
+   "en": "1c = ACANA, unknown variety; Manufactured by Champion Petfoods USA Inc., Auburn, KY 42206.",
+   "zh": "1c = ACANA, 品种不详；生产商：Champion Petfoods USA Inc., Auburn, KY 42206。"
+  },
+  {
+   "section": "Table footnote",
+   "section_zh": "表注",
+   "en": "2d = Taste of the Wild Pet Food Pine Forest Canine Recipe with Venison & Legumes (dry); Schell & Kampeter, Inc. Manufactured by Diamond Pet Foods.",
+   "zh": "2d = Taste of the Wild Pet Food Pine Forest Canine Recipe with Venison & Legumes（干粮）；Schell & Kampeter, Inc.；生产商：Diamond Pet Foods。"
+  },
+  {
+   "section": "Table footnote",
+   "section_zh": "表注",
+   "en": "3e = 4health Grain Free Beef & Potato Formula (dry); Tractor Supply Co.; Manufactured by Ainsworth Pet Nutrition, Meadville PA 16335.",
+   "zh": "3e = 4health Grain Free Beef & Potato Formula（干粮）；Tractor Supply Co.；生产商：Ainsworth Pet Nutrition, Meadville PA 16335。"
+  },
+  {
+   "section": "Table footnote",
+   "section_zh": "表注",
+   "en": "3f = 4health Grain Free Chicken & Vegetable Formula (dry); Tractor Supply Co.; Manufactured by Diamond Pet Foods.",
+   "zh": "3f = 4health Grain Free Chicken & Vegetable Formula（干粮）；Tractor Supply Co.；生产商：Diamond Pet Foods。"
+  },
+  {
+   "section": "Table footnote",
+   "section_zh": "表注",
+   "en": "4g = Zignature Lamb Formula Limited Ingredient (dry); Pets Global, Inc.; Manufactured by Tuffy’s Pet Foods, Perham, MN 56573.",
+   "zh": "4g = Zignature Lamb Formula Limited Ingredient（干粮）；Pets Global, Inc.；生产商：Tuffy’s Pet Foods, Perham, MN 56573。"
+  },
+  {
+   "section": "Table footnote",
+   "section_zh": "表注",
+   "en": "5h = Instinct Limited Ingredient Diet Grain-Free Recipe with Real Lamb (dry); Nature’s Variety, Saint Louis, MO 63146. Manufactured by CJ Foods, Inc, Bern, KS, 66408.",
+   "zh": "5h = Instinct Limited Ingredient Diet Grain-Free Recipe with Real Lamb（干粮）；Nature’s Variety, Saint Louis, MO 63146。生产商：CJ Foods, Inc, Bern, KS, 66408。"
+  }
+ ]
+}

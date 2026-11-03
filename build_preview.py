@@ -439,7 +439,7 @@ def paper(p):
         pico=re.sub(r'(<th>纳入 n / 分析 n</th><td>.*?)(</td>)',lambda m:m.group(1)+_t+m.group(2),pico or '',count=1)
     if exp: order=[('研究对象',pico if popt else ''),('动物来源与实验处理',None),('关键数字',kr),('证据等级与偏倚风险',ev),('能说 / 不能说',cs),('资助方与利益冲突',fund)]
     else: order=[('研究对象/干预/对照/结局 · 样本量',pico),('关键数字',kr),('研究方法',None),('证据等级与偏倚风险',ev),('能说 / 不能说',cs),('资助方与利益冲突',fund)]
-    body=head+concl; n=0
+    body=head+(f'<p class="warn" style="background:#fff4d6;border-left:4px solid #e0a100;padding:.5em .8em;margin:.4em 0;color:#5a4300">{E_(p["warn_speed"])}</p>' if p.get('warn_speed') else '')+concl; n=0
     for t,c in order:
         if c is None:
             if meth:
@@ -461,7 +461,7 @@ def paper(p):
     body+=X.related_block(p.get('pmid'),lambda q:(f"{r}papers/{get(str(q.get('pmid'))).get('sid')}/" if q.get('pmid') and get(str(q.get('pmid'))) else ('https://doi.org/'+q['doi'] if q.get('doi') else (q.get('url') or q.get('openalex') or '#'))))
     bib=B.bibtex(B.view({**p,'id':p['sid']})); ris=B.ris(B.view({**p,'id':p['sid']}))
     body+=f'<details class="fold"><summary>原文与许可</summary>{orig}</details><details class="fold"><summary>引用（BibTeX / RIS）</summary><pre>{E_(bib)}</pre><pre>{E_(ris)}</pre></details>'
-    body+=f'<p class="note sig">依据：{p.get("basis_label") or ("摘要" if absonly else "全文")} · 速读：AI 单次提取{'（结论、关键数字、样本量除外，见各处标注）' if p.get('dual_x') else ''}</p>'
+    body+=f'<p class="note sig">依据：{p.get("basis_label") or ("仅题录，无摘要" if p.get("reading_depth")=="题录" else "摘要" if absonly else "全文")} · 速读：AI 单次提取{'（结论、关键数字、样本量除外，见各处标注）' if p.get('dual_x') else ''}</p>'
     return page(clean(p.get('title_zh') or p.get('first_author','')+' '+str(p.get('year',''))),body,2)
 def w(rel,s):
     f=os.path.join(OUT,rel); os.makedirs(os.path.dirname(f),exist_ok=True); open(f,'w',encoding='utf-8').write(s)

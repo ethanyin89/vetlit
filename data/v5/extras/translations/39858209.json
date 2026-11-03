@@ -1,0 +1,480 @@
+{
+ "pmid": "39858209",
+ "license": "CC BY 4.0",
+ "attribution": {
+  "authors": [
+   "Vanelli Karoline",
+   "Wisneski Rafael Fernando",
+   "Estevão Camila",
+   "Mayer Fernanda Caroline",
+   "Costa Leandro Batista",
+   "Webber Saulo Henrique",
+   "Pimpão Cláudia Turra"
+  ],
+  "title": "Impact of Hypocaloric Diets on Weight Loss and Body Composition in Obese Dogs: A Meta-Analysis",
+  "journal": "Animals : an Open Access Journal from MDPI",
+  "year": "2025",
+  "doi": "10.3390/ani15020210",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "note": "中文为 AI 翻译，以英文原文为准；已对原文做翻译改编"
+ },
+ "scope_zh": "标题、简明摘要（Simple Summary）、摘要、引言、材料与方法、结果、讨论（含营养建议）、结论全文正文；图1–6图注、表1–3表题及表注。未含：参考文献、补充材料（表S1–S3）、表格正文。",
+ "paragraphs": [
+  {
+   "section": "Title",
+   "section_zh": "标题",
+   "en": "Impact of Hypocaloric Diets on Weight Loss and Body Composition in Obese Dogs: A Meta-Analysis",
+   "zh": "低热量日粮对肥胖犬减重及身体组成的影响：一项荟萃分析"
+  },
+  {
+   "section": "Abstract",
+   "section_zh": "摘要",
+   "en": "Obesity is among the most prevalent nutritional disorders in dogs, marked by an excessive accumulation of body fat. Effective treatment typically involves the implementation of hypocaloric diets combined with increased physical activity. This systematic review and meta-analysis assessed the effects of various dietary components—namely protein, fat, fiber, and carbohydrates—along with overall energy intake, on the weight and body composition of obese dogs to determine optimal nutritional levels for promoting weight loss. After analyzing data from 20 studies, the results indicate that diets with elevated protein (>25%) and fiber (>12%) levels support weight reduction and help preserve lean muscle mass, whereas lower fat (<10%) and carbohydrate (<40%) levels are associated with reductions in body fat. Conversely, diets high in carbohydrates were linked to weight gain. Additionally, individual dog characteristics significantly influenced the outcomes. These findings offer valuable insights for optimizing hypocaloric diet formulations, facilitating an effective and health-promoting weight-loss process in canine patients.",
+   "zh": "肥胖是犬最常见的营养性疾病之一，其特征是体脂过度蓄积。有效的治疗通常包括实施低热量日粮并结合增加体力活动。本系统综述和荟萃分析评估了各种日粮成分——即蛋白质、脂肪、纤维和碳水化合物——以及总能量摄入对肥胖犬体重和身体组成的影响，以确定促进减重的最佳营养水平。在分析了20项研究的数据后，结果表明，蛋白质（>25%）和纤维（>12%）水平较高的日粮有助于减重并有助于保持瘦肌肉量，而较低的脂肪（<10%）和碳水化合物（<40%）水平与体脂减少相关。相反，高碳水化合物日粮与体重增加相关。此外，犬的个体特征显著影响结果。这些发现为优化低热量日粮配方、促进犬患者实现有效且有益健康的减重过程提供了有价值的见解。"
+  },
+  {
+   "section": "Abstract",
+   "section_zh": "摘要",
+   "en": "Canine obesity is a complex, multifactorial condition marked by excessive body fat accumulation due to a sustained positive energy balance. Over the past decade, its global prevalence has risen significantly in most industrialized nations. Despite the availability of numerous commercial diets designed for obesity management in dogs, these products exhibit considerable variability in nutrient composition, and there is currently no standardized guideline on optimal macronutrient levels for effective weight loss. This study aimed to evaluate the effects of specific macronutrient levels on weight loss and body composition in obese dogs. A comprehensive literature search was conducted from 2022 to 2024 across PUBMED, Scielo, Web of Science, and Google Scholar. Out of an initial 1727 documents, 20 studies met the inclusion criteria and were incorporated into this meta-analysis. Diets with energy densities below 3.275 kcal, protein levels above 25%, total dietary fiber exceeding 12%, lower fat (<10%), and reduced non-nitrogenous extract (<40%) demonstrated beneficial effects on all evaluated parameters, including weight loss and body composition assessment. This meta-analysis provides evidence-based nutritional recommendations on optimal caloric, protein, fiber, fat, and carbohydrate levels for hypocaloric diet formulations, supporting healthy weight loss and lean mass preservation in obese dogs. These findings contribute to the development of effective dietary strategies that enhance canine quality of life and longevity.",
+   "zh": "犬肥胖是一种复杂的多因素疾病，其特征是由于持续的正能量平衡导致体脂过度蓄积。在过去十年中，其全球患病率在大多数工业化国家显著上升。尽管有许多专为犬肥胖管理设计的商品日粮，但这些产品的营养成分差异很大，目前也没有关于有效减重的最佳宏量营养素水平的标准化指南。本研究旨在评估特定宏量营养素水平对肥胖犬减重和身体组成的影响。于2022年至2024年在PUBMED、Scielo、Web of Science和Google Scholar中进行了全面的文献检索。在最初的1727篇文献中，20项研究符合纳入标准并被纳入本荟萃分析。能量密度低于3.275 kcal、蛋白质水平高于25%、总膳食纤维超过12%、较低脂肪（<10%）和较低无氮浸出物（<40%）的日粮对所有评估参数（包括减重和身体组成评估）均显示出有益作用。本荟萃分析为低热量日粮配方的最佳热量、蛋白质、纤维、脂肪和碳水化合物水平提供了循证营养建议，支持肥胖犬健康减重并保持瘦体重。这些发现有助于制定有效的饮食策略，提高犬的生活质量和寿命。"
+  },
+  {
+   "section": "1. Introduction",
+   "section_zh": "1. 引言",
+   "en": "Obesity is a multifactorial nutritional disorder characterized by an excessive accumulation of body fat, generally defined as a body weight exceeding the ideal by 15–20% [1]. This condition has escalated to epidemic proportions in both developed and developing nations, affecting approximately 55% of dogs in the United States and 44% in Brazil [2,3]. Higher prevalence is observed among female dogs, adults or older animals (aged 5–10 years), and neutered individuals. Additionally, various environmental, social, and cultural factors—alongside caregiver attributes, such as dietary habits, lifestyle, and attachment to the animal—contribute to the complexity of obesity [3].",
+   "zh": "肥胖是一种多因素营养性疾病，其特征是体脂过度蓄积，通常定义为体重超过理想体重15–20% [1]。这种情况在发达国家和发展中国家均已达到流行程度，影响美国约55%的犬和巴西44%的犬[2,3]。雌性犬、成年或老年动物（5–10岁）以及已绝育个体的患病率更高。此外，各种环境、社会和文化因素——以及照护者特征，如饮食习惯、生活方式和对动物的依恋——都增加了肥胖的复杂性[3]。"
+  },
+  {
+   "section": "1. Introduction",
+   "section_zh": "1. 引言",
+   "en": "The primary contributors to canine obesity are high-calorie food consumption and insufficient physical activity. Excessive caloric intake combined with decreased energy expenditure promotes a positive energy balance, leading to fat accumulation and alterations in body composition [4,5,6].",
+   "zh": "犬肥胖的主要原因是摄入高热量食物和体力活动不足。热量摄入过多加上能量消耗减少会促成正能量平衡，导致脂肪蓄积和身体组成改变[4,5,6]。"
+  },
+  {
+   "section": "1. Introduction",
+   "section_zh": "1. 引言",
+   "en": "The therapeutic approach for managing canine obesity involves enrolling the animal in a structured weight reduction program. This program requires caregiver awareness and cooperation, the implementation of specialized low-calorie diets, a physical activity plan, and regular monitoring of the animal’s progress [7,8]. Typically, the degree of caloric restriction is determined based on an estimate of the caloric intake needed to achieve the ideal weight, calculated in reference to the animal’s current body condition score [7].",
+   "zh": "管理犬肥胖的治疗方法是让动物参加结构化的减重计划。该计划需要照护者的认识和配合、实施专门的低热量日粮、体力活动计划以及定期监测动物的进展[7,8]。通常，热量限制程度是根据达到理想体重所需热量摄入的估计值确定的，该估计值参照动物当前的体况评分计算[7]。"
+  },
+  {
+   "section": "1. Introduction",
+   "section_zh": "1. 引言",
+   "en": "The primary objectives of nutritional intervention are to facilitate effective and gradual weight loss, preserve lean muscle mass, promote satiety, increase energy expenditure, dilute dietary energy density, and regulate postprandial glycemic response [8,9].",
+   "zh": "营养干预的主要目标是促进有效且渐进的减重、保持瘦肌肉量、促进饱腹感、增加能量消耗、稀释日粮能量密度以及调节餐后血糖反应[8,9]。"
+  },
+  {
+   "section": "1. Introduction",
+   "section_zh": "1. 引言",
+   "en": "Despite progress in canine obesity management, the ideal levels of caloric restriction intake and optimal nutrient concentrations for effective weight control remain subjects of debate. Research suggests that energy restriction intake can increase hunger, promote persistent food-seeking behavior, and exacerbate anxiety, which may lead caregivers to abandon weight reduction programs for their pets [10,11].",
+   "zh": "尽管犬肥胖管理取得了进展，但热量限制摄入的理想水平和有效控制体重的最佳营养素浓度仍有争议。研究表明，能量限制摄入会增加饥饿感、促使持续的觅食行为并加剧焦虑，这可能导致照护者放弃宠物的减重计划[10,11]。"
+  },
+  {
+   "section": "1. Introduction",
+   "section_zh": "1. 引言",
+   "en": "Additionally, analysis of commercial pet food labels reveals inconsistencies in guaranteed nutrient levels, and regulatory organizations such as the NRC, AAFCO, and FEDIAF have yet to establish consensus guidelines on recommended nutritional standards for canine obesity management. While it is recognized that caloric restriction intake through reduced fat levels and increased fiber content supports weight loss, the precise minimum and maximum macronutrient concentrations for weight-loss diets remain undefined [11,12].",
+   "zh": "此外，对商品宠物食品标签的分析显示其营养保证值不一致，NRC、AAFCO和FEDIAF等监管组织尚未就犬肥胖管理的推荐营养标准建立共识指南。虽然公认通过降低脂肪水平和提高纤维含量来限制热量摄入有助于减重，但减重日粮宏量营养素的确切最低和最高浓度仍未确定[11,12]。"
+  },
+  {
+   "section": "1. Introduction",
+   "section_zh": "1. 引言",
+   "en": "Clear, evidence-based recommendations are crucial to ensure effective treatment outcomes. Therefore, this meta-analysis aims to establish minimum and maximum inclusion levels of key macronutrients—energy, protein, ether extract, total dietary fiber, and non-nitrogenous extract—to identify the nutrient ranges most effective for promoting weight loss and for optimizing body composition (lean and fat mass) in dogs on hypocaloric diets.",
+   "zh": "明确的循证建议对确保有效的治疗结果至关重要。因此，本荟萃分析旨在确定关键宏量营养素——能量、蛋白质、粗脂肪（乙醚浸出物）、总膳食纤维和无氮浸出物——的最低和最高添加水平，以确定对饲喂低热量日粮的犬最有效促进减重和优化身体组成（瘦体重和脂肪量）的营养素范围。"
+  },
+  {
+   "section": "2. Materials and Methods / 2.1. Search Strategy",
+   "section_zh": "2. 材料与方法 / 2.1. 检索策略",
+   "en": "This meta-analysis was designed to evaluate and correlate the nutritional components of obesity-specific diets with their respective effects on weight, fat percentage, lean body mass percentage, and total weight loss in overweight and/or obese dogs. Data collection for this study was conducted from November 2022 through May 2024.",
+   "zh": "本荟萃分析旨在评估肥胖专用日粮的营养成分，并将其与对超重和/或肥胖犬的体重、脂肪百分比、瘦体重百分比和总减重的相应影响相关联。本研究的数据收集于2022年11月至2024年5月进行。"
+  },
+  {
+   "section": "2. Materials and Methods / 2.1. Search Strategy",
+   "section_zh": "2. 材料与方法 / 2.1. 检索策略",
+   "en": "Studies included in this analysis were identified through comprehensive searches in electronic databases and reference lists of relevant articles. Primary searches were conducted in PUBMED, Scielo, and Web of Science, with Google Scholar used to capture additional studies not indexed in other databases. The search strategy was constructed using the PICO framework (Population, Intervention, Control, and Outcomes) with the following search terms:Population: “obesity dogs” OR “obesity dog” AND;Intervention: “hypocaloric diets” OR “nutritional intervention” AND;Control: “diet” OR “food” OR “nutrients” AND;Outcomes: “weight” OR “body composition”.",
+   "zh": "本分析纳入的研究通过全面检索电子数据库和相关文章的参考文献列表确定。主要检索在PUBMED、Scielo和Web of Science中进行，并使用Google Scholar获取其他数据库未收录的研究。检索策略采用PICO框架（人群、干预、对照和结局）构建，检索词如下：人群：“obesity dogs” OR “obesity dog” AND；干预：“hypocaloric diets” OR “nutritional intervention” AND；对照：“diet” OR “food” OR “nutrients” AND；结局：“weight” OR “body composition”。"
+  },
+  {
+   "section": "2. Materials and Methods / 2.1. Search Strategy",
+   "section_zh": "2. 材料与方法 / 2.1. 检索策略",
+   "en": "The search methodology and database construction are summarized in Figure 1 and were conducted in accordance with the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA®) guidelines [12]. Although this meta-analysis protocol was not pre-registered, this study followed similar methodologies to those used in recently published systematic reviews and meta-analyses.",
+   "zh": "检索方法和数据库构建概述于图1，并按照系统综述和荟萃分析优先报告条目（PRISMA®）指南进行[12]。尽管本荟萃分析方案未预先注册，但本研究采用了与近期发表的系统综述和荟萃分析相似的方法。"
+  },
+  {
+   "section": "2. Materials and Methods / 2.1. Search Strategy",
+   "section_zh": "2. 材料与方法 / 2.1. 检索策略",
+   "en": "Inclusion and exclusion criteria: This meta-analysis included studies conducted on overweight and/or obese dogs, both male and female, neutered or intact, aged between 1 and 6 years. To enable linear data evaluation, we selected longitudinal studies that implemented calorie-restricted diets for weight loss in obese animals. Included studies were required to report at least the nutritional composition of the experimental diets, initial weight (pre-intervention), and final weight (post-program), along with at least one of the following variables: % lean mass, % fat mass, % total fat lost, and the mean and standard deviation of outcomes. Studies that supplemented diets with prebiotic fiber sources, probiotics, L-carnitine, antioxidants, or omegas were also considered. If studies included other variables within the same experimental trial, only the relevant data were extracted. No restrictions were applied regarding publication year.",
+   "zh": "纳入和排除标准：本荟萃分析纳入了在1至6岁的超重和/或肥胖犬（雄性和雌性，已绝育或未绝育）中开展的研究。为便于线性数据评估，我们选择了对肥胖动物实施热量限制日粮以减重的纵向研究。纳入的研究须至少报告试验日粮的营养成分、初始体重（干预前）和最终体重（计划结束后），以及以下至少一个变量：瘦体重%、脂肪量%、总脂肪减少%，以及结果的均值和标准差。添加益生元纤维来源、益生菌、L-carnitine（左旋肉碱）、抗氧化剂或omega脂肪酸的日粮研究也予以考虑。若研究在同一试验中包含其他变量，则仅提取相关数据。对发表年份不设限制。"
+  },
+  {
+   "section": "2. Materials and Methods / 2.1. Search Strategy",
+   "section_zh": "2. 材料与方法 / 2.1. 检索策略",
+   "en": "The exclusion criteria were as follows: book references, book chapters, literature reviews, articles not available in full, studies with authors who could not be contacted, and extended abstracts, to ensure result reliability. Manuscripts involving humans, felines, or dogs with secondary obesity due to endocrine disorders or comorbidities (e.g., cancer, heart disease, renal disease) were excluded. Additionally, studies lacking details on nutritional management, guaranteed nutrient levels, or reporting means and standard deviations for statistical results were excluded.",
+   "zh": "排除标准如下：书籍参考文献、书籍章节、文献综述、无法获取全文的文章、无法联系作者的研究以及扩展摘要，以确保结果可靠性。涉及人类、猫或因内分泌疾病或合并症（如癌症、心脏病、肾病）导致继发性肥胖的犬的文稿被排除。此外，缺乏营养管理细节、营养保证值或未报告统计结果均值和标准差的研究也被排除。"
+  },
+  {
+   "section": "2. Materials and Methods / 2.1. Search Strategy",
+   "section_zh": "2. 材料与方法 / 2.1. 检索策略",
+   "en": "The cutoff values for each nutrient level were established after compiling and analyzing the diet compositions in the included studies. This approach allowed for deriving intermediate nutrient levels, enabling further analyses of weight loss effects on body composition parameters.",
+   "zh": "各营养素水平的临界值是在汇总和分析纳入研究的日粮组成后确定的。这种方法可以得出中间营养素水平，从而进一步分析减重对身体组成参数的影响。"
+  },
+  {
+   "section": "2. Materials and Methods / 2.2. Eligibility Criteria",
+   "section_zh": "2. 材料与方法 / 2.2. 合格性标准",
+   "en": "After selecting the studies, a quality assessment was conducted, assigning scores based on the specific scientific criteria detailed below. While not all parameters were included in the scoring, relevant factors such as age, sex, breed, protocol duration, and diet composition were considered for contextual importance in the discussion. The scoring system, adapted from previous systematic reviews [13,14], rated certain criteria on a scale of 0 to 2, with 0 indicating inadequacy, 1 representing partial adequacy, and 2 indicating adequacy. Only the most pertinent parameters were scored, as shown in Table 1.",
+   "zh": "选定研究后进行了质量评估，根据下文详述的特定科学标准评分。虽然并非所有参数都纳入评分，但在讨论中考虑了年龄、性别、品种、方案持续时间和日粮组成等相关因素的背景重要性。该评分系统改编自既往的系统综述[13,14]，对某些标准按0至2分评分，0表示不充分，1表示部分充分，2表示充分。仅对最相关的参数评分，如表1所示。"
+  },
+  {
+   "section": "2. Materials and Methods / 2.2. Eligibility Criteria",
+   "section_zh": "2. 材料与方法 / 2.2. 合格性标准",
+   "en": "A—Sample Size: Studies with fewer than six animals per treatment group received a score of 0. Studies with 6 to 20 animals were assigned 1 point, and those with more than 20 animals were awarded 2 points.",
+   "zh": "A—样本量：每个处理组少于六只动物的研究得0分。有6至20只动物的研究得1分，超过20只动物的研究得2分。"
+  },
+  {
+   "section": "2. Materials and Methods / 2.2. Eligibility Criteria",
+   "section_zh": "2. 材料与方法 / 2.2. 合格性标准",
+   "en": "B—Randomization: Prospective studies employing randomization were given 2 points. Studies lacking randomization or those with unclear experimental design received 1 point.",
+   "zh": "B—随机化：采用随机化的前瞻性研究得2分。未随机化或试验设计不明确的研究得1分。"
+  },
+  {
+   "section": "2. Materials and Methods / 2.2. Eligibility Criteria",
+   "section_zh": "2. 材料与方法 / 2.2. 合格性标准",
+   "en": "C—Sample Homogeneity: Studies were awarded 2 points if they used animals that were homogeneous in terms of breed, sex, size, and age. Studies with heterogeneous samples or those not specifying one or more of these characteristics received 1 point.",
+   "zh": "C—样本同质性：所用动物在品种、性别、体型和年龄方面同质的研究得2分。样本异质或未说明其中一项或多项特征的研究得1分。"
+  },
+  {
+   "section": "2. Materials and Methods / 2.2. Eligibility Criteria",
+   "section_zh": "2. 材料与方法 / 2.2. 合格性标准",
+   "en": "D—Analyzed Variables: Studies were awarded 2 points if they assessed initial and final weights, initial and final lean mass percentages, initial and final body fat percentages, and total weight loss. Studies analyzing only one to three of these variables were assigned a score of 1 point; and those that did not evaluate these parameters or where the results were unclear received 0 points.",
+   "zh": "D—分析变量：评估了初始和最终体重、初始和最终瘦体重百分比、初始和最终体脂百分比以及总减重的研究得2分。仅分析其中一至三个变量的研究得1分；未评估这些参数或结果不明确的研究得0分。"
+  },
+  {
+   "section": "2. Materials and Methods / 2.2. Eligibility Criteria",
+   "section_zh": "2. 材料与方法 / 2.2. 合格性标准",
+   "en": "E—Guaranteed Nutrient Levels: Studies that reported guaranteed levels of metabolizable energy (ME), crude protein (CP), ether extract (EE), total dietary fiber (TDF), and non-nitrogenous extracts (NFEs) in the hypocaloric diets were awarded 2 points. Studies that evaluated one to three of these variables received 1 point, while those that did not assess these parameters or provided unclear results received 0 points.",
+   "zh": "E—营养保证值：报告了低热量日粮中代谢能（ME）、粗蛋白（CP）、粗脂肪（乙醚浸出物，EE）、总膳食纤维（TDF）和无氮浸出物（NFEs）保证值的研究得2分。评估了其中一至三个变量的研究得1分，未评估这些参数或结果不明确的研究得0分。"
+  },
+  {
+   "section": "2. Materials and Methods / 2.3. Data Analysis",
+   "section_zh": "2. 材料与方法 / 2.3. 数据分析",
+   "en": "To facilitate a structured statistical analysis, data were organized by key variables, including initial and final weight, initial and final lean mass percentage, initial and final body fat percentage, and total weight loss, in addition to nutrient levels (ME, CP, EE, TDF, NFE). Nutrient values were classified according to guaranteed nutritional levels derived from standard literature sources.",
+   "zh": "为便于结构化统计分析，数据按关键变量组织，包括初始和最终体重、初始和最终瘦体重百分比、初始和最终体脂百分比以及总减重，此外还有营养素水平（ME、CP、EE、TDF、NFE）。营养素值根据标准文献来源得出的营养保证值进行分类。"
+  },
+  {
+   "section": "2. Materials and Methods / 2.3. Data Analysis",
+   "section_zh": "2. 材料与方法 / 2.3. 数据分析",
+   "en": "Data tabulation and statistical analyses were conducted using Microsoft Excel 365 (2019) and Review Manager 5.4.1 (2020). Results are presented as arithmetic means, standard deviations (SDs), and confidence intervals (CIs). A fixed confidence level of p = 0.05 was applied based on the T-test. The overall effect was analyzed using the Z-test, and treatment heterogeneity was assessed with the I2 test.",
+   "zh": "数据制表和统计分析使用Microsoft Excel 365 (2019)和Review Manager 5.4.1 (2020)进行。结果以算术平均值、标准差（SDs）和置信区间（CIs）表示。基于T检验采用固定的置信水平p = 0.05。总体效应采用Z检验分析，处理异质性采用I2检验评估。"
+  },
+  {
+   "section": "3. Results",
+   "section_zh": "3. 结果",
+   "en": "The results were categorized based on searches across indexing databases, yielding a total of 1.727 articles (Figure 1). The review process began by removing duplicates, resulting in 314 studies for further evaluation. An additional search through the references cited in these studies identified 12 new articles. Following an abstract screening, 135 studies were excluded. The remaining 48 studies underwent full review, and 20 met the established selection criteria. The 28 excluded studies lacked results presented as means and standard deviations, which precluded their inclusion in the meta-analysis.",
+   "zh": "结果按各索引数据库的检索进行分类，共获得1.727篇文章（图1）。审查过程首先去除重复，得到314项研究供进一步评估。通过这些研究引用的参考文献进行补充检索，又发现12篇新文章。经摘要筛选后，排除了135项研究。其余48项研究经全文审查，20项符合既定的选择标准。被排除的28项研究未以均值和标准差呈现结果，因此无法纳入荟萃分析。",
+   "note_zh": "原文此处写作“1.727”，摘要中为“1727”（篇）；译文按原文保留。"
+  },
+  {
+   "section": "3. Results / 3.1. Evaluation of Data Extracted from Selected Studies / 3.1.1. Eligibility Criteria",
+   "section_zh": "3. 结果 / 3.1. 选定研究提取数据的评估 / 3.1.1. 合格性标准",
+   "en": "After applying eligibility scoring criteria, 20 articles qualified for the meta-analysis. Additional variables, including experimental period, body condition score (BCS), breeds studied, and other factors (e.g., BCS, blood biochemical parameters, lipid profile, intake levels, hormonal profile, and gene expression) were used descriptively to support result interpretation and discussion synthesis (Table S1).",
+   "zh": "应用合格性评分标准后，20篇文章符合荟萃分析条件。其他变量，包括试验期、体况评分（BCS）、所研究品种及其他因素（如BCS、血液生化参数、血脂谱、摄入水平、激素谱和基因表达），被描述性地用于支持结果解读和讨论综合（表S1）。"
+  },
+  {
+   "section": "3. Results / 3.1. Evaluation of Data Extracted from Selected Studies / 3.1.1. Eligibility Criteria",
+   "section_zh": "3. 结果 / 3.1. 选定研究提取数据的评估 / 3.1.1. 合格性标准",
+   "en": "The maximum eligibility score achieved was 10 points, awarded to only one article, while the minimum score was 6, earned by six studies. All studies met the requirement of including at least six animals per treatment group. Nine studies employed randomization, and only three had homogeneous experimental groups (i.e., animals of the same sex, size, and/or age) (Table S1).",
+   "zh": "获得的最高合格性评分为10分，仅一篇文章获得，最低分为6分，有六项研究获得。所有研究均满足每个处理组至少六只动物的要求。九项研究采用了随机化，只有三项研究的试验组同质（即动物性别、体型和/或年龄相同）（表S1）。"
+  },
+  {
+   "section": "3. Results / 3.1. Evaluation of Data Extracted from Selected Studies / 3.1.2. Inclusion Criteria and Additional Information",
+   "section_zh": "3. 结果 / 3.1. 选定研究提取数据的评估 / 3.1.2. 纳入标准及补充信息",
+   "en": "The number of animals per treatment group ranged from 6 to 39, totaling 397 animals across all studies included in this review. Of the 20 selected articles, nine provided mean and standard deviation values for all relevant variables. However, 14 studies reported only partial data for these variables, so only data pertinent to this meta-analysis were extracted.",
+   "zh": "每个处理组的动物数量为6至39只，本综述纳入的所有研究共计397只动物。在20篇选定的文章中，九篇提供了所有相关变量的均值和标准差。然而，14项研究仅报告了这些变量的部分数据，因此仅提取了与本荟萃分析相关的数据。"
+  },
+  {
+   "section": "3. Results / 3.1. Evaluation of Data Extracted from Selected Studies / 3.1.2. Inclusion Criteria and Additional Information",
+   "section_zh": "3. 结果 / 3.1. 选定研究提取数据的评估 / 3.1.2. 纳入标准及补充信息",
+   "en": "The number of animals per treatment group ranged from 6 to 39, resulting in a total sample size of 397 animals across all studies included in this review. Of the 20 selected articles, nine provided results as mean and standard deviation for all variables of interest. However, 14 studies did not report all the variables in this format; for these studies, only data relevant to the objectives of this meta-analysis were extracted.",
+   "zh": "每个处理组的动物数量为6至39只，本综述纳入的所有研究总样本量为397只动物。在20篇选定的文章中，九篇以均值和标准差形式提供了所有目标变量的结果。然而，14项研究未以这种形式报告所有变量；对于这些研究，仅提取了与本荟萃分析目的相关的数据。",
+   "note_zh": "原文第27段与第28段内容基本重复，均按原文译出。"
+  },
+  {
+   "section": "3. Results / 3.2. Tables",
+   "section_zh": "3. 结果 / 3.2. 表格",
+   "en": "All tables are included in the manuscript and supplementary materials: Table S1 presents eligibility scores for each article, while Tables S2 and S3 offer additional information used to enrich the discussion but not included in the statistical analysis.",
+   "zh": "所有表格均包含在正文和补充材料中：表S1列出了每篇文章的合格性评分，表S2和S3提供了用于丰富讨论但未纳入统计分析的补充信息。"
+  },
+  {
+   "section": "3. Results / 3.2. Tables",
+   "section_zh": "3. 结果 / 3.2. 表格",
+   "en": "Table 2 summarizes breed, sex, age, and outcomes for each study. Of the 20 studies, 11 utilized Beagle dogs, while the remaining 9 evaluated dogs of various, unspecified breeds. Additionally, 9 studies included both male and female dogs, with ages ranging from 1 to 7 years. Fourteen studies used neutered dogs, which is noteworthy as neutering is known to influence weight gain in canines.",
+   "zh": "表2总结了每项研究的品种、性别、年龄和结果。在20项研究中，11项使用比格犬，其余9项评估了各种未注明品种的犬。此外，9项研究同时纳入雄性和雌性犬，年龄为1至7岁。十四项研究使用了已绝育犬，这一点值得注意，因为已知绝育会影响犬的体重增加。"
+  },
+  {
+   "section": "3. Results / 3.2. Tables",
+   "section_zh": "3. 结果 / 3.2. 表格",
+   "en": "Table S3 provides further details on the body condition assessment method, body condition score (BCS), expression of guaranteed nutrient levels, and additional dietary characteristics. No study used subjective evaluation for BCS; most employed DEXA (Dual-Energy X-ray Absorptiometry), ensuring all dogs were classified as overweight or obese. BCS scales varied (1/5 or 1/9), but this did not impact study selection or outcomes. The duration of experimental protocols ranged from 30 to 194 days. In 16 studies, nutrient levels were expressed on a dry matter basis, and inclusion levels were likewise assessed on this basis. Additionally, five studies incorporated nutraceuticals into the diets, while the remainder used conventional weight-loss diets.",
+   "zh": "表S3提供了关于体况评估方法、体况评分（BCS）、营养保证值的表示方式以及其他日粮特征的更多细节。没有研究对BCS采用主观评估；大多数采用DEXA（双能X线吸收测定法），确保所有犬均被归类为超重或肥胖。BCS量表各不相同（1/5或1/9），但这并未影响研究选择或结果。试验方案的持续时间为30至194天。在16项研究中，营养素水平以干物质基础表示，添加水平也同样以此基础评估。此外，五项研究在日粮中添加了营养保健品，其余研究使用常规减重日粮。"
+  },
+  {
+   "section": "3. Results / 3.2. Tables",
+   "section_zh": "3. 结果 / 3.2. 表格",
+   "en": "Table 1 details the nutrient inclusion levels in the hypocaloric diets used in the reviewed weight-loss programs. This dataset enabled comparative analysis for the meta-analysis. Of the 20 articles, 11 reported all relevant nutritional components; the remaining articles were included, though statistical analysis was conducted only on available data. When studies employed multiple diets, each diet’s nutrient profile and outcomes were separately assessed within the meta-analysis according to the protocol used.",
+   "zh": "表1详细列出了所审查减重计划中所用低热量日粮的营养素添加水平。该数据集使荟萃分析的比较分析成为可能。在20篇文章中，11篇报告了所有相关营养成分；其余文章也被纳入，但仅对可获得的数据进行统计分析。当研究采用多种日粮时，根据所用方案在荟萃分析中分别评估每种日粮的营养素谱和结果。"
+  },
+  {
+   "section": "3. Results / 3.2. Tables",
+   "section_zh": "3. 结果 / 3.2. 表格",
+   "en": "Data were analyzed on a dry matter basis, as 16 of the 20 articles reported their data in this format rather than in kcal. Only one article lacked caloric data for the diets. Although calorie content can be estimated, we opted not to calculate this value, given that metabolizable energy is typically measured using a bomb calorimeter, which provides precise rather than estimated values. Additionally, six articles did not report nitrogen-free extract (NFE) values, and these could not be calculated due to missing essential information, such as moisture and mineral content, required for the mathematical formula.",
+   "zh": "数据以干物质基础进行分析，因为20篇文章中有16篇以这种形式而非以kcal报告数据。只有一篇文章缺少日粮的热量数据。尽管热量含量可以估算，但我们选择不计算该值，因为代谢能通常使用弹式量热计测定，提供的是精确值而非估算值。此外，六篇文章未报告无氮浸出物（NFE）值，且由于缺少数学公式所需的水分和矿物质含量等基本信息，这些值无法计算。"
+  },
+  {
+   "section": "3. Results / 3.3. Meta-Analysis",
+   "section_zh": "3. 结果 / 3.3. 荟萃分析",
+   "en": "Results are presented as weighted means and standard deviations. Most statistically significant differences were verified using the t-test, except for those noted with an asterisk (*) in the table.",
+   "zh": "结果以加权平均值和标准差表示。大多数统计学显著差异采用t检验验证，表中以星号（*）标注者除外。"
+  },
+  {
+   "section": "3. Results / 3.3. Meta-Analysis",
+   "section_zh": "3. 结果 / 3.3. 荟萃分析",
+   "en": "Table 2 displays the statistical analysis results. Groups were categorized according to nutritional values and variable analyses, including weight loss, lean mass gain, and body fat reduction, measured both before initiating the weight-loss protocol and at the experiment’s conclusion. This approach enabled two comparisons within each evaluated group.",
+   "zh": "表2显示了统计分析结果。各组根据营养值和变量分析进行分类，包括减重、瘦体重增加和体脂减少，均在开始减重方案前和试验结束时测量。这种方法使每个评估组内可进行两次比较。"
+  },
+  {
+   "section": "3. Results / 3.3. Meta-Analysis",
+   "section_zh": "3. 结果 / 3.3. 荟萃分析",
+   "en": "To assess the impact of nutrient inclusion percentages on weight and body composition outcomes at the end of the experimental protocol, additional stratified statistical analyses were conducted. These analyses examined calorie concentrations, as well as the percentages of protein, total digestible fiber, ether extract, and nitrogen-free extract on a dry matter basis.",
+   "zh": "为评估营养素添加百分比对试验方案结束时体重和身体组成结果的影响，进行了额外的分层统计分析。这些分析考察了热量浓度，以及以干物质基础计的蛋白质、总可消化纤维、粗脂肪（乙醚浸出物）和无氮浸出物的百分比。"
+  },
+  {
+   "section": "3. Results / 3.3. Meta-Analysis",
+   "section_zh": "3. 结果 / 3.3. 荟萃分析",
+   "en": "The most relevant results—final weight, percentage of muscle mass gain, and percentage of body fat loss—were selected for presentation. For both calorie concentration groups (less and more than 3.275 kcal), significant weight loss was observed (p < 0.001) (Table 2). Notably, in the <3.275 kcal group, there was a significant decrease in fat mass and a greater reduction in body fat percentage (p < 0.001) (Figure 2).",
+   "zh": "选择了最相关的结果——最终体重、肌肉量增加百分比和体脂减少百分比——进行展示。在两个热量浓度组（低于和高于3.275 kcal）中均观察到显著减重（p < 0.001）（表2）。值得注意的是，在<3.275 kcal组中，脂肪量显著下降，体脂百分比降幅更大（p < 0.001）（图2）。"
+  },
+  {
+   "section": "3. Results / 3.3. Meta-Analysis",
+   "section_zh": "3. 结果 / 3.3. 荟萃分析",
+   "en": "For crude protein levels, the total and weekly weight losses were higher in the >25% group (Figure 3), with significant heterogeneity (p < 0.0001), as was the reduction in body fat (Table 2). Lean mass showed a significant increase in the >25% group. However, due to limited data for crude protein levels <25% in the included studies, a direct comparison between these protein levels was not possible.",
+   "zh": "就粗蛋白水平而言，>25%组的总减重和每周减重更高（图3），存在显著异质性（p < 0.0001），体脂减少也是如此（表2）。>25%组的瘦体重显著增加。然而，由于纳入研究中粗蛋白水平<25%的数据有限，无法对这两个蛋白质水平进行直接比较。"
+  },
+  {
+   "section": "3. Results / 3.3. Meta-Analysis",
+   "section_zh": "3. 结果 / 3.3. 荟萃分析",
+   "en": "Optimal results for both total weight loss (p < 0.0001) and body fat reduction (p < 0.0001) were observed with total dietary fiber contents below 12% (Figure 4). However, no significant difference in lean mass loss was found at fiber levels below 12%, in contrast to levels above 12% (Table 2).",
+   "zh": "总膳食纤维含量低于12%时，总减重（p < 0.0001）和体脂减少（p < 0.0001）均观察到最佳结果（图4）。然而，与高于12%的水平相反，纤维水平低于12%时瘦体重损失无显著差异（表2）。",
+   "note_zh": "原文结果部分称总膳食纤维<12%时效果最佳，而摘要、营养建议及结论称>12%有益；译文按各处原文译出。"
+  },
+  {
+   "section": "3. Results / 3.3. Meta-Analysis",
+   "section_zh": "3. 结果 / 3.3. 荟萃分析",
+   "en": "The analyses indicate that the group with <10% ether extract (EE) demonstrated the most substantial weight loss at the end of the experiment, as well as the highest total weight reduction (p < 0.001) (Table 2). Furthermore, this group exhibited a greater increase in lean mass and a highly significant reduction in body fat (Figure 5) compared to the group with EE levels exceeding 10%.",
+   "zh": "分析表明，粗脂肪（乙醚浸出物，EE）<10%的组在试验结束时减重最多，总体重降幅也最大（p < 0.001）（表2）。此外，与EE水平超过10%的组相比，该组瘦体重增加更多，体脂减少极显著（图5）。"
+  },
+  {
+   "section": "3. Results / 3.3. Meta-Analysis",
+   "section_zh": "3. 结果 / 3.3. 荟萃分析",
+   "en": "Regarding carbohydrate concentrations in the diets, the group with non-fiber carbohydrate (NFE) levels below 40% exhibited greater weight loss (Figure 6) and a more substantial reduction in body fat, with no statistically significant loss of lean mass (Table 2). In contrast, NFE levels exceeding 40% were associated with increased weight gain, a lower percentage of weight loss, and no statistically significant reduction in body fat (Table 2).",
+   "zh": "关于日粮中的碳水化合物浓度，非纤维碳水化合物（NFE）水平低于40%的组减重更多（图6），体脂减少更明显，且瘦体重无统计学显著损失（表2）。相反，NFE水平超过40%与体重增加较多、减重百分比较低以及体脂无统计学显著减少相关（表2）。"
+  },
+  {
+   "section": "4. Discussion",
+   "section_zh": "4. 讨论",
+   "en": "The composition of commercial weight-loss diets for dogs, as used across studies, is highly variable (Table 1), encompassing a wide range of caloric contents and differing levels of protein, fat, and fiber—nutrients critical for effective weight reduction. Currently, no standardized guidelines exist for these nutrient levels; however, recommendations from the European Pet Food Industry (2024) suggest that weight-loss diets should be low in calories and fat, while including high protein and dietary fiber content. In line with these guidelines, the present meta-analysis offers nutritional recommendations, estimating optimal minimum and maximum levels of macronutrients to support weight loss in obese dogs.",
+   "zh": "各研究所用的商品犬减重日粮组成差异很大（表1），涵盖广泛的热量含量以及不同水平的蛋白质、脂肪和纤维——这些营养素对有效减重至关重要。目前这些营养素水平尚无标准化指南；然而，欧洲宠物食品工业联合会（2024）的建议提出，减重日粮应低热量、低脂肪，同时含有高蛋白和高膳食纤维。与这些指南一致，本荟萃分析提供了营养建议，估算了支持肥胖犬减重的宏量营养素最佳最低和最高水平。"
+  },
+  {
+   "section": "4. Discussion",
+   "section_zh": "4. 讨论",
+   "en": "The studies included in this analysis varied in protocol duration, ranging from 30 to 194 days (Table S2). While protocol duration was not an exclusion criterion, we recognize this as a limitation, as extended durations typically result in more substantial weight loss. This factor should be considered in future analyses to account for its potential impact on weight-loss outcomes.",
+   "zh": "本分析纳入的研究方案持续时间各异，为30至194天（表S2）。虽然方案持续时间不是排除标准，但我们认识到这是一个局限，因为持续时间较长通常会带来更多的减重。在未来的分析中应考虑这一因素，以评估其对减重结果的潜在影响。"
+  },
+  {
+   "section": "4. Discussion",
+   "section_zh": "4. 讨论",
+   "en": "An additional limitation of this meta-analysis relates to the composition of diets used in the experimental protocols. Among the 21 articles included, five (Table S2) featured nutraceutical compounds (such as L-carnitine, omega-3, and prebiotics), which may provide supplementary benefits by enhancing weight loss or promoting lean mass gain. Similar effects may arise from individual characteristics such as age, sex, reproductive status, and breed (Table S3). Younger animals, intact males, and those with higher metabolic rates can significantly influence weight and body composition, representing another limitation of this study. To account for these variables, we incorporated them into the statistical analysis for both evaluated groups, ensuring that any potential effects on the measured variables were consistently reflected across groups.",
+   "zh": "本荟萃分析的另一个局限与试验方案中所用日粮的组成有关。在纳入的21篇文章中，五篇（表S2）含有营养保健化合物（如L-carnitine、omega-3和益生元），这些化合物可能通过促进减重或促进瘦体重增加带来额外益处。年龄、性别、繁殖状态和品种等个体特征也可能产生类似影响（表S3）。较年轻的动物、未去势的雄性以及代谢率较高的动物可能显著影响体重和身体组成，这是本研究的另一个局限。为考虑这些变量，我们将其纳入两个评估组的统计分析中，确保其对所测变量的任何潜在影响在各组间得到一致反映。",
+   "note_zh": "原文此处为“21篇文章”，其余部分为20篇；译文按原文保留。"
+  },
+  {
+   "section": "4. Discussion",
+   "section_zh": "4. 讨论",
+   "en": "We recognize that weight-loss diets are generally not tailored to meet the specific nutritional needs of different dog sizes but rather address obesity as a condition. Our findings aim to align with industry practices to support the enhancement of nutritional formulations and optimize outcomes for canine weight management.",
+   "zh": "我们认识到，减重日粮通常并非针对不同体型犬的特定营养需求定制，而是将肥胖作为一种疾病来应对。我们的研究结果旨在与行业实践保持一致，以支持改进营养配方并优化犬体重管理的结果。"
+  },
+  {
+   "section": "4. Discussion",
+   "section_zh": "4. 讨论",
+   "en": "The primary objective of low-calorie diets in canine obesity management is to reduce body weight while preserving lean mass and improving body composition, ensuring that the animal consumes the optimal quantities to meet all nutrient requirements. In this study, various parameters, including body weight, lean mass, body fat, and both total and weekly weight loss, were evaluated in relation to specific nutritional thresholds (e.g., < or >3.275 kcal, < or >25% CP, < or >12% NDF, < or >8.5% EE, and < or >40% NFE). Accordingly, this discussion is organized into segments that assess the effects of each nutrient level on these individual variables.",
+   "zh": "低热量日粮在犬肥胖管理中的主要目标是降低体重，同时保持瘦体重并改善身体组成，确保动物摄入满足所有营养需要的最佳量。在本研究中，针对特定营养阈值（如< 或 >3.275 kcal、< 或 >25% CP、< 或 >12% NDF、< 或 >8.5% EE以及< 或 >40% NFE）评估了体重、瘦体重、体脂以及总减重和每周减重等多个参数。因此，本讨论按评估各营养素水平对这些单项变量影响的部分进行组织。",
+   "note_zh": "原文此处EE阈值为8.5%、纤维写作NDF，其余部分为10%和TDF；译文按原文保留。"
+  },
+  {
+   "section": "4. Discussion",
+   "section_zh": "4. 讨论",
+   "en": "The results indicate notable changes in body characteristics and weight reduction in dogs following a weight-loss protocol. Multiple factors beyond caloric restriction can influence weight loss, such as sex, age, reproductive status (intact or neutered), as well as cultural and geographical factors [31]. For instance, younger animals, males, and intact individuals generally exhibit higher metabolic rates, which can directly impact weight and body composition, representing a limitation of this study. However, to mitigate this effect, we included these variables in the statistical analyses across both groups, ensuring that any influence on the measured parameters was evenly distributed.",
+   "zh": "结果表明，犬在实施减重方案后身体特征和体重降低发生了显著变化。除热量限制外，多种因素可影响减重，如性别、年龄、繁殖状态（未绝育或已绝育）以及文化和地理因素[31]。例如，较年轻的动物、雄性和未绝育个体通常代谢率较高，这可直接影响体重和身体组成，这是本研究的一个局限。然而，为减轻这一影响，我们在两组的统计分析中纳入了这些变量，确保其对所测参数的任何影响均匀分布。"
+  },
+  {
+   "section": "4. Discussion",
+   "section_zh": "4. 讨论",
+   "en": "It is also important to consider that the duration of the therapeutic protocol directly affects the progression and efficacy of weight loss. According to the literature [6], effective weight reduction and muscle mass preservation require a gradual, prolonged approach. Among the studies included, protocol duration varied significantly, ranging from 30 to 224 days (Table S3). Weekly weight-loss rates differed across groups, with the most significant changes observed in diets with protein levels above 25% and dietary fiber levels below 12% (Table 2). However, the groups categorized by metabolizable energy (ME) did not show significant differences, possibly due to some protocols being implemented over a shorter period (as brief as 4 weeks), which is insufficient for achieving optimal body condition and weight targets.",
+   "zh": "还需考虑的是，治疗方案的持续时间直接影响减重的进展和效果。根据文献[6]，有效的减重和肌肉量保持需要渐进、长期的方法。在纳入的研究中，方案持续时间差异很大，为30至224天（表S3）。各组每周减重率不同，蛋白质水平高于25%、膳食纤维水平低于12%的日粮变化最显著（表2）。然而，按代谢能（ME）分类的各组未显示显著差异，可能是由于一些方案实施时间较短（短至4周），不足以达到最佳体况和体重目标。",
+   "note_zh": "原文此处方案持续时间为30至224天，第31、43段为30至194天；译文按原文保留。"
+  },
+  {
+   "section": "4. Discussion",
+   "section_zh": "4. 讨论",
+   "en": "The ideal duration of a weight-loss program may vary based on the degree of caloric restriction and numerous additional factors, such as individual characteristics, owner compliance, diet quality, and presence of comorbidities. The literature does not specify a precise timeframe for effective results; however, it suggests that dogs with higher body condition scores (9/9) benefit from an extended period in a weight-reduction program to achieve optimal outcomes [32].",
+   "zh": "减重计划的理想持续时间可能因热量限制程度及许多其他因素而异，如个体特征、主人依从性、日粮质量和合并症的存在。文献未规定取得有效结果的确切时间；然而，文献提示体况评分较高（9/9）的犬可受益于更长时间的减重计划以获得最佳结果[32]。"
+  },
+  {
+   "section": "4. Discussion",
+   "section_zh": "4. 讨论",
+   "en": "Energy concentrations below 3.275 kcal present a noteworthy outcome for consideration in canine weight-loss diets. While total weight loss in this group was lower than in the >3.275 kcal group, this effect was accompanied by a more substantial reduction in body fat and a significant increase in lean mass, clarifying the reduced overall weight-loss rate. In weight-loss protocols, it is crucial for weight reduction to be substantial while lean mass is preserved. These findings may be associated with the diet’s overall composition and relatively higher protein levels [18,33].",
+   "zh": "能量浓度低于3.275 kcal是犬减重日粮中值得考虑的结果。虽然该组的总减重低于>3.275 kcal组，但这一效应伴随着更大幅度的体脂减少和显著的瘦体重增加，这解释了总体减重率较低的原因。在减重方案中，在保持瘦体重的同时实现可观的体重下降至关重要。这些发现可能与日粮的整体组成和相对较高的蛋白质水平有关[18,33]。"
+  },
+  {
+   "section": "4. Discussion",
+   "section_zh": "4. 讨论",
+   "en": "The data suggest that while lean mass remained comparable between groups, levels exceeding 3.275 kcal did not promote additional lean mass gain. According to the literature, an optimal weight-loss process in animals ideally leads to an increase in lean mass and a reduction in body fat [25,32]. Thus, caloric levels above 3.275 kcal may not support this benefit as effectively as levels below this threshold.",
+   "zh": "数据提示，虽然各组间瘦体重相当，但超过3.275 kcal的水平并未促进额外的瘦体重增加。根据文献，动物理想的减重过程应使瘦体重增加、体脂减少[25,32]。因此，高于3.275 kcal的热量水平可能不如低于该阈值的水平那样有效地带来这一益处。"
+  },
+  {
+   "section": "4. Discussion",
+   "section_zh": "4. 讨论",
+   "en": "Moreover, lean muscle tissue contributes to sustaining energy expenditure, prevents the recurrence of obesity, and supports weight maintenance. Here, lean mass gain was observed at dietary protein concentrations above 25% CP (Table 2), though comparisons with protein levels below 25% were not feasible due to insufficient data for meta-analysis. These results align with findings reported in previous studies [5,6,32], which indicate that protein levels in calorie-restricted diets must meet the animal’s metabolic needs for cellular renewal. This facilitates lean mass preservation and promotes fat loss. Additionally, maintaining muscle mass during weight reduction is contingent not only on the amount of protein but also on the quality and specific amino acid profile present in the diet [33].",
+   "zh": "此外，瘦肌肉组织有助于维持能量消耗、防止肥胖复发并支持体重维持。本研究中，日粮蛋白质浓度高于25% CP时观察到瘦体重增加（表2），但由于荟萃分析数据不足，无法与低于25%的蛋白质水平进行比较。这些结果与既往研究报告的结果一致[5,6,32]，表明热量限制日粮中的蛋白质水平必须满足动物细胞更新的代谢需要。这有助于保持瘦体重并促进脂肪减少。此外，减重期间肌肉量的维持不仅取决于蛋白质的量，还取决于日粮中蛋白质的质量和特定氨基酸谱[33]。"
+  },
+  {
+   "section": "4. Discussion",
+   "section_zh": "4. 讨论",
+   "en": "Significant findings on protein concentrations include higher weekly and end-of-experiment weight loss and marked reductions in body fat at levels exceeding 25% CP. These effects are likely related to the metabolic impacts of high protein inclusion in weight-loss diets. Protein appears to exert a notable thermic effect on postprandial metabolism, leading to increased caloric expenditure and a negative energy balance. Additionally, protein contributes positively to satiety in animals, which can support adherence to a calorie-restricted diet [32].",
+   "zh": "关于蛋白质浓度的重要发现包括：在超过25% CP的水平下，每周减重和试验结束时减重更多，体脂显著减少。这些效应可能与减重日粮中高蛋白添加的代谢影响有关。蛋白质似乎对餐后代谢有显著的热效应，导致热量消耗增加和负能量平衡。此外，蛋白质对动物的饱腹感有积极作用，有助于坚持热量限制日粮[32]。"
+  },
+  {
+   "section": "4. Discussion",
+   "section_zh": "4. 讨论",
+   "en": "When examining body fat reduction throughout the weight-loss program, varied outcomes were observed across protein concentrations. For CP levels above 25%, the reduction in body fat percentage was significant (Table 2). Most studies suggest that protein levels exceeding 25% CP enhance weight-loss outcomes and support lean mass retention, as previously noted, although the precise metabolic mechanisms driving these changes remain to be fully understood [34].",
+   "zh": "在考察整个减重计划中的体脂减少时，不同蛋白质浓度观察到的结果各异。对于高于25%的CP水平，体脂百分比的减少显著（表2）。大多数研究提示，如前所述，超过25% CP的蛋白质水平可增强减重效果并有助于保持瘦体重，但驱动这些变化的确切代谢机制仍有待充分阐明[34]。"
+  },
+  {
+   "section": "4. Discussion",
+   "section_zh": "4. 讨论",
+   "en": "It should be noted, however, that only two studies [17,18] evaluated protein concentrations below 25%, which may partially account for the lack of a statistically significant difference in body fat reduction between initial and final averages in this category. This limitation underscores the need for additional studies to clarify the relationship between lower protein concentrations and body composition outcomes during weight loss in dogs.",
+   "zh": "然而应当指出，只有两项研究[17,18]评估了低于25%的蛋白质浓度，这可能部分解释了该类别中初始与最终平均值之间体脂减少无统计学显著差异的原因。这一局限凸显了需要更多研究来阐明犬减重期间较低蛋白质浓度与身体组成结果之间的关系。"
+  },
+  {
+   "section": "4. Discussion",
+   "section_zh": "4. 讨论",
+   "en": "Dietary fiber content is a crucial factor in achieving favorable outcomes during a weight-loss protocol. Analysis of different fiber levels revealed that the group with <12% total dietary fiber exhibited greater total and weekly weight losses, as well as a more pronounced reduction in body fat, compared with the >12% fiber group. While it would be useful to examine the specific proportions of soluble and insoluble fibers in these diets, such data were not provided in the studies. Nonetheless, dietary fiber likely supports weight loss by diluting the caloric density of food. Additionally, the inclusion of prebiotic fibers is known to beneficially modify the gut microbiota, increasing populations of beneficial bacteria, such as Lactobacillus, Saccharomyces, and Bifidobacterium, which contribute to reduced fat absorption [28,33,35]. Despite these advantages, it is essential to manage fiber levels carefully, as excessive fiber intake can harm intestinal health, potentially causing constipation, diarrhea, or damage to the intestinal mucosa [28]. Thus, establishing maximum inclusion levels for fiber is critical to balance its benefits and risks.",
+   "zh": "膳食纤维含量是在减重方案中取得良好结果的关键因素。对不同纤维水平的分析显示，与>12%纤维组相比，<12%总膳食纤维组的总减重和每周减重更多，体脂减少也更明显。虽然考察这些日粮中可溶性和不溶性纤维的具体比例会很有用，但各研究未提供此类数据。尽管如此，膳食纤维可能通过稀释食物的热量密度来支持减重。此外，已知添加益生元纤维可有益地改变肠道菌群，增加有益菌群数量，如Lactobacillus、Saccharomyces和Bifidobacterium，从而减少脂肪吸收[28,33,35]。尽管有这些优点，必须谨慎控制纤维水平，因为纤维摄入过多会损害肠道健康，可能导致便秘、腹泻或肠黏膜损伤[28]。因此，确定纤维的最高添加水平对于平衡其益处和风险至关重要。"
+  },
+  {
+   "section": "4. Discussion",
+   "section_zh": "4. 讨论",
+   "en": "Regarding nitrogen-free extract (NFE) levels, results indicated that levels exceeding 40% are associated with weight gain from baseline and do not significantly influence body fat reduction (Table 2). The role of simple sugars and complex carbohydrates has gained prominence in canine nutrition, paralleling research in human dietary studies. Similarly to findings in humans, the type and number of sugars and carbohydrates consumed by dogs can impact postprandial glycemic responses and insulin secretion [34]. Certain studies suggest that moderating starch levels may aid in glycemic control and support weight management in dogs [32,33].",
+   "zh": "关于无氮浸出物（NFE）水平，结果表明超过40%的水平与体重较基线增加相关，且对体脂减少无显著影响（表2）。与人类饮食研究相似，单糖和复合碳水化合物的作用在犬营养中日益受到重视。与人类的发现类似，犬摄入的糖和碳水化合物的类型和数量可影响餐后血糖反应和胰岛素分泌[34]。某些研究提示，适度控制淀粉水平可能有助于犬的血糖控制并支持体重管理[32,33]。"
+  },
+  {
+   "section": "4. Discussion",
+   "section_zh": "4. 讨论",
+   "en": "Overall, few studies in the literature have explored the relationship between dietary starch levels and weight gain in dogs. It is generally understood that obesity arises from a positive energy balance, with dietary calories are primarily derived from fats. The findings of this study may therefore offer a new perspective on the nutritional management of canine obesity.",
+   "zh": "总体而言，文献中很少有研究探讨犬日粮淀粉水平与体重增加之间的关系。一般认为，肥胖源于正能量平衡，而日粮热量主要来自脂肪。因此，本研究的发现可能为犬肥胖的营养管理提供新的视角。"
+  },
+  {
+   "section": "4. Discussion",
+   "section_zh": "4. 讨论",
+   "en": "The most favorable results for weight loss, lean mass gain, and body fat reduction were observed in groups with ether extract levels below 10%. These findings highlight that fat, as the most calorie-dense macronutrient, plays a pivotal role in weight management, where restricting dietary fat is essential for achieving substantial weight loss. Diets high in lipids tend to promote greater body weight retention, even when caloric intake is reduced. Conversely, fat restriction results in lower storage of fat and triglycerides in adipose tissue, which decreases body fat percentage, facilitating weight loss and overall fat reduction [35].",
+   "zh": "粗脂肪（乙醚浸出物）水平低于10%的组在减重、瘦体重增加和体脂减少方面的结果最为有利。这些发现凸显出，脂肪作为热量密度最高的宏量营养素，在体重管理中起关键作用，限制日粮脂肪对于实现可观的减重至关重要。即使热量摄入减少，高脂日粮也往往使体重更多地维持。相反，限制脂肪可减少脂肪组织中脂肪和甘油三酯的储存，从而降低体脂百分比，促进减重和整体脂肪减少[35]。"
+  },
+  {
+   "section": "4. Discussion",
+   "section_zh": "4. 讨论",
+   "en": "In dogs, an elevated body fat percentage has been shown to inversely affect life expectancy. Maintaining an optimal body condition may extend a dog’s lifespan by approximately 2.5 years, underscoring the health benefits of effective weight management [3].",
+   "zh": "在犬中，已表明体脂百分比升高与预期寿命呈负相关。保持最佳体况可使犬的寿命延长约2.5年，凸显了有效体重管理对健康的益处[3]。"
+  },
+  {
+   "section": "4. Discussion / Nutritional Recommendations",
+   "section_zh": "4. 讨论 / 营养建议",
+   "en": "The findings of this study highlight that the most effective nutritional strategies for managing obesity in dogs involve specific dietary formulations characterized by metabolizable energy levels below 3.275 kcal/g, crude protein concentrations exceeding 25% of dry matter (DM), total dietary fiber content below 12% DM, ether extract levels under 10% DM, and nitrogen-free extract restricted to less than 40% DM (Table 3). These nutrient profiles synergistically promote significant weight loss, preservation of lean body mass, and reduction in body fat. High protein levels play a pivotal role by stimulating thermogenesis, supporting lean mass retention, and enhancing satiety. Moderate fiber content contributes to gastrointestinal health and reduces caloric density, while the limitation of fat and carbohydrates, the primary energy contributors in canine diets, is critical for achieving a negative energy balance and optimizing body composition. These results underscore the importance of precise macronutrient formulations in therapeutic diets to achieve effective weight loss while maintaining overall health and extending the longevity of obese dogs.",
+   "zh": "本研究的发现强调，管理犬肥胖最有效的营养策略涉及特定的日粮配方，其特征为：代谢能水平低于3.275 kcal/g，粗蛋白浓度超过干物质（DM）的25%，总膳食纤维含量低于12% DM，粗脂肪（乙醚浸出物）水平低于10% DM，无氮浸出物限制在40% DM以下（表3）。这些营养素谱协同促进显著减重、保持瘦体重和减少体脂。高蛋白水平通过刺激产热、支持瘦体重保持和增强饱腹感发挥关键作用。适度的纤维含量有助于胃肠道健康并降低热量密度，而限制脂肪和碳水化合物（犬日粮中的主要能量来源）对于实现负能量平衡和优化身体组成至关重要。这些结果强调了治疗性日粮中精确的宏量营养素配方对于实现有效减重、同时维护肥胖犬整体健康和延长寿命的重要性。"
+  },
+  {
+   "section": "5. Conclusions",
+   "section_zh": "5. 结论",
+   "en": "The findings of this meta-analysis demonstrate that optimal nutrient composition can guide the development of industrial strategies for formulating diets to achieve effective weight loss in obese dogs. Despite variability among studies, this analysis established minimum and maximum inclusion levels for nutrients in hypocaloric diets. Differences in body composition were observed across all stratified groups, with findings applicable across sexes, ages, and breeds. Specifically, a caloric limit of 3.275 kcal, ether extract capped at 10%, and non-nitrogenous extracts limited to 40%, combined with a minimum of 25% protein and total dietary fiber levels above 12%, positively influenced weight loss and body composition, enhancing lean mass preservation and reducing body fat. These adjustments contributed to weight reduction while minimizing adverse effects and improving the quality of life for obese dogs. Other nutrient levels did not show significant effects for weight management. This precise nutritional approach advances the fight against canine obesity by promoting a formula that not only supports body fat reduction but also sustains the overall health and vitality of dogs.",
+   "zh": "本荟萃分析的发现表明，最佳营养成分可指导制定工业化日粮配方策略，以实现肥胖犬的有效减重。尽管各研究之间存在差异，本分析确定了低热量日粮中营养素的最低和最高添加水平。在所有分层组中均观察到身体组成的差异，研究结果适用于不同性别、年龄和品种。具体而言，热量上限3.275 kcal、粗脂肪（乙醚浸出物）上限10%、无氮浸出物限制在40%，结合至少25%的蛋白质和高于12%的总膳食纤维水平，对减重和身体组成产生积极影响，增强瘦体重保持并减少体脂。这些调整有助于降低体重，同时尽量减少不良影响，改善肥胖犬的生活质量。其他营养素水平对体重管理未显示显著影响。这种精确的营养方法推动了对抗犬肥胖的工作，所推广的配方不仅支持体脂减少，还维持犬的整体健康和活力。"
+  },
+  {
+   "section": "Figure legend",
+   "section_zh": "图注",
+   "en": "Figure 1 PRISMA diagram. Preferred reporting items for systematic reviews and meta-analysis (PRISMA) flow diagram identifying the total number of articles initially surveyed and the number of articles included and excluded for this systematic review [12].",
+   "zh": "图1 PRISMA图。系统综述和荟萃分析优先报告条目（PRISMA）流程图，显示最初检索的文章总数以及本系统综述纳入和排除的文章数量[12]。"
+  },
+  {
+   "section": "Figure legend",
+   "section_zh": "图注",
+   "en": "Figure 2 Meta-analysis of the association between the initial and final lean mass of obese dogs and metabolizable energy concentrations (<3.275 kcal). Mean: media. SD: mean, standard deviation of the mean. Total: number of animals in the sample. Weight: represented as a percentage and indicates the influence of the study on the overall result (Chauvet et al., 2011 [22]; German et al., 2007 [20]; German et al., 2010 [21]; Jeusette et al., 2005 [17]; Tvarijonaviciute et al., 2013 [24]; Umeda et al., 2006 [18]).",
+   "zh": "图2 肥胖犬初始与最终瘦体重与代谢能浓度（<3.275 kcal）之间关联的荟萃分析。Mean：平均值。SD：平均值，平均值的标准差。Total：样本中的动物数量。Weight：以百分比表示，表明该研究对总体结果的影响（Chauvet et al., 2011 [22]; German et al., 2007 [20]; German et al., 2010 [21]; Jeusette et al., 2005 [17]; Tvarijonaviciute et al., 2013 [24]; Umeda et al., 2006 [18]）。"
+  },
+  {
+   "section": "Figure legend",
+   "section_zh": "图注",
+   "en": "Figure 3 Meta-analysis of the association between the initial and final weight losses of obese dogs and crude protein concentrations (>25%). Mean: media. SD: mean, standard deviation of the mean. Total: number of animals in the sample. Weight: represented as a percentage and indicates the influence of the study on the overall result (Diez et al., 2002 [7]; Neto et al., 2018 [28]; Salas et al., 2018 [29]; Jeusette et al., 2005 [17]; Ricce et al., 2011 [23]; German et al., 2007 [20]; Chauvet et al., 2011 [22]; Leray et al., 2008 [5]; Borne et al., 1996 [15]; Murphy et al., 2020 [30]; Manens et al., 2014 [26]; Tvarijonaviciute et al., 2013 [24]; André et al., 2017 [6]; Tvarijonaviciute et al., 2012 [25]; Vendramini et al., 2020 [4]; German et al., 2010 [21]; Saker and Remillard 2005 [16]).",
+   "zh": "图3 肥胖犬初始与最终减重与粗蛋白浓度（>25%）之间关联的荟萃分析。Mean：平均值。SD：平均值，平均值的标准差。Total：样本中的动物数量。Weight：以百分比表示，表明该研究对总体结果的影响（Diez et al., 2002 [7]; Neto et al., 2018 [28]; Salas et al., 2018 [29]; Jeusette et al., 2005 [17]; Ricce et al., 2011 [23]; German et al., 2007 [20]; Chauvet et al., 2011 [22]; Leray et al., 2008 [5]; Borne et al., 1996 [15]; Murphy et al., 2020 [30]; Manens et al., 2014 [26]; Tvarijonaviciute et al., 2013 [24]; André et al., 2017 [6]; Tvarijonaviciute et al., 2012 [25]; Vendramini et al., 2020 [4]; German et al., 2010 [21]; Saker and Remillard 2005 [16]）。"
+  },
+  {
+   "section": "Figure legend",
+   "section_zh": "图注",
+   "en": "Figure 4 Meta-analysis of the association between the initial and final fat masses of obese dogs and total dietary fiber concentration (<12%). Mean: media. SD: mean, standard deviation of the mean. Total: number of animals in the sample. Weight: represented as a percentage and indicates the influence of the study on the overall result (Borne et al., 1996 [15]; Leray et al., 2008 [5]; Salas et al., 2018 [29]; Tvarijonaviciute et al., 2013 [24]; Tvarijonaviciute et al., 2012 [25]; Umeda et al., 2006 [18]).",
+   "zh": "图4 肥胖犬初始与最终脂肪量与总膳食纤维浓度（<12%）之间关联的荟萃分析。Mean：平均值。SD：平均值，平均值的标准差。Total：样本中的动物数量。Weight：以百分比表示，表明该研究对总体结果的影响（Borne et al., 1996 [15]; Leray et al., 2008 [5]; Salas et al., 2018 [29]; Tvarijonaviciute et al., 2013 [24]; Tvarijonaviciute et al., 2012 [25]; Umeda et al., 2006 [18]）。"
+  },
+  {
+   "section": "Figure legend",
+   "section_zh": "图注",
+   "en": "Figure 5 Meta-analysis of the association between the initial and final weigh loss of obese dogs and ether extract (<10%). Mean: media. SD: mean, standard deviation of the mean. Total: number of animals in the sample. Weight: represented as a percentage and indicates the influence of the study on the overall result (German et al., 2010 [21]; Borne et al., 1996 [15]; Murphy et al., 2020 [30]; Tvarijonaviciute et al., 2013 [24]; Tvarijonaviciute et al., 2012 [25]; Leray et al., 2008 [5]; Salas et al., 2018 [29]).",
+   "zh": "图5 肥胖犬初始与最终减重与粗脂肪（乙醚浸出物，<10%）之间关联的荟萃分析。Mean：平均值。SD：平均值，平均值的标准差。Total：样本中的动物数量。Weight：以百分比表示，表明该研究对总体结果的影响（German et al., 2010 [21]; Borne et al., 1996 [15]; Murphy et al., 2020 [30]; Tvarijonaviciute et al., 2013 [24]; Tvarijonaviciute et al., 2012 [25]; Leray et al., 2008 [5]; Salas et al., 2018 [29]）。"
+  },
+  {
+   "section": "Figure legend",
+   "section_zh": "图注",
+   "en": "Figure 6 Meta-analysis of the association between the initial and final weight losses of obese dogs and nitrogen-free extract concentrations (<40%). Mean: media. SD: mean, standard deviation of the mean. Total: number of animals in the sample. Weight: represented as a percentage and indicates the influence of the study on the overall result (Leray et al., 2008 [5]; German et al., 2007 [20]; Borne et al., 1996 [15]; Chauvet et al., 2011 [22]; Jeusette et al., 2005 [17]; German et al., 2010 [21]; André et al., 2017 [6]; Jeusette et al. 2005 [17] (b); Salas et al., 2018 [29]; Diez et al., 2002 [7]).",
+   "zh": "图6 肥胖犬初始与最终减重与无氮浸出物浓度（<40%）之间关联的荟萃分析。Mean：平均值。SD：平均值，平均值的标准差。Total：样本中的动物数量。Weight：以百分比表示，表明该研究对总体结果的影响（Leray et al., 2008 [5]; German et al., 2007 [20]; Borne et al., 1996 [15]; Chauvet et al., 2011 [22]; Jeusette et al., 2005 [17]; German et al., 2010 [21]; André et al., 2017 [6]; Jeusette et al. 2005 [17] (b); Salas et al., 2018 [29]; Diez et al., 2002 [7]）。"
+  },
+  {
+   "section": "Table caption",
+   "section_zh": "表题",
+   "en": "Table 1 Diet composition used in the studies. The values are presented in metabolizable energy (kcal/kg), crude protein (CP%), ether extract (EE%), total dietary fiber (TDF), and nitrogen-free extract (NFE).",
+   "zh": "表1 各研究所用的日粮组成。数值以代谢能（kcal/kg）、粗蛋白（CP%）、粗脂肪（乙醚浸出物，EE%）、总膳食纤维（TDF）和无氮浸出物（NFE）表示。"
+  },
+  {
+   "section": "Table footnote",
+   "section_zh": "表注",
+   "en": "CP: crude protein; EE: ether extract; NFE: nitrogen-free extract; ME: metabolizable energy; NP: not provided; TDF: total dietary fiber.",
+   "zh": "CP：粗蛋白；EE：粗脂肪（乙醚浸出物）；NFE：无氮浸出物；ME：代谢能；NP：未提供；TDF：总膳食纤维。"
+  },
+  {
+   "section": "Table caption",
+   "section_zh": "表题",
+   "en": "Table 2 Effects of different nutritional inclusion levels on weight variables and body characteristics (lean mass, fat mass) of obese dogs.",
+   "zh": "表2 不同营养素添加水平对肥胖犬体重变量和身体特征（瘦体重、脂肪量）的影响。"
+  },
+  {
+   "section": "Table footnote",
+   "section_zh": "表注",
+   "en": "* There was statistical difference in the results by the t test; n: sample size; SD: standard deviation; SD2: mean standard deviation difference; CP: crude protein; EE: ether extract; NFE: nitrogen-free extract; ME: metabolizable energy, NE: not evaluated; TDF: total dietary fiber.",
+   "zh": "* t检验显示结果存在统计学差异；n：样本量；SD：标准差；SD2：平均标准差差值；CP：粗蛋白；EE：粗脂肪（乙醚浸出物）；NFE：无氮浸出物；ME：代谢能，NE：未评估；TDF：总膳食纤维。"
+  },
+  {
+   "section": "Table caption",
+   "section_zh": "表题",
+   "en": "Table 3 Nutritional recommendations for the treatment of obese dogs.",
+   "zh": "表3 肥胖犬治疗的营养建议。"
+  },
+  {
+   "section": "Table footnote",
+   "section_zh": "表注",
+   "en": "CP: crude protein; EE: ether extract; NFE: nitrogen-free extract; ME: metabolizable energy; TDF: total dietary fiber.",
+   "zh": "CP：粗蛋白；EE：粗脂肪（乙醚浸出物）；NFE：无氮浸出物；ME：代谢能；TDF：总膳食纤维。"
+  }
+ ]
+}

@@ -25,6 +25,7 @@ def text_source(pmid):
     if isinstance(v,dict): v=v.get('text_source') or v.get('source')
     if not v: return None
     v=str(v).lower()
+    if 'citation' in v: return '题录'
     return '全文' if ('full' in v or '全文' in v) else '摘要'
 CCBY=re.compile(r'^cc[\s\-]?by(\s*[\d.]+)?$',re.I)
 def ccby(lic): return bool(CCBY.match(str(lic or '').strip().replace('-4.0','').replace(' 4.0','')))
@@ -83,7 +84,7 @@ def bilingual_page(p,t,page):
     for x in paras:
         s=x.get('section') or ''
         if s and s!=sec: rows+=f'<tr><th colspan="2" class="bsec">{E_(s)}{(" / "+E_(x["section_zh"])) if x.get("section_zh") else ""}</th></tr>'; sec=s
-        if x.get('note_zh'): nt=f'<p class="note tag2">{E_(x["note_zh"])}</p>'
+        if x.get('note_zh'): nt=f'<p class="tnote" style="background:#fff4d6;border-left:4px solid #e0a100;padding:.5em .8em;margin:.4em 0;color:#5a4300">{E_(x["note_zh"])}</p>'
         elif any(y.get('note_zh') for y in paras): nt=''
         else: nt=''.join(f'<p class="note tag2">{E_(n["note_zh"])}</p>' for n in TN.get(str(p.get('pmid')),[]) if n.get('match_en') and n['match_en'] in (x.get('en') or ''))
         rows+=f'<tr><td lang="en">{E_(x.get("en") or "")}</td><td lang="zh-CN">{E_(x.get("zh") or "")}{nt}</td></tr>'
@@ -97,6 +98,6 @@ def bilingual_page(p,t,page):
     doi=p.get('doi')
     body=f'''<p class="crumb"><a href="../">← 返回速读</a></p><h1 class="ct">中英对照</h1><p class="en" lang="en">{E_(p.get("title",""))}</p>
 <p class="note">原文：{E_(attr)}{f' · <a href="https://doi.org/{E_(doi)}">DOI</a>' if doi else ''} · 许可：{E_(str(lic).upper())}（本译文为改编作品，按同一署名要求发布）{(" · 翻译范围："+E_(scope)) if scope else ""}</p>
-<p class="note tag2">AI 翻译，未经人工审校。如有出入以英文原文为准。</p>
+<p class="note tag2">AI 翻译，未经人工审校。如有出入以英文原文为准。</p>{(f'<p class="warn" style="background:#fff4d6;border-left:4px solid #e0a100;padding:.5em .8em;margin:.4em 0;color:#5a4300">{E_(p["warn_bilingual"])}</p>') if p.get('warn_bilingual') else ''}
 <div class="tw"><table class="bi"><thead><tr><th>English（原文）</th><th>中文（AI 翻译）</th></tr></thead><tbody>{rows}</tbody></table></div>'''
     return page('中英对照 · '+(p.get('first_author') or ''),body,3)

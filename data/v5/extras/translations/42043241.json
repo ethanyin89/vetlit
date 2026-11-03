@@ -1,0 +1,334 @@
+{
+ "pmid": "42043241",
+ "license": "CC BY 4.0",
+ "attribution": {
+  "authors": [
+   "Tasker Séverine",
+   "Spiri Andrea M",
+   "Hartmann Katrin",
+   "Addie Diane D",
+   "Belák Sándor",
+   "Bergmann Michèle",
+   "Egberink Herman",
+   "Frymus Tadeusz",
+   "Hofmann-Lehmann Regina",
+   "Marsilio Fulvio",
+   "Pennisi Maria Grazia",
+   "Thiry Etienne",
+   "Truyen Uwe",
+   "Boucraut-Baralon Corine",
+   "Möstl Karin",
+   "Hosie Margaret J",
+   "Davidson Andrew"
+  ],
+  "title": "Update on Treatment of Feline Infectious Peritonitis: European Advisory Board on Cat Diseases (ABCD) Guidelines",
+  "journal": "Viruses",
+  "year": "2026",
+  "doi": "10.3390/v18040452",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "note": "中文为 AI 翻译，以英文原文为准；已对原文做翻译改编"
+ },
+ "scope_zh": "标题、关键词、全文正文（引言、抗病毒治疗、免疫调节治疗、支持治疗与并发疾病治疗、预后、治疗监测、预防保健、结论）、致谢、作者贡献、利益冲突与资助声明；图1图注、表1–2表题及说明。未含：参考文献、数据可用性声明、表格正文。源XML摘要仅含关键词。",
+ "paragraphs": [
+  {
+   "section": "Title",
+   "section_zh": "标题",
+   "en": "Update on Treatment of Feline Infectious Peritonitis: European Advisory Board on Cat Diseases (ABCD) Guidelines",
+   "zh": "猫传染性腹膜炎治疗进展：欧洲猫病咨询委员会（ABCD）指南"
+  },
+  {
+   "section": "Abstract / Keywords",
+   "section_zh": "摘要 / 关键词",
+   "en": "Keywords: FIP, feline coronavirus FCoV, remdesivir, GS-441524, molnupiravir, EIDD-2801, EIDD-1931, GC376, nirmatrelvir, prednisolone",
+   "zh": "关键词：FIP，猫冠状病毒FCoV，remdesivir（瑞德西韦），GS-441524，molnupiravir（莫努匹韦），EIDD-2801，EIDD-1931，GC376，nirmatrelvir（奈玛特韦），prednisolone（泼尼松龙）"
+  },
+  {
+   "section": "1. Introduction",
+   "section_zh": "1. 引言",
+   "en": "The European Advisory Board on Cat Diseases (ABCD) Feline Infectious Peritonitis complete guidelines were first published in 2009 [1] and comprehensively revised and published again in 2023 [2]. This review presents a further update on a section of the full guidelines describing the treatment of FIP, a field of rapidly evolving evidence on an increasing number of antiviral drugs used for FIP. The availability of predictably effective treatments for FIP has totally changed the outlook of this disease for owners, caregivers and veterinarians. There is now an alternative to euthanasia as FIP has largely become curable (see Table 1). Novel antiviral treatments act quickly, with clinical improvement within a few days, allowing for the trial (diagnostic) treatment of cats in which FIP is very likely (see the ABCD FIP Diagnostic Tool for further quick-to-access information on diagnosis [3]) without confirmation of diagnosis (e.g., cat too sick to undergo testing, testing not available, financial constraints) or while waiting for diagnostic results [4,5]. A rapid and sustained positive response to antiviral treatment is a means of supporting a diagnosis of FIP.",
+   "zh": "欧洲猫病咨询委员会（ABCD）猫传染性腹膜炎完整指南于2009年首次发布[1]，并于2023年全面修订后再次发布[2]。本综述对完整指南中描述FIP治疗的部分作进一步更新，该领域关于越来越多用于FIP的抗病毒药物的证据正在迅速发展。可预期有效的FIP治疗的出现，彻底改变了主人、照护者和兽医对该病的预期。由于FIP已基本可治愈（见表1），如今有了安乐死以外的选择。新型抗病毒治疗起效迅速，数天内即可出现临床改善，因此可以在未确诊的情况下（如猫病情过重无法接受检测、无法进行检测、经济限制）或在等待诊断结果期间，对极可能患FIP的猫进行试验性（诊断性）治疗（有关诊断的更多快速参考信息见ABCD FIP诊断工具[3]）[4,5]。对抗病毒治疗迅速而持续的积极反应是支持FIP诊断的一种手段。"
+  },
+  {
+   "section": "1. Introduction",
+   "section_zh": "1. 引言",
+   "en": "Antivirals are not licenced in cats and are still not available legally in all countries, complicating their use. An increasing number of countries have access to veterinary compounded GS-441524 products [6,7,8,9,10,11], and others have access to antivirals developed or available for humans, such as remdesivir or molnupiravir. In other countries, owners source antivirals themselves online, often illegally [4,12,13], but the quality and content of active ingredients in these preparations is usually unknown and varies significantly, as they are unregulated [14,15]. However, they are clearly often effective based on published studies [12]. Veterinarians are often prevented by local regulations from prescribing and administering such treatments [16,17,18], but provision of veterinary-led supportive care is usually allowed and highly recommended [19] as prompt supportive care that sometimes needs to be intensive is believed to be an important reason for the excellent responses to therapy [20,21].",
+   "zh": "抗病毒药物未获准用于猫，且仍未在所有国家合法上市，这使其使用变得复杂。越来越多的国家可获得兽医复方配制的GS-441524产品[6,7,8,9,10,11]，另一些国家可获得为人类开发或供人类使用的抗病毒药物，如remdesivir或molnupiravir。在其他国家，主人自行在网上购买抗病毒药物，且往往是非法的[4,12,13]，但由于这些制剂不受监管，其活性成分的质量和含量通常未知且差异很大[14,15]。然而，根据已发表的研究，它们显然常常有效[12]。兽医往往受当地法规限制而不能开具和给予此类治疗[16,17,18]，但通常允许并强烈建议由兽医主导提供支持治疗[19]，因为及时的（有时需要强化的）支持治疗被认为是治疗反应极佳的重要原因[20,21]。"
+  },
+  {
+   "section": "1. Introduction",
+   "section_zh": "1. 引言",
+   "en": "Details on antiviral and supportive treatments for FIP (including administration, dosages and possible adverse effects) are given in Table 1 and Table 2, respectively, of this review as easy-to-find information. These tables should be used in conjunction with the summary information given below.",
+   "zh": "FIP抗病毒治疗和支持治疗的详细信息（包括给药方式、剂量和可能的不良反应）分别列于本综述的表1和表2，便于查找。这些表格应与下文给出的概要信息结合使用。"
+  },
+  {
+   "section": "2. Antiviral Treatments / 2.1. GS-441524",
+   "section_zh": "2. 抗病毒治疗 / 2.1. GS-441524",
+   "en": "GS-441524 is a nucleoside analogue with published success rates ranging from 80% to 100% [20,21,22,23,24,25,26,27]; five studies have reported success rates of over 90–91% [26], 94% [25,28], 95% [21] and 100% [20] (Table 1a).",
+   "zh": "GS-441524是一种核苷类似物，已发表的成功率为80%至100% [20,21,22,23,24,25,26,27]；五项研究报告的成功率超过90–91% [26]、94% [25,28]、95% [21]和100% [20]（表1a）。"
+  },
+  {
+   "section": "2. Antiviral Treatments / 2.1. GS-441524",
+   "section_zh": "2. 抗病毒治疗 / 2.1. GS-441524",
+   "en": "In initial studies, GS-441524, usually unregulated, was administered by subcutaneous (SC) injection, which was often painful and associated with complications [13,22,29,30]. Now oral GS-441524 preparations (usually tablets but also suspensions/liquid forms) are available and are very effective [19,20,23,25], and often cheaper and better tolerated than SC injections. Intravenous injectable preparations (usually of remdesivir, see below) are now usually reserved for very sick cats during initial treatment only that cannot tolerate oral medication [8]. A dosage of 15 mg/kg every 24 h (q 24 h) PO of GS-441524 is effective in most cats [21], not only in effusive cases but across all manifestations of FIP ([28] with over 200 additional cases reported by personal communication: A.M.S., K.H., R.H.L.). However, higher dosages of GS-441524 are used by some for cats with ocular and/or neurological signs (see Table 1a). Some cats seem to react better to twice daily dosing and dosages of 10–15 mg/kg q 12 h are safe if higher dosages are deemed necessary, especially for neurological disease and if inadequate response to lower dosage occurs.",
+   "zh": "在早期研究中，GS-441524（通常为未经监管的产品）经皮下（SC）注射给药，注射常伴疼痛且与并发症相关[13,22,29,30]。如今已有口服GS-441524制剂（通常为片剂，也有混悬液/液体剂型），疗效很好[19,20,23,25]，且通常比SC注射更便宜、耐受性更好。静脉注射制剂（通常为remdesivir，见下文）现在通常仅在初始治疗期间留给无法耐受口服药物的重症猫使用[8]。GS-441524按15 mg/kg每24 h（q 24 h）PO给药对大多数猫有效[21]，不仅适用于渗出型病例，也适用于FIP的所有表现形式（[28]，另有200多例经个人通讯报告：A.M.S., K.H., R.H.L.）。然而，对于有眼部和/或神经症状的猫，部分人使用更高剂量的GS-441524（见表1a）。一些猫对每日两次给药似乎反应更好；若认为需要更高剂量，尤其是神经系统疾病及对较低剂量反应不足时，10–15 mg/kg q 12 h的剂量是安全的。"
+  },
+  {
+   "section": "2. Antiviral Treatments / 2.1. GS-441524",
+   "section_zh": "2. 抗病毒治疗 / 2.1. GS-441524",
+   "en": "Most studies in the past have used 84-day treatment courses [7,23,25,31,32,33], but shorter courses are effective (Figure 1) [19,34,35,36]. A prospective study showed that 42 days of GS-441524 PO was as effective as 84 days of treatment in cats, particularly those with effusions [21]. In another prospective bicentre study, more than 300 cats with different clinical manifestations of FIP were successfully treated with a 42-day course (this cohort included 100 cats previously described [28], with additional cases reported by personal communication: A.M.S., K.H., R.H.L.). This has important implications for access to care for cats with FIP as a shorter course reduces costs, minimises potential compliance difficulties or side effects, decreases stress associated with treatment administration and causes fewer adverse events [21].",
+   "zh": "过去大多数研究采用84天疗程[7,23,25,31,32,33]，但较短的疗程也有效（图1）[19,34,35,36]。一项前瞻性研究表明，GS-441524 PO 42天与84天治疗对猫同样有效，尤其是有渗出液的猫[21]。在另一项前瞻性双中心研究中，300多只具有不同FIP临床表现的猫经42天疗程成功治愈（该队列包括先前描述的100只猫[28]，其余病例经个人通讯报告：A.M.S., K.H., R.H.L.）。这对FIP猫获得诊疗具有重要意义，因为较短的疗程可降低费用、尽量减少潜在的依从性困难或副作用、减轻与给药相关的应激，并减少不良事件[21]。"
+  },
+  {
+   "section": "2. Antiviral Treatments / 2.1. GS-441524",
+   "section_zh": "2. 抗病毒治疗 / 2.1. GS-441524",
+   "en": "Non-clinically significant transient adverse effects of GS-441524 include elevations in ALT [8,11] (hepatoprotectants are sometimes given but are unlikely to be needed), lymphocytosis, eosinophilia and diarrhoea [37] or vomiting [11]. An increased incidence of large cell lymphoma was observed in cats within two years after FIP diagnosis and successful GS-441524 treatment (4/202; 2%) compared with the expected incidence in the general feline population [38]. This finding might be associated with immune overstimulation due to FIP as reflected by lymphocytosis and/or lymphadenomegaly observed during and after treatment and/or a long-term complication after GS-441524 treatment. Very rarely, GS-441524 uroliths have been reported, but these appear to have occurred largely when unregulated injectable products have been used. Such products might have contained higher amounts of GS-441524 than are normally used for treatment [39,40].",
+   "zh": "GS-441524无临床意义的一过性不良反应包括ALT升高[8,11]（有时会给予保肝药，但可能并不需要）、淋巴细胞增多、嗜酸性粒细胞增多和腹泻[37]或呕吐[11]。与一般猫群的预期发病率相比，在FIP诊断并经GS-441524成功治疗后两年内的猫中，观察到大细胞淋巴瘤发病率升高（4/202；2%）[38]。这一发现可能与FIP所致的免疫过度刺激有关（表现为治疗期间及治疗后观察到的淋巴细胞增多和/或淋巴结肿大），和/或是GS-441524治疗后的远期并发症。极少数情况下有GS-441524尿石的报告，但这些似乎主要发生在使用未经监管的注射产品时。此类产品所含的GS-441524量可能高于治疗通常使用的量[39,40]。"
+  },
+  {
+   "section": "2. Antiviral Treatments / 2.2. Remdesivir",
+   "section_zh": "2. 抗病毒治疗 / 2.2. Remdesivir（瑞德西韦）",
+   "en": "Remdesivir is a nucleoside analogue and the prodrug of GS-441524 [41]. It is usually expensive. A human-licenced preparation is available, as well as veterinary compounded products, in some countries. Its usage for the treatment of FIP in cats is allowed by the European Union [42]. Remdesivir has usually been injected, either intravenously or SC, but SC administration is often painful (but can depend on the remdesivir preparation) and so, when remdesivir has to be used, for example, at the start of treatment, it is usually given intravenously [43] (Table 1a). Oral GS-441524 treatment for FIP is now favoured to avoid painful SC injections. However, injectable (intravenous) treatment might be necessary when remdesivir is the only antiviral available and/or the cat is unable to tolerate oral medication (e.g., due to being very sick at the beginning of treatment with severe neurological disease or suspected reduced gastrointestinal motility and absorption) [6,8,9,11,36]. Remdesivir can also be used orally in countries where a legal compounded oral formulation is available [10,31]. Intravenous injectable preparations (usually of remdesivir, see below) are now usually reserved for very sick cats.",
+   "zh": "Remdesivir是一种核苷类似物，是GS-441524的前药[41]。它通常价格昂贵。在一些国家，有人用获批制剂以及兽医复方配制产品。欧盟允许将其用于治疗猫FIP[42]。Remdesivir通常经静脉或SC注射给药，但SC给药常伴疼痛（但可能取决于remdesivir制剂），因此当必须使用remdesivir时（例如在治疗开始时），通常经静脉给药[43]（表1a）。为避免疼痛的SC注射，目前更倾向于口服GS-441524治疗FIP。然而，当remdesivir是唯一可用的抗病毒药物，和/或猫无法耐受口服药物时（例如在治疗开始时病情危重伴严重神经系统疾病，或疑似胃肠动力和吸收下降），可能需要注射（静脉）治疗[6,8,9,11,36]。在有合法复方口服制剂的国家，remdesivir也可口服使用[10,31]。静脉注射制剂（通常为remdesivir，见下文）现在通常留给重症猫使用。"
+  },
+  {
+   "section": "2. Antiviral Treatments / 2.3. Molnupiravir",
+   "section_zh": "2. 抗病毒治疗 / 2.3. Molnupiravir（莫努匹韦）",
+   "en": "Molnupiravir (EIDD-2801) is another oral nucleoside analogue prodrug, which is rapidly hydrolysed to EIDD-1931 [44], its active metabolite [45] (Table 1a). It acts differently to remdesivir in that its action (and that of EIDD-1931) induces lethal mutagenesis in the virus [46]. It is licenced in the USA as a human drug, but not in the EU; it can need compounding to enable accurate dosing for cats. It has shown good results as a first-line treatment, effective in 72% [47], 77% [48], 86% [27], and 91% [49] of cats, and as a rescue agent, effective in 86% to 100% [47] of cats after relapse to previous treatment (often GS-441524). Following relapse of 7/56 cats at 9–99 days after discontinuing initially effective first-line molnupiravir, a second course of molnupiravir at a higher dosage successfully induced remission [48].",
+   "zh": "Molnupiravir（EIDD-2801）是另一种口服核苷类似物前药，可迅速水解为EIDD-1931[44]，即其活性代谢物[45]（表1a）。其作用方式与remdesivir不同，它（以及EIDD-1931）的作用是诱导病毒发生致死性突变[46]。它在美国作为人用药获批，但在欧盟未获批；可能需要复方配制才能为猫准确给药。它作为一线治疗显示出良好效果，对72% [47]、77% [48]、86% [27]和91% [49]的猫有效；作为对先前治疗（通常为GS-441524）复发后的挽救药物，对86%至100% [47]的猫有效。在停用最初有效的一线molnupiravir后9–99天有7/56只猫复发，以更高剂量进行的第二疗程molnupiravir成功诱导了缓解[48]。"
+  },
+  {
+   "section": "2. Antiviral Treatments / 2.3. Molnupiravir",
+   "section_zh": "2. 抗病毒治疗 / 2.3. Molnupiravir（莫努匹韦）",
+   "en": "Rules vary in different countries as to whether molnupiravir can be used in cats. It is usually more affordable than GS-441524 or remdesivir. The duration of treatment needed has not been defined but studies have usually described 84-day treatment periods [27,33,44,47,48,49,50]. Care is required for handling of molnupiravir [48,51] due to its mutagenic properties from human studies [46,52].",
+   "zh": "各国关于molnupiravir能否用于猫的规定不一。它通常比GS-441524或remdesivir更便宜。所需疗程尚未确定，但研究通常描述84天的治疗期[27,33,44,47,48,49,50]。由于人类研究显示其具有致突变性[46,52]，处理molnupiravir时需要小心[48,51]。"
+  },
+  {
+   "section": "2. Antiviral Treatments / 2.3. Molnupiravir",
+   "section_zh": "2. 抗病毒治疗 / 2.3. Molnupiravir（莫努匹韦）",
+   "en": "Response to molnupiravir might also be slower than to GS-441524 [47]. Side and adverse effects can be severe (Table 1a), including severe leukopenia at very high dosages [45] and neutropenia [47], but also non-clinically relevant increase in ALT [27,47,48,50], nausea, hypersalivation [48] and vomiting or diarrhoea [49]. The slower response and its potentially severe adverse effects, including mutagenic properties, suggest that other nucleoside analogues, such as GS-441524, should be used in preference, if available and possible.",
+   "zh": "对molnupiravir的反应也可能比对GS-441524慢[47]。副作用和不良反应可能很严重（表1a），包括极高剂量时的严重白细胞减少[45]和中性粒细胞减少[47]，也包括无临床意义的ALT升高[27,47,48,50]、恶心、流涎过多[48]以及呕吐或腹泻[49]。反应较慢及其潜在的严重不良反应（包括致突变性）提示，如果可获得且可行，应优先使用其他核苷类似物，如GS-441524。"
+  },
+  {
+   "section": "2. Antiviral Treatments / 2.4. EIDD-1931",
+   "section_zh": "2. 抗病毒治疗 / 2.4. EIDD-1931",
+   "en": "EIDD-1931 (β-d-N4-hydroxycytidine-NHC), a metabolite of molnupiravir, is also an oral nucleoside analogue that is available in some countries (Table 1a). As for molnupiravir, there are concerns regarding its mutagenicity [46], suggesting that other nucleoside analogues, such as GS-441524, should be used in preference, if available. One study [53] described the use of EIDD-1931 in nine cats (six with effusions), for 84 days in eight cats and 98 days in one cat. All cats responded to treatment although one cat relapsed twice after treatment completion, responding to higher dosages of EIDD-1931 before developing lymphoma, resulting in euthanasia. Response to EIDD-1931 treatment appears to be slower, and adverse effects more common, than to GS-441524 or remdesivir. Side and adverse effects include hyporexia, transient neutropenia, elevated ALT and broken whiskers [53]. EIDD-1931 should probably be reserved for cats that do not respond to GS-441524, although it is more affordable and available in some countries.",
+   "zh": "EIDD-1931（β-d-N4-hydroxycytidine-NHC）是molnupiravir的代谢物，也是一种口服核苷类似物，在一些国家有售（表1a）。与molnupiravir一样，人们担忧其致突变性[46]，提示如果可获得，应优先使用其他核苷类似物，如GS-441524。一项研究[53]描述了在九只猫（六只有渗出液）中使用EIDD-1931，其中八只猫用药84天，一只猫用药98天。所有猫均对治疗有反应，但一只猫在完成治疗后复发两次，对更高剂量的EIDD-1931有反应，之后发生淋巴瘤并被安乐死。与GS-441524或remdesivir相比，对EIDD-1931治疗的反应似乎较慢，不良反应更常见。副作用和不良反应包括食欲减退、一过性中性粒细胞减少、ALT升高和胡须断裂[53]。尽管EIDD-1931在一些国家更便宜且可获得，但可能应留给对GS-441524无反应的猫使用。"
+  },
+  {
+   "section": "2. Antiviral Treatments / 2.5. GC376",
+   "section_zh": "2. 抗病毒治疗 / 2.5. GC376",
+   "en": "GC376 is an injectable protease inhibitor antiviral that has been used alone successfully for the treatment of FIP in one study [54], and in combination with GS-441524 in another study [55] (Table 1b). Dentition adverse effects were reported [54]. No legal preparations are currently available although it is hoped that a cat-licenced product will be available in the future, making this treatment accessible.",
+   "zh": "GC376是一种注射用蛋白酶抑制剂类抗病毒药，一项研究中单独使用成功治疗了FIP[54]，另一项研究中与GS-441524联合使用[55]（表1b）。有牙齿相关不良反应的报告[54]。目前尚无合法制剂，但希望将来能有获准用于猫的产品，使这种治疗得以普及。"
+  },
+  {
+   "section": "2. Antiviral Treatments / 2.6. Nirmatrelvir",
+   "section_zh": "2. 抗病毒治疗 / 2.6. Nirmatrelvir（奈玛特韦）",
+   "en": "Some veterinarians have used the protease inhibitor antiviral oral nirmatrelvir, given with ritonavir (personal communication: Sally Coggins and Richard Malik) (see Table 1b) in refractory cases, as adjunct treatment to a nucleoside analogue [53]. Nirmatrelvir treatment, alongside GS-441524 in six cats and molnupiravir in one cat, and given alone to one cat, was reported in a retrospective study that was focused on treatment outcomes [56]. Dosages varied and all seven cats given it as adjunct treatment survived, whilst the one cat given nirmatrelvir alone died within two weeks of starting treatment. It is usually expensive. More data are required.",
+   "zh": "一些兽医在难治性病例中使用口服蛋白酶抑制剂类抗病毒药nirmatrelvir，与ritonavir（利托那韦）同服（个人通讯：Sally Coggins和Richard Malik）（见表1b），作为核苷类似物的辅助治疗[53]。一项侧重于治疗结局的回顾性研究报告了nirmatrelvir治疗：六只猫与GS-441524联用、一只猫与molnupiravir联用，另一只猫单独使用[56]。剂量各异，所有七只作为辅助治疗用药的猫均存活，而单独使用nirmatrelvir的一只猫在开始治疗后两周内死亡。它通常价格昂贵。需要更多数据。"
+  },
+  {
+   "section": "2. Antiviral Treatments / 2.7. Recombinant Feline Interferon-Omega (rfIFN-ω)",
+   "section_zh": "2. 抗病毒治疗 / 2.7. 重组猫ω干扰素（rfIFN-ω）",
+   "en": "rfIFN-ω is licenced for use in cats (not for the treatment of FIP but for the general supportive treatment of retrovirus-infected cats) in some countries (Table 1b). It is not effective on its own for the treatment of FIP [57], but it has been used following antiviral therapy with GS-441524 to prevent relapse by some [19,34]. However, controlled studies are needed to confirm efficacy of, and need for, rfIFN-ω, as many studies have shown excellent survival following nucleoside analogue (including GS-441524) treatment without follow-up rfIFN-ω [6,8,9,20,22,23,25,29].",
+   "zh": "rfIFN-ω在一些国家获准用于猫（不是用于治疗FIP，而是用于逆转录病毒感染猫的一般支持治疗）（表1b）。单独使用它治疗FIP无效[57]，但有人在GS-441524抗病毒治疗后使用它来预防复发[19,34]。然而，需要对照研究来证实rfIFN-ω的疗效和必要性，因为许多研究表明，在核苷类似物（包括GS-441524）治疗后不使用后续rfIFN-ω也有极佳的生存率[6,8,9,20,22,23,25,29]。"
+  },
+  {
+   "section": "2. Antiviral Treatments / 2.8. Mefloquine",
+   "section_zh": "2. 抗病毒治疗 / 2.8. Mefloquine（甲氟喹）",
+   "en": "Oral mefloquine is an affordable human-licenced anti-malarial treatment that has been tested on healthy cats [58] but no controlled FIP treatment studies exist, although its use is mentioned as adjunct treatment in some studies [47,53,59] (Table 1b). It might maximise effectiveness of antivirals if relapse is suspected, or in cases where other more effective antivirals cannot be used due to cost or availability, but more data are required. It is given with food to avoid vomiting as a side effect.",
+   "zh": "口服mefloquine（甲氟喹）是一种价格低廉的人用获批抗疟药，已在健康猫中进行过测试[58]，但尚无对照的FIP治疗研究，尽管一些研究提到将其用作辅助治疗[47,53,59]（表1b）。在怀疑复发时，或因费用或可获得性无法使用其他更有效的抗病毒药物的情况下，它可能有助于最大限度地提高抗病毒药物的疗效，但需要更多数据。它与食物同服，以避免呕吐这一副作用。"
+  },
+  {
+   "section": "2. Antiviral Treatments / 2.9. Other Antivirals",
+   "section_zh": "2. 抗病毒治疗 / 2.9. 其他抗病毒药物",
+   "en": "Other antiviral agents, such as mesenchymal stem/stromal cells (MSCs), which are currently being investigated and show promise [60,61], exist but are not described in this treatment update.",
+   "zh": "还有其他抗病毒制剂，如间充质干细胞/基质细胞（MSCs），目前正在研究中且显示出前景[60,61]，但本治疗更新中不作描述。"
+  },
+  {
+   "section": "3. Immunomodulatory Treatments",
+   "section_zh": "3. 免疫调节治疗",
+   "en": "Immunomodulatory therapies are no longer considered as sole treatments for FIP as they are ineffective in comparison to the antiviral treatments described earlier. Glucocorticoids are sometimes indicated combined with antivirals and the use of polyprenyl immunostimulant (PI) has been described in a few studies.",
+   "zh": "免疫调节疗法不再被视为FIP的单一治疗，因为与前述抗病毒治疗相比，它们无效。糖皮质激素有时与抗病毒药物联合使用，少数研究描述了多异戊二烯免疫刺激剂（PI）的使用。"
+  },
+  {
+   "section": "3. Immunomodulatory Treatments / 3.1. Glucocorticoids",
+   "section_zh": "3. 免疫调节治疗 / 3.1. 糖皮质激素",
+   "en": "Glucocorticoids can act as anti-inflammatories or immunosuppressants depending on dosage used. The median survival time of FIP cats treated with prednisolone was only eight days in one study [57] and 31 days in cats with suspected effusive FIP [62]. Although it is suggested that glucocorticoid treatment is associated with a poorer FIP outcome when used concurrently with other treatments (e.g., such as rfIFN-ω [19]), glucocorticoid use is helpful alongside antivirals in some situations, e.g., topical steroids for uveitis [34,63], anti-inflammatory prednisolone (1 mg/kg/day) for severe FIP-associated neurological signs [64,65,66] or immunosuppressive prednisolone (1–2 mg/kg/day) for FIP-associated IMHA [66,67], in cases where concurrent haemotropic mycoplasma infection has ideally been ruled out. In one study prednisolone was used in cats with neurological or ocular signs, at a tapering dosage starting at 1 mg/kg q 24 h, terminating before the end of the molnupiravir treatment [48].",
+   "zh": "糖皮质激素根据所用剂量可起抗炎或免疫抑制作用。在一项研究中，用prednisolone治疗的FIP猫中位生存时间仅为八天[57]，在疑似渗出型FIP的猫中为31天[62]。尽管有观点认为糖皮质激素与其他治疗（例如rfIFN-ω[19]）同时使用时FIP结局较差，但在某些情况下与抗病毒药物同时使用糖皮质激素是有益的，例如针对葡萄膜炎局部使用类固醇[34,63]，针对严重的FIP相关神经症状使用抗炎剂量prednisolone（1 mg/kg/day）[64,65,66]，或针对FIP相关IMHA使用免疫抑制剂量prednisolone（1–2 mg/kg/day）[66,67]，理想情况下应先排除并发的血液支原体感染。在一项研究中，对有神经或眼部症状的猫使用prednisolone，从1 mg/kg q 24 h开始逐渐减量，在molnupiravir治疗结束前停药[48]。"
+  },
+  {
+   "section": "3. Immunomodulatory Treatments / 3.2. Polyprenyl Immunostimulant",
+   "section_zh": "3. 免疫调节治疗 / 3.2. 多异戊二烯免疫刺激剂",
+   "en": "PI is an immunostimulant that might be helpful in the treatment of a few cats with FIP without effusions, especially in cats with haematocrit and/or albumin to globulin (A:G) ratios that are normal or that increase with treatment, although response to treatment is slow, over several months (normalisation times are ~182 days for haematocrit and ~375 days for the A:G ratio) [68]. It has been found that concurrent systemic glucocorticoid treatment should be avoided with PI, as this worsens prognosis [63] but topical glucocorticoid treatment can be used with PI in ocular FIP uveitis [63]. Reported dosages are 3 mg/kg PO three times a week or q 48 h [19,63,68,69]. Some cats are changed to a maintenance dosage of 3 mg/kg PO once or twice a week after one year of treatment [65].",
+   "zh": "PI是一种免疫刺激剂，可能有助于治疗少数无渗出液的FIP猫，尤其是红细胞压积和/或白蛋白与球蛋白（A:G）比值正常或随治疗升高的猫，但对治疗的反应缓慢，需数月时间（红细胞压积恢复正常约需182天，A:G比值约需375天）[68]。已发现使用PI时应避免同时进行全身糖皮质激素治疗，因为这会使预后恶化[63]，但在眼部FIP葡萄膜炎中可将局部糖皮质激素治疗与PI联用[63]。报告的剂量为3 mg/kg PO每周三次或q 48 h [19,63,68,69]。一些猫在治疗一年后改为3 mg/kg PO每周一或两次的维持剂量[65]。"
+  },
+  {
+   "section": "3. Immunomodulatory Treatments / 3.3. Other Immunomodulators",
+   "section_zh": "3. 免疫调节治疗 / 3.3. 其他免疫调节剂",
+   "en": "Anti-TNF-α antibody blocks TNF-α that is involved in exacerbating clinical signs of FIP [70,71,72]. Some efficacy of anti-TNF-α antibodies has been reported in small studies of experimental-induced FIP; in one placebo-controlled study [73], and in another uncontrolled study alongside itraconazole treatment [74] in which two of three cats with FIP improved.",
+   "zh": "抗TNF-α抗体可阻断参与加重FIP临床症状的TNF-α[70,71,72]。在实验诱导FIP的小型研究中报告了抗TNF-α抗体的一定疗效：一项为安慰剂对照研究[73]，另一项为联合itraconazole（伊曲康唑）治疗的无对照研究[74]，其中三只FIP猫中有两只改善。"
+  },
+  {
+   "section": "4. Supportive and Concurrent Disease Treatment",
+   "section_zh": "4. 支持治疗与并发疾病治疗",
+   "en": "Veterinary supportive care, which should be prompt and intensive, is particularly important in the recovery of cats that are very sick due to FIP [20,21]. Supportive care treatments are outlined in Table 2. However, veterinary support might not be sought by owners who have obtained antiviral drugs illegally for their cats as veterinarians are unable to advise, obtain or prescribe illegal drugs. It is possible and important for vets to give supportive care to cats in this situation for welfare reasons. Documentation in the medical records to confirm there has been no veterinary involvement in the illegal drug procurement or administration is recommended.",
+   "zh": "兽医支持治疗应及时且强化，对于因FIP而病情危重的猫的康复尤为重要[20,21]。支持治疗概述于表2。然而，非法为猫获取抗病毒药物的主人可能不会寻求兽医支持，因为兽医不能就非法药物提供建议、获取或开具处方。出于动物福利原因，兽医在这种情况下为猫提供支持治疗是可能且重要的。建议在病历中记录，以确认兽医未参与非法药物的获取或给药。"
+  },
+  {
+   "section": "4. Supportive and Concurrent Disease Treatment",
+   "section_zh": "4. 支持治疗与并发疾病治疗",
+   "en": "Stress should be minimised throughout care, adopting feline-friendly techniques [89,90]. Analgesia is important to consider as cats with FIP can be in pain due to their disease, e.g., pleuritis, peritonitis, uveitis, glaucoma, ileus, raised intracranial pressure, meningeal inflammation. Additionally, diagnostic procedures can also elicit pain, e.g., needle or biopsy samples, centesis procedures. Pain scoring should be carried out and appropriate analgesia such as opioids, non-steroidal anti-inflammatory drugs (NSAIDs, if no contraindications) (Table 2) provided [91]. Other supportive care should be provided as needed, e.g., intravenous fluids, appetite stimulants, antiemetics, and blood transfusions [8,92].",
+   "zh": "在整个诊疗过程中应采用猫友好技术，尽量减少应激[89,90]。需要重视镇痛，因为FIP猫可能因疾病而疼痛，例如胸膜炎、腹膜炎、葡萄膜炎、青光眼、肠梗阻、颅内压升高、脑膜炎症。此外，诊断操作也可能引起疼痛，例如针吸或活检取样、穿刺操作。应进行疼痛评分，并提供适当的镇痛，如阿片类药物、非甾体抗炎药（NSAIDs，如无禁忌证）（表2）[91]。应根据需要提供其他支持治疗，例如静脉输液、食欲刺激剂、止吐药和输血[8,92]。"
+  },
+  {
+   "section": "4. Supportive and Concurrent Disease Treatment",
+   "section_zh": "4. 支持治疗与并发疾病治疗",
+   "en": "If a pleural effusion is causing dyspnoea, therapeutic drainage is indicated to provide relief to the cat so that breathing improves; the volume removed will depend upon the volume present and how dyspnoeic the cat is. Therapeutic drainage of ascitic fluid is only indicated if the degree of abdominal effusion is large enough to be compromising respiration, and then only enough to relieve this should be drained.",
+   "zh": "若胸腔积液导致呼吸困难，需进行治疗性引流以缓解症状、改善呼吸；引流量取决于积液量和猫的呼吸困难程度。只有当腹腔积液量大到影响呼吸时才需治疗性引流腹水，且仅引流至足以缓解症状即可。"
+  },
+  {
+   "section": "4. Supportive and Concurrent Disease Treatment",
+   "section_zh": "4. 支持治疗与并发疾病治疗",
+   "en": "Antivirals will help control intraocular uveal inflammation in uveitis [34,63,93] (Figure 1) but other specific topical treatments might be needed, such as prednisolone acetate, NSAIDs and cycloplegics for miosis. Systemic prednisolone treatment has been suggested for its anti-inflammatory effect for severe posterior uveitis or panuveitis [94] but is more commonly given for neurological or immune-mediated disease signs than uveitis [93]. Ocular improvements start within 7 days of treatment and can take several weeks to resolve [93,94]. Of note is that posterior uveitis changes might only become apparent once an anterior uveitis has resolved enough to allow fundic examination [93]. If uveitis is present, it is important to regularly monitor intraocular pressure too.",
+   "zh": "抗病毒药物有助于控制葡萄膜炎中的眼内葡萄膜炎症[34,63,93]（图1），但可能需要其他特异性局部治疗，如prednisolone acetate（醋酸泼尼松龙）、NSAIDs以及针对瞳孔缩小的睫状肌麻痹剂。有人建议对严重后葡萄膜炎或全葡萄膜炎使用全身prednisolone治疗以发挥其抗炎作用[94]，但更常用于神经系统或免疫介导的疾病症状，而非葡萄膜炎[93]。眼部在治疗7天内开始改善，可能需要数周才能消退[93,94]。值得注意的是，后葡萄膜炎的变化可能只有在前葡萄膜炎消退到足以进行眼底检查时才显现[93]。若存在葡萄膜炎，定期监测眼压也很重要。"
+  },
+  {
+   "section": "4. Supportive and Concurrent Disease Treatment",
+   "section_zh": "4. 支持治疗与并发疾病治疗",
+   "en": "If seizures occur in neurological cases of FIP, anti-seizure medication is required [8], such as levetiracetam and/or phenobarbitone [95]. Short-term prednisolone can be beneficial for cats with severe FIP-associated neurological signs in the early days of antiviral treatment [64,66], including hydrocephalus [96].",
+   "zh": "若神经型FIP病例发生癫痫发作，需要抗癫痫药物[8]，如levetiracetam（左乙拉西坦）和/或phenobarbitone（苯巴比妥）[95]。在抗病毒治疗早期，短期使用prednisolone可能对有严重FIP相关神经症状的猫有益[64,66]，包括脑积水[96]。"
+  },
+  {
+   "section": "4. Supportive and Concurrent Disease Treatment",
+   "section_zh": "4. 支持治疗与并发疾病治疗",
+   "en": "In cats that are hypoglycaemic, dextrose supplementation can be indicated [6,97] and hypotension might need to be treated with vasopressors. A viral sepsis could be occurring in very sick cats with severe hypovolaemia, dehydration, hypoglycaemia, persistent hypotension despite fluid resuscitation and when pressor support is not completely effective. More experience with the treatment of such cases is required but they seem to carry a poor prognosis [6,21].",
+   "zh": "对于低血糖的猫，可能需要补充葡萄糖[6,97]，低血压可能需要用血管加压药治疗。在严重低血容量、脱水、低血糖、液体复苏后仍持续低血压且升压支持不完全有效的重症猫中，可能正在发生病毒性脓毒症。治疗此类病例需要更多经验，但其预后似乎较差[6,21]。"
+  },
+  {
+   "section": "4. Supportive and Concurrent Disease Treatment",
+   "section_zh": "4. 支持治疗与并发疾病治疗",
+   "en": "IMHA is now recognised to occur in association with FIP [67] and most of these cats need glucocorticoids despite their FIP responding well to antiviral treatment [11,66,67]. A low prednisolone dosage of 1 mg/kg q 24 h PO can be used, tapering once there has been a response to treatment. Ideally, haemotropic mycoplasma infections should be ruled out too. Blood transfusions [98] might be required [8,21,36,67,99,100] for severe anaemia.",
+   "zh": "现已认识到IMHA可与FIP相关[67]，尽管这些猫的FIP对抗病毒治疗反应良好，但大多数仍需要糖皮质激素[11,66,67]。可使用1 mg/kg q 24 h PO的低剂量prednisolone，一旦对治疗有反应即逐渐减量。理想情况下，也应排除血液支原体感染。严重贫血可能需要[8,21,36,67,99,100]输血[98]。"
+  },
+  {
+   "section": "4. Supportive and Concurrent Disease Treatment",
+   "section_zh": "4. 支持治疗与并发疾病治疗",
+   "en": "Myocarditis associated with FIP, and associated clinical signs, have now been described in several case reports and studies; these cats can respond to combined antivirals such as GS-441524 and appropriate medical treatment for CHF (e.g., furosemide, pimobendan), arrhythmias, and prophylactic antithrombotic treatment [78,101,102]. Completely reversed echocardiographic changes have been reported following effective treatment of the CHF and FIP [78,102].",
+   "zh": "与FIP相关的心肌炎及其临床症状现已在若干病例报告和研究中得到描述；这些猫可对GS-441524等抗病毒药物联合针对CHF（如furosemide、pimobendan）、心律失常的适当药物治疗以及预防性抗血栓治疗产生反应[78,101,102]。已有报告在有效治疗CHF和FIP后超声心动图变化完全逆转[78,102]。"
+  },
+  {
+   "section": "4. Supportive and Concurrent Disease Treatment",
+   "section_zh": "4. 支持治疗与并发疾病治疗",
+   "en": "Concurrent FeLV and/or FIV infection has not affected the response to GS-441524 treatment [5,28,103], nor have feline calicivirus or feline herpesvirus infections [28], chronic inflammatory disease [5] or renal lymphoma [104], although management of those coinfections or diseases is likely to be needed. Of note is that three cats with confirmed FIP from a prospective bicentre study did not respond successfully to GS-441524 treatment; toxoplasma-associated disease was diagnosed at postmortem examination and was considered the likely cause of failure to recover in these cats (personal communication: A.M.S., K.H., R.H.L.).",
+   "zh": "并发FeLV和/或FIV感染未影响对GS-441524治疗的反应[5,28,103]，猫杯状病毒或猫疱疹病毒感染[28]、慢性炎症性疾病[5]或肾淋巴瘤[104]也未影响，但可能需要对这些合并感染或疾病进行管理。值得注意的是，一项前瞻性双中心研究中有三只确诊FIP的猫对GS-441524治疗未获成功；死后剖检诊断为弓形虫相关疾病，并被认为是这些猫未能康复的可能原因（个人通讯：A.M.S., K.H., R.H.L.）。"
+  },
+  {
+   "section": "5. Prognosis for Antiviral Treatment Response",
+   "section_zh": "5. 抗病毒治疗反应的预后",
+   "en": "Prognostic indicators for response to antivirals are beginning to emerge from studies now that we have effective treatment protocols for FIP.",
+   "zh": "既然已有有效的FIP治疗方案，研究中开始出现抗病毒治疗反应的预后指标。"
+  },
+  {
+   "section": "5. Prognosis for Antiviral Treatment Response",
+   "section_zh": "5. 抗病毒治疗反应的预后",
+   "en": "Negative prognostic indicators, i.e., least likely to survive with treatment, include: high bilirubin [11,23,25,48], elevated lactate dehydrogenase (LDH) activity [26,36,56], sepsis [36], hypoglycaemia [6], jaundice, fever, anaemia and thrombocytopenia [5], higher FCoV nucleocapsid (N) gene RT-PCR loads in abdominal effusion and blood samples [56].",
+   "zh": "不良预后指标（即治疗后最不可能存活）包括：高胆红素[11,23,25,48]、乳酸脱氢酶（LDH）活性升高[26,36,56]、脓毒症[36]、低血糖[6]、黄疸、发热、贫血和血小板减少[5]，以及腹腔积液和血液样本中较高的FCoV核衣壳（N）基因RT-PCR载量[56]。"
+  },
+  {
+   "section": "5. Prognosis for Antiviral Treatment Response",
+   "section_zh": "5. 抗病毒治疗反应的预后",
+   "en": "Positive prognostic indicators, i.e., most likely to survive with treatment include: survival for at least 48 h following commencement of antiviral treatment [31] (in one study, 96% of cats that survived 48 h recovered [9]), normalisation of AGP [19], lower bilirubin concentration [23,25] and higher A:G ratio, albumin, α1-, α2- and β-globulin concentrations measured with serum protein electrophoresis (SPE) [56]. A negative blood FCoV N gene RNA RT-qPCR result after two weeks of treatment was also defined as a positive prognostic indicator [56], although this criterion was set as the differentiator for classifying response to treatment, and cats still FCoV N gene RNA PCR-positive after two weeks of treatment had a successful treatment outcome.",
+   "zh": "良好预后指标（即治疗后最可能存活）包括：开始抗病毒治疗后存活至少48 h [31]（在一项研究中，存活48 h的猫有96%康复[9]）、AGP恢复正常[19]、较低的胆红素浓度[23,25]，以及血清蛋白电泳（SPE）测得的较高A:G比值、白蛋白、α1-、α2-和β-球蛋白浓度[56]。治疗两周后血液FCoV N基因RNA RT-qPCR结果阴性也被定义为良好预后指标[56]，但这一标准是作为划分治疗反应的区分依据而设定的，治疗两周后FCoV N基因RNA PCR仍为阳性的猫也获得了成功的治疗结局。"
+  },
+  {
+   "section": "6. Treatment Monitoring",
+   "section_zh": "6. 治疗监测",
+   "en": "Monitoring of treatment has mostly been described in cats receiving GS-441524, but the principles apply to other antiviral treatments. Weight gain is a simple measure of treatment efficacy and easy for caregivers to perform at home every one to two weeks using paediatric weighing scales [22,23,25,26,33]. Regular weighing importantly also allows for an increased dose to be calculated to maintain the appropriate dosage despite weight gain in the kitten/cat during recovery [9].",
+   "zh": "治疗监测大多是在接受GS-441524的猫中描述的，但其原则也适用于其他抗病毒治疗。体重增加是衡量治疗效果的简单指标，照护者在家使用婴儿秤每一至两周即可轻松测量[22,23,25,26,33]。重要的是，定期称重还可在幼猫/猫康复期间体重增加时计算增加的给药量，以维持适当的剂量[9]。"
+  },
+  {
+   "section": "6. Treatment Monitoring",
+   "section_zh": "6. 治疗监测",
+   "en": "In some cats with FIP and effusions, a pattern of a drop in body weight, a serum globulin concentration upward spike and PCV drop occurs when an effusion is resorbed two weeks into treatment, and this does not indicate treatment failure [9]. Weight loss during the first two weeks of effective treatment has been reported in 21% of cats, interestingly with no difference between cats with or without effusions, although a worsening hyperglobulinaemia in effusive cases was reported [11].",
+   "zh": "在一些伴有渗出液的FIP猫中，治疗两周时渗出液被吸收，会出现体重下降、血清球蛋白浓度骤升和PCV下降的模式，这并不表示治疗失败[9]。据报道，21%的猫在有效治疗的前两周内体重下降，有趣的是，有渗出液和无渗出液的猫之间无差异，但渗出型病例的高球蛋白血症加重[11]。"
+  },
+  {
+   "section": "6. Treatment Monitoring",
+   "section_zh": "6. 治疗监测",
+   "en": "Following resolution of fever and marked improvement of clinical signs, usually within a few days, hyperbilirubinaemia usually resolves quickly, followed by resolution of the effusion (if present, this often resolves within two weeks [56]), then an improvement in haematocrit and increasing A:G ratio. The hyperglobulinaemia can take longer— up to a few weeks—to normalise [8,19]. Cats given molnupiravir treatment can take longer to respond than cats given GS-441524 or remdesivir [47].",
+   "zh": "在发热消退且临床症状明显改善（通常在数天内）后，高胆红素血症通常迅速消退，随后渗出液消退（如有，通常在两周内消退[56]），然后红细胞压积改善、A:G比值升高。高球蛋白血症可能需要更长时间——长达数周——才能恢复正常[8,19]。与接受GS-441524或remdesivir的猫相比，接受molnupiravir治疗的猫可能需要更长时间才出现反应[47]。"
+  },
+  {
+   "section": "6. Treatment Monitoring",
+   "section_zh": "6. 治疗监测",
+   "en": "If the cat is not hospitalised for supportive care, it is important to obtain a verbal report of progress and ease of medicating the cat from the cat’s caregiver after 48 h of treatment is important as it is essential that antiviral administration is effective. After 2 weeks, any effusions should be reviewed (in-house ultrasound scanning, or abdominal girth measurement as an alternative for abdominal effusion monitoring); if the amount of effusion has not substantially decreased by two weeks, increasing the dosage of the antiviral should be considered (e.g., GS-441524 by 5 mg/kg/day if possible) and/or the diagnosis and differential diagnoses reviewed and/or the formulation of antiviral being used verified. Ideally, haematology and serum biochemistry are repeated after two weeks and then monthly if funds allow, although a minimum is to document normalisation of variables (although mild lymphocytosis and hyperglobulinaemia may still be present after 42 days of treatment) before stopping treatment. Laboratory testing can also be done at a lower cost by measuring only key variables in-house, e.g., total protein/albumin/globulin, bilirubin and/or spinning a microhaematocrit tube for packed cell volume/total proteins/colour of plasma.",
+   "zh": "如果猫未住院接受支持治疗，在治疗48 h后从照护者处获得关于病情进展和给药难易程度的口头报告很重要，因为确保抗病毒药物有效给予至关重要。2周后，应复查所有渗出液（院内超声扫描，或以测量腹围作为监测腹腔积液的替代方法）；若到两周时渗出液量未明显减少，应考虑增加抗病毒药物剂量（例如如可能，GS-441524增加5 mg/kg/day），和/或重新审视诊断和鉴别诊断，和/或核实所用抗病毒药物的制剂。理想情况下，两周后复查血液学和血清生化，之后若经费允许每月复查一次，但至少应在停药前记录各项指标恢复正常（尽管治疗42天后可能仍存在轻度淋巴细胞增多和高球蛋白血症）。也可以通过在院内仅测量关键指标来降低实验室检测费用，例如总蛋白/白蛋白/球蛋白、胆红素和/或离心微量红细胞压积管测定红细胞压积/总蛋白/血浆颜色。"
+  },
+  {
+   "section": "6. Treatment Monitoring",
+   "section_zh": "6. 治疗监测",
+   "en": "AGP concentrations can increase in the first two days of oral GS-441524 treatment before decreasing thereafter [77]. Concentrations of SAA also decrease with effective GS-441524 treatment, even more rapidly than the AGP concentrations (due to the shorter half-life of SAA), mostly reaching normal values by seven days of treatment [77]. Two consecutively normal AGP measurements, at least a week or two apart, might confirm recovery from FIP [19] and be helpful to guide when treatment can be stopped; this can be especially useful now that 42-day treatment courses of GS-441524 are being used. Studies have shown that AGP concentrations decrease continuously after two days of oral GS-441524 treatment, being significantly reduced on day 7 compared to day 1 and usually normalising by days 14–28 of treatment [77].",
+   "zh": "在口服GS-441524治疗的前两天，AGP浓度可能升高，之后下降[77]。有效的GS-441524治疗后SAA浓度也下降，甚至比AGP浓度下降更快（因为SAA半衰期较短），大多在治疗七天时达到正常值[77]。两次连续正常的AGP测量（间隔至少一到两周）可确认FIP康复[19]，并有助于指导何时可以停药；鉴于现在使用42天的GS-441524疗程，这一点尤其有用。研究表明，口服GS-441524治疗两天后AGP浓度持续下降，第7天与第1天相比显著降低，通常在治疗第14–28天恢复正常[77]。"
+  },
+  {
+   "section": "6. Treatment Monitoring",
+   "section_zh": "6. 治疗监测",
+   "en": "Clearance of blood FCoV N gene RNA, tested by RT-qPCR, by the second week of treatment was classified as a favourable treatment response in one study; however, cats that were still RT-qPCR-positive in blood by this time also had a successful outcome [56]. FCoV antibody levels are not useful to track response to treatment. Residual abdominal lymphadenomegaly has been reported following effective GS-441524 treatment [5,32,108], as well as a mild lymphocytosis [108], but these do not signify FIP relapse. Residual neurological signs [64,95] are sometimes reported following GS-441524 treatment, but often these signs are static and not associated with FIP relapse. One study [96] described central vestibular signs in three cats that had been successfully treated with GS-441524 over a year before; MRI showed progressive hydrocephalus and no evidence of active FIP was found; these cats were treated with ventriculoperitoneal shunts, and this progressive hydrocephalus might represent post-inflammatory lesions (akin to ‘long COVID-19 syndrome’) beyond viral clearance.",
+   "zh": "在一项研究中，治疗第二周时经RT-qPCR检测的血液FCoV N基因RNA清除被归类为良好的治疗反应；然而，此时血液RT-qPCR仍为阳性的猫也获得了成功结局[56]。FCoV抗体水平对追踪治疗反应无用。有效的GS-441524治疗后有残留腹腔淋巴结肿大[5,32,108]以及轻度淋巴细胞增多[108]的报告，但这些并不意味着FIP复发。GS-441524治疗后有时报告残留神经症状[64,95]，但这些症状通常是静止的，与FIP复发无关。一项研究[96]描述了三只在一年多以前经GS-441524成功治疗的猫出现中枢性前庭症状；MRI显示进行性脑积水，未发现活动性FIP的证据；这些猫接受了脑室腹腔分流术治疗，这种进行性脑积水可能代表病毒清除后的炎症后病变（类似于“长期COVID-19综合征”）。"
+  },
+  {
+   "section": "7. Preventative Healthcare",
+   "section_zh": "7. 预防保健",
+   "en": "In cats in which vaccination and neutering were deemed necessary, both have been performed during, or following, successful treatment of FIP with nucleoside analogues [8,9] without relapse of FIP. However, whether FIP affects vaccine efficacy has not been studied. Individual risk assessments should inform which vaccines are required [109,110,111,112]. Feline-friendly approaches and handling are recommended to minimise stress [89,90], including appropriate analgesia for neutering, gabapentin or pregabalin to reduce stress associated with clinic visits if needed, etc. Some veterinarians advise continuing antiviral treatment for two to four weeks after neutering surgery to ensure antiviral activity is there during a potential period of stress and recovery from surgery [103]. Parasiticide treatments have been administered to cats during and after treatment without problems or concerns regarding efficacy, although published studies are lacking.",
+   "zh": "在认为有必要进行疫苗接种和绝育的猫中，两者均已在核苷类似物成功治疗FIP期间或之后进行[8,9]，且未出现FIP复发。然而，FIP是否影响疫苗效力尚未研究。应根据个体风险评估决定需要接种哪些疫苗[109,110,111,112]。建议采用猫友好的方法和保定以尽量减少应激[89,90]，包括绝育时适当镇痛，必要时使用gabapentin（加巴喷丁）或pregabalin（普瑞巴林）以减轻与就诊相关的应激等。一些兽医建议在绝育手术后继续抗病毒治疗两到四周，以确保在可能的应激期和术后恢复期内维持抗病毒活性[103]。在治疗期间和治疗后对猫使用驱虫药未出现问题，也无疗效方面的担忧，但缺乏已发表的研究。"
+  },
+  {
+   "section": "8. Conclusions",
+   "section_zh": "8. 结论",
+   "en": "Oral GS-441524 is the most extensively used antiviral for FIP with treatment success rates often exceeding 90% with prompt treatment. Intravenous remdesivir is primarily used in severely affected cats unable to tolerate oral GS-441524 medication, until they are well enough to receive oral medication. In some countries, molnupiravir is readily available and used, although response to treatment may be slower compared to GS-441524. More common adverse effects, including its mutagenic properties, suggest that other nucleoside analogues, such as GS-441524, should be used in preference to molnupiravir, if available. Although 84-day treatment courses have been used historically, shorter protocols of 42 days can be equally effective. Supportive treatments, e.g., analgesia, antiemetics, seizure medications, are important, as well as the rapid treatment of concurrent diseases, e.g., myocarditis, IMHA.",
+   "zh": "口服GS-441524是FIP使用最广泛的抗病毒药物，及时治疗的成功率常超过90%。静脉注射remdesivir主要用于无法耐受口服GS-441524的重症猫，直至其状况好转到可以接受口服药物。在一些国家，molnupiravir容易获得并被使用，但与GS-441524相比，对治疗的反应可能较慢。更常见的不良反应（包括其致突变性）提示，如果可获得，应优先使用GS-441524等其他核苷类似物而非molnupiravir。尽管过去一直采用84天疗程，但42天的较短方案同样有效。支持治疗（例如镇痛、止吐药、抗癫痫药）很重要，迅速治疗并发疾病（例如心肌炎、IMHA）也很重要。"
+  },
+  {
+   "section": "Acknowledgments",
+   "section_zh": "致谢",
+   "en": "The authors would like to thank colleagues worldwide who have provided valuable information that has helped guide the evolution of treatment protocols for FIP over recent years. We thank Johanna Covell-Ritchie for photographs.",
+   "zh": "作者感谢全球同行提供的宝贵信息，这些信息帮助指导了近年来FIP治疗方案的发展。我们感谢Johanna Covell-Ritchie提供照片。"
+  },
+  {
+   "section": "Author Contributions",
+   "section_zh": "作者贡献",
+   "en": "All authors contributed to the discussions and preparation of the ABCD guideline on which this review article was based. All authors have read and agreed to the published version of the manuscript.",
+   "zh": "所有作者均参与了本综述所依据的ABCD指南的讨论和撰写。所有作者均已阅读并同意稿件的发表版本。"
+  },
+  {
+   "section": "Conflicts of Interest",
+   "section_zh": "利益冲突",
+   "en": "The authors are members of the European Advisory Board on Cat Diseases (ABCD), a scientifically independent board of experts in feline medicine. Some individual authors have been consultants for, or have received research funding and honoraria from, animal health companies and other organisations, but all authors declare no conflicts of interest for the writing of this independent review. The ABCD sponsors had no role in the writing nor in the decision to publish this review.",
+   "zh": "作者均为欧洲猫病咨询委员会（ABCD）成员，这是一个由猫医学专家组成的科学独立委员会。部分作者曾担任动物保健公司及其他组织的顾问，或从其获得研究资助和酬金，但所有作者声明撰写本独立综述不存在利益冲突。ABCD的赞助方在本综述的撰写和发表决定中均未发挥作用。"
+  },
+  {
+   "section": "Funding Statement",
+   "section_zh": "资助声明",
+   "en": "The European ABCD gratefully acknowledges the support of Boehringer Ingelheim (the founding sponsor of the ABCD), MSD Animal Health, Vetoquinol and Virbac.",
+   "zh": "欧洲ABCD衷心感谢Boehringer Ingelheim（ABCD的创始赞助方）、MSD Animal Health、Vetoquinol和Virbac的支持。"
+  },
+  {
+   "section": "Figure legend",
+   "section_zh": "图注",
+   "en": "Figure 1 Right eye of a two-year-old male neutered Norwegian Forest cat with uveitis and keratic precipitates due to FIP prior to treatment (a), and following 7 weeks of oral GS-441524 and 2 weeks of topical prednisolone treatment (b). The full case report was published in 2020 [34]. Images courtesy of Mrs Johanna Covell-Ritchie.",
+   "zh": "图1 一只两岁已去势雄性挪威森林猫因FIP导致葡萄膜炎和角膜后沉着物的右眼，治疗前（a），以及口服GS-441524 7周并局部使用prednisolone治疗2周后（b）。完整病例报告发表于2020年[34]。图片由Johanna Covell-Ritchie女士提供。"
+  },
+  {
+   "section": "Table caption",
+   "section_zh": "表题",
+   "en": "Table 1 Antiviral drugs for FIP treatment. ALT indicates alanine aminotransferase, IV indicates intravenously, PO indicates orally, rfIFN-ω indicates recombinant feline interferon-omega, SC indicates subcutaneously. (a) Nucleoside analogue antivirals; (b) Non-nucleoside analogue antivirals. Note: Text in bold is to highlight charactertistics or usage of the described antivirals, to allow for easier visual use of the table. For all antiviral treatments, it is important to ensure the dose given to the cat preserves appropriate dosage if/when weight gain occurs because of recovery, e.g., in growing kittens and adults that have had weight loss. If the dose is not adjusted, underdosage occurs, which can be associated with disease relapse [9]. Accurate weight recording is also important to monitor response to treatment [22]. It is also important to note that unregulated antivirals are of unknown composition and concentration of active ingredient, making interpretation of ‘given’ doses difficult [14,15]. Alongside antiviral treatment, individualised analgesia and supportive care are essential for successful treatment of FIP; for further details on supportive treatment see text and Table 2.",
+   "zh": "表1 用于治疗FIP的抗病毒药物。ALT表示丙氨酸氨基转移酶，IV表示静脉给药，PO表示口服，rfIFN-ω表示重组猫ω干扰素，SC表示皮下给药。(a) 核苷类似物抗病毒药；(b) 非核苷类似物抗病毒药。注：粗体文字用于突出所述抗病毒药物的特点或用法，便于直观使用本表。对于所有抗病毒治疗，重要的是确保在因康复而体重增加时（例如生长中的幼猫和曾有体重减轻的成年猫），给予猫的剂量仍保持适当的剂量水平。若不调整给药量，就会出现剂量不足，这可能与疾病复发相关[9]。准确记录体重对于监测治疗反应也很重要[22]。还需注意，未经监管的抗病毒药物的成分和活性成分浓度未知，使得对“所给”剂量的解读变得困难[14,15]。除抗病毒治疗外，个体化镇痛和支持治疗对FIP的成功治疗至关重要；支持治疗的更多详情见正文和表2。"
+  },
+  {
+   "section": "Table caption",
+   "section_zh": "表题",
+   "en": "Table 2 Supportive treatments that have been used in cats with FIP. Text in bold is to highlight charactertistics or usage of the described antivirals, to allow for easier visual use of the table. NSAID indicates non-steroidal anti-inflammatory drug, SC indicates subcutaneously, PO indicates orally, CRI indicates constant rate infusion. Alongside antiviral treatment, individualised analgesia and supportive care are essential for successful treatment of FIP.",
+   "zh": "表2 已用于FIP猫的支持治疗。粗体文字用于突出所述抗病毒药物的特点或用法，便于直观使用本表。NSAID表示非甾体抗炎药，SC表示皮下给药，PO表示口服，CRI表示恒速输注。除抗病毒治疗外，个体化镇痛和支持治疗对FIP的成功治疗至关重要。"
+  }
+ ]
+}
