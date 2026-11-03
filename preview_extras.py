@@ -68,6 +68,10 @@ def top_block(get,card):
             if p:
                 c=card(p,'')
                 rs=it.get('reason') if isinstance(it,dict) else ''
+                sb=str(it.get('superseded_by') or '') if isinstance(it,dict) else ''
+                q=get(sb) if sb else None
+                if q: c=c.replace('</article>',f'<p class="note"><a class="tag2" href="papers/{E_(q["sid"])}/">已有更新版 →</a></p></article>',1)
+                elif sb: c=c.replace('</article>',f'<p class="note"><a class="tag2" href="https://pubmed.ncbi.nlm.nih.gov/{E_(sb)}/">已有更新版 →</a></p></article>',1)
                 if rs: c=c.replace('</article>',f'<p class="note">推荐理由：{E_(rs)}</p></article>',1)
                 cards+=c
         if cards: out+=f'<h3 class="dg">{E_(g.get("topic_zh") or g.get("name_zh") or g.get("topic") or "")}</h3>'+cards

@@ -122,12 +122,13 @@
    "identity_check": "标题出现在全文",
    "design_category": "实验/基础研究",
    "cebm_question": "—",
-   "cebm_level_v6": "4",
-   "cebm_basis": "OCEBM 2011：病例对照研究（遗传关联）",
+   "cebm_level_v6": "不适用（基础研究，无临床问题）",
+   "cebm_basis": "grading_method.md §1：无临床问题的基础研究标“不适用”（遗传关联/人格问卷研究，cebm_question 为“—”）",
    "changed_level": false,
    "rob_tool": "无（仅 STREGA 报告规范）",
    "rob_judgement": "未评",
-   "note": "Level 4 不变，未改。张力：cebm_question 为 \"—\"，§1 规定无临床问题的基础研究应标“不适用”，与现值 4 不一致，待裁定。全文身份核对通过。"
+   "note": "Level 4 不变，未改。张力：cebm_question 为 \"—\"，§1 规定无临床问题的基础研究应标“不适用”，与现值 4 不一致，待裁定。全文身份核对通过。",
+   "synced_to_seed": "2026-11-03"
   },
   "34758043": {
    "title": "Socio-spatial cognition in cats: Mentally mapping owner's location from voice.",
@@ -165,11 +166,12 @@
    "design_category": "队列研究",
    "cebm_question": "预后",
    "cebm_level_v6": "3",
-   "cebm_basis": "OCEBM 2011 预后：按设计定级，不上调/下调（全文：\"For each of 12 breeds, groups of dogs aged between 6.5 and 8.5 years were identified as being in “overweight” or “normal” body condition.\"；全文 Abstract Methods（作者自称 \"Retrospective case‐control study\"，但按暴露分组后比较寿命，按 Hartling 依方法判为回顾性队列））",
+   "cebm_basis": "OCEBM 2011 预后：Level 3，按设计定级，不上调/下调。设计按方法判定：按暴露（体况）分组后比较寿命=回顾性队列；作者自称病例对照研究（全文：\"Retrospective case‐control study\"）。全文：\"For each of 12 breeds, groups of dogs aged between 6.5 and 8.5 years were identified as being in “overweight” or “normal” body condition.\"（Abstract Methods）",
    "changed_level": false,
    "rob_tool": "QUIPS",
    "rob_judgement": "未评（仅摘要）",
-   "note": "Level 3 不变。注意作者自称 retrospective case-control；按暴露（体况）分组比较寿命，依 Hartling 方法判为回顾性队列。若改依作者标签则为 Level 4，留待复核。需 QUIPS。"
+   "note": "Level 3 不变。注意作者自称 retrospective case-control；按暴露（体况）分组比较寿命，依 Hartling 方法判为回顾性队列。若改依作者标签则为 Level 4，留待复核。需 QUIPS。",
+   "synced_to_seed": "2026-11-03"
   },
   "28460795": {
    "title": "Obesity and Associated Comorbidities in People and Companion Animals: A One Health Perspective.",
