@@ -50,6 +50,8 @@ for r in json.load(open(os.path.join(ROOT,'data','v5','speedread_fields_v5.json'
     for k in ('title_zh','one_line_conclusion_zh','confidence_sentence','why_it_matters'):
         p[k]=STRIP(r.get(k) or '')
     p['key_results']=r.get('key_results') or []
+    if has(r.get('clinical_meaning')): p['clinical_meaning']=STRIP(r['clinical_meaning'])
+    if isinstance(r.get('key_results_top3'),list): p['key_results_top3']=r['key_results_top3']
 for r in json.load(open(os.path.join(ROOT,'data','v5','appraisal_papers.json'),encoding='utf-8')):
     p=matcher(r)
     if not p: MERGE['ap_un'].append(r.get('pmid') or r.get('id')); continue
@@ -58,6 +60,7 @@ for r in json.load(open(os.path.join(ROOT,'data','v5','appraisal_papers.json'),e
     p['appraisal_note']=r.get('appraisal_note') or ''
     for k in ('funder','study_card','cebm_basis'):
         if r.get(k) and not p.get(k): p[k]=r[k]
+    if r.get('cebm_basis') and 'cebm_fill' in str(r['cebm_basis']) and str(r.get('cebm_level'))!=str(p.get('cebm_level')): p['cebm_level']=r['cebm_level']; p['cebm_basis']=r['cebm_basis']  # source corrected by Vibe
     for k in ('rob_judgement','rob_rationale'): p.pop(k,None)
 MERGE['pg']=0; MERGE['pg_un']=[]
 for k,r in json.load(open(os.path.join(ROOT,'data','v5','pages38_fields.json'),encoding='utf-8')).items():
@@ -212,6 +215,27 @@ def badges(p):
     if has(n) and len(str(n))<=14: b.append(('',f'n={n}'))
     if level(p).startswith('Level'): b.append(('lv','CEBM '+level(p)))
     return '<p class="bd">'+''.join(f'<span class="b {c}">{E_(str(t))}</span>' for c,t in b if t)+'</p>'
+SHOW_CERTAINTY=os.environ.get('SHOW_CERTAINTY','false').lower() in ('1','true','yes')
+_CJ=os.path.join(ROOT,'data','v5','certainty.json')
+CERT=json.load(open(_CJ,encoding='utf-8')).get('papers',{}) if os.path.exists(_CJ) else {}
+CVALS=('高','中','低','极低','待评定','不适用')
+def grade(p):
+    """Certainty from deep extract's certainty.json (no computation here). Returns (chip_text, fold_html)."""
+    r=CERT.get(str(p.get('pmid') or '')) or CERT.get(str(p.get('sid') or '')) or CERT.get(str(p.get('sid') or '').replace('pmid-',''))
+    if not r: return '证据确定性：待评定','<p class="note">证据确定性：待评定</p>'
+    c=r.get('certainty')
+    if p.get('design_category')=='指南/共识' or (c is None and r.get('guideline_strength') is not None):
+        st=str(r.get('guideline_strength') or '').strip()
+        t=('指南推荐强度：'+(st if len(st)<=30 else st[:30]+'…')) if st and st not in ('该指南未分级','摘要未提及') else '指南（见推荐强度）'
+    else:
+        c=c if c in CVALS else ('不适用' if c is None and r.get('start') is None else '待评定')
+        t='证据确定性：'+c
+    rows=[('起始等级',(r.get('start') or '—')+(f'（{r["start_basis"]}）' if r.get('start_basis') else ''))]+[('降一级',d.get('reason_zh','') if isinstance(d,dict) else str(d)) for d in r.get('downgrades') or []]+([('说明',r['notes_zh'])] if r.get('notes_zh') else [])+[('结果',t)]
+    h='<table class="kv">'+''.join(f'<tr><th>{k}</th><td>{E_(clean(v))}</td></tr>' for k,v in rows)+'</table>'
+    return t,h
+def chip(p,href):
+    if not SHOW_CERTAINTY: return ''
+    t,_=grade(p); return f'<a class="echip" href="{href}">{E_(t)}</a>'
 def title_html(p,tag='h3',href=None):
     main=p.get('title_zh') or p.get('one_line_conclusion_zh')
     t=E_(clean(main)) if main else f'<span lang="en">{E_(p["title"])}</span>'
@@ -222,7 +246,7 @@ def card(p,r):
     href=f'{r}papers/{p["sid"]}/'
     bl=f'<p class="bl"><span class="eb">一句话结论</span>{E_(clean(p["one_line_conclusion_zh"]))}</p>' if p.get('title_zh') and p.get('one_line_conclusion_zh') else ''
     lab=' · '.join(x for x in [' / '.join(specs(p)),species(p)] if x)
-    return f'''<article class="card"><p class="eb">{E_(lab)}</p>{title_html(p,'h3',href)}{bl}{badges(p)}<p class="ft"><span><em>{E_(p.get("journal",""))}</em> · {E_(str(p.get("year","")))}</span><a class="go" href="{href}">阅读速读 →</a></p></article>'''
+    return f'''<article class="card"><p class="eb">{E_(lab)}</p>{title_html(p,'h3',href)}{bl}{('<p class="bd">'+chip(p,href+'#evidence')+'</p>') if SHOW_CERTAINTY else ''}<p class="ft"><span><em>{E_(p.get("journal",""))}</em> · {E_(str(p.get("year","")))}</span><a class="go" href="{href}">阅读速读 →</a></p></article>'''
 def row(p,r):
     t=clean(p.get('title_zh') or p.get('one_line_conclusion_zh') or p['title'])
     return f'<li><a href="{r}papers/{p["sid"]}/">{E_(t)}</a><span class="m">{E_(p.get("first_author",""))} {E_(str(p.get("year","")))} · {E_(p.get("design_category") or "")}</span></li>'
@@ -278,12 +302,12 @@ REAL=lambda t: bool(t.get('bottom_line')) and t.get('bottom_line_clinical') is T
 def topic_page(t):
     ps=tpapers(t); r='../../'
     crumb=f'<p class="crumb"><a href="{r}topics/">专题</a>'+(f' › <a href="{r}topics/{t["parent"]}/">{E_(TBY[t["parent"]]["name_zh"])}</a>' if t.get('parent') else '')+'</p>'
-    bl=f'<section class="bottom"><p class="eb red">一句话结论 · <a href="{CA(2)}">单人草稿·尚无临床兽医审阅</a></p><p>{E_(clean(t["bottom_line"]))}</p></section>' if REAL(t) else ''
+    bl=f'<section class="bottom"><p class="eb red">一句话结论</p><p>{E_(clean(t["bottom_line"]))}</p><details class="sub"><summary>证据与方法</summary><p class="note"><a href="{CA(2)}">单人草稿·尚无临床兽医审阅</a></p></details></section>' if REAL(t) else ''
     core=[(get(c['id']),c.get('reason')) for c in (t.get('core') or [])]
     if not t.get('core') and not t.get('all_ids'):
         core=[(p,None) for p in sorted(ps,key=lambda p:p.get('importance_rank') or 999)[:8]]
     core=[(p,why) for p,why in core if p]
-    cs=''.join(card(p,r).replace('<p class="bd">',f'<p class="why">入选：{E_(clean(why))}</p><p class="bd">',1) if why else card(p,r) for p,why in core)
+    cs=''.join(card(p,r).replace('<p class="ft">',f'<p class="why">入选：{E_(clean(why))}</p><p class="ft">',1) if why else card(p,r) for p,why in core)
     newest=[get(i['id'] if isinstance(i,dict) else i) for i in (t.get('newest') or [])] or sorted(ps,key=lambda p:p.get('pub_date') or '',reverse=True)[:5]
     ks=[k for k in VIS if k.get('parent')==t['id']]
     sub=f'<section><h2 class="sec"><span>//</span> 子专题</h2>'+''.join(f'<a class="chip" href="{r}topics/{k["id"]}/">{E_(k["name_zh"])} <b>{len(tpapers(k))}</b></a>' for k in ks)+'</section>' if ks else ''
@@ -346,13 +370,13 @@ def paper(p):
     r='../../'; S=sections(p)
     head=f'''<p class="crumb"><a href="{r}library/">文献库</a>{"".join(f' › <a href="{r}topics/{t}/">{E_(TBY[t]["name_zh"])}</a>' for t in (p.get("topics") or [])[:1] if t in TBY and t in [v["id"] for v in VIS])}</p>
 <p class="eb">{E_(" / ".join(specs(p)))} · {E_(species(p))}</p>{title_html(p,'h1')}
-<p class="meta">{E_(p.get("first_author",""))} 等 · <em>{E_(p.get("journal",""))}</em> · {E_(p.get("pub_date") or str(p.get("year","")))}{f' · <a href="https://doi.org/{E_(p["doi"])}">DOI</a>' if p.get('doi') else ''}{f' · <a href="https://pubmed.ncbi.nlm.nih.gov/{p["pmid"]}/">PubMed</a>' if p.get('pmid') else ''}{f' · <a href="https://europepmc.org/article/PMC/{p["pmcid"]}">全文</a>' if p.get('pmcid') else ''}</p>{badges(p)}
+<p class="meta">{E_(p.get("first_author",""))} 等 · <em>{E_(p.get("journal",""))}</em> · {E_(p.get("pub_date") or str(p.get("year","")))}{f' · <a href="https://doi.org/{E_(p["doi"])}">DOI</a>' if p.get('doi') else ''}{f' · <a href="https://pubmed.ncbi.nlm.nih.gov/{p["pmid"]}/">PubMed</a>' if p.get('pmid') else ''}{f' · <a href="https://europepmc.org/article/PMC/{p["pmcid"]}">全文</a>' if p.get('pmcid') else ''}</p>
 <p>{"".join(f'<a class="chip" href="{r}topics/{t}/">{E_(TBY[t]["name_zh"])}</a>' for t in (p.get("topics") or []) if t in TBY and TBY[t] in VIS)}</p>'''
     blk=lambda n,t,c: f'<section class="blk"><h2 class="sec"><span>{n}</span> {t}</h2>{c}</section>' if c else ''
     exp=(p.get('population_type') or 'natural') in ('experimental','mixed')
     conf=f'<p class="note">{E_(clean(p["confidence_sentence"]))}</p>' if has(p.get('confidence_sentence')) else ''
     why=f'<p class="why2">{E_(clean(p["why_it_matters"]))}</p>' if has(p.get('why_it_matters')) else ''
-    concl=f'<section class="bottom"><p class="eb red">一句话结论</p><p>{E_(clean(p["one_line_conclusion_zh"]))}</p>{conf}</section>{why}' if has(p.get('one_line_conclusion_zh')) else ''
+    concl=f'<section class="bottom"><p class="eb red">一句话结论</p><p>{E_(clean(p["one_line_conclusion_zh"]))}</p></section>' if has(p.get('one_line_conclusion_zh')) else ''
     sc=p.get('study_card') or {}
     pico=sec_get(S,'PICO')
     if pico: pico=mdc(re.sub(r'^\|\s*资助.*$','',pico,flags=re.M))
@@ -445,29 +469,56 @@ def paper(p):
         pico=re.sub(r'(<th>纳入 n / 分析 n</th><td>.*?)(</td>)',lambda m:m.group(1)+_t+m.group(2),pico or '',count=1)
     if exp: order=[('研究对象',pico if popt else ''),('动物来源与实验处理',None),('关键数字',kr),('证据等级与偏倚风险',ev),('能说 / 不能说',cs),('资助方与利益冲突',fund)]
     else: order=[('研究对象/干预/对照/结局 · 样本量',pico),('关键数字',kr),('研究方法',None),('证据等级与偏倚风险',ev),('能说 / 不能说',cs),('资助方与利益冲突',fund)]
-    body=head+(f'<p class="warn" style="background:#fff4d6;border-left:4px solid #e0a100;padding:.5em .8em;margin:.4em 0;color:#5a4300">{E_(p["warn_speed"])}</p>' if p.get('warn_speed') else '')+concl; n=0
+    OPEN="document.getElementById('evidence').open=true"
+    # ---- above the fold: warning, conclusion, clinical meaning, key numbers, chip ----
+    vis=head
+    if p.get('warn_speed'): vis+=f'<p class="warn" style="background:#fff4d6;border-left:4px solid #e0a100;padding:.5em .8em;margin:.4em 0;color:#5a4300">{E_(p["warn_speed"])}</p>'
+    inc_md=sec_get(S,'原文报告不一致')
+    if p.get('rep_inc') or inc_md or has(p.get('internal_inconsistency')) or p.get('amstar_limit'):
+        vis+=f'<p class="incline"><a href="#inconsistency" onclick="{OPEN}">原文数据有前后不一致，详见下方</a></p>'
+    vis+=concl
+    if has(p.get('clinical_meaning')): vis+=f'<p class="cm">{E_(clean(p["clinical_meaning"]))}</p>'
+    kn=[]
+    _all=p.get('key_results') or []; _t3=p.get('key_results_top3')
+    top=[_all[i] for i in _t3 if isinstance(i,int) and 0<=i<len(_all)][:3] if isinstance(_t3,list) else krs[:3]
+    for k in top:
+        NR=lambda v: '' if re.search(r'^(原文|摘要)未(报告|提及|给出)$',re.sub(r'<[^>]+>','',v).strip()) else v
+        parts=[NR(cell(k.get(f))) for f in ('groups','effect_ci')]; pv=NR(cell(k.get('p')))
+        kn.append(f'<li><b>{cell(k.get("measure"))}</b> {" · ".join(x for x in parts if x)}{(" · P "+pv) if pv and not pv.upper().startswith("P") and not pv.startswith("原文") else (" · "+pv if pv else "")}</li>')
+    if not kn and p.get('can_say') and '见页面' not in str(p['can_say']): kn=[f'<li>{E_(clean(x))}</li>' for x in p['can_say'][:3]]
+    if kn: vis+=f'<section class="kn"><p class="eb">关键数字</p><ul>{"".join(kn)}</ul></section>'
+    gt,gh=grade(p)
+    if SHOW_CERTAINTY: vis+=f'<p class="bd"><a class="echip" href="#evidence" onclick="{OPEN}">{E_(gt)}</a></p>'
+    _tr=X.translation(p.get('pmid'),p.get('license')) if X.can_translate(p) else None
+    if _tr: vis+='<p><a class="btn" href="bilingual/">阅读中英对照全文 →</a></p>'
+    vis+=X.related_block(p.get('pmid'),lambda q:(f"{r}papers/{get(str(q.get('pmid'))).get('sid')}/" if q.get('pmid') and get(str(q.get('pmid'))) else ('https://doi.org/'+q['doi'] if q.get('doi') else (q.get('url') or q.get('openalex') or '#'))))
+    # ---- fold: 证据与方法 ----
+    fb=(f'<section class="blk"><h3>证据确定性</h3>{gh}</section>' if SHOW_CERTAINTY else '')+badges(p)+conf+why
+    n=0
     for t,c in order:
         if c is None:
-            if meth:
-                n+=1; body+=blk(f'{n:02d}',t,meth) if exp else f'<section class="blk"><details class="fold"><summary><span class="sec-n">{n:02d}</span> 研究方法</summary>{meth}</details></section>'
+            if meth: n+=1; fb+=blk(f'{n:02d}',t,meth)
             continue
-        if c: n+=1; body+=blk(f'{n:02d}',t,c)
+        if c: n+=1; fb+=blk(f'{n:02d}',t,c)
+    if inc_md: fb+=f'<section class="blk" id="inconsistency"><h2 class="sec"><span>!</span> 原文报告不一致</h2>{mdc(inc_md)}</section>'
     er=p.get('errata'); er=', '.join(er) if isinstance(er,list) else er
-    extra=''.join(f'<p class="note">{k}：{E_(clean(v))}</p>' for k,v in [('勘误',f'PMID {er}' if has(er) else ''),('论文内部不一致',p.get('internal_inconsistency'))] if has(v))
-    body+=extra
-    terms=sec_get(S,'关键术语')
-    if terms: body+=f'<details class="fold"><summary>关键术语中英对照</summary>{mdc(terms)}</details>'
-    _tr=X.translation(p.get('pmid'),p.get('license')) if X.can_translate(p) else None
+    fb+=''.join(f'<p class="note"{" id=inconsistency" if k=="论文内部不一致" and not inc_md else ""}>{k}：{E_(clean(v))}</p>' for k,v in [('勘误',f'PMID {er}' if has(er) else ''),('论文内部不一致',p.get('internal_inconsistency'))] if has(v))
+    if p.get('rep_inc') and not inc_md and not has(p.get('internal_inconsistency')): fb=fb.replace('<div class="blk"><p><b>报告质量问题</b>','<div class="blk" id="inconsistency"><p><b>报告质量问题</b>',1)
+    elif p.get('amstar_limit') and 'id="inconsistency"' not in fb and 'id=inconsistency' not in fb: fb=fb.replace('<p class="note">局限性：','<p class="note" id="inconsistency">局限性：',1)
     if _tr:
         orig=f'<p>许可 {E_(str(p.get("license","")).upper())}。<a class="btn" href="bilingual/">阅读中英对照全文 →</a></p><p class="note">译文：<a href="{CA(2)}">VetLit 翻译流程</a>（全文翻译 + 数字与单位逐项校验，原文矛盾处加译注；尚无第二译者审校）。如有出入，以英文原文为准。</p>'
     elif X.can_translate(p):
         orig=f'<p>许可 {E_(str(p.get("license","")).upper())} 允许翻译，中英对照尚未生成。{f'<a href="https://doi.org/{E_(p["doi"])}">阅读原文 →</a>' if p.get('doi') else ''}</p>'
     else:
         orig=f'<p>许可{("（"+E_(str(p["license"]))+"）") if has(p.get("license")) else ""}不允许全文翻译转载，本站只提供速读与术语对照。{f'<a href="https://doi.org/{E_(p["doi"])}">阅读原文 →</a>' if p.get('doi') else ''}</p>'
-    body+=X.related_block(p.get('pmid'),lambda q:(f"{r}papers/{get(str(q.get('pmid'))).get('sid')}/" if q.get('pmid') and get(str(q.get('pmid'))) else ('https://doi.org/'+q['doi'] if q.get('doi') else (q.get('url') or q.get('openalex') or '#'))))
+    fb+=f'<details class="sub"><summary>原文与许可</summary>{orig}</details>'
+    fb+=f'<p class="note sig">依据：{p.get("basis_label") or ("仅题录，无摘要" if p.get("reading_depth")=="题录" else "摘要" if absonly else "全文")} · 速读：<a href="{CA(2)}">单人提取</a>{'（结论、关键数字、样本量除外，见各处标注）' if p.get('dual_x') else ''}</p>'
+    body=vis+f'<details class="fold evf" id="evidence"><summary>证据与方法</summary>{fb}</details>'
+    terms=sec_get(S,'关键术语')
+    if terms: body+=f'<details class="fold"><summary>关键术语中英对照</summary>{mdc(terms)}</details>'
     bib=B.bibtex(B.view({**p,'id':p['sid']})); ris=B.ris(B.view({**p,'id':p['sid']}))
-    body+=f'<details class="fold"><summary>原文与许可</summary>{orig}</details><details class="fold"><summary>引用（BibTeX / RIS）</summary><pre>{E_(bib)}</pre><pre>{E_(ris)}</pre></details>'
-    body+=f'<p class="note sig">依据：{p.get("basis_label") or ("仅题录，无摘要" if p.get("reading_depth")=="题录" else "摘要" if absonly else "全文")} · 速读：<a href="{CA(2)}">单人提取</a>{'（结论、关键数字、样本量除外，见各处标注）' if p.get('dual_x') else ''}</p>'
+    body+=f'<details class="fold"><summary>引用（BibTeX / RIS）</summary><pre>{E_(bib)}</pre><pre>{E_(ris)}</pre></details>'
+    body+='<script>if(location.hash&&location.hash!=="#evidence"){var e=document.querySelector(location.hash);if(e&&e.closest("#evidence"))document.getElementById("evidence").open=true}else if(location.hash==="#evidence")document.getElementById("evidence").open=true</script>'
     return page(clean(p.get('title_zh') or p.get('first_author','')+' '+str(p.get('year',''))),body,2)
 def ranking_page():
     rule=X.rule_text()

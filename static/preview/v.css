@@ -63,3 +63,9 @@ pre{background:var(--cream);padding:12px;overflow-x:auto;font:12px/1.5 var(--mon
 .blk summary .sec-n{color:#f43d3f;font-family:"Geist Mono",monospace;margin-right:.5em}
 .why2{color:#5d5b66;margin:.8em 0 0}
 table.bi{table-layout:fixed;width:100%}table.bi td{vertical-align:top;width:50%;padding:.6em;line-height:1.7}th.bsec{text-align:left;background:#f4f4f4}
+/* attention redesign: bottom line first, methods behind one fold */
+.echip{display:inline-block;font:500 12px/1 var(--mono);padding:6px 9px;border-radius:999px;background:#fff;border:1px solid var(--fg);color:var(--fg);text-decoration:none}.echip:hover{border-color:var(--red-deep);color:var(--red-deep)}
+.kn{margin:14px 0}.kn ul{margin:6px 0 0;padding-left:1.1em}.kn li{margin:4px 0;line-height:1.55}.cm{margin:8px 0;font-weight:500}
+.incline{margin:.4em 0;font-size:14px}.incline a{color:#7a4f10}
+details.evf{margin-top:18px}details.evf>summary{font-size:14px}
+@media (max-width:480px){.kn li{font-size:15px}.echip{font-size:11px}}
