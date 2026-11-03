@@ -1,0 +1,253 @@
+{
+ "pmid": "29326623",
+ "license": "CC BY 4.0",
+ "attribution": {
+  "authors": [
+   "Arahori Minori",
+   "Chijiiwa Hitomi",
+   "Takagi Saho",
+   "Bucher Benoit",
+   "Abe Hideaki",
+   "Inoue-Murayama Miho",
+   "Fujita Kazuo"
+  ],
+  "title": "Microsatellite Polymorphisms Adjacent to the Oxytocin Receptor Gene in Domestic Cats: Association with Personality?",
+  "journal": "Frontiers in Psychology",
+  "year": "2017",
+  "doi": "10.3389/fpsyg.2017.02165",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "note": "中文为 AI 翻译，以英文原文为准；已对原文做翻译改编"
+ },
+ "scope_zh": "标题、摘要、全文正文（引言、两部分研究的材料与方法及结果、讨论、结论）、伦理声明、作者贡献、利益冲突声明；图1–2图注、表1–3表题及表注。未含：参考文献、表格正文、补充材料。",
+ "paragraphs": [
+  {
+   "section": "Title",
+   "section_zh": "标题",
+   "en": "Microsatellite Polymorphisms Adjacent to the Oxytocin Receptor Gene in Domestic Cats: Association with Personality?",
+   "zh": "家猫催产素受体基因邻近区域的微卫星多态性：与个性相关？"
+  },
+  {
+   "section": "Abstract",
+   "section_zh": "摘要",
+   "en": "A growing number of studies have explored the oxytocin system in humans and non-human animals, and some have found important genetic polymorphisms in the oxytocin receptor gene (OXTR) associated with the bonding system, social behaviors, and personality in several species. Although single nucleotide polymorphisms in OXTR have been well-examined in various species, microsatellites (or short tandem repeats) adjacent to OXTR have rarely been studied, despite some suggestions that microsatellite polymorphisms near genes might play a role in genetic transcription and translation. In this study, we surveyed microsatellites in the upstream, intron, and downstream regions of OXTR in domestic cats (Felis catus). We succeeded in amplifying 5 out of 10 regions, and recognized these five regions as polymorphic. We compared allele frequencies in these five regions between mongrel cats in Japan (n = 100) and cats of 10 pure breeds (n = 40). There were significant differences in allele frequencies between the two populations in all microsatellite regions. Additionally, the owners of mongrel cats answered a comprehensive personality questionnaire, and factor analysis extracted four factors (Openness, Friendliness, Roughness, and Neuroticism). We examined the association between the microsatellite genotypes, age, sex, neutering status, and personality scores. Compared to their counterparts, younger cats tended to score higher on Openness, male cats scored higher on Friendliness, and female and neutered cats scored higher on Roughness. When we divided the sample into three groups depending on the length of alleles, we found a marginally significant association between Friendliness and MS3. Additionally, we found a sex-mediated effect of genotypes in MS4 on Friendliness, resulting in different effects on females and males. Our findings that mongrel cats had longer alleles in MS3 and MS4 than purebred cats, and that those cats tended to score higher on Friendliness, supported the previous findings. However, future studies such as comparison between purebred cats with apparently different origin or personality are required to determine the association of genetic variants in the OXTR with personality.",
+   "zh": "越来越多的研究探讨了人类和非人类动物的催产素系统，其中一些研究在多个物种中发现催产素受体基因（OXTR）中存在与联结系统、社会行为和个性相关的重要遗传多态性。尽管OXTR中的单核苷酸多态性已在多个物种中得到充分研究，但OXTR邻近的微卫星（或短串联重复）却很少被研究，尽管有观点认为基因附近的微卫星多态性可能在基因转录和翻译中发挥作用。在本研究中，我们调查了家猫（Felis catus）OXTR上游、内含子和下游区域的微卫星。我们成功扩增了10个区域中的5个，并确认这5个区域具有多态性。我们比较了日本混种猫（n = 100）与10个纯种品种的猫（n = 40）在这5个区域的等位基因频率。在所有微卫星区域，两个群体的等位基因频率均存在显著差异。此外，混种猫的主人填写了一份综合性个性问卷，因子分析提取出4个因子（开放性、友好性、粗暴性和神经质）。我们考察了微卫星基因型、年龄、性别、绝育状态与个性评分之间的关联。与对照相比，较年轻的猫开放性得分倾向更高，公猫友好性得分更高，母猫和已绝育猫粗暴性得分更高。根据等位基因长度将样本分为3组时，我们发现友好性与MS3之间存在边缘显著关联。此外，我们发现MS4基因型对友好性存在性别介导效应，对母猫和公猫产生不同影响。我们的发现——混种猫在MS3和MS4上的等位基因比纯种猫更长，且这些猫的友好性得分倾向更高——支持了既往的研究结果。然而，需要未来的研究（如比较起源或个性明显不同的纯种猫）来确定OXTR遗传变异与个性的关联。"
+  },
+  {
+   "section": "Introduction",
+   "section_zh": "引言",
+   "en": "Many studies focusing on the oxytocin system in humans have revealed that some genetic polymorphisms are associated with a large variety of individual differences in, for example, empathy (e.g., Rodrigues et al., 2009; Wu et al., 2012; Laursen et al., 2014), attachment anxiety (e.g., Chen and Johnson, 2012), prosociality (e.g., Shang et al., 2017), and pair-bonding behavior (e.g., Walum et al., 2012). In parallel, studies on non-human animals have explored genetic polymorphisms in the oxytocin receptor gene (OXTR) as a candidate gene related to the bonding system, social behaviors, and personality traits (e.g., Aspé-Sánchez et al., 2016). For OXTR in non-human primates, Staes et al. (2014) tried to find genetic differences between chimpanzees and bonobos at the locus of rs53576 in the intron 3 region of OXTR, which had been shown to be involved in many associations in humans (e.g., Rodrigues et al., 2009; Laursen et al., 2014); they expected this locus would contribute to species differences in empathy between chimpanzees and bonobos. Although they did not find polymorphism at this locus, they found novel polymorphisms near rs53576 in these two species. To date, these polymorphisms have not been shown to be associated with behavioral traits within species (chimpanzee; Staes et al., 2015); other studies have suggested the impact of the oxytocin system on primates’ bonding systems (Lee et al., 2011; Vargas-Pinilla et al., 2015). In fact, New World monkeys showed a new type of the oxytocin gene (OXT) (one amino acid was changed compared to the wild type) with co-evolved OXTR with positive selection, indicating an association with different systems in animals’ mating (e.g., monogamy). Concerning companion animals, Kis et al. (2014) reported that three single nucleotide polymorphisms (SNPs) in domestic dogs were associated with dogs’ responses to unfamiliar humans; however, Ottenheimer-Carrier et al.’s (2017) questionnaire study failed to provide further support to this finding in various breed groups, suggesting the possibility that gene-personality associations may reflect multiple factors, including breed, early experiences, and experimental contexts. Our previous study on domestic cats (Felis catus) (Arahori et al., 2016) reported an association between one SNP and a personality trait (Roughness). However, the molecular and functional mechanisms are still unclear.",
+   "zh": "许多聚焦于人类催产素系统的研究揭示，一些遗传多态性与多种个体差异相关，例如共情（如Rodrigues et al., 2009; Wu et al., 2012; Laursen et al., 2014）、依恋焦虑（如Chen and Johnson, 2012）、亲社会性（如Shang et al., 2017）和配偶联结行为（如Walum et al., 2012）。与此同时，对非人类动物的研究也将催产素受体基因（OXTR）中的遗传多态性作为与联结系统、社会行为和个性特质相关的候选基因进行了探讨（如Aspé-Sánchez et al., 2016）。关于非人灵长类的OXTR，Staes et al.（2014）试图在OXTR内含子3区域的rs53576位点寻找黑猩猩与倭黑猩猩之间的遗传差异，该位点在人类中已被证明涉及许多关联（如Rodrigues et al., 2009; Laursen et al., 2014）；他们预期该位点会导致黑猩猩与倭黑猩猩在共情方面的物种差异。尽管未在该位点发现多态性，但他们在这两个物种中发现了rs53576附近的新多态性。迄今为止，这些多态性尚未被证明与种内行为特质相关（黑猩猩；Staes et al., 2015）；其他研究提示了催产素系统对灵长类联结系统的影响（Lee et al., 2011; Vargas-Pinilla et al., 2015）。事实上，新大陆猴表现出一种新型催产素基因（OXT）（与野生型相比改变了1个氨基酸），以及在正选择下协同进化的OXTR，提示与动物不同交配系统（如单配制）相关。关于伴侣动物，Kis et al.（2014）报告家犬的3个单核苷酸多态性（SNP）与犬对陌生人的反应相关；然而，Ottenheimer-Carrier et al.（2017）的问卷研究未能在不同品种群中为这一发现提供进一步支持，提示基因-个性关联可能反映多种因素，包括品种、早期经历和实验情境。我们之前对家猫（Felis catus）的研究（Arahori et al., 2016）报告了1个SNP与一种个性特质（粗暴性）之间的关联。然而，其分子和功能机制仍不清楚。"
+  },
+  {
+   "section": "Introduction",
+   "section_zh": "引言",
+   "en": "Most studies referring to gene-behavior associations have focused on SNPs. However, in addition to SNPs, microsatellites (or short tandem repeats) adjacent to genes have been suggested to play a role in genetic transcription and translation (Sawaya et al., 2013). In particular, microsatellites near to or on the promoter region, such as TATA boxes (transcription start sites), GC-rich regions, and CAAT boxes within upstream regions could affect gene expression. In non-human animals, Oliva et al. (2016) compared microsatellites between wolves and dogs in the region close to OXTR, and found differences in the frequencies, but no differences in performance (scores) in an object choice task depending on length of alleles. Lonn et al. (2017) revealed that microsatellites in the 5′ regulatory region of OXTR and arginine vasopressin receptor gene 1a (AVPR1A) were associated with reproductive success demonstrated in field experiments and gene expression in the brains of bank voles. However, little research on OXTR has been conducted on animals, including domestic cats.",
+   "zh": "大多数涉及基因-行为关联的研究都聚焦于SNP。然而，除SNP外，基因邻近的微卫星（或短串联重复）也被认为在基因转录和翻译中发挥作用（Sawaya et al., 2013）。特别是，位于启动子区域附近或其上的微卫星，如上游区域内的TATA盒（转录起始位点）、富GC区和CAAT盒，可能影响基因表达。在非人类动物中，Oliva et al.（2016）比较了狼和犬在OXTR邻近区域的微卫星，发现频率存在差异，但物体选择任务中的表现（得分）并不因等位基因长度而异。Lonn et al.（2017）揭示，OXTR和精氨酸加压素受体基因1a（AVPR1A）5′调控区的微卫星与田间实验中显示的繁殖成功率以及棕背䶄脑中的基因表达相关。然而，针对包括家猫在内的动物的OXTR研究很少。"
+  },
+  {
+   "section": "Introduction",
+   "section_zh": "引言",
+   "en": "Domestic cats, which are common companion animals, are thought to have been domesticated almost 10,000 years ago in the Near East (Driscoll et al., 2007). Their gene-personality associations have been under-researched—our previous research is an exception (Arahori et al., 2016). These associations are providing an important clue to understand how African wild cats (the ancestors of domestic cats) adapted to humans and human societies by comparing personality-related genes found in domestic cats from an evolutionary developmental biology point of view, and infer their pathway from wildcats to pets. The association would also be important for cats’ welfare because personality-related genes could suggest matching between potential owners and cats.",
+   "zh": "家猫是常见的伴侣动物，被认为约在10,000年前于近东被驯化（Driscoll et al., 2007）。其基因-个性关联研究不足——我们之前的研究是个例外（Arahori et al., 2016）。从进化发育生物学角度比较家猫中发现的个性相关基因，这些关联为理解非洲野猫（家猫的祖先）如何适应人类及人类社会提供了重要线索，并可推断其从野猫到宠物的路径。这种关联对猫的福利也很重要，因为个性相关基因可为潜在主人与猫的匹配提供参考。"
+  },
+  {
+   "section": "Introduction",
+   "section_zh": "引言",
+   "en": "In addition to the early phase of cat domestication, many cat breeds have more recently been created through various degrees of artificial selective pressure, according to humans’ preferences (mainly in relation to appearance, although sometimes also temperament—e.g., the Ragdoll with its high placidity; Bradshaw et al., 1999). Some previous studies have described breed-specific personality traits as reported by veterinarians and owners in response to questionnaires. Takeuchi and Mori (2009) reported that Japanese domestic cats (mongrel cats) and American Shorthair cats ranked higher on friendliness, playfulness, demand for affection, and novelty seeking than 10 other pure breeds examined in the study, whereas Chinchilla cats were ranked highest on aggression to humans and cats, timidity, and nervousness. Wilhelmy et al. (2016) examined the links between appearance (e.g., coat color) and personality, but concluded that most individual differences stemmed from breed differences. In sum, the artificial selection of cat breeds may have influenced breed-specific personality, suggesting that some heritable genes would be linked to personality. Therefore, examining differences in terms of OXTR between mongrel cats and purebred cats might be one of the keys to reveal the effects of OXTR on the personality of cats.",
+   "zh": "除猫驯化的早期阶段外，许多猫品种是近期根据人类偏好（主要与外观有关，有时也涉及性情——例如以高度温顺著称的布偶猫；Bradshaw et al., 1999）通过不同程度的人工选择压力培育而成的。一些既往研究通过问卷描述了兽医和主人报告的品种特异性个性特质。Takeuchi和Mori（2009）报告，日本家猫（混种猫）和美国短毛猫在友好性、好玩性、对亲昵的需求和寻求新奇方面的排名高于该研究考察的其他10个纯种品种，而金吉拉猫在对人和猫的攻击性、胆怯和紧张方面排名最高。Wilhelmy et al.（2016）考察了外观（如毛色）与个性之间的联系，但得出结论认为大多数个体差异源于品种差异。总之，猫品种的人工选择可能影响了品种特异性个性，提示某些可遗传基因与个性相关。因此，考察混种猫与纯种猫在OXTR方面的差异，可能是揭示OXTR对猫个性影响的关键之一。"
+  },
+  {
+   "section": "Introduction",
+   "section_zh": "引言",
+   "en": "In this study, we explored the microsatellites adjacent to OXTR in cats. First, we compared allele frequencies in microsatellites between mongrel cats and purebred cats because we expected that OXTR in purebred cats under human selective pressures would be different genetically from that in mongrel cats. Possibly, purebred cats must have been selectively bred for appearance by humans, although it is unclear that such selection could also influence behavior and personality. On the other hand, mongrel cats are not generally selected by humans. In fact, in 2016 in Japan, 57.1% of cat owners reported that they adopted free-roaming cats as their pet(s), either by themselves or via organizations (e.g., animal shelters) (Japan Pet Food Association, 2016), suggesting free-roaming cats’ histories were much different from purebred cats in Japan. Therefore, we expected that sequences in OXTR, the candidate gene related to social behavior, would differ between mongrel cats (free-roaming for several generations) and purebred cats (having undergone artificial selection). Second, we examined the association with personality scores in mongrel cats to ascertain the effects of OXTR polymorphisms on personality. Only mongrel cats were examined due to the difficulty of finding single breed subjects with little or no kinship. We considered not only OXTR genotypes and the effects of age, sex, and neutering on cat personality, but also sex-mediated effects connected with OXTR, as suggested in human studies (e.g., Stankova et al., 2012).",
+   "zh": "在本研究中，我们探讨了猫OXTR邻近的微卫星。首先，我们比较了混种猫与纯种猫微卫星的等位基因频率，因为我们预期在人类选择压力下的纯种猫的OXTR在遗传上会与混种猫不同。纯种猫很可能曾被人类按外观进行选育，但尚不清楚这种选择是否也会影响行为和个性。另一方面，混种猫通常不受人类选择。事实上，2016年在日本，57.1%的猫主人报告他们自行或通过组织（如动物收容所）收养了流浪猫作为宠物（Japan Pet Food Association, 2016），提示在日本流浪猫的历史与纯种猫大不相同。因此，我们预期作为社会行为相关候选基因的OXTR的序列，在混种猫（数代流浪）与纯种猫（经过人工选择）之间会存在差异。其次，我们考察了混种猫中与个性评分的关联，以确定OXTR多态性对个性的影响。由于难以找到亲缘关系很少或没有亲缘关系的单一品种受试猫，仅考察了混种猫。我们不仅考虑了OXTR基因型以及年龄、性别和绝育对猫个性的影响，还考虑了人类研究中提示的与OXTR相关的性别介导效应（如Stankova et al., 2012）。"
+  },
+  {
+   "section": "Microsatellites in OXTR and the Differences Between Mongrel Cats and Purebred Cats / Materials and Methods / Subjects",
+   "section_zh": "OXTR中的微卫星及混种猫与纯种猫的差异 / 材料与方法 / 受试对象",
+   "en": "We included 100 cats (54 males, 46 females; mean age = 60.95 months; standard deviation = 52.05 months) in Japan. All cats were mongrels born in Japan, suggesting that their ancestors could not be identified as purebred according to the owners. According to the owners, 35 cats were free-roaming cats that had been taken home by the owners themselves, 23 were adopted by the owners via their acquaintances, 17 were adopted by owners via animal shelters or volunteers, 3 comprised siblings of cats that owners already kept, and we were unable to obtain answers from 22 cat owners. A total of 88 cats were neutered (48 males, 40 females), while 12 cats were not (6 males, 6 females); 85 were household pets (48 males, 37 females) and the remaining 15 were residents in “cat cafés” (6 males, 9 females), where guests interact with them, resulting in extensive contact with people almost every day. All cats had one or two owners (caretakers). Based on owners’ reports, none of the cats in the sample were genetically related. We included more than one cat belonging to the same owner if these cats showed different haplotypes in examined microsatellites.",
+   "zh": "我们纳入了日本的100只猫（54只公猫，46只母猫；平均年龄 = 60.95月龄；标准差 = 52.05月龄）。所有猫均为在日本出生的混种猫，即据主人所述，其祖先不能被认定为纯种。据主人所述，35只猫是主人自己带回家的流浪猫，23只是主人通过熟人收养的，17只是主人通过动物收容所或志愿者收养的，3只是主人已饲养猫的同胞，另有22位猫主人未能提供答复。共有88只猫已绝育（48只公猫，40只母猫），12只未绝育（6只公猫，6只母猫）；85只为家庭宠物（48只公猫，37只母猫），其余15只生活在“猫咖啡馆”（6只公猫，9只母猫），客人在那里与它们互动，使它们几乎每天都与人有大量接触。所有猫均有1或2位主人（照料者）。根据主人报告，样本中没有猫存在遗传关系。如果同一主人的多只猫在所检测微卫星中显示不同的单倍型，则将其一并纳入。"
+  },
+  {
+   "section": "Microsatellites in OXTR and the Differences Between Mongrel Cats and Purebred Cats / Materials and Methods / Subjects",
+   "section_zh": "OXTR中的微卫星及混种猫与纯种猫的差异 / 材料与方法 / 受试对象",
+   "en": "To compare allele frequencies between mongrel and purebred cats, we selected an additional 40 genetically unrelated cats of 10 different typical cat breeds (4 cats each: 2 males, 2 females; Abyssinian, American Curl, American Shorthair, Scottish Fold, Somali, Persian, Himalayan, Chinchilla Persian, Maine Coon, and Russian Blue). These cats were used in a previous study (Kato et al., 2007; in Japanese), and they were offered to us via veterinary hospitals from cat owners (Veterinarians confirmed their breeds, and the owners offered information about their kinships).",
+   "zh": "为比较混种猫与纯种猫的等位基因频率，我们另选取了10个典型猫品种中无遗传关系的40只猫（每个品种4只：2只公猫，2只母猫；阿比西尼亚猫、美国卷耳猫、美国短毛猫、苏格兰折耳猫、索马里猫、波斯猫、喜马拉雅猫、金吉拉波斯猫、缅因猫和俄罗斯蓝猫）。这些猫曾用于既往一项研究（Kato et al., 2007；日文），由猫主人通过动物医院提供给我们（兽医确认了其品种，主人提供了其亲缘关系信息）。"
+  },
+  {
+   "section": "Microsatellites in OXTR and the Differences Between Mongrel Cats and Purebred Cats / Materials and Methods / Microsatellite Searching",
+   "section_zh": "OXTR中的微卫星及混种猫与纯种猫的差异 / 材料与方法 / 微卫星搜索",
+   "en": "From the cat genome sequence (GenBank assembly accession: GCA_000181335.3) we searched for microsatellites in the upstream region (8 kb) of exon 1, the intron region between exons 1 and 2, and the downstream region (3 kb) of exon 2 in OXTR using WebSat software (Martins et al., 2009). We found 10 regions including microsatellites (4 in the upstream region, 5 in the intron region, and 1 in the downstream region; Figure 1); however, we analyzed only 5 (MS1, 2, 3, 4, and 5) of these 10 regions. We could not amplify those in the intron region when considering polymerase chain reaction (PCR) conditions because there were probably numerous mutations in this region.",
+   "zh": "我们使用WebSat软件（Martins et al., 2009），从猫基因组序列（GenBank组装登录号：GCA_000181335.3）中搜索OXTR外显子1上游区域（8 kb）、外显子1与2之间的内含子区域以及外显子2下游区域（3 kb）的微卫星。我们发现10个含微卫星的区域（上游区域4个，内含子区域5个，下游区域1个；图1）；然而，我们仅分析了这10个区域中的5个（MS1、2、3、4和5）。在考虑聚合酶链反应（PCR）条件时，我们无法扩增内含子区域的微卫星，可能是因为该区域存在大量突变。"
+  },
+  {
+   "section": "Microsatellites in OXTR and the Differences Between Mongrel Cats and Purebred Cats / Materials and Methods / Sample Collection and Genotyping",
+   "section_zh": "OXTR中的微卫星及混种猫与纯种猫的差异 / 材料与方法 / 样本采集与基因分型",
+   "en": "For mongrel cats, we collected buccal cell samples after obtaining permission from their owners. Buccal cell samples were collected using cotton swabs (JCB INDUSTRY LIMITED, Ginza, Chuou-ku, Japan) in 2 ml of 0.9% saline solution, then 9 ml of 99.5% ethanol was added for preservation, and stored at 4°C until DNA extraction.",
+   "zh": "对于混种猫，在获得主人许可后采集口腔细胞样本。使用棉签（JCB INDUSTRY LIMITED, Ginza, Chuou-ku, Japan）采集口腔细胞样本，置于2 ml 0.9%生理盐水中，然后加入9 ml 99.5%乙醇保存，于4°C储存直至DNA提取。"
+  },
+  {
+   "section": "Microsatellites in OXTR and the Differences Between Mongrel Cats and Purebred Cats / Materials and Methods / Sample Collection and Genotyping",
+   "section_zh": "OXTR中的微卫星及混种猫与纯种猫的差异 / 材料与方法 / 样本采集与基因分型",
+   "en": "DNA was extracted from the buccal cells of cats using a QIAamp blood and tissue kit (QIAGEN, Valencia, CA, United States). Five microsatellite regions were amplified by PCR with a 10 μl mixture for each sample, containing 5 μl of Multiplex PCR kit (QIAGEN, Valencia, CA, United States), 1 μl template DNA, 3.5 μl H2O, and 0.05 μl for each forward and reverse primer (see Table 1 for primer information). The PCR conditions consisted of 95°C preheating for 15 min, 35 cycling at 94°C for 30 s, 60°C for 30 s, 72°C for 30 s, and 60°C for 30 min as the last extension. Subsequently, we sequenced PCR products using the Applied Biosystems 3130xl Genetic Analyzer (Applied Biosystems, Foster City, CA, United States). The sizes of PCR products were genotyped using the GENESCAN software package (PerkinElmer, Foster City, CA, United States). We checked peaks (the sizes of PCR products), and repeated the analysis if the peaks were unclear to determine.",
+   "zh": "使用QIAamp血液和组织试剂盒（QIAGEN, Valencia, CA, United States）从猫口腔细胞中提取DNA。每个样本以10 μl混合液通过PCR扩增5个微卫星区域，混合液含5 μl Multiplex PCR试剂盒（QIAGEN, Valencia, CA, United States）、1 μl模板DNA、3.5 μl H2O，以及正向和反向引物各0.05 μl（引物信息见表1）。PCR条件为：95°C预热15 min，35个循环（94°C 30 s，60°C 30 s，72°C 30 s），最后60°C延伸30 min。随后，使用Applied Biosystems 3130xl遗传分析仪（Applied Biosystems, Foster City, CA, United States）对PCR产物测序。使用GENESCAN软件包（PerkinElmer, Foster City, CA, United States）对PCR产物大小进行基因分型。我们检查了峰（PCR产物大小），如峰不清晰难以判定则重复分析。"
+  },
+  {
+   "section": "Microsatellites in OXTR and the Differences Between Mongrel Cats and Purebred Cats / Materials and Methods / Statistics",
+   "section_zh": "OXTR中的微卫星及混种猫与纯种猫的差异 / 材料与方法 / 统计",
+   "en": "We assessed linkage disequilibrium among all microsatellites. We used Fisher’s exact test to assess the differences in allele frequencies between mongrel and purebred cats. We used R (v. 3.4.2) for all statistical analyses (R Core Team, 2017) using the package: genepop (Rousset, 2008).",
+   "zh": "我们评估了所有微卫星之间的连锁不平衡。采用Fisher精确检验评估混种猫与纯种猫之间等位基因频率的差异。所有统计分析均使用R（v. 3.4.2）（R Core Team, 2017）及genepop包（Rousset, 2008）。"
+  },
+  {
+   "section": "Microsatellites in OXTR and the Differences Between Mongrel Cats and Purebred Cats / Results / Linkage Disequilibrium among Five Microsatellite Loci",
+   "section_zh": "OXTR中的微卫星及混种猫与纯种猫的差异 / 结果 / 5个微卫星位点之间的连锁不平衡",
+   "en": "All five regions were polymorphic in both (mongrel and purebred) cat groups. For mongrel cats, the test for genotypic linkage disequilibrium (LD) revealed non-random associations among microsatellite loci (p < 0.01) other than MS4 and MS5 (p = 0.694).",
+   "zh": "所有5个区域在两个（混种和纯种）猫群中均具有多态性。对于混种猫，基因型连锁不平衡（LD）检验显示，除MS4与MS5（p = 0.694）外，各微卫星位点之间存在非随机关联（p < 0.01）。"
+  },
+  {
+   "section": "Microsatellites in OXTR and the Differences Between Mongrel Cats and Purebred Cats / Results / Allele Frequency Differences between Mongrel and Purebred Cats",
+   "section_zh": "OXTR中的微卫星及混种猫与纯种猫的差异 / 结果 / 混种猫与纯种猫的等位基因频率差异",
+   "en": "Overall, alleles of mongrel cats in MS1, MS2, MS3, and MS4 were longer than in purebred cats, but the difference in MS5 was reversed (Table 2). In MS2 and MS4, mongrels had more alleles than purebred cats did. Fisher’s exact test revealed significant differences between mongrels and purebred cats in all alleles (MS1: p < 0.0001; MS2: p < 0.01; MS3: p < 0.0001; MS4: p < 0.0001; and MS5: p < 0.001).",
+   "zh": "总体而言，混种猫在MS1、MS2、MS3和MS4的等位基因比纯种猫长，但MS5的差异相反（表2）。在MS2和MS4中，混种猫的等位基因数多于纯种猫。Fisher精确检验显示混种猫与纯种猫在所有等位基因上均存在显著差异（MS1：p < 0.0001；MS2：p < 0.01；MS3：p < 0.0001；MS4：p < 0.0001；MS5：p < 0.001）。"
+  },
+  {
+   "section": "Gene-Personality Associations in Mongrel Cats / Materials and Methods / Subjects and DNA Collection",
+   "section_zh": "混种猫的基因-个性关联 / 材料与方法 / 受试对象与DNA采集",
+   "en": "We used the same mongrel cat subjects (n = 100) as those used to assess differences between mongrel cats and purebred cats in microsatellites adjacent to OXTR (see section “Microsatellites in OXTR and the Differences between Mongrel Cats and Purebred Cats”).",
+   "zh": "我们使用了与评估混种猫和纯种猫OXTR邻近微卫星差异时相同的混种猫受试对象（n = 100）（见“OXTR中的微卫星及混种猫与纯种猫的差异”一节）。"
+  },
+  {
+   "section": "Gene-Personality Associations in Mongrel Cats / Materials and Methods / Rating of Cat Personality",
+   "section_zh": "混种猫的基因-个性关联 / 材料与方法 / 猫个性评定",
+   "en": "We used a personality questionnaire developed for Japanese Akita dogs (Konno et al., 2011), which was used in our previous study with cats (Arahori et al., 2016). It consists of 30 questions measured on a six-point scale. The caretaker of each mongrel cat (including “cat café” owners) completed the questionnaire. Additionally, we included data from the cat sample (only mongrel cats) in Arahori et al. (2016) (32 males, 25 females; mean age = 60.0 months; standard deviation = 50.55 months), in which test–retest reliability was satisfactory.",
+   "zh": "我们使用了为日本秋田犬开发的个性问卷（Konno et al., 2011），该问卷曾用于我们之前的猫研究（Arahori et al., 2016）。问卷包含30个问题，采用6点量表测量。每只混种猫的照料者（包括“猫咖啡馆”店主）填写了问卷。此外，我们纳入了Arahori et al.（2016）中猫样本（仅混种猫）的数据（32只公猫，25只母猫；平均年龄 = 60.0月龄；标准差 = 50.55月龄），该研究的重测信度令人满意。"
+  },
+  {
+   "section": "Gene-Personality Associations in Mongrel Cats / Materials and Methods / Statistics",
+   "section_zh": "混种猫的基因-个性关联 / 材料与方法 / 统计",
+   "en": "First, we inspected the scree plot by running a parallel analysis to determine the number of factors. Next, we performed a factor analysis with maximum likelihood estimation and promax rotation to reveal the cats’ personality structure, and extracted items with factor loadings greater than |0.5| . We calculated factor scores using the regression method.",
+   "zh": "首先，我们通过运行平行分析检查碎石图以确定因子数。接着，采用最大似然估计和promax旋转进行因子分析以揭示猫的个性结构，并提取因子载荷大于|0.5|的条目。采用回归法计算因子得分。"
+  },
+  {
+   "section": "Gene-Personality Associations in Mongrel Cats / Materials and Methods / Statistics",
+   "section_zh": "混种猫的基因-个性关联 / 材料与方法 / 统计",
+   "en": "For gene-personality association, we divided samples into three groups by genotype (L/L, S/L, S/S; see Table 2 for grouping) to make the sample size and number of alleles in S and L of mongrel cats as equal as possible. After dividing, pairwise LD measurements (D′) were calculated to assess the linkage of each microsatellite. We used a generalized linear model (GLM) to examine the association between factor scores as the response variable and independent variables; age (months), neutering status, sex, target genotype (L/L, S/L, S/S) and interaction of sex and genotypes were included as fixed effects. We visually checked the residual plots and normal Q–Q plots to confirm our assumption (normal distribution and homogeneity of variance) for each model. We used R (v. 3.4.2) for all statistical analyses (R Core Team, 2017), as well as the packages: psych (Revelle, 2015), genetics (Warnes and Warnes, 2007), LDheatmap (Shin et al., 2006), and car (Fox and Weisberg, 2011).",
+   "zh": "对于基因-个性关联，我们按基因型将样本分为3组（L/L、S/L、S/S；分组见表2），以使混种猫中S和L的样本量及等位基因数尽可能相等。分组后，计算两两LD测量值（D′）以评估各微卫星的连锁。我们采用广义线性模型（GLM）考察作为响应变量的因子得分与自变量之间的关联；年龄（月）、绝育状态、性别、目标基因型（L/L、S/L、S/S）以及性别与基因型的交互作用作为固定效应纳入。我们目视检查了各模型的残差图和正态Q–Q图，以确认模型假设（正态分布和方差齐性）。所有统计分析均使用R（v. 3.4.2）（R Core Team, 2017），以及psych（Revelle, 2015）、genetics（Warnes and Warnes, 2007）、LDheatmap（Shin et al., 2006）和car（Fox and Weisberg, 2011）包。"
+  },
+  {
+   "section": "Gene-Personality Associations in Mongrel Cats / Results / Factor Analysis",
+   "section_zh": "混种猫的基因-个性关联 / 结果 / 因子分析",
+   "en": "We excluded questionnaire data (gene-behavior association test) of two owners due to missing data. Both the scree plot and a parallel analysis indicated four factors, and a factor analysis revealed the cats’ personality structure based on the questionnaire. The items in each factor were almost identical to those in Arahori et al. (2016). Therefore, we named these four factors Openness, Friendliness, Roughness, and Neuroticism (Table 3). The 23 items had loadings over |0.5| on each factor except for the item “adaptable,” which had a negative loading on Neuroticism but a positive loading on Friendliness (Table 3; underlined values). The Cronbach’s alpha for each factor was acceptable (Table 3).",
+   "zh": "由于数据缺失，我们排除了2位主人的问卷数据（基因-行为关联检验）。碎石图和平行分析均提示4个因子，因子分析基于问卷揭示了猫的个性结构。各因子中的条目与Arahori et al.（2016）中的几乎相同。因此，我们将这4个因子命名为开放性、友好性、粗暴性和神经质（表3）。23个条目在各因子上的载荷均超过|0.5|，但条目“适应性强”除外，该条目在神经质上为负载荷，在友好性上为正载荷（表3；下划线数值）。各因子的Cronbach's α均可接受（表3）。"
+  },
+  {
+   "section": "Gene-Personality Associations in Mongrel Cats / Results / Linkage of Genotypes (after Dividing into L and S)",
+   "section_zh": "混种猫的基因-个性关联 / 结果 / 基因型连锁（分为L和S后）",
+   "en": "We plotted the correlation of genotypes on the heatmap using pairwise LD measurements (D′; Figure 2A). When dividing each allele into two groups (S and L) based on the sample size and number of alleles, the test showed that seven combinations out of 10 were in significant linkage disequilibrium (For MS2–MS4: p < 0.01; For MS1–MS2, MS1–MS4, MS2–MS3, MS2–MS5, MS3–MS4, and MS3–MS5: p < 0.001). There was no pair showing a complete linkage.",
+   "zh": "我们使用两两LD测量值（D′；图2A）在热图上绘制了基因型相关性。根据样本量和等位基因数将每个等位基因分为两组（S和L）时，检验显示10个组合中有7个存在显著连锁不平衡（MS2–MS4：p < 0.01；MS1–MS2、MS1–MS4、MS2–MS3、MS2–MS5、MS3–MS4和MS3–MS5：p < 0.001）。没有任何一对显示完全连锁。"
+  },
+  {
+   "section": "Gene-Personality Associations in Mongrel Cats / Results / Association between Independent Variables and Personality Scores",
+   "section_zh": "混种猫的基因-个性关联 / 结果 / 自变量与个性评分之间的关联",
+   "en": "We checked our assumptions to see the residual plots and normal Q–Q plots (Supplementary Figures S1, S2) as satisfactory. When grouping into three groups (L/L, S/L, S/S), a GLM analysis (see Supplementary Table S1 for all results) revealed a significant difference in Openness according to age, with older cats scoring lower than younger cats (β = -0.008, standard error (SE) = 0.002, 95% Wald confidence interval (CI) = [-0.012, -0.003], χ2(1) = 12.558, p < 0.001). The effect of sex was significant on Friendliness, with females being less friendly than males (β = -2.251, SE = 1.333, 95% CI = [-4.863, 0.361], χ2(1) = 5.365, p = 0.021). MS3’s effect on Friendliness was marginally significant; cats with S/S alleles tended to score lower than cats with L/L and S/L alleles (Figure 2B; β = -1.227, SE = 0.595, 95% CI = [-2.393, -0.062], χ2(2) = 4.963, p = 0.084). Additionally, the interaction effect of sex × genotype in MS4 was significant (female × S/L: β = 1.784, SE = 0.696, 95% CI = [0.419, 3.148], χ2(2) = 8.308, p = 0.016; Figure 2C). Among males, the Friendliness score was higher in L/L groups than in other groups. On the other hand, among females, the Friendliness score was higher in S/L groups than in other groups. Sex and neutering effects were significant on Roughness, with females and neutered cats scoring higher than males and intact (not neutered) cats (sex: β = 2.266, SE = 1.344, 95% CI = [-0.368, 4.899], χ2(1) = 6.885, p = 0.009; neutering: β = 0.798, SE = 0.34, 95% CI = [0.131, 1.465], χ2(1) = 5.498, p = 0.019). We could not find any significant effect on the Neuroticism score.",
+   "zh": "我们检查了残差图和正态Q–Q图（补充图S1、S2），确认模型假设令人满意。分为3组（L/L、S/L、S/S）时，GLM分析（全部结果见补充表S1）显示开放性随年龄存在显著差异，年龄较大的猫得分低于较年轻的猫（β = -0.008，标准误（SE） = 0.002，95% Wald置信区间（CI） = [-0.012, -0.003]，χ2(1) = 12.558，p < 0.001）。性别对友好性的效应显著，母猫不如公猫友好（β = -2.251，SE = 1.333，95% CI = [-4.863, 0.361]，χ2(1) = 5.365，p = 0.021）。MS3对友好性的效应为边缘显著；S/S等位基因的猫得分倾向低于L/L和S/L等位基因的猫（图2B；β = -1.227，SE = 0.595，95% CI = [-2.393, -0.062]，χ2(2) = 4.963，p = 0.084）。此外，MS4中性别 × 基因型的交互效应显著（母猫 × S/L：β = 1.784，SE = 0.696，95% CI = [0.419, 3.148]，χ2(2) = 8.308，p = 0.016；图2C）。在公猫中，L/L组的友好性得分高于其他组。另一方面，在母猫中，S/L组的友好性得分高于其他组。性别和绝育对粗暴性的效应显著，母猫和已绝育猫的得分高于公猫和未绝育猫（性别：β = 2.266，SE = 1.344，95% CI = [-0.368, 4.899]，χ2(1) = 6.885，p = 0.009；绝育：β = 0.798，SE = 0.34，95% CI = [0.131, 1.465]，χ2(1) = 5.498，p = 0.019）。我们未发现对神经质得分有任何显著效应。",
+   "note_zh": "性别对友好性的效应报告为p = 0.021，但所给95% CI [-4.863, 0.361]跨越0；按原文保留。"
+  },
+  {
+   "section": "Discussion",
+   "section_zh": "讨论",
+   "en": "This is the first study to survey microsatellites in the adjacent region of OXTR in cats. Microsatellites in the adjacent region of OXTR have been identified as important candidate genes related to social behavior in various species. We compared (1) allele frequencies between mongrel cats and purebred cats, and (2) examined the association between genotype and personality scores in mongrel cats.",
+   "zh": "这是首个调查猫OXTR邻近区域微卫星的研究。OXTR邻近区域的微卫星已在多个物种中被确定为与社会行为相关的重要候选基因。我们（1）比较了混种猫与纯种猫的等位基因频率，并（2）考察了混种猫中基因型与个性评分之间的关联。"
+  },
+  {
+   "section": "Discussion",
+   "section_zh": "讨论",
+   "en": "First, the allele frequencies in five microsatellites were markedly different between mongrel and purebred cats. However, the test revealed significant linkage disequilibrium among almost all of the microsatellite loci, perhaps because they were located in the same gene.",
+   "zh": "首先，5个微卫星的等位基因频率在混种猫与纯种猫之间存在明显差异。然而，检验显示几乎所有微卫星位点之间均存在显著连锁不平衡，这可能是因为它们位于同一基因中。"
+  },
+  {
+   "section": "Discussion",
+   "section_zh": "讨论",
+   "en": "Second, we analyzed the association between personality scores and the length of microsatellites in mongrel cats, and one significant and one marginal significant association were found with genotypes; the length of MS3 alleles and interaction of MS4 alleles and sex were associated with Friendliness. Taken together with the first finding, mongrel cats tended to have longer alleles in MS3 and MS4 than purebred cats, and those with longer alleles scored higher on Friendliness (Figures 2B,C). Takeuchi and Mori (2009) reported that Friendliness in Japanese domestic cats (mongrel cats) scored higher than in any other purebred cats examined. Our reports were consistent with their study; however, the functional reasons for the association for MS3 and MS4 were beyond the scope of our study. Because MS3 and MS4 were highly genetically correlated when dividing alleles into L and S (Figure 2A) and the locations on OXTR were near (Figure 1), they might have shown similar effects. We also found that male cats scored higher on Friendliness than did female cats, and their scores changed depending on the length of MS4 alleles. In humans, some studies have reported sex-mediated effects of genotypes in terms of OXTR (e.g., Stankova et al., 2012), and our previous study also found sex × neutering × OXTR genotype effects on Roughness scores in cats (Arahori et al., 2016).",
+   "zh": "其次，我们分析了混种猫中个性评分与微卫星长度之间的关联，发现与基因型存在1个显著关联和1个边缘显著关联；MS3等位基因的长度以及MS4等位基因与性别的交互作用与友好性相关。结合第一项发现，混种猫在MS3和MS4上的等位基因倾向比纯种猫更长，而等位基因较长的猫友好性得分更高（图2B,C）。Takeuchi和Mori（2009）报告，日本家猫（混种猫）的友好性得分高于所考察的任何其他纯种猫。我们的报告与其研究一致；然而，MS3和MS4关联的功能原因超出了本研究的范围。由于将等位基因分为L和S时MS3与MS4在遗传上高度相关（图2A），且其在OXTR上的位置相近（图1），它们可能表现出相似的效应。我们还发现公猫的友好性得分高于母猫，且其得分随MS4等位基因长度而变化。在人类中，一些研究报告了OXTR基因型的性别介导效应（如Stankova et al., 2012），我们之前的研究也发现了性别 × 绝育 × OXTR基因型对猫粗暴性得分的效应（Arahori et al., 2016）。"
+  },
+  {
+   "section": "Discussion",
+   "section_zh": "讨论",
+   "en": "Our study had several limitations. First, our purebred samples were mainly from eastern populations, and Persian, Chinchilla, and Himalayan have a similar origin (Alhaddad et al., 2013; The Cat Fanciers’ Association, 2017). Moreover, our sample size was too small for comparison among purebred cats. For future approaches, it would be recommended to carefully select 2 or 3 cat breeds using large sample size of each, with unique and easily comparable origins and selective pressures to reveal genetic differences related to their personality. As potential candidates one could think of using the Bengal breed (Gershony et al., 2014) for example, which is a hybrid of wildcats and domestic cats, or other carefully selected breeds that have already been revealed to differ in personality from mongrel cats. Lastly, we must note that GLM analysis was conducted after recognizing the high correlation (genetic linkage) among alleles/genotypes with possibilities of multicollinearity because they were positioned within the same gene.",
+   "zh": "本研究有若干局限。首先，我们的纯种样本主要来自东方群体，且波斯猫、金吉拉猫和喜马拉雅猫的起源相似（Alhaddad et al., 2013; The Cat Fanciers' Association, 2017）。此外，我们的样本量过小，无法进行纯种猫之间的比较。对于未来的研究，建议谨慎选择2或3个猫品种，每个品种采用大样本量，且其起源和选择压力独特、易于比较，以揭示与个性相关的遗传差异。作为潜在候选，例如可考虑使用孟加拉猫品种（Gershony et al., 2014），它是野猫与家猫的杂交种，或其他已被证明在个性上与混种猫不同的精心挑选的品种。最后，我们必须指出，GLM分析是在认识到等位基因/基因型之间存在高度相关（遗传连锁）的情况下进行的，由于它们位于同一基因内，存在多重共线性的可能。"
+  },
+  {
+   "section": "Discussion",
+   "section_zh": "讨论",
+   "en": "Future studies have the potential to study other personality-related genes in cats and other felid species in terms of microsatellites. For example, AVPR1A is an important candidate gene related to social behavior in animals. In primates and prairie voles, microsatellites near (in the regulatory region of) AVPR1A are known to be related to mating systems, social organization, and sexual preferences (e.g., primates: Rosso et al., 2008; prairie voles: Castelli et al., 2011), as a result of comparing closely related species with different social systems. Only lions, cheetahs, and domestic cats are considered “social” felid species (Bradshaw, 2013), and this candidate-gene approach could reveal the AVPR1A effect.",
+   "zh": "未来的研究有可能从微卫星角度研究猫及其他猫科物种的其他个性相关基因。例如，AVPR1A是动物中与社会行为相关的重要候选基因。在灵长类和草原田鼠中，通过比较社会系统不同的近缘物种，已知AVPR1A附近（调控区内）的微卫星与交配系统、社会组织和性偏好相关（如灵长类：Rosso et al., 2008；草原田鼠：Castelli et al., 2011）。仅狮子、猎豹和家猫被认为是“社会性”猫科物种（Bradshaw, 2013），这种候选基因方法可能揭示AVPR1A的效应。"
+  },
+  {
+   "section": "Conclusion",
+   "section_zh": "结论",
+   "en": "Our study has shown polymorphisms in microsatellites in domestic cats. Associations in mongrel cats and differences in allele frequencies with purebred cats showed consistency with previous findings (Takeuchi and Mori, 2009). However, the role of microsatellites in these non-coding regions is still unclear and further research is therefore necessary, using different carefully selected breeds of cats.",
+   "zh": "我们的研究显示了家猫微卫星的多态性。混种猫中的关联以及与纯种猫的等位基因频率差异与既往研究结果一致（Takeuchi and Mori, 2009）。然而，这些非编码区微卫星的作用仍不清楚，因此有必要使用不同的、精心挑选的猫品种进行进一步研究。"
+  },
+  {
+   "section": "Ethics Statement",
+   "section_zh": "伦理声明",
+   "en": "This study adhered to the ethical guidelines of Kyoto University, and was approved by the Animal Experiments Committee of the Graduate School of Letters of Kyoto University (Approval reference number: 17-11).",
+   "zh": "本研究遵守京都大学伦理指南，并经京都大学文学研究科动物实验委员会批准（批准参考号：17-11）。"
+  },
+  {
+   "section": "Author Contributions",
+   "section_zh": "作者贡献",
+   "en": "MA designed this study, collected DNA sample and questionnaires, conducted genotyping, analyzed data, and drafted the manuscript. HA designed primers for genotyping. HC, ST, and BB contributed to data collection. MI-M and KF provided critical discussion regarding the analyses and the manuscript.",
+   "zh": "MA设计了本研究，采集了DNA样本和问卷，进行了基因分型，分析了数据，并起草了稿件。HA设计了基因分型引物。HC、ST和BB参与了数据收集。MI-M和KF就分析和稿件提供了批判性讨论。"
+  },
+  {
+   "section": "Conflict of Interest Statement",
+   "section_zh": "利益冲突声明",
+   "en": "The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.",
+   "zh": "作者声明本研究在不存在任何可能被视为潜在利益冲突的商业或财务关系的情况下进行。"
+  },
+  {
+   "section": "Figure legend",
+   "section_zh": "图注",
+   "en": "FIGURE 1 Conceptual diagram of OXTR and the locus of microsatellites in cats.",
+   "zh": "图1 猫OXTR及微卫星位点的概念示意图。"
+  },
+  {
+   "section": "Table caption",
+   "section_zh": "表题",
+   "en": "Table 1 Primer sequence used for this study.",
+   "zh": "表1 本研究使用的引物序列。"
+  },
+  {
+   "section": "Table caption",
+   "section_zh": "表题",
+   "en": "Table 2 Allele frequencies observed in Japanese mongrel cats and purebred cats.",
+   "zh": "表2 日本混种猫和纯种猫中观察到的等位基因频率。"
+  },
+  {
+   "section": "Table footnote",
+   "section_zh": "表注",
+   "en": "He represents expected heterozygosity in each population. The numbers next to each population mean allele frequencies in each allele. Underlined numbers indicate the alleles divided into L.",
+   "zh": "He表示各群体的期望杂合度。各群体旁的数字表示各等位基因的等位基因频率。下划线数字表示被划分为L的等位基因。"
+  },
+  {
+   "section": "Table caption",
+   "section_zh": "表题",
+   "en": "Table 3 Factor loadings for the questionnaire.",
+   "zh": "表3 问卷的因子载荷。"
+  },
+  {
+   "section": "Table footnote",
+   "section_zh": "表注",
+   "en": "The leftmost row represents all items used in this study. Cronbach’s alpha is shown in the bottom. The underlined values mean the item which showed both positive and negative loadings. The bold numbers indicate factor loadings of items included in each factor.",
+   "zh": "最左侧一列列出本研究使用的所有条目。Cronbach's α显示在底部。下划线数值表示同时显示正负载荷的条目。粗体数字表示各因子所含条目的因子载荷。"
+  },
+  {
+   "section": "Figure legend",
+   "section_zh": "图注",
+   "en": "FIGURE 2 The linkage of microsatellites grouped for gene-personality analysis and the gene-personality association found in this study. (A) Pairwise LD measurements and the heatmap plot of five microsatellite grouping. (B) The association between the genotypes of MS3 and “Friendliness” scores. (C) The association between sex, the genotypes of MS4 and “Friendliness” scores. The error bars represent standard errors.",
+   "zh": "图2 用于基因-个性分析的微卫星分组的连锁情况及本研究发现的基因-个性关联。（A）5个微卫星分组的两两LD测量值及热图。（B）MS3基因型与“友好性”得分之间的关联。（C）性别、MS4基因型与“友好性”得分之间的关联。误差线表示标准误。"
+  }
+ ]
+}

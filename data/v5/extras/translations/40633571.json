@@ -1,0 +1,372 @@
+{
+ "pmid": "40633571",
+ "license": "CC BY 4.0",
+ "attribution": {
+  "authors": [
+   "Attipa Charalampos",
+   "Warr Amanda S",
+   "Epaminondas Demetris",
+   "O’Shea Marie",
+   "Hanton Andrew J",
+   "Fletcher Sarah",
+   "Malbon Alexandra",
+   "Lyraki Maria",
+   "Hammond Rachael",
+   "Hardas Alexandros",
+   "Zanti Antria",
+   "Loukaidou Stavroula",
+   "Gentil Michaela",
+   "Gunn-Moore Danielle",
+   "Lycett Samantha J",
+   "Mazeri Stella",
+   "Tait-Burkard Christine"
+  ],
+  "title": "Feline infectious peritonitis epizootic caused by a recombinant coronavirus",
+  "journal": "Nature",
+  "year": "2025",
+  "doi": "10.1038/s41586-025-09340-0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "note": "中文为 AI 翻译，以英文原文为准；已对原文做翻译改编"
+ },
+ "scope_zh": "标题、主题词、摘要、正文（含讨论）、方法、致谢及资助、作者贡献、同行评审信息、利益冲突；图1–4及扩展数据图1–8图注。未含：报告摘要及在线内容指引、数据可用性声明、通讯作者联系方式、参考文献、补充材料。",
+ "paragraphs": [
+  {
+   "section": "Title",
+   "section_zh": "标题",
+   "en": "Feline infectious peritonitis epizootic caused by a recombinant coronavirus",
+   "zh": "由重组冠状病毒引起的猫传染性腹膜炎动物流行病"
+  },
+  {
+   "section": "Abstract / Keywords",
+   "section_zh": "摘要 / 关键词",
+   "en": "Subject terms: Viral transmission, Viral epidemiology, Virus structures",
+   "zh": "主题词：病毒传播，病毒流行病学，病毒结构"
+  },
+  {
+   "section": "Abstract",
+   "section_zh": "摘要",
+   "en": "The emergence of a highly pathogenic FCoV–CCoV recombinant is responsible for a rapidly spreading outbreak of feline infectious peritonitis originating in Cyprus.",
+   "zh": "一种高致病性FCoV–CCoV重组病毒的出现，是源自塞浦路斯、迅速蔓延的猫传染性腹膜炎暴发的原因。"
+  },
+  {
+   "section": "Main",
+   "section_zh": "正文",
+   "en": "After two epidemics, SARS-CoV (2002–2004) and MERS-CoV (2012–ongoing), and a pandemic of previously unseen proportions, SARS-CoV-2 (2019–onwards), CoVs no longer need lengthy introductions of importance and scale. They are not only present in the human population but also in wildlife13–15, companion animals16–19 and livestock13,20,21, and these viruses have major impacts in all species. The innate ability of CoVs to recombine with other CoVs continues to fuel their species-switching ability. It is therefore not surprising that both human and animal CoVs are linked in complex transmission and evolution cycles3,14,19,22.",
+   "zh": "在经历了SARS-CoV（2002–2004）和MERS-CoV（2012–至今）两次流行，以及规模前所未见的SARS-CoV-2（2019–至今）大流行之后，冠状病毒（CoV）的重要性和规模已无须长篇介绍。它们不仅存在于人群中，也存在于野生动物13–15、伴侣动物16–19和家畜13,20,21中，这些病毒对所有物种都有重大影响。CoV与其他CoV重组的固有能力持续推动其跨物种转换能力。因此，人类和动物CoV在复杂的传播和进化循环中相互关联也就不足为奇了3,14,19,22。"
+  },
+  {
+   "section": "Main",
+   "section_zh": "正文",
+   "en": "FCoV is found across the globe. The virus exists in two biotypes with the main biotype, feline enteric coronavirus (FECV), showing low virulence and clinical signs that are atypically limited to mild enteritis. The second biotype of FCoV, which was proposed to originate each time from a mutation in an FECV-infected cat (reviewed previously23), is known as feline infectious peritonitis virus (FIPV). FIPV causes FIP, which is a fatal disease if left untreated. Clinical signs include abdominal swelling due to peritoneal fluid, fever, weight loss, lethargy, anorexia, dyspnoea, ocular abnormalities and neurological signs8,16,24,25. Mutations in S or the accessory genes 3abc and 7ab of FCoV8,16,23,26 are thought to result in changes to the virus’s tropism from cells in the enteric tract to macrophages, resulting in the different disease presentation seen with the two biotypes. This change in primary tropism also affects the virus’s ability to transmit from cat to cat, with the main transmission pathway of FECV being faecal–oral and FIPV typically having relatively poor transmission potential. Antivirals, including remdesivir and GS-441524, have recently been successfully used to treat cats with FIP27.",
+   "zh": "FCoV遍布全球。该病毒以两种生物型存在，主要生物型猫肠道冠状病毒（FECV）毒力低，临床症状通常仅限于轻度肠炎。FCoV的第二种生物型被认为每次都源自FECV感染猫体内的突变（既往综述23），称为猫传染性腹膜炎病毒（FIPV）。FIPV引起FIP，不治疗则为致死性疾病。临床症状包括腹腔积液导致的腹部膨大、发热、体重减轻、嗜睡、厌食、呼吸困难、眼部异常和神经症状8,16,24,25。FCoV的S基因或辅助基因3abc和7ab中的突变8,16,23,26被认为导致病毒嗜性从肠道细胞转向巨噬细胞，从而导致两种生物型所见的不同疾病表现。这种主要嗜性的改变也影响病毒在猫之间的传播能力，FECV的主要传播途径是粪–口途径，而FIPV的传播潜力通常相对较差。包括remdesivir（瑞德西韦）和GS-441524在内的抗病毒药物最近已成功用于治疗FIP猫27。"
+  },
+  {
+   "section": "Main",
+   "section_zh": "正文",
+   "en": "FCoV and CCoV both belong to the Alphacoronavirus suis (previously known as Alphacoronavirus 1) species alongside the porcine transmissible gastroenteritis virus (TGEV) and, probably, the rabbit enteric coronavirus, which has never been fully sequenced28,29. Both FCoV and CCoV have evolved two different serotypes through complex recombination events between the two viruses with a suspected stepwise evolution from CCoV-2 to TGEV and the later S deletion to porcine respiratory coronavirus (PRCV)23,30. While recombination events between CCoV and FCoV have substantially contributed to the serotype evolution and have been frequently described, to date, none of them led to enhanced transmissibility of FIP beyond closest contact10,23,31,32. Similarly, recombination events have been reported between CCoV and TGEV33, the latter of which has been found to recombine with the Pedacovirus (Alphacoronavirus genus) porcine epidemic diarrhoea virus6. These observations are particularly important in view of the Alphacoronavirus-suis-related human infections recently observed19,22.",
+   "zh": "FCoV和CCoV与猪传染性胃肠炎病毒（TGEV）以及可能的兔肠道冠状病毒（从未完成全基因组测序）同属Alphacoronavirus suis（原称Alphacoronavirus 1）种28,29。FCoV和CCoV均通过两种病毒之间复杂的重组事件进化出两种不同的血清型，推测存在从CCoV-2到TGEV、再经后来的S缺失到猪呼吸道冠状病毒（PRCV）的逐步进化23,30。尽管CCoV与FCoV之间的重组事件对血清型进化有重大贡献并屡有描述，但迄今为止，没有一次导致FIP的传播性超出最密切接触范围10,23,31,32。同样，已有CCoV与TGEV之间重组事件的报道33，而TGEV已被发现与猪流行性腹泻病毒（Pedacovirus，Alphacoronavirus属）发生重组6。鉴于最近观察到的Alphacoronavirus suis相关人类感染19,22，这些观察尤为重要。"
+  },
+  {
+   "section": "Main",
+   "section_zh": "正文",
+   "en": "In 2023, we alerted the veterinary field to an outbreak of FIP in Cyprus, where there had been a concerning increase in cases11. Cases were recorded as FIP only if they had compatible clinicopathological signs and a positive test based on quantitative PCR coupled with reverse transcription (RT–qPCR) for FCoV in one of the following samples: peritoneal fluid, pleural fluid, cerebrospinal fluid, fine needle aspiration biopsies or tissue biopsies from granulomatous lesions; or positive FCoV immunohistochemistry (IHC) of granulomatous lesions. Confirmed FIP cases had increased from three and four in 2021 and 2022, respectively, to 215 cases (186 thereof in 2023) from January 2023 to June 2024, representing more than a 50-fold increase. The outbreak emerged in January 2023 in Nicosia, the capital of Cyprus. By February, the area of Nicosia recorded the peak number of cases in any district (Fig. 1a,b). By March, the outbreak had spread to all districts of the Republic of Cyprus observed and was most prevalent in Famagusta (Supplementary Tables 1–6). In June and July, a seeming decline in confirmed cases coincided with a large media awareness campaign to alert veterinarians to the spread of FIP11, probably leading to most veterinarians diagnosing cases based on clinicopathological findings without performing additional costly confirmatory tests. On 3 August 2023, the Republic of Cyprus minister’s cabinet approved the use of human CoV medication stocks in cats with FIP. For access to this medication, among others, a PCR confirmation was required, probably explaining the increased cases recorded during August 2023 (Fig. 1a,b). However, the number of unreported FIP cases in Cyprus remains very high, not least due to the high number of feral cats. Estimates from the Pancyprian Veterinary Association indicate that approximately 10,000 cases of cats presenting with clinical signs of FIP were identified in veterinary clinics alone from January 2023 to July 2023. Furthermore, in October 2023, a first imported case of FIP was confirmed in the UK34. The most common clinical form of FIP was effusive (63.72%; Fig. 1c), followed by neurological FIP (26.05%) and the non-effusive (dry) form (10.23%) (Supplementary Table 3). While the initial wave of infections appeared to slow down in August 2023, a second wave can be observed September 2023 to March 2024, with the beginning of a third wave indicated from June 2024. The only distinctive feature of the second and third waves is a higher proportion of non-effusive forms (Supplementary Tables 3–5). Possible explanations for this include an altered immune response from the host after initial seroconversion and reinfection; that the non-effusive form takes longer to develop; or that cats presenting with the non-effusive form in the early stages of the outbreaks were not diagnosed due to their less common clinical signs.",
+   "zh": "2023年，我们就塞浦路斯FIP暴发向兽医界发出警示，当时该地病例数出现令人担忧的增加11。仅当病例具有相符的临床病理学征象，并且以下样本之一的FCoV逆转录定量PCR（RT–qPCR）检测阳性时，才记录为FIP：腹腔积液、胸腔积液、脑脊液、细针抽吸活检或肉芽肿性病变组织活检；或肉芽肿性病变FCoV免疫组织化学（IHC）阳性。确诊FIP病例从2021年和2022年的分别3例和4例，增加到2023年1月至2024年6月的215例（其中186例在2023年），增幅超过50倍。暴发于2023年1月在塞浦路斯首都尼科西亚出现。到2月，尼科西亚地区记录的病例数为各区中的峰值（图1a,b）。到3月，暴发已蔓延至塞浦路斯共和国观察到的所有区，在法马古斯塔最为流行（补充表1–6）。6月和7月，确诊病例看似下降，恰逢一场提醒兽医注意FIP蔓延的大规模媒体宣传活动11，这可能导致大多数兽医根据临床病理学发现诊断病例，而不进行额外昂贵的确诊检测。2023年8月3日，塞浦路斯共和国部长内阁批准将人用CoV药物库存用于FIP猫。获取该药物需要PCR确诊等条件，这可能解释了2023年8月记录病例的增加（图1a,b）。然而，塞浦路斯未报告的FIP病例数仍然很高，尤其是由于野猫数量众多。泛塞浦路斯兽医协会（Pancyprian Veterinary Association）估计，仅2023年1月至2023年7月，兽医诊所就识别出约10,000例出现FIP临床症状的猫。此外，2023年10月，英国确诊了首例输入性FIP病例34。最常见的FIP临床类型为渗出型（63.72%；图1c），其次是神经型FIP（26.05%）和非渗出型（干性）（10.23%）（补充表3）。虽然第1波感染在2023年8月似乎放缓，但在2023年9月至2024年3月可观察到第2波，并从2024年6月起出现第3波的开端。第2波和第3波唯一的显著特征是非渗出型比例较高（补充表3–5）。可能的解释包括：宿主在初次血清转化和再感染后免疫反应改变；非渗出型需要更长时间发展；或在暴发早期表现为非渗出型的猫由于临床症状较不常见而未被诊断。"
+  },
+  {
+   "section": "Main",
+   "section_zh": "正文",
+   "en": "Where peritoneal or pleural fluid was assessed by cytology, non-degenerative neutrophils admixed with macrophages and small lymphocytes were seen in a protein rich background (Fig. 1d). In total, 17 cases were assessed by histopathology, including intestinal mass (n = 8), lymph node (n = 5) and kidney (n = 4). All showed similar histological features, with multifocal-to-coalescing, pyogranulomatous-to-necrotizing and lymphoplasmacytic inflammation (Fig. 1e). The angiocentric nature can be seen in some areas, while, in others, there is total effacement of the tissue. Immunohistology analysis of FCoV antigen demonstrated a heavy viral load within intralesional macrophages (Fig. 1e).",
+   "zh": "在对腹腔或胸腔积液进行细胞学评估时，可见富含蛋白的背景中有非退行性中性粒细胞混杂巨噬细胞和小淋巴细胞（图1d）。共有17例进行了组织病理学评估，包括肠道肿块（n = 8）、淋巴结（n = 5）和肾脏（n = 4）。所有病例均表现出相似的组织学特征，即多灶性至融合性、脓性肉芽肿性至坏死性及淋巴浆细胞性炎症（图1e）。部分区域可见以血管为中心的特征，而其他区域组织结构完全消失。FCoV抗原的免疫组织学分析显示病灶内巨噬细胞中病毒载量很高（图1e）。",
+   "note_zh": "本段称17例组织病理学评估病例（肠道肿块8、淋巴结5、肾脏4），而方法部分（第24段）称从17只非渗出型猫中选取n = 4的子集；按原文保留。"
+  },
+  {
+   "section": "Main",
+   "section_zh": "正文",
+   "en": "RNA samples were obtained from 163 confirmed FIP cases between 2021 and November 2023, representing a mixture of geographical origin, sex and clinical presentation (Supplementary Tables 7–12). There are inherent problems with obtaining sufficient read-depth with shotgun sequencing on FIPV RNA samples. The estimates of FCoV sequences versus background (feline) RNA from initial Nanopore-based cDNA sequencing made us opt for a cDNA/PCR-amplification-based Nanopore sequencing to better understand the Cypriot outbreak and to determine whether cat-to-cat transmission is occurring. An initial crude approach based on alignments of publicly available FCoV-1 and FCoV-2 sequences yielded a mixed consensus sequence for the Cypriot outbreak strain, FCoV-23. The consensus was used to design a new primer scheme for targeted amplification of FCoV-23 for Oxford Nanopore-based sequencing. This yielded a total of 20 full-length genomes, 45 partial sequences spanning a section of orf1b (~1,000 bp), 63 spanning the first part of S (~2,250 bp) and 42 spanning across orf3c/E(ORF4)/M(ORF5) (~1,000 bp) (sections indicated in grey in Fig. 2). These include samples from two cats presenting with FIP following recent import from Cyprus to the UK. Other samples were degraded or contained too few viral copies. None of the seven samples from before 2023 amplified (Supplementary Tables 13–18).",
+   "zh": "从2021年至2023年11月间的163例确诊FIP病例获得了RNA样本，涵盖不同的地理来源、性别和临床表现（补充表7–12）。对FIPV RNA样本进行鸟枪法测序时，获得足够测序深度存在固有问题。根据初步基于Nanopore的cDNA测序对FCoV序列与背景（猫）RNA的估计，我们选择了基于cDNA/PCR扩增的Nanopore测序，以更好地了解塞浦路斯暴发并确定是否存在猫与猫之间的传播。最初基于公开FCoV-1和FCoV-2序列比对的粗略方法，得到了塞浦路斯暴发株FCoV-23的混合一致序列。利用该一致序列设计了新的引物方案，用于基于Oxford Nanopore测序的FCoV-23靶向扩增。由此共获得20条全长基因组、45条跨越orf1b一段（~1,000 bp）的部分序列、63条跨越S前段（~2,250 bp）的部分序列和42条跨越orf3c/E(ORF4)/M(ORF5)（~1,000 bp）的部分序列（各区段在图2中以灰色标示）。其中包括近期从塞浦路斯输入英国后出现FIP的2只猫的样本。其他样本已降解或病毒拷贝数过少。2023年之前的7份样本均未扩增成功（补充表13–18）。"
+  },
+  {
+   "section": "Main",
+   "section_zh": "正文",
+   "en": "The partial S region sequence of the Cypriot and UK-import FCoV samples produced two distinct versions of the S sequence. BLAST was used to identify close relatives of these S sequences. One Cypriot and one UK-import sample are most closely related to an FCoV-1 (MT444152) with 79% similarity. However, the vast majority shows an S sequence identified as CCoV-2, flanked by a FCoV-1 sequence. The CCoV-2 sequence is most closely related to the NA/09 strain (JF682842), a hypervirulent pantropic canine coronavirus (pCCoV)35, at 96.5% sequence identity. Maximum-likelihood analysis found close relationships also to other pCCoV S sequences with only partial sequences available (Fig. 2 and Extended Data Fig. 1). This is probably a defining feature of the virus circulating in the outbreak in Cyprus. By contrast, maximum-likelihood trees of regions of orf1b and orf3c/E/M (Fig. 2) show clustering of all sequences with FCoV-1.",
+   "zh": "塞浦路斯和英国输入FCoV样本的部分S区序列产生了两种不同版本的S序列。使用BLAST鉴定这些S序列的近缘序列。1份塞浦路斯样本和1份英国输入样本与一株FCoV-1（MT444152）最为接近，相似度为79%。然而，绝大多数样本显示的S序列被鉴定为CCoV-2，两侧为FCoV-1序列。该CCoV-2序列与NA/09株（JF682842）最为接近，序列一致性为96.5%，后者是一种高毒力泛嗜性犬冠状病毒（pCCoV）35。最大似然分析发现其与其他仅有部分序列的pCCoV S序列也关系密切（图2及扩展数据图1）。这很可能是塞浦路斯暴发中流行病毒的决定性特征。相比之下，orf1b和orf3c/E/M区域的最大似然树（图2）显示所有序列与FCoV-1聚类。"
+  },
+  {
+   "section": "Main",
+   "section_zh": "正文",
+   "en": "A recombination analysis was carried out comparing the FCoV-23 genome using the representative full-length sequence 2-C11 Re 10276 (GenBank: PQ133182) with FCoV-1, FCoV-2 and CCoV-2 strain CB/05, as NA/09 is not available as a complete genome. Figure 3a visualizes the Bootscan36 analysis, the RDP537 analysis and the pairwise distances between the sequences. Significant P values supporting the recombination were reported based on multiple methods, as listed in Supplementary Table 19. The MaxChi38 breakpoint matrix is shown in Extended Data Fig. 3. Furthermore, a recombination analysis of a domain-0-deletion (ΔD0) FCoV-23 genome 2-F12 BW 1135 is shown in Extended Data Fig. 4. The recombination is very clear and includes a small region of the orf1b gene and the majority of S with breakpoints around location 18,420 and 23,880. Although there may be a negligible chance of a syndemic—that is, the circulation of two viruses in all of these cats at the same time—we excluded the possibility that this apparent recombination event would reflect only coinfection with two viruses and preferential amplification effects in our multiplex PCR assay by examining the relative positions of recombination breakpoints and PCR primers. Amplicons 32 and 41 in the tiled amplification scheme span the recombination breakpoints and show clear FCoV|pCCoV and pCCoV|FCoV characteristics in the individual amplicons, respectively. Figure 3b shows the historical breakpoints between FCoV-1 and CCoV-2 that created FCoV-2 alongside the recombination identified in FCoV-23.",
+   "zh": "使用代表性全长序列2-C11 Re 10276（GenBank：PQ133182），将FCoV-23基因组与FCoV-1、FCoV-2及CCoV-2 CB/05株进行了重组分析，因为NA/09没有完整基因组。图3a显示了Bootscan36分析、RDP537分析以及序列间的两两距离。多种方法均报告了支持重组的显著P值，列于补充表19。MaxChi38断点矩阵见扩展数据图3。此外，结构域0缺失（ΔD0）FCoV-23基因组2-F12 BW 1135的重组分析见扩展数据图4。重组非常明确，包括orf1b基因的一小段区域和S的大部分，断点约在位置18,420和23,880。尽管发生共流行（即两种病毒同时在所有这些猫中流行）的可能性可以忽略不计，但我们仍通过检查重组断点与PCR引物的相对位置，排除了这一明显重组事件仅反映两种病毒共感染以及我们多重PCR检测中优先扩增效应的可能性。平铺扩增方案中的扩增子32和41跨越重组断点，在各扩增子中分别显示出明确的FCoV|pCCoV和pCCoV|FCoV特征。图3b显示了产生FCoV-2的FCoV-1与CCoV-2之间的历史断点，以及在FCoV-23中鉴定出的重组。",
+   "note_zh": "本段称支持重组的P值列于补充表19，但补充表19在第28、29段为引物列表，图3图注则引用补充表21；基因组编号“2-F12 BW 1135”在其他处为“11350”；按原文保留。"
+  },
+  {
+   "section": "Main",
+   "section_zh": "正文",
+   "en": "Furthermore, Extended Data Fig. 2 shows a neighbour-joining tree for FCoV-23 along with other members of Alphacoronavirus suis and a distantly related canine respiratory coronavirus as an outgroup. The assembled genome clusters with representatives of FCoV-1, similar to the clustering of the amplicons outside of S.",
+   "zh": "此外，扩展数据图2显示了FCoV-23与Alphacoronavirus suis其他成员的邻接树，并以远缘的犬呼吸道冠状病毒作为外群。组装的基因组与FCoV-1代表株聚类，这与S以外扩增子的聚类情况相似。"
+  },
+  {
+   "section": "Main",
+   "section_zh": "正文",
+   "en": "The main determinant in disease development and transmission of FCoV-23 appears to be the S recombination. One of the main suggested determinants of biotype changes, the furin-cleavage site (FCS) at the S1–S2 interface23,26, is absent in FCoV-2 and also FCoV-23. However, we observed that the majority of samples (>90%) from cats with FIP show the ΔD0 deletion, strongly resembling the deletion observed in TGEV and PRCV (Fig. 4a). While the rest of the genome of FCoV-23 is highly conserved, the ΔD0 deletion appears to be almost cat specific (Fig. 4b). This indicates that this mutation occurs in host rather than being transmitted. However, the only two faecal samples (also affected by sampling bias; <6% of our samples are faeces derived) for which sequences could be obtained show ΔD0. An in-host mutation further raises the question of whether ΔD0 is associated with disease development. Unfortunately, all of our samples so far are from symptomatic, confirmed FIPV cases and further investigation is required to answer this question. Further analysis of ΔD0 was performed by mapping the deletion lengths onto a time-resolved phylogenetic tree using the orf1ab and orf3c/E/M sequences. The tree shows distinct geographical clades indicating clear transmission patterns of the virus following the epidemiological patterns described in Fig. 1. The spike deletion on the other hand does not show distinct evolutionary patterns supportive of in-cat recombination (Extended Data Fig. 6). Whole-genome alignments confirm the close relationship between all FCoV-23 samples with >99.35% identity over the entire genome in a ClustalW alignment including the different ΔD0 gaps, with two outliers, E8 and H9 due to poor sequence quality in these samples (larger gaps; Extended Data Fig. 7). The whole genomes are displayed in the phylogenetic context with the closest related FCoV-2 strain, UU54, pantropic CCoV CB/05 and CCoV-HuPn-2018 (Extended Data Fig. 8).",
+   "zh": "FCoV-23疾病发展和传播的主要决定因素似乎是S重组。生物型改变的主要推测决定因素之一——S1–S2交界处的弗林蛋白酶切割位点（FCS）23,26——在FCoV-2中缺失，在FCoV-23中也缺失。然而，我们观察到FIP猫的大多数样本（>90%）显示ΔD0缺失，与TGEV和PRCV中观察到的缺失极为相似（图4a）。虽然FCoV-23基因组其余部分高度保守，但ΔD0缺失似乎几乎是每只猫特有的（图4b）。这表明该突变发生在宿主体内而非经传播获得。然而，仅有的2份能获得序列的粪便样本（同样受采样偏倚影响；我们的样本中来源于粪便的<6%）显示了ΔD0。宿主内突变进一步引出ΔD0是否与疾病发展相关的问题。遗憾的是，我们迄今所有样本均来自有症状的确诊FIPV病例，需要进一步研究来回答这一问题。利用orf1ab和orf3c/E/M序列将缺失长度映射到时间校准的系统发育树上，对ΔD0进行了进一步分析。该树显示出明确的地理分支，表明病毒存在清晰的传播模式，与图1描述的流行病学模式一致。另一方面，刺突缺失并未显示出明确的进化模式，支持猫体内重组（扩展数据图6）。全基因组比对证实所有FCoV-23样本之间关系密切，在包括不同ΔD0缺口的ClustalW比对中整个基因组一致性>99.35%，有2个离群样本E8和H9，原因是这些样本序列质量较差（缺口较大；扩展数据图7）。全基因组在系统发育背景下与最近缘的FCoV-2株UU54、泛嗜性CCoV CB/05和CCoV-HuPn-2018一同展示（扩展数据图8）。",
+   "note_zh": "本段全基因组一致性为>99.35%，第16段为>99.17%；按原文保留。"
+  },
+  {
+   "section": "Main",
+   "section_zh": "正文",
+   "en": "In other CoVs, including TGEV39 and CCoV-HuPn-201840, D0 was shown to bind to sialosides. Modelling the structure of S against the closely related experimentally confirmed CCoV-HuPn-2018 S40 shows a much more compact conformation for ΔD0 S and similarity to a structural prediction based on a ‘swung out’ or a ‘proximal’ template (Fig. 4c and Extended Data Fig. 5). A number of amino acid changes were observed between ‘classical’ FECV-2 and FIPV-2 S. In particular, domains A, B and the receptor-binding domain (RBD) show a number of class-changing amino acid changes distinct from FCoV-2 S (Fig. 4a). Modelling the RBD changes against the structure highlights changes at positions 546 and 595, as well as 556, 603 and 636 as being potentially strongly influential to receptor binding properties (Fig. 4d).",
+   "zh": "在其他CoV中，包括TGEV39和CCoV-HuPn-201840，已证明D0可结合唾液酸苷。以实验证实的近缘CCoV-HuPn-2018 S40为模板对S结构建模，显示ΔD0 S构象更为紧凑，且与基于“外摆”（swung out）或“近端”（proximal）模板的结构预测相似（图4c及扩展数据图5）。在“经典”FECV-2与FIPV-2 S之间观察到若干氨基酸变化。特别是，结构域A、B和受体结合结构域（RBD）显示出若干与FCoV-2 S不同的类别改变型氨基酸变化（图4a）。将RBD变化映射到结构上，突出显示位置546和595以及556、603和636的变化可能对受体结合特性有强烈影响（图4d）。"
+  },
+  {
+   "section": "Main",
+   "section_zh": "正文",
+   "en": "Previously indicated key proteins for biotype switch S, ORF3abc and ORF37b were compared to the recently published computational analysis of mutations observed in FECV versus FIPV26. The suggested key determinant of FIPV in the FCoV-2 S, position 1404, shows a new amino acid, leucine instead of valine, in FCoV-23. However, this section of spike is derived from FCoV-1. It is therefore unclear how this recombination may impact overall functionality in the context of the rest of S being FCoV-2-like. Other positions in S show a mixture of FIPV versus FECV tendencies (Supplementary Table 23). While a new mutation was identified in ORF3a and ORF3b, no specific indications of pathogenesis could be determined (Supplementary Table 24). Similarly, in ORF7b, two new mutations were identified, but there was no indication of a link to increased pathogenesis (Supplementary Table 25).",
+   "zh": "将既往指出的生物型转换关键蛋白S、ORF3abc和ORF37b与最近发表的FECV与FIPV突变计算分析结果26进行了比较。FCoV-2 S中推测的FIPV关键决定位点1404，在FCoV-23中显示为新的氨基酸，即亮氨酸取代缬氨酸。然而，刺突的这一部分源自FCoV-1。因此，在S其余部分类似FCoV-2的背景下，这种重组如何影响整体功能尚不清楚。S的其他位置显示出FIPV与FECV倾向的混合（补充表23）。虽然在ORF3a和ORF3b中鉴定出1个新突变，但无法确定具体的致病性指征（补充表24）。同样，在ORF7b中鉴定出2个新突变，但没有迹象表明与致病性增强有关（补充表25）。"
+  },
+  {
+   "section": "Discussion",
+   "section_zh": "讨论",
+   "en": "Recombination within the Alphacoronavirus suis species has been frequently observed previously and has also given rise to the FCoV-2 serotype5,23,24 (Fig. 3b) in cats. Even complex recombination between FCoV-1 and CCoV has previously been observed10. However, here we identified a subtype of FCoV that has recombined with a hypervirulent strain of pCCoV. The recombinant, which we propose naming FCoV-23, shows clearly distinct properties from previously observed FCoV infections. The sequence similarity found between FCoV-23 and CCoV-2 is higher than would be expected without an additional, recent recombination event.",
+   "zh": "Alphacoronavirus suis种内的重组既往屡有观察，并在猫中产生了FCoV-2血清型5,23,24（图3b）。甚至FCoV-1与CCoV之间的复杂重组也曾被观察到10。然而，在此我们鉴定出一种与高毒力pCCoV株发生重组的FCoV亚型。我们建议将该重组病毒命名为FCoV-23，它显示出与既往观察到的FCoV感染明显不同的特性。FCoV-23与CCoV-2之间的序列相似度高于没有额外近期重组事件时的预期。"
+  },
+  {
+   "section": "Discussion",
+   "section_zh": "讨论",
+   "en": "Our data suggest that there is direct transmission of FCoV-23 between cats based on high sequence identity (>99.17% genome-scale including varying S-deletion length; Extended Data Figs. 7 and 8), high viral loads (RT–qPCR only) in faeces, as well as the wave-like movement of disease across the island. However, it is unclear whether this virus still needs a biotype change to result in FIP. A potential reason for differences in pathogenicity may be the acquiring of a deletion of S D0. This is observed in >90% of FIP cases studied here and in a near-host-specific pattern. More work is needed to assess the properties of ΔD0 S, as well as investigation into asymptomatic carriers. While alphacoronaviruses show great cross-neutralizing activity40, the onset of FIP appears to be rapid and shows little discrimination in the age of the infected cats, highlighting that FCoV-23 is able to circumnavigate pre-existing immunity. If a biotype change is required, it clearly happens far more frequently in FCoV-23 than any of the previously observed FCoV infections. We must therefore study FCoV-23 to gain further understanding of the FECV/FIPV change. The scale of this FIP outbreak has not been observed previously. Concerningly, Cyprus has a high population of unowned cats that are frequently relocated to other parts of Europe, and the wider world. The risk of spreading this outbreak is considerable, as evidenced by the first confirmed UK case34. To date (May 2025), we now have observed five confirmed cases of FCoV-23 in the UK: four cats imported from Cyprus and one imported cat from Greece, indicating both local spread from Cyprus to mainland Europe and we also strongly suspect underdiagnosis of FCoV-23 in the UK.",
+   "zh": "基于高序列一致性（基因组水平>99.17%，包括不同的S缺失长度；扩展数据图7和8）、粪便中高病毒载量（仅RT–qPCR），以及疾病在全岛呈波浪式移动，我们的数据提示FCoV-23在猫之间存在直接传播。然而，尚不清楚该病毒是否仍需生物型改变才能导致FIP。致病性差异的一个潜在原因可能是获得了S D0缺失。在本研究的FIP病例中，>90%观察到该缺失，且呈近乎宿主特异的模式。需要更多工作来评估ΔD0 S的特性，并研究无症状携带者。虽然α冠状病毒显示出很强的交叉中和活性40，但FIP的发病似乎很快，且对感染猫的年龄几乎没有选择性，突显FCoV-23能够绕过既有免疫。如果需要生物型改变，那么它在FCoV-23中发生的频率显然远高于既往观察到的任何FCoV感染。因此，我们必须研究FCoV-23，以进一步了解FECV/FIPV的转变。此次FIP暴发的规模前所未见。令人担忧的是，塞浦路斯有大量无主猫，它们经常被转移到欧洲其他地区及世界各地。此次暴发扩散的风险相当大，首例英国确诊病例即为明证34。迄今（2025年5月），我们已在英国观察到5例确诊FCoV-23病例：4只从塞浦路斯输入的猫和1只从希腊输入的猫，表明病毒已从塞浦路斯局部扩散至欧洲大陆，我们也强烈怀疑FCoV-23在英国存在漏诊。"
+  },
+  {
+   "section": "Discussion",
+   "section_zh": "讨论",
+   "en": "CCoV infections in dogs are typically self-limiting, producing mild enteritis or presenting asymptomatically. Previous work on the FCoV-23 close-relative strains, CCoV NA/09 and CB/05, found that the virus was hypervirulent and infected a range of organs in canine hosts. CCoV typically infects cells of the enteric tract, but pCCoVs were shown to spread to a range of internal organs, including intestine, lung, spleen, liver, kidney, lymph nodes, brain and even T and B cells35,41–43. CB/05 has also been identified as responsible for small outbreaks41.",
+   "zh": "犬的CCoV感染通常为自限性，引起轻度肠炎或无症状。既往对FCoV-23近缘株CCoV NA/09和CB/05的研究发现，该病毒具有高毒力，可感染犬宿主的多种器官。CCoV通常感染肠道细胞，但已证明pCCoV可扩散至多种内脏器官，包括肠、肺、脾、肝、肾、淋巴结、脑，甚至T细胞和B细胞35,41–43。CB/05也被确定为小规模暴发的原因41。"
+  },
+  {
+   "section": "Discussion",
+   "section_zh": "讨论",
+   "en": "The clinical signs of FCoV-23 are similar to those observed in classical FIP cases. However, FIP infection itself already shows a strong pantropism, affecting many organs in infected cats25. The high number of FCoV-23-positive cells observed in IHC samples is notable (Fig. 1c). This is indicative of high viral loads, but must be validated through quantification. Furthermore, a relatively high percentage (Supplementary Table 4) of confirmed cases in Cyprus presented with neurological signs (26%), which is almost double of what would be expected with classical FIP (14%)27. This may be due to increased awareness of presentation or be inherent to FCoV-23 neurotropism; however, further investigation is required.",
+   "zh": "FCoV-23的临床症状与经典FIP病例所见相似。然而，FIP感染本身已表现出很强的泛嗜性，影响感染猫的许多器官25。IHC样本中观察到的FCoV-23阳性细胞数量众多，值得注意（图1c）。这提示病毒载量高，但必须通过定量加以验证。此外，塞浦路斯确诊病例中出现神经症状的比例相对较高（补充表4）（26%），几乎是经典FIP预期比例（14%）的2倍27。这可能是由于对该表现的认识提高，或是FCoV-23固有的神经嗜性所致；然而，需要进一步研究。",
+   "note_zh": "IHC阳性细胞引用“图1c”，但图1c为临床表现照片，IHC见图1e；按原文保留。"
+  },
+  {
+   "section": "Discussion",
+   "section_zh": "讨论",
+   "en": "Substantial changes in the S protein in FCoV-23 may provide some clues as to the enhanced pathogenicity of this virus. FCoV-23, like other FCoV-2s and CCoV-2, does not contain an FCS at the S1/S2, and the related virus CCoV-HuPn-2018 was experimentally found to be uncleaved40. Uncleaved S has been shown to be more stable than cleaved S and could enhance faecal shedding and stability in the environment44. Conversely, the cleavage at S1/S2 may facilitate the movement of the N-terminal domains and allow the RBD to adopt the receptor-binding-competent form. However, the deletion of D0 may compensate for the increased rigidity. While a similar deletion between TGEV and PRCV was initially indicated as the determinant between a primarily enteric and primarily respiratory tropism, respectively45,46, a recent study shows a different result in vivo47. Sialoside binding is an important feature of CoV infections and may contribute to intracellular spread48. It is therefore surprising that FCoV-23 loses the sialoside-binding D0. However, while binding to sialosides can enhance virus attachment and entry into host cells, binding to sugars can lead to increased retention of virus on producer cells. While some viruses, like influenza, solve this issue by encoding their own sugar-cleaving enzyme, neuraminidase, CoVs must find a balance through modifying glycoprotein binding49. Losing D0 could therefore be a trade-off to enhance virus release. This may be compensated by the enhanced flexibility of S and increased binding efficiency at the RBD through mutation. These are manifold in the FCoV-23 pCCoV recombinant and in particular mutations at position 546 (already possibly associated with FIP) and 595 are likely to have a strong impact on aminopeptidase N receptor binding (Fig. 4c).",
+   "zh": "FCoV-23中S蛋白的重大变化可能为该病毒致病性增强提供一些线索。FCoV-23与其他FCoV-2和CCoV-2一样，在S1/S2处不含FCS，而相关病毒CCoV-HuPn-2018经实验发现未被切割40。已证明未切割的S比切割的S更稳定，可能增强粪便排毒和在环境中的稳定性44。相反，S1/S2处的切割可能促进N端结构域的移动，使RBD采取能够结合受体的构象。然而，D0的缺失可能补偿了刚性的增加。虽然TGEV与PRCV之间的类似缺失最初被认为分别是主要肠道嗜性与主要呼吸道嗜性的决定因素45,46，但最近一项研究在体内显示了不同的结果47。唾液酸苷结合是CoV感染的重要特征，可能有助于细胞间扩散48。因此，FCoV-23丢失结合唾液酸苷的D0令人惊讶。然而，虽然结合唾液酸苷可增强病毒对宿主细胞的附着和进入，但与糖类结合可能导致病毒更多地滞留在产生病毒的细胞上。一些病毒（如流感病毒）通过编码自身的糖切割酶——神经氨酸酶——来解决这一问题，而CoV必须通过修饰糖蛋白结合来寻求平衡49。因此，丢失D0可能是为增强病毒释放而做出的权衡。这可能由S柔性的增强以及RBD通过突变提高的结合效率所补偿。这些突变在FCoV-23 pCCoV重组病毒中多种多样，特别是位置546（可能已与FIP相关）和595的突变很可能对氨基肽酶N受体结合有强烈影响（图4c）。",
+   "note_zh": "RBD受体结合位点546和595的影响引用“图4c”，而第13段及图4图注均对应图4d；按原文保留。"
+  },
+  {
+   "section": "Discussion",
+   "section_zh": "讨论",
+   "en": "Recombination between FCoV-1 and pCCoVs is not surprising in that (1) such recombinations have been observed previously and (2) pCCoVs have evolved in Greece and south eastern Europe35,42. However, the emergence of pCCoV in Greece happened over 1 year ago, so the question as to why this happened now is unclear. One possible explanation is the ‘right mutation, right time, right place’ theory. Recombination between feline and canine CoVs happen frequently but, as previous reports show, they rarely spread. Introduction of a more successful, spreading variant to a dense population, like the cats in Cyprus, may be sufficient to allow this virus to cause an outbreak. However, the acquisition of a likely in-host deletion adds a further level of concern to CoV evolution. These viruses already show a mutation rate similar to influenza viruses (despite proofreading)50, high prevalence for recombination51 and, here, we showed that they are able to acquire substantial in-host insertion–deletion mutations that may completely change their cell binding properties and tropism.",
+   "zh": "FCoV-1与pCCoV之间的重组并不令人意外，因为（1）此类重组既往已有观察，且（2）pCCoV在希腊和东南欧进化35,42。然而，pCCoV在希腊出现已超过1年，因此为何现在才发生这一问题尚不清楚。一种可能的解释是“对的突变、对的时间、对的地点”理论。猫和犬CoV之间的重组经常发生，但如既往报告所示，它们很少扩散。将一种更成功、更易扩散的变异株引入密集群体（如塞浦路斯的猫），可能足以使该病毒引起暴发。然而，获得一种很可能在宿主内发生的缺失，为CoV进化增添了更深一层的担忧。这些病毒（尽管有校对功能）已显示出与流感病毒相似的突变率50、高重组发生率51，而在此我们显示它们能够获得大量宿主内插入–缺失突变，可能彻底改变其细胞结合特性和嗜性。"
+  },
+  {
+   "section": "Discussion",
+   "section_zh": "讨论",
+   "en": "This paper reports the emergence of a new Alphacoronavirus suis feline/canine coronavirus that shows high spreading potential with the associated pathology of lethal FIP if left untreated. Further investigations into the properties of this virus are now essential. While antiviral agents including GS-441524 and molnupiravir were successfully used to treat many cats affected by FCoV-23, early treatment is essential but the associated costs can be prohibitive. Prevention of spread and the development of vaccines are important to stop this epizootic virus from spreading beyond Cyprus.",
+   "zh": "本文报告了一种新的Alphacoronavirus suis猫/犬冠状病毒的出现，该病毒显示出很高的传播潜力，并伴有不治疗即致死的FIP相关病理。现在必须进一步研究该病毒的特性。虽然包括GS-441524和molnupiravir（莫努匹韦）在内的抗病毒药物已成功用于治疗许多感染FCoV-23的猫，但早期治疗至关重要，而相关费用可能令人望而却步。防止传播和开发疫苗对于阻止这种动物流行病毒扩散到塞浦路斯以外至关重要。"
+  },
+  {
+   "section": "Methods / Enrolment of FIP cases in Cyprus",
+   "section_zh": "方法 / 塞浦路斯FIP病例入组",
+   "en": "The electronic records of Vet Dia Gnosis in Limassol, Cyprus (at present, the only Veterinary diagnostics laboratory on the island), were searched for any positive FCoV RT–qPCR or IHC cases from September 2021 up to June 2024. The cases to be enrolled needed to have compatible clinicopathological findings for FIP as recently outlined by the European Advisory Board on Cat Diseases Guidelines25 as well having a positive FCoV IHC (on tissue biopsies with granulomatous lesions) or a positive RT–PCR for FCoV in one of the following samples: peritoneal fluid, pleural fluid, cerebrospinal fluid and granuloma fine needle aspiration biopsies or tissue biopsies. The original samples were submitted to the Vet Dia Gnosis commercial laboratory (Limassol, Cyprus) by local veterinarians and were then submitted to the Laboklin commercial laboratory. Ethical approval for this study was granted by the Pancyprian Vet Association. According to the terms and conditions of the Vet Dia Gnosis, as well as the Cypriot legislation (The Dogs LAW, N. 184 (I)/2002), no special permission from animal owners or the animal welfare commission is needed for additional testing on residual sample material once diagnostics are completed. According to the terms and conditions of the Laboklin laboratory, as well as the RUF-55.2.2.2532-1-86-5 decision of the government of Lower Franconia, no special permission from animal owners or the animal welfare commission is needed for additional testing on residual sample material once diagnostics are completed. The study was also approved by the Veterinary Ethical Review Committee, The Royal (Dick) School of Veterinary Studies (R(D)SVS), The University of Edinburgh (VERC reference: 233.23).",
+   "zh": "检索了塞浦路斯利马索尔Vet Dia Gnosis（目前岛上唯一的兽医诊断实验室）2021年9月至2024年6月的电子记录，查找任何FCoV RT–qPCR或IHC阳性病例。入组病例需具有欧洲猫病咨询委员会（European Advisory Board on Cat Diseases）指南最近概述的与FIP相符的临床病理学发现25，以及FCoV IHC阳性（在有肉芽肿性病变的组织活检上）或以下样本之一的FCoV RT–PCR阳性：腹腔积液、胸腔积液、脑脊液和肉芽肿细针抽吸活检或组织活检。原始样本由当地兽医提交至Vet Dia Gnosis商业实验室（Limassol, Cyprus），随后提交至Laboklin商业实验室。本研究获得泛塞浦路斯兽医协会的伦理批准。根据Vet Dia Gnosis的条款和条件以及塞浦路斯法律（The Dogs LAW, N. 184 (I)/2002），诊断完成后对剩余样本材料进行额外检测，无须获得动物主人或动物福利委员会的特别许可。根据Laboklin实验室的条款和条件以及下弗兰肯政府的RUF-55.2.2.2532-1-86-5决定，诊断完成后对剩余样本材料进行额外检测，无须获得动物主人或动物福利委员会的特别许可。本研究还获得爱丁堡大学皇家（迪克）兽医学院（R(D)SVS）兽医伦理审查委员会批准（VERC参考号：233.23）。"
+  },
+  {
+   "section": "Methods / Sample from cats imported to the UK",
+   "section_zh": "方法 / 输入英国猫的样本",
+   "en": "Two UK veterinary practices contacted the R(D)SVS with suspected cases of FIP in cats recently imported from Cyprus. Peritoneal fluid samples were taken from the cats and sent to R(D)SVS for further testing and for sequencing at The Roslin Institute with the consent of the cats’ owners. The veterinary practices and the cats’ owners were kept informed at all stages.",
+   "zh": "英国2家兽医诊所就近期从塞浦路斯输入的猫疑似FIP病例联系了R(D)SVS。经猫主人同意，从猫采集腹腔积液样本并送至R(D)SVS进一步检测，并在罗斯林研究所（The Roslin Institute）进行测序。兽医诊所和猫主人在各阶段均获告知。"
+  },
+  {
+   "section": "Methods / Histopathology and IHC",
+   "section_zh": "方法 / 组织病理学和IHC",
+   "en": "A subset of cases (n = 4) from 17 non-effusive (dry) FIP cats diagnosed after January 2023 with available tissue specimens was selected. Tissue specimens were carefully obtained and immediately fixed in 10% buffered formalin. After fixation, the tissues were processed by embedding, 4 μm sectioning and subsequent staining with haematoxylin and eosin (H&E). The inclusion criteria were defined based on comprehensive histopathological assessments. Specifically, emphasis was placed on identifying the characteristic FIP-associated histological hallmarks, which encompassed vasculitis, phlebitis and periphlebitis. Consecutive tissue sections were mounted onto charged slides. After pretreatment for 5 min at 110 °C in 0.01 M pH 6 citrate buffer, the slides were incubated for 30 min at room temperature with primary mouse monoclonal anti-feline coronavirus antibodies at 1:400 (Bio-Rad, MCA 2194). The EnVision anti-mouse system was used for visualization according to the manufacturer’s instructions (Agilent).",
+   "zh": "从2023年1月后诊断、有可用组织样本的17只非渗出型（干性）FIP猫中选取了一个病例子集（n = 4）。仔细采集组织样本并立即用10%缓冲福尔马林固定。固定后，组织经包埋、4 μm切片，随后进行苏木精-伊红（H&E）染色。纳入标准基于全面的组织病理学评估确定。具体而言，重点在于识别FIP相关的特征性组织学标志，包括血管炎、静脉炎和静脉周围炎。连续组织切片贴于带电荷玻片上。在0.01 M pH 6柠檬酸缓冲液中110 °C预处理5 min后，玻片在室温下与1:400稀释的小鼠单克隆抗猫冠状病毒一抗（Bio-Rad, MCA 2194）孵育30 min。按照厂商说明使用EnVision抗小鼠系统进行显色（Agilent）。"
+  },
+  {
+   "section": "Methods / RNA extraction and cDNA synthesis",
+   "section_zh": "方法 / RNA提取和cDNA合成",
+   "en": "RNA from specimens from Cyprus underwent automated total nucleic acid extraction using the MagNA Pure 96 DNA AND Viral NA Small Volume kit (Roche Diagnostics). RT–PCR for FCoV was performed at Laboklin52.",
+   "zh": "来自塞浦路斯的样本RNA使用MagNA Pure 96 DNA AND Viral NA Small Volume试剂盒（Roche Diagnostics）进行自动化总核酸提取。FCoV RT–PCR在Laboklin进行52。"
+  },
+  {
+   "section": "Methods / RNA extraction and cDNA synthesis",
+   "section_zh": "方法 / RNA提取和cDNA合成",
+   "en": "RNA samples from cats imported to the UK from Cyprus were extracted using the QIAamp viral RNA extraction kit (Qiagen) according to the manufacturer’s instructions.",
+   "zh": "从塞浦路斯输入英国的猫的RNA样本使用QIAamp病毒RNA提取试剂盒（Qiagen）按照厂商说明提取。"
+  },
+  {
+   "section": "Methods / RNA extraction and cDNA synthesis",
+   "section_zh": "方法 / RNA提取和cDNA合成",
+   "en": "cDNA synthesis for all RNA samples was performed using LunaScript RT SuperMix Kit (NEB) with 16 µl template RNA in 20 µl reactions according to the manufacturer’s instructions.",
+   "zh": "所有RNA样本的cDNA合成均使用LunaScript RT SuperMix试剂盒（NEB），按照厂商说明以16 µl模板RNA在20 µl反应体系中进行。"
+  },
+  {
+   "section": "Methods / Primer design and PCR amplification",
+   "section_zh": "方法 / 引物设计和PCR扩增",
+   "en": "A set of primers for 1 kb/100 bp overlap tiled amplification were initially designed with available FCoV genomes on NCBI53 using primalscheme54, and by manual redesign (Supplementary Table 19). These were used to generate a composite representative FCoV-23 genome. Using this genome, a new, 800 bp/80 bp overlap primer scheme was generated to sequence FCoV-23. A list of the primer sequences used here is provided in Supplementary Table 20. The PCR reactions for these multiplexed amplifications were performed using the same conditions as described below, but with multiplexed primers.",
+   "zh": "最初使用primalscheme54，基于NCBI53上可用的FCoV基因组并经人工重新设计，设计了一套1 kb/100 bp重叠的平铺扩增引物（补充表19）。这些引物用于生成一个复合代表性FCoV-23基因组。利用该基因组，生成了新的800 bp/80 bp重叠引物方案用于FCoV-23测序。此处所用引物序列列于补充表20。这些多重扩增的PCR反应采用下文所述的相同条件进行，但使用多重引物。"
+  },
+  {
+   "section": "Methods / Primer design and PCR amplification",
+   "section_zh": "方法 / 引物设计和PCR扩增",
+   "en": "For a subset of samples, DNA was amplified using primers only targeting parts of spike, orf1b and orf3c/E/M. A list of these primers is provided in the first four rows of Supplementary Table 19.",
+   "zh": "对于一部分样本，使用仅针对刺突、orf1b和orf3c/E/M部分区域的引物扩增DNA。这些引物列于补充表19的前4行。"
+  },
+  {
+   "section": "Methods / Primer design and PCR amplification",
+   "section_zh": "方法 / 引物设计和PCR扩增",
+   "en": "cDNA synthesis was performed using the LunaScript reverse transcriptase supermix (NEB) followed by PCR amplification with Q5 (NEB). We used 1.25 μl 10 μM forward and reverse primers and 3 μl cDNA in a 25 μl reaction. Amplification was performed under the following PCR conditions: initial denaturation at 98 °C for 30 s, 40 cycles of denaturation at 98 °C for 10 s, annealing and extension at 65 °C for 4 min, followed by a final extension at 65 °C for 5 min. Amplified DNA was purified using AMPure XP beads (Beckman Coulter).",
+   "zh": "使用LunaScript逆转录酶预混液（NEB）进行cDNA合成，随后用Q5（NEB）进行PCR扩增。在25 μl反应中使用1.25 μl 10 μM正向和反向引物以及3 μl cDNA。扩增按以下PCR条件进行：98 °C初始变性30 s，40个循环（98 °C变性10 s，65 °C退火和延伸4 min），最后65 °C延伸5 min。扩增的DNA使用AMPure XP磁珠（Beckman Coulter）纯化。"
+  },
+  {
+   "section": "Methods / Nanopore sequencing",
+   "section_zh": "方法 / Nanopore测序",
+   "en": "Amplicons were quantified using Qubit (Thermo Fisher Scientific) high-sensitivity assays and diluted to 150 ng DNA per sample in 12 μl nuclease-free water. Libraries were prepared using the Oxford Nanopore Technologies’ (ONT) NBD112.96 ligation kit according to the manufacturer’s protocol for amplicon sequencing with some modifications. Owing to an unavailability of the NBD112.96 kit reagent AMII H, after ligation of barcodes, a second end-prep was performed using the Ultra II End Repair module (NEB). The rest of the protocol was carried out from the adapter ligation stage according to the manufacturer’s protocol for LSK112 using the AMX-F adapter supplied in the early-access Q20+ version of kit 112. The library was loaded onto the MinION R10.4 flow cell and sequencing was performed on a GridION sequencing device.",
+   "zh": "使用Qubit（Thermo Fisher Scientific）高灵敏度检测对扩增子定量，并在12 μl无核酸酶水中将每个样本稀释至150 ng DNA。按照厂商扩增子测序方案并作部分修改，使用Oxford Nanopore Technologies（ONT）NBD112.96连接试剂盒制备文库。由于无法获得NBD112.96试剂盒试剂AMII H，在连接条形码后，使用Ultra II End Repair模块（NEB）进行了第2次末端修复。方案其余部分从接头连接阶段起按照厂商LSK112方案进行，使用112试剂盒早期试用Q20+版本中提供的AMX-F接头。文库加载到MinION R10.4流动槽上，在GridION测序设备上进行测序。"
+  },
+  {
+   "section": "Methods / Nanopore sequencing",
+   "section_zh": "方法 / Nanopore测序",
+   "en": "To identify the virus present in one of the UK cases as quickly as possible, only the spike amplicon was amplified and the sample was sequenced using the ONT RAD004 rapid sequencing kit on an R9.4 flow cell according to the manufacturer’s protocol. The other UK case was amplified at an earlier time and was included in a sequencing run with the Cypriot samples; the data from that sample were treated in the same manner as the Cypriot samples, and that sample was later found to have the non-recombinant FCoV-1 spike.",
+   "zh": "为尽快鉴定其中1例英国病例中存在的病毒，仅扩增了刺突扩增子，并按照厂商方案使用ONT RAD004快速测序试剂盒在R9.4流动槽上对该样本测序。另1例英国病例在较早时间扩增，并纳入与塞浦路斯样本同批测序；该样本数据与塞浦路斯样本采用相同方式处理，后来发现该样本具有非重组的FCoV-1刺突。"
+  },
+  {
+   "section": "Methods / Bioinformatic analysis",
+   "section_zh": "方法 / 生物信息学分析",
+   "en": "Basecalling and demultiplexing was performed on the GridION sequencing device (ONT) using Guppy (v.2.24-r1122) in super-accurate mode, specifying --require_barcodes_both_ends and using the appropriate super-accurate basecalling models for each of the different sequencing methods used. For the spike amplicons, after basecalling, amplicon_sorter55 (v.2023-06-19) was used to identify consensus amplicons between 3 kb and 5 kb without using a reference. Spike amplicons were identified from the output through alignment with minimap256 (v.2.22) to the spike from the first sample we sequenced (1-G7_Gi_6739) for which a consensus was made using the same process, with the correct amplicon identified by BLAST57. The identified amplicons were polished with medaka (v.1.8.0, ONT). For the UK case that was sequenced using the rapid kit, because the reads were fragmented by the library preparation process, reads were used to polish the 1-G7_Gi_6739 sequence using medaka. The reads were aligned to the polished sequence with minimap2 and visualized using IGV58 (v.2.11.1) to visually confirm the reads supported the consensus sequence and confirm that it had not been biased by the reference used. The amplicons in POL1ab and ORF3c/E/M were assembled and polished using LILO59. Multisequence alignments were carried out for each of the regions using mafft60 (v.7.49) against all complete genomes of CCoV and FCoV genomes available on NCBI using the --adjustdirection flag. Alignments were visualized in Mega761. All downloaded genomes were trimmed down to each of the target regions amplified from our samples. Maximum-likelihood trees were constructed using IQ-TREE62 (v.2.0.5). TempEst63 (v.1.5.3) was used to determine the best-fitting root for the trees, and visualizations and annotations of the trees were done using iTOL64 (v.6.8.1).",
+   "zh": "碱基识别和样本拆分在GridION测序设备（ONT）上使用Guppy（v.2.24-r1122）超高准确度模式进行，指定--require_barcodes_both_ends，并针对所用的不同测序方法分别使用相应的超高准确度碱基识别模型。对于刺突扩增子，碱基识别后使用amplicon_sorter55（v.2023-06-19）在不使用参考序列的情况下识别3 kb至5 kb之间的一致扩增子。通过minimap256（v.2.22）将输出与我们测序的第1个样本（1-G7_Gi_6739）的刺突比对来识别刺突扩增子，该样本的一致序列采用相同流程生成，并通过BLAST57识别正确的扩增子。识别出的扩增子使用medaka（v.1.8.0, ONT）进行校正。对于使用快速试剂盒测序的英国病例，由于读段在文库制备过程中被片段化，使用这些读段通过medaka校正1-G7_Gi_6739序列。将读段用minimap2比对到校正后的序列，并用IGV58（v.2.11.1）可视化，以目视确认读段支持一致序列，并确认其未受所用参考序列的偏倚。POL1ab和ORF3c/E/M中的扩增子使用LILO59进行组装和校正。使用mafft60（v.7.49）并加--adjustdirection参数，将各区域与NCBI上所有CCoV和FCoV完整基因组进行多序列比对。比对结果在Mega761中可视化。所有下载的基因组均被修剪至从我们样本中扩增的各目标区域。使用IQ-TREE62（v.2.0.5）构建最大似然树。使用TempEst63（v.1.5.3）确定树的最佳拟合根，树的可视化和注释使用iTOL64（v.6.8.1）完成。"
+  },
+  {
+   "section": "Methods / Bioinformatic analysis",
+   "section_zh": "方法 / 生物信息学分析",
+   "en": "To assemble a representative genome for the population, the combined reads of several samples for which we had sequencing data were run through LILO. The polished amplicons were mapped to a single fasta file containing an FCoV-1 (MT239440.1) and a CCoV-2 (KP981644.1) using minimap2 and visualized with IGV, with only the amplicons from the spike region aligning to CCoV-2. Representative amplicons covering the entire genome were selected and scaffolded using scaffold_builder65 with MT239440.1 as a reference. The raw reads were trimmed by 50 bp to remove adapters and barcodes and they were used to polish this scaffold using medaka. Mafft was used to align this genome to representative genomes from Alphacoronavirus 1 with canine respiratory coronavirus as an outgroup, and Mega7 was used to create a neighbour join tree, which was visualized and annotated with iTOL.",
+   "zh": "为组装群体的代表性基因组，将我们拥有测序数据的若干样本的合并读段输入LILO。使用minimap2将校正后的扩增子映射到一个包含FCoV-1（MT239440.1）和CCoV-2（KP981644.1）的fasta文件，并用IGV可视化，仅刺突区域的扩增子比对到CCoV-2。选取覆盖整个基因组的代表性扩增子，以MT239440.1为参考，使用scaffold_builder65搭建支架。原始读段修剪50 bp以去除接头和条形码，并用于通过medaka校正该支架。使用Mafft将该基因组与Alphacoronavirus 1的代表性基因组比对，以犬呼吸道冠状病毒为外群，并使用Mega7构建邻接树，用iTOL可视化和注释。"
+  },
+  {
+   "section": "Methods / Bioinformatic analysis",
+   "section_zh": "方法 / 生物信息学分析",
+   "en": "Having assembled a representative genome, primers were redesigned to include ambiguous bases that supported the sequence in the representative genome, and these are the primers that were used to amplify 800 bp tiled amplicons for individual Cypriot samples. The Cypriot samples were assembled using LILO, with the representative genome as the reference. Assembled genomes had their reads aligned back to them using minimap2 and were visualized with IGV. Each genome was visually inspected for errors and corrections made, primarily where primer sequences had been incorrectly incorporated. Where there were gaps in these genomes, and there were reads that spanned the gap but did not reach the depth threshold for LILO, reads were extracted and amplicon_sorter was used to attempt to create a consensus for the missing amplicon. These amplicons were carefully visually inspected for errors before being incorporated into the assembly to close gaps using scaffold_builder. Multisequence alignments between the population level representative genome. a sample without a spike D0 deletion (2-C11_Re_10276, PQ133182) and a sample with a D0 deletion (2-F12_Bl_11350, PQ133177) against MT239440.1, LC742526.1 and KP981644.1 was carried out using ClustalW66 in Mega7, and recombination analyses carried out using RDP537 (v.5.45) with the default settings.",
+   "zh": "组装出代表性基因组后，重新设计了引物，加入支持代表性基因组序列的简并碱基，这些引物用于对单个塞浦路斯样本扩增800 bp平铺扩增子。塞浦路斯样本以代表性基因组为参考使用LILO组装。将读段用minimap2比对回组装的基因组，并用IGV可视化。目视检查每个基因组的错误并进行校正，主要是引物序列被错误纳入之处。若这些基因组存在缺口，且有读段跨越缺口但未达到LILO的深度阈值，则提取读段并使用amplicon_sorter尝试为缺失的扩增子生成一致序列。这些扩增子在用scaffold_builder纳入组装以填补缺口之前，经过仔细的目视错误检查。在Mega7中使用ClustalW66，将群体水平代表性基因组、1个无刺突D0缺失的样本（2-C11_Re_10276, PQ133182）和1个有D0缺失的样本（2-F12_Bl_11350, PQ133177）与MT239440.1、LC742526.1和KP981644.1进行多序列比对，并使用RDP537（v.5.45）以默认设置进行重组分析。"
+  },
+  {
+   "section": "Methods / Bioinformatic analysis",
+   "section_zh": "方法 / 生物信息学分析",
+   "en": "A list of all (near) complete genome sequences generated in this study is provided in Supplementary Table 26.",
+   "zh": "本研究生成的所有（近）完整基因组序列列表见补充表26。"
+  },
+  {
+   "section": "Methods / Structure prediction of spike deletion variants",
+   "section_zh": "方法 / 刺突缺失变异的结构预测",
+   "en": "SWISS-MODEL structure prediction and analysis (https://swissmodel.expasy.org/, accessed October 2023)67 were used to model the partial, high-confidence N-terminal sequence of a full-length spike (1008 amino acids) and a deletion spike (797 amino acids). To model the G8 Cypriot full-length spike, we used the Alphacoronavirus 1 experimentally resolved CCoV-HuPn-201840 structure as a template. Modelling against the 7usa.1.a, swung out confirmation, yielded a GMQE of 0.60 and a global QMEAND of 0.68 ± 0.05, with a sequence identity of 88.97%; and against 7us6.1.A, proximal confirmation, yielded a GMQE of 0.62 and global QMEAND of 0.58 ± 0.05, with a sequence identity of 81.03%. Modelling of C10 spike, C-terminal deletion, against 7usa.1.A, swung out confirmation, yielded a GMQE of 0.74 and a hlobal QMEAND of 0.69 ± 0.05, with a sequence identity of 88.66%; and against 7us6.1.A, proximal confirmation of HuPN, yielded a GMQE of 0.76 and a global QMEAND of 0.70 ± 0.05, with a sequence identity of 88.42%.",
+   "zh": "使用SWISS-MODEL结构预测与分析（https://swissmodel.expasy.org/，访问于2023年10月）67，对全长刺突（1008个氨基酸）和缺失刺突（797个氨基酸）的部分高置信度N端序列进行建模。为对G8塞浦路斯全长刺突建模，我们使用Alphacoronavirus 1实验解析的CCoV-HuPn-201840结构作为模板。以7usa.1.a（外摆构象）为模板建模，得到GMQE为0.60，全局QMEAND为0.68 ± 0.05，序列一致性为88.97%；以7us6.1.A（近端构象）为模板，得到GMQE为0.62，全局QMEAND为0.58 ± 0.05，序列一致性为81.03%。C10刺突（C端缺失）以7usa.1.A（外摆构象）为模板建模，得到GMQE为0.74，全局QMEAND为0.69 ± 0.05，序列一致性为88.66%；以7us6.1.A（HuPN近端构象）为模板，得到GMQE为0.76，全局QMEAND为0.70 ± 0.05，序列一致性为88.42%。"
+  },
+  {
+   "section": "Methods / Structure prediction of spike deletion variants",
+   "section_zh": "方法 / 刺突缺失变异的结构预测",
+   "en": "The RBD was modelled using the 7u0I.1B structure, again CCoV-HuPn-201840 complexed with canine APN as a template. The GMQE was 0.89 and the global QMEAND was 0.85 ± 0.07, with a sequence identity of 92.41%. PDB files are available reposited at Zenodo68 (10.5281/zenodo.15488938).",
+   "zh": "RBD以7u0I.1B结构（同样是CCoV-HuPn-201840与犬APN的复合物）为模板建模。GMQE为0.89，全局QMEAND为0.85 ± 0.07，序列一致性为92.41%。PDB文件存放于Zenodo68（10.5281/zenodo.15488938）。",
+   "note_zh": "RBD模板此处为“7u0I.1B”，图4图注为“7u8I.1.B”；按原文保留。"
+  },
+  {
+   "section": "Acknowledgements",
+   "section_zh": "致谢",
+   "en": "We thank the members of the Pancyprian Veterinary Association and all of the veterinarians in Cyprus for sample submission. This work was supported by EveryCat Health Foundation award number EC23-OC1 (C.A., D.G.-M., C.T.-B.), Morris Animal Foundation/Every Cat Foundation ‘FCoV-23 Centre of Excellence’ award numbers DE25FE-705 and DE25FE-705 (C.T.-B.), Vet Dia Gnosis (C.A.), as well as the BBSRC Institute Strategic Programme grant funding to the Roslin Institute BBS/E/RL/230002C (A.S.W., C.T.-B.) and BBS/E/RL/230002D (S.J.L., S.M.), and grant numbers BBS/E/D/20241866, BBS/E/D/20002172 and BBS/E/D/20002174 (C.T-B.). A.S.W. is a BBSRC discovery fellow on grant number BB/W009870/1.",
+   "zh": "我们感谢泛塞浦路斯兽医协会的成员以及塞浦路斯所有兽医提交样本。本研究由EveryCat Health Foundation（资助号EC23-OC1；C.A.、D.G.-M.、C.T.-B.）、Morris Animal Foundation/Every Cat Foundation“FCoV-23卓越中心”（资助号DE25FE-705和DE25FE-705；C.T.-B.）、Vet Dia Gnosis（C.A.），以及BBSRC研究所战略计划对罗斯林研究所的资助BBS/E/RL/230002C（A.S.W.、C.T.-B.）和BBS/E/RL/230002D（S.J.L.、S.M.），以及资助号BBS/E/D/20241866、BBS/E/D/20002172和BBS/E/D/20002174（C.T-B.）支持。A.S.W.是资助号BB/W009870/1的BBSRC探索研究员。",
+   "note_zh": "Morris Animal Foundation资助号“DE25FE-705”重复列出两次；按原文保留。"
+  },
+  {
+   "section": "Author contributions",
+   "section_zh": "作者贡献",
+   "en": "Conceptualization: C.A., A.S.W., D.G.-M., S.M. and C.T.-B. Methodology: C.A., A.S.W., S.M. and C.T.-B. Validation: C.A., A.S.W., S.M. and C.T.-B. Formal analysis: A.S.W., S.M. and C.T.-B. Investigation: C.A., A.S.W., D.E., A.J.H., M.O., S.F., A.M., M.L., R.H. and C.T.-B. Resources: C.A., A.S.W., D.E., M.L., A.H., A.Z., S.L., M.G. and C.T.-B. Data curation: A.S.W., S.M. and C.T.-B. Writing—original draft preparation: C.A., A.S.W. and C.T.-B. Writing—review and editing: C.A., A.S.W., S.F., D.G.-M., S.J.L., S.M. and C.T.-B. Visualization: A.S.W., S.J.L., S.M. and C.T.-B. Supervision: C.A. and C.T.-B. Project administration: C.A. and C.T.-B. Funding acquisition: C.A. and C.T.-B.",
+   "zh": "构思：C.A.、A.S.W.、D.G.-M.、S.M.和C.T.-B.。方法：C.A.、A.S.W.、S.M.和C.T.-B.。验证：C.A.、A.S.W.、S.M.和C.T.-B.。形式分析：A.S.W.、S.M.和C.T.-B.。调查：C.A.、A.S.W.、D.E.、A.J.H.、M.O.、S.F.、A.M.、M.L.、R.H.和C.T.-B.。资源：C.A.、A.S.W.、D.E.、M.L.、A.H.、A.Z.、S.L.、M.G.和C.T.-B.。数据管理：A.S.W.、S.M.和C.T.-B.。写作——初稿：C.A.、A.S.W.和C.T.-B.。写作——审阅与编辑：C.A.、A.S.W.、S.F.、D.G.-M.、S.J.L.、S.M.和C.T.-B.。可视化：A.S.W.、S.J.L.、S.M.和C.T.-B.。指导：C.A.和C.T.-B.。项目管理：C.A.和C.T.-B.。获取资助：C.A.和C.T.-B.。"
+  },
+  {
+   "section": "Peer review / Peer review information",
+   "section_zh": "同行评审 / 同行评审信息",
+   "en": "Nature thanks Sébastien Calvignac-Spencer, Philippe Lemey, Anastasia Vlasova and the other, anonymous, reviewer(s) for their contribution to the peer review of this work. Peer reviewer reports are available.",
+   "zh": "Nature感谢Sébastien Calvignac-Spencer、Philippe Lemey、Anastasia Vlasova及其他匿名审稿人对本研究同行评审的贡献。审稿报告可供查阅。"
+  },
+  {
+   "section": "Competing interests",
+   "section_zh": "利益冲突",
+   "en": "Laboklin is a veterinary laboratory offering diagnostic services, including bacteriological and molecular biological examinations. Vet Dia Gnosis offers veterinary pathology diagnostic services only. M.G. is employed by Laboklin. C.A. and S.L. are the co-founders of Vet Dia Gnosis. C.A. is an external collaborator of Vet Dia Gnosis and S.L. and A.Z. are employed by Vet Dia Gnosis.",
+   "zh": "Laboklin是一家提供诊断服务（包括细菌学和分子生物学检查）的兽医实验室。Vet Dia Gnosis仅提供兽医病理诊断服务。M.G.受雇于Laboklin。C.A.和S.L.是Vet Dia Gnosis的联合创始人。C.A.是Vet Dia Gnosis的外部合作者，S.L.和A.Z.受雇于Vet Dia Gnosis。"
+  },
+  {
+   "section": "Figure legend",
+   "section_zh": "图注",
+   "en": "Fig. 1 Epidemiology and pathology of the FIP outbreak in Cyprus, January 2023 to June 2024.a, The distribution of RT–qPCR or IHC-confirmed FIP cases across Cyprus. The first image shows Cyprus within the Eastern Mediterranean. The darker colours indicate higher numbers of confirmed cases over time within each district as highlighted in the overview heat map with key. The maps were generated using mapchart.net. n = 215. b, RT–qPCR/IHC-confirmed case rates resolved by time and province. A 6 knot spline interpolation highlights the three waves observed to date. c, Clinical presentation of cats with FIP due to FCoV-23. Left, a cat with the effusive form of FIP showing abdominal distention due to peritoneal effusion, an unkept coat, low body-condition score and poor muscle condition. Right, a cat presenting with jaundice evidenced by yellow/orange discoloration of the mucous membranes and mucocutaneous junctions. Images courtesy of E. Georgiadi. d, Representative peritoneal effusion smear photomicrograph from one Cypriot cat with confirmed FIP due to FCoV-23 infection. Non-degenerative neutrophils are present on a protein-rich background shown using a modified Wright’s stain. Scale bar, 20 µm. e, Representative photomicrographs showing a section of colonic mucosa and submucosa from one cat with confirmed FIP due to FCoV-23 infection. Top, haematoxylin and eosin (H&E)-stained histology section showing coalescing infiltration of predominantly the submucosa by aggregates of primarily neutrophils and macrophages surrounded by fewer lymphocytes and plasma cells. The muscularis mucosae is disrupted by the inflammation. Bottom, IHC staining against FCoV in a histology section mirroring the above section. There is extensive positive FCoV cytoplasmic staining for cells at the centre of each aggregate/pyogranuloma in cells with macrophage-like morphology. Scale bars, 250 µm.",
+   "zh": "图1 2023年1月至2024年6月塞浦路斯FIP暴发的流行病学和病理学。a，经RT–qPCR或IHC确诊的FIP病例在塞浦路斯的分布。第1幅图显示塞浦路斯在东地中海的位置。颜色越深表示各区随时间累计确诊病例数越多，如带图例的总览热图所示。地图使用mapchart.net生成。n = 215。b，按时间和省份分解的RT–qPCR/IHC确诊病例率。6节点样条插值突出显示迄今观察到的3波。c，FCoV-23所致FIP猫的临床表现。左，渗出型FIP猫，因腹腔积液而腹部膨大，被毛凌乱，体况评分低，肌肉状况差。右，出现黄疸的猫，表现为黏膜和皮肤黏膜交界处黄/橙色变色。图片由E. Georgiadi提供。d，1只经确诊FCoV-23感染所致FIP的塞浦路斯猫的代表性腹腔积液涂片显微照片。改良瑞氏染色显示富含蛋白的背景上有非退行性中性粒细胞。比例尺，20 µm。e，1只经确诊FCoV-23感染所致FIP猫的结肠黏膜和黏膜下层切片的代表性显微照片。上，苏木精-伊红（H&E）染色组织切片，显示主要以中性粒细胞和巨噬细胞为主的聚集灶融合性浸润，主要累及黏膜下层，周围有较少的淋巴细胞和浆细胞。黏膜肌层被炎症破坏。下，与上方切片对应的组织切片中针对FCoV的IHC染色。每个聚集灶/脓性肉芽肿中心具有巨噬细胞样形态的细胞呈广泛的FCoV胞质阳性染色。比例尺，250 µm。"
+  },
+  {
+   "section": "Figure legend",
+   "section_zh": "图注",
+   "en": "Fig. 2 Genomic sequence analysis of Cypriot and UK-import FCoV cases.Sequences from three different genomic regions (orf1b, S and orf3c/E/M), as indicated by the grey regions marked on the overview of the genome, were obtained through Nanopore sequencing of 45, 63 and 42 Cypriot and UK-import samples, respectively. After initial BLAST analysis, maximum-likelihood trees were generated including other FCoV and CCoV strains to assess the genetic similarity of each region. CCoV-2 genomes are highlighted in blue with pCCoV-2 genomes within this region displayed in a darker blue. FCoV-1 genomes are highlighted in pink and FCoV-2 genomes are shown in purple. Samples from Cyprus (green) and one UK-imported Cypriot cat (dark green) can be seen clustered with FCoV-1 sequences in the orf1b and orf3c/E/M regions. However, the S gene clusters with CCoV-2, most closely with pCCoV-2. Different numbers of sequences are present in each tree due to missing sequence or poor sequence quality and/or alignments in genomes downloaded from NCBI, and due to not all regions being sequenced in all individuals from our samples. Silhouettes representing cats, dogs and foxes were created using BioRender.",
+   "zh": "图2 塞浦路斯和英国输入FCoV病例的基因组序列分析。通过Nanopore测序分别从45、63和42份塞浦路斯和英国输入样本获得了3个不同基因组区域（orf1b、S和orf3c/E/M）的序列，如基因组总览上标记的灰色区域所示。初步BLAST分析后，纳入其他FCoV和CCoV株生成最大似然树，以评估各区域的遗传相似性。CCoV-2基因组以蓝色突出显示，其中pCCoV-2基因组以深蓝色显示。FCoV-1基因组以粉色突出显示，FCoV-2基因组以紫色显示。可见来自塞浦路斯的样本（绿色）和1只输入英国的塞浦路斯猫（深绿色）在orf1b和orf3c/E/M区域与FCoV-1序列聚类。然而，S基因与CCoV-2聚类，与pCCoV-2最为接近。由于从NCBI下载的基因组存在序列缺失或序列质量和/或比对较差，以及我们样本中并非所有个体的所有区域都进行了测序，各树中的序列数不同。代表猫、犬和狐狸的剪影使用BioRender制作。"
+  },
+  {
+   "section": "Figure legend",
+   "section_zh": "图注",
+   "en": "Extended Data Fig. 1 Relationship to other pCCoV viruses.Maximum likelihood tree of pantropic CCoV spikes (~450 bp region). Alignments were done with Muscle in MEGA7, and maximum likelihood tree was made in MEGA7 with default settings. Tree was visualized in iTOL. Extended Data Fig. 1 shows a maximum likelihood tree generated from the alignment of known pCCoV spike amplicons with the non-deletion form of the FCoV-23 amplicon. The alignment was carried out with Muscle in MEGA7 and the maximum likelihood tree was generated with MEGA7 on default settings. The tree was visualized with iTOL. The region targeted is ~450 bp with longer sequences trimmed down. The FCoV-23 spike with the deletion could not be used as the deleted region heavily overlaps with the region in the alignment. The FCoV-23 amplicon clusters among the pCCoV sequences.",
+   "zh": "扩展数据图1 与其他pCCoV病毒的关系。泛嗜性CCoV刺突（~450 bp区域）的最大似然树。比对在MEGA7中使用Muscle完成，最大似然树在MEGA7中以默认设置构建。树在iTOL中可视化。扩展数据图1显示由已知pCCoV刺突扩增子与FCoV-23扩增子非缺失型比对生成的最大似然树。比对在MEGA7中使用Muscle进行，最大似然树在MEGA7中以默认设置生成。树使用iTOL可视化。目标区域约~450 bp，较长序列经修剪。由于缺失区域与比对区域大量重叠，无法使用带缺失的FCoV-23刺突。FCoV-23扩增子聚类于pCCoV序列之中。"
+  },
+  {
+   "section": "Figure legend",
+   "section_zh": "图注",
+   "en": "Fig. 3 Recombination analysis.a, Visualizations of a recombination analysis carried out on the assembled FCoV-23 genome 2-C11 Re 10276 (PQ133182) and representative genomes of FCoV-1 (blue), FCoV-2 (black) and pCCoV (yellow). The section highlighted in yellow shows the likely recombination break region, with a red vertical line showing the likely breakpoint. The first panel shows the results of the bootscan analysis; the second panel shows the sequence distance; and the third panel shows the RDP pairwise identity analysis. All three panels show good support for the recombination between FCoV-1 and pCCoV. These results are further supported by a high statistical likelihood of recombination shown in Supplementary Table 21. Recombination analysis of a representative ΔD0 FCoV-23 is shown in Extended Data Figs. 3 and 4. b, Schematic of the major recombinations observed in FCoV and CCoV. A common-ancestral-origin virus is thought to have given rise to the original FCoV-1 and CCoV-1 types with further evolution in CCoVs yielding CCoV-2 and CCoV-1/2 serotypes. FCoVs are thought to have recombined with CCoV-2 to form FCoV-2. FCoV-2 and CCoV-2 recombinations have been shown to have different recombination points as highlighted by the different colorations (reviewed previously23). The Cypriot FCoV strain, termed FCoV-23, is a recombinant between an FCoV-1 strain and a S recombination with a pantropic CCoV-2, pCCoV. Furthermore, deletion variants are observed in the majority of sequenced cases (white box; Fig. 4). The diagram in b was created using BioRender.",
+   "zh": "图3 重组分析。a，对组装的FCoV-23基因组2-C11 Re 10276（PQ133182）以及FCoV-1（蓝色）、FCoV-2（黑色）和pCCoV（黄色）代表性基因组进行重组分析的可视化。黄色高亮部分显示可能的重组断裂区域，红色竖线显示可能的断点。第1幅显示bootscan分析结果；第2幅显示序列距离；第3幅显示RDP两两一致性分析。3幅图均良好支持FCoV-1与pCCoV之间的重组。补充表21所示的高重组统计似然进一步支持这些结果。代表性ΔD0 FCoV-23的重组分析见扩展数据图3和4。b，FCoV和CCoV中观察到的主要重组示意图。一种共同祖先来源的病毒被认为产生了最初的FCoV-1和CCoV-1型，CCoV进一步进化产生CCoV-2和CCoV-1/2血清型。FCoV被认为与CCoV-2重组形成FCoV-2。FCoV-2和CCoV-2的重组已被证明具有不同的重组点，以不同颜色突出显示（既往综述23）。塞浦路斯FCoV株称为FCoV-23，是一株FCoV-1与泛嗜性CCoV-2（pCCoV）发生S重组的重组病毒。此外，在大多数测序病例中观察到缺失变异（白框；图4）。b中的示意图使用BioRender制作。"
+  },
+  {
+   "section": "Figure legend",
+   "section_zh": "图注",
+   "en": "Extended Data Fig. 3 MaxChi breakpoint matrix from RDP5 analysis for A) spike full-lenth FCoV-23 genome 2-C11 Re 10276 and B) domain 0-deletion FCoV-23 genome 2-F12 BW 11350.MaxChi breakpoint matrix generated with default settings in RDP5. Extended Data Fig. 3 shows the MaxChi7 breakpoint matrix generated in RDP58. The dark red region highlights the likely recombination breakpoints, which align with the breakpoints described in the main text.",
+   "zh": "扩展数据图3 RDP5分析的MaxChi断点矩阵：A）刺突全长FCoV-23基因组2-C11 Re 10276，B）结构域0缺失FCoV-23基因组2-F12 BW 11350。MaxChi断点矩阵在RDP5中以默认设置生成。扩展数据图3显示在RDP58中生成的MaxChi7断点矩阵。深红色区域突出显示可能的重组断点，与正文描述的断点一致。"
+  },
+  {
+   "section": "Figure legend",
+   "section_zh": "图注",
+   "en": "Extended Data Fig. 4 Recombination analysis of domain 0-deletion FCoV-23 genome 2-F12 BW 11350.A) Visualizations of a recombination analysis carried out on the assembled FCoV-23 genome and representative genomes of FCoV-1 (blue), FCoV-2 (black) and pCCoV (yellow). The yellow panel shows the likely recombination break region, with a red vertical line showing the likely break point. The first panel shows the results of the Bootscan analysis, the second panel shows the sequence distance, and the third panel shows the RDP pairwise identity analysis. All three panels show good support for the recombination between FCoV-1 and pCCoV. These results are further supported by high statistical likelihood of recombination shown in Supplementary Table 22.",
+   "zh": "扩展数据图4 结构域0缺失FCoV-23基因组2-F12 BW 11350的重组分析。A）对组装的FCoV-23基因组以及FCoV-1（蓝色）、FCoV-2（黑色）和pCCoV（黄色）代表性基因组进行重组分析的可视化。黄色区域显示可能的重组断裂区域，红色竖线显示可能的断点。第1幅显示Bootscan分析结果，第2幅显示序列距离，第3幅显示RDP两两一致性分析。3幅图均良好支持FCoV-1与pCCoV之间的重组。补充表22所示的高重组统计似然进一步支持这些结果。"
+  },
+  {
+   "section": "Figure legend",
+   "section_zh": "图注",
+   "en": "Extended Data Fig. 2 Maximum likelihood tree of FCoV-23 with other alphacoronavirus 1 full genome sequences.",
+   "zh": "扩展数据图2 FCoV-23与其他alphacoronavirus 1全基因组序列的最大似然树。"
+  },
+  {
+   "section": "Figure legend",
+   "section_zh": "图注",
+   "en": "Fig. 4 Protein sequence and structural analysis of FCoV-23 spike.a, Analysis of the different domains of FCoV-23 S. D0 shows high similarity to CB/05 pCCoV with a prominent, variable deletion between amino acids (AA) 11–265 resembling the deletion previously observed in TGEV and PRCV S. Multisequence alignment mirroring sequences used for computational analysis previously26 is shown. Amino acids with side-chain type changes against FCoV-2s, and changes at position 546, where a leucine is more predominant in the FIPV rather than the FECV sequences, are shown. Colours were assigned according to the RasMol amino acid scheme. Amino acid changes that could potentially be associated with biotype change are highlighted in bold. The schematic of spike was created using BioRender. b, D0 S deletions in 57 cats (8 full length) are shown from the beginning of S to amino acid 267. Sequences are ordered by the shortest N-terminal sequence. Identical deletions are highlighted in shades of green. All deletions are in-frame. c, Structural modelling of the full-length or long S version, represented by sample G8, and the ΔD0 or short version, represented by sample C10. The samples were modelled against CCoV-HuPN-2018, experimentally determined S in the swung-out confirmation 7usa.1.A40. The proximal confirmation and comparisons are shown in Extended Data Fig. 8. Colours indicate the confidence, with blue highlighting strong and red highlighting weak confidence. d, Modelling of amino acid changes on a structural prediction of the FCoV-23 RBD against CCoV-HuPN-2018 7u8I.1.B. Side-chain type amino acid changes as identified in a are highlighted; side chains are shown in blue for variations in FCoV-2s that are distant from the RBD, red for variations that are close to the RBD, orange for the variations at amino acid 546, similar to FIPV-2, and olive for variation differing both from FCoV-2 and pCCoV. A comparison showing a confidence model of the FCoV-23 RBD structure prediction paired with the CCoV-HuPN-2018-canine aminopeptidase N (APN) is shown for orientation and binding visualization at the top right.",
+   "zh": "图4 FCoV-23刺突的蛋白序列和结构分析。a，FCoV-23 S不同结构域的分析。D0与CB/05 pCCoV高度相似，在氨基酸（AA）11–265之间存在显著的可变缺失，类似既往在TGEV和PRCV S中观察到的缺失。显示了与既往计算分析26所用序列相对应的多序列比对。显示了与FCoV-2相比侧链类型改变的氨基酸，以及位置546的变化（该处亮氨酸在FIPV序列中比在FECV序列中更占优势）。颜色按RasMol氨基酸方案分配。可能与生物型改变相关的氨基酸变化以粗体突出显示。刺突示意图使用BioRender制作。b，显示57只猫（8只为全长）从S起始至氨基酸267的D0 S缺失。序列按N端序列由短到长排序。相同的缺失以不同深浅的绿色突出显示。所有缺失均为框内缺失。c，以样本G8代表的全长或长型S版本，以及以样本C10代表的ΔD0或短型版本的结构建模。样本以CCoV-HuPN-2018实验测定的外摆构象S 7usa.1.A40为模板建模。近端构象及比较见扩展数据图8。颜色表示置信度，蓝色表示高置信度，红色表示低置信度。d，在以CCoV-HuPN-2018 7u8I.1.B为模板的FCoV-23 RBD结构预测上对氨基酸变化建模。突出显示a中鉴定的侧链类型氨基酸变化；侧链颜色：蓝色为FCoV-2中远离RBD的变异，红色为靠近RBD的变异，橙色为氨基酸546处与FIPV-2相似的变异，橄榄色为既不同于FCoV-2也不同于pCCoV的变异。右上方显示FCoV-23 RBD结构预测置信度模型与CCoV-HuPN-2018-犬氨基肽酶N（APN）的配对比较，用于定向和结合可视化。",
+   "note_zh": "图4c称近端构象比较见扩展数据图8，但扩展数据图8为全基因组比对，近端构象建模见扩展数据图5；按原文保留。"
+  },
+  {
+   "section": "Figure legend",
+   "section_zh": "图注",
+   "en": "Extended Data Fig. 6 Bayesian time-resolved phylogenetic trees for orf1ab and orf3-E-M with annotation of correlated spike D0 deletion lengths.Origin of the virus sample in Cyprus are given different colors as indicated in the legend. Sequences of the FCoV “backbone” orf1ab and orf3-E-M regions fall somewhat into regional clades, with the inferred epidemic origin in Nicosia, and subsequent transmissions into most other regions (Famagousta, Larnaca, and Limassol), although transmissions into Paphos are inferred to come from Famagousa. The tips are labelled according to how many amino acids remain in affected genomic region of spike, these range from nAA_24 (24 amino acids) to Full (270 amino acids). Orf1ab+3em sequences with unknown spike length are denoted with “?”. The number of amino acids remaining does not appear to show an evolutionary pattern, for example the figure does not show that the number of amino acids decreases over time within a clade. Instead, the figure shows a more random pattern of spike deletions, which would be indicative of individually occurring within-host processes, such as in-cat recombination.",
+   "zh": "扩展数据图6 orf1ab和orf3-E-M的贝叶斯时间校准系统发育树，并注释相关的刺突D0缺失长度。塞浦路斯病毒样本的来源以图例所示的不同颜色表示。FCoV“骨架”orf1ab和orf3-E-M区域的序列大致分属区域分支，推断流行起源于尼科西亚，随后传播至其他大多数地区（法马古斯塔、拉纳卡和利马索尔），但推断传入帕福斯的病毒来自法马古斯塔。树梢按刺突受影响基因组区域剩余的氨基酸数标注，范围从nAA_24（24个氨基酸）到Full（270个氨基酸）。刺突长度未知的Orf1ab+3em序列以“?”表示。剩余氨基酸数似乎未显示进化模式，例如该图并未显示分支内氨基酸数随时间减少。相反，该图显示刺突缺失呈更随机的模式，提示为个体独立发生的宿主内过程，如猫体内重组。"
+  },
+  {
+   "section": "Figure legend",
+   "section_zh": "图注",
+   "en": "Extended Data Fig. 7 Sequence identity/divergence of FCoV-23 full genome sequences.The number of base substitutions/identical bases per site from between sequences are shown. Analyses were conducted using the Maximum Composite Likelihood model using 20 full-genome FCoV-23 sequences using 29,144 base positions. All Codon positions (1/2/3 + NC) were included. Ambiguous positions were removed using the pairwise deletion option. Evolutionary analyses were conducted in MEGA X and are displayed (bottom) with or without sequences H9 and E8, which display poorer sequence quality (lower coverage and bigger gaps) and should be treated with caution.",
+   "zh": "扩展数据图7 FCoV-23全基因组序列的序列一致性/分歧度。显示序列间每个位点的碱基替换数/相同碱基数。分析采用最大复合似然模型，使用20条FCoV-23全基因组序列，共29,144个碱基位置。纳入所有密码子位置（1/2/3 + NC）。使用两两删除选项去除模糊位置。进化分析在MEGA X中进行，并在下方显示包含或不包含序列H9和E8的结果，这2条序列质量较差（覆盖度较低、缺口较大），应谨慎对待。"
+  },
+  {
+   "section": "Figure legend",
+   "section_zh": "图注",
+   "en": "Extended Data Fig. 8 Clustal W whole genome alignment.10 gap-free FCoV-23 genome sequences were multi-genome aligned using ClustalW with JN183883 (closest FCoV-2, UU54), KP981644 (pantropic CCoV CB/05), and MW591993 (CCoV-HuPn-2018) for context.",
+   "zh": "扩展数据图8 Clustal W全基因组比对。将10条无缺口的FCoV-23基因组序列与JN183883（最近缘FCoV-2，UU54）、KP981644（泛嗜性CCoV CB/05）和MW591993（CCoV-HuPn-2018）使用ClustalW进行多基因组比对以作参照。"
+  },
+  {
+   "section": "Figure legend",
+   "section_zh": "图注",
+   "en": "Extended Data Fig. 5 Protein structure modelling.Structural modelling of A) G8 full-length and B) C10 domain 0 deletion (short) spike using the 7us6.1.A proximal confirmation ofCCoV-HuPN-2018 as a template. C&D) Comparison between the G8 full-length and the C10 domain 0 deletion (short) spike structure prediction. C) represents the swung out (modelled against the 7usa.1.A template) and D) the proximal confirmation (modelled against the 7us6.1.A template). Colors represent consistency with red being inconsistent and green consistent between the two structures.",
+   "zh": "扩展数据图5 蛋白结构建模。以CCoV-HuPN-2018的7us6.1.A近端构象为模板，对A）G8全长和B）C10结构域0缺失（短型）刺突进行结构建模。C和D）G8全长与C10结构域0缺失（短型）刺突结构预测的比较。C）为外摆构象（以7usa.1.A模板建模），D）为近端构象（以7us6.1.A模板建模）。颜色表示两种结构之间的一致性，红色为不一致，绿色为一致。"
+  }
+ ]
+}

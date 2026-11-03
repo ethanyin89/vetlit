@@ -1,0 +1,556 @@
+{
+ "pmid": "40732763",
+ "license": "CC BY 4.0",
+ "attribution": {
+  "authors": [
+   "Gokalsing Emma",
+   "Ferrolho Joana",
+   "Gibson Mark S",
+   "Vilhena Hugo",
+   "Anastácio Sofia",
+   "Wang Fun-In"
+  ],
+  "title": "Efficacy of GS-441524 for Feline Infectious Peritonitis: A Systematic Review (2018–2024)",
+  "journal": "Pathogens",
+  "year": "2025",
+  "doi": "10.3390/pathogens14070717",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "note": "中文为 AI 翻译，以英文原文为准；已对原文做翻译改编"
+ },
+ "scope_zh": "标题、关键词、正文（引言、材料与方法、结果、讨论、结论）、缩写说明、作者贡献、伦理及知情同意声明、利益冲突、资助声明；表1–5表题及表注、图1图注。未含：表格主体、数据可用性声明、参考文献、补充材料。",
+ "paragraphs": [
+  {
+   "section": "Title",
+   "section_zh": "标题",
+   "en": "Efficacy of GS-441524 for Feline Infectious Peritonitis: A Systematic Review (2018–2024)",
+   "zh": "GS-441524治疗猫传染性腹膜炎的疗效：一项系统综述（2018–2024）"
+  },
+  {
+   "section": "Abstract / Keywords",
+   "section_zh": "摘要 / 关键词",
+   "en": "Keywords: feline infectious peritonitis, GS-441524, antiviral treatment, efficacy, remdesivir, molnupiravir, feline coronavirus",
+   "zh": "关键词：猫传染性腹膜炎，GS-441524，抗病毒治疗，疗效，remdesivir（瑞德西韦），molnupiravir（莫努匹韦），猫冠状病毒"
+  },
+  {
+   "section": "1. Introduction",
+   "section_zh": "1. 引言",
+   "en": "Feline infectious peritonitis (FIP) is a devastating disease caused by certain strains of feline coronavirus (FCoV) that acquire mutations leading to a virulent biotype (FIPV) [1]. Among FCoV-infected cats, only a small proportion develop FIP [2], which occurs primarily in young cats (3 months to 2 years old) and in cats from multi-cat environments like shelters or catteries, where FCoV exposure is high [2,3].",
+   "zh": "猫传染性腹膜炎（FIP）是一种毁灭性疾病，由某些获得突变、形成强毒生物型（FIPV）的猫冠状病毒（FCoV）毒株引起[1]。在FCoV感染猫中，仅一小部分发展为FIP[2]，主要发生于幼龄猫（3月龄至2岁）以及来自收容所或繁育猫舍等多猫环境、FCoV暴露水平高的猫[2,3]。"
+  },
+  {
+   "section": "1. Introduction",
+   "section_zh": "1. 引言",
+   "en": "FIPV, unlike the benign feline enteric coronavirus (FECV), has a higher tropism for monocytes and macrophages, disseminating through lymphatic and vascular systems and causing a systemic disease [1]. Clinically, FIP manifests in two forms: effusive FIP, characterized by immune-mediated vasculitis and effusions in body cavities; and non-effusive FIP, characterized by granulomatous lesions in various organs. These forms can overlap. [4]. Despite being recognized since 1963, FIP has historically carried a near-100% fatality rate in cats that develop the disease [5].",
+   "zh": "与良性的猫肠道冠状病毒（FECV）不同，FIPV对单核细胞和巨噬细胞具有更高的嗜性，经淋巴和血管系统播散，引起全身性疾病[1]。临床上，FIP表现为两种类型：渗出型FIP，以免疫介导性血管炎和体腔积液为特征；以及非渗出型FIP，以多个器官的肉芽肿性病变为特征。这两种类型可以重叠。[4]。尽管自1963年起即已被认识，FIP在发病猫中历来致死率接近100%[5]。"
+  },
+  {
+   "section": "1. Introduction",
+   "section_zh": "1. 引言",
+   "en": "Diagnosing FIP is challenging. In 2022, the AAFP/EveryCat Foundation published comprehensive FIP diagnostic guidelines [5]. A presumptive FIP diagnosis is based on the cat’s age, history, clinical signs (Figure 1), and consistent laboratory findings (e.g., cytology of effusions, hematology, and biochemistry) [2]. A confirmatory diagnosis requires a combination of the latter alongside positive PCR and immunohistochemistry [5].",
+   "zh": "FIP的诊断具有挑战性。2022年，AAFP/EveryCat Foundation发布了全面的FIP诊断指南[5]。FIP的推定诊断基于猫的年龄、病史、临床症状（图1）以及相符的实验室检查结果（如积液细胞学、血液学和生化）[2]。确诊需要将后者与PCR阳性和免疫组织化学阳性相结合[5]。"
+  },
+  {
+   "section": "1. Introduction",
+   "section_zh": "1. 引言",
+   "en": "Without antiviral therapy, FIP is almost invariably fatal—affected cats typically deteriorate and die or are euthanized within weeks [6]. Historically, only palliative treatments (e.g., NSAIDs, immunomodulators like interferons, and supportive care) were available, which did not cure the disease [6].",
+   "zh": "若无抗病毒治疗，FIP几乎无一例外地致死——患猫通常在数周内病情恶化并死亡或被安乐死[6]。历史上，仅有姑息治疗可用（如NSAIDs（非甾体抗炎药）、干扰素等免疫调节剂及支持治疗），这些治疗无法治愈该病[6]。"
+  },
+  {
+   "section": "1. Introduction",
+   "section_zh": "1. 引言",
+   "en": "In recent years, new antiviral molecules have given hope for treating FIP. One of the most promising is GS-441524, an adenosine nucleoside analogue that inhibits the RNA-dependent RNA polymerase of coronavirus and causes premature termination of viral RNA synthesis [7]. Another antiviral that was explored is GC376, a 3C-like protease inhibitor which prevents maturation of viral polyproteins and thereby inhibits viral replication [1]. Also of note is GS-5734 (Remdesivir), the prodrug of GS-441524, which is metabolized into GS-441524 in vivo and has similar antiviral effects [8]. Molnupiravir (EIDD-2801) is yet another antiviral that has been investigated more recently for FIP, particularly as a rescue therapy in GS-441524-resistant cases [9].",
+   "zh": "近年来，新的抗病毒分子为FIP的治疗带来了希望。其中最有前景的之一是GS-441524，这是一种腺苷核苷类似物，可抑制冠状病毒的RNA依赖性RNA聚合酶，导致病毒RNA合成提前终止[7]。另一种被探索的抗病毒药物是GC376，一种3C样蛋白酶抑制剂，可阻止病毒多聚蛋白的成熟，从而抑制病毒复制[1]。另外值得注意的是GS-5734（Remdesivir），即GS-441524的前药，在体内代谢为GS-441524，具有相似的抗病毒作用[8]。Molnupiravir（EIDD-2801）是另一种近期被研究用于FIP的抗病毒药物，尤其作为GS-441524耐药病例的挽救治疗[9]。"
+  },
+  {
+   "section": "1. Introduction",
+   "section_zh": "1. 引言",
+   "en": "Despite the success of these antivirals in research settings, GS-441524 itself is not currently approved globally as a veterinary drug. Gilead Sciences holds the patent for GS-441524 and has not authorized its veterinary use, meaning veterinarians and cat owners have resorted to black-market sources of GS-441524 in the past. They can now obtain it through licenced compounding pharmacies, which have been made available in many countries. It is legally available via veterinary “channels” in Australia, Canada, the Netherlands, the UK, and the USA as a compounded treatment. BOVA, a UK-based company supplying veterinary pharmaceuticals, supplies it in this form. The human drug Remdesivir (which is licenced for COVID-19) has been legally used as an alternative in some places (e.g., under veterinary cascade or compassionate use) [10]. The increasing use of GS-441524 in the field has dramatically improved FIP outcomes and lowered the disease’s lethality rate [7]. Nonetheless, concerns remain about the emergence of drug-resistant viral mutants, suboptimal drug distribution to certain sites (e.g., brain), and potential adverse effects of these treatments [1,11].",
+   "zh": "尽管这些抗病毒药物在研究环境中取得了成功，GS-441524本身目前尚未在全球范围内获批为兽药。Gilead Sciences持有GS-441524的专利，且未授权其兽用，这意味着兽医和猫主人过去只能求助于GS-441524的黑市来源。现在他们可以通过已在许多国家开放的持证复方配制药房获得该药。在澳大利亚、加拿大、荷兰、英国和美国，它可作为复方配制药物通过兽医“渠道”合法获得。BOVA是一家供应兽药的英国公司，以这种形式供应该药。人用药物Remdesivir（已获批用于COVID-19）在一些地方已被合法用作替代药物（如根据兽医级联原则或同情用药）[10]。GS-441524在临床中的日益广泛使用显著改善了FIP的结局，降低了该病的致死率[7]。尽管如此，人们仍担忧耐药病毒突变株的出现、药物在某些部位（如脑）分布不理想以及这些治疗的潜在不良反应[1,11]。"
+  },
+  {
+   "section": "1. Introduction",
+   "section_zh": "1. 引言",
+   "en": "This review aims to systematically synthesize the literature on FIP treatment with GS-441524. Specifically, we evaluate the efficacy of GS-441524 (alone or combined with other antivirals/immunomodulators) on the survival and remission of cats with FIP, stratified by FIP form (effusive, non-effusive, mixed), presence of severe clinical signs (e.g., neurological or ocular involvement), and route of administration used.",
+   "zh": "本综述旨在系统综合有关GS-441524治疗FIP的文献。具体而言，我们按FIP类型（渗出型、非渗出型、混合型）、是否存在严重临床症状（如神经或眼部受累）以及所用给药途径分层，评估GS-441524（单用或与其他抗病毒药物/免疫调节剂联用）对FIP猫存活和缓解的疗效。"
+  },
+  {
+   "section": "2. Materials and Methods / 2.1. Research Question",
+   "section_zh": "2. 材料与方法 / 2.1. 研究问题",
+   "en": "The review was guided by a research question formulated using the PICO framework (Population, Intervention, Comparison, Outcomes) [12]. In brief, Population = cats with FIP; Intervention = treatment with GS-441524 (alone or in combination); Comparison = none (single-arm studies) or between subgroups (e.g., different FIP forms or adjunct therapies); Outcome = clinical remission or survival.",
+   "zh": "本综述以采用PICO框架（人群、干预、对照、结局）制定的研究问题为指导[12]。简言之，人群 = FIP猫；干预 = GS-441524治疗（单用或联合）；对照 = 无（单臂研究）或亚组之间（如不同FIP类型或辅助治疗）；结局 = 临床缓解或存活。"
+  },
+  {
+   "section": "2. Materials and Methods / 2.2. Literature Search",
+   "section_zh": "2. 材料与方法 / 2.2. 文献检索",
+   "en": "A systematic literature search was conducted following the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) 2020 guidelines [13]. We searched PubMed, ScienceDirect, and Google Scholar between 6 December 2023 and 25 January 2024 for studies published from 2018 onward (the period during which GS-441524 has been studied in FIP). The search terms included “Feline Infectious Peritonitis GS-441524 treatment”, and languages were restricted to English, Portuguese, and French. Duplicates across databases were removed. Titles and abstracts were screened to include only studies specifically evaluating GS-441524’s antiviral efficacy in naturally occurring FIP.",
+   "zh": "按照系统综述和荟萃分析优先报告条目（PRISMA）2020指南进行了系统文献检索[13]。我们于2023年12月6日至2024年1月25日检索了PubMed、ScienceDirect和Google Scholar中2018年起发表的研究（即GS-441524在FIP中开展研究的时期）。检索词包括“Feline Infectious Peritonitis GS-441524 treatment”，语言限定为英语、葡萄牙语和法语。去除了数据库间的重复文献。筛选标题和摘要，仅纳入专门评估GS-441524在自然发生FIP中抗病毒疗效的研究。"
+  },
+  {
+   "section": "2. Materials and Methods / 2.3. Inclusion Criteria",
+   "section_zh": "2. 材料与方法 / 2.3. 纳入标准",
+   "en": "Studies were included if they (1) evaluated GS-441524 (alone or with other antivirals/immunomodulators) in cats with naturally occurring FIP; (2) monitored clinical outcomes (survival/remission) and reported sufficient data on FIP form, clinical signs, or treatment parameters. Both case series and individual case reports were eligible. Two studies provided additional data upon request (these are noted in the results). Studies were excluded if they were in vitro or experimental infection studies, did not actually use GS-441524 in cats, or lacked sufficient clinical detail.",
+   "zh": "纳入标准为：（1）在自然发生FIP的猫中评估GS-441524（单用或与其他抗病毒药物/免疫调节剂联用）；（2）监测临床结局（存活/缓解），并报告了关于FIP类型、临床症状或治疗参数的充分数据。病例系列和个案报告均符合条件。2项研究应要求提供了额外数据（在结果中注明）。排除标准为：体外或实验感染研究、实际未在猫中使用GS-441524，或缺乏充分的临床细节。"
+  },
+  {
+   "section": "2. Materials and Methods / 2.4. Data Extraction",
+   "section_zh": "2. 材料与方法 / 2.4. 数据提取",
+   "en": "For each included study, data were extracted from the publication (and any Supplementary Material or author correspondence) on FIP form (effusive, non-effusive, mixed); effusion type in wet FIP (ascites, pleural, others); presence of aggravating clinical signs (neurological, ocular, renal) (Figure 1); GS-441524 treatment details (dosage, route of administration, duration, use of adjunct therapies); and outcomes (remission or death, including whether relapse occurred). Outcome categories were defined as follows:",
+   "zh": "对每项纳入研究，从出版物（以及任何补充材料或作者通信）中提取以下数据：FIP类型（渗出型、非渗出型、混合型）；湿性FIP的积液类型（腹水、胸腔积液、其他）；是否存在加重性临床症状（神经、眼部、肾脏）（图1）；GS-441524治疗细节（剂量、给药途径、疗程、辅助治疗的使用）；以及结局（缓解或死亡，包括是否复发）。结局类别定义如下："
+  },
+  {
+   "section": "2. Materials and Methods / 2.4. Data Extraction",
+   "section_zh": "2. 材料与方法 / 2.4. 数据提取",
+   "en": "Remission: clinical recovery with no recurrence of disease after a single GS-441524 treatment course.",
+   "zh": "缓解：单个GS-441524疗程后临床康复且疾病无复发。"
+  },
+  {
+   "section": "2. Materials and Methods / 2.4. Data Extraction",
+   "section_zh": "2. 材料与方法 / 2.4. 数据提取",
+   "en": "Remission after relapse: recovery after an initial response, subsequent disease relapse, and then a second course of GS-441524.",
+   "zh": "复发后缓解：初始有反应后疾病复发，再经第2个GS-441524疗程后康复。"
+  },
+  {
+   "section": "2. Materials and Methods / 2.4. Data Extraction",
+   "section_zh": "2. 材料与方法 / 2.4. 数据提取",
+   "en": "Death after relapse: initial improvement on GS-441524, but relapse occurred and the cat ultimately died or was euthanized despite additional treatment.",
+   "zh": "复发后死亡：GS-441524治疗初期改善，但发生复发，尽管追加治疗，猫最终死亡或被安乐死。"
+  },
+  {
+   "section": "2. Materials and Methods / 2.4. Data Extraction",
+   "section_zh": "2. 材料与方法 / 2.4. 数据提取",
+   "en": "Death without remission: no significant clinical improvement on GS-441524, and the cat died or was euthanized during or after the treatment course.",
+   "zh": "未缓解死亡：GS-441524治疗期间无明显临床改善，猫在疗程中或疗程后死亡或被安乐死。"
+  },
+  {
+   "section": "2. Materials and Methods / 2.4. Data Extraction",
+   "section_zh": "2. 材料与方法 / 2.4. 数据提取",
+   "en": "Relapse with treatment change: disease relapse that was treated with a different therapy (e.g., another antiviral like Molnupiravir) due to GS-441524 failure.",
+   "zh": "复发后更换治疗：因GS-441524治疗失败，疾病复发后改用其他疗法（如另一种抗病毒药物Molnupiravir）治疗。"
+  },
+  {
+   "section": "2. Materials and Methods / 2.4. Data Extraction",
+   "section_zh": "2. 材料与方法 / 2.4. 数据提取",
+   "en": "Each case in each study was classified into these outcome categories (Figure 1). For clarity of analysis, we often consider “treatment success” as the sum of remission and remission after relapse (i.e., the cat survived FIP), and “treatment failure” as outcomes of death (with or without relapse).",
+   "zh": "每项研究中的每个病例均被归入上述结局类别（图1）。为便于分析，我们通常将“治疗成功”视为缓解与复发后缓解之和（即猫从FIP中存活），将“治疗失败”视为死亡结局（无论是否复发）。"
+  },
+  {
+   "section": "2. Materials and Methods / 2.4. Data Extraction",
+   "section_zh": "2. 材料与方法 / 2.4. 数据提取",
+   "en": "We assessed the possibility of the duplication of cases in different studies. From those conducted in Australia, the UK, Germany, China, and the USA, we believe the large geographical separation rules out duplication in the four non-US-based studies. The two studies from the USA were conducted in California and Ohio. There is no overlap in authorship or affiliations. Th methods and results sections in these two papers confirm different age ranges and means for the enrolled animals, as well as different breeds within the cohorts. Added to the considerable physical distance between where these studies were conducted, we are satisfied there is no overlap.",
+   "zh": "我们评估了不同研究间病例重复的可能性。在澳大利亚、英国、德国、中国和美国开展的研究中，我们认为地理上的巨大距离排除了4项非美国研究之间的重复。2项美国研究分别在加利福尼亚和俄亥俄开展。两者在作者或单位上无重叠。这2篇论文的方法和结果部分证实所纳入动物的年龄范围和均值不同，队列中的品种也不同。再加上这些研究开展地点之间相当大的物理距离，我们确信不存在重叠。"
+  },
+  {
+   "section": "2. Materials and Methods / 2.4. Data Extraction",
+   "section_zh": "2. 材料与方法 / 2.4. 数据提取",
+   "en": "Regarding the two studies published in Japan, the study published in 2021 [14] only addresses effusive FIP cases, whereas the study from 2023 [15] only addresses non-effusive and mixed FIP cases. The authors make this distinction clearly, underlining that these are separate cohorts.",
+   "zh": "关于在日本发表的2项研究，2021年发表的研究[14]仅涉及渗出型FIP病例，而2023年的研究[15]仅涉及非渗出型和混合型FIP病例。作者明确作了这一区分，强调它们是独立的队列。"
+  },
+  {
+   "section": "2. Materials and Methods / 2.4. Data Extraction",
+   "section_zh": "2. 材料与方法 / 2.4. 数据提取",
+   "en": "Two further studies [11,16] originate from the same clinical centre; however, several details in both articles rule out case duplication. For example, the four subjects described in [11] are too young to be included in [17]. Furthermore, the combination of type of FIP, clinical signs, and treatment regimens also dismiss the possibility of duplicated cases.",
+   "zh": "另有2项研究[11,16]来自同一临床中心；然而，两篇文章中的若干细节排除了病例重复。例如，[11]中描述的4只猫年龄太小，不可能被纳入[17]。此外，FIP类型、临床症状和治疗方案的组合也排除了病例重复的可能性。",
+   "note_zh": "本段称2项研究为[11,16]，但随后称[11]中的猫太年幼而不可能被纳入[17]；引用编号前后不一致，按原文保留。"
+  },
+  {
+   "section": "2. Materials and Methods / 2.5. Bias and Quality Assessment",
+   "section_zh": "2. 材料与方法 / 2.5. 偏倚与质量评估",
+   "en": "The risk of bias in each study was assessed using the Joanna Briggs Institute (JBI) critical appraisal tools appropriate to the study design (case reports or case series) [18,19]. Common considerations included whether case inclusion criteria were clear, FIP diagnoses were definitive, all eligible cases were included, and outcomes were well described. No study was excluded based on quality, but the overall body of evidence was characterized using GRADE criteria (Grading of Recommendations Assessment, Development and Evaluation) [20]. Given that all included studies were uncontrolled case series or reports, the initial GRADE rating for each outcome was “low”. Factors such as risk of bias, inconsistency, indirectness, imprecision, and publication bias were considered to potentially downgrade confidence, whereas large effect sizes or dose–response relationships could upgrade it.",
+   "zh": "使用适合研究设计（个案报告或病例系列）的Joanna Briggs Institute（JBI）严格评价工具评估各研究的偏倚风险[18,19]。常见考量包括：病例纳入标准是否清晰、FIP诊断是否明确、是否纳入了所有符合条件的病例，以及结局是否描述充分。没有研究因质量而被排除，但使用GRADE标准（推荐分级的评估、制定与评价）对整体证据进行了描述[20]。鉴于所有纳入研究均为无对照的病例系列或报告，每个结局的初始GRADE评级为“低”。偏倚风险、不一致性、间接性、不精确性和发表偏倚等因素被视为可能降低置信度，而较大的效应量或剂量–反应关系可提高置信度。"
+  },
+  {
+   "section": "2. Materials and Methods / 2.6. Data Synthesis",
+   "section_zh": "2. 材料与方法 / 2.6. 数据综合",
+   "en": "Data from all included studies were compiled in tables and summarized descriptively by Emma Gokalsing, working independently. Because all studies were uncontrolled and heterogeneous in design, a formal meta-analysis was not performed. Instead, we calculated pooled proportions (e.g., overall remission rates) across studies and performed subgroup analyses by stratifying cases according to:",
+   "zh": "所有纳入研究的数据由Emma Gokalsing独立汇编成表格并进行描述性总结。由于所有研究均无对照且设计异质，未进行正式的荟萃分析。取而代之，我们计算了跨研究的合并比例（如总体缓解率），并按以下方式对病例分层进行亚组分析："
+  },
+  {
+   "section": "2. Materials and Methods / 2.6. Data Synthesis",
+   "section_zh": "2. 材料与方法 / 2.6. 数据综合",
+   "en": "Treatment modality: GS-441524 alone vs. GS-441524 in combination with other antivirals (e.g., GC376, Remdesivir) or immunomodulators (e.g., interferon omega).",
+   "zh": "治疗方式：GS-441524单用 vs. GS-441524与其他抗病毒药物（如GC376、Remdesivir）或免疫调节剂（如interferon omega（ω干扰素））联用。"
+  },
+  {
+   "section": "2. Materials and Methods / 2.6. Data Synthesis",
+   "section_zh": "2. 材料与方法 / 2.6. 数据综合",
+   "en": "FIP form: effusive vs. non-effusive vs. mixed FIP.",
+   "zh": "FIP类型：渗出型 vs. 非渗出型 vs. 混合型FIP。"
+  },
+  {
+   "section": "2. Materials and Methods / 2.6. Data Synthesis",
+   "section_zh": "2. 材料与方法 / 2.6. 数据综合",
+   "en": "Presence of aggravating signs: cases with vs. without neurological/ocular involvement.",
+   "zh": "是否存在加重性症状：有 vs. 无神经/眼部受累的病例。"
+  },
+  {
+   "section": "2. Materials and Methods / 2.6. Data Synthesis",
+   "section_zh": "2. 材料与方法 / 2.6. 数据综合",
+   "en": "Route of administration: oral vs. subcutaneous, with cases that received GS-441524 by more than one route excluded.",
+   "zh": "给药途径：口服 vs. 皮下，排除经1种以上途径接受GS-441524的病例。"
+  },
+  {
+   "section": "2. Materials and Methods / 2.6. Data Synthesis",
+   "section_zh": "2. 材料与方法 / 2.6. 数据综合",
+   "en": "For comparisons, outcomes were dichotomized into success vs. failure as defined above. Odds ratios (OR), relative risks (RR), and risk differences (RD) were computed with 95% confidence intervals (CIs) for these subgroup comparisons, mainly to explore trends rather than to derive definitive statistical conclusions (given the observational data). A chi-square test was used to assess heterogeneity in outcome distributions across subgroups, with p < 0.05 considered statistically significant. These calculations were done using Microsoft Excel (Microsoft Office®, Atlanta, GA, USA) and WinEpi epidemiological software (version 2006).",
+   "zh": "在比较中，结局按上述定义二分为成功 vs. 失败。对这些亚组比较计算了比值比（OR）、相对风险（RR）和风险差（RD）及其95%置信区间（CI），主要用于探索趋势，而非得出确定的统计结论（鉴于数据为观察性数据）。使用卡方检验评估亚组间结局分布的异质性，p < 0.05视为有统计学意义。这些计算使用Microsoft Excel（Microsoft Office®, Atlanta, GA, USA）和WinEpi流行病学软件（2006版）完成。"
+  },
+  {
+   "section": "3. Results / 3.1. Article Selection",
+   "section_zh": "3. 结果 / 3.1. 文章筛选",
+   "en": "The search yielded 313 unique records. After screening titles/abstracts, 45 articles remained for full-text review, and 10 additional records were identified by examining references of these articles. Ultimately, 12 studies met all inclusion criteria. One of these was excluded despite meeting criteria, because key outcome data were not extractable from the published report (even after contacting the authors). Thus, 11 studies were included in the final synthesis. The excluded study was a large retrospective study of 307 cats treated with Remdesivir/GS-441524 in the UK, which did not report individual case outcomes in a usable form. Two included studies provided supplementary data (e.g., specific outcome breakdowns) upon request, which were incorporated. The summary of the article selection process for inclusion in the study is shown in Table 1.",
+   "zh": "检索共得到313条不重复记录。筛选标题/摘要后，剩余45篇文章进入全文评审，并通过查阅这些文章的参考文献额外识别出10条记录。最终，12项研究符合全部纳入标准。其中1项尽管符合标准仍被排除，因为无法从已发表的报告中提取关键结局数据（即使联系了作者）。因此，11项研究被纳入最终综合分析。被排除的研究是一项在英国用Remdesivir/GS-441524治疗307只猫的大型回顾性研究，其未以可用形式报告个体病例结局。2项纳入研究应要求提供了补充数据（如具体的结局细分），并已纳入。纳入研究的文章筛选过程汇总见表1。"
+  },
+  {
+   "section": "3. Results / 3.1. Article Selection",
+   "section_zh": "3. 结果 / 3.1. 文章筛选",
+   "en": "The 11 included studies spanned various countries and study designs, from small case series (n = 4 cats) to larger compilations (n > 100 cats). The key characteristics of each study are summarized in Supplementary Table S1 with FIP diagnosis methods also provided in Supplementary Data 1. All studies were uncontrolled (case reports or case series), and none were randomized trials. Supplementary Table S2 presents our risk-of-bias assessment for each study (no study was deemed “critical” risk; most were moderate to high risk of bias due to their observational nature). Outcome data from each study (remission, relapse, death counts) are provided in Supplementary Table S3. Data was aggregated and analyzed as described below. The overall certainty of evidence for each outcome was rated “very low” due to study design limitations, such as the fact that the included studies are uncontrolled (see Section 3.3).",
+   "zh": "11项纳入研究涵盖多个国家和多种研究设计，从小型病例系列（n = 4只猫）到较大型汇编（n > 100只猫）。各研究的主要特征汇总于补充表S1，FIP诊断方法见补充数据1。所有研究均无对照（个案报告或病例系列），无一为随机试验。补充表S2列出了我们对各研究的偏倚风险评估（没有研究被判定为“严重”风险；由于其观察性质，大多数为中至高偏倚风险）。各研究的结局数据（缓解、复发、死亡数）见补充表S3。数据按下文所述进行汇总和分析。由于研究设计的局限性（如纳入研究均无对照），每个结局的整体证据确定性被评为“极低”（见第3.3节）。"
+  },
+  {
+   "section": "3. Results / 3.2. Summary of Treated Cases and Outcomes",
+   "section_zh": "3. 结果 / 3.2. 治疗病例与结局汇总",
+   "en": "Across the 11 studies, data for 650 FIP cases treated with GS-441524 were compiled. Among these, 524 cases (80.6%) achieved remission with their initial GS-441524 treatment course, and an additional 26 cases (4.0%) achieved remission after experiencing a relapse and undergoing a second GS-441524 treatment. Therefore, the combined treatment success rate was 84.6% (550/650 survived in remission). Conversely, 72 cats (11.1%) died without ever reaching remission, and 2 cats (0.3%) died after initially improving and then relapsing. An additional 26 cats (4.0%) experienced a relapse and were switched to an alternative antiviral (Molnupiravir)—these cases are considered treatment failures of GS-441524 for the purpose of GS-441524 efficacy evaluation, though many of them were ultimately saved by the rescue therapy (as reported in those studies).",
+   "zh": "11项研究共汇编了650例接受GS-441524治疗的FIP病例数据。其中，524例（80.6%）在初始GS-441524疗程中获得缓解，另有26例（4.0%）在经历复发并接受第2个GS-441524疗程后获得缓解。因此，合计治疗成功率为84.6%（550/650存活并缓解）。相反，72只猫（11.1%）从未达到缓解即死亡，2只猫（0.3%）在初期改善后复发并死亡。另有26只猫（4.0%）复发并改用另一种抗病毒药物（Molnupiravir）——为评估GS-441524疗效，这些病例被视为GS-441524治疗失败，尽管其中许多最终被挽救治疗救活（如这些研究所报告）。"
+  },
+  {
+   "section": "3. Results / 3.2. Summary of Treated Cases and Outcomes",
+   "section_zh": "3. 结果 / 3.2. 治疗病例与结局汇总",
+   "en": "Among the 650 cases, 169 cats (26.0%) had what we term “complicated FIP”, defined as FIP with aggravating clinical signs such as neurological or ocular involvement. A breakdown of these cases is shown in Table 2.",
+   "zh": "在650例中，169只猫（26.0%）患有我们所称的“复杂FIP”，定义为伴有神经或眼部受累等加重性临床症状的FIP。这些病例的细分见表2。"
+  },
+  {
+   "section": "3. Results / 3.2. Summary of Treated Cases and Outcomes",
+   "section_zh": "3. 结果 / 3.2. 治疗病例与结局汇总",
+   "en": "Thus, in cats with any neurological and/or ocular signs, the success rate was noticeably lower (around 74.5% combined success versus ~84% in the overall population; p = 0.0076). Specifically, cats with only ocular complications responded as well as uncomplicated cases (around 90% success), whereas those with neurological FIP had a success rate of ~68%, and those with both neuro and ocular signs had an even lower success (~43%). These findings reflect the challenge of treating neurologic FIP.",
+   "zh": "因此，在有任何神经和/或眼部症状的猫中，成功率明显较低（合计成功率约74.5%，而总体人群约~84%；p = 0.0076）。具体而言，仅有眼部并发症的猫与无并发症病例反应相当（成功率约90%），而神经型FIP猫的成功率约~68%，同时有神经和眼部症状的猫成功率更低（~43%）。这些发现反映了治疗神经型FIP的挑战。"
+  },
+  {
+   "section": "3. Results / 3.2. Summary of Treated Cases and Outcomes",
+   "section_zh": "3. 结果 / 3.2. 治疗病例与结局汇总",
+   "en": "Cases by FIP form were also categorized:",
+   "zh": "还按FIP类型对病例进行了分类："
+  },
+  {
+   "section": "3. Results / 3.2. Summary of Treated Cases and Outcomes",
+   "section_zh": "3. 结果 / 3.2. 治疗病例与结局汇总",
+   "en": "Effusive FIP: 202 cases (31.1%). Among these, 148 (73.3%) achieved remission, 9 (4.5%) went into remission after relapse, 1 (0.5%) died after relapse, 35 (17.3%) died without remission, and 9 (4.5%) were switched to another treatment after relapse. Success rate for wet FIP was ~77.7%.",
+   "zh": "渗出型FIP：202例（31.1%）。其中，148例（73.3%）获得缓解，9例（4.5%）复发后缓解，1例（0.5%）复发后死亡，35例（17.3%）未缓解死亡，9例（4.5%）复发后更换治疗。湿性FIP成功率约~77.7%。"
+  },
+  {
+   "section": "3. Results / 3.2. Summary of Treated Cases and Outcomes",
+   "section_zh": "3. 结果 / 3.2. 治疗病例与结局汇总",
+   "en": "Non-effusive FIP: 187 cases (28.8%). Outcomes: 154 (82.4%) went into remission, 10 (5.3%) went into remission after relapse, 1 (0.5%) died after relapse, 10 (5.3%) died without remission, and 12 (6.4%) switched after relapse. Success rate ~87.7%.",
+   "zh": "非渗出型FIP：187例（28.8%）。结局：154例（82.4%）缓解，10例（5.3%）复发后缓解，1例（0.5%）复发后死亡，10例（5.3%）未缓解死亡，12例（6.4%）复发后更换治疗。成功率约~87.7%。"
+  },
+  {
+   "section": "3. Results / 3.2. Summary of Treated Cases and Outcomes",
+   "section_zh": "3. 结果 / 3.2. 治疗病例与结局汇总",
+   "en": "Mixed FIP (both effusive and non-effusive components): 162 cases (24.9%). Outcomes: 134 (82.7%) went into remission, 3 (1.9%) went into remission after relapse, 0 died after relapse, 24 (14.8%) died without remission, and 1 (0.6%) switched after relapse. Success rate ~84.6%.",
+   "zh": "混合型FIP（同时具有渗出型和非渗出型成分）：162例（24.9%）。结局：134例（82.7%）缓解，3例（1.9%）复发后缓解，0例复发后死亡，24例（14.8%）未缓解死亡，1例（0.6%）复发后更换治疗。成功率约~84.6%。",
+   "note_zh": "三种类型病例数合计202 + 187 + 162 = 551，并非全部650例（各占比合计84.8%）；原文未说明其余99例的类型。"
+  },
+  {
+   "section": "3. Results / 3.2. Summary of Treated Cases and Outcomes",
+   "section_zh": "3. 结果 / 3.2. 治疗病例与结局汇总",
+   "en": "Comparing forms, non-effusive FIP cases had the highest success rate (~88%) (p = 0.039), significantly higher than effusive FIP (~78%). Mixed FIP was intermediate (~85%) and not significantly different from non-effusive FIP (p = 0.56). Because the p-value is higher than 0.05, more studies are needed to draw significant conclusions on this matter. Effusive FIP cases had a statistically lower success compared to non-effusive cases (p = 0.029). We further looked at wet FIP outcomes by effusion type when reported: cats with only ascites tended to have a slightly lower success (78.8%) than those with pleural effusion (~89%), but numbers were small and differences were not significant (p = 0.87). Thus, the presence of effusion (especially large-volume ascites) may correlate with lower success, but our data did not conclusively confirm effusion type as an independent prognostic factor.",
+   "zh": "比较各类型，非渗出型FIP病例成功率最高（~88%）（p = 0.039），显著高于渗出型FIP（~78%）。混合型FIP居中（~85%），与非渗出型FIP无显著差异（p = 0.56）。由于p值大于0.05，需要更多研究才能就此得出显著结论。渗出型FIP病例的成功率在统计学上低于非渗出型病例（p = 0.029）。我们进一步按报告的积液类型考察了湿性FIP的结局：仅有腹水的猫成功率略低（78.8%），而有胸腔积液的猫约~89%，但数量较少，差异不显著（p = 0.87）。因此，积液的存在（尤其是大量腹水）可能与较低的成功率相关，但我们的数据未能确证积液类型是独立的预后因素。",
+   "note_zh": "非渗出型与渗出型比较的p值在同段先后给出p = 0.039和p = 0.029；按原文保留。"
+  },
+  {
+   "section": "3. Results / 3.2. Summary of Treated Cases and Outcomes",
+   "section_zh": "3. 结果 / 3.2. 治疗病例与结局汇总",
+   "en": "Detailed data is shown on Table 3 and Table 4.",
+   "zh": "详细数据见表3和表4。"
+  },
+  {
+   "section": "3. Results / 3.3. GS-441524 Monotherapy vs. Combination Therapy",
+   "section_zh": "3. 结果 / 3.3. GS-441524单药治疗与联合治疗",
+   "en": "Eight of the eleven studies (covering 551 of the 650 cats) evaluated GS-441524 as a stand-alone treatment (with only supportive care). In that combined cohort, the success rate was 83.1% (458/551) for GS-441524 monotherapy. The remaining cases in our dataset involved GS-441524 used in combination with other treatments:",
+   "zh": "11项研究中有8项（涵盖650只猫中的551只）评估了GS-441524作为单一治疗（仅辅以支持治疗）。在该合并队列中，GS-441524单药治疗的成功率为83.1%（458/551）。数据集中其余病例为GS-441524与其他治疗联用：",
+   "note_zh": "单药治疗551例与联合治疗97例（12 + 37 + 48）合计648例，而非650例；按原文保留。"
+  },
+  {
+   "section": "3. Results / 3.3. GS-441524 Monotherapy vs. Combination Therapy",
+   "section_zh": "3. 结果 / 3.3. GS-441524单药治疗与联合治疗",
+   "en": "GS-441524 + Interferon omega: One study (12 cats total) reported using feline interferon-ω alongside GS-441524 in primarily dry FIP cases. Notably, all 12 cats survived (1 required an extra GS-441524 cycle) for an effective success rate of ~100% in that small sample. This regimen was associated with prolonged interferon therapy (up to 1 year) following a standard GS-441524 course [21]. Due to the small number of felines in these studies, no failure was reported in this treatment group, which means that the effectiveness of the treatment can not be assessed statistically.",
+   "zh": "GS-441524 + Interferon omega：1项研究（共12只猫）报告在以干性为主的FIP病例中将猫ω干扰素与GS-441524联用。值得注意的是，所有12只猫均存活（1只需要额外1个GS-441524周期），在这一小样本中有效成功率约~100%。该方案在标准GS-441524疗程后进行了长时间的干扰素治疗（长达1年）[21]。由于这些研究中猫的数量少，该治疗组未报告失败，这意味着无法从统计学上评估该治疗的有效性。"
+  },
+  {
+   "section": "3. Results / 3.3. GS-441524 Monotherapy vs. Combination Therapy",
+   "section_zh": "3. 结果 / 3.3. GS-441524单药治疗与联合治疗",
+   "en": "GS-441524 + Remdesivir: Two studies (37 cats) combined GS-441524 (oral) with injectable Remdesivir [8,22]. Remdesivir was either given initially for a few days or concurrently. Outcome: 35/37 survived (94.6% success). Statistically, this was not different from GS-441524 alone (p = 0.066) and we can not exclude that the better outcome in this drug’s combination is not due to chance. All cats with neurological signs in this group survived, but numbers were too small to obtain a small p-value and draw firm statistical conclusions.",
+   "zh": "GS-441524 + Remdesivir：2项研究（37只猫）将GS-441524（口服）与注射用Remdesivir联用[8,22]。Remdesivir或在初期给药数天，或同时给药。结局：35/37存活（成功率94.6%）。从统计学上看，这与GS-441524单用无差异（p = 0.066），我们不能排除该药物组合的较好结局是偶然所致。该组所有有神经症状的猫均存活，但数量太少，无法获得较小的p值并得出确定的统计结论。"
+  },
+  {
+   "section": "3. Results / 3.3. GS-441524 Monotherapy vs. Combination Therapy",
+   "section_zh": "3. 结果 / 3.3. GS-441524单药治疗与联合治疗",
+   "en": "GS-441524 + GC376: Two studies (48 cats) combined GS-441524 with GC376 [9,23]. Outcome: 45/48 survived (93.8% success). Again, not statistically superior to monotherapy (p = 0.054). Among those with non-effusive FIP and concurrent GC376, success was 94% (including two relapses that were retreated successfully). The addition of GC376 did not clearly overcome the challenge of neurologic disease (one cat with CNS signs relapsed).",
+   "zh": "GS-441524 + GC376：2项研究（48只猫）将GS-441524与GC376联用[9,23]。结局：45/48存活（成功率93.8%）。同样，在统计学上不优于单药治疗（p = 0.054）。在非渗出型FIP并同时使用GC376的病例中，成功率为94%（包括2例复发后再次治疗成功）。加用GC376并未明显克服神经系统疾病的难题（1只有CNS症状的猫复发）。"
+  },
+  {
+   "section": "3. Results / 3.3. GS-441524 Monotherapy vs. Combination Therapy",
+   "section_zh": "3. 结果 / 3.3. GS-441524单药治疗与联合治疗",
+   "en": "Pooling all combination-therapy cases (n = 97) yields a success rate of ~94.8%, compared to 83.1% for monotherapy. This numeric difference identifies a possible advantage to combination therapy in tough cases, but the OR and RR confidence intervals for combination vs. monotherapy crossed one (OR ~2.3 {0.8–6.7}; RR ~1.14 {0.98–1.33}; p = 0.11). This means that the improved outcome following combination therapy can be due to chance, and a poorer outcome is also statistically possible and plausible. For instance, it is statistically possible to obtain the opposite outcome with another case series studying combination therapy on a different group of felines with FIP. Thus, while combination regimens showed excellent outcomes, especially in small cohorts, we cannot conclusively say they are superior to GS-441524 alone given the current data. It is worth noting that no failures were reported in the interferon combination group (hence an incalculable OR for that subgroup), pointing to potential synergy that warrants further investigation (Table 5). The effectiveness of treatment is not called in question, but the superiority of one treatment over another needs further research to be assessed and draw statistically significant conclusions.",
+   "zh": "合并所有联合治疗病例（n = 97），成功率约~94.8%，而单药治疗为83.1%。这一数值差异提示联合治疗在疑难病例中可能具有优势，但联合治疗 vs. 单药治疗的OR和RR置信区间跨越1（OR ~2.3 {0.8–6.7}；RR ~1.14 {0.98–1.33}；p = 0.11）。这意味着联合治疗后结局的改善可能是偶然所致，较差的结局在统计学上也是可能且合理的。例如，在另一组FIP猫中研究联合治疗的另一病例系列，在统计学上有可能得到相反的结果。因此，尽管联合方案显示出极佳的结局（尤其是在小型队列中），但根据现有数据，我们无法确定地说它们优于GS-441524单用。值得注意的是，干扰素联合组未报告失败（因此该亚组的OR无法计算），提示可能存在协同作用，值得进一步研究（表5）。治疗的有效性并未受到质疑，但一种治疗相对于另一种的优越性需要进一步研究来评估，并得出具有统计学意义的结论。",
+   "note_zh": "按文中数据（联合92/97成功，单药458/551成功）计算的OR约为3.7，而非报告的~2.3；RR ~1.14与数据一致。按原文保留。"
+  },
+  {
+   "section": "3. Results / 3.4. Influence of Clinical Factors on Efficacy",
+   "section_zh": "3. 结果 / 3.4. 临床因素对疗效的影响",
+   "en": "We examined the subset of complicated FIP (neurologic/ocular cases) more closely. As noted, success was lower in these cases. Among neurologic FIP cases across all studies (whether treated with higher doses or not), only 67.7% achieved success. In contrast, ocular-only cases had a 90.5% success rate, nearly as high as uncomplicated cases, indicating that standard dosing often suffices for ocular FIP. For neurologic FIP, many studies escalated GS-441524 doses (up to 10–15 mg/kg) specifically to address CNS penetration issues. Despite higher dosing, the CNS cases still had lower success, underscoring the difficulty of achieving adequate drug levels in the central nervous system. This finding aligns with the known pharmacokinetic challenge that GS-441524 faces with the blood–brain barrier [24].",
+   "zh": "我们更仔细地考察了复杂FIP（神经/眼部病例）亚组。如前所述，这些病例的成功率较低。在所有研究的神经型FIP病例中（无论是否采用较高剂量），仅67.7%获得成功。相比之下，仅眼部受累病例成功率为90.5%，几乎与无并发症病例相当，表明标准剂量通常足以治疗眼型FIP。对于神经型FIP，许多研究专门为解决CNS穿透问题而提高了GS-441524剂量（最高至10–15 mg/kg）。尽管剂量提高，CNS病例的成功率仍较低，突显在中枢神经系统中达到足够药物浓度的困难。这一发现与GS-441524面临血脑屏障这一已知药代动力学难题相符[24]。"
+  },
+  {
+   "section": "3. Results / 3.4. Influence of Clinical Factors on Efficacy",
+   "section_zh": "3. 结果 / 3.4. 临床因素对疗效的影响",
+   "en": "It was notable that when GS-441524 was combined with other antivirals in neurologic cases, outcomes improved. In the 10 neurologic cases treated with GS-441524 + Remdesivir, all survived. In eight neurologic cases treated with GS-441524 + GC376, seven survived (one died, despite the combination) [25]. These small numbers are promising, though a lot more data is needed to determine whether combination therapy may improve outcomes for neurologic FIP.",
+   "zh": "值得注意的是，在神经型病例中将GS-441524与其他抗病毒药物联用时，结局有所改善。在10例接受GS-441524 + Remdesivir治疗的神经型病例中，全部存活。在8例接受GS-441524 + GC376治疗的神经型病例中，7例存活（1例尽管联合治疗仍死亡）[25]。这些小样本数据令人鼓舞，但仍需要更多数据来确定联合治疗是否可以改善神经型FIP的结局。"
+  },
+  {
+   "section": "3. Results / 3.4. Influence of Clinical Factors on Efficacy",
+   "section_zh": "3. 结果 / 3.4. 临床因素对疗效的影响",
+   "en": "Regarding the FIP form, we found that effusive FIP cases had worse outcomes than non-effusive FIP. When controlling for other factors, effusive FIP had an OR of ~0.49 for success compared to non-effusive FIP, and an RR indicating about an 11% reduction in success probability. This supports clinical observations that non-effusive FIP tends to respond better to treatment than effusive FIP, perhaps because cats with effusive FIP often have more advanced disease or a higher virus burden. Mixed FIP cases (with partial effusion) had outcomes closer to non-effusive FIP. For this limited number of cases, if effusions were small or localized, the prognosis with GS-441524 remained good.",
+   "zh": "关于FIP类型，我们发现渗出型FIP病例的结局比非渗出型FIP差。在控制其他因素后，渗出型FIP相对于非渗出型FIP的成功OR约为~0.49，RR提示成功概率降低约11%。这支持了临床观察，即非渗出型FIP往往比渗出型FIP对治疗反应更好，可能是因为渗出型FIP猫往往病情更晚期或病毒负荷更高。混合型FIP病例（部分积液）的结局更接近非渗出型FIP。在这有限数量的病例中，如果积液量少或局限，使用GS-441524的预后仍然良好。"
+  },
+  {
+   "section": "3. Results / 3.4. Influence of Clinical Factors on Efficacy",
+   "section_zh": "3. 结果 / 3.4. 临床因素对疗效的影响",
+   "en": "GS-441524 was given through single or multiple routes of administration, with the majority of cases being single-route oral (522/650) or subcutaneous (95/650). Regarding the oral route, 454/522 cats (87%) achieved remission, whilst the proportion was 73/95 (77%) when delivered subcutaneously. This difference (87% vs. 77%) is statistically significant (p = 0.01); however, the two groups differ in size considerably and are not stratified by the type of FIP or the treatment regimen. The absolute numbers of cases for some of these parameters are too small to apply statistics (single animals in some instances). Therefore, we cannot conclude with confidence that delivery via the oral route represents an intrinsically more effective method than subcutaneous delivery. A larger, stratified cohort is needed to evaluate this effectively.",
+   "zh": "GS-441524通过单一或多种途径给药，大多数病例为单一途径口服（522/650）或皮下注射（95/650）。口服途径中，454/522只猫（87%）获得缓解，而皮下给药时该比例为73/95（77%）。这一差异（87% vs. 77%）具有统计学意义（p = 0.01）；然而，两组规模差异很大，且未按FIP类型或治疗方案分层。其中一些参数的病例绝对数量太少，无法应用统计学方法（某些情况下仅单个动物）。因此，我们不能有把握地得出口服途径本质上比皮下给药更有效的结论。需要更大规模的分层队列来有效评估这一问题。"
+  },
+  {
+   "section": "3. Results / 3.5. Safety and Adverse Effects",
+   "section_zh": "3. 结果 / 3.5. 安全性与不良反应",
+   "en": "While efficacy was the primary focus, the included studies also reported on safety. No life-threatening adverse effects of GS-441524 were noted in any study. The most common issue was discomfort at injection sites for subcutaneous administration, which was universally reported when injections were used (often manifesting as pain or localized swelling) [11]. Oral GS-441524 was generally well tolerated; mild elevations in liver enzymes and mild lymphocytosis were occasionally observed but did not usually necessitate stopping treatment [26]. One report documented two cats developing uroliths (bladder stones) composed of GS-441524 or its metabolites during treatment—an unusual side effect thought to result from high drug concentrations in urine [27]. Those cases underscore the importance of monitoring during treatment, especially if high doses are used or if the cat has urinary tract symptoms.",
+   "zh": "虽然疗效是主要关注点，纳入研究也报告了安全性。所有研究均未发现GS-441524危及生命的不良反应。最常见的问题是皮下给药时注射部位不适，凡使用注射时均有报告（通常表现为疼痛或局部肿胀）[11]。口服GS-441524总体耐受良好；偶尔观察到轻度肝酶升高和轻度淋巴细胞增多，但通常无须停药[26]。1篇报告记录了2只猫在治疗期间形成由GS-441524或其代谢物构成的尿石（膀胱结石）——这是一种不寻常的副作用，被认为由尿中药物浓度高所致[27]。这些病例强调了治疗期间监测的重要性，尤其是在使用高剂量或猫有泌尿道症状时。"
+  },
+  {
+   "section": "3. Results / 3.5. Safety and Adverse Effects",
+   "section_zh": "3. 结果 / 3.5. 安全性与不良反应",
+   "en": "Combination therapy did not appear to introduce significant new safety concerns in the limited cases reported. Remdesivir injections can cause transient renal enzyme elevations and injection-site phlebitis in some cases, but in the FIP studies reviewed, it was used for a relatively short duration and was well tolerated [28]. GC376 is known to cause reversible teeth discoloration in juvenile animals (a concern in lab studies) and occasional injection-site reactions; no severe issues were reported in the FIP cats on GC376, aside from one case of facial skin ulceration that may have been related to the drug or the disease itself [25]. Interferon omega can cause transient fever or malaise, but cats in those combination studies did not have significant adverse reactions reported [29].",
+   "zh": "在报告的有限病例中，联合治疗似乎未引入显著的新安全问题。Remdesivir注射在某些情况下可引起一过性肾脏酶升高和注射部位静脉炎，但在所综述的FIP研究中，其使用时间相对较短且耐受良好[28]。已知GC376可引起幼龄动物可逆性牙齿变色（实验室研究中的一个顾虑）及偶发注射部位反应；使用GC376的FIP猫未报告严重问题，除1例面部皮肤溃疡可能与药物或疾病本身有关[25]。Interferon omega可引起一过性发热或不适，但这些联合治疗研究中的猫未报告显著不良反应[29]。"
+  },
+  {
+   "section": "3. Results / 3.5. Safety and Adverse Effects",
+   "section_zh": "3. 结果 / 3.5. 安全性与不良反应",
+   "en": "It should be noted that although compounded medication containing GS-441524 is available in some markets, GS-441524 is not legally available everywhere, leading many owners to procure it from unregulated sources. Recent analyses of such black-market products found that some contain incorrect concentrations of GS-441524 or even different antivirals like molnupiravir mislabeled as GS-441524 [30]. Some formulations had very low pH [31], causing severe injection site damage [29]. These findings highlight a broader safety issue: the need for globally available quality-controlled, approved formulations to ensure safe treatment. Globally legalizing and regulating GS-441524 (or its prodrug) for veterinary use would mitigate these risks.",
+   "zh": "应当指出，尽管含GS-441524的复方配制药物在一些市场可以获得，但GS-441524并非在所有地方都合法可得，导致许多主人从无监管来源购买。最近对此类黑市产品的分析发现，部分产品GS-441524浓度不正确，甚至含有被错误标注为GS-441524的其他抗病毒药物，如molnupiravir[30]。一些制剂pH值非常低[31]，导致严重的注射部位损伤[29]。这些发现突显了一个更广泛的安全问题：需要全球可获得的、经质量控制和批准的制剂，以确保安全治疗。在全球范围内将GS-441524（或其前药）合法化并加以监管用于兽医用途，将降低这些风险。"
+  },
+  {
+   "section": "3. Results / 3.6. Certainty of Evidence",
+   "section_zh": "3. 结果 / 3.6. 证据确定性",
+   "en": "Using the GRADE criteria, we rated the overall certainty of the evidence from this review as low to very low (Supplementary Table S4). This is mainly because all included data are from uncontrolled case series without randomization or blinding, making them susceptible to various biases. There was also some inconsistency (success rates varied across studies, though generally high) and imprecision (wide confidence intervals in subgroup analyses, especially for small subgroups like high-dose cases). On the other hand, the therapeutic effect observed (over 80% survival from a disease that is otherwise almost 100% fatal) is striking and consistent enough to be convincing, even if formally “low certainty.” We emphasize that while the results suggest GS-441524 is effective, the absence of controlled trials means caution should be taken when drawing definitive conclusions about comparative efficacy (e.g., combination vs. monotherapy, or optimal dosing). Randomized trials would greatly increase confidence in findings and help establish causality.",
+   "zh": "采用GRADE标准，我们将本综述证据的整体确定性评为低至极低（补充表S4）。这主要是因为所有纳入数据均来自无随机化或盲法的无对照病例系列，易受各种偏倚影响。还存在一定的不一致性（各研究成功率不同，但总体较高）和不精确性（亚组分析中置信区间较宽，尤其是高剂量病例等小亚组）。另一方面，所观察到的治疗效果（一种原本几乎100%致死的疾病存活率超过80%）引人注目且足够一致，令人信服，即使形式上为“低确定性”。我们强调，虽然结果提示GS-441524有效，但由于缺乏对照试验，在就比较疗效（如联合治疗 vs. 单药治疗，或最佳剂量）得出确定结论时应保持谨慎。随机试验将大大提高对研究结果的信心，并有助于确立因果关系。"
+  },
+  {
+   "section": "4. Discussion",
+   "section_zh": "4. 讨论",
+   "en": "In this systematic review, we compiled and analyzed the published evidence on treating FIP with GS-441524. The results indicate that GS-441524 is efficacious, transforming FIP from a fatal disease into a treatable condition for the majority of affected cats. Across 650 reported cases, approximately 85% survived and achieved remission with GS-441524 therapy, which is a striking outcome considering the historical near-100% mortality of FIP.",
+   "zh": "在本系统综述中，我们汇编并分析了已发表的关于GS-441524治疗FIP的证据。结果表明GS-441524是有效的，使FIP从一种致死性疾病转变为大多数患猫可治疗的疾病。在650例报告病例中，约85%经GS-441524治疗存活并获得缓解，考虑到FIP历史上接近100%的死亡率，这是一个引人注目的结果。"
+  },
+  {
+   "section": "4. Discussion",
+   "section_zh": "4. 讨论",
+   "en": "Our analysis confirms several clinical impressions and provides some new insights:",
+   "zh": "我们的分析证实了若干临床印象，并提供了一些新见解："
+  },
+  {
+   "section": "4. Discussion",
+   "section_zh": "4. 讨论",
+   "en": "High Overall Efficacy: GS-441524, as a sole therapy, yielded about an 83% success rate in pooled data. When including combination treatments, success exceeded 90% in some cohorts. These findings concur with earlier reports of ~80–90% cure rates in field use of GS-441524 or its prodrugs [32,33]. By comparison, historically, no treatment reliably induced remission in FIP, so this represents a significant improvement.",
+   "zh": "总体疗效高：在合并数据中，GS-441524作为单一疗法的成功率约为83%。若包括联合治疗，部分队列的成功率超过90%。这些发现与早期报告的GS-441524或其前药临床使用治愈率约~80–90%一致[32,33]。相比之下，历史上没有任何治疗能可靠地诱导FIP缓解，因此这代表了重大改进。"
+  },
+  {
+   "section": "4. Discussion",
+   "section_zh": "4. 讨论",
+   "en": "Effusive vs. Non-Effusive FIP: Cats with non-effusive (dry) FIP responded somewhat better than those with effusive FIP, which aligns with clinical experience. Effusive FIP is the more acute fulminant form with a shorter clinical course, and extensive immune-complex deposition, which may be harder to fully reverse, even with antivirals. Additionally, large-volume effusions can be caused by a high viral load and severe inflammation. Still, it is notable that even in effusive FIP, roughly 78% of cats survived—again, a vast improvement on 0%.",
+   "zh": "渗出型 vs. 非渗出型FIP：非渗出型（干性）FIP猫的反应略优于渗出型FIP猫，这与临床经验一致。渗出型FIP是更急性的暴发型，临床病程较短，伴广泛的免疫复合物沉积，即使使用抗病毒药物也可能更难完全逆转。此外，大量积液可能由高病毒载量和严重炎症引起。尽管如此，值得注意的是，即使在渗出型FIP中，约78%的猫也存活了——与0%相比同样是巨大的改善。"
+  },
+  {
+   "section": "4. Discussion",
+   "section_zh": "4. 讨论",
+   "en": "Neurological/Ocular FIP: Cats with CNS involvement remain the most challenging to cure. The blood–brain barrier limits the penetration of GS-441524; even at higher doses, drug levels in cerebrospinal fluid are much lower than in plasma. This likely explains why standard dosing is often insufficient for neuro-FIP. Clinicians now often use ~10 mg/kg for neuro cases (and some advocate even higher or twice-daily dosing) [16]. Alternative strategies, such as using more lipophilic analogues or combination therapy (e.g., adding drugs that cross into the CNS), might further improve neuro-FIP outcomes. The success seen with Molnupiravir in rescue cases is encouraging—Molnupiravir is orally administered and can penetrate the CNS. Combining GS-441524 with Molnupiravir or other CNS-penetrant antivirals may be a fruitful approach in the future.",
+   "zh": "神经型/眼型FIP：CNS受累的猫仍然是最难治愈的。血脑屏障限制了GS-441524的穿透；即使在较高剂量下，脑脊液中的药物浓度也远低于血浆。这很可能解释了为何标准剂量对神经型FIP常常不足。临床医生现在对神经型病例常使用~10 mg/kg（有些人甚至主张更高剂量或每日2次给药）[16]。替代策略，如使用亲脂性更强的类似物或联合治疗（如加用可进入CNS的药物），可能进一步改善神经型FIP的结局。Molnupiravir在挽救病例中取得的成功令人鼓舞——Molnupiravir经口给药且可穿透CNS。将GS-441524与Molnupiravir或其他可穿透CNS的抗病毒药物联用，未来可能是一种富有成效的方法。"
+  },
+  {
+   "section": "4. Discussion",
+   "section_zh": "4. 讨论",
+   "en": "Combination Therapy: While our analysis did not prove a significant advantage to combining GS-441524 with other antivirals, the numerically higher survival in those cohorts and the particular success in some tough cases (e.g., all neuro cases on GS + Remdesivir survived) identify this strategy as promising in certain scenarios. It is logical that two antivirals targeting different viral proteins (polymerase and protease, for instance) could have additive or synergistic effects. Moreover, Remdesivir essentially delivers the same active molecule but via a different route—some protocols start with Remdesivir injections to rapidly achieve high blood levels and then switch to oral GS-441524 for convenience [8]. Australian veterinarians have adopted Remdesivir (since it is legally obtainable) followed by oral GS-441524, with reported outcomes similar to those in this review (an approximately 90% cure rate) [10]. Interferon omega’s role is less clear; it has immunomodulatory effects and might help in controlling secondary infections or modulating the immune response. In a couple of small studies, adjunct interferon seemed to help, but those were not controlled comparisons. As a minimum, we can say that interferon was not detrimental, and it could be considered as an adjunct, especially in non-effusive FIP cases [21].",
+   "zh": "联合治疗：虽然我们的分析未证明GS-441524与其他抗病毒药物联用具有显著优势，但这些队列中数值上更高的存活率以及在某些疑难病例中的特别成功（如所有接受GS + Remdesivir治疗的神经型病例均存活）表明，这一策略在某些情况下前景良好。靶向不同病毒蛋白（例如聚合酶和蛋白酶）的2种抗病毒药物可能具有相加或协同作用，这是合乎逻辑的。此外，Remdesivir本质上递送的是同一种活性分子，只是途径不同——一些方案先用Remdesivir注射以迅速达到高血药浓度，然后为方便起见改用口服GS-441524[8]。澳大利亚兽医已采用Remdesivir（因其可合法获得）后接口服GS-441524，报告的结局与本综述相似（治愈率约90%）[10]。Interferon omega的作用尚不太清楚；它具有免疫调节作用，可能有助于控制继发感染或调节免疫反应。在几项小型研究中，辅助使用干扰素似乎有帮助，但这些并非对照比较。至少我们可以说干扰素没有害处，可以考虑作为辅助治疗，尤其是在非渗出型FIP病例中[21]。"
+  },
+  {
+   "section": "4. Discussion",
+   "section_zh": "4. 讨论",
+   "en": "Treatment Duration: Most studies treated for at least 12 weeks, which has become the standard recommendation (this duration was originally extrapolated from the first experimental trial of GS-441524) [24]. A few reports experimented with shorter courses (e.g., 8 weeks) or longer ones (beyond 12 weeks). Anecdotally, shorter courses have higher relapse rates [11]. One recent study suggests that even a 6-week course might suffice for some mild cases, but relapse remains a risk [34]. In general, 12 weeks is still advised, and if there is any residual disease at 12 weeks, extending treatment or increasing the dose for a few extra weeks is recommended [16]. Our review found that some cats required a second round of treatment after a relapse—often at a higher dose or for a longer period—to fully cure the disease. As a safety margin, some practitioners treat for 2 weeks beyond the resolution of clinical signs to ensure clearance of the virus. In our dataset, about 4% of cats relapsed after the first round and were then successfully retreated; thus, monitoring after the initial treatment period is crucial.",
+   "zh": "疗程：大多数研究治疗至少12周，这已成为标准建议（该疗程最初是从GS-441524的首个实验性试验外推而来）[24]。少数报告尝试了较短疗程（如8周）或较长疗程（超过12周）。据经验，较短疗程的复发率较高[11]。最近一项研究提示，对于某些轻症病例，即使6周的疗程也可能足够，但复发风险仍然存在[34]。总体而言，仍建议12周，如果12周时仍有残留病变，建议延长治疗或在额外数周内提高剂量[16]。我们的综述发现，一些猫在复发后需要第2轮治疗——通常剂量更高或疗程更长——才能完全治愈。作为安全余量，一些从业者在临床症状消退后再治疗2周，以确保清除病毒。在我们的数据集中，约4%的猫在第1轮治疗后复发，随后再次治疗成功；因此，初始治疗期后的监测至关重要。"
+  },
+  {
+   "section": "4. Discussion",
+   "section_zh": "4. 讨论",
+   "en": "Relapses and Resistance: A small number of cats did not respond or relapsed repeatedly. Viral RNA from some of these refractory cases has shown mutations in the virus’s polymerase or spike proteins, potentially conferring partial resistance to GS-441524 [9]. Molnupiravir has been used as a “rescue” in these cases, as it has a different mechanism (causing lethal mutagenesis of the virus). Roy et al. (2022) reported that 8/11 cats who failed with GS-441524 treatment achieved remission when switched to Molnupiravir [9]. This highlights the importance of having multiple antiviral options available, especially as wider use of GS-441524 could exert selective pressure on the virus. The combination or sequential use of GS-441524 and Molnupiravir is an active area of investigation.",
+   "zh": "复发与耐药：少数猫无反应或反复复发。部分难治病例的病毒RNA显示病毒聚合酶或刺突蛋白发生突变，可能赋予对GS-441524的部分耐药性[9]。Molnupiravir因其作用机制不同（引起病毒致死性诱变），已在这些病例中用作“挽救”治疗。Roy等（2022）报告，GS-441524治疗失败的11只猫中有8只在改用Molnupiravir后获得缓解[9]。这突显了拥有多种抗病毒选择的重要性，尤其是GS-441524的更广泛使用可能对病毒施加选择压力。GS-441524与Molnupiravir的联合或序贯使用是一个活跃的研究领域。"
+  },
+  {
+   "section": "4. Discussion",
+   "section_zh": "4. 讨论",
+   "en": "Safety and Side Effects: GS-441524 has a wide therapeutic margin in cats; most adverse effects are localized or mild. The occurrence of urolithiasis in two cases is intriguing—it may be that GS-441524 (or a metabolite) can crystallize in urine in some circumstances. Ensuring cats stay well-hydrated during treatment might be a reasonable precaution, especially at high doses. The injection pain issue has largely been mitigated by the move to oral formulations. Many owners now prefer to use oral GS-441524 from day one (to avoid subjecting the cat to daily painful injections) [35]. In situations where oral absorption might be compromised (e.g., a cat with vomiting or inappetence), initial injectable dosing can be performed and then transitioned to oral once the cat is stable [10]. Overall, the tolerability of GS-441524 is excellent compared to many chemotherapeutics or antiviral drugs used in other species.",
+   "zh": "安全性与副作用：GS-441524在猫中治疗窗宽；大多数不良反应为局部或轻度。2例出现尿石症值得关注——可能是GS-441524（或其代谢物）在某些情况下可在尿中结晶。确保猫在治疗期间保持充足水合可能是合理的预防措施，尤其是在高剂量时。随着转向口服制剂，注射疼痛问题已在很大程度上得到缓解。许多主人现在倾向于从第1天起就使用口服GS-441524（以免猫每天遭受疼痛的注射）[35]。在口服吸收可能受影响的情况下（如猫呕吐或食欲不振），可先注射给药，待猫稳定后再改为口服[10]。总体而言，与其他物种中使用的许多化疗药物或抗病毒药物相比，GS-441524的耐受性极佳。"
+  },
+  {
+   "section": "4. Discussion",
+   "section_zh": "4. 讨论",
+   "en": "Treating FIP with GS-441524 offers new hope, yet animal welfare considerations must remain central. While many cats experience remission, treatment failures can occur, especially with under-dosing, advanced disease, or drug resistance. Adverse effects, such as injection site pain, vomiting, or liver enzyme elevation, require careful monitoring. Furthermore, reliance on grey-market sources raises ethical and safety concerns due to unregulated drug quality. Ensuring informed consent, adequate veterinary oversight, and access to humane alternatives is crucial. A balanced approach respects both the drive to save lives and the responsibility to avoid undue suffering during experimental or costly interventions.",
+   "zh": "使用GS-441524治疗FIP带来了新的希望，但动物福利考量必须始终处于核心地位。虽然许多猫获得缓解，但治疗失败仍可能发生，尤其是在剂量不足、疾病晚期或耐药的情况下。注射部位疼痛、呕吐或肝酶升高等不良反应需要仔细监测。此外，依赖灰色市场来源因药物质量缺乏监管而引发伦理和安全方面的担忧。确保知情同意、充分的兽医监督以及获得人道替代方案至关重要。一种平衡的方法既尊重挽救生命的努力，也尊重在实验性或昂贵干预期间避免不必要痛苦的责任。"
+  },
+  {
+   "section": "4. Discussion",
+   "section_zh": "4. 讨论",
+   "en": "Regulatory Status and Access: Despite the compelling evidence of efficacy, GS-441524 is only approved in certain countries, and supplied as a compounded pharmaceutical. Remdesivir, which is chemically very similar, is now legal for veterinary FIP treatment in Australia, Canada, the UK, and some EU countries. It is being used off-label by veterinarians in the USA as a legal workaround [10]. The FDA’s guidance in 2022 opened the door for compounding Remdesivir or similar drugs for FIP under certain conditions [10]. The Federation of Veterinarians of Europe has also advocated for legal pathways to access these life-saving treatments [10]. In Europe, the use of extemporaneous products containing GS-441524 has now been made possible by some manufacturers, giving a legal and safer chance of survival for FIP patients [36]. There is no common regulatory standard between countries, which makes it difficult even for clinicians in the field to understand what treatment options are legally available in their country. For this reason, veterinarians might not even consider GS-441524 or its analogues as a treatment option for FIP.",
+   "zh": "监管状态与可及性：尽管疗效证据令人信服，GS-441524仅在某些国家获批，且以复方配制药物形式供应。化学上非常相似的Remdesivir，现已在澳大利亚、加拿大、英国和一些欧盟国家合法用于兽医FIP治疗。在美国，兽医将其作为合法变通方式进行标签外使用[10]。FDA于2022年发布的指导意见为在特定条件下复方配制Remdesivir或类似药物用于FIP打开了大门[10]。欧洲兽医联合会（Federation of Veterinarians of Europe）也倡导建立获取这些救命疗法的合法途径[10]。在欧洲，一些制造商现已使含GS-441524的临时配制产品的使用成为可能，为FIP患猫提供了合法且更安全的生存机会[36]。各国之间没有共同的监管标准，这使得即使是一线临床医生也难以了解其所在国家合法可用的治疗选择。因此，兽医甚至可能不会考虑将GS-441524或其类似物作为FIP的治疗选择。"
+  },
+  {
+   "section": "4. Discussion",
+   "section_zh": "4. 讨论",
+   "en": "Limitations: The main limitations of this review stem from the available studies. All data were from uncontrolled trials; hence, improvements in cats could theoretically have been influenced by ancillary care or spontaneous recovery (though spontaneous recovery from FIP is exceedingly rare). Controlled randomized studies are needed to confirm the efficacity of GS-441524 in the treatment of FIP to increase the certainty level of any conclusion on the matter and to draw clear and practical guidelines on the use of the antiviral in FIP patients. Currently, the data available is not statistically robust enough to allow veterinarians to implement rules and guidance in clinical decision-making. For instance, no statistically based conclusion can be drawn on whether neurological FIP should be treated with combination therapy or a monotherapy, or which dosage should be used and for how long. The conclusions on this matter are based on experience and not evidence, due to the absence of controlled randomized studies. Publication bias is likely—veterinarians or owners who had great success might be more inclined to publish than those with failures. However, given the consistent reports from various independent groups, the efficacy signal is strong. We also had to rely on pooled data that combine different dosing regimens and case mixes. There is inherent heterogeneity: for example, one study might focus on CNS cases on high doses, while another was mostly uncomplicated cases on standard doses—comparing results between them is not straightforward. Wherever possible, we stratified data to make “apples to apples” comparisons.",
+   "zh": "局限性：本综述的主要局限源于现有研究。所有数据均来自无对照试验；因此，猫的改善理论上可能受辅助护理或自发康复的影响（尽管FIP的自发康复极为罕见）。需要对照随机研究来确认GS-441524治疗FIP的疗效，以提高相关结论的确定性，并就FIP患猫使用该抗病毒药物制定清晰实用的指南。目前，现有数据在统计学上不够稳健，不足以让兽医在临床决策中实施规则和指导。例如，对于神经型FIP应采用联合治疗还是单药治疗，或应使用何种剂量及多长疗程，无法得出基于统计学的结论。由于缺乏对照随机研究，这方面的结论基于经验而非证据。很可能存在发表偏倚——取得巨大成功的兽医或主人可能比遭遇失败者更倾向于发表。然而，鉴于来自不同独立团队的报告一致，疗效信号很强。我们还不得不依赖合并了不同给药方案和病例构成的数据。存在固有的异质性：例如，一项研究可能聚焦于接受高剂量的CNS病例，而另一项主要是接受标准剂量的无并发症病例——比较它们之间的结果并不直接。我们尽可能对数据进行分层，以进行“同类相比”。"
+  },
+  {
+   "section": "4. Discussion",
+   "section_zh": "4. 讨论",
+   "en": "Another limitation important to highlight is that the age of the felines we analyzed was not always available. We were therefore unable to include this parameter as part of our study. We acknowledge this may be a significant factor in the response to treatment. The literature does not yet contain multiple and consistent examples of age being a significant factor affecting GS-441524 efficacy when treating effusive vs. non-effusive FIP. In one of the studies we analyzed [11], a field trial involving 31 cats, with ages 3.4 to 73 months (approx. 0.3–6 years), had 26 effusive and 5 non-effusive cases. Older cats and non-effusive cats responded as well as young cats and those with effusive FIP. But this is just one example, and clearly more studies are needed to assess this issue adequately.",
+   "zh": "另一个需要强调的重要局限是，我们所分析的猫的年龄并非总能获得。因此，我们无法将该参数纳入研究。我们承认这可能是影响治疗反应的重要因素。文献中尚无多个一致的例子表明年龄是影响GS-441524治疗渗出型 vs. 非渗出型FIP疗效的重要因素。在我们分析的一项研究[11]中，一项涉及31只猫的现场试验，年龄为3.4至73月龄（约0.3–6岁），有26例渗出型和5例非渗出型病例。年龄较大的猫和非渗出型猫的反应与幼龄猫和渗出型FIP猫一样好。但这只是一个例子，显然需要更多研究来充分评估这一问题。"
+  },
+  {
+   "section": "4. Discussion",
+   "section_zh": "4. 讨论",
+   "en": "Five of the eleven included studies used gold standard methodologies, with a further five using a thorough range of techniques, including PCR. Only one study [9] lacked adequate details, with cats presumed to have FIP based on prior veterinary diagnosis, but no details are provided. As a further limitation of our review, it may be possible that some of these cases were not actually FIP, though as a cohort of just 26 cases, and for each, the outcome defined as “relapse and change treatment”, they did not impact upon the data we calculated for remission or death.",
+   "zh": "11项纳入研究中有5项采用了金标准方法，另有5项采用了包括PCR在内的全面技术。仅1项研究[9]缺乏足够细节，其中的猫根据之前的兽医诊断被推定患有FIP，但未提供细节。作为本综述的另一局限，其中部分病例可能实际上并非FIP，但作为仅26例的队列，且每例的结局均被定义为“复发后更换治疗”，它们并未影响我们计算的缓解或死亡数据。"
+  },
+  {
+   "section": "4. Discussion",
+   "section_zh": "4. 讨论",
+   "en": "Future Directions: What the field needs now are controlled randomized clinical trials. A randomized trial of GS-441524 (or its prodrug) at different doses would help determine the minimum effective dose and confirm that the outcomes are truly as good as they appear. Trials comparing GS-441524 monotherapy vs. combination (e.g., with an adjunct like GC376 or Molnupiravir) would be valuable, particularly for neurologic FIP. Additionally, long-term follow-up of treated cats is needed to ensure there are no late relapses or chronic issues. Thus far, reports of cats cured of FIP show they live normal lives and even successfully receive vaccinations or deal with other illnesses without FIP recurrence [11].",
+   "zh": "未来方向：该领域目前需要的是对照随机临床试验。对不同剂量的GS-441524（或其前药）进行随机试验，将有助于确定最低有效剂量，并确认结局确实如表面所见那样好。比较GS-441524单药治疗与联合治疗（如联用GC376或Molnupiravir等辅助药物）的试验将很有价值，尤其是针对神经型FIP。此外，需要对治疗后的猫进行长期随访，以确保没有迟发复发或慢性问题。迄今为止，关于FIP治愈猫的报告显示它们生活正常，甚至能成功接种疫苗或应对其他疾病而不出现FIP复发[11]。"
+  },
+  {
+   "section": "4. Discussion",
+   "section_zh": "4. 讨论",
+   "en": "In conclusion, this review provides a comprehensive update on the use of GS-441524 in FIP. The evidence, albeit from uncontrolled studies, consistently shows a high efficacy in treating a disease once considered a death sentence. This has already translated into thousands of lives saved worldwide through underground efforts. As the veterinary community moves towards globally legitimizing these treatments, the knowledge from these studies will inform protocols and help optimize outcomes. With continued research, we hope to refine dosing for special cases (like neurologic FIP), manage drug resistance, and perhaps one day integrate FIP antivirals into official treatment guidelines. What has been achieved so far is a strong step forward for feline medicine—turning FIP into a curable disease in most instances—and ongoing research and advocacy are poised to further improve and formalize FIP treatment.",
+   "zh": "总之，本综述全面更新了GS-441524在FIP中的应用。这些证据尽管来自无对照研究，但一致显示其在治疗一种曾被视为绝症的疾病方面疗效很高。这已通过地下途径在全球挽救了成千上万只猫的生命。随着兽医界推动这些疗法在全球合法化，这些研究的知识将为治疗方案提供依据并帮助优化结局。通过持续研究，我们希望针对特殊病例（如神经型FIP）优化剂量、应对耐药，或许有一天将FIP抗病毒药物纳入官方治疗指南。迄今取得的成就是猫医学向前迈出的坚实一步——在大多数情况下使FIP成为可治愈的疾病——而持续的研究和倡导有望进一步改进FIP治疗并使之规范化。"
+  },
+  {
+   "section": "5. Conclusions",
+   "section_zh": "5. 结论",
+   "en": "FIP has historically been one of the most dreaded feline diseases, but the advent of antiviral therapy (in particular GS-441524 and its analogues) has dramatically improved the prognosis. This review confirms that GS-441524 is a highly effective treatment for FIP, inducing remission in the majority of cases, including both effusive and non-effusive forms. The appropriate dosage typically lies in the 4–10 mg/kg range once daily for at least 12 weeks, with higher doses (or more frequent dosing) required for cases with CNS involvement. In our analysis, remission from uncomplicated FIP correlated with lower doses and straightforward protocols, whereas complicated cases (especially neurological FIP) benefit from more aggressive treatment strategies, with combination therapy a promising option.",
+   "zh": "FIP历来是最令人畏惧的猫病之一，但抗病毒治疗（特别是GS-441524及其类似物）的出现显著改善了预后。本综述证实GS-441524是一种高效的FIP治疗药物，可使大多数病例（包括渗出型和非渗出型）获得缓解。合适的剂量通常为4–10 mg/kg，每日1次，至少12周，CNS受累病例需要更高剂量（或更频繁给药）。在我们的分析中，无并发症FIP的缓解与较低剂量和简单方案相关，而复杂病例（尤其是神经型FIP）则受益于更积极的治疗策略，联合治疗是一种有前景的选择。"
+  },
+  {
+   "section": "5. Conclusions",
+   "section_zh": "5. 结论",
+   "en": "Treatment combinations (GS-441524 with interferon omega, Remdesivir, or GC376) appear safe and potentially helpful for difficult cases, though randomized studies are needed to determine if they provide a significant advantage. Cases that fail initial GS-441524 therapy can often be rescued with Molnupiravir as an alternative antiviral, highlighting the importance of having multiple treatment options available.",
+   "zh": "治疗组合（GS-441524联用interferon omega、Remdesivir或GC376）对疑难病例似乎安全且可能有帮助，但需要随机研究来确定它们是否具有显著优势。初始GS-441524治疗失败的病例通常可用Molnupiravir作为替代抗病毒药物挽救，突显了拥有多种治疗选择的重要性。"
+  },
+  {
+   "section": "5. Conclusions",
+   "section_zh": "5. 结论",
+   "en": "All evidence indicates that GS-441524 is generally well tolerated by cats. The main side effects to watch for are injection site reactions (largely mitigated by using oral formulations) and, rarely, potential issues like drug-related uroliths. Practitioners should also be aware of the varying quality of black-market products and counsel pet owners on the risks. The global legalization and regulation of FIP antivirals would greatly enhance treatment safety and accessibility and eliminate the ethical quandaries some veterinarians face.",
+   "zh": "所有证据表明，GS-441524总体上被猫良好耐受。需要注意的主要副作用是注射部位反应（通过使用口服制剂在很大程度上得到缓解），以及罕见的药物相关尿石等潜在问题。从业者还应意识到黑市产品质量参差不齐，并就风险向宠物主人提供咨询。FIP抗病毒药物的全球合法化和监管将大大提高治疗的安全性和可及性，并消除部分兽医面临的伦理困境。"
+  },
+  {
+   "section": "5. Conclusions",
+   "section_zh": "5. 结论",
+   "en": "In summary, based on the compiled literature, GS-441524 is an effective therapy for FIP, converting a once-hopeless disease into one with a good chance of cure. To fully realize the benefits for all cats, further research (especially controlled clinical trials) is necessary to refine treatment regimens and to validate long-term outcomes. The collective experience so far provides a strong foundation for developing evidence-based treatment guidelines for FIP in the near future. With continued advancements, the goal is to establish FIP as a fully manageable condition, tailoring therapy to each cat’s disease presentation and ensuring that every cat with FIP has access to life-saving treatment.",
+   "zh": "总之，根据汇编的文献，GS-441524是治疗FIP的有效疗法，将一种曾经无望的疾病转变为治愈机会很大的疾病。为使所有猫充分受益，需要进一步研究（尤其是对照临床试验）以优化治疗方案并验证长期结局。迄今的集体经验为在不久的将来制定基于证据的FIP治疗指南奠定了坚实基础。随着持续进步，目标是使FIP成为完全可控的疾病，根据每只猫的疾病表现定制治疗，并确保每只FIP猫都能获得救命的治疗。"
+  },
+  {
+   "section": "5. Conclusions",
+   "section_zh": "5. 结论",
+   "en": "Another future consideration is antiviral resistance. Widespread use of a single antiviral could lead to resistant FCoV strains. Monitoring and rotating or combining therapies may become important. It may be prudent to treat the most severe cases with dual therapy from the start to prevent the emergence of resistant variants, analogous to how combination therapy is used in HIV and other viral infections to suppress resistance.",
+   "zh": "未来的另一项考量是抗病毒药物耐药。广泛使用单一抗病毒药物可能导致耐药FCoV毒株。监测以及轮换或联合疗法可能变得重要。对最严重的病例从一开始就采用双药治疗以防止耐药变异株出现可能是审慎的，这类似于在HIV和其他病毒感染中使用联合治疗来抑制耐药。"
+  },
+  {
+   "section": "Abbreviations",
+   "section_zh": "缩写",
+   "en": "The following abbreviations are used in this manuscript:",
+   "zh": "本文使用以下缩写："
+  },
+  {
+   "section": "Author Contributions",
+   "section_zh": "作者贡献",
+   "en": "Conceptualization, S.A. and E.G.; methodology, S.A., E.G. and J.F.; formal analysis, E.G., J.F., M.S.G., H.V. and S.A.; data curation, E.G., J.F., M.S.G., H.V. and S.A.; writing—original draft preparation, E.G., J.F., M.S.G., H.V. and S.A.; writing—review and editing, E.G., J.F., M.S.G., H.V. and S.A. All authors have read and agreed to the published version of the manuscript.",
+   "zh": "构思，S.A.和E.G.；方法，S.A.、E.G.和J.F.；形式分析，E.G.、J.F.、M.S.G.、H.V.和S.A.；数据管理，E.G.、J.F.、M.S.G.、H.V.和S.A.；写作——初稿，E.G.、J.F.、M.S.G.、H.V.和S.A.；写作——审阅与编辑，E.G.、J.F.、M.S.G.、H.V.和S.A.。所有作者均已阅读并同意稿件的发表版本。"
+  },
+  {
+   "section": "Institutional Review Board Statement",
+   "section_zh": "机构审查委员会声明",
+   "en": "Not applicable.",
+   "zh": "不适用。"
+  },
+  {
+   "section": "Informed Consent Statement",
+   "section_zh": "知情同意声明",
+   "en": "Not applicable.",
+   "zh": "不适用。"
+  },
+  {
+   "section": "Conflicts of Interest",
+   "section_zh": "利益冲突",
+   "en": "The authors declare no conflicts of interest.",
+   "zh": "作者声明无利益冲突。"
+  },
+  {
+   "section": "Funding Statement",
+   "section_zh": "资助声明",
+   "en": "This research received no external funding.",
+   "zh": "本研究未获得外部资助。"
+  },
+  {
+   "section": "Table caption",
+   "section_zh": "表题",
+   "en": "Table 1 Summary of the number of articles considered at each stage of the selection process for inclusion in the study. This table presents the number of references retrieved, screened, and finally selected from each database during the literature review process.",
+   "zh": "表1 纳入研究的筛选过程各阶段所考虑文章数量汇总。本表列出文献综述过程中从各数据库检索、筛选并最终选定的参考文献数量。"
+  },
+  {
+   "section": "Table footnote",
+   "section_zh": "表注",
+   "en": "* The 11 selected references were also found in other databases besides PubMed Central but were excluded from those due to duplication during the screening process.",
+   "zh": "* 所选的11篇参考文献在PubMed Central以外的其他数据库中也有检出，但在筛选过程中因重复而从这些数据库中排除。"
+  },
+  {
+   "section": "Figure legend",
+   "section_zh": "图注",
+   "en": "Figure 1 Clinical decision-making diagram for cats diagnosed with feline infectious peritonitis (FIP). Cats presenting with FIP typically exhibit either the effusive or non-effusive form of the disease. The effusive form may manifest as ascites, bicavitary effusions, or pleural effusion. Cats with either form may additionally present aggravating clinical signs, including neurological symptoms, ocular involvement, or nephropathy. Treatment options include GS-441524, alone or in combination with supportive therapies, resulting in several possible clinical outcomes: remission, remission after relapse, relapse requiring a treatment change, death after relapse, or death without remission.",
+   "zh": "图1 确诊猫传染性腹膜炎（FIP）猫的临床决策示意图。FIP患猫通常表现为渗出型或非渗出型。渗出型可表现为腹水、双腔积液或胸腔积液。任一类型的猫还可能出现加重性临床症状，包括神经症状、眼部受累或肾病。治疗选择包括GS-441524单用或与支持治疗联用，可能产生多种临床结局：缓解、复发后缓解、复发需更换治疗、复发后死亡或未缓解死亡。"
+  },
+  {
+   "section": "Table caption",
+   "section_zh": "表题",
+   "en": "Table 2 Number of cases of complicated FIP divided into subgroups of reported clinical signs and treatment outcomes.",
+   "zh": "表2 按报告的临床症状和治疗结局分亚组的复杂FIP病例数。"
+  },
+  {
+   "section": "Table caption",
+   "section_zh": "表题",
+   "en": "Table 3 Odds ratio, relative risk, and risk difference for the efficacy of treatment in complicated FIP compared to non-complicated FIP, with a 95% confidence interval.",
+   "zh": "表3 复杂FIP与非复杂FIP相比治疗疗效的比值比、相对风险和风险差，及95%置信区间。"
+  },
+  {
+   "section": "Table caption",
+   "section_zh": "表题",
+   "en": "Table 4 Odds ratio, relative risk, and risk difference for the efficacy of treatment in wet FIP compared to mixed and dry FIP, with a 95% confidence interval.",
+   "zh": "表4 湿性FIP与混合型及干性FIP相比治疗疗效的比值比、相对风险和风险差，及95%置信区间。"
+  },
+  {
+   "section": "Table caption",
+   "section_zh": "表题",
+   "en": "Table 5 Odds ratio, relative risk, and risk difference for the efficacy of GS-441524 in combination therapy compared to GS-441524 monotherapy, with a 95% confidence interval.",
+   "zh": "表5 GS-441524联合治疗与GS-441524单药治疗相比疗效的比值比、相对风险和风险差，及95%置信区间。"
+  },
+  {
+   "section": "Table footnote",
+   "section_zh": "表注",
+   "en": "a n.a.—not applicable.",
+   "zh": "a n.a.——不适用。"
+  }
+ ]
+}
