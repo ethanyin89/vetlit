@@ -296,11 +296,13 @@ def _n(p):
     if not m_: return ''
     d=m_.group(1).replace(',','')
     return 'n='+(f'{int(d):,}' if d.isdigit() else d)+('+' if m_.group(0).strip().endswith('+') else '')
+_CM=os.path.join(ROOT,'data','v5','card_meta.json')
+CMETA=(lambda d: d.get('papers',d))(json.load(open(_CM,encoding='utf-8'))) if os.path.exists(_CM) else {}
 def cmeta(p):
-    sp={'cat':'猫','dog':'犬','cat+dog':'猫犬','猫/犬':'猫犬'}.get(species(p),species(p))
-    sp=sp if sp in ('猫','犬','猫犬') else ''
+    m=CMETA.get(str(p.get('pmid') or '')) or CMETA.get(str(p.get('sid') or '')) or {}
     j=p.get('journal') or ''; j=JABBR.get(j,j)
-    seg=[str(p.get('year') or ''),j,sp,DSHORT.get(p.get('design_category') or '',p.get('design_category') or ''),_n(p),('CEBM '+level(p)[6:]+'级') if level(p).startswith('Level') else '',_ctext(p) if SHOW_CERTAINTY else '']
+    n=m.get('n_display') or m.get('n')
+    seg=[str(p.get('year') or ''),j,DSHORT.get(p.get('design_category') or '',p.get('design_category') or ''),_ctext(p) if SHOW_CERTAINTY else '',(str(n) if str(n).startswith('n=') else f'n={n}') if n else '',m.get('species_zh') or m.get('species') or '']
     return ' · '.join(x for x in seg if x and x not in ('待评定','不适用','None'))
 def _short(t,m=30):
     t=clean(str(t or '')).strip()

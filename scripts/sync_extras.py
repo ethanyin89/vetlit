@@ -16,3 +16,6 @@ if os.path.exists(os.path.join(S,'methods_fields.json')): shutil.copy(os.path.jo
 V5=os.path.join(os.path.dirname(__file__),'..','data','v5')
 if os.path.exists(os.path.join(S,'papers.json')): shutil.copy(os.path.join(S,'papers.json'),os.path.join(V5,'appraisal_papers.json')); print('synced papers.json -> appraisal_papers.json')
 if os.path.exists(os.path.join(S,'certainty.json')): shutil.copy(os.path.join(S,'certainty.json'),V5); print('synced certainty.json')
+_cm=os.path.join(S,'card_meta.json')
+if os.path.exists(_cm): shutil.copy(_cm,os.path.join(D,'..','card_meta.json')); print('synced card_meta.json')
+else: print('card_meta.json not found; species/n omitted')
