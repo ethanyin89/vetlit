@@ -300,10 +300,9 @@ _CM=os.path.join(ROOT,'data','v5','card_meta.json')
 CMETA=(lambda d: d.get('papers',d))(json.load(open(_CM,encoding='utf-8'))) if os.path.exists(_CM) else {}
 def cmeta(p):
     m=CMETA.get(str(p.get('pmid') or '')) or CMETA.get(str(p.get('sid') or '')) or {}
-    j=p.get('journal') or ''; j=JABBR.get(j,j)
-    n=m.get('n_display') or m.get('n')
-    seg=[str(p.get('year') or ''),j,DSHORT.get(p.get('design_category') or '',p.get('design_category') or ''),_ctext(p) if SHOW_CERTAINTY else '',(str(n) if str(n).startswith('n=') else f'n={n}') if n else '',m.get('species_zh') or m.get('species') or '']
-    return ' · '.join(x for x in seg if x and x not in ('待评定','不适用','None'))
+    j=p.get('journal') or ''
+    seg=[str(m.get('year') or p.get('year') or ''),m.get('journal') or JABBR.get(j,j),m.get('design_zh') or DSHORT.get(p.get('design_category') or '',''),_ctext(p) if SHOW_CERTAINTY else '',m.get('n_label_zh') or '',m.get('species_zh') or '']
+    return ' · '.join(str(x) for x in seg if x and x not in ('待评定','不适用','None'))
 def _short(t,m=30):
     t=clean(str(t or '')).strip()
     if len(t)<=m: return t
