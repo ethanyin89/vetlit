@@ -349,11 +349,24 @@ def hcard(p,r,tid=None):
     lk=f'<a class="go" href="{href}">速读 →</a>'+(f' <a class="go" href="{href}bilingual/">中英对照 →</a>' if has_tr(p) else '')
     return (f'<article class="card">{title_html(p,"h3",href)}'+(f'<p class="cmeta">{E_(m)}</p>' if m else '')
       +(f'<p class="bl">{E_(clean(sm))}</p>' if sm else '')+(f'<p class="why">{E_(rs)}</p>' if rs else '')+superlink(p,r)+f'<p class="ft">{lk}</p></article>')
+def is_super(p): return bool(SUPER.get(str(p.get('pmid') or '')) or p.get('superseded_by'))
+def _fill(cands,k=3):
+    out,seen=[],set()
+    for p in cands:
+        if p and not is_super(p) and p['sid'] not in seen: seen.add(p['sid']); out.append(p)
+        if len(out)==k: break
+    return out
 def tops(tid):
+    c=[]
     for g in (X.TOP.get('topics') or []):
-        if g.get('topic')==tid: return [x for x in (get(str(i.get('pmid') or i.get('id') if isinstance(i,dict) else i)) for i in (g.get('items') or g.get('picks') or [])) if x][:3]
-    return []
-def newest3(ps): return sorted(ps,key=lambda p:p.get('pub_date') or '',reverse=True)[:3]
+        if g.get('topic')==tid: c+=[get(str(i.get('pmid') or i.get('id') if isinstance(i,dict) else i)) for i in (g.get('items') or g.get('picks') or [])]
+    t=TBY.get(tid)
+    if not c: return []
+    if t:
+        c+=[get(x['id']) for x in (t.get('core') or [])]
+        c+=sorted(tpapers(t),key=lambda p:p.get('importance_rank') or 999)
+    return _fill(c)
+def newest3(ps): return _fill(sorted(ps,key=lambda p:p.get('pub_date') or '',reverse=True))
 def duo(imp,new,r,tid=None): return (f'<h4 class="tb">最重要</h4>'+''.join(hcard(p,r,tid) for p in imp) if imp else '')+(f'<h4 class="tb">最新</h4>'+''.join(hcard(p,r,tid) for p in new) if new else '')
 def home():
     picks=ALL[:8]
@@ -404,7 +417,7 @@ def topic_page(t):
     sub=f'<section><h2 class="sec"><span>//</span> 子专题</h2>'+''.join(f'<a class="chip" href="{r}topics/{k["id"]}/">{E_(k["name_zh"])} <b>{len(tpapers(k))}</b></a>' for k in ks)+'</section>' if ks else ''
     fr=[f for f in FRESH if t['id'] in (f.get('topics') or [])]
     body=f'''{crumb}<section class="hero"><p class="eb">{E_(t.get("name_en",""))}</p><h1>{E_(t["name_zh"])}</h1><p class="lede">{len(ps)} 篇已速读文献</p></section>{bl}{sub}
-<section>{duo((tops(t['id']) or [p for p,_ in core][:3]),newest3(ps),r,t['id'])}</section>
+<section>{duo((tops(t['id']) or _fill([p for p,_ in core])),newest3(ps),r,t['id'])}</section>
 <section><h2 class="sec"><span>03</span> 全部 {len(ps)} 篇</h2><ul class="rows">{''.join(row(p,r) for p in sorted(ps,key=lambda p:p.get('pub_date') or '',reverse=True))}</ul></section>{fresh_list(fr,r)}'''
     return page(t['name_zh'],body,2,'topics')
 def topics_index():
