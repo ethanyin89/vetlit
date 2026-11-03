@@ -6,14 +6,14 @@ import build_preview as B
 # 1) unit: synthetic superseded paper is skipped and the next fills the slot
 ps=sorted(B.P.values(),key=lambda p:p.get('pub_date') or '',reverse=True)[:5]
 ps=[p for p in ps if not B.has_contra(p)]
-saved=dict(B.SUPER); B.SUPER[str(ps[0].get('pmid'))]={'by':'999','scope':None}
+saved=dict(B.SUPER); B.SUPER[str(ps[0].get('pmid'))]={'by':'999','scope':'full'}
 try:
     got=[p['sid'] for p in B.newest3(ps)]
     assert ps[0]['sid'] not in got and got==[p['sid'] for p in ps[1:4]], got
 finally:
     B.SUPER.clear(); B.SUPER.update(saved)
 # 1b) partial (scoped) supersession does not exclude, and link text names the scope
-B.SUPER[str(ps[0].get('pmid'))]={'by':'999','scope':'treatment'}
+B.SUPER[str(ps[0].get('pmid'))]={'by':'999','scope':'treatment_only'}
 try:
     assert ps[0]['sid'] in [p['sid'] for p in B.newest3(ps)]
     assert '治疗部分已有更新版' in B.superlink(ps[0],'')
@@ -29,7 +29,7 @@ for g in B.X.TOP.get('topics') or []:
     for p in imp+new: assert not B.is_super(p), (tid,p['sid'])
     if t: assert len(new)==min(3,len([p for p in B.tpapers(t) if not B.is_super(p) and not B.has_contra(p)])), tid
 # 3) built HTML: superseded sids do not appear inside 最重要/最新 blocks
-sup={'pmid-'+k for k,v in B.SUPER.items() if not v.get('scope')}
+sup={'pmid-'+k for k,v in B.SUPER.items() if B.is_full(v)}
 for f in ['dist/index.html']+glob.glob('dist/topics/*/index.html'):
     if not os.path.exists(f): continue
     h=open(f,encoding='utf-8').read()
@@ -37,7 +37,12 @@ for f in ['dist/index.html']+glob.glob('dist/topics/*/index.html'):
         for s in sup: assert f'papers/{s}/"' not in blk.replace('../','').replace('papers/'+s+'/bilingual','x'), (f,s)
 # the speed-read page itself still exists with its link
 for k in B.SUPER:
-    if B.SUPER[k].get('scope'): continue
+    if not B.is_full(B.SUPER[k]): continue
     f=f'dist/papers/pmid-{k}/index.html'
     if os.path.exists(f): assert '已有更新版' in open(f,encoding='utf-8').read(), f
+# real data from deep extract
+assert B.is_full(B.SUPER['19481039']) and B.SUPER['19481039']['by']=='37766254'
+assert not B.is_full(B.SUPER['37766254'])
+assert '治疗部分已有更新版' in B.superlink(B.get('37766254'),'')
+assert B._sup_rec({'superseded_by':'1'})['scope']=='full'  # missing scope = full
 print('superseded tests OK')

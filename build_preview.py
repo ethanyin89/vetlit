@@ -336,22 +336,32 @@ def trim_reason(t,p):
     seg=[x.strip() for x in re.split(r'[；;]',clean(t or '')) if x.strip()]
     seg=[re.sub(r'，?年均[^，；]*','',x) for x in seg if x not in (p.get('design_category'),) and not re.fullmatch(r'\d{4} 年发表',x)]
     return '，'.join(x for x in seg if x)
-# Supersession: field names are deep extract's; set here once confirmed.
-F_SUP='superseded_by'; F_SCOPE='superseded_scope'
-SCOPE_ZH={'treatment':'治疗','diagnosis':'诊断','management':'管理'}
+# Supersession (deep extract fields in top_picks.json): items[*] and top-level `supersessions`.
+def _sup_rec(i):
+    if not isinstance(i,dict) or not i.get('superseded_by'): return None
+    sc=i.get('supersession_scope') or i.get('scope') or 'full'
+    return {'by':str(i['superseded_by']),'scope':sc,'text':i.get('link_text_zh')}
 SUPER={}
+for _k,_v in (X.TOP.get('supersessions') or {}).items():
+    r=_sup_rec(_v)
+    if r: SUPER[str(_k)]=r
 for _g in (X.TOP.get('topics') or []):
     for _i in (_g.get('items') or []):
-        if isinstance(_i,dict) and _i.get(F_SUP): SUPER[str(_i.get('pmid') or _i.get('id'))]={'by':str(_i[F_SUP]),'scope':_i.get(F_SCOPE)}
+        r=_sup_rec(_i)
+        if r:
+            k=str(_i.get('pmid') or _i.get('id')); base=SUPER.get(k,{})
+            SUPER[k]={**base,**{a:b for a,b in r.items() if b}}
 def sup_info(p):
-    if p.get(F_SUP): return {'by':str(p[F_SUP]),'scope':p.get(F_SCOPE)}
-    return SUPER.get(str(p.get('pmid') or ''))
+    r=_sup_rec(p)
+    return r or SUPER.get(str(p.get('pmid') or ''))
+def is_full(i): return bool(i) and (i.get('scope') or 'full')=='full'
 def superlink(p,r):
     i=sup_info(p)
     if not i: return ''
     sb=i['by']; q=get(sb)
     h=f'{r}papers/{E_(q["sid"])}/' if q else f'https://pubmed.ncbi.nlm.nih.gov/{E_(sb)}/'
-    lab=(SCOPE_ZH.get(i['scope'],str(i['scope']))+'部分已有更新版 →') if i.get('scope') else '已有更新版 →'
+    lab=i.get('text') or ('已有更新版' if is_full(i) else {'treatment_only':'治疗','treatment':'治疗','diagnosis_only':'诊断'}.get(i['scope'],'')+'部分已有更新版')
+    lab=lab.rstrip(' →')+' →'
     return f'<p class="note"><a class="tag2" href="{h}">{E_(lab)}</a></p>'
 def hcard(p,r,tid=None):
     href=f'{r}papers/{p["sid"]}/'
@@ -360,7 +370,7 @@ def hcard(p,r,tid=None):
     return (f'<article class="card">{title_html(p,"h3",href)}'+(f'<p class="cmeta">{E_(m)}</p>' if m else '')
       +(f'<p class="bl">{E_(clean(sm))}</p>' if sm else '')+(f'<p class="why">{E_(rs)}</p>' if rs else '')+superlink(p,r)+f'<p class="ft">{lk}</p></article>')
 def is_super(p):
-    i=sup_info(p); return bool(i and not i.get('scope'))
+    return is_full(sup_info(p))
 def has_contra(p):
     return bool(p.get('rep_inc') or has(p.get('internal_inconsistency')) or p.get('amstar_limit') or sec_get(sections(p),'原文报告不一致'))
 def _fill(cands,k=3):
