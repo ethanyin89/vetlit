@@ -3,6 +3,8 @@ import json, os, glob, re, html, datetime, shutil
 import build as B
 import preview_extras as X
 ROOT=B.ROOT; LIVE=os.environ.get('VETLIT_LIVE')=='1'; OUT=B.DIST if LIVE else os.path.join(B.DIST,'preview'); E_=html.escape
+def CA(d): return '../'*d+('about/' if LIVE else '../about/')+'index.html#contributors'
+def AL(txt,d=2): return f'<a href="{CA(d)}">{txt}</a>'
 def clean(s):
     s=str(s or '')
     s=re.sub(r'[。；，]?\s*(数据)?来源[:：]\s*(deep extract|Vibe Feline|vibe-feline)[^。；|\n]*','',s,flags=re.I)
@@ -276,7 +278,7 @@ REAL=lambda t: bool(t.get('bottom_line')) and t.get('bottom_line_clinical') is T
 def topic_page(t):
     ps=tpapers(t); r='../../'
     crumb=f'<p class="crumb"><a href="{r}topics/">专题</a>'+(f' › <a href="{r}topics/{t["parent"]}/">{E_(TBY[t["parent"]]["name_zh"])}</a>' if t.get('parent') else '')+'</p>'
-    bl=f'<section class="bottom"><p class="eb red">一句话结论 · 单人草稿·未经临床兽医审阅</p><p>{E_(clean(t["bottom_line"]))}</p></section>' if REAL(t) else ''
+    bl=f'<section class="bottom"><p class="eb red">一句话结论 · <a href="{CA(2)}">单人草稿·尚无临床兽医审阅</a></p><p>{E_(clean(t["bottom_line"]))}</p></section>' if REAL(t) else ''
     core=[(get(c['id']),c.get('reason')) for c in (t.get('core') or [])]
     if not t.get('core') and not t.get('all_ids'):
         core=[(p,None) for p in sorted(ps,key=lambda p:p.get('importance_rank') or 999)[:8]]
@@ -423,10 +425,10 @@ def paper(p):
     if p.get('amstar_limit'): ev+=f'<p class="note">局限性：{p["amstar_limit"]}</p>'
     if p.get('rep_inc'):
         ev+='<div class="blk"><p><b>报告质量问题</b>（原文内部前后不一致）</p><ul>'+''.join(f'<li>{E_(i.get("issue_zh",""))}'+(f'<blockquote lang="en">{E_(i["quote_a"])}</blockquote><p class="note">{E_(i.get("loc_a",""))}</p>' if i.get('quote_a') else '')+(f'<blockquote lang="en">{E_(i["quote_b"])}</blockquote><p class="note">{E_(i.get("loc_b",""))}</p>' if i.get('quote_b') else '')+'</li>' for i in p['rep_inc'])+'</ul></div>'
-    if p.get('amstar'): ev+=('<p class="note">偏倚风险：由 AI 双重独立评估并经第三方裁定，未经临床兽医审阅</p>' if p.get('amstar_blind') else '<p class="note">偏倚风险：经第二评估者逐条核对，未经临床兽医审阅</p>')
-    elif p.get('rob3'): ev+=(f'<p class="note">总体判定规则：{E_(p["rob_rule"])}</p>' if p.get('rob_rule') else '')+'<p class="note">偏倚风险：由 AI 双重独立评估并经第三方裁定，未经临床兽医审阅</p>'
-    elif p.get('adj_dual'): ev+='<p class="note">偏倚风险：AI 双重独立评估并经第三方裁定，未经临床兽医审阅</p>'
-    elif ROBJ: ev+='<p class="note">偏倚风险：AI 单次评估，未经临床兽医审阅</p>'
+    if p.get('amstar'): ev+=('<p class="note">偏倚风险：'+AL('双重独立评估并经第三方裁定，尚无临床兽医审阅')+'</p>' if p.get('amstar_blind') else '<p class="note">偏倚风险：'+AL('经第二评估者逐条核对，尚无临床兽医审阅')+'</p>')
+    elif p.get('rob3'): ev+=(f'<p class="note">总体判定规则：{E_(p["rob_rule"])}</p>' if p.get('rob_rule') else '')+'<p class="note">偏倚风险：'+AL('双重独立评估并经第三方裁定，尚无临床兽医审阅')+'</p>'
+    elif p.get('adj_dual'): ev+='<p class="note">偏倚风险：'+AL('双重独立评估并经第三方裁定，尚无临床兽医审阅')+'</p>'
+    elif ROBJ: ev+='<p class="note">偏倚风险：'+AL('单人评估，尚无临床兽医审阅')+'</p>'
     if has(p.get('rob_tool_note')) and not REEVAL: ev+=f'<p class="note">工具说明：{E_(clean(p["rob_tool_note"]))}</p>'
     if it: ev+=f'<details class="sub"><summary>展开逐项判断</summary>{appraisal(p)}</details>'
     fund=p.get('funder') or sc.get('资助') or p.get('funding')
@@ -435,7 +437,7 @@ def paper(p):
     if 'recommendation_basis' in RES: ev+=f'<p class="note">推荐依据：{rv("recommendation_basis")}</p>'
     methods_blk=lambda: (f'<details class="fold" {"open" if exp else ""}><summary>研究方法</summary>{meth}</details>' if meth else '')
     if p.get('limits'): kr=(kr or '')+'<p class="note">局限：'+'；'.join(E_(x) for x in p['limits'])+'</p>'
-    TAG=(f'<p class="note tag2">AI 双重独立提取并经第三方裁定{"（仅据摘要）" if p.get("dual_x")=="abs" else ""}</p>') if p.get('dual_x') else ''
+    TAG=(f'<p class="note tag2"><a href="{CA(2)}">双重独立提取并经第三方裁定</a>{"（仅据摘要）" if p.get("dual_x")=="abs" else ""}</p>') if p.get('dual_x') else ''
     if TAG:
         concl=concl.replace('</section>',TAG+'</section>',1) if concl else concl
         kr=(kr+TAG) if kr else kr
@@ -457,7 +459,7 @@ def paper(p):
     if terms: body+=f'<details class="fold"><summary>关键术语中英对照</summary>{mdc(terms)}</details>'
     _tr=X.translation(p.get('pmid'),p.get('license')) if X.can_translate(p) else None
     if _tr:
-        orig=f'<p>许可 {E_(str(p.get("license","")).upper())}。<a class="btn" href="bilingual/">阅读中英对照全文 →</a></p><p class="note">AI 翻译，未经人工审校</p>'
+        orig=f'<p>许可 {E_(str(p.get("license","")).upper())}。<a class="btn" href="bilingual/">阅读中英对照全文 →</a></p><p class="note">译者：<a href="{CA(2)}">deep extract</a>；数字逐项核对；尚未经第二译者审校。如有出入，以英文原文为准。</p>'
     elif X.can_translate(p):
         orig=f'<p>许可 {E_(str(p.get("license","")).upper())} 允许翻译，中英对照尚未生成。{f'<a href="https://doi.org/{E_(p["doi"])}">阅读原文 →</a>' if p.get('doi') else ''}</p>'
     else:
@@ -465,7 +467,7 @@ def paper(p):
     body+=X.related_block(p.get('pmid'),lambda q:(f"{r}papers/{get(str(q.get('pmid'))).get('sid')}/" if q.get('pmid') and get(str(q.get('pmid'))) else ('https://doi.org/'+q['doi'] if q.get('doi') else (q.get('url') or q.get('openalex') or '#'))))
     bib=B.bibtex(B.view({**p,'id':p['sid']})); ris=B.ris(B.view({**p,'id':p['sid']}))
     body+=f'<details class="fold"><summary>原文与许可</summary>{orig}</details><details class="fold"><summary>引用（BibTeX / RIS）</summary><pre>{E_(bib)}</pre><pre>{E_(ris)}</pre></details>'
-    body+=f'<p class="note sig">依据：{p.get("basis_label") or ("仅题录，无摘要" if p.get("reading_depth")=="题录" else "摘要" if absonly else "全文")} · 速读：AI 单次提取{'（结论、关键数字、样本量除外，见各处标注）' if p.get('dual_x') else ''}</p>'
+    body+=f'<p class="note sig">依据：{p.get("basis_label") or ("仅题录，无摘要" if p.get("reading_depth")=="题录" else "摘要" if absonly else "全文")} · 速读：<a href="{CA(2)}">单人提取</a>{'（结论、关键数字、样本量除外，见各处标注）' if p.get('dual_x') else ''}</p>'
     return page(clean(p.get('title_zh') or p.get('first_author','')+' '+str(p.get('year',''))),body,2)
 def ranking_page():
     rule=X.rule_text()

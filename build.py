@@ -242,7 +242,7 @@ def topics_index(ps):
 def rules():
     return page('证据评价方法',md(open(os.path.join(ROOT,'content','_rules.md'),encoding='utf-8').read()),1)
 def about():
-    return page('方法与声明',md(open(os.path.join(ROOT,'content','_about.md'),encoding='utf-8').read()),1)
+    return page('方法与声明',md(open(os.path.join(ROOT,'content','_about.md'),encoding='utf-8').read()).replace('<p><strong>VetLit 的文献提取','<p id="contributors"><strong>VetLit 的文献提取',1),1)
 def rss(ps):
     items=sorted(ps,key=lambda p:p['date'],reverse=True)[:50]
     it=''.join(f'''<item><title>{E_(p['title'])}</title><link>{SITE_URL}/papers/{p['id']}/index.html</link><guid>{SITE_URL}/papers/{p['id']}/</guid><description>{E_(f"{p.get('journal','')} {p['date']} · {p.get('doc_type','')} · CEBM 2011：{p['cebm_display']}")}</description></item>''' for p in items)

@@ -22,8 +22,8 @@
    "name_en": "Cardiology",
    "parent": null,
    "n": 18,
-   "bottom_line": "现有证据（单人 GRADE 草稿·未经临床兽医审阅）：匹莫苯丹推迟犬临床前 MMVD（B2 期）出现心衰（EPIC，HR 0.64）确定性为\"中\"；MMVD 心衰犬匹莫苯丹优于贝那普利（QUEST，HR 0.688）为\"中\"；杜宾犬临床前 DCM 用匹莫苯丹、猫 CATE 后氯吡格雷优于阿司匹林均为\"低\"；猫临床前 HCM 预后（10 年心血管死亡 28.3%）与健康猫 HCM 患病率 14.7% 为\"低\"；犬饮食相关 DCM 为\"极低\"。以 ACVIM 2019 MMVD 与 2020 猫心肌病指南为准。",
-   "bottom_line_source": "topics/cardiology.md（单人 GRADE 草稿·未经临床兽医审阅）",
+   "bottom_line": "现有证据（单人 GRADE 草稿·尚无临床兽医审阅）：匹莫苯丹推迟犬临床前 MMVD（B2 期）出现心衰（EPIC，HR 0.64）确定性为\"中\"；MMVD 心衰犬匹莫苯丹优于贝那普利（QUEST，HR 0.688）为\"中\"；杜宾犬临床前 DCM 用匹莫苯丹、猫 CATE 后氯吡格雷优于阿司匹林均为\"低\"；猫临床前 HCM 预后（10 年心血管死亡 28.3%）与健康猫 HCM 患病率 14.7% 为\"低\"；犬饮食相关 DCM 为\"极低\"。以 ACVIM 2019 MMVD 与 2020 猫心肌病指南为准。",
+   "bottom_line_source": "topics/cardiology.md（单人 GRADE 草稿·尚无临床兽医审阅）",
    "core": [
     {
      "id": "32243654",
@@ -146,8 +146,8 @@
    "name_en": "Nutrition",
    "parent": null,
    "n": 11,
-   "bottom_line": "现有证据（单人 GRADE 草稿·未经临床兽医审阅）：犬超重与寿命缩短相关（HR 1.35–2.86）确定性为\"低\"；犬限饲 25% 延长寿命、肥胖犬低能量饮食成分、猫早期肥胖危险因素均为\"极低\"。营养评估以 WSAVA 2011 指南为准。",
-   "bottom_line_source": "topics/nutrition.md（单人 GRADE 草稿·未经临床兽医审阅）",
+   "bottom_line": "现有证据（单人 GRADE 草稿·尚无临床兽医审阅）：犬超重与寿命缩短相关（HR 1.35–2.86）确定性为\"低\"；犬限饲 25% 延长寿命、肥胖犬低能量饮食成分、猫早期肥胖危险因素均为\"极低\"。营养评估以 WSAVA 2011 指南为准。",
+   "bottom_line_source": "topics/nutrition.md（单人 GRADE 草稿·尚无临床兽医审阅）",
    "core": [
     {
      "id": "21704901",
@@ -209,8 +209,8 @@
    "name_en": "Behavioral Medicine",
    "parent": null,
    "n": 11,
-   "bottom_line": "现有证据（单人 GRADE 草稿·未经临床兽医审阅）：库内没有犬猫行为问题的干预研究，无法对任何治疗作结论。仅有描述性数据：芬兰犬噪声敏感患病率 32% 为\"低\"；老年犬认知功能障碍患病率 14.2%、兽医诊断仅 1.9% 为\"极低\"。",
-   "bottom_line_source": "topics/behavior.md（单人 GRADE 草稿·未经临床兽医审阅）",
+   "bottom_line": "现有证据（单人 GRADE 草稿·尚无临床兽医审阅）：库内没有犬猫行为问题的干预研究，无法对任何治疗作结论。仅有描述性数据：芬兰犬噪声敏感患病率 32% 为\"低\"；老年犬认知功能障碍患病率 14.2%、兽医诊断仅 1.9% 为\"极低\"。",
+   "bottom_line_source": "topics/behavior.md（单人 GRADE 草稿·尚无临床兽医审阅）",
    "core": [
     {
      "id": "23422366",
@@ -524,8 +524,8 @@
    "name_en": "Endocrinology",
    "parent": "saim",
    "n": 9,
-   "bottom_line": "现有证据（单人 GRADE 草稿·未经临床兽医审阅）：糖尿病猫口服维格列净 vs 胰岛素第 45 天治疗成功非劣效（54% vs 42%）确定性为\"低\"，其 DKA 风险（7% vs 0）也为\"低\"；传统口服降糖药、甲亢病程与甲状腺病理为\"极低\"；犬肾上腺皮质功能亢进诊断库内无原始研究，不作陈述。",
-   "bottom_line_source": "topics/endocrinology.md（单人 GRADE 草稿·未经临床兽医审阅）",
+   "bottom_line": "现有证据（单人 GRADE 草稿·尚无临床兽医审阅）：糖尿病猫口服维格列净 vs 胰岛素第 45 天治疗成功非劣效（54% vs 42%）确定性为\"低\"，其 DKA 风险（7% vs 0）也为\"低\"；传统口服降糖药、甲亢病程与甲状腺病理为\"极低\"；犬肾上腺皮质功能亢进诊断库内无原始研究，不作陈述。",
+   "bottom_line_source": "topics/endocrinology.md（单人 GRADE 草稿·尚无临床兽医审阅）",
    "core": [
     {
      "id": "29314873",
@@ -707,8 +707,8 @@
    "name_en": "Infectious diseases",
    "parent": "saim",
    "n": 22,
-   "bottom_line": "现有证据（单人 GRADE 草稿·未经临床兽医审阅）：本主题目前只有 FIP 文献，结论同 FIP 专题：核苷类似物提高生存为\"中\"，口服瑞德西韦 vs GS-441524、42 天 vs 84 天为\"低\"，莫努匹韦与神经/眼型为\"极低\"。其他犬猫传染病暂无文献。",
-   "bottom_line_source": "topics/infectious.md（单人 GRADE 草稿·未经临床兽医审阅）",
+   "bottom_line": "现有证据（单人 GRADE 草稿·尚无临床兽医审阅）：本主题目前只有 FIP 文献，结论同 FIP 专题：核苷类似物提高生存为\"中\"，口服瑞德西韦 vs GS-441524、42 天 vs 84 天为\"低\"，莫努匹韦与神经/眼型为\"极低\"。其他犬猫传染病暂无文献。",
+   "bottom_line_source": "topics/infectious.md（单人 GRADE 草稿·尚无临床兽医审阅）",
    "core": [
     {
      "id": "42043241",
