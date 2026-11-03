@@ -6498,7 +6498,7 @@
   "pmcid": "PMC11759159",
   "file": "vanelli_2025.md",
   "species_v2": "犬",
-  "cebm_level": "1",
+  "cebm_level": 3,
   "appraisal_tool": "AMSTAR 2",
   "appraisal_items": [
    {
@@ -6601,7 +6601,7 @@
   "bibtex": "@article{vanelli_2025,\n  author={Vanelli K and others},\n  title={Impact of Hypocaloric Diets on Weight Loss and Body Composition in Obese Dogs: A Meta-Analysis.},\n  journal={Animals (Basel)},\n  year={2025},\n  doi={10.3390/ani15020210},\n  pmid={39858209}\n}",
   "ris": "TY  - JOUR\nAU  - Vanelli K\nTI  - Impact of Hypocaloric Diets on Weight Loss and Body Composition in Obese Dogs: A Meta-Analysis.\nJO  - Animals (Basel)\nPY  - 2025\nDO  - 10.3390/ani15020210\nAN  - PMID:39858209\nER  - ",
   "phase_md": "Phase 0 分段：全文 Methods/Results/Discussion 速读。Phase 1 主题：系统综述/Meta 分析；检索 PubMed、Scielo、WoS、Google Scholar（2022–2024）。Phase 2 论点—论据：犬减重饮食中，粗蛋白 >25% 组总/周减重与体脂下降更多，但存在显著异质性（p<0.0001）。。Phase 3 自检：结论受 AMSTAR 2 所列偏倚限制；单人速读，未双人复核。",
-  "cebm_basis": "SR，但纳入研究多为小型试验；级别按设计给出"
+  "cebm_basis": "SR；20 项纳入研究仅 9 项随机，营养素阈值为跨研究比较，按较弱设计定为 3 级（见 cebm_fill.json）"
  },
  {
   "specialty": "内分泌",

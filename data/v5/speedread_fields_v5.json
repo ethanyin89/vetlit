@@ -21,7 +21,12 @@
         "p": "不适用"
       }
     ],
-    "confidence_sentence": "指南/共识不做 CEBM 分级，也未做 AGREE II 正式评分，推荐多属专家意见，引用时请核对原文。"
+    "confidence_sentence": "指南/共识不做 CEBM 分级，也未做 AGREE II 正式评分，推荐多属专家意见，引用时请核对原文。",
+    "clinical_meaning": "FIP 首选口服 GS-441524，不能口服的重症先用瑞德西韦。",
+    "key_results_top3": [
+      1,
+      0
+    ]
   },
   {
     "pmid": "",
@@ -63,7 +68,13 @@
         "p": "摘要未给出"
       }
     ],
-    "confidence_sentence": "指南/共识不做 CEBM 分级，也未做 AGREE II 正式评分，推荐多属专家意见，引用时请核对原文。"
+    "confidence_sentence": "指南/共识不做 CEBM 分级，也未做 AGREE II 正式评分，推荐多属专家意见，引用时请核对原文。",
+    "clinical_meaning": "CKD 分期和治疗起点以 IRIS 为准，并按 2026 阈值判断贫血治疗。",
+    "key_results_top3": [
+      0,
+      1,
+      2
+    ]
   },
   {
     "pmid": "37766254",
@@ -87,7 +98,12 @@
         "p": "不适用"
       }
     ],
-    "confidence_sentence": "指南/共识不做 CEBM 分级，也未做 AGREE II 正式评分，推荐多属专家意见，引用时请核对原文。"
+    "confidence_sentence": "指南/共识不做 CEBM 分级，也未做 AGREE II 正式评分，推荐多属专家意见，引用时请核对原文。",
+    "clinical_meaning": "FIP 确诊宜结合组织病理与 FCoV 抗原，治疗请看 2026 版。",
+    "key_results_top3": [
+      0,
+      1
+    ]
   },
   {
     "pmid": "36002137",
@@ -105,7 +121,11 @@
         "p": "摘要未给出"
       }
     ],
-    "confidence_sentence": "指南/共识不做 CEBM 分级，也未做 AGREE II 正式评分，推荐多属专家意见，引用时请核对原文。"
+    "confidence_sentence": "指南/共识不做 CEBM 分级，也未做 AGREE II 正式评分，推荐多属专家意见，引用时请核对原文。",
+    "clinical_meaning": "FIP 没有单项确诊检查，需结合病史和多项检查逐步判断。",
+    "key_results_top3": [
+      0
+    ]
   },
   {
     "pmid": "32243654",
@@ -129,7 +149,12 @@
         "p": "摘要未给出"
       }
     ],
-    "confidence_sentence": "指南/共识不做 CEBM 分级，也未做 AGREE II 正式评分，推荐多属专家意见，引用时请核对原文。"
+    "confidence_sentence": "指南/共识不做 CEBM 分级，也未做 AGREE II 正式评分，推荐多属专家意见，引用时请核对原文。",
+    "clinical_meaning": "猫心肌病按 A–D 分期管理，有心衰史且左房扩大者用氯吡格雷防血栓。",
+    "key_results_top3": [
+      0,
+      1
+    ]
   },
   {
     "pmid": "30974015",
@@ -153,7 +178,12 @@
         "p": "摘要未给出"
       }
     ],
-    "confidence_sentence": "指南/共识不做 CEBM 分级，也未做 AGREE II 正式评分，推荐多属专家意见，引用时请核对原文。"
+    "confidence_sentence": "指南/共识不做 CEBM 分级，也未做 AGREE II 正式评分，推荐多属专家意见，引用时请核对原文。",
+    "clinical_meaning": "达到 B2 期标准的二尖瓣病犬，应开始使用匹莫苯丹。",
+    "key_results_top3": [
+      0,
+      1
+    ]
   },
   {
     "pmid": "30353952",
@@ -171,7 +201,11 @@
         "p": "摘要未给出"
       }
     ],
-    "confidence_sentence": "指南/共识不做 CEBM 分级，也未做 AGREE II 正式评分，推荐多属专家意见，引用时请核对原文。"
+    "confidence_sentence": "指南/共识不做 CEBM 分级，也未做 AGREE II 正式评分，推荐多属专家意见，引用时请核对原文。",
+    "clinical_meaning": "血压需多次测量确认，目标收缩压低于 140，猫首选氨氯地平。",
+    "key_results_top3": [
+      0
+    ]
   },
   {
     "pmid": "29314873",
@@ -189,7 +223,11 @@
         "p": "摘要未给出"
       }
     ],
-    "confidence_sentence": "指南/共识不做 CEBM 分级，也未做 AGREE II 正式评分，推荐多属专家意见，引用时请核对原文。"
+    "confidence_sentence": "指南/共识不做 CEBM 分级，也未做 AGREE II 正式评分，推荐多属专家意见，引用时请核对原文。",
+    "clinical_meaning": "糖尿病犬猫以胰岛素为核心，并重视主人居家监测。",
+    "key_results_top3": [
+      0
+    ]
   },
   {
     "pmid": "28965673",
@@ -213,7 +251,12 @@
         "p": "摘要未给出"
       }
     ],
-    "confidence_sentence": "指南/共识不做 CEBM 分级，也未做 AGREE II 正式评分，推荐多属专家意见，引用时请核对原文。"
+    "confidence_sentence": "指南/共识不做 CEBM 分级，也未做 AGREE II 正式评分，推荐多属专家意见，引用时请核对原文。",
+    "clinical_meaning": "杜宾犬 3 岁起应每年做 Holter 和超声筛查 DCM。",
+    "key_results_top3": [
+      1,
+      0
+    ]
   },
   {
     "pmid": "27143042",
@@ -237,7 +280,12 @@
         "p": "摘要未给出"
       }
     ],
-    "confidence_sentence": "指南/共识不做 CEBM 分级，也未做 AGREE II 正式评分，推荐多属专家意见，引用时请核对原文。"
+    "confidence_sentence": "指南/共识不做 CEBM 分级，也未做 AGREE II 正式评分，推荐多属专家意见，引用时请核对原文。",
+    "clinical_meaning": "甲亢猫甲巯咪唑宜低剂量起始，注意避免医源性甲减和肾功能恶化。",
+    "key_results_top3": [
+      0,
+      1
+    ]
   },
   {
     "pmid": "26936494",
@@ -285,7 +333,13 @@
         "p": "原文未给出"
       }
     ],
-    "confidence_sentence": "指南/共识不做 CEBM 分级，也未做 AGREE II 正式评分，推荐多属专家意见，引用时请核对原文。"
+    "confidence_sentence": "指南/共识不做 CEBM 分级，也未做 AGREE II 正式评分，推荐多属专家意见，引用时请核对原文。",
+    "clinical_meaning": "CKD 猫按 IRIS 分期管理，肾病处方粮是生存获益证据最明确的措施。",
+    "key_results_top3": [
+      2,
+      0,
+      4
+    ]
   },
   {
     "pmid": "25701862",
@@ -303,7 +357,11 @@
         "p": "摘要未给出"
       }
     ],
-    "confidence_sentence": "指南/共识不做 CEBM 分级，也未做 AGREE II 正式评分，推荐多属专家意见，引用时请核对原文。"
+    "confidence_sentence": "指南/共识不做 CEBM 分级，也未做 AGREE II 正式评分，推荐多属专家意见，引用时请核对原文。",
+    "clinical_meaning": "糖尿病猫控制体重、调整饮食并用长效胰岛素，加量不宜过频。",
+    "key_results_top3": [
+      0
+    ]
   },
   {
     "pmid": "24112317",
@@ -321,7 +379,11 @@
         "p": "摘要未给出"
       }
     ],
-    "confidence_sentence": "指南/共识不做 CEBM 分级，也未做 AGREE II 正式评分，推荐多属专家意见，引用时请核对原文。"
+    "confidence_sentence": "指南/共识不做 CEBM 分级，也未做 AGREE II 正式评分，推荐多属专家意见，引用时请核对原文。",
+    "clinical_meaning": "无相符症状的犬不要做库欣筛查，各项检测结果都需谨慎解读。",
+    "key_results_top3": [
+      0
+    ]
   },
   {
     "pmid": "23422366",
@@ -339,7 +401,11 @@
         "p": "摘要未给出"
       }
     ],
-    "confidence_sentence": "指南/共识不做 CEBM 分级，也未做 AGREE II 正式评分，推荐多属专家意见，引用时请核对原文。"
+    "confidence_sentence": "指南/共识不做 CEBM 分级，也未做 AGREE II 正式评分，推荐多属专家意见，引用时请核对原文。",
+    "clinical_meaning": "可用“五大支柱”改善家猫环境，减少应激相关问题。",
+    "key_results_top3": [
+      0
+    ]
   },
   {
     "pmid": "21704901",
@@ -357,7 +423,11 @@
         "p": "摘要未给出"
       }
     ],
-    "confidence_sentence": "指南/共识不做 CEBM 分级，也未做 AGREE II 正式评分，推荐多属专家意见，引用时请核对原文。"
+    "confidence_sentence": "指南/共识不做 CEBM 分级，也未做 AGREE II 正式评分，推荐多属专家意见，引用时请核对原文。",
+    "clinical_meaning": "每次就诊都应记录体重、体况评分和肌肉评分。",
+    "key_results_top3": [
+      0
+    ]
   },
   {
     "pmid": "19481039",
@@ -375,7 +445,11 @@
         "p": "摘要未给出"
       }
     ],
-    "confidence_sentence": "指南/共识不做 CEBM 分级，也未做 AGREE II 正式评分，推荐多属专家意见，引用时请核对原文。"
+    "confidence_sentence": "指南/共识不做 CEBM 分级，也未做 AGREE II 正式评分，推荐多属专家意见，引用时请核对原文。",
+    "clinical_meaning": "本指南早于抗病毒药问世，其治疗建议反映的是当时的支持治疗。",
+    "key_results_top3": [
+      0
+    ]
   },
   {
     "pmid": "15954557",
@@ -393,7 +467,11 @@
         "p": "摘要未给出"
       }
     ],
-    "confidence_sentence": "指南/共识不做 CEBM 分级，也未做 AGREE II 正式评分，推荐多属专家意见，引用时请核对原文。"
+    "confidence_sentence": "指南/共识不做 CEBM 分级，也未做 AGREE II 正式评分，推荐多属专家意见，引用时请核对原文。",
+    "clinical_meaning": "持续肾性蛋白尿应评估来源和程度，具体阈值以 IRIS 现行版为准。",
+    "key_results_top3": [
+      0
+    ]
   },
   {
     "pmid": "39858209",
@@ -423,7 +501,13 @@
         "p": "异质性 <0.0001"
       }
     ],
-    "confidence_sentence": "本文为系统综述/Meta分析，CEBM 3 级（治疗获益），AMSTAR 2 总体置信度极低，结论基于全文。"
+    "confidence_sentence": "本文为系统综述/Meta分析，CEBM 3 级（治疗获益），AMSTAR 2 总体置信度极低，结论基于全文。",
+    "clinical_meaning": "高蛋白低热量粮可能减重更多，但研究差异大，尚不足以定方案。",
+    "key_results_top3": [
+      1,
+      2,
+      0
+    ]
   },
   {
     "pmid": "41781382",
@@ -453,7 +537,13 @@
         "p": "原文未给出"
       }
     ],
-    "confidence_sentence": "本文为RCT（非劣效），CEBM 2 级，Cochrane RoB 2 尚未评估偏倚风险，结论基于全文。"
+    "confidence_sentence": "本文为RCT（非劣效），CEBM 2 级，Cochrane RoB 2 尚未评估偏倚风险，结论基于全文。",
+    "clinical_meaning": "口服瑞德西韦可作为非积液型 FIP 的选择之一，但样本很小。",
+    "key_results_top3": [
+      0,
+      1,
+      2
+    ]
   },
   {
     "pmid": "40110605",
@@ -489,7 +579,13 @@
         "p": "原文未给出"
       }
     ],
-    "confidence_sentence": "本文为RCT（交叉），CEBM 2 级，Cochrane RoB 2 尚未评估偏倚风险，结论基于全文。"
+    "confidence_sentence": "本文为RCT（交叉），CEBM 2 级，Cochrane RoB 2 尚未评估偏倚风险，结论基于全文。",
+    "clinical_meaning": "帕立骨化醇可降低 CKD 犬 PTH，但高钙常见，用药需监测离子钙。",
+    "key_results_top3": [
+      0,
+      3,
+      1
+    ]
   },
   {
     "pmid": "39417648",
@@ -525,7 +621,13 @@
         "p": "原文未给出"
       }
     ],
-    "confidence_sentence": "本文为RCT，CEBM 2 级，Cochrane RoB 2 尚未评估偏倚风险，结论基于全文。"
+    "confidence_sentence": "本文为RCT，CEBM 2 级，Cochrane RoB 2 尚未评估偏倚风险，结论基于全文。",
+    "clinical_meaning": "AB070597 可能延缓 CKD 猫进展，尚不足以改变临床做法。",
+    "key_results_top3": [
+      0,
+      2,
+      1
+    ]
   },
   {
     "pmid": "39066306",
@@ -561,7 +663,13 @@
         "p": "原文未给出"
       }
     ],
-    "confidence_sentence": "本文为RCT，CEBM 2 级，Cochrane RoB 2 尚未评估偏倚风险，结论基于全文。"
+    "confidence_sentence": "本文为RCT，CEBM 2 级，Cochrane RoB 2 尚未评估偏倚风险，结论基于全文。",
+    "clinical_meaning": "积液型 FIP 猫口服 GS-441524 可考虑 42 天短疗程。",
+    "key_results_top3": [
+      0,
+      2,
+      1
+    ]
   },
   {
     "pmid": "38952053",
@@ -603,7 +711,13 @@
         "p": "原文未给出"
       }
     ],
-    "confidence_sentence": "本文为RCT，CEBM 2 级，Cochrane RoB 2 尚未评估偏倚风险，结论基于全文。"
+    "confidence_sentence": "本文为RCT，CEBM 2 级，Cochrane RoB 2 尚未评估偏倚风险，结论基于全文。",
+    "clinical_meaning": "加镁限磷粮可稳定 CKD 猫部分生化指标，尚不能推断生存获益。",
+    "key_results_top3": [
+      4,
+      1,
+      3
+    ]
   },
   {
     "pmid": "38884190",
@@ -633,7 +747,13 @@
         "p": "原文未给出"
       }
     ],
-    "confidence_sentence": "本文为临床试验，CEBM 2 级，Cochrane RoB 2 总体有一定担忧，结论基于全文。"
+    "confidence_sentence": "本文为临床试验，CEBM 2 级，Cochrane RoB 2 总体有一定担忧，结论基于全文。",
+    "clinical_meaning": "维格列净可替代胰岛素治疗新诊断糖尿病猫，但需筛查并监测酮症。",
+    "key_results_top3": [
+      0,
+      1,
+      2
+    ]
   },
   {
     "pmid": "37632022",
@@ -663,7 +783,12 @@
         "p": "原文未给出"
       }
     ],
-    "confidence_sentence": "本文为RCT（非劣效），CEBM 2 级，Cochrane RoB 2 尚未评估偏倚风险，结论基于全文。"
+    "confidence_sentence": "本文为RCT（非劣效），CEBM 2 级，Cochrane RoB 2 尚未评估偏倚风险，结论基于全文。",
+    "clinical_meaning": "口服瑞德西韦可作为积液型 FIP 的选择之一，但样本很小。",
+    "key_results_top3": [
+      0,
+      1
+    ]
   },
   {
     "pmid": "27678080",
@@ -699,7 +824,13 @@
         "p": "0.012"
       }
     ],
-    "confidence_sentence": "本文为RCT，CEBM 2 级，Cochrane RoB 2 总体有一定担忧，结论基于全文。"
+    "confidence_sentence": "本文为RCT，CEBM 2 级，Cochrane RoB 2 总体有一定担忧，结论基于全文。",
+    "clinical_meaning": "心脏已扩大的无症状二尖瓣病犬，用匹莫苯丹可推迟心衰。",
+    "key_results_top3": [
+      0,
+      1,
+      3
+    ]
   },
   {
     "pmid": "26948860",
@@ -735,7 +866,13 @@
         "p": "0.398"
       }
     ],
-    "confidence_sentence": "本文为前瞻性队列，CEBM 2 级，QUIPS 尚未评估偏倚风险，结论基于全文。"
+    "confidence_sentence": "本文为前瞻性队列，CEBM 2 级，QUIPS 尚未评估偏倚风险，结论基于全文。",
+    "clinical_meaning": "老年猫频繁接种和中重度牙病与 CKD 相关，尚不能证明因果。",
+    "key_results_top3": [
+      0,
+      2,
+      1
+    ]
   },
   {
     "pmid": "26776588",
@@ -765,7 +902,13 @@
         "p": "0.033"
       }
     ],
-    "confidence_sentence": "本文为RCT，CEBM 2 级，Cochrane RoB 2 尚未评估偏倚风险，结论基于摘要。"
+    "confidence_sentence": "本文为RCT，CEBM 2 级，Cochrane RoB 2 尚未评估偏倚风险，结论基于摘要。",
+    "clinical_meaning": "发生过血栓的猫，二级预防宜选氯吡格雷而非阿司匹林。",
+    "key_results_top3": [
+      1,
+      0,
+      2
+    ]
   },
   {
     "pmid": "26474314",
@@ -801,7 +944,13 @@
         "p": "未做组间检验"
       }
     ],
-    "confidence_sentence": "本文为RCT，CEBM 2 级，Cochrane RoB 2 总体有一定担忧，结论基于全文。"
+    "confidence_sentence": "本文为RCT，CEBM 2 级，Cochrane RoB 2 总体有一定担忧，结论基于全文。",
+    "clinical_meaning": "替米沙坦降猫蛋白尿不劣于贝那普利，可作为替代选择。",
+    "key_results_top3": [
+      0,
+      1,
+      3
+    ]
   },
   {
     "pmid": "26265631",
@@ -819,7 +968,11 @@
         "p": "摘要未给出"
       }
     ],
-    "confidence_sentence": "本文为前瞻性队列，CEBM 2 级，QUIPS 尚未评估偏倚风险，结论基于摘要。"
+    "confidence_sentence": "本文为前瞻性队列，CEBM 2 级，QUIPS 尚未评估偏倚风险，结论基于摘要。",
+    "clinical_meaning": "限制户外活动和以干粮为主的猫更易超重，需关注体重。",
+    "key_results_top3": [
+      0
+    ]
   },
   {
     "pmid": "23838205",
@@ -849,7 +1002,13 @@
         "p": "0.047"
       }
     ],
-    "confidence_sentence": "本文为RCT（交叉），CEBM 2 级，Cochrane RoB 2 尚未评估偏倚风险，结论基于摘要。"
+    "confidence_sentence": "本文为RCT（交叉），CEBM 2 级，Cochrane RoB 2 尚未评估偏倚风险，结论基于摘要。",
+    "clinical_meaning": "CKD 猫食欲差可用米氮平短期改善，长期效果和安全性未知。",
+    "key_results_top3": [
+      1,
+      2,
+      0
+    ]
   },
   {
     "pmid": "23078651",
@@ -885,7 +1044,13 @@
         "p": "0.034"
       }
     ],
-    "confidence_sentence": "本文为RCT，CEBM 2 级，Cochrane RoB 2 总体有一定担忧，结论基于全文。"
+    "confidence_sentence": "本文为RCT，CEBM 2 级，Cochrane RoB 2 总体有一定担忧，结论基于全文。",
+    "clinical_meaning": "筛查出隐匿期 DCM 的杜宾犬，可开始用匹莫苯丹延缓发病。",
+    "key_results_top3": [
+      0,
+      1,
+      3
+    ]
   },
   {
     "pmid": "18638016",
@@ -903,7 +1068,11 @@
         "p": "0.0099"
       }
     ],
-    "confidence_sentence": "本文为RCT，CEBM 2 级，Cochrane RoB 2 尚未评估偏倚风险，结论基于摘要。"
+    "confidence_sentence": "本文为RCT，CEBM 2 级，Cochrane RoB 2 尚未评估偏倚风险，结论基于摘要。",
+    "clinical_meaning": "心衰期二尖瓣病犬，匹莫苯丹优于贝那普利。",
+    "key_results_top3": [
+      0
+    ]
   },
   {
     "pmid": "16978113",
@@ -921,7 +1090,11 @@
         "p": "摘要未给出"
       }
     ],
-    "confidence_sentence": "本文为RCT，CEBM 2 级，Cochrane RoB 2 尚未评估偏倚风险，结论基于摘要。"
+    "confidence_sentence": "本文为RCT，CEBM 2 级，Cochrane RoB 2 尚未评估偏倚风险，结论基于摘要。",
+    "clinical_meaning": "CKD 猫换用肾病处方粮可减少尿毒症发作。",
+    "key_results_top3": [
+      0
+    ]
   },
   {
     "pmid": "17063696",
@@ -951,7 +1124,13 @@
         "p": "0.27"
       }
     ],
-    "confidence_sentence": "本文为RCT，CEBM 2 级，Cochrane RoB 2 尚未评估偏倚风险，结论基于摘要。"
+    "confidence_sentence": "本文为RCT，CEBM 2 级，Cochrane RoB 2 尚未评估偏倚风险，结论基于摘要。",
+    "clinical_meaning": "贝那普利可降低 CKD 猫蛋白尿，但未证明延长肾脏生存。",
+    "key_results_top3": [
+      0,
+      1,
+      2
+    ]
   },
   {
     "pmid": "15702689",
@@ -975,7 +1154,12 @@
         "p": "摘要未给出"
       }
     ],
-    "confidence_sentence": "本文为前瞻性队列，CEBM 2 级，QUIPS 尚未评估偏倚风险，结论基于摘要。"
+    "confidence_sentence": "本文为前瞻性队列，CEBM 2 级，QUIPS 尚未评估偏倚风险，结论基于摘要。",
+    "clinical_meaning": "CKD 犬初诊应测 UP/C，比值 ≥1.0 提示预后更差。",
+    "key_results_top3": [
+      0,
+      1
+    ]
   },
   {
     "pmid": "11990962",
@@ -993,7 +1177,11 @@
         "p": "摘要未给出"
       }
     ],
-    "confidence_sentence": "本文为RCT，CEBM 2 级，Cochrane RoB 2 尚未评估偏倚风险，结论基于摘要。"
+    "confidence_sentence": "本文为RCT，CEBM 2 级，Cochrane RoB 2 尚未评估偏倚风险，结论基于摘要。",
+    "clinical_meaning": "轻中度肾衰竭犬换用肾病粮可减少尿毒症危象和死亡。",
+    "key_results_top3": [
+      0
+    ]
   },
   {
     "pmid": "42207576",
@@ -1035,7 +1223,13 @@
         "p": "原文未给出"
       }
     ],
-    "confidence_sentence": "本文为前瞻性观察队列，CEBM 3 级，QUIPS 尚未评估偏倚风险，结论基于全文。"
+    "confidence_sentence": "本文为前瞻性观察队列，CEBM 3 级，QUIPS 尚未评估偏倚风险，结论基于全文。",
+    "clinical_meaning": "尿氨/肌酐比低可能提示 CKD 犬预后较差，尚不足以改变临床做法。",
+    "key_results_top3": [
+      0,
+      1,
+      4
+    ]
   },
   {
     "pmid": "32139728",
@@ -1059,7 +1253,12 @@
         "p": "原文未给出"
       }
     ],
-    "confidence_sentence": "本文为横断面问卷，CEBM 3 级，无对应偏倚工具，结论基于全文。"
+    "confidence_sentence": "本文为横断面问卷，CEBM 3 级，无对应偏倚工具，结论基于全文。",
+    "clinical_meaning": "犬问题行为很常见，其中噪声敏感最多见。",
+    "key_results_top3": [
+      1,
+      0
+    ]
   },
   {
     "pmid": "30548336",
@@ -1077,7 +1276,11 @@
         "p": "摘要未给出"
       }
     ],
-    "confidence_sentence": "本文为回顾性队列，CEBM 3 级，QUIPS 尚未评估偏倚风险，结论基于摘要。"
+    "confidence_sentence": "本文为回顾性队列，CEBM 3 级，QUIPS 尚未评估偏倚风险，结论基于摘要。",
+    "clinical_meaning": "超重会缩短多个品种犬的寿命，可据此劝主人控制体重。",
+    "key_results_top3": [
+      0
+    ]
   },
   {
     "pmid": "29660848",
@@ -1113,7 +1316,13 @@
         "p": "0.094"
       }
     ],
-    "confidence_sentence": "本文为回顾性队列，CEBM 3 级，QUIPS 偏倚风险中等，结论基于全文。"
+    "confidence_sentence": "本文为回顾性队列，CEBM 3 级，QUIPS 偏倚风险中等，结论基于全文。",
+    "clinical_meaning": "多数临床前期 HCM 猫长期不发病，但 10 年内约三成出现心衰或血栓。",
+    "key_results_top3": [
+      0,
+      1,
+      2
+    ]
   },
   {
     "pmid": "26776583",
@@ -1137,7 +1346,12 @@
         "p": "摘要未给出"
       }
     ],
-    "confidence_sentence": "本文为横断面研究，CEBM 3 级，无对应偏倚工具，结论基于摘要。"
+    "confidence_sentence": "本文为横断面研究，CEBM 3 级，无对应偏倚工具，结论基于摘要。",
+    "clinical_meaning": "猫 HCM 并不少见，心杂音不能确认或排除，筛查需超声。",
+    "key_results_top3": [
+      0,
+      1
+    ]
   },
   {
     "pmid": "26581469",
@@ -1161,7 +1375,12 @@
         "p": "原文未给出"
       }
     ],
-    "confidence_sentence": "本文为回顾性队列（保险数据），CEBM 3 级，无对应偏倚工具，结论基于全文。"
+    "confidence_sentence": "本文为回顾性队列（保险数据），CEBM 3 级，无对应偏倚工具，结论基于全文。",
+    "clinical_meaning": "参保猫中消化系统病最常见，尚不足以改变临床做法。",
+    "key_results_top3": [
+      0,
+      1
+    ]
   },
   {
     "pmid": "25896026",
@@ -1179,7 +1398,11 @@
         "p": "摘要未给出"
       }
     ],
-    "confidence_sentence": "本文为回顾性队列（保险数据），CEBM 3 级，无对应偏倚工具，结论基于摘要。"
+    "confidence_sentence": "本文为回顾性队列（保险数据），CEBM 3 级，无对应偏倚工具，结论基于摘要。",
+    "clinical_meaning": "体型越大的犬期望寿命越短，40 kg 以上组约 10.6 年。",
+    "key_results_top3": [
+      0
+    ]
   },
   {
     "pmid": "25231385",
@@ -1209,7 +1432,13 @@
         "p": "摘要未给出"
       }
     ],
-    "confidence_sentence": "本文为回顾性队列，CEBM 3 级，QUADAS-2 尚未评估偏倚风险，结论基于摘要。"
+    "confidence_sentence": "本文为回顾性队列，CEBM 3 级，QUADAS-2 尚未评估偏倚风险，结论基于摘要。",
+    "clinical_meaning": "SDMA 可能早于肌酐提示猫 CKD，但诊断优势仍不确定。",
+    "key_results_top3": [
+      0,
+      1,
+      2
+    ]
   },
   {
     "pmid": "24217707",
@@ -1227,7 +1456,11 @@
         "p": "摘要未给出"
       }
     ],
-    "confidence_sentence": "本文为回顾性横断面，CEBM 3 级，无对应偏倚工具，结论基于摘要。"
+    "confidence_sentence": "本文为回顾性横断面，CEBM 3 级，无对应偏倚工具，结论基于摘要。",
+    "clinical_meaning": "CKD 在猫中很常见，且常与关节病并存。",
+    "key_results_top3": [
+      0
+    ]
   },
   {
     "pmid": "23647231",
@@ -1251,7 +1484,12 @@
         "p": "摘要未给出"
       }
     ],
-    "confidence_sentence": "本文为纵向队列（VetCompass），CEBM 3 级，QUIPS 尚未评估偏倚风险，结论基于摘要。"
+    "confidence_sentence": "本文为纵向队列（VetCompass），CEBM 3 级，QUIPS 尚未评估偏倚风险，结论基于摘要。",
+    "clinical_meaning": "全科门诊中犬 CKD 确诊后中位生存约 226 天，分期越高风险越大。",
+    "key_results_top3": [
+      1,
+      0
+    ]
   },
   {
     "pmid": "22269057",
@@ -1281,7 +1519,13 @@
         "p": "摘要未给出"
       }
     ],
-    "confidence_sentence": "本文为回顾性队列，CEBM 3 级，QUIPS 尚未评估偏倚风险，结论基于摘要。"
+    "confidence_sentence": "本文为回顾性队列，CEBM 3 级，QUIPS 尚未评估偏倚风险，结论基于摘要。",
+    "clinical_meaning": "CKD 猫应监测血磷和蛋白尿，二者升高提示进展风险高。",
+    "key_results_top3": [
+      0,
+      1,
+      2
+    ]
   },
   {
     "pmid": "20005753",
@@ -1305,7 +1549,12 @@
         "p": "摘要未给出"
       }
     ],
-    "confidence_sentence": "本文为横断面调查，CEBM 3 级，无对应偏倚工具，结论基于摘要。"
+    "confidence_sentence": "本文为横断面调查，CEBM 3 级，无对应偏倚工具，结论基于摘要。",
+    "clinical_meaning": "老年犬认知障碍常被漏诊，值得主动询问。",
+    "key_results_top3": [
+      0,
+      1
+    ]
   },
   {
     "pmid": "18691369",
@@ -1323,7 +1572,11 @@
         "p": "<0.0001"
       }
     ],
-    "confidence_sentence": "本文为回顾性队列，CEBM 3 级，QUIPS 尚未评估偏倚风险，结论基于摘要。"
+    "confidence_sentence": "本文为回顾性队列，CEBM 3 级，QUIPS 尚未评估偏倚风险，结论基于摘要。",
+    "clinical_meaning": "确诊时 IRIS 分期可用于向主人说明 CKD 猫的大致预后。",
+    "key_results_top3": [
+      0
+    ]
   },
   {
     "pmid": "18289298",
@@ -1341,7 +1594,11 @@
         "p": "摘要未给出"
       }
     ],
-    "confidence_sentence": "本文为回顾性队列，CEBM 3 级，QUIPS 尚未评估偏倚风险，结论基于摘要。"
+    "confidence_sentence": "本文为回顾性队列，CEBM 3 级，QUIPS 尚未评估偏倚风险，结论基于摘要。",
+    "clinical_meaning": "左房/主动脉比 >1.7 提示二尖瓣病犬心源性死亡风险高。",
+    "key_results_top3": [
+      0
+    ]
   },
   {
     "pmid": "17939542",
@@ -1365,7 +1622,12 @@
         "p": "<0.01"
       }
     ],
-    "confidence_sentence": "本文为RCT 安慰剂组的预后分析，CEBM 3 级，QUIPS 尚未评估偏倚风险，结论基于摘要。"
+    "confidence_sentence": "本文为RCT 安慰剂组的预后分析，CEBM 3 级，QUIPS 尚未评估偏倚风险，结论基于摘要。",
+    "clinical_meaning": "肌酐、UPC 和白细胞升高提示 CKD 猫肾脏生存期更短。",
+    "key_results_top3": [
+      1,
+      0
+    ]
   },
   {
     "pmid": "16734085",
@@ -1389,7 +1651,12 @@
         "p": "摘要未给出"
       }
     ],
-    "confidence_sentence": "本文为回顾性队列，CEBM 3 级，QUIPS 尚未评估偏倚风险，结论基于摘要。"
+    "confidence_sentence": "本文为回顾性队列，CEBM 3 级，QUIPS 尚未评估偏倚风险，结论基于摘要。",
+    "clinical_meaning": "CKD 猫即使是边缘蛋白尿，也提示死亡风险升高。",
+    "key_results_top3": [
+      0,
+      1
+    ]
   },
   {
     "pmid": "11991408",
@@ -1407,7 +1674,11 @@
         "p": "摘要未给出"
       }
     ],
-    "confidence_sentence": "本文为配对对照试验，CEBM 3 级，ROBINS-I 尚未评估偏倚风险，结论基于摘要。"
+    "confidence_sentence": "本文为配对对照试验，CEBM 3 级，ROBINS-I 尚未评估偏倚风险，结论基于摘要。",
+    "clinical_meaning": "终身保持偏瘦体况可能延长拉布拉多寿命。",
+    "key_results_top3": [
+      0
+    ]
   },
   {
     "pmid": "10879400",
@@ -1425,7 +1696,11 @@
         "p": "摘要未给出"
       }
     ],
-    "confidence_sentence": "本文为前瞻性队列（非随机），CEBM 3 级，ROBINS-I 尚未评估偏倚风险，结论基于摘要。"
+    "confidence_sentence": "本文为前瞻性队列（非随机），CEBM 3 级，ROBINS-I 尚未评估偏倚风险，结论基于摘要。",
+    "clinical_meaning": "吃肾病粮的 CKD 猫生存更长，但分组非随机。",
+    "key_results_top3": [
+      0
+    ]
   },
   {
     "pmid": "42949438",
@@ -1461,7 +1736,13 @@
         "p": "原文未给出"
       }
     ],
-    "confidence_sentence": "本文为前瞻性单臂试点，CEBM 4 级，无对应偏倚工具，结论基于全文。"
+    "confidence_sentence": "本文为前瞻性单臂试点，CEBM 4 级，无对应偏倚工具，结论基于全文。",
+    "clinical_meaning": "莫努匹韦可能是 FIP 的口服选择，但样本很小。",
+    "key_results_top3": [
+      0,
+      1,
+      2
+    ]
   },
   {
     "pmid": "41834689",
@@ -1491,7 +1772,13 @@
         "p": "原文未给出"
       }
     ],
-    "confidence_sentence": "本文为前瞻性单臂研究，CEBM 4 级，无对应偏倚工具，结论基于全文。"
+    "confidence_sentence": "本文为前瞻性单臂研究，CEBM 4 级，无对应偏倚工具，结论基于全文。",
+    "clinical_meaning": "按炎症指标提前停药可能可行，尚不足以改变临床做法。",
+    "key_results_top3": [
+      0,
+      1,
+      2
+    ]
   },
   {
     "pmid": "41035288",
@@ -1527,7 +1814,13 @@
         "p": "原文未给出"
       }
     ],
-    "confidence_sentence": "本文为回顾性观察研究，CEBM 4 级，无对应偏倚工具，结论基于全文。"
+    "confidence_sentence": "本文为回顾性观察研究，CEBM 4 级，无对应偏倚工具，结论基于全文。",
+    "clinical_meaning": "FIP 猫应检查眼部，葡萄膜炎多可随治疗消退。",
+    "key_results_top3": [
+      0,
+      2,
+      1
+    ]
   },
   {
     "pmid": "37732386",
@@ -1563,7 +1856,13 @@
         "p": "原文未给出"
       }
     ],
-    "confidence_sentence": "本文为回顾性病例系列，CEBM 4 级，无对应偏倚工具，结论基于全文。"
+    "confidence_sentence": "本文为回顾性病例系列，CEBM 4 级，无对应偏倚工具，结论基于全文。",
+    "clinical_meaning": "合法来源抗病毒药治疗 FIP 多数有效，但约一成会复发。",
+    "key_results_top3": [
+      0,
+      2,
+      1
+    ]
   },
   {
     "pmid": "37548535",
@@ -1593,7 +1892,13 @@
         "p": "原文未给出"
       }
     ],
-    "confidence_sentence": "本文为前瞻性随访研究，CEBM 4 级，无对应偏倚工具，结论基于全文。"
+    "confidence_sentence": "本文为前瞻性随访研究，CEBM 4 级，无对应偏倚工具，结论基于全文。",
+    "clinical_meaning": "GS-441524 治愈的 FIP 猫一年内少见复发，但可能再排毒。",
+    "key_results_top3": [
+      1,
+      0,
+      2
+    ]
   },
   {
     "pmid": "37439383",
@@ -1623,7 +1928,13 @@
         "p": "原文未给出"
       }
     ],
-    "confidence_sentence": "本文为前瞻性单臂研究，CEBM 4 级，无对应偏倚工具，结论基于全文。"
+    "confidence_sentence": "本文为前瞻性单臂研究，CEBM 4 级，无对应偏倚工具，结论基于全文。",
+    "clinical_meaning": "瑞德西韦注射诱导后口服维持，可作为 FIP 的治疗方案之一。",
+    "key_results_top3": [
+      0,
+      2,
+      1
+    ]
   },
   {
     "pmid": "37403259",
@@ -1659,7 +1970,13 @@
         "p": "原文未给出"
       }
     ],
-    "confidence_sentence": "本文为回顾性病例系列，CEBM 4 级，无对应偏倚工具，结论基于全文。"
+    "confidence_sentence": "本文为回顾性病例系列，CEBM 4 级，无对应偏倚工具，结论基于全文。",
+    "clinical_meaning": "眼部和神经型 FIP 用瑞德西韦加 GS-441524 也多可缓解。",
+    "key_results_top3": [
+      0,
+      2,
+      3
+    ]
   },
   {
     "pmid": "36297266",
@@ -1695,7 +2012,13 @@
         "p": "0.692"
       }
     ],
-    "confidence_sentence": "本文为回顾性病例系列（主人报告），CEBM 4 级，无对应偏倚工具，结论基于全文。"
+    "confidence_sentence": "本文为回顾性病例系列（主人报告），CEBM 4 级，无对应偏倚工具，结论基于全文。",
+    "clinical_meaning": "GS-441524 失败的 FIP 猫可考虑莫努匹韦挽救，但证据很弱。",
+    "key_results_top3": [
+      0,
+      1,
+      3
+    ]
   },
   {
     "pmid": "34835034",
@@ -1731,7 +2054,13 @@
         "p": "原文未给出"
       }
     ],
-    "confidence_sentence": "本文为前瞻性单臂研究，CEBM 4 级，无对应偏倚工具，结论基于全文。"
+    "confidence_sentence": "本文为前瞻性单臂研究，CEBM 4 级，无对应偏倚工具，结论基于全文。",
+    "clinical_meaning": "口服含 GS-441524 的药物可治愈部分 FIP 猫，但样本小。",
+    "key_results_top3": [
+      0,
+      2,
+      1
+    ]
   },
   {
     "pmid": "32441826",
@@ -1755,7 +2084,12 @@
         "p": "原文未给出"
       }
     ],
-    "confidence_sentence": "本文为病例系列，CEBM 4 级，无对应偏倚工具，结论基于全文。"
+    "confidence_sentence": "本文为病例系列，CEBM 4 级，无对应偏倚工具，结论基于全文。",
+    "clinical_meaning": "神经型 FIP 用 GS-441524 可能有效，但剂量可能需更高。",
+    "key_results_top3": [
+      0,
+      1
+    ]
   },
   {
     "pmid": "30755068",
@@ -1791,7 +2125,13 @@
         "p": "原文未给出"
       }
     ],
-    "confidence_sentence": "本文为前瞻性单臂现场试验，CEBM 4 级，无对应偏倚工具，结论基于全文。"
+    "confidence_sentence": "本文为前瞻性单臂现场试验，CEBM 4 级，无对应偏倚工具，结论基于全文。",
+    "clinical_meaning": "GS-441524 能治愈多数 FIP 猫，复发者加量可再次缓解。",
+    "key_results_top3": [
+      1,
+      3,
+      2
+    ]
   },
   {
     "pmid": "30543707",
@@ -1821,7 +2161,13 @@
         "p": "原文未给出"
       }
     ],
-    "confidence_sentence": "本文为病例系列，CEBM 4 级，无对应偏倚工具，结论基于全文。"
+    "confidence_sentence": "本文为病例系列，CEBM 4 级，无对应偏倚工具，结论基于全文。",
+    "clinical_meaning": "金毛 DCM 应查血牛磺酸并问饮食，但不能证明无谷粮致病。",
+    "key_results_top3": [
+      1,
+      0,
+      2
+    ]
   },
   {
     "pmid": "30797439",
@@ -1839,7 +2185,11 @@
         "p": "摘要未给出"
       }
     ],
-    "confidence_sentence": "本文为回顾性队列，CEBM 4 级，无对应偏倚工具，结论基于摘要。"
+    "confidence_sentence": "本文为回顾性队列，CEBM 4 级，无对应偏倚工具，结论基于摘要。",
+    "clinical_meaning": "DCM 犬应询问饮食史，无谷粮的作用尚不能确定。",
+    "key_results_top3": [
+      0
+    ]
   },
   {
     "pmid": "28901812",
@@ -1875,7 +2225,13 @@
         "p": "原文未给出"
       }
     ],
-    "confidence_sentence": "本文为前瞻性单臂现场试验，CEBM 4 级，无对应偏倚工具，结论基于全文。"
+    "confidence_sentence": "本文为前瞻性单臂现场试验，CEBM 4 级，无对应偏倚工具，结论基于全文。",
+    "clinical_meaning": "GC376 对 FIP 短期有效但复发多，尚不足以作为首选。",
+    "key_results_top3": [
+      0,
+      2,
+      1
+    ]
   },
   {
     "pmid": "28152671",
@@ -1893,7 +2249,11 @@
         "p": "0.014"
       }
     ],
-    "confidence_sentence": "本文为横断面/小样本探索，CEBM 4 级，QUADAS-2 尚未评估偏倚风险，结论基于摘要。"
+    "confidence_sentence": "本文为横断面/小样本探索，CEBM 4 级，QUADAS-2 尚未评估偏倚风险，结论基于摘要。",
+    "clinical_meaning": "应变检查可能更早发现 HCM 猫收缩功能异常，尚不足以改变做法。",
+    "key_results_top3": [
+      0
+    ]
   },
   {
     "pmid": "27103204",
@@ -1929,7 +2289,13 @@
         "p": "<0.0001"
       }
     ],
-    "confidence_sentence": "本文为回顾性诊断研究，CEBM 4 级，QUADAS-2 尚未评估偏倚风险，结论基于全文。"
+    "confidence_sentence": "本文为回顾性诊断研究，CEBM 4 级，QUADAS-2 尚未评估偏倚风险，结论基于全文。",
+    "clinical_meaning": "SDMA 可能早于肌酐提示犬 CKD，但样本小，外推需谨慎。",
+    "key_results_top3": [
+      0,
+      2,
+      1
+    ]
   },
   {
     "pmid": "26079532",
@@ -1977,7 +2343,13 @@
         "p": "原文未给出"
       }
     ],
-    "confidence_sentence": "本文为前瞻性诊断/方法学验证，CEBM 4 级，QUADAS-2 尚未评估偏倚风险，结论基于全文。"
+    "confidence_sentence": "本文为前瞻性诊断/方法学验证，CEBM 4 级，QUADAS-2 尚未评估偏倚风险，结论基于全文。",
+    "clinical_meaning": "SDMA 可能比肌酐更早提示犬 GFR 下降，但样本很少。",
+    "key_results_top3": [
+      2,
+      0,
+      3
+    ]
   },
   {
     "pmid": "25673019",
@@ -2013,7 +2385,13 @@
         "p": "<0.001"
       }
     ],
-    "confidence_sentence": "本文为病例系列（病理），CEBM 4 级，无对应偏倚工具，结论基于全文。"
+    "confidence_sentence": "本文为病例系列（病理），CEBM 4 级，无对应偏倚工具，结论基于全文。",
+    "clinical_meaning": "甲亢病程越长疑似恶变比例越高，但横断面设计不能证明因果。",
+    "key_results_top3": [
+      3,
+      0,
+      1
+    ]
   },
   {
     "pmid": "3616607",
@@ -2031,7 +2409,11 @@
         "p": "摘要未给出"
       }
     ],
-    "confidence_sentence": "本文为实验，CEBM 4 级，SYRCLE 尚未评估偏倚风险，结论基于摘要。"
+    "confidence_sentence": "本文为实验，CEBM 4 级，SYRCLE 尚未评估偏倚风险，结论基于摘要。",
+    "clinical_meaning": "猫心肌衰竭应考虑牛磺酸缺乏，补充后心功能可恢复。",
+    "key_results_top3": [
+      0
+    ]
   },
   {
     "pmid": "41701235",
@@ -2061,7 +2443,13 @@
         "p": "摘要未给出"
       }
     ],
-    "confidence_sentence": "本文为系统综述/Meta分析，CEBM 等级未核、AMSTAR 2未评，结论基于摘要，证据强度取决于纳入研究质量。"
+    "confidence_sentence": "本文为系统综述/Meta分析，CEBM 等级未核、AMSTAR 2未评，结论基于摘要，证据强度取决于纳入研究质量。",
+    "clinical_meaning": "CKD 犬蛋白尿更高，但研究偏倚大，尚不足以改变临床做法。",
+    "key_results_top3": [
+      0,
+      2,
+      1
+    ]
   },
   {
     "pmid": "41527203",
@@ -2085,7 +2473,12 @@
         "p": "摘要未给出"
       }
     ],
-    "confidence_sentence": "本文为系统综述，CEBM 等级未核、AMSTAR 2未评，结论基于摘要，证据强度取决于纳入研究质量。"
+    "confidence_sentence": "本文为系统综述，CEBM 等级未核、AMSTAR 2未评，结论基于摘要，证据强度取决于纳入研究质量。",
+    "clinical_meaning": "SDMA 是否优于肌酐尚不确定，不宜单凭 SDMA 诊断 CKD。",
+    "key_results_top3": [
+      1,
+      0
+    ]
   },
   {
     "pmid": "40941356",
@@ -2115,7 +2508,13 @@
         "p": "原文未给出"
       }
     ],
-    "confidence_sentence": "本文为系统综述（未做 Meta 分析），CEBM 4 级（治疗获益）、AMSTAR 2 总体置信度极低，结论基于全文，证据强度取决于纳入研究质量。"
+    "confidence_sentence": "本文为系统综述（未做 Meta 分析），CEBM 4 级（治疗获益）、AMSTAR 2 总体置信度极低，结论基于全文，证据强度取决于纳入研究质量。",
+    "clinical_meaning": "SGLT2 抑制剂可用于糖尿病猫，但需警惕正常血糖性 DKA。",
+    "key_results_top3": [
+      1,
+      2,
+      0
+    ]
   },
   {
     "pmid": "40732763",
@@ -2151,7 +2550,13 @@
         "p": "原文未给出"
       }
     ],
-    "confidence_sentence": "本文为系统综述，CEBM 等级未核、AMSTAR 2未评，结论基于全文，证据强度取决于纳入研究质量。"
+    "confidence_sentence": "本文为系统综述，CEBM 等级未核、AMSTAR 2未评，结论基于全文，证据强度取决于纳入研究质量。",
+    "clinical_meaning": "GS-441524 多数能治愈 FIP，积液型和神经型效果较差。",
+    "key_results_top3": [
+      0,
+      3,
+      1
+    ]
   },
   {
     "pmid": "40633571",
@@ -2181,7 +2586,13 @@
         "p": "原文未给出"
       }
     ],
-    "confidence_sentence": "本文为分子流行病学/基因组研究，不属于 CEBM 分级对象；结论基于全文，不能直接用于临床决策。"
+    "confidence_sentence": "本文为分子流行病学/基因组研究，不属于 CEBM 分级对象；结论基于全文，不能直接用于临床决策。",
+    "clinical_meaning": "塞浦路斯 FIP 暴发株可猫间传播，尚不足以改变临床做法。",
+    "key_results_top3": [
+      0,
+      1,
+      2
+    ]
   },
   {
     "pmid": "34758043",
@@ -2199,7 +2610,11 @@
         "p": "摘要未给出"
       }
     ],
-    "confidence_sentence": "本文为实验，不属于 CEBM 分级对象，SYRCLE 未评偏倚；结论基于摘要，不能直接用于临床决策。"
+    "confidence_sentence": "本文为实验，不属于 CEBM 分级对象，SYRCLE 未评偏倚；结论基于摘要，不能直接用于临床决策。",
+    "clinical_meaning": "这是猫认知研究，尚不能指导临床做法。",
+    "key_results_top3": [
+      0
+    ]
   },
   {
     "pmid": "31550468",
@@ -2217,7 +2632,11 @@
         "p": "摘要未给出"
       }
     ],
-    "confidence_sentence": "本文为实验，不属于 CEBM 分级对象，SYRCLE 未评偏倚；结论基于摘要，不能直接用于临床决策。"
+    "confidence_sentence": "本文为实验，不属于 CEBM 分级对象，SYRCLE 未评偏倚；结论基于摘要，不能直接用于临床决策。",
+    "clinical_meaning": "这是猫依恋行为研究，尚不能指导临床做法。",
+    "key_results_top3": [
+      0
+    ]
   },
   {
     "pmid": "31554584",
@@ -2235,7 +2654,11 @@
         "p": "摘要未给出"
       }
     ],
-    "confidence_sentence": "本文为叙述性综述，不属于 CEBM 分级对象；结论基于摘要，不能直接用于临床决策。"
+    "confidence_sentence": "本文为叙述性综述，不属于 CEBM 分级对象；结论基于摘要，不能直接用于临床决策。",
+    "clinical_meaning": "犬库欣需综合临床表现和多项检查判断，没有单一金标准。",
+    "key_results_top3": [
+      0
+    ]
   },
   {
     "pmid": "31076940",
@@ -2253,7 +2676,11 @@
         "p": "摘要未给出"
       }
     ],
-    "confidence_sentence": "本文为实验，不属于 CEBM 分级对象，SYRCLE 未评偏倚；结论基于摘要，不能直接用于临床决策。"
+    "confidence_sentence": "本文为实验，不属于 CEBM 分级对象，SYRCLE 未评偏倚；结论基于摘要，不能直接用于临床决策。",
+    "clinical_meaning": "这是猫认知研究，尚不能指导临床做法。",
+    "key_results_top3": [
+      0
+    ]
   },
   {
     "pmid": "30948740",
@@ -2283,7 +2710,13 @@
         "p": "0.002"
       }
     ],
-    "confidence_sentence": "本文为实验，不属于 CEBM 分级对象，SYRCLE SYRCLE 不出总体判断；结论基于全文，不能直接用于临床决策。"
+    "confidence_sentence": "本文为实验，不属于 CEBM 分级对象，SYRCLE SYRCLE 不出总体判断；结论基于全文，不能直接用于临床决策。",
+    "clinical_meaning": "猫能分辨自己的名字，尚不能指导临床做法。",
+    "key_results_top3": [
+      0,
+      1,
+      2
+    ]
   },
   {
     "pmid": "30451613",
@@ -2301,7 +2734,11 @@
         "p": "摘要未给出"
       }
     ],
-    "confidence_sentence": "本文为叙述性综述，不属于 CEBM 分级对象；结论基于摘要，不能直接用于临床决策。"
+    "confidence_sentence": "本文为叙述性综述，不属于 CEBM 分级对象；结论基于摘要，不能直接用于临床决策。",
+    "clinical_meaning": "本库只有题录，尚无法给出临床意义。",
+    "key_results_top3": [
+      0
+    ]
   },
   {
     "pmid": "29538681",
@@ -2319,7 +2756,11 @@
         "p": "摘要未给出"
       }
     ],
-    "confidence_sentence": "本文为关联研究，不属于 CEBM 分级对象，SYRCLE 未评偏倚；结论基于摘要，不能直接用于临床决策。"
+    "confidence_sentence": "本文为关联研究，不属于 CEBM 分级对象，SYRCLE 未评偏倚；结论基于摘要，不能直接用于临床决策。",
+    "clinical_meaning": "这是犬基因与训练关联研究，尚不能指导临床做法。",
+    "key_results_top3": [
+      0
+    ]
   },
   {
     "pmid": "29778200",
@@ -2349,7 +2790,13 @@
         "p": "原文未给出"
       }
     ],
-    "confidence_sentence": "本文为体外与实验感染研究，不属于 CEBM 分级对象，SYRCLE 未评偏倚；结论基于全文，不能直接用于临床决策。"
+    "confidence_sentence": "本文为体外与实验感染研究，不属于 CEBM 分级对象，SYRCLE 未评偏倚；结论基于全文，不能直接用于临床决策。",
+    "clinical_meaning": "GS-441524 对实验感染 FIP 有效，尚需自然病例验证。",
+    "key_results_top3": [
+      2,
+      1,
+      0
+    ]
   },
   {
     "pmid": "29326623",
@@ -2367,7 +2814,11 @@
         "p": "—"
       }
     ],
-    "confidence_sentence": "本文为关联研究，CEBM 4 级，无对应偏倚工具，结论基于全文。"
+    "confidence_sentence": "本文为关联研究，CEBM 4 级，无对应偏倚工具，结论基于全文。",
+    "clinical_meaning": "关联仅边缘显著，尚不能指导临床做法。",
+    "key_results_top3": [
+      0
+    ]
   },
   {
     "pmid": "28460795",
@@ -2385,7 +2836,11 @@
         "p": "摘要未给出"
       }
     ],
-    "confidence_sentence": "本文为叙述性综述，不属于 CEBM 分级对象；结论基于摘要，不能直接用于临床决策。"
+    "confidence_sentence": "本文为叙述性综述，不属于 CEBM 分级对象；结论基于摘要，不能直接用于临床决策。",
+    "clinical_meaning": "肥胖是猫糖尿病的重要风险因素，控制体重有其意义。",
+    "key_results_top3": [
+      0
+    ]
   },
   {
     "pmid": "26915425",
@@ -2403,7 +2858,11 @@
         "p": "摘要未给出"
       }
     ],
-    "confidence_sentence": "本文为实验，不属于 CEBM 分级对象，SYRCLE 未评偏倚；结论基于摘要，不能直接用于临床决策。"
+    "confidence_sentence": "本文为实验，不属于 CEBM 分级对象，SYRCLE 未评偏倚；结论基于摘要，不能直接用于临床决策。",
+    "clinical_meaning": "这是犬行为研究，尚不能指导临床做法。",
+    "key_results_top3": [
+      0
+    ]
   },
   {
     "pmid": "26776594",
@@ -2427,7 +2886,12 @@
         "p": "原文未给出"
       }
     ],
-    "confidence_sentence": "本文为叙述性综述，不属于 CEBM 分级对象；结论基于全文，不能直接用于临床决策。"
+    "confidence_sentence": "本文为叙述性综述，不属于 CEBM 分级对象；结论基于全文，不能直接用于临床决策。",
+    "clinical_meaning": "缅因猫和布偶猫可做 MYBPC3 突变检测，阴性不能排除 HCM。",
+    "key_results_top3": [
+      0,
+      1
+    ]
   },
   {
     "pmid": "25883356",
@@ -2445,7 +2909,11 @@
         "p": "摘要未给出"
       }
     ],
-    "confidence_sentence": "本文为实验，不属于 CEBM 分级对象，SYRCLE 未评偏倚；结论基于摘要，不能直接用于临床决策。"
+    "confidence_sentence": "本文为实验，不属于 CEBM 分级对象，SYRCLE 未评偏倚；结论基于摘要，不能直接用于临床决策。",
+    "clinical_meaning": "这是人犬互动研究，尚不能指导临床做法。",
+    "key_results_top3": [
+      0
+    ]
   },
   {
     "pmid": "23522175",
@@ -2463,7 +2931,11 @@
         "p": "摘要未给出"
       }
     ],
-    "confidence_sentence": "本文为叙述性综述，不属于 CEBM 分级对象；结论基于摘要，不能直接用于临床决策。"
+    "confidence_sentence": "本文为叙述性综述，不属于 CEBM 分级对象；结论基于摘要，不能直接用于临床决策。",
+    "clinical_meaning": "糖尿病猫需考虑肢端肥大或库欣等潜在病因。",
+    "key_results_top3": [
+      0
+    ]
   },
   {
     "pmid": "16236761",
@@ -2481,6 +2953,10 @@
         "p": "摘要未给出"
       }
     ],
-    "confidence_sentence": "本文为遗传学研究，不属于 CEBM 分级对象，SYRCLE 未评偏倚；结论基于摘要，不能直接用于临床决策。"
+    "confidence_sentence": "本文为遗传学研究，不属于 CEBM 分级对象，SYRCLE 未评偏倚；结论基于摘要，不能直接用于临床决策。",
+    "clinical_meaning": "缅因猫可做 A31P 检测，但携带不等于发病，阴性不排除 HCM。",
+    "key_results_top3": [
+      0
+    ]
   }
 ]
