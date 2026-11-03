@@ -371,7 +371,7 @@ def hcard(p,r,tid=None):
       +(f'<p class="bl">{E_(clean(sm))}</p>' if sm else '')+(f'<p class="why">{E_(rs)}</p>' if rs else '')+superlink(p,r)+f'<p class="ft">{lk}</p></article>')
 def is_super(p):
     return is_full(sup_info(p))
-def has_contra(p):
+def has_contra(p):  # display-only now; ranking uses affects_conclusion()
     return bool(p.get('rep_inc') or has(p.get('internal_inconsistency')) or p.get('amstar_limit') or sec_get(sections(p),'原文报告不一致'))
 # reporting_inconsistency: read from paper data, else extras (top_picks.json top-level map,
 # or data/v5/extras/reporting_inconsistency.json {pmid:{severity,note_zh}}). Only severity
@@ -379,12 +379,12 @@ def has_contra(p):
 try: _RI_FILE=json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)),'data/v5/extras/reporting_inconsistency.json'),encoding='utf-8'))
 except Exception: _RI_FILE={}
 def rep_inc(p):
+    k=str(p.get('pmid') or '')
+    if isinstance(_RI_FILE.get(k),dict): return _RI_FILE[k]   # source of truth (Vibe-adjudicated)
     v=p.get('reporting_inconsistency')
     if isinstance(v,dict): return v
-    k=str(p.get('pmid') or '')
-    for src in ((X.TOP.get('reporting_inconsistency') or {}),_RI_FILE):
-        if isinstance(src.get(k),dict): return src[k]
-    return {}
+    v=(X.TOP.get('reporting_inconsistency') or {}).get(k)
+    return v if isinstance(v,dict) else {}
 def affects_conclusion(p): return rep_inc(p).get('severity')=='affects_conclusion'
 def ri_notice(p):
     n=rep_inc(p).get('note_zh')
@@ -405,7 +405,7 @@ def tops(tid):
         c+=[get(x['id']) for x in (t.get('core') or [])]
         c+=sorted(tpapers(t),key=lambda p:p.get('importance_rank') or 999)
     return _fill(c)
-def newest3(ps): return _fill([p for p in sorted(ps,key=lambda p:p.get('pub_date') or '',reverse=True) if not has_contra(p)])
+def newest3(ps): return _fill([p for p in sorted(ps,key=lambda p:p.get('pub_date') or '',reverse=True)])
 def duo(imp,new,r,tid=None): return (f'<h4 class="tb">最重要</h4>'+''.join(hcard(p,r,tid) for p in imp) if imp else '')+(f'<h4 class="tb">最新</h4>'+''.join(hcard(p,r,tid) for p in new) if new else '')
 def home():
     picks=ALL[:8]

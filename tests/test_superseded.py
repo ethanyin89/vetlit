@@ -5,7 +5,7 @@ os.environ.setdefault('VETLIT_LIVE','1')
 import build_preview as B
 # 1) unit: synthetic superseded paper is skipped and the next fills the slot
 ps=sorted(B.P.values(),key=lambda p:p.get('pub_date') or '',reverse=True)[:5]
-ps=[p for p in ps if not B.has_contra(p)]
+ps=[p for p in ps if not B.affects_conclusion(p)]
 saved=dict(B.SUPER); B.SUPER[str(ps[0].get('pmid'))]={'by':'999','scope':'full'}
 try:
     got=[p['sid'] for p in B.newest3(ps)]
@@ -21,13 +21,13 @@ finally:
     B.SUPER.clear(); B.SUPER.update(saved)
 # 1c) contradiction-flagged papers never in 最新
 for t in B.TP:
-    for p in B.newest3(B.tpapers(t)): assert not B.has_contra(p), (t['id'],p['sid'])
+    for p in B.newest3(B.tpapers(t)): assert not B.affects_conclusion(p), (t['id'],p['sid'])
 # 2) real data: no superseded paper in any topic's lists, and each list is full when enough papers exist
 for g in B.X.TOP.get('topics') or []:
     tid=g['topic']; t=B.TBY.get(tid)
     imp=B.tops(tid); new=B.newest3(B.tpapers(t)) if t else []
     for p in imp+new: assert not B.is_super(p), (tid,p['sid'])
-    if t: assert len(new)==min(3,len([p for p in B.tpapers(t) if not B.is_super(p) and not B.has_contra(p)])), tid
+    if t: assert len(new)==min(3,len([p for p in B.tpapers(t) if not B.is_super(p) and not B.affects_conclusion(p)])), tid
 # 3) built HTML: superseded sids do not appear inside 最重要/最新 blocks
 sup={'pmid-'+k for k,v in B.SUPER.items() if B.is_full(v)}
 for f in ['dist/index.html']+glob.glob('dist/topics/*/index.html'):
