@@ -282,17 +282,71 @@ def page(title,body,depth,cur_nav=''):
 # ---------- home ----------
 ALL=sorted(P.values(),key=lambda p:p.get('importance_rank') or 999)
 def has_tr(p): return bool(X.can_translate(p) and X.translation(p.get('pmid'),p.get('license')))
-def hcard(p,r):
+JABBR={'Journal of veterinary internal medicine':'J Vet Intern Med','Journal of feline medicine and surgery':'J Feline Med Surg','Journal of the American Veterinary Medical Association':'J Am Vet Med Assoc','Journal of veterinary cardiology : the official journal of the European Society of Veterinary Cardiology':'J Vet Cardiol','Veterinary journal (London, England : 1997)':'Vet J','Science (New York, N.Y.)':'Science','Preventive veterinary medicine':'Prev Vet Med','PloS one':'PLoS One','Scientific reports':'Sci Rep','Pathogens (Basel, Switzerland)':'Pathogens','The Journal of small animal practice':'J Small Anim Pract','Human molecular genetics':'Hum Mol Genet','The Veterinary clinics of North America. Small animal practice':'Vet Clin North Am Small Anim Pract','Behavioural processes':'Behav Processes','Journal of comparative pathology':'J Comp Pathol','Journal of the American Animal Hospital Association':'J Am Anim Hosp Assoc','Frontiers in psychology':'Front Psychol','The Journal of heredity':'J Hered','Veterinary microbiology':'Vet Microbiol','Animal cognition':'Anim Cogn','Current biology : CB':'Curr Biol','The Veterinary record':'Vet Rec','Veterinary research communications':'Vet Res Commun','Animals (Basel)':'Animals'}
+DSHORT={'指南/共识':'指南','随机对照试验':'RCT','队列研究':'队列','病例系列（无对照）':'病例系列','实验/基础研究':'实验研究','系统综述/Meta分析':'系统综述','横断面研究':'横断面','叙述性综述':'综述','病例对照研究':'病例对照','非随机对照试验':'非随机对照试验'}
+def _ctext(p):
+    r=_crec(p); c=r.get('certainty')
+    if c in ('高','中','低','极低'): return '证据确定性：'+c
+    if c=='不适用': return '不分级'
+    if c is None and r and r.get('guideline_strength') and r['guideline_strength'] not in ('该指南未分级','摘要未提及'): return '推荐强度：'+str(r['guideline_strength'])[:20]
+    return ''
+def _n(p):
+    n=str(p.get('n_analysed') or '').strip()
+    m_=re.match(r'\s*([\d,]+)\+?',n) if has(n) else None
+    if not m_: return ''
+    d=m_.group(1).replace(',','')
+    return 'n='+(f'{int(d):,}' if d.isdigit() else d)+('+' if m_.group(0).strip().endswith('+') else '')
+def cmeta(p):
+    sp={'cat':'猫','dog':'犬','cat+dog':'猫犬','猫/犬':'猫犬'}.get(species(p),species(p))
+    sp=sp if sp in ('猫','犬','猫犬') else ''
+    j=p.get('journal') or ''; j=JABBR.get(j,j)
+    seg=[str(p.get('year') or ''),j,sp,DSHORT.get(p.get('design_category') or '',p.get('design_category') or ''),_n(p),_ctext(p) if SHOW_CERTAINTY else '']
+    return ' · '.join(x for x in seg if x and x not in ('待评定','不适用','None'))
+def _short(t,m=30):
+    t=clean(str(t or '')).strip()
+    if len(t)<=m: return t
+    for i in range(m,10,-1):
+        if t[i-1] in '，。；;,、）)': return t[:i-1]+'…' if t[i-1] not in '）)' else t[:i]+'…'
+    return t[:m]+'…'
+def _norm(t): return re.sub(r'[\W_]+','',clean(t or ''))
+def summ(p):
+    cl=p.get('one_line_conclusion_zh') or ''; ti=p.get('title_zh') or ''
+    import difflib
+    dup=ti and (_norm(cl).startswith(_norm(ti)[:12]) or difflib.SequenceMatcher(None,_norm(cl),_norm(ti)).ratio()>0.5)
+    if p.get('design_category')=='指南/共识' or dup:
+        if has(p.get('clinical_meaning')): return p['clinical_meaning']
+        krs=p.get('key_results') or []; t3=p.get('key_results_top3') or [0]
+        if krs and isinstance(t3[0],int) and t3[0]<len(krs):
+            k=krs[t3[0]]
+            if isinstance(k,dict): return '：'.join(x for x in [clean(str(k.get('outcome') or '')),clean(str(k.get('groups') or ''))] if x)
+            return str(k)
+    return cl
+def reason(p,tid):
+    pid=str(p.get('pmid') or p.get('sid'))
+    for g in (X.TOP.get('topics') or []):
+        if g.get('topic')==tid:
+            for i in (g.get('items') or []):
+                if isinstance(i,dict) and str(i.get('pmid') or i.get('id'))==pid and i.get('reason'): return i['reason']
+    t=TBY.get(tid) or {}
+    for c in (t.get('core') or []):
+        if str(c.get('id')).replace('pmid-','')==pid.replace('pmid-','') and c.get('reason'): return c['reason']
+    return ''
+def trim_reason(t,p):
+    seg=[x.strip() for x in re.split(r'[；;]',clean(t or '')) if x.strip()]
+    seg=[re.sub(r'，?年均[^，；]*','',x) for x in seg if x not in (p.get('design_category'),) and not re.fullmatch(r'\d{4} 年发表',x)]
+    return '，'.join(x for x in seg if x)
+def hcard(p,r,tid=None):
     href=f'{r}papers/{p["sid"]}/'
-    c=f'<p class="bl">{E_(clean(p["one_line_conclusion_zh"]))}</p>' if p.get('one_line_conclusion_zh') else ''
+    m=cmeta(p); sm=summ(p); rs=_short(trim_reason(reason(p,tid),p)) if tid else ''
     lk=f'<a class="go" href="{href}">速读 →</a>'+(f' <a class="go" href="{href}bilingual/">中英对照 →</a>' if has_tr(p) else '')
-    return f'<article class="card">{title_html(p,"h3",href)}{c}<p class="ft">{lk}</p></article>'
+    return (f'<article class="card">{title_html(p,"h3",href)}'+(f'<p class="cmeta">{E_(m)}</p>' if m else '')
+      +(f'<p class="bl">{E_(clean(sm))}</p>' if sm else '')+(f'<p class="why">{E_(rs)}</p>' if rs else '')+f'<p class="ft">{lk}</p></article>')
 def tops(tid):
     for g in (X.TOP.get('topics') or []):
         if g.get('topic')==tid: return [x for x in (get(str(i.get('pmid') or i.get('id') if isinstance(i,dict) else i)) for i in (g.get('items') or g.get('picks') or [])) if x][:3]
     return []
 def newest3(ps): return sorted(ps,key=lambda p:p.get('pub_date') or '',reverse=True)[:3]
-def duo(imp,new,r): return (f'<h4 class="tb">最重要</h4>'+''.join(hcard(p,r) for p in imp) if imp else '')+(f'<h4 class="tb">最新</h4>'+''.join(hcard(p,r) for p in new) if new else '')
+def duo(imp,new,r,tid=None): return (f'<h4 class="tb">最重要</h4>'+''.join(hcard(p,r,tid) for p in imp) if imp else '')+(f'<h4 class="tb">最新</h4>'+''.join(hcard(p,r,tid) for p in new) if new else '')
 def home():
     picks=ALL[:8]
     new=sorted(P.values(),key=lambda p:p.get('pub_date') or '',reverse=True)[:10]
@@ -304,7 +358,7 @@ def home():
     blocks=''
     for g in (X.TOP.get('topics') or []):
         t=TBY.get(g.get('topic')); imp=tops(g.get('topic')); new=newest3(tpapers(t)) if t else []
-        if imp or new: blocks+=f'<section class="tp"><h3 class="dg">'+(f'<a href="topics/{t["id"]}/">' if t else '')+E_(g.get('topic_zh') or '')+('</a>' if t else '')+f'</h3>{duo(imp,new,"")}</section>'
+        if imp or new: blocks+=f'<section class="tp"><h3 class="dg">'+(f'<a href="topics/{t["id"]}/">' if t else '')+E_(g.get('topic_zh') or '')+('</a>' if t else '')+f'</h3>{duo(imp,new,"",g.get("topic"))}</section>'
     body=f'''<section class="hero"><p class="eb red">// {wk[0]} 第 {wk[1]} 周</p><h1>本周精选</h1><p class="lede">犬猫兽医文献，结论先行。</p></section>
 {blocks}<section><h2 class="sec"><span>//</span> 按专题浏览</h2>{chips}</section>
 <p class="more"><a class="btn" href="library/">进入文献库（{len(P)} 篇）→</a></p>{fresh_list(FRESH,'')}'''
@@ -342,7 +396,7 @@ def topic_page(t):
     sub=f'<section><h2 class="sec"><span>//</span> 子专题</h2>'+''.join(f'<a class="chip" href="{r}topics/{k["id"]}/">{E_(k["name_zh"])} <b>{len(tpapers(k))}</b></a>' for k in ks)+'</section>' if ks else ''
     fr=[f for f in FRESH if t['id'] in (f.get('topics') or [])]
     body=f'''{crumb}<section class="hero"><p class="eb">{E_(t.get("name_en",""))}</p><h1>{E_(t["name_zh"])}</h1><p class="lede">{len(ps)} 篇已速读文献</p></section>{bl}{sub}
-<section>{duo((tops(t['id']) or [p for p,_ in core][:3]),newest3(ps),r)}</section>
+<section>{duo((tops(t['id']) or [p for p,_ in core][:3]),newest3(ps),r,t['id'])}</section>
 <section><h2 class="sec"><span>03</span> 全部 {len(ps)} 篇</h2><ul class="rows">{''.join(row(p,r) for p in sorted(ps,key=lambda p:p.get('pub_date') or '',reverse=True))}</ul></section>{fresh_list(fr,r)}'''
     return page(t['name_zh'],body,2,'topics')
 def topics_index():
