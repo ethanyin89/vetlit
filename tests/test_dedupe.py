@@ -23,14 +23,20 @@ for tid in ('diet_dcm','mmvd','epidemiology','obesity'):
     b=open(f'dist/topics/{tid}/index.html',encoding='utf-8').read().split('<h4 class="tb">最新</h4>',1)[1].split('<h2',1)[0]
     n=b.count('<article class="card">'); assert 1<=n<3, (tid,n)
     assert n==len(set(ids(b))) and '暂无' not in b, tid
-# pick_reason: off unless Vibe-approved entries exist
+# pick_reason: rendered for Vibe-approved entries (approval file), per topic+list; stripped clause for 30548336
 import json
 PR=json.load(open('data/v5/extras/pick_reason.json',encoding='utf-8'))
-appr=[e for k,v in PR.items() if k!='_meta' for e in v if e.get('approved') is True or str(e.get('approved_by','')).lower()=='vibe']
+A=json.load(open('data/v5/extras/pick_reason_approval.json',encoding='utf-8'))
 allhtml=''.join(open(f,encoding='utf-8').read() for f in ['dist/index.html']+glob.glob('dist/topics/*/index.html'))
-if not appr:
+assert not any('证据确定性' in x for x in re.findall(r'<p class="why">([^<]*)</p>',allhtml))
+if A.get('approved_by')=='Vibe':
+    ob=open('dist/topics/obesity/index.html',encoding='utf-8').read()
+    assert '<p class="why">本库同主题中样本量最大（n=50787）。</p>' in ob
+    # every shown 'why' text is a (possibly stripped) approved reason
+    ok={e['pick_reason_zh'] for k,v in PR.items() if k!='_meta' for e in v if e.get('pick_reason_zh')}
+    shown=set(re.findall(r'<p class="why">([^<]*)</p>',allhtml)); assert shown, 'nothing rendered'
+    assert all(any(x==o or x in o for o in ok) for x in shown), shown-ok
+    assert 'pmid-' in allhtml and 'class="why"></p>' not in allhtml
+else:
     assert 'class="why"' not in allhtml
-    for k,v in PR.items():
-        if k!='_meta':
-            for e in v: assert not e.get('pick_reason_zh') or e['pick_reason_zh'] not in allhtml, k
-print('empty/short 最新 + pick_reason gating tests OK')
+print('empty/short 最新 + pick_reason tests OK')

@@ -414,13 +414,22 @@ def newest3(ps,skip=()):  # 最新 skips anything already in this topic's 最重
 # approval marker; VETLIT_PICK_REASON=0 forces it off. Absent/unapproved -> nothing shown.
 try: _PR=json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)),'data/v5/extras/pick_reason.json'),encoding='utf-8'))
 except Exception: _PR={}
-def _pr_ok(e): return isinstance(e,dict) and (e.get('approved') is True or str(e.get('approved_by') or '').strip().lower()=='vibe')
+# Vibe's approval lives beside it (pick_reason_approval.json) so deep extract's file stays untouched.
+try: _PRA=json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)),'data/v5/extras/pick_reason_approval.json'),encoding='utf-8'))
+except Exception: _PRA={}
+_PR_ALL=str(_PRA.get('approved_by') or '').strip().lower()=='vibe'
+def _pr_ok(e): return isinstance(e,dict) and (_PR_ALL or e.get('approved') is True or str(e.get('approved_by') or '').strip().lower()=='vibe')
+def _pr_txt(k,t):
+    for c in (_PRA.get('strip') or {}).get(k) or []: t=t.replace('，'+c,'').replace(c,'')
+    return ' '.join(t.split())
 PICK_REASON_ON=os.environ.get('VETLIT_PICK_REASON')!='0' and any(_pr_ok(e) for k,v in _PR.items() if k!='_meta' and isinstance(v,list) for e in v)
 def pick_reason(p,tid=None,lst=None):
     if not PICK_REASON_ON: return ''
-    for e in _PR.get(str(p.get('pmid') or '')) or []:
+    k=str(p.get('pmid') or '')
+    if k not in _PR: k=str(p.get('sid') or '')   # non-PubMed items (e.g. IRIS 2026) are keyed by sid
+    for e in _PR.get(k) or []:
         if _pr_ok(e) and e.get('pick_reason_zh') and (tid is None or e.get('topic')==tid) and (lst is None or e.get('list')==lst):
-            return ' '.join(str(e['pick_reason_zh']).split())
+            return _pr_txt(k,str(e['pick_reason_zh']))
     return ''
 def duo(imp,new,r,tid=None):  # an empty 最新 is hidden entirely; fewer than 3 shows just those cards
     return (f'<h4 class="tb">最重要</h4>'+''.join(hcard(p,r,tid,'最重要') for p in imp) if imp else '')+(f'<h4 class="tb">最新</h4>'+''.join(hcard(p,r,tid,'最新') for p in new) if new else '')
