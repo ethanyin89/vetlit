@@ -1111,6 +1111,39 @@
    "n_source": "PubMed 摘要（benchmark/work/abs_all.json）",
    "n_status": "papers.json 样本量，已在原文核对",
    "n_detail_zh": "61 只（其中眼部病变 20 只）"
+  },
+  "42693626": {
+   "year": "2026",
+   "journal": "J Feline Med Surg",
+   "design_zh": "指南/共识",
+   "species_zh": "猫",
+   "n": null,
+   "n_label_zh": null,
+   "n_quote": null,
+   "n_source": null,
+   "n_status": "不适用（指南/叙述性综述）"
+  },
+  "41224734": {
+   "year": "2025",
+   "journal": "J Feline Med Surg",
+   "design_zh": "指南/共识",
+   "species_zh": "猫",
+   "n": null,
+   "n_label_zh": null,
+   "n_quote": null,
+   "n_source": null,
+   "n_status": "不适用（指南/叙述性综述）"
+  },
+  "42014100": {
+   "year": "2026",
+   "journal": "J Am Anim Hosp Assoc",
+   "design_zh": "指南/共识",
+   "species_zh": "猫",
+   "n": null,
+   "n_label_zh": null,
+   "n_quote": null,
+   "n_source": null,
+   "n_status": "不适用（指南/叙述性综述）"
   }
  }
 }

@@ -1,0 +1,20 @@
+{
+ "36002137": {
+  "erratum_pmid": "36066350",
+  "note_zh": "勘误只更正了两位工作组成员的资质头衔（Susan Gogolski、Glenn A Olah），不涉及诊断内容或推荐。",
+  "quote": "The credentials for two of the Task Force members have been corrected to the following: Susan Gogolski DVM, DABVP (Canine/Feline), Co-Chair Glenn A Olah DVM, PhD, DABVP (Feline)",
+  "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10812330/",
+  "text_file": "ft/v4/36066350.txt",
+  "display": "collapsed",
+  "affects_clinical": false
+ },
+ "42014100": {
+  "erratum_pmid": null,
+  "note_zh": "表 7.1 中甘精胰岛素 U-100 的低谷时间和作用时长曾误沿用旧版指南的数值，现已更正为低谷 5–6 小时、作用时长 11–12 小时。",
+  "quote": "Corrigendum: Bugbee A, Rucinsky R, Alvarez E, Cook A, Lathan P, Panning C. 2026 AAHA Diabetes Management Guidelines for Cats. J Am Anim Hosp Assoc. 2026;62(3):65-93. doi:10.5326/JAAHA-MS-7572. Upon reviewing the manuscript, the authors found that the nadir and duration values for insulin glargine U-100 in Table 7.1 had been inadvertently carried over from a previous guidelines edition. The numbers in Table 7.1 have been corrected to a nadir of 5-6 hr and duration of 11-12 hr.",
+  "source": "https://www.aaha.org/resources/2026-aaha-diabetes-management-guidelines-for-cats/",
+  "text_file": "ft/v4/42014100.txt",
+  "display": "first_screen",
+  "affects_clinical": true
+ }
+}

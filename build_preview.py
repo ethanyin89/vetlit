@@ -360,9 +360,30 @@ def superlink(p,r):
     if not i: return ''
     sb=i['by']; q=get(sb)
     h=f'{r}papers/{E_(q["sid"])}/' if q else f'https://pubmed.ncbi.nlm.nih.gov/{E_(sb)}/'
-    lab=i.get('text') or ('已有更新版' if is_full(i) else {'treatment_only':'治疗','treatment':'治疗','diagnosis_only':'诊断'}.get(i['scope'],'')+'部分已有更新版')
+    lab=i.get('text') or ('已有更新版' if is_full(i) else {'treatment_only':'治疗','treatment':'治疗','diagnosis_only':'诊断','cats_only':'猫'}.get(i['scope'],'')+'部分已有更新版')
     lab=lab.rstrip(' →')+' →'
     return f'<p class="note"><a class="tag2" href="{h}">{E_(lab)}</a></p>'
+# Errata: data/v5/extras/errata.json {corrected_pmid: {erratum_pmid|null, note_zh, quote, source, display: first_screen|collapsed, affects_clinical}}
+try: ERRATA=json.load(open(os.path.join(ROOT,'data','v5','extras','errata.json'),encoding='utf-8'))
+except Exception: ERRATA={}
+def erratum(p):
+    e=ERRATA.get(str(p.get('pmid') or ''))
+    return e if isinstance(e,dict) else None
+def er_first(e): return bool(e) and (e.get('affects_clinical') is True or e.get('display')=='first_screen')
+def er_href(e): return f'https://pubmed.ncbi.nlm.nih.gov/{e["erratum_pmid"]}/' if e.get('erratum_pmid') else (e.get('source') or '')
+def er_label(e): return f'勘误 PMID {e["erratum_pmid"]}' if e.get('erratum_pmid') else '出版方更正'
+def er_notice(e):
+    h=er_href(e); a=f' <a href="{E_(h)}">{E_(er_label(e))} →</a>' if h else ''
+    return f'<p class="note er">⚠ 更正（影响临床使用）：{E_(e.get("note_zh") or "")}{a}</p>'
+def er_fold(e):
+    h=er_href(e); lab=E_(er_label(e))
+    return f'<p class="note er">{"<a href="+chr(34)+E_(h)+chr(34)+">"+lab+" →</a>" if h else lab}：{E_(e.get("note_zh") or "")}</p>'
+def sup_note(p):  # page-level note for scoped supersession + source quote
+    i=sup_info(p); r=(X.TOP.get('supersessions') or {}).get(str(p.get('pmid') or '')) or {}
+    if not i: return ''
+    q=r.get('supersession_quote'); loc=r.get('supersession_quote_location')
+    extra='<p class="note">本指南的猫部分已由新版取代；犬部分仍为现行，继续列入榜单。</p>' if i.get('scope')=='cats_only' else ''
+    return extra+(f'<details class="sub"><summary>版本关系原文</summary><blockquote lang="en">{E_(q)}</blockquote>'+(f'<p class="note">出处：{E_(loc)}</p>' if loc else '')+'</details>' if q else '')
 def hcard(p,r,tid=None,lst=None):
     href=f'{r}papers/{p["sid"]}/'
     m=cmeta(p); sm=summ(p); rs=pick_reason(p,tid,lst)
@@ -547,7 +568,7 @@ def near_dup(a,b):
 def paper(p):
     r='../../'; S=sections(p)
     head=f'''<p class="crumb"><a href="{r}library/">文献库</a>{"".join(f' › <a href="{r}topics/{t}/">{E_(TBY[t]["name_zh"])}</a>' for t in (p.get("topics") or [])[:1] if t in TBY and t in [v["id"] for v in VIS])}</p>
-<p class="eb">{E_(" / ".join(specs(p)))} · {E_(species(p))}</p>{title_html(p,'h1')}<p class="cmeta">{E_(cmeta(p))}</p>{superlink(p,'../../')}
+<p class="eb">{E_(" / ".join(specs(p)))} · {E_(species(p))}</p>{title_html(p,'h1')}<p class="cmeta">{E_(cmeta(p))}</p>{superlink(p,'../../')}{sup_note(p)}
 <p class="meta">{E_(p.get("first_author",""))} 等 · <em>{E_(p.get("journal",""))}</em> · {E_(p.get("pub_date") or str(p.get("year","")))}{f' · <a href="https://doi.org/{E_(p["doi"])}">DOI</a>' if p.get('doi') else ''}{f' · <a href="https://pubmed.ncbi.nlm.nih.gov/{p["pmid"]}/">PubMed</a>' if p.get('pmid') else ''}{f' · <a href="https://europepmc.org/article/PMC/{p["pmcid"]}">全文</a>' if p.get('pmcid') else ''}</p>
 <p>{"".join(f'<a class="chip" href="{r}topics/{t}/">{E_(TBY[t]["name_zh"])}</a>' for t in (p.get("topics") or []) if t in TBY and TBY[t] in VIS)}</p>'''
     blk=lambda n,t,c: f'<section class="blk"><h2 class="sec"><span>{n}</span> {t}</h2>{c}</section>' if c else ''
@@ -674,6 +695,9 @@ def paper(p):
         if hit is not None: kn[hit]=kn[hit][:-5]+_ri.replace('<p class="note">','<p class="note ri">',1)+'</li>'
     if kn: vis+=f'<section class="kn"><p class="eb">关键数字</p><ul>{"".join(kn)}</ul>{_ri.replace(chr(60)+"p class="+chr(34)+"note"+chr(34),chr(60)+"p class="+chr(34)+"note ri"+chr(34),1) if _ri and not any("note ri" in x for x in kn) else ""}</section>'
     elif _ri: vis+=_ri.replace('<p class="note">','<p class="note ri">',1)
+    _er=erratum(p)
+    if er_first(_er):
+        vis=vis[:-len('</section>')]+er_notice(_er)+'</section>' if kn else vis+er_notice(_er)
     if cs: vis+=f'<section class="cs" id="cansay">{cs}</section>'
     gt,gh=grade(p)
     _c=chip(p,'#evidence')
@@ -694,6 +718,7 @@ def paper(p):
         if c: n+=1; fb+=blk(f'{n:02d}',t,c)
     if inc_md: fb+=f'<section class="blk" id="inconsistency"><h2 class="sec"><span>!</span> 原文报告不一致</h2>{mdc(inc_md)}</section>'
     er=p.get('errata'); er=', '.join(er) if isinstance(er,list) else er
+    if erratum(p): er=''; fb+=er_fold(erratum(p)) if not er_first(erratum(p)) else ''
     fb+=''.join(f'<p class="note"{" id=inconsistency" if k=="论文内部不一致" and not inc_md else ""}>{k}：{E_(clean(v))}</p>' for k,v in [('勘误',f'PMID {er}' if has(er) else ''),('论文内部不一致',p.get('internal_inconsistency'))] if has(v))
     if p.get('rep_inc') and not inc_md and not has(p.get('internal_inconsistency')): fb=fb.replace('<div class="blk"><p><b>报告质量问题</b>','<div class="blk" id="inconsistency"><p><b>报告质量问题</b>',1)
     elif p.get('amstar_limit') and 'id="inconsistency"' not in fb and 'id=inconsistency' not in fb: fb=fb.replace('<p class="note">局限性：','<p class="note" id="inconsistency">局限性：',1)

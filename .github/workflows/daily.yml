@@ -34,6 +34,8 @@ jobs:
         env: {VETLIT_LIVE: '1'}
       - run: python3 tests/test_firstscreen.py
       - run: python3 tests/test_dedupe.py
+      - run: python3 tests/test_new_guidelines.py
+        env: {VETLIT_LIVE: '1'}
       - uses: actions/upload-pages-artifact@v3
         with: {path: dist}
   deploy:

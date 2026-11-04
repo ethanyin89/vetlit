@@ -312,6 +312,10 @@
    "bottom_line_source": "库内文献计数（自动生成）",
    "core": [
     {
+     "id": "42693626",
+     "reason": ""
+    },
+    {
      "id": "x-international-renal-interest-society-2026-iris-staging-of-ckd-modified-2026",
      "reason": "指南/共识：按肌酐/SDMA分期并按蛋白尿和血压亚分期犬猫CKD"
     },
@@ -407,6 +411,10 @@
    "bottom_line": "现有证据（单人 GRADE 草稿）：IRIS 分期与蛋白尿对犬猫 CKD 预后的提示价值确定性为\"中\"；ACEI/ARB（贝那普利、替米沙坦）降低猫蛋白尿确定性为\"中\"，但延长生存仅为\"低\"；肾病处方粮减少尿毒症危象/肾性死亡确定性为\"低\"；SDMA 早期诊断 CKD 的准确性为\"极低\"；米氮平、加镁限磷粮、AB070597、帕立骨化醇等辅助治疗为\"低–极低\"。分期与管理以 IRIS 2026 分期和 ISFM 2016 指南为准。",
    "bottom_line_source": "topics/ckd.md（单人 GRADE 草稿）",
    "core": [
+    {
+     "id": "42693626",
+     "reason": ""
+    },
     {
      "id": "x-international-renal-interest-society-2026-iris-staging-of-ckd-modified-2026",
      "reason": "指南/共识：按肌酐/SDMA分期并按蛋白尿和血压亚分期犬猫CKD"
@@ -528,6 +536,14 @@
    "bottom_line_source": "topics/endocrinology.md（单人 GRADE 草稿·尚无临床兽医审阅）",
    "core": [
     {
+     "id": "42014100",
+     "reason": ""
+    },
+    {
+     "id": "41224734",
+     "reason": ""
+    },
+    {
      "id": "29314873",
      "reason": "指南/共识：犬猫糖尿病管理指南"
     },
@@ -592,6 +608,14 @@
    "bottom_line": "本专题收录 5 篇：指南/共识 2 篇、随机对照试验 1 篇、系统综述/Meta分析 1 篇、叙述性综述 1 篇。指南/共识：Behrend E 2018；Sparkes AH 2015。尚未做主题级 GRADE 评估，暂无综合结论。",
    "bottom_line_source": "库内文献计数（自动生成）",
    "core": [
+    {
+     "id": "42014100",
+     "reason": ""
+    },
+    {
+     "id": "41224734",
+     "reason": ""
+    },
     {
      "id": "29314873",
      "reason": "指南/共识：犬猫糖尿病管理指南"

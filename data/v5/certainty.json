@@ -1428,6 +1428,54 @@
    "certainty": "不适用",
    "notes_zh": "非临床研究；遗传学研究，按 29326623 同类裁定处理",
    "na_reason_zh": "遗传学研究"
+  },
+  "42693626": {
+   "rules_applied": [
+    "R-guideline-own-strength"
+   ],
+   "question_type": null,
+   "question_basis": null,
+   "start": null,
+   "start_basis": "指南/共识：按团队规则不套用 GRADE",
+   "downgrades": [],
+   "provisional": null,
+   "certainty": null,
+   "notes_zh": "指南/共识不评证据确定性，首屏显示指南自身推荐强度",
+   "guideline_strength": "该指南未分级",
+   "guideline_strength_source": "extracts/certainty_new_2026-11-04.json（strength_quote）",
+   "strength_quote": "Evidence base: These Guidelines have been created by a panel of experts brought together by International Cat Care (iCatCare) Veterinary Society. Information is based on the available literature, expert opinion and the panel members’ experience."
+  },
+  "41224734": {
+   "rules_applied": [
+    "R-guideline-own-strength"
+   ],
+   "question_type": null,
+   "question_basis": null,
+   "start": null,
+   "start_basis": "指南/共识：按团队规则不套用 GRADE",
+   "downgrades": [],
+   "provisional": null,
+   "certainty": null,
+   "notes_zh": "指南/共识不评证据确定性，首屏显示指南自身推荐强度",
+   "guideline_strength": "该指南未分级",
+   "guideline_strength_source": "extracts/certainty_new_2026-11-04.json（strength_quote）",
+   "strength_quote": "Evidence base: These Guidelines have been created by a panel of experts brought together by the International Cat Care (iCatCare) Veterinary Society. Information is based on the available literature, expert opinion and the panel members’ experience."
+  },
+  "42014100": {
+   "rules_applied": [
+    "R-guideline-own-strength"
+   ],
+   "question_type": null,
+   "question_basis": null,
+   "start": null,
+   "start_basis": "指南/共识：按团队规则不套用 GRADE",
+   "downgrades": [],
+   "provisional": null,
+   "certainty": null,
+   "notes_zh": "指南/共识不评证据确定性，首屏显示指南自身推荐强度",
+   "guideline_strength": "该指南未分级",
+   "guideline_strength_source": "extracts/certainty_new_2026-11-04.json（strength_quote）",
+   "strength_quote": "The guidelines are prepared by a task force of experts convened by AAHA, and recommendations are based on practical clinical experience and a consensus of expert opinion."
   }
  }
 }

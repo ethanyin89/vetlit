@@ -1,0 +1,35 @@
+{
+ "_meta": {
+  "date": "2026-11-04",
+  "rule": "只认新版原文中的明确原句",
+  "rulings": "Vibe 2026-11-04：同机构同主题、原文称旧版为 previous 即按全面取代"
+ },
+ "records": [
+  {
+   "pmid": "26936494",
+   "superseded_by": "42693626",
+   "supersession_scope": "full",
+   "supersession_quote": "The previous ‘ISFM consensus guidelines on the diagnosis and management of feline chronic kidney disease’ were published by the then International Society of Feline Medicine in 2016 to provide clinicians with practical information on the condition. However, over the past 10 years, a large body of research has progressed the understanding of CKD in terms of causes, early diagnosis and management strategies. The ‘2026 iCatCare consensus guidelines on the diagnosis and management of chronic kidney disease in cats’ from International Cat Care (iCatCare) Veterinary Society seek both to supply updated information – with the addition of dedicated sections on comorbidities, anaesthesia and analgesia – and to discuss the importance of early diagnosis",
+   "supersession_quote_location": "42693626 (PMC13554608) Introduction; ref [1]=26936494",
+   "link_text_zh": "已有更新版",
+   "rule_basis": "same_body_same_topic_previous"
+  },
+  {
+   "pmid": "25701862",
+   "superseded_by": "41224734",
+   "supersession_scope": "full",
+   "supersession_quote": "This is an area of feline medicine that has seen much research and development over the past 10 years since the previous ‘ISFM consensus guidelines on the practical management of diabetes mellitus in cats’ were pub-lished.",
+   "supersession_quote_location": "41224734 (PMC12612538) Introduction; ref [4]=25701862",
+   "link_text_zh": "已有更新版",
+   "rule_basis": "same_body_same_topic_previous"
+  },
+  {
+   "pmid": "29314873",
+   "superseded_by": "42014100",
+   "supersession_scope": "cats_only",
+   "supersession_quote": "These guidelines retain clinically relevant information from the 2018 AAHA Diabetes Management Guidelines and present new findings and expert opinion on diagnosing, treating, and monitoring diabetes mellitus in cats, recognizing at-risk patients, and identifying patients with hyperglycemia who do not require diabetic treatment. The refreshed reorganization of these guidelines separates the feline and canine content into two distinct publications to provide veterinarians with an easier reference to managing the disease in each species.",
+   "supersession_quote_location": "42014100 AAHA 官网 Introduction; ref [1]=29314873",
+   "link_text_zh": "猫部分已有更新版"
+  }
+ ]
+}
