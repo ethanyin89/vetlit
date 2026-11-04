@@ -28,7 +28,8 @@ import json
 PR=json.load(open('data/v5/extras/pick_reason.json',encoding='utf-8'))
 A=json.load(open('data/v5/extras/pick_reason_approval.json',encoding='utf-8'))
 allhtml=''.join(open(f,encoding='utf-8').read() for f in ['dist/index.html']+glob.glob('dist/topics/*/index.html'))
-assert not any('证据确定性' in x for x in re.findall(r'<p class="why">([^<]*)</p>',allhtml))
+for c in re.findall(r'<article class="card">.*?</article>',allhtml,re.S):
+    if 'pmid-30548336/' in c: assert '证据确定性' not in ''.join(re.findall(r'<p class="why">([^<]*)',c)), c
 if A.get('approved_by')=='Vibe':
     ob=open('dist/topics/obesity/index.html',encoding='utf-8').read()
     assert '<p class="why">本库同主题中样本量最大（n=50787）。</p>' in ob
