@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# Build + all tests + link check. Any failure exits non-zero (no output piping that could mask it).
+set -euo pipefail
+cd "$(dirname "$0")/.."
+python3 build.py >/dev/null
+VETLIT_LIVE=1 python3 build_preview.py >/dev/null
+python3 build_preview.py >/dev/null
+python3 tests/test_merge.py
+VETLIT_LIVE=1 python3 tests/test_superseded.py
+VETLIT_LIVE=1 python3 tests/test_reporting_inconsistency.py
+python3 tests/test_firstscreen.py
+python3 tests/test_dedupe.py
+python3 scripts/check_links.py
+echo ALL OK

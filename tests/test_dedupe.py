@@ -28,11 +28,13 @@ import json
 PR=json.load(open('data/v5/extras/pick_reason.json',encoding='utf-8'))
 A=json.load(open('data/v5/extras/pick_reason_approval.json',encoding='utf-8'))
 allhtml=''.join(open(f,encoding='utf-8').read() for f in ['dist/index.html']+glob.glob('dist/topics/*/index.html'))
-for c in re.findall(r'<article class="card">.*?</article>',allhtml,re.S):
-    if 'pmid-30548336/' in c: assert '证据确定性' not in ''.join(re.findall(r'<p class="why">([^<]*)',c)), c
+# 30548336: full approved reason in obesity (最重要), sample-size-only reason in nutrition (最新)
+ob=open('dist/topics/obesity/index.html',encoding='utf-8').read()
+c=[c for c in re.findall(r'<article class="card">.*?</article>',ob,re.S) if 'pmid-30548336/' in c][0]
+assert '<p class="why">本库同主题中样本量最大（n=50787），也是唯一证据确定性为“中”的研究。</p>' in c, c
+assert '回顾性队列（原文自称病例对照）' in c, c
 if A.get('approved_by')=='Vibe':
     ob=open('dist/topics/obesity/index.html',encoding='utf-8').read()
-    assert '<p class="why">本库同主题中样本量最大（n=50787）。</p>' in ob
     # every shown 'why' text is a (possibly stripped) approved reason
     ok={e['pick_reason_zh'] for k,v in PR.items() if k!='_meta' for e in v if e.get('pick_reason_zh')}
     shown=set(re.findall(r'<p class="why">([^<]*)</p>',allhtml)); assert shown, 'nothing rendered'

@@ -2,8 +2,5 @@
  "approved_by": "Vibe",
  "date": "2026-11-04",
  "scope": "all non-empty pick_reason_zh entries in pick_reason.json (32 as of 2026-11-04)",
- "strip": {
-  "30548336": ["也是唯一证据确定性为“中”的研究", "也是唯一证据确定性为‘中’的研究", "也是唯一证据确定性为\"中\"的研究"]
- },
- "strip_reason": "30548336 certainty pending Vibe recheck; show only the n=50787 largest-sample part"
+ "note": "2026-11-04: 30548336 full reason restored (obesity) after Vibe confirmed cohort basis, certainty 中"
 }

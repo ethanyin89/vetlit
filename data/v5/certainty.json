@@ -592,13 +592,13 @@
   },
   "30548336": {
    "rules_applied": [
-    "R-start-prognosis-casecontrol-high",
+    "R-start-prognosis-cohort-high",
     "R-down-QUIPS-high"
    ],
    "question_type": "预后",
    "question_basis": "extracts/cebm_fill_r2.json",
    "start": "高",
-   "start_basis": "回顾性病例—对照：预后问题，病例—对照设计→高（设计问题计入偏倚风险，Vibe Feline 裁定）",
+   "start_basis": "回顾性队列（原文自称病例对照，按暴露分组后比较寿命）：预后问题，队列→高（GRADE 预后扩展，Iorio 2015 BMJ）",
    "downgrades": [
     {
      "reason_zh": "QUIPS 总体判定为高偏倚风险",
