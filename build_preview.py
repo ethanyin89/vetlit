@@ -363,9 +363,9 @@ def superlink(p,r):
     lab=i.get('text') or ('已有更新版' if is_full(i) else {'treatment_only':'治疗','treatment':'治疗','diagnosis_only':'诊断'}.get(i['scope'],'')+'部分已有更新版')
     lab=lab.rstrip(' →')+' →'
     return f'<p class="note"><a class="tag2" href="{h}">{E_(lab)}</a></p>'
-def hcard(p,r,tid=None):
+def hcard(p,r,tid=None,lst=None):
     href=f'{r}papers/{p["sid"]}/'
-    m=cmeta(p); sm=summ(p); rs=pick_reason(p)
+    m=cmeta(p); sm=summ(p); rs=pick_reason(p,tid,lst)
     lk=f'<a class="go" href="{href}">速读 →</a>'+(f' <a class="go" href="{href}bilingual/">中英对照 →</a>' if has_tr(p) else '')
     return (f'<article class="card">{title_html(p,"h3",href)}'+(f'<p class="cmeta">{E_(m)}</p>' if m else '')
       +(f'<p class="bl">{E_(clean(sm))}</p>' if sm else '')+(f'<p class="why">{E_(rs)}</p>' if rs else '')+superlink(p,r)+f'<p class="ft">{lk}</p></article>')
@@ -408,18 +408,22 @@ def tops(tid):
 def newest3(ps,skip=()):  # 最新 skips anything already in this topic's 最重要, then fills to 3
     sk={q['sid'] for q in skip if q}
     return _fill([p for p in sorted(ps,key=lambda p:p.get('pub_date') or '',reverse=True) if p['sid'] not in sk])
-# optional editor's pick reason, written by deep extract: top_picks.json {"pick_reason_zh":{pmid:text}}
-# or per-item {"pmid","pick_reason_zh"} in topics[].items, or a paper field. Absent -> nothing shown.
-def pick_reason(p):
-    k=str(p.get('pmid') or '')
-    v=(X.TOP.get('pick_reason_zh') or {}).get(k) if isinstance(X.TOP.get('pick_reason_zh'),dict) else None
-    if not v:
-        for g in (X.TOP.get('topics') or []):
-            for i in (g.get('items') or g.get('picks') or []):
-                if isinstance(i,dict) and str(i.get('pmid') or i.get('id'))==k and i.get('pick_reason_zh'): v=i['pick_reason_zh']
-    v=v or p.get('pick_reason_zh')
-    return ' '.join(str(v).split()) if v else ''
-def duo(imp,new,r,tid=None): return (f'<h4 class="tb">最重要</h4>'+''.join(hcard(p,r,tid) for p in imp) if imp else '')+(f'<h4 class="tb">最新</h4>'+''.join(hcard(p,r,tid) for p in new) if new else '')
+# Card reason = pick_reason_zh from data/v5/extras/pick_reason.json (deep extract; synced from extracts/).
+# Shape: {pmid: [{topic, list: 最重要|最新, pick_reason_zh, ...}]}. Only entries Vibe marked approved render
+# (entry "approved": true, or "approved_by": "Vibe"). Flag PICK_REASON_ON is off unless the file carries any
+# approval marker; VETLIT_PICK_REASON=0 forces it off. Absent/unapproved -> nothing shown.
+try: _PR=json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)),'data/v5/extras/pick_reason.json'),encoding='utf-8'))
+except Exception: _PR={}
+def _pr_ok(e): return isinstance(e,dict) and (e.get('approved') is True or str(e.get('approved_by') or '').strip().lower()=='vibe')
+PICK_REASON_ON=os.environ.get('VETLIT_PICK_REASON')!='0' and any(_pr_ok(e) for k,v in _PR.items() if k!='_meta' and isinstance(v,list) for e in v)
+def pick_reason(p,tid=None,lst=None):
+    if not PICK_REASON_ON: return ''
+    for e in _PR.get(str(p.get('pmid') or '')) or []:
+        if _pr_ok(e) and e.get('pick_reason_zh') and (tid is None or e.get('topic')==tid) and (lst is None or e.get('list')==lst):
+            return ' '.join(str(e['pick_reason_zh']).split())
+    return ''
+def duo(imp,new,r,tid=None):  # an empty 最新 is hidden entirely; fewer than 3 shows just those cards
+    return (f'<h4 class="tb">最重要</h4>'+''.join(hcard(p,r,tid,'最重要') for p in imp) if imp else '')+(f'<h4 class="tb">最新</h4>'+''.join(hcard(p,r,tid,'最新') for p in new) if new else '')
 def home():
     picks=ALL[:8]
     new=sorted(P.values(),key=lambda p:p.get('pub_date') or '',reverse=True)[:10]
