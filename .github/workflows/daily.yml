@@ -33,6 +33,7 @@ jobs:
       - run: python3 tests/test_reporting_inconsistency.py
         env: {VETLIT_LIVE: '1'}
       - run: python3 tests/test_firstscreen.py
+      - run: python3 tests/test_dedupe.py
       - uses: actions/upload-pages-artifact@v3
         with: {path: dist}
   deploy:

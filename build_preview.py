@@ -365,7 +365,7 @@ def superlink(p,r):
     return f'<p class="note"><a class="tag2" href="{h}">{E_(lab)}</a></p>'
 def hcard(p,r,tid=None):
     href=f'{r}papers/{p["sid"]}/'
-    m=cmeta(p); sm=summ(p); rs=_short(trim_reason(reason(p,tid),p)) if tid else ''
+    m=cmeta(p); sm=summ(p); rs=pick_reason(p)
     lk=f'<a class="go" href="{href}">速读 →</a>'+(f' <a class="go" href="{href}bilingual/">中英对照 →</a>' if has_tr(p) else '')
     return (f'<article class="card">{title_html(p,"h3",href)}'+(f'<p class="cmeta">{E_(m)}</p>' if m else '')
       +(f'<p class="bl">{E_(clean(sm))}</p>' if sm else '')+(f'<p class="why">{E_(rs)}</p>' if rs else '')+superlink(p,r)+f'<p class="ft">{lk}</p></article>')
@@ -405,7 +405,20 @@ def tops(tid):
         c+=[get(x['id']) for x in (t.get('core') or [])]
         c+=sorted(tpapers(t),key=lambda p:p.get('importance_rank') or 999)
     return _fill(c)
-def newest3(ps): return _fill([p for p in sorted(ps,key=lambda p:p.get('pub_date') or '',reverse=True)])
+def newest3(ps,skip=()):  # 最新 skips anything already in this topic's 最重要, then fills to 3
+    sk={q['sid'] for q in skip if q}
+    return _fill([p for p in sorted(ps,key=lambda p:p.get('pub_date') or '',reverse=True) if p['sid'] not in sk])
+# optional editor's pick reason, written by deep extract: top_picks.json {"pick_reason_zh":{pmid:text}}
+# or per-item {"pmid","pick_reason_zh"} in topics[].items, or a paper field. Absent -> nothing shown.
+def pick_reason(p):
+    k=str(p.get('pmid') or '')
+    v=(X.TOP.get('pick_reason_zh') or {}).get(k) if isinstance(X.TOP.get('pick_reason_zh'),dict) else None
+    if not v:
+        for g in (X.TOP.get('topics') or []):
+            for i in (g.get('items') or g.get('picks') or []):
+                if isinstance(i,dict) and str(i.get('pmid') or i.get('id'))==k and i.get('pick_reason_zh'): v=i['pick_reason_zh']
+    v=v or p.get('pick_reason_zh')
+    return ' '.join(str(v).split()) if v else ''
 def duo(imp,new,r,tid=None): return (f'<h4 class="tb">最重要</h4>'+''.join(hcard(p,r,tid) for p in imp) if imp else '')+(f'<h4 class="tb">最新</h4>'+''.join(hcard(p,r,tid) for p in new) if new else '')
 def home():
     picks=ALL[:8]
@@ -417,7 +430,7 @@ def home():
     wk=datetime.date.today().isocalendar()
     blocks=''
     for g in (X.TOP.get('topics') or []):
-        t=TBY.get(g.get('topic')); imp=tops(g.get('topic')); new=newest3(tpapers(t)) if t else []
+        t=TBY.get(g.get('topic')); imp=tops(g.get('topic')); new=newest3(tpapers(t),imp) if t else []
         if imp or new: blocks+=f'<section class="tp"><h3 class="dg">'+(f'<a href="topics/{t["id"]}/">' if t else '')+E_(g.get('topic_zh') or '')+('</a>' if t else '')+f'</h3>{duo(imp,new,"",g.get("topic"))}</section>'
     body=f'''<section class="hero"><p class="eb red">// {wk[0]} 第 {wk[1]} 周</p><h1>本周精选</h1><p class="lede">犬猫兽医文献，结论先行。</p></section>
 {blocks}<section><h2 class="sec"><span>//</span> 按专题浏览</h2>{chips}</section>
@@ -456,7 +469,7 @@ def topic_page(t):
     sub=f'<section><h2 class="sec"><span>//</span> 子专题</h2>'+''.join(f'<a class="chip" href="{r}topics/{k["id"]}/">{E_(k["name_zh"])} <b>{len(tpapers(k))}</b></a>' for k in ks)+'</section>' if ks else ''
     fr=[f for f in FRESH if t['id'] in (f.get('topics') or [])]
     body=f'''{crumb}<section class="hero"><p class="eb">{E_(t.get("name_en",""))}</p><h1>{E_(t["name_zh"])}</h1><p class="lede">{len(ps)} 篇已速读文献</p></section>{bl}{sub}
-<section>{duo((tops(t['id']) or _fill([p for p,_ in core])),newest3(ps),r,t['id'])}</section>
+<section>{duo((_imp:=(tops(t['id']) or _fill([p for p,_ in core]))),newest3(ps,_imp),r,t['id'])}</section>
 <section><h2 class="sec"><span>03</span> 全部 {len(ps)} 篇</h2><ul class="rows">{''.join(row(p,r) for p in sorted(ps,key=lambda p:p.get('pub_date') or '',reverse=True))}</ul></section>{fresh_list(fr,r)}'''
     return page(t['name_zh'],body,2,'topics')
 def topics_index():
