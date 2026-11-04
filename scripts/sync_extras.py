@@ -4,7 +4,7 @@ S='/workspace/vetlit/extracts'; D=os.path.join(os.path.dirname(__file__),'..','d
 os.makedirs(os.path.join(D,'translations'),exist_ok=True)
 for n in ('speedread_fields_v5.json',) :
     if os.path.exists(os.path.join(S,n)): shutil.copy(os.path.join(S,n),os.path.join(D,'..')); print('synced',n)
-for n in ('top_picks.json','related_reading.json','text_source.json','licence_audit.json','pick_reason.json'):
+for n in ('top_picks.json','related_reading.json','text_source.json','licence_audit.json','pick_reason.json','errata.json','supersession_new_2026-11-04.json'):
     if os.path.exists(os.path.join(S,n)): shutil.copy(os.path.join(S,n),D); print('synced',n)
 for f in glob.glob(os.path.join(S,'translations','*.json')): shutil.copy(f,os.path.join(D,'translations')); print('synced',f)
 # speed-read page markdown (e.g. deep extract's “原文报告不一致” sections) and methods fields

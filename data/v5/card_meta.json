@@ -1044,13 +1044,12 @@
    "journal": "J Feline Med Surg",
    "design_zh": "RCT（非劣效）",
    "species_zh": "猫",
-   "n": null,
-   "n_label_zh": null,
-   "n_quote": null,
-   "n_source": null,
-   "n_status": "缺失：原文未找到可引用的样本量",
-   "n_detail_zh": "未核",
-   "n_note_zh": "摘要仅给出 9/10 与 7/10（每组 10 只），未给总数，按规则不相加"
+   "n": 20,
+   "n_label_zh": "20 只",
+   "n_quote": "Screening was performed on 121 cats whose owners or veterinarians responded to clinical trial advertisements, and 20 cats were enrolled based on satisfying the appropriate inclusion and exclusion criteria.",
+   "n_source": "全文 ft/v4/41781382.txt（PMC13065291 Results, Baseline characteristics）",
+   "n_status": "全文原句；摘要只给每组 n = 10，未给总数",
+   "n_detail_zh": "随机 1:1，瑞德西韦 10 / GS-441524 10"
   },
   "42949438": {
    "year": "2026",

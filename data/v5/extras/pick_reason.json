@@ -54,11 +54,6 @@
    },
    {
     "topic": "diabetes",
-    "removed_from_最新": "40941356",
-    "stays_in": "最重要"
-   },
-   {
-    "topic": "diabetes",
     "removed_from_最新": "29314873",
     "stays_in": "最重要"
    },
@@ -340,7 +335,7 @@
    "backfill": false,
    "pick_reason_zh": null,
    "basis": [
-    "papers.json design_category=指南/共识; 本主题现行指南 4 部: x-international-renal-interest-society-2026-iris-staging-of-ckd-modified-2026(2026), 30353952(2018), 26936494(2016), 15954557(2005)"
+    "papers.json design_category=指南/共识; 本主题现行指南 3 部: x-international-renal-interest-society-2026-iris-staging-of-ckd-modified-2026(2026), 30353952(2018), 15954557(2005)"
    ]
   }
  ],
@@ -507,7 +502,7 @@
    "backfill": false,
    "pick_reason_zh": null,
    "basis": [
-    "papers.json design_category=指南/共识; 本主题现行指南 3 部: x-international-renal-interest-society-2026-iris-staging-of-ckd-modified-2026(2026), 26936494(2016), 15954557(2005)"
+    "papers.json design_category=指南/共识; 本主题现行指南 2 部: x-international-renal-interest-society-2026-iris-staging-of-ckd-modified-2026(2026), 15954557(2005)"
    ]
   },
   {
@@ -516,28 +511,32 @@
    "backfill": false,
    "pick_reason_zh": null,
    "basis": [
-    "papers.json design_category=指南/共识; 本主题现行指南 4 部: x-international-renal-interest-society-2026-iris-staging-of-ckd-modified-2026(2026), 30353952(2018), 26936494(2016), 15954557(2005)"
+    "papers.json design_category=指南/共识; 本主题现行指南 3 部: x-international-renal-interest-society-2026-iris-staging-of-ckd-modified-2026(2026), 30353952(2018), 15954557(2005)"
    ]
   }
  ],
- "26936494": [
+ "42693626": [
   {
    "topic": "ckd",
    "list": "最重要",
    "backfill": false,
-   "pick_reason_zh": null,
+   "pick_reason_zh": "取代 2016 版 ISFM 猫 CKD 指南。",
    "basis": [
-    "papers.json design_category=指南/共识; 本主题现行指南 3 部: x-international-renal-interest-society-2026-iris-staging-of-ckd-modified-2026(2026), 26936494(2016), 15954557(2005)"
-   ]
+    "top_picks.json supersessions[26936494].superseded_by=42693626, supersession_scope=full",
+    "papers.json design_category=指南/共识; 本主题现行指南 2 部: x-international-renal-interest-society-2026-iris-staging-of-ckd-modified-2026(2026), 15954557(2005)"
+   ],
+   "source": "top_picks.json supersessions[26936494]: superseded_by=42693626, scope=full, rule_basis=same_body_same_topic_previous, quote=\"The previous ‘ISFM consensus guidelines on the diagnosis and management of feline chronic kidney disease’ were published by the then International Society of Feline Medicine in 2016 to provide clinicians with practical information on the condition. However, over the past 10 years, a large body of research has progressed the understanding of CKD in terms of causes, early diagnosis and management strategies. The ‘2026 iCatCare consensus guidelines on the diagnosis and management of chronic kidney disease in cats’ from International Cat Care (iCatCare) Veterinary Society seek both to supply updated information – with the addition of dedicated sections on comorbidities, anaesthesia and analgesia – and to discuss the importance of early diagnosis\" (42693626 (PMC13554608) Introduction; ref [1]=26936494)"
   },
   {
    "topic": "nephrology",
    "list": "最重要",
    "backfill": false,
-   "pick_reason_zh": null,
+   "pick_reason_zh": "取代 2016 版 ISFM 猫 CKD 指南。",
    "basis": [
-    "papers.json design_category=指南/共识; 本主题现行指南 4 部: x-international-renal-interest-society-2026-iris-staging-of-ckd-modified-2026(2026), 30353952(2018), 26936494(2016), 15954557(2005)"
-   ]
+    "top_picks.json supersessions[26936494].superseded_by=42693626, supersession_scope=full",
+    "papers.json design_category=指南/共识; 本主题现行指南 3 部: x-international-renal-interest-society-2026-iris-staging-of-ckd-modified-2026(2026), 30353952(2018), 15954557(2005)"
+   ],
+   "source": "top_picks.json supersessions[26936494]: superseded_by=42693626, scope=full, rule_basis=same_body_same_topic_previous, quote=\"The previous ‘ISFM consensus guidelines on the diagnosis and management of feline chronic kidney disease’ were published by the then International Society of Feline Medicine in 2016 to provide clinicians with practical information on the condition. However, over the past 10 years, a large body of research has progressed the understanding of CKD in terms of causes, early diagnosis and management strategies. The ‘2026 iCatCare consensus guidelines on the diagnosis and management of chronic kidney disease in cats’ from International Cat Care (iCatCare) Veterinary Society seek both to supply updated information – with the addition of dedicated sections on comorbidities, anaesthesia and analgesia – and to discuss the importance of early diagnosis\" (42693626 (PMC13554608) Introduction; ref [1]=26936494)"
   }
  ],
  "15954557": [
@@ -547,7 +546,7 @@
    "backfill": false,
    "pick_reason_zh": null,
    "basis": [
-    "papers.json design_category=指南/共识; 本主题现行指南 3 部: x-international-renal-interest-society-2026-iris-staging-of-ckd-modified-2026(2026), 26936494(2016), 15954557(2005)"
+    "papers.json design_category=指南/共识; 本主题现行指南 2 部: x-international-renal-interest-society-2026-iris-staging-of-ckd-modified-2026(2026), 15954557(2005)"
    ]
   }
  ],
@@ -629,6 +628,54 @@
    "basis": []
   }
  ],
+ "42014100": [
+  {
+   "topic": "diabetes",
+   "list": "最重要",
+   "backfill": false,
+   "pick_reason_zh": "取代 2018 版 AAHA 糖尿病指南的猫部分。",
+   "basis": [
+    "top_picks.json supersessions[29314873].superseded_by=42014100, supersession_scope=cats_only",
+    "papers.json design_category=指南/共识; 本主题现行指南 1 部: 29314873(2018)"
+   ],
+   "source": "top_picks.json supersessions[29314873]: superseded_by=42014100, scope=cats_only, rule_basis=None, quote=\"These guidelines retain clinically relevant information from the 2018 AAHA Diabetes Management Guidelines and present new findings and expert opinion on diagnosing, treating, and monitoring diabetes mellitus in cats, recognizing at-risk patients, and identifying patients with hyperglycemia who do not require diabetic treatment. The refreshed reorganization of these guidelines separates the feline and canine content into two distinct publications to provide veterinarians with an easier reference to managing the disease in each species.\" (42014100 AAHA 官网 Introduction; ref [1]=29314873)"
+  },
+  {
+   "topic": "endocrinology",
+   "list": "最重要",
+   "backfill": false,
+   "pick_reason_zh": "取代 2018 版 AAHA 糖尿病指南的猫部分。",
+   "basis": [
+    "top_picks.json supersessions[29314873].superseded_by=42014100, supersession_scope=cats_only",
+    "papers.json design_category=指南/共识; 本主题现行指南 3 部: 29314873(2018), 27143042(2016), 24112317(2013)"
+   ],
+   "source": "top_picks.json supersessions[29314873]: superseded_by=42014100, scope=cats_only, rule_basis=None, quote=\"These guidelines retain clinically relevant information from the 2018 AAHA Diabetes Management Guidelines and present new findings and expert opinion on diagnosing, treating, and monitoring diabetes mellitus in cats, recognizing at-risk patients, and identifying patients with hyperglycemia who do not require diabetic treatment. The refreshed reorganization of these guidelines separates the feline and canine content into two distinct publications to provide veterinarians with an easier reference to managing the disease in each species.\" (42014100 AAHA 官网 Introduction; ref [1]=29314873)"
+  }
+ ],
+ "41224734": [
+  {
+   "topic": "diabetes",
+   "list": "最重要",
+   "backfill": false,
+   "pick_reason_zh": "取代 2015 版 ISFM 猫糖尿病指南。",
+   "basis": [
+    "top_picks.json supersessions[25701862].superseded_by=41224734, supersession_scope=full",
+    "papers.json design_category=指南/共识; 本主题现行指南 1 部: 29314873(2018)"
+   ],
+   "source": "top_picks.json supersessions[25701862]: superseded_by=41224734, scope=full, rule_basis=same_body_same_topic_previous, quote=\"This is an area of feline medicine that has seen much research and development over the past 10 years since the previous ‘ISFM consensus guidelines on the practical management of diabetes mellitus in cats’ were pub-lished.\" (41224734 (PMC12612538) Introduction; ref [4]=25701862)"
+  },
+  {
+   "topic": "endocrinology",
+   "list": "最重要",
+   "backfill": false,
+   "pick_reason_zh": "取代 2015 版 ISFM 猫糖尿病指南。",
+   "basis": [
+    "top_picks.json supersessions[25701862].superseded_by=41224734, supersession_scope=full",
+    "papers.json design_category=指南/共识; 本主题现行指南 3 部: 29314873(2018), 27143042(2016), 24112317(2013)"
+   ],
+   "source": "top_picks.json supersessions[25701862]: superseded_by=41224734, scope=full, rule_basis=same_body_same_topic_previous, quote=\"This is an area of feline medicine that has seen much research and development over the past 10 years since the previous ‘ISFM consensus guidelines on the practical management of diabetes mellitus in cats’ were pub-lished.\" (41224734 (PMC12612538) Introduction; ref [4]=25701862)"
+  }
+ ],
  "29314873": [
   {
    "topic": "diabetes",
@@ -636,7 +683,7 @@
    "backfill": false,
    "pick_reason_zh": null,
    "basis": [
-    "papers.json design_category=指南/共识; 本主题现行指南 2 部: 29314873(2018), 25701862(2015)"
+    "papers.json design_category=指南/共识; 本主题现行指南 1 部: 29314873(2018)"
    ]
   },
   {
@@ -645,34 +692,14 @@
    "backfill": false,
    "pick_reason_zh": null,
    "basis": [
-    "papers.json design_category=指南/共识; 本主题现行指南 4 部: 29314873(2018), 27143042(2016), 25701862(2015), 24112317(2013)"
-   ]
-  }
- ],
- "25701862": [
-  {
-   "topic": "diabetes",
-   "list": "最重要",
-   "backfill": false,
-   "pick_reason_zh": null,
-   "basis": [
-    "papers.json design_category=指南/共识; 本主题现行指南 2 部: 29314873(2018), 25701862(2015)"
-   ]
-  },
-  {
-   "topic": "endocrinology",
-   "list": "最重要",
-   "backfill": false,
-   "pick_reason_zh": null,
-   "basis": [
-    "papers.json design_category=指南/共识; 本主题现行指南 4 部: 29314873(2018), 27143042(2016), 25701862(2015), 24112317(2013)"
+    "papers.json design_category=指南/共识; 本主题现行指南 3 部: 29314873(2018), 27143042(2016), 24112317(2013)"
    ]
   }
  ],
  "40941356": [
   {
    "topic": "diabetes",
-   "list": "最重要",
+   "list": "最新",
    "backfill": false,
    "pick_reason_zh": null,
    "basis": [
@@ -737,26 +764,6 @@
    "pick_reason_zh": null,
    "basis": [
     "card_meta.json design_zh=病例系列 + 实验→病例系列（无对照）; 本主题同类 3 篇; 本主题非指南最高层级=病例系列（无对照）"
-   ]
-  }
- ],
- "27143042": [
-  {
-   "topic": "endocrinology",
-   "list": "最重要",
-   "backfill": false,
-   "pick_reason_zh": null,
-   "basis": [
-    "papers.json design_category=指南/共识; 本主题现行指南 4 部: 29314873(2018), 27143042(2016), 25701862(2015), 24112317(2013)"
-   ]
-  },
-  {
-   "topic": "hyperthyroidism",
-   "list": "最重要",
-   "backfill": false,
-   "pick_reason_zh": null,
-   "basis": [
-    "papers.json design_category=指南/共识; 本主题现行指南 1 部: 27143042(2016)"
    ]
   }
  ],
@@ -849,7 +856,7 @@
     "top_picks.json supersessions[37766254].superseded_by=42043241, supersession_scope=treatment_only",
     "papers.json design_category=指南/共识; 本主题现行指南 3 部: 42043241(2026), 37766254(2023), 36002137(2022)"
    ],
-   "source": "top_picks.json supersessions[37766254]: superseded_by=42043241, scope=treatment_only, quote=\"This review presents a further update on a section of the full guidelines describing the treatment of FIP, a field of rapidly evolving evidence on an increasing number of antiviral drugs used for FIP.\" (42043241 (PMC13120026) §1 Introduction; refs [1]=19481039, [2]=37766254)"
+   "source": "top_picks.json supersessions[37766254]: superseded_by=42043241, scope=treatment_only, rule_basis=None, quote=\"This review presents a further update on a section of the full guidelines describing the treatment of FIP, a field of rapidly evolving evidence on an increasing number of antiviral drugs used for FIP.\" (42043241 (PMC13120026) §1 Introduction; refs [1]=19481039, [2]=37766254)"
   },
   {
    "topic": "infectious",
@@ -860,7 +867,7 @@
     "top_picks.json supersessions[37766254].superseded_by=42043241, supersession_scope=treatment_only",
     "papers.json design_category=指南/共识; 本主题现行指南 3 部: 42043241(2026), 37766254(2023), 36002137(2022)"
    ],
-   "source": "top_picks.json supersessions[37766254]: superseded_by=42043241, scope=treatment_only, quote=\"This review presents a further update on a section of the full guidelines describing the treatment of FIP, a field of rapidly evolving evidence on an increasing number of antiviral drugs used for FIP.\" (42043241 (PMC13120026) §1 Introduction; refs [1]=19481039, [2]=37766254)"
+   "source": "top_picks.json supersessions[37766254]: superseded_by=42043241, scope=treatment_only, rule_basis=None, quote=\"This review presents a further update on a section of the full guidelines describing the treatment of FIP, a field of rapidly evolving evidence on an increasing number of antiviral drugs used for FIP.\" (42043241 (PMC13120026) §1 Introduction; refs [1]=19481039, [2]=37766254)"
   }
  ],
  "37766254": [
@@ -873,7 +880,7 @@
     "top_picks.json supersessions[19481039].superseded_by=37766254, supersession_scope=full",
     "papers.json design_category=指南/共识; 本主题现行指南 3 部: 42043241(2026), 37766254(2023), 36002137(2022)"
    ],
-   "source": "top_picks.json supersessions[19481039]: superseded_by=37766254, scope=full, quote=\"The current guidelines are a major revision of the previous ABCD FIP guidelines, published in 2009 [46], and review the large body of research published in the field of FIP over the past 14 years.\" (37766254 (PMC10535984) §1 Introduction; ref [46] = Addie 2009)"
+   "source": "top_picks.json supersessions[19481039]: superseded_by=37766254, scope=full, rule_basis=None, quote=\"The current guidelines are a major revision of the previous ABCD FIP guidelines, published in 2009 [46], and review the large body of research published in the field of FIP over the past 14 years.\" (37766254 (PMC10535984) §1 Introduction; ref [46] = Addie 2009)"
   },
   {
    "topic": "infectious",
@@ -884,7 +891,7 @@
     "top_picks.json supersessions[19481039].superseded_by=37766254, supersession_scope=full",
     "papers.json design_category=指南/共识; 本主题现行指南 3 部: 42043241(2026), 37766254(2023), 36002137(2022)"
    ],
-   "source": "top_picks.json supersessions[19481039]: superseded_by=37766254, scope=full, quote=\"The current guidelines are a major revision of the previous ABCD FIP guidelines, published in 2009 [46], and review the large body of research published in the field of FIP over the past 14 years.\" (37766254 (PMC10535984) §1 Introduction; ref [46] = Addie 2009)"
+   "source": "top_picks.json supersessions[19481039]: superseded_by=37766254, scope=full, rule_basis=None, quote=\"The current guidelines are a major revision of the previous ABCD FIP guidelines, published in 2009 [46], and review the large body of research published in the field of FIP over the past 14 years.\" (37766254 (PMC10535984) §1 Introduction; ref [46] = Addie 2009)"
   }
  ],
  "42949438": [
@@ -957,6 +964,17 @@
    "pick_reason_zh": null,
    "basis": [
     "papers.json design_category=指南/共识; 本主题现行指南 1 部: 24112317(2013)"
+   ]
+  }
+ ],
+ "27143042": [
+  {
+   "topic": "hyperthyroidism",
+   "list": "最重要",
+   "backfill": false,
+   "pick_reason_zh": null,
+   "basis": [
+    "papers.json design_category=指南/共识; 本主题现行指南 1 部: 27143042(2016)"
    ]
   }
  ],
@@ -1069,7 +1087,7 @@
    "backfill": false,
    "pick_reason_zh": null,
    "basis": [
-    "card_meta.json design_zh=回顾性队列（原文自称病例对照）→队列研究; 本主题同类 2 篇; 本主题非指南最高层级=系统综述/Meta分析",
+    "card_meta.json design_zh=回顾性队列→队列研究; 本主题同类 2 篇; 本主题非指南最高层级=系统综述/Meta分析",
     "card_meta.json n=50787; 本主题有 n 的原始研究 7 篇中最大",
     "certainty.json certainty=中; 本主题确定性≥中 的: ['38952053', '30548336']"
    ]
@@ -1080,7 +1098,7 @@
    "backfill": false,
    "pick_reason_zh": null,
    "basis": [
-    "card_meta.json design_zh=回顾性队列（原文自称病例对照）→队列研究; 本主题同类 2 篇; 本主题非指南最高层级=系统综述/Meta分析",
+    "card_meta.json design_zh=回顾性队列→队列研究; 本主题同类 2 篇; 本主题非指南最高层级=系统综述/Meta分析",
     "card_meta.json n=50787; 本主题有 n 的原始研究 3 篇中最大",
     "certainty.json certainty=中; 本主题确定性≥中 的: ['30548336']"
    ]
@@ -1104,78 +1122,6 @@
    "backfill": false,
    "pick_reason_zh": null,
    "basis": []
-  }
- ],
- "42693626": [
-  {
-   "topic": "ckd",
-   "list": "最重要",
-   "backfill": false,
-   "pick_reason_zh": "取代 2016 版 ISFM 猫 CKD 指南。",
-   "basis": [
-    "top_picks.json supersessions[26936494].superseded_by=42693626, supersession_scope=full",
-    "papers.json design_category=指南/共识; 本主题现行指南 2 部: x-international-renal-interest-society-2026-iris-staging-of-ckd-modified-2026(2026), 15954557(2005)"
-   ],
-   "source": "top_picks.json supersessions[26936494]: superseded_by=42693626, scope=full, rule_basis=same_body_same_topic_previous, quote=\"The previous ‘ISFM consensus guidelines on the diagnosis and management of feline chronic kidney disease’ were published by the then International Society of Feline Medicine in 2016 to provide clinicians with practical information on the condition. However, over the past 10 years, a large body of research has progressed the understanding of CKD in terms of causes, early diagnosis and management strategies. The ‘2026 iCatCare consensus guidelines on the diagnosis and management of chronic kidney disease in cats’ from International Cat Care (iCatCare) Veterinary Society seek both to supply updated information – with the addition of dedicated sections on comorbidities, anaesthesia and analgesia – and to discuss the importance of early diagnosis\" (42693626 (PMC13554608) Introduction; ref [1]=26936494)"
-  },
-  {
-   "topic": "nephrology",
-   "list": "最重要",
-   "backfill": false,
-   "pick_reason_zh": "取代 2016 版 ISFM 猫 CKD 指南。",
-   "basis": [
-    "top_picks.json supersessions[26936494].superseded_by=42693626, supersession_scope=full",
-    "papers.json design_category=指南/共识; 本主题现行指南 3 部: x-international-renal-interest-society-2026-iris-staging-of-ckd-modified-2026(2026), 30353952(2018), 15954557(2005)"
-   ],
-   "source": "top_picks.json supersessions[26936494]: superseded_by=42693626, scope=full, rule_basis=same_body_same_topic_previous, quote=\"The previous ‘ISFM consensus guidelines on the diagnosis and management of feline chronic kidney disease’ were published by the then International Society of Feline Medicine in 2016 to provide clinicians with practical information on the condition. However, over the past 10 years, a large body of research has progressed the understanding of CKD in terms of causes, early diagnosis and management strategies. The ‘2026 iCatCare consensus guidelines on the diagnosis and management of chronic kidney disease in cats’ from International Cat Care (iCatCare) Veterinary Society seek both to supply updated information – with the addition of dedicated sections on comorbidities, anaesthesia and analgesia – and to discuss the importance of early diagnosis\" (42693626 (PMC13554608) Introduction; ref [1]=26936494)"
-  }
- ],
- "41224734": [
-  {
-   "topic": "diabetes",
-   "list": "最重要",
-   "backfill": false,
-   "pick_reason_zh": "取代 2015 版 ISFM 猫糖尿病指南。",
-   "basis": [
-    "top_picks.json supersessions[25701862].superseded_by=41224734, supersession_scope=full",
-    "papers.json design_category=指南/共识; 本主题现行指南 1 部: 29314873(2018)"
-   ],
-   "source": "top_picks.json supersessions[25701862]: superseded_by=41224734, scope=full, rule_basis=same_body_same_topic_previous, quote=\"This is an area of feline medicine that has seen much research and development over the past 10 years since the previous ‘ISFM consensus guidelines on the practical management of diabetes mellitus in cats’ were pub-lished.\" (41224734 (PMC12612538) Introduction; ref [4]=25701862)"
-  },
-  {
-   "topic": "endocrinology",
-   "list": "最重要",
-   "backfill": false,
-   "pick_reason_zh": "取代 2015 版 ISFM 猫糖尿病指南。",
-   "basis": [
-    "top_picks.json supersessions[25701862].superseded_by=41224734, supersession_scope=full",
-    "papers.json design_category=指南/共识; 本主题现行指南 3 部: 29314873(2018), 27143042(2016), 24112317(2013)"
-   ],
-   "source": "top_picks.json supersessions[25701862]: superseded_by=41224734, scope=full, rule_basis=same_body_same_topic_previous, quote=\"This is an area of feline medicine that has seen much research and development over the past 10 years since the previous ‘ISFM consensus guidelines on the practical management of diabetes mellitus in cats’ were pub-lished.\" (41224734 (PMC12612538) Introduction; ref [4]=25701862)"
-  }
- ],
- "42014100": [
-  {
-   "topic": "diabetes",
-   "list": "最重要",
-   "backfill": false,
-   "pick_reason_zh": "取代 2018 版 AAHA 糖尿病指南的猫部分。",
-   "basis": [
-    "top_picks.json supersessions[29314873].superseded_by=42014100, supersession_scope=cats_only",
-    "papers.json design_category=指南/共识; 本主题现行指南 1 部: 29314873(2018)"
-   ],
-   "source": "top_picks.json supersessions[29314873]: superseded_by=42014100, scope=cats_only, rule_basis=None, quote=\"These guidelines retain clinically relevant information from the 2018 AAHA Diabetes Management Guidelines and present new findings and expert opinion on diagnosing, treating, and monitoring diabetes mellitus in cats, recognizing at-risk patients, and identifying patients with hyperglycemia who do not require diabetic treatment. The refreshed reorganization of these guidelines separates the feline and canine content into two distinct publications to provide veterinarians with an easier reference to managing the disease in each species.\" (42014100 AAHA 官网 Introduction; ref [1]=29314873)"
-  },
-  {
-   "topic": "endocrinology",
-   "list": "最重要",
-   "backfill": false,
-   "pick_reason_zh": "取代 2018 版 AAHA 糖尿病指南的猫部分。",
-   "basis": [
-    "top_picks.json supersessions[29314873].superseded_by=42014100, supersession_scope=cats_only",
-    "papers.json design_category=指南/共识; 本主题现行指南 3 部: 29314873(2018), 27143042(2016), 24112317(2013)"
-   ],
-   "source": "top_picks.json supersessions[29314873]: superseded_by=42014100, scope=cats_only, rule_basis=None, quote=\"These guidelines retain clinically relevant information from the 2018 AAHA Diabetes Management Guidelines and present new findings and expert opinion on diagnosing, treating, and monitoring diabetes mellitus in cats, recognizing at-risk patients, and identifying patients with hyperglycemia who do not require diabetic treatment. The refreshed reorganization of these guidelines separates the feline and canine content into two distinct publications to provide veterinarians with an easier reference to managing the disease in each species.\" (42014100 AAHA 官网 Introduction; ref [1]=29314873)"
   }
  ]
 }
