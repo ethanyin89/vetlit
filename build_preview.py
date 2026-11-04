@@ -508,6 +508,10 @@ def appraisal(p):
     if unk*2>=len(it):
         return f'<p class="muted">{"仅读摘要，" if p.get("reading_depth")!="全文" else ""}偏倚风险多数领域无法判断（{tool}，{unk}/{len(it)} 项“信息不足/不清楚/不适用”，不等于高风险）。</p><details class="sub"><summary>展开逐项判断</summary>{tbl}</details>'
     return f'<p class="note">“信息不足/不清楚”表示所读材料未报告，不等于高风险。</p>'+tbl
+def _bg(t): t=re.sub(r'[\s，。、；：:（）()“”"\'·,.;-]','',t); return {t[i:i+2] for i in range(len(t)-1)}
+def near_dup(a,b):
+    A,Bs=_bg(a),_bg(b)
+    return bool(A) and len(A&Bs)/len(A)>=0.4
 def paper(p):
     r='../../'; S=sections(p)
     head=f'''<p class="crumb"><a href="{r}library/">文献库</a>{"".join(f' › <a href="{r}topics/{t}/">{E_(TBY[t]["name_zh"])}</a>' for t in (p.get("topics") or [])[:1] if t in TBY and t in [v["id"] for v in VIS])}</p>
@@ -609,24 +613,30 @@ def paper(p):
         kr=(kr+TAG) if kr else kr
         _t='<span class="note">（'+TAG[len('<p class="note tag2">'):-4]+'）</span>'
         pico=re.sub(r'(<th>纳入 n / 分析 n</th><td>.*?)(</td>)',lambda m:m.group(1)+_t+m.group(2),pico or '',count=1)
-    if exp: order=[('研究对象',pico if popt else ''),('动物来源与实验处理',None),('关键数字',kr),('证据等级与偏倚风险',ev),('能说 / 不能说',cs),('资助方与利益冲突',fund)]
-    else: order=[('研究对象/干预/对照/结局 · 样本量',pico),('关键数字',kr),('研究方法',None),('证据等级与偏倚风险',ev),('能说 / 不能说',cs),('资助方与利益冲突',fund)]
+    if exp: order=[('研究对象',pico if popt else ''),('动物来源与实验处理',None),('关键数字',kr),('证据等级与偏倚风险',ev),('资助方与利益冲突',fund)]
+    else: order=[('研究对象/干预/对照/结局 · 样本量',pico),('关键数字',kr),('研究方法',None),('证据等级与偏倚风险',ev),('资助方与利益冲突',fund)]
     OPEN="document.getElementById('evidence').open=true"
+    _fl=re.sub(r'<blockquote.*?</blockquote>','',fund,flags=re.S); _fl=re.sub(r'<[^>]+>','',_fl).strip()
+    _fl=_fl if _fl and _fl!='原文未报告' else ('原文未报告' if 'muted' in fund else '未核实')
+    _fl=' '.join(_fl.split()); _fl=_fl if len(_fl)<=90 else _fl[:88]+'…'
+    _fund_html=f'<p class="cmeta fund">资助/利益冲突：{E_(__import__('html').unescape(_fl))}</p>'
+    head=re.sub(r'(<p class="cmeta">.*?</p>)',lambda m:m.group(1)+_fund_html,head,count=1,flags=re.S)
     # ---- above the fold: warning, conclusion, clinical meaning, key numbers, chip ----
     vis=head
     if p.get('warn_speed'): vis+=f'<p class="warn" style="background:#fff4d6;border-left:4px solid #e0a100;padding:.5em .8em;margin:.4em 0;color:#5a4300">{E_(p["warn_speed"])}</p>'
     inc_md=sec_get(S,'原文报告不一致')
     vis+=concl
-    if has(p.get('clinical_meaning')): vis+=f'<p class="cm">{E_(clean(p["clinical_meaning"]))}</p>'
+    if has(p.get('clinical_meaning')) and not near_dup(p['clinical_meaning'],p.get('one_line_conclusion_zh') or ''): vis+=f'<p class="cm">{E_(clean(p["clinical_meaning"]))}</p>'
     kn=[]
     _all=p.get('key_results') or []; _t3=p.get('key_results_top3')
     top=[_all[i] for i in _t3 if isinstance(i,int) and 0<=i<len(_all)][:3] if isinstance(_t3,list) else krs[:3]
     for k in top:
-        NR=lambda v: '' if re.search(r'^(原文|摘要)未(报告|提及|给出)$',re.sub(r'<[^>]+>','',v).strip()) else v
+        NR=lambda v: '' if re.search(r'^((原文|摘要)未(报告|提及|给出)|不适用|N/?A|—)$',re.sub(r'<[^>]+>','',v).strip()) else v
         parts=[NR(cell(k.get(f))) for f in ('groups','effect_ci')]; pv=NR(cell(k.get('p')))
         kn.append(f'<li><b>{cell(k.get("measure"))}</b> {" · ".join(x for x in parts if x)}{(" · P "+pv) if pv and not pv.upper().startswith("P") and not pv.startswith("原文") else (" · "+pv if pv else "")}</li>')
-    if not kn and p.get('can_say') and '见页面' not in str(p['can_say']): kn=[f'<li>{E_(clean(x))}</li>' for x in p['can_say'][:3]]
+    if not kn and not cs and p.get('can_say') and '见页面' not in str(p['can_say']): kn=[f'<li>{E_(clean(x))}</li>' for x in p['can_say'][:3]]
     if kn: vis+=f'<section class="kn"><p class="eb">关键数字</p><ul>{"".join(kn)}</ul></section>'
+    if cs: vis+=f'<section class="cs" id="cansay">{cs}</section>'
     gt,gh=grade(p)
     _c=chip(p,'#evidence')
     if _c: vis+='<p class="bd">'+_c.replace('<a ',f'<a onclick="{OPEN}" ',1)+'</p>'
