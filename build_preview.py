@@ -515,7 +515,7 @@ def near_dup(a,b):
 def paper(p):
     r='../../'; S=sections(p)
     head=f'''<p class="crumb"><a href="{r}library/">文献库</a>{"".join(f' › <a href="{r}topics/{t}/">{E_(TBY[t]["name_zh"])}</a>' for t in (p.get("topics") or [])[:1] if t in TBY and t in [v["id"] for v in VIS])}</p>
-<p class="eb">{E_(" / ".join(specs(p)))} · {E_(species(p))}</p>{title_html(p,'h1')}<p class="cmeta">{E_(cmeta(p))}</p>{superlink(p,'../../')}{ri_notice(p)}
+<p class="eb">{E_(" / ".join(specs(p)))} · {E_(species(p))}</p>{title_html(p,'h1')}<p class="cmeta">{E_(cmeta(p))}</p>{superlink(p,'../../')}
 <p class="meta">{E_(p.get("first_author",""))} 等 · <em>{E_(p.get("journal",""))}</em> · {E_(p.get("pub_date") or str(p.get("year","")))}{f' · <a href="https://doi.org/{E_(p["doi"])}">DOI</a>' if p.get('doi') else ''}{f' · <a href="https://pubmed.ncbi.nlm.nih.gov/{p["pmid"]}/">PubMed</a>' if p.get('pmid') else ''}{f' · <a href="https://europepmc.org/article/PMC/{p["pmcid"]}">全文</a>' if p.get('pmcid') else ''}</p>
 <p>{"".join(f'<a class="chip" href="{r}topics/{t}/">{E_(TBY[t]["name_zh"])}</a>' for t in (p.get("topics") or []) if t in TBY and TBY[t] in VIS)}</p>'''
     blk=lambda n,t,c: f'<section class="blk"><h2 class="sec"><span>{n}</span> {t}</h2>{c}</section>' if c else ''
@@ -631,11 +631,17 @@ def paper(p):
     _all=p.get('key_results') or []; _t3=p.get('key_results_top3')
     top=[_all[i] for i in _t3 if isinstance(i,int) and 0<=i<len(_all)][:3] if isinstance(_t3,list) else krs[:3]
     for k in top:
-        NR=lambda v: '' if re.search(r'^((原文|摘要)未(报告|提及|给出)|不适用|N/?A|—)$',re.sub(r'<[^>]+>','',v).strip()) else v
+        NR=lambda v: '' if re.search(r'^(不适用|N/?A|—)$',re.sub(r'<[^>]+>','',v).strip()) else v
         parts=[NR(cell(k.get(f))) for f in ('groups','effect_ci')]; pv=NR(cell(k.get('p')))
-        kn.append(f'<li><b>{cell(k.get("measure"))}</b> {" · ".join(x for x in parts if x)}{(" · P "+pv) if pv and not pv.upper().startswith("P") and not pv.startswith("原文") else (" · "+pv if pv else "")}</li>')
+        kn.append(f'<li data-m="{cell(k.get("measure"))}"><b>{cell(k.get("measure"))}</b> {" · ".join(x for x in parts if x)}{(" · P "+pv) if pv and not pv.upper().startswith("P") and not pv.startswith(("原文","摘要")) else (" · "+pv if pv else "")}</li>')
     if not kn and not cs and p.get('can_say') and '见页面' not in str(p['can_say']): kn=[f'<li>{E_(clean(x))}</li>' for x in p['can_say'][:3]]
-    if kn: vis+=f'<section class="kn"><p class="eb">关键数字</p><ul>{"".join(kn)}</ul></section>'
+    _ri=ri_notice(p); _rin=rep_inc(p).get('note_zh') or ''
+    if _ri and kn:
+        # attach ⚠ to the key number it concerns (shared wording with the note), else right under the list
+        hit=next((i for i,k in enumerate(top) if k.get('measure') and near_dup(str(k['measure']),_rin)),None)
+        if hit is not None: kn[hit]=kn[hit][:-5]+_ri.replace('<p class="note">','<p class="note ri">',1)+'</li>'
+    if kn: vis+=f'<section class="kn"><p class="eb">关键数字</p><ul>{"".join(kn)}</ul>{_ri.replace(chr(60)+"p class="+chr(34)+"note"+chr(34),chr(60)+"p class="+chr(34)+"note ri"+chr(34),1) if _ri and not any("note ri" in x for x in kn) else ""}</section>'
+    elif _ri: vis+=_ri.replace('<p class="note">','<p class="note ri">',1)
     if cs: vis+=f'<section class="cs" id="cansay">{cs}</section>'
     gt,gh=grade(p)
     _c=chip(p,'#evidence')
@@ -703,6 +709,8 @@ def main():
             if base=='样本量' and x['value']: h=re.sub(r'n=[^<]*未核[^<]*','n='+E_(x['value']),h)
         if p.get('cebm_level'): h=h.replace('CEBM 等级未核','CEBM 等级 '+str(p['cebm_level']))
         rep='摘要未提及' if p.get('reading_depth')!='全文' else '原文未报告'
+        _kn=re.search(r'<section class="kn">.*?</section>',h,re.S); _knh=_kn.group(0) if _kn else ''
+        if _knh: h=h.replace(_knh,'\x00KN\x00',1)  # first-screen key numbers keep source wording verbatim
         h=h.replace('原文未给出',rep).replace('摘要未给出',rep)
         def coll(m):
             t=m.group(0); gone=[]
@@ -720,6 +728,7 @@ def main():
             t=re.sub(r'<td>(?:原文未报告|摘要未提及)</td>','<td></td>',t)
             return t+('<p class="note">空白处仅据摘要，其余细节见原文</p>' if rep=='摘要未提及' else '<p class="note">空白处原文未报告</p>')
         h=re.sub(r'<table(?! class="kv")[^>]*>.*?</table>',coll2,h,flags=re.S)
+        if _knh: h=h.replace('\x00KN\x00',_knh,1)
         w(f'papers/{p["sid"]}/index.html',h)
         _tr=X.translation(p.get('pmid'),p.get('license')) if X.can_translate(p) else None
         if _tr: w(f'papers/{p["sid"]}/bilingual/index.html',X.bilingual_page(p,_tr,page)); MERGE.setdefault('bi',0); MERGE['bi']+=1
