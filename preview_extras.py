@@ -79,7 +79,7 @@ def top_block(get,card):
                 cards+=c
         if cards: out+=f'<h3 class="dg">{E_(g.get("topic_zh") or g.get("name_zh") or g.get("topic") or "")}</h3>'+cards
     if not out: return ''
-    return f'<section><h2 class="sec"><span>00</span> 最新 / 最重要</h2>'+(f'<p class="note">按证据等级与时效排序 · <a href="about/ranking/">规则说明</a></p>' if rule else '')+out+'</section>'
+    return f'<section><h2 class="sec"><span>00</span> 最新 / 最重要</h2>'+out+'</section>'
 def bilingual_page(p,t,page):
     CA3='../'*3+('about/' if os.environ.get('VETLIT_LIVE')=='1' else '../about/')+'index.html#contributors'
     paras=t.get('paragraphs') or t.get('segments') or []

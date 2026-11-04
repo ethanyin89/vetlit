@@ -27,7 +27,7 @@ for g in B.X.TOP.get('topics') or []:
     tid=g['topic']; t=B.TBY.get(tid)
     imp=B.tops(tid); new=B.newest3(B.tpapers(t)) if t else []
     for p in imp+new: assert not B.is_super(p), (tid,p['sid'])
-    if t: assert len(new)==min(3,len([p for p in B.tpapers(t) if not B.is_super(p) and not B.affects_conclusion(p)])), tid
+    if t: assert len(new)==min(3,len([p for p in B.tpapers(t) if not B.is_super(p) and not B.affects_conclusion(p) and (not B.NEWEST_5Y or (p.get('pub_date') or '')[:10]>=B.newest_cutoff())])), tid
 # 3) built HTML: superseded sids do not appear inside 最重要/最新 blocks
 sup={'pmid-'+k for k,v in B.SUPER.items() if B.is_full(v)}
 for f in ['dist/index.html']+glob.glob('dist/topics/*/index.html'):

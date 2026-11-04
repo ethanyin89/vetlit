@@ -119,7 +119,7 @@ def oa_txt(p):
     if p.get('oa_bool') is True: return '开放获取'
     if p.get('oa_bool') is False: return '非 OA'
     return 'OA 未核'
-NAV=[('index.html','文献'),('topics/index.html','专题'),('rules/index.html','证据评价方法'),('about/index.html','方法与声明'),('feed.xml','RSS')]
+NAV=[('index.html','文献'),('topics/index.html','专题'),('about/index.html','方法与声明'),('feed.xml','RSS')]
 def page(title,body,depth,desc='犬猫兽医文献专业速读：证据分级、方法学审读、中英对照'):
     r='../'*depth
     nav=''.join(f'<a href="{r}{h}">{t}</a>' for h,t in NAV)
@@ -127,7 +127,7 @@ def page(title,body,depth,desc='犬猫兽医文献专业速读：证据分级、
 <title>{E_(title)} · 宠物医学文献速读</title><meta name="description" content="{E_(desc)}"><link rel="stylesheet" href="{r}static/style.css">
 <link rel="alternate" type="application/rss+xml" title="宠物医学文献速读" href="{r}feed.xml"></head><body>
 <a class="skip" href="#main">跳到正文</a><header class="top"><a class="brand" href="{r}index.html">宠物医学文献速读 <small>VetLit · 犬猫</small></a><nav aria-label="主导航">{nav}</nav></header>
-<main id="main">{body}</main><footer>仅供专业参考，不构成临床诊疗建议。数据与分级见 <a href="{r}rules/index.html">规则</a> · <a href="{r}about/index.html">方法</a> · 构建于 {datetime.date.today().isoformat()}</footer></body></html>'''
+<main id="main">{body}</main><footer>仅供专业参考，不构成临床诊疗建议。<a href="{r}about/index.html">声明</a> · 构建于 {datetime.date.today().isoformat()}</footer></body></html>'''
 def field(label,v):
     if v in (None,'',[]): return ''
     if isinstance(v,list): v='<ul>'+''.join(f'<li>{E_(x if isinstance(x,str) else json.dumps(x,ensure_ascii=False))}</li>' for x in v)+'</ul>'
@@ -251,7 +251,7 @@ def w(path,s):
     os.makedirs(os.path.dirname(path),exist_ok=True); open(path,'w',encoding='utf-8').write(s)
 def main():
     ps=load(); shutil.rmtree(DIST,ignore_errors=True); shutil.copytree(os.path.join(ROOT,'static'),os.path.join(DIST,'static'))
-    w(os.path.join(DIST,'index.html'),index(ps)); w(os.path.join(DIST,'rules','index.html'),rules()); w(os.path.join(DIST,'about','index.html'),about())
+    w(os.path.join(DIST,'index.html'),index(ps)); w(os.path.join(DIST,'about','index.html'),about())
     w(os.path.join(DIST,'feed.xml'),rss(ps)); w(os.path.join(DIST,'export','all.bib'),''.join(bibtex(p) for p in ps)); w(os.path.join(DIST,'export','all.ris'),'\n'.join(ris(p) for p in ps))
     LEG={'evidence_grade','grade_v1','grade_reason','downgrade_tags','grade_status','grade_label'}
     w(os.path.join(DIST,'papers.json'),json.dumps([{k:v for k,v in p.items() if k not in LEG} for p in ps],ensure_ascii=False,indent=1)); w(os.path.join(DIST,'.nojekyll'),'')

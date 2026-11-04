@@ -405,9 +405,15 @@ def tops(tid):
         c+=[get(x['id']) for x in (t.get('core') or [])]
         c+=sorted(tpapers(t),key=lambda p:p.get('importance_rank') or 999)
     return _fill(c)
-def newest3(ps,skip=()):  # 最新 skips anything already in this topic's 最重要, then fills to 3
-    sk={q['sid'] for q in skip if q}
-    return _fill([p for p in sorted(ps,key=lambda p:p.get('pub_date') or '',reverse=True) if p['sid'] not in sk])
+NEWEST_5Y=False  # 5-year 最新 window: built but OFF — hides 7 topics' 最新 on current data; awaiting decision
+def newest_cutoff(today=None):  # rolling 5 years from build date (as PubMed's '5 years' filter)
+    d=today or datetime.date.today()
+    try: c=d.replace(year=d.year-5)
+    except ValueError: c=d.replace(year=d.year-5,day=28)
+    return c.isoformat()
+def newest3(ps,skip=(),today=None):  # 最新: within 5 years; skips anything already in this topic's 最重要, then fills to 3
+    sk={q['sid'] for q in skip if q}; cut=newest_cutoff(today)
+    return _fill([p for p in sorted(ps,key=lambda p:p.get('pub_date') or '',reverse=True) if p['sid'] not in sk and (not NEWEST_5Y or (p.get('pub_date') or '')[:10]>=cut)])
 # Card reason = pick_reason_zh from data/v5/extras/pick_reason.json (deep extract; synced from extracts/).
 # Shape: {pmid: [{topic, list: 最重要|最新, pick_reason_zh, ...}]}. Only entries Vibe marked approved render
 # (entry "approved": true, or "approved_by": "Vibe"). Flag PICK_REASON_ON is off unless the file carries any
@@ -714,7 +720,6 @@ def w(rel,s):
     f=os.path.join(OUT,rel); os.makedirs(os.path.dirname(f),exist_ok=True); open(f,'w',encoding='utf-8').write(s)
 def main():
     if not LIVE: shutil.rmtree(OUT,ignore_errors=True)
-    w('about/ranking/index.html',ranking_page())
     w('index.html',home()); w('library/index.html',library()); w('topics/index.html',topics_index())
     for t in VIS: w(f'topics/{t["id"]}/index.html',topic_page(t))
     R2=json.load(open(os.path.join(ROOT,'data','v5','unverified_resolution_r2.json'),encoding='utf-8'))['records']; MERGE['ur2']=0

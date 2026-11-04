@@ -31,8 +31,8 @@ allhtml=''.join(open(f,encoding='utf-8').read() for f in ['dist/index.html']+glo
 # 30548336: full approved reason in obesity (最重要), sample-size-only reason in nutrition (最新)
 ob=open('dist/topics/obesity/index.html',encoding='utf-8').read()
 c=[c for c in re.findall(r'<article class="card">.*?</article>',ob,re.S) if 'pmid-30548336/' in c][0]
-assert '<p class="why">本库同主题中样本量最大（n=50787），也是唯一证据确定性为“中”的研究。</p>' in c, c
-assert '回顾性队列（原文自称病例对照）' in c, c
+assert '<p class="why">' not in c, c
+assert '回顾性队列' in c and '原文自称' not in c, c
 if A.get('approved_by')=='Vibe':
     ob=open('dist/topics/obesity/index.html',encoding='utf-8').read()
     # every shown 'why' text is a (possibly stripped) approved reason
@@ -43,3 +43,27 @@ if A.get('approved_by')=='Vibe':
 else:
     assert 'class="why"' not in allhtml
 print('empty/short 最新 + pick_reason tests OK')
+
+# 最新 = within rolling 5 years of build date only; rules/ranking pages and links gone
+import datetime,sys; sys.path.insert(0,'.')
+import build_preview as BP
+assert BP.newest_cutoff(datetime.date(2026,11,4))=='2021-11-04'
+assert BP.newest_cutoff(datetime.date(2028,2,29))=='2023-02-28'
+cut=BP.newest_cutoff()
+for f in ['dist/index.html']+glob.glob('dist/topics/*/index.html'):
+    s=open(f,encoding='utf-8').read()
+    for blk in s.split('<h4 class="tb">最新</h4>')[1:]:
+        if not BP.NEWEST_5Y: break
+        for pid in ids(blk.split('<h4 class="tb">最重要</h4>')[0].split('<h2',1)[0]):
+            assert pid not in ('3616607','18289298'), (f,pid)
+assert not os.path.exists('dist/rules') and not os.path.exists('dist/about/ranking')
+for f in glob.glob('dist/**/*.html',recursive=True):
+    if f.startswith('dist/preview'): continue
+    s=open(f,encoding='utf-8').read()
+    assert 'rules/index.html' not in s and 'about/ranking' not in s and '规则说明' not in s, f
+c=open('dist/papers/pmid-30548336/index.html',encoding='utf-8').read().split('id="evidence"',1)[1]
+assert '原文自称病例对照' in c
+print('newest-5y / rules-off tests OK')
+for f in glob.glob('dist/**/*.html',recursive=True):
+    if not f.startswith('dist/preview'): assert '本库同主题' not in open(f,encoding='utf-8').read(), f
+print('no 本库同主题 OK')

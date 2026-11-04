@@ -181,14 +181,15 @@
     "removed_from_最新": "26265631",
     "stays_in": "最重要"
    }
-  ]
+  ],
+  "rules_v4": "2026-11-04 室内终版：理由不得重复卡片信息行（年份/期刊/研究类型/证据确定性/样本量/物种），不用本库范围比较级（本库同主题中/唯一/最大/最新的一部）；只保留卡片上没有、且有原文出处的事实，目前只有取代关系；其余为 null。basis 字段仅供内部使用。备份：benchmark/work/pre_reason_v3/"
  },
  "23422366": [
   {
    "topic": "behavior",
    "list": "最重要",
    "backfill": false,
-   "pick_reason_zh": "本库同主题中唯一的指南/共识。",
+   "pick_reason_zh": null,
    "basis": [
     "papers.json design_category=指南/共识; 本主题现行指南 1 部: 23422366(2013)"
    ]
@@ -197,7 +198,7 @@
    "topic": "cognition",
    "list": "最重要",
    "backfill": false,
-   "pick_reason_zh": "本库同主题中唯一的指南/共识。",
+   "pick_reason_zh": null,
    "basis": [
     "papers.json design_category=指南/共识; 本主题现行指南 1 部: 23422366(2013)"
    ]
@@ -208,7 +209,7 @@
    "topic": "behavior",
    "list": "最重要",
    "backfill": false,
-   "pick_reason_zh": "本库同主题中样本量最大（n=13700）。",
+   "pick_reason_zh": null,
    "basis": [
     "card_meta.json design_zh=横断面问卷调查→横断面研究; 本主题同类 2 篇; 本主题非指南最高层级=横断面研究",
     "card_meta.json n=13700; 本主题有 n 的原始研究 4 篇中最大"
@@ -218,7 +219,7 @@
    "topic": "cognitive_dysfunction",
    "list": "最重要",
    "backfill": false,
-   "pick_reason_zh": "本库同主题中样本量最大（n=13700）。",
+   "pick_reason_zh": null,
    "basis": [
     "card_meta.json design_zh=横断面问卷调查→横断面研究; 本主题同类 2 篇; 本主题非指南最高层级=横断面研究",
     "card_meta.json n=13700; 本主题有 n 的原始研究 2 篇中最大"
@@ -307,7 +308,7 @@
    "topic": "mmvd",
    "list": "最重要",
    "backfill": false,
-   "pick_reason_zh": "本库同主题中唯一的指南/共识。",
+   "pick_reason_zh": null,
    "basis": [
     "papers.json design_category=指南/共识; 本主题现行指南 1 部: 30974015(2019)"
    ]
@@ -348,7 +349,7 @@
    "topic": "cardiology",
    "list": "最重要",
    "backfill": false,
-   "pick_reason_zh": "本库同主题 4 部现行指南/共识中最新的一部。",
+   "pick_reason_zh": null,
    "basis": [
     "papers.json design_category=指南/共识; 本主题现行指南 4 部: 32243654(2020), 30974015(2019), 30353952(2018), 28965673(2017)"
    ]
@@ -415,7 +416,7 @@
    "topic": "diet_dcm",
    "list": "最重要",
    "backfill": false,
-   "pick_reason_zh": "本库同主题中样本量最大（n=48）。",
+   "pick_reason_zh": null,
    "basis": [
     "card_meta.json design_zh=回顾性病例系列（扩张型心肌病犬按饮食分组比较）→病例系列（无对照）; 本主题同类 3 篇; 本主题非指南最高层级=病例系列（无对照）",
     "card_meta.json n=48; 本主题有 n 的原始研究 3 篇中最大"
@@ -459,7 +460,7 @@
    "topic": "cardiomyopathy",
    "list": "最重要",
    "backfill": false,
-   "pick_reason_zh": "本库同主题中唯一的指南/共识。",
+   "pick_reason_zh": null,
    "basis": [
     "papers.json design_category=指南/共识; 本主题现行指南 1 部: 28965673(2017)"
    ]
@@ -481,7 +482,7 @@
    "topic": "cardiomyopathy",
    "list": "最重要",
    "backfill": false,
-   "pick_reason_zh": "本库同主题 RCT 中样本量最大（n=76），也是唯一证据确定性为“高”的研究。",
+   "pick_reason_zh": null,
    "basis": [
     "card_meta.json design_zh=RCT→随机对照试验; 本主题同类 2 篇; 本主题非指南最高层级=随机对照试验",
     "card_meta.json n=76; 本主题同类有 n 的 2 篇中最大",
@@ -504,7 +505,7 @@
    "topic": "ckd",
    "list": "最重要",
    "backfill": false,
-   "pick_reason_zh": "本库同主题 3 部现行指南/共识中最新的一部。",
+   "pick_reason_zh": null,
    "basis": [
     "papers.json design_category=指南/共识; 本主题现行指南 3 部: x-international-renal-interest-society-2026-iris-staging-of-ckd-modified-2026(2026), 26936494(2016), 15954557(2005)"
    ]
@@ -513,7 +514,7 @@
    "topic": "nephrology",
    "list": "最重要",
    "backfill": false,
-   "pick_reason_zh": "本库同主题 4 部现行指南/共识中最新的一部。",
+   "pick_reason_zh": null,
    "basis": [
     "papers.json design_category=指南/共识; 本主题现行指南 4 部: x-international-renal-interest-society-2026-iris-staging-of-ckd-modified-2026(2026), 30353952(2018), 26936494(2016), 15954557(2005)"
    ]
@@ -633,7 +634,7 @@
    "topic": "diabetes",
    "list": "最重要",
    "backfill": false,
-   "pick_reason_zh": "本库同主题 2 部现行指南/共识中最新的一部。",
+   "pick_reason_zh": null,
    "basis": [
     "papers.json design_category=指南/共识; 本主题现行指南 2 部: 29314873(2018), 25701862(2015)"
    ]
@@ -642,7 +643,7 @@
    "topic": "endocrinology",
    "list": "最重要",
    "backfill": false,
-   "pick_reason_zh": "本库同主题 4 部现行指南/共识中最新的一部。",
+   "pick_reason_zh": null,
    "basis": [
     "papers.json design_category=指南/共识; 本主题现行指南 4 部: 29314873(2018), 27143042(2016), 25701862(2015), 24112317(2013)"
    ]
@@ -673,7 +674,7 @@
    "topic": "diabetes",
    "list": "最重要",
    "backfill": false,
-   "pick_reason_zh": "本库同主题中唯一的系统综述。",
+   "pick_reason_zh": null,
    "basis": [
     "card_meta.json design_zh=系统综述（无 Meta 分析）→系统综述/Meta分析; 本主题同类 1 篇; 本主题非指南最高层级=系统综述/Meta分析",
     "certainty.json certainty=极低; 本主题确定性≥极低 的: ['38884190', '40941356']"
@@ -683,7 +684,7 @@
    "topic": "endocrinology",
    "list": "最新",
    "backfill": false,
-   "pick_reason_zh": "本库同主题中唯一的系统综述。",
+   "pick_reason_zh": null,
    "basis": [
     "card_meta.json design_zh=系统综述（无 Meta 分析）→系统综述/Meta分析; 本主题同类 1 篇; 本主题非指南最高层级=系统综述/Meta分析",
     "certainty.json certainty=极低; 本主题确定性≥极低 的: ['38884190', '40941356']"
@@ -695,7 +696,7 @@
    "topic": "diabetes",
    "list": "最新",
    "backfill": false,
-   "pick_reason_zh": "本库同主题中唯一的 RCT，也是唯一证据确定性为“中”的研究。",
+   "pick_reason_zh": null,
    "basis": [
     "card_meta.json design_zh=RCT（阳性对照、开放标签、非劣效现场试验）→随机对照试验; 本主题同类 1 篇; 本主题非指南最高层级=系统综述/Meta分析",
     "certainty.json certainty=中; 本主题确定性≥中 的: ['38884190']"
@@ -705,7 +706,7 @@
    "topic": "endocrinology",
    "list": "最新",
    "backfill": false,
-   "pick_reason_zh": "本库同主题中唯一的 RCT，也是唯一证据确定性为“中”的研究。",
+   "pick_reason_zh": null,
    "basis": [
     "card_meta.json design_zh=RCT（阳性对照、开放标签、非劣效现场试验）→随机对照试验; 本主题同类 1 篇; 本主题非指南最高层级=系统综述/Meta分析",
     "certainty.json certainty=中; 本主题确定性≥中 的: ['38884190']"
@@ -753,7 +754,7 @@
    "topic": "hyperthyroidism",
    "list": "最重要",
    "backfill": false,
-   "pick_reason_zh": "本库同主题中唯一的指南/共识。",
+   "pick_reason_zh": null,
    "basis": [
     "papers.json design_category=指南/共识; 本主题现行指南 1 部: 27143042(2016)"
    ]
@@ -791,7 +792,7 @@
    "topic": "epidemiology",
    "list": "最重要",
    "backfill": false,
-   "pick_reason_zh": "本库同主题中样本量最大（n=299555）。",
+   "pick_reason_zh": null,
    "basis": [
     "card_meta.json design_zh=回顾性队列（保险数据）→队列研究; 本主题同类 3 篇; 本主题非指南最高层级=队列研究",
     "card_meta.json n=299555; 本主题有 n 的原始研究 3 篇中最大"
@@ -843,21 +844,23 @@
    "topic": "fip",
    "list": "最重要",
    "backfill": false,
-   "pick_reason_zh": "为本库中 2023 年旧版（37766254）的治疗部分更新版。",
+   "pick_reason_zh": "更新了 2023 版指南的治疗部分。",
    "basis": [
     "top_picks.json supersessions[37766254].superseded_by=42043241, supersession_scope=treatment_only",
     "papers.json design_category=指南/共识; 本主题现行指南 3 部: 42043241(2026), 37766254(2023), 36002137(2022)"
-   ]
+   ],
+   "source": "top_picks.json supersessions[37766254]: superseded_by=42043241, scope=treatment_only, quote=\"This review presents a further update on a section of the full guidelines describing the treatment of FIP, a field of rapidly evolving evidence on an increasing number of antiviral drugs used for FIP.\" (42043241 (PMC13120026) §1 Introduction; refs [1]=19481039, [2]=37766254)"
   },
   {
    "topic": "infectious",
    "list": "最重要",
    "backfill": false,
-   "pick_reason_zh": "为本库中 2023 年旧版（37766254）的治疗部分更新版。",
+   "pick_reason_zh": "更新了 2023 版指南的治疗部分。",
    "basis": [
     "top_picks.json supersessions[37766254].superseded_by=42043241, supersession_scope=treatment_only",
     "papers.json design_category=指南/共识; 本主题现行指南 3 部: 42043241(2026), 37766254(2023), 36002137(2022)"
-   ]
+   ],
+   "source": "top_picks.json supersessions[37766254]: superseded_by=42043241, scope=treatment_only, quote=\"This review presents a further update on a section of the full guidelines describing the treatment of FIP, a field of rapidly evolving evidence on an increasing number of antiviral drugs used for FIP.\" (42043241 (PMC13120026) §1 Introduction; refs [1]=19481039, [2]=37766254)"
   }
  ],
  "37766254": [
@@ -865,21 +868,23 @@
    "topic": "fip",
    "list": "最重要",
    "backfill": false,
-   "pick_reason_zh": "为本库中 2009 年旧版（19481039）的全面修订版。",
+   "pick_reason_zh": "全面修订并取代 2009 版指南。",
    "basis": [
     "top_picks.json supersessions[19481039].superseded_by=37766254, supersession_scope=full",
     "papers.json design_category=指南/共识; 本主题现行指南 3 部: 42043241(2026), 37766254(2023), 36002137(2022)"
-   ]
+   ],
+   "source": "top_picks.json supersessions[19481039]: superseded_by=37766254, scope=full, quote=\"The current guidelines are a major revision of the previous ABCD FIP guidelines, published in 2009 [46], and review the large body of research published in the field of FIP over the past 14 years.\" (37766254 (PMC10535984) §1 Introduction; ref [46] = Addie 2009)"
   },
   {
    "topic": "infectious",
    "list": "最重要",
    "backfill": false,
-   "pick_reason_zh": "为本库中 2009 年旧版（19481039）的全面修订版。",
+   "pick_reason_zh": "全面修订并取代 2009 版指南。",
    "basis": [
     "top_picks.json supersessions[19481039].superseded_by=37766254, supersession_scope=full",
     "papers.json design_category=指南/共识; 本主题现行指南 3 部: 42043241(2026), 37766254(2023), 36002137(2022)"
-   ]
+   ],
+   "source": "top_picks.json supersessions[19481039]: superseded_by=37766254, scope=full, quote=\"The current guidelines are a major revision of the previous ABCD FIP guidelines, published in 2009 [46], and review the large body of research published in the field of FIP over the past 14 years.\" (37766254 (PMC10535984) §1 Introduction; ref [46] = Addie 2009)"
   }
  ],
  "42949438": [
@@ -949,7 +954,7 @@
    "topic": "hyperadrenocorticism",
    "list": "最重要",
    "backfill": false,
-   "pick_reason_zh": "本库同主题中唯一的指南/共识。",
+   "pick_reason_zh": null,
    "basis": [
     "papers.json design_category=指南/共识; 本主题现行指南 1 部: 24112317(2013)"
    ]
@@ -960,7 +965,7 @@
    "topic": "hyperthyroidism",
    "list": "最重要",
    "backfill": false,
-   "pick_reason_zh": "本库同主题中唯一的横断面研究。",
+   "pick_reason_zh": null,
    "basis": [
     "card_meta.json design_zh=横断面→横断面研究; 本主题同类 1 篇; 本主题非指南最高层级=横断面研究"
    ]
@@ -971,7 +976,7 @@
    "topic": "mmvd",
    "list": "最重要",
    "backfill": false,
-   "pick_reason_zh": "本库同主题 RCT 中样本量最大（n=354）。",
+   "pick_reason_zh": null,
    "basis": [
     "card_meta.json design_zh=RCT→随机对照试验; 本主题同类 3 篇; 本主题非指南最高层级=随机对照试验",
     "card_meta.json n=354; 本主题同类有 n 的 3 篇中最大",
@@ -995,7 +1000,7 @@
    "topic": "mmvd",
    "list": "最新",
    "backfill": true,
-   "pick_reason_zh": "本库同主题中唯一的队列研究，样本量也最大（n=558）。",
+   "pick_reason_zh": null,
    "basis": [
     "card_meta.json design_zh=预后队列→队列研究; 本主题同类 1 篇; 本主题非指南最高层级=随机对照试验",
     "card_meta.json n=558; 本主题有 n 的原始研究 4 篇中最大"
@@ -1019,7 +1024,7 @@
    "topic": "nutrition",
    "list": "最重要",
    "backfill": false,
-   "pick_reason_zh": "本库同主题中唯一的指南/共识。",
+   "pick_reason_zh": null,
    "basis": [
     "papers.json design_category=指南/共识; 本主题现行指南 1 部: 21704901(2011)"
    ]
@@ -1030,7 +1035,7 @@
    "topic": "nutrition",
    "list": "最重要",
    "backfill": false,
-   "pick_reason_zh": "本库同主题中唯一的 RCT，也是唯一证据确定性为“高”的研究。",
+   "pick_reason_zh": null,
    "basis": [
     "card_meta.json design_zh=RCT→随机对照试验; 本主题同类 1 篇; 本主题非指南最高层级=系统综述/Meta分析",
     "certainty.json certainty=高; 本主题确定性≥高 的: ['38952053']"
@@ -1062,7 +1067,7 @@
    "topic": "nutrition",
    "list": "最新",
    "backfill": false,
-   "pick_reason_zh": "本库同主题中样本量最大（n=50787）。",
+   "pick_reason_zh": null,
    "basis": [
     "card_meta.json design_zh=回顾性队列（原文自称病例对照）→队列研究; 本主题同类 2 篇; 本主题非指南最高层级=系统综述/Meta分析",
     "card_meta.json n=50787; 本主题有 n 的原始研究 7 篇中最大",
@@ -1073,7 +1078,7 @@
    "topic": "obesity",
    "list": "最重要",
    "backfill": false,
-   "pick_reason_zh": "本库同主题中样本量最大（n=50787），也是唯一证据确定性为“中”的研究。",
+   "pick_reason_zh": null,
    "basis": [
     "card_meta.json design_zh=回顾性队列（原文自称病例对照）→队列研究; 本主题同类 2 篇; 本主题非指南最高层级=系统综述/Meta分析",
     "card_meta.json n=50787; 本主题有 n 的原始研究 3 篇中最大",
@@ -1086,7 +1091,7 @@
    "topic": "obesity",
    "list": "最重要",
    "backfill": false,
-   "pick_reason_zh": "本库同主题中唯一的非随机对照试验。",
+   "pick_reason_zh": null,
    "basis": [
     "card_meta.json design_zh=配对饲喂对照试验→非随机对照试验; 本主题同类 1 篇; 本主题非指南最高层级=系统综述/Meta分析"
    ]
