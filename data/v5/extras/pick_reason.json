@@ -210,7 +210,7 @@
    "backfill": false,
    "pick_reason_zh": "本库同主题样本量最大（n=13700）。",
    "basis": [
-    "papers.json design_category=横断面研究; 本主题同类 2 篇; 本主题非指南最高层级=横断面研究",
+    "card_meta.json design_zh=横断面问卷调查→横断面研究; 本主题同类 2 篇; 本主题非指南最高层级=横断面研究",
     "card_meta.json n=13700; 本主题有 n 的原始研究 4 篇中最大"
    ]
   },
@@ -220,7 +220,7 @@
    "backfill": false,
    "pick_reason_zh": "本库同主题样本量最大（n=13700）。",
    "basis": [
-    "papers.json design_category=横断面研究; 本主题同类 2 篇; 本主题非指南最高层级=横断面研究",
+    "card_meta.json design_zh=横断面问卷调查→横断面研究; 本主题同类 2 篇; 本主题非指南最高层级=横断面研究",
     "card_meta.json n=13700; 本主题有 n 的原始研究 4 篇中最大"
    ],
    "note": "去重后从“最新”移除，仍在本主题“最重要”"
@@ -231,7 +231,7 @@
    "backfill": false,
    "pick_reason_zh": "本库同主题样本量最大（n=13700）。",
    "basis": [
-    "papers.json design_category=横断面研究; 本主题同类 2 篇; 本主题非指南最高层级=横断面研究",
+    "card_meta.json design_zh=横断面问卷调查→横断面研究; 本主题同类 2 篇; 本主题非指南最高层级=横断面研究",
     "card_meta.json n=13700; 本主题有 n 的原始研究 2 篇中最大"
    ]
   },
@@ -241,7 +241,7 @@
    "backfill": false,
    "pick_reason_zh": "本库同主题样本量最大（n=13700）。",
    "basis": [
-    "papers.json design_category=横断面研究; 本主题同类 2 篇; 本主题非指南最高层级=横断面研究",
+    "card_meta.json design_zh=横断面问卷调查→横断面研究; 本主题同类 2 篇; 本主题非指南最高层级=横断面研究",
     "card_meta.json n=13700; 本主题有 n 的原始研究 2 篇中最大"
    ],
    "note": "去重后从“最新”移除，仍在本主题“最重要”"
@@ -254,7 +254,7 @@
    "backfill": false,
    "pick_reason_zh": null,
    "basis": [
-    "papers.json design_category=横断面研究; 本主题同类 2 篇; 本主题非指南最高层级=横断面研究"
+    "card_meta.json design_zh=横断面调查→横断面研究; 本主题同类 2 篇; 本主题非指南最高层级=横断面研究"
    ]
   },
   {
@@ -263,7 +263,7 @@
    "backfill": false,
    "pick_reason_zh": null,
    "basis": [
-    "papers.json design_category=横断面研究; 本主题同类 2 篇; 本主题非指南最高层级=横断面研究"
+    "card_meta.json design_zh=横断面调查→横断面研究; 本主题同类 2 篇; 本主题非指南最高层级=横断面研究"
    ]
   },
   {
@@ -272,7 +272,7 @@
    "backfill": false,
    "pick_reason_zh": null,
    "basis": [
-    "papers.json design_category=横断面研究; 本主题同类 2 篇; 本主题非指南最高层级=横断面研究"
+    "card_meta.json design_zh=横断面调查→横断面研究; 本主题同类 2 篇; 本主题非指南最高层级=横断面研究"
    ],
    "note": "去重后从“最新”移除，仍在本主题“最重要”"
   }
@@ -442,7 +442,7 @@
    "backfill": false,
    "pick_reason_zh": null,
    "basis": [
-    "papers.json design_category=病例系列（无对照）; 本主题同类 1 篇; 本主题非指南最高层级=随机对照试验"
+    "card_meta.json design_zh=前瞻性观察（病例系列 + 健康对照）→病例系列（无对照）; 本主题同类 3 篇; 本主题非指南最高层级=随机对照试验"
    ]
   },
   {
@@ -451,7 +451,7 @@
    "backfill": false,
    "pick_reason_zh": null,
    "basis": [
-    "papers.json design_category=病例系列（无对照）; 本主题同类 1 篇; 本主题非指南最高层级=随机对照试验"
+    "card_meta.json design_zh=前瞻性观察（病例系列 + 健康对照）→病例系列（无对照）; 本主题同类 3 篇; 本主题非指南最高层级=随机对照试验"
    ]
   },
   {
@@ -460,7 +460,7 @@
    "backfill": false,
    "pick_reason_zh": null,
    "basis": [
-    "papers.json design_category=病例系列（无对照）; 本主题同类 1 篇; 本主题非指南最高层级=横断面研究"
+    "card_meta.json design_zh=前瞻性观察（病例系列 + 健康对照）→病例系列（无对照）; 本主题同类 3 篇; 本主题非指南最高层级=病例系列（无对照）"
    ]
   },
   {
@@ -469,7 +469,7 @@
    "backfill": false,
    "pick_reason_zh": null,
    "basis": [
-    "papers.json design_category=病例系列（无对照）; 本主题同类 1 篇; 本主题非指南最高层级=横断面研究"
+    "card_meta.json design_zh=前瞻性观察（病例系列 + 健康对照）→病例系列（无对照）; 本主题同类 3 篇; 本主题非指南最高层级=病例系列（无对照）"
    ],
    "note": "去重后从“最新”移除，仍在本主题“最重要”"
   },
@@ -479,7 +479,7 @@
    "backfill": false,
    "pick_reason_zh": null,
    "basis": [
-    "papers.json design_category=病例系列（无对照）; 本主题同类 1 篇; 本主题非指南最高层级=系统综述/Meta分析"
+    "card_meta.json design_zh=前瞻性观察（病例系列 + 健康对照）→病例系列（无对照）; 本主题同类 3 篇; 本主题非指南最高层级=系统综述/Meta分析"
    ]
   }
  ],
@@ -488,27 +488,29 @@
    "topic": "cardiology",
    "list": "最新",
    "backfill": true,
-   "pick_reason_zh": null,
+   "pick_reason_zh": "本库同主题病例系列中样本量最大（n=48）。",
    "basis": [
-    "papers.json design_category=横断面研究; 本主题同类 2 篇; 本主题非指南最高层级=随机对照试验"
+    "card_meta.json design_zh=回顾性病例系列（扩张型心肌病犬按饮食分组比较）→病例系列（无对照）; 本主题同类 3 篇; 本主题非指南最高层级=随机对照试验",
+    "card_meta.json n=48; 本主题同类有 n 的 3 篇中最大"
    ]
   },
   {
    "topic": "cardiomyopathy",
    "list": "最新",
    "backfill": false,
-   "pick_reason_zh": null,
+   "pick_reason_zh": "本库同主题病例系列中样本量最大（n=48）。",
    "basis": [
-    "papers.json design_category=横断面研究; 本主题同类 2 篇; 本主题非指南最高层级=随机对照试验"
+    "card_meta.json design_zh=回顾性病例系列（扩张型心肌病犬按饮食分组比较）→病例系列（无对照）; 本主题同类 3 篇; 本主题非指南最高层级=随机对照试验",
+    "card_meta.json n=48; 本主题同类有 n 的 3 篇中最大"
    ]
   },
   {
    "topic": "diet_dcm",
    "list": "最重要",
    "backfill": false,
-   "pick_reason_zh": "本库同主题中唯一的横断面研究，也是除指南外设计层级最高的研究，本库同主题样本量最大（n=48）。",
+   "pick_reason_zh": "本库同主题样本量最大（n=48）。",
    "basis": [
-    "papers.json design_category=横断面研究; 本主题同类 1 篇; 本主题非指南最高层级=横断面研究",
+    "card_meta.json design_zh=回顾性病例系列（扩张型心肌病犬按饮食分组比较）→病例系列（无对照）; 本主题同类 3 篇; 本主题非指南最高层级=病例系列（无对照）",
     "card_meta.json n=48; 本主题有 n 的原始研究 3 篇中最大"
    ]
   },
@@ -516,9 +518,9 @@
    "topic": "diet_dcm",
    "list": "最新(去重前)",
    "backfill": false,
-   "pick_reason_zh": "本库同主题中唯一的横断面研究，也是除指南外设计层级最高的研究，本库同主题样本量最大（n=48）。",
+   "pick_reason_zh": "本库同主题样本量最大（n=48）。",
    "basis": [
-    "papers.json design_category=横断面研究; 本主题同类 1 篇; 本主题非指南最高层级=横断面研究",
+    "card_meta.json design_zh=回顾性病例系列（扩张型心肌病犬按饮食分组比较）→病例系列（无对照）; 本主题同类 3 篇; 本主题非指南最高层级=病例系列（无对照）",
     "card_meta.json n=48; 本主题有 n 的原始研究 3 篇中最大"
    ],
    "note": "去重后从“最新”移除，仍在本主题“最重要”"
@@ -527,9 +529,10 @@
    "topic": "nutrition",
    "list": "最新",
    "backfill": true,
-   "pick_reason_zh": "本库同主题中唯一的横断面研究。",
+   "pick_reason_zh": "本库同主题病例系列中样本量最大（n=48）。",
    "basis": [
-    "papers.json design_category=横断面研究; 本主题同类 1 篇; 本主题非指南最高层级=系统综述/Meta分析"
+    "card_meta.json design_zh=回顾性病例系列（扩张型心肌病犬按饮食分组比较）→病例系列（无对照）; 本主题同类 3 篇; 本主题非指南最高层级=系统综述/Meta分析",
+    "card_meta.json n=48; 本主题同类有 n 的 3 篇中最大"
    ]
   }
  ],
@@ -582,7 +585,7 @@
    "backfill": false,
    "pick_reason_zh": null,
    "basis": [
-    "papers.json design_category=随机对照试验; 本主题同类 2 篇; 本主题非指南最高层级=随机对照试验"
+    "card_meta.json design_zh=RCT→随机对照试验; 本主题同类 2 篇; 本主题非指南最高层级=随机对照试验"
    ]
   }
  ],
@@ -593,7 +596,7 @@
    "backfill": false,
    "pick_reason_zh": "本库同主题 RCT 中样本量最大（n=76），本库同主题中唯一证据确定性为“高”的研究。",
    "basis": [
-    "papers.json design_category=随机对照试验; 本主题同类 2 篇; 本主题非指南最高层级=随机对照试验",
+    "card_meta.json design_zh=RCT→随机对照试验; 本主题同类 2 篇; 本主题非指南最高层级=随机对照试验",
     "card_meta.json n=76; 本主题同类有 n 的 2 篇中最大",
     "certainty.json certainty=高; 本主题确定性≥高 的: ['23078651']"
    ]
@@ -604,7 +607,7 @@
    "backfill": false,
    "pick_reason_zh": null,
    "basis": [
-    "papers.json design_category=随机对照试验; 本主题同类 3 篇; 本主题非指南最高层级=随机对照试验",
+    "card_meta.json design_zh=RCT→随机对照试验; 本主题同类 3 篇; 本主题非指南最高层级=随机对照试验",
     "certainty.json certainty=高; 本主题确定性≥高 的: ['27678080', '23078651']"
    ]
   }
@@ -667,7 +670,7 @@
    "backfill": false,
    "pick_reason_zh": null,
    "basis": [
-    "papers.json design_category=队列研究; 本主题同类 9 篇; 本主题非指南最高层级=系统综述/Meta分析"
+    "card_meta.json design_zh=前瞻性观察队列→队列研究; 本主题同类 8 篇; 本主题非指南最高层级=系统综述/Meta分析"
    ]
   },
   {
@@ -676,7 +679,7 @@
    "backfill": false,
    "pick_reason_zh": null,
    "basis": [
-    "papers.json design_category=队列研究; 本主题同类 9 篇; 本主题非指南最高层级=系统综述/Meta分析"
+    "card_meta.json design_zh=前瞻性观察队列→队列研究; 本主题同类 8 篇; 本主题非指南最高层级=系统综述/Meta分析"
    ]
   }
  ],
@@ -687,7 +690,7 @@
    "backfill": false,
    "pick_reason_zh": null,
    "basis": [
-    "papers.json design_category=系统综述/Meta分析; 本主题同类 2 篇; 本主题非指南最高层级=系统综述/Meta分析"
+    "card_meta.json design_zh=系统综述/Meta分析→系统综述/Meta分析; 本主题同类 2 篇; 本主题非指南最高层级=系统综述/Meta分析"
    ]
   },
   {
@@ -696,7 +699,7 @@
    "backfill": false,
    "pick_reason_zh": null,
    "basis": [
-    "papers.json design_category=系统综述/Meta分析; 本主题同类 2 篇; 本主题非指南最高层级=系统综述/Meta分析"
+    "card_meta.json design_zh=系统综述/Meta分析→系统综述/Meta分析; 本主题同类 2 篇; 本主题非指南最高层级=系统综述/Meta分析"
    ]
   }
  ],
@@ -707,7 +710,7 @@
    "backfill": false,
    "pick_reason_zh": null,
    "basis": [
-    "papers.json design_category=系统综述/Meta分析; 本主题同类 2 篇; 本主题非指南最高层级=系统综述/Meta分析"
+    "card_meta.json design_zh=系统综述→系统综述/Meta分析; 本主题同类 2 篇; 本主题非指南最高层级=系统综述/Meta分析"
    ]
   },
   {
@@ -716,7 +719,7 @@
    "backfill": false,
    "pick_reason_zh": null,
    "basis": [
-    "papers.json design_category=系统综述/Meta分析; 本主题同类 2 篇; 本主题非指南最高层级=系统综述/Meta分析"
+    "card_meta.json design_zh=系统综述→系统综述/Meta分析; 本主题同类 2 篇; 本主题非指南最高层级=系统综述/Meta分析"
    ]
   }
  ],
@@ -795,7 +798,7 @@
    "backfill": false,
    "pick_reason_zh": "本库同主题中唯一的系统综述，也是除指南外设计层级最高的研究。",
    "basis": [
-    "papers.json design_category=系统综述/Meta分析; 本主题同类 1 篇; 本主题非指南最高层级=系统综述/Meta分析",
+    "card_meta.json design_zh=系统综述（无 Meta 分析）→系统综述/Meta分析; 本主题同类 1 篇; 本主题非指南最高层级=系统综述/Meta分析",
     "certainty.json certainty=极低; 本主题确定性≥极低 的: ['38884190', '40941356']"
    ]
   },
@@ -805,7 +808,7 @@
    "backfill": false,
    "pick_reason_zh": "本库同主题中唯一的系统综述，也是除指南外设计层级最高的研究。",
    "basis": [
-    "papers.json design_category=系统综述/Meta分析; 本主题同类 1 篇; 本主题非指南最高层级=系统综述/Meta分析",
+    "card_meta.json design_zh=系统综述（无 Meta 分析）→系统综述/Meta分析; 本主题同类 1 篇; 本主题非指南最高层级=系统综述/Meta分析",
     "certainty.json certainty=极低; 本主题确定性≥极低 的: ['38884190', '40941356']"
    ],
    "note": "去重后从“最新”移除，仍在本主题“最重要”"
@@ -816,7 +819,7 @@
    "backfill": false,
    "pick_reason_zh": "本库同主题中唯一的系统综述，也是除指南外设计层级最高的研究。",
    "basis": [
-    "papers.json design_category=系统综述/Meta分析; 本主题同类 1 篇; 本主题非指南最高层级=系统综述/Meta分析",
+    "card_meta.json design_zh=系统综述（无 Meta 分析）→系统综述/Meta分析; 本主题同类 1 篇; 本主题非指南最高层级=系统综述/Meta分析",
     "certainty.json certainty=极低; 本主题确定性≥极低 的: ['38884190', '40941356']"
    ]
   }
@@ -828,7 +831,7 @@
    "backfill": false,
    "pick_reason_zh": "本库同主题中唯一的 RCT，本库同主题中唯一证据确定性为“中”的研究。",
    "basis": [
-    "papers.json design_category=随机对照试验; 本主题同类 1 篇; 本主题非指南最高层级=系统综述/Meta分析",
+    "card_meta.json design_zh=RCT（阳性对照、开放标签、非劣效现场试验）→随机对照试验; 本主题同类 1 篇; 本主题非指南最高层级=系统综述/Meta分析",
     "certainty.json certainty=中; 本主题确定性≥中 的: ['38884190']"
    ]
   },
@@ -838,7 +841,7 @@
    "backfill": false,
    "pick_reason_zh": "本库同主题中唯一的 RCT，本库同主题中唯一证据确定性为“中”的研究。",
    "basis": [
-    "papers.json design_category=随机对照试验; 本主题同类 1 篇; 本主题非指南最高层级=系统综述/Meta分析",
+    "card_meta.json design_zh=RCT（阳性对照、开放标签、非劣效现场试验）→随机对照试验; 本主题同类 1 篇; 本主题非指南最高层级=系统综述/Meta分析",
     "certainty.json certainty=中; 本主题确定性≥中 的: ['38884190']"
    ]
   }
@@ -873,7 +876,9 @@
    "list": "最新",
    "backfill": true,
    "pick_reason_zh": null,
-   "basis": []
+   "basis": [
+    "card_meta.json design_zh=病例系列 + 实验→病例系列（无对照）; 本主题同类 3 篇; 本主题非指南最高层级=病例系列（无对照）"
+   ]
   }
  ],
  "27143042": [
@@ -937,7 +942,7 @@
    "backfill": false,
    "pick_reason_zh": null,
    "basis": [
-    "papers.json design_category=队列研究; 本主题同类 3 篇; 本主题非指南最高层级=队列研究"
+    "card_meta.json design_zh=纵向队列（VetCompass）→队列研究; 本主题同类 3 篇; 本主题非指南最高层级=队列研究"
    ]
   }
  ],
@@ -948,7 +953,7 @@
    "backfill": false,
    "pick_reason_zh": "本库同主题样本量最大（n=299555）。",
    "basis": [
-    "papers.json design_category=队列研究; 本主题同类 3 篇; 本主题非指南最高层级=队列研究",
+    "card_meta.json design_zh=回顾性队列（保险数据）→队列研究; 本主题同类 3 篇; 本主题非指南最高层级=队列研究",
     "card_meta.json n=299555; 本主题有 n 的原始研究 3 篇中最大"
    ]
   },
@@ -958,7 +963,7 @@
    "backfill": false,
    "pick_reason_zh": "本库同主题样本量最大（n=299555）。",
    "basis": [
-    "papers.json design_category=队列研究; 本主题同类 3 篇; 本主题非指南最高层级=队列研究",
+    "card_meta.json design_zh=回顾性队列（保险数据）→队列研究; 本主题同类 3 篇; 本主题非指南最高层级=队列研究",
     "card_meta.json n=299555; 本主题有 n 的原始研究 3 篇中最大"
    ],
    "note": "去重后从“最新”移除，仍在本主题“最重要”"
@@ -971,7 +976,7 @@
    "backfill": false,
    "pick_reason_zh": null,
    "basis": [
-    "papers.json design_category=队列研究; 本主题同类 3 篇; 本主题非指南最高层级=队列研究"
+    "card_meta.json design_zh=回顾性队列（保险数据）→队列研究; 本主题同类 3 篇; 本主题非指南最高层级=队列研究"
    ]
   },
   {
@@ -980,7 +985,7 @@
    "backfill": false,
    "pick_reason_zh": null,
    "basis": [
-    "papers.json design_category=队列研究; 本主题同类 3 篇; 本主题非指南最高层级=队列研究"
+    "card_meta.json design_zh=回顾性队列（保险数据）→队列研究; 本主题同类 3 篇; 本主题非指南最高层级=队列研究"
    ],
    "note": "去重后从“最新”移除，仍在本主题“最重要”"
   }
@@ -1087,7 +1092,7 @@
    "backfill": false,
    "pick_reason_zh": null,
    "basis": [
-    "papers.json design_category=病例系列（无对照）; 本主题同类 12 篇; 本主题非指南最高层级=系统综述/Meta分析"
+    "card_meta.json design_zh=前瞻性单臂试点→病例系列（无对照）; 本主题同类 10 篇; 本主题非指南最高层级=系统综述/Meta分析"
    ]
   },
   {
@@ -1096,7 +1101,7 @@
    "backfill": false,
    "pick_reason_zh": null,
    "basis": [
-    "papers.json design_category=病例系列（无对照）; 本主题同类 12 篇; 本主题非指南最高层级=系统综述/Meta分析"
+    "card_meta.json design_zh=前瞻性单臂试点→病例系列（无对照）; 本主题同类 10 篇; 本主题非指南最高层级=系统综述/Meta分析"
    ]
   }
  ],
@@ -1107,7 +1112,7 @@
    "backfill": false,
    "pick_reason_zh": null,
    "basis": [
-    "papers.json design_category=随机对照试验; 本主题同类 3 篇; 本主题非指南最高层级=系统综述/Meta分析",
+    "card_meta.json design_zh=RCT（非劣效）→随机对照试验; 本主题同类 3 篇; 本主题非指南最高层级=系统综述/Meta分析",
     "certainty.json certainty=高; 本主题确定性≥高 的: ['41781382', '39066306', '37632022']"
    ]
   },
@@ -1117,7 +1122,7 @@
    "backfill": false,
    "pick_reason_zh": null,
    "basis": [
-    "papers.json design_category=随机对照试验; 本主题同类 3 篇; 本主题非指南最高层级=系统综述/Meta分析",
+    "card_meta.json design_zh=RCT（非劣效）→随机对照试验; 本主题同类 3 篇; 本主题非指南最高层级=系统综述/Meta分析",
     "certainty.json certainty=高; 本主题确定性≥高 的: ['41781382', '39066306', '37632022']"
    ]
   }
@@ -1129,7 +1134,7 @@
    "backfill": true,
    "pick_reason_zh": null,
    "basis": [
-    "papers.json design_category=病例系列（无对照）; 本主题同类 12 篇; 本主题非指南最高层级=系统综述/Meta分析"
+    "card_meta.json design_zh=前瞻性单臂研究→病例系列（无对照）; 本主题同类 10 篇; 本主题非指南最高层级=系统综述/Meta分析"
    ]
   },
   {
@@ -1138,7 +1143,7 @@
    "backfill": true,
    "pick_reason_zh": null,
    "basis": [
-    "papers.json design_category=病例系列（无对照）; 本主题同类 12 篇; 本主题非指南最高层级=系统综述/Meta分析"
+    "card_meta.json design_zh=前瞻性单臂研究→病例系列（无对照）; 本主题同类 10 篇; 本主题非指南最高层级=系统综述/Meta分析"
    ]
   }
  ],
@@ -1168,18 +1173,18 @@
    "topic": "hyperthyroidism",
    "list": "最重要",
    "backfill": false,
-   "pick_reason_zh": "本库同主题中唯一的病例系列，也是除指南外设计层级最高的研究。",
+   "pick_reason_zh": "本库同主题中唯一的横断面研究，也是除指南外设计层级最高的研究。",
    "basis": [
-    "papers.json design_category=病例系列（无对照）; 本主题同类 1 篇; 本主题非指南最高层级=病例系列（无对照）"
+    "card_meta.json design_zh=横断面→横断面研究; 本主题同类 1 篇; 本主题非指南最高层级=横断面研究"
    ]
   },
   {
    "topic": "hyperthyroidism",
    "list": "最新(去重前)",
    "backfill": false,
-   "pick_reason_zh": "本库同主题中唯一的病例系列，也是除指南外设计层级最高的研究。",
+   "pick_reason_zh": "本库同主题中唯一的横断面研究，也是除指南外设计层级最高的研究。",
    "basis": [
-    "papers.json design_category=病例系列（无对照）; 本主题同类 1 篇; 本主题非指南最高层级=病例系列（无对照）"
+    "card_meta.json design_zh=横断面→横断面研究; 本主题同类 1 篇; 本主题非指南最高层级=横断面研究"
    ],
    "note": "去重后从“最新”移除，仍在本主题“最重要”"
   }
@@ -1191,7 +1196,7 @@
    "backfill": false,
    "pick_reason_zh": "本库同主题 RCT 中样本量最大（n=354）。",
    "basis": [
-    "papers.json design_category=随机对照试验; 本主题同类 3 篇; 本主题非指南最高层级=随机对照试验",
+    "card_meta.json design_zh=RCT→随机对照试验; 本主题同类 3 篇; 本主题非指南最高层级=随机对照试验",
     "card_meta.json n=354; 本主题同类有 n 的 3 篇中最大",
     "certainty.json certainty=高; 本主题确定性≥高 的: ['27678080', '23078651']"
    ]
@@ -1202,7 +1207,7 @@
    "backfill": false,
    "pick_reason_zh": "本库同主题 RCT 中样本量最大（n=354）。",
    "basis": [
-    "papers.json design_category=随机对照试验; 本主题同类 3 篇; 本主题非指南最高层级=随机对照试验",
+    "card_meta.json design_zh=RCT→随机对照试验; 本主题同类 3 篇; 本主题非指南最高层级=随机对照试验",
     "card_meta.json n=354; 本主题同类有 n 的 3 篇中最大",
     "certainty.json certainty=高; 本主题确定性≥高 的: ['27678080', '23078651']"
    ],
@@ -1216,7 +1221,7 @@
    "backfill": false,
    "pick_reason_zh": null,
    "basis": [
-    "papers.json design_category=随机对照试验; 本主题同类 3 篇; 本主题非指南最高层级=随机对照试验"
+    "card_meta.json design_zh=RCT→随机对照试验; 本主题同类 3 篇; 本主题非指南最高层级=随机对照试验"
    ]
   }
  ],
@@ -1227,7 +1232,7 @@
    "backfill": true,
    "pick_reason_zh": "本库同主题中唯一的队列研究，本库同主题样本量最大（n=558）。",
    "basis": [
-    "papers.json design_category=队列研究; 本主题同类 1 篇; 本主题非指南最高层级=随机对照试验",
+    "card_meta.json design_zh=预后队列→队列研究; 本主题同类 1 篇; 本主题非指南最高层级=随机对照试验",
     "card_meta.json n=558; 本主题有 n 的原始研究 4 篇中最大"
    ]
   }
@@ -1239,7 +1244,7 @@
    "backfill": false,
    "pick_reason_zh": null,
    "basis": [
-    "papers.json design_category=病例系列（无对照）; 本主题同类 1 篇; 本主题非指南最高层级=病例系列（无对照）",
+    "card_meta.json design_zh=病例系列→病例系列（无对照）; 本主题同类 1 篇; 本主题非指南最高层级=病例系列（无对照）",
     "本主题本库仅 1 篇，无可比对象"
    ]
   },
@@ -1249,7 +1254,7 @@
    "backfill": false,
    "pick_reason_zh": null,
    "basis": [
-    "papers.json design_category=病例系列（无对照）; 本主题同类 1 篇; 本主题非指南最高层级=病例系列（无对照）",
+    "card_meta.json design_zh=病例系列→病例系列（无对照）; 本主题同类 1 篇; 本主题非指南最高层级=病例系列（无对照）",
     "本主题本库仅 1 篇，无可比对象"
    ],
    "note": "去重后从“最新”移除，仍在本主题“最重要”"
@@ -1273,7 +1278,7 @@
    "backfill": false,
    "pick_reason_zh": "本库同主题中唯一的 RCT，本库同主题中唯一证据确定性为“高”的研究。",
    "basis": [
-    "papers.json design_category=随机对照试验; 本主题同类 1 篇; 本主题非指南最高层级=系统综述/Meta分析",
+    "card_meta.json design_zh=RCT→随机对照试验; 本主题同类 1 篇; 本主题非指南最高层级=系统综述/Meta分析",
     "certainty.json certainty=高; 本主题确定性≥高 的: ['38952053']"
    ]
   },
@@ -1283,7 +1288,7 @@
    "backfill": false,
    "pick_reason_zh": "本库同主题中唯一的 RCT，本库同主题中唯一证据确定性为“高”的研究。",
    "basis": [
-    "papers.json design_category=随机对照试验; 本主题同类 1 篇; 本主题非指南最高层级=系统综述/Meta分析",
+    "card_meta.json design_zh=RCT→随机对照试验; 本主题同类 1 篇; 本主题非指南最高层级=系统综述/Meta分析",
     "certainty.json certainty=高; 本主题确定性≥高 的: ['38952053']"
    ],
    "note": "去重后从“最新”移除，仍在本主题“最重要”"
@@ -1294,27 +1299,27 @@
    "topic": "nutrition",
    "list": "最重要",
    "backfill": false,
-   "pick_reason_zh": null,
+   "pick_reason_zh": "本库同主题中唯一的队列研究。",
    "basis": [
-    "papers.json design_category=队列研究; 本主题同类 2 篇; 本主题非指南最高层级=系统综述/Meta分析"
+    "card_meta.json design_zh=前瞻性队列→队列研究; 本主题同类 1 篇; 本主题非指南最高层级=系统综述/Meta分析"
    ]
   },
   {
    "topic": "obesity",
    "list": "最重要",
    "backfill": false,
-   "pick_reason_zh": null,
+   "pick_reason_zh": "本库同主题中唯一的队列研究。",
    "basis": [
-    "papers.json design_category=队列研究; 本主题同类 2 篇; 本主题非指南最高层级=系统综述/Meta分析"
+    "card_meta.json design_zh=前瞻性队列→队列研究; 本主题同类 1 篇; 本主题非指南最高层级=系统综述/Meta分析"
    ]
   },
   {
    "topic": "obesity",
    "list": "最新(去重前)",
    "backfill": false,
-   "pick_reason_zh": null,
+   "pick_reason_zh": "本库同主题中唯一的队列研究。",
    "basis": [
-    "papers.json design_category=队列研究; 本主题同类 2 篇; 本主题非指南最高层级=系统综述/Meta分析"
+    "card_meta.json design_zh=前瞻性队列→队列研究; 本主题同类 1 篇; 本主题非指南最高层级=系统综述/Meta分析"
    ],
    "note": "去重后从“最新”移除，仍在本主题“最重要”"
   }
@@ -1324,9 +1329,9 @@
    "topic": "nutrition",
    "list": "最新",
    "backfill": false,
-   "pick_reason_zh": "本库同主题样本量最大（n=50787）。",
+   "pick_reason_zh": "本库同主题中唯一的病例对照研究，本库同主题样本量最大（n=50787）。",
    "basis": [
-    "papers.json design_category=队列研究; 本主题同类 2 篇; 本主题非指南最高层级=系统综述/Meta分析",
+    "card_meta.json design_zh=回顾性病例—对照→病例对照研究; 本主题同类 1 篇; 本主题非指南最高层级=系统综述/Meta分析",
     "card_meta.json n=50787; 本主题有 n 的原始研究 7 篇中最大",
     "certainty.json certainty=中; 本主题确定性≥中 的: ['38952053', '30548336']"
    ]
@@ -1335,9 +1340,9 @@
    "topic": "obesity",
    "list": "最重要",
    "backfill": false,
-   "pick_reason_zh": "本库同主题样本量最大（n=50787），本库同主题中唯一证据确定性为“中”的研究。",
+   "pick_reason_zh": "本库同主题中唯一的病例对照研究，本库同主题样本量最大（n=50787），本库同主题中唯一证据确定性为“中”的研究。",
    "basis": [
-    "papers.json design_category=队列研究; 本主题同类 2 篇; 本主题非指南最高层级=系统综述/Meta分析",
+    "card_meta.json design_zh=回顾性病例—对照→病例对照研究; 本主题同类 1 篇; 本主题非指南最高层级=系统综述/Meta分析",
     "card_meta.json n=50787; 本主题有 n 的原始研究 3 篇中最大",
     "certainty.json certainty=中; 本主题确定性≥中 的: ['30548336']"
    ]
@@ -1346,9 +1351,9 @@
    "topic": "obesity",
    "list": "最新(去重前)",
    "backfill": false,
-   "pick_reason_zh": "本库同主题样本量最大（n=50787），本库同主题中唯一证据确定性为“中”的研究。",
+   "pick_reason_zh": "本库同主题中唯一的病例对照研究，本库同主题样本量最大（n=50787），本库同主题中唯一证据确定性为“中”的研究。",
    "basis": [
-    "papers.json design_category=队列研究; 本主题同类 2 篇; 本主题非指南最高层级=系统综述/Meta分析",
+    "card_meta.json design_zh=回顾性病例—对照→病例对照研究; 本主题同类 1 篇; 本主题非指南最高层级=系统综述/Meta分析",
     "card_meta.json n=50787; 本主题有 n 的原始研究 3 篇中最大",
     "certainty.json certainty=中; 本主题确定性≥中 的: ['30548336']"
    ],
@@ -1362,7 +1367,7 @@
    "backfill": false,
    "pick_reason_zh": "本库同主题中唯一的非随机对照试验。",
    "basis": [
-    "papers.json design_category=非随机对照试验; 本主题同类 1 篇; 本主题非指南最高层级=系统综述/Meta分析"
+    "card_meta.json design_zh=配对饲喂对照试验→非随机对照试验; 本主题同类 1 篇; 本主题非指南最高层级=系统综述/Meta分析"
    ]
   }
  ],
