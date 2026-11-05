@@ -1,0 +1,32 @@
+{
+  "id": "pmid-42983843",
+  "pmid": "42983843",
+  "title": "Local genetic distance-guided qPCR method for genotyping canine/feline coronaviruses",
+  "first_author": "Liu D",
+  "year": "2026",
+  "date": "2026-08-04",
+  "journal": "Virol J",
+  "doi": "10.1186/s12985-026-03263-6",
+  "pmcid": "",
+  "species": "猫/犬",
+  "specialty": "未分类",
+  "topics": [
+    "epidemiology",
+    "fip"
+  ],
+  "source": "PubMed (E-utilities)",
+  "oa": "未核",
+  "doc_type": "待定",
+  "publication_types": [
+    "Journal Article"
+  ],
+  "sample_size_analysed": "未核",
+  "multicenter": "未核",
+  "funding": "未核",
+  "verified": "partial",
+  "status": "待处理",
+  "provenance": [
+    "ingest"
+  ],
+  "ingested_at": "2026-11-05"
+}
