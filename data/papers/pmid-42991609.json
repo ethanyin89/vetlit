@@ -1,0 +1,33 @@
+{
+  "id": "pmid-42991609",
+  "pmid": "42991609",
+  "title": "Clinical and Hematologic Response to Remdesivir Treatment in Cats With Feline Infectious Peritonitis in Iran: A Prospective Observational Study",
+  "first_author": "Khavari E",
+  "year": "2026",
+  "date": "2026-01-01",
+  "journal": "Arch Razi Inst",
+  "doi": "10.32598/ari.81.1.3992",
+  "pmcid": "PMC13736381",
+  "species": "猫",
+  "specialty": "未分类",
+  "topics": [
+    "fip",
+    "obesity"
+  ],
+  "source": "PubMed (E-utilities)",
+  "oa": "是",
+  "doc_type": "待定",
+  "publication_types": [
+    "Journal Article",
+    "Observational Study"
+  ],
+  "sample_size_analysed": "未核",
+  "multicenter": "未核",
+  "funding": "未核",
+  "verified": "partial",
+  "status": "待处理",
+  "provenance": [
+    "ingest"
+  ],
+  "ingested_at": "2026-11-06"
+}

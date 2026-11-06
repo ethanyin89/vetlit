@@ -1,0 +1,32 @@
+{
+  "id": "pmid-42989398",
+  "pmid": "42989398",
+  "title": "Development and validation of a latex-based lateral flow assay for the serological diagnosis of feline leishmaniosis caused by Leishmania infantum",
+  "first_author": "Puerta López G",
+  "year": "2026",
+  "date": "2026-08-12",
+  "journal": "Parasit Vectors",
+  "doi": "10.1186/s13071-026-07625-5",
+  "pmcid": "",
+  "species": "猫",
+  "specialty": "未分类",
+  "topics": [
+    "infectious"
+  ],
+  "source": "PubMed (E-utilities)",
+  "oa": "未核",
+  "doc_type": "待定",
+  "publication_types": [
+    "Journal Article",
+    "Validation Study"
+  ],
+  "sample_size_analysed": "未核",
+  "multicenter": "未核",
+  "funding": "未核",
+  "verified": "partial",
+  "status": "待处理",
+  "provenance": [
+    "ingest"
+  ],
+  "ingested_at": "2026-11-06"
+}
