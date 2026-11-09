@@ -1,0 +1,34 @@
+{
+  "id": "pmid-43000584",
+  "pmid": "43000584",
+  "title": "Characterization of emergent feline calicivirus and evaluation of the nucleoside analog GS-441524 as a therapeutic intervention",
+  "first_author": "Gao J",
+  "year": "2026",
+  "date": "2026-11-08",
+  "journal": "Arch Virol",
+  "doi": "10.1007/s00705-026-06778-z",
+  "pmcid": "",
+  "species": "猫",
+  "specialty": "未分类",
+  "topics": [
+    "epidemiology",
+    "fip",
+    "infectious",
+    "obesity"
+  ],
+  "source": "PubMed (E-utilities)",
+  "oa": "未核",
+  "doc_type": "待定",
+  "publication_types": [
+    "Journal Article"
+  ],
+  "sample_size_analysed": "未核",
+  "multicenter": "未核",
+  "funding": "未核",
+  "verified": "partial",
+  "status": "待处理",
+  "provenance": [
+    "ingest"
+  ],
+  "ingested_at": "2026-11-09"
+}
