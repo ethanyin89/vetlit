@@ -40,11 +40,16 @@ g=next(x for x in B.X.TOP['topics'] if x['topic']==TOPIC); it={str(i['pmid']):i 
 for pm in ('36940185','42007020','30115047'): assert it[pm]['design']=='叙述性综述', pm
 assert all(not i.get('reason') for i in g['items'])
 L2=lambda t:([p['pmid'] for p in B.tops(t) or B._fill([B.get(c['id']) for c in B.TBY[t].get('core') or []] or sorted(B.tpapers(B.TBY[t]),key=lambda p:p.get('importance_rank') or 999))])
+# child topic uses the certainty-aware site rule; parent dermatology has no top_picks
+# row and still uses the pre-existing importance_rank fallback (parent aggregation unchanged).
+EXPECT={'canine_atopic_dermatitis':(['42805756','26260508','20187910'],['40470278','36940185','42007020']),
+        'dermatology':(['42805756','26260508','40470278'],['36940185','42007020','34180084'])}
 for t in (TOPIC,PARENT):
     s=open(f'dist/topics/{t}/index.html',encoding='utf-8').read(); a,b=s.split('<h4 class="tb">最新</h4>',1)
     ids=lambda x: list(dict.fromkeys(re.findall(r'papers/pmid-(\d+)/"',x)))
-    assert ids(a.split('<h4 class="tb">最重要</h4>')[-1])==['42805756','26260508','40470278'], (t,ids(a))
-    assert ids(b.split('<h2',1)[0])==['36940185','42007020','34180084'], (t,ids(b))
+    I,N=EXPECT[t]
+    assert ids(a.split('<h4 class="tb">最重要</h4>')[-1])==I, (t,ids(a))
+    assert ids(b.split('<h2',1)[0])==N, (t,ids(b))
     assert s.count(f'<p class="why">{REASON}</p>')==1 and len(re.findall(r'<p class="why">',s))==1, t
 # 2026-11-09 follow-up: certainty entries from deep extract; 42805756 COI 待查
 h=H('42805756'); top=h.split('id="evidence"',1)[0]

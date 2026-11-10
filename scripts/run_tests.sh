@@ -22,5 +22,6 @@ python3 tests/test_topic_fix.py
 VETLIT_LIVE=1 python3 tests/test_applicability.py
 VETLIT_LIVE=1 python3 tests/test_deep_speedread.py
 python3 tests/test_ingest_v2.py
+VETLIT_LIVE=1 python3 tests/test_ranking_certainty.py
 python3 scripts/check_links.py
 echo ALL OK

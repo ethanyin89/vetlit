@@ -477,16 +477,100 @@ def _fill(cands,k=3,taken=()):
             seen.add(p['sid']); out.append(p); pm.add(str(p.get('pmid') or ''))
         if len(out)==k: break
     return out
-def tops(tid):
-    c=[]
+# 最重要 ranking (single site rule). Type order first; fully-kept superseded guidelines last within type;
+# then certainty 高>中>低>极低 (unrated papers use certainty.json provisional if any; no value at all
+# sorts after 极低); then 2021+ first; then citations/year; ties newer. Candidate pool, parent
+# aggregation (tids/kids) and same-cohort / superseded filters in _fill are unchanged.
+TYPES=['指南/共识','系统综述/Meta分析','随机对照试验','非随机对照试验','队列研究','病例对照研究','横断面研究','病例系列（无对照）','叙述性综述','实验/基础研究']
+TYPE_FALLBACK={'知识摘要（二次文献）':'叙述性综述','系统评价（待核实）':'叙述性综述','核心结局集共识':'叙述性综述'}
+CERT_RANK={'高':0,'中':1,'低':2,'极低':3}
+NO_CERT=4  # unrated/不适用/missing with no provisional: after 极低
+def _rank_type(design):
+    d=TYPE_FALLBACK.get(design,design)
+    return TYPES.index(d) if d in TYPES else len(TYPES)
+def _year_int(p,item=None):
+    for v in ((item or {}).get('year'), p.get('year'), (p.get('pub_date') or '')[:4]):
+        try:
+            y=int(v); 
+            if 1900<=y<=2100: return y
+        except (TypeError,ValueError):
+            pass
+    return 0
+def _load_cites_yr():
+    out={}
+    # stored 年均 in top_picks reasons (2026-11-03 snapshot) and citations_per_year in detail top3
     for g in (X.TOP.get('topics') or []):
-        if g.get('topic')==tid: c+=[get(str(i.get('pmid') or i.get('id') if isinstance(i,dict) else i)) for i in (g.get('items') or g.get('picks') or [])]
+        for i in (g.get('items') or []):
+            if not isinstance(i,dict): continue
+            m=re.search(r'年均 ([\d.]+) 次', i.get('reason') or '')
+            if m: out[str(i.get('pmid') or i.get('id'))]=float(m.group(1))
+    for path in ('top_picks_detail.json',):
+        fp=os.path.join(ROOT,'data','v5','extras',path)
+        # detail lives in the extracts repo; optional
+        pass
+    # OpenAlex raw counts for papers that had no stored 年均
+    for fn in ('openalex_cites_2026-11-09.json','openalex_cites_dogAD_2026-11-09.json'):
+        fp=os.path.join(ROOT,'data','v5','extras',fn)
+        if not os.path.exists(fp): continue
+        raw=json.load(open(fp,encoding='utf-8'))
+        for k,v in raw.items():
+            if k.startswith('_') or str(k) in out: continue
+            try: n=float(v) if not isinstance(v,dict) else float(v.get('cited_by_count') or v.get('count') or 0)
+            except (TypeError,ValueError): continue
+            # year filled later in cites_yr()
+            out['_raw_'+str(k)]=n
+    return out
+_CITES_YR=_load_cites_yr()
+# optional extract detail citations_per_year
+_DET=os.path.join('/workspace/vetlit/extracts','top_picks_detail.json')
+if os.path.exists(_DET):
+    for _g in (json.load(open(_DET,encoding='utf-8')).get('topics') or {}).values():
+        for i in (_g.get('top3') or []):
+            pmid=str(i.get('pmid') or i.get('id') or '')
+            if pmid and pmid not in _CITES_YR and i.get('citations_per_year') is not None:
+                try: _CITES_YR[pmid]=float(i['citations_per_year'])
+                except (TypeError,ValueError): pass
+def cites_yr(p,item=None):
+    pmid=str(p.get('pmid') or p.get('sid') or '')
+    if pmid in _CITES_YR: return _CITES_YR[pmid]
+    raw=_CITES_YR.get('_raw_'+pmid)
+    if raw is None: return 0.0
+    y=_year_int(p,item) or 2026
+    return raw/max(1,2026-y+1)
+def cert_rank(p):
+    """0–3 = 高中低极低; unrated uses provisional; no usable value → NO_CERT (after 极低)."""
+    r=CERT.get(str(p.get('pmid') or '')) or CERT.get(str(p.get('sid') or '')) or CERT.get(str(p.get('sid') or '').replace('pmid-','')) or {}
+    c=r.get('certainty')
+    if c in CERT_RANK: return CERT_RANK[c]
+    if c in (None,'待评定') or (isinstance(c,str) and c.startswith('暂未评级')):
+        pv=r.get('provisional')
+        if pv in CERT_RANK: return CERT_RANK[pv]
+    return NO_CERT
+def rank_key(p,item=None):
+    design=(item or {}).get('design') or p.get('design_category') or ''
+    pmid=str(p.get('pmid') or '')
+    sup=bool((item or {}).get('superseded_by') or (SUPER.get(pmid) or {}).get('by') or sup_info(p))
+    y=_year_int(p,item)
+    date=p.get('pub_date') or ''
+    return (_rank_type(design), 1 if sup else 0, cert_rank(p), 0 if y>=2021 else 1, -round(cites_yr(p,item),2), [-int(x) if str(x).isdigit() else 0 for x in (date.split('-')+['0','0','0'])[:3]])
+def tops(tid):
+    items=[]
+    for g in (X.TOP.get('topics') or []):
+        if g.get('topic')==tid: items=list(g.get('items') or g.get('picks') or [])
     t=TBY.get(tid)
-    if not c: return []
+    if not items: return []
+    item_by={str(i.get('pmid') or i.get('id')):i for i in items if isinstance(i,dict)}
+    cands,seen=[],set()
+    def add(p):
+        if p and p.get('sid') not in seen:
+            seen.add(p['sid']); cands.append(p)
+    for i in items:
+        add(get(str(i.get('pmid') or i.get('id') if isinstance(i,dict) else i)))
     if t:
-        c+=[get(x['id']) for x in (t.get('core') or [])]
-        c+=sorted(tpapers(t),key=lambda p:p.get('importance_rank') or 999)
-    return _fill(c)
+        for x in (t.get('core') or []): add(get(x['id'] if isinstance(x,dict) else x))
+        for p in tpapers(t): add(p)
+    cands=sorted(cands, key=lambda p: rank_key(p, item_by.get(str(p.get('pmid') or '')) or item_by.get(str(p.get('sid') or ''))))
+    return _fill(cands)
 NEWEST_5Y=False  # 5-year 最新 window: built but OFF — hides 7 topics' 最新 on current data; awaiting decision
 def newest_cutoff(today=None):  # rolling 5 years from build date (as PubMed's '5 years' filter)
     d=today or datetime.date.today()
