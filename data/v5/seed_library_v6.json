@@ -6406,7 +6406,7 @@
   "cebm_level": "2",
   "cebm_basis": "",
   "rob_tool": "RoB 2",
-  "rob_judgement": "高",
+  "rob_judgement": "未评",
   "rob_rationale": "",
   "guideline_recommendation": "不适用",
   "reporting_checklist": "",
@@ -6430,8 +6430,7 @@
   "population_type": "natural",
   "population_type_note": "",
   "rob_tool_note": "",
-  "text_source_force": "全文",
-  "appraisal_note": "RoB 2 总体：高"
+  "text_source_force": "全文"
  },
  {
   "id": "20187911",

@@ -1,7 +1,7 @@
 """Run after both builds: reader pages carry no process/curation content; home stamp only moves when home picks change."""
 import os, sys, re, glob, json, subprocess
 REPO=os.path.join(os.path.dirname(os.path.abspath(__file__)),'..'); os.chdir(REPO)
-BAD=('deep extract','Vibe','判定规则','标签含义','翻译流程','第二译者','每个专题取','CEBM 等级最高','排序规则','#contributors','本周','related_works')
+BAD=('deep extract','Vibe','判定规则','标签含义','翻译流程','第二译者','每个专题取','CEBM 等级最高','排序规则','#contributors','本周','related_works','第三方裁定','第二评估者','单人','双人','双重独立','逐条核对','尚无临床兽医审阅','第二人复核')
 files=[f for f in glob.glob('dist/**/*',recursive=True) if f.endswith(('.html','.xml','.json'))]
 assert len(files)>300
 for f in files:

@@ -2252,22 +2252,17 @@
   },
   "34180084": {
    "rules_applied": [
-    "R-start-treatment-RCT-high",
-    "R-VF-bias-toward-null"
+    "R-no-RoB-pending"
    ],
    "question_type": "治疗获益",
    "question_basis": "extracts/cebm_dogAD_2026-11-10.json",
-   "start": "高",
-   "start_basis": "RCT：治疗获益问题，RCT→高",
-   "downgrades": [
-    "偏倚方向朝向无效，不降"
-   ],
-   "certainty": "高",
-   "notes_zh": "RoB 2 总体高（D3：第 28 天前退出）。退出：盐水对照 16/62，lokivetmab 3/61，全部因症状加重或无改善，无不良事件退出 → 偏倚朝向无效，不降（Vibe 裁定 2026-11-09）。人群宽于 AD，按 v4 不降，仅记录",
-   "rob_tool": "RoB 2",
-   "rob_overall": "高",
-   "rob_source": "extracts/rob_round1_dogAD_2026-11-09.json（Vibe 2026-11-09 裁定）",
-   "provisional": "高"
+   "start": null,
+   "start_basis": "",
+   "downgrades": [],
+   "provisional": null,
+   "certainty": "待评定",
+   "notes_zh": "未做偏倚风险评估",
+   "pending_reason_zh": "尚未做偏倚风险评估（RoB 2）"
   },
   "20187911": {
    "rules_applied": [

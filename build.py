@@ -226,7 +226,7 @@ def topic_page(t,ps):
     tp=[p for p in ps if t['id'] in p['topics'] and not p['fresh']]
     kids=[x for x in TOPICS if x.get('parent')==t['id']]
     g=os.path.join(ROOT,'data','topics',t['id']+'.md')
-    gsec=f'<section class="card"><h2>主题证据确定性（GRADE）<span class="pill pend">单人草稿 · 未经第二人复核</span></h2><article class="prose">{md(open(g,encoding="utf-8").read())}</article></section>' if os.path.exists(g) else ''
+    gsec=f'<section class="card"><h2>主题证据确定性（GRADE）</h2><article class="prose">{md(open(g,encoding="utf-8").read())}</article></section>' if os.path.exists(g) else ''
     par=next((x for x in TOPICS if x['id']==t.get('parent')),None)
     body=f'''<p class="crumb"><a href="../../index.html">文献</a> / <a href="../index.html">专题</a>{f' / <a href="../{par["id"]}/index.html">{E_(par["name_zh"])}</a>' if par else ''}</p><h1>{E_(t["name_zh"])} <small lang="en">{E_(t.get("name_en",""))}</small></h1>
 <p class="small muted">分类来源：{E_(t.get("source",""))}{(" · MeSH："+E_(", ".join(t["mesh"]))) if t.get("mesh") else ""} · {len(tp)} 篇</p>
@@ -247,8 +247,13 @@ def rss(ps):
     items=sorted(ps,key=lambda p:p['date'],reverse=True)[:50]
     it=''.join(f'''<item><title>{E_(p['title'])}</title><link>{SITE_URL}/papers/{p['id']}/index.html</link><guid>{SITE_URL}/papers/{p['id']}/</guid><description>{E_(f"{p.get('journal','')} {p['date']} · {p.get('doc_type','')} · CEBM 2011：{p['cebm_display']}")}</description></item>''' for p in items)
     return f'<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>宠物医学文献速读</title><link>{SITE_URL}/</link><description>犬猫兽医文献专业速读</description><language>zh-cn</language>{it}</channel></rss>'
+PROC=[(r'（单人 GRADE 草稿[^）]*）',''),(r'GRADE 草稿（单人）','GRADE 草稿'),(r'单人审读[；;]\s*',''),(r'[；;，]\s*单人速读，未双人复核',''),(r'单人速读，未双人复核[。；]?','')]
+def unproc(s):
+    """Reader pages never carry process labels (who assessed/extracted, single/dual review)."""
+    for a,b_ in PROC: s=re.sub(a,b_,s)
+    return s
 def w(path,s):
-    os.makedirs(os.path.dirname(path),exist_ok=True); open(path,'w',encoding='utf-8').write(s)
+    os.makedirs(os.path.dirname(path),exist_ok=True); open(path,'w',encoding='utf-8').write(unproc(s))
 def main():
     ps=load(); shutil.rmtree(DIST,ignore_errors=True); shutil.copytree(os.path.join(ROOT,'static'),os.path.join(DIST,'static'))
     w(os.path.join(DIST,'index.html'),index(ps)); w(os.path.join(DIST,'about','index.html'),about())

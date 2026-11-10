@@ -19,6 +19,7 @@ for pm in NEW:
     for bad in ('Vibe','deep extract','裁定','OpenAlex','年均'): assert bad not in h, (pm,bad)
     if pm in GUIDES: assert B.CERT[pm]['certainty'] is None
     elif pm=='30115047': assert B.CERT[pm]['certainty']=='不适用' and 'R-na-nonclinical' in B.CERT[pm]['rules_applied'] and '不分级' in top, pm
+    elif pm=='34180084': assert B.CERT[pm]['certainty']=='待评定' and 'RoB 2 尚未评估' in h, pm   # on hold: dropout numbers re-checked
     else: assert B.CERT[pm]==SRC[pm], pm
     if B.CERT[pm].get('certainty')=='待评定': assert '证据确定性待评定' in fold, pm
     assert not any(x in str(B.CERT[pm].get('rob_tool') or '') for x in ('AMSTAR','ROBIS')), pm

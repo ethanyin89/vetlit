@@ -36,6 +36,8 @@ BIB={
  '30115047':("Development of a core outcome set for therapeutic clinical trials enrolling dogs with atopic dermatitis (COSCAD'18).",'Olivry T','2018-08-16','叙述性综述'),
 }
 NEW=list(BIB); assert set(NEW)==set(SR)==set(CM)==set(CE)==set(TS)==set(TD)==set(OA)-{'_meta'}, 'source files disagree on the 14 PMIDs'
+# 34180084: RoB 2 dropout numbers are being re-checked (room 2026-11-09) -> certainty NOT taken from deep extract yet; keep 待评定 and the earlier sentence.
+HOLD={'34180084':'本文为设盲安慰剂对照 RCT，CEBM 治疗问题 2 级（人群宽于特应性皮炎，间接性另注），RoB 2 尚未评估，结论基于全文。'}
 GUIDES={'42805756','26260508'}; REASON_PM='42805756'; REASON='取代 2010 版和 2015 版 ICADA 犬特应性皮炎治疗指南。'
 # pre-merge checks (team list, 2026-11-09)
 assert PR[REASON_PM]['pick_reason_zh']==REASON
@@ -53,7 +55,7 @@ DC={'指南/共识':'指南/共识','系统综述/Meta分析':'系统综述/Meta
 LABEL_DC={'36940185':'系统评价（待核实）','42007020':'知识摘要（二次文献）','30115047':'核心结局集共识'}
 _CS=L(os.path.join(S,'certainty.json'))['papers']
 def rob_tool(pm,cs):   # study-level tool only; review-quality tools (AMSTAR 2 / ROBIS) go to review_rob_* (certainty.json)
-    t=str((_CS.get(pm) or {}).get('rob_tool') or '').strip()
+    t='' if pm in HOLD else str((_CS.get(pm) or {}).get('rob_tool') or '').strip()
     if t: return t
     for t in ('RoB 2','QUADAS-2'):
         if t in cs: return t
@@ -81,7 +83,7 @@ for pm in NEW:
       'population_type':'na' if (g or rt in ('系统综述/Meta分析','叙述性综述')) else 'natural','population_type_note':'',
       'rob_tool_note':'指南' if g else '','text_source_force':'摘要' if absonly else '全文'}
     if absonly: rec['basis_label']='仅基于摘要'
-    _r=_CS.get(pm) or {}
+    _r={} if pm in HOLD else (_CS.get(pm) or {})
     if _r.get('rob_tool') and _r.get('rob_overall'):   # study-level RoB done (Vibe-reviewed): show the result in 偏倚风险
         rec['rob_judgement']=_r['rob_overall']; rec['appraisal_note']=f"{_r['rob_tool']} 总体：{_r['rob_overall']}"
     if pm in byp: seed[byp[pm]]=rec
@@ -91,7 +93,7 @@ for pm in NEW:
 _g=next(r for r in seed if r['pmid']=='42805756'); _g['guideline_recommendation']=L(os.path.join(S,'certainty.json'))['papers']['42805756']['guideline_strength']
 assert '待查' not in _g['funding'] and 'self-funded' in _g['funding'], _g['funding']
 W(os.path.join(V,'seed_library_v6.json'),seed)
-sr=L(os.path.join(V,'speedread_fields_v5.json')); sr=[r for r in sr if r.get('pmid') not in BIB]+[dict(SR[p]) for p in NEW]; W(os.path.join(V,'speedread_fields_v5.json'),sr)
+sr=L(os.path.join(V,'speedread_fields_v5.json')); sr=[r for r in sr if r.get('pmid') not in BIB]+[dict(SR[p],**({'confidence_sentence':HOLD[p]} if p in HOLD else {})) for p in NEW]; W(os.path.join(V,'speedread_fields_v5.json'),sr)
 cm=L(os.path.join(V,'card_meta.json')); cm['papers'].update({p:CM[p] for p in NEW}); W(os.path.join(V,'card_meta.json'),cm)
 ce=L(os.path.join(V,'certainty.json'))
 for pm in NEW:
@@ -109,6 +111,7 @@ assert _src['30115047']['certainty']=='不适用' and 'R-na-nonclinical' in _src
 assert _src['42805756']['certainty'] is None and 'SORT' in _src['42805756']['guideline_strength']
 assert _src['26260508']['guideline_strength']=='该指南未分级'
 for _k in NEW:
+    if _k in HOLD: continue
     assert _k in _src, _k
     assert not any(x in str(_src[_k].get('rob_tool') or '') for x in ('AMSTAR','ROBIS')), _k
     ce['papers'][_k]=_src[_k]
