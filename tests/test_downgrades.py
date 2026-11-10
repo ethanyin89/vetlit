@@ -12,8 +12,8 @@ assert th('34180084')==['偏倚风险 不降级','间接性 降一级'], th('341
 assert th('20187911')==['偏倚风险 降两级','间接性 降一级'], th('20187911')
 M=json.load(open('data/v5/certainty.json',encoding='utf-8'))['_meta']
 assert M['rules_v4_amend_2026-11-09_indirectness'].endswith('研究人群比专题问题宽时，降一级。') and 'downgrades_schema' in M
-assert set(M['rules_v4_amend_2026-11-09_dogAD'])=={'R-VF-bias-toward-null','R-VF-noninferiority-ITT-CI','R-SR-body-of-evidence'}
+assert set(M['rules_v4_amend_2026-11-09_dogAD'])=={'R-nodown-bias-toward-null','R-down-noninferiority-ITT-CI','R-SR-body-of-evidence'}
 for f in glob.glob('dist/**/*.html',recursive=True)+['dist/papers.json','dist/feed.xml']:
     s=open(f,encoding='utf-8').read()
-    assert 'source_file' not in s and 'downgrades_schema' not in s and 'rules_v4_amend' not in s and not re.search(r'\bR-(?:down|VF|SR|na|start|no|guideline|rob)-',s), f
+    assert 'source_file' not in s and 'downgrades_schema' not in s and 'rules_v4_amend' not in s and not re.search(r'\bR-(?:down|nodown|design|VF|SR|na|start|no|guideline|rob)-',s), f
 print('downgrade labels tests OK')

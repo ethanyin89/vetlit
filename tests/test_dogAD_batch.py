@@ -56,5 +56,5 @@ assert B.CERT['26260508']['guideline_strength']=='该指南未分级'
 assert B.CERT['34180084']['certainty']=='中' and 'R-down-indirectness-population' in B.CERT['34180084']['rules_applied']
 M=json.load(open('data/v5/certainty.json',encoding='utf-8'))['_meta']; assert M['rules_v4_amend_2026-11-09_indirectness'].startswith('R-down-indirectness-population')
 import glob
-for f in glob.glob('dist/**/*.html',recursive=True): assert not re.search(r'\bR-(?:down|VF|na|start|SR|guideline|no|rob)-',open(f,encoding='utf-8').read()), f
+for f in glob.glob('dist/**/*.html',recursive=True): assert not re.search(r'\bR-(?:down|nodown|design|VF|na|start|SR|guideline|no|rob)-',open(f,encoding='utf-8').read()), f
 print('dogAD batch tests OK')

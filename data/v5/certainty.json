@@ -11,8 +11,8 @@
   "rules_v4_amend_2026-11-09": "RoB 2 “一些担忧”（GRADE/Cochrane Handbook，Vibe 裁定 2026-11-09）：担忧领域会影响主要结局时降一级，并写明理由；否则不降。预后研究的偏倚风险工具用 QUIPS（Cochrane 预后综述），患病率部分仍用 JBI 患病率清单。",
   "rules_v4_amend_2026-11-09_indirectness": "R-down-indirectness-population：研究人群比专题问题宽时，降一级。",
   "rules_v4_amend_2026-11-09_dogAD": {
-   "R-VF-bias-toward-null": "偏倚朝向无效不降级：只在退出原因是无效、且用药组退出明显少于对照组时适用；各组都大量缺失时照常降级。",
-   "R-VF-noninferiority-ITT-CI": "非劣效试验：每项结局分开判定，看组间差值（或检验值）是否落在界值内；写出界值，不算 NNT。",
+   "R-nodown-bias-toward-null": "偏倚朝向无效不降级：只在退出原因是无效、且用药组退出明显少于对照组时适用；各组都大量缺失时照常降级。",
+   "R-down-noninferiority-ITT-CI": "非劣效试验：每项结局分开判定，看组间差值（或检验值）是否落在界值内；写出界值，不算 NNT。",
    "R-SR-body-of-evidence": "系统评价：确定性按证据本身定。综述自己做过 GRADE 的，用它的结果；没做过的，按纳入研究推。综述自身的质量只写在 review_rob_* 里。"
   },
   "downgrades_schema": "downgrades[] = {domain, steps(负整数为降级数，0=考虑过但不降), reason_zh, source_file}；前端按 steps 显示“降一级/降两级/不降级”"
@@ -1253,7 +1253,7 @@
   },
   "30797439": {
    "rules_applied": [
-    "R-VF-ruling-30797439-design-harm",
+    "R-design-30797439-harm",
     "R-start-treatment-observational-low",
     "R-no-RoB-pending"
    ],
@@ -1378,7 +1378,7 @@
    "rules_applied": [
     "R-start-SR-by-included-designs",
     "R-no-RoB-pending",
-    "R-VF-ruling-SR-included-designs-unverified"
+    "R-start-SR-included-designs-unverified"
    ],
    "question_type": "诊断",
    "question_basis": "extracts/cebm_fill.json",
@@ -1394,7 +1394,7 @@
    "rules_applied": [
     "R-start-SR-by-included-designs",
     "R-no-RoB-pending",
-    "R-VF-ruling-SR-included-designs-unverified"
+    "R-start-SR-included-designs-unverified"
    ],
    "question_type": "诊断",
    "question_basis": "extracts/cebm_fill.json",
@@ -2117,7 +2117,7 @@
   "16412115": {
    "rules_applied": [
     "R-SR-body-of-evidence",
-    "R-VF-ruling-SR-included-designs-unverified",
+    "R-start-SR-included-designs-unverified",
     "R-no-RoB-pending"
    ],
    "question_type": "治疗获益",
@@ -2223,7 +2223,7 @@
   "42007020": {
    "rules_applied": [
     "R-na-review",
-    "R-VF-knowledge-summary-own-strength"
+    "R-na-knowledge-summary-own-strength"
    ],
    "question_type": null,
    "question_basis": null,
@@ -2308,7 +2308,7 @@
    "rules_applied": [
     "R-start-treatment-RCT-high",
     "R-rob-assessed-v4",
-    "R-VF-noninferiority-ITT-CI"
+    "R-down-noninferiority-ITT-CI"
    ],
    "question_type": "治疗获益",
    "question_basis": "extracts/cebm_dogAD_2026-11-10.json",
@@ -2332,7 +2332,7 @@
   "34180084": {
    "rules_applied": [
     "R-start-treatment-RCT-high",
-    "R-VF-bias-toward-null",
+    "R-nodown-bias-toward-null",
     "R-down-indirectness-population"
    ],
    "question_type": "治疗获益",

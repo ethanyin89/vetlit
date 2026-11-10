@@ -9,8 +9,8 @@ S='/workspace/vetlit/extracts'; V=os.path.join(os.path.dirname(os.path.abspath(_
 L=lambda f: json.load(open(f,encoding='utf-8'))
 def W(f,d): json.dump(d,open(f,'w',encoding='utf-8'),ensure_ascii=False,indent=1)
 src=L(os.path.join(S,'certainty.json')); ce=L(os.path.join(V,'certainty.json'))
-RULES={'R-VF-bias-toward-null':'偏倚朝向无效不降级：只在退出原因是无效、且用药组退出明显少于对照组时适用；各组都大量缺失时照常降级。',
- 'R-VF-noninferiority-ITT-CI':'非劣效试验：每项结局分开判定，看组间差值（或检验值）是否落在界值内；写出界值，不算 NNT。',
+RULES={'R-nodown-bias-toward-null':'偏倚朝向无效不降级：只在退出原因是无效、且用药组退出明显少于对照组时适用；各组都大量缺失时照常降级。',
+ 'R-down-noninferiority-ITT-CI':'非劣效试验：每项结局分开判定，看组间差值（或检验值）是否落在界值内；写出界值，不算 NNT。',
  'R-SR-body-of-evidence':'系统评价：确定性按证据本身定。综述自己做过 GRADE 的，用它的结果；没做过的，按纳入研究推。综述自身的质量只写在 review_rob_* 里。'}
 used={x for r in ce['papers'].values() if isinstance(r,dict) for x in (r.get('rules_applied') or [])}
 assert set(RULES)<=used, set(RULES)-used
