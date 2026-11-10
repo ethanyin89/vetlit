@@ -7,7 +7,8 @@
   "v1": "benchmark/work/certainty_v1.json",
   "v2": "benchmark/work/certainty_v2.json",
   "v3": "benchmark/work/certainty_v3.json",
-  "rules_v4_amend_2026-11-04": "ROBINS-I 总体映射（GRADE，Vibe 裁定 2026-11-04）：Serious 降 1 级，Critical 降 2 级（至极低为止）；JBI 清单不设阈值，总体判断由评审人作出并写明理由；病例报告/病例系列用 JBI 病例系列清单，不用 ROBINS-I；卡片确定性按一句话结论所述结局，多个结局取最低（GRADE 按结局评级）。"
+  "rules_v4_amend_2026-11-04": "ROBINS-I 总体映射（GRADE，Vibe 裁定 2026-11-04）：Serious 降 1 级，Critical 降 2 级（至极低为止）；JBI 清单不设阈值，总体判断由评审人作出并写明理由；病例报告/病例系列用 JBI 病例系列清单，不用 ROBINS-I；卡片确定性按一句话结论所述结局，多个结局取最低（GRADE 按结局评级）。",
+  "rules_v4_amend_2026-11-09": "RoB 2 “一些担忧”（GRADE/Cochrane Handbook，Vibe 裁定 2026-11-09）：担忧领域会影响主要结局时降一级，并写明理由；否则不降。预后研究的偏倚风险工具用 QUIPS（Cochrane 预后综述），患病率部分仍用 JBI 患病率清单。"
  },
  "papers": {
   "42043241": {
@@ -489,17 +490,21 @@
   "18638016": {
    "rules_applied": [
     "R-start-treatment-RCT-high",
-    "R-no-RoB-pending"
+    "R-rob-assessed-v4"
    ],
    "question_type": "治疗获益",
    "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
    "start": "高",
    "start_basis": "RCT：治疗获益问题，RCT→高",
-   "downgrades": [],
-   "provisional": "高",
-   "certainty": "待评定",
-   "notes_zh": "未做偏倚风险评估",
-   "pending_reason_zh": "尚未做偏倚风险评估（RoB 2）"
+   "downgrades": [
+    "RoB：RoB 2 总体一些担忧，D4 影响主要结局 −1"
+   ],
+   "certainty": "中",
+   "notes_zh": "偏倚风险（RoB 2）：一些担忧（D2、D4）。D4 影响主要结局：190 个事件中 75 个为未设盲主人参与决定的安乐死，按 v4 修订（2026-11-09）降一级",
+   "rob_tool": "RoB 2",
+   "rob_overall": "一些担忧",
+   "rob_source": "extracts/rob_round1_2026-11-04.json（Vibe 2026-11-09 复核通过）",
+   "provisional": "高"
   },
   "16978113": {
    "rules_applied": [
@@ -720,17 +725,24 @@
   "23647231": {
    "rules_applied": [
     "R-start-prevalence-observational-high",
-    "R-no-RoB-pending"
+    "R-rob-assessed-v4"
    ],
    "question_type": "患病率/危险因素",
    "question_basis": "Vibe 裁定 2026-11-04",
    "start": "高",
-   "start_basis": "VetCompass 回顾性研究：患病率/危险因素问题（GRADE：此类问题观察性起点高），偏倚风险工具 JBI",
-   "downgrades": [],
-   "provisional": "高",
-   "certainty": "待评定",
-   "notes_zh": "未做偏倚风险评估",
-   "pending_reason_zh": "尚未做偏倚风险评估（JBI，无全文）"
+   "start_basis": "VetCompass 回顾性研究：患病率/危险因素问题（GRADE：此类问题观察性起点高），偏倚风险工具：患病率 JBI，预后 QUIPS（2026-11-09）",
+   "downgrades": [
+    "患病率：RoB JBI 总体高 −1",
+    "生存/预后：RoB QUIPS 总体高 −1"
+   ],
+   "certainty": "中",
+   "notes_zh": "偏倚风险：表观患病率（JBI 患病率清单）高；确诊后生存/IRIS、BUN 预后（QUIPS）高——失访、预后因素测量两域高",
+   "rob_tool": "JBI 患病率清单（患病率）＋ QUIPS（预后）",
+   "rob_overall": "按结局分：表观患病率 高；确诊后生存/IRIS、BUN 预后 高",
+   "rob_source": "extracts/rob_round1_2026-11-04.json（Vibe 2026-11-09 复核通过）",
+   "certainty_by_outcome": "表观患病率 中（RoB 高 −1）；确诊后中位生存 中（RoB 高 −1）；IRIS 分期、BUN 与死亡风险 中（RoB 高 −1）",
+   "card_certainty_basis": "Vibe 裁定：卡片取一句话结论所述结局的最低等级；结论含表观患病率、确诊后中位生存、IRIS/BUN 与死亡风险，三者均为中 → 中",
+   "provisional": "高"
   },
   "22269057": {
    "rules_applied": [

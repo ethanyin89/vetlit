@@ -410,10 +410,16 @@ def affects_conclusion(p): return rep_inc(p).get('severity')=='affects_conclusio
 def ri_notice(p):
     n=rep_inc(p).get('note_zh')
     return f'<p class="note">⚠ {E_(" ".join(str(n).split()))}</p>' if n else ''
-def _fill(cands,k=3):
-    out,seen=[],set()
+def cohort(p):  # same_cohort_as (card_meta, deep extract): partner PMIDs reporting the same cohort
+    m=CMETA.get(str(p.get('pmid') or '')) or {}
+    return {str(x) for x in (m.get('same_cohort_as') or [])}
+def _fill(cands,k=3,taken=()):
+    """Walk cands in order; skip superseded / conclusion-affecting / duplicates, and any paper whose
+    same_cohort_as partner is already listed (in this list or in `taken`, the topic's other list)."""
+    out,seen=[],set(); pm={str(q.get('pmid') or '') for q in taken if q}
     for p in cands:
-        if p and not is_super(p) and not affects_conclusion(p) and p['sid'] not in seen: seen.add(p['sid']); out.append(p)
+        if p and not is_super(p) and not affects_conclusion(p) and p['sid'] not in seen and not (cohort(p)&pm):
+            seen.add(p['sid']); out.append(p); pm.add(str(p.get('pmid') or ''))
         if len(out)==k: break
     return out
 def tops(tid):
@@ -434,7 +440,7 @@ def newest_cutoff(today=None):  # rolling 5 years from build date (as PubMed's '
     return c.isoformat()
 def newest3(ps,skip=(),today=None):  # 最新: within 5 years; skips anything already in this topic's 最重要, then fills to 3
     sk={q['sid'] for q in skip if q}; cut=newest_cutoff(today)
-    return _fill([p for p in sorted(ps,key=lambda p:p.get('pub_date') or '',reverse=True) if p['sid'] not in sk and (not NEWEST_5Y or (p.get('pub_date') or '')[:10]>=cut)])
+    return _fill([p for p in sorted(ps,key=lambda p:p.get('pub_date') or '',reverse=True) if p['sid'] not in sk and (not NEWEST_5Y or (p.get('pub_date') or '')[:10]>=cut)],taken=skip)
 # Card reason = pick_reason_zh from data/v5/extras/pick_reason.json (deep extract; synced from extracts/).
 # Shape: {pmid: [{topic, list: 最重要|最新, pick_reason_zh, ...}]}. Only entries Vibe marked approved render
 # (entry "approved": true, or "approved_by": "Vibe"). Flag PICK_REASON_ON is off unless the file carries any
