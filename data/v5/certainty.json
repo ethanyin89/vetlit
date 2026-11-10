@@ -1497,6 +1497,189 @@
    "guideline_strength": "该指南未分级",
    "guideline_strength_source": "extracts/certainty_new_2026-11-04.json（strength_quote）",
    "strength_quote": "The guidelines are prepared by a task force of experts convened by AAHA, and recommendations are based on practical clinical experience and a consensus of expert opinion."
+  },
+  "37167252": {
+   "rules_applied": [
+    "R-guideline-own-strength"
+   ],
+   "question_type": null,
+   "question_basis": null,
+   "start": null,
+   "start_basis": "指南/共识：按团队规则不套用 GRADE",
+   "downgrades": [],
+   "provisional": null,
+   "certainty": null,
+   "notes_zh": "指南/共识不评证据确定性，首屏显示指南自身推荐强度",
+   "guideline_strength": "该指南未分级",
+   "guideline_strength_source": "extracts/cebm_hyperthyroid_2026-11-05.json（card_display）"
+  },
+  "42004674": {
+   "rules_applied": [
+    "R-no-RoB-pending"
+   ],
+   "question_type": "治疗获益",
+   "question_basis": "extracts/cebm_hyperthyroid_2026-11-05.json",
+   "start": null,
+   "start_basis": "",
+   "downgrades": [],
+   "provisional": null,
+   "certainty": "待评定",
+   "notes_zh": "未做偏倚风险评估",
+   "pending_reason_zh": "尚未做偏倚风险评估（ROBIS）"
+  },
+  "42800045": {
+   "rules_applied": [
+    "R-no-RoB-pending"
+   ],
+   "question_type": "预后",
+   "question_basis": "extracts/cebm_hyperthyroid_2026-11-05.json",
+   "start": null,
+   "start_basis": "",
+   "downgrades": [],
+   "provisional": null,
+   "certainty": "待评定",
+   "notes_zh": "未做偏倚风险评估",
+   "pending_reason_zh": "尚未做偏倚风险评估（QUIPS）"
+  },
+  "39831449": {
+   "rules_applied": [
+    "R-no-RoB-pending"
+   ],
+   "question_type": "治疗获益",
+   "question_basis": "extracts/cebm_hyperthyroid_2026-11-05.json",
+   "start": null,
+   "start_basis": "",
+   "downgrades": [],
+   "provisional": null,
+   "certainty": "待评定",
+   "notes_zh": "未做偏倚风险评估",
+   "pending_reason_zh": "尚未做偏倚风险评估（ROBINS-I）"
+  },
+  "39724773": {
+   "rules_applied": [
+    "R-no-RoB-pending"
+   ],
+   "question_type": "预后",
+   "question_basis": "extracts/cebm_hyperthyroid_2026-11-05.json",
+   "start": null,
+   "start_basis": "",
+   "downgrades": [],
+   "provisional": null,
+   "certainty": "待评定",
+   "notes_zh": "未做偏倚风险评估",
+   "pending_reason_zh": "尚未做偏倚风险评估（QUIPS）"
+  },
+  "16478432": {
+   "rules_applied": [
+    "R-no-RoB-pending"
+   ],
+   "question_type": "治疗获益",
+   "question_basis": "extracts/cebm_hyperthyroid_2026-11-05.json",
+   "start": null,
+   "start_basis": "",
+   "downgrades": [],
+   "provisional": null,
+   "certainty": "待评定",
+   "notes_zh": "未做偏倚风险评估",
+   "pending_reason_zh": "尚未做偏倚风险评估（ROBINS-I）"
+  },
+  "39019056": {
+   "rules_applied": [
+    "R-no-RoB-pending"
+   ],
+   "question_type": "治疗获益",
+   "question_basis": "extracts/cebm_hyperthyroid_2026-11-05.json",
+   "start": null,
+   "start_basis": "",
+   "downgrades": [],
+   "provisional": null,
+   "certainty": "待评定",
+   "notes_zh": "未做偏倚风险评估",
+   "pending_reason_zh": "尚未做偏倚风险评估（ROBINS-I）"
+  },
+  "31998612": {
+   "rules_applied": [
+    "R-no-RoB-pending"
+   ],
+   "question_type": "治疗获益",
+   "question_basis": "extracts/cebm_hyperthyroid_2026-11-05.json",
+   "start": null,
+   "start_basis": "",
+   "downgrades": [],
+   "provisional": null,
+   "certainty": "待评定",
+   "notes_zh": "未做偏倚风险评估",
+   "pending_reason_zh": "尚未做偏倚风险评估（ROBINS-I）"
+  },
+  "28158908": {
+   "rules_applied": [
+    "R-no-RoB-pending"
+   ],
+   "question_type": "治疗获益",
+   "question_basis": "extracts/cebm_hyperthyroid_2026-11-05.json",
+   "start": null,
+   "start_basis": "",
+   "downgrades": [],
+   "provisional": null,
+   "certainty": "待评定",
+   "notes_zh": "未做偏倚风险评估",
+   "pending_reason_zh": "尚未做偏倚风险评估（ROBINS-I）"
+  },
+  "20695989": {
+   "rules_applied": [
+    "R-no-RoB-pending"
+   ],
+   "question_type": "预后",
+   "question_basis": "extracts/cebm_hyperthyroid_2026-11-05.json",
+   "start": null,
+   "start_basis": "",
+   "downgrades": [],
+   "provisional": null,
+   "certainty": "待评定",
+   "notes_zh": "未做偏倚风险评估",
+   "pending_reason_zh": "尚未做偏倚风险评估（QUIPS）"
+  },
+  "26081922": {
+   "rules_applied": [
+    "R-no-RoB-pending"
+   ],
+   "question_type": "治疗获益",
+   "question_basis": "extracts/cebm_hyperthyroid_2026-11-05.json",
+   "start": null,
+   "start_basis": "",
+   "downgrades": [],
+   "provisional": null,
+   "certainty": "待评定",
+   "notes_zh": "未做偏倚风险评估",
+   "pending_reason_zh": "尚未做偏倚风险评估（JBI 病例系列清单）"
+  },
+  "34730466": {
+   "rules_applied": [
+    "R-no-RoB-pending"
+   ],
+   "question_type": "预后",
+   "question_basis": "extracts/cebm_hyperthyroid_2026-11-05.json",
+   "start": null,
+   "start_basis": "",
+   "downgrades": [],
+   "provisional": null,
+   "certainty": "待评定",
+   "notes_zh": "未做偏倚风险评估",
+   "pending_reason_zh": "尚未做偏倚风险评估（QUIPS）"
+  },
+  "40559809": {
+   "rules_applied": [
+    "R-no-RoB-pending"
+   ],
+   "question_type": "治疗获益",
+   "question_basis": "extracts/cebm_hyperthyroid_2026-11-05.json",
+   "start": null,
+   "start_basis": "",
+   "downgrades": [],
+   "provisional": null,
+   "certainty": "待评定",
+   "notes_zh": "未做偏倚风险评估",
+   "pending_reason_zh": "尚未做偏倚风险评估（ROBINS-I）"
   }
  }
 }

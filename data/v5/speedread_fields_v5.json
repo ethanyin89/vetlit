@@ -3088,5 +3088,531 @@
   "text_file": "ft/v4/42014100.txt",
   "text_url": "https://www.aaha.org/resources/2026-aaha-diabetes-management-guidelines-for-cats/",
   "text_source_note": "AAHA 官网免费网页版全文（各章节拼接）；JAAHA PDF 需订阅。官网页另有更正：表 7.1 甘精胰岛素 U-100 的低谷时间和作用时长误沿用旧版，已更正为低谷 5–6 小时、作用 11–12 小时。"
+ },
+ {
+  "pmid": "37167252",
+  "doi": "10.5326/jaaha-ms-7368",
+  "id": "37167252",
+  "matched_by": "pmid",
+  "title_zh": "AAHA 2023：猫甲亢首选放射碘",
+  "one_line_conclusion_zh": "AAHA 2023 指南：猫甲亢首选放射碘，治愈率逾 95%；不可用时可选甲巯咪唑、手术或限碘饮食。",
+  "why_it_matters": "这是北美通科最常引用的内分泌指南之一，给出了甲巯咪唑起始剂量和监测频率，可直接用于门诊。它明确说 2016 年 AAFP 指南的大部分内容仍然适用，只是补充要点和新发现。推荐未分级，多为专家意见。",
+  "key_results": [
+   {
+    "measure": "首选治疗",
+    "groups": "放射碘（131I），治愈率 >95%；IRIS 1 期肾病猫可不先做药物试验",
+    "effect_ci": "不适用",
+    "p": "不适用"
+   },
+   {
+    "measure": "甲巯咪唑用法",
+    "groups": "首周 1.25–2.5 mg q24h，之后 2.5–5 mg q12–24h；T4 目标 1.0–2.5 mcg/dL；调药期每 2–4 周查 T4",
+    "effect_ci": "不适用",
+    "p": "不适用"
+   },
+   {
+    "measure": "限碘饮食",
+    "groups": "对许多猫有效，可能需数月；必须完全不吃其他食物",
+    "effect_ci": "不适用",
+    "p": "不适用"
+   }
+  ],
+  "confidence_sentence": "指南/共识不做 CEBM 分级，该指南未分级，也未做 AGREE II 正式评分；原文称部分推荐基于临床经验和专家共识。",
+  "clinical_meaning": "有条件就首选放射碘；用甲巯咪唑要低剂量起步并定期监测，避免甲减。",
+  "key_results_top3": [
+   0,
+   1,
+   2
+  ],
+  "funding_coi_zh": "资金：指南由 Boehringer Ingelheim、IDEXX、Merck、Zoetis、Zomedica 赞助。利益冲突：网页版未见作者个人声明（JAAHA 原文未取到，待核）。",
+  "funding_coi_quote": "The 2023 AAHA Selected Endocrinopathies of Dogs and Cats Guidelines are generously supported by Boehringer Ingelheim Animal Health, IDEXX, Merck, Zoetis, and Zomedica.",
+  "text_source": "full_text",
+  "text_file": "ft/hyper/37167252_therapy-4.txt",
+  "text_url": "https://www.aaha.org/resources/2023-aaha-selected-endocrinopathies-of-dogs-and-cats-guidelines/therapy-4/"
+ },
+ {
+  "pmid": "42004674",
+  "doi": "10.18849/ve.v7i4.433",
+  "id": "42004674",
+  "matched_by": "pmid",
+  "title_zh": "I-131 与甲状腺切除：T4 正常化谁更好",
+  "one_line_conclusion_zh": "知识摘要：评述 35 篇文献后认为，中等证据支持 I-131 在使 T4 恢复正常上优于甲状腺切除。",
+  "why_it_matters": "它直接回答“放射碘还是手术”的选择问题。但纳入研究大多是回顾性的，没有随机对照，单篇研究的随访和结局定义差异很大。作者把证据强度定为“中等”，这是作者自己的判断，不是 GRADE 评级。",
+  "key_results": [
+   {
+    "measure": "治疗后 6 个月 T4 正常",
+    "groups": "多数研究为 40–87% 的猫",
+    "effect_ci": "不适用",
+    "p": "不适用"
+   },
+   {
+    "measure": "长期缓解（单项研究）",
+    "groups": "单/双侧甲状腺切除 19–47%；放射碘 100%",
+    "effect_ci": "原文未给出",
+    "p": "原文未给出"
+   },
+   {
+    "measure": "纳入证据",
+    "groups": "35 篇，多为回顾性研究，少量前瞻性队列",
+    "effect_ci": "不适用",
+    "p": "不适用"
+   }
+  ],
+  "confidence_sentence": "本文为知识摘要（二次文献，非正式系统评价），按其所引用最高证据定 CEBM 治疗获益 2 级（Théon 1994 RCT：Study design: Randomised controlled trial），ROBIS 尚未评估偏倚风险，结论基于全文。",
+  "clinical_meaning": "能做放射碘时，它在控制 T4 上可能优于手术，但证据来自非随机研究。",
+  "key_results_top3": [
+   0,
+   1,
+   2
+  ],
+  "funding_coi_zh": "资金：原文未声明。利益冲突：作者声明无利益冲突。",
+  "funding_coi_quote": "The author declares no conflicts of interest.",
+  "text_source": "full_text",
+  "text_file": "ft/hyper/PMC13082284.txt",
+  "text_url": "https://europepmc.org/article/PMC/PMC13082284"
+ },
+ {
+  "pmid": "42800045",
+  "doi": "10.1093/jvimsj/aalag233",
+  "id": "42800045",
+  "matched_by": "pmid",
+  "title_zh": "放射碘后甲减：不治疗与生存缩短相关",
+  "one_line_conclusion_zh": "放射碘治疗的 1344 只猫中，持续未治疗的甲减与死亡风险升高相关；补充左甲状腺素的猫未见此关联。",
+  "why_it_matters": "这是迄今随访最长的放射碘后转归队列之一，说明治疗后甲状腺状态会变：亚临床甲减有 42.5% 自行缓解。是否补 LT4 由主人和兽医决定，不是随机分配，存在适应证混杂。与 39724773 同一研究组、同一批猫（2013–2020 年入组），两篇不应当作独立证据叠加。",
+  "key_results": [
+   {
+    "measure": "持续未治疗甲减 vs 甲减缓解：死亡风险",
+    "groups": "多变量 Cox",
+    "effect_ci": "HR 2.24（95% CI 1.52–3.30）",
+    "p": "<.001"
+   },
+   {
+    "measure": "LT4 治疗的甲减 vs 甲减缓解：死亡风险",
+    "groups": "多变量 Cox",
+    "effect_ci": "HR 1.52（95% CI 0.90–2.56）",
+    "p": ".119"
+   },
+   {
+    "measure": "中位生存（按 6–12 个月时状态）",
+    "groups": "甲状腺功能正常 49.7 个月；亚临床甲减 44.6 个月；显性甲减 36.1 个月；初始状态在多变量中无独立关联",
+    "effect_ci": "多变量 HR：亚临床 1.09（0.90–1.31）；显性 1.30（0.93–1.82）",
+    "p": "亚临床 .383；显性 .120"
+   }
+  ],
+  "confidence_sentence": "本文为前瞻性纵向队列（预后，起始队列：均在放射碘治疗时入组），CEBM 预后问题 2 级，QUIPS 尚未评估偏倚风险，结论基于全文。",
+  "clinical_meaning": "放射碘后要长期复查甲状腺和肾功能；持续甲减值得考虑补 LT4，但未经随机试验证实。",
+  "key_results_top3": [
+   0,
+   1,
+   2
+  ],
+  "funding_coi_zh": "资金：作者声明未获专项资助。利益冲突：作者声明无利益冲突。",
+  "funding_coi_quote": "Conflicts of interest The authors declare no conflicts of interest. Funding The authors received no specific funding for this work.",
+  "text_source": "full_text",
+  "text_file": "ft/hyper/PMC13615730.txt",
+  "text_url": "https://europepmc.org/article/PMC/PMC13615730"
+ },
+ {
+  "pmid": "39831449",
+  "doi": "10.1111/jvim.17295",
+  "id": "39831449",
+  "matched_by": "pmid",
+  "title_zh": "放射碘后甲减：补 LT4 与生存",
+  "one_line_conclusion_zh": "117 只放射碘治疗猫中，无氮质血症的甲减猫补充 LT4 者生存更长；有氮质血症者未见差异。",
+  "why_it_matters": "它直接回答门诊常见的“放射碘后甲减要不要补 LT4”。补不补由主人决定，不是随机分配；各亚组只有十几只甚至更少，结果不稳定。作者自己也说需要 RCT 证实。",
+  "key_results": [
+   {
+    "measure": "无氮质血症甲减猫的中位生存",
+    "groups": "补 LT4 1037 天 vs 未补 768 天",
+    "effect_ci": "原文未给出",
+    "p": ".027"
+   },
+   {
+    "measure": "有氮质血症甲减猫的中位生存",
+    "groups": "补 LT4 771 天 vs 未补 152 天",
+    "effect_ci": "原文未给出",
+    "p": ".991"
+   },
+   {
+    "measure": "对照组比较的中位生存",
+    "groups": "甲状腺正常且无氮质血症 1616 天；甲状腺正常有氮质血症 934 天；未补的甲减猫 1232 天",
+    "effect_ci": "原文未给出",
+    "p": "分别 .003、.002"
+   }
+  ],
+  "confidence_sentence": "本文为前瞻性队列（LT4 非随机分配，同期比较补与不补），CEBM 治疗获益 3 级，ROBINS-I 尚未评估偏倚风险，结论基于全文。",
+  "clinical_meaning": "放射碘后若诊断为甲减且肾功能正常，补 LT4 可能有益，但证据有限。",
+  "key_results_top3": [
+   0,
+   1,
+   2
+  ],
+  "funding_coi_zh": "资金：加拿大 NSERC 应用研发基金。利益冲突：IDEXX 以优惠价做检测，未参与设计、数据和撰写；作者声明无其他利益冲突。",
+  "funding_coi_quote": "Laboratory testing was performed at a reduced charge by IDEXX Laboratories Inc. IDEXX Laboratories Inc. staff were not involved in the study design, data collection and interpretation or the writing of the report. The authors declare no other conflicts of interest.",
+  "text_source": "full_text",
+  "text_file": "ft/hyper/PMC11744366.txt",
+  "text_url": "https://europepmc.org/article/PMC/PMC11744366"
+ },
+ {
+  "pmid": "39724773",
+  "doi": "10.2460/javma.24.10.0653",
+  "id": "39724773",
+  "matched_by": "pmid",
+  "title_zh": "放射碘后出现氮质血症的猫生存更短",
+  "one_line_conclusion_zh": "放射碘治疗后恢复正常的 1047 只猫中，12% 出现氮质血症，其中位生存比未出现者短约 1.5 年。",
+  "why_it_matters": "甲亢会掩盖慢性肾病，治疗后才暴露出来。早期研究认为药物或手术后的轻中度氮质血症不影响生存，本文结果相反。只读到摘要，无法核对校正了哪些混杂因素。与 42800045 同一研究组、同一批猫。",
+  "key_results": [
+   {
+    "measure": "治疗后出现氮质血症",
+    "groups": "128/1047（12%）",
+    "effect_ci": "不适用",
+    "p": "不适用"
+   },
+   {
+    "measure": "中位生存",
+    "groups": "氮质血症 2.8 年 vs 无氮质血症 4.3 年",
+    "effect_ci": "原文未给出",
+    "p": "原文未给出"
+   }
+  ],
+  "confidence_sentence": "本文为队列（预后，与 42800045 同一起始队列），CEBM 预后问题 2 级，QUIPS 尚未评估偏倚风险，结论仅基于摘要。",
+  "clinical_meaning": "治疗前要尽量评估肾功能，治疗后出现氮质血症的猫预后较差。",
+  "key_results_top3": [
+   0,
+   1
+  ],
+  "funding_coi_zh": "资金：仅读摘要，未知。利益冲突：仅读摘要，未知。",
+  "funding_coi_quote": null,
+  "text_source": "abstract",
+  "text_file": "ft/hyper/39724773_abs.txt",
+  "text_url": "https://pubmed.ncbi.nlm.nih.gov/39724773/"
+ },
+ {
+  "pmid": "16478432",
+  "doi": "10.2460/javma.228.4.559",
+  "id": "16478432",
+  "matched_by": "pmid",
+  "title_zh": "I-131、甲巯咪唑或两者：生存比较",
+  "one_line_conclusion_zh": "167 只甲亢猫中，排除已有肾病的猫后，单用甲巯咪唑的中位生存（2.0 年）短于单用 I-131（4.0 年）或先药后 I-131（5.3 年）。",
+  "why_it_matters": "这是比较三种治疗方案生存的早期研究，常被引用。但治疗不是随机分配，摘要未说明是否校正了病情和年龄等混杂因素，生存差异不能直接归因于治疗本身。",
+  "key_results": [
+   {
+    "measure": "中位生存（排除已有肾病）",
+    "groups": "甲巯咪唑单用 2.0 年（IQR 1–3.9）；I-131 单用 4.0 年（IQR 3.0–4.8）；先甲巯咪唑后 I-131 5.3 年（IQR 2.2–6.5）",
+    "effect_ci": "原文未给出",
+    "p": "摘要称差异显著，未给具体 P"
+   },
+   {
+    "measure": "已有肾病对生存",
+    "groups": "有肾病的猫生存显著更短（24/166 有肾病）",
+    "effect_ci": "原文未给出",
+    "p": "摘要称显著，未给具体 P"
+   },
+   {
+    "measure": "年龄与生存",
+    "groups": "r = 0.4（年龄越大生存越长）",
+    "effect_ci": "不适用",
+    "p": "原文未给出"
+   }
+  ],
+  "confidence_sentence": "本文为回顾性队列（原文自称病例系列；非随机同期比较三种疗法），CEBM 治疗获益 3 级，ROBINS-I 尚未评估偏倚风险，结论仅基于摘要。",
+  "clinical_meaning": "肾功能正常的猫，I-131 方案可能比长期单用甲巯咪唑生存更长，但可能有选择偏倚。",
+  "key_results_top3": [
+   0,
+   1,
+   2
+  ],
+  "funding_coi_zh": "资金：仅读摘要，未知。利益冲突：仅读摘要，未知。",
+  "funding_coi_quote": null,
+  "text_source": "abstract",
+  "text_file": "ft/hyper/16478432_abs.txt",
+  "text_url": "https://pubmed.ncbi.nlm.nih.gov/16478432/"
+ },
+ {
+  "pmid": "39019056",
+  "doi": "10.2460/javma.24.01.0057",
+  "id": "39019056",
+  "matched_by": "pmid",
+  "title_zh": "甲状腺切除 vs 甲巯咪唑：生存比较",
+  "one_line_conclusion_zh": "41 只猫的回顾性研究中，甲状腺切除组的生存显著长于单用甲巯咪唑组（HR 0.209），复发也更少。",
+  "why_it_matters": "在没有放射碘的地区，手术是唯一可根治的选择，本文给出了与药物对比的生存数据。但手术组仅 15 只，选择做手术的猫可能本身更健康，结果易受选择偏倚影响。",
+  "key_results": [
+   {
+    "measure": "死亡风险（多变量）",
+    "groups": "甲状腺切除 vs 甲巯咪唑",
+    "effect_ci": "HR 0.209（95% CI 0.073–0.601）",
+    "p": ".004"
+   },
+   {
+    "measure": "复发率",
+    "groups": "甲状腺切除低于甲巯咪唑",
+    "effect_ci": "原文未给出",
+    "p": ".011"
+   },
+   {
+    "measure": "分组",
+    "groups": "甲状腺切除 15 只；甲巯咪唑 26 只",
+    "effect_ci": "不适用",
+    "p": "不适用"
+   }
+  ],
+  "confidence_sentence": "本文为回顾性队列（非随机同期比较甲状腺切除与甲巯咪唑），CEBM 治疗获益 3 级，ROBINS-I 尚未评估偏倚风险，结论仅基于摘要。",
+  "clinical_meaning": "无放射碘时，甲状腺切除可作为根治选项考虑，但证据样本很小。",
+  "key_results_top3": [
+   0,
+   1,
+   2
+  ],
+  "funding_coi_zh": "资金：仅读摘要，未知。利益冲突：仅读摘要，未知。",
+  "funding_coi_quote": null,
+  "text_source": "abstract",
+  "text_file": "ft/hyper/39019056_abs.txt",
+  "text_url": "https://pubmed.ncbi.nlm.nih.gov/39019056/"
+ },
+ {
+  "pmid": "31998612",
+  "doi": "10.4314/ovj.v9i3.3",
+  "id": "31998612",
+  "matched_by": "pmid",
+  "title_zh": "限碘饮食 vs 甲巯咪唑：90 天对比",
+  "one_line_conclusion_zh": "34 只甲亢猫中，限碘饮食与口服或经皮甲巯咪唑都能显著降低 T4；但限碘组肝酶未改善，作者推测可能仍处于甲亢状态。",
+  "why_it_matters": "它是少数把限碘饮食和药物放在同一研究中比较的前瞻性数据。分组不是随机的：家里有其他食物来源的猫被分到药物组。每组只有 9–14 只，随访仅 90 天。",
+  "key_results": [
+   {
+    "measure": "血清总 T4",
+    "groups": "三组均较基线显著下降",
+    "effect_ci": "原文未给出",
+    "p": "原文未给出"
+   },
+   {
+    "measure": "血清肌酐（90 天）",
+    "groups": "仅两个甲巯咪唑组显著升高；限碘组未升高",
+    "effect_ci": "原文未给出",
+    "p": "原文未给出"
+   },
+   {
+    "measure": "肝酶",
+    "groups": "仅经皮甲巯咪唑组显著下降；限碘组和口服组未下降",
+    "effect_ci": "原文未给出",
+    "p": "原文未给出"
+   }
+  ],
+  "confidence_sentence": "本文为前瞻性非随机对照研究（同期三组），CEBM 治疗获益 3 级，ROBINS-I 尚未评估偏倚风险，结论基于全文。",
+  "clinical_meaning": "限碘饮食能降 T4，但 T4 正常不一定等于甲亢完全控制。",
+  "key_results_top3": [
+   0,
+   1,
+   2
+  ],
+  "funding_coi_zh": "资金：原文未声明。利益冲突：Fracassi 曾为 Hill’s（y/d 生产商）委托的会议讲课；作者称 Hill’s 未参与本研究。",
+  "funding_coi_quote": "Dr Fracassi has previously lectured at meetings for practitioners commissioned by Hill’s, the company that produces and sells y/d. However, Hill’s was not involved in the present study in any way.",
+  "text_source": "full_text",
+  "text_file": "ft/hyper/PMC6794403.txt",
+  "text_url": "https://europepmc.org/article/PMC/PMC6794403"
+ },
+ {
+  "pmid": "28158908",
+  "doi": "10.1111/jvim.14646",
+  "id": "28158908",
+  "matched_by": "pmid",
+  "title_zh": "低剂量与标准剂量放射碘",
+  "one_line_conclusion_zh": "轻中度甲亢猫中，2 mCi 低剂量放射碘的治愈率与 4 mCi 相近，且 6 个月时医源性甲减更少。",
+  "why_it_matters": "放射碘剂量偏高会增加医源性甲减，进而可能影响肾功能和生存。本研究支持轻中度病例用低剂量。剂量不是随机分配的，标准剂量组只有 39 只，随访仅 6 个月。",
+  "key_results": [
+   {
+    "measure": "6 个月持续甲亢",
+    "groups": "标准剂量 0% vs 低剂量 3.3%",
+    "effect_ci": "不适用",
+    "p": ".51"
+   },
+   {
+    "measure": "6 个月显性甲减",
+    "groups": "标准剂量 18% vs 低剂量 1%",
+    "effect_ci": "不适用",
+    "p": ".0005"
+   },
+   {
+    "measure": "6 个月亚临床甲减",
+    "groups": "标准剂量 46% vs 低剂量 21%",
+    "effect_ci": "不适用",
+    "p": ".004"
+   }
+  ],
+  "confidence_sentence": "本文为前瞻性非随机队列（同期比较低剂量与标准剂量），CEBM 治疗获益 3 级，ROBINS-I 尚未评估偏倚风险，结论基于全文。",
+  "clinical_meaning": "轻中度甲亢猫可考虑低剂量放射碘，以减少医源性甲减。",
+  "key_results_top3": [
+   1,
+   2,
+   0
+  ],
+  "funding_coi_zh": "资金：原文未声明。利益冲突：作者声明无利益冲突。",
+  "funding_coi_quote": "Conflict of Interest Declaration : Authors declare no conflict of interest.",
+  "text_source": "full_text",
+  "text_file": "ft/hyper/PMC5354058.txt",
+  "text_url": "https://europepmc.org/article/PMC/PMC5354058"
+ },
+ {
+  "pmid": "20695989",
+  "doi": "10.1111/j.1939-1676.2010.0566.x",
+  "id": "20695989",
+  "matched_by": "pmid",
+  "title_zh": "医源性甲减与氮质血症和生存",
+  "one_line_conclusion_zh": "治疗后甲减的猫氮质血症比例（16/28）高于甲状腺功能正常的猫（14/47）；甲减并出现氮质血症者生存更短。",
+  "why_it_matters": "这是最早提出“治疗后甲减会伤肾”的研究之一，后来的 LT4 补充研究都以它为背景。它由两个小型回顾性研究组成，只读到摘要，无法核对混杂因素。",
+  "key_results": [
+   {
+    "measure": "氮质血症比例",
+    "groups": "甲减 16/28 vs 甲状腺功能正常 14/47",
+    "effect_ci": "原文未给出",
+    "p": ".028"
+   },
+   {
+    "measure": "甲减猫中位生存",
+    "groups": "出现氮质血症 456 天 vs 未出现 905 天",
+    "effect_ci": "原文未给出",
+    "p": ".018"
+   },
+   {
+    "measure": "TT4 低于参考范围者 TSH 升高",
+    "groups": "28/41（68%）",
+    "effect_ci": "不适用",
+    "p": "不适用"
+   }
+  ],
+  "confidence_sentence": "本文为回顾性队列（纵向 + 横断面），CEBM 预后问题 3 级，QUIPS 尚未评估偏倚风险，结论仅基于摘要。",
+  "clinical_meaning": "治疗后要查 TSH 排查医源性甲减，尤其在出现氮质血症时。",
+  "key_results_top3": [
+   0,
+   1,
+   2
+  ],
+  "funding_coi_zh": "资金：仅读摘要，未知。利益冲突：仅读摘要，未知。",
+  "funding_coi_quote": null,
+  "text_source": "abstract",
+  "text_file": "ft/hyper/20695989_abs.txt",
+  "text_url": "https://pubmed.ncbi.nlm.nih.gov/20695989/"
+ },
+ {
+  "pmid": "26081922",
+  "doi": "10.1111/jvim.13368",
+  "id": "26081922",
+  "matched_by": "pmid",
+  "title_zh": "限碘饮食单独治疗甲亢猫",
+  "one_line_conclusion_zh": "49 只甲亢猫仅吃限碘饮食，61–180 天时 83% 的 T4 恢复正常，但体重和心率没有改善。",
+  "why_it_matters": "它是限碘饮食单独使用效果最常引用的数据之一。没有对照组，只能说明 T4 下降，不能和其他疗法比较。部分饮食由生产商免费提供。",
+  "key_results": [
+   {
+    "measure": "TT4 恢复正常",
+    "groups": "21–60 天 20/48（42%）；61–180 天 39/47（83%）",
+    "effect_ci": "不适用",
+    "p": "不适用"
+   },
+   {
+    "measure": "体重和心率",
+    "groups": "体重未显著增加；心率未显著下降",
+    "effect_ci": "不适用",
+    "p": "体重 .34；心率 .64"
+   },
+   {
+    "measure": "血清肌酐",
+    "groups": "显著下降",
+    "effect_ci": "不适用",
+    "p": ".028"
+   }
+  ],
+  "confidence_sentence": "本文为回顾性病例系列（无对照），CEBM 治疗获益 4 级，JBI 病例系列清单尚未评估偏倚风险，结论基于全文。",
+  "clinical_meaning": "严格只吃限碘饮食可让多数猫 T4 正常，但临床症状不一定都改善。",
+  "key_results_top3": [
+   0,
+   1,
+   2
+  ],
+  "funding_coi_zh": "资金：原文未声明资金来源；部分饮食由 Hill’s 免费提供给主人。利益冲突：Moore 为 JVIM 统计顾问编辑。",
+  "funding_coi_quote": "Some of the diet used in this study was provided to the owners at no cost by Hill's Pet Nutrition.",
+  "text_source": "full_text",
+  "text_file": "ft/hyper/PMC4895365.txt",
+  "text_url": "https://europepmc.org/article/PMC/PMC4895365"
+ },
+ {
+  "pmid": "34730466",
+  "doi": "10.1177/1098612x211056837",
+  "id": "34730466",
+  "matched_by": "pmid",
+  "title_zh": "放射碘剂量、治疗后肌酐与生存",
+  "one_line_conclusion_zh": "198 只放射碘治疗猫中，剂量与生存无直接关联；治疗后肌酐越高、年龄越大，死亡风险越高。",
+  "why_it_matters": "它说明治疗后 T4 越低，肌酐越高，而肌酐又与生存相关。作者据此建议采用尽量避免甲减的剂量策略，但这是推论，本文没有直接检验。单中心回顾性数据。",
+  "key_results": [
+   {
+    "measure": "治疗后肌酐每升高 10 µmol/L",
+    "groups": "每日死亡风险",
+    "effect_ci": "HR 1.07（CI 1.04–1.11）",
+    "p": "<0.001"
+   },
+   {
+    "measure": "年龄每增 1 岁",
+    "groups": "每日死亡风险",
+    "effect_ci": "HR 1.17（CI 1.00–1.37）",
+    "p": "0.049"
+   },
+   {
+    "measure": "治疗后 TT4 每降 1 nmol/L",
+    "groups": "治疗后肌酐升高 1.2 µmol/L（SE 0.61）",
+    "effect_ci": "原文未给出",
+    "p": "<0.001"
+   }
+  ],
+  "confidence_sentence": "本文为回顾性队列，CEBM 预后问题 3 级，QUIPS 尚未评估偏倚风险，结论基于全文。",
+  "clinical_meaning": "放射碘后应监测肌酐；避免治疗后甲减可能有助于保护肾功能。",
+  "key_results_top3": [
+   0,
+   2,
+   1
+  ],
+  "funding_coi_zh": "资金：作者声明未获资助。利益冲突：作者声明无利益冲突。",
+  "funding_coi_quote": "The authors declared no potential conflicts of interest with respect to the research, authorship, and/or publication of this article. Funding: The authors received no financial support for the research, authorship, and/or publication of this article.",
+  "text_source": "full_text",
+  "text_file": "ft/hyper/PMC10812325.txt",
+  "text_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10812325/"
+ },
+ {
+  "pmid": "40559809",
+  "doi": "10.3390/vetsci12060572",
+  "id": "40559809",
+  "matched_by": "pmid",
+  "title_zh": "放射碘 vs 抗甲状腺药：生活质量变化",
+  "one_line_conclusion_zh": "38 只甲亢猫中，治疗 6 个月后生活质量显著改善，放射碘与抗甲状腺药之间无差异，但仍不及非甲亢猫。",
+  "why_it_matters": "这是少有的以生活质量为结局的前瞻性比较。分组由主人决定，样本小，作者也称结论是初步的。“无差异”可能只是样本不足以发现差异。",
+  "key_results": [
+   {
+    "measure": "生活质量随时间",
+    "groups": "显著改善（越低越好）",
+    "effect_ci": "原文未给出",
+    "p": "<0.001"
+   },
+   {
+    "measure": "治疗方式对生活质量",
+    "groups": "放射碘 23 只 vs 抗甲状腺药 15 只，无显著影响",
+    "effect_ci": "原文未给出",
+    "p": "0.20"
+   },
+   {
+    "measure": "6 个月 vs 非甲亢对照",
+    "groups": "甲亢猫 42.5（3–161.5）vs 对照 27（0–249）",
+    "effect_ci": "原文未给出",
+    "p": "0.007"
+   }
+  ],
+  "confidence_sentence": "本文为前瞻性非随机队列（同期比较放射碘与抗甲状腺药），CEBM 治疗获益 3 级，ROBINS-I 尚未评估偏倚风险，结论基于全文。",
+  "clinical_meaning": "两种治疗都能改善生活质量，选哪种可更多考虑费用、可及性和副作用。",
+  "key_results_top3": [
+   0,
+   1,
+   2
+  ],
+  "funding_coi_zh": "资金：作者声明未获外部资助。利益冲突：作者声明无利益冲突。",
+  "funding_coi_quote": "Conflicts of Interest The authors declare no conflicts of interest. Funding Statement This research received no external funding.",
+  "text_source": "full_text",
+  "text_file": "ft/hyper/PMC12197586.txt",
+  "text_url": "https://europepmc.org/article/PMC/PMC12197586"
  }
 ]

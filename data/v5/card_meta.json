@@ -1143,6 +1143,158 @@
    "n_quote": null,
    "n_source": null,
    "n_status": "不适用（指南/叙述性综述）"
+  },
+  "37167252": {
+   "year": "2023",
+   "journal": "J Am Anim Hosp Assoc",
+   "design_zh": "指南/共识",
+   "species_zh": "猫和犬",
+   "n": null,
+   "n_label_zh": null,
+   "n_quote": null,
+   "n_source": null,
+   "n_status": "不适用（指南/叙述性综述）"
+  },
+  "42004674": {
+   "year": "2022",
+   "journal": "Vet Evid",
+   "design_zh": "知识摘要（结构化证据评述，非正式系统评价）",
+   "species_zh": "猫",
+   "n": 35,
+   "n_label_zh": "35 篇",
+   "n_quote": "35 papers were critically reviewed.",
+   "n_source": "全文 ft/hyper/PMC13082284.txt",
+   "n_status": "全文原句（纳入文献数）"
+  },
+  "42800045": {
+   "year": "2026",
+   "journal": "J Vet Intern Med",
+   "design_zh": "前瞻性队列",
+   "species_zh": "猫",
+   "n": 1344,
+   "n_label_zh": "1344 只",
+   "n_quote": "This study included 1344 hyperthyroid cats successfully treated with 131 I.",
+   "n_source": "全文 ft/hyper/PMC13615730.txt",
+   "n_status": "全文原句",
+   "n_detail_zh": "与 39724773 同一队列（2013–2020 入组，Peterson 组）；原文称为 1400 只猫队列的一部分"
+  },
+  "39831449": {
+   "year": "2025",
+   "journal": "J Vet Intern Med",
+   "design_zh": "前瞻性队列（LT4 非随机分配）",
+   "species_zh": "猫",
+   "n": 117,
+   "n_label_zh": "117 只",
+   "n_quote": "One hundred seventeen RI treated hyperthyroid cats.",
+   "n_source": "全文 ft/hyper/PMC11744366.txt",
+   "n_status": "全文/摘要原句"
+  },
+  "39724773": {
+   "year": "2024",
+   "journal": "J Am Vet Med Assoc",
+   "design_zh": "队列（摘要未述前瞻或回顾）",
+   "species_zh": "猫",
+   "n": 1047,
+   "n_label_zh": "1047 只",
+   "n_quote": "We treated 1,047 hyperthyroid cats with 131I from 2013 to 2020 to render them euthyroid",
+   "n_source": "PubMed/Europe PMC 摘要（ft/hyper/39724773_abs.txt）",
+   "n_status": "摘要原句；全文未取得",
+   "n_detail_zh": "与 42800045 同一队列"
+  },
+  "16478432": {
+   "year": "2006",
+   "journal": "J Am Vet Med Assoc",
+   "design_zh": "回顾性队列",
+   "species_zh": "猫",
+   "n": 167,
+   "n_label_zh": "167 只",
+   "n_quote": "167 cats.",
+   "n_source": "PubMed/Europe PMC 摘要（ft/hyper/16478432_abs.txt）",
+   "n_status": "摘要原句；全文未取得",
+   "design_note_zh": "原文自称病例系列（Retrospective case series）"
+  },
+  "39019056": {
+   "year": "2024",
+   "journal": "J Am Vet Med Assoc",
+   "design_zh": "回顾性队列",
+   "species_zh": "猫",
+   "n": 41,
+   "n_label_zh": "41 只",
+   "n_quote": "The medical records of 41 cats diagnosed with new-onset hyperthyroidism were retrospectively reviewed.",
+   "n_source": "PubMed/Europe PMC 摘要（ft/hyper/39019056_abs.txt）",
+   "n_status": "摘要原句；全文未取得",
+   "n_detail_zh": "甲状腺切除 15；甲巯咪唑 26"
+  },
+  "31998612": {
+   "year": "2019",
+   "journal": "Open Vet J",
+   "design_zh": "前瞻性非随机对照",
+   "species_zh": "猫",
+   "n": 34,
+   "n_label_zh": "34 只",
+   "n_quote": "Thirty-four cats were enrolled in the study (group A: n = 14; group B: n = 11; group C: n = 9).",
+   "n_source": "全文 ft/hyper/PMC6794403.txt",
+   "n_status": "全文/摘要原句",
+   "n_detail_zh": "限碘饮食 14；经皮甲巯咪唑 11；口服甲巯咪唑 9",
+   "design_note_zh": "原文自称 prospective, multi-center, non-randomized controlled trial"
+  },
+  "28158908": {
+   "year": "2017",
+   "journal": "J Vet Intern Med",
+   "design_zh": "前瞻性非随机队列",
+   "species_zh": "猫",
+   "n": 189,
+   "n_label_zh": "189 只",
+   "n_quote": "A total of 189 client-owned cats undergoing 131 I treatment for mild-to-moderate hyperthyroidism",
+   "n_source": "全文 ft/hyper/PMC5354058.txt",
+   "n_status": "全文/摘要原句",
+   "n_detail_zh": "低剂量 150；标准剂量 39"
+  },
+  "20695989": {
+   "year": "2010",
+   "journal": "J Vet Intern Med",
+   "design_zh": "回顾性队列（纵向 + 横断面）",
+   "species_zh": "猫",
+   "n": 80,
+   "n_label_zh": "80 只",
+   "n_quote": "Eighty client owned cats with hyperthyroidism.",
+   "n_source": "PubMed/Europe PMC 摘要（ft/hyper/20695989_abs.txt）",
+   "n_status": "摘要原句；全文未取得；两子研究 12 + 75 = 87 ≠ 80，摘要未说明重叠，待全文核",
+   "n_detail_zh": "纵向 12；横断面 75"
+  },
+  "26081922": {
+   "year": "2015",
+   "journal": "J Vet Intern Med",
+   "design_zh": "病例系列（回顾性，无对照）",
+   "species_zh": "猫",
+   "n": 49,
+   "n_label_zh": "49 只",
+   "n_quote": "Forty-nine client-owned cats with spontaneous hyperthyroidism.",
+   "n_source": "全文 ft/hyper/PMC4895365.txt",
+   "n_status": "全文/摘要原句"
+  },
+  "34730466": {
+   "year": "2022",
+   "journal": "J Feline Med Surg",
+   "design_zh": "回顾性队列",
+   "species_zh": "猫",
+   "n": 198,
+   "n_label_zh": "198 只",
+   "n_quote": "One hundred and ninety-eight (79 male, 119 female) cats were treated for hyperthyroidism with 131 I",
+   "n_source": "全文 ft/hyper/PMC10812325.txt",
+   "n_status": "全文/摘要原句"
+  },
+  "40559809": {
+   "year": "2025",
+   "journal": "Vet Sci",
+   "design_zh": "前瞻性非随机队列",
+   "species_zh": "猫",
+   "n": 38,
+   "n_label_zh": "38 只",
+   "n_quote": "Thirty-eight client-owned hyperthyroid cats (15 ATD, 23 RAIT) were included.",
+   "n_source": "全文 ft/hyper/PMC12197586.txt",
+   "n_status": "全文/摘要原句",
+   "n_detail_zh": "抗甲状腺药 15；放射碘 23；另有非甲亢对照 322 只来自既往研究"
   }
  }
 }

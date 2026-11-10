@@ -12,5 +12,6 @@ python3 tests/test_firstscreen.py
 python3 tests/test_dedupe.py
 VETLIT_LIVE=1 python3 tests/test_new_guidelines.py
 python3 tests/test_sync_survival.py
+VETLIT_LIVE=1 python3 tests/test_hyperthyroid_batch.py
 python3 scripts/check_links.py
 echo ALL OK
