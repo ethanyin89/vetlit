@@ -17,6 +17,7 @@ for pm in NEW:
     h=H(pm); top,fold=h.split('id="evidence"',1)
     for bad in ('Vibe','deep extract','裁定','OpenAlex','年均'): assert bad not in h, (pm,bad)
     if pm in GUIDES: assert B.CERT[pm]['certainty'] is None
+    elif pm=='30115047': assert B.CERT[pm]['certainty']=='不适用' and 'R-na-nonclinical' in B.CERT[pm]['rules_applied'] and '不分级' in top, pm
     else: assert B.CERT[pm]['certainty']=='待评定' and '证据确定性待评定' in fold, pm
     assert (B.pick_reason(p,TOPIC,'最重要')==REASON)==(pm=='42805756'), pm
 lv=lambda pm: re.search(r'Oxford CEBM 2011</th><td>([^<]*)',H(pm)).group(1)
@@ -37,4 +38,8 @@ for t in (TOPIC,PARENT):
     assert ids(a.split('<h4 class="tb">最重要</h4>')[-1])==['42805756','26260508','40470278'], (t,ids(a))
     assert ids(b.split('<h2',1)[0])==['36940185','42007020','34180084'], (t,ids(b))
     assert s.count(f'<p class="why">{REASON}</p>')==1 and len(re.findall(r'<p class="why">',s))==1, t
+# 2026-11-09 follow-up: certainty entries from deep extract; 42805756 COI 待查
+h=H('42805756'); top=h.split('id="evidence"',1)[0]
+assert '资助/利益冲突：资金与利益冲突：待查' in top and '指南推荐强度：指南自身用 SORT 给推荐强度' in top
+assert B.CERT['26260508']['guideline_strength']=='该指南未分级'
 print('dogAD batch tests OK')

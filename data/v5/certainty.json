@@ -1705,7 +1705,7 @@
    "provisional": null,
    "certainty": null,
    "notes_zh": "指南/共识不评证据确定性，首屏显示指南自身推荐强度",
-   "guideline_strength": "SORT（逐条推荐强度见原文）",
+   "guideline_strength": "指南自身用 SORT 给推荐强度",
    "guideline_strength_source": "extracts/speedread_fields_v5_dogAD_2026-11-10.json（confidence_sentence）"
   },
   "26260508": {
@@ -1879,17 +1879,17 @@
   },
   "30115047": {
    "rules_applied": [
-    "R-no-RoB-pending"
+    "R-na-nonclinical"
    ],
    "question_type": null,
-   "question_basis": "extracts/cebm_dogAD_2026-11-10.json",
+   "question_basis": null,
    "start": null,
-   "start_basis": "",
+   "start_basis": "核心结局集共识（非疗效研究）",
    "downgrades": [],
    "provisional": null,
-   "certainty": "待评定",
-   "notes_zh": "未做偏倚风险评估",
-   "pending_reason_zh": "尚未做偏倚风险评估"
+   "certainty": "不适用",
+   "notes_zh": "非临床研究",
+   "na_reason_zh": "核心结局集（COS），不报告干预效果"
   }
  }
 }

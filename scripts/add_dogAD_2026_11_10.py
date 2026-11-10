@@ -81,6 +81,8 @@ for pm in NEW:
     if absonly: rec['basis_label']='仅基于摘要'
     if pm in byp: seed[byp[pm]]=rec
     else: seed.append(rec)
+# 42805756: guideline strength wording follows its certainty entry; COI 待查 (Vibe 2026-11-09; funding/COI is one combined field)
+_g=next(r for r in seed if r['pmid']=='42805756'); _g['guideline_recommendation']=L(os.path.join(S,'certainty.json'))['papers']['42805756']['guideline_strength']; _g['funding']='资金与利益冲突：待查'
 W(os.path.join(V,'seed_library_v6.json'),seed)
 sr=L(os.path.join(V,'speedread_fields_v5.json')); sr=[r for r in sr if r.get('pmid') not in BIB]+[dict(SR[p]) for p in NEW]; W(os.path.join(V,'speedread_fields_v5.json'),sr)
 cm=L(os.path.join(V,'card_meta.json')); cm['papers'].update({p:CM[p] for p in NEW}); W(os.path.join(V,'card_meta.json'),cm)
@@ -93,6 +95,12 @@ for pm in NEW:
         t=rob_tool(pm,SR[pm].get('confidence_sentence') or '')
         ce['papers'][pm]={'rules_applied':['R-no-RoB-pending'],'question_type':CE[pm].get('question'),'question_basis':f'extracts/cebm_{TAG}.json','start':None,'start_basis':'','downgrades':[],'provisional':None,
           'certainty':'待评定','notes_zh':'未做偏倚风险评估','pending_reason_zh':f'尚未做偏倚风险评估（{t}）' if t else '尚未做偏倚风险评估'}
+# 2026-11-09 follow-up: take ONLY these three entries from deep extract's certainty.json (nothing else)
+_src=L(os.path.join(S,'certainty.json'))['papers']
+assert _src['30115047']['certainty']=='不适用' and 'R-na-nonclinical' in _src['30115047']['rules_applied']
+assert _src['42805756']['certainty'] is None and 'SORT' in _src['42805756']['guideline_strength']
+assert _src['26260508']['guideline_strength']=='该指南未分级'
+for _k in ('30115047','42805756','26260508'): ce['papers'][_k]=_src[_k]
 W(os.path.join(V,'certainty.json'),ce)
 ts=L(os.path.join(X,'text_source.json')); ts.update({p:TS[p] for p in NEW}); W(os.path.join(X,'text_source.json'),ts)
 # ranking (single site rule)
