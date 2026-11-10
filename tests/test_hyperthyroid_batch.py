@@ -21,6 +21,9 @@ for pm in NEW:
     if pm=='37167252':
         assert B.CERT[pm]['certainty'] is None and B.CERT[pm]['guideline_strength']=='该指南未分级'
         assert '该指南未分级' in h and B.level(p)=='指南/共识'
+    elif pm=='42004674':   # knowledge summary: 不适用 (deep extract 2026-11-09), own strength Moderate
+        assert B.CERT[pm]['certainty']=='不适用' and B.CERT[pm]['own_evidence_strength']=='Moderate'
+        assert p['cebm_level']==LV.get(pm,'3'), pm
     else:
         assert B.CERT[pm]['certainty']=='待评定', pm
         assert '证据确定性待评定' in fold and '证据确定性：高' not in h and '证据确定性：中' not in h, pm

@@ -20,8 +20,7 @@ IND='R-down-indirectness-population：研究人群比专题问题宽时，降一
 assert ce['_meta']['rules_v4_amend_2026-11-09_indirectness'].startswith('R-down-indirectness-population')
 ce['_meta']['rules_v4_amend_2026-11-09_indirectness']=IND
 ce['_meta']['downgrades_schema']=src['_meta']['downgrades_schema']
-DG=[k for k,r in src['papers'].items() if r.get('downgrades')]
-assert len(DG)==19, len(DG)
+DG=['39858209','39417648','38884190','18638016','32139728','30548336','26581469','25231385','23647231','32441826','30543707','28152671','40941356','25496303','27647569','34180084','28906040','20187911','40470278']   # the 19 of 2026-11-09
 for k in DG:
     d=src['papers'][k]['downgrades']
     assert all(isinstance(x,dict) and {'domain','steps','reason_zh'}<=set(x) and x['steps'] in (0,-1,-2,-3) for x in d), k

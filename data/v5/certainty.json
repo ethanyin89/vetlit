@@ -277,7 +277,8 @@
    "rules_applied": [
     "R-SR-body-of-evidence",
     "R-start-SR-by-included-designs",
-    "R-start-treatment-observational-low"
+    "R-start-treatment-observational-low",
+    "R-down-indirectness-population"
    ],
    "question_type": "治疗获益",
    "question_basis": "extracts/cebm_fill.json",
@@ -289,6 +290,12 @@
      "steps": -1,
      "reason_zh": "不一致 −1：粗蛋白分组的减重结果“significant heterogeneity (p < 0.0001)”",
      "source_file": "review2/ft/PMC11759159.txt（3.3. Meta-Analysis）"
+    },
+    {
+     "domain": "间接性",
+     "steps": -1,
+     "reason_zh": "间接性 −1：纳入 20 项研究中 11 项为 Beagle 犬，不同于肥胖家犬；已到极低，不再改变等级",
+     "source_file": "review2/ft/PMC11759159.txt（3.1 Inclusion Criteria and Additional Information）"
     }
    ],
    "certainty": "极低",
@@ -450,7 +457,8 @@
    "downgrades": [],
    "provisional": "高",
    "certainty": "高",
-   "notes_zh": ""
+   "notes_zh": "",
+   "applicability_note_zh": "仅纳入非渗出型 FIP"
   },
   "40110605": {
    "rules_applied": [
@@ -497,7 +505,8 @@
    "downgrades": [],
    "provisional": "高",
    "certainty": "高",
-   "notes_zh": ""
+   "notes_zh": "",
+   "applicability_note_zh": "仅纳入渗出型 FIP"
   },
   "38952053": {
    "rules_applied": [
@@ -544,7 +553,8 @@
    "downgrades": [],
    "provisional": "高",
    "certainty": "高",
-   "notes_zh": ""
+   "notes_zh": "",
+   "applicability_note_zh": "仅纳入渗出型 FIP"
   },
   "27678080": {
    "rules_applied": [
@@ -817,7 +827,8 @@
    "provisional": "高",
    "certainty": "待评定",
    "notes_zh": "未做偏倚风险评估",
-   "pending_reason_zh": "尚未做偏倚风险评估（RoB 2）"
+   "pending_reason_zh": "尚未做偏倚风险评估（RoB 2）",
+   "applicability_note_zh": "研究对象为救助中心表面健康的猫，可能不同于家养猫"
   },
   "26581469": {
    "rules_applied": [
@@ -888,18 +899,136 @@
   },
   "24217707": {
    "rules_applied": [
-    "R-start-treatment-RCT-high",
-    "R-no-RoB-pending"
+    "R-start-prevalence-observational-high",
+    "R-rob-assessed-v4"
    ],
-   "question_type": "治疗获益",
-   "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
+   "question_type": "患病率",
+   "question_basis": "本脚本：原文为回顾性横断面患病率研究（全文 PMC4414065）",
    "start": "高",
-   "start_basis": "回顾性横断面：治疗获益问题，RCT→高",
-   "downgrades": [],
-   "provisional": "高",
-   "certainty": "待评定",
-   "notes_zh": "未做偏倚风险评估",
-   "pending_reason_zh": "尚未做偏倚风险评估（RoB 2）"
+   "start_basis": "回顾性横断面：患病率问题，观察性→高（GRADE 预后/患病率扩展，Iorio 2015 BMJ；偏倚风险工具 JBI 患病率清单）",
+   "downgrades": [
+    {
+     "domain": "偏倚风险",
+     "steps": -2,
+     "reason_zh": "偏倚风险 −2（非常严重）：JBI 患病率清单中样本框架与抽样方法两项均为否（单一纯猫诊所、每个年龄组取前 25 只、关节病组来自既往试验），样本代表性不足；CKD 仅凭单次化验判定，不符合 IRIS 分期要求的持续存在，可能误判。",
+     "source_file": "extracts/indirectness_screen_src/PMC4414065.txt"
+    },
+    {
+     "domain": "不精确性",
+     "steps": 0,
+     "reason_zh": "未报告置信区间，记于不精确性，不另行降级。",
+     "source_file": "extracts/indirectness_screen_src/PMC4414065.txt"
+    },
+    {
+     "domain": "间接性",
+     "steps": 0,
+     "reason_zh": "间接性不降：人群为一般就诊猫与关节病研究猫，属于患病率问题的目标人群；预选问题已计入偏倚风险。",
+     "source_file": "extracts/indirectness_screen_src/PMC4414065.txt"
+    }
+   ],
+   "provisional": "低",
+   "certainty": "低",
+   "notes_zh": "原按“治疗 RCT”起点计，属归类错误，已改为患病率问题。偏倚风险按 JBI 患病率清单逐项评定（见 rob_items）。",
+   "rob_tool": "JBI 患病率清单（9 项）",
+   "rob_items": [
+    {
+     "item": "1",
+     "question_zh": "样本框架是否适合目标人群",
+     "judgement": "否",
+     "quotes": [
+      "The randomly selected (RS) group consisted of a population of randomly selected cats from a single practice",
+      "the RS cats were selected from a single feline-only practice, and the DJD cats were required to be predominantly indoor cats, and this may have biased the results."
+     ],
+     "reason_zh": "单一猫专科诊所的数据库；DJD 组为室内猫",
+     "source_file": "extracts/indirectness_screen_src/PMC4414065.txt"
+    },
+    {
+     "item": "2",
+     "question_zh": "研究对象抽样方式是否恰当",
+     "judgement": "否",
+     "quotes": [
+      "the first 25 cats in each age group were selected to come in for a health screen",
+      "The RS cats were selected at random, 25 within each of four age groups, and thus the prevalence may not represent the prevalence in the general population.",
+      "The DJD group consisted of 128 cats recruited to one of four different studies of reduced activity or impaired mobility"
+     ],
+     "reason_zh": "RS 组按年龄等额分层抽样，总体患病率未按人群年龄结构加权；DJD 组为临床试验招募的关节病猫",
+     "source_file": "extracts/indirectness_screen_src/PMC4414065.txt"
+    },
+    {
+     "item": "3",
+     "question_zh": "样本量是否足够",
+     "judgement": "不清楚",
+     "quotes": [
+      "The variability in this study is likely a result of the small sample size."
+     ],
+     "reason_zh": "未做样本量计算（全文无 power/sample size calculation）；RS 组 86 只",
+     "source_file": "extracts/indirectness_screen_src/PMC4414065.txt"
+    },
+    {
+     "item": "4",
+     "question_zh": "研究对象与场所是否描述详细",
+     "judgement": "是",
+     "quotes": [
+      "Demographic data for these 86 cats are presented in Table 2"
+     ],
+     "reason_zh": "报告了年龄、性别、体重、体况、品种",
+     "source_file": "extracts/indirectness_screen_src/PMC4414065.txt"
+    },
+    {
+     "item": "5",
+     "question_zh": "数据分析是否充分覆盖所纳入样本",
+     "judgement": "不清楚",
+     "quotes": [
+      "Fourteen cats were excluded from the study because either a urine sample was not collected for urine analysis or the kidneys were not visible on radiographs, precluding full evaluation of CKD."
+     ],
+     "reason_zh": "RS 组 14/100 因资料不全被排除，未比较排除猫的特征",
+     "source_file": "extracts/indirectness_screen_src/PMC4414065.txt"
+    },
+    {
+     "item": "6",
+     "question_zh": "是否用有效方法识别疾病",
+     "judgement": "否",
+     "quotes": [
+      "cats in the RS and DJD groups were placed in one of three categories based on the results of CBC, serum chemistry, urine analysis, and radiographic determination of degenerative kidney changes and kidney size",
+      "Cats with CKD were staged according to the IRIS guidelines"
+     ],
+     "reason_zh": "按单次血液、尿液和 X 线结果归类；全文未提复查或持续性判定（repeat/persist 0 处），而 IRIS 分期以稳定 CKD 为前提",
+     "source_file": "extracts/indirectness_screen_src/PMC4414065.txt"
+    },
+    {
+     "item": "7",
+     "question_zh": "是否对所有对象用标准、可靠的方式测量",
+     "judgement": "不清楚",
+     "quotes": [
+      "Cats in studies A and B only had radiographs made when joint pain was elicited, whereas those in studies C and D had radiographs made of all appendicular joints and spinal segments.",
+      "Two authors (CLM and SLV) went over the above results for each cat to determine category placement."
+     ],
+     "reason_zh": "各子研究的 X 线拍摄范围不同；归类由两位作者共同决定，未报告一致性",
+     "source_file": "extracts/indirectness_screen_src/PMC4414065.txt"
+    },
+    {
+     "item": "8",
+     "question_zh": "统计分析是否恰当",
+     "judgement": "否",
+     "quotes": [
+      "Descriptive statistics were used to characterize demographic data"
+     ],
+     "reason_zh": "患病率只报告比例，未给置信区间（95%/confidence 0 处）",
+     "source_file": "extracts/indirectness_screen_src/PMC4414065.txt"
+    },
+    {
+     "item": "9",
+     "question_zh": "应答率是否足够；应答率低时是否妥善处理",
+     "judgement": "不清楚",
+     "quotes": [
+      "This yielded a cohort of 100 cats with 25 cats that had been randomly selected in each age group."
+     ],
+     "reason_zh": "未报告被抽中但未到诊的猫数或拒绝率；DJD 组为试验招募，无应答率概念",
+     "source_file": "extracts/indirectness_screen_src/PMC4414065.txt"
+    }
+   ],
+   "rob_overall": "高（Q1、Q2、Q6、Q8 否；Q3、Q5、Q7、Q9 不清楚）",
+   "rob_source": "benchmark/work/indirectness_rulings_2026-11-09.py（全文 extracts/indirectness_screen_src/PMC4414065.txt；2026-11-09 复核通过）"
   },
   "23647231": {
    "rules_applied": [
@@ -1011,14 +1140,22 @@
   "16734085": {
    "rules_applied": [
     "R-start-prognosis-cohort-high",
-    "R-no-RoB-pending"
+    "R-no-RoB-pending",
+    "R-down-indirectness-population"
    ],
    "question_type": "预后",
    "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
    "start": "高",
    "start_basis": "预后队列：预后问题，队列→高（GRADE 预后扩展，Iorio 2015 BMJ）",
-   "downgrades": [],
-   "provisional": "高",
+   "downgrades": [
+    {
+     "domain": "间接性",
+     "steps": -1,
+     "reason_zh": "间接性 −1：生存分析（Cox 模型，126 只）同时纳入表面健康猫和仅有高血压的猫，氮血症猫 94/136（69.1%），原文未单独报告 CKD 猫亚组的风险比；卡片引用的正是全队列风险比",
+     "source_file": "extracts/indirectness_screen_src/syme2006.txt（Abstract；Results；Fig 1 图注）"
+    }
+   ],
+   "provisional": "中",
    "certainty": "待评定",
    "notes_zh": "未做偏倚风险评估",
    "pending_reason_zh": "尚未做偏倚风险评估（QUIPS）"
@@ -1036,7 +1173,8 @@
    "provisional": "高",
    "certainty": "待评定",
    "notes_zh": "未做偏倚风险评估",
-   "pending_reason_zh": "尚未做偏倚风险评估（RoB 2）"
+   "pending_reason_zh": "尚未做偏倚风险评估（RoB 2）",
+   "applicability_note_zh": "仅拉布拉多；健康犬从 8 周龄起限饲"
   },
   "10879400": {
    "rules_applied": [
@@ -1066,7 +1204,8 @@
    "provisional": "低",
    "certainty": "待评定",
    "notes_zh": "无对照病例系列按 GRADE 观察性起点低；未做偏倚风险评估",
-   "pending_reason_zh": "尚未做偏倚风险评估（ROBINS-I）"
+   "pending_reason_zh": "尚未做偏倚风险评估（ROBINS-I）",
+   "applicability_note_zh": "排除眼型和神经型 FIP"
   },
   "41834689": {
    "rules_applied": [
@@ -1111,7 +1250,8 @@
    "provisional": "低",
    "certainty": "待评定",
    "notes_zh": "无对照病例系列按 GRADE 观察性起点低；未做偏倚风险评估",
-   "pending_reason_zh": "尚未做偏倚风险评估（ROBINS-I）"
+   "pending_reason_zh": "尚未做偏倚风险评估（ROBINS-I）",
+   "applicability_note_zh": "确诊 FIP 仅 9.5%，其余为“很可能”或“高度怀疑”"
   },
   "37548535": {
    "rules_applied": [
@@ -1126,7 +1266,8 @@
    "provisional": "低",
    "certainty": "待评定",
    "notes_zh": "无对照病例系列按 GRADE 观察性起点低；未做偏倚风险评估",
-   "pending_reason_zh": "尚未做偏倚风险评估（ROBINS-I）"
+   "pending_reason_zh": "尚未做偏倚风险评估（ROBINS-I）",
+   "applicability_note_zh": "仅随访治疗后已完全缓解的猫"
   },
   "37439383": {
    "rules_applied": [
@@ -1161,14 +1302,22 @@
   "36297266": {
    "rules_applied": [
     "R-start-treatment-observational-low",
-    "R-no-RoB-pending"
+    "R-no-RoB-pending",
+    "R-down-indirectness-population"
    ],
    "question_type": "治疗获益",
    "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
    "start": "低",
    "start_basis": "回顾性病例系列（主人报告）：治疗获益问题，观察性→低",
-   "downgrades": [],
-   "provisional": "低",
+   "downgrades": [
+    {
+     "domain": "间接性",
+     "steps": -1,
+     "reason_zh": "间接性 −1：主人报告的疑似 FIP 猫，作者说明无法确认所纳入的猫确为 FIP",
+     "source_file": "extracts/indirectness_screen_src/PMC9612227.txt（Title；Discussion）"
+    }
+   ],
+   "provisional": "极低",
    "certainty": "待评定",
    "notes_zh": "无对照病例系列按 GRADE 观察性起点低；未做偏倚风险评估",
    "pending_reason_zh": "尚未做偏倚风险评估（ROBINS-I）"
@@ -1225,7 +1374,8 @@
    "provisional": "低",
    "certainty": "待评定",
    "notes_zh": "无对照病例系列按 GRADE 观察性起点低；未做偏倚风险评估",
-   "pending_reason_zh": "尚未做偏倚风险评估（ROBINS-I）"
+   "pending_reason_zh": "尚未做偏倚风险评估（ROBINS-I）",
+   "applicability_note_zh": "未纳入重度神经型和眼型 FIP"
   },
   "30543707": {
    "rules_applied": [
@@ -1249,7 +1399,8 @@
    "rob_tool": "ROBINS-I",
    "rob_overall": "极严重（ROBINS-I Critical）",
    "rob_source": "extracts/rob_round1_2026-11-04.json（Vibe 2026-11-09 复核通过）",
-   "provisional": "低"
+   "provisional": "低",
+   "applicability_note_zh": "仅金毛寻回猎犬"
   },
   "30797439": {
    "rules_applied": [
@@ -1280,7 +1431,8 @@
    "provisional": "低",
    "certainty": "待评定",
    "notes_zh": "无对照病例系列按 GRADE 观察性起点低；未做偏倚风险评估",
-   "pending_reason_zh": "尚未做偏倚风险评估（ROBINS-I）"
+   "pending_reason_zh": "尚未做偏倚风险评估（ROBINS-I）",
+   "applicability_note_zh": "排除有神经症状的 FIP 猫"
   },
   "28152671": {
    "rules_applied": [
@@ -1313,14 +1465,22 @@
   "27103204": {
    "rules_applied": [
     "R-start-diagnosis-casecontrol-high",
-    "R-no-RoB-pending"
+    "R-no-RoB-pending",
+    "R-down-indirectness-population"
    ],
    "question_type": "诊断",
    "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
    "start": "高",
    "start_basis": "回顾性诊断研究：诊断问题，病例—对照式设计→高（设计问题计入偏倚风险与间接性，Vibe Feline 裁定）",
-   "downgrades": [],
-   "provisional": "高",
+   "downgrades": [
+    {
+     "domain": "间接性",
+     "steps": -1,
+     "reason_zh": "间接性 −1：研究对象来自资助方 Beagle 研究犬群（非客户自有犬），与 25231385 判法一致",
+     "source_file": "extracts/indirectness_screen_src/PMC4913574.txt（Materials and Methods, Animals and Study Design）"
+    }
+   ],
+   "provisional": "中",
    "certainty": "待评定",
    "notes_zh": "未做偏倚风险评估",
    "pending_reason_zh": "尚未做偏倚风险评估（QUADAS-2）"
@@ -1328,14 +1488,22 @@
   "26079532": {
    "rules_applied": [
     "R-start-diagnosis-casecontrol-high",
-    "R-no-RoB-pending"
+    "R-no-RoB-pending",
+    "R-down-indirectness-population"
    ],
    "question_type": "诊断",
    "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
    "start": "高",
    "start_basis": "前瞻性诊断/方法学验证：诊断问题，病例—对照式设计→高（设计问题计入偏倚风险与间接性，Vibe Feline 裁定）",
-   "downgrades": [],
-   "provisional": "高",
+   "downgrades": [
+    {
+     "domain": "间接性",
+     "steps": -1,
+     "reason_zh": "间接性 −1：X 连锁遗传性肾病幼龄公犬（单一家系研究犬群，6–18 月龄进入终末期），不同于成年自然发生的 CKD 犬",
+     "source_file": "review2/ft/PMC4895368.txt（Animals）"
+    }
+   ],
+   "provisional": "中",
    "certainty": "待评定",
    "notes_zh": "未做偏倚风险评估",
    "pending_reason_zh": "尚未做偏倚风险评估（QUADAS-2）"
@@ -1357,22 +1525,32 @@
    "rob_source": "extracts/rob_round1_2026-11-04.json（Vibe 2026-11-09 复核通过）",
    "certainty_by_outcome": "高（结节形态/体积/T4）；疑似癌结局 中（RoB 高 −1）",
    "card_certainty_basis": "Vibe 裁定：卡片取一句话结论所述结局的最低等级；结论含疑似甲状腺癌（JBI Q6 否，RoB 高 −1 → 中）",
-   "provisional": "高"
+   "provisional": "高",
+   "applicability_note_zh": "仅为转诊做放射碘治疗的甲亢猫"
   },
   "3616607": {
    "rules_applied": [
     "R-start-treatment-observational-low",
-    "R-no-RoB-pending"
+    "R-no-RoB-pending",
+    "R-down-indirectness-population"
    ],
    "question_type": "治疗获益",
    "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
    "start": "低",
    "start_basis": "病例系列 + 实验：治疗获益问题，观察性→低",
-   "downgrades": [],
-   "provisional": "低",
+   "downgrades": [
+    {
+     "domain": "间接性",
+     "steps": -1,
+     "reason_zh": "间接性 −1：研究对象为猫，所在专题（饮食相关 DCM）其余证据均针对犬",
+     "source_file": "extracts/indirectness_screen_src/pubmed_3616607.txt（Abstract）"
+    }
+   ],
+   "provisional": "极低",
    "certainty": "待评定",
    "notes_zh": "无对照病例系列按 GRADE 观察性起点低；未做偏倚风险评估",
-   "pending_reason_zh": "尚未做偏倚风险评估（ROBINS-I）"
+   "pending_reason_zh": "尚未做偏倚风险评估（ROBINS-I）",
+   "applicability_note_zh": "本文研究对象为猫，在饮食相关 DCM 专题中作为机制背景收录（牛磺酸缺乏可致可逆性心肌衰竭），不作为犬的直接证据。"
   },
   "41701235": {
    "rules_applied": [
@@ -1388,30 +1566,41 @@
    "provisional": null,
    "certainty": "待评定",
    "notes_zh": "未做偏倚风险评估",
-   "pending_reason_zh": "尚未核对纳入研究设计（系统综述起点取决于纳入研究）"
+   "pending_reason_zh": "尚未核对纳入研究设计（系统综述起点取决于纳入研究）",
+   "indirectness_note_zh": "间接性不降：健康对照的两门设计属偏倚风险（患者选择），待偏倚风险评估时处理"
   },
   "41527203": {
    "rules_applied": [
     "R-start-SR-by-included-designs",
     "R-no-RoB-pending",
-    "R-start-SR-included-designs-unverified"
+    "R-start-SR-included-designs-unverified",
+    "R-down-indirectness-population"
    ],
    "question_type": "诊断",
    "question_basis": "extracts/cebm_fill.json",
    "start": null,
    "start_basis": "SR（系统综述），诊断问题；纳入设计未核；起点待核（Vibe Feline 裁定）",
-   "downgrades": [],
+   "downgrades": [
+    {
+     "domain": "间接性",
+     "steps": -1,
+     "reason_zh": "间接性 −1：纳入猫 5 项、犬 6 项研究，综述自评 11 项中 9 项适用性高度关注；确定性待 ROBIS 与证据体评估完成后再定",
+     "source_file": "extracts/indirectness_screen_src/pubmed_41527203.txt（Abstract, Results）"
+    }
+   ],
    "provisional": null,
    "certainty": "待评定",
    "notes_zh": "未做偏倚风险评估",
-   "pending_reason_zh": "尚未核对纳入研究设计（系统综述起点取决于纳入研究）"
+   "pending_reason_zh": "尚未核对纳入研究设计（系统综述起点取决于纳入研究）",
+   "indirectness_note_zh": "间接性已判 −1；起点与偏倚风险（ROBIS）未定，确定性仍为待评定"
   },
   "40941356": {
    "rules_applied": [
     "R-SR-body-of-evidence",
     "R-start-SR-by-included-designs",
     "R-start-treatment-observational-low",
-    "R-rob-assessed-v4"
+    "R-rob-assessed-v4",
+    "R-down-indirectness-population"
    ],
    "question_type": "治疗获益",
    "question_basis": "extracts/cebm_fill.json",
@@ -1423,6 +1612,12 @@
      "steps": -1,
      "reason_zh": "偏倚风险 −1：综述用 ROBINS-I 评传统口服药 4 项研究，3 项 Serious、1 项 Moderate（ROBINS-I Serious −1）",
      "source_file": "review2/ft/PMC12427183.txt（Table 2；Abstract）"
+    },
+    {
+     "domain": "间接性",
+     "steps": -1,
+     "reason_zh": "间接性 −1：20 项研究中 10 项为高危或实验模型（含健康猫），不是糖尿病猫；已到极低，不再改变等级",
+     "source_file": "review2/ft/PMC12427183.txt（Abstract；3.3 Studies in At-Risk or Experimental Feline Models）"
     }
    ],
    "certainty": "极低",
@@ -1902,17 +2097,22 @@
   },
   "42004674": {
    "rules_applied": [
-    "R-no-RoB-pending"
+    "R-na-review",
+    "R-na-knowledge-summary-own-strength"
    ],
-   "question_type": "治疗获益",
-   "question_basis": "extracts/cebm_hyperthyroid_2026-11-05.json",
+   "question_type": null,
+   "question_basis": null,
    "start": null,
-   "start_basis": "",
+   "start_basis": "知识摘要（二次文献）",
    "downgrades": [],
    "provisional": null,
-   "certainty": "待评定",
-   "notes_zh": "未做偏倚风险评估",
-   "pending_reason_zh": "尚未做偏倚风险评估（ROBIS）"
+   "certainty": "不适用",
+   "notes_zh": "非原始临床研究；原文自报证据强度见 own_evidence_strength",
+   "na_reason_zh": "知识摘要（二次文献）",
+   "own_evidence_strength": "Moderate",
+   "own_evidence_strength_quote": "Strength of evidence Moderate.",
+   "own_evidence_strength_location": "ft/hyper/PMC13082284.txt，Clinical bottom line（Strength of evidence）",
+   "own_evidence_strength_source": "Veterinary Evidence 知识摘要自评（RCVS Knowledge）"
   },
   "42800045": {
    "rules_applied": [

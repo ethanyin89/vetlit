@@ -91,6 +91,10 @@ for pm in NEW:
         t=rob_tool(pm,SR[pm].get('confidence_sentence') or '')
         ce['papers'][pm]={'rules_applied':['R-no-RoB-pending'],'question_type':CE[pm]['question'],'question_basis':f'extracts/cebm_{TAG}.json','start':None,'start_basis':'','downgrades':[],'provisional':None,
           'certainty':'待评定','notes_zh':'未做偏倚风险评估','pending_reason_zh':f'尚未做偏倚风险评估（{t}）' if t else '尚未做偏倚风险评估'}
+# deep extract rulings since the batch (e.g. 42004674 knowledge summary -> 不适用, 2026-11-09) win over the interim 待评定 entry
+_SC=L('/workspace/vetlit/extracts/certainty.json')['papers']
+for pm in NEW:
+    if pm in _SC: ce['papers'][pm]=_SC[pm]
 W(os.path.join(V,'certainty.json'),ce)
 ts=L(os.path.join(X,'text_source.json')); ts.update({p:TS[p] for p in NEW}); W(os.path.join(X,'text_source.json'),ts)
 # ---- topic pools + ranking by the site's single rule (same as every other topic's top_picks; 排序规则):

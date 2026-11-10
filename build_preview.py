@@ -10,6 +10,7 @@ def clean(s):
     s=re.sub(r'[，,；]?\s*(?:Vibe Feline|deep extract|Vibe)\s*(?:\d{4}-\d{2}-\d{2}\s*)?(?:裁定|更正|决定)','',s,flags=re.I)
     s=re.sub(r'(deep extract|Vibe Feline|vibe-feline-v\d)','AI 速读',s,flags=re.I)
     s=re.sub(r'(?:按\s*)?Vibe\s*(?:\d{4}-\d{2}-\d{2}\s*)?(?:裁定|更正|决定)?(?:\s*\d{4}-\d{2}-\d{2})?','',s)
+    s=re.sub(r'原按[^。]*?属归类错误[^。]*。','',s)   # curation-history notes are not reader content
     s=re.sub(r'([。，；：！？、])\1+',r'\1',s)
     return s.replace('。）','）').strip()
 EMPTY={'','未核','不适用','—','-','None'}
@@ -240,6 +241,12 @@ def dg_label(d):
     """Downgrade row label from steps (deep extract schema); legacy strings / dicts without steps keep '降一级'. source_file is never shown."""
     if not isinstance(d,dict) or d.get('steps') not in STEP: return '降一级'
     return ((d.get('domain') or '').strip()+' ' if d.get('domain') else '')+STEP[d['steps']]
+def notes_txt(r):
+    """certainty notes for readers: internal field names are replaced by their values or dropped."""
+    s=str(r.get('notes_zh') or '')
+    own=str(r.get('own_evidence_strength') or '').strip()
+    s=s.replace('原文自报证据强度见 own_evidence_strength','原文自报证据强度：'+own if own else '原文自报证据强度未报告')
+    return re.sub(r'[（(]\s*见\s*[a-z_]+\s*[）)]','',s)
 def grade(p):
     """Certainty from deep extract's certainty.json (no computation here). Returns (chip_text, fold_html)."""
     r=CERT.get(str(p.get('pmid') or '')) or CERT.get(str(p.get('sid') or '')) or CERT.get(str(p.get('sid') or '').replace('pmid-',''))
@@ -251,7 +258,7 @@ def grade(p):
     else:
         c=c if c in CVALS else ('不适用' if c is None and r.get('start') is None else '待评定')
         t='证据确定性：'+c
-    rows=[('起始等级',(r.get('start') or '—')+(f'（{r["start_basis"]}）' if r.get('start_basis') else ''))]+[(dg_label(d),d.get('reason_zh','') if isinstance(d,dict) else str(d)) for d in r.get('downgrades') or []]+([('说明',r['notes_zh'])] if r.get('notes_zh') else [])+[('结果',t)]+review_rob_rows(r)
+    rows=[('起始等级',(r.get('start') or '—')+(f'（{r["start_basis"]}）' if r.get('start_basis') else ''))]+[(dg_label(d),d.get('reason_zh','') if isinstance(d,dict) else str(d)) for d in r.get('downgrades') or []]+([('说明',notes_txt(r))] if r.get('notes_zh') else [])+[('结果',t)]+([('适用范围',r['applicability_note_zh'])] if str(r.get('applicability_note_zh') or '').strip() else [])+review_rob_rows(r)
     h='<table class="kv">'+''.join(f'<tr><th>{k}</th><td>{E_(clean(v))}</td></tr>' for k,v in rows)+'</table>'
     return t,h
 CHIP_HOLD=set()
