@@ -8,7 +8,8 @@
   "v2": "benchmark/work/certainty_v2.json",
   "v3": "benchmark/work/certainty_v3.json",
   "rules_v4_amend_2026-11-04": "ROBINS-I 总体映射（GRADE，Vibe 裁定 2026-11-04）：Serious 降 1 级，Critical 降 2 级（至极低为止）；JBI 清单不设阈值，总体判断由评审人作出并写明理由；病例报告/病例系列用 JBI 病例系列清单，不用 ROBINS-I；卡片确定性按一句话结论所述结局，多个结局取最低（GRADE 按结局评级）。",
-  "rules_v4_amend_2026-11-09": "RoB 2 “一些担忧”（GRADE/Cochrane Handbook，Vibe 裁定 2026-11-09）：担忧领域会影响主要结局时降一级，并写明理由；否则不降。预后研究的偏倚风险工具用 QUIPS（Cochrane 预后综述），患病率部分仍用 JBI 患病率清单。"
+  "rules_v4_amend_2026-11-09": "RoB 2 “一些担忧”（GRADE/Cochrane Handbook，Vibe 裁定 2026-11-09）：担忧领域会影响主要结局时降一级，并写明理由；否则不降。预后研究的偏倚风险工具用 QUIPS（Cochrane 预后综述），患病率部分仍用 JBI 患病率清单。",
+  "rules_v4_amend_2026-11-09_indirectness": "R-down-indirectness-population（Vibe 裁定 2026-11-09）：RCT 人群与专题问题不一致（如过敏性皮炎广义人群用于犬特应性皮炎专题，特应性皮炎只占少数且仅合并诊断）时，间接性降一级（GRADE indirectness）。"
  },
  "papers": {
   "42043241": {
@@ -2252,17 +2253,64 @@
   },
   "34180084": {
    "rules_applied": [
-    "R-no-RoB-pending"
+    "R-start-treatment-RCT-high",
+    "R-VF-bias-toward-null",
+    "R-down-indirectness-population"
    ],
    "question_type": "治疗获益",
    "question_basis": "extracts/cebm_dogAD_2026-11-10.json",
-   "start": null,
-   "start_basis": "",
-   "downgrades": [],
-   "provisional": null,
-   "certainty": "待评定",
-   "notes_zh": "未做偏倚风险评估",
-   "pending_reason_zh": "尚未做偏倚风险评估（RoB 2）"
+   "start": "高",
+   "start_basis": "RCT：治疗获益问题，RCT→高",
+   "downgrades": [
+    "偏倚方向朝向无效，不降（退出盐水 16/62 vs lokivetmab 3/61，均因无效）",
+    "间接性 −1：人群为广义过敏性皮炎（食物、跳蚤、接触过敏或未明确的过敏性皮肤病），特应性皮炎仅 33.3% 且只能合并诊断"
+   ],
+   "certainty": "中",
+   "notes_zh": "RoB 2 总体高（D3：第 28 天前退出）不降：退出盐水 16/62、lokivetmab 3/61，全部因症状加重或无改善，偏倚朝向低估疗效（不同于 27647569 各组均大量缺失）。第 28 天缺失 18 vs 6 含方案偏离（盐水 1 禁用药 + 1 超窗，lokivetmab 3 禁用药）。Vibe 裁定 2026-11-09：间接性降一级：人群宽于特应性皮炎，本文在犬特应性皮炎专题下，间接性降一级 → 中",
+   "rob_tool": "RoB 2",
+   "rob_overall": "高",
+   "rob_source": "extracts/rob_round1_dogAD_2026-11-09.json（Vibe 2026-11-09 裁定）",
+   "provisional": "中",
+   "indirectness": {
+    "domain": "间接性",
+    "step": -1,
+    "reason_zh": "人群为广义过敏性皮炎：入组为兽医推定的食物不良反应、跳蚤过敏、接触过敏、疑似特应性皮炎或未明确的过敏性皮肤病，特应性皮炎只能与其他病因合并诊断，仅占 33.3%；本文归在犬特应性皮炎专题下，对特应性皮炎问题属间接证据 −1",
+    "quotes": [
+     {
+      "quote": "A presumptive diagnosis was made to include one or more of the following: adverse reaction to food, flea allergy, contact allergy, suspected AD or unspecified allergic dermatosis.",
+      "location": "Methods, Inclusion criteria",
+      "file": "ft/dogad/PMC8519066.txt"
+     },
+     {
+      "quote": "A diagnosis of cAD was only allowed in combination with one of the other aetiologies.",
+      "location": "Methods, Inclusion criteria",
+      "file": "ft/dogad/PMC8519066.txt"
+     },
+     {
+      "quote": "The most common presumptive diagnosis was food allergy (41.5%), followed by AD (33.3%, in combination with other aetiologies) and contact allergy (33.3%). Flea allergy was least reported, with only 13.8% of the enrolled cases represented.",
+      "location": "Results, Aetiology",
+      "file": "ft/dogad/PMC8519066.txt"
+     },
+     {
+      "quote": "For 29.3% of the animals, an allergic component was identified that could not be assigned to any of the pre‐defined categories with the information at hand at the time of enrolment; these were assigned as unspecified allergic dermatitis (in combination or not with any of the other causes).",
+      "location": "Results, Aetiology",
+      "file": "ft/dogad/PMC8519066.txt"
+     }
+    ]
+   },
+   "rob_quotes": [
+    {
+     "quote": "Data from 16 control animals and three lokivetmab‐treated dogs were not available because they were withdrawn from the study before D28. All withdrawals were to the result of worsening or lack of improvement of clinical signs of allergic dermatitis.",
+     "location": "Results, Assessment of effectiveness",
+     "file": "ft/dogad/PMC8519066.txt"
+    },
+    {
+     "quote": "Four animals (one placebo, three lokivetmab‐treated dogs) received forbidden medication during the study period and as a result their efficacy data were excluded from the D28 dataset. Data from one additional placebo‐treated animal were excluded because the D28 assessment was performed outside of the allowed window (D28 ± 3 days).",
+     "location": "Results, Assessment of effectiveness",
+     "file": "ft/dogad/PMC8519066.txt"
+    }
+   ],
+   "ruling": "Vibe 裁定 2026-11-09：间接性降一级"
   },
   "20187911": {
    "rules_applied": [

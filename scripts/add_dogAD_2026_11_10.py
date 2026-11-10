@@ -36,8 +36,7 @@ BIB={
  '30115047':("Development of a core outcome set for therapeutic clinical trials enrolling dogs with atopic dermatitis (COSCAD'18).",'Olivry T','2018-08-16','叙述性综述'),
 }
 NEW=list(BIB); assert set(NEW)==set(SR)==set(CM)==set(CE)==set(TS)==set(TD)==set(OA)-{'_meta'}, 'source files disagree on the 14 PMIDs'
-# 34180084: RoB 2 dropout numbers are being re-checked (room 2026-11-09) -> certainty NOT taken from deep extract yet; keep 待评定 and the earlier sentence.
-HOLD={'34180084':'本文为设盲安慰剂对照 RCT，CEBM 治疗问题 2 级（人群宽于特应性皮炎，间接性另注），RoB 2 尚未评估，结论基于全文。'}
+HOLD={}   # 34180084 final 2026-11-09 (中, indirectness −1): synced like the others
 GUIDES={'42805756','26260508'}; REASON_PM='42805756'; REASON='取代 2010 版和 2015 版 ICADA 犬特应性皮炎治疗指南。'
 # pre-merge checks (team list, 2026-11-09)
 assert PR[REASON_PM]['pick_reason_zh']==REASON
@@ -115,6 +114,13 @@ for _k in NEW:
     assert _k in _src, _k
     assert not any(x in str(_src[_k].get('rob_tool') or '') for x in ('AMSTAR','ROBIS')), _k
     ce['papers'][_k]=_src[_k]
+# rule id renamed by the room: R-VF-indirectness-population -> R-down-indirectness-population (live data uses the new id)
+_RN=lambda x: json.loads(json.dumps(x,ensure_ascii=False).replace('R-VF-indirectness-population','R-down-indirectness-population'))
+for _k in NEW: ce['papers'][_k]=_RN(ce['papers'][_k])
+# _meta: append ONLY the new indirectness rule (existing _meta keys untouched)
+_m=_RN(L(os.path.join(S,'certainty.json'))['_meta']).get('rules_v4_amend_2026-11-09_dogAD','')
+_rule=re.search(r'R-down-indirectness-population（[^）]*）：[^。]*。',_m).group(0)
+ce['_meta'].setdefault('rules_v4_amend_2026-11-09_indirectness',_rule)
 W(os.path.join(V,'certainty.json'),ce)
 ts=L(os.path.join(X,'text_source.json')); ts.update({p:TS[p] for p in NEW}); W(os.path.join(X,'text_source.json'),ts)
 # ranking (single site rule)

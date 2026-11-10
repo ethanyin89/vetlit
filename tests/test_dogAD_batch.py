@@ -19,7 +19,6 @@ for pm in NEW:
     for bad in ('Vibe','deep extract','裁定','OpenAlex','年均'): assert bad not in h, (pm,bad)
     if pm in GUIDES: assert B.CERT[pm]['certainty'] is None
     elif pm=='30115047': assert B.CERT[pm]['certainty']=='不适用' and 'R-na-nonclinical' in B.CERT[pm]['rules_applied'] and '不分级' in top, pm
-    elif pm=='34180084': assert B.CERT[pm]['certainty']=='待评定' and 'RoB 2 尚未评估' in h, pm   # on hold: dropout numbers re-checked
     else: assert B.CERT[pm]==SRC[pm], pm
     if B.CERT[pm].get('certainty')=='待评定': assert '证据确定性待评定' in fold, pm
     assert not any(x in str(B.CERT[pm].get('rob_tool') or '') for x in ('AMSTAR','ROBIS')), pm
@@ -54,4 +53,8 @@ for x in ('self-funded','World Association for Veterinary Dermatology','Projekt 
 assert '待查' not in h and '7.7' not in h and '资助/利益冲突：资金：本文自筹' in top
 assert '指南推荐强度：指南自身用 SORT 给推荐强度' in top
 assert B.CERT['26260508']['guideline_strength']=='该指南未分级'
+assert B.CERT['34180084']['certainty']=='中' and 'R-down-indirectness-population' in B.CERT['34180084']['rules_applied']
+M=json.load(open('data/v5/certainty.json',encoding='utf-8'))['_meta']; assert M['rules_v4_amend_2026-11-09_indirectness'].startswith('R-down-indirectness-population')
+import glob
+for f in glob.glob('dist/**/*.html',recursive=True): assert not re.search(r'\bR-(?:down|VF|na|start|SR|guideline|no|rob)-',open(f,encoding='utf-8').read()), f
 print('dogAD batch tests OK')
