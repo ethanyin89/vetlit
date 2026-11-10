@@ -20,5 +20,6 @@ VETLIT_LIVE=1 python3 tests/test_reader_pages.py
 VETLIT_LIVE=1 python3 tests/test_downgrades.py
 python3 tests/test_topic_fix.py
 VETLIT_LIVE=1 python3 tests/test_applicability.py
+VETLIT_LIVE=1 python3 tests/test_deep_speedread.py
 python3 scripts/check_links.py
 echo ALL OK

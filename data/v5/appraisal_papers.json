@@ -1272,38 +1272,32 @@
    {
     "item": "D1 随机化过程",
     "judgment": "低",
-    "reason": "\"dogs randomized\"",
-    "evidence_quote": "dogs randomized"
+    "reason": "",
+    "evidence_quote": "each study number within a block was randomly assigned to a treatment group (benazepril or pimobendan) by computer software."
    },
    {
-    "item": "D2 偏离既定干预",
-    "judgment": "信息不足",
-    "reason": "未检到相关信息/本次未读到可判断内容",
-    "evidence_quote": ""
+    "item": "D2 偏离既定干预（分配效应）",
+    "judgment": "一些担忧",
+    "reason": "",
+    "evidence_quote": "Eight dogs were excluded from analysis."
    },
    {
     "item": "D3 结局数据缺失",
     "judgment": "低",
-    "reason": "260 招募、8 只排除",
-    "evidence_quote": ""
+    "reason": "",
+    "evidence_quote": "Sixty-two dogs (25%) were censored (Table 3)"
    },
    {
     "item": "D4 结局测量",
-    "judgment": "有一定担忧",
-    "reason": "\"single-blinded\"；终点含\"treatment failure\"",
-    "evidence_quote": "single-blinded"
+    "judgment": "一些担忧",
+    "reason": "",
+    "evidence_quote": "The use of a single-blinded design runs the risk that the unblinded party (the owner) may have influenced the outcomes based on some preconceived or acquired sense that 1 agent was superior to the other."
    },
    {
-    "item": "D5 结果选择性报告",
-    "judgment": "信息不足",
-    "reason": "未检到相关信息/本次未读到可判断内容",
-    "evidence_quote": ""
-   },
-   {
-    "item": "总体",
-    "judgment": "信息不足",
-    "reason": "未检到相关信息/本次未读到可判断内容",
-    "evidence_quote": ""
+    "item": "D5 结果的选择性报告",
+    "judgment": "低",
+    "reason": "",
+    "evidence_quote": "This composite primary endpoint was defined at the time of writing the protocol."
    }
   ],
   "reporting_check": {
@@ -1331,7 +1325,7 @@
     "stat": "—"
    }
   ],
-  "methods_review": "D1 随机化过程：低 ；D2 偏离既定干预：信息不足 ；D3 结局数据缺失：低 ；D4 结局测量：有一定担忧 ；D5 结果选择性报告：信息不足 ；总体：信息不足",
+  "methods_review": "RoB 2 总体：一些担忧",
   "can_say": [
    "匹莫苯丹延长 CHF 犬到达终点时间"
   ],
@@ -1352,7 +1346,8 @@
   "bibtex": "@article{haggstrom_2008,\n  author={Häggström J and others},\n  title={Effect of pimobendan or benazepril hydrochloride on survival times in dogs with congestive heart failure caused by naturally occurring myxomatous mitral valve disease: the QUEST study.},\n  journal={Journal of veterinary internal medicine},\n  year={2008},\n  doi={10.1111/j.1939-1676.2008.0150.x},\n  pmid={18638016}\n}",
   "ris": "TY  - JOUR\nAU  - Häggström J\nTI  - Effect of pimobendan or benazepril hydrochloride on survival times in dogs with congestive heart failure caused by naturally occurring myxomatous mitral valve disease: the QUEST study.\nJO  - Journal of veterinary internal medicine\nPY  - 2008\nDO  - 10.1111/j.1939-1676.2008.0150.x\nAN  - PMID:18638016\nER  - ",
   "phase_md": "Phase 0 分段：仅摘要各句。Phase 1 主题：前瞻、单盲、随机、阳性对照（贝那普利）；28 中心（欧洲、加拿大、澳大利亚）。Phase 2 论点—论据：CHF 期 MMVD 犬中，匹莫苯丹较贝那普利延长到达复合终点时间（267 vs 140 天，HR 0.688，P=.0099）。。Phase 3 自检：结论受 RoB 2 所列偏倚限制；未读全文，多数条目标为信息不足。",
-  "cebm_basis": "单个随机试验"
+  "cebm_basis": "单个随机试验",
+  "appraisal_note": "RoB 2 总体：一些担忧"
  },
  {
   "specialty": "心脏",
@@ -1962,7 +1957,7 @@
    },
    {
     "metric": "LOE strong 条目数",
-    "value": "3",
+    "value": "4",
     "stat": "我方计数"
    }
   ],
@@ -4891,8 +4886,63 @@
   "file": "salonen_2020.md",
   "species_v2": "犬",
   "cebm_level": "3",
-  "appraisal_tool": "未评",
-  "appraisal_items": [],
+  "appraisal_tool": "JBI 患病率清单",
+  "appraisal_items": [
+   {
+    "item": "Q1 抽样框架能否代表目标人群",
+    "judgment": "否",
+    "reason": "",
+    "evidence_quote": "Thirdly, our sample is a self-selected convenience sample, and may not be representative of the overall Finnish dog population."
+   },
+   {
+    "item": "Q2 抽样方式是否恰当",
+    "judgment": "否",
+    "reason": "",
+    "evidence_quote": "Owners were mainly recruited from a social media (Facebook) channel. Furthermore, dog breed organisations advertised the questionnaire on their own websites and Facebook pages."
+   },
+   {
+    "item": "Q3 样本量是否足够",
+    "judgment": "是",
+    "reason": "",
+    "evidence_quote": "This calculation resulted in a minimum sample size of 200 individuals per breed."
+   },
+   {
+    "item": "Q4 对象与场景描述是否充分",
+    "judgment": "是",
+    "reason": "",
+    "evidence_quote": "We collected 13,715 responses in 264 dog breeds. In total, 51.5% of the dogs were female and the age of the dogs varied between 10 weeks and 17 years 10 months (mean 4.7 years)."
+   },
+   {
+    "item": "Q5 数据分析是否覆盖所识别样本",
+    "judgment": "是",
+    "reason": "",
+    "evidence_quote": "the number of dogs in high group was divided by the sum of dogs in all trait groups"
+   },
+   {
+    "item": "Q6 识别病况的方法是否有效",
+    "judgment": "部分否",
+    "reason": "",
+    "evidence_quote": "the psychometric properties of the rest of the questionnaire have not been formally evaluated."
+   },
+   {
+    "item": "Q7 病况测量对所有对象是否标准、可靠",
+    "judgment": "不清楚",
+    "reason": "",
+    "evidence_quote": "the categorisation into low, moderate, and high categories was mostly based on the frequency of signs and not the severity"
+   },
+   {
+    "item": "Q8 统计分析是否恰当",
+    "judgment": "是",
+    "reason": "",
+    "evidence_quote": "To estimate the prevalence of high anxiety dogs, the number of dogs in high group was divided by the sum of dogs in all trait groups"
+   },
+   {
+    "item": "Q9 应答率是否足够",
+    "judgment": "不适用/不清楚",
+    "reason": "",
+    "evidence_quote": "In total, we received questionnaire responses of 13,715 dogs in 264 breeds."
+   }
+  ],
   "reporting_check": {
    "guideline": "STROBE-Vet",
    "notes": "STROBE-Vet：招募渠道、资助、COI 已报告。"
@@ -4941,7 +4991,8 @@
   "bibtex": "@article{salonen_2020,\n  author={Salonen M and others},\n  title={Prevalence, comorbidity, and breed differences in canine anxiety in 13,700 Finnish pet dogs.},\n  journal={Scientific reports},\n  year={2020},\n  doi={10.1038/s41598-020-59837-z},\n  pmid={32139728}\n}",
   "ris": "TY  - JOUR\nAU  - Salonen M\nTI  - Prevalence, comorbidity, and breed differences in canine anxiety in 13,700 Finnish pet dogs.\nJO  - Scientific reports\nPY  - 2020\nDO  - 10.1038/s41598-020-59837-z\nAN  - PMID:32139728\nER  - ",
   "phase_md": "Phase 0 分段：全文 Methods/Results/Discussion 速读。Phase 1 主题：芬兰主人在线问卷；主要通过 Facebook 与犬种组织网站招募。Phase 2 论点—论据：芬兰犬问题行为常见：72.5% 至少有一种高度问题行为，噪声敏感最常见（32%）。。Phase 3 自检：结论受 ROBINS-I 所列偏倚限制；单人速读，未双人复核。",
-  "cebm_basis": "患病率：非随机样本"
+  "cebm_basis": "患病率：非随机样本",
+  "appraisal_note": "JBI 患病率清单：高"
  },
  {
   "specialty": "行为/认知",
@@ -5619,8 +5670,51 @@
   "file": "kaplan_2018.md",
   "species_v2": "犬",
   "cebm_level": "4",
-  "appraisal_tool": "未评",
-  "appraisal_items": [],
+  "appraisal_tool": "ROBINS-I",
+  "appraisal_items": [
+   {
+    "item": "D1 混杂",
+    "judgment": "极严重",
+    "reason": "",
+    "evidence_quote": "Medical therapy, taurine analysis, baseline and treatment period diets, and supplementation were not standardized across all cases, making it difficult to identify any treatment-specific differences from our results."
+   },
+   {
+    "item": "D2 对象选择",
+    "judgment": "严重",
+    "reason": "",
+    "evidence_quote": "Sixteen dogs were excluded from the study due to one of the following reasons: inadequate imaging to assess DCM status (n = 7), no evidence of dilated cardiomyopathy based on echocardiographic remeasurement by investigator (n = 8)"
+   },
+   {
+    "item": "D3 干预分类",
+    "judgment": "低",
+    "reason": "",
+    "evidence_quote": "At baseline, 24 dogs were prescribed taurine supplementation"
+   },
+   {
+    "item": "D4 偏离既定干预",
+    "judgment": "严重",
+    "reason": "",
+    "evidence_quote": "All dogs were managed as clinical cases by an attending clinician following standard of clinical care."
+   },
+   {
+    "item": "D5 缺失数据",
+    "judgment": "严重",
+    "reason": "",
+    "evidence_quote": "Follow-up echocardiographic data for %FS, LVIDd, LVIDs, and LA:Ao ratio was available in 16/24 dogs"
+   },
+   {
+    "item": "D6 结局测量",
+    "judgment": "中",
+    "reason": "",
+    "evidence_quote": "All echocardiographic images obtained from outside institutions were sent for off-line analysis by a single investigator (JS)"
+   },
+   {
+    "item": "D7 选择性报告",
+    "judgment": "中",
+    "reason": "",
+    "evidence_quote": "Follow-up data was requested for all dogs if obtained for clinical reevaluation during the study period"
+   }
+  ],
   "reporting_check": {
    "guideline": "STROBE-Vet",
    "notes": "STROBE-Vet：设计、场所、局限已报告。"
@@ -5678,7 +5772,8 @@
   "bibtex": "@article{kaplan_2018,\n  author={Kaplan JL and others},\n  title={Taurine deficiency and dilated cardiomyopathy in golden retrievers fed commercial diets.},\n  journal={PloS one},\n  year={2018},\n  doi={10.1371/journal.pone.0209112},\n  pmid={30543707}\n}",
   "ris": "TY  - JOUR\nAU  - Kaplan JL\nTI  - Taurine deficiency and dilated cardiomyopathy in golden retrievers fed commercial diets.\nJO  - PloS one\nPY  - 2018\nDO  - 10.1371/journal.pone.0209112\nAN  - PMID:30543707\nER  - ",
   "phase_md": "Phase 0 分段：全文 Methods/Results/Discussion 速读。Phase 1 主题：多中心前瞻性观察研究（原文：\"multicenter, prospective, observational\"）；北美私立及学术机构招募（2016.1–2018.7）。Phase 2 论点—论据：24 只牛磺酸缺乏 DCM 金毛中 23 只吃无谷/豆类饮食，换粮 + 补牛磺酸后 23/24 超声改善、牛磺酸正常化。。Phase 3 自检：结论受 ROBINS-I 所列偏倚限制；单人速读，未双人复核。",
-  "cebm_basis": "病例系列，治疗反应无对照"
+  "cebm_basis": "病例系列，治疗反应无对照",
+  "appraisal_note": "ROBINS-I 总体：极严重"
  },
  {
   "specialty": "营养",
@@ -6260,8 +6355,75 @@
   "file": "inoue_2016.md",
   "species_v2": "猫",
   "cebm_level": "3",
-  "appraisal_tool": "未评",
-  "appraisal_items": [],
+  "appraisal_tool": "JBI 队列清单",
+  "appraisal_items": [
+   {
+    "item": "Q1 各组是否相似、来自同一人群",
+    "judgment": "不适用",
+    "reason": "",
+    "evidence_quote": "Healthy cats younger than 11 years old are eligible to enter the Anicom insurance programme."
+   },
+   {
+    "item": "Q2 暴露（年龄/性别/品种）测量方式是否一致",
+    "judgment": "不适用",
+    "reason": "",
+    "evidence_quote": "Data on all cats aged 0–21 years that entered an insurance programme or that had an insurance policy renewed during the period from 1 April 2008 to 31 March 2013 were entered into a database for the calculation of annual incidence."
+   },
+   {
+    "item": "Q3 暴露测量是否有效可靠",
+    "judgment": "不适用",
+    "reason": "",
+    "evidence_quote": "Healthy cats younger than 11 years old are eligible"
+   },
+   {
+    "item": "Q4 是否识别混杂因素",
+    "judgment": "不适用",
+    "reason": "",
+    "evidence_quote": "The annual incidence rates of having at least one veterinary care event were calculated overall and stratified by age, sex, breed, fiscal year and diagnostic categories."
+   },
+   {
+    "item": "Q5 是否有处理混杂的策略",
+    "judgment": "不适用",
+    "reason": "",
+    "evidence_quote": "Figure 4 shows the incidence rates standardised for ages of the different diagnostic categories for the major 16 breeds that had a CYAR value >1000."
+   },
+   {
+    "item": "Q6 起点是否无结局",
+    "judgment": "是（入保需健康）",
+    "reason": "",
+    "evidence_quote": "Healthy cats younger than 11 years old are eligible to enter the Anicom insurance programme."
+   },
+   {
+    "item": "Q7 结局测量是否有效可靠",
+    "judgment": "否/不清楚（理赔诊断未在本库验证）",
+    "reason": "",
+    "evidence_quote": "In our study, we assumed that the diagnostic categories stated in the claim forms reflect the actual diseases."
+   },
+   {
+    "item": "Q8 随访时间是否足够",
+    "judgment": "是（年发生率，按 1 年计）",
+    "reason": "",
+    "evidence_quote": "The insurance policy term is 1 year from enrolment."
+   },
+   {
+    "item": "Q9 随访是否完整/失访是否说明",
+    "judgment": "否（退保即截尾，退保原因与比例未报告）",
+    "reason": "",
+    "evidence_quote": "Cats were at risk from either 1 April 2008 or the start date of insurance until 31 March 2013 or the date of cancelation of the insurance policy."
+   },
+   {
+    "item": "Q10 是否处理不完整随访",
+    "judgment": "部分（以 CYAR 计入实际风险时间，未分析退保是否与疾病相关）",
+    "reason": "",
+    "evidence_quote": "The owner can renew the policy at the end of each policy year until the cat dies, or terminate the policy at any time if he or she so desires."
+   },
+   {
+    "item": "Q11 统计分析是否恰当",
+    "judgment": "是",
+    "reason": "",
+    "evidence_quote": "the exact time at risk (cat-years at risk [CYAR]) as the denominator"
+   }
+  ],
   "reporting_check": {
    "guideline": "STROBE-Vet",
    "notes": "STROBE-Vet：数据来源、时期、分母（CYAR）已报告；描述性研究按要求未评偏倚。"
@@ -6314,7 +6476,8 @@
   "bibtex": "@article{inoue_2016,\n  author={Inoue M and others},\n  title={Morbidity pattern by age, sex and breed in insured cats in Japan (2008-2013).},\n  journal={Journal of feline medicine and surgery},\n  year={2016},\n  doi={10.1177/1098612x15616433},\n  pmid={26581469}\n}",
   "ris": "TY  - JOUR\nAU  - Inoue M\nTI  - Morbidity pattern by age, sex and breed in insured cats in Japan (2008-2013).\nJO  - Journal of feline medicine and surgery\nPY  - 2016\nDO  - 10.1177/1098612x15616433\nAN  - PMID:26581469\nER  - ",
   "phase_md": "Phase 0 分段：PMC 全文 Methods/Results/Discussion（指南为全部章节）速读。Phase 1 主题：日本参保猫理赔数据 2008.4–2013.3。Phase 2 论点—论据：日本 64,575 只参保猫（2008.4–2013.3）：≥1 次理赔年发病率 4632/万猫年，消化系统最高（1172/万猫年），其次泌尿与皮肤；多个纯种猫心血管病发病率高于混血；依赖理赔诊断。 Phase 3 自检：描述性研究，未套偏倚工具；单人全文速读，未双人复核。",
-  "cebm_basis": "患病率/发病率：非随机样本"
+  "cebm_basis": "患病率/发病率：非随机样本",
+  "appraisal_note": "JBI 队列清单：高"
  },
  {
   "specialty": "肾脏",
@@ -6905,46 +7068,100 @@
   "cebm_level": "3",
   "cebm_basis": "初级诊疗电子病历，非随机样本",
   "cebm_question": "患病率/预后",
-  "appraisal_tool": "QUIPS",
+  "appraisal_tool": "JBI 患病率清单（患病率）＋ QUIPS（预后）",
   "appraisal_items": [
    {
-    "item": "1 研究参与",
+    "item": "患病率 · Q1 抽样框架能否代表目标人群",
+    "judgment": "不清楚",
+    "reason": "",
+    "evidence_quote": "Practices were selected by willingness to participate and were mainly in central and south-eastern England."
+   },
+   {
+    "item": "患病率 · Q2 抽样方式是否恰当",
+    "judgment": "是",
+    "reason": "",
+    "evidence_quote": "The current analysis used the entire known study population as the denominator"
+   },
+   {
+    "item": "患病率 · Q3 样本量是否足够",
+    "judgment": "是",
+    "reason": "",
+    "evidence_quote": "Overall, 228 dogs met the CKD inclusion criteria from 107,214 dogs attending 89 practices."
+   },
+   {
+    "item": "患病率 · Q4 对象与场景描述是否充分",
+    "judgment": "不清楚",
+    "reason": "",
+    "evidence_quote": "Overall, 228 dogs met the CKD inclusion criteria from 107,214 dogs attending 89 practices."
+   },
+   {
+    "item": "患病率 · Q5 数据分析是否覆盖所识别样本",
+    "judgment": "是",
+    "reason": "",
+    "evidence_quote": "estimated the prevalence of CKD diagnosis in dogs from all electronic patient records (EPRs)"
+   },
+   {
+    "item": "患病率 · Q6 识别病况的方法是否有效",
+    "judgment": "否",
+    "reason": "",
+    "evidence_quote": "The CKD case definition relied on primary practitioner diagnosis based on clinical acumen and synthesis of their medical knowledge of the animal"
+   },
+   {
+    "item": "患病率 · Q7 病况测量对所有对象是否标准、可靠",
+    "judgment": "否",
+    "reason": "",
+    "evidence_quote": "Non-insured animals were less than half as likely to receive a CKD diagnosis as insured animals"
+   },
+   {
+    "item": "患病率 · Q8 统计分析是否恰当",
+    "judgment": "是",
+    "reason": "",
+    "evidence_quote": "The CKD AP was 0.21% (95% CI: 0.19-0.24%)."
+   },
+   {
+    "item": "患病率 · Q9 应答率是否足够",
+    "judgment": "不适用",
+    "reason": "",
+    "evidence_quote": "Summary diagnosis terms from the VeNom Code list of veterinary-specific terms were recorded at episodes of clinical care"
+   },
+   {
+    "item": "预后 · 1 研究参与（Study participation）",
     "judgment": "中",
-    "reason": "VetCompass 89 家初级诊所电子病历，人群代表性较好但依赖病历记录",
-    "evidence_quote": ""
+    "reason": "起点明确：确诊日=首次确诊血检（起始队列）。但只纳入做过血检、被基层兽医确诊的犬，未投保犬确诊少一半以上；诊所为自愿参与的便利样本；15 只确诊早于现有病历，属回溯补入的既有病例。",
+    "evidence_quote": "CKD diagnosis date was defined as the first drawing of a confirmatory blood sample."
    },
    {
-    "item": "2 研究失访",
-    "judgment": "信息不足",
-    "reason": "仅摘要，无可判断内容",
-    "evidence_quote": ""
+    "item": "预后 · 2 研究失访（Study attrition）",
+    "judgment": "高",
+    "reason": "2 年研究窗口；只报告 118/228 死于 CKD，其余 110 只的去向（存活至研究结束、转院/离开诊所、死于其他原因）和删失人数均未报告；非 CKD 死亡如何处理（删失还是竞争风险）未说明。无法判断失访是否与预后有关。",
+    "evidence_quote": "During the study period, 118/228 (51.8%) dogs died of CKD with 99/118 (83.9%) of these being euthanized."
    },
    {
-    "item": "3 预后因素测量",
-    "judgment": "信息不足",
-    "reason": "仅摘要，无可判断内容",
-    "evidence_quote": ""
+    "item": "预后 · 3 预后因素测量（Prognostic factor measurement）",
+    "judgment": "高",
+    "reason": "IRIS 分期只凭确诊时单次肌酐（IRIS 要求稳定期至少两次空腹肌酐），检验值只在兽医抄进病历时才有；228 只中仅 136 只有分期、139 只有 BUN，约 4 成缺失，且按完整病例分析。",
+    "evidence_quote": "The current study adapted these guidelines by staging from a single creatinine measurement at diagnosis"
    },
    {
-    "item": "4 结局测量",
+    "item": "预后 · 4 结局测量（Outcome measurement）",
     "judgment": "中",
-    "reason": "CKD 死亡依病历记录",
-    "evidence_quote": ""
+    "reason": "结局=死于 CKD（含安乐死），按病历记载的死因/安乐死理由归因，无统一判定标准；118 例中 99 例为安乐死，时点由主人和兽医决定，且兽医知道分期和 BUN，可能使高分期/高 BUN 犬更早安乐死。",
+    "evidence_quote": "for animals dying during the study, the cause of death (if natural) or stated reason for euthanasia were recorded."
    },
    {
-    "item": "5 研究混杂",
+    "item": "预后 · 5 研究混杂（Study confounding）",
     "judgment": "中",
-    "reason": "多变量 Cox，但仅摘要，调整变量不详",
-    "evidence_quote": "Survival analysis used the Kaplan-Meier survival curve method and multivariable Cox proportional hazards regression modeling"
+    "reason": "多因素 Cox 考虑了人口学因素、磷、尿比重和纯种状态，但未纳入治疗（处方粮、ACEI 等）和合并症（如心脏病，本文另报告与 CKD 相关）；IRIS 分期与 BUN 都反映氮质血症程度，二者同入模型。",
+    "evidence_quote": "Blood phosphate concentration, urine specific gravity at diagnosis and purebred status were taken forward to Cox multivariable modeling but not retained."
    },
    {
-    "item": "6 统计分析与报告",
-    "judgment": "低",
-    "reason": "KM + 多变量 Cox",
-    "evidence_quote": "multivariable Cox proportional hazards regression modeling"
+    "item": "预后 · 6 统计分析与报告（Statistical analysis and reporting）",
+    "judgment": "中",
+    "reason": "KM＋Cox，检验了比例风险假设和模型拟合（加分）；但按 P 值手动后退法选变量，模型纳入的犬数和事件数未报告，删失定义未写；BUN 单位写作 “mg/dl/l”，有笔误。",
+    "evidence_quote": "Model fitting used a manual backwards elimination approach with significance set at P<0.05."
    }
   ],
-  "appraisal_note": "单人审读；条目判断依据所引原文句子",
+  "appraisal_note": "JBI 患病率清单（患病率）：高；QUIPS（预后）：高",
   "reporting_check": {
    "guideline": "STROBE-Vet",
    "notes": "仅摘要，无法逐条核查（信息不足）"
@@ -6957,7 +7174,7 @@
    "物种": "犬"
   },
   "results_table": [],
-  "methods_review": "1 研究参与：中；2 研究失访：信息不足；3 预后因素测量：信息不足；4 结局测量：中；5 研究混杂：中；6 统计分析与报告：低",
+  "methods_review": "JBI 患病率清单（患病率）：高；QUIPS（预后）：高",
   "can_say": [],
   "cannot_say": [],
   "internal_contradictions": [],
@@ -9281,9 +9498,70 @@
   "cebm_level": "4",
   "cebm_basis": "病例系列（神经型 FIP）",
   "cebm_question": "治疗获益",
-  "appraisal_tool": "未评",
-  "appraisal_items": [],
-  "appraisal_note": "未评（无对照病例系列，无对应通用 RoB 工具）",
+  "appraisal_tool": "JBI 病例系列清单",
+  "appraisal_items": [
+   {
+    "item": "Q1 纳入标准是否明确",
+    "judgment": "否",
+    "reason": "",
+    "evidence_quote": "Clinical diagnosis of FIP was based on a combination of characteristic signalment, history, disease signs, laboratory test results including hyperglobulinemia, decreased albumin: globulin (AG) ratios and FCoV antibody titers"
+   },
+   {
+    "item": "Q2 病况测量是否标准、可靠",
+    "judgment": "否",
+    "reason": "",
+    "evidence_quote": "and response to viral‐specific treatment"
+   },
+   {
+    "item": "Q3 病况识别方法是否有效",
+    "judgment": "部分（仅 Case 3 尸检/免疫组化确诊，其余为临床诊断）",
+    "reason": "",
+    "evidence_quote": "Histopathological assessment after necropsy showed multifocal chronic nonsuppurative meningitis, encephalomyelitis and ventriculitis"
+   },
+   {
+    "item": "Q4 是否连续纳入",
+    "judgment": "不清楚（未说明是否连续）",
+    "reason": "",
+    "evidence_quote": "Four cases of naturally occurring FIP with CNS involvement were treated with the antiviral nucleoside analogue GS‐441524 (5‐10 mg/kg) for at least 12 weeks."
+   },
+   {
+    "item": "Q5 是否完整纳入",
+    "judgment": "不清楚",
+    "reason": "",
+    "evidence_quote": "Four cases of naturally occurring FIP with CNS involvement"
+   },
+   {
+    "item": "Q6 人口学特征报告是否清楚",
+    "judgment": "是",
+    "reason": "",
+    "evidence_quote": "A domestic 8‐month‐old castrated male blue seal point Siamese cat obtained as a kitten from a rescue group"
+   },
+   {
+    "item": "Q7 临床信息报告是否清楚",
+    "judgment": "是",
+    "reason": "",
+    "evidence_quote": "Ophthalmic examination identified chorioretinal scars in the tapetal fundus in both eyes"
+   },
+   {
+    "item": "Q8 结局/随访结果是否报告清楚",
+    "judgment": "是",
+    "reason": "",
+    "evidence_quote": "Three cats are alive off treatment (528, 516, and 354 days after treatment initiation) with normal physical and neurologic examinations. One cat was euthanized 216 days after treatment initiation following relapses after primary and secondary treatment."
+   },
+   {
+    "item": "Q9 就诊场所/人口信息是否报告",
+    "judgment": "部分（单一教学医院，未报告转诊来源人群）",
+    "reason": "",
+    "evidence_quote": "The cat was treated with 5 mg/kg GS‐441524 SC once daily for 14 weeks."
+   },
+   {
+    "item": "Q10 统计分析是否恰当",
+    "judgment": "不适用（n=4 描述性，无统计分析）",
+    "reason": "",
+    "evidence_quote": "Our study of 4 cases of neurological FIP were treated using a dose of 5 mg/kg, with treatment duration and subsequent dose increases based on clinical responses."
+   }
+  ],
+  "appraisal_note": "JBI 病例系列清单：高",
   "reporting_check": {
    "guideline": "STROBE-Vet",
    "notes": "全文可得；逐条清单未做（页面重设计后补）"
@@ -9296,7 +9574,7 @@
    "物种": "猫"
   },
   "results_table": [],
-  "methods_review": "未评：未评（无对照病例系列，无对应通用 RoB 工具）",
+  "methods_review": "JBI 病例系列清单：高",
   "can_say": [],
   "cannot_say": [],
   "internal_contradictions": [],

@@ -15,7 +15,8 @@
    "R-down-noninferiority-ITT-CI": "非劣效试验：每项结局分开判定，看组间差值（或检验值）是否落在界值内；写出界值，不算 NNT。",
    "R-SR-body-of-evidence": "系统评价：确定性按证据本身定。综述自己做过 GRADE 的，用它的结果；没做过的，按纳入研究推。综述自身的质量只写在 review_rob_* 里。"
   },
-  "downgrades_schema": "downgrades[] = {domain, steps(负整数为降级数，0=考虑过但不降), reason_zh, source_file}；前端按 steps 显示“降一级/降两级/不降级”"
+  "downgrades_schema": "downgrades[] = {domain, steps(负整数为降级数，0=考虑过但不降), reason_zh, source_file}；前端按 steps 显示“降一级/降两级/不降级”",
+  "rules_v4_amend_2026-11-09_surrogate": "R-down-indirectness-surrogate（Vibe 裁定 2026-11-09）：主要结局是化验指标或其他替代终点，而专题问的是对患病动物真正重要的结局（生存、临床恶化、疾病进展）时，间接性降一级；专题本身问的就是该指标时不降。downgrades 记 {domain:间接性, steps:-1, reason_zh, source_file}。来源：GRADE 指南第 8 篇（Guyatt 2011, J Clin Epidemiol 64:1303–1310，间接性）。首例：38952053 由高改为中。"
  },
  "papers": {
   "42043241": {
@@ -510,15 +511,23 @@
   },
   "38952053": {
    "rules_applied": [
-    "R-start-treatment-RCT-high"
+    "R-start-treatment-RCT-high",
+    "R-down-indirectness-surrogate"
    ],
    "question_type": "治疗获益",
    "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
    "start": "高",
    "start_basis": "RCT：治疗获益问题，RCT→高",
-   "downgrades": [],
-   "provisional": "高",
-   "certainty": "高",
+   "downgrades": [
+    {
+     "domain": "间接性",
+     "steps": -1,
+     "reason_zh": "间接性 −1（替代终点）：主要结局为血钙、FGF23 等化验指标，专题关注的是生存与临床恶化等对病猫真正重要的结局（GRADE 指南第 8 篇，Guyatt 2011）。",
+     "source_file": "extracts/deep_speedread/38952053.md"
+    }
+   ],
+   "provisional": "中",
+   "certainty": "中",
    "notes_zh": ""
   },
   "38884190": {

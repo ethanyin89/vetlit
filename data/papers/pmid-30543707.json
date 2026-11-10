@@ -17,7 +17,7 @@
   "funding": "原文：\"The authors received no specific funding for this work\"；COI：Fascetti 为提供收费氨基酸检测的 UC Davis 实验室主任",
   "errata": "",
   "internal_inconsistency": "",
-  "one_line_conclusion_zh": "24 只牛磺酸缺乏 DCM 金毛中 23 只吃无谷/豆类饮食，换粮 + 补牛磺酸后 23/24 超声改善、牛磺酸正常化。",
+  "one_line_conclusion_zh": "24 只牛磺酸缺乏的 DCM 金毛中 23 只吃无谷或豆类饮食；有随访超声的 16 只中 15 只换粮并补牛磺酸后改善。",
   "clinical_utility": "提示性",
   "verified": "partial",
   "japan_source": "否",
@@ -25,7 +25,7 @@
   "cebm_level": "4",
   "cebm_basis": "病例系列，治疗反应无对照",
   "rob_tool": "ROBINS-I",
-  "rob_judgement": "严重",
+  "rob_judgement": "极严重",
   "rob_rationale": "无对照的治疗反应 + 遗传混杂",
   "guideline_recommendation": "不适用",
   "reporting_checklist": "STROBE-Vet",
@@ -103,8 +103,8 @@
       "stat": "—"
     },
     {
-      "metric": "换粮+补充后改善",
-      "value": "23/24",
+      "metric": "换粮+补牛磺酸后超声改善",
+      "value": "15/16（随访超声 16/24；摘要写 23/24）",
       "stat": "—"
     },
     {

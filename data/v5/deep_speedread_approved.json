@@ -1,0 +1,14 @@
+{
+  "_note": "Only PMIDs listed here may be rendered as deep speed-reads. Presence in extracts/deep_speedread/batch1.json is not sufficient. Vibe approved these 9 (original batch 1, including the corrected 38952053). deep extract has finished 44 speed-reads; the other 35 (14 earlier additions plus 21 newest) remain under Vibe review and must not be rendered.",
+  "approved": [
+    "18638016",
+    "23078651",
+    "26776588",
+    "27678080",
+    "30548336",
+    "32441826",
+    "34180084",
+    "38952053",
+    "42805756"
+  ]
+}

@@ -64,6 +64,23 @@ for r in json.load(open(os.path.join(ROOT,'data','v5','speedread_fields_v5.json'
     p['key_results']=r.get('key_results') or []
     if has(r.get('clinical_meaning')): p['clinical_meaning']=STRIP(r['clinical_meaning'])
     if isinstance(r.get('key_results_top3'),list): p['key_results_top3']=r['key_results_top3']
+DS={}
+_apf=os.path.join(ROOT,'data','v5','deep_speedread_approved.json')
+DS_APPROVED=set(str(x) for x in json.load(open(_apf,encoding='utf-8'))['approved']) if os.path.exists(_apf) else set()
+# Rendering is driven only by DS_APPROVED, never by mere presence in batch1.json / deep_speedread.json.
+_dsf=os.path.join(ROOT,'data','v5','deep_speedread.json')
+if os.path.exists(_dsf):
+    _raw=json.load(open(_dsf,encoding='utf-8'))
+    for _r in (_raw.get('papers') if isinstance(_raw,dict) else _raw) or []:
+        if isinstance(_r,dict) and _r.get('pmid') and str(_r['pmid']) in DS_APPROVED:
+            DS[str(_r['pmid'])]=_r
+def ds_of(p):
+    """Reader-facing deep speed-read record, or None if not on the explicit approved list."""
+    k=str(p.get('pmid') or '')
+    if k not in DS_APPROVED: return None
+    r=DS.get(k)
+    if not r or not (r.get('sections') and r.get('section_order')): return None
+    return r
 for r in json.load(open(os.path.join(ROOT,'data','v5','appraisal_papers.json'),encoding='utf-8')):
     p=matcher(r)
     if not p: MERGE['ap_un'].append(r.get('pmid') or r.get('id')); continue
@@ -102,8 +119,11 @@ for pm,rs in ADJ.items():
         if r['domain']=='D5': rea='未检索到预先注册的方案。'+rea
         items.append({'item':DN.get(r['domain'],r['domain']),'judgment':JM.get(r['final'],r['final']),'reason':rea,'evidence_quote':r.get('quote') or ''})
     p['appraisal_items']=items
+CERT=json.load(open(os.path.join(ROOT,'data','v5','certainty.json'),encoding='utf-8')).get('papers',{}) if os.path.exists(os.path.join(ROOT,'data','v5','certainty.json')) else {}
 for r in json.load(open(os.path.join(ROOT,'data','v5','selfcheck_adjudication.json'),encoding='utf-8'))['rulings']:
     if r['ruling']!='accept' or r['source_type']!='abstract' or r['pmid'] in ADJ: continue
+    _ov=str((CERT.get(str(r['pmid'])) or {}).get('rob_overall') or '')
+    if _ov and not _ov.startswith('未评'): continue  # completed full-text assessment supersedes abstract-only selfcheck
     p=matcher({'pmid':r['pmid']})
     if not p: MERGE['adj_un'].append(r['pmid']); continue
     MERGE['adj']+=1; p['rob_tool']='RoB 2'; p['adj']=True; p['appraisal_note']=''; p['adj_overall']='未完整评估（仅据摘要；D1 有一定担忧，其余领域未评）'
@@ -229,7 +249,8 @@ def badges(p):
     return '<p class="bd">'+''.join(f'<span class="b {c}">{E_(str(t))}</span>' for c,t in b if t)+'</p>'
 SHOW_CERTAINTY=os.environ.get('SHOW_CERTAINTY','true').lower() in ('1','true','yes')
 _CJ=os.path.join(ROOT,'data','v5','certainty.json')
-CERT=json.load(open(_CJ,encoding='utf-8')).get('papers',{}) if os.path.exists(_CJ) else {}
+if 'CERT' not in globals():
+    CERT=json.load(open(_CJ,encoding='utf-8')).get('papers',{}) if os.path.exists(_CJ) else {}
 CVALS=('高','中','低','极低','待评定','不适用')
 def review_rob_rows(r):
     """Systematic-review quality (certainty.json review_rob_tool + review_rob_overall, deep extract). Separate from
@@ -257,11 +278,12 @@ def grade(p):
         t=('指南推荐强度：'+(st if len(st)<=30 else st[:30]+'…')) if st and st not in ('该指南未分级','摘要未提及') else '指南（见推荐强度）'
     else:
         c=c if c in CVALS else ('不适用' if c is None and r.get('start') is None else '待评定')
-        t='证据确定性：'+c
+        t=PENDING_LABEL.get(str(p.get('pmid') or '')) or '证据确定性：'+c
     rows=[('起始等级',(r.get('start') or '—')+(f'（{r["start_basis"]}）' if r.get('start_basis') else ''))]+[(dg_label(d),d.get('reason_zh','') if isinstance(d,dict) else str(d)) for d in r.get('downgrades') or []]+([('说明',notes_txt(r))] if r.get('notes_zh') else [])+[('结果',t)]+([('适用范围',r['applicability_note_zh'])] if str(r.get('applicability_note_zh') or '').strip() else [])+review_rob_rows(r)
     h='<table class="kv">'+''.join(f'<tr><th>{k}</th><td>{E_(clean(v))}</td></tr>' for k,v in rows)+'</table>'
     return t,h
 CHIP_HOLD=set()
+PENDING_LABEL={'26776588':'暂未评级（仅有摘要）'}  # reader label for papers that cannot be rated yet
 def _crec(p):
     return CERT.get(str(p.get('pmid') or '')) or CERT.get(str(p.get('sid') or '')) or CERT.get(str(p.get('sid') or '').replace('pmid-','')) or {}
 def chip(p,href):
@@ -269,6 +291,7 @@ def chip(p,href):
     r=_crec(p); c=r.get('certainty')
     if c in ('高','中','低','极低'): return f'<a class="echip" href="{href}">证据确定性：{c}</a>'
     if c=='不适用': return f'<a class="echip na" href="{href}" title="{E_(clean(r.get("na_reason_zh") or ""))}">不分级</a>'
+    if str(p.get('pmid') or '') in PENDING_LABEL: return f'<a class="echip na" href="{href}">{PENDING_LABEL[str(p["pmid"])]}</a>'
     if c is None and r and (p.get('design_category')=='指南/共识' or r.get('guideline_strength') is not None):
         st=str(r.get('guideline_strength') or '').strip()
         if st: return f'<a class="echip" href="{href}">指南推荐强度：{E_(st if len(st)<=30 else st[:30]+"…")}</a>'
@@ -277,6 +300,7 @@ def nochip_reason(p):
     if not SHOW_CERTAINTY: return '本页暂不显示证据确定性。'
     if str(p.get('pmid') or '') in CHIP_HOLD: return '证据确定性：评定结果复核中，暂不显示。'
     r=_crec(p)
+    if str(p.get('pmid') or '') in PENDING_LABEL: return ''  # label is already on the chip
     if not r or r.get('certainty')=='待评定': return '证据确定性待评定：'+clean(r.get('pending_reason_zh') or r.get('notes_zh') or '尚未做偏倚风险评估')
     return ''
 def title_html(p,tag='h3',href=None):
@@ -316,6 +340,7 @@ def _ctext(p):
     r=_crec(p); c=r.get('certainty')
     if c in ('高','中','低','极低'): return '证据确定性：'+c
     if c=='不适用': return '不分级'
+    if str(p.get('pmid') or '') in PENDING_LABEL: return PENDING_LABEL[str(p['pmid'])]
     if c is None and r and r.get('guideline_strength') and r['guideline_strength'] not in ('该指南未分级','摘要未提及'): return '推荐强度：'+str(r['guideline_strength'])[:20]
     return ''
 def _n(p):
@@ -599,8 +624,81 @@ def _bg(t): t=re.sub(r'[\s，。、；：:（）()“”"\'·,.;-]','',t); retur
 def near_dup(a,b):
     A,Bs=_bg(a),_bg(b)
     return bool(A) and len(A&Bs)/len(A)>=0.4
+# ---------- deep speed-read (ACP Journal Club format; data/v5/deep_speedread.json) ----------
+DS_TITLES={'clinical_bottom_line':'临床结论','clinical_question_pico':'临床问题','design_and_subjects':'研究设计与对象','scope_and_methods':'范围与方法','main_results':'主要结果','main_recommendations':'主要推荐','authors_conclusion':'结论（作者原话）','commentary':'评论'}
+DS_SKIP={'certainty','funding_coi'}  # shown from certainty/funding data in 证据与方法, never twice
+def _ds_pm(h):
+    def rep(m):
+        q=get(m.group(1)); href=f'../{q["sid"]}/' if q else f'https://pubmed.ncbi.nlm.nih.gov/{m.group(1)}/'
+        return f'<a href="{href}">PMID {m.group(1)}</a>'
+    return re.sub(r'PMID (\d{5,9})',rep,h)
+def _dsi(t): return _ds_pm(B.inline(clean(t)))
+def _ds_item(l): return re.match(r'^(\s*)([-*]|\d+\.)\s+(.*)$',l)
+def _ds_list(L,i):
+    m=_ds_item(L[i]); ind=len(m.group(1)); tag='ol' if m.group(2)[-1]=='.' else 'ul'; items=[]
+    while i<len(L):
+        l=L[i]
+        if not l.strip():
+            j=i+1
+            while j<len(L) and not L[j].strip(): j+=1
+            if j<len(L) and (len(L[j])-len(L[j].lstrip(' ')))>ind: i=j; continue
+            m2=_ds_item(L[j]) if j<len(L) else None
+            if m2 and len(m2.group(1))==ind: i=j; continue
+            break
+        m2=_ds_item(l)
+        if m2 and len(m2.group(1))==ind: items.append([_dsi(m2.group(3)),'']); i+=1; continue
+        if m2 and len(m2.group(1))>ind and items:
+            h,i=_ds_list(L,i); items[-1][1]+=h; continue
+        if items and (len(l)-len(l.lstrip(' ')))>ind and not m2:
+            items[-1][1]+=f'<p>{_dsi(l.strip())}</p>'; i+=1; continue
+        break
+    return f'<{tag}>'+''.join(f'<li>{a}{b}</li>' for a,b in items)+f'</{tag}>',i
+def _ds_table(rows):
+    C=[[c.strip() for c in re.split(r'(?<!\\)\|',r.strip().strip('|'))] for r in rows]
+    head,body=C[0],[c for c in C[1:] if not all(re.match(r'^:?-+:?$',x) for x in c if x)]
+    if len(head)==2 and not any(head):
+        return '<table class="kv">'+''.join(f'<tr><th>{_dsi(r[0])}</th><td>{_dsi(r[1] if len(r)>1 else "")}</td></tr>' for r in body)+'</table>'
+    return '<div class="tw"><table><thead><tr>'+''.join(f'<th>{_dsi(c)}</th>' for c in head)+'</tr></thead><tbody>'+''.join('<tr>'+''.join(f'<td>{_dsi(c)}</td>' for c in r)+'</tr>' for r in body)+'</tbody></table></div>'
+_DS_LEAD=re.compile(r'^\*\*([^*]+?[。：:])\*\*\s*(.*)$')
+def ds_md(t):
+    """Markdown used by deep speed-reads: bold lead paragraphs -> h3, nested lists, PICO key/value tables. HTML comments are internal and dropped."""
+    L=re.sub(r'<!--.*?-->','',t or '',flags=re.S).split('\n'); i=0; out=[]
+    para=lambda l: l.strip() and not _ds_item(l) and not l.lstrip().startswith(('|','>')) and not _DS_LEAD.match(l.strip()) and not re.match(r'^-{3,}$',l.strip())
+    while i<len(L):
+        l=L[i]
+        if not l.strip() or re.match(r'^-{3,}$',l.strip()): i+=1; continue
+        if l.lstrip().startswith('|'):
+            rows=[]
+            while i<len(L) and L[i].lstrip().startswith('|'): rows.append(L[i]); i+=1
+            out.append(_ds_table(rows)); continue
+        if _ds_item(l): h,i=_ds_list(L,i); out.append(h); continue
+        if l.startswith('>'):
+            buf=[]
+            while i<len(L) and L[i].startswith('>'): buf.append(L[i][1:].strip()); i+=1
+            out.append(f'<blockquote>{_dsi(" ".join(buf))}</blockquote>'); continue
+        m=_DS_LEAD.match(l.strip())
+        if m:
+            out.append(f'<h3>{_dsi(m.group(1))}</h3>'); i+=1; buf=[m.group(2)] if m.group(2).strip() else []
+            while buf and i<len(L) and para(L[i]): buf.append(L[i].strip()); i+=1
+            if buf: out.append(f'<p>{_dsi(" ".join(buf))}</p>')
+            continue
+        buf=[]
+        while i<len(L) and para(L[i]): buf.append(L[i].strip()); i+=1
+        if buf: out.append(f'<p>{_dsi(" ".join(buf))}</p>')
+        else: i+=1
+    return ''.join(out)
+def ds_sections(r):
+    """[(key, heading, html)] in the record's own order; certainty/funding are rendered elsewhere."""
+    out=[]
+    for k in r.get('section_order') or []:
+        sec=(r.get('sections') or {}).get(k) or {}
+        if k in DS_SKIP or not str(sec.get('markdown') or '').strip(): continue
+        h=re.sub(r'\s+',' ',clean(sec.get('heading') or DS_TITLES.get(k,''))).strip()
+        out.append((k,h,ds_md(sec['markdown'])))
+    return out
 def paper(p):
-    r='../../'; S=sections(p)
+    r='../../'; S=sections(p); ds=ds_of(p)
+    if ds and ds.get('title_zh'): p=dict(p); p['title_zh']=ds['title_zh']
     head=f'''<p class="crumb"><a href="{r}library/">文献库</a>{"".join(f' › <a href="{r}topics/{t}/">{E_(TBY[t]["name_zh"])}</a>' for t in (p.get("topics") or [])[:1] if t in TBY and t in [v["id"] for v in VIS])}</p>
 <p class="eb">{E_(" / ".join(specs(p)))} · {E_(species(p))}</p>{title_html(p,'h1')}<p class="cmeta">{E_(cmeta(p))}</p>{superlink(p,'../../')}{sup_note(p)}
 <p class="meta">{E_(p.get("first_author",""))} 等 · <em>{E_(p.get("journal",""))}</em> · {E_(p.get("pub_date") or str(p.get("year","")))}{f' · <a href="https://doi.org/{E_(p["doi"])}">DOI</a>' if p.get('doi') else ''}{f' · <a href="https://pubmed.ncbi.nlm.nih.gov/{p["pmid"]}/">PubMed</a>' if p.get('pmid') else ''}{f' · <a href="https://europepmc.org/article/PMC/{p["pmcid"]}">全文</a>' if p.get('pmcid') else ''}</p>
@@ -708,8 +806,12 @@ def paper(p):
     vis=head
     if p.get('warn_speed'): vis+=f'<p class="warn" style="background:#fff4d6;border-left:4px solid #e0a100;padding:.5em .8em;margin:.4em 0;color:#5a4300">{E_(p["warn_speed"])}</p>'
     inc_md=sec_get(S,'原文报告不一致')
-    vis+=concl
-    if has(p.get('clinical_meaning')) and not near_dup(p['clinical_meaning'],p.get('one_line_conclusion_zh') or ''): vis+=f'<p class="cm">{E_(clean(p["clinical_meaning"]))}</p>'
+    ds=ds_of(p); dss=ds_sections(ds) if ds else []
+    if dss:
+        _bl=next((h for k,_,h in dss if k=='clinical_bottom_line'),'')
+        vis+=(f'<p class="note dsb">{E_(clean(ds["design_and_basis"]))}</p>' if has(ds.get('design_and_basis')) else '')+(f'<section class="dsbl"><p class="eb red">临床结论</p>{_bl}</section>' if _bl else concl)
+    else: vis+=concl
+    if not dss and has(p.get('clinical_meaning')) and not near_dup(p['clinical_meaning'],p.get('one_line_conclusion_zh') or ''): vis+=f'<p class="cm">{E_(clean(p["clinical_meaning"]))}</p>'
     kn=[]
     _all=p.get('key_results') or []; _t3=p.get('key_results_top3')
     top=[_all[i] for i in _t3 if isinstance(i,int) and 0<=i<len(_all)][:3] if isinstance(_t3,list) else krs[:3]
@@ -723,6 +825,7 @@ def paper(p):
         # attach ⚠ to the key number it concerns (shared wording with the note), else right under the list
         hit=next((i for i,k in enumerate(top) if k.get('measure') and near_dup(str(k['measure']),_rin)),None)
         if hit is not None: kn[hit]=kn[hit][:-5]+_ri.replace('<p class="note">','<p class="note ri">',1)+'</li>'
+    if dss: kn=[]; cs=''
     if kn: vis+=f'<section class="kn"><p class="eb">关键数字</p><ul>{"".join(kn)}</ul>{_ri.replace(chr(60)+"p class="+chr(34)+"note"+chr(34),chr(60)+"p class="+chr(34)+"note ri"+chr(34),1) if _ri and not any("note ri" in x for x in kn) else ""}</section>'
     elif _ri: vis+=_ri.replace('<p class="note">','<p class="note ri">',1)
     _er=erratum(p)
@@ -733,6 +836,11 @@ def paper(p):
     _c=chip(p,'#evidence')
     if _c: vis+='<p class="bd">'+_c.replace('<a ',f'<a onclick="{OPEN}" ',1)+'</p>'
     _tr=X.translation(p.get('pmid'),p.get('license')) if X.can_translate(p) else None
+    if dss:
+        _n=0
+        for k,h,html_ in dss:
+            if k=='clinical_bottom_line': continue
+            _n+=1; vis+=f'<section class="blk ds"><h2 class="sec"><span>{_n:02d}</span> {E_(h)}</h2>{html_}</section>'
     if _tr: vis+='<p class="deep"><a class="btn big" href="bilingual/">中英对照深入阅读 →</a></p>'
     else:
         _o=f'https://doi.org/{p["doi"]}' if p.get('doi') else (p.get('url') or (f'https://pubmed.ncbi.nlm.nih.gov/{p["pmid"]}/' if p.get('pmid') else ''))

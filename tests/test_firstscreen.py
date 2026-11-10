@@ -24,7 +24,12 @@ for li in re.findall(r'<li.*?</li>',kn,re.S): assert '摘要未给出' in li
 R=json.load(open('data/v5/extras/reporting_inconsistency.json',encoding='utf-8'))
 for k in ('41781382','38952053'):
     t=open(f'dist/papers/pmid-{k}/index.html',encoding='utf-8').read(); top,fold=t.split('id="evidence"',1)
-    sec=re.search(r'<section class="kn">(.*?)</section>',top,re.S).group(1)
-    assert '⚠' in sec and R[k]['note_zh'] in sec, k
+    assert '⚠' in top and R[k]['note_zh'] in top, k
+    kn=re.search(r'<section class="kn">(.*?)</section>',top,re.S)
+    if k=='38952053':
+        # deep speed-read replaces the first-screen key-number block; the notice stays above the fold
+        assert kn is None
+    else:
+        assert kn and '⚠' in kn.group(1) and R[k]['note_zh'] in kn.group(1), k
     assert R[k]['note_zh'] not in fold, k
 print('key-number order / verbatim / notice tests OK')

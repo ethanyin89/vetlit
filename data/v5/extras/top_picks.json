@@ -1,4 +1,5 @@
 {
+ "_note": "Displayed 最重要 lists are computed by build_preview.tops() (authoritative snapshot: extracts/deep_speedread/tops_2026-11-09.json in the vetlit working repo). This file is the ranking seed, item metadata and supersessions, not the published list. Do not treat topics[].items as the live ranking. Not deleted because home() topic order, tops() seed order, supersessions and tests still read it; replacing tops() with importance_rank would change 11 topic lists.",
  "rule": "排序规则（参照牛津循证医学中心 OCEBM 证据等级，以及 NICE、BMJ Best Practice 的做法）：① 先看研究类型：指南/共识 > 系统综述/Meta分析 > 随机对照试验 > 非随机对照试验 > 队列研究 > 病例对照 > 横断面 > 病例系列 > 叙述性综述 > 实验/基础研究。② 同一机构、同一系列、同一主题的指南只认最新版：新版排前，旧版排在同类型最后，并标注“已有更新版”和取代它的新版编号（superseded_by），这和 NICE、BMJ Best Practice 只引用现行版本、旧版标为已更新的做法一致。③ 同一类型里，近 5 年（2021 年及以后）发表的排在前面。④ 再按 OpenAlex 年均被引（总被引 ÷ 发表年数）从高到低。研究类型取自本库标注；被引数据 2026-11-03 抓取。每个主题列前 3 篇，不足 3 篇的有几篇列几篇。说明：OCEBM 本身不给指南分级，把指南放在最前是沿用临床速查工具的惯例。",
  "topics": [
   {

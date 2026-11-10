@@ -173,7 +173,7 @@
    },
    {
     "measure": "LOE strong 条目数",
-    "groups": "3",
+    "groups": "4",
     "effect_ci": "摘要未给出",
     "p": "摘要未给出"
    }
@@ -270,21 +270,28 @@
    {
     "measure": "甲巯咪唑起始",
     "groups": "1.25–2.5 mg/猫 q12h",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
+    "effect_ci": "不适用",
+    "p": "不适用"
+   },
+   {
+    "measure": "放射碘（¹³¹I）单次治疗成功率",
+    "groups": "多数研究 >95%",
+    "effect_ci": "不适用",
+    "p": "不适用"
    },
    {
     "measure": "恶性",
     "groups": "仅约 2% 甲亢猫为癌",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
+    "effect_ci": "不适用",
+    "p": "不适用"
    }
   ],
   "confidence_sentence": "指南/共识不做 CEBM 分级，也未做 AGREE II 正式评分，推荐多属专家意见，引用时请核对原文。",
   "clinical_meaning": "甲亢猫甲巯咪唑宜低剂量起始，注意避免医源性甲减和肾功能恶化。",
   "key_results_top3": [
    0,
-   1
+   1,
+   2
   ]
  },
  {
@@ -458,19 +465,33 @@
   "matched_by": "pmid",
   "title_zh": "ACVIM 2004 蛋白尿共识：三步评估",
   "one_line_conclusion_zh": "持续性肾性蛋白尿提示 CKD 风险，应按来源、持续性和程度评估，再逐级采取监测、检查和治疗。",
-  "why_it_matters": "这是兽医临床判读 UP/C 的奠基性共识，后来的 IRIS 蛋白尿亚分期和抗蛋白尿治疗都由此而来。发表时间较早，具体阈值和用药请对照 IRIS 现行版本，不要直接照搬。",
+  "why_it_matters": "这是兽医临床判读 UP/C 的奠基性共识。发表时间较早，具体阈值和用药请对照 IRIS 现行版本，不要直接照搬。",
   "key_results": [
    {
-    "measure": "主要结局",
-    "groups": "摘要未给出",
-    "effect_ci": "摘要未给出",
-    "p": "摘要未给出"
+    "measure": "持续性肾性蛋白尿（犬）",
+    "groups": "UPC ≥0.5（或微量白蛋白尿）在间隔 ≥2 周的 ≥3 次样本中重复出现",
+    "effect_ci": "不适用",
+    "p": "不适用"
+   },
+   {
+    "measure": "干预界值",
+    "groups": "氮质血症 CKD：犬 UPC ≥0.5、猫 UPC ≥0.4；非氮质血症：UPC ≥2.0",
+    "effect_ci": "不适用",
+    "p": "不适用"
+   },
+   {
+    "measure": "肾衰犬初诊 UPC ≥1.0",
+    "groups": "与尿毒症发病和死亡风险升高相关；蛋白尿越重风险越高（共识标注 Level 1）",
+    "effect_ci": "不适用",
+    "p": "不适用"
    }
   ],
   "confidence_sentence": "指南/共识不做 CEBM 分级，也未做 AGREE II 正式评分，推荐多属专家意见，引用时请核对原文。",
   "clinical_meaning": "持续肾性蛋白尿应评估来源和程度，具体阈值以 IRIS 现行版为准。",
   "key_results_top3": [
-   0
+   0,
+   1,
+   2
   ]
  },
  {
@@ -676,8 +697,8 @@
   "doi": "10.1111/jvim.17134",
   "id": "38952053",
   "matched_by": "pmid",
-  "title_zh": "猫 CKD：加镁限磷粮稳定 FGF23、防止高钙",
-  "one_line_conclusion_zh": "加镁的限磷粮使 CKD 猫 FGF23 保持稳定，并防止离子钙升高；对照组 4 只出现高钙。",
+  "title_zh": "猫 CKD：加镁限磷粮组间 FGF23 变化率差异不显著，可防止高钙",
+  "one_line_conclusion_zh": "两组 FGF23 变化率差异不显著（全分析集 P=.17，符合方案集 P=.25）；加镁组防止离子钙升高，对照组 4 只出现高钙。",
   "why_it_matters": "猫 CKD 常用限磷粮，但限磷可能伴随高钙和 FGF23 升高。这项双盲 RCT 提示加镁可减轻这些变化，但只看生化指标，样本 60 只，由处方粮厂商资助，暂不能据此推断生存获益。",
   "key_results": [
    {
@@ -711,8 +732,8 @@
     "p": "原文未给出"
    }
   ],
-  "confidence_sentence": "本文为RCT，CEBM 2 级，Cochrane RoB 2 尚未评估偏倚风险，结论基于全文。",
-  "clinical_meaning": "加镁限磷粮可稳定 CKD 猫部分生化指标，尚不能推断生存获益。",
+  "confidence_sentence": "本文为设盲 RCT，CEBM 治疗问题 2 级，RoB 2 总体一些担忧，证据确定性中（起始高，主要结局为替代指标，间接性降一级），结论基于全文。",
+  "clinical_meaning": "两组 FGF23 变化率差异不显著（全分析集 P=.17，符合方案集 P=.25）；尚不能推断生存获益。",
   "key_results_top3": [
    4,
    1,
@@ -902,7 +923,7 @@
     "p": "0.033"
    }
   ],
-  "confidence_sentence": "本文为RCT，CEBM 2 级，Cochrane RoB 2 尚未评估偏倚风险，结论基于摘要。",
+  "confidence_sentence": "本文为 RCT，CEBM 治疗问题 2 级；暂未评级（仅有摘要）。",
   "clinical_meaning": "发生过血栓的猫，二级预防宜选氯吡格雷而非阿司匹林。",
   "key_results_top3": [
    1,
@@ -1068,7 +1089,7 @@
     "p": "0.0099"
    }
   ],
-  "confidence_sentence": "本文为RCT，CEBM 2 级，Cochrane RoB 2 尚未评估偏倚风险，结论基于摘要。",
+  "confidence_sentence": "本文为设盲阳性对照 RCT，CEBM 治疗问题 2 级，RoB 2 总体一些担忧（D2、D4；D4 影响主要结局），证据确定性中（起始高，偏倚风险降一级），结论基于全文。",
   "clinical_meaning": "心衰期二尖瓣病犬，匹莫苯丹优于贝那普利。",
   "key_results_top3": [
    0
@@ -1253,7 +1274,7 @@
     "p": "原文未给出"
    }
   ],
-  "confidence_sentence": "本文为横断面问卷，CEBM 3 级，无对应偏倚工具，结论基于全文。",
+  "confidence_sentence": "本文为横断面问卷，CEBM 患病率问题 3 级，JBI 患病率清单总体高，证据确定性中（起始高，偏倚风险降一级），结论基于全文。",
   "clinical_meaning": "犬问题行为很常见，其中噪声敏感最多见。",
   "key_results_top3": [
    1,
@@ -1276,7 +1297,7 @@
     "p": "摘要未给出"
    }
   ],
-  "confidence_sentence": "本文为回顾性队列，CEBM 3 级，QUIPS 尚未评估偏倚风险，结论基于摘要。",
+  "confidence_sentence": "本文为回顾性队列（原文自称病例对照，按暴露分组后比较寿命），CEBM 预后问题 3 级，QUIPS 总体高偏倚风险，证据确定性中（起始高，偏倚风险降一级），结论基于全文。",
   "clinical_meaning": "超重会缩短多个品种犬的寿命，可据此劝主人控制体重。",
   "key_results_top3": [
    0
@@ -1375,7 +1396,7 @@
     "p": "原文未给出"
    }
   ],
-  "confidence_sentence": "本文为回顾性队列（保险数据），CEBM 3 级，无对应偏倚工具，结论基于全文。",
+  "confidence_sentence": "本文为回顾性队列（保险数据），CEBM 发生率问题 3 级，JBI 队列清单总体高，证据确定性中（起始高，偏倚风险降一级），结论基于全文。",
   "clinical_meaning": "参保猫中消化系统病最常见，尚不足以改变临床做法。",
   "key_results_top3": [
    0,
@@ -1484,7 +1505,7 @@
     "p": "摘要未给出"
    }
   ],
-  "confidence_sentence": "本文为纵向队列（VetCompass），CEBM 3 级，QUIPS 尚未评估偏倚风险，结论基于摘要。",
+  "confidence_sentence": "本文为纵向队列（VetCompass），CEBM 3 级，JBI 患病率清单（患病率）与 QUIPS（预后）总体均为高，证据确定性中，结论基于全文。",
   "clinical_meaning": "全科门诊中犬 CKD 确诊后中位生存约 226 天，分期越高风险越大。",
   "key_results_top3": [
    1,
@@ -2090,7 +2111,7 @@
     "p": "原文未给出"
    }
   ],
-  "confidence_sentence": "本文为病例系列，CEBM 4 级，无对应偏倚工具，结论基于全文。",
+  "confidence_sentence": "本文为病例系列，CEBM 治疗问题 4 级，JBI 病例系列清单总体高，证据确定性极低（起始低，偏倚风险降一级），结论基于全文。",
   "clinical_meaning": "神经型 FIP 用 GS-441524 可能有效，但剂量可能需更高。",
   "key_results_top3": [
    0,
@@ -2145,8 +2166,8 @@
   "id": "30543707",
   "matched_by": "pmid",
   "title_zh": "金毛 DCM 与牛磺酸缺乏和无谷粮相关",
-  "one_line_conclusion_zh": "24 只牛磺酸缺乏的 DCM 金毛中 23 只吃无谷或豆类饮食，换粮加补牛磺酸后 23 只超声改善。",
-  "why_it_matters": "这是引发 FDA 调查“无谷粮与犬 DCM”的关键病例系列，提示金毛 DCM 应查血牛磺酸并询问饮食史。研究没有对照组，样本只有 24 只，不能证明无谷粮导致 DCM。",
+  "one_line_conclusion_zh": "24 只牛磺酸缺乏的 DCM 金毛中 23 只吃无谷或豆类饮食；有随访超声的 16 只中 15 只换粮并补牛磺酸后改善。",
+  "why_it_matters": "提示金毛 DCM 应查血牛磺酸并询问饮食史。研究没有对照组，样本只有 24 只，随访超声仅 16 只，不能证明无谷粮导致 DCM。",
   "key_results": [
    {
     "measure": "无谷、富豆类或两者兼有的饮食",
@@ -2155,8 +2176,8 @@
     "p": "原文未给出"
    },
    {
-    "measure": "换粮+补牛磺酸后超声改善且牛磺酸恢复",
-    "groups": "23/24",
+    "measure": "换粮+补牛磺酸后超声改善",
+    "groups": "15/16（随访超声 16/24；摘要写 23/24）",
     "effect_ci": "原文未给出",
     "p": "原文未给出"
    },
@@ -2167,7 +2188,7 @@
     "p": "原文未给出"
    }
   ],
-  "confidence_sentence": "本文为病例系列，CEBM 4 级，无对应偏倚工具，结论基于全文。",
+  "confidence_sentence": "本文为前瞻性观察（病例系列），CEBM 治疗问题 4 级，ROBINS-I 总体极严重，证据确定性极低（起始低，偏倚风险降两级），结论基于全文。",
   "clinical_meaning": "金毛 DCM 应查血牛磺酸并问饮食，但不能证明无谷粮致病。",
   "key_results_top3": [
    1,
