@@ -6777,9 +6777,64 @@
   "cebm_level": "3",
   "cebm_basis": "医院就诊群体内分年龄组随机抽样，非人群随机调查，按非随机本地样本计",
   "cebm_question": "患病率",
-  "appraisal_tool": "未评",
-  "appraisal_items": [],
-  "appraisal_note": "未评（无干预的描述性/横断面研究，无对应工具）",
+  "appraisal_tool": "JBI 患病率清单",
+  "appraisal_items": [
+   {
+    "item": "Q1 样本框架是否适合目标人群",
+    "judgment": "否",
+    "reason": "单一猫专科诊所的数据库；DJD 组为室内猫",
+    "evidence_quote": "The randomly selected (RS) group consisted of a population of randomly selected cats from a single practice … the RS cats were selected from a single feline-only practice, and the DJD cats were required to be predominantly indoor cats, and this may have biased the results."
+   },
+   {
+    "item": "Q2 研究对象抽样方式是否恰当",
+    "judgment": "否",
+    "reason": "RS 组按年龄等额分层抽样，总体患病率未按人群年龄结构加权；DJD 组为临床试验招募的关节病猫",
+    "evidence_quote": "the first 25 cats in each age group were selected to come in for a health screen … The RS cats were selected at random, 25 within each of four age groups, and thus the prevalence may not represent the prevalence in the general population. … The DJD group consisted of 128 cats recruited to one of four different studies of reduced activity or impaired mobility"
+   },
+   {
+    "item": "Q3 样本量是否足够",
+    "judgment": "不清楚",
+    "reason": "未做样本量计算（全文无 power/sample size calculation）；RS 组 86 只",
+    "evidence_quote": "The variability in this study is likely a result of the small sample size."
+   },
+   {
+    "item": "Q4 研究对象与场所是否描述详细",
+    "judgment": "是",
+    "reason": "报告了年龄、性别、体重、体况、品种",
+    "evidence_quote": "Demographic data for these 86 cats are presented in Table 2"
+   },
+   {
+    "item": "Q5 数据分析是否充分覆盖所纳入样本",
+    "judgment": "不清楚",
+    "reason": "RS 组 14/100 因资料不全被排除，未比较排除猫的特征",
+    "evidence_quote": "Fourteen cats were excluded from the study because either a urine sample was not collected for urine analysis or the kidneys were not visible on radiographs, precluding full evaluation of CKD."
+   },
+   {
+    "item": "Q6 是否用有效方法识别疾病",
+    "judgment": "否",
+    "reason": "按单次血液、尿液和 X 线结果归类；全文未提复查或持续性判定（repeat/persist 0 处），而 IRIS 分期以稳定 CKD 为前提",
+    "evidence_quote": "cats in the RS and DJD groups were placed in one of three categories based on the results of CBC, serum chemistry, urine analysis, and radiographic determination of degenerative kidney changes and kidney size … Cats with CKD were staged according to the IRIS guidelines"
+   },
+   {
+    "item": "Q7 是否对所有对象用标准、可靠的方式测量",
+    "judgment": "不清楚",
+    "reason": "各子研究的 X 线拍摄范围不同；归类由两位作者共同决定，未报告一致性",
+    "evidence_quote": "Cats in studies A and B only had radiographs made when joint pain was elicited, whereas those in studies C and D had radiographs made of all appendicular joints and spinal segments. … Two authors (CLM and SLV) went over the above results for each cat to determine category placement."
+   },
+   {
+    "item": "Q8 统计分析是否恰当",
+    "judgment": "否",
+    "reason": "患病率只报告比例，未给置信区间（95%/confidence 0 处）",
+    "evidence_quote": "Descriptive statistics were used to characterize demographic data"
+   },
+   {
+    "item": "Q9 应答率是否足够；应答率低时是否妥善处理",
+    "judgment": "不清楚",
+    "reason": "未报告被抽中但未到诊的猫数或拒绝率；DJD 组为试验招募，无应答率概念",
+    "evidence_quote": "This yielded a cohort of 100 cats with 25 cats that had been randomly selected in each age group."
+   }
+  ],
+  "appraisal_note": "JBI 患病率清单：高",
   "reporting_check": {
    "guideline": "STROBE-Vet",
    "notes": "仅摘要，无法逐条核查（信息不足）"
@@ -6792,7 +6847,7 @@
    "物种": "猫"
   },
   "results_table": [],
-  "methods_review": "未评：未评（无干预的描述性/横断面研究，无对应工具）",
+  "methods_review": "JBI 患病率清单：高",
   "can_say": [],
   "cannot_say": [],
   "internal_contradictions": [],

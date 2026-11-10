@@ -22,3 +22,9 @@ for f in glob.glob('dist/papers/*/index.html'):
     for bad in ('own_evidence_strength','rob_items','待审阅','审阅确认','复核通过','归类错误','indirectness_rulings','source_file'): assert bad not in h, (f,bad)
 assert '原文自报证据强度：Moderate' in open('dist/papers/pmid-42004674/index.html',encoding='utf-8').read() and '原文自报证据强度：Weak' in open('dist/papers/pmid-42007020/index.html',encoding='utf-8').read()
 print('applicability row tests OK')
+# 24217707: JBI prevalence checklist (bias row + 9 item rows with quotes)
+h=open('dist/papers/pmid-24217707/index.html',encoding='utf-8').read()
+assert '<tr><th>偏倚风险</th><td>JBI 患病率清单：高' in h and '不适用（无公认工具）' not in h
+t=re.search(r'<table><thead><tr><th>条目</th>.*?</table>',h,re.S).group(0)
+assert len(re.findall(r'<tr><td>Q[1-9] ',t))==9 and t.count('<blockquote')==9
+print('24217707 JBI tests OK')
