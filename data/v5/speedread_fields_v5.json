@@ -478,8 +478,8 @@
   "doi": "10.3390/ani15020210",
   "id": "39858209",
   "matched_by": "pmid",
-  "title_zh": "犬减重：高蛋白低热量粮减重和减脂更多",
-  "one_line_conclusion_zh": "犬减重饮食 Meta 分析：粗蛋白 >25% 的低热量粮减重和体脂下降更多，但研究间异质性很大。",
+  "title_zh": "犬减重：高蛋白低热量粮组减重较多，但无法与低蛋白直接比较",
+  "one_line_conclusion_zh": "犬减重饮食 Meta 分析：粗蛋白 >25% 的低热量粮组减重较多，但因 <25% 的数据少，两者无法直接比较；研究间异质性很大。",
   "why_it_matters": null,
   "key_results": [
    {
@@ -501,8 +501,8 @@
     "p": "异质性 <0.0001"
    }
   ],
-  "confidence_sentence": "本文为系统综述/Meta分析，CEBM 3 级（治疗获益），AMSTAR 2 总体置信度极低，结论基于全文。",
-  "clinical_meaning": "高蛋白低热量粮可能减重更多，但研究差异大，尚不足以定方案。",
+  "confidence_sentence": "本文为系统综述/Meta分析，CEBM 3 级（治疗获益），综述质量 AMSTAR 2 总体置信度极低；证据确定性按纳入研究证据体评为极低（研究间比较、异质性大），结论基于全文。",
+  "clinical_meaning": "高蛋白低热量粮组减重较多，但缺少与低蛋白的直接比较，且研究差异大，尚不足以定方案。",
   "key_results_top3": [
    1,
    2,
@@ -2514,7 +2514,7 @@
     "p": "原文未给出"
    }
   ],
-  "confidence_sentence": "本文为系统综述（未做 Meta 分析），CEBM 4 级（治疗获益）、AMSTAR 2 总体置信度极低，结论基于全文，证据强度取决于纳入研究质量。",
+  "confidence_sentence": "本文为系统综述（未做 Meta 分析），CEBM 4 级（治疗获益），综述质量 AMSTAR 2 总体置信度极低；证据确定性按纳入研究证据体评为极低（传统口服药研究多为无对照试验，综述用 ROBINS-I 判为严重偏倚），结论基于全文。",
   "clinical_meaning": "SGLT2 抑制剂可用于糖尿病猫，但需警惕正常血糖性 DKA。",
   "key_results_top3": [
    1,
@@ -3731,7 +3731,7 @@
     "p": "不适用"
    }
   ],
-  "confidence_sentence": "本文为 RCT 的系统评价（部分做 meta 分析），CEBM 治疗问题 1 级，AMSTAR 2 未评（仅摘要），结论仅基于摘要。",
+  "confidence_sentence": "本文为 RCT 的系统评价（部分做 meta 分析），CEBM 治疗问题 1 级，全文未取得，ROBIS 与证据体确定性未评（待评定），结论仅基于摘要。",
   "clinical_meaning": "糖皮质激素、环孢素和外用他克莫司有 RCT 支持；JAK 抑制剂和 lokivetmab 要看之后的研究。",
   "key_results_top3": [
    0,
@@ -3778,7 +3778,7 @@
     "p": "不适用"
    }
   ],
-  "confidence_sentence": "本文为系统评价与 meta 分析（摘要称纳入前瞻性临床试验，是否全部随机未知），CEBM 等级待全文核实，AMSTAR 2 未评（仅摘要），结论仅基于摘要。",
+  "confidence_sentence": "本文为系统评价与 meta 分析（摘要称纳入前瞻性临床试验，是否全部随机未知），CEBM 等级待全文核实，全文未取得，ROBIS 与证据体确定性未评（待评定），结论仅基于摘要。",
   "clinical_meaning": "环孢素长期控制效果与糖皮质激素相当，开始用药时常见胃肠道反应；多数犬几周后可以减量。",
   "key_results_top3": [
    0,
@@ -3798,7 +3798,7 @@
   "matched_by": "pmid",
   "title_zh": "变应原免疫治疗：犬特应性皮炎与猫特应性皮肤综合征综述",
   "one_line_conclusion_zh": "综述认为变应原免疫治疗是犬特应性皮炎和猫特应性皮肤综合征唯一针对病因的治疗，并介绍了经典皮下、快速（rush）、淋巴结内和口腔黏膜/舌下等方案。",
-  "why_it_matters": "标题称系统评价（PubMed 文献类型也标 Systematic Review），但只读到摘要：摘要未写检索策略、纳入标准或纳入研究数，这不能证明全文没有。设计类型和 CEBM 等级待全文核实。只读到摘要，没有效应数据。",
+  "why_it_matters": "标题和 PubMed 都称系统评价，但全文核实后是叙述性综述：没有方法部分，没写检索数据库、检索式、纳入标准和纳入研究数，也没有筛选流程图（图 1 是临床决策流程图）。原文写明目的是给临床医生做一份免疫治疗概要。适合了解方案和实际操作，不能当作系统汇总的疗效证据。唯一作者与多家动物保健和过敏原企业有咨询或资助关系。",
   "key_results": [
    {
     "measure": "免疫治疗的定位",
@@ -3819,18 +3819,18 @@
     "p": "不适用"
    }
   ],
-  "confidence_sentence": "本文标题称系统评价（待核实），CEBM 等级待全文核实，结论仅基于摘要。",
+  "confidence_sentence": "本文标题称系统评价，全文核实为叙述性综述，CEBM 不适用（叙述性综述），证据确定性不适用，结论基于全文。",
   "clinical_meaning": "对需要长期管理的特应性皮炎犬猫可考虑免疫治疗，剂量和间隔需按个体调整。",
   "key_results_top3": [
    0,
    1,
    2
   ],
-  "funding_coi_zh": "资金：仅读摘要，未知。利益冲突：仅读摘要，未知（PubMed 未收录作者单位）。",
-  "funding_coi_quote": null,
-  "text_source": "abstract",
-  "text_file": "ft/dogad/36940185_abs.txt",
-  "text_url": "https://pubmed.ncbi.nlm.nih.gov/36940185/"
+  "funding_coi_zh": "资金：原文未声明。利益冲突：唯一作者 Mueller 声明曾担任 Artuvet、Bayer、Ceva、Ecuphar、Elanco、Greer Laboratories、Heska、Hill's、Royal Canin、MSD、Nextmune、Synlab、Virbac 和 Zoetis 的顾问，或从这些公司获得研究或讲课支持（其中 Greer、Heska、Nextmune 等提供过敏原检测或免疫治疗产品）。",
+  "funding_coi_quote": "Dr. Mueller has acted as a consultant or received support for studies or lectures from Artuvet, Bayer Animal Health, Ceva Animal Health, Ecuphar, Elanco Animal Health, Greer Laboratories, Heska Laboratories, Hill’s, Royal Canin, MSD Animal Health, Nextmune, Synlab, Virbac Animal Health, and Zoetis.",
+  "text_source": "full_text",
+  "text_file": "extracts/ft/dogad/36940185_fulltext.txt",
+  "text_url": "https://avmajournals.avma.org/view/journals/javma/261/S1/javma.22.12.0576.xml"
  },
  {
   "pmid": "40470278",
@@ -3860,7 +3860,7 @@
     "p": "不适用"
    }
   ],
-  "confidence_sentence": "本文为诊断准确性系统评价（定性综合，无 meta），CEBM 诊断问题 3 级（纳入研究参考标准不一致），AMSTAR 2 尚未评估，结论基于全文。",
+  "confidence_sentence": "本文为诊断准确性系统评价（定性综合，无 meta），CEBM 诊断问题 3 级，综述偏倚风险（ROBIS）高；证据确定性按纳入研究证据体评为极低（纳入研究偏倚风险非常严重，病例定义间接），结论基于全文。",
   "clinical_meaning": "过敏原检测阳性不等于确诊特应性皮炎，应先按临床标准下诊断，检测结果只作参考。",
   "key_results_top3": [
    0,
@@ -3901,7 +3901,7 @@
     "p": "不适用"
    }
   ],
-  "confidence_sentence": "本文为知识摘要（二次文献），CEBM 治疗问题 2 级（取所引最高证据：1 项 RCT），ROBIS 尚未评估，结论基于全文。",
+  "confidence_sentence": "本文为知识摘要（二次文献），CEBM 治疗问题 2 级（取所引最高证据：1 项 RCT），证据确定性不适用（原文自评证据强度：Weak），结论基于全文。",
   "clinical_meaning": "两药都有效，但谁更好目前没有可靠证据。",
   "key_results_top3": [
    0,
@@ -3948,7 +3948,7 @@
     "p": "原文未给出"
    }
   ],
-  "confidence_sentence": "本文为双盲安慰剂对照 RCT，CEBM 治疗问题 2 级，RoB 2 尚未评估，结论基于全文。",
+  "confidence_sentence": "本文为双盲安慰剂对照 RCT，CEBM 治疗问题 2 级，RoB 2 总体一些担忧（不影响主要结局，不降级），证据确定性高，结论基于全文。",
   "clinical_meaning": "oclacitinib 能在数天内明显减轻瘙痒，适合需要快速止痒的犬；本试验的安慰剂对照只有 28 天，长期安全性要看其他研究。",
   "key_results_top3": [
    0,
@@ -3995,7 +3995,7 @@
     "p": "不适用"
    }
   ],
-  "confidence_sentence": "本文为阳性对照 RCT（非劣效设计，主人未设盲），CEBM 治疗问题 2 级，RoB 2 尚未评估，结论基于全文。",
+  "confidence_sentence": "本文为阳性对照 RCT（非劣效设计，主人未设盲），CEBM 治疗问题 2 级，RoB 2 总体高风险（降一级），证据确定性中，结论基于全文。",
   "clinical_meaning": "需要快速止痒时 oclacitinib 优于环孢素；用药 2 个月以上两药疗效相近，环孢素胃肠道反应更多。",
   "key_results_top3": [
    0,
@@ -4015,7 +4015,7 @@
   "matched_by": "pmid",
   "title_zh": "lokivetmab 剂量探索：对照安慰剂",
   "one_line_conclusion_zh": "211 只犬的双盲 RCT 中，单次注射 lokivetmab 2 mg/kg 后第 1–49 天瘙痒下降均多于安慰剂；剂量越高，起效越早、持续越久。",
-  "why_it_matters": "这是 lokivetmab（Cytopoint）确定剂量的关键试验，0.5 和 2.0 mg/kg 的止痒效果至少维持 1 个月。摘要只给 P < 0.05 和有效的起止天数，没有效应量，也没有各组只数和不良事件。只读到摘要。PubMed 记录的作者单位均为 Zoetis（lokivetmab 生产商），资助声明未读到。",
+  "why_it_matters": "这是 lokivetmab（Cytopoint）确定剂量的关键试验，0.5 和 2.0 mg/kg 的止痒效果至少维持 1 个月。第 56 天前各组都有大量退出：安慰剂 52 只中 27 只（均因病情加重），lokivetmab 各剂量组 50–55 只中 14–24 只，退出后不再计入连续评分，偏倚方向无法确定。没有因不良事件或检验异常退出的。由 Zoetis 组织和资助，作者均为 Zoetis 雇员。",
   "key_results": [
    {
     "measure": "2 mg/kg vs 安慰剂",
@@ -4036,18 +4036,18 @@
     "p": "<0.05"
    }
   ],
-  "confidence_sentence": "本文为双盲安慰剂对照剂量探索 RCT，CEBM 治疗问题 2 级，RoB 2 未评（仅摘要），结论仅基于摘要。",
+  "confidence_sentence": "本文为双盲安慰剂对照剂量探索 RCT，CEBM 治疗问题 2 级，RoB 2 总体高风险（各组均有大量退出，偏倚方向无法确定，降一级），证据确定性中，结论基于全文（出版社版 PDF 公开镜像）。",
   "clinical_meaning": "lokivetmab 单次注射可止痒约 1 个月；剂量偏低时起效晚、维持短。",
   "key_results_top3": [
    0,
    1,
    2
   ],
-  "funding_coi_zh": "资金：仅读摘要，未知。利益冲突：仅读摘要，未知；PubMed 记录的作者单位均为 Zoetis Inc（lokivetmab 生产商），疑为厂商研究。",
-  "funding_coi_quote": "Global Development and Operations, Zoetis Inc, 333 Portage Street, Kalamazoo, MI, 49007, USA.",
-  "text_source": "abstract",
-  "text_file": "ft/dogad/27647569_abs.txt",
-  "text_url": "https://pubmed.ncbi.nlm.nih.gov/27647569/"
+  "funding_coi_zh": "资金：由 Zoetis Inc（lokivetmab 生产商）组织并资助。利益冲突：全部作者均为 Zoetis 雇员。",
+  "funding_coi_quote": "Source of Funding: This study was organized and funded by Zoetis Inc, Florham Park, NJ, USA. ‖ Conflict of Interest: All authors are employees of Zoetis Inc.",
+  "text_source": "full_text",
+  "text_file": "extracts/ft/dogad/27647569_mirror.txt",
+  "text_url": "https://www.zoetis.com.br/_locale-assets/arquivos/animais-de-companhia/biblioteca/lokivetmab-canino-determinacao-de-dose-dermatite-atopica-michels-2016.pdf"
  },
  {
   "pmid": "28906040",
@@ -4055,8 +4055,8 @@
   "id": "28906040",
   "matched_by": "pmid",
   "title_zh": "lokivetmab 对照环孢素：非劣效试验",
-  "one_line_conclusion_zh": "274 只犬的 RCT 中，第 28 天 lokivetmab 的瘙痒下降不劣于环孢素（51.90% vs 43.72%），但皮损评分未达到非劣效（54.17% vs 56.86%）。",
-  "why_it_matters": "这是 lokivetmab 与环孢素唯一的头对头试验，比较期 3 个月，之后 81 只犬接着用 lokivetmab 6 个月。皮损评分没有达到非劣效，但各时间点两组 CADESI-03 均值无显著差异。摘要中“76.3%（n = 45）”的分母没写清。只读到摘要，非劣效界值和设盲方式没有核对。PubMed 记录的作者单位均为 Zoetis。",
+  "one_line_conclusion_zh": "274 只犬的 RCT 中，第 28 天主人瘙痒评分（PVAS）下降 lokivetmab 51.90%、环孢素 43.72%，非劣效检验值 0.3% 低于 15% 界值，达到非劣效；皮损评分（CADESI-03）下降 54.17% 对 56.86%，非劣效检验值 18.0% 超过 15% 界值，未达到非劣效。",
+  "why_it_matters": "这是 lokivetmab 与环孢素唯一的头对头试验，比较期 3 个月，之后 81 只犬接着用 lokivetmab 6 个月。皮损评分没有达到非劣效，但各时间点两组 CADESI-03 均值无显著差异。非劣效只按疗效分析集分析（排除方案偏离和环孢素服药依从性不足 80% 的犬），没有报告 ITT/全分析集结果，也没给组间差值的置信区间。由 Zoetis 发起并资助，作者均为 Zoetis 雇员。",
   "key_results": [
    {
     "measure": "第 28 天主人瘙痒 VAS 下降",
@@ -4077,18 +4077,18 @@
     "p": "不适用"
    }
   ],
-  "confidence_sentence": "本文为阳性对照 RCT（非劣效设计）加单臂延续期，CEBM 治疗问题 2 级，RoB 2 未评（仅摘要），结论仅基于摘要。",
+  "confidence_sentence": "本文为阳性对照 RCT（非劣效设计）加单臂延续期，CEBM 治疗问题 2 级，RoB 2 总体一些担忧（影响主要非劣效分析：未报告 ITT 结果和组间差值置信区间，降一级），证据确定性中，结论基于全文（出版社版 PDF 公开镜像）。",
   "clinical_meaning": "lokivetmab 止痒不逊于环孢素，但改善皮损是否不逊于环孢素未得到证实。",
   "key_results_top3": [
    0,
    1,
    2
   ],
-  "funding_coi_zh": "资金：仅读摘要，未知。利益冲突：仅读摘要，未知；PubMed 记录的作者单位均为 Zoetis（lokivetmab 生产商），疑为厂商研究。",
-  "funding_coi_quote": "VMRD, Zoetis Belgium SA, Mercuriusstraat 20, Zaventem, 1930, Belgium.",
-  "text_source": "abstract",
-  "text_file": "ft/dogad/28906040_abs.txt",
-  "text_url": "https://pubmed.ncbi.nlm.nih.gov/28906040/"
+  "funding_coi_zh": "资金：由 Zoetis Inc（lokivetmab 生产商）发起并资助；受试药物（lokivetmab 或环孢素）免费提供给诊所，临床医生的就诊费用由资助方补偿。利益冲突：全部作者均为 Zoetis 雇员。",
+  "funding_coi_quote": "Source of funding: This study was initiated and funded by Zoetis Inc, Parsipanny, NJ, USA. The test article (lokivetmab or ciclosporin) was provided at no cost to the clinic and clinicians were compensated for the costs associated with each dog’s clinic visit. ‖ Conflict of interest: All authors are employees of Zoetis Inc.",
+  "text_source": "full_text",
+  "text_file": "extracts/ft/dogad/28906040_mirror.txt",
+  "text_url": "https://www.dermatoclinica.com.br/wp-content/uploads/2021/01/Lokivetmab-Ciclosporin-atopic-dogs.pdf"
  },
  {
   "pmid": "34180084",
@@ -4124,7 +4124,7 @@
     "p": "不适用"
    }
   ],
-  "confidence_sentence": "本文为设盲安慰剂对照 RCT，CEBM 治疗问题 2 级（人群宽于特应性皮炎，间接性另注），RoB 2 尚未评估，结论基于全文。",
+  "confidence_sentence": "本文为设盲安慰剂对照 RCT，CEBM 治疗问题 2 级（人群宽于特应性皮炎，间接性另注），RoB 2 总体高风险（结局缺失，但偏倚方向是低估药效，不降级），证据确定性高，结论基于全文。",
   "clinical_meaning": "lokivetmab 可减轻多种原因的过敏性瘙痒；用于特应性皮炎时，应以只纳入特应性皮炎犬的试验为主要依据。",
   "key_results_top3": [
    0,
@@ -4144,7 +4144,7 @@
   "matched_by": "pmid",
   "title_zh": "Favrot 标准：犬特应性皮炎临床诊断标准",
   "one_line_conclusion_zh": "多中心前瞻性研究提出两组临床诊断标准，灵敏度 80–85%、特异度 79–85%，优于 Willemse 和 Prélaud 标准；食物性和非食物性特应性皮炎临床上无法区分。",
-  "why_it_matters": "这是现在通用的 Favrot 标准的出处，ICADA 2015 诊断指南直接采用。摘要没写入组犬数和各组标准的条目，也没说明验证人群是否独立于建模人群。只读到摘要，标准条目和各组的具体数值需全文核实。",
+  "why_it_matters": "这是现在通用的 Favrot 标准的出处，ICADA 2015 诊断指南直接采用。34 位皮肤专科医生在 15 国收集的 1542 只慢性瘙痒犬中，448 只（29%）因诊断不明确等被排除。标准是在同一批数据上挑选并评估的，没有独立验证，病例来自转诊专科，灵敏度和特异度可能偏高。由 Novartis 资助，两位作者为 Novartis 雇员。",
   "key_results": [
    {
     "measure": "两组诊断标准",
@@ -4165,18 +4165,19 @@
     "p": "不适用"
    }
   ],
-  "confidence_sentence": "本文为前瞻性多中心诊断标准研究（横断面诊断准确性），CEBM 等级待全文核实，QUADAS-2 未评（仅摘要），结论仅基于摘要。",
+  "confidence_sentence": "本文为前瞻性多中心诊断标准研究（横断面诊断准确性），CEBM 诊断问题 4 级（参考标准不独立，排除诊断不明确病例），QUADAS-2 四个偏倚域均为高风险（降两级）且病例选择适用性高度关注（降一级），证据确定性极低，结论基于全文（出版社版 PDF 公开镜像）。",
   "clinical_meaning": "Favrot 标准可辅助临床诊断，但灵敏度和特异度都不到 90%，需结合排除诊断使用。",
   "key_results_top3": [
    0,
    1,
    2
   ],
-  "funding_coi_zh": "资金：仅读摘要，未知。利益冲突：仅读摘要，未知。",
-  "funding_coi_quote": null,
-  "text_source": "abstract",
-  "text_file": "ft/dogad/20187911_abs.txt",
-  "text_url": "https://pubmed.ncbi.nlm.nih.gov/20187911/"
+  "funding_coi_zh": "资金：由 Novartis Animal Health（巴塞尔；当时生产环孢素 Atopica）资助。利益冲突：原文称未声明利益冲突，但同页写明作者 Jean Steffan 和 Wolfgang Seewald 为 Novartis Animal Health 全职雇员。",
+  "funding_coi_quote": "The study was funded by Novartis Animal Health, Basel, Switzerland. ‖ No conflict of interest has been declared. ‖ Jean Steffan and Wolfgang Seewald are full time employees of Novartis Animal Health.",
+  "funding_coi_note_zh": "原文“无利益冲突”与“两位作者为资助方雇员”并列",
+  "text_source": "full_text",
+  "text_file": "extracts/ft/dogad/20187911_avve.txt",
+  "text_url": "https://www.avve.us/academia/wp-content/uploads/2021/03/Favrot-criterios-canine-atopic-dermatitis.pdf"
  },
  {
   "pmid": "30115047",

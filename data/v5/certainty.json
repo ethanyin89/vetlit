@@ -268,22 +268,167 @@
   },
   "39858209": {
    "rules_applied": [
+    "R-SR-body-of-evidence",
     "R-start-SR-by-included-designs",
-    "R-down-AMSTAR2-low-critlow"
+    "R-start-treatment-observational-low"
    ],
    "question_type": "治疗获益",
    "question_basis": "extracts/cebm_fill.json",
    "start": "低",
-   "start_basis": "SR（系统综述 + Meta 分析），治疗问题；纳入设计以 CEBM 3 为证据：多为非随机/非对照研究→观察性起点低",
+   "start_basis": "SR：卡片结论（粗蛋白 >25% vs <25%）是不同研究之间的比较，不是随机比较 → 观察性起点低（纳入研究 20 篇中仅 9 篇随机）",
    "downgrades": [
     {
-     "reason_zh": "AMSTAR 2 总体置信度为极低",
-     "source_file": "review2/amstar2_adjudicated.json"
+     "reason_zh": "不一致 −1：粗蛋白分组的减重结果“significant heterogeneity (p < 0.0001)”",
+     "source_file": "review2/ft/PMC11759159.txt（3.3. Meta-Analysis）"
     }
    ],
-   "provisional": "极低",
    "certainty": "极低",
-   "notes_zh": ""
+   "provisional": "极低",
+   "notes_zh": "综述未做 GRADE，也未用标准偏倚风险工具评纳入研究（只用自定质量评分：样本量、随机化、同质性、变量、营养标示），纳入研究偏倚风险无法从原文取得，未计降级；不精确亦严重（<25% 组数据有限，原文称无法直接比较），已到极低不再计。注意：原文称两组蛋白水平无法直接比较，卡片一句话结论“>25% 减重更多”需复核措辞。",
+   "rob_tool": null,
+   "rob_overall": null,
+   "rob_note_zh": "纳入研究偏倚风险：原文无标准工具评估（自定质量评分不等同偏倚风险）",
+   "rob_source": null,
+   "review_rob_tool": "AMSTAR 2",
+   "review_rob_overall": "极低（Critically low）",
+   "review_rob_items": [
+    {
+     "item": "1",
+     "judgement": "Yes",
+     "quote": "The search strategy was constructed using the PICO framework (Population, Intervention, Control, and Outcomes)",
+     "location": "2.1. Search Strategy",
+     "reason_zh": "核对全文后同意第一评估员：检索按 PICO 构建，研究问题包含人群、干预、对照与结局"
+    },
+    {
+     "item": "2",
+     "judgement": "No",
+     "quote": "Although this meta-analysis protocol was not pre-registered",
+     "location": "2.1. Search Strategy",
+     "reason_zh": "核对全文后同意第一评估员：明确未预注册，也未说明事先有书面方案"
+    },
+    {
+     "item": "3",
+     "judgement": "Yes",
+     "quote": "To enable linear data evaluation, we selected longitudinal studies that implemented calorie-restricted diets for weight loss in obese animals.",
+     "location": "2.1. Search Strategy",
+     "reason_zh": "核对全文后同意第一评估员：说明了只纳入纵向研究的理由"
+    },
+    {
+     "item": "4",
+     "judgement": "Partial Yes",
+     "quote": "Primary searches were conducted in PUBMED, Scielo, and Web of Science, with Google Scholar used to capture additional studies not indexed in other databases.",
+     "location": "2.1. Search Strategy",
+     "reason_zh": "核对全文后同意第一评估员：检索了 3 个以上数据库并给出检索词，也检索了参考文献；未检索试验注册库、灰色文献或咨询专家，也未说明语言或日期限制"
+    },
+    {
+     "item": "5",
+     "judgement": "No",
+     "quote": null,
+     "location": "全文未见相关描述",
+     "reason_zh": "核对全文后同意第一评估员：未报告由两人独立筛选"
+    },
+    {
+     "item": "6",
+     "judgement": "No",
+     "quote": null,
+     "location": "全文未见相关描述",
+     "reason_zh": "核对全文后同意第一评估员：未报告由两人独立提取数据"
+    },
+    {
+     "item": "7",
+     "judgement": "No",
+     "quote": "The 28 excluded studies lacked results presented as means and standard deviations, which precluded their inclusion in the meta-analysis",
+     "location": "3. Results",
+     "reason_zh": "核对全文后同意第一评估员：只给出汇总的排除理由，没有逐篇排除清单"
+    },
+    {
+     "item": "8",
+     "judgement": "Partial Yes",
+     "quote": "Table 2 summarizes breed, sex, age, and outcomes for each study.",
+     "location": "3.2. Tables",
+     "reason_zh": "核对全文后同意第一评估员：描述了人群、饮食干预和结局，但研究设计、场所和随访细节不足"
+    },
+    {
+     "item": "9",
+     "judgement": "No",
+     "quote": "B—Randomization: Prospective studies employing randomization were given 2 points.",
+     "location": "2.2. Eligibility Criteria",
+     "reason_zh": "核对全文后同意第一评估员：自拟评分只评“是否随机”和样本量等，未评分配隐藏、盲法或选择性报告，不是有效的偏倚工具"
+    },
+    {
+     "item": "10",
+     "judgement": "No",
+     "quote": null,
+     "location": "全文未见相关描述",
+     "reason_zh": "核对全文后同意第一评估员：未报告纳入研究的资金来源"
+    },
+    {
+     "item": "11",
+     "judgement": "No",
+     "quote": "The overall effect was analyzed using the Z-test, and treatment heterogeneity was assessed with the I2 test.",
+     "location": "2.3. Data Analysis",
+     "reason_zh": "核对全文后同意第一评估员：合并干预前后数据，未说明效应模型或加权方法的理由，也未处理非随机前后设计"
+    },
+    {
+     "item": "12",
+     "judgement": "No",
+     "quote": null,
+     "location": "全文未见相关描述",
+     "reason_zh": "核对全文后同意第一评估员：未评估偏倚风险对合并结果的影响"
+    },
+    {
+     "item": "13",
+     "judgement": "No",
+     "quote": null,
+     "location": "全文未见相关描述",
+     "reason_zh": "核对全文后同意第一评估员：讨论结果时未考虑单项研究的偏倚风险"
+    },
+    {
+     "item": "14",
+     "judgement": "Yes",
+     "quote": "While protocol duration was not an exclusion criterion, we recognize this as a limitation, as extended durations typically result in more substantial weight loss",
+     "location": "4. Discussion",
+     "reason_zh": "核对全文后同意第一评估员：报告了异质性，并讨论了疗程、年龄、性别等可能来源"
+    },
+    {
+     "item": "15",
+     "judgement": "No",
+     "quote": null,
+     "location": "全文未见相关描述",
+     "reason_zh": "核对全文后同意第一评估员：未调查发表偏倚（无漏斗图或检验）"
+    },
+    {
+     "item": "16",
+     "judgement": "Yes",
+     "quote": "The authors declare no conflicts of interest.",
+     "location": "Conflicts of Interest",
+     "reason_zh": "核对全文后同意第一评估员：声明无外部资助、无利益冲突"
+    }
+   ],
+   "review_rob_source": "review2/amstar2_adjudicated.json（Vibe 2026-11-02 裁定；关键缺陷 2、7、9、11、13、15）",
+   "evidence_quotes": [
+    {
+     "quote": "For crude protein levels, the total and weekly weight losses were higher in the >25% group ( Figure 3 ), with significant heterogeneity ( p < 0.0001), as was the reduction in body fat ( Table 2 ).",
+     "location": "3.3. Meta-Analysis",
+     "file": "review2/ft/PMC11759159.txt"
+    },
+    {
+     "quote": "However, due to limited data for crude protein levels <25% in the included studies, a direct comparison between these protein levels was not possible.",
+     "location": "3.3. Meta-Analysis",
+     "file": "review2/ft/PMC11759159.txt"
+    },
+    {
+     "quote": "a quality assessment was conducted, assigning scores based on the specific scientific criteria detailed below.",
+     "location": "2.2. Eligibility Criteria",
+     "file": "review2/ft/PMC11759159.txt"
+    },
+    {
+     "quote": "Nine studies employed randomization, and only three had homogeneous experimental groups",
+     "location": "3.1. 质量评分结果",
+     "file": "review2/ft/PMC11759159.txt"
+    }
+   ],
+   "ruling": "Vibe 裁定 2026-11-09：R-SR-body-of-evidence；原 AMSTAR 2 降级移出确定性推导"
   },
   "41781382": {
    "rules_applied": [
@@ -1205,22 +1350,192 @@
   },
   "40941356": {
    "rules_applied": [
+    "R-SR-body-of-evidence",
     "R-start-SR-by-included-designs",
-    "R-down-AMSTAR2-low-critlow"
+    "R-start-treatment-observational-low",
+    "R-rob-assessed-v4"
    ],
    "question_type": "治疗获益",
    "question_basis": "extracts/cebm_fill.json",
    "start": "低",
-   "start_basis": "SR（系统综述（无 Meta 分析）），治疗问题；纳入设计以 CEBM 4 为证据：多为非随机/非对照研究→观察性起点低",
+   "start_basis": "SR：卡片结论含多个结局，取最低者（传统口服药：格列吡嗪、阿卡波糖、二甲双胍）；其纳入研究均为无对照或非随机试验 → 观察性起点低",
    "downgrades": [
     {
-     "reason_zh": "AMSTAR 2 总体置信度为极低",
-     "source_file": "review2/amstar2_adjudicated.json"
+     "reason_zh": "偏倚风险 −1：综述用 ROBINS-I 评传统口服药 4 项研究，3 项 Serious、1 项 Moderate（ROBINS-I Serious −1）",
+     "source_file": "review2/ft/PMC12427183.txt（Table 2；Abstract）"
     }
    ],
-   "provisional": "极低",
    "certainty": "极低",
-   "notes_zh": ""
+   "provisional": "极低",
+   "notes_zh": "综述未做 GRADE（全文无 GRADE/certainty）。SGLT2 抑制剂结局：唯一 RCT（Niessen 2024，velagliflozin vs 胰岛素）综述判 Some concerns，其余为无对照/历史对照试验判 Serious；若单独评级会高于传统口服药，但卡片取最低结局 → 极低。",
+   "rob_tool": "RoB 2 / ROBINS-I（综述作者逐篇评估）",
+   "rob_overall": "传统口服药研究：ROBINS-I Serious 3/4、Moderate 1/4",
+   "rob_source": "review2/ft/PMC12427183.txt（Table 2）",
+   "review_rob_tool": "AMSTAR 2",
+   "review_rob_overall": "极低（Critically low）",
+   "review_rob_items": [
+    {
+     "item": "1",
+     "judgement": "Yes",
+     "quote": "A systematic literature search was conducted in three databases: Google Scholar, PubMed, and Scopus (Table 1).",
+     "location": "2.2. Eligibility Criteria and Study Selection",
+     "reason_zh": "核对全文后同意第一评估员：表 1 按 PICO A/B 给出人群、干预、对照与结局"
+    },
+    {
+     "item": "2",
+     "judgement": "No",
+     "quote": "The protocol for this systematic review was established a priori but was not eligible for registration in the PROSPERO database, as the review had already progressed to the data extraction phase at the time of the submission attempt.",
+     "location": "2.1. Protocol",
+     "reason_zh": "维持 No。AMSTAR 2 指南判 Partial Yes 的条件是：作者声明有书面方案，且方案包含全部四项（综述问题、检索策略、纳入/排除标准、偏倚风险评估）。原文只写了“protocol … established a priori”，没有说明方案包含哪些内容；局限性一节也只写“methodology was established a priori”。四项内容都没有明确声明，所以够不上 Partial Yes。这推翻了我在群里先给出的 Partial Yes 初判。敏感性分析：若放宽判为 Partial Yes，总体为 Low。"
+    },
+    {
+     "item": "3",
+     "judgement": "No",
+     "quote": null,
+     "location": "全文未见相关描述",
+     "reason_zh": "核对全文后同意第一评估员：纳入 RCT、非随机研究和无对照病例系列，但未解释为何纳入这些设计"
+    },
+    {
+     "item": "4",
+     "judgement": "Partial Yes",
+     "quote": "No restrictions were applied regarding publication dates or language.",
+     "location": "2.2. Eligibility Criteria and Study Selection",
+     "reason_zh": "核对全文后同意第一评估员：3 个数据库，表 1 给出检索式，无语言或日期限制；未检索参考文献、注册库或灰色文献，也未咨询专家。检索日期前后不一致（表 1 为 2025-03-03，局限性中为 2025-04-04）"
+    },
+    {
+     "item": "5",
+     "judgement": "Yes",
+     "quote": "The study selection process followed a two-stage screening protocol performed independently by two reviewers (Rafael Ruiz de Gopegui and Juan Rejas).",
+     "location": "2.2. Eligibility Criteria and Study Selection",
+     "reason_zh": "核对全文后同意第一评估员：两人独立筛选，分歧由第三人裁决"
+    },
+    {
+     "item": "6",
+     "judgement": "No",
+     "quote": null,
+     "location": "全文未见相关描述",
+     "reason_zh": "维持 No。CRediT 中写了三人参与数据提取（“F.R.-V. taking a leading role”），但没说至少两人独立重复提取，也没说一致性≥80%。"
+    },
+    {
+     "item": "7",
+     "judgement": "No",
+     "quote": "The remaining reports were excluded for several reasons, primarily, being abstract-only publications, not meeting the PICO criteria (e.g., studies in healthy cats without risk factors), focusing exclusively on insulin therapy, or being review articles without primary data.",
+     "location": "3.1. Study Selection",
+     "reason_zh": "核对全文后同意第一评估员：只给出汇总的排除理由，没有逐篇排除清单"
+    },
+    {
+     "item": "8",
+     "judgement": "Yes",
+     "quote": "A total of 10 studies reporting on the treatment of cats with naturally acquired FDM were included (Table 2).",
+     "location": "3.2.1. Characteristics of Included Studies",
+     "reason_zh": "核对全文后同意第一评估员：表 2/4 列出设计、人群、干预（药物、剂量、疗程）、对照和结局"
+    },
+    {
+     "item": "9",
+     "judgement": "Yes",
+     "quote": "The Cochrane Risk of Bias 2 (RoB 2) tool was used for randomized controlled trials (RCTs), and the Risk Of Bias In Non-randomised Studies of Interventions (ROBINS-I) tool was used for non-randomized studies.",
+     "location": "2.3. Risk of Bias Assessment",
+     "reason_zh": "核对全文后同意第一评估员：RCT 用 RoB 2，非随机研究用 ROBINS-I，由两人独立评估"
+    },
+    {
+     "item": "10",
+     "judgement": "No",
+     "quote": null,
+     "location": "全文未见相关描述",
+     "reason_zh": "核对全文后同意第一评估员：未报告纳入研究的资金来源"
+    },
+    {
+     "item": "11",
+     "judgement": "未进行Meta分析",
+     "quote": null,
+     "location": null,
+     "reason_zh": "核对全文后同意第一评估员：异质性过大，只做叙述性综合"
+    },
+    {
+     "item": "12",
+     "judgement": "未进行Meta分析",
+     "quote": null,
+     "location": null,
+     "reason_zh": "核对全文后同意第一评估员：未合并"
+    },
+    {
+     "item": "13",
+     "judgement": "Yes",
+     "quote": "The evidence base is dominated by studies with a moderate to serious risk of bias, primarily driven by the lack of a concurrent control group in many key trials, including the largest field studies [1,10,11,14,31,32]",
+     "location": "4.2.4. Strengths and Limitations of the Evidence",
+     "reason_zh": "核对全文后同意第一评估员：解读结果时考虑了偏倚风险"
+    },
+    {
+     "item": "14",
+     "judgement": "Yes",
+     "quote": "However, this body of evidence is marked by significant heterogeneity in study designs",
+     "location": "4.1. Principal Findings and Overview of the Evidence",
+     "reason_zh": "核对全文后同意第一评估员：讨论了饮食、病程、品种和合并症等异质性来源"
+    },
+    {
+     "item": "15",
+     "judgement": "未进行Meta分析",
+     "quote": null,
+     "location": null,
+     "reason_zh": "核对全文后同意第一评估员：未合并；文中承认无法排除发表偏倚"
+    },
+    {
+     "item": "16",
+     "judgement": "Yes",
+     "quote": "The authors declare no conflicts of interest.",
+     "location": "Conflicts of Interest",
+     "reason_zh": "核对全文后同意第一评估员：声明无外部资助、无利益冲突"
+    }
+   ],
+   "review_rob_source": "review2/amstar2_adjudicated.json（Vibe 2026-11-02 裁定；关键缺陷 2、7；若条目 2 放宽为部分是则为低）",
+   "evidence_quotes": [
+    {
+     "quote": "Risk of bias was assessed using RoB 2 and ROBINS-I tools.",
+     "location": "Abstract, Methods",
+     "file": "review2/ft/PMC12427183.txt"
+    },
+    {
+     "quote": "traditional agents (glipizide, metformin, acarbose) showed limited efficacy based on evidence with a high risk of bias.",
+     "location": "Abstract, Results",
+     "file": "review2/ft/PMC12427183.txt"
+    },
+    {
+     "quote": "The study designs were heterogeneous: two were RCTs, two were non-RCTs, and six were uncontrolled prospective trials (case series).",
+     "location": "3.2.1. Characteristics of Included Studies",
+     "file": "review2/ft/PMC12427183.txt"
+    },
+    {
+     "quote": "derived almost exclusively from small, single-center, uncontrolled studies from over two decades ago, which carry a high risk of bias.",
+     "location": "4. Discussion, Clinical Efficacy: Traditional vs. Newer Agents",
+     "file": "review2/ft/PMC12427183.txt"
+    },
+    {
+     "quote": "and increased serum hepatic enzyme activities (3 cats) were reported. Moderate Feldman et al. (1997)",
+     "location": "Table 2（Nelson 1999 格列吡嗪行末偏倚判定：Moderate）",
+     "file": "review2/ft/PMC12427183.txt"
+    },
+    {
+     "quote": "transient icterus with elevated liver enzymes (4 cats). Serious Mazzaferro et al. (2003)",
+     "location": "Table 2（Feldman 1997 格列吡嗪行末：Serious）",
+     "file": "review2/ft/PMC12427183.txt"
+    },
+    {
+     "quote": "The article does not explicitly report any adverse effects associated with the acarbose treatment. Serious",
+     "location": "Table 2（Mazzaferro 2003 阿卡波糖行末：Serious）",
+     "file": "review2/ft/PMC12427183.txt"
+    },
+    {
+     "quote": "One diabetic cat died (cause undetermined, but GI hemorrhage was found). Serious",
+     "location": "Table 2（Nelson 2004 二甲双胍行末：Serious）",
+     "file": "review2/ft/PMC12427183.txt"
+    },
+    {
+     "quote": "Insulin group: most frequent was hypoglycemia (clinical & non-clinical), occurring in 53% of cats. Some",
+     "location": "Table 2（Niessen 2024 velagliflozin RCT 行末：Some [concerns]，仅作背景）",
+     "file": "review2/ft/PMC12427183.txt"
+    }
+   ],
+   "ruling": "Vibe 裁定 2026-11-09：R-SR-body-of-evidence；原 AMSTAR 2 降级移出确定性推导"
   },
   "40732763": {
    "rules_applied": [
@@ -1725,157 +2040,255 @@
   },
   "20187910": {
    "rules_applied": [
+    "R-SR-body-of-evidence",
+    "R-start-SR-by-included-designs",
     "R-no-RoB-pending"
    ],
    "question_type": "治疗获益",
    "question_basis": "extracts/cebm_dogAD_2026-11-10.json",
-   "start": null,
-   "start_basis": "",
+   "start": "高",
+   "start_basis": "SR：纳入研究均为 RCT（摘要原句）→高",
    "downgrades": [],
-   "provisional": null,
+   "provisional": "高",
    "certainty": "待评定",
-   "notes_zh": "未做偏倚风险评估",
-   "pending_reason_zh": "尚未做偏倚风险评估（AMSTAR 2）"
+   "notes_zh": "全文未取得（Wiley Cloudflare 403；Europe PMC/Unpaywall 无 OA），读不到纳入 RCT 的偏倚评估和逐项效应，无法评证据体",
+   "pending_reason_zh": "全文未取得：纳入研究证据体（及 ROBIS）无法评估"
   },
   "16412115": {
    "rules_applied": [
+    "R-SR-body-of-evidence",
+    "R-VF-ruling-SR-included-designs-unverified",
     "R-no-RoB-pending"
    ],
    "question_type": "治疗获益",
    "question_basis": "extracts/cebm_dogAD_2026-11-10.json",
    "start": null,
-   "start_basis": "",
+   "start_basis": "SR：摘要称纳入前瞻性临床试验，是否全部随机未知 → 起点待定",
    "downgrades": [],
    "provisional": null,
    "certainty": "待评定",
-   "notes_zh": "未做偏倚风险评估",
-   "pending_reason_zh": "尚未做偏倚风险评估（AMSTAR 2）"
+   "notes_zh": "全文未取得（Wiley Cloudflare 403；ZORA 等机构库未找到可访问版本），纳入设计与证据体均无法核实",
+   "pending_reason_zh": "全文未取得：纳入研究设计未核实，证据体（及 ROBIS）无法评估"
   },
   "36940185": {
    "rules_applied": [
-    "R-no-RoB-pending"
+    "R-na-review"
    ],
-   "question_type": "治疗获益",
-   "question_basis": "extracts/cebm_dogAD_2026-11-10.json",
+   "question_type": null,
+   "question_basis": null,
    "start": null,
-   "start_basis": "",
+   "start_basis": "叙述性综述",
    "downgrades": [],
    "provisional": null,
-   "certainty": "待评定",
-   "notes_zh": "未做偏倚风险评估",
-   "pending_reason_zh": "尚未做偏倚风险评估"
+   "certainty": "不适用",
+   "notes_zh": "标题称系统评价，全文核实无检索策略、纳入标准、纳入研究数和筛选流程（Vibe 裁定 2026-11-09）",
+   "na_reason_zh": "叙述性综述",
+   "na_quote": {
+    "quote": "The aim of this review is to provide the clinician with a summary of allergen immunotherapy in small animal practice.",
+    "location": "Introduction 末句",
+    "file": "extracts/ft/dogad/36940185_fulltext.txt"
+   }
   },
   "40470278": {
    "rules_applied": [
-    "R-no-RoB-pending"
+    "R-SR-body-of-evidence",
+    "R-start-diagnosis-casecontrol-high",
+    "R-down-indirectness-QUADAS2-applicability"
    ],
    "question_type": "诊断",
    "question_basis": "extracts/cebm_dogAD_2026-11-10.json",
-   "start": null,
-   "start_basis": "",
-   "downgrades": [],
-   "provisional": null,
-   "certainty": "待评定",
-   "notes_zh": "未做偏倚风险评估",
-   "pending_reason_zh": "尚未做偏倚风险评估（AMSTAR 2）"
+   "start": "高",
+   "start_basis": "SR：卡片确定性取纳入研究证据体；纳入研究为诊断研究→高",
+   "downgrades": [
+    {
+     "reason_zh": "证据体偏倚风险非常严重 −2：综述的改良 QUADAS-2 报告 68/72 未明确参考标准、约 70% 未报告判读者设盲",
+     "source_file": "ft/dogad/PMC12133834.txt（Results, Risk of bias）"
+    },
+    {
+     "reason_zh": "间接性 −1：仅 30/72 用 Favrot 标准定义病例（适用性），多数研究只报告阳性率",
+     "source_file": "ft/dogad/PMC12133834.txt（Results, Risk of bias；Discussion）"
+    }
+   ],
+   "certainty": "极低",
+   "notes_zh": "不精确/不一致亦严重（IDT 37 篇仅 5 篇报告灵敏度和特异度），已到极低不再计；SM1 为筛选表，无逐篇 QUADAS-2",
+   "rob_tool": "改良 QUADAS-2（综述作者对纳入研究的汇总评估）",
+   "rob_overall": "中到高（综述作者汇总）",
+   "rob_source": "extracts/rob_round1_dogAD_2026-11-09.json（Vibe 2026-11-09 裁定）",
+   "provisional": "极低",
+   "review_rob_tool": "ROBIS",
+   "review_rob_overall": "高",
+   "review_rob_items": [
+    {
+     "domain": "D1 研究纳入标准",
+     "judgement": "高",
+     "reason_zh": "虽称有事先方案，但纳排标准在标题筛选阶段才确定；只限原始研究，语言限 4 种未说明理由；未定义参考标准和目标指标"
+    },
+    {
+     "domain": "D2 研究的检索与筛选",
+     "judgement": "高",
+     "reason_zh": "只检索 4 个库（无 CAB Abstracts 等兽医库），限语言；21 篇因非开放获取未读全文即排除，未查灰色文献；有会议录手检、滚雪球和两人筛选（含 kappa），不足以抵消"
+    },
+    {
+     "domain": "D3 数据收集与研究评价",
+     "judgement": "高",
+     "reason_zh": "一人提取、另一人核对；未系统提取各研究设计、参考标准和 2×2 数据；改良 QUADAS-2 由两人独立评，但只报告汇总，没有逐篇结果"
+    },
+    {
+     "domain": "D4 综合与结果",
+     "judgement": "高",
+     "reason_zh": "定性内容分析，编码框架来自研究者自选的 3 篇文章；未按偏倚风险分层或做敏感性分析；72 篇中大多只报告阳性率，未合并准确性数据"
+    },
+    {
+     "domain": "第 3 阶段 A：解读是否回应了 D1–D4 发现的所有问题",
+     "judgement": "可能否",
+     "reason_zh": "承认纳入研究偏倚中到高、非 OA 与灰色文献局限，但同时称方法保证结论稳健可重复"
+    },
+    {
+     "domain": "第 3 阶段 B：纳入研究与综述问题的相关性是否得到适当考虑",
+     "judgement": "是",
+     "reason_zh": "作者指出病例定义不一（仅 41.6% 用 Favrot 标准）"
+    },
+    {
+     "domain": "第 3 阶段 C：是否避免只凭统计学显著性下结论",
+     "judgement": "是",
+     "reason_zh": "无 meta 分析，结论为证据不足"
+    }
+   ],
+   "review_rob_source": "extracts/rob_round1_dogAD_2026-11-09.json（Vibe 2026-11-09 裁定）（robis：逐域原句与位置）"
   },
   "42007020": {
    "rules_applied": [
-    "R-no-RoB-pending"
+    "R-na-review",
+    "R-VF-knowledge-summary-own-strength"
    ],
-   "question_type": "治疗获益",
-   "question_basis": "extracts/cebm_dogAD_2026-11-10.json",
+   "question_type": null,
+   "question_basis": null,
    "start": null,
-   "start_basis": "",
+   "start_basis": "知识摘要（二次文献）",
    "downgrades": [],
    "provisional": null,
-   "certainty": "待评定",
-   "notes_zh": "未做偏倚风险评估",
-   "pending_reason_zh": "尚未做偏倚风险评估（ROBIS）"
+   "certainty": "不适用",
+   "notes_zh": "非原始临床研究；原文自报证据强度见 own_evidence_strength",
+   "na_reason_zh": "知识摘要（二次文献）",
+   "own_evidence_strength": "Weak",
+   "own_evidence_strength_quote": "Strength of evidence Weak",
+   "own_evidence_strength_location": "ft/dogad/PMC13011112.txt，Clinical bottom line（Strength of evidence）",
+   "own_evidence_strength_source": "Veterinary Evidence 知识摘要自评（RCVS Knowledge）"
   },
   "24581322": {
    "rules_applied": [
-    "R-no-RoB-pending"
+    "R-start-treatment-RCT-high",
+    "R-rob-assessed-v4"
    ],
    "question_type": "治疗获益",
    "question_basis": "extracts/cebm_dogAD_2026-11-10.json",
-   "start": null,
-   "start_basis": "",
+   "start": "高",
+   "start_basis": "RCT：治疗获益问题，RCT→高",
    "downgrades": [],
-   "provisional": null,
-   "certainty": "待评定",
-   "notes_zh": "未做偏倚风险评估",
-   "pending_reason_zh": "尚未做偏倚风险评估（RoB 2）"
+   "certainty": "高",
+   "notes_zh": "RoB 2 一些担忧（D2：疗效按符合方案集分析，约 12% 被排除，两组相近）不影响主要结局：第 28 天治疗成功率 66.0% vs 4.0%（95% CI 54–76% vs 1–9%），排除比例不足以推翻结论，不降（Vibe 裁定 2026-11-09）",
+   "rob_tool": "RoB 2",
+   "rob_overall": "一些担忧",
+   "rob_source": "extracts/rob_round1_dogAD_2026-11-09.json（Vibe 2026-11-09 裁定）",
+   "provisional": "高"
   },
   "25496303": {
    "rules_applied": [
-    "R-no-RoB-pending"
+    "R-start-treatment-RCT-high",
+    "R-down-RoB2-high"
    ],
    "question_type": "治疗获益",
    "question_basis": "extracts/cebm_dogAD_2026-11-10.json",
-   "start": null,
-   "start_basis": "",
-   "downgrades": [],
-   "provisional": null,
-   "certainty": "待评定",
-   "notes_zh": "未做偏倚风险评估",
-   "pending_reason_zh": "尚未做偏倚风险评估（RoB 2）"
+   "start": "高",
+   "start_basis": "RCT：治疗获益问题，RCT→高",
+   "downgrades": [
+    "RoB：RoB 2 总体高风险 −1"
+   ],
+   "certainty": "中",
+   "notes_zh": "按第一轮评估与现行规则写入（不在 Vibe 2026-11-09 六问之列）",
+   "rob_tool": "RoB 2",
+   "rob_overall": "高",
+   "rob_source": "extracts/rob_round1_dogAD_2026-11-09.json（Vibe 2026-11-09 裁定）",
+   "provisional": "中"
   },
   "27647569": {
    "rules_applied": [
-    "R-no-RoB-pending"
+    "R-start-treatment-RCT-high",
+    "R-down-RoB2-high"
    ],
    "question_type": "治疗获益",
    "question_basis": "extracts/cebm_dogAD_2026-11-10.json",
-   "start": null,
-   "start_basis": "",
-   "downgrades": [],
-   "provisional": null,
-   "certainty": "待评定",
-   "notes_zh": "未做偏倚风险评估",
-   "pending_reason_zh": "尚未做偏倚风险评估（RoB 2）"
+   "start": "高",
+   "start_basis": "RCT：治疗获益问题，RCT→高",
+   "downgrades": [
+    "RoB：RoB 2 总体高风险 −1（各组均大量退出：安慰剂 27/52=52%，lokivetmab 2.0 mg/kg 14/50=28%、0.5 mg/kg 22/54=41%、0.125 mg/kg 24/55=44%；偏倚方向无法假定朝向无效）"
+   ],
+   "certainty": "中",
+   "notes_zh": "RoB 2 总体高（D3：第 56 天前大量退出）。Vibe 2026-11-09 更正：药物组退出亦 28–44%，缺失多且各组都有，偏倚方向不能假定朝向无效，降一级；无因不良事件退出",
+   "rob_tool": "RoB 2",
+   "rob_overall": "高",
+   "rob_source": "extracts/rob_round1_dogAD_2026-11-09.json（Vibe 2026-11-09 裁定）",
+   "provisional": "中"
   },
   "28906040": {
    "rules_applied": [
-    "R-no-RoB-pending"
+    "R-start-treatment-RCT-high",
+    "R-rob-assessed-v4",
+    "R-VF-noninferiority-ITT-CI"
    ],
    "question_type": "治疗获益",
    "question_basis": "extracts/cebm_dogAD_2026-11-10.json",
-   "start": null,
-   "start_basis": "",
-   "downgrades": [],
-   "provisional": null,
-   "certainty": "待评定",
-   "notes_zh": "未做偏倚风险评估",
-   "pending_reason_zh": "尚未做偏倚风险评估（RoB 2）"
+   "start": "高",
+   "start_basis": "RCT：治疗获益问题，RCT→高",
+   "downgrades": [
+    "RoB：RoB 2 一些担忧（D2/D3 疗效分析集排除方案偏离和环孢素依从性 <80% 的犬），未报告组间差值置信区间和 ITT/全分析集结果，影响主要非劣效结局 −1"
+   ],
+   "certainty": "中",
+   "notes_zh": "非劣效条件未满足（Vibe 裁定 2026-11-09）：(a) 原文只给两组各自 95% CI［环孢素 43.72%（37.61–49.83%），lokivetmab 51.90%（45.94–57.87%）］和检验值 0.3% < 15% 界值，无差值 CI；(b) 仅疗效数据集（第 28 天瘙痒 234/274），无 ITT/FAS",
+   "rob_tool": "RoB 2",
+   "rob_overall": "一些担忧",
+   "rob_source": "extracts/rob_round1_dogAD_2026-11-09.json（Vibe 2026-11-09 裁定）",
+   "provisional": "中"
   },
   "34180084": {
    "rules_applied": [
-    "R-no-RoB-pending"
+    "R-start-treatment-RCT-high",
+    "R-VF-bias-toward-null"
    ],
    "question_type": "治疗获益",
    "question_basis": "extracts/cebm_dogAD_2026-11-10.json",
-   "start": null,
-   "start_basis": "",
-   "downgrades": [],
-   "provisional": null,
-   "certainty": "待评定",
-   "notes_zh": "未做偏倚风险评估",
-   "pending_reason_zh": "尚未做偏倚风险评估（RoB 2）"
+   "start": "高",
+   "start_basis": "RCT：治疗获益问题，RCT→高",
+   "downgrades": [
+    "偏倚方向朝向无效，不降"
+   ],
+   "certainty": "高",
+   "notes_zh": "RoB 2 总体高（D3：第 28 天前退出）。退出：盐水对照 16/62，lokivetmab 3/61，全部因症状加重或无改善，无不良事件退出 → 偏倚朝向无效，不降（Vibe 裁定 2026-11-09）。人群宽于 AD，按 v4 不降，仅记录",
+   "rob_tool": "RoB 2",
+   "rob_overall": "高",
+   "rob_source": "extracts/rob_round1_dogAD_2026-11-09.json（Vibe 2026-11-09 裁定）",
+   "provisional": "高"
   },
   "20187911": {
    "rules_applied": [
-    "R-no-RoB-pending"
+    "R-start-diagnosis-casecontrol-high",
+    "R-down-QUADAS2-very-serious",
+    "R-down-indirectness-QUADAS2-applicability"
    ],
    "question_type": "诊断",
-   "question_basis": "extracts/cebm_dogAD_2026-11-10.json",
-   "start": null,
-   "start_basis": "",
-   "downgrades": [],
-   "provisional": null,
-   "certainty": "待评定",
-   "notes_zh": "未做偏倚风险评估",
-   "pending_reason_zh": "尚未做偏倚风险评估（QUADAS-2）"
+   "question_basis": "extracts/rob_round1_dogAD_2026-11-09.json（qa_target）",
+   "start": "高",
+   "start_basis": "诊断准确性横断面研究：诊断问题→高",
+   "downgrades": [
+    "偏倚风险：QUADAS-2 四个偏倚域均为高 = 非常严重 −2（诊断标准在同一批数据上推导并评估，无独立验证；1542 只中 448 只（29%）诊断不明确或多诊断病例被排除）",
+    "间接性：QUADAS-2 适用性（病例选择）高度关注 −1（转诊人群：34 位皮肤专科医生、15 国）"
+   ],
+   "certainty": "极低",
+   "notes_zh": "资助：Novartis Animal Health；两位作者为 Novartis 雇员（不因资助降级）",
+   "rob_tool": "QUADAS-2",
+   "rob_overall": "高（D1–D4 均高）；适用性：病例选择高度关注",
+   "rob_source": "extracts/rob_round1_dogAD_2026-11-09.json（Vibe 2026-11-09 裁定）",
+   "provisional": "极低"
   },
   "30115047": {
    "rules_applied": [

@@ -150,7 +150,7 @@ def appraisal_html(p):
     it=p.get('appraisal_items') or []
     if not it: return ''
     rows=''.join(f'<tr><td>{E_(i.get("item",""))}</td><td><span class="jd {JCLS.get(i.get("judgment",""),"j-neutral")}">{E_(i.get("judgment",""))}</span></td><td>{E_(i.get("reason",""))}{f"<blockquote lang=en>{E_(i[chr(101)+"vidence_quote"])}</blockquote>" if i.get("evidence_quote") and i.get("evidence_quote") not in i.get("reason","") else ""}</td></tr>' for i in it)
-    return f'''<section class="card"><h2>{E_(p.get('rob_tool',''))} 逐项判断（deep extract，原样呈现）</h2><p class="muted small">“信息不足”“不清楚”表示所读材料未报告，不等于高风险。单人评估，未双人独立复核。</p><div class="tw"><table class="appr"><thead><tr><th>条目/领域</th><th>判断</th><th>理由与原文</th></tr></thead><tbody>{rows}</tbody></table></div>{f'<p class="small">报告规范核查：{E_(p["reporting_notes"])}</p>' if p.get('reporting_notes') else ''}</section>'''
+    return f'''<section class="card"><h2>{E_(p.get('rob_tool',''))} 逐项判断</h2><p class="muted small">“信息不足”“不清楚”表示所读材料未报告，不等于高风险。</p><div class="tw"><table class="appr"><thead><tr><th>条目/领域</th><th>判断</th><th>理由与原文</th></tr></thead><tbody>{rows}</tbody></table></div>{f'<p class="small">报告规范核查：{E_(p["reporting_notes"])}</p>' if p.get('reporting_notes') else ''}</section>'''
 def detail(p):
     tags=(['厂商资助'] if p.get('funding') and '未核' not in p['funding'] and '非厂商' not in p['funding'] and any(x in p['funding'] for x in ['Boehringer','Purina','Mars','Hill','Royal Canin','Zoetis','Elanco']) else [])
     guideline='指南' in (p.get('doc_type') or '') or '共识' in (p.get('doc_type') or '')
@@ -186,7 +186,7 @@ def detail(p):
     contra='<section class="callout warn"><h2>论文内部矛盾</h2><ul>'+''.join(f'<li>{E_(x)}</li>' for x in ic)+'</ul></section>' if ic else ''
     body=head+one+ev+appraisal_html(p)+bilingual_html(p)+f'<section class="card"><h2>{"指南信息" if guideline else "研究卡片"}（结构化数据）</h2><table class="kv">{rows}</table></section>'+gsec+errata_html(er)+contra
     if p.get('detail') and os.path.exists(os.path.join(ROOT,'content',p['detail'])):
-        note=f'<p class="callout">以下为 deep extract 速读页（阅读深度：{E_(p["verified_label"])}{"；来源 "+E_(p["reading_source"]) if p.get("reading_source") else ""}）。</p>'
+        note=f'<p class="callout">以下为速读页（阅读深度：{E_(p["verified_label"])}{"；来源 "+E_(p["reading_source"]) if p.get("reading_source") else ""}）。</p>'
         body+='<article class="prose">'+note+md(strip_legacy_grades(open(os.path.join(ROOT,'content',p['detail']),encoding='utf-8').read()))+'</article>'
     else:
         body+='<p class="callout">深度速读页尚未完成（仅书目与分级数据）。请以原文为准。</p>'
@@ -215,7 +215,7 @@ def weekly(ps,r=''):
         a=tsort(tp,'new')[0]; b_=tsort(tp,'imp')[0]
         pick=[a]+([b_] if b_ is not a else [])
         out+=f'<li><a href="{r}topics/{t["id"]}/index.html"><strong>{E_(t["name_zh"])}</strong></a>：'+'；'.join(f'{"最新" if q is a else "证据最高"} <a href="{r}papers/{q["id"]}/index.html">{E_(q.get("first_author",""))} {q["year"]}</a>（CEBM {E_(q["cebm_display"])}）' for q in pick)+'</li>'
-    return f'<section class="card"><h2>本周专题推荐（{datetime.date.today().isocalendar()[0]} 第 {datetime.date.today().isocalendar()[1]} 周）</h2><p class="small muted">每个专题取最新 1 篇 + CEBM 等级最高 1 篇。</p><ul>{out}</ul><p><a href="{r}topics/index.html">全部专题 →</a></p></section>' if out else ''
+    return f'<section class="card"><h2>专题推荐</h2><ul>{out}</ul><p><a href="{r}topics/index.html">全部专题 →</a></p></section>' if out else ''
 def plist(ps,r='../../'):
     return '<ol class="list">'+''.join(f'<li><a class="t" lang="en" href="{r}papers/{p["id"]}/index.html">{E_(p["title"])}</a><div class="s">{E_(p.get("first_author",""))} · {E_(p["date"])} · {E_("/".join(p["species"]))} · <span class="pill ev">CEBM {E_(p["cebm_display"])}</span> <span class="pill">{E_(p["verified_label"])}</span>{" <span class=\"pill pend\">待速读 · 待评</span>" if p.get("status")=="待速读" else ""}</div></li>' for p in ps)+'</ol>'
 def fresh_html(fs,r='../../',h='h2'):
@@ -242,7 +242,7 @@ def topics_index(ps):
 def rules():
     return page('证据评价方法',md(open(os.path.join(ROOT,'content','_rules.md'),encoding='utf-8').read()),1)
 def about():
-    return page('方法与声明',md(open(os.path.join(ROOT,'content','_about.md'),encoding='utf-8').read()).replace('<p><strong>VetLit 的文献提取','<p id="contributors"><strong>VetLit 的文献提取',1),1)
+    return page('方法与声明',md(open(os.path.join(ROOT,'content','_about.md'),encoding='utf-8').read()),1)
 def rss(ps):
     items=sorted(ps,key=lambda p:p['date'],reverse=True)[:50]
     it=''.join(f'''<item><title>{E_(p['title'])}</title><link>{SITE_URL}/papers/{p['id']}/index.html</link><guid>{SITE_URL}/papers/{p['id']}/</guid><description>{E_(f"{p.get('journal','')} {p['date']} · {p.get('doc_type','')} · CEBM 2011：{p['cebm_display']}")}</description></item>''' for p in items)

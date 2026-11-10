@@ -53,7 +53,7 @@ def related_block(pmid,link):
         li+=f'<li><a href="{E_(href)}">{E_(t)}</a><span class="m">{E_(meta)}{(" · "+E_(why)) if why else ""}</span></li>'
     if not li: return ''
     note=(REL.get('rule') if isinstance(REL,dict) else '') or '同专题、共同引用与关键词；外部条目来自 OpenAlex related_works，仅犬猫。'
-    return f'<section class="blk"><h2 class="sec"><span>+</span> 相关阅读</h2><ul class="rows">{li}</ul><p class="note">{E_(note)}</p></section>'
+    return f'<section class="blk"><h2 class="sec"><span>+</span> 相关阅读</h2><ul class="rows">{li}</ul></section>'
 def rule_text():
     return (TOP.get('rule') or TOP.get('rule_text') or '') if TOP else ''
 def top_block(get,card):
@@ -81,7 +81,6 @@ def top_block(get,card):
     if not out: return ''
     return f'<section><h2 class="sec"><span>00</span> 最新 / 最重要</h2>'+out+'</section>'
 def bilingual_page(p,t,page):
-    CA3='../'*3+('about/' if os.environ.get('VETLIT_LIVE')=='1' else '../about/')+'index.html#contributors'
     paras=t.get('paragraphs') or t.get('segments') or []
     rows=''; sec=None
     for x in paras:
@@ -101,6 +100,6 @@ def bilingual_page(p,t,page):
     doi=p.get('doi')
     body=f'''<p class="crumb"><a href="../">← 返回速读</a></p><h1 class="ct">中英对照</h1><p class="en" lang="en">{E_(p.get("title",""))}</p>
 <p class="note">原文：{E_(attr)}{f' · <a href="https://doi.org/{E_(doi)}">DOI</a>' if doi else ''} · 许可：{E_(str(lic).upper())}（本译文为改编作品，按同一署名要求发布）{(" · 翻译范围："+E_(scope)) if scope else ""}</p>
-<p class="note tag2">译文：<a href="{CA3}">VetLit 翻译流程</a>（全文翻译 + 数字与单位逐项校验，原文矛盾处加译注；尚无第二译者审校）。如有出入，以英文原文为准。</p>{(f'<p class="warn" style="background:#fff4d6;border-left:4px solid #e0a100;padding:.5em .8em;margin:.4em 0;color:#5a4300">{E_(p["warn_bilingual"])}</p>') if p.get('warn_bilingual') else ''}
+<p class="note tag2">如有出入，以英文原文为准。</p>{(f'<p class="warn" style="background:#fff4d6;border-left:4px solid #e0a100;padding:.5em .8em;margin:.4em 0;color:#5a4300">{E_(p["warn_bilingual"])}</p>') if p.get('warn_bilingual') else ''}
 <div class="tw"><table class="bi"><thead><tr><th>English（原文）</th><th>中文（译文）</th></tr></thead><tbody>{rows}</tbody></table></div>'''
     return page('中英对照 · '+(p.get('first_author') or ''),body,3)

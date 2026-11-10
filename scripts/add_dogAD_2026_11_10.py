@@ -41,24 +41,26 @@ GUIDES={'42805756','26260508'}; REASON_PM='42805756'; REASON='取代 2010 版和
 assert PR[REASON_PM]['pick_reason_zh']==REASON
 assert all(not (PR[p] or {}).get('pick_reason_zh') for p in NEW if p!=REASON_PM)
 assert CE['40470278']['level']=='3' and CE['30115047']['level']=='不适用（核心结局集）'
-assert CE['16412115']['level']=='待全文核实' and CE['20187911']['level']=='待全文核实'
+assert CE['16412115']['level']=='待全文核实' and CE['20187911']['level']=='4'   # 20187911: CEBM 4 (Vibe 2026-11-09, full text)
 assert CM['42007020']['design_zh']=='知识摘要（二次文献）'
-# 36940185 (deep extract update): label 系统评价（待核实）, CEBM 待全文核实; enforce if the file still says otherwise
-OVR={}
-if CM['36940185']['design_zh']!='系统评价（待核实）': OVR['design_zh']=(CM['36940185']['design_zh'],'系统评价（待核实）'); CM['36940185']['design_zh']='系统评价（待核实）'
-if CE['36940185']['level']!='待全文核实': OVR['level']=(CE['36940185']['level'],'待全文核实'); CE['36940185']['level']='待全文核实'
-if OVR: print('OVERRIDE 36940185',OVR)
+# 36940185: full text verified as a narrative review (deep extract RoB round 1, Vibe 2026-11-09, R-na-review) -> CEBM 不适用;
+# supersedes the interim 待全文核实. Rank slot stays 叙述性综述. Card label is taken from the file as is.
+assert CE['36940185']['level']=='不适用' and CE['36940185'].get('card_display')=='不适用（叙述性综述）'
 seed=L(os.path.join(V,'seed_library_v6.json'))
 assert not any(r.get('pmid') in ('20456716','26276051') for r in seed)   # superseded guidelines not in library -> no wiring
 byp={r.get('pmid'):i for i,r in enumerate(seed)}
 DC={'指南/共识':'指南/共识','系统综述/Meta分析':'系统综述/Meta分析','随机对照试验':'随机对照试验','横断面研究':'横断面研究'}
 LABEL_DC={'36940185':'系统评价（待核实）','42007020':'知识摘要（二次文献）','30115047':'核心结局集共识'}
-def rob_tool(pm,cs):
-    for t in ('RoB 2','AMSTAR 2','ROBIS','QUADAS-2'):
+_CS=L(os.path.join(S,'certainty.json'))['papers']
+def rob_tool(pm,cs):   # study-level tool only; review-quality tools (AMSTAR 2 / ROBIS) go to review_rob_* (certainty.json)
+    t=str((_CS.get(pm) or {}).get('rob_tool') or '').strip()
+    if t: return t
+    for t in ('RoB 2','QUADAS-2'):
         if t in cs: return t
     return 'AGREE II' if pm in GUIDES else ''
 def lvl(pm):
     l=CE[pm]['level']
+    if l=='不适用' and CE[pm].get('card_display'): l=CE[pm]['card_display']
     return '不适用（指南/共识，OCEBM 不分级）' if pm in GUIDES else l
 for pm in NEW:
     s=SR[pm]; m=CM[pm]; c=CE[pm]; d=TD[pm]; ti,fa,pd,rt=BIB[pm]; g=pm in GUIDES; absonly=TS[pm]=='abstract'
@@ -79,6 +81,9 @@ for pm in NEW:
       'population_type':'na' if (g or rt in ('系统综述/Meta分析','叙述性综述')) else 'natural','population_type_note':'',
       'rob_tool_note':'指南' if g else '','text_source_force':'摘要' if absonly else '全文'}
     if absonly: rec['basis_label']='仅基于摘要'
+    _r=_CS.get(pm) or {}
+    if _r.get('rob_tool') and _r.get('rob_overall'):   # study-level RoB done (Vibe-reviewed): show the result in 偏倚风险
+        rec['rob_judgement']=_r['rob_overall']; rec['appraisal_note']=f"{_r['rob_tool']} 总体：{_r['rob_overall']}"
     if pm in byp: seed[byp[pm]]=rec
     else: seed.append(rec)
 # 42805756: guideline strength wording follows its certainty entry. Funding/COI comes from the speedread file
@@ -97,12 +102,16 @@ for pm in NEW:
         t=rob_tool(pm,SR[pm].get('confidence_sentence') or '')
         ce['papers'][pm]={'rules_applied':['R-no-RoB-pending'],'question_type':CE[pm].get('question'),'question_basis':f'extracts/cebm_{TAG}.json','start':None,'start_basis':'','downgrades':[],'provisional':None,
           'certainty':'待评定','notes_zh':'未做偏倚风险评估','pending_reason_zh':f'尚未做偏倚风险评估（{t}）' if t else '尚未做偏倚风险评估'}
-# 2026-11-09 follow-up: take ONLY these three entries from deep extract's certainty.json (nothing else)
+# 2026-11-09 (RoB round 1, Vibe-reviewed): take deep extract's certainty entries for the 14 papers ONLY (never the whole file).
+# Review-quality tools (AMSTAR 2 / ROBIS) live in review_rob_*, never in rob_*.
 _src=L(os.path.join(S,'certainty.json'))['papers']
 assert _src['30115047']['certainty']=='不适用' and 'R-na-nonclinical' in _src['30115047']['rules_applied']
 assert _src['42805756']['certainty'] is None and 'SORT' in _src['42805756']['guideline_strength']
 assert _src['26260508']['guideline_strength']=='该指南未分级'
-for _k in ('30115047','42805756','26260508'): ce['papers'][_k]=_src[_k]
+for _k in NEW:
+    assert _k in _src, _k
+    assert not any(x in str(_src[_k].get('rob_tool') or '') for x in ('AMSTAR','ROBIS')), _k
+    ce['papers'][_k]=_src[_k]
 W(os.path.join(V,'certainty.json'),ce)
 ts=L(os.path.join(X,'text_source.json')); ts.update({p:TS[p] for p in NEW}); W(os.path.join(X,'text_source.json'),ts)
 # ranking (single site rule)

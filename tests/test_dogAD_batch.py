@@ -4,6 +4,7 @@ REPO=os.path.join(os.path.dirname(os.path.abspath(__file__)),'..'); sys.path.ins
 os.environ.setdefault('VETLIT_LIVE','1')
 import build_preview as B
 NEW=['42805756','26260508','20187910','16412115','36940185','40470278','42007020','24581322','25496303','27647569','28906040','34180084','20187911','30115047']
+SRC=json.load(open('/workspace/vetlit/extracts/certainty.json',encoding='utf-8'))['papers']
 GUIDES={'42805756','26260508'}; REASON='取代 2010 版和 2015 版 ICADA 犬特应性皮炎治疗指南。'
 TOPIC,PARENT='canine_atopic_dermatitis','dermatology'
 H=lambda pm: open(f'dist/papers/pmid-{pm}/index.html',encoding='utf-8').read()
@@ -18,12 +19,19 @@ for pm in NEW:
     for bad in ('Vibe','deep extract','裁定','OpenAlex','年均'): assert bad not in h, (pm,bad)
     if pm in GUIDES: assert B.CERT[pm]['certainty'] is None
     elif pm=='30115047': assert B.CERT[pm]['certainty']=='不适用' and 'R-na-nonclinical' in B.CERT[pm]['rules_applied'] and '不分级' in top, pm
-    else: assert B.CERT[pm]['certainty']=='待评定' and '证据确定性待评定' in fold, pm
+    else: assert B.CERT[pm]==SRC[pm], pm
+    if B.CERT[pm].get('certainty')=='待评定': assert '证据确定性待评定' in fold, pm
+    assert not any(x in str(B.CERT[pm].get('rob_tool') or '') for x in ('AMSTAR','ROBIS')), pm
     assert (B.pick_reason(p,TOPIC,'最重要')==REASON)==(pm=='42805756'), pm
 lv=lambda pm: re.search(r'Oxford CEBM 2011</th><td>([^<]*)',H(pm)).group(1)
 assert lv('40470278')=='3' and lv('30115047')=='不适用（核心结局集）'
-for pm in ('16412115','20187911','36940185'): assert lv(pm)=='待全文核实', pm
-assert '知识摘要（二次文献）' in B.cmeta(B.get('42007020')) and '系统评价（待核实）' in B.cmeta(B.get('36940185'))
+assert lv('16412115')=='待全文核实' and lv('20187911')=='4' and lv('36940185')=='不适用（叙述性综述）'
+assert '知识摘要（二次文献）' in B.cmeta(B.get('42007020')) and '叙述性综述' in B.cmeta(B.get('36940185'))
+# RoB round 1 (Vibe-reviewed): review-quality row for 40470278 (ROBIS), study-level RoB result shown in 偏倚风险
+h=H('40470278'); assert '<tr><th>综述偏倚风险（ROBIS）</th><td>高</td></tr>' in h.split('id="evidence"',1)[1] and '综述偏倚风险' not in h.split('id="evidence"',1)[0]
+assert 'RoB 2 总体：一些担忧' in H('24581322')
+# 28906040: non-inferiority test value and margin
+assert '0.3%' in H('28906040') and '15% 界值' in H('28906040')
 # 20456716 / 26276051 not in library -> no supersession wiring, no 已有更新版 links
 assert not B.get('20456716') and not B.get('26276051') and '20456716' not in B.SUPER and '26276051' not in B.SUPER
 assert '已有更新版' not in H('42805756')

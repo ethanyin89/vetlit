@@ -1384,36 +1384,39 @@
   "36940185": {
    "year": "2023",
    "journal": "J Am Vet Med Assoc",
-   "design_zh": "系统评价（待核实）",
+   "design_zh": "叙述性综述",
    "species_zh": "犬和猫",
    "n": null,
    "n_label_zh": null,
    "n_quote": null,
    "n_source": null,
-   "n_status": "摘要未写纳入研究数；全文未取得（AVMA 页面为 JS 挑战页）",
+   "n_status": "不适用（叙述性综述，未报告纳入研究数）",
    "flags": [
-    "仅摘要",
-    "设计类型待全文核实"
+    "标题称系统评价，全文核实为叙述性综述",
+    "无检索策略、纳入标准、纳入研究数和筛选流程",
+    "单作者，与多家企业有利益关系"
    ],
    "design_evidence": {
-    "check": "PRISMA 基本要素：检索数据库/检索式、纳入标准、纳入研究数",
-    "result": "摘要未报告；摘要未写不代表全文没有。全文未取得（AVMA HTML/PDF 均 403 或 JS 挑战页），待全文核实",
-    "quote": "This article reviews the published knowledge about allergen immunotherapy in dogs and cats for small animal practitioners.",
-    "quote_file": "ft/dogad/36940185_abs.txt",
-    "title_quote": "A systematic review of allergen immunotherapy, a successful therapy for canine atopic dermatitis and feline atopic skin syndrome.",
+    "check": "PRISMA 基本要素：检索数据库/检索式、纳入标准、纳入研究数、筛选流程图",
+    "result": "全文均未报告：无方法部分（章节为引言、治疗选择的实际考虑、过敏原选择、诱导、维持、长期管理、合并对症治疗、结论），无检索数据库/检索式、纳入标准、纳入研究数；图 1 为临床决策流程图，不是 PRISMA 筛选流程图。原文自述目的为给临床医生的概要 → 叙述性综述，不符合系统评价",
+    "quote": "The aim of this review is to provide the clinician with a summary of allergen immunotherapy in small animal practice.",
+    "quote_file": "extracts/ft/dogad/36940185_fulltext.txt",
+    "headings_quote": "Headings Abstract Introduction Practical Considerations for Treatment Selection Allergen Selection Immunotherapy Induction Maintenance Therapy Long-term Management, Outlook, and Prognosis Concurrent Symptomatic Therapy Conclusion Acknowledgments",
+    "figure_quote": "Flow diagram with images that depicts the practical considerations for initiating allergen immunotherapy in patients with canine atopic dermatitis or feline allergic skin syndrome.",
+    "title_quote": "A systematic review of allergen immunotherapy, a successful therapy for canine atopic dermatitis and feline atopic skin syndrome",
     "pubmed_pubtype": [
      "Systematic Review",
      "Journal Article"
     ],
     "supporting_quote": "Readers are referred to detailed reviews for comprehensive discussion of AIT protocols and factors influencing treatment outcomes [84, 94].",
     "supporting_quote_file": "ft/dogad/42805756_excerpt.txt",
-    "supporting_note": "42805756 参考文献 [94]=36940185（Crossref）；不足以判定设计类型",
-    "ruling": "Vibe 2026-11-09 更正：待全文核实"
+    "supporting_note": "42805756 参考文献 [94]=36940185（Crossref），作为“详细综述”引用",
+    "ruling": "Vibe 2026-11-09：全文核实为叙述性综述，R-na-review，证据确定性不适用"
    },
    "same_cohort_as": [],
-   "cebm_level": "待全文核实",
-   "cebm_card_display": "待全文核实",
-   "cebm_status": "待全文核实"
+   "cebm_level": "不适用",
+   "cebm_card_display": "不适用（叙述性综述）",
+   "cebm_status": "终定"
   },
   "40470278": {
    "year": "2025",
@@ -1492,10 +1495,9 @@
    "n_label_zh": "211 只",
    "n_quote": "Clinicians at 15 referral clinics enrolled 211 client owned dogs with a history of chronic AD.",
    "n_source": "PubMed 摘要（ft/dogad）/27647569_abs.txt",
-   "n_status": "摘要原句；全文未取得（Wiley 403）",
+   "n_status": "摘要原句；全文（出版社版 PDF 公开镜像）已取得",
    "flags": [
-    "仅摘要",
-    "厂商相关：作者单位均为 Zoetis"
+    "厂商资助：Zoetis，作者均为 Zoetis 雇员"
    ],
    "same_cohort_as": [],
    "cebm_level": "2",
@@ -1510,11 +1512,11 @@
    "n_label_zh": "274 只",
    "n_quote": "Dogs with chronic AD (n = 274) were enrolled from 40 practices in Belgium, The Netherlands, France and Germany.",
    "n_source": "PubMed 摘要（ft/dogad）/28906040_abs.txt",
-   "n_status": "摘要原句；全文未取得（Wiley 403）",
+   "n_status": "摘要原句；全文（出版社版 PDF 公开镜像）已取得",
    "n_detail_zh": "比较期 lokivetmab 142 只；延续期 81 只",
    "flags": [
-    "仅摘要",
-    "厂商相关：作者单位均为 Zoetis"
+    "厂商资助：Zoetis，作者均为 Zoetis 雇员",
+    "未报告 ITT/全分析集，未给组间差值置信区间"
    ],
    "same_cohort_as": [],
    "cebm_level": "2",
@@ -1547,19 +1549,22 @@
    "journal": "Vet Dermatol",
    "design_zh": "前瞻性多中心诊断标准研究（横断面诊断准确性；模拟退火筛选标准）",
    "species_zh": "犬",
-   "n": null,
-   "n_label_zh": null,
-   "n_quote": null,
-   "n_source": null,
-   "n_status": "摘要未写 n；全文未取得（Wiley 403）",
+   "n": 1096,
+   "n_label_zh": "1096 只",
+   "n_quote": "Four hundred and forty-eight cases with an inaccurate diagnosis and/or more than two diagnoses were excluded from the studies and thus, 1096 were taken into account for the final analysis (Table 2), with 843 in the CAD group and 253 in the non-CAD conditions",
+   "n_source": "全文 extracts/ft/dogad/20187911_avve.txt",
+   "n_status": "全文原句",
    "flags": [
-    "仅摘要",
-    "二手引用数值（26260508 表 4）与本文摘要不一致，卡片只用本文自报数字，待全文核"
+    "厂商资助：Novartis，两位作者为 Novartis 雇员",
+    "标准在同一数据上建立和评估，无独立验证",
+    "排除 29% 诊断不明确病例",
+    "二手引用数值（26260508 表 4）与本文摘要不一致，卡片只用本文自报数字"
    ],
+   "n_detail_zh": "收集 1542 只，排除 448 只（29%）后分析 1096 只",
    "same_cohort_as": [],
-   "cebm_level": "待全文核实",
-   "cebm_card_display": "待全文核实",
-   "cebm_status": "待全文核实"
+   "cebm_level": "4",
+   "cebm_card_display": "CEBM 4 级",
+   "cebm_status": "终定"
   },
   "30115047": {
    "year": "2018",
