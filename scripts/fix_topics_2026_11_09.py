@@ -18,6 +18,7 @@ W(f,seed)
 for k in DROP:
     f=os.path.join(R,'data','papers',f'pmid-{k}.json'); d=L(f)
     d['topics']=[t for t in d['topics'] if t not in DROP[k]]; assert KEEP[k]<=set(d['topics']), k
+    if k=='31554584' and d.get('grade_certainty_topic','').startswith('CKD 主题'): d['grade_certainty_topic']=''   # leftover from the wrong ckd tag
     open(f,'w',encoding='utf-8').write(json.dumps(d,ensure_ascii=False,indent=2)+ENDNL)
 f=os.path.join(V,'topics_pages.json'); tp=L(f)
 for t in tp['topics']:

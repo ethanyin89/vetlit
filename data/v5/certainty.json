@@ -9,7 +9,7 @@
   "v3": "benchmark/work/certainty_v3.json",
   "rules_v4_amend_2026-11-04": "ROBINS-I 总体映射（GRADE，Vibe 裁定 2026-11-04）：Serious 降 1 级，Critical 降 2 级（至极低为止）；JBI 清单不设阈值，总体判断由评审人作出并写明理由；病例报告/病例系列用 JBI 病例系列清单，不用 ROBINS-I；卡片确定性按一句话结论所述结局，多个结局取最低（GRADE 按结局评级）。",
   "rules_v4_amend_2026-11-09": "RoB 2 “一些担忧”（GRADE/Cochrane Handbook，Vibe 裁定 2026-11-09）：担忧领域会影响主要结局时降一级，并写明理由；否则不降。预后研究的偏倚风险工具用 QUIPS（Cochrane 预后综述），患病率部分仍用 JBI 患病率清单。",
-  "rules_v4_amend_2026-11-09_indirectness": "R-down-indirectness-population（Vibe 裁定 2026-11-09）：研究人群比专题问题宽时，降一级。",
+  "rules_v4_amend_2026-11-09_indirectness": "R-down-indirectness-population：研究人群比专题问题宽时，降一级。",
   "rules_v4_amend_2026-11-09_dogAD": {
    "R-VF-bias-toward-null": "偏倚朝向无效不降级：只在退出原因是无效、且用药组退出明显少于对照组时适用；各组都大量缺失时照常降级。",
    "R-VF-noninferiority-ITT-CI": "非劣效试验：每项结局分开判定，看组间差值（或检验值）是否落在界值内；写出界值，不算 NNT。",

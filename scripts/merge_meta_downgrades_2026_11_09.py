@@ -16,7 +16,7 @@ used={x for r in ce['papers'].values() if isinstance(r,dict) for x in (r.get('ru
 assert set(RULES)<=used, set(RULES)-used
 ce['_meta'].setdefault('rules_v4_amend_2026-11-09_dogAD',RULES)
 assert ce['_meta']['rules_v4_amend_2026-11-09_dogAD']==RULES
-IND='R-down-indirectness-population（Vibe 裁定 2026-11-09）：研究人群比专题问题宽时，降一级。'
+IND='R-down-indirectness-population：研究人群比专题问题宽时，降一级。'   # no reviewer names in rule text
 assert ce['_meta']['rules_v4_amend_2026-11-09_indirectness'].startswith('R-down-indirectness-population')
 ce['_meta']['rules_v4_amend_2026-11-09_indirectness']=IND
 ce['_meta']['downgrades_schema']=src['_meta']['downgrades_schema']
