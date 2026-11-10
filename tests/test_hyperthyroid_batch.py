@@ -32,19 +32,25 @@ assert '42800045' in H('39724773') and '39724773' in H('42800045')   # shared Pe
 # not a supersession; AAFP 2016 stays current
 assert '37167252' not in B.SUPER and '27143042' not in B.SUPER and not B.sup_info(B.get('27143042'))
 assert '已有更新版' not in H('27143042')
-# lists
-imp=B.tops('hyperthyroidism'); new=B.newest3(B.tpapers(t),imp)
-assert [p['pmid'] for p in imp]==['27143042','37167252','25673019'], [p['pmid'] for p in imp]
-assert [p['pmid'] for p in new]==['42800045','40559809','39831449'], [p['pmid'] for p in new]
-s=open('dist/topics/hyperthyroidism/index.html',encoding='utf-8').read()
-a,b=s.split('<h4 class="tb">最新</h4>',1)
+# lists — single site rule (type > superseded last > 2021+ first > OpenAlex cites/yr); Vibe option (a) 2026-11-09
+def L2(tid):
+    imp=B.tops(tid); return [p['pmid'] for p in imp],[p['pmid'] for p in B.newest3(B.tpapers(B.TBY[tid]),imp)]
+assert L2('hyperthyroidism')==(['37167252','27143042','31998612'],['42800045','40559809','39831449']), L2('hyperthyroidism')
+assert L2('endocrinology')==(['37167252','41224734','42014100'],['42800045','40941356','40559809']), L2('endocrinology')
 ids=lambda x: list(dict.fromkeys(re.findall(r'papers/pmid-(\d+)/"',x)))
-assert ids(a.split('<h4 class="tb">最重要</h4>')[-1])==['27143042','37167252','25673019']
-assert ids(b.split('<h2',1)[0])==['42800045','40559809','39831449']
-assert 'class="why"' not in s and '15 篇已速读文献' in s
-# ranking pool order in top_picks (manual; team decision)
-g=next(x for x in B.X.TOP['topics'] if x['topic']=='hyperthyroidism')
-order=[str(i['pmid']) for i in g['items']]
-assert order[:3]==['27143042','37167252','25673019'] and sorted(order[3:])==sorted(set(NEW)-{'37167252'}), order
-assert all(not i.get('reason') for i in g['items'] if str(i['pmid']) in NEW)
+for tid,(I,N) in (('hyperthyroidism',L2('hyperthyroidism')),('endocrinology',L2('endocrinology'))):
+    s=open(f'dist/topics/{tid}/index.html',encoding='utf-8').read()
+    a,b=s.split('<h4 class="tb">最新</h4>',1)
+    assert ids(a.split('<h4 class="tb">最重要</h4>')[-1])==I and ids(b.split('<h2',1)[0])==N, tid
+    assert 'OpenAlex' not in s and '年均' not in s and '排序' not in s, tid
+    for c in re.findall(r'<article class="card">.*?</article>',s,re.S):
+        if any(f'pmid-{p}/' in c for p in NEW): assert 'class="why"' not in c, (tid,c[:120])
+for pm in NEW: assert set(B.get(pm)['topics'])=={'endocrinology','hyperthyroidism'}, pm
+# 42004674: card label 知识摘要（二次文献）; rank slot = narrative review (top_picks item only, never shown)
+assert '知识摘要（二次文献）' in B.cmeta(B.get('42004674')) and '叙述性综述' not in H('42004674')
+for tid in ('hyperthyroidism','endocrinology'):
+    g=next(x for x in B.X.TOP['topics'] if x['topic']==tid)
+    it={str(i['pmid']):i for i in g['items']}
+    assert it['42004674']['design']=='叙述性综述' and [str(i['pmid']) for i in g['items']][-1]=='42004674', tid
+    assert all(not it[p].get('reason') for p in NEW), tid
 print('hyperthyroid batch tests OK')

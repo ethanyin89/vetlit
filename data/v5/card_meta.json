@@ -1158,7 +1158,7 @@
   "42004674": {
    "year": "2022",
    "journal": "Vet Evid",
-   "design_zh": "知识摘要（结构化证据评述，非正式系统评价）",
+   "design_zh": "知识摘要（二次文献）",
    "species_zh": "猫",
    "n": 35,
    "n_label_zh": "35 篇",
@@ -1176,7 +1176,10 @@
    "n_quote": "This study included 1344 hyperthyroid cats successfully treated with 131 I.",
    "n_source": "全文 ft/hyper/PMC13615730.txt",
    "n_status": "全文原句",
-   "n_detail_zh": "与 39724773 同一队列（2013–2020 入组，Peterson 组）；原文称为 1400 只猫队列的一部分"
+   "n_detail_zh": "与 39724773 同一队列（2013–2020 入组，Peterson 组）；原文称为 1400 只猫队列的一部分",
+   "same_cohort_as": [
+    "39724773"
+   ]
   },
   "39831449": {
    "year": "2025",
@@ -1190,7 +1193,7 @@
    "n_status": "全文/摘要原句"
   },
   "39724773": {
-   "year": "2024",
+   "year": "2025",
    "journal": "J Am Vet Med Assoc",
    "design_zh": "队列（摘要未述前瞻或回顾）",
    "species_zh": "猫",
@@ -1199,7 +1202,11 @@
    "n_quote": "We treated 1,047 hyperthyroid cats with 131I from 2013 to 2020 to render them euthyroid",
    "n_source": "PubMed/Europe PMC 摘要（ft/hyper/39724773_abs.txt）",
    "n_status": "摘要原句；全文未取得",
-   "n_detail_zh": "与 42800045 同一队列"
+   "n_detail_zh": "与 42800045 同一队列",
+   "year_source": "PubMed esummary（PMID 39724773）与 Crossref（DOI 10.2460/javma.24.10.0653）：正式刊出 J Am Vet Med Assoc 2025 Apr 1;263(4):454-459；2024-12-26 为在线优先日期，卡片取正式刊出年（2026-11-09 核对）",
+   "same_cohort_as": [
+    "42800045"
+   ]
   },
   "16478432": {
    "year": "2006",

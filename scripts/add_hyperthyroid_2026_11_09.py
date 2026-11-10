@@ -93,19 +93,47 @@ for pm in NEW:
           'certainty':'待评定','notes_zh':'未做偏倚风险评估','pending_reason_zh':f'尚未做偏倚风险评估（{t}）' if t else '尚未做偏倚风险评估'}
 W(os.path.join(V,'certainty.json'),ce)
 ts=L(os.path.join(X,'text_source.json')); ts.update({p:TS[p] for p in NEW}); W(os.path.join(X,'text_source.json'),ts)
-# ---- topic pool + manual ranking (team decision): 27143042, then AAHA 2023, existing picks kept, then CEBM asc, newer first
-tpg=L(os.path.join(V,'topics_pages.json'))
-t=next(x for x in tpg['topics'] if x['id']==TOPIC)
+# ---- topic pools + ranking by the site's single rule (same as every other topic's top_picks; 排序规则):
+# ① study type (TYPES order) ② superseded guidelines last within their type ③ published 2021+ first
+# ④ OpenAlex citations per year = cites / (2026 - year + 1), high first. Existing papers keep their 2026-11-03 counts
+# (from top_picks reason); papers with none use extras/openalex_cites_2026-11-09.json. Ties: newer pub_date first.
+# 42004674 (Vet Evid knowledge summary) ranks in the narrative/non-systematic review slot (Vibe, 2026-11-09);
+# its card label stays 知识摘要（二次文献） (card_meta design_zh) — rank slot lives only in top_picks item 'design'.
+import re
+TYPES=['指南/共识','系统综述/Meta分析','随机对照试验','非随机对照试验','队列研究','病例对照研究','横断面研究','病例系列（无对照）','叙述性综述','实验/基础研究']
+RANK_TYPE={'42004674':'叙述性综述'}
+LABEL={'42004674':'知识摘要（二次文献）'}
+OA=L(os.path.join(X,'openalex_cites_2026-11-09.json'))
+TOPICS=('hyperthyroidism','endocrinology')
 for p in NEW:
-    if p not in t['all_ids']: t['all_ids'].append(p)
-t['n']=len(t['all_ids'])
+    r=next(x for x in seed if x['pmid']==p); r['topics']=['endocrinology','hyperthyroidism']
+    if p in LABEL: r['design_category']=LABEL[p]; CMp=cm['papers'][p]; CMp['design_zh']=LABEL[p]
+W(os.path.join(V,'seed_library_v6.json'),seed); W(os.path.join(V,'card_meta.json'),cm)
+SEED={str(r.get('pmid') or r['id']):r for r in seed}
+tpg=L(os.path.join(V,'topics_pages.json'))
+for t in tpg['topics']:
+    if t['id'] in TOPICS:
+        for p in NEW:
+            if p not in t['all_ids']: t['all_ids'].append(p)
+        t['n']=len(t['all_ids'])
 W(os.path.join(V,'topics_pages.json'),tpg)
-rest=sorted([p for p in NEW if p!=GUIDE],key=lambda p:(int(CE[p]['new_level']),[-int(x) for x in BIB[p][2].split('-')]))
-tp=L(os.path.join(X,'top_picks.json'))
-g=next(x for x in tp['topics'] if x['topic']==TOPIC)
-old=[i for i in g['items'] if str(i.get('pmid')) not in BIB]
-assert old and str(old[0]['pmid'])==ANCHOR, [i['pmid'] for i in old]
-new=lambda p:{'pmid':p,'reason':'','title':BIB[p][0],'year':CM[p]['year'],'design':CM[p]['design_zh']}
-g['items']=old[:1]+[new(GUIDE)]+old[1:]+[new(p) for p in rest]
+tp=L(os.path.join(X,'top_picks.json')); SUP=tp['supersessions']
+def cpy(i):
+    m=re.search(r'年均 ([\d.]+) 次',i.get('reason') or '')
+    if m: return float(m.group(1))
+    p=str(i['pmid']); assert p in OA, ('no citation count',p)
+    return OA[p]/(2026-int(i['year'])+1)
+def key(i):
+    p=str(i['pmid']); d=i.get('design'); assert d in TYPES,(p,d)
+    sup=bool(i.get('superseded_by') or SUP.get(p,{}).get('superseded_by'))
+    return (TYPES.index(d),sup,int(i['year'])<2021,-round(cpy(i),2),[-int(x) for x in (SEED[p].get('pub_date') or '0-0-0').split('-')])
+newi=lambda p:{'pmid':p,'reason':'','title':BIB[p][0],'year':CM[p]['year'],'design':RANK_TYPE.get(p,BIB[p][3])}
+ORDER={}
+for g in tp['topics']:
+    if g['topic'] not in TOPICS: continue
+    old=[i for i in g['items'] if str(i.get('pmid')) not in BIB]
+    g['items']=sorted(old+[newi(p) for p in NEW],key=key)
+    ORDER[g['topic']]=[str(i['pmid']) for i in g['items']]
 W(os.path.join(X,'top_picks.json'),tp)
-print('merged',NEW); print('order',[i['pmid'] for i in g['items']])
+print('merged',NEW)
+for k,v in ORDER.items(): print(k,v)

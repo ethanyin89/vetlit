@@ -5091,6 +5091,7 @@
   "grade_certainty_topic": "",
   "species_zh": "猫/犬",
   "topics": [
+   "endocrinology",
    "hyperthyroidism"
   ],
   "n_enrolled": "不适用",
@@ -5123,7 +5124,7 @@
   "pmcid": "PMC13082284",
   "source": "deep extract 速读（全文，2026-11-05；CEBM 2026-11-09 按 Vibe 裁定）；PMID 经 Vibe 在 PubMed 核实",
   "oa": "是",
-  "doc_type": "知识摘要（结构化证据评述，非正式系统评价）",
+  "doc_type": "知识摘要（二次文献）",
   "recommendation_basis": "不适用",
   "sample_size_analysed": "未核",
   "multicenter": "未核",
@@ -5145,6 +5146,7 @@
   "grade_certainty_topic": "",
   "species_zh": "猫",
   "topics": [
+   "endocrinology",
    "hyperthyroidism"
   ],
   "n_enrolled": "35 篇（纳入文献）",
@@ -5154,7 +5156,7 @@
   "fulltext_translation_allowed": false,
   "results": "",
   "design_category": "知识摘要（二次文献）",
-  "design_detail": "知识摘要（结构化证据评述，非正式系统评价）",
+  "design_detail": "知识摘要（二次文献）",
   "pub_date": "2022-10-01",
   "pub_date_source": "Europe PMC firstPublicationDate",
   "importance_sort_key": null,
@@ -5199,6 +5201,7 @@
   "grade_certainty_topic": "",
   "species_zh": "猫",
   "topics": [
+   "endocrinology",
    "hyperthyroidism"
   ],
   "n_enrolled": "1344 只",
@@ -5253,6 +5256,7 @@
   "grade_certainty_topic": "",
   "species_zh": "猫",
   "topics": [
+   "endocrinology",
    "hyperthyroidism"
   ],
   "n_enrolled": "117 只",
@@ -5278,7 +5282,7 @@
   "species": "cat",
   "title": "Hyperthyroid cats that develop azotemia following successful radioiodine treatment have shorter survival times compared to cats that remain nonazotemic.",
   "first_author": "Peterson ME",
-  "year": "2024",
+  "year": "2025",
   "journal": "J Am Vet Med Assoc",
   "doi": "10.2460/javma.24.10.0653",
   "pmid": "39724773",
@@ -5307,6 +5311,7 @@
   "grade_certainty_topic": "",
   "species_zh": "猫",
   "topics": [
+   "endocrinology",
    "hyperthyroidism"
   ],
   "n_enrolled": "1047 只",
@@ -5362,6 +5367,7 @@
   "grade_certainty_topic": "",
   "species_zh": "猫",
   "topics": [
+   "endocrinology",
    "hyperthyroidism"
   ],
   "n_enrolled": "167 只",
@@ -5418,6 +5424,7 @@
   "grade_certainty_topic": "",
   "species_zh": "猫",
   "topics": [
+   "endocrinology",
    "hyperthyroidism"
   ],
   "n_enrolled": "41 只",
@@ -5473,6 +5480,7 @@
   "grade_certainty_topic": "",
   "species_zh": "猫",
   "topics": [
+   "endocrinology",
    "hyperthyroidism"
   ],
   "n_enrolled": "34 只",
@@ -5528,6 +5536,7 @@
   "grade_certainty_topic": "",
   "species_zh": "猫",
   "topics": [
+   "endocrinology",
    "hyperthyroidism"
   ],
   "n_enrolled": "189 只",
@@ -5582,6 +5591,7 @@
   "grade_certainty_topic": "",
   "species_zh": "猫",
   "topics": [
+   "endocrinology",
    "hyperthyroidism"
   ],
   "n_enrolled": "80 只",
@@ -5637,6 +5647,7 @@
   "grade_certainty_topic": "",
   "species_zh": "猫",
   "topics": [
+   "endocrinology",
    "hyperthyroidism"
   ],
   "n_enrolled": "49 只",
@@ -5691,6 +5702,7 @@
   "grade_certainty_topic": "",
   "species_zh": "猫",
   "topics": [
+   "endocrinology",
    "hyperthyroidism"
   ],
   "n_enrolled": "198 只",
@@ -5745,6 +5757,7 @@
   "grade_certainty_topic": "",
   "species_zh": "猫",
   "topics": [
+   "endocrinology",
    "hyperthyroidism"
   ],
   "n_enrolled": "38 只",

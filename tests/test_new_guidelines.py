@@ -12,7 +12,8 @@ for pm,ts in NEW.items():
 assert B.is_full(B.SUPER['26936494']) and B.SUPER['26936494']['by']=='42693626'
 assert B.is_full(B.SUPER['25701862']) and B.SUPER['25701862']['by']=='41224734'
 s=B.SUPER['29314873']; assert s['by']=='42014100' and s['scope']=='cats_only' and not B.is_full(s)
-for t in ('diabetes','endocrinology'): assert 'pmid-29314873' in [q['sid'] for q in B.tops(t)], t
+for t in ('diabetes',): assert 'pmid-29314873' in [q['sid'] for q in B.tops(t)], t
+# endocrinology: 29314873 drops out of 最重要 after the 2026-11-09 re-rank (Vibe accepted)
 for t in ('ckd','nephrology','diabetes','endocrinology'):
     ids=[q['sid'] for q in B.tops(t)+B.newest3(B.tpapers(B.TBY[t]))]
     assert 'pmid-26936494' not in ids and 'pmid-25701862' not in ids, t

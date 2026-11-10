@@ -1,0 +1,6 @@
+{
+ "_meta": {"source": "OpenAlex works API (api.openalex.org/works/pmid:<PMID>, cited_by_count)", "fetched": "2026-11-09", "note": "Only papers that had no stored count (13 hyperthyroidism batch + 42014100, 41224734). All other papers keep the 2026-11-03 counts recorded in top_picks.json."},
+ "37167252": 60, "42004674": 2, "42800045": 0, "39831449": 1, "39724773": 4, "16478432": 91, "39019056": 1,
+ "31998612": 9, "28158908": 60, "20695989": 112, "26081922": 32, "34730466": 10, "40559809": 0,
+ "42014100": 5, "41224734": 15
+}

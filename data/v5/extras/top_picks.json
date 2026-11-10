@@ -253,10 +253,10 @@
    "topic_zh": "内分泌学",
    "items": [
     {
-     "pmid": "42014100",
+     "pmid": "37167252",
      "reason": "",
-     "title": "2026 AAHA Diabetes Management Guidelines for Cats.",
-     "year": "2026",
+     "title": "2023 AAHA Selected Endocrinopathies of Dogs and Cats Guidelines.",
+     "year": "2023",
      "design": "指南/共识"
     },
     {
@@ -264,6 +264,20 @@
      "reason": "",
      "title": "iCatCare 2025 consensus guidelines on the diagnosis and management of diabetes mellitus in cats.",
      "year": "2025",
+     "design": "指南/共识"
+    },
+    {
+     "pmid": "42014100",
+     "reason": "",
+     "title": "2026 AAHA Diabetes Management Guidelines for Cats.",
+     "year": "2026",
+     "design": "指南/共识"
+    },
+    {
+     "pmid": "27143042",
+     "reason": "指南/共识；2016 年发表；OpenAlex 被引 114 次，年均 10.36 次；本主题第 3 名",
+     "title": "2016 AAFP Guidelines for the Management of Feline Hyperthyroidism.",
+     "year": "2016",
      "design": "指南/共识"
     },
     {
@@ -292,11 +306,88 @@
      "rule_basis": "same_body_same_topic_previous"
     },
     {
-     "pmid": "27143042",
-     "reason": "指南/共识；2016 年发表；OpenAlex 被引 114 次，年均 10.36 次；本主题第 3 名",
-     "title": "2016 AAFP Guidelines for the Management of Feline Hyperthyroidism.",
-     "year": "2016",
-     "design": "指南/共识"
+     "pmid": "31998612",
+     "reason": "",
+     "title": "Iodine-restricted food versus pharmacological therapy in the management of feline hyperthyroidism: A controlled trial in 34 cats.",
+     "year": "2019",
+     "design": "非随机对照试验"
+    },
+    {
+     "pmid": "39724773",
+     "reason": "",
+     "title": "Hyperthyroid cats that develop azotemia following successful radioiodine treatment have shorter survival times compared to cats that remain nonazotemic.",
+     "year": "2025",
+     "design": "队列研究"
+    },
+    {
+     "pmid": "34730466",
+     "reason": "",
+     "title": "Radioactive iodine dose and survival in cats with hyperthyroidism (2015-2020).",
+     "year": "2022",
+     "design": "队列研究"
+    },
+    {
+     "pmid": "39831449",
+     "reason": "",
+     "title": "Survival of radioiodine treated hyperthyroid cats that are euthyroid and hypothyroid after treatment, and effect of levothyroxine supplementation on survival.",
+     "year": "2025",
+     "design": "队列研究"
+    },
+    {
+     "pmid": "39019056",
+     "reason": "",
+     "title": "Comparison of survival times of cats with hyperthyroidism treated with thyroidectomy or methimazole at a primary care hospital in Japan.",
+     "year": "2024",
+     "design": "队列研究"
+    },
+    {
+     "pmid": "42800045",
+     "reason": "",
+     "title": "Long-term thyroid outcomes and survival in hyperthyroid cats treated with radioiodine: association with overt and subclinical hypothyroidism and levothyroxine.",
+     "year": "2026",
+     "design": "队列研究"
+    },
+    {
+     "pmid": "40559809",
+     "reason": "",
+     "title": "Comparison of the Changes in Quality-of-Life of Cats with Hyperthyroidism Treated with Radioiodine or Antithyroid Drugs-A Preliminary Study.",
+     "year": "2025",
+     "design": "队列研究"
+    },
+    {
+     "pmid": "20695989",
+     "reason": "",
+     "title": "Association of iatrogenic hypothyroidism with azotemia and reduced survival time in cats treated for hyperthyroidism.",
+     "year": "2010",
+     "design": "队列研究"
+    },
+    {
+     "pmid": "28158908",
+     "reason": "",
+     "title": "Efficacy of Low-dose (2 millicurie) versus Standard-dose (4 millicurie) Radioiodine Treatment for Cats with Mild-to-Moderate Hyperthyroidism.",
+     "year": "2017",
+     "design": "队列研究"
+    },
+    {
+     "pmid": "16478432",
+     "reason": "",
+     "title": "Survival times for cats with hyperthyroidism treated with iodine 131, methimazole, or both: 167 cases (1996-2003).",
+     "year": "2006",
+     "design": "队列研究"
+    },
+    {
+     "pmid": "26081922",
+     "reason": "",
+     "title": "Effect of Feeding an Iodine-Restricted Diet in Cats with Spontaneous Hyperthyroidism.",
+     "year": "2015",
+     "design": "病例系列（无对照）"
+    },
+    {
+     "pmid": "42004674",
+     "reason": "",
+     "title": "In clinically hyperthyroid cats, is I-131 treatment superior to thyroidectomy in normalising serum T4 level?",
+     "year": "2022",
+     "design": "叙述性综述"
     }
    ]
   },
@@ -404,6 +495,13 @@
    "topic_zh": "甲状腺功能亢进",
    "items": [
     {
+     "pmid": "37167252",
+     "reason": "",
+     "title": "2023 AAHA Selected Endocrinopathies of Dogs and Cats Guidelines.",
+     "year": "2023",
+     "design": "指南/共识"
+    },
+    {
      "pmid": "27143042",
      "reason": "指南/共识；2016 年发表；OpenAlex 被引 114 次，年均 10.36 次；本主题第 1 名",
      "title": "2016 AAFP Guidelines for the Management of Feline Hyperthyroidism.",
@@ -411,11 +509,74 @@
      "design": "指南/共识"
     },
     {
-     "pmid": "37167252",
+     "pmid": "31998612",
      "reason": "",
-     "title": "2023 AAHA Selected Endocrinopathies of Dogs and Cats Guidelines.",
-     "year": "2023",
-     "design": "指南/共识"
+     "title": "Iodine-restricted food versus pharmacological therapy in the management of feline hyperthyroidism: A controlled trial in 34 cats.",
+     "year": "2019",
+     "design": "非随机对照试验"
+    },
+    {
+     "pmid": "39724773",
+     "reason": "",
+     "title": "Hyperthyroid cats that develop azotemia following successful radioiodine treatment have shorter survival times compared to cats that remain nonazotemic.",
+     "year": "2025",
+     "design": "队列研究"
+    },
+    {
+     "pmid": "34730466",
+     "reason": "",
+     "title": "Radioactive iodine dose and survival in cats with hyperthyroidism (2015-2020).",
+     "year": "2022",
+     "design": "队列研究"
+    },
+    {
+     "pmid": "39831449",
+     "reason": "",
+     "title": "Survival of radioiodine treated hyperthyroid cats that are euthyroid and hypothyroid after treatment, and effect of levothyroxine supplementation on survival.",
+     "year": "2025",
+     "design": "队列研究"
+    },
+    {
+     "pmid": "39019056",
+     "reason": "",
+     "title": "Comparison of survival times of cats with hyperthyroidism treated with thyroidectomy or methimazole at a primary care hospital in Japan.",
+     "year": "2024",
+     "design": "队列研究"
+    },
+    {
+     "pmid": "42800045",
+     "reason": "",
+     "title": "Long-term thyroid outcomes and survival in hyperthyroid cats treated with radioiodine: association with overt and subclinical hypothyroidism and levothyroxine.",
+     "year": "2026",
+     "design": "队列研究"
+    },
+    {
+     "pmid": "40559809",
+     "reason": "",
+     "title": "Comparison of the Changes in Quality-of-Life of Cats with Hyperthyroidism Treated with Radioiodine or Antithyroid Drugs-A Preliminary Study.",
+     "year": "2025",
+     "design": "队列研究"
+    },
+    {
+     "pmid": "20695989",
+     "reason": "",
+     "title": "Association of iatrogenic hypothyroidism with azotemia and reduced survival time in cats treated for hyperthyroidism.",
+     "year": "2010",
+     "design": "队列研究"
+    },
+    {
+     "pmid": "28158908",
+     "reason": "",
+     "title": "Efficacy of Low-dose (2 millicurie) versus Standard-dose (4 millicurie) Radioiodine Treatment for Cats with Mild-to-Moderate Hyperthyroidism.",
+     "year": "2017",
+     "design": "队列研究"
+    },
+    {
+     "pmid": "16478432",
+     "reason": "",
+     "title": "Survival times for cats with hyperthyroidism treated with iodine 131, methimazole, or both: 167 cases (1996-2003).",
+     "year": "2006",
+     "design": "队列研究"
     },
     {
      "pmid": "25673019",
@@ -425,88 +586,18 @@
      "design": "病例系列（无对照）"
     },
     {
-     "pmid": "42800045",
+     "pmid": "26081922",
      "reason": "",
-     "title": "Long-term thyroid outcomes and survival in hyperthyroid cats treated with radioiodine: association with overt and subclinical hypothyroidism and levothyroxine.",
-     "year": "2026",
-     "design": "前瞻性队列"
-    },
-    {
-     "pmid": "39724773",
-     "reason": "",
-     "title": "Hyperthyroid cats that develop azotemia following successful radioiodine treatment have shorter survival times compared to cats that remain nonazotemic.",
-     "year": "2024",
-     "design": "队列（摘要未述前瞻或回顾）"
+     "title": "Effect of Feeding an Iodine-Restricted Diet in Cats with Spontaneous Hyperthyroidism.",
+     "year": "2015",
+     "design": "病例系列（无对照）"
     },
     {
      "pmid": "42004674",
      "reason": "",
      "title": "In clinically hyperthyroid cats, is I-131 treatment superior to thyroidectomy in normalising serum T4 level?",
      "year": "2022",
-     "design": "知识摘要（结构化证据评述，非正式系统评价）"
-    },
-    {
-     "pmid": "40559809",
-     "reason": "",
-     "title": "Comparison of the Changes in Quality-of-Life of Cats with Hyperthyroidism Treated with Radioiodine or Antithyroid Drugs-A Preliminary Study.",
-     "year": "2025",
-     "design": "前瞻性非随机队列"
-    },
-    {
-     "pmid": "39831449",
-     "reason": "",
-     "title": "Survival of radioiodine treated hyperthyroid cats that are euthyroid and hypothyroid after treatment, and effect of levothyroxine supplementation on survival.",
-     "year": "2025",
-     "design": "前瞻性队列（LT4 非随机分配）"
-    },
-    {
-     "pmid": "39019056",
-     "reason": "",
-     "title": "Comparison of survival times of cats with hyperthyroidism treated with thyroidectomy or methimazole at a primary care hospital in Japan.",
-     "year": "2024",
-     "design": "回顾性队列"
-    },
-    {
-     "pmid": "34730466",
-     "reason": "",
-     "title": "Radioactive iodine dose and survival in cats with hyperthyroidism (2015-2020).",
-     "year": "2022",
-     "design": "回顾性队列"
-    },
-    {
-     "pmid": "31998612",
-     "reason": "",
-     "title": "Iodine-restricted food versus pharmacological therapy in the management of feline hyperthyroidism: A controlled trial in 34 cats.",
-     "year": "2019",
-     "design": "前瞻性非随机对照"
-    },
-    {
-     "pmid": "28158908",
-     "reason": "",
-     "title": "Efficacy of Low-dose (2 millicurie) versus Standard-dose (4 millicurie) Radioiodine Treatment for Cats with Mild-to-Moderate Hyperthyroidism.",
-     "year": "2017",
-     "design": "前瞻性非随机队列"
-    },
-    {
-     "pmid": "20695989",
-     "reason": "",
-     "title": "Association of iatrogenic hypothyroidism with azotemia and reduced survival time in cats treated for hyperthyroidism.",
-     "year": "2010",
-     "design": "回顾性队列（纵向 + 横断面）"
-    },
-    {
-     "pmid": "16478432",
-     "reason": "",
-     "title": "Survival times for cats with hyperthyroidism treated with iodine 131, methimazole, or both: 167 cases (1996-2003).",
-     "year": "2006",
-     "design": "回顾性队列"
-    },
-    {
-     "pmid": "26081922",
-     "reason": "",
-     "title": "Effect of Feeding an Iodine-Restricted Diet in Cats with Spontaneous Hyperthyroidism.",
-     "year": "2015",
-     "design": "病例系列（回顾性，无对照）"
+     "design": "叙述性综述"
     }
    ]
   },
