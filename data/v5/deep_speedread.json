@@ -1,6 +1,62 @@
 {
  "papers": [
   {
+   "pmid": "11991408",
+   "title_zh": "拉布拉多终生少喂 25%：中位寿命显著延长，慢性病推迟出现",
+   "citation": "Kealy 等，*Journal of the American Veterinary Medical Association* 2002；PMID 11991408；DOI 10.2460/javma.2002.220.1315",
+   "design_and_basis": "配对饲喂对照试验（犬）｜依据：仅摘要（未读到全文）",
+   "text_basis": "仅摘要（全文未获取：非开放获取，未绕过）",
+   "section_order": [
+    "clinical_bottom_line",
+    "clinical_question_pico",
+    "design_and_subjects",
+    "main_results",
+    "authors_conclusion",
+    "commentary",
+    "certainty",
+    "资金/COI",
+    "funding_coi"
+   ],
+   "sections": {
+    "clinical_bottom_line": {
+     "heading": "临床结论",
+     "markdown": "**结果。**\n- 48 只拉布拉多两两配对，每对中一只从 8 周龄起终生比同伴少喂 25%。\n- 限饲犬体重更轻，体脂更低，血清甘油三酯、T3、胰岛素和血糖也更低。\n- 限饲犬的中位寿命显著更长，慢性病症状总体上出现更晚。\n- 摘要没有给出寿命的具体年数、P 值和慢性病的发生数，算不出绝对差或 NNT。\n\n**能改变什么。** 支持从幼犬期起控制喂食量、维持偏瘦体况，以延长寿命并推迟慢性病。本研究是终生限饲，不能直接回答成年后才减重能否带来同样好处。\n\n**适用对象：** 仅拉布拉多；健康犬从 8 周龄起限饲。"
+    },
+    "clinical_question_pico": {
+     "heading": "临床问题",
+     "markdown": "- **P：** 健康拉布拉多寻回犬（48 只，配对）。\n- **I：** 从 8 周龄到死亡，比配对同伴少喂 25%。\n- **C：** 配对同伴（对照）。\n- **O：** 中位寿命（50% 死亡时的年龄）、最大寿命（90% 死亡时的年龄）、慢性病症状出现的年龄、体况、体成分和血清生化。"
+    },
+    "design_and_subjects": {
+     "heading": "研究设计与对象",
+     "markdown": "- **设计：** 配对饲喂研究。12 岁以前每年检测血清生化、体况评分和体成分，随访到死亡。\n- **对象：** 48 只拉布拉多。摘要没有说明配对方法、分配方式、饲养环境和是否设盲。"
+    },
+    "main_results": {
+     "heading": "主要结果",
+     "markdown": "| 结局 | 限饲犬对比对照犬 | 说明 |\n|---|---|---|\n| 中位寿命 | 显著更长 | 摘要未给年数和 P 值 |\n| 慢性病症状出现 | 总体推迟 | 摘要未给数字 |\n| 体重、体脂 | 更低 | |\n| 血清甘油三酯、T3、胰岛素、血糖 | 更低 | |"
+    },
+    "authors_conclusion": {
+     "heading": "结论",
+     "markdown": "作者认为，减少 25% 的食物摄入延长了这些犬的中位寿命，并推迟了慢性病症状的出现。"
+    },
+    "commentary": {
+     "heading": "评论",
+     "markdown": "**优点。** 终生随访到死亡，配对设计控制了部分个体差异。\n\n**局限。**\n- 单一品种，样本只有 48 只。\n- 摘要没有给出效应大小。\n- 对照犬的喂食量和体况是否代表常规家庭饲养，摘要没有说明。"
+    },
+    "certainty": {
+     "heading": "证据确定性：暂未评级（仅有摘要）",
+     "markdown": "- 这是配对饲喂对照试验，回答治疗获益问题。摘要未说明分组方式。\n- 目前只读到摘要，无法评定偏倚风险，所以暂不给出确定性等级。\n- 适用性：仅拉布拉多；健康犬从 8 周龄起限饲。"
+    },
+    "funding_coi": {
+     "heading": "资金和利益冲突",
+     "markdown": "**资金和利益冲突。** 摘要未提供，需全文核对。"
+    },
+    "资金/COI": {
+     "heading": "资金/COI",
+     "markdown": ""
+    }
+   }
+  },
+  {
    "pmid": "15954557",
    "title_zh": "ACVIM 2004 蛋白尿共识：先定位、确认持续，再按 UPC 大小逐级监测、检查、干预",
    "citation": "Lees 等，*Journal of Veterinary Internal Medicine* 2005；PMID 15954557；DOI 10.1892/0891-6640(2005)19[377:AAMOPI]2.0.CO;2",

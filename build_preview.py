@@ -628,7 +628,7 @@ def near_dup(a,b):
     return bool(A) and len(A&Bs)/len(A)>=0.4
 # ---------- deep speed-read (ACP Journal Club format; data/v5/deep_speedread.json) ----------
 DS_TITLES={'clinical_bottom_line':'临床结论','clinical_question_pico':'临床问题','design_and_subjects':'研究设计与对象','scope_and_methods':'范围与方法','main_results':'主要结果','main_recommendations':'主要推荐','authors_conclusion':'结论（作者原话）','commentary':'评论'}
-DS_SKIP={'certainty','funding_coi'}  # shown from certainty/funding data in 证据与方法, never twice
+DS_SKIP={'funding_coi'}  # funding is shown from funding data in 证据与方法, never twice
 def _ds_pm(h):
     def rep(m):
         q=get(m.group(1)); href=f'../{q["sid"]}/' if q else f'https://pubmed.ncbi.nlm.nih.gov/{m.group(1)}/'
@@ -689,12 +689,31 @@ def ds_md(t):
         if buf: out.append(f'<p>{_dsi(" ".join(buf))}</p>')
         else: i+=1
     return ''.join(out)
+def _drop_internal(o):
+    """Fields whose key starts with _internal are extract-only and never rendered."""
+    if isinstance(o,dict): return {k:_drop_internal(v) for k,v in o.items() if not str(k).startswith('_internal')}
+    if isinstance(o,list): return [_drop_internal(x) for x in o]
+    return o
+CERT=_drop_internal(CERT)
+
+def ds_unrated(r):
+    """True for 待评定 / 暂未评级 papers (not 不适用 or ungraded guidelines)."""
+    pmid=str((r or {}).get('pmid') or '')
+    if pmid in PENDING_LABEL: return True
+    c=(CERT.get(pmid) or {}).get('certainty')
+    return c=='待评定' or (isinstance(c,str) and c.startswith('暂未评级'))
+
 def ds_sections(r):
-    """[(key, heading, html)] in the record's own order; certainty/funding are rendered elsewhere."""
+    """[(key, heading, html)] in the record's own order; funding is rendered elsewhere.
+    Certainty narrative is shown (GRADE footnote style, including 起评 on rated papers).
+    Unrated reader pages must not contain 起评, so that section is omitted when it would."""
     out=[]
+    skip_cert=ds_unrated(r)
     for k in r.get('section_order') or []:
         sec=(r.get('sections') or {}).get(k) or {}
-        if k in DS_SKIP or not str(sec.get('markdown') or '').strip(): continue
+        md=str(sec.get('markdown') or '')
+        if k in DS_SKIP or not md.strip(): continue
+        if k=='certainty' and skip_cert and '起评' in md: continue
         h=re.sub(r'\s+',' ',clean(sec.get('heading') or DS_TITLES.get(k,''))).strip()
         out.append((k,h,ds_md(sec['markdown'])))
     return out

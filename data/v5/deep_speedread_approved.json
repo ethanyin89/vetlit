@@ -1,6 +1,7 @@
 {
-  "_note": "Only IDs listed here may be rendered as deep speed-reads. Presence in extracts/deep_speedread/batch1.json is not sufficient. Vibe approved all 44 speed-reads; 11991408 is held until deep extract removes starting-rule logic from its certainty display. Reader pages must never contain 从高起评 / 从低起评 / 起评. 11991408 still shows 暂未评级（仅有摘要） and 摘要未说明分组方式, without a speed-read body.",
+  "_note": "Only IDs listed here may be rendered as deep speed-reads. Presence in extracts/deep_speedread/batch1.json is not sufficient. Vibe approved all 44 speed-reads, including 11991408. Fields whose key starts with _internal (for example _internal_start_rule) must never appear on reader pages or in papers.json. 起评 is allowed in rated papers’ GRADE footnotes (for example 按 GRADE 对患病率问题的做法从“高”起评). Reader text of unrated papers (待评定 / 暂未评级) must not contain 起评. 11991408 shows 暂未评级（仅有摘要） and 摘要未说明分组方式.",
   "approved": [
+    "11991408",
     "15954557",
     "18638016",
     "20005753",

@@ -4,10 +4,8 @@ REPO=os.path.join(os.path.dirname(os.path.abspath(__file__)),'..'); sys.path.ins
 os.environ.setdefault('VETLIT_LIVE','1')
 import build_preview as B
 
-HOLD={'11991408'}
 APPROVED=set(json.load(open('data/v5/deep_speedread_approved.json',encoding='utf-8'))['approved'])
-assert '11991408' not in APPROVED and HOLD.isdisjoint(APPROVED)
-assert len(APPROVED)==43
+assert '11991408' in APPROVED and len(APPROVED)==44
 assert B.DS_APPROVED==APPROVED
 assert set(B.DS)==APPROVED
 assert not hasattr(B,'DS_HOLD') or not B.DS_HOLD
@@ -19,15 +17,27 @@ def page_path(pm):
 
 H=lambda pm: open(page_path(pm),encoding='utf-8').read()
 LEAK=('clinical_bottom_line','clinical_question_pico','design_and_subjects','scope_and_methods','main_results','main_recommendations','authors_conclusion','section_order','certainty_ref','source_md','quotes_file','现版卡片','R-down-indirectness-surrogate','deep extract','Vibe')
-START_RULE=('从高起评','从低起评','起评')
+INTERNAL_KEY=re.compile(r'_internal(?:_[A-Za-z0-9_]+)?')
+def walk_keys(o,acc=None):
+    acc=[] if acc is None else acc
+    if isinstance(o,dict):
+        for k,v in o.items():
+            acc.append(str(k)); walk_keys(v,acc)
+    elif isinstance(o,list):
+        for x in o: walk_keys(x,acc)
+    return acc
 for f in glob.glob('dist/**/*.html',recursive=True)+['dist/papers.json']:
     if not os.path.exists(f): continue
     s=open(f,encoding='utf-8').read()
     for b in LEAK: assert b not in s, (f,b)
-# reader pages must never contain starting-rule logic
-for f in glob.glob('dist/papers/**/*.html',recursive=True):
-    s=open(f,encoding='utf-8').read()
-    for b in START_RULE: assert b not in s, (f,b)
+    # (a) fields whose key starts with _internal must not appear on reader pages or in papers.json
+    if f.endswith('.json'):
+        bad=[k for k in walk_keys(json.loads(s)) if k.startswith('_internal')]
+        assert not bad, (f,bad)
+        assert '_internal' not in s, f
+    else:
+        m=INTERNAL_KEY.search(s)
+        assert not m, (f,m.group())
 
 def parts(pm):
     h=H(pm); top,fold=h.split('id="evidence"',1); return h,top,fold
@@ -39,29 +49,46 @@ def dsbl(top):
 for pm in sorted(APPROVED):
     h,top,fold=parts(pm)
     assert 'class="dsbl"' in top and '>临床结论<' in top, pm
-    assert 'class="blk ds"' in top and '一句话结论' not in top, pm
+    assert 'class="blk ds"' in top and '<p class="eb red">一句话结论</p>' not in top, pm
     rec=B.DS[pm]
     assert rec['title_zh'] in h
-    heads=[]
-    for k in rec['section_order']:
-        if k in B.DS_SKIP or not rec['sections'].get(k,{}).get('markdown','').strip(): continue
-        hd=rec['sections'][k]['heading']
-        heads.append(hd)
+    heads=[hd for _,hd,_ in B.ds_sections(rec)]
+    for hd in heads:
         assert hd in top, (pm,hd)
-    assert heads[0].startswith('临床结论') or '临床结论' in top
+    assert heads and (heads[0].startswith('临床结论') or '临床结论' in top)
 
 assert 'NNT ≈ 3' in parts('34180084')[1] and '对象（P）' in parts('34180084')[1]
 assert '主要推荐（原文逐字，附 SOR）' in parts('42805756')[1] and '本卡未读' in parts('42805756')[1]
 
-# 11991408 is held: no speed-read body; certainty chip/row 暂未评级（仅有摘要）; no starting-rule text
+# 11991408: approved speed-read; unrated chip/row; start_basis without 起评
 h,top,fold=parts('11991408')
-assert '11991408' not in B.DS
-assert 'class="dsbl"' not in h and 'class="blk ds"' not in h
-assert '一句话结论' in top
+assert '11991408' in B.DS
+assert 'class="dsbl"' in top and '一句话结论' not in top
 assert '暂未评级（仅有摘要）' in top and 'class="echip na"' in top and '<th>结果</th><td>暂未评级（仅有摘要）</td>' in fold
-assert '摘要未说明分组方式' in fold
+assert '证据确定性：暂未评级（仅有摘要）' in top
+assert '摘要未说明分组方式' in top and '配对饲喂对照试验；摘要未说明分组方式' in fold
 assert 'why0' not in fold and '证据确定性待评定' not in h
-for b in START_RULE: assert b not in h
+assert '起评' not in h
+assert B.CERT['11991408']['start_basis']=='配对饲喂对照试验；摘要未说明分组方式'
+assert not any(str(k).startswith('_internal') for k in B.CERT['11991408'])
+
+# (b) reader text of unrated papers (待评定 / 暂未评级) contains no 起评
+# rated papers may use GRADE footnote style, e.g. 从“高”起评
+def is_unrated(pm):
+    if str(pm) in B.PENDING_LABEL: return True
+    c=(B.CERT.get(str(pm)) or {}).get('certainty')
+    return c=='待评定' or (isinstance(c,str) and c.startswith('暂未评级'))
+unrated_seen=0
+for f in glob.glob('dist/papers/*/index.html'):
+    name=os.path.basename(os.path.dirname(f))
+    pm=name[5:] if name.startswith('pmid-') else name
+    if not is_unrated(pm): continue
+    s=open(f,encoding='utf-8').read()
+    unrated_seen+=1
+    assert '起评' not in s, (pm,)
+assert unrated_seen>=3
+# restoration: rated speed-read keeps approved GRADE 起评 wording (was previously stripped by DS_SKIP)
+assert '按 GRADE 对患病率问题的做法从“高”起评' in parts('23647231')[1]
 
 # 38952053: approved corrected speed-read (no NNT, no 血钙更稳); certainty 中; no 稳定
 h,top,fold=parts('38952053')

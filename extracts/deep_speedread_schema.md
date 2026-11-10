@@ -32,4 +32,4 @@
 
 ## 渲染须经明确批准
 
-是否渲染只看 `data/v5/deep_speedread_approved.json`，不看一篇是否已出现在 `batch1.json`。`scripts/sync_deep_speedread.py` 也只同步该名单中的文献。11991408 在 deep extract 去掉确定性起点规则用语之前不渲染深度速读；读者页只显示「暂未评级（仅有摘要）」和「摘要未说明分组方式」，不得出现「从高起评」「从低起评」或「起评」。
+是否渲染只看 `data/v5/deep_speedread_approved.json`，不看一篇是否已出现在 `batch1.json`。`scripts/sync_deep_speedread.py` 也只同步该名单中的文献。11991408 已批准渲染。键名以 `_internal` 开头的字段（如 `_internal_start_rule`）不得出现在读者页或 `papers.json`。已评级文献的 GRADE 脚注可以使用「起评」（例如「按 GRADE 对患病率问题的做法从“高”起评」）；未评级（待评定 / 暂未评级）文献的读者正文不得出现「起评」。11991408 显示「暂未评级（仅有摘要）」和「摘要未说明分组方式」。

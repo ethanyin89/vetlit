@@ -1177,7 +1177,7 @@
                "question_type": "治疗获益",
                "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
                "start": null,
-               "start_basis": "摘要未说明分组方式",
+               "start_basis": "配对饲喂对照试验；摘要未说明分组方式",
                "downgrades": [],
                "provisional": null,
                "certainty": "待评定",
