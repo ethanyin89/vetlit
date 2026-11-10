@@ -9,7 +9,13 @@
   "v3": "benchmark/work/certainty_v3.json",
   "rules_v4_amend_2026-11-04": "ROBINS-I 总体映射（GRADE，Vibe 裁定 2026-11-04）：Serious 降 1 级，Critical 降 2 级（至极低为止）；JBI 清单不设阈值，总体判断由评审人作出并写明理由；病例报告/病例系列用 JBI 病例系列清单，不用 ROBINS-I；卡片确定性按一句话结论所述结局，多个结局取最低（GRADE 按结局评级）。",
   "rules_v4_amend_2026-11-09": "RoB 2 “一些担忧”（GRADE/Cochrane Handbook，Vibe 裁定 2026-11-09）：担忧领域会影响主要结局时降一级，并写明理由；否则不降。预后研究的偏倚风险工具用 QUIPS（Cochrane 预后综述），患病率部分仍用 JBI 患病率清单。",
-  "rules_v4_amend_2026-11-09_indirectness": "R-down-indirectness-population（Vibe 裁定 2026-11-09）：RCT 人群与专题问题不一致（如过敏性皮炎广义人群用于犬特应性皮炎专题，特应性皮炎只占少数且仅合并诊断）时，间接性降一级（GRADE indirectness）。"
+  "rules_v4_amend_2026-11-09_indirectness": "R-down-indirectness-population（Vibe 裁定 2026-11-09）：研究人群比专题问题宽时，降一级。",
+  "rules_v4_amend_2026-11-09_dogAD": {
+   "R-VF-bias-toward-null": "偏倚朝向无效不降级：只在退出原因是无效、且用药组退出明显少于对照组时适用；各组都大量缺失时照常降级。",
+   "R-VF-noninferiority-ITT-CI": "非劣效试验：每项结局分开判定，看组间差值（或检验值）是否落在界值内；写出界值，不算 NNT。",
+   "R-SR-body-of-evidence": "系统评价：确定性按证据本身定。综述自己做过 GRADE 的，用它的结果；没做过的，按纳入研究推。综述自身的质量只写在 review_rob_* 里。"
+  },
+  "downgrades_schema": "downgrades[] = {domain, steps(负整数为降级数，0=考虑过但不降), reason_zh, source_file}；前端按 steps 显示“降一级/降两级/不降级”"
  },
  "papers": {
   "42043241": {
@@ -279,6 +285,8 @@
    "start_basis": "SR：卡片结论（粗蛋白 >25% vs <25%）是不同研究之间的比较，不是随机比较 → 观察性起点低（纳入研究 20 篇中仅 9 篇随机）",
    "downgrades": [
     {
+     "domain": "不一致性",
+     "steps": -1,
      "reason_zh": "不一致 −1：粗蛋白分组的减重结果“significant heterogeneity (p < 0.0001)”",
      "source_file": "review2/ft/PMC11759159.txt（3.3. Meta-Analysis）"
     }
@@ -468,6 +476,8 @@
    "start_basis": "RCT：治疗获益问题，RCT→高",
    "downgrades": [
     {
+     "domain": "偏倚风险",
+     "steps": -1,
      "reason_zh": "RoB 2 总体判定为高偏倚风险",
      "source_file": "review2/adjudicated_rob_rct.json"
     }
@@ -513,6 +523,8 @@
    "start_basis": "RCT（阳性对照、开放标签、非劣效现场试验）：治疗获益问题，RCT→高",
    "downgrades": [
     {
+     "domain": "偏倚风险",
+     "steps": -1,
      "reason_zh": "RoB 2 总体判定为高偏倚风险",
      "source_file": "review2/adjudicated_rob_rct.json"
     }
@@ -643,7 +655,12 @@
    "start": "高",
    "start_basis": "RCT：治疗获益问题，RCT→高",
    "downgrades": [
-    "RoB：RoB 2 总体一些担忧，D4 影响主要结局 −1"
+    {
+     "domain": "偏倚风险",
+     "steps": -1,
+     "reason_zh": "RoB：RoB 2 总体一些担忧，D4 影响主要结局 −1",
+     "source_file": null
+    }
    ],
    "certainty": "中",
    "notes_zh": "偏倚风险（RoB 2）：一些担忧（D2、D4）。D4 影响主要结局：190 个事件中 75 个为未设盲主人参与决定的安乐死，按 v4 修订（2026-11-09）降一级",
@@ -737,7 +754,12 @@
    "start": "高",
    "start_basis": "横断面问卷调查：患病率问题，观察性→高（偏倚风险工具 JBI 患病率清单）",
    "downgrades": [
-    "RoB：JBI 总体高风险 −1"
+    {
+     "domain": "偏倚风险",
+     "steps": -1,
+     "reason_zh": "RoB：JBI 总体高风险 −1",
+     "source_file": null
+    }
    ],
    "certainty": "中",
    "notes_zh": "偏倚风险（JBI 患病率清单）：高",
@@ -757,6 +779,8 @@
    "start_basis": "回顾性队列（原文自称病例对照，按暴露分组后比较寿命）：预后问题，队列→高（GRADE 预后扩展，Iorio 2015 BMJ）",
    "downgrades": [
     {
+     "domain": "偏倚风险",
+     "steps": -1,
      "reason_zh": "QUIPS 总体判定为高偏倚风险",
      "source_file": "review2/rob_adjudicated_r3.json"
     }
@@ -805,7 +829,12 @@
    "start": "高",
    "start_basis": "保险数据回顾性队列：发生率问题，观察性→高（JBI 队列清单）",
    "downgrades": [
-    "RoB：JBI 队列总体高风险 −1"
+    {
+     "domain": "偏倚风险",
+     "steps": -1,
+     "reason_zh": "RoB：JBI 队列总体高风险 −1",
+     "source_file": null
+    }
    ],
    "certainty": "中",
    "notes_zh": "偏倚风险（JBI 队列清单）：高",
@@ -841,10 +870,14 @@
    "start_basis": "回顾性诊断准确性研究（病例—对照式）：诊断问题，病例—对照式设计→高（设计问题计入偏倚风险与间接性，Vibe Feline 裁定）",
    "downgrades": [
     {
+     "domain": "偏倚风险",
+     "steps": -1,
      "reason_zh": "QUADAS-2 总体判定为高偏倚风险",
      "source_file": "review2/rob_adjudicated_r3.json"
     },
     {
+     "domain": "间接性",
+     "steps": -1,
      "reason_zh": "间接性：QUADAS-2 适用性高度关注",
      "source_file": "review2/rob_adjudicated_r3.json"
     }
@@ -878,8 +911,18 @@
    "start": "高",
    "start_basis": "VetCompass 回顾性研究：患病率/危险因素问题（GRADE：此类问题观察性起点高），偏倚风险工具：患病率 JBI，预后 QUIPS（2026-11-09）",
    "downgrades": [
-    "患病率：RoB JBI 总体高 −1",
-    "生存/预后：RoB QUIPS 总体高 −1"
+    {
+     "domain": "偏倚风险",
+     "steps": -1,
+     "reason_zh": "患病率：RoB JBI 总体高 −1",
+     "source_file": null
+    },
+    {
+     "domain": "偏倚风险",
+     "steps": -1,
+     "reason_zh": "生存/预后：RoB QUIPS 总体高 −1",
+     "source_file": null
+    }
    ],
    "certainty": "中",
    "notes_zh": "偏倚风险：表观患病率（JBI 患病率清单）高；确诊后生存/IRIS、BUN 预后（QUIPS）高——失访、预后因素测量两域高",
@@ -1155,7 +1198,12 @@
    "start": "低",
    "start_basis": "病例系列：治疗获益问题，观察性→低",
    "downgrades": [
-    "RoB：JBI 病例系列总体高风险 −1（低→极低）"
+    {
+     "domain": "偏倚风险",
+     "steps": -1,
+     "reason_zh": "RoB：JBI 病例系列总体高风险 −1（低→极低）",
+     "source_file": null
+    }
    ],
    "certainty": "极低",
    "notes_zh": "偏倚风险（JBI 病例系列清单）：高",
@@ -1189,7 +1237,12 @@
    "start": "低",
    "start_basis": "前瞻性观察（病例系列 + 健康对照）：治疗获益问题，观察性→低",
    "downgrades": [
-    "RoB：ROBINS-I Critical −2（低→极低，已到底）"
+    {
+     "domain": "偏倚风险",
+     "steps": -2,
+     "reason_zh": "RoB：ROBINS-I Critical −2（低→极低，已到底）",
+     "source_file": null
+    }
    ],
    "certainty": "极低",
    "notes_zh": "偏倚风险（ROBINS-I）：极严重",
@@ -1241,10 +1294,14 @@
    "start_basis": "横断面诊断探索：诊断问题，病例—对照式设计→高（设计问题计入偏倚风险与间接性，Vibe Feline 裁定）",
    "downgrades": [
     {
+     "domain": "偏倚风险",
+     "steps": -1,
      "reason_zh": "QUADAS-2 总体判定为高偏倚风险",
      "source_file": "review2/rob_adjudicated_r3.json"
     },
     {
+     "domain": "间接性",
+     "steps": -1,
      "reason_zh": "间接性：QUADAS-2 适用性高度关注",
      "source_file": "review2/rob_adjudicated_r3.json"
     }
@@ -1362,6 +1419,8 @@
    "start_basis": "SR：卡片结论含多个结局，取最低者（传统口服药：格列吡嗪、阿卡波糖、二甲双胍）；其纳入研究均为无对照或非随机试验 → 观察性起点低",
    "downgrades": [
     {
+     "domain": "偏倚风险",
+     "steps": -1,
      "reason_zh": "偏倚风险 −1：综述用 ROBINS-I 评传统口服药 4 项研究，3 项 Serious、1 项 Moderate（ROBINS-I Serious −1）",
      "source_file": "review2/ft/PMC12427183.txt（Table 2；Abstract）"
     }
@@ -2102,10 +2161,14 @@
    "start_basis": "SR：卡片确定性取纳入研究证据体；纳入研究为诊断研究→高",
    "downgrades": [
     {
+     "domain": "偏倚风险",
+     "steps": -2,
      "reason_zh": "证据体偏倚风险非常严重 −2：综述的改良 QUADAS-2 报告 68/72 未明确参考标准、约 70% 未报告判读者设盲",
      "source_file": "ft/dogad/PMC12133834.txt（Results, Risk of bias）"
     },
     {
+     "domain": "间接性",
+     "steps": -1,
      "reason_zh": "间接性 −1：仅 30/72 用 Favrot 标准定义病例（适用性），多数研究只报告阳性率",
      "source_file": "ft/dogad/PMC12133834.txt（Results, Risk of bias；Discussion）"
     }
@@ -2203,7 +2266,12 @@
    "start": "高",
    "start_basis": "RCT：治疗获益问题，RCT→高",
    "downgrades": [
-    "RoB：RoB 2 总体高风险 −1"
+    {
+     "domain": "偏倚风险",
+     "steps": -1,
+     "reason_zh": "RoB：RoB 2 总体高风险 −1",
+     "source_file": null
+    }
    ],
    "certainty": "中",
    "notes_zh": "按第一轮评估与现行规则写入（不在 Vibe 2026-11-09 六问之列）",
@@ -2222,7 +2290,12 @@
    "start": "高",
    "start_basis": "RCT：治疗获益问题，RCT→高",
    "downgrades": [
-    "RoB：RoB 2 总体高风险 −1（各组均大量退出：安慰剂 27/52=52%，lokivetmab 2.0 mg/kg 14/50=28%、0.5 mg/kg 22/54=41%、0.125 mg/kg 24/55=44%；偏倚方向无法假定朝向无效）"
+    {
+     "domain": "偏倚风险",
+     "steps": -1,
+     "reason_zh": "RoB：RoB 2 总体高风险 −1（各组均大量退出：安慰剂 27/52=52%，lokivetmab 2.0 mg/kg 14/50=28%、0.5 mg/kg 22/54=41%、0.125 mg/kg 24/55=44%；偏倚方向无法假定朝向无效）",
+     "source_file": null
+    }
    ],
    "certainty": "中",
    "notes_zh": "RoB 2 总体高（D3：第 56 天前大量退出）。Vibe 2026-11-09 更正：药物组退出亦 28–44%，缺失多且各组都有，偏倚方向不能假定朝向无效，降一级；无因不良事件退出",
@@ -2242,7 +2315,12 @@
    "start": "高",
    "start_basis": "RCT：治疗获益问题，RCT→高",
    "downgrades": [
-    "RoB：RoB 2 一些担忧（D2/D3 疗效分析集排除方案偏离和环孢素依从性 <80% 的犬），未报告组间差值置信区间和 ITT/全分析集结果，影响主要非劣效结局 −1"
+    {
+     "domain": "偏倚风险",
+     "steps": -1,
+     "reason_zh": "RoB：RoB 2 一些担忧（D2/D3 疗效分析集排除方案偏离和环孢素依从性 <80% 的犬），未报告组间差值置信区间和 ITT/全分析集结果，影响主要非劣效结局 −1",
+     "source_file": null
+    }
    ],
    "certainty": "中",
    "notes_zh": "非劣效条件未满足（Vibe 裁定 2026-11-09）：(a) 原文只给两组各自 95% CI［环孢素 43.72%（37.61–49.83%），lokivetmab 51.90%（45.94–57.87%）］和检验值 0.3% < 15% 界值，无差值 CI；(b) 仅疗效数据集（第 28 天瘙痒 234/274），无 ITT/FAS",
@@ -2262,8 +2340,18 @@
    "start": "高",
    "start_basis": "RCT：治疗获益问题，RCT→高",
    "downgrades": [
-    "偏倚方向朝向无效，不降（退出盐水 16/62 vs lokivetmab 3/61，均因无效）",
-    "间接性 −1：人群为广义过敏性皮炎（食物、跳蚤、接触过敏或未明确的过敏性皮肤病），特应性皮炎仅 33.3% 且只能合并诊断"
+    {
+     "domain": "偏倚风险",
+     "steps": 0,
+     "reason_zh": "偏倚方向朝向无效，不降（退出盐水 16/62 vs lokivetmab 3/61，均因无效）",
+     "source_file": null
+    },
+    {
+     "domain": "间接性",
+     "steps": -1,
+     "reason_zh": "间接性 −1：人群为广义过敏性皮炎（食物、跳蚤、接触过敏或未明确的过敏性皮肤病），特应性皮炎仅 33.3% 且只能合并诊断",
+     "source_file": null
+    }
    ],
    "certainty": "中",
    "notes_zh": "RoB 2 总体高（D3：第 28 天前退出）不降：退出盐水 16/62、lokivetmab 3/61，全部因症状加重或无改善，偏倚朝向低估疗效（不同于 27647569 各组均大量缺失）。第 28 天缺失 18 vs 6 含方案偏离（盐水 1 禁用药 + 1 超窗，lokivetmab 3 禁用药）。Vibe 裁定 2026-11-09：间接性降一级：人群宽于特应性皮炎，本文在犬特应性皮炎专题下，间接性降一级 → 中",
@@ -2323,8 +2411,18 @@
    "start": "高",
    "start_basis": "诊断准确性横断面研究：诊断问题→高",
    "downgrades": [
-    "偏倚风险：QUADAS-2 四个偏倚域均为高 = 非常严重 −2（诊断标准在同一批数据上推导并评估，无独立验证；1542 只中 448 只（29%）诊断不明确或多诊断病例被排除）",
-    "间接性：QUADAS-2 适用性（病例选择）高度关注 −1（转诊人群：34 位皮肤专科医生、15 国）"
+    {
+     "domain": "偏倚风险",
+     "steps": -2,
+     "reason_zh": "偏倚风险：QUADAS-2 四个偏倚域均为高 = 非常严重 −2（诊断标准在同一批数据上推导并评估，无独立验证；1542 只中 448 只（29%）诊断不明确或多诊断病例被排除）",
+     "source_file": null
+    },
+    {
+     "domain": "间接性",
+     "steps": -1,
+     "reason_zh": "间接性：QUADAS-2 适用性（病例选择）高度关注 −1（转诊人群：34 位皮肤专科医生、15 国）",
+     "source_file": null
+    }
    ],
    "certainty": "极低",
    "notes_zh": "资助：Novartis Animal Health；两位作者为 Novartis 雇员（不因资助降级）",

@@ -235,6 +235,11 @@ def review_rob_rows(r):
     rob_* and from certainty; shown in 证据与方法 only when both fields are present. Never on the card line or badge."""
     tool=str((r or {}).get('review_rob_tool') or '').strip(); ov=str((r or {}).get('review_rob_overall') or '').strip()
     return [(f'综述偏倚风险（{tool}）',ov)] if tool and ov else []
+STEP={0:'不降级',-1:'降一级',-2:'降两级',-3:'降三级'}
+def dg_label(d):
+    """Downgrade row label from steps (deep extract schema); legacy strings / dicts without steps keep '降一级'. source_file is never shown."""
+    if not isinstance(d,dict) or d.get('steps') not in STEP: return '降一级'
+    return ((d.get('domain') or '').strip()+' ' if d.get('domain') else '')+STEP[d['steps']]
 def grade(p):
     """Certainty from deep extract's certainty.json (no computation here). Returns (chip_text, fold_html)."""
     r=CERT.get(str(p.get('pmid') or '')) or CERT.get(str(p.get('sid') or '')) or CERT.get(str(p.get('sid') or '').replace('pmid-',''))
@@ -246,7 +251,7 @@ def grade(p):
     else:
         c=c if c in CVALS else ('不适用' if c is None and r.get('start') is None else '待评定')
         t='证据确定性：'+c
-    rows=[('起始等级',(r.get('start') or '—')+(f'（{r["start_basis"]}）' if r.get('start_basis') else ''))]+[('降一级',d.get('reason_zh','') if isinstance(d,dict) else str(d)) for d in r.get('downgrades') or []]+([('说明',r['notes_zh'])] if r.get('notes_zh') else [])+[('结果',t)]+review_rob_rows(r)
+    rows=[('起始等级',(r.get('start') or '—')+(f'（{r["start_basis"]}）' if r.get('start_basis') else ''))]+[(dg_label(d),d.get('reason_zh','') if isinstance(d,dict) else str(d)) for d in r.get('downgrades') or []]+([('说明',r['notes_zh'])] if r.get('notes_zh') else [])+[('结果',t)]+review_rob_rows(r)
     h='<table class="kv">'+''.join(f'<tr><th>{k}</th><td>{E_(clean(v))}</td></tr>' for k,v in rows)+'</table>'
     return t,h
 CHIP_HOLD=set()
