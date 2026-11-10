@@ -1,0 +1,5 @@
+{
+ "_meta": {"source": "OpenAlex works API (api.openalex.org/works/pmid:<PMID>, cited_by_count)", "fetched": "2026-11-09", "note": "14 dog atopic dermatitis papers (no stored count before)."},
+ "42805756": 1, "26260508": 430, "20187910": 125, "16412115": 118, "36940185": 23, "40470278": 8, "42007020": 1,
+ "24581322": 153, "25496303": 108, "27647569": 106, "28906040": 106, "34180084": 33, "20187911": 511, "30115047": 69
+}

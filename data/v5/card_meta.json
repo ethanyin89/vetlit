@@ -1302,6 +1302,285 @@
    "n_source": "全文 ft/hyper/PMC12197586.txt",
    "n_status": "全文/摘要原句",
    "n_detail_zh": "抗甲状腺药 15；放射碘 23；另有非甲亢对照 322 只来自既往研究"
+  },
+  "42805756": {
+   "year": "2026",
+   "journal": "Vet Dermatol",
+   "design_zh": "指南/共识（SORT 分级；非系统评价）",
+   "species_zh": "犬",
+   "n": null,
+   "n_label_zh": null,
+   "n_quote": null,
+   "n_source": null,
+   "n_status": "不适用（指南）",
+   "flags": [
+    "全文读至第 7.7 节，资金/利益冲突与参考文献未读"
+   ],
+   "same_cohort_as": [],
+   "cebm_level": "不适用",
+   "cebm_card_display": "该指南未分级"
+  },
+  "26260508": {
+   "year": "2015",
+   "journal": "BMC Vet Res",
+   "design_zh": "指南/共识（诊断；文献检索 + 专家意见）",
+   "species_zh": "犬",
+   "n": null,
+   "n_label_zh": null,
+   "n_quote": null,
+   "n_source": null,
+   "n_status": "不适用（指南）",
+   "n_detail_zh": "检索纳入 81 篇相关文献",
+   "n_detail_quote": "A total of 81 publications relevant for this review were identified.",
+   "same_cohort_as": [],
+   "cebm_level": "不适用",
+   "cebm_card_display": "该指南未分级"
+  },
+  "20187910": {
+   "year": "2010",
+   "journal": "Vet Dermatol",
+   "design_zh": "系统评价（RCT；按 Cochrane 方法，部分做 meta 分析）",
+   "species_zh": "犬",
+   "n": 49,
+   "n_label_zh": "49 项 RCT",
+   "n_quote": "A total of 49 RCTs were selected, which had enrolled 2126 dogs.",
+   "n_source": "PubMed 摘要（ft/dogad）/20187910_abs.txt",
+   "n_status": "摘要原句（纳入研究数）；全文未取得",
+   "n_detail_zh": "共 2126 只犬",
+   "design_note_zh": "已做 meta 分析（摘要原句）；候选清单“无meta”有误（Vibe 2026-11-10）",
+   "overlap_note_zh": "与 16412115 纳入的环孢素试验可能重叠（摘要级，未核纳入清单）",
+   "flags": [
+    "仅摘要",
+    "可能数据重叠：16412115"
+   ],
+   "meta_analysis_done": true,
+   "meta_analysis_quote": "Pooling of results and meta-analyses were performed for studies reporting similar interventions and outcome measures.",
+   "same_cohort_as": [],
+   "cebm_level": "1",
+   "cebm_card_display": "CEBM 1 级"
+  },
+  "16412115": {
+   "year": "2006",
+   "journal": "Vet Dermatol",
+   "design_zh": "系统评价与 meta 分析（摘要称纳入前瞻性临床试验，是否均随机待核）",
+   "species_zh": "犬",
+   "n": 10,
+   "n_label_zh": "10 项研究",
+   "n_quote": "Ten studies with adequate design characteristics were included.",
+   "n_source": "PubMed 摘要（ft/dogad）/16412115_abs.txt",
+   "n_status": "摘要原句（纳入研究数）；全文未取得",
+   "n_detail_zh": "共 799 只犬：环孢素 672、安慰剂 160、口服糖皮质激素 74、抗组胺药 23（原文百分比相加超过 100%，可能有交叉）",
+   "overlap_note_zh": "与 20187910 纳入的环孢素 RCT 可能重叠（摘要级，未核纳入清单）",
+   "flags": [
+    "仅摘要",
+    "厂商相关：作者单位 Novartis Animal Health",
+    "可能数据重叠：20187910"
+   ],
+   "same_cohort_as": [],
+   "cebm_level": "待全文核实",
+   "cebm_card_display": "待全文核实",
+   "cebm_status": "待全文核实"
+  },
+  "36940185": {
+   "year": "2023",
+   "journal": "J Am Vet Med Assoc",
+   "design_zh": "系统评价（待核实）",
+   "species_zh": "犬和猫",
+   "n": null,
+   "n_label_zh": null,
+   "n_quote": null,
+   "n_source": null,
+   "n_status": "摘要未写纳入研究数；全文未取得（AVMA 页面为 JS 挑战页）",
+   "flags": [
+    "仅摘要",
+    "设计类型待全文核实"
+   ],
+   "design_evidence": {
+    "check": "PRISMA 基本要素：检索数据库/检索式、纳入标准、纳入研究数",
+    "result": "摘要未报告；摘要未写不代表全文没有。全文未取得（AVMA HTML/PDF 均 403 或 JS 挑战页），待全文核实",
+    "quote": "This article reviews the published knowledge about allergen immunotherapy in dogs and cats for small animal practitioners.",
+    "quote_file": "ft/dogad/36940185_abs.txt",
+    "title_quote": "A systematic review of allergen immunotherapy, a successful therapy for canine atopic dermatitis and feline atopic skin syndrome.",
+    "pubmed_pubtype": [
+     "Systematic Review",
+     "Journal Article"
+    ],
+    "supporting_quote": "Readers are referred to detailed reviews for comprehensive discussion of AIT protocols and factors influencing treatment outcomes [84, 94].",
+    "supporting_quote_file": "ft/dogad/42805756_excerpt.txt",
+    "supporting_note": "42805756 参考文献 [94]=36940185（Crossref）；不足以判定设计类型",
+    "ruling": "Vibe 2026-11-09 更正：待全文核实"
+   },
+   "same_cohort_as": [],
+   "cebm_level": "待全文核实",
+   "cebm_card_display": "待全文核实",
+   "cebm_status": "待全文核实"
+  },
+  "40470278": {
+   "year": "2025",
+   "journal": "Front Vet Sci",
+   "design_zh": "系统评价（诊断准确性；PRISMA，定性综合，无 meta）",
+   "species_zh": "犬",
+   "n": 72,
+   "n_label_zh": "72 篇",
+   "n_quote": "the 72 articles that met the eligibility criteria were included in the qualitative synthesis",
+   "n_source": "全文 ft/dogad/PMC12133834.txt",
+   "n_status": "全文/摘要原句（纳入研究数）",
+   "n_detail_zh": "血清特异性 IgE 36、皮内试验 37、点刺 2、斑贴 1（合计 76，部分研究评了多种检测）",
+   "same_cohort_as": [],
+   "cebm_level": "3",
+   "cebm_card_display": "CEBM 3 级",
+   "cebm_status": "终定"
+  },
+  "42007020": {
+   "year": "2022",
+   "journal": "Vet Evid",
+   "design_zh": "知识摘要（二次文献）",
+   "species_zh": "犬",
+   "n": 2,
+   "n_label_zh": "2 项研究",
+   "n_quote": "One randomised controlled trial and one before and after study were critically appraised",
+   "n_source": "全文 ft/dogad/PMC13011112.txt",
+   "n_status": "全文原句（纳入研究数）",
+   "n_detail_zh": "Marsella 2020 RCT 19 只实验比格犬；Souza 2018 回顾性前后对照 135 只",
+   "design_note_zh": "二次文献",
+   "same_cohort_as": [],
+   "cebm_level": "2",
+   "cebm_card_display": "CEBM 2 级（二次文献）"
+  },
+  "24581322": {
+   "year": "2013",
+   "journal": "Vet Dermatol",
+   "design_zh": "RCT（双盲、安慰剂对照、多中心）",
+   "species_zh": "犬",
+   "n": 299,
+   "n_label_zh": "299 只",
+   "n_quote": "Clinicians at 18 specialty clinics enrolled client‐owned dogs (n = 299) with a history of chronic AD.",
+   "n_source": "全文 ft/dogad/PMC4286885.txt",
+   "n_status": "全文/摘要原句",
+   "n_detail_zh": "安慰剂 147、oclacitinib 152；第 28 天疗效分析：主人 VAS 264 只，CADESI-02 268 只",
+   "flags": [
+    "厂商资助：Pfizer Animal Health/Zoetis"
+   ],
+   "same_cohort_as": [],
+   "cebm_level": "2",
+   "cebm_card_display": "CEBM 2 级"
+  },
+  "25496303": {
+   "year": "2015",
+   "journal": "Vet Dermatol",
+   "design_zh": "RCT（阳性对照、非劣效；研究者设盲，主人未设盲）",
+   "species_zh": "犬",
+   "n": 226,
+   "n_label_zh": "226 只",
+   "n_quote": "A total of 226 client-owned dogs with a history of AD from eight sites were enrolled.",
+   "n_source": "全文 ft/dogad/PMC4365754.txt",
+   "n_status": "全文/摘要原句",
+   "design_note_zh": "原文：'dog owners were not blinded in this study'",
+   "flags": [
+    "厂商资助：Pfizer Animal Health/Zoetis"
+   ],
+   "same_cohort_as": [],
+   "cebm_level": "2",
+   "cebm_card_display": "CEBM 2 级"
+  },
+  "27647569": {
+   "year": "2016",
+   "journal": "Vet Dermatol",
+   "design_zh": "RCT（双盲、安慰剂对照、剂量探索）",
+   "species_zh": "犬",
+   "n": 211,
+   "n_label_zh": "211 只",
+   "n_quote": "Clinicians at 15 referral clinics enrolled 211 client owned dogs with a history of chronic AD.",
+   "n_source": "PubMed 摘要（ft/dogad）/27647569_abs.txt",
+   "n_status": "摘要原句；全文未取得（Wiley 403）",
+   "flags": [
+    "仅摘要",
+    "厂商相关：作者单位均为 Zoetis"
+   ],
+   "same_cohort_as": [],
+   "cebm_level": "2",
+   "cebm_card_display": "CEBM 2 级"
+  },
+  "28906040": {
+   "year": "2017",
+   "journal": "Vet Dermatol",
+   "design_zh": "RCT（阳性对照、非劣效）+ 单臂延续期",
+   "species_zh": "犬",
+   "n": 274,
+   "n_label_zh": "274 只",
+   "n_quote": "Dogs with chronic AD (n = 274) were enrolled from 40 practices in Belgium, The Netherlands, France and Germany.",
+   "n_source": "PubMed 摘要（ft/dogad）/28906040_abs.txt",
+   "n_status": "摘要原句；全文未取得（Wiley 403）",
+   "n_detail_zh": "比较期 lokivetmab 142 只；延续期 81 只",
+   "flags": [
+    "仅摘要",
+    "厂商相关：作者单位均为 Zoetis"
+   ],
+   "same_cohort_as": [],
+   "cebm_level": "2",
+   "cebm_card_display": "CEBM 2 级"
+  },
+  "34180084": {
+   "year": "2021",
+   "journal": "Vet Dermatol",
+   "design_zh": "RCT（设盲、盐水对照、多中心）",
+   "species_zh": "犬",
+   "n": 123,
+   "n_label_zh": "123 只",
+   "n_quote": "A total of 123 dogs (62 saline controls; 61 lokivetmab‐treated) were enrolled from 14 veterinary practices",
+   "n_source": "全文 ft/dogad/PMC8519066.txt",
+   "n_status": "全文原句",
+   "n_detail_zh": "盐水 62、lokivetmab 61；第 28 天主要分析 99 只（44/55）",
+   "population_note_zh": "人群宽于特应性皮炎：入组为过敏性皮炎（食物、跳蚤、接触过敏或未明确），由兽医自行判断、不要求检查；特应性皮炎只能与其他病因合并诊断，占 33.3%。",
+   "population_quote": "A presumptive diagnosis was made to include one or more of the following: adverse reaction to food, flea allergy, contact allergy, suspected AD or unspecified allergic dermatosis. The diagnoses were made at the discretion of the investigators (i.e. specific tests were not imperative) and several presumptive causes could be identified at the same time. A diagnosis of cAD was only allowed in combination with one of the other aetiologies.",
+   "population_quote2": "The most common presumptive diagnosis was food allergy (41.5%), followed by AD (33.3%, in combination with other aetiologies) and contact allergy (33.3%).",
+   "flags": [
+    "人群宽于特应性皮炎",
+    "厂商资助：Zoetis"
+   ],
+   "same_cohort_as": [],
+   "cebm_level": "2",
+   "cebm_card_display": "CEBM 2 级"
+  },
+  "20187911": {
+   "year": "2010",
+   "journal": "Vet Dermatol",
+   "design_zh": "前瞻性多中心诊断标准研究（横断面诊断准确性；模拟退火筛选标准）",
+   "species_zh": "犬",
+   "n": null,
+   "n_label_zh": null,
+   "n_quote": null,
+   "n_source": null,
+   "n_status": "摘要未写 n；全文未取得（Wiley 403）",
+   "flags": [
+    "仅摘要",
+    "二手引用数值（26260508 表 4）与本文摘要不一致，卡片只用本文自报数字，待全文核"
+   ],
+   "same_cohort_as": [],
+   "cebm_level": "待全文核实",
+   "cebm_card_display": "待全文核实",
+   "cebm_status": "待全文核实"
+  },
+  "30115047": {
+   "year": "2018",
+   "journal": "BMC Vet Res",
+   "design_zh": "核心结局集共识（ICADA 小组委员会；非疗效研究）",
+   "species_zh": "犬",
+   "n": null,
+   "n_label_zh": null,
+   "n_quote": null,
+   "n_source": null,
+   "n_status": "不适用（核心结局集）",
+   "n_detail_zh": "参与者人数原文自相矛盾：称有 8 名参与者，但只列出 7 人，共识门槛写“7 人中 5 人”",
+   "n_detail_quote": "Throughout the two years of development of this COSCAD’18, we had eight geographically-dispersed participants",
+   "flags": [
+    "原文内部不一致：参与者 8 vs 7",
+    "利益冲突声明前后不一致"
+   ],
+   "n_detail_quote2": "Each individual step lasted until a consensus among at least 70% of members (i.e. five of seven) was reached on the specific points being discussed.",
+   "same_cohort_as": [],
+   "cebm_level": "不适用（核心结局集）",
+   "cebm_card_display": "不适用（核心结局集）"
   }
  }
 }

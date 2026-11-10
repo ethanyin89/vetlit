@@ -1219,6 +1219,47 @@
     "20005753"
    ],
    "bottom_line_clinical": false
+  },
+  {
+   "id": "dermatology",
+   "name_zh": "皮肤科",
+   "name_en": "Dermatology",
+   "parent": null,
+   "n": 0,
+   "bottom_line": "",
+   "bottom_line_source": "",
+   "core": [],
+   "newest": [],
+   "all_ids": [],
+   "bottom_line_clinical": false
+  },
+  {
+   "id": "canine_atopic_dermatitis",
+   "name_zh": "犬特应性皮炎",
+   "name_en": "Canine atopic dermatitis",
+   "parent": "dermatology",
+   "n": 14,
+   "bottom_line": "",
+   "bottom_line_source": "",
+   "core": [],
+   "newest": [],
+   "all_ids": [
+    "42805756",
+    "26260508",
+    "40470278",
+    "20187910",
+    "16412115",
+    "34180084",
+    "24581322",
+    "28906040",
+    "27647569",
+    "25496303",
+    "20187911",
+    "36940185",
+    "42007020",
+    "30115047"
+   ],
+   "bottom_line_clinical": false
   }
  ]
 }

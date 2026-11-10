@@ -3614,5 +3614,610 @@
   "text_source": "full_text",
   "text_file": "ft/hyper/PMC12197586.txt",
   "text_url": "https://europepmc.org/article/PMC/PMC12197586"
+ },
+ {
+  "pmid": "42805756",
+  "doi": "10.1111/vde.70128",
+  "id": "42805756",
+  "matched_by": "pmid",
+  "title_zh": "ICADA 2026：犬特应性皮炎治疗指南全面改写",
+  "one_line_conclusion_zh": "ICADA 2026 指南把治疗分为反应期和维持期：口服糖皮质激素用于控制急性发作（SOR A），环孢素只用于维持期（SOR A），oclacitinib、ilunocitinib 和 lokivetmab 两期都可用（SOR A）。",
+  "why_it_matters": "这是国际过敏性疾病委员会（ICADA）2015 年后的首次大改，原文称是对 2010、2015 版的“major rewrite”，纳入证据截至 2026 年 7 月。它按作用机制组织推荐，新增 ilunocitinib 和 atinvicitinib 两种 JAK 抑制剂，其中 atinvicitinib 只有会议摘要支持（SOR C）。指南按 SORT 给推荐强度，但不是系统评价。抓取的全文在第 7.7 节后截断，作者利益冲突声明未读到。",
+  "key_results": [
+   {
+    "measure": "口服糖皮质激素",
+    "groups": "推荐用于反应期控制发作（SOR A）；因不良反应常见，长期使用需谨慎",
+    "effect_ci": "不适用",
+    "p": "不适用"
+   },
+   {
+    "measure": "JAK 抑制剂与 lokivetmab",
+    "groups": "oclacitinib、ilunocitinib、lokivetmab 均可用于急性发作和维持期（SOR A），lokivetmab 尤适合以瘙痒为主的犬；atinvicitinib 仅有摘要数据（SOR C）",
+    "effect_ci": "不适用",
+    "p": "不适用"
+   },
+   {
+    "measure": "环孢素与变应原免疫治疗",
+    "groups": "环孢素起效慢，适用于维持期，不推荐用于反应期（SOR A）；变应原免疫治疗推荐用于维持期（SOR B）",
+    "effect_ci": "不适用",
+    "p": "不适用"
+   },
+   {
+    "measure": "其他",
+    "groups": "抗组胺药不建议用于反应期（SOR B）；评估食物过敏须做排除饮食试验，血清/皮内试验不能替代（SOR A）",
+    "effect_ci": "不适用",
+    "p": "不适用"
+   }
+  ],
+  "confidence_sentence": "指南/共识不做 CEBM 分级，该指南未分级（指南自身用 SORT 给推荐强度），未做 AGREE II 正式评分；结论基于全文（机构库出版社版 PDF，读至第 7.7 节）。",
+  "clinical_meaning": "急性发作先用口服糖皮质激素、JAK 抑制剂或 lokivetmab 快速控制，缓解后转入长期维持治疗，不要只在发作时用药。",
+  "key_results_top3": [
+   0,
+   1,
+   2
+  ],
+  "funding_coi_zh": "资金与利益冲突：抓取的全文在第 7.7 节后截断，声明部分未读到，待核。原文称推荐某产品不代表 ICADA 为其背书。",
+  "funding_coi_quote": "Importantly, a recommendation for a specific product does not imply endorsement of the product or its manufacturer by the ICADA.",
+  "text_source": "full_text",
+  "text_file": "ft/dogad/42805756_excerpt.txt",
+  "text_url": "https://www.research.ed.ac.uk/files/694348407/Veterinary_Dermatology_-_2026_-_Mueller_-_Treatment_of_Canine_Atopic_Dermatitis_Updated_Guidelines_From_the_International.pdf"
+ },
+ {
+  "pmid": "26260508",
+  "doi": "10.1186/s12917-015-0515-5",
+  "id": "26260508",
+  "matched_by": "pmid",
+  "title_zh": "ICADA 2015：犬特应性皮炎诊断指南",
+  "one_line_conclusion_zh": "ICADA 诊断指南：犬特应性皮炎要靠符合临床标准（Favrot 标准）并排除其他瘙痒性皮肤病来诊断；过敏原检测只用于确诊后挑选免疫治疗的过敏原，不能用来诊断。",
+  "why_it_matters": "这是 ICADA 现行的犬特应性皮炎诊断指南，2026 年新版只更新了治疗部分。它把诊断拆成排除寄生虫、排查细菌和马拉色菌感染、做排除饮食试验，再套用 Favrot 标准。检索纳入 81 篇文献并结合专家意见，不是系统评价，也没有给推荐分级。表中 Favrot 标准的数值引自 20187911。",
+  "key_results": [
+   {
+    "measure": "Favrot 标准第 1 组（引自 Favrot 2010）",
+    "groups": "满足 5 条：灵敏度 85.4%，特异度 79.1%；满足 6 条：灵敏度 58.2%，特异度 88.5%",
+    "effect_ci": "不适用",
+    "p": "不适用"
+   },
+   {
+    "measure": "排除饮食试验",
+    "groups": "常年瘙痒和/或伴胃肠道症状的犬必须做；严格只喂试验粮至少 8 周",
+    "effect_ci": "不适用",
+    "p": "不适用"
+   },
+   {
+    "measure": "过敏原检测（皮内试验/血清特异性 IgE）",
+    "groups": "不能用于诊断特应性皮炎，也不能用于诊断食物不良反应；临床确诊后才用于找出可回避或做免疫治疗的过敏原",
+    "effect_ci": "不适用",
+    "p": "不适用"
+   }
+  ],
+  "confidence_sentence": "指南/共识不做 CEBM 分级，该指南未分级（未给推荐强度），未做 AGREE II 正式评分；结论基于全文。",
+  "clinical_meaning": "瘙痒犬先系统排除寄生虫、感染和食物过敏，再用 Favrot 标准下临床诊断；不要用过敏原检测来“确诊”。",
+  "key_results_top3": [
+   0,
+   1,
+   2
+  ],
+  "funding_coi_zh": "资金：原文未声明（BMC 免除了版面费）。利益冲突：作者声明无利益冲突。",
+  "funding_coi_quote": "The authors declare that they have no competing interests.",
+  "text_source": "full_text",
+  "text_file": "ft/dogad/PMC4531508.txt",
+  "text_url": "https://europepmc.org/article/PMC/PMC4531508"
+ },
+ {
+  "pmid": "20187910",
+  "doi": "10.1111/j.1365-3164.2009.00784.x",
+  "id": "20187910",
+  "matched_by": "pmid",
+  "title_zh": "犬特应性皮炎干预措施：49 项 RCT 的系统评价",
+  "one_line_conclusion_zh": "纳入 49 项 RCT（2126 只犬）的系统评价发现，外用他克莫司、外用曲安奈德、口服糖皮质激素、口服环孢素、注射重组 γ-干扰素和皮下变应原免疫治疗有一定疗效证据。",
+  "why_it_matters": "这是按 Cochrane 方法做的犬特应性皮炎干预系统评价，对相似干预做了合并和 meta 分析；2015 和 2026 版 ICADA 治疗指南都引用了它。检索截至 2007 年 12 月，不含 oclacitinib、lokivetmab 等新药。作者指出纳入试验的设计有缺陷。只读到摘要，各干预的效应量没有核对。",
+  "key_results": [
+   {
+    "measure": "有一定疗效证据的干预（RCT 数）",
+    "groups": "外用他克莫司（3）、外用曲安奈德（1）、口服糖皮质激素（5）、口服环孢素（6）、皮下重组 γ-干扰素（1）、皮下变应原免疫治疗（3）",
+    "effect_ci": "原文摘要未给出",
+    "p": "原文摘要未给出"
+   },
+   {
+    "measure": "口服必需脂肪酸",
+    "groups": "1 项高质量 RCT：可使泼尼松龙用量减少约一半",
+    "effect_ci": "原文摘要未给出",
+    "p": "原文摘要未给出"
+   },
+   {
+    "measure": "纳入证据",
+    "groups": "49 项 RCT，共 2126 只犬；1980 年 1 月至 2007 年 12 月发表",
+    "effect_ci": "不适用",
+    "p": "不适用"
+   }
+  ],
+  "confidence_sentence": "本文为 RCT 的系统评价（部分做 meta 分析），CEBM 治疗问题 1 级，AMSTAR 2 未评（仅摘要），结论仅基于摘要。",
+  "clinical_meaning": "糖皮质激素、环孢素和外用他克莫司有 RCT 支持；JAK 抑制剂和 lokivetmab 要看之后的研究。",
+  "key_results_top3": [
+   0,
+   1,
+   2
+  ],
+  "funding_coi_zh": "资金：仅读摘要，未知。利益冲突：仅读摘要，未知。",
+  "funding_coi_quote": null,
+  "text_source": "abstract",
+  "text_file": "ft/dogad/20187910_abs.txt",
+  "text_url": "https://pubmed.ncbi.nlm.nih.gov/20187910/"
+ },
+ {
+  "pmid": "16412115",
+  "doi": "10.1111/j.1365-3164.2005.00491.x",
+  "id": "16412115",
+  "matched_by": "pmid",
+  "title_zh": "环孢素治疗犬特应性皮炎：系统评价与 meta 分析",
+  "one_line_conclusion_zh": "10 项研究（799 只犬）的 meta 分析显示，环孢素疗效显著优于安慰剂，与口服糖皮质激素无显著差异；最常见副作用为呕吐（25%）和软便/腹泻（15%）。",
+  "why_it_matters": "这是环孢素治疗犬特应性皮炎唯一的 meta 分析，给出了皮损改善幅度和减量比例，可供门诊调药参考。PubMed 记录的作者单位是 Novartis Animal Health（当时环孢素 Atopica 的生产商），资助和利益冲突要读全文确认。摘要只说纳入“前瞻性临床试验”，没说是否都随机。与 20187910 纳入的环孢素 RCT 可能重叠。只读到摘要。",
+  "key_results": [
+   {
+    "measure": "环孢素 vs 安慰剂；vs 口服糖皮质激素",
+    "groups": "meta 分析：对安慰剂效果高度显著；与口服糖皮质激素无显著差异",
+    "effect_ci": "原文摘要未给出",
+    "p": "原文摘要未给出"
+   },
+   {
+    "measure": "皮损评分较基线改善",
+    "groups": "第 4、6、16 周分别为 30–52%、53–84%、52–69%",
+    "effect_ci": "不适用",
+    "p": "不适用"
+   },
+   {
+    "measure": "不良事件",
+    "groups": "呕吐 25%，软便/腹泻 15%；其他类型均低于 2.1%",
+    "effect_ci": "不适用",
+    "p": "不适用"
+   },
+   {
+    "measure": "减量",
+    "groups": "4 周后 40–50% 的犬可改为隔日给药；12–16 周后 20–26% 可改为每周两次",
+    "effect_ci": "不适用",
+    "p": "不适用"
+   }
+  ],
+  "confidence_sentence": "本文为系统评价与 meta 分析（摘要称纳入前瞻性临床试验，是否全部随机未知），CEBM 等级待全文核实，AMSTAR 2 未评（仅摘要），结论仅基于摘要。",
+  "clinical_meaning": "环孢素长期控制效果与糖皮质激素相当，开始用药时常见胃肠道反应；多数犬几周后可以减量。",
+  "key_results_top3": [
+   0,
+   1,
+   2
+  ],
+  "funding_coi_zh": "资金：仅读摘要，未知。利益冲突：仅读摘要，未知；PubMed 记录的作者单位为 Novartis Animal Health（环孢素 Atopica 当时的生产商），疑为厂商研究，待全文核。",
+  "funding_coi_quote": "Novartis Animal Health, Basel, Switzerland.",
+  "text_source": "abstract",
+  "text_file": "ft/dogad/16412115_abs.txt",
+  "text_url": "https://pubmed.ncbi.nlm.nih.gov/16412115/"
+ },
+ {
+  "pmid": "36940185",
+  "doi": "10.2460/javma.22.12.0576",
+  "id": "36940185",
+  "matched_by": "pmid",
+  "title_zh": "变应原免疫治疗：犬特应性皮炎与猫特应性皮肤综合征综述",
+  "one_line_conclusion_zh": "综述认为变应原免疫治疗是犬特应性皮炎和猫特应性皮肤综合征唯一针对病因的治疗，并介绍了经典皮下、快速（rush）、淋巴结内和口腔黏膜/舌下等方案。",
+  "why_it_matters": "标题称系统评价（PubMed 文献类型也标 Systematic Review），但只读到摘要：摘要未写检索策略、纳入标准或纳入研究数，这不能证明全文没有。设计类型和 CEBM 等级待全文核实。只读到摘要，没有效应数据。",
+  "key_results": [
+   {
+    "measure": "免疫治疗的定位",
+    "groups": "唯一基于病因的确定性治疗",
+    "effect_ci": "不适用",
+    "p": "不适用"
+   },
+   {
+    "measure": "方案类型",
+    "groups": "经典皮下注射（数周至数月的诱导期后转为维持期）；rush 法缩短诱导期；淋巴结内注射；口腔黏膜或舌下",
+    "effect_ci": "不适用",
+    "p": "不适用"
+   },
+   {
+    "measure": "机制",
+    "groups": "诱导调节性 T 细胞反应，下调对致敏过敏原的过度免疫反应",
+    "effect_ci": "不适用",
+    "p": "不适用"
+   }
+  ],
+  "confidence_sentence": "本文标题称系统评价（待核实），CEBM 等级待全文核实，结论仅基于摘要。",
+  "clinical_meaning": "对需要长期管理的特应性皮炎犬猫可考虑免疫治疗，剂量和间隔需按个体调整。",
+  "key_results_top3": [
+   0,
+   1,
+   2
+  ],
+  "funding_coi_zh": "资金：仅读摘要，未知。利益冲突：仅读摘要，未知（PubMed 未收录作者单位）。",
+  "funding_coi_quote": null,
+  "text_source": "abstract",
+  "text_file": "ft/dogad/36940185_abs.txt",
+  "text_url": "https://pubmed.ncbi.nlm.nih.gov/36940185/"
+ },
+ {
+  "pmid": "40470278",
+  "doi": "10.3389/fvets.2025.1551207",
+  "id": "40470278",
+  "matched_by": "pmid",
+  "title_zh": "过敏原致敏检测的诊断效能：系统评价",
+  "one_line_conclusion_zh": "纳入 72 篇研究的系统评价认为，皮内试验、血清特异性 IgE 等检测的诊断效能数据太少，无法推荐任何一种用于犬特应性皮炎。",
+  "why_it_matters": "门诊常把过敏原检测当诊断工具，本文直接回答它准不准。多数研究（68/72）没有明确的参考标准，约 70% 未报告判读者设盲；皮内试验的 37 篇里只有 5 篇报告了灵敏度和特异度。作者按 PRISMA 报告，用改编的 QUADAS-2 定性评偏倚，未做 meta 分析。",
+  "key_results": [
+   {
+    "measure": "纳入研究",
+    "groups": "72 篇：血清特异性 IgE 36、皮内试验 37、点刺试验 2、斑贴试验 1（有重叠）",
+    "effect_ci": "不适用",
+    "p": "不适用"
+   },
+   {
+    "measure": "偏倚风险",
+    "groups": "68/72 未明确参考标准；约 70% 未报告判读者设盲；作者判断整体为中到高偏倚风险",
+    "effect_ci": "不适用",
+    "p": "不适用"
+   },
+   {
+    "measure": "诊断效能报告",
+    "groups": "皮内试验的 37 篇中仅 5 篇报告灵敏度和特异度；血清 IgE 阳性阈值无共识",
+    "effect_ci": "不适用",
+    "p": "不适用"
+   }
+  ],
+  "confidence_sentence": "本文为诊断准确性系统评价（定性综合，无 meta），CEBM 诊断问题 3 级（纳入研究参考标准不一致），AMSTAR 2 尚未评估，结论基于全文。",
+  "clinical_meaning": "过敏原检测阳性不等于确诊特应性皮炎，应先按临床标准下诊断，检测结果只作参考。",
+  "key_results_top3": [
+   0,
+   1,
+   2
+  ],
+  "funding_coi_zh": "资金：安蒂奥基亚大学和 CES 大学的校内研究经费。利益冲突：作者声明无商业或财务利益冲突；另声明用 ChatGPT 润色语言。",
+  "funding_coi_quote": "The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.",
+  "text_source": "full_text",
+  "text_file": "ft/dogad/PMC12133834.txt",
+  "text_url": "https://europepmc.org/article/PMC/PMC12133834"
+ },
+ {
+  "pmid": "42007020",
+  "doi": "10.18849/ve.v7i2.569",
+  "id": "42007020",
+  "matched_by": "pmid",
+  "title_zh": "lokivetmab 与 oclacitinib 谁更有效：知识摘要",
+  "one_line_conclusion_zh": "知识摘要只找到 1 项 RCT 和 1 项前后对照研究，证据弱，不足以判断 lokivetmab 是否比 oclacitinib 更能降低皮损评分。",
+  "why_it_matters": "这是唯一直接比较两药的二次文献。所依据的 RCT（Marsella 2020）只有 19 只实验室致敏比格犬，随机方法和每组只数都没报告；另一项是 135 只犬的回顾性前后对照。作者结论是两药都有效，但现有证据回答不了谁更好。",
+  "key_results": [
+   {
+    "measure": "RCT（Marsella 2020，19 只实验比格犬）",
+    "groups": "第 1–2 周 oclacitinib 组 CADESI-03 显著低于对照；lokivetmab 组与对照无显著差异",
+    "effect_ci": "原文未给出",
+    "p": "oclacitinib vs 对照 P = 0.015"
+   },
+   {
+    "measure": "前后对照（Souza 2018，135 只）",
+    "groups": "对 oclacitinib 每日两次完全反应的犬，lokivetmab 治疗成功几率更高",
+    "effect_ci": "OR 7.4（95% CI 1.3–40.9）",
+    "p": "0.03"
+   },
+   {
+    "measure": "纳入证据",
+    "groups": "1 项 RCT + 1 项回顾性前后对照；作者评为“弱”",
+    "effect_ci": "不适用",
+    "p": "不适用"
+   }
+  ],
+  "confidence_sentence": "本文为知识摘要（二次文献），CEBM 治疗问题 2 级（取所引最高证据：1 项 RCT），ROBIS 尚未评估，结论基于全文。",
+  "clinical_meaning": "两药都有效，但谁更好目前没有可靠证据。",
+  "key_results_top3": [
+   0,
+   1,
+   2
+  ],
+  "funding_coi_zh": "资金：原文未声明。利益冲突：作者声明无利益冲突。",
+  "funding_coi_quote": "The authors declare no conflicts of interest.",
+  "text_source": "full_text",
+  "text_file": "ft/dogad/PMC13011112.txt",
+  "text_url": "https://europepmc.org/article/PMC/PMC13011112"
+ },
+ {
+  "pmid": "24581322",
+  "doi": "10.1111/vde.12088",
+  "id": "24581322",
+  "matched_by": "pmid",
+  "title_zh": "oclacitinib 对照安慰剂：关键注册试验",
+  "one_line_conclusion_zh": "299 只犬的双盲 RCT 中，在第 0–28 天的安慰剂对照期，第 28 天按主人瘙痒评分判定的治疗成功率 oclacitinib 为 66.0%，安慰剂为 4.0%。",
+  "why_it_matters": "这是 oclacitinib（Apoquel）在美国注册的关键试验，起效快，第 1 天瘙痒评分即下降 29.5%。第 28 天后超过 86% 的安慰剂犬转入开放标签研究，之后的组间比较有偏倚，可靠的只有前 28 天。疗效分析排除了服药不足 80% 和方案偏离的犬，不是意向性分析。试验由 Pfizer Animal Health（现 Zoetis）资助，作者都是该公司现任或前任雇员。",
+  "key_results": [
+   {
+    "measure": "第 28 天治疗成功（主人瘙痒 VAS 下降 ≥2 cm）",
+    "groups": "oclacitinib 66.0%（95% CI 54–76%）vs 安慰剂 4.0%（1–9%）",
+    "effect_ci": "不适用",
+    "p": "<0.0001"
+   },
+   {
+    "measure": "第 28 天治疗成功（皮肤科医生 CADESI-02 下降 ≥50%）",
+    "groups": "oclacitinib 49%（95% CI 32–66%）vs 安慰剂 4.0%（1–11%）",
+    "effect_ci": "不适用",
+    "p": "<0.0001"
+   },
+   {
+    "measure": "第 1 天主人瘙痒评分较基线下降",
+    "groups": "oclacitinib 29.5% vs 安慰剂 6.5%",
+    "effect_ci": "原文未给出",
+    "p": "<0.0001"
+   },
+   {
+    "measure": "第 0–16 天不良反应",
+    "groups": "腹泻 4.6% vs 3.4%；呕吐 3.9% vs 4.1%；厌食 2.6% vs 0",
+    "effect_ci": "不适用",
+    "p": "原文未给出"
+   }
+  ],
+  "confidence_sentence": "本文为双盲安慰剂对照 RCT，CEBM 治疗问题 2 级，RoB 2 尚未评估，结论基于全文。",
+  "clinical_meaning": "oclacitinib 能在数天内明显减轻瘙痒，适合需要快速止痒的犬；本试验的安慰剂对照只有 28 天，长期安全性要看其他研究。",
+  "key_results_top3": [
+   0,
+   1,
+   2
+  ],
+  "funding_coi_zh": "资金：Pfizer Animal Health（oclacitinib 研发方，现 Zoetis）发起并资助。利益冲突：所有作者均为 Zoetis（原 Pfizer Animal Health）现任或前任雇员。",
+  "funding_coi_quote": "Sources of Funding: This study was initiated and funded by Pfizer Animal Health, New York, NY, USA. Conflict of Interest: All authors are current or former employees of Zoetis Inc. (formerly Pfizer Animal Health).",
+  "text_source": "full_text",
+  "text_file": "ft/dogad/PMC4286885.txt",
+  "text_url": "https://europepmc.org/article/PMC/PMC4286885"
+ },
+ {
+  "pmid": "25496303",
+  "doi": "10.1111/vde.12186",
+  "id": "25496303",
+  "matched_by": "pmid",
+  "title_zh": "oclacitinib 对照环孢素：头对头比较",
+  "one_line_conclusion_zh": "226 只犬的 RCT 中，oclacitinib 起效比环孢素快，到第 28 天瘙痒下降都更多；第 56 天起两药相当，环孢素组呕吐/腹泻的犬是 oclacitinib 组的 3 倍多。",
+  "why_it_matters": "这是 oclacitinib 与环孢素的头对头注册试验，皮损评分上 oclacitinib 第 28 天达到非劣效（界值 15%）。两药给药方式不同，主人没有设盲，而主要终点之一的瘙痒正是主人评的，可能有偏倚。试验由 Pfizer Animal Health 和 Zoetis 资助，作者都是公司现任或前任雇员。",
+  "key_results": [
+   {
+    "measure": "主人瘙痒 VAS 较基线下降",
+    "groups": "第 14 天 oclacitinib 63.2% vs 环孢素 27.9%；第 28 天 50.9% vs 39.2%（主人未设盲）",
+    "effect_ci": "第 28 天：50.9%（44.1–57.8）vs 39.2%（33.2–45.2）",
+    "p": "第 14 天 <0.0001；第 28 天 0.0057"
+   },
+   {
+    "measure": "研究者 CADESI-02 较基线下降",
+    "groups": "第 14 天 58.7% vs 43.0%；第 28 天 58.3% vs 54.4%（oclacitinib 达非劣效）",
+    "effect_ci": "第 28 天：58.3%（51.6–65.1）vs 54.4%（47.7–61.1）",
+    "p": "第 14 天 <0.0001；第 28 天 0.2799"
+   },
+   {
+    "measure": "第 84 天主人瘙痒 VAS 下降",
+    "groups": "两组相近：oclacitinib 61.0% vs 环孢素 61.5%",
+    "effect_ci": "61.0%（54.1–67.8）vs 61.5%（54.4–68.6）",
+    "p": "0.9047"
+   },
+   {
+    "measure": "因呕吐退出",
+    "groups": "环孢素 6 只 vs oclacitinib 1 只",
+    "effect_ci": "不适用",
+    "p": "不适用"
+   }
+  ],
+  "confidence_sentence": "本文为阳性对照 RCT（非劣效设计，主人未设盲），CEBM 治疗问题 2 级，RoB 2 尚未评估，结论基于全文。",
+  "clinical_meaning": "需要快速止痒时 oclacitinib 优于环孢素；用药 2 个月以上两药疗效相近，环孢素胃肠道反应更多。",
+  "key_results_top3": [
+   0,
+   1,
+   2
+  ],
+  "funding_coi_zh": "资金：Pfizer Animal Health 发起并资助，后期由 Zoetis 资助（oclacitinib 研发方）。利益冲突：所有作者均为 Zoetis（原 Pfizer Animal Health）现任或前任雇员。",
+  "funding_coi_quote": "Sources of Funding: This study was initiated and funded by Pfizer Animal Health; final stages of the study were funded by Zoetis Inc. Conflict of Interest: All authors are current or former employees of Zoetis (formerly Pfizer Animal Health).",
+  "text_source": "full_text",
+  "text_file": "ft/dogad/PMC4365754.txt",
+  "text_url": "https://europepmc.org/article/PMC/PMC4365754"
+ },
+ {
+  "pmid": "27647569",
+  "doi": "10.1111/vde.12376",
+  "id": "27647569",
+  "matched_by": "pmid",
+  "title_zh": "lokivetmab 剂量探索：对照安慰剂",
+  "one_line_conclusion_zh": "211 只犬的双盲 RCT 中，单次注射 lokivetmab 2 mg/kg 后第 1–49 天瘙痒下降均多于安慰剂；剂量越高，起效越早、持续越久。",
+  "why_it_matters": "这是 lokivetmab（Cytopoint）确定剂量的关键试验，0.5 和 2.0 mg/kg 的止痒效果至少维持 1 个月。摘要只给 P < 0.05 和有效的起止天数，没有效应量，也没有各组只数和不良事件。只读到摘要。PubMed 记录的作者单位均为 Zoetis（lokivetmab 生产商），资助声明未读到。",
+  "key_results": [
+   {
+    "measure": "2 mg/kg vs 安慰剂",
+    "groups": "主人瘙痒评分下降更多：第 1–49 天；CADESI-03 下降更多：第 7–56 天",
+    "effect_ci": "原文摘要未给出",
+    "p": "<0.05"
+   },
+   {
+    "measure": "0.5 mg/kg vs 安慰剂",
+    "groups": "瘙痒：第 2–35 天；CADESI-03：仅第 14 天",
+    "effect_ci": "原文摘要未给出",
+    "p": "<0.05"
+   },
+   {
+    "measure": "0.125 mg/kg vs 安慰剂",
+    "groups": "瘙痒：第 7–21 天；CADESI-03：仅第 14 天",
+    "effect_ci": "原文摘要未给出",
+    "p": "<0.05"
+   }
+  ],
+  "confidence_sentence": "本文为双盲安慰剂对照剂量探索 RCT，CEBM 治疗问题 2 级，RoB 2 未评（仅摘要），结论仅基于摘要。",
+  "clinical_meaning": "lokivetmab 单次注射可止痒约 1 个月；剂量偏低时起效晚、维持短。",
+  "key_results_top3": [
+   0,
+   1,
+   2
+  ],
+  "funding_coi_zh": "资金：仅读摘要，未知。利益冲突：仅读摘要，未知；PubMed 记录的作者单位均为 Zoetis Inc（lokivetmab 生产商），疑为厂商研究。",
+  "funding_coi_quote": "Global Development and Operations, Zoetis Inc, 333 Portage Street, Kalamazoo, MI, 49007, USA.",
+  "text_source": "abstract",
+  "text_file": "ft/dogad/27647569_abs.txt",
+  "text_url": "https://pubmed.ncbi.nlm.nih.gov/27647569/"
+ },
+ {
+  "pmid": "28906040",
+  "doi": "10.1111/vde.12478",
+  "id": "28906040",
+  "matched_by": "pmid",
+  "title_zh": "lokivetmab 对照环孢素：非劣效试验",
+  "one_line_conclusion_zh": "274 只犬的 RCT 中，第 28 天 lokivetmab 的瘙痒下降不劣于环孢素（51.90% vs 43.72%），但皮损评分未达到非劣效（54.17% vs 56.86%）。",
+  "why_it_matters": "这是 lokivetmab 与环孢素唯一的头对头试验，比较期 3 个月，之后 81 只犬接着用 lokivetmab 6 个月。皮损评分没有达到非劣效，但各时间点两组 CADESI-03 均值无显著差异。摘要中“76.3%（n = 45）”的分母没写清。只读到摘要，非劣效界值和设盲方式没有核对。PubMed 记录的作者单位均为 Zoetis。",
+  "key_results": [
+   {
+    "measure": "第 28 天主人瘙痒 VAS 下降",
+    "groups": "lokivetmab 51.90% vs 环孢素 43.72%（达非劣效）",
+    "effect_ci": "原文摘要未给出",
+    "p": "原文摘要未给出"
+   },
+   {
+    "measure": "第 28 天 CADESI-03 下降",
+    "groups": "lokivetmab 54.17% vs 环孢素 56.86%（未达非劣效）；各时间点均值无显著差异",
+    "effect_ci": "原文摘要未给出",
+    "p": "原文摘要未给出"
+   },
+   {
+    "measure": "6 个月延续期（81 只用 lokivetmab）",
+    "groups": "研究结束时 76.3% 的犬（n = 45）瘙痒评为“正常”；未见与 lokivetmab 相关的异常健康事件（分母未写清）",
+    "effect_ci": "不适用",
+    "p": "不适用"
+   }
+  ],
+  "confidence_sentence": "本文为阳性对照 RCT（非劣效设计）加单臂延续期，CEBM 治疗问题 2 级，RoB 2 未评（仅摘要），结论仅基于摘要。",
+  "clinical_meaning": "lokivetmab 止痒不逊于环孢素，但改善皮损是否不逊于环孢素未得到证实。",
+  "key_results_top3": [
+   0,
+   1,
+   2
+  ],
+  "funding_coi_zh": "资金：仅读摘要，未知。利益冲突：仅读摘要，未知；PubMed 记录的作者单位均为 Zoetis（lokivetmab 生产商），疑为厂商研究。",
+  "funding_coi_quote": "VMRD, Zoetis Belgium SA, Mercuriusstraat 20, Zaventem, 1930, Belgium.",
+  "text_source": "abstract",
+  "text_file": "ft/dogad/28906040_abs.txt",
+  "text_url": "https://pubmed.ncbi.nlm.nih.gov/28906040/"
+ },
+ {
+  "pmid": "34180084",
+  "doi": "10.1111/vde.12984",
+  "id": "34180084",
+  "matched_by": "pmid",
+  "title_zh": "lokivetmab 对照盐水：过敏性皮炎（不限于特应性皮炎）",
+  "one_line_conclusion_zh": "123 只过敏性皮炎犬的 RCT 中，第 28 天主人瘙痒评分下降 lokivetmab 为 57.7%，盐水对照为 21.8%。",
+  "why_it_matters": "这项试验的人群比特应性皮炎宽：入组犬为食物过敏、跳蚤过敏、接触过敏或未明确的过敏性皮肤病，由兽医自行判断、不要求检查，特应性皮炎只能与其他病因合并诊断（占 33.3%）。所以结果不能直接当作特应性皮炎的疗效证据，ICADA 2026 也把它归为“广义过敏性皮炎”。第 28 天对照组 18 只、治疗组 6 只缺数据，对照组退出多因无效。由 Zoetis 资助，作者均为 Zoetis 雇员。",
+  "key_results": [
+   {
+    "measure": "第 28 天主人 pVAS 较基线下降（主要终点）",
+    "groups": "lokivetmab 57.7% vs 盐水 21.8%（最小二乘均值）",
+    "effect_ci": "原文未给出",
+    "p": "<0.0001"
+   },
+   {
+    "measure": "第 28 天研究者皮炎 VAS 较基线下降",
+    "groups": "lokivetmab 57.1% vs 盐水 20.5%",
+    "effect_ci": "原文未给出",
+    "p": "<0.0001"
+   },
+   {
+    "measure": "不良健康事件",
+    "groups": "盐水 14.5%（9 只）vs lokivetmab 11.5%（7 只）",
+    "effect_ci": "不适用",
+    "p": "原文未给出"
+   },
+   {
+    "measure": "第 28 天分析人数",
+    "groups": "99 只（对照 44，lokivetmab 55）；对照 16 只、治疗组 3 只提前退出",
+    "effect_ci": "不适用",
+    "p": "不适用"
+   }
+  ],
+  "confidence_sentence": "本文为设盲安慰剂对照 RCT，CEBM 治疗问题 2 级（人群宽于特应性皮炎，间接性另注），RoB 2 尚未评估，结论基于全文。",
+  "clinical_meaning": "lokivetmab 可减轻多种原因的过敏性瘙痒；用于特应性皮炎时，应以只纳入特应性皮炎犬的试验为主要依据。",
+  "key_results_top3": [
+   0,
+   1,
+   3
+  ],
+  "funding_coi_zh": "资金：Zoetis（lokivetmab 生产商）发起并资助，免费提供试验药品并补偿诊所就诊费用。利益冲突：所有作者均为 Zoetis 雇员。",
+  "funding_coi_quote": "Sources of Funding: This study was initiated and funded by Zoetis Inc. (Parsipanny, NJ, USA). The test article (lokivetmab or saline) was provided at no cost to the clinic and clinicians were compensated for the costs associated with each dog’s clinic visit. Conflicts of Interest: All authors are employees of Zoetis Inc.",
+  "text_source": "full_text",
+  "text_file": "ft/dogad/PMC8519066.txt",
+  "text_url": "https://europepmc.org/article/PMC/PMC8519066"
+ },
+ {
+  "pmid": "20187911",
+  "doi": "10.1111/j.1365-3164.2009.00758.x",
+  "id": "20187911",
+  "matched_by": "pmid",
+  "title_zh": "Favrot 标准：犬特应性皮炎临床诊断标准",
+  "one_line_conclusion_zh": "多中心前瞻性研究提出两组临床诊断标准，灵敏度 80–85%、特异度 79–85%，优于 Willemse 和 Prélaud 标准；食物性和非食物性特应性皮炎临床上无法区分。",
+  "why_it_matters": "这是现在通用的 Favrot 标准的出处，ICADA 2015 诊断指南直接采用。摘要没写入组犬数和各组标准的条目，也没说明验证人群是否独立于建模人群。只读到摘要，标准条目和各组的具体数值需全文核实。",
+  "key_results": [
+   {
+    "measure": "两组诊断标准",
+    "groups": "灵敏度 80–85%；特异度 79–85%",
+    "effect_ci": "不适用",
+    "p": "不适用"
+   },
+   {
+    "measure": "与旧标准比较",
+    "groups": "灵敏度和特异度均优于 Willemse 和 Prélaud 标准",
+    "effect_ci": "原文摘要未给出",
+    "p": "原文摘要未给出"
+   },
+   {
+    "measure": "食物性 vs 非食物性特应性皮炎",
+    "groups": "临床表现无法区分；新标准对两者都适用",
+    "effect_ci": "不适用",
+    "p": "不适用"
+   }
+  ],
+  "confidence_sentence": "本文为前瞻性多中心诊断标准研究（横断面诊断准确性），CEBM 等级待全文核实，QUADAS-2 未评（仅摘要），结论仅基于摘要。",
+  "clinical_meaning": "Favrot 标准可辅助临床诊断，但灵敏度和特异度都不到 90%，需结合排除诊断使用。",
+  "key_results_top3": [
+   0,
+   1,
+   2
+  ],
+  "funding_coi_zh": "资金：仅读摘要，未知。利益冲突：仅读摘要，未知。",
+  "funding_coi_quote": null,
+  "text_source": "abstract",
+  "text_file": "ft/dogad/20187911_abs.txt",
+  "text_url": "https://pubmed.ncbi.nlm.nih.gov/20187911/"
+ },
+ {
+  "pmid": "30115047",
+  "doi": "10.1186/s12917-018-1569-y",
+  "id": "30115047",
+  "matched_by": "pmid",
+  "title_zh": "COSCAD'18：犬特应性皮炎治疗试验核心结局集",
+  "one_line_conclusion_zh": "ICADA 小组委员会提出，犬特应性皮炎治疗试验至少应报告 3 项结局：皮损评分（CADESI4 < 35 或 CADLI < 8）和主人瘙痒评分（PVAS10 < 3.6）达到正常至轻度的犬比例，以及主人评疗效“好或极好”的比例。",
+  "why_it_matters": "它不提供疗效证据，而是规定以后的试验该报告哪些结局，方便不同试验比较和合并。只适用于慢性、非季节性、中重度特应性皮炎的治疗性试验，试验持续 6 周以上才最有代表性。主人整体疗效评价（OGATE）尚未验证。作者承认参与制定的人数少，可能有偏倚。",
+  "key_results": [
+   {
+    "measure": "皮损",
+    "groups": "CADESI4 < 35 或 CADLI < 8（正常至轻度）的犬比例",
+    "effect_ci": "不适用",
+    "p": "不适用"
+   },
+   {
+    "measure": "瘙痒",
+    "groups": "PVAS10 < 3.6（正常至轻度）的犬比例",
+    "effect_ci": "不适用",
+    "p": "不适用"
+   },
+   {
+    "measure": "主人评疗效",
+    "groups": "OGATE > 2（好或极好）的犬比例；OGATE 尚未验证",
+    "effect_ci": "不适用",
+    "p": "不适用"
+   }
+  ],
+  "confidence_sentence": "本文为核心结局集共识，不属于疗效或诊断证据，CEBM 不适用（核心结局集），结论基于全文。",
+  "clinical_meaning": "读犬特应性皮炎治疗试验时，可看它是否报告了这 3 项结局，便于与其他试验比较。",
+  "key_results_top3": [
+   0,
+   1,
+   2
+  ],
+  "funding_coi_zh": "资金：原文未声明（BMC 免除了开放获取费）。利益冲突：原文声明不一致——声明部分称无利益冲突，正文又称所有小组成员都从动物保健企业获得过咨询/讲课酬金或研究资助。",
+  "funding_coi_quote": "The authors declare that they have no competing interests. ‖ While all subcommittee participants have received honoraria for consulting and/or lecturing or research support from commercial companies involved in animal health, this COS was not associated with any specific intervention or brand.",
+  "funding_coi_note_zh": "原文声明不一致",
+  "text_source": "full_text",
+  "text_file": "ft/dogad/PMC6097451.txt",
+  "text_url": "https://europepmc.org/article/PMC/PMC6097451"
  }
 ]

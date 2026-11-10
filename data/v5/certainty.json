@@ -1692,6 +1692,204 @@
    "certainty": "待评定",
    "notes_zh": "未做偏倚风险评估",
    "pending_reason_zh": "尚未做偏倚风险评估（ROBINS-I）"
+  },
+  "42805756": {
+   "rules_applied": [
+    "R-guideline-own-strength"
+   ],
+   "question_type": null,
+   "question_basis": null,
+   "start": null,
+   "start_basis": "指南/共识：按团队规则不套用 GRADE",
+   "downgrades": [],
+   "provisional": null,
+   "certainty": null,
+   "notes_zh": "指南/共识不评证据确定性，首屏显示指南自身推荐强度",
+   "guideline_strength": "SORT（逐条推荐强度见原文）",
+   "guideline_strength_source": "extracts/speedread_fields_v5_dogAD_2026-11-10.json（confidence_sentence）"
+  },
+  "26260508": {
+   "rules_applied": [
+    "R-guideline-own-strength"
+   ],
+   "question_type": null,
+   "question_basis": null,
+   "start": null,
+   "start_basis": "指南/共识：按团队规则不套用 GRADE",
+   "downgrades": [],
+   "provisional": null,
+   "certainty": null,
+   "notes_zh": "指南/共识不评证据确定性，首屏显示指南自身推荐强度",
+   "guideline_strength": "该指南未分级",
+   "guideline_strength_source": "extracts/speedread_fields_v5_dogAD_2026-11-10.json（confidence_sentence）"
+  },
+  "20187910": {
+   "rules_applied": [
+    "R-no-RoB-pending"
+   ],
+   "question_type": "治疗获益",
+   "question_basis": "extracts/cebm_dogAD_2026-11-10.json",
+   "start": null,
+   "start_basis": "",
+   "downgrades": [],
+   "provisional": null,
+   "certainty": "待评定",
+   "notes_zh": "未做偏倚风险评估",
+   "pending_reason_zh": "尚未做偏倚风险评估（AMSTAR 2）"
+  },
+  "16412115": {
+   "rules_applied": [
+    "R-no-RoB-pending"
+   ],
+   "question_type": "治疗获益",
+   "question_basis": "extracts/cebm_dogAD_2026-11-10.json",
+   "start": null,
+   "start_basis": "",
+   "downgrades": [],
+   "provisional": null,
+   "certainty": "待评定",
+   "notes_zh": "未做偏倚风险评估",
+   "pending_reason_zh": "尚未做偏倚风险评估（AMSTAR 2）"
+  },
+  "36940185": {
+   "rules_applied": [
+    "R-no-RoB-pending"
+   ],
+   "question_type": "治疗获益",
+   "question_basis": "extracts/cebm_dogAD_2026-11-10.json",
+   "start": null,
+   "start_basis": "",
+   "downgrades": [],
+   "provisional": null,
+   "certainty": "待评定",
+   "notes_zh": "未做偏倚风险评估",
+   "pending_reason_zh": "尚未做偏倚风险评估"
+  },
+  "40470278": {
+   "rules_applied": [
+    "R-no-RoB-pending"
+   ],
+   "question_type": "诊断",
+   "question_basis": "extracts/cebm_dogAD_2026-11-10.json",
+   "start": null,
+   "start_basis": "",
+   "downgrades": [],
+   "provisional": null,
+   "certainty": "待评定",
+   "notes_zh": "未做偏倚风险评估",
+   "pending_reason_zh": "尚未做偏倚风险评估（AMSTAR 2）"
+  },
+  "42007020": {
+   "rules_applied": [
+    "R-no-RoB-pending"
+   ],
+   "question_type": "治疗获益",
+   "question_basis": "extracts/cebm_dogAD_2026-11-10.json",
+   "start": null,
+   "start_basis": "",
+   "downgrades": [],
+   "provisional": null,
+   "certainty": "待评定",
+   "notes_zh": "未做偏倚风险评估",
+   "pending_reason_zh": "尚未做偏倚风险评估（ROBIS）"
+  },
+  "24581322": {
+   "rules_applied": [
+    "R-no-RoB-pending"
+   ],
+   "question_type": "治疗获益",
+   "question_basis": "extracts/cebm_dogAD_2026-11-10.json",
+   "start": null,
+   "start_basis": "",
+   "downgrades": [],
+   "provisional": null,
+   "certainty": "待评定",
+   "notes_zh": "未做偏倚风险评估",
+   "pending_reason_zh": "尚未做偏倚风险评估（RoB 2）"
+  },
+  "25496303": {
+   "rules_applied": [
+    "R-no-RoB-pending"
+   ],
+   "question_type": "治疗获益",
+   "question_basis": "extracts/cebm_dogAD_2026-11-10.json",
+   "start": null,
+   "start_basis": "",
+   "downgrades": [],
+   "provisional": null,
+   "certainty": "待评定",
+   "notes_zh": "未做偏倚风险评估",
+   "pending_reason_zh": "尚未做偏倚风险评估（RoB 2）"
+  },
+  "27647569": {
+   "rules_applied": [
+    "R-no-RoB-pending"
+   ],
+   "question_type": "治疗获益",
+   "question_basis": "extracts/cebm_dogAD_2026-11-10.json",
+   "start": null,
+   "start_basis": "",
+   "downgrades": [],
+   "provisional": null,
+   "certainty": "待评定",
+   "notes_zh": "未做偏倚风险评估",
+   "pending_reason_zh": "尚未做偏倚风险评估（RoB 2）"
+  },
+  "28906040": {
+   "rules_applied": [
+    "R-no-RoB-pending"
+   ],
+   "question_type": "治疗获益",
+   "question_basis": "extracts/cebm_dogAD_2026-11-10.json",
+   "start": null,
+   "start_basis": "",
+   "downgrades": [],
+   "provisional": null,
+   "certainty": "待评定",
+   "notes_zh": "未做偏倚风险评估",
+   "pending_reason_zh": "尚未做偏倚风险评估（RoB 2）"
+  },
+  "34180084": {
+   "rules_applied": [
+    "R-no-RoB-pending"
+   ],
+   "question_type": "治疗获益",
+   "question_basis": "extracts/cebm_dogAD_2026-11-10.json",
+   "start": null,
+   "start_basis": "",
+   "downgrades": [],
+   "provisional": null,
+   "certainty": "待评定",
+   "notes_zh": "未做偏倚风险评估",
+   "pending_reason_zh": "尚未做偏倚风险评估（RoB 2）"
+  },
+  "20187911": {
+   "rules_applied": [
+    "R-no-RoB-pending"
+   ],
+   "question_type": "诊断",
+   "question_basis": "extracts/cebm_dogAD_2026-11-10.json",
+   "start": null,
+   "start_basis": "",
+   "downgrades": [],
+   "provisional": null,
+   "certainty": "待评定",
+   "notes_zh": "未做偏倚风险评估",
+   "pending_reason_zh": "尚未做偏倚风险评估（QUADAS-2）"
+  },
+  "30115047": {
+   "rules_applied": [
+    "R-no-RoB-pending"
+   ],
+   "question_type": null,
+   "question_basis": "extracts/cebm_dogAD_2026-11-10.json",
+   "start": null,
+   "start_basis": "",
+   "downgrades": [],
+   "provisional": null,
+   "certainty": "待评定",
+   "notes_zh": "未做偏倚风险评估",
+   "pending_reason_zh": "尚未做偏倚风险评估"
   }
  }
 }

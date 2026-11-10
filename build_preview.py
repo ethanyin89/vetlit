@@ -197,7 +197,7 @@ for p in P.values():
         if str(p.get('pmid'))=='23078651' and k.get('measure')=='到达主要终点比例': k['groups']='匹莫苯丹 19/39；安慰剂 25/37（据原文表格推算）'
     p['key_results']=[k for k in (p.get('key_results') or []) if (str(p.get('pmid')),k.get('measure')) not in HIDE_KR]
 def get(i): return P.get(i) or SID.get(i) or SID.get('pmid-'+str(i))
-SPEC={'肾脏':'肾脏','心脏':'心脏','感染':'感染','行为/认知':'行为与认知','营养':'营养','内分泌':'内分泌'}
+SPEC={'肾脏':'肾脏','心脏':'心脏','感染':'感染','行为/认知':'行为与认知','营养':'营养','内分泌':'内分泌','皮肤':'皮肤'}
 def specs(p): return [SPEC[x] for x in re.split(r'[/;；]',p.get('specialty') or '') if x.strip() in SPEC]
 def species(p):
     s=p.get('species_zh') or p.get('species') or ''

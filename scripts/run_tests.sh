@@ -14,5 +14,6 @@ VETLIT_LIVE=1 python3 tests/test_new_guidelines.py
 python3 tests/test_sync_survival.py
 VETLIT_LIVE=1 python3 tests/test_hyperthyroid_batch.py
 VETLIT_LIVE=1 python3 tests/test_same_cohort.py
+VETLIT_LIVE=1 python3 tests/test_dogAD_batch.py
 python3 scripts/check_links.py
 echo ALL OK

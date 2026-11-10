@@ -1123,5 +1123,51 @@
    "pick_reason_zh": null,
    "basis": []
   }
+ ],
+ "42805756": [
+  {
+   "topic": "canine_atopic_dermatitis",
+   "list": "最重要",
+   "backfill": false,
+   "pick_reason_zh": "取代 2010 版和 2015 版 ICADA 犬特应性皮炎治疗指南。",
+   "approved": true,
+   "approved_by": "Vibe",
+   "basis": [
+    "supersession_dogAD_2026-11-10.json records[26276051,20456716].superseded_by=42805756, scope=full, rule_basis=same_body_same_topic_previous"
+   ]
+  },
+  {
+   "topic": "canine_atopic_dermatitis",
+   "list": "最新",
+   "backfill": false,
+   "pick_reason_zh": "取代 2010 版和 2015 版 ICADA 犬特应性皮炎治疗指南。",
+   "approved": true,
+   "approved_by": "Vibe",
+   "basis": [
+    "supersession_dogAD_2026-11-10.json records[26276051,20456716].superseded_by=42805756, scope=full, rule_basis=same_body_same_topic_previous"
+   ]
+  },
+  {
+   "topic": "dermatology",
+   "list": "最重要",
+   "backfill": false,
+   "pick_reason_zh": "取代 2010 版和 2015 版 ICADA 犬特应性皮炎治疗指南。",
+   "approved": true,
+   "approved_by": "Vibe",
+   "basis": [
+    "supersession_dogAD_2026-11-10.json records[26276051,20456716].superseded_by=42805756, scope=full, rule_basis=same_body_same_topic_previous"
+   ]
+  },
+  {
+   "topic": "dermatology",
+   "list": "最新",
+   "backfill": false,
+   "pick_reason_zh": "取代 2010 版和 2015 版 ICADA 犬特应性皮炎治疗指南。",
+   "approved": true,
+   "approved_by": "Vibe",
+   "basis": [
+    "supersession_dogAD_2026-11-10.json records[26276051,20456716].superseded_by=42805756, scope=full, rule_basis=same_body_same_topic_previous"
+   ]
+  }
  ]
 }

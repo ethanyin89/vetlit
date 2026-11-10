@@ -766,6 +766,110 @@
      "design": "队列研究"
     }
    ]
+  },
+  {
+   "topic": "canine_atopic_dermatitis",
+   "topic_zh": "犬特应性皮炎",
+   "items": [
+    {
+     "pmid": "42805756",
+     "reason": "",
+     "title": "Treatment of Canine Atopic Dermatitis: Updated Guidelines From the International Committee on Allergic Diseases of Animals (ICADA).",
+     "year": "2026",
+     "design": "指南/共识"
+    },
+    {
+     "pmid": "26260508",
+     "reason": "",
+     "title": "Canine atopic dermatitis: detailed guidelines for diagnosis and allergen identification.",
+     "year": "2015",
+     "design": "指南/共识"
+    },
+    {
+     "pmid": "40470278",
+     "reason": "",
+     "title": "Efficacy of diagnostic testing for allergen sensitization in canine atopic dermatitis: a systematic review.",
+     "year": "2025",
+     "design": "系统综述/Meta分析"
+    },
+    {
+     "pmid": "20187910",
+     "reason": "",
+     "title": "Interventions for atopic dermatitis in dogs: a systematic review of randomized controlled trials.",
+     "year": "2010",
+     "design": "系统综述/Meta分析"
+    },
+    {
+     "pmid": "16412115",
+     "reason": "",
+     "title": "A systematic review and meta-analysis of the efficacy and safety of cyclosporin for the treatment of atopic dermatitis in dogs.",
+     "year": "2006",
+     "design": "系统综述/Meta分析"
+    },
+    {
+     "pmid": "34180084",
+     "reason": "",
+     "title": "A masked, randomised clinical trial evaluating the efficacy and safety of lokivetmab compared to saline control in client-owned dogs with allergic dermatitis.",
+     "year": "2021",
+     "design": "随机对照试验"
+    },
+    {
+     "pmid": "24581322",
+     "reason": "",
+     "title": "A blinded, randomized, placebo-controlled trial of the efficacy and safety of the Janus kinase inhibitor oclacitinib (Apoquel®) in client-owned dogs with atopic dermatitis.",
+     "year": "2013",
+     "design": "随机对照试验"
+    },
+    {
+     "pmid": "28906040",
+     "reason": "",
+     "title": "A blinded, randomized clinical trial evaluating the efficacy and safety of lokivetmab compared to ciclosporin in client-owned dogs with atopic dermatitis.",
+     "year": "2017",
+     "design": "随机对照试验"
+    },
+    {
+     "pmid": "27647569",
+     "reason": "",
+     "title": "A blinded, randomized, placebo-controlled, dose determination trial of lokivetmab (ZTS-00103289), a caninized, anti-canine IL-31 monoclonal antibody in client owned dogs with atopic dermatitis.",
+     "year": "2016",
+     "design": "随机对照试验"
+    },
+    {
+     "pmid": "25496303",
+     "reason": "",
+     "title": "A blinded, randomized clinical trial comparing the efficacy and safety of oclacitinib and ciclosporin for the control of atopic dermatitis in client-owned dogs.",
+     "year": "2015",
+     "design": "随机对照试验"
+    },
+    {
+     "pmid": "20187911",
+     "reason": "",
+     "title": "A prospective study on the clinical features of chronic canine atopic dermatitis and its diagnosis.",
+     "year": "2010",
+     "design": "横断面研究"
+    },
+    {
+     "pmid": "36940185",
+     "reason": "",
+     "title": "A systematic review of allergen immunotherapy, a successful therapy for canine atopic dermatitis and feline atopic skin syndrome.",
+     "year": "2023",
+     "design": "叙述性综述"
+    },
+    {
+     "pmid": "42007020",
+     "reason": "",
+     "title": "In dogs with atopic skin disease, is lokivetmab more effective than oclacitinib in reducing the score of a recognised scoring system?",
+     "year": "2022",
+     "design": "叙述性综述"
+    },
+    {
+     "pmid": "30115047",
+     "reason": "",
+     "title": "Development of a core outcome set for therapeutic clinical trials enrolling dogs with atopic dermatitis (COSCAD'18).",
+     "year": "2018",
+     "design": "叙述性综述"
+    }
+   ]
   }
  ],
  "supersessions": {
