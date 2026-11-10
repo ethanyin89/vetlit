@@ -706,14 +706,14 @@ def ds_unrated(r):
 def ds_sections(r):
     """[(key, heading, html)] in the record's own order; funding is rendered elsewhere.
     Certainty narrative is shown (GRADE footnote style, including 起评 on rated papers).
-    Unrated reader pages must not contain 起评, so that section is omitted when it would."""
+    Unrated reader pages must not contain 起评 or 起点为, so that section is omitted when it would."""
     out=[]
     skip_cert=ds_unrated(r)
     for k in r.get('section_order') or []:
         sec=(r.get('sections') or {}).get(k) or {}
         md=str(sec.get('markdown') or '')
         if k in DS_SKIP or not md.strip(): continue
-        if k=='certainty' and skip_cert and '起评' in md: continue
+        if k=='certainty' and skip_cert and ('起评' in md or '起点为' in md): continue
         h=re.sub(r'\s+',' ',clean(sec.get('heading') or DS_TITLES.get(k,''))).strip()
         out.append((k,h,ds_md(sec['markdown'])))
     return out

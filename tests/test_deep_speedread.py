@@ -86,7 +86,13 @@ for f in glob.glob('dist/papers/*/index.html'):
     s=open(f,encoding='utf-8').read()
     unrated_seen+=1
     assert '起评' not in s, (pm,)
+    assert '起点为' not in s, (pm,)
 assert unrated_seen>=3
+# cleaned unrated certainty narratives now render (no rating-start wording)
+for pm in ('30797439','25896026','20005753','26265631','26776588'):
+    h,top,fold=parts(pm)
+    assert '证据确定性：暂未评级（仅有摘要）' in top, pm
+    assert '起评' not in h and '起点为' not in h, pm
 # restoration: rated speed-read keeps approved GRADE 起评 wording (was previously stripped by DS_SKIP)
 assert '按 GRADE 对患病率问题的做法从“高”起评' in parts('23647231')[1]
 
@@ -150,6 +156,10 @@ assert '起始低' in h and '证据确定性极低' in h and 'JBI 病例系列�
 # 30543707: body denominator (16/24, 15 improved); no unsourced FDA claim; ROBINS-I; now a deep speed-read
 h,top,fold=parts('30543707')
 assert 'class="dsbl"' in top
+assert 'class="warn"' in top
+assert '证据确定性极低；仅 16/24 只犬做了复查超声' in top
+# warning sits above the clinical-conclusion block
+assert top.find('class="warn"') < top.find('class="dsbl"')
 assert '引发 FDA 调查' not in h and 'FDA 调查' not in h
 assert '随访超声' in top and '16' in top
 assert '无对应偏倚工具' not in h and '不适用（无公认工具）' not in fold
