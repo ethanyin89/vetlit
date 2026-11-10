@@ -40,6 +40,9 @@ for t in (TOPIC,PARENT):
     assert s.count(f'<p class="why">{REASON}</p>')==1 and len(re.findall(r'<p class="why">',s))==1, t
 # 2026-11-09 follow-up: certainty entries from deep extract; 42805756 COI 待查
 h=H('42805756'); top=h.split('id="evidence"',1)[0]
-assert '资助/利益冲突：资金与利益冲突：待查' in top and '指南推荐强度：指南自身用 SORT 给推荐强度' in top
+fold=h.split('id="evidence"',1)[1]
+for x in ('self-funded','World Association for Veterinary Dermatology','Projekt DEAL','R.M.：','D.S.：','不代表 ICADA 为其背书'): assert x in fold, x
+assert '待查' not in h and '7.7' not in h and '资助/利益冲突：资金：本文自筹' in top
+assert '指南推荐强度：指南自身用 SORT 给推荐强度' in top
 assert B.CERT['26260508']['guideline_strength']=='该指南未分级'
 print('dogAD batch tests OK')

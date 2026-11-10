@@ -3622,7 +3622,7 @@
   "matched_by": "pmid",
   "title_zh": "ICADA 2026：犬特应性皮炎治疗指南全面改写",
   "one_line_conclusion_zh": "ICADA 2026 指南把治疗分为反应期和维持期：口服糖皮质激素用于控制急性发作（SOR A），环孢素只用于维持期（SOR A），oclacitinib、ilunocitinib 和 lokivetmab 两期都可用（SOR A）。",
-  "why_it_matters": "这是国际过敏性疾病委员会（ICADA）2015 年后的首次大改，原文称是对 2010、2015 版的“major rewrite”，纳入证据截至 2026 年 7 月。它按作用机制组织推荐，新增 ilunocitinib 和 atinvicitinib 两种 JAK 抑制剂，其中 atinvicitinib 只有会议摘要支持（SOR C）。指南按 SORT 给推荐强度，但不是系统评价。抓取的全文在第 7.7 节后截断，作者利益冲突声明未读到。",
+  "why_it_matters": "这是国际过敏性疾病委员会（ICADA）2015 年后的首次大改，原文称是对 2010、2015 版的“major rewrite”，纳入证据截至 2026 年 7 月。它按作用机制组织推荐，新增 ilunocitinib 和 atinvicitinib 两种 JAK 抑制剂，其中 atinvicitinib 只有会议摘要支持（SOR C）。指南按 SORT 给推荐强度，但不是系统评价。",
   "key_results": [
    {
     "measure": "口服糖皮质激素",
@@ -3649,15 +3649,15 @@
     "p": "不适用"
    }
   ],
-  "confidence_sentence": "指南/共识不做 CEBM 分级，该指南未分级（指南自身用 SORT 给推荐强度），未做 AGREE II 正式评分；结论基于全文（机构库出版社版 PDF，读至第 7.7 节）。",
+  "confidence_sentence": "指南/共识不做 CEBM 分级，该指南未分级（指南自身用 SORT 给推荐强度），未做 AGREE II 正式评分；结论基于全文（出版社版 PDF）。",
   "clinical_meaning": "急性发作先用口服糖皮质激素、JAK 抑制剂或 lokivetmab 快速控制，缓解后转入长期维持治疗，不要只在发作时用药。",
   "key_results_top3": [
    0,
    1,
    2
   ],
-  "funding_coi_zh": "资金与利益冲突：抓取的全文在第 7.7 节后截断，声明部分未读到，待核。原文称推荐某产品不代表 ICADA 为其背书。",
-  "funding_coi_quote": "Importantly, a recommendation for a specific product does not imply endorsement of the product or its manufacturer by the ICADA.",
+  "funding_coi_zh": "资金：本文自筹（self-funded）；ICADA 年会由世界兽医皮肤病协会（World Association for Veterinary Dermatology）支持；开放获取费用由 Projekt DEAL 安排（Acknowledgements）。利益冲突：五位作者均声明与多家动物保健企业存在咨询、讲课、研究资助和/或顾问委员会关系——R.M.：Artuvet、Boehringer Ingelheim Animal Health、Ceva Animal Health、Elanco、Greer Laboratories、Heska Laboratories、Hill's、Royal Canin、MSD Animal Health、Nextmune、Synlab、Virbac Animal Health、Zoetis；F.B.：Boehringer Ingelheim Animal Health、Ceva、Dechra、Virbac、Zoetis；E.B.：Boehringer Ingelheim、Elanco、MSD Animal Health、Nextmune、Vetoquinol、Virbac；T.N.：Aesculight、Ceva Animal Health、Elanco、Krka Animal Health、Merck、Virbac Animal Health、Zoetis；D.S.：Boehringer Ingelheim Animal Health、Ceva Animal Health、Dechra、Ecuphar、Elanco、ElleVet、Hill's、Nextmune、Purina、Virbac。原文称推荐某产品不代表 ICADA 为其背书。",
+  "funding_coi_quote": "This work was self-funded; ICADA annual meetings are supported by the World Association for Veterinary Dermatology. ‖ R.M. acted as a consultant or received support for studies or lectures from Artuvet, Boehringer Ingelheim Animal Health, Ceva Animal Health, Elanco, Greer Laboratories, Heska Laboratories, Hill's, Royal Canin, MSD Animal Health, Nextmune, Synlab, Virbac Animal Health and Zoetis. F.B. has been an investigator, consultant and/or lectured for Boehringer Ingelheim Animal Health, Ceva, Dechra, Virbac and Zoetis. E.B. acted as a consultant or received support for studies or lectures from Boehringer Ingelheim, Elanco, MSD Animal Health, Nextmune, Vetoquinol and Virbac. T.N. received consultancy fees, lecture fees, research funding and/or other support from Aesculight, Ceva Animal Health, Elanco, Krka Animal Health, Merck, Virbac Animal Health and Zoetis. D.S. has been an investigator, consultant, lecturer and/or advisory board member for Boehringer Ingelheim Animal Health, Ceva Animal Health, Dechra, Ecuphar, Elanco, ElleVet, Hill's, Nextmune, Purina and Virbac. ‖ Importantly, a recommendation for a specific product does not imply endorsement of the product or its manufacturer by the ICADA.",
   "text_source": "full_text",
   "text_file": "ft/dogad/42805756_excerpt.txt",
   "text_url": "https://www.research.ed.ac.uk/files/694348407/Veterinary_Dermatology_-_2026_-_Mueller_-_Treatment_of_Canine_Atopic_Dermatitis_Updated_Guidelines_From_the_International.pdf"

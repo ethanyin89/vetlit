@@ -81,8 +81,10 @@ for pm in NEW:
     if absonly: rec['basis_label']='仅基于摘要'
     if pm in byp: seed[byp[pm]]=rec
     else: seed.append(rec)
-# 42805756: guideline strength wording follows its certainty entry; COI 待查 (Vibe 2026-11-09; funding/COI is one combined field)
-_g=next(r for r in seed if r['pmid']=='42805756'); _g['guideline_recommendation']=L(os.path.join(S,'certainty.json'))['papers']['42805756']['guideline_strength']; _g['funding']='资金与利益冲突：待查'
+# 42805756: guideline strength wording follows its certainty entry. Funding/COI comes from the speedread file
+# (deep extract filled it 2026-11-09 from ft/dogad/42805756_coi.txt; replaces the interim 待查)
+_g=next(r for r in seed if r['pmid']=='42805756'); _g['guideline_recommendation']=L(os.path.join(S,'certainty.json'))['papers']['42805756']['guideline_strength']
+assert '待查' not in _g['funding'] and 'self-funded' in _g['funding'], _g['funding']
 W(os.path.join(V,'seed_library_v6.json'),seed)
 sr=L(os.path.join(V,'speedread_fields_v5.json')); sr=[r for r in sr if r.get('pmid') not in BIB]+[dict(SR[p]) for p in NEW]; W(os.path.join(V,'speedread_fields_v5.json'),sr)
 cm=L(os.path.join(V,'card_meta.json')); cm['papers'].update({p:CM[p] for p in NEW}); W(os.path.join(V,'card_meta.json'),cm)
