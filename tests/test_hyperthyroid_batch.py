@@ -24,6 +24,10 @@ for pm in NEW:
     elif pm=='42004674':   # knowledge summary: 不适用 (deep extract 2026-11-09), own strength Moderate
         assert B.CERT[pm]['certainty']=='不适用' and B.CERT[pm]['own_evidence_strength']=='Moderate'
         assert p['cebm_level']==LV.get(pm,'3'), pm
+    elif pm=='31998612':   # full-text ROBINS-I Serious; GRADE 极低 (bias + surrogate at floor)
+        assert B.CERT[pm]['certainty']=='极低'
+        assert '证据确定性：极低' in h and 'ROBINS-I' in fold
+        assert p['cebm_level']==LV.get(pm,'3') and B.level(p)=='Level '+LV.get(pm,'3'), pm
     else:
         assert B.CERT[pm]['certainty']=='待评定', pm
         assert '证据确定性待评定' in fold and '证据确定性：高' not in h and '证据确定性：中' not in h, pm

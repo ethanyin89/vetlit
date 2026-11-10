@@ -28,7 +28,8 @@ h=H('36002137'); fold=h.split('id="evidence"',1)[1]; first=h.split('id="evidence
 assert 'pubmed.ncbi.nlm.nih.gov/36066350/' in fold and '⚠ 更正' not in first
 h=H('42014100'); first=h.split('id="evidence"',1)[0]
 assert '⚠ 更正' in first and '5–6' in first and '11–12' in first
-assert re.search(r'关键数字.*?</ul><p class="note er">⚠',first,re.S)   # next to key numbers
+# deep speed-read clears the first-screen key-number block; the erratum notice stays above the fold
+assert '<p class="note er">' in first and '⚠ 更正' in first
 # COI
 for x in ('Adapet Medical','Boehringer Ingelheim','Dechra','Merck Animal Health','作者个人利益冲突声明未获取'): assert x in first, x
 assert '利益冲突：无' not in h

@@ -32,4 +32,4 @@
 
 ## 渲染须经明确批准
 
-是否渲染只看 `data/v5/deep_speedread_approved.json`，不看一篇是否已出现在 `batch1.json`。`scripts/sync_deep_speedread.py` 也只同步该名单中的文献。Vibe 尚未审完的篇目不要写入批准名单。`26776588` 已批准渲染深度速读，但确定性标签仍显示「暂未评级（仅有摘要）」。
+是否渲染只看 `data/v5/deep_speedread_approved.json`，不看一篇是否已出现在 `batch1.json`。`scripts/sync_deep_speedread.py` 也只同步该名单中的文献。11991408 在 deep extract 去掉确定性起点规则用语之前不渲染深度速读；读者页只显示「暂未评级（仅有摘要）」和「摘要未说明分组方式」，不得出现「从高起评」「从低起评」或「起评」。

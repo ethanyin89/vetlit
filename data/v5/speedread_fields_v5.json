@@ -1701,7 +1701,7 @@
     "p": "摘要未给出"
    }
   ],
-  "confidence_sentence": "本文为配对对照试验，CEBM 3 级，ROBINS-I 尚未评估偏倚风险，结论基于摘要。",
+  "confidence_sentence": "本文为配对饲喂对照试验；暂未评级（仅有摘要）。摘要未说明分组方式。",
   "clinical_meaning": "终身保持偏瘦体况可能延长拉布拉多寿命。",
   "key_results_top3": [
    0
@@ -2188,7 +2188,7 @@
     "p": "原文未给出"
    }
   ],
-  "confidence_sentence": "本文为前瞻性观察（病例系列），CEBM 治疗问题 4 级，ROBINS-I 总体极严重，证据确定性极低（起始低，偏倚风险降两级），结论基于全文。",
+  "confidence_sentence": "本文为前瞻性观察（病例系列），CEBM 治疗问题 4 级，ROBINS-I 总体极严重，证据确定性极低（起始低，偏倚风险降两级；超声改善为替代终点，间接性降一级，已到底），结论基于全文。",
   "clinical_meaning": "金毛 DCM 应查血牛磺酸并问饮食，但不能证明无谷粮致病。",
   "key_results_top3": [
    1,
@@ -3418,7 +3418,7 @@
     "p": "原文未给出"
    }
   ],
-  "confidence_sentence": "本文为前瞻性非随机对照研究（同期三组），CEBM 治疗获益 3 级，ROBINS-I 尚未评估偏倚风险，结论基于全文。",
+  "confidence_sentence": "本文为前瞻性非随机对照研究（同期三组），CEBM 治疗获益 3 级，ROBINS-I 总体严重，证据确定性极低（起始低，偏倚风险降一级；主要结局为替代指标，间接性降一级，已到底），结论基于全文。",
   "clinical_meaning": "限碘饮食能降 T4，但 T4 正常不一定等于甲亢完全控制。",
   "key_results_top3": [
    0,

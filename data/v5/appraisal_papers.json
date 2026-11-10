@@ -10782,5 +10782,55 @@
   "phase_md": null,
   "page_status": "未写（等待页面格式重设计）",
   "v4_source": "Europe PMC REST API（2026-11-02）"
+ },
+{
+  "pmid": "31998612",
+  "id": "31998612",
+  "appraisal_tool": "ROBINS-I",
+  "appraisal_note": "ROBINS-I 总体：严重",
+  "appraisal_items": [
+   {
+    "item": "D1 混杂",
+    "judgment": "严重",
+    "reason": "",
+    "evidence_quote": "Based on owner needs and preference, cats were allocated into three groups."
+   },
+   {
+    "item": "D2 对象选择",
+    "judgment": "中",
+    "reason": "",
+    "evidence_quote": "At diagnosis (T0), one cat was immediately excluded because of food refusal, and, therefore, was also excluded from the statistical analysis."
+   },
+   {
+    "item": "D3 干预分类",
+    "judgment": "低",
+    "reason": "",
+    "evidence_quote": "Group A received an iodine-restricted diet (Hill's Prescription Diet—y/d Feline Thyroid Health) as the only therapy."
+   },
+   {
+    "item": "D4 偏离既定干预",
+    "judgment": "严重",
+    "reason": "",
+    "evidence_quote": "The owners were instructed to administer the iodine-restricted food as the only diet, avoiding any other type of food (including snacks)."
+   },
+   {
+    "item": "D5 缺失数据",
+    "judgment": "严重",
+    "reason": "",
+    "evidence_quote": "After 90 days (T90) No. of cats 6 9 8"
+   },
+   {
+    "item": "D6 结局测量",
+    "judgment": "低",
+    "reason": "",
+    "evidence_quote": "A chemiluminescent enzyme immunoassay (Immulite) was used to measure serum TT 4 concentrations in all cats."
+   },
+   {
+    "item": "D7 选择性报告",
+    "judgment": "中",
+    "reason": "",
+    "evidence_quote": "The experimental protocol was approved by the Scientific Ethics Committee of the University of Bologna."
+   }
+  ]
  }
 ]

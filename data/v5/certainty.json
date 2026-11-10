@@ -125,20 +125,20 @@
    "guideline_strength_source": "extracts/guideline_strength.json"
   },
   "29314873": {
-   "rules_applied": [
-    "R-guideline-own-strength"
-   ],
-   "question_type": null,
-   "question_basis": null,
-   "start": null,
-   "start_basis": "指南/共识：按团队规则不套用 GRADE",
-   "downgrades": [],
-   "provisional": null,
-   "certainty": null,
-   "notes_zh": "指南/共识不评证据确定性，首屏显示指南自身推荐强度",
-   "guideline_strength": "该指南未分级",
-   "guideline_strength_source": "extracts/guideline_strength.json"
-  },
+               "rules_applied": [
+                "R-guideline-own-strength"
+               ],
+               "question_type": null,
+               "question_basis": null,
+               "start": null,
+               "start_basis": "指南/共识：按团队规则不套用 GRADE",
+               "downgrades": [],
+               "provisional": null,
+               "certainty": null,
+               "notes_zh": "指南/共识不评证据确定性，首屏显示指南自身推荐强度",
+               "guideline_strength": "摘要未提及分级",
+               "guideline_strength_source": "extracts/guideline_strength.json"
+              },
   "28965673": {
    "rules_applied": [
     "R-guideline-own-strength"
@@ -1170,21 +1170,22 @@
    "pending_reason_zh": "尚未做偏倚风险评估（QUIPS）"
   },
   "11991408": {
-   "rules_applied": [
-    "R-start-treatment-RCT-high",
-    "R-no-RoB-pending"
-   ],
-   "question_type": "治疗获益",
-   "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
-   "start": "高",
-   "start_basis": "配对饲喂对照试验：治疗获益问题，RCT→高",
-   "downgrades": [],
-   "provisional": "高",
-   "certainty": "待评定",
-   "notes_zh": "未做偏倚风险评估",
-   "pending_reason_zh": "尚未做偏倚风险评估（RoB 2）",
-   "applicability_note_zh": "仅拉布拉多；健康犬从 8 周龄起限饲"
-  },
+               "rules_applied": [
+                "R-start-allocation-unverified",
+                "R-no-RoB-pending"
+               ],
+               "question_type": "治疗获益",
+               "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
+               "start": null,
+               "start_basis": "摘要未说明分组方式",
+               "downgrades": [],
+               "provisional": null,
+               "certainty": "待评定",
+               "notes_zh": "未做偏倚风险评估",
+               "pending_reason_zh": "仅有摘要：分组方式未知，尚未做偏倚风险评估",
+               "applicability_note_zh": "仅拉布拉多；健康犬从 8 周龄起限饲",
+               "review_status": "2026-11-09 复核：起点待全文核对分组方式"
+              },
   "10879400": {
    "rules_applied": [
     "R-start-treatment-RCT-high",
@@ -1387,46 +1388,58 @@
    "applicability_note_zh": "未纳入重度神经型和眼型 FIP"
   },
   "30543707": {
-   "rules_applied": [
-    "R-start-treatment-observational-low",
-    "R-rob-assessed-v4"
-   ],
-   "question_type": "治疗获益",
-   "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
-   "start": "低",
-   "start_basis": "前瞻性观察（病例系列 + 健康对照）：治疗获益问题，观察性→低",
-   "downgrades": [
-    {
-     "domain": "偏倚风险",
-     "steps": -2,
-     "reason_zh": "RoB：ROBINS-I Critical −2（低→极低，已到底）",
-     "source_file": null
-    }
-   ],
-   "certainty": "极低",
-   "notes_zh": "偏倚风险（ROBINS-I）：极严重",
-   "rob_tool": "ROBINS-I",
-   "rob_overall": "极严重（ROBINS-I Critical）",
-   "rob_source": "extracts/rob_round1_2026-11-04.json（Vibe 2026-11-09 复核通过）",
-   "provisional": "低",
-   "applicability_note_zh": "仅金毛寻回猎犬"
-  },
+               "rules_applied": [
+                "R-start-treatment-observational-low",
+                "R-rob-assessed-v4",
+                "R-down-indirectness-surrogate"
+               ],
+               "question_type": "治疗获益",
+               "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
+               "start": "低",
+               "start_basis": "前瞻性观察（病例系列 + 健康对照）：治疗获益问题，观察性→低",
+               "downgrades": [
+                {
+                 "domain": "偏倚风险",
+                 "steps": -2,
+                 "reason_zh": "RoB：ROBINS-I Critical −2（低→极低，已到底）",
+                 "source_file": null
+                },
+                {
+                 "domain": "间接性",
+                 "steps": -1,
+                 "reason_zh": "间接性 −1（替代终点，已到底）：换粮加补牛磺酸后的“改善”以超声心功能指标衡量，属替代终点；超声用于确诊 DCM（参考标准）的部分不降级。",
+                 "source_file": "ft/PMC6292607.md"
+                }
+               ],
+               "certainty": "极低",
+               "notes_zh": "偏倚风险（ROBINS-I）：极严重；换粮后超声改善为替代终点，间接性 −1，已到底。",
+               "rob_tool": "ROBINS-I",
+               "rob_overall": "极严重（ROBINS-I Critical）",
+               "rob_source": "extracts/rob_round1_2026-11-04.json（Vibe 2026-11-09 复核通过）",
+               "provisional": "低",
+               "applicability_note_zh": "仅金毛寻回猎犬"
+              },
   "30797439": {
-   "rules_applied": [
-    "R-design-30797439-harm",
-    "R-start-treatment-observational-low",
-    "R-no-RoB-pending"
-   ],
-   "question_type": "治疗危害",
-   "question_basis": "Vibe Feline 裁定：危害问题（饮食与 DCM），观察性",
-   "start": "低",
-   "start_basis": "回顾性病例系列（扩张型心肌病犬按饮食分组比较）：治疗危害问题，观察性→低",
-   "downgrades": [],
-   "provisional": "低",
-   "certainty": "待评定",
-   "notes_zh": "无对照病例系列按 GRADE 观察性起点低；未做偏倚风险评估",
-   "pending_reason_zh": "尚未做偏倚风险评估（ROBINS-I）"
-  },
+               "rules_applied": [
+                "R-design-30797439-harm",
+                "R-start-treatment-observational-low",
+                "R-no-RoB-pending"
+               ],
+               "question_type": "治疗危害",
+               "question_basis": "Vibe Feline 裁定：危害问题（饮食与 DCM），观察性",
+               "start": "低",
+               "start_basis": "回顾性病例系列（扩张型心肌病犬按饮食分组比较）：治疗危害问题，观察性→低",
+               "downgrades": [],
+               "provisional": "低",
+               "certainty": "待评定",
+               "notes_zh": "无对照病例系列按 GRADE 观察性起点低；未做偏倚风险评估",
+               "pending_reason_zh": "尚未做偏倚风险评估（ROBINS-I）",
+               "indirectness_judgement_zh": "仅摘要判断：主要结局是确诊 DCM 犬按饮食分组的超声表型比较（左室大小、球形指数），超声用于描述病例特征，按规则不降级；7 只换粮后复查的“超声改善”为替代终点，应 −1。本篇 certainty 为待评定，仅记录判断，未写入 downgrades。",
+               "indirectness_judgement_quotes": [
+                "Left ventricular size in diastole and systole was greater, and sphericity index was less for GF-1 compared with GB dogs.",
+                "Seven dogs that were reevaluated after diet change (6 received taurine supplementation) had clinical and echocardiographic improvement."
+               ]
+              },
   "28901812": {
    "rules_applied": [
     "R-start-treatment-observational-low",
@@ -2090,20 +2103,24 @@
    "strength_quote": "The guidelines are prepared by a task force of experts convened by AAHA, and recommendations are based on practical clinical experience and a consensus of expert opinion."
   },
   "37167252": {
-   "rules_applied": [
-    "R-guideline-own-strength"
-   ],
-   "question_type": null,
-   "question_basis": null,
-   "start": null,
-   "start_basis": "指南/共识：按团队规则不套用 GRADE",
-   "downgrades": [],
-   "provisional": null,
-   "certainty": null,
-   "notes_zh": "指南/共识不评证据确定性，首屏显示指南自身推荐强度",
-   "guideline_strength": "该指南未分级",
-   "guideline_strength_source": "extracts/cebm_hyperthyroid_2026-11-05.json（card_display）"
-  },
+               "rules_applied": [
+                "R-guideline-own-strength"
+               ],
+               "question_type": null,
+               "question_basis": null,
+               "start": null,
+               "start_basis": "指南/共识：按团队规则不套用 GRADE",
+               "downgrades": [],
+               "provisional": null,
+               "certainty": null,
+               "notes_zh": "指南/共识不评证据确定性，首屏显示指南自身推荐强度",
+               "guideline_strength": "该指南未分级",
+               "guideline_strength_source": "ft/hyper/37167252_developing-the-guidelines-3.txt；ft/hyper/37167252_guidelines-contributors.txt（AAHA 官网网页版）",
+               "strength_quote": "The guidelines are prepared by a task force of experts convened by AAHA, and recommendations are based on practical clinical experience and a consensus of expert opinion.",
+               "strength_quote_2": "Evidence-guided support for specific recommendations has been cited whenever possible and appropriate. Other recommendations are based on practical clinical experience and a consensus of expert opinion.",
+               "strength_note_zh": "所读 AAHA 网页（指南制定说明、作者名单、猫甲亢概述/诊断/分类诊断/治疗各节）未见推荐强度或证据等级体系；期刊版全文未读。",
+               "review_status": "2026-11-09 复核通过"
+              },
   "42004674": {
    "rules_applied": [
     "R-na-review",
@@ -2194,19 +2211,156 @@
    "pending_reason_zh": "尚未做偏倚风险评估（ROBINS-I）"
   },
   "31998612": {
-   "rules_applied": [
-    "R-no-RoB-pending"
-   ],
-   "question_type": "治疗获益",
-   "question_basis": "extracts/cebm_hyperthyroid_2026-11-05.json",
-   "start": null,
-   "start_basis": "",
-   "downgrades": [],
-   "provisional": null,
-   "certainty": "待评定",
-   "notes_zh": "未做偏倚风险评估",
-   "pending_reason_zh": "尚未做偏倚风险评估（ROBINS-I）"
-  },
+               "rules_applied": [
+                "R-start-treatment-observational-low",
+                "R-rob-assessed-v4",
+                "R-down-indirectness-surrogate"
+               ],
+               "question_type": "治疗获益",
+               "question_basis": "extracts/cebm_hyperthyroid_2026-11-05.json；原文为非随机对照试验",
+               "start": "低",
+               "start_basis": "前瞻性非随机对照试验：治疗获益问题，非随机→观察性起点低（ROBINS-I）",
+               "downgrades": [
+                {
+                 "domain": "偏倚风险",
+                 "steps": -1,
+                 "reason_zh": "RoB：ROBINS-I Serious −1（低→极低）：按主人意愿分组且未调整混杂；限碘粮组拒食和依从性差未评估；90 天时限碘粮组仅余 6/14，缺失不均衡。",
+                 "source_file": "extracts/rob_round1_hyperthyroid_31998612_2026-11-09.json"
+                },
+                {
+                 "domain": "间接性",
+                 "steps": -1,
+                 "reason_zh": "间接性 −1（替代终点，仅用于以 TT4 为依据的结局，已到底）：主要结局为血清总 T4，专题关注的是治疗效果（症状缓解、生存等对病猫真正重要的结局）（GRADE 指南第 8 篇，Guyatt 2011）。",
+                 "source_file": "ft/hyper/PMC6794403.xml"
+                }
+               ],
+               "provisional": "极低",
+               "certainty": "极低",
+               "notes_zh": "偏倚风险（ROBINS-I）：严重；以 TT4 为依据的结局另有替代终点间接性 −1（已到底）。体重结局不降间接性；随访临床症状原文未报告结果，不评。",
+               "rob_tool": "ROBINS-I",
+               "rob_overall": "严重（ROBINS-I Serious）",
+               "rob_items": [
+                {
+                 "item": "1 混杂",
+                 "judgement": "Serious",
+                 "quotes": [
+                  "Based on owner needs and preference, cats were allocated into three groups.",
+                  "if other cohabiting animals were receiving a different food or the administration of the sole iodine-restricted food was not possible, the nutritional therapy was not recommended as the first choice",
+                  "The differences between groups regarding continuous data (age, body weight, TT 4 , serum creatinine, urea, ALT, AST, and ALP) at the same time of treatment were evaluated by Kruskal–Wallis test followed by the Mann–Whitney test.",
+                  "all three groups were homogeneous for the breed, sex, age, body weight, TT 4 , and biochemical parameters"
+                 ],
+                 "reason_zh": "按主人意愿和家庭条件分组（多猫家庭、无法只喂处方粮者分到药物组），未做任何混杂调整；仅报告基线可比。",
+                 "source_file": "ft/hyper/PMC6794403.xml"
+                },
+                {
+                 "item": "2 对象选择",
+                 "judgement": "Moderate",
+                 "quotes": [
+                  "At diagnosis (T0), one cat was immediately excluded because of food refusal, and, therefore, was also excluded from the statistical analysis.",
+                  "Client-owned cats with newly diagnosed, naturally occurring hyperthyroidism were enrolled in the study.",
+                  "Cats were evaluated at 10 ± 2 (T10), 30 ± 5 (T30), 60 ± 10 (T60), and 90 ± 10 (T90) days after treatment began."
+                 ],
+                 "reason_zh": "新诊断病例、起点一致；限碘粮组 1 只因拒食在 T0 即排除且不入分析，属依干预后特征排除，但仅 1 只。",
+                 "source_file": "ft/hyper/PMC6794403.xml"
+                },
+                {
+                 "item": "3 干预分类",
+                 "judgement": "Low",
+                 "quotes": [
+                  "Group A received an iodine-restricted diet (Hill's Prescription Diet—y/d Feline Thyroid Health) as the only therapy.",
+                  "Group C received oral methimazole (Tapazole, Teofarma; Felimazole, Dechra) at the starting dose of 2.5 mg/cat q12h"
+                 ],
+                 "reason_zh": "三组干预在开始时即明确，不依赖结局。",
+                 "source_file": "ft/hyper/PMC6794403.xml"
+                },
+                {
+                 "item": "4 偏离既定干预",
+                 "judgement": "Serious",
+                 "quotes": [
+                  "The owners were instructed to administer the iodine-restricted food as the only diet, avoiding any other type of food (including snacks).",
+                  "In our study, 29% of cats refused the diet at different times.",
+                  "one for poor owner compliance regarding food administration",
+                  "Each group contained cats that did not attend all follow-up appointments because of poor owner compliance.",
+                  "the dosage of methimazole was increased or decreased by 1.25–2.5 mg/cat q 12–24 h if indicated"
+                 ],
+                 "reason_zh": "限碘粮组拒食与喂食依从性差常见，是否偷吃其他食物未测量；未做依从性分析。",
+                 "source_file": "ft/hyper/PMC6794403.xml"
+                },
+                {
+                 "item": "5 缺失数据",
+                 "judgement": "Serious",
+                 "quotes": [
+                  "After 90 days (T90) No. of cats 6 9 8",
+                  "Thirty-four cats were enrolled in the study (group A: n = 14; group B: n = 11; group C: n = 9).",
+                  "several cats dropped out of the study for various reasons and only a limited number of subjects concluded the trial"
+                 ],
+                 "reason_zh": "90 天时限碘粮组 14 只仅余 6 只（主要因拒食），药物组 9/11、8/9；缺失不均衡且与干预相关，按完成病例分析。",
+                 "source_file": "ft/hyper/PMC6794403.xml"
+                },
+                {
+                 "item": "6 结局测量",
+                 "judgement": "Low",
+                 "quotes": [
+                  "A chemiluminescent enzyme immunoassay (Immulite) was used to measure serum TT 4 concentrations in all cats.",
+                  "the same analytical method was used to measure serum TT 4 concentrations and the biochemistry parameters in all samples"
+                 ],
+                 "reason_zh": "主要结局 TT4 为客观化验，各组方法相同；未报告盲法，但对客观指标影响小。",
+                 "source_file": "ft/hyper/PMC6794403.xml"
+                },
+                {
+                 "item": "7 选择性报告",
+                 "judgement": "Moderate",
+                 "quotes": [
+                  "The experimental protocol was approved by the Scientific Ethics Committee of the University of Bologna.",
+                  "Data are given as median (range)."
+                 ],
+                 "reason_zh": "无注册或公开方案；多个时间点和结局，但各时间点各指标在表 1 中均有报告。",
+                 "source_file": "ft/hyper/PMC6794403.xml"
+                }
+               ],
+               "rob_source": "extracts/rob_round1_hyperthyroid_31998612_2026-11-09.json（2026-11-09 复核通过）",
+               "review_status": "2026-11-09 复核通过（缺失数据定为严重）",
+               "certainty_by_outcome": "血清总 T4（主要，替代终点）极低（RoB 严重 −1；间接性 −1，已到底）；体重 极低（RoB 严重 −1；不降间接性）；随访临床症状 原文未报告结果，不评",
+               "outcomes_graded": [
+                {
+                 "outcome": "血清总 T4（主要；肌酐、肝酶同为化验指标）",
+                 "start": "低",
+                 "downgrades": [
+                  {
+                   "domain": "偏倚风险",
+                   "steps": -1
+                  },
+                  {
+                   "domain": "间接性",
+                   "steps": -1,
+                   "rule": "R-down-indirectness-surrogate",
+                   "note_zh": "已到底"
+                  }
+                 ],
+                 "certainty": "极低",
+                 "quote": "In all groups, clinical parameters, biochemistry, and serum total thyroxine were evaluated at baseline and 10, 30, 60, and 90 days after treatment began."
+                },
+                {
+                 "outcome": "体重",
+                 "start": "低",
+                 "downgrades": [
+                  {
+                   "domain": "偏倚风险",
+                   "steps": -1
+                  }
+                 ],
+                 "certainty": "极低",
+                 "quote": "Throughout the trial, no significant differences were found in all groups between T0 and all other time points"
+                },
+                {
+                 "outcome": "随访临床症状",
+                 "certainty": null,
+                 "note_zh": "原文把症状缓解列为治疗目标，但未报告随访时的症状结果，不评",
+                 "quote": "The goals of therapy were to achieve resolution of the clinical signs of hyperthyroidism and a serum TT 4 concentration within the reference interval."
+                }
+               ],
+               "indirectness_ruling_status": "替代终点 −1 已确认（适用于以 TT4 为依据的结局）"
+              },
   "28158908": {
    "rules_applied": [
     "R-no-RoB-pending"

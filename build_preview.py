@@ -75,12 +75,14 @@ if os.path.exists(_dsf):
         if isinstance(_r,dict) and _r.get('pmid') and str(_r['pmid']) in DS_APPROVED:
             DS[str(_r['pmid'])]=_r
 def ds_of(p):
-    """Reader-facing deep speed-read record, or None if not on the explicit approved list."""
-    k=str(p.get('pmid') or '')
-    if k not in DS_APPROVED: return None
-    r=DS.get(k)
-    if not r or not (r.get('sections') and r.get('section_order')): return None
-    return r
+    """Reader-facing deep speed-read record, or None if not on the explicit approved list.
+    Lookup by pmid, then sid/id (for non-PubMed items such as IRIS 2026)."""
+    for k in (str(p.get('pmid') or ''), str(p.get('sid') or ''), str(p.get('id') or '')):
+        if k and k in DS_APPROVED:
+            r=DS.get(k)
+            if r and r.get('sections') and r.get('section_order'):
+                return r
+    return None
 for r in json.load(open(os.path.join(ROOT,'data','v5','appraisal_papers.json'),encoding='utf-8')):
     p=matcher(r)
     if not p: MERGE['ap_un'].append(r.get('pmid') or r.get('id')); continue
@@ -283,7 +285,7 @@ def grade(p):
     h='<table class="kv">'+''.join(f'<tr><th>{k}</th><td>{E_(clean(v))}</td></tr>' for k,v in rows)+'</table>'
     return t,h
 CHIP_HOLD=set()
-PENDING_LABEL={'26776588':'暂未评级（仅有摘要）'}  # reader label for papers that cannot be rated yet
+PENDING_LABEL={'26776588':'暂未评级（仅有摘要）','11991408':'暂未评级（仅有摘要）'}  # reader label for papers that cannot be rated yet
 def _crec(p):
     return CERT.get(str(p.get('pmid') or '')) or CERT.get(str(p.get('sid') or '')) or CERT.get(str(p.get('sid') or '').replace('pmid-','')) or {}
 def chip(p,href):
