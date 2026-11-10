@@ -1,1481 +1,1482 @@
 {
- "_meta": {
-  "version": 4,
-  "date": "2026-11-03",
-  "rules": "单篇简化版 GRADE（GRADE 原本对一组证据的某结局评级，此为单篇简化）。起点按问题类型+设计：治疗/危害 RCT=高、观察性=低；预后（GRADE 预后扩展，Iorio 2015 BMJ）队列=高；诊断准确性 横断面/队列=高；诊断/预后病例—对照起点亦为高（设计问题计入偏倚风险）；患病率 观察性=高（JBI 患病率清单）；系统综述按纳入研究的设计与问题定起点（CEBM 等级仅作纳入设计的证据）。降级每项 1 级至极低为止：RoB 2/ROBINS-I/QUADAS-2/QUIPS 总体高风险；AMSTAR 2 总体低/极低；间接性：QUADAS-2 适用性高度关注。原文报告矛盾不单独降级，计入偏倚风险/AMSTAR 2 评定。无任何偏倚风险/AMSTAR 2 裁定者 certainty=待评定，计算值存 provisional。叙述性综述、实验/基础及非临床研究=不适用。指南/共识不评，显示自身推荐强度。",
-  "cebm_precedence": "cebm_fill_r2 > cebm_fill > papers",
-  "v1": "benchmark/work/certainty_v1.json",
-  "v2": "benchmark/work/certainty_v2.json",
-  "v3": "benchmark/work/certainty_v3.json"
- },
- "papers": {
-  "42043241": {
-   "rules_applied": [
-    "R-guideline-own-strength"
-   ],
-   "question_type": null,
-   "question_basis": null,
-   "start": null,
-   "start_basis": "指南/共识：按团队规则不套用 GRADE",
-   "downgrades": [],
-   "provisional": null,
-   "certainty": null,
-   "notes_zh": "指南/共识不评证据确定性，首屏显示指南自身推荐强度",
-   "guideline_strength": "该指南未分级",
-   "guideline_strength_source": "extracts/guideline_strength.json"
+  "_meta": {
+    "version": 4,
+    "date": "2026-11-03",
+    "rules": "单篇简化版 GRADE（GRADE 原本对一组证据的某结局评级，此为单篇简化）。起点按问题类型+设计：治疗/危害 RCT=高、观察性=低；预后（GRADE 预后扩展，Iorio 2015 BMJ）队列=高；诊断准确性 横断面/队列=高；诊断/预后病例—对照起点亦为高（设计问题计入偏倚风险）；患病率 观察性=高（JBI 患病率清单）；系统综述按纳入研究的设计与问题定起点（CEBM 等级仅作纳入设计的证据）。降级每项 1 级至极低为止：RoB 2/ROBINS-I/QUADAS-2/QUIPS 总体高风险；AMSTAR 2 总体低/极低；间接性：QUADAS-2 适用性高度关注。原文报告矛盾不单独降级，计入偏倚风险/AMSTAR 2 评定。无任何偏倚风险/AMSTAR 2 裁定者 certainty=待评定，计算值存 provisional。叙述性综述、实验/基础及非临床研究=不适用。指南/共识不评，显示自身推荐强度。 ROBINS-I 总体映射（GRADE，Vibe 裁定 2026-11-04）：Serious 降 1 级，Critical 降 2 级（至极低为止）；JBI 清单不设阈值，总体判断由评审人作出并写明理由；病例报告/病例系列用 JBI 病例系列清单，不用 ROBINS-I；卡片确定性按一句话结论所述结局，多个结局取最低（GRADE 按结局评级）。",
+    "cebm_precedence": "cebm_fill_r2 > cebm_fill > papers",
+    "v1": "benchmark/work/certainty_v1.json",
+    "v2": "benchmark/work/certainty_v2.json",
+    "v3": "benchmark/work/certainty_v3.json",
+    "rules_v4_amend_2026-11-04": "ROBINS-I 总体映射（GRADE，Vibe 裁定 2026-11-04）：Serious 降 1 级，Critical 降 2 级（至极低为止）；JBI 清单不设阈值，总体判断由评审人作出并写明理由；病例报告/病例系列用 JBI 病例系列清单，不用 ROBINS-I；卡片确定性按一句话结论所述结局，多个结局取最低（GRADE 按结局评级）。"
   },
-  "x-international-renal-interest-society-2026-iris-staging-of-ckd-modified-2026": {
-   "rules_applied": [
-    "R-guideline-own-strength"
-   ],
-   "question_type": null,
-   "question_basis": null,
-   "start": null,
-   "start_basis": "指南/共识：按团队规则不套用 GRADE",
-   "downgrades": [],
-   "provisional": null,
-   "certainty": null,
-   "notes_zh": "指南/共识不评证据确定性，首屏显示指南自身推荐强度",
-   "guideline_strength": "该指南未分级",
-   "guideline_strength_source": "extracts/guideline_strength.json"
-  },
-  "37766254": {
-   "rules_applied": [
-    "R-guideline-own-strength"
-   ],
-   "question_type": null,
-   "question_basis": null,
-   "start": null,
-   "start_basis": "指南/共识：按团队规则不套用 GRADE",
-   "downgrades": [],
-   "provisional": null,
-   "certainty": null,
-   "notes_zh": "指南/共识不评证据确定性，首屏显示指南自身推荐强度",
-   "guideline_strength": "该指南未分级",
-   "guideline_strength_source": "extracts/guideline_strength.json"
-  },
-  "36002137": {
-   "rules_applied": [
-    "R-guideline-own-strength"
-   ],
-   "question_type": null,
-   "question_basis": null,
-   "start": null,
-   "start_basis": "指南/共识：按团队规则不套用 GRADE",
-   "downgrades": [],
-   "provisional": null,
-   "certainty": null,
-   "notes_zh": "指南/共识不评证据确定性，首屏显示指南自身推荐强度",
-   "guideline_strength": "该指南未分级",
-   "guideline_strength_source": "extracts/guideline_strength.json"
-  },
-  "32243654": {
-   "rules_applied": [
-    "R-guideline-own-strength"
-   ],
-   "question_type": null,
-   "question_basis": null,
-   "start": null,
-   "start_basis": "指南/共识：按团队规则不套用 GRADE",
-   "downgrades": [],
-   "provisional": null,
-   "certainty": null,
-   "notes_zh": "指南/共识不评证据确定性，首屏显示指南自身推荐强度",
-   "guideline_strength": "氯吡格雷：有CHF史且LA中重度扩大 → 'is recommended'（Class I），LOE low；B2期高ATE风险 → 'is recommended'，LOE medium",
-   "guideline_strength_source": "extracts/guideline_strength.json"
-  },
-  "30974015": {
-   "rules_applied": [
-    "R-guideline-own-strength"
-   ],
-   "question_type": null,
-   "question_basis": null,
-   "start": null,
-   "start_basis": "指南/共识：按团队规则不套用 GRADE",
-   "downgrades": [],
-   "provisional": null,
-   "certainty": null,
-   "notes_zh": "指南/共识不评证据确定性，首屏显示指南自身推荐强度",
-   "guideline_strength": "B2 期匹莫苯丹：Class I, LOE: strong",
-   "guideline_strength_source": "extracts/guideline_strength.json"
-  },
-  "30353952": {
-   "rules_applied": [
-    "R-guideline-own-strength"
-   ],
-   "question_type": null,
-   "question_basis": null,
-   "start": null,
-   "start_basis": "指南/共识：按团队规则不套用 GRADE",
-   "downgrades": [],
-   "provisional": null,
-   "certainty": null,
-   "notes_zh": "指南/共识不评证据确定性，首屏显示指南自身推荐强度",
-   "guideline_strength": "该指南未分级",
-   "guideline_strength_source": "extracts/guideline_strength.json"
-  },
-  "29314873": {
-   "rules_applied": [
-    "R-guideline-own-strength"
-   ],
-   "question_type": null,
-   "question_basis": null,
-   "start": null,
-   "start_basis": "指南/共识：按团队规则不套用 GRADE",
-   "downgrades": [],
-   "provisional": null,
-   "certainty": null,
-   "notes_zh": "指南/共识不评证据确定性，首屏显示指南自身推荐强度",
-   "guideline_strength": "该指南未分级",
-   "guideline_strength_source": "extracts/guideline_strength.json"
-  },
-  "28965673": {
-   "rules_applied": [
-    "R-guideline-own-strength"
-   ],
-   "question_type": null,
-   "question_basis": null,
-   "start": null,
-   "start_basis": "指南/共识：按团队规则不套用 GRADE",
-   "downgrades": [],
-   "provisional": null,
-   "certainty": null,
-   "notes_zh": "指南/共识不评证据确定性，首屏显示指南自身推荐强度",
-   "guideline_strength": "摘要未提及",
-   "guideline_strength_source": "extracts/guideline_strength.json"
-  },
-  "27143042": {
-   "rules_applied": [
-    "R-guideline-own-strength"
-   ],
-   "question_type": null,
-   "question_basis": null,
-   "start": null,
-   "start_basis": "指南/共识：按团队规则不套用 GRADE",
-   "downgrades": [],
-   "provisional": null,
-   "certainty": null,
-   "notes_zh": "指南/共识不评证据确定性，首屏显示指南自身推荐强度",
-   "guideline_strength": "该指南未分级",
-   "guideline_strength_source": "extracts/guideline_strength.json"
-  },
-  "26936494": {
-   "rules_applied": [
-    "R-guideline-own-strength"
-   ],
-   "question_type": null,
-   "question_basis": null,
-   "start": null,
-   "start_basis": "指南/共识：按团队规则不套用 GRADE",
-   "downgrades": [],
-   "provisional": null,
-   "certainty": null,
-   "notes_zh": "指南/共识不评证据确定性，首屏显示指南自身推荐强度",
-   "guideline_strength": "肾病处方粮（蛋白+磷限制）：Increased longevity GOOD；Improved QoL GOOD",
-   "guideline_strength_source": "extracts/guideline_strength.json"
-  },
-  "25701862": {
-   "rules_applied": [
-    "R-guideline-own-strength"
-   ],
-   "question_type": null,
-   "question_basis": null,
-   "start": null,
-   "start_basis": "指南/共识：按团队规则不套用 GRADE",
-   "downgrades": [],
-   "provisional": null,
-   "certainty": null,
-   "notes_zh": "指南/共识不评证据确定性，首屏显示指南自身推荐强度",
-   "guideline_strength": "该指南未分级",
-   "guideline_strength_source": "extracts/guideline_strength.json"
-  },
-  "24112317": {
-   "rules_applied": [
-    "R-guideline-own-strength"
-   ],
-   "question_type": null,
-   "question_basis": null,
-   "start": null,
-   "start_basis": "指南/共识：按团队规则不套用 GRADE",
-   "downgrades": [],
-   "provisional": null,
-   "certainty": null,
-   "notes_zh": "指南/共识不评证据确定性，首屏显示指南自身推荐强度",
-   "guideline_strength": "该指南未分级",
-   "guideline_strength_source": "extracts/guideline_strength.json"
-  },
-  "23422366": {
-   "rules_applied": [
-    "R-guideline-own-strength"
-   ],
-   "question_type": null,
-   "question_basis": null,
-   "start": null,
-   "start_basis": "指南/共识：按团队规则不套用 GRADE",
-   "downgrades": [],
-   "provisional": null,
-   "certainty": null,
-   "notes_zh": "指南/共识不评证据确定性，首屏显示指南自身推荐强度",
-   "guideline_strength": "该指南未分级",
-   "guideline_strength_source": "extracts/guideline_strength.json"
-  },
-  "21704901": {
-   "rules_applied": [
-    "R-guideline-own-strength"
-   ],
-   "question_type": null,
-   "question_basis": null,
-   "start": null,
-   "start_basis": "指南/共识：按团队规则不套用 GRADE",
-   "downgrades": [],
-   "provisional": null,
-   "certainty": null,
-   "notes_zh": "指南/共识不评证据确定性，首屏显示指南自身推荐强度",
-   "guideline_strength": "该指南未分级",
-   "guideline_strength_source": "extracts/guideline_strength.json"
-  },
-  "19481039": {
-   "rules_applied": [
-    "R-guideline-own-strength"
-   ],
-   "question_type": null,
-   "question_basis": null,
-   "start": null,
-   "start_basis": "指南/共识：按团队规则不套用 GRADE",
-   "downgrades": [],
-   "provisional": null,
-   "certainty": null,
-   "notes_zh": "指南/共识不评证据确定性，首屏显示指南自身推荐强度",
-   "guideline_strength": "泼尼松龙/地塞米松免疫抑制剂量：'Currently supportive treatment of choice [III]'（无对照研究）",
-   "guideline_strength_source": "extracts/guideline_strength.json"
-  },
-  "15954557": {
-   "rules_applied": [
-    "R-guideline-own-strength"
-   ],
-   "question_type": null,
-   "question_basis": null,
-   "start": null,
-   "start_basis": "指南/共识：按团队规则不套用 GRADE",
-   "downgrades": [],
-   "provisional": null,
-   "certainty": null,
-   "notes_zh": "指南/共识不评证据确定性，首屏显示指南自身推荐强度",
-   "guideline_strength": "按陈述分别标注 Level 1/2/3（例：UPC 升高与不良结局风险 = Level 1）",
-   "guideline_strength_source": "extracts/guideline_strength.json"
-  },
-  "39858209": {
-   "rules_applied": [
-    "R-start-SR-by-included-designs",
-    "R-down-AMSTAR2-low-critlow"
-   ],
-   "question_type": "治疗获益",
-   "question_basis": "extracts/cebm_fill.json",
-   "start": "低",
-   "start_basis": "SR（系统综述 + Meta 分析），治疗问题；纳入设计以 CEBM 3 为证据：多为非随机/非对照研究→观察性起点低",
-   "downgrades": [
-    {
-     "reason_zh": "AMSTAR 2 总体置信度为极低",
-     "source_file": "review2/amstar2_adjudicated.json"
-    }
-   ],
-   "provisional": "极低",
-   "certainty": "极低",
-   "notes_zh": ""
-  },
-  "41781382": {
-   "rules_applied": [
-    "R-start-treatment-RCT-high"
-   ],
-   "question_type": "治疗获益",
-   "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
-   "start": "高",
-   "start_basis": "RCT（非劣效）：治疗获益问题，RCT→高",
-   "downgrades": [],
-   "provisional": "高",
-   "certainty": "高",
-   "notes_zh": ""
-  },
-  "40110605": {
-   "rules_applied": [
-    "R-start-treatment-RCT-high"
-   ],
-   "question_type": "治疗获益",
-   "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
-   "start": "高",
-   "start_basis": "RCT（交叉）：治疗获益问题，RCT→高",
-   "downgrades": [],
-   "provisional": "高",
-   "certainty": "高",
-   "notes_zh": ""
-  },
-  "39417648": {
-   "rules_applied": [
-    "R-start-treatment-RCT-high",
-    "R-down-RoB2-high"
-   ],
-   "question_type": "治疗获益",
-   "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
-   "start": "高",
-   "start_basis": "RCT：治疗获益问题，RCT→高",
-   "downgrades": [
-    {
-     "reason_zh": "RoB 2 总体判定为高偏倚风险",
-     "source_file": "review2/adjudicated_rob_rct.json"
-    }
-   ],
-   "provisional": "中",
-   "certainty": "中",
-   "notes_zh": ""
-  },
-  "39066306": {
-   "rules_applied": [
-    "R-start-treatment-RCT-high"
-   ],
-   "question_type": "治疗获益",
-   "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
-   "start": "高",
-   "start_basis": "RCT：治疗获益问题，RCT→高",
-   "downgrades": [],
-   "provisional": "高",
-   "certainty": "高",
-   "notes_zh": ""
-  },
-  "38952053": {
-   "rules_applied": [
-    "R-start-treatment-RCT-high"
-   ],
-   "question_type": "治疗获益",
-   "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
-   "start": "高",
-   "start_basis": "RCT：治疗获益问题，RCT→高",
-   "downgrades": [],
-   "provisional": "高",
-   "certainty": "高",
-   "notes_zh": ""
-  },
-  "38884190": {
-   "rules_applied": [
-    "R-start-treatment-RCT-high",
-    "R-down-RoB2-high"
-   ],
-   "question_type": "治疗获益",
-   "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
-   "start": "高",
-   "start_basis": "RCT（阳性对照、开放标签、非劣效现场试验）：治疗获益问题，RCT→高",
-   "downgrades": [
-    {
-     "reason_zh": "RoB 2 总体判定为高偏倚风险",
-     "source_file": "review2/adjudicated_rob_rct.json"
-    }
-   ],
-   "provisional": "中",
-   "certainty": "中",
-   "notes_zh": ""
-  },
-  "37632022": {
-   "rules_applied": [
-    "R-start-treatment-RCT-high"
-   ],
-   "question_type": "治疗获益",
-   "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
-   "start": "高",
-   "start_basis": "RCT（非劣效）：治疗获益问题，RCT→高",
-   "downgrades": [],
-   "provisional": "高",
-   "certainty": "高",
-   "notes_zh": ""
-  },
-  "27678080": {
-   "rules_applied": [
-    "R-start-treatment-RCT-high"
-   ],
-   "question_type": "治疗获益",
-   "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
-   "start": "高",
-   "start_basis": "RCT：治疗获益问题，RCT→高",
-   "downgrades": [],
-   "provisional": "高",
-   "certainty": "高",
-   "notes_zh": ""
-  },
-  "26948860": {
-   "rules_applied": [
-    "R-start-prognosis-cohort-high",
-    "R-no-RoB-pending"
-   ],
-   "question_type": "预后",
-   "question_basis": "摘要研究目的（benchmark/work/abs_all.json）：\"Evaluation of clinical and questionnaire data will identify risk factors for development of azotemic CKD in cats.\"",
-   "start": "高",
-   "start_basis": "前瞻性队列：预后问题，队列→高（GRADE 预后扩展，Iorio 2015 BMJ）",
-   "downgrades": [],
-   "provisional": "高",
-   "certainty": "待评定",
-   "notes_zh": "未做偏倚风险评估",
-   "pending_reason_zh": "尚未做偏倚风险评估（QUIPS）"
-  },
-  "26776588": {
-   "rules_applied": [
-    "R-start-treatment-RCT-high",
-    "R-no-RoB-pending"
-   ],
-   "question_type": "治疗获益",
-   "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
-   "start": "高",
-   "start_basis": "RCT：治疗获益问题，RCT→高",
-   "downgrades": [],
-   "provisional": "高",
-   "certainty": "待评定",
-   "notes_zh": "未做偏倚风险评估",
-   "pending_reason_zh": "尚未做偏倚风险评估（RoB 2）"
-  },
-  "26474314": {
-   "rules_applied": [
-    "R-start-treatment-RCT-high"
-   ],
-   "question_type": "治疗获益",
-   "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
-   "start": "高",
-   "start_basis": "RCT（阳性对照、非劣效）：治疗获益问题，RCT→高",
-   "downgrades": [],
-   "provisional": "高",
-   "certainty": "高",
-   "notes_zh": ""
-  },
-  "26265631": {
-   "rules_applied": [
-    "R-start-prognosis-cohort-high",
-    "R-no-RoB-pending"
-   ],
-   "question_type": "预后",
-   "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
-   "start": "高",
-   "start_basis": "前瞻性队列：预后问题，队列→高（GRADE 预后扩展，Iorio 2015 BMJ）",
-   "downgrades": [],
-   "provisional": "高",
-   "certainty": "待评定",
-   "notes_zh": "未做偏倚风险评估",
-   "pending_reason_zh": "尚未做偏倚风险评估（QUIPS）"
-  },
-  "23838205": {
-   "rules_applied": [
-    "R-start-treatment-RCT-high",
-    "R-no-RoB-pending"
-   ],
-   "question_type": "治疗获益",
-   "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
-   "start": "高",
-   "start_basis": "RCT（交叉）：治疗获益问题，RCT→高",
-   "downgrades": [],
-   "provisional": "高",
-   "certainty": "待评定",
-   "notes_zh": "未做偏倚风险评估",
-   "pending_reason_zh": "尚未做偏倚风险评估（RoB 2）"
-  },
-  "23078651": {
-   "rules_applied": [
-    "R-start-treatment-RCT-high"
-   ],
-   "question_type": "治疗获益",
-   "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
-   "start": "高",
-   "start_basis": "RCT：治疗获益问题，RCT→高",
-   "downgrades": [],
-   "provisional": "高",
-   "certainty": "高",
-   "notes_zh": ""
-  },
-  "18638016": {
-   "rules_applied": [
-    "R-start-treatment-RCT-high",
-    "R-no-RoB-pending"
-   ],
-   "question_type": "治疗获益",
-   "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
-   "start": "高",
-   "start_basis": "RCT：治疗获益问题，RCT→高",
-   "downgrades": [],
-   "provisional": "高",
-   "certainty": "待评定",
-   "notes_zh": "未做偏倚风险评估",
-   "pending_reason_zh": "尚未做偏倚风险评估（RoB 2）"
-  },
-  "16978113": {
-   "rules_applied": [
-    "R-start-treatment-RCT-high",
-    "R-no-RoB-pending"
-   ],
-   "question_type": "治疗获益",
-   "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
-   "start": "高",
-   "start_basis": "RCT：治疗获益问题，RCT→高",
-   "downgrades": [],
-   "provisional": "高",
-   "certainty": "待评定",
-   "notes_zh": "未做偏倚风险评估",
-   "pending_reason_zh": "尚未做偏倚风险评估（RoB 2）"
-  },
-  "17063696": {
-   "rules_applied": [
-    "R-start-treatment-RCT-high",
-    "R-no-RoB-pending"
-   ],
-   "question_type": "治疗获益",
-   "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
-   "start": "高",
-   "start_basis": "RCT：治疗获益问题，RCT→高",
-   "downgrades": [],
-   "provisional": "高",
-   "certainty": "待评定",
-   "notes_zh": "未做偏倚风险评估",
-   "pending_reason_zh": "尚未做偏倚风险评估（RoB 2）"
-  },
-  "15702689": {
-   "rules_applied": [
-    "R-start-prognosis-cohort-high",
-    "R-no-RoB-pending"
-   ],
-   "question_type": "预后",
-   "question_basis": "摘要研究目的（benchmark/work/abs_all.json）：\"To determine whether urine protein-to-creatinine ratio (UP:C) > or = 1.0 at initial diagnosis of chronic renal failure (CRF) is associated with greater risk of development of uremic crises, death, and progression of renal failure in dogs.\"",
-   "start": "高",
-   "start_basis": "前瞻性队列：预后问题，队列→高（GRADE 预后扩展，Iorio 2015 BMJ）",
-   "downgrades": [],
-   "provisional": "高",
-   "certainty": "待评定",
-   "notes_zh": "未做偏倚风险评估",
-   "pending_reason_zh": "尚未做偏倚风险评估（QUIPS）"
-  },
-  "11990962": {
-   "rules_applied": [
-    "R-start-treatment-RCT-high",
-    "R-no-RoB-pending"
-   ],
-   "question_type": "治疗获益",
-   "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
-   "start": "高",
-   "start_basis": "RCT：治疗获益问题，RCT→高",
-   "downgrades": [],
-   "provisional": "高",
-   "certainty": "待评定",
-   "notes_zh": "未做偏倚风险评估",
-   "pending_reason_zh": "尚未做偏倚风险评估（RoB 2）"
-  },
-  "42207576": {
-   "rules_applied": [
-    "R-start-prognosis-cohort-high",
-    "R-no-RoB-pending"
-   ],
-   "question_type": "预后",
-   "question_basis": "摘要研究目的（benchmark/work/abs_all.json）：\"A reduced urine ammonia-to-creatinine ratio (UACR) would be associated with shorter survival and faster disease progression in dogs with stable CKD.\"",
-   "start": "高",
-   "start_basis": "前瞻性观察队列：预后问题，队列→高（GRADE 预后扩展，Iorio 2015 BMJ）",
-   "downgrades": [],
-   "provisional": "高",
-   "certainty": "待评定",
-   "notes_zh": "未做偏倚风险评估",
-   "pending_reason_zh": "尚未做偏倚风险评估（QUIPS）"
-  },
-  "32139728": {
-   "rules_applied": [
-    "R-start-prevalence-observational-high",
-    "R-no-RoB-pending"
-   ],
-   "question_type": "患病率",
-   "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
-   "start": "高",
-   "start_basis": "横断面问卷调查：患病率问题，观察性→高（偏倚风险工具 JBI 患病率清单）",
-   "downgrades": [],
-   "provisional": "高",
-   "certainty": "待评定",
-   "notes_zh": "未做偏倚风险评估",
-   "pending_reason_zh": "尚未做偏倚风险评估（RoB 2）"
-  },
-  "30548336": {
-   "rules_applied": [
-    "R-start-prognosis-cohort-high",
-    "R-down-QUIPS-high"
-   ],
-   "question_type": "预后",
-   "question_basis": "extracts/cebm_fill_r2.json",
-   "start": "高",
-   "start_basis": "回顾性队列（原文自称病例对照，按暴露分组后比较寿命）：预后问题，队列→高（GRADE 预后扩展，Iorio 2015 BMJ）",
-   "downgrades": [
-    {
-     "reason_zh": "QUIPS 总体判定为高偏倚风险",
-     "source_file": "review2/rob_adjudicated_r3.json"
-    }
-   ],
-   "provisional": "中",
-   "certainty": "中",
-   "notes_zh": ""
-  },
-  "29660848": {
-   "rules_applied": [
-    "R-start-prognosis-cohort-high",
-    "R-no-RoB-pending"
-   ],
-   "question_type": "预后",
-   "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
-   "start": "高",
-   "start_basis": "回顾性多中心队列：预后问题，队列→高（GRADE 预后扩展，Iorio 2015 BMJ）",
-   "downgrades": [],
-   "provisional": "高",
-   "certainty": "待评定",
-   "notes_zh": "未做偏倚风险评估",
-   "pending_reason_zh": "尚未做偏倚风险评估（QUIPS）"
-  },
-  "26776583": {
-   "rules_applied": [
-    "R-start-prevalence-observational-high",
-    "R-no-RoB-pending"
-   ],
-   "question_type": "患病率",
-   "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
-   "start": "高",
-   "start_basis": "前瞻性横断面：患病率问题，观察性→高（偏倚风险工具 JBI 患病率清单）",
-   "downgrades": [],
-   "provisional": "高",
-   "certainty": "待评定",
-   "notes_zh": "未做偏倚风险评估",
-   "pending_reason_zh": "尚未做偏倚风险评估（RoB 2）"
-  },
-  "26581469": {
-   "rules_applied": [
-    "R-start-prevalence-observational-high",
-    "R-no-RoB-pending"
-   ],
-   "question_type": "患病率",
-   "question_basis": "extracts/cebm_fill_r2.json",
-   "start": "高",
-   "start_basis": "回顾性队列（保险数据）：患病率问题，观察性→高（偏倚风险工具 JBI 患病率清单）",
-   "downgrades": [],
-   "provisional": "高",
-   "certainty": "待评定",
-   "notes_zh": "未做偏倚风险评估",
-   "pending_reason_zh": "尚未做偏倚风险评估（RoB 2）"
-  },
-  "25896026": {
-   "rules_applied": [
-    "R-start-prognosis-cohort-high",
-    "R-no-RoB-pending"
-   ],
-   "question_type": "预后",
-   "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
-   "start": "高",
-   "start_basis": "回顾性队列（保险数据）：预后问题，队列→高（GRADE 预后扩展，Iorio 2015 BMJ）",
-   "downgrades": [],
-   "provisional": "高",
-   "certainty": "待评定",
-   "notes_zh": "未做偏倚风险评估",
-   "pending_reason_zh": "尚未做偏倚风险评估（QUIPS）"
-  },
-  "25231385": {
-   "rules_applied": [
-    "R-start-diagnosis-casecontrol-high",
-    "R-down-indirectness-QUADAS2-applicability",
-    "R-down-QUADAS2-high"
-   ],
-   "question_type": "诊断",
-   "question_basis": "extracts/cebm_fill_r2.json",
-   "start": "高",
-   "start_basis": "回顾性诊断准确性研究（病例—对照式）：诊断问题，病例—对照式设计→高（设计问题计入偏倚风险与间接性，Vibe Feline 裁定）",
-   "downgrades": [
-    {
-     "reason_zh": "QUADAS-2 总体判定为高偏倚风险",
-     "source_file": "review2/rob_adjudicated_r3.json"
+  "papers": {
+    "42043241": {
+      "rules_applied": [
+        "R-guideline-own-strength"
+      ],
+      "question_type": null,
+      "question_basis": null,
+      "start": null,
+      "start_basis": "指南/共识：按团队规则不套用 GRADE",
+      "downgrades": [],
+      "provisional": null,
+      "certainty": null,
+      "notes_zh": "指南/共识不评证据确定性，首屏显示指南自身推荐强度",
+      "guideline_strength": "该指南未分级",
+      "guideline_strength_source": "extracts/guideline_strength.json"
     },
-    {
-     "reason_zh": "间接性：QUADAS-2 适用性高度关注",
-     "source_file": "review2/rob_adjudicated_r3.json"
-    }
-   ],
-   "provisional": "低",
-   "certainty": "低",
-   "notes_zh": ""
-  },
-  "24217707": {
-   "rules_applied": [
-    "R-start-treatment-RCT-high",
-    "R-no-RoB-pending"
-   ],
-   "question_type": "治疗获益",
-   "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
-   "start": "高",
-   "start_basis": "回顾性横断面：治疗获益问题，RCT→高",
-   "downgrades": [],
-   "provisional": "高",
-   "certainty": "待评定",
-   "notes_zh": "未做偏倚风险评估",
-   "pending_reason_zh": "尚未做偏倚风险评估（RoB 2）"
-  },
-  "23647231": {
-   "rules_applied": [
-    "R-start-treatment-RCT-high",
-    "R-no-RoB-pending"
-   ],
-   "question_type": "治疗获益",
-   "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
-   "start": "高",
-   "start_basis": "纵向队列（VetCompass）：治疗获益问题，RCT→高",
-   "downgrades": [],
-   "provisional": "高",
-   "certainty": "待评定",
-   "notes_zh": "未做偏倚风险评估",
-   "pending_reason_zh": "尚未做偏倚风险评估（RoB 2）"
-  },
-  "22269057": {
-   "rules_applied": [
-    "R-start-prognosis-cohort-high",
-    "R-no-RoB-pending"
-   ],
-   "question_type": "预后",
-   "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
-   "start": "高",
-   "start_basis": "回顾性队列：预后问题，队列→高（GRADE 预后扩展，Iorio 2015 BMJ）",
-   "downgrades": [],
-   "provisional": "高",
-   "certainty": "待评定",
-   "notes_zh": "未做偏倚风险评估",
-   "pending_reason_zh": "尚未做偏倚风险评估（QUIPS）"
-  },
-  "20005753": {
-   "rules_applied": [
-    "R-start-prevalence-observational-high",
-    "R-no-RoB-pending"
-   ],
-   "question_type": "患病率",
-   "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
-   "start": "高",
-   "start_basis": "横断面调查：患病率问题，观察性→高（偏倚风险工具 JBI 患病率清单）",
-   "downgrades": [],
-   "provisional": "高",
-   "certainty": "待评定",
-   "notes_zh": "未做偏倚风险评估",
-   "pending_reason_zh": "尚未做偏倚风险评估（RoB 2）"
-  },
-  "18691369": {
-   "rules_applied": [
-    "R-start-prognosis-cohort-high",
-    "R-no-RoB-pending"
-   ],
-   "question_type": "预后",
-   "question_basis": "摘要研究目的（benchmark/work/abs_all.json）：\"Stage of kidney disease based on serum creatinine concentration (SCr) at the time of diagnosis and after correction of prerenal azotemia is strongly associated with duration of survival in cats.\"",
-   "start": "高",
-   "start_basis": "回顾性队列：预后问题，队列→高（GRADE 预后扩展，Iorio 2015 BMJ）",
-   "downgrades": [],
-   "provisional": "高",
-   "certainty": "待评定",
-   "notes_zh": "未做偏倚风险评估",
-   "pending_reason_zh": "尚未做偏倚风险评估（QUIPS）"
-  },
-  "18289298": {
-   "rules_applied": [
-    "R-start-prognosis-cohort-high",
-    "R-no-RoB-pending"
-   ],
-   "question_type": "预后",
-   "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
-   "start": "高",
-   "start_basis": "预后队列：预后问题，队列→高（GRADE 预后扩展，Iorio 2015 BMJ）",
-   "downgrades": [],
-   "provisional": "高",
-   "certainty": "待评定",
-   "notes_zh": "未做偏倚风险评估",
-   "pending_reason_zh": "尚未做偏倚风险评估（QUIPS）"
-  },
-  "17939542": {
-   "rules_applied": [
-    "R-start-prognosis-cohort-high",
-    "R-no-RoB-pending"
-   ],
-   "question_type": "预后",
-   "question_basis": "Vibe Feline 裁定：RCT 安慰剂组预后分析",
-   "start": "高",
-   "start_basis": "RCT 安慰剂组的预后分析：预后问题，RCT 安慰剂组队列→高（GRADE 预后扩展，Iorio 2015 BMJ）",
-   "downgrades": [],
-   "provisional": "高",
-   "certainty": "待评定",
-   "notes_zh": "未做偏倚风险评估",
-   "pending_reason_zh": "尚未做偏倚风险评估（QUIPS）"
-  },
-  "16734085": {
-   "rules_applied": [
-    "R-start-prognosis-cohort-high",
-    "R-no-RoB-pending"
-   ],
-   "question_type": "预后",
-   "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
-   "start": "高",
-   "start_basis": "预后队列：预后问题，队列→高（GRADE 预后扩展，Iorio 2015 BMJ）",
-   "downgrades": [],
-   "provisional": "高",
-   "certainty": "待评定",
-   "notes_zh": "未做偏倚风险评估",
-   "pending_reason_zh": "尚未做偏倚风险评估（QUIPS）"
-  },
-  "11991408": {
-   "rules_applied": [
-    "R-start-treatment-RCT-high",
-    "R-no-RoB-pending"
-   ],
-   "question_type": "治疗获益",
-   "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
-   "start": "高",
-   "start_basis": "配对饲喂对照试验：治疗获益问题，RCT→高",
-   "downgrades": [],
-   "provisional": "高",
-   "certainty": "待评定",
-   "notes_zh": "未做偏倚风险评估",
-   "pending_reason_zh": "尚未做偏倚风险评估（RoB 2）"
-  },
-  "10879400": {
-   "rules_applied": [
-    "R-start-treatment-RCT-high",
-    "R-no-RoB-pending"
-   ],
-   "question_type": "治疗获益",
-   "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
-   "start": "高",
-   "start_basis": "前瞻性非随机对照：治疗获益问题，RCT→高",
-   "downgrades": [],
-   "provisional": "高",
-   "certainty": "待评定",
-   "notes_zh": "未做偏倚风险评估",
-   "pending_reason_zh": "尚未做偏倚风险评估（RoB 2）"
-  },
-  "42949438": {
-   "rules_applied": [
-    "R-start-treatment-observational-low",
-    "R-no-RoB-pending"
-   ],
-   "question_type": "治疗获益",
-   "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
-   "start": "低",
-   "start_basis": "前瞻性单臂试点：治疗获益问题，观察性→低",
-   "downgrades": [],
-   "provisional": "低",
-   "certainty": "待评定",
-   "notes_zh": "无对照病例系列按 GRADE 观察性起点低；未做偏倚风险评估",
-   "pending_reason_zh": "尚未做偏倚风险评估（ROBINS-I）"
-  },
-  "41834689": {
-   "rules_applied": [
-    "R-start-treatment-observational-low",
-    "R-no-RoB-pending"
-   ],
-   "question_type": "治疗获益",
-   "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
-   "start": "低",
-   "start_basis": "前瞻性单臂研究：治疗获益问题，观察性→低",
-   "downgrades": [],
-   "provisional": "低",
-   "certainty": "待评定",
-   "notes_zh": "无对照病例系列按 GRADE 观察性起点低；未做偏倚风险评估",
-   "pending_reason_zh": "尚未做偏倚风险评估（ROBINS-I）"
-  },
-  "41035288": {
-   "rules_applied": [
-    "R-start-treatment-observational-low",
-    "R-no-RoB-pending"
-   ],
-   "question_type": "治疗获益",
-   "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
-   "start": "低",
-   "start_basis": "回顾性观察研究：治疗获益问题，观察性→低",
-   "downgrades": [],
-   "provisional": "低",
-   "certainty": "待评定",
-   "notes_zh": "无对照病例系列按 GRADE 观察性起点低；未做偏倚风险评估",
-   "pending_reason_zh": "尚未做偏倚风险评估（ROBINS-I）"
-  },
-  "37732386": {
-   "rules_applied": [
-    "R-start-treatment-observational-low",
-    "R-no-RoB-pending"
-   ],
-   "question_type": "治疗获益",
-   "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
-   "start": "低",
-   "start_basis": "回顾性病例系列：治疗获益问题，观察性→低",
-   "downgrades": [],
-   "provisional": "低",
-   "certainty": "待评定",
-   "notes_zh": "无对照病例系列按 GRADE 观察性起点低；未做偏倚风险评估",
-   "pending_reason_zh": "尚未做偏倚风险评估（ROBINS-I）"
-  },
-  "37548535": {
-   "rules_applied": [
-    "R-start-treatment-observational-low",
-    "R-no-RoB-pending"
-   ],
-   "question_type": "治疗获益",
-   "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
-   "start": "低",
-   "start_basis": "前瞻性随访研究：治疗获益问题，观察性→低",
-   "downgrades": [],
-   "provisional": "低",
-   "certainty": "待评定",
-   "notes_zh": "无对照病例系列按 GRADE 观察性起点低；未做偏倚风险评估",
-   "pending_reason_zh": "尚未做偏倚风险评估（ROBINS-I）"
-  },
-  "37439383": {
-   "rules_applied": [
-    "R-start-treatment-observational-low",
-    "R-no-RoB-pending"
-   ],
-   "question_type": "治疗获益",
-   "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
-   "start": "低",
-   "start_basis": "前瞻性单臂研究：治疗获益问题，观察性→低",
-   "downgrades": [],
-   "provisional": "低",
-   "certainty": "待评定",
-   "notes_zh": "无对照病例系列按 GRADE 观察性起点低；未做偏倚风险评估",
-   "pending_reason_zh": "尚未做偏倚风险评估（ROBINS-I）"
-  },
-  "37403259": {
-   "rules_applied": [
-    "R-start-treatment-observational-low",
-    "R-no-RoB-pending"
-   ],
-   "question_type": "治疗获益",
-   "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
-   "start": "低",
-   "start_basis": "回顾性病例系列：治疗获益问题，观察性→低",
-   "downgrades": [],
-   "provisional": "低",
-   "certainty": "待评定",
-   "notes_zh": "无对照病例系列按 GRADE 观察性起点低；未做偏倚风险评估",
-   "pending_reason_zh": "尚未做偏倚风险评估（ROBINS-I）"
-  },
-  "36297266": {
-   "rules_applied": [
-    "R-start-treatment-observational-low",
-    "R-no-RoB-pending"
-   ],
-   "question_type": "治疗获益",
-   "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
-   "start": "低",
-   "start_basis": "回顾性病例系列（主人报告）：治疗获益问题，观察性→低",
-   "downgrades": [],
-   "provisional": "低",
-   "certainty": "待评定",
-   "notes_zh": "无对照病例系列按 GRADE 观察性起点低；未做偏倚风险评估",
-   "pending_reason_zh": "尚未做偏倚风险评估（ROBINS-I）"
-  },
-  "34835034": {
-   "rules_applied": [
-    "R-start-treatment-observational-low",
-    "R-no-RoB-pending"
-   ],
-   "question_type": "治疗获益",
-   "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
-   "start": "低",
-   "start_basis": "前瞻性单臂研究：治疗获益问题，观察性→低",
-   "downgrades": [],
-   "provisional": "低",
-   "certainty": "待评定",
-   "notes_zh": "无对照病例系列按 GRADE 观察性起点低；未做偏倚风险评估",
-   "pending_reason_zh": "尚未做偏倚风险评估（ROBINS-I）"
-  },
-  "32441826": {
-   "rules_applied": [
-    "R-start-treatment-observational-low",
-    "R-no-RoB-pending"
-   ],
-   "question_type": "治疗获益",
-   "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
-   "start": "低",
-   "start_basis": "病例系列：治疗获益问题，观察性→低",
-   "downgrades": [],
-   "provisional": "低",
-   "certainty": "待评定",
-   "notes_zh": "无对照病例系列按 GRADE 观察性起点低；未做偏倚风险评估",
-   "pending_reason_zh": "尚未做偏倚风险评估（ROBINS-I）"
-  },
-  "30755068": {
-   "rules_applied": [
-    "R-start-treatment-observational-low",
-    "R-no-RoB-pending"
-   ],
-   "question_type": "治疗获益",
-   "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
-   "start": "低",
-   "start_basis": "前瞻性单臂现场试验：治疗获益问题，观察性→低",
-   "downgrades": [],
-   "provisional": "低",
-   "certainty": "待评定",
-   "notes_zh": "无对照病例系列按 GRADE 观察性起点低；未做偏倚风险评估",
-   "pending_reason_zh": "尚未做偏倚风险评估（ROBINS-I）"
-  },
-  "30543707": {
-   "rules_applied": [
-    "R-start-treatment-observational-low",
-    "R-no-RoB-pending"
-   ],
-   "question_type": "治疗获益",
-   "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
-   "start": "低",
-   "start_basis": "前瞻性观察（病例系列 + 健康对照）：治疗获益问题，观察性→低",
-   "downgrades": [],
-   "provisional": "低",
-   "certainty": "待评定",
-   "notes_zh": "无对照病例系列按 GRADE 观察性起点低；未做偏倚风险评估",
-   "pending_reason_zh": "尚未做偏倚风险评估（ROBINS-I）"
-  },
-  "30797439": {
-   "rules_applied": [
-    "R-VF-ruling-30797439-design-harm",
-    "R-start-treatment-observational-low",
-    "R-no-RoB-pending"
-   ],
-   "question_type": "治疗危害",
-   "question_basis": "Vibe Feline 裁定：危害问题（饮食与 DCM），观察性",
-   "start": "低",
-   "start_basis": "回顾性病例系列（扩张型心肌病犬按饮食分组比较）：治疗危害问题，观察性→低",
-   "downgrades": [],
-   "provisional": "低",
-   "certainty": "待评定",
-   "notes_zh": "无对照病例系列按 GRADE 观察性起点低；未做偏倚风险评估",
-   "pending_reason_zh": "尚未做偏倚风险评估（ROBINS-I）"
-  },
-  "28901812": {
-   "rules_applied": [
-    "R-start-treatment-observational-low",
-    "R-no-RoB-pending"
-   ],
-   "question_type": "治疗获益",
-   "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
-   "start": "低",
-   "start_basis": "前瞻性单臂现场试验：治疗获益问题，观察性→低",
-   "downgrades": [],
-   "provisional": "低",
-   "certainty": "待评定",
-   "notes_zh": "无对照病例系列按 GRADE 观察性起点低；未做偏倚风险评估",
-   "pending_reason_zh": "尚未做偏倚风险评估（ROBINS-I）"
-  },
-  "28152671": {
-   "rules_applied": [
-    "R-start-diagnosis-casecontrol-high",
-    "R-down-indirectness-QUADAS2-applicability",
-    "R-down-QUADAS2-high"
-   ],
-   "question_type": "诊断",
-   "question_basis": "extracts/cebm_fill_r2.json",
-   "start": "高",
-   "start_basis": "横断面诊断探索：诊断问题，病例—对照式设计→高（设计问题计入偏倚风险与间接性，Vibe Feline 裁定）",
-   "downgrades": [
-    {
-     "reason_zh": "QUADAS-2 总体判定为高偏倚风险",
-     "source_file": "review2/rob_adjudicated_r3.json"
+    "x-international-renal-interest-society-2026-iris-staging-of-ckd-modified-2026": {
+      "rules_applied": [
+        "R-guideline-own-strength"
+      ],
+      "question_type": null,
+      "question_basis": null,
+      "start": null,
+      "start_basis": "指南/共识：按团队规则不套用 GRADE",
+      "downgrades": [],
+      "provisional": null,
+      "certainty": null,
+      "notes_zh": "指南/共识不评证据确定性，首屏显示指南自身推荐强度",
+      "guideline_strength": "该指南未分级",
+      "guideline_strength_source": "extracts/guideline_strength.json"
     },
-    {
-     "reason_zh": "间接性：QUADAS-2 适用性高度关注",
-     "source_file": "review2/rob_adjudicated_r3.json"
+    "37766254": {
+      "rules_applied": [
+        "R-guideline-own-strength"
+      ],
+      "question_type": null,
+      "question_basis": null,
+      "start": null,
+      "start_basis": "指南/共识：按团队规则不套用 GRADE",
+      "downgrades": [],
+      "provisional": null,
+      "certainty": null,
+      "notes_zh": "指南/共识不评证据确定性，首屏显示指南自身推荐强度",
+      "guideline_strength": "该指南未分级",
+      "guideline_strength_source": "extracts/guideline_strength.json"
+    },
+    "36002137": {
+      "rules_applied": [
+        "R-guideline-own-strength"
+      ],
+      "question_type": null,
+      "question_basis": null,
+      "start": null,
+      "start_basis": "指南/共识：按团队规则不套用 GRADE",
+      "downgrades": [],
+      "provisional": null,
+      "certainty": null,
+      "notes_zh": "指南/共识不评证据确定性，首屏显示指南自身推荐强度",
+      "guideline_strength": "该指南未分级",
+      "guideline_strength_source": "extracts/guideline_strength.json"
+    },
+    "32243654": {
+      "rules_applied": [
+        "R-guideline-own-strength"
+      ],
+      "question_type": null,
+      "question_basis": null,
+      "start": null,
+      "start_basis": "指南/共识：按团队规则不套用 GRADE",
+      "downgrades": [],
+      "provisional": null,
+      "certainty": null,
+      "notes_zh": "指南/共识不评证据确定性，首屏显示指南自身推荐强度",
+      "guideline_strength": "氯吡格雷：有CHF史且LA中重度扩大 → 'is recommended'（Class I），LOE low；B2期高ATE风险 → 'is recommended'，LOE medium",
+      "guideline_strength_source": "extracts/guideline_strength.json"
+    },
+    "30974015": {
+      "rules_applied": [
+        "R-guideline-own-strength"
+      ],
+      "question_type": null,
+      "question_basis": null,
+      "start": null,
+      "start_basis": "指南/共识：按团队规则不套用 GRADE",
+      "downgrades": [],
+      "provisional": null,
+      "certainty": null,
+      "notes_zh": "指南/共识不评证据确定性，首屏显示指南自身推荐强度",
+      "guideline_strength": "B2 期匹莫苯丹：Class I, LOE: strong",
+      "guideline_strength_source": "extracts/guideline_strength.json"
+    },
+    "30353952": {
+      "rules_applied": [
+        "R-guideline-own-strength"
+      ],
+      "question_type": null,
+      "question_basis": null,
+      "start": null,
+      "start_basis": "指南/共识：按团队规则不套用 GRADE",
+      "downgrades": [],
+      "provisional": null,
+      "certainty": null,
+      "notes_zh": "指南/共识不评证据确定性，首屏显示指南自身推荐强度",
+      "guideline_strength": "该指南未分级",
+      "guideline_strength_source": "extracts/guideline_strength.json"
+    },
+    "29314873": {
+      "rules_applied": [
+        "R-guideline-own-strength"
+      ],
+      "question_type": null,
+      "question_basis": null,
+      "start": null,
+      "start_basis": "指南/共识：按团队规则不套用 GRADE",
+      "downgrades": [],
+      "provisional": null,
+      "certainty": null,
+      "notes_zh": "指南/共识不评证据确定性，首屏显示指南自身推荐强度",
+      "guideline_strength": "该指南未分级",
+      "guideline_strength_source": "extracts/guideline_strength.json"
+    },
+    "28965673": {
+      "rules_applied": [
+        "R-guideline-own-strength"
+      ],
+      "question_type": null,
+      "question_basis": null,
+      "start": null,
+      "start_basis": "指南/共识：按团队规则不套用 GRADE",
+      "downgrades": [],
+      "provisional": null,
+      "certainty": null,
+      "notes_zh": "指南/共识不评证据确定性，首屏显示指南自身推荐强度",
+      "guideline_strength": "摘要未提及",
+      "guideline_strength_source": "extracts/guideline_strength.json"
+    },
+    "27143042": {
+      "rules_applied": [
+        "R-guideline-own-strength"
+      ],
+      "question_type": null,
+      "question_basis": null,
+      "start": null,
+      "start_basis": "指南/共识：按团队规则不套用 GRADE",
+      "downgrades": [],
+      "provisional": null,
+      "certainty": null,
+      "notes_zh": "指南/共识不评证据确定性，首屏显示指南自身推荐强度",
+      "guideline_strength": "该指南未分级",
+      "guideline_strength_source": "extracts/guideline_strength.json"
+    },
+    "26936494": {
+      "rules_applied": [
+        "R-guideline-own-strength"
+      ],
+      "question_type": null,
+      "question_basis": null,
+      "start": null,
+      "start_basis": "指南/共识：按团队规则不套用 GRADE",
+      "downgrades": [],
+      "provisional": null,
+      "certainty": null,
+      "notes_zh": "指南/共识不评证据确定性，首屏显示指南自身推荐强度",
+      "guideline_strength": "肾病处方粮（蛋白+磷限制）：Increased longevity GOOD；Improved QoL GOOD",
+      "guideline_strength_source": "extracts/guideline_strength.json"
+    },
+    "25701862": {
+      "rules_applied": [
+        "R-guideline-own-strength"
+      ],
+      "question_type": null,
+      "question_basis": null,
+      "start": null,
+      "start_basis": "指南/共识：按团队规则不套用 GRADE",
+      "downgrades": [],
+      "provisional": null,
+      "certainty": null,
+      "notes_zh": "指南/共识不评证据确定性，首屏显示指南自身推荐强度",
+      "guideline_strength": "该指南未分级",
+      "guideline_strength_source": "extracts/guideline_strength.json"
+    },
+    "24112317": {
+      "rules_applied": [
+        "R-guideline-own-strength"
+      ],
+      "question_type": null,
+      "question_basis": null,
+      "start": null,
+      "start_basis": "指南/共识：按团队规则不套用 GRADE",
+      "downgrades": [],
+      "provisional": null,
+      "certainty": null,
+      "notes_zh": "指南/共识不评证据确定性，首屏显示指南自身推荐强度",
+      "guideline_strength": "该指南未分级",
+      "guideline_strength_source": "extracts/guideline_strength.json"
+    },
+    "23422366": {
+      "rules_applied": [
+        "R-guideline-own-strength"
+      ],
+      "question_type": null,
+      "question_basis": null,
+      "start": null,
+      "start_basis": "指南/共识：按团队规则不套用 GRADE",
+      "downgrades": [],
+      "provisional": null,
+      "certainty": null,
+      "notes_zh": "指南/共识不评证据确定性，首屏显示指南自身推荐强度",
+      "guideline_strength": "该指南未分级",
+      "guideline_strength_source": "extracts/guideline_strength.json"
+    },
+    "21704901": {
+      "rules_applied": [
+        "R-guideline-own-strength"
+      ],
+      "question_type": null,
+      "question_basis": null,
+      "start": null,
+      "start_basis": "指南/共识：按团队规则不套用 GRADE",
+      "downgrades": [],
+      "provisional": null,
+      "certainty": null,
+      "notes_zh": "指南/共识不评证据确定性，首屏显示指南自身推荐强度",
+      "guideline_strength": "该指南未分级",
+      "guideline_strength_source": "extracts/guideline_strength.json"
+    },
+    "19481039": {
+      "rules_applied": [
+        "R-guideline-own-strength"
+      ],
+      "question_type": null,
+      "question_basis": null,
+      "start": null,
+      "start_basis": "指南/共识：按团队规则不套用 GRADE",
+      "downgrades": [],
+      "provisional": null,
+      "certainty": null,
+      "notes_zh": "指南/共识不评证据确定性，首屏显示指南自身推荐强度",
+      "guideline_strength": "泼尼松龙/地塞米松免疫抑制剂量：'Currently supportive treatment of choice [III]'（无对照研究）",
+      "guideline_strength_source": "extracts/guideline_strength.json"
+    },
+    "15954557": {
+      "rules_applied": [
+        "R-guideline-own-strength"
+      ],
+      "question_type": null,
+      "question_basis": null,
+      "start": null,
+      "start_basis": "指南/共识：按团队规则不套用 GRADE",
+      "downgrades": [],
+      "provisional": null,
+      "certainty": null,
+      "notes_zh": "指南/共识不评证据确定性，首屏显示指南自身推荐强度",
+      "guideline_strength": "按陈述分别标注 Level 1/2/3（例：UPC 升高与不良结局风险 = Level 1）",
+      "guideline_strength_source": "extracts/guideline_strength.json"
+    },
+    "39858209": {
+      "rules_applied": [
+        "R-start-SR-by-included-designs",
+        "R-down-AMSTAR2-low-critlow"
+      ],
+      "question_type": "治疗获益",
+      "question_basis": "extracts/cebm_fill.json",
+      "start": "低",
+      "start_basis": "SR（系统综述 + Meta 分析），治疗问题；纳入设计以 CEBM 3 为证据：多为非随机/非对照研究→观察性起点低",
+      "downgrades": [
+        {
+          "reason_zh": "AMSTAR 2 总体置信度为极低",
+          "source_file": "review2/amstar2_adjudicated.json"
+        }
+      ],
+      "provisional": "极低",
+      "certainty": "极低",
+      "notes_zh": ""
+    },
+    "41781382": {
+      "rules_applied": [
+        "R-start-treatment-RCT-high"
+      ],
+      "question_type": "治疗获益",
+      "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
+      "start": "高",
+      "start_basis": "RCT（非劣效）：治疗获益问题，RCT→高",
+      "downgrades": [],
+      "provisional": "高",
+      "certainty": "高",
+      "notes_zh": ""
+    },
+    "40110605": {
+      "rules_applied": [
+        "R-start-treatment-RCT-high"
+      ],
+      "question_type": "治疗获益",
+      "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
+      "start": "高",
+      "start_basis": "RCT（交叉）：治疗获益问题，RCT→高",
+      "downgrades": [],
+      "provisional": "高",
+      "certainty": "高",
+      "notes_zh": ""
+    },
+    "39417648": {
+      "rules_applied": [
+        "R-start-treatment-RCT-high",
+        "R-down-RoB2-high"
+      ],
+      "question_type": "治疗获益",
+      "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
+      "start": "高",
+      "start_basis": "RCT：治疗获益问题，RCT→高",
+      "downgrades": [
+        {
+          "reason_zh": "RoB 2 总体判定为高偏倚风险",
+          "source_file": "review2/adjudicated_rob_rct.json"
+        }
+      ],
+      "provisional": "中",
+      "certainty": "中",
+      "notes_zh": ""
+    },
+    "39066306": {
+      "rules_applied": [
+        "R-start-treatment-RCT-high"
+      ],
+      "question_type": "治疗获益",
+      "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
+      "start": "高",
+      "start_basis": "RCT：治疗获益问题，RCT→高",
+      "downgrades": [],
+      "provisional": "高",
+      "certainty": "高",
+      "notes_zh": ""
+    },
+    "38952053": {
+      "rules_applied": [
+        "R-start-treatment-RCT-high"
+      ],
+      "question_type": "治疗获益",
+      "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
+      "start": "高",
+      "start_basis": "RCT：治疗获益问题，RCT→高",
+      "downgrades": [],
+      "provisional": "高",
+      "certainty": "高",
+      "notes_zh": ""
+    },
+    "38884190": {
+      "rules_applied": [
+        "R-start-treatment-RCT-high",
+        "R-down-RoB2-high"
+      ],
+      "question_type": "治疗获益",
+      "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
+      "start": "高",
+      "start_basis": "RCT（阳性对照、开放标签、非劣效现场试验）：治疗获益问题，RCT→高",
+      "downgrades": [
+        {
+          "reason_zh": "RoB 2 总体判定为高偏倚风险",
+          "source_file": "review2/adjudicated_rob_rct.json"
+        }
+      ],
+      "provisional": "中",
+      "certainty": "中",
+      "notes_zh": ""
+    },
+    "37632022": {
+      "rules_applied": [
+        "R-start-treatment-RCT-high"
+      ],
+      "question_type": "治疗获益",
+      "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
+      "start": "高",
+      "start_basis": "RCT（非劣效）：治疗获益问题，RCT→高",
+      "downgrades": [],
+      "provisional": "高",
+      "certainty": "高",
+      "notes_zh": ""
+    },
+    "27678080": {
+      "rules_applied": [
+        "R-start-treatment-RCT-high"
+      ],
+      "question_type": "治疗获益",
+      "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
+      "start": "高",
+      "start_basis": "RCT：治疗获益问题，RCT→高",
+      "downgrades": [],
+      "provisional": "高",
+      "certainty": "高",
+      "notes_zh": ""
+    },
+    "26948860": {
+      "rules_applied": [
+        "R-start-prognosis-cohort-high",
+        "R-no-RoB-pending"
+      ],
+      "question_type": "预后",
+      "question_basis": "摘要研究目的（benchmark/work/abs_all.json）：\"Evaluation of clinical and questionnaire data will identify risk factors for development of azotemic CKD in cats.\"",
+      "start": "高",
+      "start_basis": "前瞻性队列：预后问题，队列→高（GRADE 预后扩展，Iorio 2015 BMJ）",
+      "downgrades": [],
+      "provisional": "高",
+      "certainty": "待评定",
+      "notes_zh": "未做偏倚风险评估",
+      "pending_reason_zh": "尚未做偏倚风险评估（QUIPS）"
+    },
+    "26776588": {
+      "rules_applied": [
+        "R-start-treatment-RCT-high",
+        "R-no-RoB-pending"
+      ],
+      "question_type": "治疗获益",
+      "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
+      "start": "高",
+      "start_basis": "RCT：治疗获益问题，RCT→高",
+      "downgrades": [],
+      "provisional": "高",
+      "certainty": "待评定",
+      "notes_zh": "未做偏倚风险评估",
+      "pending_reason_zh": "尚未做偏倚风险评估（RoB 2）"
+    },
+    "26474314": {
+      "rules_applied": [
+        "R-start-treatment-RCT-high"
+      ],
+      "question_type": "治疗获益",
+      "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
+      "start": "高",
+      "start_basis": "RCT（阳性对照、非劣效）：治疗获益问题，RCT→高",
+      "downgrades": [],
+      "provisional": "高",
+      "certainty": "高",
+      "notes_zh": ""
+    },
+    "26265631": {
+      "rules_applied": [
+        "R-start-prognosis-cohort-high",
+        "R-no-RoB-pending"
+      ],
+      "question_type": "预后",
+      "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
+      "start": "高",
+      "start_basis": "前瞻性队列：预后问题，队列→高（GRADE 预后扩展，Iorio 2015 BMJ）",
+      "downgrades": [],
+      "provisional": "高",
+      "certainty": "待评定",
+      "notes_zh": "未做偏倚风险评估",
+      "pending_reason_zh": "尚未做偏倚风险评估（QUIPS）"
+    },
+    "23838205": {
+      "rules_applied": [
+        "R-start-treatment-RCT-high",
+        "R-no-RoB-pending"
+      ],
+      "question_type": "治疗获益",
+      "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
+      "start": "高",
+      "start_basis": "RCT（交叉）：治疗获益问题，RCT→高",
+      "downgrades": [],
+      "provisional": "高",
+      "certainty": "待评定",
+      "notes_zh": "未做偏倚风险评估",
+      "pending_reason_zh": "尚未做偏倚风险评估（RoB 2）"
+    },
+    "23078651": {
+      "rules_applied": [
+        "R-start-treatment-RCT-high"
+      ],
+      "question_type": "治疗获益",
+      "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
+      "start": "高",
+      "start_basis": "RCT：治疗获益问题，RCT→高",
+      "downgrades": [],
+      "provisional": "高",
+      "certainty": "高",
+      "notes_zh": ""
+    },
+    "18638016": {
+      "rules_applied": [
+        "R-start-treatment-RCT-high",
+        "R-no-RoB-pending"
+      ],
+      "question_type": "治疗获益",
+      "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
+      "start": "高",
+      "start_basis": "RCT：治疗获益问题，RCT→高",
+      "downgrades": [],
+      "provisional": "高",
+      "certainty": "待评定",
+      "notes_zh": "未做偏倚风险评估",
+      "pending_reason_zh": "尚未做偏倚风险评估（RoB 2）"
+    },
+    "16978113": {
+      "rules_applied": [
+        "R-start-treatment-RCT-high",
+        "R-no-RoB-pending"
+      ],
+      "question_type": "治疗获益",
+      "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
+      "start": "高",
+      "start_basis": "RCT：治疗获益问题，RCT→高",
+      "downgrades": [],
+      "provisional": "高",
+      "certainty": "待评定",
+      "notes_zh": "未做偏倚风险评估",
+      "pending_reason_zh": "尚未做偏倚风险评估（RoB 2）"
+    },
+    "17063696": {
+      "rules_applied": [
+        "R-start-treatment-RCT-high",
+        "R-no-RoB-pending"
+      ],
+      "question_type": "治疗获益",
+      "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
+      "start": "高",
+      "start_basis": "RCT：治疗获益问题，RCT→高",
+      "downgrades": [],
+      "provisional": "高",
+      "certainty": "待评定",
+      "notes_zh": "未做偏倚风险评估",
+      "pending_reason_zh": "尚未做偏倚风险评估（RoB 2）"
+    },
+    "15702689": {
+      "rules_applied": [
+        "R-start-prognosis-cohort-high",
+        "R-no-RoB-pending"
+      ],
+      "question_type": "预后",
+      "question_basis": "摘要研究目的（benchmark/work/abs_all.json）：\"To determine whether urine protein-to-creatinine ratio (UP:C) > or = 1.0 at initial diagnosis of chronic renal failure (CRF) is associated with greater risk of development of uremic crises, death, and progression of renal failure in dogs.\"",
+      "start": "高",
+      "start_basis": "前瞻性队列：预后问题，队列→高（GRADE 预后扩展，Iorio 2015 BMJ）",
+      "downgrades": [],
+      "provisional": "高",
+      "certainty": "待评定",
+      "notes_zh": "未做偏倚风险评估",
+      "pending_reason_zh": "尚未做偏倚风险评估（QUIPS）"
+    },
+    "11990962": {
+      "rules_applied": [
+        "R-start-treatment-RCT-high",
+        "R-no-RoB-pending"
+      ],
+      "question_type": "治疗获益",
+      "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
+      "start": "高",
+      "start_basis": "RCT：治疗获益问题，RCT→高",
+      "downgrades": [],
+      "provisional": "高",
+      "certainty": "待评定",
+      "notes_zh": "未做偏倚风险评估",
+      "pending_reason_zh": "尚未做偏倚风险评估（RoB 2）"
+    },
+    "42207576": {
+      "rules_applied": [
+        "R-start-prognosis-cohort-high",
+        "R-no-RoB-pending"
+      ],
+      "question_type": "预后",
+      "question_basis": "摘要研究目的（benchmark/work/abs_all.json）：\"A reduced urine ammonia-to-creatinine ratio (UACR) would be associated with shorter survival and faster disease progression in dogs with stable CKD.\"",
+      "start": "高",
+      "start_basis": "前瞻性观察队列：预后问题，队列→高（GRADE 预后扩展，Iorio 2015 BMJ）",
+      "downgrades": [],
+      "provisional": "高",
+      "certainty": "待评定",
+      "notes_zh": "未做偏倚风险评估",
+      "pending_reason_zh": "尚未做偏倚风险评估（QUIPS）"
+    },
+    "32139728": {
+      "rules_applied": [
+        "R-start-prevalence-observational-high",
+        "R-no-RoB-pending"
+      ],
+      "question_type": "患病率",
+      "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
+      "start": "高",
+      "start_basis": "横断面问卷调查：患病率问题，观察性→高（偏倚风险工具 JBI 患病率清单）",
+      "downgrades": [],
+      "provisional": "高",
+      "certainty": "待评定",
+      "notes_zh": "未做偏倚风险评估",
+      "pending_reason_zh": "尚未做偏倚风险评估（JBI）"
+    },
+    "30548336": {
+      "rules_applied": [
+        "R-start-prognosis-cohort-high",
+        "R-down-QUIPS-high"
+      ],
+      "question_type": "预后",
+      "question_basis": "extracts/cebm_fill_r2.json",
+      "start": "高",
+      "start_basis": "回顾性队列（原文自称病例对照，按暴露分组后比较寿命）：预后问题，队列→高（GRADE 预后扩展，Iorio 2015 BMJ）",
+      "downgrades": [
+        {
+          "reason_zh": "QUIPS 总体判定为高偏倚风险",
+          "source_file": "review2/rob_adjudicated_r3.json"
+        }
+      ],
+      "provisional": "中",
+      "certainty": "中",
+      "notes_zh": ""
+    },
+    "29660848": {
+      "rules_applied": [
+        "R-start-prognosis-cohort-high",
+        "R-no-RoB-pending"
+      ],
+      "question_type": "预后",
+      "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
+      "start": "高",
+      "start_basis": "回顾性多中心队列：预后问题，队列→高（GRADE 预后扩展，Iorio 2015 BMJ）",
+      "downgrades": [],
+      "provisional": "高",
+      "certainty": "待评定",
+      "notes_zh": "未做偏倚风险评估",
+      "pending_reason_zh": "尚未做偏倚风险评估（QUIPS）"
+    },
+    "26776583": {
+      "rules_applied": [
+        "R-start-prevalence-observational-high",
+        "R-no-RoB-pending"
+      ],
+      "question_type": "患病率",
+      "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
+      "start": "高",
+      "start_basis": "前瞻性横断面：患病率问题，观察性→高（偏倚风险工具 JBI 患病率清单）",
+      "downgrades": [],
+      "provisional": "高",
+      "certainty": "待评定",
+      "notes_zh": "未做偏倚风险评估",
+      "pending_reason_zh": "尚未做偏倚风险评估（RoB 2）"
+    },
+    "26581469": {
+      "rules_applied": [
+        "R-start-prevalence-observational-high",
+        "R-no-RoB-pending"
+      ],
+      "question_type": "发生率",
+      "question_basis": "Vibe 裁定 2026-11-04（原文报告理赔年发生率）",
+      "start": "高",
+      "start_basis": "回顾性队列（保险数据）：发生率问题，观察性→高（偏倚风险工具 JBI 队列清单）",
+      "downgrades": [],
+      "provisional": "高",
+      "certainty": "待评定",
+      "notes_zh": "未做偏倚风险评估",
+      "pending_reason_zh": "尚未做偏倚风险评估（JBI）"
+    },
+    "25896026": {
+      "rules_applied": [
+        "R-start-prognosis-cohort-high",
+        "R-no-RoB-pending"
+      ],
+      "question_type": "预后",
+      "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
+      "start": "高",
+      "start_basis": "回顾性队列（保险数据）：预后问题，队列→高（GRADE 预后扩展，Iorio 2015 BMJ）",
+      "downgrades": [],
+      "provisional": "高",
+      "certainty": "待评定",
+      "notes_zh": "未做偏倚风险评估",
+      "pending_reason_zh": "尚未做偏倚风险评估（QUIPS）"
+    },
+    "25231385": {
+      "rules_applied": [
+        "R-start-diagnosis-casecontrol-high",
+        "R-down-indirectness-QUADAS2-applicability",
+        "R-down-QUADAS2-high"
+      ],
+      "question_type": "诊断",
+      "question_basis": "extracts/cebm_fill_r2.json",
+      "start": "高",
+      "start_basis": "回顾性诊断准确性研究（病例—对照式）：诊断问题，病例—对照式设计→高（设计问题计入偏倚风险与间接性，Vibe Feline 裁定）",
+      "downgrades": [
+        {
+          "reason_zh": "QUADAS-2 总体判定为高偏倚风险",
+          "source_file": "review2/rob_adjudicated_r3.json"
+        },
+        {
+          "reason_zh": "间接性：QUADAS-2 适用性高度关注",
+          "source_file": "review2/rob_adjudicated_r3.json"
+        }
+      ],
+      "provisional": "低",
+      "certainty": "低",
+      "notes_zh": ""
+    },
+    "24217707": {
+      "rules_applied": [
+        "R-start-treatment-RCT-high",
+        "R-no-RoB-pending"
+      ],
+      "question_type": "治疗获益",
+      "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
+      "start": "高",
+      "start_basis": "回顾性横断面：治疗获益问题，RCT→高",
+      "downgrades": [],
+      "provisional": "高",
+      "certainty": "待评定",
+      "notes_zh": "未做偏倚风险评估",
+      "pending_reason_zh": "尚未做偏倚风险评估（RoB 2）"
+    },
+    "23647231": {
+      "rules_applied": [
+        "R-start-prevalence-observational-high",
+        "R-no-RoB-pending"
+      ],
+      "question_type": "患病率/危险因素",
+      "question_basis": "Vibe 裁定 2026-11-04",
+      "start": "高",
+      "start_basis": "VetCompass 回顾性研究：患病率/危险因素问题（GRADE：此类问题观察性起点高），偏倚风险工具 JBI",
+      "downgrades": [],
+      "provisional": "高",
+      "certainty": "待评定",
+      "notes_zh": "未做偏倚风险评估",
+      "pending_reason_zh": "尚未做偏倚风险评估（JBI，无全文）"
+    },
+    "22269057": {
+      "rules_applied": [
+        "R-start-prognosis-cohort-high",
+        "R-no-RoB-pending"
+      ],
+      "question_type": "预后",
+      "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
+      "start": "高",
+      "start_basis": "回顾性队列：预后问题，队列→高（GRADE 预后扩展，Iorio 2015 BMJ）",
+      "downgrades": [],
+      "provisional": "高",
+      "certainty": "待评定",
+      "notes_zh": "未做偏倚风险评估",
+      "pending_reason_zh": "尚未做偏倚风险评估（QUIPS）"
+    },
+    "20005753": {
+      "rules_applied": [
+        "R-start-prevalence-observational-high",
+        "R-no-RoB-pending"
+      ],
+      "question_type": "患病率",
+      "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
+      "start": "高",
+      "start_basis": "横断面调查：患病率问题，观察性→高（偏倚风险工具 JBI 患病率清单）",
+      "downgrades": [],
+      "provisional": "高",
+      "certainty": "待评定",
+      "notes_zh": "未做偏倚风险评估",
+      "pending_reason_zh": "尚未做偏倚风险评估（JBI）"
+    },
+    "18691369": {
+      "rules_applied": [
+        "R-start-prognosis-cohort-high",
+        "R-no-RoB-pending"
+      ],
+      "question_type": "预后",
+      "question_basis": "摘要研究目的（benchmark/work/abs_all.json）：\"Stage of kidney disease based on serum creatinine concentration (SCr) at the time of diagnosis and after correction of prerenal azotemia is strongly associated with duration of survival in cats.\"",
+      "start": "高",
+      "start_basis": "回顾性队列：预后问题，队列→高（GRADE 预后扩展，Iorio 2015 BMJ）",
+      "downgrades": [],
+      "provisional": "高",
+      "certainty": "待评定",
+      "notes_zh": "未做偏倚风险评估",
+      "pending_reason_zh": "尚未做偏倚风险评估（QUIPS）"
+    },
+    "18289298": {
+      "rules_applied": [
+        "R-start-prognosis-cohort-high",
+        "R-no-RoB-pending"
+      ],
+      "question_type": "预后",
+      "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
+      "start": "高",
+      "start_basis": "预后队列：预后问题，队列→高（GRADE 预后扩展，Iorio 2015 BMJ）",
+      "downgrades": [],
+      "provisional": "高",
+      "certainty": "待评定",
+      "notes_zh": "未做偏倚风险评估",
+      "pending_reason_zh": "尚未做偏倚风险评估（QUIPS）"
+    },
+    "17939542": {
+      "rules_applied": [
+        "R-start-prognosis-cohort-high",
+        "R-no-RoB-pending"
+      ],
+      "question_type": "预后",
+      "question_basis": "Vibe Feline 裁定：RCT 安慰剂组预后分析",
+      "start": "高",
+      "start_basis": "RCT 安慰剂组的预后分析：预后问题，RCT 安慰剂组队列→高（GRADE 预后扩展，Iorio 2015 BMJ）",
+      "downgrades": [],
+      "provisional": "高",
+      "certainty": "待评定",
+      "notes_zh": "未做偏倚风险评估",
+      "pending_reason_zh": "尚未做偏倚风险评估（QUIPS）"
+    },
+    "16734085": {
+      "rules_applied": [
+        "R-start-prognosis-cohort-high",
+        "R-no-RoB-pending"
+      ],
+      "question_type": "预后",
+      "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
+      "start": "高",
+      "start_basis": "预后队列：预后问题，队列→高（GRADE 预后扩展，Iorio 2015 BMJ）",
+      "downgrades": [],
+      "provisional": "高",
+      "certainty": "待评定",
+      "notes_zh": "未做偏倚风险评估",
+      "pending_reason_zh": "尚未做偏倚风险评估（QUIPS）"
+    },
+    "11991408": {
+      "rules_applied": [
+        "R-start-treatment-RCT-high",
+        "R-no-RoB-pending"
+      ],
+      "question_type": "治疗获益",
+      "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
+      "start": "高",
+      "start_basis": "配对饲喂对照试验：治疗获益问题，RCT→高",
+      "downgrades": [],
+      "provisional": "高",
+      "certainty": "待评定",
+      "notes_zh": "未做偏倚风险评估",
+      "pending_reason_zh": "尚未做偏倚风险评估（RoB 2）"
+    },
+    "10879400": {
+      "rules_applied": [
+        "R-start-treatment-RCT-high",
+        "R-no-RoB-pending"
+      ],
+      "question_type": "治疗获益",
+      "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
+      "start": "高",
+      "start_basis": "前瞻性非随机对照：治疗获益问题，RCT→高",
+      "downgrades": [],
+      "provisional": "高",
+      "certainty": "待评定",
+      "notes_zh": "未做偏倚风险评估",
+      "pending_reason_zh": "尚未做偏倚风险评估（RoB 2）"
+    },
+    "42949438": {
+      "rules_applied": [
+        "R-start-treatment-observational-low",
+        "R-no-RoB-pending"
+      ],
+      "question_type": "治疗获益",
+      "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
+      "start": "低",
+      "start_basis": "前瞻性单臂试点：治疗获益问题，观察性→低",
+      "downgrades": [],
+      "provisional": "低",
+      "certainty": "待评定",
+      "notes_zh": "无对照病例系列按 GRADE 观察性起点低；未做偏倚风险评估",
+      "pending_reason_zh": "尚未做偏倚风险评估（ROBINS-I）"
+    },
+    "41834689": {
+      "rules_applied": [
+        "R-start-treatment-observational-low",
+        "R-no-RoB-pending"
+      ],
+      "question_type": "治疗获益",
+      "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
+      "start": "低",
+      "start_basis": "前瞻性单臂研究：治疗获益问题，观察性→低",
+      "downgrades": [],
+      "provisional": "低",
+      "certainty": "待评定",
+      "notes_zh": "无对照病例系列按 GRADE 观察性起点低；未做偏倚风险评估",
+      "pending_reason_zh": "尚未做偏倚风险评估（ROBINS-I）"
+    },
+    "41035288": {
+      "rules_applied": [
+        "R-start-treatment-observational-low",
+        "R-no-RoB-pending"
+      ],
+      "question_type": "治疗获益",
+      "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
+      "start": "低",
+      "start_basis": "回顾性观察研究：治疗获益问题，观察性→低",
+      "downgrades": [],
+      "provisional": "低",
+      "certainty": "待评定",
+      "notes_zh": "无对照病例系列按 GRADE 观察性起点低；未做偏倚风险评估",
+      "pending_reason_zh": "尚未做偏倚风险评估（ROBINS-I）"
+    },
+    "37732386": {
+      "rules_applied": [
+        "R-start-treatment-observational-low",
+        "R-no-RoB-pending"
+      ],
+      "question_type": "治疗获益",
+      "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
+      "start": "低",
+      "start_basis": "回顾性病例系列：治疗获益问题，观察性→低",
+      "downgrades": [],
+      "provisional": "低",
+      "certainty": "待评定",
+      "notes_zh": "无对照病例系列按 GRADE 观察性起点低；未做偏倚风险评估",
+      "pending_reason_zh": "尚未做偏倚风险评估（ROBINS-I）"
+    },
+    "37548535": {
+      "rules_applied": [
+        "R-start-treatment-observational-low",
+        "R-no-RoB-pending"
+      ],
+      "question_type": "治疗获益",
+      "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
+      "start": "低",
+      "start_basis": "前瞻性随访研究：治疗获益问题，观察性→低",
+      "downgrades": [],
+      "provisional": "低",
+      "certainty": "待评定",
+      "notes_zh": "无对照病例系列按 GRADE 观察性起点低；未做偏倚风险评估",
+      "pending_reason_zh": "尚未做偏倚风险评估（ROBINS-I）"
+    },
+    "37439383": {
+      "rules_applied": [
+        "R-start-treatment-observational-low",
+        "R-no-RoB-pending"
+      ],
+      "question_type": "治疗获益",
+      "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
+      "start": "低",
+      "start_basis": "前瞻性单臂研究：治疗获益问题，观察性→低",
+      "downgrades": [],
+      "provisional": "低",
+      "certainty": "待评定",
+      "notes_zh": "无对照病例系列按 GRADE 观察性起点低；未做偏倚风险评估",
+      "pending_reason_zh": "尚未做偏倚风险评估（ROBINS-I）"
+    },
+    "37403259": {
+      "rules_applied": [
+        "R-start-treatment-observational-low",
+        "R-no-RoB-pending"
+      ],
+      "question_type": "治疗获益",
+      "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
+      "start": "低",
+      "start_basis": "回顾性病例系列：治疗获益问题，观察性→低",
+      "downgrades": [],
+      "provisional": "低",
+      "certainty": "待评定",
+      "notes_zh": "无对照病例系列按 GRADE 观察性起点低；未做偏倚风险评估",
+      "pending_reason_zh": "尚未做偏倚风险评估（ROBINS-I）"
+    },
+    "36297266": {
+      "rules_applied": [
+        "R-start-treatment-observational-low",
+        "R-no-RoB-pending"
+      ],
+      "question_type": "治疗获益",
+      "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
+      "start": "低",
+      "start_basis": "回顾性病例系列（主人报告）：治疗获益问题，观察性→低",
+      "downgrades": [],
+      "provisional": "低",
+      "certainty": "待评定",
+      "notes_zh": "无对照病例系列按 GRADE 观察性起点低；未做偏倚风险评估",
+      "pending_reason_zh": "尚未做偏倚风险评估（ROBINS-I）"
+    },
+    "34835034": {
+      "rules_applied": [
+        "R-start-treatment-observational-low",
+        "R-no-RoB-pending"
+      ],
+      "question_type": "治疗获益",
+      "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
+      "start": "低",
+      "start_basis": "前瞻性单臂研究：治疗获益问题，观察性→低",
+      "downgrades": [],
+      "provisional": "低",
+      "certainty": "待评定",
+      "notes_zh": "无对照病例系列按 GRADE 观察性起点低；未做偏倚风险评估",
+      "pending_reason_zh": "尚未做偏倚风险评估（ROBINS-I）"
+    },
+    "32441826": {
+      "rules_applied": [
+        "R-start-treatment-observational-low",
+        "R-no-RoB-pending"
+      ],
+      "question_type": "治疗获益",
+      "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
+      "start": "低",
+      "start_basis": "病例系列：治疗获益问题，观察性→低",
+      "downgrades": [],
+      "provisional": "低",
+      "certainty": "待评定",
+      "notes_zh": "无对照病例系列按 GRADE 观察性起点低；未做偏倚风险评估",
+      "pending_reason_zh": "尚未做偏倚风险评估（ROBINS-I）"
+    },
+    "30755068": {
+      "rules_applied": [
+        "R-start-treatment-observational-low",
+        "R-no-RoB-pending"
+      ],
+      "question_type": "治疗获益",
+      "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
+      "start": "低",
+      "start_basis": "前瞻性单臂现场试验：治疗获益问题，观察性→低",
+      "downgrades": [],
+      "provisional": "低",
+      "certainty": "待评定",
+      "notes_zh": "无对照病例系列按 GRADE 观察性起点低；未做偏倚风险评估",
+      "pending_reason_zh": "尚未做偏倚风险评估（ROBINS-I）"
+    },
+    "30543707": {
+      "rules_applied": [
+        "R-start-treatment-observational-low",
+        "R-no-RoB-pending"
+      ],
+      "question_type": "治疗获益",
+      "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
+      "start": "低",
+      "start_basis": "前瞻性观察（病例系列 + 健康对照）：治疗获益问题，观察性→低",
+      "downgrades": [],
+      "provisional": "低",
+      "certainty": "待评定",
+      "notes_zh": "无对照病例系列按 GRADE 观察性起点低；未做偏倚风险评估",
+      "pending_reason_zh": "尚未做偏倚风险评估（ROBINS-I）"
+    },
+    "30797439": {
+      "rules_applied": [
+        "R-VF-ruling-30797439-design-harm",
+        "R-start-treatment-observational-low",
+        "R-no-RoB-pending"
+      ],
+      "question_type": "治疗危害",
+      "question_basis": "Vibe Feline 裁定：危害问题（饮食与 DCM），观察性",
+      "start": "低",
+      "start_basis": "回顾性病例系列（扩张型心肌病犬按饮食分组比较）：治疗危害问题，观察性→低",
+      "downgrades": [],
+      "provisional": "低",
+      "certainty": "待评定",
+      "notes_zh": "无对照病例系列按 GRADE 观察性起点低；未做偏倚风险评估",
+      "pending_reason_zh": "尚未做偏倚风险评估（ROBINS-I）"
+    },
+    "28901812": {
+      "rules_applied": [
+        "R-start-treatment-observational-low",
+        "R-no-RoB-pending"
+      ],
+      "question_type": "治疗获益",
+      "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
+      "start": "低",
+      "start_basis": "前瞻性单臂现场试验：治疗获益问题，观察性→低",
+      "downgrades": [],
+      "provisional": "低",
+      "certainty": "待评定",
+      "notes_zh": "无对照病例系列按 GRADE 观察性起点低；未做偏倚风险评估",
+      "pending_reason_zh": "尚未做偏倚风险评估（ROBINS-I）"
+    },
+    "28152671": {
+      "rules_applied": [
+        "R-start-diagnosis-casecontrol-high",
+        "R-down-indirectness-QUADAS2-applicability",
+        "R-down-QUADAS2-high"
+      ],
+      "question_type": "诊断",
+      "question_basis": "extracts/cebm_fill_r2.json",
+      "start": "高",
+      "start_basis": "横断面诊断探索：诊断问题，病例—对照式设计→高（设计问题计入偏倚风险与间接性，Vibe Feline 裁定）",
+      "downgrades": [
+        {
+          "reason_zh": "QUADAS-2 总体判定为高偏倚风险",
+          "source_file": "review2/rob_adjudicated_r3.json"
+        },
+        {
+          "reason_zh": "间接性：QUADAS-2 适用性高度关注",
+          "source_file": "review2/rob_adjudicated_r3.json"
+        }
+      ],
+      "provisional": "低",
+      "certainty": "低",
+      "notes_zh": ""
+    },
+    "27103204": {
+      "rules_applied": [
+        "R-start-diagnosis-casecontrol-high",
+        "R-no-RoB-pending"
+      ],
+      "question_type": "诊断",
+      "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
+      "start": "高",
+      "start_basis": "回顾性诊断研究：诊断问题，病例—对照式设计→高（设计问题计入偏倚风险与间接性，Vibe Feline 裁定）",
+      "downgrades": [],
+      "provisional": "高",
+      "certainty": "待评定",
+      "notes_zh": "未做偏倚风险评估",
+      "pending_reason_zh": "尚未做偏倚风险评估（QUADAS-2）"
+    },
+    "26079532": {
+      "rules_applied": [
+        "R-start-diagnosis-casecontrol-high",
+        "R-no-RoB-pending"
+      ],
+      "question_type": "诊断",
+      "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
+      "start": "高",
+      "start_basis": "前瞻性诊断/方法学验证：诊断问题，病例—对照式设计→高（设计问题计入偏倚风险与间接性，Vibe Feline 裁定）",
+      "downgrades": [],
+      "provisional": "高",
+      "certainty": "待评定",
+      "notes_zh": "未做偏倚风险评估",
+      "pending_reason_zh": "尚未做偏倚风险评估（QUADAS-2）"
+    },
+    "25673019": {
+      "rules_applied": [
+        "R-start-prevalence-observational-high",
+        "R-no-RoB-pending"
+      ],
+      "question_type": "患病率",
+      "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
+      "start": "高",
+      "start_basis": "横断面：患病率问题，观察性→高（偏倚风险工具 JBI 患病率清单）",
+      "downgrades": [],
+      "provisional": "高",
+      "certainty": "待评定",
+      "notes_zh": "未做偏倚风险评估",
+      "pending_reason_zh": "尚未做偏倚风险评估（JBI 患病率清单）"
+    },
+    "3616607": {
+      "rules_applied": [
+        "R-start-treatment-observational-low",
+        "R-no-RoB-pending"
+      ],
+      "question_type": "治疗获益",
+      "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
+      "start": "低",
+      "start_basis": "病例系列 + 实验：治疗获益问题，观察性→低",
+      "downgrades": [],
+      "provisional": "低",
+      "certainty": "待评定",
+      "notes_zh": "无对照病例系列按 GRADE 观察性起点低；未做偏倚风险评估",
+      "pending_reason_zh": "尚未做偏倚风险评估（ROBINS-I）"
+    },
+    "41701235": {
+      "rules_applied": [
+        "R-start-SR-by-included-designs",
+        "R-no-RoB-pending",
+        "R-VF-ruling-SR-included-designs-unverified"
+      ],
+      "question_type": "诊断",
+      "question_basis": "extracts/cebm_fill.json",
+      "start": null,
+      "start_basis": "SR（系统综述/Meta分析），诊断问题；纳入设计未核；起点待核（Vibe Feline 裁定）",
+      "downgrades": [],
+      "provisional": null,
+      "certainty": "待评定",
+      "notes_zh": "未做偏倚风险评估",
+      "pending_reason_zh": "尚未核对纳入研究设计（系统综述起点取决于纳入研究）"
+    },
+    "41527203": {
+      "rules_applied": [
+        "R-start-SR-by-included-designs",
+        "R-no-RoB-pending",
+        "R-VF-ruling-SR-included-designs-unverified"
+      ],
+      "question_type": "诊断",
+      "question_basis": "extracts/cebm_fill.json",
+      "start": null,
+      "start_basis": "SR（系统综述），诊断问题；纳入设计未核；起点待核（Vibe Feline 裁定）",
+      "downgrades": [],
+      "provisional": null,
+      "certainty": "待评定",
+      "notes_zh": "未做偏倚风险评估",
+      "pending_reason_zh": "尚未核对纳入研究设计（系统综述起点取决于纳入研究）"
+    },
+    "40941356": {
+      "rules_applied": [
+        "R-start-SR-by-included-designs",
+        "R-down-AMSTAR2-low-critlow"
+      ],
+      "question_type": "治疗获益",
+      "question_basis": "extracts/cebm_fill.json",
+      "start": "低",
+      "start_basis": "SR（系统综述（无 Meta 分析）），治疗问题；纳入设计以 CEBM 4 为证据：多为非随机/非对照研究→观察性起点低",
+      "downgrades": [
+        {
+          "reason_zh": "AMSTAR 2 总体置信度为极低",
+          "source_file": "review2/amstar2_adjudicated.json"
+        }
+      ],
+      "provisional": "极低",
+      "certainty": "极低",
+      "notes_zh": ""
+    },
+    "40732763": {
+      "rules_applied": [
+        "R-start-SR-by-included-designs",
+        "R-reporting-inconsistency-into-RoB",
+        "R-no-RoB-pending"
+      ],
+      "question_type": "治疗获益",
+      "question_basis": "extracts/cebm_fill.json",
+      "start": "低",
+      "start_basis": "SR（系统综述），治疗问题；纳入设计以 CEBM 4 为证据：多为非随机/非对照研究→观察性起点低",
+      "downgrades": [],
+      "provisional": null,
+      "certainty": "待评定",
+      "notes_zh": "原文报告不一致（亚组病例数合计 551/648≠650；同一比较两个 p 值；OR≈2.3 vs 计数≈3.7）将在做 AMSTAR 2 时计入偏倚风险，不单独降级；未做偏倚风险评估",
+      "pending_reason_zh": "尚未做偏倚风险评估（AMSTAR 2）"
+    },
+    "40633571": {
+      "rules_applied": [
+        "R-na-nonclinical"
+      ],
+      "question_type": null,
+      "question_basis": null,
+      "start": null,
+      "start_basis": "分子流行病学/基因组研究",
+      "downgrades": [],
+      "provisional": null,
+      "certainty": "不适用",
+      "notes_zh": "非临床研究",
+      "na_reason_zh": "基因组学研究"
+    },
+    "34758043": {
+      "rules_applied": [
+        "R-na-nonclinical"
+      ],
+      "question_type": null,
+      "question_basis": null,
+      "start": null,
+      "start_basis": "行为实验",
+      "downgrades": [],
+      "provisional": null,
+      "certainty": "不适用",
+      "notes_zh": "非临床研究",
+      "na_reason_zh": "行为实验研究"
+    },
+    "31550468": {
+      "rules_applied": [
+        "R-na-nonclinical"
+      ],
+      "question_type": null,
+      "question_basis": null,
+      "start": null,
+      "start_basis": "实验",
+      "downgrades": [],
+      "provisional": null,
+      "certainty": "不适用",
+      "notes_zh": "非临床研究",
+      "na_reason_zh": "实验室研究"
+    },
+    "31554584": {
+      "rules_applied": [
+        "R-na-review"
+      ],
+      "question_type": null,
+      "question_basis": null,
+      "start": null,
+      "start_basis": "叙述性综述",
+      "downgrades": [],
+      "provisional": null,
+      "certainty": "不适用",
+      "notes_zh": "非原始临床研究",
+      "na_reason_zh": "叙述性综述"
+    },
+    "31076940": {
+      "rules_applied": [
+        "R-na-nonclinical"
+      ],
+      "question_type": null,
+      "question_basis": null,
+      "start": null,
+      "start_basis": "实验",
+      "downgrades": [],
+      "provisional": null,
+      "certainty": "不适用",
+      "notes_zh": "非临床研究",
+      "na_reason_zh": "实验室研究"
+    },
+    "30948740": {
+      "rules_applied": [
+        "R-na-nonclinical"
+      ],
+      "question_type": null,
+      "question_basis": null,
+      "start": null,
+      "start_basis": "行为实验",
+      "downgrades": [],
+      "provisional": null,
+      "certainty": "不适用",
+      "notes_zh": "非临床研究",
+      "na_reason_zh": "行为实验研究"
+    },
+    "30451613": {
+      "rules_applied": [
+        "R-na-review"
+      ],
+      "question_type": null,
+      "question_basis": null,
+      "start": null,
+      "start_basis": "叙述性综述",
+      "downgrades": [],
+      "provisional": null,
+      "certainty": "不适用",
+      "notes_zh": "非原始临床研究",
+      "na_reason_zh": "叙述性综述"
+    },
+    "29538681": {
+      "rules_applied": [
+        "R-na-nonclinical"
+      ],
+      "question_type": null,
+      "question_basis": null,
+      "start": null,
+      "start_basis": "关联研究",
+      "downgrades": [],
+      "provisional": null,
+      "certainty": "不适用",
+      "notes_zh": "非临床研究",
+      "na_reason_zh": "遗传关联研究"
+    },
+    "29778200": {
+      "rules_applied": [
+        "R-na-nonclinical"
+      ],
+      "question_type": null,
+      "question_basis": null,
+      "start": null,
+      "start_basis": "体外与实验感染研究",
+      "downgrades": [],
+      "provisional": null,
+      "certainty": "不适用",
+      "notes_zh": "非临床研究",
+      "na_reason_zh": "实验室研究（体外与实验感染）"
+    },
+    "29326623": {
+      "rules_applied": [
+        "R-na-nonclinical"
+      ],
+      "question_type": null,
+      "question_basis": null,
+      "start": null,
+      "start_basis": "关联研究（候选基因）",
+      "downgrades": [],
+      "provisional": null,
+      "certainty": "不适用",
+      "notes_zh": "非临床研究",
+      "na_reason_zh": "遗传关联研究"
+    },
+    "28460795": {
+      "rules_applied": [
+        "R-na-review"
+      ],
+      "question_type": null,
+      "question_basis": null,
+      "start": null,
+      "start_basis": "叙述性综述",
+      "downgrades": [],
+      "provisional": null,
+      "certainty": "不适用",
+      "notes_zh": "非原始临床研究",
+      "na_reason_zh": "叙述性综述"
+    },
+    "26915425": {
+      "rules_applied": [
+        "R-na-nonclinical"
+      ],
+      "question_type": null,
+      "question_basis": null,
+      "start": null,
+      "start_basis": "实验",
+      "downgrades": [],
+      "provisional": null,
+      "certainty": "不适用",
+      "notes_zh": "非临床研究",
+      "na_reason_zh": "实验室研究"
+    },
+    "26776594": {
+      "rules_applied": [
+        "R-na-review"
+      ],
+      "question_type": null,
+      "question_basis": null,
+      "start": null,
+      "start_basis": "叙述性综述",
+      "downgrades": [],
+      "provisional": null,
+      "certainty": "不适用",
+      "notes_zh": "非原始临床研究",
+      "na_reason_zh": "叙述性综述"
+    },
+    "25883356": {
+      "rules_applied": [
+        "R-na-nonclinical"
+      ],
+      "question_type": null,
+      "question_basis": null,
+      "start": null,
+      "start_basis": "实验",
+      "downgrades": [],
+      "provisional": null,
+      "certainty": "不适用",
+      "notes_zh": "非临床研究",
+      "na_reason_zh": "实验室研究"
+    },
+    "23522175": {
+      "rules_applied": [
+        "R-na-review"
+      ],
+      "question_type": null,
+      "question_basis": null,
+      "start": null,
+      "start_basis": "叙述性综述",
+      "downgrades": [],
+      "provisional": null,
+      "certainty": "不适用",
+      "notes_zh": "非原始临床研究",
+      "na_reason_zh": "叙述性综述"
+    },
+    "16236761": {
+      "rules_applied": [
+        "R-na-nonclinical"
+      ],
+      "question_type": null,
+      "question_basis": null,
+      "start": null,
+      "start_basis": "遗传学研究",
+      "downgrades": [],
+      "provisional": null,
+      "certainty": "不适用",
+      "notes_zh": "非临床研究；遗传学研究，按 29326623 同类裁定处理",
+      "na_reason_zh": "遗传学研究"
+    },
+    "42693626": {
+      "rules_applied": [
+        "R-guideline-own-strength"
+      ],
+      "question_type": null,
+      "question_basis": null,
+      "start": null,
+      "start_basis": "指南/共识：按团队规则不套用 GRADE",
+      "downgrades": [],
+      "provisional": null,
+      "certainty": null,
+      "notes_zh": "指南/共识不评证据确定性，首屏显示指南自身推荐强度",
+      "guideline_strength": "该指南未分级",
+      "guideline_strength_source": "extracts/certainty_new_2026-11-04.json（strength_quote）",
+      "strength_quote": "Evidence base: These Guidelines have been created by a panel of experts brought together by International Cat Care (iCatCare) Veterinary Society. Information is based on the available literature, expert opinion and the panel members’ experience."
+    },
+    "41224734": {
+      "rules_applied": [
+        "R-guideline-own-strength"
+      ],
+      "question_type": null,
+      "question_basis": null,
+      "start": null,
+      "start_basis": "指南/共识：按团队规则不套用 GRADE",
+      "downgrades": [],
+      "provisional": null,
+      "certainty": null,
+      "notes_zh": "指南/共识不评证据确定性，首屏显示指南自身推荐强度",
+      "guideline_strength": "该指南未分级",
+      "guideline_strength_source": "extracts/certainty_new_2026-11-04.json（strength_quote）",
+      "strength_quote": "Evidence base: These Guidelines have been created by a panel of experts brought together by the International Cat Care (iCatCare) Veterinary Society. Information is based on the available literature, expert opinion and the panel members’ experience."
+    },
+    "42014100": {
+      "rules_applied": [
+        "R-guideline-own-strength"
+      ],
+      "question_type": null,
+      "question_basis": null,
+      "start": null,
+      "start_basis": "指南/共识：按团队规则不套用 GRADE",
+      "downgrades": [],
+      "provisional": null,
+      "certainty": null,
+      "notes_zh": "指南/共识不评证据确定性，首屏显示指南自身推荐强度",
+      "guideline_strength": "该指南未分级",
+      "guideline_strength_source": "extracts/certainty_new_2026-11-04.json（strength_quote）",
+      "strength_quote": "The guidelines are prepared by a task force of experts convened by AAHA, and recommendations are based on practical clinical experience and a consensus of expert opinion."
     }
-   ],
-   "provisional": "低",
-   "certainty": "低",
-   "notes_zh": ""
-  },
-  "27103204": {
-   "rules_applied": [
-    "R-start-diagnosis-casecontrol-high",
-    "R-no-RoB-pending"
-   ],
-   "question_type": "诊断",
-   "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
-   "start": "高",
-   "start_basis": "回顾性诊断研究：诊断问题，病例—对照式设计→高（设计问题计入偏倚风险与间接性，Vibe Feline 裁定）",
-   "downgrades": [],
-   "provisional": "高",
-   "certainty": "待评定",
-   "notes_zh": "未做偏倚风险评估",
-   "pending_reason_zh": "尚未做偏倚风险评估（QUADAS-2）"
-  },
-  "26079532": {
-   "rules_applied": [
-    "R-start-diagnosis-casecontrol-high",
-    "R-no-RoB-pending"
-   ],
-   "question_type": "诊断",
-   "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
-   "start": "高",
-   "start_basis": "前瞻性诊断/方法学验证：诊断问题，病例—对照式设计→高（设计问题计入偏倚风险与间接性，Vibe Feline 裁定）",
-   "downgrades": [],
-   "provisional": "高",
-   "certainty": "待评定",
-   "notes_zh": "未做偏倚风险评估",
-   "pending_reason_zh": "尚未做偏倚风险评估（QUADAS-2）"
-  },
-  "25673019": {
-   "rules_applied": [
-    "R-start-prevalence-observational-high",
-    "R-no-RoB-pending"
-   ],
-   "question_type": "患病率",
-   "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
-   "start": "高",
-   "start_basis": "横断面：患病率问题，观察性→高（偏倚风险工具 JBI 患病率清单）",
-   "downgrades": [],
-   "provisional": "高",
-   "certainty": "待评定",
-   "notes_zh": "未做偏倚风险评估",
-   "pending_reason_zh": "尚未做偏倚风险评估（JBI 患病率清单）"
-  },
-  "3616607": {
-   "rules_applied": [
-    "R-start-treatment-observational-low",
-    "R-no-RoB-pending"
-   ],
-   "question_type": "治疗获益",
-   "question_basis": "extracts/papers.json（cebm_basis/doc_type 推断）",
-   "start": "低",
-   "start_basis": "病例系列 + 实验：治疗获益问题，观察性→低",
-   "downgrades": [],
-   "provisional": "低",
-   "certainty": "待评定",
-   "notes_zh": "无对照病例系列按 GRADE 观察性起点低；未做偏倚风险评估",
-   "pending_reason_zh": "尚未做偏倚风险评估（ROBINS-I）"
-  },
-  "41701235": {
-   "rules_applied": [
-    "R-start-SR-by-included-designs",
-    "R-no-RoB-pending",
-    "R-VF-ruling-SR-included-designs-unverified"
-   ],
-   "question_type": "诊断",
-   "question_basis": "extracts/cebm_fill.json",
-   "start": null,
-   "start_basis": "SR（系统综述/Meta分析），诊断问题；纳入设计未核；起点待核（Vibe Feline 裁定）",
-   "downgrades": [],
-   "provisional": null,
-   "certainty": "待评定",
-   "notes_zh": "未做偏倚风险评估",
-   "pending_reason_zh": "尚未核对纳入研究设计（系统综述起点取决于纳入研究）"
-  },
-  "41527203": {
-   "rules_applied": [
-    "R-start-SR-by-included-designs",
-    "R-no-RoB-pending",
-    "R-VF-ruling-SR-included-designs-unverified"
-   ],
-   "question_type": "诊断",
-   "question_basis": "extracts/cebm_fill.json",
-   "start": null,
-   "start_basis": "SR（系统综述），诊断问题；纳入设计未核；起点待核（Vibe Feline 裁定）",
-   "downgrades": [],
-   "provisional": null,
-   "certainty": "待评定",
-   "notes_zh": "未做偏倚风险评估",
-   "pending_reason_zh": "尚未核对纳入研究设计（系统综述起点取决于纳入研究）"
-  },
-  "40941356": {
-   "rules_applied": [
-    "R-start-SR-by-included-designs",
-    "R-down-AMSTAR2-low-critlow"
-   ],
-   "question_type": "治疗获益",
-   "question_basis": "extracts/cebm_fill.json",
-   "start": "低",
-   "start_basis": "SR（系统综述（无 Meta 分析）），治疗问题；纳入设计以 CEBM 4 为证据：多为非随机/非对照研究→观察性起点低",
-   "downgrades": [
-    {
-     "reason_zh": "AMSTAR 2 总体置信度为极低",
-     "source_file": "review2/amstar2_adjudicated.json"
-    }
-   ],
-   "provisional": "极低",
-   "certainty": "极低",
-   "notes_zh": ""
-  },
-  "40732763": {
-   "rules_applied": [
-    "R-start-SR-by-included-designs",
-    "R-reporting-inconsistency-into-RoB",
-    "R-no-RoB-pending"
-   ],
-   "question_type": "治疗获益",
-   "question_basis": "extracts/cebm_fill.json",
-   "start": "低",
-   "start_basis": "SR（系统综述），治疗问题；纳入设计以 CEBM 4 为证据：多为非随机/非对照研究→观察性起点低",
-   "downgrades": [],
-   "provisional": null,
-   "certainty": "待评定",
-   "notes_zh": "原文报告不一致（亚组病例数合计 551/648≠650；同一比较两个 p 值；OR≈2.3 vs 计数≈3.7）将在做 AMSTAR 2 时计入偏倚风险，不单独降级；未做偏倚风险评估",
-   "pending_reason_zh": "尚未做偏倚风险评估（AMSTAR 2）"
-  },
-  "40633571": {
-   "rules_applied": [
-    "R-na-nonclinical"
-   ],
-   "question_type": null,
-   "question_basis": null,
-   "start": null,
-   "start_basis": "分子流行病学/基因组研究",
-   "downgrades": [],
-   "provisional": null,
-   "certainty": "不适用",
-   "notes_zh": "非临床研究",
-   "na_reason_zh": "基因组学研究"
-  },
-  "34758043": {
-   "rules_applied": [
-    "R-na-nonclinical"
-   ],
-   "question_type": null,
-   "question_basis": null,
-   "start": null,
-   "start_basis": "行为实验",
-   "downgrades": [],
-   "provisional": null,
-   "certainty": "不适用",
-   "notes_zh": "非临床研究",
-   "na_reason_zh": "行为实验研究"
-  },
-  "31550468": {
-   "rules_applied": [
-    "R-na-nonclinical"
-   ],
-   "question_type": null,
-   "question_basis": null,
-   "start": null,
-   "start_basis": "实验",
-   "downgrades": [],
-   "provisional": null,
-   "certainty": "不适用",
-   "notes_zh": "非临床研究",
-   "na_reason_zh": "实验室研究"
-  },
-  "31554584": {
-   "rules_applied": [
-    "R-na-review"
-   ],
-   "question_type": null,
-   "question_basis": null,
-   "start": null,
-   "start_basis": "叙述性综述",
-   "downgrades": [],
-   "provisional": null,
-   "certainty": "不适用",
-   "notes_zh": "非原始临床研究",
-   "na_reason_zh": "叙述性综述"
-  },
-  "31076940": {
-   "rules_applied": [
-    "R-na-nonclinical"
-   ],
-   "question_type": null,
-   "question_basis": null,
-   "start": null,
-   "start_basis": "实验",
-   "downgrades": [],
-   "provisional": null,
-   "certainty": "不适用",
-   "notes_zh": "非临床研究",
-   "na_reason_zh": "实验室研究"
-  },
-  "30948740": {
-   "rules_applied": [
-    "R-na-nonclinical"
-   ],
-   "question_type": null,
-   "question_basis": null,
-   "start": null,
-   "start_basis": "行为实验",
-   "downgrades": [],
-   "provisional": null,
-   "certainty": "不适用",
-   "notes_zh": "非临床研究",
-   "na_reason_zh": "行为实验研究"
-  },
-  "30451613": {
-   "rules_applied": [
-    "R-na-review"
-   ],
-   "question_type": null,
-   "question_basis": null,
-   "start": null,
-   "start_basis": "叙述性综述",
-   "downgrades": [],
-   "provisional": null,
-   "certainty": "不适用",
-   "notes_zh": "非原始临床研究",
-   "na_reason_zh": "叙述性综述"
-  },
-  "29538681": {
-   "rules_applied": [
-    "R-na-nonclinical"
-   ],
-   "question_type": null,
-   "question_basis": null,
-   "start": null,
-   "start_basis": "关联研究",
-   "downgrades": [],
-   "provisional": null,
-   "certainty": "不适用",
-   "notes_zh": "非临床研究",
-   "na_reason_zh": "遗传关联研究"
-  },
-  "29778200": {
-   "rules_applied": [
-    "R-na-nonclinical"
-   ],
-   "question_type": null,
-   "question_basis": null,
-   "start": null,
-   "start_basis": "体外与实验感染研究",
-   "downgrades": [],
-   "provisional": null,
-   "certainty": "不适用",
-   "notes_zh": "非临床研究",
-   "na_reason_zh": "实验室研究（体外与实验感染）"
-  },
-  "29326623": {
-   "rules_applied": [
-    "R-na-nonclinical"
-   ],
-   "question_type": null,
-   "question_basis": null,
-   "start": null,
-   "start_basis": "关联研究（候选基因）",
-   "downgrades": [],
-   "provisional": null,
-   "certainty": "不适用",
-   "notes_zh": "非临床研究",
-   "na_reason_zh": "遗传关联研究"
-  },
-  "28460795": {
-   "rules_applied": [
-    "R-na-review"
-   ],
-   "question_type": null,
-   "question_basis": null,
-   "start": null,
-   "start_basis": "叙述性综述",
-   "downgrades": [],
-   "provisional": null,
-   "certainty": "不适用",
-   "notes_zh": "非原始临床研究",
-   "na_reason_zh": "叙述性综述"
-  },
-  "26915425": {
-   "rules_applied": [
-    "R-na-nonclinical"
-   ],
-   "question_type": null,
-   "question_basis": null,
-   "start": null,
-   "start_basis": "实验",
-   "downgrades": [],
-   "provisional": null,
-   "certainty": "不适用",
-   "notes_zh": "非临床研究",
-   "na_reason_zh": "实验室研究"
-  },
-  "26776594": {
-   "rules_applied": [
-    "R-na-review"
-   ],
-   "question_type": null,
-   "question_basis": null,
-   "start": null,
-   "start_basis": "叙述性综述",
-   "downgrades": [],
-   "provisional": null,
-   "certainty": "不适用",
-   "notes_zh": "非原始临床研究",
-   "na_reason_zh": "叙述性综述"
-  },
-  "25883356": {
-   "rules_applied": [
-    "R-na-nonclinical"
-   ],
-   "question_type": null,
-   "question_basis": null,
-   "start": null,
-   "start_basis": "实验",
-   "downgrades": [],
-   "provisional": null,
-   "certainty": "不适用",
-   "notes_zh": "非临床研究",
-   "na_reason_zh": "实验室研究"
-  },
-  "23522175": {
-   "rules_applied": [
-    "R-na-review"
-   ],
-   "question_type": null,
-   "question_basis": null,
-   "start": null,
-   "start_basis": "叙述性综述",
-   "downgrades": [],
-   "provisional": null,
-   "certainty": "不适用",
-   "notes_zh": "非原始临床研究",
-   "na_reason_zh": "叙述性综述"
-  },
-  "16236761": {
-   "rules_applied": [
-    "R-na-nonclinical"
-   ],
-   "question_type": null,
-   "question_basis": null,
-   "start": null,
-   "start_basis": "遗传学研究",
-   "downgrades": [],
-   "provisional": null,
-   "certainty": "不适用",
-   "notes_zh": "非临床研究；遗传学研究，按 29326623 同类裁定处理",
-   "na_reason_zh": "遗传学研究"
-  },
-  "42693626": {
-   "rules_applied": [
-    "R-guideline-own-strength"
-   ],
-   "question_type": null,
-   "question_basis": null,
-   "start": null,
-   "start_basis": "指南/共识：按团队规则不套用 GRADE",
-   "downgrades": [],
-   "provisional": null,
-   "certainty": null,
-   "notes_zh": "指南/共识不评证据确定性，首屏显示指南自身推荐强度",
-   "guideline_strength": "该指南未分级",
-   "guideline_strength_source": "extracts/certainty_new_2026-11-04.json（strength_quote）",
-   "strength_quote": "Evidence base: These Guidelines have been created by a panel of experts brought together by International Cat Care (iCatCare) Veterinary Society. Information is based on the available literature, expert opinion and the panel members’ experience."
-  },
-  "41224734": {
-   "rules_applied": [
-    "R-guideline-own-strength"
-   ],
-   "question_type": null,
-   "question_basis": null,
-   "start": null,
-   "start_basis": "指南/共识：按团队规则不套用 GRADE",
-   "downgrades": [],
-   "provisional": null,
-   "certainty": null,
-   "notes_zh": "指南/共识不评证据确定性，首屏显示指南自身推荐强度",
-   "guideline_strength": "该指南未分级",
-   "guideline_strength_source": "extracts/certainty_new_2026-11-04.json（strength_quote）",
-   "strength_quote": "Evidence base: These Guidelines have been created by a panel of experts brought together by the International Cat Care (iCatCare) Veterinary Society. Information is based on the available literature, expert opinion and the panel members’ experience."
-  },
-  "42014100": {
-   "rules_applied": [
-    "R-guideline-own-strength"
-   ],
-   "question_type": null,
-   "question_basis": null,
-   "start": null,
-   "start_basis": "指南/共识：按团队规则不套用 GRADE",
-   "downgrades": [],
-   "provisional": null,
-   "certainty": null,
-   "notes_zh": "指南/共识不评证据确定性，首屏显示指南自身推荐强度",
-   "guideline_strength": "该指南未分级",
-   "guideline_strength_source": "extracts/certainty_new_2026-11-04.json（strength_quote）",
-   "strength_quote": "The guidelines are prepared by a task force of experts convened by AAHA, and recommendations are based on practical clinical experience and a consensus of expert opinion."
   }
- }
 }
