@@ -1598,6 +1598,30 @@
    "n_source": "原文全文（PMC13731168）",
    "n_status": "已在原文核对",
    "n_detail_zh": "615 例乳腺切除（558 只犬、57 只猫）"
-  }
+  },
+  "43003998":{
+  "year": "2026",
+  "journal": "Anim Cogn",
+  "design_zh": "实验研究",
+  "species_zh": "犬",
+  "n": 14,
+  "n_label_zh": "14 只",
+  "n_quote": "In total, we collected 226 short recordings from fourteen dogs.",
+  "n_source": "原文（筛查记录引文）",
+  "n_status": "已在筛查记录核对",
+  "n_detail_zh": "14 只家犬，226 段短时脑电记录"
+ },
+  "43004944":{
+  "year": "2026",
+  "journal": "J Antimicrob Chemother",
+  "design_zh": "横断面",
+  "species_zh": "犬/猫",
+  "n": 881,
+  "n_label_zh": "881 只",
+  "n_quote": "881 只犬猫（522 只犬、359 只猫）",
+  "n_source": "原文全文（PMC13748747）",
+  "n_status": "已在原文核对",
+  "n_detail_zh": "881 只（522 只犬、359 只猫）"
+ }
  }
 }

@@ -1,5 +1,5 @@
 {
-  "_note": "Only IDs listed here may be rendered as deep speed-reads. Presence in extracts/deep_speedread/batch1.json is not sufficient. Vibe approved all 44 speed-reads, including 11991408. 42977701 (infectious library) was approved 2026-11-10; its extract certainty narrative contains 起评 and is not rendered. Fields whose key starts with _internal (for example _internal_start_rule) must never appear on reader pages or in papers.json. 起评 is allowed in rated papers’ GRADE footnotes (for example 按 GRADE 对患病率问题的做法从“高”起评). Reader text of unrated papers (待评定 / 暂未评级) must not contain 起评. 11991408 shows 暂未评级（仅有摘要） and 摘要未说明分组方式.",
+  "_note": "Only IDs listed here may be rendered as deep speed-reads. Presence in extracts/deep_speedread/batch1.json is not sufficient. Vibe approved all 44 speed-reads, including 11991408. 42977701 (infectious library) was approved 2026-11-10; its extract certainty narrative contains 起评 and is not rendered. Fields whose key starts with _internal (for example _internal_start_rule) must never appear on reader pages or in papers.json. 起评 is allowed in rated papers’ GRADE footnotes (for example 按 GRADE 对患病率问题的做法从“高”起评). Reader text of unrated papers (待评定 / 暂未评级) must not contain 起评. 11991408 shows 暂未评级（仅有摘要） and 摘要未说明分组方式 43004944 (infectious library) was approved 2026-11-11; it is rated 低 and its GRADE certainty narrative may use 起评.",
   "approved": [
     "11991408",
     "15954557",
@@ -45,6 +45,7 @@
     "42693626",
     "42805756",
     "42977701",
+    "43004944",
     "x-international-renal-interest-society-2026-iris-staging-of-ckd-modified-2026"
   ]
 }

@@ -378,7 +378,18 @@ def _short(t,m=30):
         if t[i-1] in '，。；;,、）)': return t[:i-1]+'…' if t[i-1] not in '）)' else t[:i]+'…'
     return t[:m]+'…'
 def _norm(t): return re.sub(r'[\W_]+','',clean(t or ''))
+def card_fields_rec(p):
+    """card_fields.json record for a paper, keyed by pmid or sid/id (e.g. IRIS 2026)."""
+    for k in ((p or {}).get('pmid'), (p or {}).get('sid'), (p or {}).get('v5id'), (p or {}).get('id')):
+        k=str(k or '')
+        if k and k in CARD_FIELDS: return CARD_FIELDS[k]
+    return {}
 def summ(p):
+    # 最重要 / 最新 cards: prefer clinical_meaning from card_fields.json when present
+    # (already overlaid onto the paper at import). An empty override on the paper is respected.
+    cf=card_fields_rec(p)
+    if has((cf or {}).get('clinical_meaning')) and has((p or {}).get('clinical_meaning')):
+        return STRIP(p['clinical_meaning'])
     cl=p.get('one_line_conclusion_zh') or ''; ti=p.get('title_zh') or ''
     import difflib
     dup=ti and (_norm(cl).startswith(_norm(ti)[:12]) or difflib.SequenceMatcher(None,_norm(cl),_norm(ti)).ratio()>0.5)
@@ -1096,8 +1107,7 @@ def ds_sections(r):
 def paper(p):
     r='../../'; S=sections(p); ds=ds_of(p)
     if ds and ds.get('title_zh'): p=dict(p); p['title_zh']=ds['title_zh']
-    _cf=(CARD_FIELDS.get(str(p.get('pmid') or '')) or CARD_FIELDS.get(str(p.get('sid') or ''))
-         or CARD_FIELDS.get(str(p.get('v5id') or '')) or CARD_FIELDS.get(str(p.get('id') or '')) or {})
+    _cf=card_fields_rec(p)
     if has(_cf.get('title_zh')):
         p=dict(p); p['title_zh']=STRIP(_cf['title_zh'])
     head=f'''<p class="crumb"><a href="{r}library/">文献库</a>{"".join(f' › <a href="{r}topics/{t}/">{E_(TBY[t]["name_zh"])}</a>' for t in (p.get("topics") or [])[:1] if t in TBY and t in [v["id"] for v in VIS])}</p>

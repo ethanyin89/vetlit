@@ -7,25 +7,40 @@
   "date": "2026-11-03",
   "journal": "J Antimicrob Chemother",
   "doi": "10.1093/jac/dkag348",
-  "pmcid": "",
-  "species": "犬",
-  "specialty": "未分类",
+  "pmcid": "PMC13748747",
+  "species": "猫/犬",
+  "specialty": "感染",
   "topics": [
-    "epidemiology"
+    "infectious"
   ],
-  "source": "PubMed (E-utilities)",
-  "oa": "未核",
-  "doc_type": "待定",
+  "source": "PubMed (E-utilities)；全文 PMC13748747",
+  "oa": "是",
+  "doc_type": "原始研究",
   "publication_types": [
     "Journal Article"
   ],
-  "sample_size_analysed": "未核",
-  "multicenter": "未核",
+  "sample_size_analysed": "881",
+  "multicenter": "是",
   "funding": "未核",
-  "verified": "partial",
-  "status": "待处理",
+  "verified": "全文",
+  "status": "已收录",
   "provenance": [
-    "ingest"
+    "ingest",
+    "library_infectious_2026-11-11"
   ],
-  "ingested_at": "2026-11-10"
+  "ingested_at": "2026-11-10",
+  "title_zh": "留尼汪岛犬 8%、猫 3% 携带 ESBL 肠杆菌",
+  "one_line_conclusion_zh": "881 只犬猫的直肠拭子中 6% 携带产 ESBL 或碳青霉烯酶肠杆菌；犬中未绝育、不圈养和近 6 个月用过抗生素者携带几率更高。",
+  "species_zh": "犬/猫",
+  "oa_bool": true,
+  "license": "cc by-nc",
+  "fulltext_translation_allowed": false,
+  "design_category": "横断面研究",
+  "design_detail": "全岛横断面调查（犬、猫）",
+  "n_enrolled": "881 只（522 只犬、359 只猫）",
+  "n_analysed": "881 只",
+  "pub_date": "2026-11-03",
+  "pub_date_source": "PubMed PubDate 2026-11-03",
+  "reading_depth": "全文",
+  "rob_tool": "JBI 患病率研究清单（9 项）"
 }

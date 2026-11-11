@@ -19,6 +19,61 @@
   "rules_v4_amend_2026-11-09_surrogate": "R-down-indirectness-surrogate（Vibe 裁定 2026-11-09）：主要结局是化验指标或其他替代终点，而专题问的是对患病动物真正重要的结局（生存、临床恶化、疾病进展）时，间接性降一级；专题本身问的就是该指标时不降。downgrades 记 {domain:间接性, steps:-1, reason_zh, source_file}。来源：GRADE 指南第 8 篇（Guyatt 2011, J Clin Epidemiol 64:1303–1310，间接性）。首例：38952053 由高改为中。"
  },
  "papers": {
+  "43003998": {
+  "rules_applied": [
+   "R-na-nonclinical"
+  ],
+  "question_type": null,
+  "question_basis": null,
+  "start": null,
+  "start_basis": "认知实验（脑电）",
+  "downgrades": [],
+  "provisional": null,
+  "certainty": "不适用",
+  "notes_zh": "非临床研究",
+  "na_reason_zh": "认知实验研究，没有临床结局",
+  "topic": "cognition",
+  "weekly_new": false
+ },
+  "43004944": {
+  "rules_applied": [
+   "R-start-prevalence-observational-high",
+   "R-rob-assessed-v4"
+  ],
+  "question_type": "患病率",
+  "question_basis": "2026-11-11 裁定（患病率和危险因素问题；定级只针对患病率，危险因素不单独定级）",
+  "start": "高",
+  "start_basis": "全岛横断面调查：患病率问题，观察性→高（GRADE 患病率研究；JBI 患病率清单）",
+  "downgrades": [
+   {
+    "domain": "偏倚风险",
+    "steps": -1,
+    "reason_zh": "方便样本、多数在绝育手术时采样、应答率未报告 −1"
+   },
+   {
+    "domain": "间接性",
+    "steps": -1,
+    "reason_zh": "仅留尼汪岛样本，结局是定植不是感染；本站读者不限于留尼汪 −1"
+   },
+   {
+    "domain": "不精确性",
+    "steps": 0,
+    "reason_zh": "定级只针对患病率，置信区间窄，不降"
+   },
+   {
+    "domain": "不一致性",
+    "steps": 0,
+    "reason_zh": "单项研究，不降"
+   }
+  ],
+  "provisional": null,
+  "certainty": "低",
+  "rob_tool": "JBI 患病率研究清单（9 项）",
+  "rob_overall": "严重问题（4 项是、2 项否、3 项不清楚）",
+  "notes_zh": "偏倚风险（JBI 患病率清单）：样本框架和抽样为否；确定性只针对患病率，危险因素未单独定级",
+  "topic": "infectious",
+  "weekly_new": false
+ },
   "42977701": {
    "rules_applied": [
     "R-start-prognosis-observational-high",

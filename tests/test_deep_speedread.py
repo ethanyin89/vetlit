@@ -5,7 +5,7 @@ os.environ.setdefault('VETLIT_LIVE','1')
 import build_preview as B
 
 APPROVED=set(json.load(open('data/v5/deep_speedread_approved.json',encoding='utf-8'))['approved'])
-assert '11991408' in APPROVED and '42977701' in APPROVED and len(APPROVED)==45
+assert '11991408' in APPROVED and '42977701' in APPROVED and '43004944' in APPROVED and len(APPROVED)==46
 assert B.DS_APPROVED==APPROVED
 assert set(B.DS)==APPROVED
 assert not hasattr(B,'DS_HOLD') or not B.DS_HOLD
