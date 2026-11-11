@@ -42,7 +42,7 @@ assert all(not i.get('reason') for i in g['items'])
 L2=lambda t:([p['pmid'] for p in B.tops(t) or B._fill([B.get(c['id']) for c in B.TBY[t].get('core') or []] or sorted(B.tpapers(B.TBY[t]),key=lambda p:p.get('importance_rank') or 999))])
 # child topic uses the certainty-aware site rule; parent dermatology has no top_picks
 # row and still uses the pre-existing importance_rank fallback (parent aggregation unchanged).
-EXPECT={'canine_atopic_dermatitis':(['42805756','26260508','20187910'],['40470278','36940185','42007020']),
+EXPECT={'canine_atopic_dermatitis':(['42805756','26260508','40470278'],['36940185','42007020','34180084']),
         'dermatology':(['42805756','26260508','40470278'],['36940185','42007020','34180084'])}
 for t in (TOPIC,PARENT):
     s=open(f'dist/topics/{t}/index.html',encoding='utf-8').read(); a,b=s.split('<h4 class="tb">最新</h4>',1)

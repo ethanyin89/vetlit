@@ -478,13 +478,14 @@ def _fill(cands,k=3,taken=()):
         if len(out)==k: break
     return out
 # 最重要 ranking (single site rule). Type order first; fully-kept superseded guidelines last within type;
-# then certainty 高>中>低>极低 (unrated papers use certainty.json provisional if any; no value at all
-# sorts after 极低); then 2021+ first; then citations/year; ties newer. Candidate pool, parent
-# aggregation (tids/kids) and same-cohort / superseded filters in _fill are unchanged.
+# then rated certainty 高>中>低>极低; all unrated (no final rating — 待评定/暂未评级/不适用/missing —
+# ignoring provisional) after every rated paper of that type; then 2021+ first; then citations/year;
+# ties newer. Candidate pool, parent aggregation (tids/kids) and same-cohort / superseded filters
+# in _fill are unchanged.
 TYPES=['指南/共识','系统综述/Meta分析','随机对照试验','非随机对照试验','队列研究','病例对照研究','横断面研究','病例系列（无对照）','叙述性综述','实验/基础研究']
 TYPE_FALLBACK={'知识摘要（二次文献）':'叙述性综述','系统评价（待核实）':'叙述性综述','核心结局集共识':'叙述性综述'}
 CERT_RANK={'高':0,'中':1,'低':2,'极低':3}
-NO_CERT=4  # unrated/不适用/missing with no provisional: after 极低
+NO_CERT=4  # no final rating (待评定/暂未评级/不适用/missing); provisional is ignored; after every rated paper of the type
 def _rank_type(design):
     d=TYPE_FALLBACK.get(design,design)
     return TYPES.index(d) if d in TYPES else len(TYPES)
@@ -538,13 +539,10 @@ def cites_yr(p,item=None):
     y=_year_int(p,item) or 2026
     return raw/max(1,2026-y+1)
 def cert_rank(p):
-    """0–3 = 高中低极低; unrated uses provisional; no usable value → NO_CERT (after 极低)."""
+    """0–3 = rated 高/中/低/极低. No final rating (待评定/暂未评级/不适用/missing) is NO_CERT, after every rated paper of the type. Provisional is never used."""
     r=CERT.get(str(p.get('pmid') or '')) or CERT.get(str(p.get('sid') or '')) or CERT.get(str(p.get('sid') or '').replace('pmid-','')) or {}
     c=r.get('certainty')
     if c in CERT_RANK: return CERT_RANK[c]
-    if c in (None,'待评定') or (isinstance(c,str) and c.startswith('暂未评级')):
-        pv=r.get('provisional')
-        if pv in CERT_RANK: return CERT_RANK[pv]
     return NO_CERT
 def rank_key(p,item=None):
     design=(item or {}).get('design') or p.get('design_category') or ''
