@@ -86,6 +86,31 @@ def view(c):
     return p
 TOPICS=json.load(open(os.path.join(ROOT,'data','topics.json'),encoding='utf-8'))['topics']
 TNAME={t['id']:t['name_zh'] for t in TOPICS}
+def _query_topics():
+    p=os.path.join(ROOT,'data','v5','pubmed_queries.json')
+    if not os.path.isfile(p): return {}
+    try: return {t['id']:t for t in (json.load(open(p,encoding='utf-8')).get('topics') or [])}
+    except Exception: return {}
+_QTOPICS=_query_topics()
+def _cert_papers():
+    p=os.path.join(ROOT,'data','v5','certainty.json')
+    if not os.path.isfile(p): return {}
+    try: return (json.load(open(p,encoding='utf-8')).get('papers') or {})
+    except Exception: return {}
+_CERT=_cert_papers()
+def _paper_rated(p):
+    c=_CERT.get(str(p.get('pmid') or '')) or _CERT.get(p.get('id') or '') or {}
+    return c.get('certainty') in ('高','中','低','极低')
+def topic_visible(t,ps):
+    """Reader pages and nav. Honors reader_page_enabled from data/v5/pubmed_queries.json:
+    False keeps the topic closed until a non-ingest library paper has a final rating.
+    Topics with no library papers stay hidden; parents stay visible when a child is."""
+    lib=[p for p in ps if t['id'] in (p.get('topics') or []) and not p.get('fresh')]
+    qt=_QTOPICS.get(t['id']) or {}
+    if qt.get('reader_page_enabled') is False:
+        return any(_paper_rated(p) for p in lib)
+    if lib: return True
+    return any(topic_visible(k,ps) for k in TOPICS if k.get('parent')==t['id'])
 def lic_badge(p):
     l=p.get('license')
     return f'<span class="pill">许可：{E_(l)}</span>' if l else ''
@@ -95,10 +120,14 @@ def bilingual_html(p):
         return f'<section class="card"><h2>中英对照全文</h2><p>许可（{E_(p.get("license",""))}）允许全文翻译改编。逐段中英对照译文尚未生成，暂请阅读原文：{ft}</p></section>'
     links=' · '.join(x for x in [f'<a href="https://pubmed.ncbi.nlm.nih.gov/{p["pmid"]}/">PubMed 摘要</a>' if p.get('pmid') else '', f'<a href="https://doi.org/{E_(p["doi"])}">原文（DOI）</a>' if p.get('doi') else ''] if x)
     return f'<section class="card"><h2>原文</h2><p>许可{("（"+E_(p["license"])+"）") if p.get("license") else ""}不允许全文翻译转载，本站只提供摘要级内容与速读页。{links}</p></section>'
-def topic_links(p,r='../../'):
-    return ' '.join(f'<a class="pill tag" href="{r}topics/{t}/index.html">{E_(TNAME.get(t,t))}</a>' for t in p['topics'] if t in TNAME)
+def topic_links(p,r='../../',ps=None):
+    ps=ps if ps is not None else _PS
+    return ' '.join(f'<a class="pill tag" href="{r}topics/{t}/index.html">{E_(TNAME.get(t,t))}</a>' for t in p['topics'] if t in TNAME and topic_visible(next(x for x in TOPICS if x['id']==t),ps))
+_PS=[]
 def load():
-    return [view(json.load(open(f,encoding='utf-8'))) for f in sorted(glob.glob(os.path.join(ROOT,'data','papers','*.json')))]
+    global _PS
+    _PS=[view(json.load(open(f,encoding='utf-8'))) for f in sorted(glob.glob(os.path.join(ROOT,'data','papers','*.json')))]
+    return _PS
 def authors_short(p): return p.get('first_author','')+(' et al.' if p.get('first_author') else '')
 def bibkey(p): return re.sub(r'\W','',(p.get('first_author') or 'anon').split()[0])+str(p['year'])+'_'+(p['pmid'] or re.sub(r'\W','',p['id']))
 def bibtex(p):
@@ -200,7 +229,7 @@ def index(allps):
 {weekly(ps)}<div class="tabs" role="tablist"><button role="tab" aria-selected="true" data-sort="new">最新</button><button role="tab" aria-selected="false" data-sort="imp">重要</button></div>
 <form class="filters" onsubmit="return false"><label>搜索<input id="q" type="search" placeholder="标题、作者、期刊、PMID"></label>
 <label>物种<select id="sp"><option value="">全部</option>{opt(['猫','犬'])}</select></label><label>专科<select id="spec"><option value="">全部</option>{opt(specs)}</select></label>
-<label>专题<select id="tp"><option value="">全部</option>{''.join(f'<option value="{t["id"]}">{E_(t["name_zh"])}</option>' for t in TOPICS if any(t['id'] in p['topics'] for p in ps))}</select></label><label>文献类型<select id="dt"><option value="">全部</option>{opt(dts)}</select></label><label>CEBM 2011<select id="gr"><option value="">全部</option>{opt(cebms)}</select></label><label class="chk"><input id="oa" type="checkbox"> 仅开放获取</label></form>
+<label>专题<select id="tp"><option value="">全部</option>{''.join(f'<option value="{t["id"]}">{E_(t["name_zh"])}</option>' for t in TOPICS if topic_visible(t,ps))}</select></label><label>文献类型<select id="dt"><option value="">全部</option>{opt(dts)}</select></label><label>CEBM 2011<select id="gr"><option value="">全部</option>{opt(cebms)}</select></label><label class="chk"><input id="oa" type="checkbox"> 仅开放获取</label></form>
 <p class="actions"><span id="count"></span> · 导出全部：<a href="export/all.bib" download>BibTeX</a> · <a href="export/all.ris" download>RIS</a> · 导出当前筛选：<a href="#" id="exb">BibTeX</a> · <a href="#" id="exr">RIS</a></p>
 <ol id="list" class="list"></ol><noscript><ul>{''.join(f'<li><a href="papers/{p["id"]}/index.html">{E_(p["title"])}</a></li>' for p in ps)}</ul></noscript>
 <script>window.PAPERS={json.dumps(data,ensure_ascii=False)};window.CITE={json.dumps({p['id']:[bibtex(p),ris(p)] for p in ps},ensure_ascii=False)};</script><script src="static/app.js"></script>'''+fresh_html(fs,'')
@@ -210,6 +239,7 @@ def tsort(ps,how):
 def weekly(ps,r=''):
     out=''
     for t in TOPICS:
+        if not topic_visible(t,ps): continue
         tp=[p for p in ps if t['id'] in p['topics'] and not p['fresh']]
         if not tp or t.get('parent') is None and len([x for x in TOPICS if x.get('parent')==t['id']]): continue
         a=tsort(tp,'new')[0]; b_=tsort(tp,'imp')[0]
@@ -234,8 +264,9 @@ def topic_page(t,ps):
 {f'<h2>最新</h2>{plist(tsort(tp,"new"))}<h2>最重要（按 CEBM 等级，其次年份）</h2>{plist(tsort(tp,"imp"))}' if tp else '<p class="muted">暂无文献。</p>'}{fresh_html(fs)}'''
     return page(t['name_zh'],body,2)
 def topics_index(ps):
-    def li(t): 
-        n=sum(1 for p in ps if t['id'] in p['topics'] and not p['fresh']); kids=[x for x in TOPICS if x.get('parent')==t['id']]
+    def li(t):
+        if not topic_visible(t,ps): return ''
+        n=sum(1 for p in ps if t['id'] in p['topics'] and not p['fresh']); kids=[x for x in TOPICS if x.get('parent')==t['id'] and topic_visible(x,ps)]
         return f'<li><a href="{t["id"]}/index.html">{E_(t["name_zh"])}</a> <small lang="en">{E_(t.get("name_en",""))}</small> · {n} 篇{" <span class=\"pill tag\">GRADE 草稿</span>" if os.path.exists(os.path.join(ROOT,"data","topics",t["id"]+".md")) else ""}{("<ul>"+"".join(li(k) for k in kids)+"</ul>") if kids else ""}</li>'
     roots=[t for t in TOPICS if not t.get('parent') or t['parent'] not in TNAME]
     return page('专题',f'<h1>专题</h1><p class="small muted">一级按 AVMA ABVS / ACVIM 专科，二级用 MeSH 主题词。</p><ul>{"".join(li(t) for t in roots)}</ul>',1)
@@ -263,6 +294,8 @@ def main():
     for p in ps:
         d=os.path.join(DIST,'papers',p['id']); w(os.path.join(d,'index.html'),detail(p)); w(os.path.join(d,'cite.bib'),bibtex(p)); w(os.path.join(d,'cite.ris'),ris(p))
     w(os.path.join(DIST,'topics','index.html'),topics_index(ps))
-    for t in TOPICS: w(os.path.join(DIST,'topics',t['id'],'index.html'),topic_page(t,ps))
+    for t in TOPICS:
+        if topic_visible(t,ps):
+            w(os.path.join(DIST,'topics',t['id'],'index.html'),topic_page(t,ps))
     print(f'built {len(ps)} papers -> dist/')
 if __name__=='__main__': main()

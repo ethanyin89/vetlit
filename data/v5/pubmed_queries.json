@@ -1,0 +1,1423 @@
+{
+ "version": "2026-11-10-proposed",
+ "status": "待复核；未写入站点配置",
+ "format_note": "topics[] 每条沿用 data/topics.json 的 id/name_zh/name_en/parent/pubmed_query 字段（data/v5/topic_queries.json 在本机不存在，按 topics.json 格式写），另加 inherits_children、filter_set、filter_source、validation。pubmed_query 已自带物种、研究类型和排除条件，接入时不要再套 ingest.py 的仅 MeSH 物种条件。父专题的 pubmed_query 只含父专题自身的检索；子专题命中的文章同时归入父专题（inherits_children），表中父专题的召回和每周量按“自身 + 子专题”合计。",
+ "primary": "_general",
+ "common": {
+  "species_block": "(\"Dogs\"[MeSH] OR \"Cats\"[MeSH] OR \"Dog Diseases\"[MeSH] OR \"Cat Diseases\"[MeSH] OR dog[ti] OR dogs[ti] OR canine[ti] OR cat[ti] OR cats[ti] OR feline[ti] OR puppy[ti] OR puppies[ti] OR kitten[ti] OR kittens[ti] OR ((dog[tiab] OR dogs[tiab] OR canine[tiab] OR cats[tiab] OR feline[tiab]) AND (veterinar*[tiab] OR \"client-owned\"[tiab] OR \"J Vet Intern Med\"[ta] OR \"J Feline Med Surg\"[ta] OR \"J Am Vet Med Assoc\"[ta] OR \"Vet J\"[ta] OR \"J Small Anim Pract\"[ta] OR \"Front Vet Sci\"[ta] OR \"Vet Rec\"[ta] OR \"J Vet Cardiol\"[ta] OR \"Am J Vet Res\"[ta] OR \"Vet Clin Pathol\"[ta] OR \"J Vet Emerg Crit Care (San Antonio)\"[ta] OR \"Vet Radiol Ultrasound\"[ta] OR \"Vet Anaesth Analg\"[ta] OR \"J Vet Med Sci\"[ta] OR \"Vet Dermatol\"[ta] OR \"J Am Anim Hosp Assoc\"[ta] OR \"Vet Sci\"[ta] OR \"Vet Med Sci\"[ta] OR \"Res Vet Sci\"[ta] OR \"Prev Vet Med\"[ta] OR \"BMC Vet Res\"[ta] OR \"Vet Comp Orthop Traumatol\"[ta] OR \"Vet Surg\"[ta] OR \"Vet Ophthalmol\"[ta] OR \"J Feline Med Surg Open Rep\"[ta] OR \"Vet Res Commun\"[ta] OR \"Top Companion Anim Med\"[ta] OR \"Appl Anim Behav Sci\"[ta] OR \"J Vet Behav\"[ta])))",
+  "species_block_note": "MeSH（Dogs/Cats/Dog Diseases/Cat Diseases）或题名出现犬猫词；摘要里出现犬猫词时，须同时有 veterinar*/client-owned 或发表在兽医期刊。原因：最近几周新入库的文献还没标 MeSH，只靠 MeSH 会漏掉一半以上的新文章；只靠摘要词又会混进大量人医和大鼠研究。",
+  "exclude_block": "NOT (\"Case Reports\"[pt] OR \"Editorial\"[pt] OR \"Letter\"[pt] OR \"Comment\"[pt] OR \"News\"[pt] OR \"Published Erratum\"[pt] OR \"Retracted Publication\"[pt] OR \"Retraction of Publication\"[pt]) NOT (((\"Humans\"[MeSH] NOT \"Animals\"[MeSH]) OR ((rat[ti] OR rats[ti] OR mice[ti] OR mouse[ti] OR murine[ti] OR patients[ti] OR children[ti] OR women[ti]) NOT (\"Dogs\"[MeSH] OR \"Cats\"[MeSH] OR \"Dog Diseases\"[MeSH] OR \"Cat Diseases\"[MeSH] OR dog[ti] OR dogs[ti] OR canine[ti] OR cat[ti] OR cats[ti] OR feline[ti] OR puppy[ti] OR puppies[ti] OR kitten[ti] OR kittens[ti]))) OR ((orthodont*[tiab] OR \"canine retraction\"[tiab] OR \"impacted canine\"[tiab] OR \"maxillary canine\"[tiab] OR \"canine tooth\"[ti] OR EORTC[tiab] OR \"PEDI-CAT\"[tiab] OR \"computerized adaptive test\"[tiab] OR \"cat eye syndrome\"[tiab]) NOT (\"Dogs\"[MeSH] OR \"Cats\"[MeSH] OR \"Dog Diseases\"[MeSH] OR \"Cat Diseases\"[MeSH]))) AND (hasabstract OR <guideline>)",
+  "exclude_note": "排除病例报告、社论、读者来信、评论、新闻、勘误、撤稿（McMaster PLUS 预筛只收原始研究、系统综述和循证指南，https://hiru.mcmaster.ca/hiru/InclusionCriteria.html）；排除只有人或只有大鼠/小鼠的研究（\"Humans\"[MeSH] NOT \"Animals\"[MeSH]，是 PubMed 动物研究检索的常用去除写法）和人医牙科“canine 牙”、量表 CAT 等已知误配；要求有摘要，指南/共识例外（部分指南没有摘要）。",
+  "in_vitro_block": "(\"In Vitro Techniques\"[MeSH] OR \"in vitro\"[ti] OR \"Cells, Cultured\"[MeSH] OR \"cell line\"[ti] OR \"cell lines\"[ti])"
+ },
+ "filter_sets": {
+  "narrow": "Hedges 各类“窄/特异”版（治疗、诊断、病因、预后、临床预测）+ 系统综述 + 指南/共识 + 兽医观察性研究发布类型",
+  "narrow_core": "同 narrow，但去掉病因、预后两类（这两类在大专题里噪声最大；具体病种子专题仍用较宽的过滤）",
+  "narrow_core+prevalence": "narrow_core + 患病率/发病率/寿命题名词（Hedges 没有患病率过滤；本站保留患病率问题，按 Iorio 2015 和 JBI 患病率清单处理）",
+  "hybrid": "治疗、预后用 Hedges“宽/敏感”版，诊断、病因、临床预测用“窄”版 + 系统综述 + 指南/共识 + 兽医试验/观察性研究发布类型",
+  "broad": "Hedges 全部“宽/敏感”版 + 系统综述 + 指南/共识 + 兽医试验/观察性研究发布类型（仅用于每周量很小的专题）"
+ },
+ "filters": {
+  "therapy_narrow": {
+   "query": "(\"Randomized Controlled Trial\"[pt] OR (randomized[tiab] AND controlled[tiab] AND trial[tiab]))",
+   "source": "PubMed Clinical Queries Therapy/Narrow；Haynes RB 等 BMJ 2005;330:1179（PMID 15894554）"
+  },
+  "therapy_narrow_vet": {
+   "query": "(\"Randomized Controlled Trial\"[pt] OR \"Randomized Controlled Trial, Veterinary\"[pt] OR ((randomized[tiab] OR randomised[tiab]) AND controlled[tiab] AND trial[tiab]))",
+   "source": "同上 Therapy/Narrow，兽医改写：加 \"Randomized Controlled Trial, Veterinary\"[pt]（NLM 兽医发布类型，兽医 RCT 不标人用 RCT 类型）和英式拼写 randomised"
+  },
+  "diagnosis_narrow": {
+   "query": "(specificity[tiab])",
+   "source": "PubMed Clinical Queries Diagnosis/Narrow；Haynes RB, Wilczynski NL. BMJ 2004;328:1040（PMID 15073027）"
+  },
+  "etiology_narrow": {
+   "query": "((relative[tiab] AND risk*[tiab]) OR \"relative risk\"[tw] OR risks[tw] OR \"Cohort Studies\"[MeSH:noexp] OR (cohort[tiab] AND study[tiab]) OR (cohort[tiab] AND studies[tiab]))",
+   "source": "PubMed Clinical Queries Etiology/Narrow；Wilczynski NL, Haynes RB. AMIA 2003:719-23（PMID 14728267）"
+  },
+  "prognosis_narrow": {
+   "query": "(prognos*[tiab] OR (first[tiab] AND episode[tiab]) OR cohort[tiab])",
+   "source": "PubMed Clinical Queries Prognosis/Narrow；Wilczynski NL, Haynes RB. BMC Med 2004;2:23（PMID 15189561）"
+  },
+  "cpg_narrow": {
+   "query": "(validation[tiab] OR validate[tiab])",
+   "source": "PubMed Clinical Queries Clinical Prediction Guides/Narrow；Wong SS 等 AMIA 2003:728-32（PMID 14728269）"
+  },
+  "sr": {
+   "query": "(systematic[sb] OR \"Meta-Analysis\"[pt] OR meta-analy*[ti] OR \"systematic review\"[tiab])",
+   "source": "PubMed Systematic Review 过滤 systematic[sb]（PubMed 帮助页）+ Montori VM 等 BMJ 2005;330:68（PMID 15619601）的 meta-analysis[pt]/\"systematic review\" 词；补 meta-analy*[ti]（库内 39858209 未被 systematic[sb] 收录）"
+  },
+  "guideline": {
+   "query": "(\"Practice Guideline\"[pt] OR \"Guideline\"[pt] OR \"Consensus\"[pt] OR \"Consensus Development Conference\"[pt] OR guideline*[ti] OR consensus[ti] OR recommendation*[ti] OR \"task force\"[ti] OR \"position statement\"[ti])",
+   "source": "NLM 发布类型 Practice Guideline / Guideline / Consensus / Consensus Development Conference + 题名 guideline*/consensus/recommendation*/\"task force\"/\"position statement\"（后三个词 2026-11-10 按 IVETF 2015 系列验证补入：其中 2 篇题名用 recommendations、未标 Consensus 发布类型）"
+  },
+  "therapy_broad": {
+   "query": "((clinical[tiab] AND trial[tiab]) OR \"Clinical Trials as Topic\"[MeSH] OR \"Clinical Trial\"[pt] OR random*[tiab] OR \"Random Allocation\"[MeSH] OR \"therapeutic use\"[sh])",
+   "source": "PubMed Clinical Queries Therapy/Broad；Haynes RB 等 BMJ 2005（PMID 15894554）"
+  },
+  "diagnosis_broad": {
+   "query": "(sensitiv*[tiab] OR \"Sensitivity and Specificity\"[MeSH] OR diagnose[tiab] OR diagnosed[tiab] OR diagnoses[tiab] OR diagnosing[tiab] OR diagnosis[tiab] OR diagnostic[tiab] OR \"diagnosis\"[MeSH:noexp] OR \"diagnostic equipment\"[MeSH:noexp] OR \"diagnostic errors\"[MeSH:noexp] OR \"diagnostic imaging\"[MeSH:noexp] OR \"diagnostic services\"[MeSH:noexp] OR \"diagnosis, differential\"[MeSH:noexp] OR \"diagnosis\"[sh:noexp])",
+   "source": "PubMed Clinical Queries Diagnosis/Broad；同上（PMID 15073027）"
+  },
+  "etiology_broad": {
+   "query": "(risk*[tiab] OR risk*[MeSH:noexp] OR \"risk adjustment\"[MeSH:noexp] OR \"risk assessment\"[MeSH:noexp] OR \"risk factors\"[MeSH:noexp] OR \"risk management\"[MeSH:noexp] OR \"risk taking\"[MeSH:noexp] OR \"Cohort Studies\"[MeSH] OR group[tw] OR groups[tw] OR grouped[tw])",
+   "source": "PubMed Clinical Queries Etiology/Broad；同上（PMID 14728267）"
+  },
+  "prognosis_broad": {
+   "query": "(\"incidence\"[MeSH:noexp] OR \"mortality\"[MeSH] OR \"follow up studies\"[MeSH:noexp] OR prognos*[tw] OR predict*[tw] OR course*[tw])",
+   "source": "PubMed Clinical Queries Prognosis/Broad；同上（PMID 15189561）"
+  },
+  "cpg_broad": {
+   "query": "(predict*[tiab] OR \"predictive value of tests\"[MeSH] OR score[tiab] OR scores[tiab] OR \"scoring system\"[tiab] OR \"scoring systems\"[tiab] OR observ*[tiab] OR \"observer variation\"[MeSH])",
+   "source": "PubMed Clinical Queries Clinical Prediction Guides/Broad；同上（PMID 14728269）"
+  },
+  "vet_trial_pt": {
+   "query": "(\"Clinical Trial, Veterinary\"[pt])",
+   "source": "NLM 发布类型 \"Clinical Trial, Veterinary\""
+  },
+  "vet_obs_pt": {
+   "query": "(\"Observational Study, Veterinary\"[pt])",
+   "source": "NLM 发布类型 \"Observational Study, Veterinary\""
+  },
+  "prevalence_design": {
+   "query": "(prevalence[ti] OR incidence[ti] OR morbidity[ti] OR mortality[ti] OR \"life table\"[tiab] OR \"life tables\"[tiab] OR \"life expectancy\"[ti] OR longevity[ti] OR \"causes of death\"[ti] OR \"cause of death\"[ti] OR insured[ti] OR insurance[ti] OR VetCompass[tiab])",
+   "source": "患病率/发病率/寿命/死因/保险数据题名词；依据：本站患病率与预后问题按 Iorio 2015 从“高”起评、用 JBI 患病率清单，Hedges 无对应过滤，属本站补充"
+  },
+  "trial_g": {
+   "query": "(\"Randomized Controlled Trial\"[pt] OR \"Randomized Controlled Trial, Veterinary\"[pt] OR ((randomized[tiab] OR randomised[tiab]) AND controlled[tiab] AND trial[tiab]) OR \"Random Allocation\"[MeSH] OR \"Cross-Over Studies\"[MeSH] OR \"Double-Blind Method\"[MeSH] OR ((randomized[tiab] OR randomised[tiab] OR randomly[tiab]) AND (placebo[tiab] OR masked[tiab] OR blinded[tiab] OR assigned[tiab] OR allocated[tiab] OR crossover[tiab])))",
+   "source": "Therapy/Narrow（PMID 15894554）+ 兽医 RCT 发布类型 + Therapy/Broad 中的 \"Random Allocation\"[MeSH]，另加 \"Cross-Over Studies\"[MeSH]、\"Double-Blind Method\"[MeSH] 和 random* 与 placebo/masked/blinded/assigned/allocated 同现（兽医 RCT 常写 randomly assigned，不写 randomized controlled trial）"
+  },
+  "pcohort_g": {
+   "query": "((\"Prospective Studies\"[MeSH] OR prospective[tiab] OR prospectively[tiab] OR \"Longitudinal Studies\"[MeSH] OR longitudinal[tiab]) AND (cohort[tiab] OR cohorts[tiab] OR \"Cohort Studies\"[MeSH] OR followed[tiab] OR \"follow-up\"[tiab] OR survival[tiab] OR incidence[tiab] OR \"risk factors\"[tiab] OR \"Observational Study, Veterinary\"[pt] OR \"Observational Study\"[pt]))",
+   "source": "前瞻性队列：MeSH \"Prospective Studies\"/\"Longitudinal Studies\" 或 prospective/longitudinal，且同现 cohort/随访/生存/发病/危险因素或观察性研究发布类型；思路取自 Prognosis/Narrow 的 cohort 词（PMID 15189561），限定前瞻"
+  },
+  "diag_g": {
+   "query": "(specificity[tiab] OR \"Sensitivity and Specificity\"[MeSH] OR \"ROC Curve\"[MeSH] OR \"receiver operating\"[tiab] OR \"diagnostic accuracy\"[tiab] OR \"diagnostic performance\"[tiab])",
+   "source": "Diagnosis/Narrow 的 specificity[tiab]（PMID 15073027）+ Diagnosis/Broad 中的 \"Sensitivity and Specificity\"[MeSH]，另加 \"ROC Curve\"[MeSH]、receiver operating、diagnostic accuracy/performance"
+  }
+ },
+ "union_all_topic_queries_12mo": {
+  "general": 1567,
+  "union": 2203,
+  "overlap": 895
+ },
+ "topics": [
+  {
+   "id": "_general",
+   "decision_zh": "2026-11-10 复核裁定：通用式不收回顾性队列，维持现状；回顾性队列由各专题检索式兜底。",
+   "external_test_set_neurology": {
+    "source": "IVETF 2015 共识系列（BMC Vet Res 2015，PubMed 检索 \"International Veterinary Epilepsy Task Force\" 得 8 篇）+ ACVIM 2015 犬癫痫发作管理共识（PMID 26899355）；不限日期",
+    "recall_n": 9,
+    "recall_N": 9,
+    "missed": [],
+    "before_tuning": {
+     "neurology": "7/9",
+     "_general": "6/9",
+     "missed": [
+      "26324339",
+      "26319136",
+      "26316206"
+     ],
+     "reason_zh": "26324339、26319136 题名用 recommendations，未标 Consensus 发布类型，旧指南条件只认 guideline/consensus；_general 另漏 26316206（题名 current understanding，未标 Consensus 发布类型，专题式靠 epilepsy 主题加 Hedges 预后/病因词命中）"
+    },
+    "tuning_zh": "指南条件加题名 recommendation*、\"task force\"、\"position statement\"；全部检索式统一更新。",
+    "items": {
+     "26316133": "IVETF 定义、分类和术语",
+     "26316175": "IVETF 犬癫痫诊断方法",
+     "26319136": "IVETF 癫痫专用 MRI 方案",
+     "26316233": "IVETF 欧洲犬癫痫药物治疗",
+     "26314300": "IVETF 犬猫治疗干预的结局",
+     "26316206": "IVETF 遗传性或疑似遗传性特发性癫痫",
+     "26324339": "IVETF 癫痫犬猫脑组织取样与处理",
+     "26316043": "IVETF 系列总述（定义、分类、诊断和治疗）",
+     "26899355": "2015 ACVIM 犬癫痫发作管理共识（Podell 等，J Vet Intern Med 2016）"
+    }
+   },
+   "name_zh": "全库通用（不分专题）",
+   "name_en": "General (all topics)",
+   "parent": null,
+   "pubmed_query": "(\"Dogs\"[MeSH] OR \"Cats\"[MeSH] OR \"Dog Diseases\"[MeSH] OR \"Cat Diseases\"[MeSH] OR dog[ti] OR dogs[ti] OR canine[ti] OR cat[ti] OR cats[ti] OR feline[ti] OR puppy[ti] OR puppies[ti] OR kitten[ti] OR kittens[ti] OR ((dog[tiab] OR dogs[tiab] OR canine[tiab] OR cats[tiab] OR feline[tiab]) AND (veterinar*[tiab] OR \"client-owned\"[tiab] OR \"J Vet Intern Med\"[ta] OR \"J Feline Med Surg\"[ta] OR \"J Am Vet Med Assoc\"[ta] OR \"Vet J\"[ta] OR \"J Small Anim Pract\"[ta] OR \"Front Vet Sci\"[ta] OR \"Vet Rec\"[ta] OR \"J Vet Cardiol\"[ta] OR \"Am J Vet Res\"[ta] OR \"Vet Clin Pathol\"[ta] OR \"J Vet Emerg Crit Care (San Antonio)\"[ta] OR \"Vet Radiol Ultrasound\"[ta] OR \"Vet Anaesth Analg\"[ta] OR \"J Vet Med Sci\"[ta] OR \"Vet Dermatol\"[ta] OR \"J Am Anim Hosp Assoc\"[ta] OR \"Vet Sci\"[ta] OR \"Vet Med Sci\"[ta] OR \"Res Vet Sci\"[ta] OR \"Prev Vet Med\"[ta] OR \"BMC Vet Res\"[ta] OR \"Vet Comp Orthop Traumatol\"[ta] OR \"Vet Surg\"[ta] OR \"Vet Ophthalmol\"[ta] OR \"J Feline Med Surg Open Rep\"[ta] OR \"Vet Res Commun\"[ta] OR \"Top Companion Anim Med\"[ta] OR \"Appl Anim Behav Sci\"[ta] OR \"J Vet Behav\"[ta]))) AND ((\"Randomized Controlled Trial\"[pt] OR \"Randomized Controlled Trial, Veterinary\"[pt] OR ((randomized[tiab] OR randomised[tiab]) AND controlled[tiab] AND trial[tiab]) OR \"Random Allocation\"[MeSH] OR \"Cross-Over Studies\"[MeSH] OR \"Double-Blind Method\"[MeSH] OR ((randomized[tiab] OR randomised[tiab] OR randomly[tiab]) AND (placebo[tiab] OR masked[tiab] OR blinded[tiab] OR assigned[tiab] OR allocated[tiab] OR crossover[tiab]))) OR (systematic[sb] OR \"Meta-Analysis\"[pt] OR meta-analy*[ti] OR \"systematic review\"[tiab]) OR (\"Practice Guideline\"[pt] OR \"Guideline\"[pt] OR \"Consensus\"[pt] OR \"Consensus Development Conference\"[pt] OR guideline*[ti] OR consensus[ti] OR recommendation*[ti] OR \"task force\"[ti] OR \"position statement\"[ti]) OR (specificity[tiab] OR \"Sensitivity and Specificity\"[MeSH] OR \"ROC Curve\"[MeSH] OR \"receiver operating\"[tiab] OR \"diagnostic accuracy\"[tiab] OR \"diagnostic performance\"[tiab]) OR ((\"Prospective Studies\"[MeSH] OR prospective[tiab] OR prospectively[tiab] OR \"Longitudinal Studies\"[MeSH] OR longitudinal[tiab]) AND (cohort[tiab] OR cohorts[tiab] OR \"Cohort Studies\"[MeSH] OR followed[tiab] OR \"follow-up\"[tiab] OR survival[tiab] OR incidence[tiab] OR \"risk factors\"[tiab] OR \"Observational Study, Veterinary\"[pt] OR \"Observational Study\"[pt]))) NOT (\"Case Reports\"[pt] OR \"Editorial\"[pt] OR \"Letter\"[pt] OR \"Comment\"[pt] OR \"News\"[pt] OR \"Published Erratum\"[pt] OR \"Retracted Publication\"[pt] OR \"Retraction of Publication\"[pt]) NOT (((\"Humans\"[MeSH] NOT \"Animals\"[MeSH]) OR ((rat[ti] OR rats[ti] OR mice[ti] OR mouse[ti] OR murine[ti] OR patients[ti] OR children[ti] OR women[ti]) NOT (\"Dogs\"[MeSH] OR \"Cats\"[MeSH] OR \"Dog Diseases\"[MeSH] OR \"Cat Diseases\"[MeSH] OR dog[ti] OR dogs[ti] OR canine[ti] OR cat[ti] OR cats[ti] OR feline[ti] OR puppy[ti] OR puppies[ti] OR kitten[ti] OR kittens[ti]))) OR ((orthodont*[tiab] OR \"canine retraction\"[tiab] OR \"impacted canine\"[tiab] OR \"maxillary canine\"[tiab] OR \"canine tooth\"[ti] OR EORTC[tiab] OR \"PEDI-CAT\"[tiab] OR \"computerized adaptive test\"[tiab] OR \"cat eye syndrome\"[tiab]) NOT (\"Dogs\"[MeSH] OR \"Cats\"[MeSH] OR \"Dog Diseases\"[MeSH] OR \"Cat Diseases\"[MeSH]))) AND (hasabstract OR (\"Practice Guideline\"[pt] OR \"Guideline\"[pt] OR \"Consensus\"[pt] OR \"Consensus Development Conference\"[pt] OR guideline*[ti] OR consensus[ti] OR recommendation*[ti] OR \"task force\"[ti] OR \"position statement\"[ti])) NOT (\"In Vitro Techniques\"[MeSH] OR \"in vitro\"[ti] OR \"Cells, Cultured\"[MeSH] OR \"cell line\"[ti] OR \"cell lines\"[ti])",
+   "role": "主检索：每周先用这一条拉新文献，专题标签在初筛时人工打；下面各专题检索式降为补充（兜住通用式按设计不收的回顾性队列等）",
+   "filter_set": "trial_g OR sr OR guideline OR diag_g OR pcohort_g",
+   "filter_source": [
+    "Therapy/Narrow（PMID 15894554）+ 兽医 RCT 发布类型 + Therapy/Broad 中的 \"Random Allocation\"[MeSH]，另加 \"Cross-Over Studies\"[MeSH]、\"Double-Blind Method\"[MeSH] 和 random* 与 placebo/masked/blinded/assigned/allocated 同现（兽医 RCT 常写 randomly assigned，不写 randomized controlled trial）",
+    "PubMed Systematic Review 过滤 systematic[sb]（PubMed 帮助页）+ Montori VM 等 BMJ 2005;330:68（PMID 15619601）的 meta-analysis[pt]/\"systematic review\" 词；补 meta-analy*[ti]（库内 39858209 未被 systematic[sb] 收录）",
+    "NLM 发布类型 Practice Guideline / Guideline / Consensus / Consensus Development Conference + 题名 guideline*/consensus/recommendation*/\"task force\"/\"position statement\"（后三个词 2026-11-10 按 IVETF 2015 系列验证补入：其中 2 篇题名用 recommendations、未标 Consensus 发布类型）",
+    "Diagnosis/Narrow 的 specificity[tiab]（PMID 15073027）+ Diagnosis/Broad 中的 \"Sensitivity and Specificity\"[MeSH]，另加 \"ROC Curve\"[MeSH]、receiver operating、diagnostic accuracy/performance",
+    "前瞻性队列：MeSH \"Prospective Studies\"/\"Longitudinal Studies\" 或 prospective/longitudinal，且同现 cohort/随访/生存/发病/危险因素或观察性研究发布类型；思路取自 Prognosis/Narrow 的 cohort 词（PMID 15189561），限定前瞻"
+   ],
+   "validation": {
+    "window_edat": "2025/11/10–2026/11/10",
+    "count_12mo": 1567,
+    "est_weekly": 30.1,
+    "last_4wk": 119,
+    "recall_n": 69,
+    "recall_N": 83,
+    "recall_scope": "本库中设计为 RCT/对照试验、系统综述/Meta、指南/共识、队列、诊断研究的全部有 PMID 文章（seed_library_v6 + papers.json 的 doc_type）",
+    "recall_by_design": {
+     "guideline": "22/22",
+     "sr": "8/8",
+     "trial": "24/24",
+     "cohort": "13/25",
+     "diagnostic": "2/4"
+    },
+    "recall_in_requested_scope": "排除回顾性队列/回顾性诊断后：69/72",
+    "missed": [
+     {
+      "pmid": "30548336",
+      "design": "回顾性队列",
+      "title": "Association between life span and body condition in neutered client-owned dogs.",
+      "reason_zh": "回顾性队列，不在本条要求的“前瞻性队列”范围；由专题检索式（较宽的预后/病因过滤）兜底"
+     },
+     {
+      "pmid": "26581469",
+      "design": "回顾性队列（保险数据）",
+      "title": "Morbidity pattern by age, sex and breed in insured cats in Japan (2008-2013).",
+      "reason_zh": "回顾性队列，不在本条要求的“前瞻性队列”范围；由专题检索式（较宽的预后/病因过滤）兜底"
+     },
+     {
+      "pmid": "25896026",
+      "design": "回顾性队列（保险数据）",
+      "title": "A current life table and causes of death for insured dogs in Japan.",
+      "reason_zh": "回顾性队列，不在本条要求的“前瞻性队列”范围；由专题检索式（较宽的预后/病因过滤）兜底"
+     },
+     {
+      "pmid": "18691369",
+      "design": "回顾性队列",
+      "title": "Survival in cats with naturally occurring chronic kidney disease (2000-2002).",
+      "reason_zh": "回顾性队列，不在本条要求的“前瞻性队列”范围；由专题检索式（较宽的预后/病因过滤）兜底"
+     },
+     {
+      "pmid": "18289298",
+      "design": "回顾性队列",
+      "title": "Survival characteristics and prognostic variables of dogs with mitral regurgitation attributable to myxomatous valve disease.",
+      "reason_zh": "回顾性队列，不在本条要求的“前瞻性队列”范围；由专题检索式（较宽的预后/病因过滤）兜底"
+     },
+     {
+      "pmid": "16734085",
+      "design": "回顾性队列",
+      "title": "Survival of cats with naturally occurring chronic renal failure is related to severity of proteinuria.",
+      "reason_zh": "回顾性队列，不在本条要求的“前瞻性队列”范围；由专题检索式（较宽的预后/病因过滤）兜底"
+     },
+     {
+      "pmid": "30797439",
+      "design": "回顾性队列",
+      "title": "Echocardiographic phenotype of canine dilated cardiomyopathy differs based on diet type.",
+      "reason_zh": "回顾性队列，不在本条要求的“前瞻性队列”范围；由专题检索式（较宽的预后/病因过滤）兜底"
+     },
+     {
+      "pmid": "27103204",
+      "design": "回顾性诊断研究",
+      "title": "Serum Concentrations of Symmetric Dimethylarginine and Creatinine in Dogs with Naturally Occurring Chronic Kidney Disease.",
+      "reason_zh": "回顾性诊断研究，摘要没有 specificity/ROC 等词；由 ckd 专题检索式兜底"
+     },
+     {
+      "pmid": "26079532",
+      "design": "前瞻性诊断/方法学验证",
+      "title": "Symmetric Dimethylarginine Assay Validation, Stability, and Evaluation as a Marker for the Early Detection of Chronic Kidney Disease in Dogs.",
+      "reason_zh": "前瞻性诊断/方法学验证，摘要只写 sensitivity 没写 specificity；加 Hedges 临床预测 Narrow（validation）可召回，但每周 +6 篇，暂不加"
+     },
+     {
+      "pmid": "39724773",
+      "design": "队列（摘要未述前瞻或回顾）",
+      "title": "Hyperthyroid cats that develop azotemia following successful radioiodine treatment have shorter survival times compared to cats that remain nonazotemic.",
+      "reason_zh": "摘要没说明前瞻还是回顾，也没有 cohort 等词"
+     },
+     {
+      "pmid": "16478432",
+      "design": "回顾性队列",
+      "title": "Survival times for cats with hyperthyroidism treated with iodine 131, methimazole, or both: 167 cases (1996-2003).",
+      "reason_zh": "回顾性队列，不在本条要求的“前瞻性队列”范围；由专题检索式（较宽的预后/病因过滤）兜底"
+     },
+     {
+      "pmid": "39019056",
+      "design": "回顾性队列",
+      "title": "Comparison of survival times of cats with hyperthyroidism treated with thyroidectomy or methimazole at a primary care hospital in Japan.",
+      "reason_zh": "回顾性队列，不在本条要求的“前瞻性队列”范围；由专题检索式（较宽的预后/病因过滤）兜底"
+     },
+     {
+      "pmid": "34730466",
+      "design": "回顾性队列",
+      "title": "Radioactive iodine dose and survival in cats with hyperthyroidism (2015-2020).",
+      "reason_zh": "回顾性队列，不在本条要求的“前瞻性队列”范围；由专题检索式（较宽的预后/病因过滤）兜底"
+     },
+     {
+      "pmid": "40559809",
+      "design": "前瞻性非随机队列",
+      "title": "Comparison of the Changes in Quality-of-Life of Cats with Hyperthyroidism Treated with Radioiodine or Antithyroid Drugs-A Preliminary Study.",
+      "reason_zh": "摘要只写 longitudinal，没有 prospective/cohort/随访词；由 hyperthyroidism 专题检索式兜底"
+     }
+    ],
+    "wildcards": 7,
+    "alternatives": {
+     "加回顾性队列（Hedges 病因+预后 Narrow）": "召回 72/83，每周约 44.8 篇",
+     "加临床预测 Narrow": "召回 70/83，每周约 35.8 篇"
+    }
+   }
+  },
+  {
+   "id": "saim",
+   "name_zh": "小动物内科",
+   "name_en": "Small Animal Internal Medicine",
+   "parent": null,
+   "pubmed_query": null,
+   "inherits_children": [
+    "nephrology",
+    "endocrinology",
+    "infectious"
+   ],
+   "filter_set": null,
+   "filter_source": [],
+   "validation": {
+    "window_edat": "2025/11/10–2026/11/10",
+    "count_12mo": 856,
+    "est_weekly": 16.4,
+    "last_4wk": 71,
+    "recall_n": 71,
+    "recall_N": 73,
+    "recall_scope": "本库该专题全部有 PMID 文章（seed_library_v6 的 topics 标签；不含无 PMID 的 IRIS 2026）；不限日期",
+    "recall_in_scope": "71/71（漏检的都是 Hedges 不覆盖的设计）",
+    "missed": [
+     {
+      "pmid": "36297266",
+      "design": "回顾性病例系列（主人报告）",
+      "title": "Unlicensed Molnupiravir is an Effective Rescue Treatment Following Failure of Unlicensed GS-441524-like Therapy for Cats with Suspected Feline Infectious Peritonitis.",
+      "reason_zh": "无对照病例系列，PLUS 治疗类要求随机分组，按设计排除"
+     },
+     {
+      "pmid": "32441826",
+      "design": "病例系列",
+      "title": "Antiviral treatment using the adenosine nucleoside analogue GS-441524 in cats with clinically diagnosed neurological feline infectious peritonitis.",
+      "reason_zh": "无对照病例系列，PLUS 治疗类要求随机分组，按设计排除"
+     }
+    ],
+    "counted_with_children": [
+     "nephrology",
+     "endocrinology",
+     "infectious"
+    ]
+   },
+   "note_zh": "小动物内科是分类层，不单独检索；命中肾脏、内分泌、感染任一子专题即归入。"
+  },
+  {
+   "id": "cardiology",
+   "name_zh": "心脏病学",
+   "name_en": "Cardiology",
+   "parent": null,
+   "pubmed_query": "((\"Dogs\"[MeSH] OR \"Cats\"[MeSH] OR \"Dog Diseases\"[MeSH] OR \"Cat Diseases\"[MeSH] OR dog[ti] OR dogs[ti] OR canine[ti] OR cat[ti] OR cats[ti] OR feline[ti] OR puppy[ti] OR puppies[ti] OR kitten[ti] OR kittens[ti] OR ((dog[tiab] OR dogs[tiab] OR canine[tiab] OR cats[tiab] OR feline[tiab]) AND (veterinar*[tiab] OR \"client-owned\"[tiab] OR \"J Vet Intern Med\"[ta] OR \"J Feline Med Surg\"[ta] OR \"J Am Vet Med Assoc\"[ta] OR \"Vet J\"[ta] OR \"J Small Anim Pract\"[ta] OR \"Front Vet Sci\"[ta] OR \"Vet Rec\"[ta] OR \"J Vet Cardiol\"[ta] OR \"Am J Vet Res\"[ta] OR \"Vet Clin Pathol\"[ta] OR \"J Vet Emerg Crit Care (San Antonio)\"[ta] OR \"Vet Radiol Ultrasound\"[ta] OR \"Vet Anaesth Analg\"[ta] OR \"J Vet Med Sci\"[ta] OR \"Vet Dermatol\"[ta] OR \"J Am Anim Hosp Assoc\"[ta] OR \"Vet Sci\"[ta] OR \"Vet Med Sci\"[ta] OR \"Res Vet Sci\"[ta] OR \"Prev Vet Med\"[ta] OR \"BMC Vet Res\"[ta] OR \"Vet Comp Orthop Traumatol\"[ta] OR \"Vet Surg\"[ta] OR \"Vet Ophthalmol\"[ta] OR \"J Feline Med Surg Open Rep\"[ta] OR \"Vet Res Commun\"[ta] OR \"Top Companion Anim Med\"[ta] OR \"Appl Anim Behav Sci\"[ta] OR \"J Vet Behav\"[ta]))) AND (\"Heart Diseases\"[MeSH] OR \"Heart Failure\"[MeSH] OR \"Hypertension\"[MeSH:noexp] OR \"Hypertension, Renal\"[MeSH] OR cardiac[tiab] OR cardiomyopath*[tiab] OR \"heart disease\"[tiab] OR \"heart failure\"[tiab] OR \"mitral valve\"[tiab] OR \"mitral regurgitation\"[tiab] OR MMVD[tiab] OR myxomatous[tiab] OR arrhythmi*[tiab] OR \"atrial fibrillation\"[tiab] OR echocardiograph*[tiab] OR pimobendan[tiab] OR \"systemic hypertension\"[tiab] OR \"blood pressure\"[tiab] OR \"myocardial failure\"[tiab] OR \"arterial thromboembolism\"[tiab] OR \"aortic thromboembolism\"[tiab]) AND ((\"Randomized Controlled Trial\"[pt] OR \"Randomized Controlled Trial, Veterinary\"[pt] OR ((randomized[tiab] OR randomised[tiab]) AND controlled[tiab] AND trial[tiab])) OR (specificity[tiab]) OR ((relative[tiab] AND risk*[tiab]) OR \"relative risk\"[tw] OR risks[tw] OR \"Cohort Studies\"[MeSH:noexp] OR (cohort[tiab] AND study[tiab]) OR (cohort[tiab] AND studies[tiab])) OR (prognos*[tiab] OR (first[tiab] AND episode[tiab]) OR cohort[tiab]) OR (validation[tiab] OR validate[tiab]) OR (systematic[sb] OR \"Meta-Analysis\"[pt] OR meta-analy*[ti] OR \"systematic review\"[tiab]) OR (\"Practice Guideline\"[pt] OR \"Guideline\"[pt] OR \"Consensus\"[pt] OR \"Consensus Development Conference\"[pt] OR guideline*[ti] OR consensus[ti] OR recommendation*[ti] OR \"task force\"[ti] OR \"position statement\"[ti]) OR (\"Observational Study, Veterinary\"[pt]))) NOT (\"Case Reports\"[pt] OR \"Editorial\"[pt] OR \"Letter\"[pt] OR \"Comment\"[pt] OR \"News\"[pt] OR \"Published Erratum\"[pt] OR \"Retracted Publication\"[pt] OR \"Retraction of Publication\"[pt]) NOT (((\"Humans\"[MeSH] NOT \"Animals\"[MeSH]) OR ((rat[ti] OR rats[ti] OR mice[ti] OR mouse[ti] OR murine[ti] OR patients[ti] OR children[ti] OR women[ti]) NOT (\"Dogs\"[MeSH] OR \"Cats\"[MeSH] OR \"Dog Diseases\"[MeSH] OR \"Cat Diseases\"[MeSH] OR dog[ti] OR dogs[ti] OR canine[ti] OR cat[ti] OR cats[ti] OR feline[ti] OR puppy[ti] OR puppies[ti] OR kitten[ti] OR kittens[ti]))) OR ((orthodont*[tiab] OR \"canine retraction\"[tiab] OR \"impacted canine\"[tiab] OR \"maxillary canine\"[tiab] OR \"canine tooth\"[ti] OR EORTC[tiab] OR \"PEDI-CAT\"[tiab] OR \"computerized adaptive test\"[tiab] OR \"cat eye syndrome\"[tiab]) NOT (\"Dogs\"[MeSH] OR \"Cats\"[MeSH] OR \"Dog Diseases\"[MeSH] OR \"Cat Diseases\"[MeSH]))) AND (hasabstract OR (\"Practice Guideline\"[pt] OR \"Guideline\"[pt] OR \"Consensus\"[pt] OR \"Consensus Development Conference\"[pt] OR guideline*[ti] OR consensus[ti] OR recommendation*[ti] OR \"task force\"[ti] OR \"position statement\"[ti]))",
+   "inherits_children": [
+    "mmvd",
+    "cardiomyopathy",
+    "diet_dcm",
+    "hypertension"
+   ],
+   "filter_set": "narrow",
+   "filter_source": [
+    "同上 Therapy/Narrow，兽医改写：加 \"Randomized Controlled Trial, Veterinary\"[pt]（NLM 兽医发布类型，兽医 RCT 不标人用 RCT 类型）和英式拼写 randomised",
+    "PubMed Clinical Queries Diagnosis/Narrow；Haynes RB, Wilczynski NL. BMJ 2004;328:1040（PMID 15073027）",
+    "PubMed Clinical Queries Etiology/Narrow；Wilczynski NL, Haynes RB. AMIA 2003:719-23（PMID 14728267）",
+    "PubMed Clinical Queries Prognosis/Narrow；Wilczynski NL, Haynes RB. BMC Med 2004;2:23（PMID 15189561）",
+    "PubMed Clinical Queries Clinical Prediction Guides/Narrow；Wong SS 等 AMIA 2003:728-32（PMID 14728269）",
+    "PubMed Systematic Review 过滤 systematic[sb]（PubMed 帮助页）+ Montori VM 等 BMJ 2005;330:68（PMID 15619601）的 meta-analysis[pt]/\"systematic review\" 词；补 meta-analy*[ti]（库内 39858209 未被 systematic[sb] 收录）",
+    "NLM 发布类型 Practice Guideline / Guideline / Consensus / Consensus Development Conference + 题名 guideline*/consensus/recommendation*/\"task force\"/\"position statement\"（后三个词 2026-11-10 按 IVETF 2015 系列验证补入：其中 2 篇题名用 recommendations、未标 Consensus 发布类型）",
+    "NLM 发布类型 \"Observational Study, Veterinary\""
+   ],
+   "validation": {
+    "window_edat": "2025/11/10–2026/11/10",
+    "count_12mo": 232,
+    "est_weekly": 4.4,
+    "last_4wk": 21,
+    "recall_n": 15,
+    "recall_N": 18,
+    "recall_scope": "本库该专题全部有 PMID 文章（seed_library_v6 的 topics 标签；不含无 PMID 的 IRIS 2026）；不限日期",
+    "recall_in_scope": "15/15（漏检的都是 Hedges 不覆盖的设计）",
+    "missed": [
+     {
+      "pmid": "30451613",
+      "design": "叙述性综述",
+      "title": "Diet-associated dilated cardiomyopathy in dogs: what do we know?",
+      "reason_zh": "叙述性综述，不属于 Hedges 覆盖的研究类型（PLUS 也不收），按设计排除"
+     },
+     {
+      "pmid": "26776594",
+      "design": "叙述性综述",
+      "title": "The genetic basis of hypertrophic cardiomyopathy in cats and humans.",
+      "reason_zh": "叙述性综述，不属于 Hedges 覆盖的研究类型（PLUS 也不收），按设计排除"
+     },
+     {
+      "pmid": "16236761",
+      "design": "遗传学研究",
+      "title": "A cardiac myosin binding protein C mutation in the Maine Coon cat with familial hypertrophic cardiomyopathy.",
+      "reason_zh": "遗传学研究，不在 Hedges 临床研究类型内，按设计排除"
+     }
+    ],
+    "old_query": {
+     "recall": "15/18",
+     "est_weekly": 4.0,
+     "last_4wk": 5,
+     "note": "旧式：topics.json 现有 pubmed_query + ingest.py 包装（仅 MeSH 物种、无研究类型过滤）"
+    },
+    "counted_with_children": [
+     "mmvd",
+     "cardiomyopathy",
+     "diet_dcm",
+     "hypertension"
+    ],
+    "wildcards": 12,
+    "url_length_get": 5626
+   }
+  },
+  {
+   "id": "mmvd",
+   "name_zh": "黏液瘤样二尖瓣病",
+   "name_en": "Myxomatous mitral valve disease",
+   "parent": "cardiology",
+   "pubmed_query": "((\"Dogs\"[MeSH] OR \"Cats\"[MeSH] OR \"Dog Diseases\"[MeSH] OR \"Cat Diseases\"[MeSH] OR dog[ti] OR dogs[ti] OR canine[ti] OR cat[ti] OR cats[ti] OR feline[ti] OR puppy[ti] OR puppies[ti] OR kitten[ti] OR kittens[ti] OR ((dog[tiab] OR dogs[tiab] OR canine[tiab] OR cats[tiab] OR feline[tiab]) AND (veterinar*[tiab] OR \"client-owned\"[tiab] OR \"J Vet Intern Med\"[ta] OR \"J Feline Med Surg\"[ta] OR \"J Am Vet Med Assoc\"[ta] OR \"Vet J\"[ta] OR \"J Small Anim Pract\"[ta] OR \"Front Vet Sci\"[ta] OR \"Vet Rec\"[ta] OR \"J Vet Cardiol\"[ta] OR \"Am J Vet Res\"[ta] OR \"Vet Clin Pathol\"[ta] OR \"J Vet Emerg Crit Care (San Antonio)\"[ta] OR \"Vet Radiol Ultrasound\"[ta] OR \"Vet Anaesth Analg\"[ta] OR \"J Vet Med Sci\"[ta] OR \"Vet Dermatol\"[ta] OR \"J Am Anim Hosp Assoc\"[ta] OR \"Vet Sci\"[ta] OR \"Vet Med Sci\"[ta] OR \"Res Vet Sci\"[ta] OR \"Prev Vet Med\"[ta] OR \"BMC Vet Res\"[ta] OR \"Vet Comp Orthop Traumatol\"[ta] OR \"Vet Surg\"[ta] OR \"Vet Ophthalmol\"[ta] OR \"J Feline Med Surg Open Rep\"[ta] OR \"Vet Res Commun\"[ta] OR \"Top Companion Anim Med\"[ta] OR \"Appl Anim Behav Sci\"[ta] OR \"J Vet Behav\"[ta]))) AND (\"Mitral Valve Insufficiency\"[MeSH] OR \"Mitral Valve\"[MeSH] OR \"mitral valve\"[tiab] OR \"mitral regurgitation\"[tiab] OR MMVD[tiab] OR \"myxomatous\"[tiab] OR \"degenerative valve disease\"[tiab] OR \"valvular heart disease\"[tiab] OR endocardiosis[tiab] OR pimobendan[tiab]) AND (((clinical[tiab] AND trial[tiab]) OR \"Clinical Trials as Topic\"[MeSH] OR \"Clinical Trial\"[pt] OR random*[tiab] OR \"Random Allocation\"[MeSH] OR \"therapeutic use\"[sh]) OR (\"Randomized Controlled Trial\"[pt] OR \"Randomized Controlled Trial, Veterinary\"[pt] OR ((randomized[tiab] OR randomised[tiab]) AND controlled[tiab] AND trial[tiab])) OR (specificity[tiab]) OR ((relative[tiab] AND risk*[tiab]) OR \"relative risk\"[tw] OR risks[tw] OR \"Cohort Studies\"[MeSH:noexp] OR (cohort[tiab] AND study[tiab]) OR (cohort[tiab] AND studies[tiab])) OR (\"incidence\"[MeSH:noexp] OR \"mortality\"[MeSH] OR \"follow up studies\"[MeSH:noexp] OR prognos*[tw] OR predict*[tw] OR course*[tw]) OR (validation[tiab] OR validate[tiab]) OR (systematic[sb] OR \"Meta-Analysis\"[pt] OR meta-analy*[ti] OR \"systematic review\"[tiab]) OR (\"Practice Guideline\"[pt] OR \"Guideline\"[pt] OR \"Consensus\"[pt] OR \"Consensus Development Conference\"[pt] OR guideline*[ti] OR consensus[ti] OR recommendation*[ti] OR \"task force\"[ti] OR \"position statement\"[ti]) OR (\"Observational Study, Veterinary\"[pt]) OR (\"Clinical Trial, Veterinary\"[pt]))) NOT (\"Case Reports\"[pt] OR \"Editorial\"[pt] OR \"Letter\"[pt] OR \"Comment\"[pt] OR \"News\"[pt] OR \"Published Erratum\"[pt] OR \"Retracted Publication\"[pt] OR \"Retraction of Publication\"[pt]) NOT (((\"Humans\"[MeSH] NOT \"Animals\"[MeSH]) OR ((rat[ti] OR rats[ti] OR mice[ti] OR mouse[ti] OR murine[ti] OR patients[ti] OR children[ti] OR women[ti]) NOT (\"Dogs\"[MeSH] OR \"Cats\"[MeSH] OR \"Dog Diseases\"[MeSH] OR \"Cat Diseases\"[MeSH] OR dog[ti] OR dogs[ti] OR canine[ti] OR cat[ti] OR cats[ti] OR feline[ti] OR puppy[ti] OR puppies[ti] OR kitten[ti] OR kittens[ti]))) OR ((orthodont*[tiab] OR \"canine retraction\"[tiab] OR \"impacted canine\"[tiab] OR \"maxillary canine\"[tiab] OR \"canine tooth\"[ti] OR EORTC[tiab] OR \"PEDI-CAT\"[tiab] OR \"computerized adaptive test\"[tiab] OR \"cat eye syndrome\"[tiab]) NOT (\"Dogs\"[MeSH] OR \"Cats\"[MeSH] OR \"Dog Diseases\"[MeSH] OR \"Cat Diseases\"[MeSH]))) AND (hasabstract OR (\"Practice Guideline\"[pt] OR \"Guideline\"[pt] OR \"Consensus\"[pt] OR \"Consensus Development Conference\"[pt] OR guideline*[ti] OR consensus[ti] OR recommendation*[ti] OR \"task force\"[ti] OR \"position statement\"[ti]))",
+   "inherits_children": null,
+   "filter_set": "hybrid",
+   "filter_source": [
+    "PubMed Clinical Queries Therapy/Broad；Haynes RB 等 BMJ 2005（PMID 15894554）",
+    "同上 Therapy/Narrow，兽医改写：加 \"Randomized Controlled Trial, Veterinary\"[pt]（NLM 兽医发布类型，兽医 RCT 不标人用 RCT 类型）和英式拼写 randomised",
+    "PubMed Clinical Queries Diagnosis/Narrow；Haynes RB, Wilczynski NL. BMJ 2004;328:1040（PMID 15073027）",
+    "PubMed Clinical Queries Etiology/Narrow；Wilczynski NL, Haynes RB. AMIA 2003:719-23（PMID 14728267）",
+    "PubMed Clinical Queries Prognosis/Broad；同上（PMID 15189561）",
+    "PubMed Clinical Queries Clinical Prediction Guides/Narrow；Wong SS 等 AMIA 2003:728-32（PMID 14728269）",
+    "PubMed Systematic Review 过滤 systematic[sb]（PubMed 帮助页）+ Montori VM 等 BMJ 2005;330:68（PMID 15619601）的 meta-analysis[pt]/\"systematic review\" 词；补 meta-analy*[ti]（库内 39858209 未被 systematic[sb] 收录）",
+    "NLM 发布类型 Practice Guideline / Guideline / Consensus / Consensus Development Conference + 题名 guideline*/consensus/recommendation*/\"task force\"/\"position statement\"（后三个词 2026-11-10 按 IVETF 2015 系列验证补入：其中 2 篇题名用 recommendations、未标 Consensus 发布类型）",
+    "NLM 发布类型 \"Observational Study, Veterinary\"",
+    "NLM 发布类型 \"Clinical Trial, Veterinary\""
+   ],
+   "validation": {
+    "window_edat": "2025/11/10–2026/11/10",
+    "count_12mo": 64,
+    "est_weekly": 1.2,
+    "last_4wk": 6,
+    "recall_n": 4,
+    "recall_N": 4,
+    "recall_scope": "本库该专题全部有 PMID 文章（seed_library_v6 的 topics 标签；不含无 PMID 的 IRIS 2026）；不限日期",
+    "recall_in_scope": "4/4（漏检的都是 Hedges 不覆盖的设计）",
+    "missed": [],
+    "old_query": {
+     "recall": "4/4",
+     "est_weekly": 1.0,
+     "last_4wk": 2,
+     "note": "旧式：topics.json 现有 pubmed_query + ingest.py 包装（仅 MeSH 物种、无研究类型过滤）"
+    },
+    "wildcards": 12,
+    "url_length_get": 5632
+   }
+  },
+  {
+   "id": "cardiomyopathy",
+   "name_zh": "心肌病",
+   "name_en": "Cardiomyopathy",
+   "parent": "cardiology",
+   "pubmed_query": "((\"Dogs\"[MeSH] OR \"Cats\"[MeSH] OR \"Dog Diseases\"[MeSH] OR \"Cat Diseases\"[MeSH] OR dog[ti] OR dogs[ti] OR canine[ti] OR cat[ti] OR cats[ti] OR feline[ti] OR puppy[ti] OR puppies[ti] OR kitten[ti] OR kittens[ti] OR ((dog[tiab] OR dogs[tiab] OR canine[tiab] OR cats[tiab] OR feline[tiab]) AND (veterinar*[tiab] OR \"client-owned\"[tiab] OR \"J Vet Intern Med\"[ta] OR \"J Feline Med Surg\"[ta] OR \"J Am Vet Med Assoc\"[ta] OR \"Vet J\"[ta] OR \"J Small Anim Pract\"[ta] OR \"Front Vet Sci\"[ta] OR \"Vet Rec\"[ta] OR \"J Vet Cardiol\"[ta] OR \"Am J Vet Res\"[ta] OR \"Vet Clin Pathol\"[ta] OR \"J Vet Emerg Crit Care (San Antonio)\"[ta] OR \"Vet Radiol Ultrasound\"[ta] OR \"Vet Anaesth Analg\"[ta] OR \"J Vet Med Sci\"[ta] OR \"Vet Dermatol\"[ta] OR \"J Am Anim Hosp Assoc\"[ta] OR \"Vet Sci\"[ta] OR \"Vet Med Sci\"[ta] OR \"Res Vet Sci\"[ta] OR \"Prev Vet Med\"[ta] OR \"BMC Vet Res\"[ta] OR \"Vet Comp Orthop Traumatol\"[ta] OR \"Vet Surg\"[ta] OR \"Vet Ophthalmol\"[ta] OR \"J Feline Med Surg Open Rep\"[ta] OR \"Vet Res Commun\"[ta] OR \"Top Companion Anim Med\"[ta] OR \"Appl Anim Behav Sci\"[ta] OR \"J Vet Behav\"[ta]))) AND (\"Cardiomyopathies\"[MeSH] OR cardiomyopath*[tiab] OR HCM[tiab] OR DCM[tiab] OR ARVC[tiab] OR \"myocardial failure\"[tiab] OR \"left ventricular hypertrophy\"[tiab] OR \"MYBPC3\"[tiab] OR \"arterial thromboembolism\"[tiab] OR \"aortic thromboembolism\"[tiab] OR clopidogrel[tiab]) AND (((clinical[tiab] AND trial[tiab]) OR \"Clinical Trials as Topic\"[MeSH] OR \"Clinical Trial\"[pt] OR random*[tiab] OR \"Random Allocation\"[MeSH] OR \"therapeutic use\"[sh]) OR (\"Randomized Controlled Trial\"[pt] OR \"Randomized Controlled Trial, Veterinary\"[pt] OR ((randomized[tiab] OR randomised[tiab]) AND controlled[tiab] AND trial[tiab])) OR (specificity[tiab]) OR ((relative[tiab] AND risk*[tiab]) OR \"relative risk\"[tw] OR risks[tw] OR \"Cohort Studies\"[MeSH:noexp] OR (cohort[tiab] AND study[tiab]) OR (cohort[tiab] AND studies[tiab])) OR (\"incidence\"[MeSH:noexp] OR \"mortality\"[MeSH] OR \"follow up studies\"[MeSH:noexp] OR prognos*[tw] OR predict*[tw] OR course*[tw]) OR (validation[tiab] OR validate[tiab]) OR (systematic[sb] OR \"Meta-Analysis\"[pt] OR meta-analy*[ti] OR \"systematic review\"[tiab]) OR (\"Practice Guideline\"[pt] OR \"Guideline\"[pt] OR \"Consensus\"[pt] OR \"Consensus Development Conference\"[pt] OR guideline*[ti] OR consensus[ti] OR recommendation*[ti] OR \"task force\"[ti] OR \"position statement\"[ti]) OR (\"Observational Study, Veterinary\"[pt]) OR (\"Clinical Trial, Veterinary\"[pt]))) NOT (\"Case Reports\"[pt] OR \"Editorial\"[pt] OR \"Letter\"[pt] OR \"Comment\"[pt] OR \"News\"[pt] OR \"Published Erratum\"[pt] OR \"Retracted Publication\"[pt] OR \"Retraction of Publication\"[pt]) NOT (((\"Humans\"[MeSH] NOT \"Animals\"[MeSH]) OR ((rat[ti] OR rats[ti] OR mice[ti] OR mouse[ti] OR murine[ti] OR patients[ti] OR children[ti] OR women[ti]) NOT (\"Dogs\"[MeSH] OR \"Cats\"[MeSH] OR \"Dog Diseases\"[MeSH] OR \"Cat Diseases\"[MeSH] OR dog[ti] OR dogs[ti] OR canine[ti] OR cat[ti] OR cats[ti] OR feline[ti] OR puppy[ti] OR puppies[ti] OR kitten[ti] OR kittens[ti]))) OR ((orthodont*[tiab] OR \"canine retraction\"[tiab] OR \"impacted canine\"[tiab] OR \"maxillary canine\"[tiab] OR \"canine tooth\"[ti] OR EORTC[tiab] OR \"PEDI-CAT\"[tiab] OR \"computerized adaptive test\"[tiab] OR \"cat eye syndrome\"[tiab]) NOT (\"Dogs\"[MeSH] OR \"Cats\"[MeSH] OR \"Dog Diseases\"[MeSH] OR \"Cat Diseases\"[MeSH]))) AND (hasabstract OR (\"Practice Guideline\"[pt] OR \"Guideline\"[pt] OR \"Consensus\"[pt] OR \"Consensus Development Conference\"[pt] OR guideline*[ti] OR consensus[ti] OR recommendation*[ti] OR \"task force\"[ti] OR \"position statement\"[ti]))",
+   "inherits_children": null,
+   "filter_set": "hybrid",
+   "filter_source": [
+    "PubMed Clinical Queries Therapy/Broad；Haynes RB 等 BMJ 2005（PMID 15894554）",
+    "同上 Therapy/Narrow，兽医改写：加 \"Randomized Controlled Trial, Veterinary\"[pt]（NLM 兽医发布类型，兽医 RCT 不标人用 RCT 类型）和英式拼写 randomised",
+    "PubMed Clinical Queries Diagnosis/Narrow；Haynes RB, Wilczynski NL. BMJ 2004;328:1040（PMID 15073027）",
+    "PubMed Clinical Queries Etiology/Narrow；Wilczynski NL, Haynes RB. AMIA 2003:719-23（PMID 14728267）",
+    "PubMed Clinical Queries Prognosis/Broad；同上（PMID 15189561）",
+    "PubMed Clinical Queries Clinical Prediction Guides/Narrow；Wong SS 等 AMIA 2003:728-32（PMID 14728269）",
+    "PubMed Systematic Review 过滤 systematic[sb]（PubMed 帮助页）+ Montori VM 等 BMJ 2005;330:68（PMID 15619601）的 meta-analysis[pt]/\"systematic review\" 词；补 meta-analy*[ti]（库内 39858209 未被 systematic[sb] 收录）",
+    "NLM 发布类型 Practice Guideline / Guideline / Consensus / Consensus Development Conference + 题名 guideline*/consensus/recommendation*/\"task force\"/\"position statement\"（后三个词 2026-11-10 按 IVETF 2015 系列验证补入：其中 2 篇题名用 recommendations、未标 Consensus 发布类型）",
+    "NLM 发布类型 \"Observational Study, Veterinary\"",
+    "NLM 发布类型 \"Clinical Trial, Veterinary\""
+   ],
+   "validation": {
+    "window_edat": "2025/11/10–2026/11/10",
+    "count_12mo": 47,
+    "est_weekly": 0.9,
+    "last_4wk": 2,
+    "recall_n": 8,
+    "recall_N": 12,
+    "recall_scope": "本库该专题全部有 PMID 文章（seed_library_v6 的 topics 标签；不含无 PMID 的 IRIS 2026）；不限日期",
+    "recall_in_scope": "8/8（漏检的都是 Hedges 不覆盖的设计）",
+    "missed": [
+     {
+      "pmid": "3616607",
+      "design": "实验",
+      "title": "Myocardial failure in cats associated with low plasma taurine: a reversible cardiomyopathy.",
+      "reason_zh": "实验研究（行为学/机制实验），不在 Hedges 临床研究类型内，按设计排除"
+     },
+     {
+      "pmid": "30451613",
+      "design": "叙述性综述",
+      "title": "Diet-associated dilated cardiomyopathy in dogs: what do we know?",
+      "reason_zh": "叙述性综述，不属于 Hedges 覆盖的研究类型（PLUS 也不收），按设计排除"
+     },
+     {
+      "pmid": "26776594",
+      "design": "叙述性综述",
+      "title": "The genetic basis of hypertrophic cardiomyopathy in cats and humans.",
+      "reason_zh": "叙述性综述，不属于 Hedges 覆盖的研究类型（PLUS 也不收），按设计排除"
+     },
+     {
+      "pmid": "16236761",
+      "design": "遗传学研究",
+      "title": "A cardiac myosin binding protein C mutation in the Maine Coon cat with familial hypertrophic cardiomyopathy.",
+      "reason_zh": "遗传学研究，不在 Hedges 临床研究类型内，按设计排除"
+     }
+    ],
+    "old_query": {
+     "recall": "10/12",
+     "est_weekly": 0.9,
+     "last_4wk": 0,
+     "note": "旧式：topics.json 现有 pubmed_query + ingest.py 包装（仅 MeSH 物种、无研究类型过滤）"
+    },
+    "wildcards": 13,
+    "url_length_get": 5632
+   }
+  },
+  {
+   "id": "diet_dcm",
+   "name_zh": "饮食相关扩张型心肌病",
+   "name_en": "Diet-associated DCM",
+   "parent": "nutrition",
+   "pubmed_query": "((\"Dogs\"[MeSH] OR \"Cats\"[MeSH] OR \"Dog Diseases\"[MeSH] OR \"Cat Diseases\"[MeSH] OR dog[ti] OR dogs[ti] OR canine[ti] OR cat[ti] OR cats[ti] OR feline[ti] OR puppy[ti] OR puppies[ti] OR kitten[ti] OR kittens[ti] OR ((dog[tiab] OR dogs[tiab] OR canine[tiab] OR cats[tiab] OR feline[tiab]) AND (veterinar*[tiab] OR \"client-owned\"[tiab] OR \"J Vet Intern Med\"[ta] OR \"J Feline Med Surg\"[ta] OR \"J Am Vet Med Assoc\"[ta] OR \"Vet J\"[ta] OR \"J Small Anim Pract\"[ta] OR \"Front Vet Sci\"[ta] OR \"Vet Rec\"[ta] OR \"J Vet Cardiol\"[ta] OR \"Am J Vet Res\"[ta] OR \"Vet Clin Pathol\"[ta] OR \"J Vet Emerg Crit Care (San Antonio)\"[ta] OR \"Vet Radiol Ultrasound\"[ta] OR \"Vet Anaesth Analg\"[ta] OR \"J Vet Med Sci\"[ta] OR \"Vet Dermatol\"[ta] OR \"J Am Anim Hosp Assoc\"[ta] OR \"Vet Sci\"[ta] OR \"Vet Med Sci\"[ta] OR \"Res Vet Sci\"[ta] OR \"Prev Vet Med\"[ta] OR \"BMC Vet Res\"[ta] OR \"Vet Comp Orthop Traumatol\"[ta] OR \"Vet Surg\"[ta] OR \"Vet Ophthalmol\"[ta] OR \"J Feline Med Surg Open Rep\"[ta] OR \"Vet Res Commun\"[ta] OR \"Top Companion Anim Med\"[ta] OR \"Appl Anim Behav Sci\"[ta] OR \"J Vet Behav\"[ta]))) AND (((\"Cardiomyopathy, Dilated\"[MeSH] OR \"dilated cardiomyopathy\"[tiab] OR DCM[tiab] OR cardiomyopath*[tiab] OR \"myocardial failure\"[tiab]) AND (\"Diet\"[MeSH] OR \"Animal Feed\"[MeSH] OR diet*[tiab] OR food*[tiab] OR \"grain-free\"[tiab] OR legume*[tiab] OR pulse*[tiab] OR taurine[tiab])) OR (\"Taurine\"[MeSH] AND (\"Heart Diseases\"[MeSH] OR cardi*[tiab] OR myocard*[tiab]))) AND (((clinical[tiab] AND trial[tiab]) OR \"Clinical Trials as Topic\"[MeSH] OR \"Clinical Trial\"[pt] OR random*[tiab] OR \"Random Allocation\"[MeSH] OR \"therapeutic use\"[sh]) OR (\"Randomized Controlled Trial\"[pt] OR \"Randomized Controlled Trial, Veterinary\"[pt] OR ((randomized[tiab] OR randomised[tiab]) AND controlled[tiab] AND trial[tiab])) OR (sensitiv*[tiab] OR \"Sensitivity and Specificity\"[MeSH] OR diagnose[tiab] OR diagnosed[tiab] OR diagnoses[tiab] OR diagnosing[tiab] OR diagnosis[tiab] OR diagnostic[tiab] OR \"diagnosis\"[MeSH:noexp] OR \"diagnostic equipment\"[MeSH:noexp] OR \"diagnostic errors\"[MeSH:noexp] OR \"diagnostic imaging\"[MeSH:noexp] OR \"diagnostic services\"[MeSH:noexp] OR \"diagnosis, differential\"[MeSH:noexp] OR \"diagnosis\"[sh:noexp]) OR (risk*[tiab] OR risk*[MeSH:noexp] OR \"risk adjustment\"[MeSH:noexp] OR \"risk assessment\"[MeSH:noexp] OR \"risk factors\"[MeSH:noexp] OR \"risk management\"[MeSH:noexp] OR \"risk taking\"[MeSH:noexp] OR \"Cohort Studies\"[MeSH] OR group[tw] OR groups[tw] OR grouped[tw]) OR (\"incidence\"[MeSH:noexp] OR \"mortality\"[MeSH] OR \"follow up studies\"[MeSH:noexp] OR prognos*[tw] OR predict*[tw] OR course*[tw]) OR (predict*[tiab] OR \"predictive value of tests\"[MeSH] OR score[tiab] OR scores[tiab] OR \"scoring system\"[tiab] OR \"scoring systems\"[tiab] OR observ*[tiab] OR \"observer variation\"[MeSH]) OR (systematic[sb] OR \"Meta-Analysis\"[pt] OR meta-analy*[ti] OR \"systematic review\"[tiab]) OR (\"Practice Guideline\"[pt] OR \"Guideline\"[pt] OR \"Consensus\"[pt] OR \"Consensus Development Conference\"[pt] OR guideline*[ti] OR consensus[ti] OR recommendation*[ti] OR \"task force\"[ti] OR \"position statement\"[ti]) OR (\"Observational Study, Veterinary\"[pt]) OR (\"Clinical Trial, Veterinary\"[pt]))) NOT (\"Case Reports\"[pt] OR \"Editorial\"[pt] OR \"Letter\"[pt] OR \"Comment\"[pt] OR \"News\"[pt] OR \"Published Erratum\"[pt] OR \"Retracted Publication\"[pt] OR \"Retraction of Publication\"[pt]) NOT (((\"Humans\"[MeSH] NOT \"Animals\"[MeSH]) OR ((rat[ti] OR rats[ti] OR mice[ti] OR mouse[ti] OR murine[ti] OR patients[ti] OR children[ti] OR women[ti]) NOT (\"Dogs\"[MeSH] OR \"Cats\"[MeSH] OR \"Dog Diseases\"[MeSH] OR \"Cat Diseases\"[MeSH] OR dog[ti] OR dogs[ti] OR canine[ti] OR cat[ti] OR cats[ti] OR feline[ti] OR puppy[ti] OR puppies[ti] OR kitten[ti] OR kittens[ti]))) OR ((orthodont*[tiab] OR \"canine retraction\"[tiab] OR \"impacted canine\"[tiab] OR \"maxillary canine\"[tiab] OR \"canine tooth\"[ti] OR EORTC[tiab] OR \"PEDI-CAT\"[tiab] OR \"computerized adaptive test\"[tiab] OR \"cat eye syndrome\"[tiab]) NOT (\"Dogs\"[MeSH] OR \"Cats\"[MeSH] OR \"Dog Diseases\"[MeSH] OR \"Cat Diseases\"[MeSH]))) AND (hasabstract OR (\"Practice Guideline\"[pt] OR \"Guideline\"[pt] OR \"Consensus\"[pt] OR \"Consensus Development Conference\"[pt] OR guideline*[ti] OR consensus[ti] OR recommendation*[ti] OR \"task force\"[ti] OR \"position statement\"[ti]))",
+   "inherits_children": null,
+   "filter_set": "broad",
+   "filter_source": [
+    "PubMed Clinical Queries Therapy/Broad；Haynes RB 等 BMJ 2005（PMID 15894554）",
+    "同上 Therapy/Narrow，兽医改写：加 \"Randomized Controlled Trial, Veterinary\"[pt]（NLM 兽医发布类型，兽医 RCT 不标人用 RCT 类型）和英式拼写 randomised",
+    "PubMed Clinical Queries Diagnosis/Broad；同上（PMID 15073027）",
+    "PubMed Clinical Queries Etiology/Broad；同上（PMID 14728267）",
+    "PubMed Clinical Queries Prognosis/Broad；同上（PMID 15189561）",
+    "PubMed Clinical Queries Clinical Prediction Guides/Broad；同上（PMID 14728269）",
+    "PubMed Systematic Review 过滤 systematic[sb]（PubMed 帮助页）+ Montori VM 等 BMJ 2005;330:68（PMID 15619601）的 meta-analysis[pt]/\"systematic review\" 词；补 meta-analy*[ti]（库内 39858209 未被 systematic[sb] 收录）",
+    "NLM 发布类型 Practice Guideline / Guideline / Consensus / Consensus Development Conference + 题名 guideline*/consensus/recommendation*/\"task force\"/\"position statement\"（后三个词 2026-11-10 按 IVETF 2015 系列验证补入：其中 2 篇题名用 recommendations、未标 Consensus 发布类型）",
+    "NLM 发布类型 \"Observational Study, Veterinary\"",
+    "NLM 发布类型 \"Clinical Trial, Veterinary\""
+   ],
+   "validation": {
+    "window_edat": "2025/11/10–2026/11/10",
+    "count_12mo": 12,
+    "est_weekly": 0.2,
+    "last_4wk": 0,
+    "recall_n": 3,
+    "recall_N": 4,
+    "recall_scope": "本库该专题全部有 PMID 文章（seed_library_v6 的 topics 标签；不含无 PMID 的 IRIS 2026）；不限日期",
+    "recall_in_scope": "3/3（漏检的都是 Hedges 不覆盖的设计）",
+    "missed": [
+     {
+      "pmid": "30451613",
+      "design": "叙述性综述",
+      "title": "Diet-associated dilated cardiomyopathy in dogs: what do we know?",
+      "reason_zh": "叙述性综述，不属于 Hedges 覆盖的研究类型（PLUS 也不收），按设计排除"
+     }
+    ],
+    "old_query": {
+     "recall": "3/4",
+     "est_weekly": 0.2,
+     "last_4wk": 0,
+     "note": "旧式：topics.json 现有 pubmed_query + ingest.py 包装（仅 MeSH 物种、无研究类型过滤）"
+    },
+    "wildcards": 23,
+    "url_length_get": 6742
+   }
+  },
+  {
+   "id": "nephrology",
+   "name_zh": "肾脏病学/泌尿学",
+   "name_en": "Nephrology & Urology",
+   "parent": "saim",
+   "pubmed_query": "((\"Dogs\"[MeSH] OR \"Cats\"[MeSH] OR \"Dog Diseases\"[MeSH] OR \"Cat Diseases\"[MeSH] OR dog[ti] OR dogs[ti] OR canine[ti] OR cat[ti] OR cats[ti] OR feline[ti] OR puppy[ti] OR puppies[ti] OR kitten[ti] OR kittens[ti] OR ((dog[tiab] OR dogs[tiab] OR canine[tiab] OR cats[tiab] OR feline[tiab]) AND (veterinar*[tiab] OR \"client-owned\"[tiab] OR \"J Vet Intern Med\"[ta] OR \"J Feline Med Surg\"[ta] OR \"J Am Vet Med Assoc\"[ta] OR \"Vet J\"[ta] OR \"J Small Anim Pract\"[ta] OR \"Front Vet Sci\"[ta] OR \"Vet Rec\"[ta] OR \"J Vet Cardiol\"[ta] OR \"Am J Vet Res\"[ta] OR \"Vet Clin Pathol\"[ta] OR \"J Vet Emerg Crit Care (San Antonio)\"[ta] OR \"Vet Radiol Ultrasound\"[ta] OR \"Vet Anaesth Analg\"[ta] OR \"J Vet Med Sci\"[ta] OR \"Vet Dermatol\"[ta] OR \"J Am Anim Hosp Assoc\"[ta] OR \"Vet Sci\"[ta] OR \"Vet Med Sci\"[ta] OR \"Res Vet Sci\"[ta] OR \"Prev Vet Med\"[ta] OR \"BMC Vet Res\"[ta] OR \"Vet Comp Orthop Traumatol\"[ta] OR \"Vet Surg\"[ta] OR \"Vet Ophthalmol\"[ta] OR \"J Feline Med Surg Open Rep\"[ta] OR \"Vet Res Commun\"[ta] OR \"Top Companion Anim Med\"[ta] OR \"Appl Anim Behav Sci\"[ta] OR \"J Vet Behav\"[ta]))) AND (\"Kidney Diseases\"[MeSH] OR \"Urologic Diseases\"[MeSH] OR \"Proteinuria\"[MeSH] OR kidney*[tiab] OR renal[tiab] OR nephro*[tiab] OR proteinuri*[tiab] OR azotemi*[tiab] OR azotaemi*[tiab] OR urolith*[tiab] OR \"urinary tract\"[tiab] OR cystitis[tiab] OR \"blood pressure\"[tiab] OR \"systemic hypertension\"[tiab] OR SDMA[tiab]) AND ((\"Randomized Controlled Trial\"[pt] OR \"Randomized Controlled Trial, Veterinary\"[pt] OR ((randomized[tiab] OR randomised[tiab]) AND controlled[tiab] AND trial[tiab])) OR (specificity[tiab]) OR ((relative[tiab] AND risk*[tiab]) OR \"relative risk\"[tw] OR risks[tw] OR \"Cohort Studies\"[MeSH:noexp] OR (cohort[tiab] AND study[tiab]) OR (cohort[tiab] AND studies[tiab])) OR (prognos*[tiab] OR (first[tiab] AND episode[tiab]) OR cohort[tiab]) OR (validation[tiab] OR validate[tiab]) OR (systematic[sb] OR \"Meta-Analysis\"[pt] OR meta-analy*[ti] OR \"systematic review\"[tiab]) OR (\"Practice Guideline\"[pt] OR \"Guideline\"[pt] OR \"Consensus\"[pt] OR \"Consensus Development Conference\"[pt] OR guideline*[ti] OR consensus[ti] OR recommendation*[ti] OR \"task force\"[ti] OR \"position statement\"[ti]) OR (\"Observational Study, Veterinary\"[pt]))) NOT (\"Case Reports\"[pt] OR \"Editorial\"[pt] OR \"Letter\"[pt] OR \"Comment\"[pt] OR \"News\"[pt] OR \"Published Erratum\"[pt] OR \"Retracted Publication\"[pt] OR \"Retraction of Publication\"[pt]) NOT (((\"Humans\"[MeSH] NOT \"Animals\"[MeSH]) OR ((rat[ti] OR rats[ti] OR mice[ti] OR mouse[ti] OR murine[ti] OR patients[ti] OR children[ti] OR women[ti]) NOT (\"Dogs\"[MeSH] OR \"Cats\"[MeSH] OR \"Dog Diseases\"[MeSH] OR \"Cat Diseases\"[MeSH] OR dog[ti] OR dogs[ti] OR canine[ti] OR cat[ti] OR cats[ti] OR feline[ti] OR puppy[ti] OR puppies[ti] OR kitten[ti] OR kittens[ti]))) OR ((orthodont*[tiab] OR \"canine retraction\"[tiab] OR \"impacted canine\"[tiab] OR \"maxillary canine\"[tiab] OR \"canine tooth\"[ti] OR EORTC[tiab] OR \"PEDI-CAT\"[tiab] OR \"computerized adaptive test\"[tiab] OR \"cat eye syndrome\"[tiab]) NOT (\"Dogs\"[MeSH] OR \"Cats\"[MeSH] OR \"Dog Diseases\"[MeSH] OR \"Cat Diseases\"[MeSH]))) AND (hasabstract OR (\"Practice Guideline\"[pt] OR \"Guideline\"[pt] OR \"Consensus\"[pt] OR \"Consensus Development Conference\"[pt] OR guideline*[ti] OR consensus[ti] OR recommendation*[ti] OR \"task force\"[ti] OR \"position statement\"[ti]))",
+   "inherits_children": [
+    "ckd",
+    "hypertension"
+   ],
+   "filter_set": "narrow",
+   "filter_source": [
+    "同上 Therapy/Narrow，兽医改写：加 \"Randomized Controlled Trial, Veterinary\"[pt]（NLM 兽医发布类型，兽医 RCT 不标人用 RCT 类型）和英式拼写 randomised",
+    "PubMed Clinical Queries Diagnosis/Narrow；Haynes RB, Wilczynski NL. BMJ 2004;328:1040（PMID 15073027）",
+    "PubMed Clinical Queries Etiology/Narrow；Wilczynski NL, Haynes RB. AMIA 2003:719-23（PMID 14728267）",
+    "PubMed Clinical Queries Prognosis/Narrow；Wilczynski NL, Haynes RB. BMC Med 2004;2:23（PMID 15189561）",
+    "PubMed Clinical Queries Clinical Prediction Guides/Narrow；Wong SS 等 AMIA 2003:728-32（PMID 14728269）",
+    "PubMed Systematic Review 过滤 systematic[sb]（PubMed 帮助页）+ Montori VM 等 BMJ 2005;330:68（PMID 15619601）的 meta-analysis[pt]/\"systematic review\" 词；补 meta-analy*[ti]（库内 39858209 未被 systematic[sb] 收录）",
+    "NLM 发布类型 Practice Guideline / Guideline / Consensus / Consensus Development Conference + 题名 guideline*/consensus/recommendation*/\"task force\"/\"position statement\"（后三个词 2026-11-10 按 IVETF 2015 系列验证补入：其中 2 篇题名用 recommendations、未标 Consensus 发布类型）",
+    "NLM 发布类型 \"Observational Study, Veterinary\""
+   ],
+   "validation": {
+    "window_edat": "2025/11/10–2026/11/10",
+    "count_12mo": 269,
+    "est_weekly": 5.2,
+    "last_4wk": 22,
+    "recall_n": 27,
+    "recall_N": 27,
+    "recall_scope": "本库该专题全部有 PMID 文章（seed_library_v6 的 topics 标签；不含无 PMID 的 IRIS 2026）；不限日期",
+    "recall_in_scope": "27/27（漏检的都是 Hedges 不覆盖的设计）",
+    "missed": [],
+    "old_query": {
+     "recall": "27/27",
+     "est_weekly": 6.2,
+     "last_4wk": 14,
+     "note": "旧式：topics.json 现有 pubmed_query + ingest.py 包装（仅 MeSH 物种、无研究类型过滤）"
+    },
+    "counted_with_children": [
+     "ckd",
+     "hypertension"
+    ],
+    "wildcards": 15,
+    "url_length_get": 5303
+   }
+  },
+  {
+   "id": "ckd",
+   "name_zh": "慢性肾病",
+   "name_en": "Chronic kidney disease",
+   "parent": "nephrology",
+   "pubmed_query": "((\"Dogs\"[MeSH] OR \"Cats\"[MeSH] OR \"Dog Diseases\"[MeSH] OR \"Cat Diseases\"[MeSH] OR dog[ti] OR dogs[ti] OR canine[ti] OR cat[ti] OR cats[ti] OR feline[ti] OR puppy[ti] OR puppies[ti] OR kitten[ti] OR kittens[ti] OR ((dog[tiab] OR dogs[tiab] OR canine[tiab] OR cats[tiab] OR feline[tiab]) AND (veterinar*[tiab] OR \"client-owned\"[tiab] OR \"J Vet Intern Med\"[ta] OR \"J Feline Med Surg\"[ta] OR \"J Am Vet Med Assoc\"[ta] OR \"Vet J\"[ta] OR \"J Small Anim Pract\"[ta] OR \"Front Vet Sci\"[ta] OR \"Vet Rec\"[ta] OR \"J Vet Cardiol\"[ta] OR \"Am J Vet Res\"[ta] OR \"Vet Clin Pathol\"[ta] OR \"J Vet Emerg Crit Care (San Antonio)\"[ta] OR \"Vet Radiol Ultrasound\"[ta] OR \"Vet Anaesth Analg\"[ta] OR \"J Vet Med Sci\"[ta] OR \"Vet Dermatol\"[ta] OR \"J Am Anim Hosp Assoc\"[ta] OR \"Vet Sci\"[ta] OR \"Vet Med Sci\"[ta] OR \"Res Vet Sci\"[ta] OR \"Prev Vet Med\"[ta] OR \"BMC Vet Res\"[ta] OR \"Vet Comp Orthop Traumatol\"[ta] OR \"Vet Surg\"[ta] OR \"Vet Ophthalmol\"[ta] OR \"J Feline Med Surg Open Rep\"[ta] OR \"Vet Res Commun\"[ta] OR \"Top Companion Anim Med\"[ta] OR \"Appl Anim Behav Sci\"[ta] OR \"J Vet Behav\"[ta]))) AND (\"Renal Insufficiency, Chronic\"[MeSH] OR \"Proteinuria\"[MeSH] OR \"chronic kidney disease\"[tiab] OR \"chronic renal\"[tiab] OR CKD[tiab] OR azotemi*[tiab] OR azotaemi*[tiab] OR proteinuri*[tiab] OR SDMA[tiab] OR \"symmetric dimethylarginine\"[tiab] OR \"renal insufficiency\"[tiab] OR \"kidney function\"[tiab]) AND (((clinical[tiab] AND trial[tiab]) OR \"Clinical Trials as Topic\"[MeSH] OR \"Clinical Trial\"[pt] OR random*[tiab] OR \"Random Allocation\"[MeSH] OR \"therapeutic use\"[sh]) OR (\"Randomized Controlled Trial\"[pt] OR \"Randomized Controlled Trial, Veterinary\"[pt] OR ((randomized[tiab] OR randomised[tiab]) AND controlled[tiab] AND trial[tiab])) OR (specificity[tiab]) OR ((relative[tiab] AND risk*[tiab]) OR \"relative risk\"[tw] OR risks[tw] OR \"Cohort Studies\"[MeSH:noexp] OR (cohort[tiab] AND study[tiab]) OR (cohort[tiab] AND studies[tiab])) OR (\"incidence\"[MeSH:noexp] OR \"mortality\"[MeSH] OR \"follow up studies\"[MeSH:noexp] OR prognos*[tw] OR predict*[tw] OR course*[tw]) OR (validation[tiab] OR validate[tiab]) OR (systematic[sb] OR \"Meta-Analysis\"[pt] OR meta-analy*[ti] OR \"systematic review\"[tiab]) OR (\"Practice Guideline\"[pt] OR \"Guideline\"[pt] OR \"Consensus\"[pt] OR \"Consensus Development Conference\"[pt] OR guideline*[ti] OR consensus[ti] OR recommendation*[ti] OR \"task force\"[ti] OR \"position statement\"[ti]) OR (\"Observational Study, Veterinary\"[pt]) OR (\"Clinical Trial, Veterinary\"[pt]))) NOT (\"Case Reports\"[pt] OR \"Editorial\"[pt] OR \"Letter\"[pt] OR \"Comment\"[pt] OR \"News\"[pt] OR \"Published Erratum\"[pt] OR \"Retracted Publication\"[pt] OR \"Retraction of Publication\"[pt]) NOT (((\"Humans\"[MeSH] NOT \"Animals\"[MeSH]) OR ((rat[ti] OR rats[ti] OR mice[ti] OR mouse[ti] OR murine[ti] OR patients[ti] OR children[ti] OR women[ti]) NOT (\"Dogs\"[MeSH] OR \"Cats\"[MeSH] OR \"Dog Diseases\"[MeSH] OR \"Cat Diseases\"[MeSH] OR dog[ti] OR dogs[ti] OR canine[ti] OR cat[ti] OR cats[ti] OR feline[ti] OR puppy[ti] OR puppies[ti] OR kitten[ti] OR kittens[ti]))) OR ((orthodont*[tiab] OR \"canine retraction\"[tiab] OR \"impacted canine\"[tiab] OR \"maxillary canine\"[tiab] OR \"canine tooth\"[ti] OR EORTC[tiab] OR \"PEDI-CAT\"[tiab] OR \"computerized adaptive test\"[tiab] OR \"cat eye syndrome\"[tiab]) NOT (\"Dogs\"[MeSH] OR \"Cats\"[MeSH] OR \"Dog Diseases\"[MeSH] OR \"Cat Diseases\"[MeSH]))) AND (hasabstract OR (\"Practice Guideline\"[pt] OR \"Guideline\"[pt] OR \"Consensus\"[pt] OR \"Consensus Development Conference\"[pt] OR guideline*[ti] OR consensus[ti] OR recommendation*[ti] OR \"task force\"[ti] OR \"position statement\"[ti]))",
+   "inherits_children": null,
+   "filter_set": "hybrid",
+   "filter_source": [
+    "PubMed Clinical Queries Therapy/Broad；Haynes RB 等 BMJ 2005（PMID 15894554）",
+    "同上 Therapy/Narrow，兽医改写：加 \"Randomized Controlled Trial, Veterinary\"[pt]（NLM 兽医发布类型，兽医 RCT 不标人用 RCT 类型）和英式拼写 randomised",
+    "PubMed Clinical Queries Diagnosis/Narrow；Haynes RB, Wilczynski NL. BMJ 2004;328:1040（PMID 15073027）",
+    "PubMed Clinical Queries Etiology/Narrow；Wilczynski NL, Haynes RB. AMIA 2003:719-23（PMID 14728267）",
+    "PubMed Clinical Queries Prognosis/Broad；同上（PMID 15189561）",
+    "PubMed Clinical Queries Clinical Prediction Guides/Narrow；Wong SS 等 AMIA 2003:728-32（PMID 14728269）",
+    "PubMed Systematic Review 过滤 systematic[sb]（PubMed 帮助页）+ Montori VM 等 BMJ 2005;330:68（PMID 15619601）的 meta-analysis[pt]/\"systematic review\" 词；补 meta-analy*[ti]（库内 39858209 未被 systematic[sb] 收录）",
+    "NLM 发布类型 Practice Guideline / Guideline / Consensus / Consensus Development Conference + 题名 guideline*/consensus/recommendation*/\"task force\"/\"position statement\"（后三个词 2026-11-10 按 IVETF 2015 系列验证补入：其中 2 篇题名用 recommendations、未标 Consensus 发布类型）",
+    "NLM 发布类型 \"Observational Study, Veterinary\"",
+    "NLM 发布类型 \"Clinical Trial, Veterinary\""
+   ],
+   "validation": {
+    "window_edat": "2025/11/10–2026/11/10",
+    "count_12mo": 106,
+    "est_weekly": 2.0,
+    "last_4wk": 9,
+    "recall_n": 26,
+    "recall_N": 26,
+    "recall_scope": "本库该专题全部有 PMID 文章（seed_library_v6 的 topics 标签；不含无 PMID 的 IRIS 2026）；不限日期",
+    "recall_in_scope": "26/26（漏检的都是 Hedges 不覆盖的设计）",
+    "missed": [],
+    "old_query": {
+     "recall": "26/26",
+     "est_weekly": 1.5,
+     "last_4wk": 6,
+     "note": "旧式：topics.json 现有 pubmed_query + ingest.py 包装（仅 MeSH 物种、无研究类型过滤）"
+    },
+    "wildcards": 15,
+    "url_length_get": 5688
+   }
+  },
+  {
+   "id": "hypertension",
+   "name_zh": "系统性高血压",
+   "name_en": "Systemic hypertension",
+   "parent": "nephrology",
+   "pubmed_query": "((\"Dogs\"[MeSH] OR \"Cats\"[MeSH] OR \"Dog Diseases\"[MeSH] OR \"Cat Diseases\"[MeSH] OR dog[ti] OR dogs[ti] OR canine[ti] OR cat[ti] OR cats[ti] OR feline[ti] OR puppy[ti] OR puppies[ti] OR kitten[ti] OR kittens[ti] OR ((dog[tiab] OR dogs[tiab] OR canine[tiab] OR cats[tiab] OR feline[tiab]) AND (veterinar*[tiab] OR \"client-owned\"[tiab] OR \"J Vet Intern Med\"[ta] OR \"J Feline Med Surg\"[ta] OR \"J Am Vet Med Assoc\"[ta] OR \"Vet J\"[ta] OR \"J Small Anim Pract\"[ta] OR \"Front Vet Sci\"[ta] OR \"Vet Rec\"[ta] OR \"J Vet Cardiol\"[ta] OR \"Am J Vet Res\"[ta] OR \"Vet Clin Pathol\"[ta] OR \"J Vet Emerg Crit Care (San Antonio)\"[ta] OR \"Vet Radiol Ultrasound\"[ta] OR \"Vet Anaesth Analg\"[ta] OR \"J Vet Med Sci\"[ta] OR \"Vet Dermatol\"[ta] OR \"J Am Anim Hosp Assoc\"[ta] OR \"Vet Sci\"[ta] OR \"Vet Med Sci\"[ta] OR \"Res Vet Sci\"[ta] OR \"Prev Vet Med\"[ta] OR \"BMC Vet Res\"[ta] OR \"Vet Comp Orthop Traumatol\"[ta] OR \"Vet Surg\"[ta] OR \"Vet Ophthalmol\"[ta] OR \"J Feline Med Surg Open Rep\"[ta] OR \"Vet Res Commun\"[ta] OR \"Top Companion Anim Med\"[ta] OR \"Appl Anim Behav Sci\"[ta] OR \"J Vet Behav\"[ta]))) AND (\"Hypertension\"[MeSH:noexp] OR \"Hypertension, Renal\"[MeSH] OR \"systemic hypertension\"[tiab] OR \"systemic arterial hypertension\"[tiab] OR \"arterial hypertension\"[tiab] OR \"blood pressure\"[tiab] OR normotensi*[tiab] OR hypertensive[tiab] OR \"target organ damage\"[tiab] OR amlodipine[tiab]) AND (((clinical[tiab] AND trial[tiab]) OR \"Clinical Trials as Topic\"[MeSH] OR \"Clinical Trial\"[pt] OR random*[tiab] OR \"Random Allocation\"[MeSH] OR \"therapeutic use\"[sh]) OR (\"Randomized Controlled Trial\"[pt] OR \"Randomized Controlled Trial, Veterinary\"[pt] OR ((randomized[tiab] OR randomised[tiab]) AND controlled[tiab] AND trial[tiab])) OR (specificity[tiab]) OR ((relative[tiab] AND risk*[tiab]) OR \"relative risk\"[tw] OR risks[tw] OR \"Cohort Studies\"[MeSH:noexp] OR (cohort[tiab] AND study[tiab]) OR (cohort[tiab] AND studies[tiab])) OR (\"incidence\"[MeSH:noexp] OR \"mortality\"[MeSH] OR \"follow up studies\"[MeSH:noexp] OR prognos*[tw] OR predict*[tw] OR course*[tw]) OR (validation[tiab] OR validate[tiab]) OR (systematic[sb] OR \"Meta-Analysis\"[pt] OR meta-analy*[ti] OR \"systematic review\"[tiab]) OR (\"Practice Guideline\"[pt] OR \"Guideline\"[pt] OR \"Consensus\"[pt] OR \"Consensus Development Conference\"[pt] OR guideline*[ti] OR consensus[ti] OR recommendation*[ti] OR \"task force\"[ti] OR \"position statement\"[ti]) OR (\"Observational Study, Veterinary\"[pt]) OR (\"Clinical Trial, Veterinary\"[pt]))) NOT (\"Case Reports\"[pt] OR \"Editorial\"[pt] OR \"Letter\"[pt] OR \"Comment\"[pt] OR \"News\"[pt] OR \"Published Erratum\"[pt] OR \"Retracted Publication\"[pt] OR \"Retraction of Publication\"[pt]) NOT (((\"Humans\"[MeSH] NOT \"Animals\"[MeSH]) OR ((rat[ti] OR rats[ti] OR mice[ti] OR mouse[ti] OR murine[ti] OR patients[ti] OR children[ti] OR women[ti]) NOT (\"Dogs\"[MeSH] OR \"Cats\"[MeSH] OR \"Dog Diseases\"[MeSH] OR \"Cat Diseases\"[MeSH] OR dog[ti] OR dogs[ti] OR canine[ti] OR cat[ti] OR cats[ti] OR feline[ti] OR puppy[ti] OR puppies[ti] OR kitten[ti] OR kittens[ti]))) OR ((orthodont*[tiab] OR \"canine retraction\"[tiab] OR \"impacted canine\"[tiab] OR \"maxillary canine\"[tiab] OR \"canine tooth\"[ti] OR EORTC[tiab] OR \"PEDI-CAT\"[tiab] OR \"computerized adaptive test\"[tiab] OR \"cat eye syndrome\"[tiab]) NOT (\"Dogs\"[MeSH] OR \"Cats\"[MeSH] OR \"Dog Diseases\"[MeSH] OR \"Cat Diseases\"[MeSH]))) AND (hasabstract OR (\"Practice Guideline\"[pt] OR \"Guideline\"[pt] OR \"Consensus\"[pt] OR \"Consensus Development Conference\"[pt] OR guideline*[ti] OR consensus[ti] OR recommendation*[ti] OR \"task force\"[ti] OR \"position statement\"[ti]))",
+   "inherits_children": null,
+   "filter_set": "hybrid",
+   "filter_source": [
+    "PubMed Clinical Queries Therapy/Broad；Haynes RB 等 BMJ 2005（PMID 15894554）",
+    "同上 Therapy/Narrow，兽医改写：加 \"Randomized Controlled Trial, Veterinary\"[pt]（NLM 兽医发布类型，兽医 RCT 不标人用 RCT 类型）和英式拼写 randomised",
+    "PubMed Clinical Queries Diagnosis/Narrow；Haynes RB, Wilczynski NL. BMJ 2004;328:1040（PMID 15073027）",
+    "PubMed Clinical Queries Etiology/Narrow；Wilczynski NL, Haynes RB. AMIA 2003:719-23（PMID 14728267）",
+    "PubMed Clinical Queries Prognosis/Broad；同上（PMID 15189561）",
+    "PubMed Clinical Queries Clinical Prediction Guides/Narrow；Wong SS 等 AMIA 2003:728-32（PMID 14728269）",
+    "PubMed Systematic Review 过滤 systematic[sb]（PubMed 帮助页）+ Montori VM 等 BMJ 2005;330:68（PMID 15619601）的 meta-analysis[pt]/\"systematic review\" 词；补 meta-analy*[ti]（库内 39858209 未被 systematic[sb] 收录）",
+    "NLM 发布类型 Practice Guideline / Guideline / Consensus / Consensus Development Conference + 题名 guideline*/consensus/recommendation*/\"task force\"/\"position statement\"（后三个词 2026-11-10 按 IVETF 2015 系列验证补入：其中 2 篇题名用 recommendations、未标 Consensus 发布类型）",
+    "NLM 发布类型 \"Observational Study, Veterinary\"",
+    "NLM 发布类型 \"Clinical Trial, Veterinary\""
+   ],
+   "validation": {
+    "window_edat": "2025/11/10–2026/11/10",
+    "count_12mo": 81,
+    "est_weekly": 1.6,
+    "last_4wk": 6,
+    "recall_n": 1,
+    "recall_N": 1,
+    "recall_scope": "本库该专题全部有 PMID 文章（seed_library_v6 的 topics 标签；不含无 PMID 的 IRIS 2026）；不限日期",
+    "recall_in_scope": "1/1（漏检的都是 Hedges 不覆盖的设计）",
+    "missed": [],
+    "old_query": {
+     "recall": "1/1",
+     "est_weekly": 2.5,
+     "last_4wk": 5,
+     "note": "旧式：topics.json 现有 pubmed_query + ingest.py 包装（仅 MeSH 物种、无研究类型过滤）"
+    },
+    "wildcards": 13,
+    "url_length_get": 5656
+   }
+  },
+  {
+   "id": "endocrinology",
+   "name_zh": "内分泌学",
+   "name_en": "Endocrinology",
+   "parent": "saim",
+   "pubmed_query": "((\"Dogs\"[MeSH] OR \"Cats\"[MeSH] OR \"Dog Diseases\"[MeSH] OR \"Cat Diseases\"[MeSH] OR dog[ti] OR dogs[ti] OR canine[ti] OR cat[ti] OR cats[ti] OR feline[ti] OR puppy[ti] OR puppies[ti] OR kitten[ti] OR kittens[ti] OR ((dog[tiab] OR dogs[tiab] OR canine[tiab] OR cats[tiab] OR feline[tiab]) AND (veterinar*[tiab] OR \"client-owned\"[tiab] OR \"J Vet Intern Med\"[ta] OR \"J Feline Med Surg\"[ta] OR \"J Am Vet Med Assoc\"[ta] OR \"Vet J\"[ta] OR \"J Small Anim Pract\"[ta] OR \"Front Vet Sci\"[ta] OR \"Vet Rec\"[ta] OR \"J Vet Cardiol\"[ta] OR \"Am J Vet Res\"[ta] OR \"Vet Clin Pathol\"[ta] OR \"J Vet Emerg Crit Care (San Antonio)\"[ta] OR \"Vet Radiol Ultrasound\"[ta] OR \"Vet Anaesth Analg\"[ta] OR \"J Vet Med Sci\"[ta] OR \"Vet Dermatol\"[ta] OR \"J Am Anim Hosp Assoc\"[ta] OR \"Vet Sci\"[ta] OR \"Vet Med Sci\"[ta] OR \"Res Vet Sci\"[ta] OR \"Prev Vet Med\"[ta] OR \"BMC Vet Res\"[ta] OR \"Vet Comp Orthop Traumatol\"[ta] OR \"Vet Surg\"[ta] OR \"Vet Ophthalmol\"[ta] OR \"J Feline Med Surg Open Rep\"[ta] OR \"Vet Res Commun\"[ta] OR \"Top Companion Anim Med\"[ta] OR \"Appl Anim Behav Sci\"[ta] OR \"J Vet Behav\"[ta]))) AND (\"Endocrine System Diseases\"[MeSH] OR endocrin*[tiab] OR diabet*[tiab] OR hyperthyroid*[tiab] OR hypothyroid*[tiab] OR thyroid[tiab] OR hyperadrenocortic*[tiab] OR cushing*[tiab] OR hypoadrenocortic*[tiab] OR addison*[tiab] OR hypersomatotrop*[tiab] OR acromegal*[tiab] OR insulinoma[tiab] OR hyperparathyroid*[tiab] OR hyperaldosteron*[tiab] OR SGLT2[tiab] OR radioiodine[tiab] OR methimazole[tiab] OR trilostane[tiab]) AND ((\"Randomized Controlled Trial\"[pt] OR \"Randomized Controlled Trial, Veterinary\"[pt] OR ((randomized[tiab] OR randomised[tiab]) AND controlled[tiab] AND trial[tiab])) OR (specificity[tiab]) OR ((relative[tiab] AND risk*[tiab]) OR \"relative risk\"[tw] OR risks[tw] OR \"Cohort Studies\"[MeSH:noexp] OR (cohort[tiab] AND study[tiab]) OR (cohort[tiab] AND studies[tiab])) OR (prognos*[tiab] OR (first[tiab] AND episode[tiab]) OR cohort[tiab]) OR (validation[tiab] OR validate[tiab]) OR (systematic[sb] OR \"Meta-Analysis\"[pt] OR meta-analy*[ti] OR \"systematic review\"[tiab]) OR (\"Practice Guideline\"[pt] OR \"Guideline\"[pt] OR \"Consensus\"[pt] OR \"Consensus Development Conference\"[pt] OR guideline*[ti] OR consensus[ti] OR recommendation*[ti] OR \"task force\"[ti] OR \"position statement\"[ti]) OR (\"Observational Study, Veterinary\"[pt]))) NOT (\"Case Reports\"[pt] OR \"Editorial\"[pt] OR \"Letter\"[pt] OR \"Comment\"[pt] OR \"News\"[pt] OR \"Published Erratum\"[pt] OR \"Retracted Publication\"[pt] OR \"Retraction of Publication\"[pt]) NOT (((\"Humans\"[MeSH] NOT \"Animals\"[MeSH]) OR ((rat[ti] OR rats[ti] OR mice[ti] OR mouse[ti] OR murine[ti] OR patients[ti] OR children[ti] OR women[ti]) NOT (\"Dogs\"[MeSH] OR \"Cats\"[MeSH] OR \"Dog Diseases\"[MeSH] OR \"Cat Diseases\"[MeSH] OR dog[ti] OR dogs[ti] OR canine[ti] OR cat[ti] OR cats[ti] OR feline[ti] OR puppy[ti] OR puppies[ti] OR kitten[ti] OR kittens[ti]))) OR ((orthodont*[tiab] OR \"canine retraction\"[tiab] OR \"impacted canine\"[tiab] OR \"maxillary canine\"[tiab] OR \"canine tooth\"[ti] OR EORTC[tiab] OR \"PEDI-CAT\"[tiab] OR \"computerized adaptive test\"[tiab] OR \"cat eye syndrome\"[tiab]) NOT (\"Dogs\"[MeSH] OR \"Cats\"[MeSH] OR \"Dog Diseases\"[MeSH] OR \"Cat Diseases\"[MeSH]))) AND (hasabstract OR (\"Practice Guideline\"[pt] OR \"Guideline\"[pt] OR \"Consensus\"[pt] OR \"Consensus Development Conference\"[pt] OR guideline*[ti] OR consensus[ti] OR recommendation*[ti] OR \"task force\"[ti] OR \"position statement\"[ti]))",
+   "inherits_children": [
+    "diabetes",
+    "hyperthyroidism",
+    "hyperadrenocorticism"
+   ],
+   "filter_set": "narrow",
+   "filter_source": [
+    "同上 Therapy/Narrow，兽医改写：加 \"Randomized Controlled Trial, Veterinary\"[pt]（NLM 兽医发布类型，兽医 RCT 不标人用 RCT 类型）和英式拼写 randomised",
+    "PubMed Clinical Queries Diagnosis/Narrow；Haynes RB, Wilczynski NL. BMJ 2004;328:1040（PMID 15073027）",
+    "PubMed Clinical Queries Etiology/Narrow；Wilczynski NL, Haynes RB. AMIA 2003:719-23（PMID 14728267）",
+    "PubMed Clinical Queries Prognosis/Narrow；Wilczynski NL, Haynes RB. BMC Med 2004;2:23（PMID 15189561）",
+    "PubMed Clinical Queries Clinical Prediction Guides/Narrow；Wong SS 等 AMIA 2003:728-32（PMID 14728269）",
+    "PubMed Systematic Review 过滤 systematic[sb]（PubMed 帮助页）+ Montori VM 等 BMJ 2005;330:68（PMID 15619601）的 meta-analysis[pt]/\"systematic review\" 词；补 meta-analy*[ti]（库内 39858209 未被 systematic[sb] 收录）",
+    "NLM 发布类型 Practice Guideline / Guideline / Consensus / Consensus Development Conference + 题名 guideline*/consensus/recommendation*/\"task force\"/\"position statement\"（后三个词 2026-11-10 按 IVETF 2015 系列验证补入：其中 2 篇题名用 recommendations、未标 Consensus 发布类型）",
+    "NLM 发布类型 \"Observational Study, Veterinary\""
+   ],
+   "validation": {
+    "window_edat": "2025/11/10–2026/11/10",
+    "count_12mo": 136,
+    "est_weekly": 2.6,
+    "last_4wk": 10,
+    "recall_n": 24,
+    "recall_N": 24,
+    "recall_scope": "本库该专题全部有 PMID 文章（seed_library_v6 的 topics 标签；不含无 PMID 的 IRIS 2026）；不限日期",
+    "recall_in_scope": "24/24（漏检的都是 Hedges 不覆盖的设计）",
+    "missed": [],
+    "old_query": {
+     "recall": "21/24",
+     "est_weekly": 3.2,
+     "last_4wk": 11,
+     "note": "旧式：topics.json 现有 pubmed_query + ingest.py 包装（仅 MeSH 物种、无研究类型过滤）"
+    },
+    "counted_with_children": [
+     "diabetes",
+     "hyperthyroidism",
+     "hyperadrenocorticism"
+    ],
+    "wildcards": 21,
+    "url_length_get": 5423
+   }
+  },
+  {
+   "id": "diabetes",
+   "name_zh": "糖尿病",
+   "name_en": "Diabetes mellitus",
+   "parent": "endocrinology",
+   "pubmed_query": "((\"Dogs\"[MeSH] OR \"Cats\"[MeSH] OR \"Dog Diseases\"[MeSH] OR \"Cat Diseases\"[MeSH] OR dog[ti] OR dogs[ti] OR canine[ti] OR cat[ti] OR cats[ti] OR feline[ti] OR puppy[ti] OR puppies[ti] OR kitten[ti] OR kittens[ti] OR ((dog[tiab] OR dogs[tiab] OR canine[tiab] OR cats[tiab] OR feline[tiab]) AND (veterinar*[tiab] OR \"client-owned\"[tiab] OR \"J Vet Intern Med\"[ta] OR \"J Feline Med Surg\"[ta] OR \"J Am Vet Med Assoc\"[ta] OR \"Vet J\"[ta] OR \"J Small Anim Pract\"[ta] OR \"Front Vet Sci\"[ta] OR \"Vet Rec\"[ta] OR \"J Vet Cardiol\"[ta] OR \"Am J Vet Res\"[ta] OR \"Vet Clin Pathol\"[ta] OR \"J Vet Emerg Crit Care (San Antonio)\"[ta] OR \"Vet Radiol Ultrasound\"[ta] OR \"Vet Anaesth Analg\"[ta] OR \"J Vet Med Sci\"[ta] OR \"Vet Dermatol\"[ta] OR \"J Am Anim Hosp Assoc\"[ta] OR \"Vet Sci\"[ta] OR \"Vet Med Sci\"[ta] OR \"Res Vet Sci\"[ta] OR \"Prev Vet Med\"[ta] OR \"BMC Vet Res\"[ta] OR \"Vet Comp Orthop Traumatol\"[ta] OR \"Vet Surg\"[ta] OR \"Vet Ophthalmol\"[ta] OR \"J Feline Med Surg Open Rep\"[ta] OR \"Vet Res Commun\"[ta] OR \"Top Companion Anim Med\"[ta] OR \"Appl Anim Behav Sci\"[ta] OR \"J Vet Behav\"[ta]))) AND (\"Diabetes Mellitus\"[MeSH] OR diabet*[tiab] OR SGLT2[tiab] OR \"sodium-glucose\"[tiab] OR velagliflozin[tiab] OR bexagliflozin[tiab] OR \"insulin glargine\"[tiab] OR ketoacidosis[tiab] OR \"diabetic remission\"[tiab] OR hypersomatotrop*[tiab]) AND (((clinical[tiab] AND trial[tiab]) OR \"Clinical Trials as Topic\"[MeSH] OR \"Clinical Trial\"[pt] OR random*[tiab] OR \"Random Allocation\"[MeSH] OR \"therapeutic use\"[sh]) OR (\"Randomized Controlled Trial\"[pt] OR \"Randomized Controlled Trial, Veterinary\"[pt] OR ((randomized[tiab] OR randomised[tiab]) AND controlled[tiab] AND trial[tiab])) OR (specificity[tiab]) OR ((relative[tiab] AND risk*[tiab]) OR \"relative risk\"[tw] OR risks[tw] OR \"Cohort Studies\"[MeSH:noexp] OR (cohort[tiab] AND study[tiab]) OR (cohort[tiab] AND studies[tiab])) OR (\"incidence\"[MeSH:noexp] OR \"mortality\"[MeSH] OR \"follow up studies\"[MeSH:noexp] OR prognos*[tw] OR predict*[tw] OR course*[tw]) OR (validation[tiab] OR validate[tiab]) OR (systematic[sb] OR \"Meta-Analysis\"[pt] OR meta-analy*[ti] OR \"systematic review\"[tiab]) OR (\"Practice Guideline\"[pt] OR \"Guideline\"[pt] OR \"Consensus\"[pt] OR \"Consensus Development Conference\"[pt] OR guideline*[ti] OR consensus[ti] OR recommendation*[ti] OR \"task force\"[ti] OR \"position statement\"[ti]) OR (\"Observational Study, Veterinary\"[pt]) OR (\"Clinical Trial, Veterinary\"[pt]))) NOT (\"Case Reports\"[pt] OR \"Editorial\"[pt] OR \"Letter\"[pt] OR \"Comment\"[pt] OR \"News\"[pt] OR \"Published Erratum\"[pt] OR \"Retracted Publication\"[pt] OR \"Retraction of Publication\"[pt]) NOT (((\"Humans\"[MeSH] NOT \"Animals\"[MeSH]) OR ((rat[ti] OR rats[ti] OR mice[ti] OR mouse[ti] OR murine[ti] OR patients[ti] OR children[ti] OR women[ti]) NOT (\"Dogs\"[MeSH] OR \"Cats\"[MeSH] OR \"Dog Diseases\"[MeSH] OR \"Cat Diseases\"[MeSH] OR dog[ti] OR dogs[ti] OR canine[ti] OR cat[ti] OR cats[ti] OR feline[ti] OR puppy[ti] OR puppies[ti] OR kitten[ti] OR kittens[ti]))) OR ((orthodont*[tiab] OR \"canine retraction\"[tiab] OR \"impacted canine\"[tiab] OR \"maxillary canine\"[tiab] OR \"canine tooth\"[ti] OR EORTC[tiab] OR \"PEDI-CAT\"[tiab] OR \"computerized adaptive test\"[tiab] OR \"cat eye syndrome\"[tiab]) NOT (\"Dogs\"[MeSH] OR \"Cats\"[MeSH] OR \"Dog Diseases\"[MeSH] OR \"Cat Diseases\"[MeSH]))) AND (hasabstract OR (\"Practice Guideline\"[pt] OR \"Guideline\"[pt] OR \"Consensus\"[pt] OR \"Consensus Development Conference\"[pt] OR guideline*[ti] OR consensus[ti] OR recommendation*[ti] OR \"task force\"[ti] OR \"position statement\"[ti]))",
+   "inherits_children": null,
+   "filter_set": "hybrid",
+   "filter_source": [
+    "PubMed Clinical Queries Therapy/Broad；Haynes RB 等 BMJ 2005（PMID 15894554）",
+    "同上 Therapy/Narrow，兽医改写：加 \"Randomized Controlled Trial, Veterinary\"[pt]（NLM 兽医发布类型，兽医 RCT 不标人用 RCT 类型）和英式拼写 randomised",
+    "PubMed Clinical Queries Diagnosis/Narrow；Haynes RB, Wilczynski NL. BMJ 2004;328:1040（PMID 15073027）",
+    "PubMed Clinical Queries Etiology/Narrow；Wilczynski NL, Haynes RB. AMIA 2003:719-23（PMID 14728267）",
+    "PubMed Clinical Queries Prognosis/Broad；同上（PMID 15189561）",
+    "PubMed Clinical Queries Clinical Prediction Guides/Narrow；Wong SS 等 AMIA 2003:728-32（PMID 14728269）",
+    "PubMed Systematic Review 过滤 systematic[sb]（PubMed 帮助页）+ Montori VM 等 BMJ 2005;330:68（PMID 15619601）的 meta-analysis[pt]/\"systematic review\" 词；补 meta-analy*[ti]（库内 39858209 未被 systematic[sb] 收录）",
+    "NLM 发布类型 Practice Guideline / Guideline / Consensus / Consensus Development Conference + 题名 guideline*/consensus/recommendation*/\"task force\"/\"position statement\"（后三个词 2026-11-10 按 IVETF 2015 系列验证补入：其中 2 篇题名用 recommendations、未标 Consensus 发布类型）",
+    "NLM 发布类型 \"Observational Study, Veterinary\"",
+    "NLM 发布类型 \"Clinical Trial, Veterinary\""
+   ],
+   "validation": {
+    "window_edat": "2025/11/10–2026/11/10",
+    "count_12mo": 49,
+    "est_weekly": 0.9,
+    "last_4wk": 1,
+    "recall_n": 6,
+    "recall_N": 7,
+    "recall_scope": "本库该专题全部有 PMID 文章（seed_library_v6 的 topics 标签；不含无 PMID 的 IRIS 2026）；不限日期",
+    "recall_in_scope": "6/6（漏检的都是 Hedges 不覆盖的设计）",
+    "missed": [
+     {
+      "pmid": "23522175",
+      "design": "叙述性综述",
+      "title": "Hypersomatotropism, acromegaly, and hyperadrenocorticism and feline diabetes mellitus.",
+      "reason_zh": "叙述性综述，不属于 Hedges 覆盖的研究类型（PLUS 也不收），按设计排除"
+     }
+    ],
+    "old_query": {
+     "recall": "6/7",
+     "est_weekly": 1.2,
+     "last_4wk": 2,
+     "note": "旧式：topics.json 现有 pubmed_query + ingest.py 包装（仅 MeSH 物种、无研究类型过滤）"
+    },
+    "wildcards": 14,
+    "url_length_get": 5582
+   }
+  },
+  {
+   "id": "hyperthyroidism",
+   "name_zh": "甲状腺功能亢进",
+   "name_en": "Hyperthyroidism",
+   "parent": "endocrinology",
+   "pubmed_query": "((\"Dogs\"[MeSH] OR \"Cats\"[MeSH] OR \"Dog Diseases\"[MeSH] OR \"Cat Diseases\"[MeSH] OR dog[ti] OR dogs[ti] OR canine[ti] OR cat[ti] OR cats[ti] OR feline[ti] OR puppy[ti] OR puppies[ti] OR kitten[ti] OR kittens[ti] OR ((dog[tiab] OR dogs[tiab] OR canine[tiab] OR cats[tiab] OR feline[tiab]) AND (veterinar*[tiab] OR \"client-owned\"[tiab] OR \"J Vet Intern Med\"[ta] OR \"J Feline Med Surg\"[ta] OR \"J Am Vet Med Assoc\"[ta] OR \"Vet J\"[ta] OR \"J Small Anim Pract\"[ta] OR \"Front Vet Sci\"[ta] OR \"Vet Rec\"[ta] OR \"J Vet Cardiol\"[ta] OR \"Am J Vet Res\"[ta] OR \"Vet Clin Pathol\"[ta] OR \"J Vet Emerg Crit Care (San Antonio)\"[ta] OR \"Vet Radiol Ultrasound\"[ta] OR \"Vet Anaesth Analg\"[ta] OR \"J Vet Med Sci\"[ta] OR \"Vet Dermatol\"[ta] OR \"J Am Anim Hosp Assoc\"[ta] OR \"Vet Sci\"[ta] OR \"Vet Med Sci\"[ta] OR \"Res Vet Sci\"[ta] OR \"Prev Vet Med\"[ta] OR \"BMC Vet Res\"[ta] OR \"Vet Comp Orthop Traumatol\"[ta] OR \"Vet Surg\"[ta] OR \"Vet Ophthalmol\"[ta] OR \"J Feline Med Surg Open Rep\"[ta] OR \"Vet Res Commun\"[ta] OR \"Top Companion Anim Med\"[ta] OR \"Appl Anim Behav Sci\"[ta] OR \"J Vet Behav\"[ta]))) AND (\"Hyperthyroidism\"[MeSH] OR hyperthyroid*[tiab] OR thyrotoxicosis[tiab] OR methimazole[tiab] OR thiamazole[tiab] OR carbimazole[tiab] OR radioiodine[tiab] OR \"iodine-131\"[tiab] OR \"iodine-restricted\"[tiab] OR thyroidectomy[tiab]) AND (((clinical[tiab] AND trial[tiab]) OR \"Clinical Trials as Topic\"[MeSH] OR \"Clinical Trial\"[pt] OR random*[tiab] OR \"Random Allocation\"[MeSH] OR \"therapeutic use\"[sh]) OR (\"Randomized Controlled Trial\"[pt] OR \"Randomized Controlled Trial, Veterinary\"[pt] OR ((randomized[tiab] OR randomised[tiab]) AND controlled[tiab] AND trial[tiab])) OR (specificity[tiab]) OR ((relative[tiab] AND risk*[tiab]) OR \"relative risk\"[tw] OR risks[tw] OR \"Cohort Studies\"[MeSH:noexp] OR (cohort[tiab] AND study[tiab]) OR (cohort[tiab] AND studies[tiab])) OR (\"incidence\"[MeSH:noexp] OR \"mortality\"[MeSH] OR \"follow up studies\"[MeSH:noexp] OR prognos*[tw] OR predict*[tw] OR course*[tw]) OR (validation[tiab] OR validate[tiab]) OR (systematic[sb] OR \"Meta-Analysis\"[pt] OR meta-analy*[ti] OR \"systematic review\"[tiab]) OR (\"Practice Guideline\"[pt] OR \"Guideline\"[pt] OR \"Consensus\"[pt] OR \"Consensus Development Conference\"[pt] OR guideline*[ti] OR consensus[ti] OR recommendation*[ti] OR \"task force\"[ti] OR \"position statement\"[ti]) OR (\"Observational Study, Veterinary\"[pt]) OR (\"Clinical Trial, Veterinary\"[pt]))) NOT (\"Case Reports\"[pt] OR \"Editorial\"[pt] OR \"Letter\"[pt] OR \"Comment\"[pt] OR \"News\"[pt] OR \"Published Erratum\"[pt] OR \"Retracted Publication\"[pt] OR \"Retraction of Publication\"[pt]) NOT (((\"Humans\"[MeSH] NOT \"Animals\"[MeSH]) OR ((rat[ti] OR rats[ti] OR mice[ti] OR mouse[ti] OR murine[ti] OR patients[ti] OR children[ti] OR women[ti]) NOT (\"Dogs\"[MeSH] OR \"Cats\"[MeSH] OR \"Dog Diseases\"[MeSH] OR \"Cat Diseases\"[MeSH] OR dog[ti] OR dogs[ti] OR canine[ti] OR cat[ti] OR cats[ti] OR feline[ti] OR puppy[ti] OR puppies[ti] OR kitten[ti] OR kittens[ti]))) OR ((orthodont*[tiab] OR \"canine retraction\"[tiab] OR \"impacted canine\"[tiab] OR \"maxillary canine\"[tiab] OR \"canine tooth\"[ti] OR EORTC[tiab] OR \"PEDI-CAT\"[tiab] OR \"computerized adaptive test\"[tiab] OR \"cat eye syndrome\"[tiab]) NOT (\"Dogs\"[MeSH] OR \"Cats\"[MeSH] OR \"Dog Diseases\"[MeSH] OR \"Cat Diseases\"[MeSH]))) AND (hasabstract OR (\"Practice Guideline\"[pt] OR \"Guideline\"[pt] OR \"Consensus\"[pt] OR \"Consensus Development Conference\"[pt] OR guideline*[ti] OR consensus[ti] OR recommendation*[ti] OR \"task force\"[ti] OR \"position statement\"[ti]))",
+   "inherits_children": null,
+   "filter_set": "hybrid",
+   "filter_source": [
+    "PubMed Clinical Queries Therapy/Broad；Haynes RB 等 BMJ 2005（PMID 15894554）",
+    "同上 Therapy/Narrow，兽医改写：加 \"Randomized Controlled Trial, Veterinary\"[pt]（NLM 兽医发布类型，兽医 RCT 不标人用 RCT 类型）和英式拼写 randomised",
+    "PubMed Clinical Queries Diagnosis/Narrow；Haynes RB, Wilczynski NL. BMJ 2004;328:1040（PMID 15073027）",
+    "PubMed Clinical Queries Etiology/Narrow；Wilczynski NL, Haynes RB. AMIA 2003:719-23（PMID 14728267）",
+    "PubMed Clinical Queries Prognosis/Broad；同上（PMID 15189561）",
+    "PubMed Clinical Queries Clinical Prediction Guides/Narrow；Wong SS 等 AMIA 2003:728-32（PMID 14728269）",
+    "PubMed Systematic Review 过滤 systematic[sb]（PubMed 帮助页）+ Montori VM 等 BMJ 2005;330:68（PMID 15619601）的 meta-analysis[pt]/\"systematic review\" 词；补 meta-analy*[ti]（库内 39858209 未被 systematic[sb] 收录）",
+    "NLM 发布类型 Practice Guideline / Guideline / Consensus / Consensus Development Conference + 题名 guideline*/consensus/recommendation*/\"task force\"/\"position statement\"（后三个词 2026-11-10 按 IVETF 2015 系列验证补入：其中 2 篇题名用 recommendations、未标 Consensus 发布类型）",
+    "NLM 发布类型 \"Observational Study, Veterinary\"",
+    "NLM 发布类型 \"Clinical Trial, Veterinary\""
+   ],
+   "validation": {
+    "window_edat": "2025/11/10–2026/11/10",
+    "count_12mo": 17,
+    "est_weekly": 0.3,
+    "last_4wk": 1,
+    "recall_n": 15,
+    "recall_N": 15,
+    "recall_scope": "本库该专题全部有 PMID 文章（seed_library_v6 的 topics 标签；不含无 PMID 的 IRIS 2026）；不限日期",
+    "recall_in_scope": "15/15（漏检的都是 Hedges 不覆盖的设计）",
+    "missed": [],
+    "old_query": {
+     "recall": "13/15",
+     "est_weekly": 0.3,
+     "last_4wk": 1,
+     "note": "旧式：topics.json 现有 pubmed_query + ingest.py 包装（仅 MeSH 物种、无研究类型过滤）"
+    },
+    "wildcards": 13,
+    "url_length_get": 5562
+   }
+  },
+  {
+   "id": "hyperadrenocorticism",
+   "name_zh": "肾上腺皮质功能亢进",
+   "name_en": "Hyperadrenocorticism",
+   "parent": "endocrinology",
+   "pubmed_query": "((\"Dogs\"[MeSH] OR \"Cats\"[MeSH] OR \"Dog Diseases\"[MeSH] OR \"Cat Diseases\"[MeSH] OR dog[ti] OR dogs[ti] OR canine[ti] OR cat[ti] OR cats[ti] OR feline[ti] OR puppy[ti] OR puppies[ti] OR kitten[ti] OR kittens[ti] OR ((dog[tiab] OR dogs[tiab] OR canine[tiab] OR cats[tiab] OR feline[tiab]) AND (veterinar*[tiab] OR \"client-owned\"[tiab] OR \"J Vet Intern Med\"[ta] OR \"J Feline Med Surg\"[ta] OR \"J Am Vet Med Assoc\"[ta] OR \"Vet J\"[ta] OR \"J Small Anim Pract\"[ta] OR \"Front Vet Sci\"[ta] OR \"Vet Rec\"[ta] OR \"J Vet Cardiol\"[ta] OR \"Am J Vet Res\"[ta] OR \"Vet Clin Pathol\"[ta] OR \"J Vet Emerg Crit Care (San Antonio)\"[ta] OR \"Vet Radiol Ultrasound\"[ta] OR \"Vet Anaesth Analg\"[ta] OR \"J Vet Med Sci\"[ta] OR \"Vet Dermatol\"[ta] OR \"J Am Anim Hosp Assoc\"[ta] OR \"Vet Sci\"[ta] OR \"Vet Med Sci\"[ta] OR \"Res Vet Sci\"[ta] OR \"Prev Vet Med\"[ta] OR \"BMC Vet Res\"[ta] OR \"Vet Comp Orthop Traumatol\"[ta] OR \"Vet Surg\"[ta] OR \"Vet Ophthalmol\"[ta] OR \"J Feline Med Surg Open Rep\"[ta] OR \"Vet Res Commun\"[ta] OR \"Top Companion Anim Med\"[ta] OR \"Appl Anim Behav Sci\"[ta] OR \"J Vet Behav\"[ta]))) AND (\"Cushing Syndrome\"[MeSH] OR \"Adrenocortical Hyperfunction\"[MeSH] OR \"Pituitary ACTH Hypersecretion\"[MeSH] OR hyperadrenocortic*[tiab] OR cushing*[tiab] OR hypercortisol*[tiab] OR trilostane[tiab] OR \"pituitary-dependent\"[tiab] OR \"adrenal function\"[tiab] OR \"ACTH stimulation\"[tiab] OR \"dexamethasone suppression\"[tiab] OR hypersomatotrop*[tiab]) AND (((clinical[tiab] AND trial[tiab]) OR \"Clinical Trials as Topic\"[MeSH] OR \"Clinical Trial\"[pt] OR random*[tiab] OR \"Random Allocation\"[MeSH] OR \"therapeutic use\"[sh]) OR (\"Randomized Controlled Trial\"[pt] OR \"Randomized Controlled Trial, Veterinary\"[pt] OR ((randomized[tiab] OR randomised[tiab]) AND controlled[tiab] AND trial[tiab])) OR (sensitiv*[tiab] OR \"Sensitivity and Specificity\"[MeSH] OR diagnose[tiab] OR diagnosed[tiab] OR diagnoses[tiab] OR diagnosing[tiab] OR diagnosis[tiab] OR diagnostic[tiab] OR \"diagnosis\"[MeSH:noexp] OR \"diagnostic equipment\"[MeSH:noexp] OR \"diagnostic errors\"[MeSH:noexp] OR \"diagnostic imaging\"[MeSH:noexp] OR \"diagnostic services\"[MeSH:noexp] OR \"diagnosis, differential\"[MeSH:noexp] OR \"diagnosis\"[sh:noexp]) OR (risk*[tiab] OR risk*[MeSH:noexp] OR \"risk adjustment\"[MeSH:noexp] OR \"risk assessment\"[MeSH:noexp] OR \"risk factors\"[MeSH:noexp] OR \"risk management\"[MeSH:noexp] OR \"risk taking\"[MeSH:noexp] OR \"Cohort Studies\"[MeSH] OR group[tw] OR groups[tw] OR grouped[tw]) OR (\"incidence\"[MeSH:noexp] OR \"mortality\"[MeSH] OR \"follow up studies\"[MeSH:noexp] OR prognos*[tw] OR predict*[tw] OR course*[tw]) OR (predict*[tiab] OR \"predictive value of tests\"[MeSH] OR score[tiab] OR scores[tiab] OR \"scoring system\"[tiab] OR \"scoring systems\"[tiab] OR observ*[tiab] OR \"observer variation\"[MeSH]) OR (systematic[sb] OR \"Meta-Analysis\"[pt] OR meta-analy*[ti] OR \"systematic review\"[tiab]) OR (\"Practice Guideline\"[pt] OR \"Guideline\"[pt] OR \"Consensus\"[pt] OR \"Consensus Development Conference\"[pt] OR guideline*[ti] OR consensus[ti] OR recommendation*[ti] OR \"task force\"[ti] OR \"position statement\"[ti]) OR (\"Observational Study, Veterinary\"[pt]) OR (\"Clinical Trial, Veterinary\"[pt]))) NOT (\"Case Reports\"[pt] OR \"Editorial\"[pt] OR \"Letter\"[pt] OR \"Comment\"[pt] OR \"News\"[pt] OR \"Published Erratum\"[pt] OR \"Retracted Publication\"[pt] OR \"Retraction of Publication\"[pt]) NOT (((\"Humans\"[MeSH] NOT \"Animals\"[MeSH]) OR ((rat[ti] OR rats[ti] OR mice[ti] OR mouse[ti] OR murine[ti] OR patients[ti] OR children[ti] OR women[ti]) NOT (\"Dogs\"[MeSH] OR \"Cats\"[MeSH] OR \"Dog Diseases\"[MeSH] OR \"Cat Diseases\"[MeSH] OR dog[ti] OR dogs[ti] OR canine[ti] OR cat[ti] OR cats[ti] OR feline[ti] OR puppy[ti] OR puppies[ti] OR kitten[ti] OR kittens[ti]))) OR ((orthodont*[tiab] OR \"canine retraction\"[tiab] OR \"impacted canine\"[tiab] OR \"maxillary canine\"[tiab] OR \"canine tooth\"[ti] OR EORTC[tiab] OR \"PEDI-CAT\"[tiab] OR \"computerized adaptive test\"[tiab] OR \"cat eye syndrome\"[tiab]) NOT (\"Dogs\"[MeSH] OR \"Cats\"[MeSH] OR \"Dog Diseases\"[MeSH] OR \"Cat Diseases\"[MeSH]))) AND (hasabstract OR (\"Practice Guideline\"[pt] OR \"Guideline\"[pt] OR \"Consensus\"[pt] OR \"Consensus Development Conference\"[pt] OR guideline*[ti] OR consensus[ti] OR recommendation*[ti] OR \"task force\"[ti] OR \"position statement\"[ti]))",
+   "inherits_children": null,
+   "filter_set": "broad",
+   "filter_source": [
+    "PubMed Clinical Queries Therapy/Broad；Haynes RB 等 BMJ 2005（PMID 15894554）",
+    "同上 Therapy/Narrow，兽医改写：加 \"Randomized Controlled Trial, Veterinary\"[pt]（NLM 兽医发布类型，兽医 RCT 不标人用 RCT 类型）和英式拼写 randomised",
+    "PubMed Clinical Queries Diagnosis/Broad；同上（PMID 15073027）",
+    "PubMed Clinical Queries Etiology/Broad；同上（PMID 14728267）",
+    "PubMed Clinical Queries Prognosis/Broad；同上（PMID 15189561）",
+    "PubMed Clinical Queries Clinical Prediction Guides/Broad；同上（PMID 14728269）",
+    "PubMed Systematic Review 过滤 systematic[sb]（PubMed 帮助页）+ Montori VM 等 BMJ 2005;330:68（PMID 15619601）的 meta-analysis[pt]/\"systematic review\" 词；补 meta-analy*[ti]（库内 39858209 未被 systematic[sb] 收录）",
+    "NLM 发布类型 Practice Guideline / Guideline / Consensus / Consensus Development Conference + 题名 guideline*/consensus/recommendation*/\"task force\"/\"position statement\"（后三个词 2026-11-10 按 IVETF 2015 系列验证补入：其中 2 篇题名用 recommendations、未标 Consensus 发布类型）",
+    "NLM 发布类型 \"Observational Study, Veterinary\"",
+    "NLM 发布类型 \"Clinical Trial, Veterinary\""
+   ],
+   "validation": {
+    "window_edat": "2025/11/10–2026/11/10",
+    "count_12mo": 43,
+    "est_weekly": 0.8,
+    "last_4wk": 4,
+    "recall_n": 3,
+    "recall_N": 3,
+    "recall_scope": "本库该专题全部有 PMID 文章（seed_library_v6 的 topics 标签；不含无 PMID 的 IRIS 2026）；不限日期",
+    "recall_in_scope": "3/3（漏检的都是 Hedges 不覆盖的设计）",
+    "missed": [],
+    "old_query": {
+     "recall": "3/3",
+     "est_weekly": 0.5,
+     "last_4wk": 2,
+     "note": "旧式：topics.json 现有 pubmed_query + ingest.py 包装（仅 MeSH 物种、无研究类型过滤）"
+    },
+    "wildcards": 20,
+    "url_length_get": 6655
+   }
+  },
+  {
+   "id": "infectious",
+   "name_zh": "感染性疾病",
+   "name_en": "Infectious diseases",
+   "parent": "saim",
+   "pubmed_query": "((\"Dogs\"[MeSH] OR \"Cats\"[MeSH] OR \"Dog Diseases\"[MeSH] OR \"Cat Diseases\"[MeSH] OR dog[ti] OR dogs[ti] OR canine[ti] OR cat[ti] OR cats[ti] OR feline[ti] OR puppy[ti] OR puppies[ti] OR kitten[ti] OR kittens[ti] OR ((dog[tiab] OR dogs[tiab] OR canine[tiab] OR cats[tiab] OR feline[tiab]) AND (veterinar*[tiab] OR \"client-owned\"[tiab] OR \"J Vet Intern Med\"[ta] OR \"J Feline Med Surg\"[ta] OR \"J Am Vet Med Assoc\"[ta] OR \"Vet J\"[ta] OR \"J Small Anim Pract\"[ta] OR \"Front Vet Sci\"[ta] OR \"Vet Rec\"[ta] OR \"J Vet Cardiol\"[ta] OR \"Am J Vet Res\"[ta] OR \"Vet Clin Pathol\"[ta] OR \"J Vet Emerg Crit Care (San Antonio)\"[ta] OR \"Vet Radiol Ultrasound\"[ta] OR \"Vet Anaesth Analg\"[ta] OR \"J Vet Med Sci\"[ta] OR \"Vet Dermatol\"[ta] OR \"J Am Anim Hosp Assoc\"[ta] OR \"Vet Sci\"[ta] OR \"Vet Med Sci\"[ta] OR \"Res Vet Sci\"[ta] OR \"Prev Vet Med\"[ta] OR \"BMC Vet Res\"[ta] OR \"Vet Comp Orthop Traumatol\"[ta] OR \"Vet Surg\"[ta] OR \"Vet Ophthalmol\"[ta] OR \"J Feline Med Surg Open Rep\"[ta] OR \"Vet Res Commun\"[ta] OR \"Top Companion Anim Med\"[ta] OR \"Appl Anim Behav Sci\"[ta] OR \"J Vet Behav\"[ta]))) AND (\"Infections\"[MeSH] OR \"Communicable Diseases\"[MeSH] OR \"Feline Infectious Peritonitis\"[MeSH] OR infect*[tiab] OR viral[tiab] OR virus*[tiab] OR bacteri*[tiab] OR parasit*[tiab] OR antimicrobial*[tiab] OR antibiotic*[tiab] OR antiviral*[tiab] OR vaccin*[tiab] OR sepsis[tiab] OR FIP[tiab] OR \"GS-441524\"[tiab] OR remdesivir[tiab] OR molnupiravir[tiab]) AND ((\"Randomized Controlled Trial\"[pt] OR \"Randomized Controlled Trial, Veterinary\"[pt] OR ((randomized[tiab] OR randomised[tiab]) AND controlled[tiab] AND trial[tiab])) OR (specificity[tiab]) OR (validation[tiab] OR validate[tiab]) OR (systematic[sb] OR \"Meta-Analysis\"[pt] OR meta-analy*[ti] OR \"systematic review\"[tiab]) OR (\"Practice Guideline\"[pt] OR \"Guideline\"[pt] OR \"Consensus\"[pt] OR \"Consensus Development Conference\"[pt] OR guideline*[ti] OR consensus[ti] OR recommendation*[ti] OR \"task force\"[ti] OR \"position statement\"[ti]) OR (\"Observational Study, Veterinary\"[pt]))) NOT (\"Case Reports\"[pt] OR \"Editorial\"[pt] OR \"Letter\"[pt] OR \"Comment\"[pt] OR \"News\"[pt] OR \"Published Erratum\"[pt] OR \"Retracted Publication\"[pt] OR \"Retraction of Publication\"[pt]) NOT (((\"Humans\"[MeSH] NOT \"Animals\"[MeSH]) OR ((rat[ti] OR rats[ti] OR mice[ti] OR mouse[ti] OR murine[ti] OR patients[ti] OR children[ti] OR women[ti]) NOT (\"Dogs\"[MeSH] OR \"Cats\"[MeSH] OR \"Dog Diseases\"[MeSH] OR \"Cat Diseases\"[MeSH] OR dog[ti] OR dogs[ti] OR canine[ti] OR cat[ti] OR cats[ti] OR feline[ti] OR puppy[ti] OR puppies[ti] OR kitten[ti] OR kittens[ti]))) OR ((orthodont*[tiab] OR \"canine retraction\"[tiab] OR \"impacted canine\"[tiab] OR \"maxillary canine\"[tiab] OR \"canine tooth\"[ti] OR EORTC[tiab] OR \"PEDI-CAT\"[tiab] OR \"computerized adaptive test\"[tiab] OR \"cat eye syndrome\"[tiab]) NOT (\"Dogs\"[MeSH] OR \"Cats\"[MeSH] OR \"Dog Diseases\"[MeSH] OR \"Cat Diseases\"[MeSH]))) AND (hasabstract OR (\"Practice Guideline\"[pt] OR \"Guideline\"[pt] OR \"Consensus\"[pt] OR \"Consensus Development Conference\"[pt] OR guideline*[ti] OR consensus[ti] OR recommendation*[ti] OR \"task force\"[ti] OR \"position statement\"[ti]))",
+   "inherits_children": [
+    "fip"
+   ],
+   "filter_set": "narrow_core",
+   "filter_source": [
+    "同上 Therapy/Narrow，兽医改写：加 \"Randomized Controlled Trial, Veterinary\"[pt]（NLM 兽医发布类型，兽医 RCT 不标人用 RCT 类型）和英式拼写 randomised",
+    "PubMed Clinical Queries Diagnosis/Narrow；Haynes RB, Wilczynski NL. BMJ 2004;328:1040（PMID 15073027）",
+    "PubMed Clinical Queries Clinical Prediction Guides/Narrow；Wong SS 等 AMIA 2003:728-32（PMID 14728269）",
+    "PubMed Systematic Review 过滤 systematic[sb]（PubMed 帮助页）+ Montori VM 等 BMJ 2005;330:68（PMID 15619601）的 meta-analysis[pt]/\"systematic review\" 词；补 meta-analy*[ti]（库内 39858209 未被 systematic[sb] 收录）",
+    "NLM 发布类型 Practice Guideline / Guideline / Consensus / Consensus Development Conference + 题名 guideline*/consensus/recommendation*/\"task force\"/\"position statement\"（后三个词 2026-11-10 按 IVETF 2015 系列验证补入：其中 2 篇题名用 recommendations、未标 Consensus 发布类型）",
+    "NLM 发布类型 \"Observational Study, Veterinary\""
+   ],
+   "validation": {
+    "window_edat": "2025/11/10–2026/11/10",
+    "count_12mo": 503,
+    "est_weekly": 9.6,
+    "last_4wk": 44,
+    "recall_n": 20,
+    "recall_N": 22,
+    "recall_scope": "本库该专题全部有 PMID 文章（seed_library_v6 的 topics 标签；不含无 PMID 的 IRIS 2026）；不限日期",
+    "recall_in_scope": "20/20（漏检的都是 Hedges 不覆盖的设计）",
+    "missed": [
+     {
+      "pmid": "36297266",
+      "design": "回顾性病例系列（主人报告）",
+      "title": "Unlicensed Molnupiravir is an Effective Rescue Treatment Following Failure of Unlicensed GS-441524-like Therapy for Cats with Suspected Feline Infectious Peritonitis.",
+      "reason_zh": "无对照病例系列，PLUS 治疗类要求随机分组，按设计排除"
+     },
+     {
+      "pmid": "32441826",
+      "design": "病例系列",
+      "title": "Antiviral treatment using the adenosine nucleoside analogue GS-441524 in cats with clinically diagnosed neurological feline infectious peritonitis.",
+      "reason_zh": "无对照病例系列，PLUS 治疗类要求随机分组，按设计排除"
+     }
+    ],
+    "old_query": {
+     "recall": "6/22",
+     "est_weekly": 17.8,
+     "last_4wk": 44,
+     "note": "旧式：topics.json 现有 pubmed_query + ingest.py 包装（仅 MeSH 物种、无研究类型过滤）"
+    },
+    "counted_with_children": [
+     "fip"
+    ],
+    "wildcards": 15,
+    "url_length_get": 4952
+   }
+  },
+  {
+   "id": "fip",
+   "name_zh": "猫传染性腹膜炎",
+   "name_en": "Feline infectious peritonitis",
+   "parent": "infectious",
+   "pubmed_query": "((\"Dogs\"[MeSH] OR \"Cats\"[MeSH] OR \"Dog Diseases\"[MeSH] OR \"Cat Diseases\"[MeSH] OR dog[ti] OR dogs[ti] OR canine[ti] OR cat[ti] OR cats[ti] OR feline[ti] OR puppy[ti] OR puppies[ti] OR kitten[ti] OR kittens[ti] OR ((dog[tiab] OR dogs[tiab] OR canine[tiab] OR cats[tiab] OR feline[tiab]) AND (veterinar*[tiab] OR \"client-owned\"[tiab] OR \"J Vet Intern Med\"[ta] OR \"J Feline Med Surg\"[ta] OR \"J Am Vet Med Assoc\"[ta] OR \"Vet J\"[ta] OR \"J Small Anim Pract\"[ta] OR \"Front Vet Sci\"[ta] OR \"Vet Rec\"[ta] OR \"J Vet Cardiol\"[ta] OR \"Am J Vet Res\"[ta] OR \"Vet Clin Pathol\"[ta] OR \"J Vet Emerg Crit Care (San Antonio)\"[ta] OR \"Vet Radiol Ultrasound\"[ta] OR \"Vet Anaesth Analg\"[ta] OR \"J Vet Med Sci\"[ta] OR \"Vet Dermatol\"[ta] OR \"J Am Anim Hosp Assoc\"[ta] OR \"Vet Sci\"[ta] OR \"Vet Med Sci\"[ta] OR \"Res Vet Sci\"[ta] OR \"Prev Vet Med\"[ta] OR \"BMC Vet Res\"[ta] OR \"Vet Comp Orthop Traumatol\"[ta] OR \"Vet Surg\"[ta] OR \"Vet Ophthalmol\"[ta] OR \"J Feline Med Surg Open Rep\"[ta] OR \"Vet Res Commun\"[ta] OR \"Top Companion Anim Med\"[ta] OR \"Appl Anim Behav Sci\"[ta] OR \"J Vet Behav\"[ta]))) AND (\"Feline Infectious Peritonitis\"[MeSH] OR \"Coronavirus, Feline\"[MeSH] OR \"feline infectious peritonitis\"[tiab] OR FIP[tiab] OR \"feline coronavirus\"[tiab] OR FCoV[tiab] OR \"GS-441524\"[tiab] OR remdesivir[tiab] OR molnupiravir[tiab] OR GC376[tiab]) AND (((clinical[tiab] AND trial[tiab]) OR \"Clinical Trials as Topic\"[MeSH] OR \"Clinical Trial\"[pt] OR random*[tiab] OR \"Random Allocation\"[MeSH] OR \"therapeutic use\"[sh]) OR (\"Randomized Controlled Trial\"[pt] OR \"Randomized Controlled Trial, Veterinary\"[pt] OR ((randomized[tiab] OR randomised[tiab]) AND controlled[tiab] AND trial[tiab])) OR (sensitiv*[tiab] OR \"Sensitivity and Specificity\"[MeSH] OR diagnose[tiab] OR diagnosed[tiab] OR diagnoses[tiab] OR diagnosing[tiab] OR diagnosis[tiab] OR diagnostic[tiab] OR \"diagnosis\"[MeSH:noexp] OR \"diagnostic equipment\"[MeSH:noexp] OR \"diagnostic errors\"[MeSH:noexp] OR \"diagnostic imaging\"[MeSH:noexp] OR \"diagnostic services\"[MeSH:noexp] OR \"diagnosis, differential\"[MeSH:noexp] OR \"diagnosis\"[sh:noexp]) OR (risk*[tiab] OR risk*[MeSH:noexp] OR \"risk adjustment\"[MeSH:noexp] OR \"risk assessment\"[MeSH:noexp] OR \"risk factors\"[MeSH:noexp] OR \"risk management\"[MeSH:noexp] OR \"risk taking\"[MeSH:noexp] OR \"Cohort Studies\"[MeSH] OR group[tw] OR groups[tw] OR grouped[tw]) OR (\"incidence\"[MeSH:noexp] OR \"mortality\"[MeSH] OR \"follow up studies\"[MeSH:noexp] OR prognos*[tw] OR predict*[tw] OR course*[tw]) OR (predict*[tiab] OR \"predictive value of tests\"[MeSH] OR score[tiab] OR scores[tiab] OR \"scoring system\"[tiab] OR \"scoring systems\"[tiab] OR observ*[tiab] OR \"observer variation\"[MeSH]) OR (systematic[sb] OR \"Meta-Analysis\"[pt] OR meta-analy*[ti] OR \"systematic review\"[tiab]) OR (\"Practice Guideline\"[pt] OR \"Guideline\"[pt] OR \"Consensus\"[pt] OR \"Consensus Development Conference\"[pt] OR guideline*[ti] OR consensus[ti] OR recommendation*[ti] OR \"task force\"[ti] OR \"position statement\"[ti]) OR (\"Observational Study, Veterinary\"[pt]) OR (\"Clinical Trial, Veterinary\"[pt]))) NOT (\"Case Reports\"[pt] OR \"Editorial\"[pt] OR \"Letter\"[pt] OR \"Comment\"[pt] OR \"News\"[pt] OR \"Published Erratum\"[pt] OR \"Retracted Publication\"[pt] OR \"Retraction of Publication\"[pt]) NOT (((\"Humans\"[MeSH] NOT \"Animals\"[MeSH]) OR ((rat[ti] OR rats[ti] OR mice[ti] OR mouse[ti] OR murine[ti] OR patients[ti] OR children[ti] OR women[ti]) NOT (\"Dogs\"[MeSH] OR \"Cats\"[MeSH] OR \"Dog Diseases\"[MeSH] OR \"Cat Diseases\"[MeSH] OR dog[ti] OR dogs[ti] OR canine[ti] OR cat[ti] OR cats[ti] OR feline[ti] OR puppy[ti] OR puppies[ti] OR kitten[ti] OR kittens[ti]))) OR ((orthodont*[tiab] OR \"canine retraction\"[tiab] OR \"impacted canine\"[tiab] OR \"maxillary canine\"[tiab] OR \"canine tooth\"[ti] OR EORTC[tiab] OR \"PEDI-CAT\"[tiab] OR \"computerized adaptive test\"[tiab] OR \"cat eye syndrome\"[tiab]) NOT (\"Dogs\"[MeSH] OR \"Cats\"[MeSH] OR \"Dog Diseases\"[MeSH] OR \"Cat Diseases\"[MeSH]))) AND (hasabstract OR (\"Practice Guideline\"[pt] OR \"Guideline\"[pt] OR \"Consensus\"[pt] OR \"Consensus Development Conference\"[pt] OR guideline*[ti] OR consensus[ti] OR recommendation*[ti] OR \"task force\"[ti] OR \"position statement\"[ti]))",
+   "inherits_children": null,
+   "filter_set": "broad",
+   "filter_source": [
+    "PubMed Clinical Queries Therapy/Broad；Haynes RB 等 BMJ 2005（PMID 15894554）",
+    "同上 Therapy/Narrow，兽医改写：加 \"Randomized Controlled Trial, Veterinary\"[pt]（NLM 兽医发布类型，兽医 RCT 不标人用 RCT 类型）和英式拼写 randomised",
+    "PubMed Clinical Queries Diagnosis/Broad；同上（PMID 15073027）",
+    "PubMed Clinical Queries Etiology/Broad；同上（PMID 14728267）",
+    "PubMed Clinical Queries Prognosis/Broad；同上（PMID 15189561）",
+    "PubMed Clinical Queries Clinical Prediction Guides/Broad；同上（PMID 14728269）",
+    "PubMed Systematic Review 过滤 systematic[sb]（PubMed 帮助页）+ Montori VM 等 BMJ 2005;330:68（PMID 15619601）的 meta-analysis[pt]/\"systematic review\" 词；补 meta-analy*[ti]（库内 39858209 未被 systematic[sb] 收录）",
+    "NLM 发布类型 Practice Guideline / Guideline / Consensus / Consensus Development Conference + 题名 guideline*/consensus/recommendation*/\"task force\"/\"position statement\"（后三个词 2026-11-10 按 IVETF 2015 系列验证补入：其中 2 篇题名用 recommendations、未标 Consensus 发布类型）",
+    "NLM 发布类型 \"Observational Study, Veterinary\"",
+    "NLM 发布类型 \"Clinical Trial, Veterinary\""
+   ],
+   "validation": {
+    "window_edat": "2025/11/10–2026/11/10",
+    "count_12mo": 100,
+    "est_weekly": 1.9,
+    "last_4wk": 12,
+    "recall_n": 20,
+    "recall_N": 22,
+    "recall_scope": "本库该专题全部有 PMID 文章（seed_library_v6 的 topics 标签；不含无 PMID 的 IRIS 2026）；不限日期",
+    "recall_in_scope": "20/20（漏检的都是 Hedges 不覆盖的设计）",
+    "missed": [
+     {
+      "pmid": "36297266",
+      "design": "回顾性病例系列（主人报告）",
+      "title": "Unlicensed Molnupiravir is an Effective Rescue Treatment Following Failure of Unlicensed GS-441524-like Therapy for Cats with Suspected Feline Infectious Peritonitis.",
+      "reason_zh": "无对照病例系列，PLUS 治疗类要求随机分组，按设计排除"
+     },
+     {
+      "pmid": "32441826",
+      "design": "病例系列",
+      "title": "Antiviral treatment using the adenosine nucleoside analogue GS-441524 in cats with clinically diagnosed neurological feline infectious peritonitis.",
+      "reason_zh": "无对照病例系列，PLUS 治疗类要求随机分组，按设计排除"
+     }
+    ],
+    "old_query": {
+     "recall": "21/22",
+     "est_weekly": 1.7,
+     "last_4wk": 7,
+     "note": "旧式：topics.json 现有 pubmed_query + ingest.py 包装（仅 MeSH 物种、无研究类型过滤）"
+    },
+    "wildcards": 16,
+    "url_length_get": 6522
+   }
+  },
+  {
+   "id": "nutrition",
+   "name_zh": "营养学",
+   "name_en": "Nutrition",
+   "parent": null,
+   "pubmed_query": "((\"Dogs\"[MeSH] OR \"Cats\"[MeSH] OR \"Dog Diseases\"[MeSH] OR \"Cat Diseases\"[MeSH] OR dog[ti] OR dogs[ti] OR canine[ti] OR cat[ti] OR cats[ti] OR feline[ti] OR puppy[ti] OR puppies[ti] OR kitten[ti] OR kittens[ti] OR ((dog[tiab] OR dogs[tiab] OR canine[tiab] OR cats[tiab] OR feline[tiab]) AND (veterinar*[tiab] OR \"client-owned\"[tiab] OR \"J Vet Intern Med\"[ta] OR \"J Feline Med Surg\"[ta] OR \"J Am Vet Med Assoc\"[ta] OR \"Vet J\"[ta] OR \"J Small Anim Pract\"[ta] OR \"Front Vet Sci\"[ta] OR \"Vet Rec\"[ta] OR \"J Vet Cardiol\"[ta] OR \"Am J Vet Res\"[ta] OR \"Vet Clin Pathol\"[ta] OR \"J Vet Emerg Crit Care (San Antonio)\"[ta] OR \"Vet Radiol Ultrasound\"[ta] OR \"Vet Anaesth Analg\"[ta] OR \"J Vet Med Sci\"[ta] OR \"Vet Dermatol\"[ta] OR \"J Am Anim Hosp Assoc\"[ta] OR \"Vet Sci\"[ta] OR \"Vet Med Sci\"[ta] OR \"Res Vet Sci\"[ta] OR \"Prev Vet Med\"[ta] OR \"BMC Vet Res\"[ta] OR \"Vet Comp Orthop Traumatol\"[ta] OR \"Vet Surg\"[ta] OR \"Vet Ophthalmol\"[ta] OR \"J Feline Med Surg Open Rep\"[ta] OR \"Vet Res Commun\"[ta] OR \"Top Companion Anim Med\"[ta] OR \"Appl Anim Behav Sci\"[ta] OR \"J Vet Behav\"[ta]))) AND (\"Diet\"[MeSH] OR \"Animal Feed\"[MeSH] OR \"Animal Nutritional Physiological Phenomena\"[MeSH] OR \"Dietary Supplements\"[MeSH] OR \"Obesity\"[MeSH] OR diet*[tiab] OR nutrition*[tiab] OR nutrient*[tiab] OR food[tiab] OR feeding[tiab] OR \"body condition\"[tiab] OR obes*[tiab] OR overweight[tiab] OR \"weight loss\"[tiab] OR supplement*[tiab] OR taurine[tiab]) AND ((\"Randomized Controlled Trial\"[pt] OR \"Randomized Controlled Trial, Veterinary\"[pt] OR ((randomized[tiab] OR randomised[tiab]) AND controlled[tiab] AND trial[tiab])) OR (specificity[tiab]) OR ((relative[tiab] AND risk*[tiab]) OR \"relative risk\"[tw] OR risks[tw] OR \"Cohort Studies\"[MeSH:noexp] OR (cohort[tiab] AND study[tiab]) OR (cohort[tiab] AND studies[tiab])) OR (prognos*[tiab] OR (first[tiab] AND episode[tiab]) OR cohort[tiab]) OR (validation[tiab] OR validate[tiab]) OR (systematic[sb] OR \"Meta-Analysis\"[pt] OR meta-analy*[ti] OR \"systematic review\"[tiab]) OR (\"Practice Guideline\"[pt] OR \"Guideline\"[pt] OR \"Consensus\"[pt] OR \"Consensus Development Conference\"[pt] OR guideline*[ti] OR consensus[ti] OR recommendation*[ti] OR \"task force\"[ti] OR \"position statement\"[ti]) OR (\"Observational Study, Veterinary\"[pt]))) NOT (\"Case Reports\"[pt] OR \"Editorial\"[pt] OR \"Letter\"[pt] OR \"Comment\"[pt] OR \"News\"[pt] OR \"Published Erratum\"[pt] OR \"Retracted Publication\"[pt] OR \"Retraction of Publication\"[pt]) NOT (((\"Humans\"[MeSH] NOT \"Animals\"[MeSH]) OR ((rat[ti] OR rats[ti] OR mice[ti] OR mouse[ti] OR murine[ti] OR patients[ti] OR children[ti] OR women[ti]) NOT (\"Dogs\"[MeSH] OR \"Cats\"[MeSH] OR \"Dog Diseases\"[MeSH] OR \"Cat Diseases\"[MeSH] OR dog[ti] OR dogs[ti] OR canine[ti] OR cat[ti] OR cats[ti] OR feline[ti] OR puppy[ti] OR puppies[ti] OR kitten[ti] OR kittens[ti]))) OR ((orthodont*[tiab] OR \"canine retraction\"[tiab] OR \"impacted canine\"[tiab] OR \"maxillary canine\"[tiab] OR \"canine tooth\"[ti] OR EORTC[tiab] OR \"PEDI-CAT\"[tiab] OR \"computerized adaptive test\"[tiab] OR \"cat eye syndrome\"[tiab]) NOT (\"Dogs\"[MeSH] OR \"Cats\"[MeSH] OR \"Dog Diseases\"[MeSH] OR \"Cat Diseases\"[MeSH]))) AND (hasabstract OR (\"Practice Guideline\"[pt] OR \"Guideline\"[pt] OR \"Consensus\"[pt] OR \"Consensus Development Conference\"[pt] OR guideline*[ti] OR consensus[ti] OR recommendation*[ti] OR \"task force\"[ti] OR \"position statement\"[ti]))",
+   "inherits_children": [
+    "obesity",
+    "diet_dcm"
+   ],
+   "filter_set": "narrow",
+   "filter_source": [
+    "同上 Therapy/Narrow，兽医改写：加 \"Randomized Controlled Trial, Veterinary\"[pt]（NLM 兽医发布类型，兽医 RCT 不标人用 RCT 类型）和英式拼写 randomised",
+    "PubMed Clinical Queries Diagnosis/Narrow；Haynes RB, Wilczynski NL. BMJ 2004;328:1040（PMID 15073027）",
+    "PubMed Clinical Queries Etiology/Narrow；Wilczynski NL, Haynes RB. AMIA 2003:719-23（PMID 14728267）",
+    "PubMed Clinical Queries Prognosis/Narrow；Wilczynski NL, Haynes RB. BMC Med 2004;2:23（PMID 15189561）",
+    "PubMed Clinical Queries Clinical Prediction Guides/Narrow；Wong SS 等 AMIA 2003:728-32（PMID 14728269）",
+    "PubMed Systematic Review 过滤 systematic[sb]（PubMed 帮助页）+ Montori VM 等 BMJ 2005;330:68（PMID 15619601）的 meta-analysis[pt]/\"systematic review\" 词；补 meta-analy*[ti]（库内 39858209 未被 systematic[sb] 收录）",
+    "NLM 发布类型 Practice Guideline / Guideline / Consensus / Consensus Development Conference + 题名 guideline*/consensus/recommendation*/\"task force\"/\"position statement\"（后三个词 2026-11-10 按 IVETF 2015 系列验证补入：其中 2 篇题名用 recommendations、未标 Consensus 发布类型）",
+    "NLM 发布类型 \"Observational Study, Veterinary\""
+   ],
+   "validation": {
+    "window_edat": "2025/11/10–2026/11/10",
+    "count_12mo": 331,
+    "est_weekly": 6.3,
+    "last_4wk": 25,
+    "recall_n": 10,
+    "recall_N": 11,
+    "recall_scope": "本库该专题全部有 PMID 文章（seed_library_v6 的 topics 标签；不含无 PMID 的 IRIS 2026）；不限日期",
+    "recall_in_scope": "10/10（漏检的都是 Hedges 不覆盖的设计）",
+    "missed": [
+     {
+      "pmid": "30451613",
+      "design": "叙述性综述",
+      "title": "Diet-associated dilated cardiomyopathy in dogs: what do we know?",
+      "reason_zh": "叙述性综述，不属于 Hedges 覆盖的研究类型（PLUS 也不收），按设计排除"
+     }
+    ],
+    "old_query": {
+     "recall": "9/11",
+     "est_weekly": 3.0,
+     "last_4wk": 7,
+     "note": "旧式：topics.json 现有 pubmed_query + ingest.py 包装（仅 MeSH 物种、无研究类型过滤）"
+    },
+    "counted_with_children": [
+     "obesity",
+     "diet_dcm"
+    ],
+    "wildcards": 14,
+    "url_length_get": 5347
+   }
+  },
+  {
+   "id": "obesity",
+   "name_zh": "肥胖与体况",
+   "name_en": "Obesity & body condition",
+   "parent": "nutrition",
+   "pubmed_query": "((\"Dogs\"[MeSH] OR \"Cats\"[MeSH] OR \"Dog Diseases\"[MeSH] OR \"Cat Diseases\"[MeSH] OR dog[ti] OR dogs[ti] OR canine[ti] OR cat[ti] OR cats[ti] OR feline[ti] OR puppy[ti] OR puppies[ti] OR kitten[ti] OR kittens[ti] OR ((dog[tiab] OR dogs[tiab] OR canine[tiab] OR cats[tiab] OR feline[tiab]) AND (veterinar*[tiab] OR \"client-owned\"[tiab] OR \"J Vet Intern Med\"[ta] OR \"J Feline Med Surg\"[ta] OR \"J Am Vet Med Assoc\"[ta] OR \"Vet J\"[ta] OR \"J Small Anim Pract\"[ta] OR \"Front Vet Sci\"[ta] OR \"Vet Rec\"[ta] OR \"J Vet Cardiol\"[ta] OR \"Am J Vet Res\"[ta] OR \"Vet Clin Pathol\"[ta] OR \"J Vet Emerg Crit Care (San Antonio)\"[ta] OR \"Vet Radiol Ultrasound\"[ta] OR \"Vet Anaesth Analg\"[ta] OR \"J Vet Med Sci\"[ta] OR \"Vet Dermatol\"[ta] OR \"J Am Anim Hosp Assoc\"[ta] OR \"Vet Sci\"[ta] OR \"Vet Med Sci\"[ta] OR \"Res Vet Sci\"[ta] OR \"Prev Vet Med\"[ta] OR \"BMC Vet Res\"[ta] OR \"Vet Comp Orthop Traumatol\"[ta] OR \"Vet Surg\"[ta] OR \"Vet Ophthalmol\"[ta] OR \"J Feline Med Surg Open Rep\"[ta] OR \"Vet Res Commun\"[ta] OR \"Top Companion Anim Med\"[ta] OR \"Appl Anim Behav Sci\"[ta] OR \"J Vet Behav\"[ta]))) AND (\"Obesity\"[MeSH] OR \"Overweight\"[MeSH] OR \"Weight Loss\"[MeSH] OR \"Caloric Restriction\"[MeSH] OR obes*[tiab] OR overweight[tiab] OR \"body condition\"[tiab] OR \"weight loss\"[tiab] OR \"weight management\"[tiab] OR \"body fat\"[tiab] OR hypocaloric[tiab] OR \"diet restriction\"[tiab] OR \"dietary restriction\"[tiab] OR \"caloric restriction\"[tiab] OR \"calorie restriction\"[tiab]) AND (((clinical[tiab] AND trial[tiab]) OR \"Clinical Trials as Topic\"[MeSH] OR \"Clinical Trial\"[pt] OR random*[tiab] OR \"Random Allocation\"[MeSH] OR \"therapeutic use\"[sh]) OR (\"Randomized Controlled Trial\"[pt] OR \"Randomized Controlled Trial, Veterinary\"[pt] OR ((randomized[tiab] OR randomised[tiab]) AND controlled[tiab] AND trial[tiab])) OR (specificity[tiab]) OR ((relative[tiab] AND risk*[tiab]) OR \"relative risk\"[tw] OR risks[tw] OR \"Cohort Studies\"[MeSH:noexp] OR (cohort[tiab] AND study[tiab]) OR (cohort[tiab] AND studies[tiab])) OR (\"incidence\"[MeSH:noexp] OR \"mortality\"[MeSH] OR \"follow up studies\"[MeSH:noexp] OR prognos*[tw] OR predict*[tw] OR course*[tw]) OR (validation[tiab] OR validate[tiab]) OR (systematic[sb] OR \"Meta-Analysis\"[pt] OR meta-analy*[ti] OR \"systematic review\"[tiab]) OR (\"Practice Guideline\"[pt] OR \"Guideline\"[pt] OR \"Consensus\"[pt] OR \"Consensus Development Conference\"[pt] OR guideline*[ti] OR consensus[ti] OR recommendation*[ti] OR \"task force\"[ti] OR \"position statement\"[ti]) OR (\"Observational Study, Veterinary\"[pt]) OR (\"Clinical Trial, Veterinary\"[pt]))) NOT (\"Case Reports\"[pt] OR \"Editorial\"[pt] OR \"Letter\"[pt] OR \"Comment\"[pt] OR \"News\"[pt] OR \"Published Erratum\"[pt] OR \"Retracted Publication\"[pt] OR \"Retraction of Publication\"[pt]) NOT (((\"Humans\"[MeSH] NOT \"Animals\"[MeSH]) OR ((rat[ti] OR rats[ti] OR mice[ti] OR mouse[ti] OR murine[ti] OR patients[ti] OR children[ti] OR women[ti]) NOT (\"Dogs\"[MeSH] OR \"Cats\"[MeSH] OR \"Dog Diseases\"[MeSH] OR \"Cat Diseases\"[MeSH] OR dog[ti] OR dogs[ti] OR canine[ti] OR cat[ti] OR cats[ti] OR feline[ti] OR puppy[ti] OR puppies[ti] OR kitten[ti] OR kittens[ti]))) OR ((orthodont*[tiab] OR \"canine retraction\"[tiab] OR \"impacted canine\"[tiab] OR \"maxillary canine\"[tiab] OR \"canine tooth\"[ti] OR EORTC[tiab] OR \"PEDI-CAT\"[tiab] OR \"computerized adaptive test\"[tiab] OR \"cat eye syndrome\"[tiab]) NOT (\"Dogs\"[MeSH] OR \"Cats\"[MeSH] OR \"Dog Diseases\"[MeSH] OR \"Cat Diseases\"[MeSH]))) AND (hasabstract OR (\"Practice Guideline\"[pt] OR \"Guideline\"[pt] OR \"Consensus\"[pt] OR \"Consensus Development Conference\"[pt] OR guideline*[ti] OR consensus[ti] OR recommendation*[ti] OR \"task force\"[ti] OR \"position statement\"[ti]))",
+   "inherits_children": null,
+   "filter_set": "hybrid",
+   "filter_source": [
+    "PubMed Clinical Queries Therapy/Broad；Haynes RB 等 BMJ 2005（PMID 15894554）",
+    "同上 Therapy/Narrow，兽医改写：加 \"Randomized Controlled Trial, Veterinary\"[pt]（NLM 兽医发布类型，兽医 RCT 不标人用 RCT 类型）和英式拼写 randomised",
+    "PubMed Clinical Queries Diagnosis/Narrow；Haynes RB, Wilczynski NL. BMJ 2004;328:1040（PMID 15073027）",
+    "PubMed Clinical Queries Etiology/Narrow；Wilczynski NL, Haynes RB. AMIA 2003:719-23（PMID 14728267）",
+    "PubMed Clinical Queries Prognosis/Broad；同上（PMID 15189561）",
+    "PubMed Clinical Queries Clinical Prediction Guides/Narrow；Wong SS 等 AMIA 2003:728-32（PMID 14728269）",
+    "PubMed Systematic Review 过滤 systematic[sb]（PubMed 帮助页）+ Montori VM 等 BMJ 2005;330:68（PMID 15619601）的 meta-analysis[pt]/\"systematic review\" 词；补 meta-analy*[ti]（库内 39858209 未被 systematic[sb] 收录）",
+    "NLM 发布类型 Practice Guideline / Guideline / Consensus / Consensus Development Conference + 题名 guideline*/consensus/recommendation*/\"task force\"/\"position statement\"（后三个词 2026-11-10 按 IVETF 2015 系列验证补入：其中 2 篇题名用 recommendations、未标 Consensus 发布类型）",
+    "NLM 发布类型 \"Observational Study, Veterinary\"",
+    "NLM 发布类型 \"Clinical Trial, Veterinary\""
+   ],
+   "validation": {
+    "window_edat": "2025/11/10–2026/11/10",
+    "count_12mo": 115,
+    "est_weekly": 2.2,
+    "last_4wk": 10,
+    "recall_n": 5,
+    "recall_N": 5,
+    "recall_scope": "本库该专题全部有 PMID 文章（seed_library_v6 的 topics 标签；不含无 PMID 的 IRIS 2026）；不限日期",
+    "recall_in_scope": "5/5（漏检的都是 Hedges 不覆盖的设计）",
+    "missed": [],
+    "old_query": {
+     "recall": "4/5",
+     "est_weekly": 3.0,
+     "last_4wk": 10,
+     "note": "旧式：topics.json 现有 pubmed_query + ingest.py 包装（仅 MeSH 物种、无研究类型过滤）"
+    },
+    "wildcards": 13,
+    "url_length_get": 5797
+   }
+  },
+  {
+   "id": "behavior",
+   "name_zh": "行为医学",
+   "name_en": "Behavioral Medicine",
+   "parent": null,
+   "pubmed_query": "((\"Dogs\"[MeSH] OR \"Cats\"[MeSH] OR \"Dog Diseases\"[MeSH] OR \"Cat Diseases\"[MeSH] OR dog[ti] OR dogs[ti] OR canine[ti] OR cat[ti] OR cats[ti] OR feline[ti] OR puppy[ti] OR puppies[ti] OR kitten[ti] OR kittens[ti] OR ((dog[tiab] OR dogs[tiab] OR canine[tiab] OR cats[tiab] OR feline[tiab]) AND (veterinar*[tiab] OR \"client-owned\"[tiab] OR \"J Vet Intern Med\"[ta] OR \"J Feline Med Surg\"[ta] OR \"J Am Vet Med Assoc\"[ta] OR \"Vet J\"[ta] OR \"J Small Anim Pract\"[ta] OR \"Front Vet Sci\"[ta] OR \"Vet Rec\"[ta] OR \"J Vet Cardiol\"[ta] OR \"Am J Vet Res\"[ta] OR \"Vet Clin Pathol\"[ta] OR \"J Vet Emerg Crit Care (San Antonio)\"[ta] OR \"Vet Radiol Ultrasound\"[ta] OR \"Vet Anaesth Analg\"[ta] OR \"J Vet Med Sci\"[ta] OR \"Vet Dermatol\"[ta] OR \"J Am Anim Hosp Assoc\"[ta] OR \"Vet Sci\"[ta] OR \"Vet Med Sci\"[ta] OR \"Res Vet Sci\"[ta] OR \"Prev Vet Med\"[ta] OR \"BMC Vet Res\"[ta] OR \"Vet Comp Orthop Traumatol\"[ta] OR \"Vet Surg\"[ta] OR \"Vet Ophthalmol\"[ta] OR \"J Feline Med Surg Open Rep\"[ta] OR \"Vet Res Commun\"[ta] OR \"Top Companion Anim Med\"[ta] OR \"Appl Anim Behav Sci\"[ta] OR \"J Vet Behav\"[ta]))) AND (\"Behavior, Animal\"[MeSH] OR \"Cognition\"[MeSH] OR \"Animal Communication\"[MeSH] OR \"Recognition, Psychology\"[MeSH] OR \"Human-Animal Bond\"[MeSH] OR \"Cognitive Dysfunction\"[MeSH] OR \"Anxiety\"[MeSH] OR \"Fear\"[MeSH] OR behavio*[tiab] OR anxiety[tiab] OR fear*[tiab] OR aggressi*[tiab] OR \"separation-related\"[tiab] OR \"noise sensitivity\"[tiab] OR \"cognitive dysfunction\"[tiab] OR cognit*[tiab] OR \"human-animal bond\"[tiab] OR \"environmental enrichment\"[tiab] OR \"environmental needs\"[tiab] OR oxytocin[tiab] OR welfare[tiab] OR stress[ti]) AND ((\"Randomized Controlled Trial\"[pt] OR \"Randomized Controlled Trial, Veterinary\"[pt] OR ((randomized[tiab] OR randomised[tiab]) AND controlled[tiab] AND trial[tiab])) OR (specificity[tiab]) OR (validation[tiab] OR validate[tiab]) OR (systematic[sb] OR \"Meta-Analysis\"[pt] OR meta-analy*[ti] OR \"systematic review\"[tiab]) OR (\"Practice Guideline\"[pt] OR \"Guideline\"[pt] OR \"Consensus\"[pt] OR \"Consensus Development Conference\"[pt] OR guideline*[ti] OR consensus[ti] OR recommendation*[ti] OR \"task force\"[ti] OR \"position statement\"[ti]) OR (\"Observational Study, Veterinary\"[pt]))) NOT (\"Case Reports\"[pt] OR \"Editorial\"[pt] OR \"Letter\"[pt] OR \"Comment\"[pt] OR \"News\"[pt] OR \"Published Erratum\"[pt] OR \"Retracted Publication\"[pt] OR \"Retraction of Publication\"[pt]) NOT (((\"Humans\"[MeSH] NOT \"Animals\"[MeSH]) OR ((rat[ti] OR rats[ti] OR mice[ti] OR mouse[ti] OR murine[ti] OR patients[ti] OR children[ti] OR women[ti]) NOT (\"Dogs\"[MeSH] OR \"Cats\"[MeSH] OR \"Dog Diseases\"[MeSH] OR \"Cat Diseases\"[MeSH] OR dog[ti] OR dogs[ti] OR canine[ti] OR cat[ti] OR cats[ti] OR feline[ti] OR puppy[ti] OR puppies[ti] OR kitten[ti] OR kittens[ti]))) OR ((orthodont*[tiab] OR \"canine retraction\"[tiab] OR \"impacted canine\"[tiab] OR \"maxillary canine\"[tiab] OR \"canine tooth\"[ti] OR EORTC[tiab] OR \"PEDI-CAT\"[tiab] OR \"computerized adaptive test\"[tiab] OR \"cat eye syndrome\"[tiab]) NOT (\"Dogs\"[MeSH] OR \"Cats\"[MeSH] OR \"Dog Diseases\"[MeSH] OR \"Cat Diseases\"[MeSH]))) AND (hasabstract OR (\"Practice Guideline\"[pt] OR \"Guideline\"[pt] OR \"Consensus\"[pt] OR \"Consensus Development Conference\"[pt] OR guideline*[ti] OR consensus[ti] OR recommendation*[ti] OR \"task force\"[ti] OR \"position statement\"[ti]))",
+   "inherits_children": [
+    "cognition",
+    "cognitive_dysfunction"
+   ],
+   "filter_set": "narrow_core",
+   "filter_source": [
+    "同上 Therapy/Narrow，兽医改写：加 \"Randomized Controlled Trial, Veterinary\"[pt]（NLM 兽医发布类型，兽医 RCT 不标人用 RCT 类型）和英式拼写 randomised",
+    "PubMed Clinical Queries Diagnosis/Narrow；Haynes RB, Wilczynski NL. BMJ 2004;328:1040（PMID 15073027）",
+    "PubMed Clinical Queries Clinical Prediction Guides/Narrow；Wong SS 等 AMIA 2003:728-32（PMID 14728269）",
+    "PubMed Systematic Review 过滤 systematic[sb]（PubMed 帮助页）+ Montori VM 等 BMJ 2005;330:68（PMID 15619601）的 meta-analysis[pt]/\"systematic review\" 词；补 meta-analy*[ti]（库内 39858209 未被 systematic[sb] 收录）",
+    "NLM 发布类型 Practice Guideline / Guideline / Consensus / Consensus Development Conference + 题名 guideline*/consensus/recommendation*/\"task force\"/\"position statement\"（后三个词 2026-11-10 按 IVETF 2015 系列验证补入：其中 2 篇题名用 recommendations、未标 Consensus 发布类型）",
+    "NLM 发布类型 \"Observational Study, Veterinary\""
+   ],
+   "validation": {
+    "window_edat": "2025/11/10–2026/11/10",
+    "count_12mo": 440,
+    "est_weekly": 8.4,
+    "last_4wk": 34,
+    "recall_n": 7,
+    "recall_N": 11,
+    "recall_scope": "本库该专题全部有 PMID 文章（seed_library_v6 的 topics 标签；不含无 PMID 的 IRIS 2026）；不限日期",
+    "recall_in_scope": "7/7（漏检的都是 Hedges 不覆盖的设计）",
+    "missed": [
+     {
+      "pmid": "31550468",
+      "design": "实验",
+      "title": "Attachment bonds between domestic cats and humans.",
+      "reason_zh": "实验研究（行为学/机制实验），不在 Hedges 临床研究类型内，按设计排除"
+     },
+     {
+      "pmid": "31076940",
+      "design": "实验",
+      "title": "Cats match voice and face: cross-modal representation of humans in cats (Felis catus).",
+      "reason_zh": "实验研究（行为学/机制实验），不在 Hedges 临床研究类型内，按设计排除；另外摘要/主题词里也没有本专题的检索词"
+     },
+     {
+      "pmid": "30948740",
+      "design": "实验",
+      "title": "Domestic cats (Felis catus) discriminate their names from other words.",
+      "reason_zh": "实验研究（行为学/机制实验），不在 Hedges 临床研究类型内，按设计排除；另外摘要/主题词里也没有本专题的检索词"
+     },
+     {
+      "pmid": "25883356",
+      "design": "实验",
+      "title": "Social evolution. Oxytocin-gaze positive loop and the coevolution of human-dog bonds.",
+      "reason_zh": "实验研究（行为学/机制实验），不在 Hedges 临床研究类型内，按设计排除"
+     }
+    ],
+    "old_query": {
+     "recall": "7/11",
+     "est_weekly": 5.5,
+     "last_4wk": 12,
+     "note": "旧式：topics.json 现有 pubmed_query + ingest.py 包装（仅 MeSH 物种、无研究类型过滤）"
+    },
+    "counted_with_children": [
+     "cognition",
+     "cognitive_dysfunction"
+    ],
+    "wildcards": 11,
+    "url_length_get": 5224
+   }
+  },
+  {
+   "id": "cognition",
+   "name_zh": "认知与人宠关系",
+   "name_en": "Cognition & human-animal bond",
+   "parent": "behavior",
+   "pubmed_query": "((\"Dogs\"[MeSH] OR \"Cats\"[MeSH] OR \"Dog Diseases\"[MeSH] OR \"Cat Diseases\"[MeSH] OR dog[ti] OR dogs[ti] OR canine[ti] OR cat[ti] OR cats[ti] OR feline[ti] OR puppy[ti] OR puppies[ti] OR kitten[ti] OR kittens[ti] OR ((dog[tiab] OR dogs[tiab] OR canine[tiab] OR cats[tiab] OR feline[tiab]) AND (veterinar*[tiab] OR \"client-owned\"[tiab] OR \"J Vet Intern Med\"[ta] OR \"J Feline Med Surg\"[ta] OR \"J Am Vet Med Assoc\"[ta] OR \"Vet J\"[ta] OR \"J Small Anim Pract\"[ta] OR \"Front Vet Sci\"[ta] OR \"Vet Rec\"[ta] OR \"J Vet Cardiol\"[ta] OR \"Am J Vet Res\"[ta] OR \"Vet Clin Pathol\"[ta] OR \"J Vet Emerg Crit Care (San Antonio)\"[ta] OR \"Vet Radiol Ultrasound\"[ta] OR \"Vet Anaesth Analg\"[ta] OR \"J Vet Med Sci\"[ta] OR \"Vet Dermatol\"[ta] OR \"J Am Anim Hosp Assoc\"[ta] OR \"Vet Sci\"[ta] OR \"Vet Med Sci\"[ta] OR \"Res Vet Sci\"[ta] OR \"Prev Vet Med\"[ta] OR \"BMC Vet Res\"[ta] OR \"Vet Comp Orthop Traumatol\"[ta] OR \"Vet Surg\"[ta] OR \"Vet Ophthalmol\"[ta] OR \"J Feline Med Surg Open Rep\"[ta] OR \"Vet Res Commun\"[ta] OR \"Top Companion Anim Med\"[ta] OR \"Appl Anim Behav Sci\"[ta] OR \"J Vet Behav\"[ta]))) AND (\"Cognition\"[MeSH] OR \"Animal Communication\"[MeSH] OR \"Recognition, Psychology\"[MeSH] OR \"Social Behavior\"[MeSH] OR \"Human-Animal Bond\"[MeSH] OR \"Object Attachment\"[MeSH] OR cognit*[tiab] OR \"human-animal bond\"[tiab] OR \"human-dog\"[tiab] OR \"human-cat\"[tiab] OR \"dog-human\"[tiab] OR \"cat-human\"[tiab] OR attachment[tiab] OR oxytocin[tiab] OR \"social learning\"[tiab] OR \"environmental needs\"[tiab] OR \"environmental enrichment\"[tiab]) AND (((clinical[tiab] AND trial[tiab]) OR \"Clinical Trials as Topic\"[MeSH] OR \"Clinical Trial\"[pt] OR random*[tiab] OR \"Random Allocation\"[MeSH] OR \"therapeutic use\"[sh]) OR (\"Randomized Controlled Trial\"[pt] OR \"Randomized Controlled Trial, Veterinary\"[pt] OR ((randomized[tiab] OR randomised[tiab]) AND controlled[tiab] AND trial[tiab])) OR (sensitiv*[tiab] OR \"Sensitivity and Specificity\"[MeSH] OR diagnose[tiab] OR diagnosed[tiab] OR diagnoses[tiab] OR diagnosing[tiab] OR diagnosis[tiab] OR diagnostic[tiab] OR \"diagnosis\"[MeSH:noexp] OR \"diagnostic equipment\"[MeSH:noexp] OR \"diagnostic errors\"[MeSH:noexp] OR \"diagnostic imaging\"[MeSH:noexp] OR \"diagnostic services\"[MeSH:noexp] OR \"diagnosis, differential\"[MeSH:noexp] OR \"diagnosis\"[sh:noexp]) OR (risk*[tiab] OR risk*[MeSH:noexp] OR \"risk adjustment\"[MeSH:noexp] OR \"risk assessment\"[MeSH:noexp] OR \"risk factors\"[MeSH:noexp] OR \"risk management\"[MeSH:noexp] OR \"risk taking\"[MeSH:noexp] OR \"Cohort Studies\"[MeSH] OR group[tw] OR groups[tw] OR grouped[tw]) OR (\"incidence\"[MeSH:noexp] OR \"mortality\"[MeSH] OR \"follow up studies\"[MeSH:noexp] OR prognos*[tw] OR predict*[tw] OR course*[tw]) OR (predict*[tiab] OR \"predictive value of tests\"[MeSH] OR score[tiab] OR scores[tiab] OR \"scoring system\"[tiab] OR \"scoring systems\"[tiab] OR observ*[tiab] OR \"observer variation\"[MeSH]) OR (systematic[sb] OR \"Meta-Analysis\"[pt] OR meta-analy*[ti] OR \"systematic review\"[tiab]) OR (\"Practice Guideline\"[pt] OR \"Guideline\"[pt] OR \"Consensus\"[pt] OR \"Consensus Development Conference\"[pt] OR guideline*[ti] OR consensus[ti] OR recommendation*[ti] OR \"task force\"[ti] OR \"position statement\"[ti]) OR (\"Observational Study, Veterinary\"[pt]) OR (\"Clinical Trial, Veterinary\"[pt]))) NOT (\"Case Reports\"[pt] OR \"Editorial\"[pt] OR \"Letter\"[pt] OR \"Comment\"[pt] OR \"News\"[pt] OR \"Published Erratum\"[pt] OR \"Retracted Publication\"[pt] OR \"Retraction of Publication\"[pt]) NOT (((\"Humans\"[MeSH] NOT \"Animals\"[MeSH]) OR ((rat[ti] OR rats[ti] OR mice[ti] OR mouse[ti] OR murine[ti] OR patients[ti] OR children[ti] OR women[ti]) NOT (\"Dogs\"[MeSH] OR \"Cats\"[MeSH] OR \"Dog Diseases\"[MeSH] OR \"Cat Diseases\"[MeSH] OR dog[ti] OR dogs[ti] OR canine[ti] OR cat[ti] OR cats[ti] OR feline[ti] OR puppy[ti] OR puppies[ti] OR kitten[ti] OR kittens[ti]))) OR ((orthodont*[tiab] OR \"canine retraction\"[tiab] OR \"impacted canine\"[tiab] OR \"maxillary canine\"[tiab] OR \"canine tooth\"[ti] OR EORTC[tiab] OR \"PEDI-CAT\"[tiab] OR \"computerized adaptive test\"[tiab] OR \"cat eye syndrome\"[tiab]) NOT (\"Dogs\"[MeSH] OR \"Cats\"[MeSH] OR \"Dog Diseases\"[MeSH] OR \"Cat Diseases\"[MeSH]))) AND (hasabstract OR (\"Practice Guideline\"[pt] OR \"Guideline\"[pt] OR \"Consensus\"[pt] OR \"Consensus Development Conference\"[pt] OR guideline*[ti] OR consensus[ti] OR recommendation*[ti] OR \"task force\"[ti] OR \"position statement\"[ti]))",
+   "inherits_children": null,
+   "filter_set": "broad",
+   "filter_source": [
+    "PubMed Clinical Queries Therapy/Broad；Haynes RB 等 BMJ 2005（PMID 15894554）",
+    "同上 Therapy/Narrow，兽医改写：加 \"Randomized Controlled Trial, Veterinary\"[pt]（NLM 兽医发布类型，兽医 RCT 不标人用 RCT 类型）和英式拼写 randomised",
+    "PubMed Clinical Queries Diagnosis/Broad；同上（PMID 15073027）",
+    "PubMed Clinical Queries Etiology/Broad；同上（PMID 14728267）",
+    "PubMed Clinical Queries Prognosis/Broad；同上（PMID 15189561）",
+    "PubMed Clinical Queries Clinical Prediction Guides/Broad；同上（PMID 14728269）",
+    "PubMed Systematic Review 过滤 systematic[sb]（PubMed 帮助页）+ Montori VM 等 BMJ 2005;330:68（PMID 15619601）的 meta-analysis[pt]/\"systematic review\" 词；补 meta-analy*[ti]（库内 39858209 未被 systematic[sb] 收录）",
+    "NLM 发布类型 Practice Guideline / Guideline / Consensus / Consensus Development Conference + 题名 guideline*/consensus/recommendation*/\"task force\"/\"position statement\"（后三个词 2026-11-10 按 IVETF 2015 系列验证补入：其中 2 篇题名用 recommendations、未标 Consensus 发布类型）",
+    "NLM 发布类型 \"Observational Study, Veterinary\"",
+    "NLM 发布类型 \"Clinical Trial, Veterinary\""
+   ],
+   "validation": {
+    "window_edat": "2025/11/10–2026/11/10",
+    "count_12mo": 280,
+    "est_weekly": 5.4,
+    "last_4wk": 22,
+    "recall_n": 5,
+    "recall_N": 9,
+    "recall_scope": "本库该专题全部有 PMID 文章（seed_library_v6 的 topics 标签；不含无 PMID 的 IRIS 2026）；不限日期",
+    "recall_in_scope": "5/5（漏检的都是 Hedges 不覆盖的设计）",
+    "missed": [
+     {
+      "pmid": "31550468",
+      "design": "实验",
+      "title": "Attachment bonds between domestic cats and humans.",
+      "reason_zh": "实验研究（行为学/机制实验），不在 Hedges 临床研究类型内，按设计排除"
+     },
+     {
+      "pmid": "31076940",
+      "design": "实验",
+      "title": "Cats match voice and face: cross-modal representation of humans in cats (Felis catus).",
+      "reason_zh": "实验研究（行为学/机制实验），不在 Hedges 临床研究类型内，按设计排除；另外摘要/主题词里也没有本专题的检索词"
+     },
+     {
+      "pmid": "30948740",
+      "design": "实验",
+      "title": "Domestic cats (Felis catus) discriminate their names from other words.",
+      "reason_zh": "实验研究（行为学/机制实验），不在 Hedges 临床研究类型内，按设计排除；另外摘要/主题词里也没有本专题的检索词"
+     },
+     {
+      "pmid": "25883356",
+      "design": "实验",
+      "title": "Social evolution. Oxytocin-gaze positive loop and the coevolution of human-dog bonds.",
+      "reason_zh": "实验研究（行为学/机制实验），不在 Hedges 临床研究类型内，按设计排除"
+     }
+    ],
+    "old_query": {
+     "recall": "5/9",
+     "est_weekly": 1.6,
+     "last_4wk": 3,
+     "note": "旧式：topics.json 现有 pubmed_query + ingest.py 包装（仅 MeSH 物种、无研究类型过滤）"
+    },
+    "wildcards": 17,
+    "url_length_get": 6809
+   },
+   "weekly_feed_rule_zh": "实验研究可以进专题文献库，但不进每周「本期新增」，随机分组的实验除外。",
+   "filter_decision_zh": "2026-11-10 复核裁定：改用 broad（敏感）档；只改这一个专题。"
+  },
+  {
+   "id": "cognitive_dysfunction",
+   "name_zh": "认知功能障碍/焦虑",
+   "name_en": "Cognitive dysfunction & anxiety",
+   "parent": "behavior",
+   "pubmed_query": "((\"Dogs\"[MeSH] OR \"Cats\"[MeSH] OR \"Dog Diseases\"[MeSH] OR \"Cat Diseases\"[MeSH] OR dog[ti] OR dogs[ti] OR canine[ti] OR cat[ti] OR cats[ti] OR feline[ti] OR puppy[ti] OR puppies[ti] OR kitten[ti] OR kittens[ti] OR ((dog[tiab] OR dogs[tiab] OR canine[tiab] OR cats[tiab] OR feline[tiab]) AND (veterinar*[tiab] OR \"client-owned\"[tiab] OR \"J Vet Intern Med\"[ta] OR \"J Feline Med Surg\"[ta] OR \"J Am Vet Med Assoc\"[ta] OR \"Vet J\"[ta] OR \"J Small Anim Pract\"[ta] OR \"Front Vet Sci\"[ta] OR \"Vet Rec\"[ta] OR \"J Vet Cardiol\"[ta] OR \"Am J Vet Res\"[ta] OR \"Vet Clin Pathol\"[ta] OR \"J Vet Emerg Crit Care (San Antonio)\"[ta] OR \"Vet Radiol Ultrasound\"[ta] OR \"Vet Anaesth Analg\"[ta] OR \"J Vet Med Sci\"[ta] OR \"Vet Dermatol\"[ta] OR \"J Am Anim Hosp Assoc\"[ta] OR \"Vet Sci\"[ta] OR \"Vet Med Sci\"[ta] OR \"Res Vet Sci\"[ta] OR \"Prev Vet Med\"[ta] OR \"BMC Vet Res\"[ta] OR \"Vet Comp Orthop Traumatol\"[ta] OR \"Vet Surg\"[ta] OR \"Vet Ophthalmol\"[ta] OR \"J Feline Med Surg Open Rep\"[ta] OR \"Vet Res Commun\"[ta] OR \"Top Companion Anim Med\"[ta] OR \"Appl Anim Behav Sci\"[ta] OR \"J Vet Behav\"[ta]))) AND (\"Cognitive Dysfunction\"[MeSH] OR \"Anxiety\"[MeSH] OR \"Anxiety Disorders\"[MeSH] OR \"Fear\"[MeSH] OR \"cognitive dysfunction\"[tiab] OR \"cognitive decline\"[tiab] OR \"cognitive impairment\"[tiab] OR dementia[tiab] OR anxiety[tiab] OR anxious[tiab] OR fear*[tiab] OR \"separation-related\"[tiab] OR \"noise sensitivity\"[tiab] OR \"noise aversion\"[tiab]) AND (((clinical[tiab] AND trial[tiab]) OR \"Clinical Trials as Topic\"[MeSH] OR \"Clinical Trial\"[pt] OR random*[tiab] OR \"Random Allocation\"[MeSH] OR \"therapeutic use\"[sh]) OR (\"Randomized Controlled Trial\"[pt] OR \"Randomized Controlled Trial, Veterinary\"[pt] OR ((randomized[tiab] OR randomised[tiab]) AND controlled[tiab] AND trial[tiab])) OR (specificity[tiab]) OR ((relative[tiab] AND risk*[tiab]) OR \"relative risk\"[tw] OR risks[tw] OR \"Cohort Studies\"[MeSH:noexp] OR (cohort[tiab] AND study[tiab]) OR (cohort[tiab] AND studies[tiab])) OR (\"incidence\"[MeSH:noexp] OR \"mortality\"[MeSH] OR \"follow up studies\"[MeSH:noexp] OR prognos*[tw] OR predict*[tw] OR course*[tw]) OR (validation[tiab] OR validate[tiab]) OR (systematic[sb] OR \"Meta-Analysis\"[pt] OR meta-analy*[ti] OR \"systematic review\"[tiab]) OR (\"Practice Guideline\"[pt] OR \"Guideline\"[pt] OR \"Consensus\"[pt] OR \"Consensus Development Conference\"[pt] OR guideline*[ti] OR consensus[ti] OR recommendation*[ti] OR \"task force\"[ti] OR \"position statement\"[ti]) OR (\"Observational Study, Veterinary\"[pt]) OR (\"Clinical Trial, Veterinary\"[pt]))) NOT (\"Case Reports\"[pt] OR \"Editorial\"[pt] OR \"Letter\"[pt] OR \"Comment\"[pt] OR \"News\"[pt] OR \"Published Erratum\"[pt] OR \"Retracted Publication\"[pt] OR \"Retraction of Publication\"[pt]) NOT (((\"Humans\"[MeSH] NOT \"Animals\"[MeSH]) OR ((rat[ti] OR rats[ti] OR mice[ti] OR mouse[ti] OR murine[ti] OR patients[ti] OR children[ti] OR women[ti]) NOT (\"Dogs\"[MeSH] OR \"Cats\"[MeSH] OR \"Dog Diseases\"[MeSH] OR \"Cat Diseases\"[MeSH] OR dog[ti] OR dogs[ti] OR canine[ti] OR cat[ti] OR cats[ti] OR feline[ti] OR puppy[ti] OR puppies[ti] OR kitten[ti] OR kittens[ti]))) OR ((orthodont*[tiab] OR \"canine retraction\"[tiab] OR \"impacted canine\"[tiab] OR \"maxillary canine\"[tiab] OR \"canine tooth\"[ti] OR EORTC[tiab] OR \"PEDI-CAT\"[tiab] OR \"computerized adaptive test\"[tiab] OR \"cat eye syndrome\"[tiab]) NOT (\"Dogs\"[MeSH] OR \"Cats\"[MeSH] OR \"Dog Diseases\"[MeSH] OR \"Cat Diseases\"[MeSH]))) AND (hasabstract OR (\"Practice Guideline\"[pt] OR \"Guideline\"[pt] OR \"Consensus\"[pt] OR \"Consensus Development Conference\"[pt] OR guideline*[ti] OR consensus[ti] OR recommendation*[ti] OR \"task force\"[ti] OR \"position statement\"[ti]))",
+   "inherits_children": null,
+   "filter_set": "hybrid",
+   "filter_source": [
+    "PubMed Clinical Queries Therapy/Broad；Haynes RB 等 BMJ 2005（PMID 15894554）",
+    "同上 Therapy/Narrow，兽医改写：加 \"Randomized Controlled Trial, Veterinary\"[pt]（NLM 兽医发布类型，兽医 RCT 不标人用 RCT 类型）和英式拼写 randomised",
+    "PubMed Clinical Queries Diagnosis/Narrow；Haynes RB, Wilczynski NL. BMJ 2004;328:1040（PMID 15073027）",
+    "PubMed Clinical Queries Etiology/Narrow；Wilczynski NL, Haynes RB. AMIA 2003:719-23（PMID 14728267）",
+    "PubMed Clinical Queries Prognosis/Broad；同上（PMID 15189561）",
+    "PubMed Clinical Queries Clinical Prediction Guides/Narrow；Wong SS 等 AMIA 2003:728-32（PMID 14728269）",
+    "PubMed Systematic Review 过滤 systematic[sb]（PubMed 帮助页）+ Montori VM 等 BMJ 2005;330:68（PMID 15619601）的 meta-analysis[pt]/\"systematic review\" 词；补 meta-analy*[ti]（库内 39858209 未被 systematic[sb] 收录）",
+    "NLM 发布类型 Practice Guideline / Guideline / Consensus / Consensus Development Conference + 题名 guideline*/consensus/recommendation*/\"task force\"/\"position statement\"（后三个词 2026-11-10 按 IVETF 2015 系列验证补入：其中 2 篇题名用 recommendations、未标 Consensus 发布类型）",
+    "NLM 发布类型 \"Observational Study, Veterinary\"",
+    "NLM 发布类型 \"Clinical Trial, Veterinary\""
+   ],
+   "validation": {
+    "window_edat": "2025/11/10–2026/11/10",
+    "count_12mo": 92,
+    "est_weekly": 1.8,
+    "last_4wk": 9,
+    "recall_n": 2,
+    "recall_N": 2,
+    "recall_scope": "本库该专题全部有 PMID 文章（seed_library_v6 的 topics 标签；不含无 PMID 的 IRIS 2026）；不限日期",
+    "recall_in_scope": "2/2（漏检的都是 Hedges 不覆盖的设计）",
+    "missed": [],
+    "old_query": {
+     "recall": "2/2",
+     "est_weekly": 1.0,
+     "last_4wk": 2,
+     "note": "旧式：topics.json 现有 pubmed_query + ingest.py 包装（仅 MeSH 物种、无研究类型过滤）"
+    },
+    "wildcards": 13,
+    "url_length_get": 5748
+   }
+  },
+  {
+   "id": "epidemiology",
+   "name_zh": "流行病学与预防医学",
+   "name_en": "Epidemiology & Preventive Medicine",
+   "parent": null,
+   "pubmed_query": "((\"Dogs\"[MeSH] OR \"Cats\"[MeSH] OR \"Dog Diseases\"[MeSH] OR \"Cat Diseases\"[MeSH] OR dog[ti] OR dogs[ti] OR canine[ti] OR cat[ti] OR cats[ti] OR feline[ti] OR puppy[ti] OR puppies[ti] OR kitten[ti] OR kittens[ti] OR ((dog[tiab] OR dogs[tiab] OR canine[tiab] OR cats[tiab] OR feline[tiab]) AND (veterinar*[tiab] OR \"client-owned\"[tiab] OR \"J Vet Intern Med\"[ta] OR \"J Feline Med Surg\"[ta] OR \"J Am Vet Med Assoc\"[ta] OR \"Vet J\"[ta] OR \"J Small Anim Pract\"[ta] OR \"Front Vet Sci\"[ta] OR \"Vet Rec\"[ta] OR \"J Vet Cardiol\"[ta] OR \"Am J Vet Res\"[ta] OR \"Vet Clin Pathol\"[ta] OR \"J Vet Emerg Crit Care (San Antonio)\"[ta] OR \"Vet Radiol Ultrasound\"[ta] OR \"Vet Anaesth Analg\"[ta] OR \"J Vet Med Sci\"[ta] OR \"Vet Dermatol\"[ta] OR \"J Am Anim Hosp Assoc\"[ta] OR \"Vet Sci\"[ta] OR \"Vet Med Sci\"[ta] OR \"Res Vet Sci\"[ta] OR \"Prev Vet Med\"[ta] OR \"BMC Vet Res\"[ta] OR \"Vet Comp Orthop Traumatol\"[ta] OR \"Vet Surg\"[ta] OR \"Vet Ophthalmol\"[ta] OR \"J Feline Med Surg Open Rep\"[ta] OR \"Vet Res Commun\"[ta] OR \"Top Companion Anim Med\"[ta] OR \"Appl Anim Behav Sci\"[ta] OR \"J Vet Behav\"[ta]))) AND (\"Prevalence\"[MeSH] OR \"Incidence\"[MeSH] OR \"Life Expectancy\"[MeSH] OR \"Cause of Death\"[MeSH] OR \"Longevity\"[MeSH] OR prevalence[tiab] OR incidence[tiab] OR \"life expectancy\"[tiab] OR \"life table\"[tiab] OR longevity[tiab] OR lifespan[tiab] OR \"life span\"[tiab] OR \"causes of death\"[tiab] OR \"cause of death\"[tiab] OR \"morbidity pattern\"[tiab] OR insured[tiab] OR insurance[tiab] OR VetCompass[tiab] OR \"primary-care\"[tiab] OR \"primary care\"[tiab] OR epizootic[tiab] OR epidemiolog*[tiab]) AND ((\"Randomized Controlled Trial\"[pt] OR \"Randomized Controlled Trial, Veterinary\"[pt] OR ((randomized[tiab] OR randomised[tiab]) AND controlled[tiab] AND trial[tiab])) OR (specificity[tiab]) OR (validation[tiab] OR validate[tiab]) OR (systematic[sb] OR \"Meta-Analysis\"[pt] OR meta-analy*[ti] OR \"systematic review\"[tiab]) OR (\"Practice Guideline\"[pt] OR \"Guideline\"[pt] OR \"Consensus\"[pt] OR \"Consensus Development Conference\"[pt] OR guideline*[ti] OR consensus[ti] OR recommendation*[ti] OR \"task force\"[ti] OR \"position statement\"[ti]) OR (\"Observational Study, Veterinary\"[pt]) OR (prevalence[ti] OR incidence[ti] OR morbidity[ti] OR mortality[ti] OR \"life table\"[tiab] OR \"life tables\"[tiab] OR \"life expectancy\"[ti] OR longevity[ti] OR \"causes of death\"[ti] OR \"cause of death\"[ti] OR insured[ti] OR insurance[ti] OR VetCompass[tiab]))) NOT (\"Case Reports\"[pt] OR \"Editorial\"[pt] OR \"Letter\"[pt] OR \"Comment\"[pt] OR \"News\"[pt] OR \"Published Erratum\"[pt] OR \"Retracted Publication\"[pt] OR \"Retraction of Publication\"[pt]) NOT (((\"Humans\"[MeSH] NOT \"Animals\"[MeSH]) OR ((rat[ti] OR rats[ti] OR mice[ti] OR mouse[ti] OR murine[ti] OR patients[ti] OR children[ti] OR women[ti]) NOT (\"Dogs\"[MeSH] OR \"Cats\"[MeSH] OR \"Dog Diseases\"[MeSH] OR \"Cat Diseases\"[MeSH] OR dog[ti] OR dogs[ti] OR canine[ti] OR cat[ti] OR cats[ti] OR feline[ti] OR puppy[ti] OR puppies[ti] OR kitten[ti] OR kittens[ti]))) OR ((orthodont*[tiab] OR \"canine retraction\"[tiab] OR \"impacted canine\"[tiab] OR \"maxillary canine\"[tiab] OR \"canine tooth\"[ti] OR EORTC[tiab] OR \"PEDI-CAT\"[tiab] OR \"computerized adaptive test\"[tiab] OR \"cat eye syndrome\"[tiab]) NOT (\"Dogs\"[MeSH] OR \"Cats\"[MeSH] OR \"Dog Diseases\"[MeSH] OR \"Cat Diseases\"[MeSH]))) AND (hasabstract OR (\"Practice Guideline\"[pt] OR \"Guideline\"[pt] OR \"Consensus\"[pt] OR \"Consensus Development Conference\"[pt] OR guideline*[ti] OR consensus[ti] OR recommendation*[ti] OR \"task force\"[ti] OR \"position statement\"[ti]))",
+   "inherits_children": null,
+   "filter_set": "narrow_core+prevalence",
+   "filter_source": [
+    "同上 Therapy/Narrow，兽医改写：加 \"Randomized Controlled Trial, Veterinary\"[pt]（NLM 兽医发布类型，兽医 RCT 不标人用 RCT 类型）和英式拼写 randomised",
+    "PubMed Clinical Queries Diagnosis/Narrow；Haynes RB, Wilczynski NL. BMJ 2004;328:1040（PMID 15073027）",
+    "PubMed Clinical Queries Clinical Prediction Guides/Narrow；Wong SS 等 AMIA 2003:728-32（PMID 14728269）",
+    "PubMed Systematic Review 过滤 systematic[sb]（PubMed 帮助页）+ Montori VM 等 BMJ 2005;330:68（PMID 15619601）的 meta-analysis[pt]/\"systematic review\" 词；补 meta-analy*[ti]（库内 39858209 未被 systematic[sb] 收录）",
+    "NLM 发布类型 Practice Guideline / Guideline / Consensus / Consensus Development Conference + 题名 guideline*/consensus/recommendation*/\"task force\"/\"position statement\"（后三个词 2026-11-10 按 IVETF 2015 系列验证补入：其中 2 篇题名用 recommendations、未标 Consensus 发布类型）",
+    "NLM 发布类型 \"Observational Study, Veterinary\"",
+    "患病率/发病率/寿命/死因/保险数据题名词；依据：本站患病率与预后问题按 Iorio 2015 从“高”起评、用 JBI 患病率清单，Hedges 无对应过滤，属本站补充"
+   ],
+   "validation": {
+    "window_edat": "2025/11/10–2026/11/10",
+    "count_12mo": 382,
+    "est_weekly": 7.3,
+    "last_4wk": 23,
+    "recall_n": 3,
+    "recall_N": 4,
+    "recall_scope": "本库该专题全部有 PMID 文章（seed_library_v6 的 topics 标签；不含无 PMID 的 IRIS 2026）；不限日期",
+    "recall_in_scope": "3/3（漏检的都是 Hedges 不覆盖的设计）",
+    "missed": [
+     {
+      "pmid": "40633571",
+      "design": "分子流行病学/基因组研究",
+      "title": "Feline infectious peritonitis epizootic caused by a recombinant coronavirus.",
+      "reason_zh": "分子流行病学/基因组研究，不在 Hedges 临床研究类型内，按设计排除"
+     }
+    ],
+    "old_query": {
+     "recall": "2/4",
+     "est_weekly": 8.7,
+     "last_4wk": 23,
+     "note": "旧式：topics.json 现有 pubmed_query + ingest.py 包装（仅 MeSH 物种、无研究类型过滤）"
+    },
+    "wildcards": 8,
+    "url_length_get": 5569
+   }
+  },
+  {
+   "id": "neurology",
+   "name_zh": "神经病学",
+   "name_en": "Neurology",
+   "parent": null,
+   "pubmed_query": "((\"Dogs\"[MeSH] OR \"Cats\"[MeSH] OR \"Dog Diseases\"[MeSH] OR \"Cat Diseases\"[MeSH] OR dog[ti] OR dogs[ti] OR canine[ti] OR cat[ti] OR cats[ti] OR feline[ti] OR puppy[ti] OR puppies[ti] OR kitten[ti] OR kittens[ti] OR ((dog[tiab] OR dogs[tiab] OR canine[tiab] OR cats[tiab] OR feline[tiab]) AND (veterinar*[tiab] OR \"client-owned\"[tiab] OR \"J Vet Intern Med\"[ta] OR \"J Feline Med Surg\"[ta] OR \"J Am Vet Med Assoc\"[ta] OR \"Vet J\"[ta] OR \"J Small Anim Pract\"[ta] OR \"Front Vet Sci\"[ta] OR \"Vet Rec\"[ta] OR \"J Vet Cardiol\"[ta] OR \"Am J Vet Res\"[ta] OR \"Vet Clin Pathol\"[ta] OR \"J Vet Emerg Crit Care (San Antonio)\"[ta] OR \"Vet Radiol Ultrasound\"[ta] OR \"Vet Anaesth Analg\"[ta] OR \"J Vet Med Sci\"[ta] OR \"Vet Dermatol\"[ta] OR \"J Am Anim Hosp Assoc\"[ta] OR \"Vet Sci\"[ta] OR \"Vet Med Sci\"[ta] OR \"Res Vet Sci\"[ta] OR \"Prev Vet Med\"[ta] OR \"BMC Vet Res\"[ta] OR \"Vet Comp Orthop Traumatol\"[ta] OR \"Vet Surg\"[ta] OR \"Vet Ophthalmol\"[ta] OR \"J Feline Med Surg Open Rep\"[ta] OR \"Vet Res Commun\"[ta] OR \"Top Companion Anim Med\"[ta] OR \"Appl Anim Behav Sci\"[ta] OR \"J Vet Behav\"[ta]))) AND (\"Nervous System Diseases\"[MeSH] OR neurolog*[tiab] OR seizure*[tiab] OR epilep*[tiab] OR \"intervertebral disc\"[tiab] OR myelopath*[tiab] OR meningoencephal*[tiab] OR encephal*[tiab] OR \"spinal cord\"[tiab] OR brain[tiab] OR neuropath*[tiab] OR vestibular[tiab] OR Chiari[tiab] OR syringomyelia[tiab] OR \"cognitive dysfunction\"[tiab]) AND ((\"Randomized Controlled Trial\"[pt] OR \"Randomized Controlled Trial, Veterinary\"[pt] OR ((randomized[tiab] OR randomised[tiab]) AND controlled[tiab] AND trial[tiab])) OR (specificity[tiab]) OR ((relative[tiab] AND risk*[tiab]) OR \"relative risk\"[tw] OR risks[tw] OR \"Cohort Studies\"[MeSH:noexp] OR (cohort[tiab] AND study[tiab]) OR (cohort[tiab] AND studies[tiab])) OR (prognos*[tiab] OR (first[tiab] AND episode[tiab]) OR cohort[tiab]) OR (validation[tiab] OR validate[tiab]) OR (systematic[sb] OR \"Meta-Analysis\"[pt] OR meta-analy*[ti] OR \"systematic review\"[tiab]) OR (\"Practice Guideline\"[pt] OR \"Guideline\"[pt] OR \"Consensus\"[pt] OR \"Consensus Development Conference\"[pt] OR guideline*[ti] OR consensus[ti] OR recommendation*[ti] OR \"task force\"[ti] OR \"position statement\"[ti]) OR (\"Observational Study, Veterinary\"[pt]))) NOT (\"Case Reports\"[pt] OR \"Editorial\"[pt] OR \"Letter\"[pt] OR \"Comment\"[pt] OR \"News\"[pt] OR \"Published Erratum\"[pt] OR \"Retracted Publication\"[pt] OR \"Retraction of Publication\"[pt]) NOT (((\"Humans\"[MeSH] NOT \"Animals\"[MeSH]) OR ((rat[ti] OR rats[ti] OR mice[ti] OR mouse[ti] OR murine[ti] OR patients[ti] OR children[ti] OR women[ti]) NOT (\"Dogs\"[MeSH] OR \"Cats\"[MeSH] OR \"Dog Diseases\"[MeSH] OR \"Cat Diseases\"[MeSH] OR dog[ti] OR dogs[ti] OR canine[ti] OR cat[ti] OR cats[ti] OR feline[ti] OR puppy[ti] OR puppies[ti] OR kitten[ti] OR kittens[ti]))) OR ((orthodont*[tiab] OR \"canine retraction\"[tiab] OR \"impacted canine\"[tiab] OR \"maxillary canine\"[tiab] OR \"canine tooth\"[ti] OR EORTC[tiab] OR \"PEDI-CAT\"[tiab] OR \"computerized adaptive test\"[tiab] OR \"cat eye syndrome\"[tiab]) NOT (\"Dogs\"[MeSH] OR \"Cats\"[MeSH] OR \"Dog Diseases\"[MeSH] OR \"Cat Diseases\"[MeSH]))) AND (hasabstract OR (\"Practice Guideline\"[pt] OR \"Guideline\"[pt] OR \"Consensus\"[pt] OR \"Consensus Development Conference\"[pt] OR guideline*[ti] OR consensus[ti] OR recommendation*[ti] OR \"task force\"[ti] OR \"position statement\"[ti]))",
+   "inherits_children": null,
+   "filter_set": "narrow",
+   "filter_source": [
+    "同上 Therapy/Narrow，兽医改写：加 \"Randomized Controlled Trial, Veterinary\"[pt]（NLM 兽医发布类型，兽医 RCT 不标人用 RCT 类型）和英式拼写 randomised",
+    "PubMed Clinical Queries Diagnosis/Narrow；Haynes RB, Wilczynski NL. BMJ 2004;328:1040（PMID 15073027）",
+    "PubMed Clinical Queries Etiology/Narrow；Wilczynski NL, Haynes RB. AMIA 2003:719-23（PMID 14728267）",
+    "PubMed Clinical Queries Prognosis/Narrow；Wilczynski NL, Haynes RB. BMC Med 2004;2:23（PMID 15189561）",
+    "PubMed Clinical Queries Clinical Prediction Guides/Narrow；Wong SS 等 AMIA 2003:728-32（PMID 14728269）",
+    "PubMed Systematic Review 过滤 systematic[sb]（PubMed 帮助页）+ Montori VM 等 BMJ 2005;330:68（PMID 15619601）的 meta-analysis[pt]/\"systematic review\" 词；补 meta-analy*[ti]（库内 39858209 未被 systematic[sb] 收录）",
+    "NLM 发布类型 Practice Guideline / Guideline / Consensus / Consensus Development Conference + 题名 guideline*/consensus/recommendation*/\"task force\"/\"position statement\"（后三个词 2026-11-10 按 IVETF 2015 系列验证补入：其中 2 篇题名用 recommendations、未标 Consensus 发布类型）",
+    "NLM 发布类型 \"Observational Study, Veterinary\""
+   ],
+   "validation": {
+    "window_edat": "2025/11/10–2026/11/10",
+    "count_12mo": 181,
+    "est_weekly": 3.5,
+    "last_4wk": 13,
+    "recall_n": 0,
+    "recall_N": 1,
+    "recall_scope": "本库该专题全部有 PMID 文章（seed_library_v6 的 topics 标签；不含无 PMID 的 IRIS 2026）；不限日期",
+    "recall_in_scope": "0/0（漏检的都是 Hedges 不覆盖的设计）",
+    "missed": [
+     {
+      "pmid": "32441826",
+      "design": "病例系列",
+      "title": "Antiviral treatment using the adenosine nucleoside analogue GS-441524 in cats with clinically diagnosed neurological feline infectious peritonitis.",
+      "reason_zh": "无对照病例系列，PLUS 治疗类要求随机分组，按设计排除"
+     }
+    ],
+    "old_query": {
+     "recall": "0/1",
+     "est_weekly": 4.9,
+     "last_4wk": 11,
+     "note": "旧式：topics.json 现有 pubmed_query + ingest.py 包装（仅 MeSH 物种、无研究类型过滤）"
+    },
+    "wildcards": 16,
+    "url_length_get": 5312,
+    "external_test_set": {
+     "source": "IVETF 2015 共识系列（BMC Vet Res 2015，PubMed 检索 \"International Veterinary Epilepsy Task Force\" 得 8 篇）+ ACVIM 2015 犬癫痫发作管理共识（PMID 26899355）；不限日期",
+     "recall_n": 9,
+     "recall_N": 9,
+     "missed": [],
+     "before_tuning": {
+      "neurology": "7/9",
+      "_general": "6/9",
+      "missed": [
+       "26324339",
+       "26319136",
+       "26316206"
+      ],
+      "reason_zh": "26324339、26319136 题名用 recommendations，未标 Consensus 发布类型，旧指南条件只认 guideline/consensus；_general 另漏 26316206（题名 current understanding，未标 Consensus 发布类型，专题式靠 epilepsy 主题加 Hedges 预后/病因词命中）"
+     },
+     "tuning_zh": "指南条件加题名 recommendation*、\"task force\"、\"position statement\"；全部检索式统一更新。",
+     "items": {
+      "26316133": "IVETF 定义、分类和术语",
+      "26316175": "IVETF 犬癫痫诊断方法",
+      "26319136": "IVETF 癫痫专用 MRI 方案",
+      "26316233": "IVETF 欧洲犬癫痫药物治疗",
+      "26314300": "IVETF 犬猫治疗干预的结局",
+      "26316206": "IVETF 遗传性或疑似遗传性特发性癫痫",
+      "26324339": "IVETF 癫痫犬猫脑组织取样与处理",
+      "26316043": "IVETF 系列总述（定义、分类、诊断和治疗）",
+      "26899355": "2015 ACVIM 犬癫痫发作管理共识（Podell 等，J Vet Intern Med 2016）"
+     }
+    }
+   }
+  },
+  {
+   "id": "oncology",
+   "name_zh": "肿瘤学",
+   "name_en": "Oncology",
+   "parent": null,
+   "pubmed_query": "((\"Dogs\"[MeSH] OR \"Cats\"[MeSH] OR \"Dog Diseases\"[MeSH] OR \"Cat Diseases\"[MeSH] OR dog[ti] OR dogs[ti] OR canine[ti] OR cat[ti] OR cats[ti] OR feline[ti] OR puppy[ti] OR puppies[ti] OR kitten[ti] OR kittens[ti] OR ((dog[tiab] OR dogs[tiab] OR canine[tiab] OR cats[tiab] OR feline[tiab]) AND (veterinar*[tiab] OR \"client-owned\"[tiab] OR \"J Vet Intern Med\"[ta] OR \"J Feline Med Surg\"[ta] OR \"J Am Vet Med Assoc\"[ta] OR \"Vet J\"[ta] OR \"J Small Anim Pract\"[ta] OR \"Front Vet Sci\"[ta] OR \"Vet Rec\"[ta] OR \"J Vet Cardiol\"[ta] OR \"Am J Vet Res\"[ta] OR \"Vet Clin Pathol\"[ta] OR \"J Vet Emerg Crit Care (San Antonio)\"[ta] OR \"Vet Radiol Ultrasound\"[ta] OR \"Vet Anaesth Analg\"[ta] OR \"J Vet Med Sci\"[ta] OR \"Vet Dermatol\"[ta] OR \"J Am Anim Hosp Assoc\"[ta] OR \"Vet Sci\"[ta] OR \"Vet Med Sci\"[ta] OR \"Res Vet Sci\"[ta] OR \"Prev Vet Med\"[ta] OR \"BMC Vet Res\"[ta] OR \"Vet Comp Orthop Traumatol\"[ta] OR \"Vet Surg\"[ta] OR \"Vet Ophthalmol\"[ta] OR \"J Feline Med Surg Open Rep\"[ta] OR \"Vet Res Commun\"[ta] OR \"Top Companion Anim Med\"[ta] OR \"Appl Anim Behav Sci\"[ta] OR \"J Vet Behav\"[ta]))) AND (\"Neoplasms\"[MeSH] OR neoplas*[tiab] OR tumor*[tiab] OR tumour*[tiab] OR cancer*[tiab] OR carcinoma*[tiab] OR sarcoma*[tiab] OR lymphoma*[tiab] OR \"mast cell\"[tiab] OR melanoma*[tiab] OR chemotherap*[tiab] OR oncolog*[tiab]) AND ((\"Randomized Controlled Trial\"[pt] OR \"Randomized Controlled Trial, Veterinary\"[pt] OR ((randomized[tiab] OR randomised[tiab]) AND controlled[tiab] AND trial[tiab])) OR (specificity[tiab]) OR ((relative[tiab] AND risk*[tiab]) OR \"relative risk\"[tw] OR risks[tw] OR \"Cohort Studies\"[MeSH:noexp] OR (cohort[tiab] AND study[tiab]) OR (cohort[tiab] AND studies[tiab])) OR (prognos*[tiab] OR (first[tiab] AND episode[tiab]) OR cohort[tiab]) OR (validation[tiab] OR validate[tiab]) OR (systematic[sb] OR \"Meta-Analysis\"[pt] OR meta-analy*[ti] OR \"systematic review\"[tiab]) OR (\"Practice Guideline\"[pt] OR \"Guideline\"[pt] OR \"Consensus\"[pt] OR \"Consensus Development Conference\"[pt] OR guideline*[ti] OR consensus[ti] OR recommendation*[ti] OR \"task force\"[ti] OR \"position statement\"[ti]) OR (\"Observational Study, Veterinary\"[pt]))) NOT (\"Case Reports\"[pt] OR \"Editorial\"[pt] OR \"Letter\"[pt] OR \"Comment\"[pt] OR \"News\"[pt] OR \"Published Erratum\"[pt] OR \"Retracted Publication\"[pt] OR \"Retraction of Publication\"[pt]) NOT (((\"Humans\"[MeSH] NOT \"Animals\"[MeSH]) OR ((rat[ti] OR rats[ti] OR mice[ti] OR mouse[ti] OR murine[ti] OR patients[ti] OR children[ti] OR women[ti]) NOT (\"Dogs\"[MeSH] OR \"Cats\"[MeSH] OR \"Dog Diseases\"[MeSH] OR \"Cat Diseases\"[MeSH] OR dog[ti] OR dogs[ti] OR canine[ti] OR cat[ti] OR cats[ti] OR feline[ti] OR puppy[ti] OR puppies[ti] OR kitten[ti] OR kittens[ti]))) OR ((orthodont*[tiab] OR \"canine retraction\"[tiab] OR \"impacted canine\"[tiab] OR \"maxillary canine\"[tiab] OR \"canine tooth\"[ti] OR EORTC[tiab] OR \"PEDI-CAT\"[tiab] OR \"computerized adaptive test\"[tiab] OR \"cat eye syndrome\"[tiab]) NOT (\"Dogs\"[MeSH] OR \"Cats\"[MeSH] OR \"Dog Diseases\"[MeSH] OR \"Cat Diseases\"[MeSH]))) AND (hasabstract OR (\"Practice Guideline\"[pt] OR \"Guideline\"[pt] OR \"Consensus\"[pt] OR \"Consensus Development Conference\"[pt] OR guideline*[ti] OR consensus[ti] OR recommendation*[ti] OR \"task force\"[ti] OR \"position statement\"[ti]))",
+   "inherits_children": null,
+   "filter_set": "narrow",
+   "filter_source": [
+    "同上 Therapy/Narrow，兽医改写：加 \"Randomized Controlled Trial, Veterinary\"[pt]（NLM 兽医发布类型，兽医 RCT 不标人用 RCT 类型）和英式拼写 randomised",
+    "PubMed Clinical Queries Diagnosis/Narrow；Haynes RB, Wilczynski NL. BMJ 2004;328:1040（PMID 15073027）",
+    "PubMed Clinical Queries Etiology/Narrow；Wilczynski NL, Haynes RB. AMIA 2003:719-23（PMID 14728267）",
+    "PubMed Clinical Queries Prognosis/Narrow；Wilczynski NL, Haynes RB. BMC Med 2004;2:23（PMID 15189561）",
+    "PubMed Clinical Queries Clinical Prediction Guides/Narrow；Wong SS 等 AMIA 2003:728-32（PMID 14728269）",
+    "PubMed Systematic Review 过滤 systematic[sb]（PubMed 帮助页）+ Montori VM 等 BMJ 2005;330:68（PMID 15619601）的 meta-analysis[pt]/\"systematic review\" 词；补 meta-analy*[ti]（库内 39858209 未被 systematic[sb] 收录）",
+    "NLM 发布类型 Practice Guideline / Guideline / Consensus / Consensus Development Conference + 题名 guideline*/consensus/recommendation*/\"task force\"/\"position statement\"（后三个词 2026-11-10 按 IVETF 2015 系列验证补入：其中 2 篇题名用 recommendations、未标 Consensus 发布类型）",
+    "NLM 发布类型 \"Observational Study, Veterinary\""
+   ],
+   "validation": {
+    "window_edat": "2025/11/10–2026/11/10",
+    "count_12mo": 425,
+    "est_weekly": 8.2,
+    "last_4wk": 40,
+    "recall_n": 0,
+    "recall_N": 0,
+    "recall_scope": "本库该专题全部有 PMID 文章（seed_library_v6 的 topics 标签；不含无 PMID 的 IRIS 2026）；不限日期",
+    "recall_in_scope": "0/0（漏检的都是 Hedges 不覆盖的设计）",
+    "missed": [],
+    "old_query": {
+     "recall": "0/0",
+     "est_weekly": 13.7,
+     "last_4wk": 36,
+     "note": "旧式：topics.json 现有 pubmed_query + ingest.py 包装（仅 MeSH 物种、无研究类型过滤）"
+    },
+    "wildcards": 19,
+    "url_length_get": 5169
+   },
+   "reader_page_enabled": false,
+   "reader_page_note_zh": "库里有评过级的文章后再开"
+  },
+  {
+   "id": "dermatology",
+   "name_zh": "皮肤科",
+   "name_en": "Dermatology",
+   "parent": null,
+   "pubmed_query": "((\"Dogs\"[MeSH] OR \"Cats\"[MeSH] OR \"Dog Diseases\"[MeSH] OR \"Cat Diseases\"[MeSH] OR dog[ti] OR dogs[ti] OR canine[ti] OR cat[ti] OR cats[ti] OR feline[ti] OR puppy[ti] OR puppies[ti] OR kitten[ti] OR kittens[ti] OR ((dog[tiab] OR dogs[tiab] OR canine[tiab] OR cats[tiab] OR feline[tiab]) AND (veterinar*[tiab] OR \"client-owned\"[tiab] OR \"J Vet Intern Med\"[ta] OR \"J Feline Med Surg\"[ta] OR \"J Am Vet Med Assoc\"[ta] OR \"Vet J\"[ta] OR \"J Small Anim Pract\"[ta] OR \"Front Vet Sci\"[ta] OR \"Vet Rec\"[ta] OR \"J Vet Cardiol\"[ta] OR \"Am J Vet Res\"[ta] OR \"Vet Clin Pathol\"[ta] OR \"J Vet Emerg Crit Care (San Antonio)\"[ta] OR \"Vet Radiol Ultrasound\"[ta] OR \"Vet Anaesth Analg\"[ta] OR \"J Vet Med Sci\"[ta] OR \"Vet Dermatol\"[ta] OR \"J Am Anim Hosp Assoc\"[ta] OR \"Vet Sci\"[ta] OR \"Vet Med Sci\"[ta] OR \"Res Vet Sci\"[ta] OR \"Prev Vet Med\"[ta] OR \"BMC Vet Res\"[ta] OR \"Vet Comp Orthop Traumatol\"[ta] OR \"Vet Surg\"[ta] OR \"Vet Ophthalmol\"[ta] OR \"J Feline Med Surg Open Rep\"[ta] OR \"Vet Res Commun\"[ta] OR \"Top Companion Anim Med\"[ta] OR \"Appl Anim Behav Sci\"[ta] OR \"J Vet Behav\"[ta]))) AND (\"Skin Diseases\"[MeSH] OR dermat*[tiab] OR skin[tiab] OR pyoderma[tiab] OR prurit*[tiab] OR \"otitis externa\"[tiab] OR alopecia[tiab] OR atopic[tiab] OR oclacitinib[tiab] OR lokivetmab[tiab] OR \"allergen immunotherapy\"[tiab] OR pemphigus[tiab] OR demodic*[tiab]) AND ((\"Randomized Controlled Trial\"[pt] OR \"Randomized Controlled Trial, Veterinary\"[pt] OR ((randomized[tiab] OR randomised[tiab]) AND controlled[tiab] AND trial[tiab])) OR (specificity[tiab]) OR ((relative[tiab] AND risk*[tiab]) OR \"relative risk\"[tw] OR risks[tw] OR \"Cohort Studies\"[MeSH:noexp] OR (cohort[tiab] AND study[tiab]) OR (cohort[tiab] AND studies[tiab])) OR (prognos*[tiab] OR (first[tiab] AND episode[tiab]) OR cohort[tiab]) OR (validation[tiab] OR validate[tiab]) OR (systematic[sb] OR \"Meta-Analysis\"[pt] OR meta-analy*[ti] OR \"systematic review\"[tiab]) OR (\"Practice Guideline\"[pt] OR \"Guideline\"[pt] OR \"Consensus\"[pt] OR \"Consensus Development Conference\"[pt] OR guideline*[ti] OR consensus[ti] OR recommendation*[ti] OR \"task force\"[ti] OR \"position statement\"[ti]) OR (\"Observational Study, Veterinary\"[pt]))) NOT (\"Case Reports\"[pt] OR \"Editorial\"[pt] OR \"Letter\"[pt] OR \"Comment\"[pt] OR \"News\"[pt] OR \"Published Erratum\"[pt] OR \"Retracted Publication\"[pt] OR \"Retraction of Publication\"[pt]) NOT (((\"Humans\"[MeSH] NOT \"Animals\"[MeSH]) OR ((rat[ti] OR rats[ti] OR mice[ti] OR mouse[ti] OR murine[ti] OR patients[ti] OR children[ti] OR women[ti]) NOT (\"Dogs\"[MeSH] OR \"Cats\"[MeSH] OR \"Dog Diseases\"[MeSH] OR \"Cat Diseases\"[MeSH] OR dog[ti] OR dogs[ti] OR canine[ti] OR cat[ti] OR cats[ti] OR feline[ti] OR puppy[ti] OR puppies[ti] OR kitten[ti] OR kittens[ti]))) OR ((orthodont*[tiab] OR \"canine retraction\"[tiab] OR \"impacted canine\"[tiab] OR \"maxillary canine\"[tiab] OR \"canine tooth\"[ti] OR EORTC[tiab] OR \"PEDI-CAT\"[tiab] OR \"computerized adaptive test\"[tiab] OR \"cat eye syndrome\"[tiab]) NOT (\"Dogs\"[MeSH] OR \"Cats\"[MeSH] OR \"Dog Diseases\"[MeSH] OR \"Cat Diseases\"[MeSH]))) AND (hasabstract OR (\"Practice Guideline\"[pt] OR \"Guideline\"[pt] OR \"Consensus\"[pt] OR \"Consensus Development Conference\"[pt] OR guideline*[ti] OR consensus[ti] OR recommendation*[ti] OR \"task force\"[ti] OR \"position statement\"[ti]))",
+   "inherits_children": [
+    "canine_atopic_dermatitis"
+   ],
+   "filter_set": "narrow",
+   "filter_source": [
+    "同上 Therapy/Narrow，兽医改写：加 \"Randomized Controlled Trial, Veterinary\"[pt]（NLM 兽医发布类型，兽医 RCT 不标人用 RCT 类型）和英式拼写 randomised",
+    "PubMed Clinical Queries Diagnosis/Narrow；Haynes RB, Wilczynski NL. BMJ 2004;328:1040（PMID 15073027）",
+    "PubMed Clinical Queries Etiology/Narrow；Wilczynski NL, Haynes RB. AMIA 2003:719-23（PMID 14728267）",
+    "PubMed Clinical Queries Prognosis/Narrow；Wilczynski NL, Haynes RB. BMC Med 2004;2:23（PMID 15189561）",
+    "PubMed Clinical Queries Clinical Prediction Guides/Narrow；Wong SS 等 AMIA 2003:728-32（PMID 14728269）",
+    "PubMed Systematic Review 过滤 systematic[sb]（PubMed 帮助页）+ Montori VM 等 BMJ 2005;330:68（PMID 15619601）的 meta-analysis[pt]/\"systematic review\" 词；补 meta-analy*[ti]（库内 39858209 未被 systematic[sb] 收录）",
+    "NLM 发布类型 Practice Guideline / Guideline / Consensus / Consensus Development Conference + 题名 guideline*/consensus/recommendation*/\"task force\"/\"position statement\"（后三个词 2026-11-10 按 IVETF 2015 系列验证补入：其中 2 篇题名用 recommendations、未标 Consensus 发布类型）",
+    "NLM 发布类型 \"Observational Study, Veterinary\""
+   ],
+   "validation": {
+    "window_edat": "2025/11/10–2026/11/10",
+    "count_12mo": 229,
+    "est_weekly": 4.4,
+    "last_4wk": 19,
+    "recall_n": 14,
+    "recall_N": 14,
+    "recall_scope": "本库该专题全部有 PMID 文章（seed_library_v6 的 topics 标签；不含无 PMID 的 IRIS 2026）；不限日期",
+    "recall_in_scope": "14/14（漏检的都是 Hedges 不覆盖的设计）",
+    "missed": [],
+    "counted_with_children": [
+     "canine_atopic_dermatitis"
+    ],
+    "wildcards": 12,
+    "url_length_get": 5208
+   }
+  },
+  {
+   "id": "canine_atopic_dermatitis",
+   "name_zh": "犬特应性皮炎",
+   "name_en": "Canine atopic dermatitis",
+   "parent": "dermatology",
+   "pubmed_query": "((\"Dogs\"[MeSH] OR \"Cats\"[MeSH] OR \"Dog Diseases\"[MeSH] OR \"Cat Diseases\"[MeSH] OR dog[ti] OR dogs[ti] OR canine[ti] OR cat[ti] OR cats[ti] OR feline[ti] OR puppy[ti] OR puppies[ti] OR kitten[ti] OR kittens[ti] OR ((dog[tiab] OR dogs[tiab] OR canine[tiab] OR cats[tiab] OR feline[tiab]) AND (veterinar*[tiab] OR \"client-owned\"[tiab] OR \"J Vet Intern Med\"[ta] OR \"J Feline Med Surg\"[ta] OR \"J Am Vet Med Assoc\"[ta] OR \"Vet J\"[ta] OR \"J Small Anim Pract\"[ta] OR \"Front Vet Sci\"[ta] OR \"Vet Rec\"[ta] OR \"J Vet Cardiol\"[ta] OR \"Am J Vet Res\"[ta] OR \"Vet Clin Pathol\"[ta] OR \"J Vet Emerg Crit Care (San Antonio)\"[ta] OR \"Vet Radiol Ultrasound\"[ta] OR \"Vet Anaesth Analg\"[ta] OR \"J Vet Med Sci\"[ta] OR \"Vet Dermatol\"[ta] OR \"J Am Anim Hosp Assoc\"[ta] OR \"Vet Sci\"[ta] OR \"Vet Med Sci\"[ta] OR \"Res Vet Sci\"[ta] OR \"Prev Vet Med\"[ta] OR \"BMC Vet Res\"[ta] OR \"Vet Comp Orthop Traumatol\"[ta] OR \"Vet Surg\"[ta] OR \"Vet Ophthalmol\"[ta] OR \"J Feline Med Surg Open Rep\"[ta] OR \"Vet Res Commun\"[ta] OR \"Top Companion Anim Med\"[ta] OR \"Appl Anim Behav Sci\"[ta] OR \"J Vet Behav\"[ta]))) AND (\"Dermatitis, Atopic\"[MeSH] OR \"Hypersensitivity, Immediate\"[MeSH] OR \"atopic dermatitis\"[tiab] OR \"atopic skin\"[tiab] OR atopy[tiab] OR \"allergic dermatitis\"[tiab] OR \"allergic skin\"[tiab] OR oclacitinib[tiab] OR lokivetmab[tiab] OR ilunocitinib[tiab] OR \"allergen immunotherapy\"[tiab] OR \"allergen-specific immunotherapy\"[tiab] OR \"allergen sensitization\"[tiab] OR CADESI*[tiab] OR PVAS[tiab]) AND (((clinical[tiab] AND trial[tiab]) OR \"Clinical Trials as Topic\"[MeSH] OR \"Clinical Trial\"[pt] OR random*[tiab] OR \"Random Allocation\"[MeSH] OR \"therapeutic use\"[sh]) OR (\"Randomized Controlled Trial\"[pt] OR \"Randomized Controlled Trial, Veterinary\"[pt] OR ((randomized[tiab] OR randomised[tiab]) AND controlled[tiab] AND trial[tiab])) OR (specificity[tiab]) OR ((relative[tiab] AND risk*[tiab]) OR \"relative risk\"[tw] OR risks[tw] OR \"Cohort Studies\"[MeSH:noexp] OR (cohort[tiab] AND study[tiab]) OR (cohort[tiab] AND studies[tiab])) OR (\"incidence\"[MeSH:noexp] OR \"mortality\"[MeSH] OR \"follow up studies\"[MeSH:noexp] OR prognos*[tw] OR predict*[tw] OR course*[tw]) OR (validation[tiab] OR validate[tiab]) OR (systematic[sb] OR \"Meta-Analysis\"[pt] OR meta-analy*[ti] OR \"systematic review\"[tiab]) OR (\"Practice Guideline\"[pt] OR \"Guideline\"[pt] OR \"Consensus\"[pt] OR \"Consensus Development Conference\"[pt] OR guideline*[ti] OR consensus[ti] OR recommendation*[ti] OR \"task force\"[ti] OR \"position statement\"[ti]) OR (\"Observational Study, Veterinary\"[pt]) OR (\"Clinical Trial, Veterinary\"[pt]))) NOT (\"Case Reports\"[pt] OR \"Editorial\"[pt] OR \"Letter\"[pt] OR \"Comment\"[pt] OR \"News\"[pt] OR \"Published Erratum\"[pt] OR \"Retracted Publication\"[pt] OR \"Retraction of Publication\"[pt]) NOT (((\"Humans\"[MeSH] NOT \"Animals\"[MeSH]) OR ((rat[ti] OR rats[ti] OR mice[ti] OR mouse[ti] OR murine[ti] OR patients[ti] OR children[ti] OR women[ti]) NOT (\"Dogs\"[MeSH] OR \"Cats\"[MeSH] OR \"Dog Diseases\"[MeSH] OR \"Cat Diseases\"[MeSH] OR dog[ti] OR dogs[ti] OR canine[ti] OR cat[ti] OR cats[ti] OR feline[ti] OR puppy[ti] OR puppies[ti] OR kitten[ti] OR kittens[ti]))) OR ((orthodont*[tiab] OR \"canine retraction\"[tiab] OR \"impacted canine\"[tiab] OR \"maxillary canine\"[tiab] OR \"canine tooth\"[ti] OR EORTC[tiab] OR \"PEDI-CAT\"[tiab] OR \"computerized adaptive test\"[tiab] OR \"cat eye syndrome\"[tiab]) NOT (\"Dogs\"[MeSH] OR \"Cats\"[MeSH] OR \"Dog Diseases\"[MeSH] OR \"Cat Diseases\"[MeSH]))) AND (hasabstract OR (\"Practice Guideline\"[pt] OR \"Guideline\"[pt] OR \"Consensus\"[pt] OR \"Consensus Development Conference\"[pt] OR guideline*[ti] OR consensus[ti] OR recommendation*[ti] OR \"task force\"[ti] OR \"position statement\"[ti]))",
+   "inherits_children": null,
+   "filter_set": "hybrid",
+   "filter_source": [
+    "PubMed Clinical Queries Therapy/Broad；Haynes RB 等 BMJ 2005（PMID 15894554）",
+    "同上 Therapy/Narrow，兽医改写：加 \"Randomized Controlled Trial, Veterinary\"[pt]（NLM 兽医发布类型，兽医 RCT 不标人用 RCT 类型）和英式拼写 randomised",
+    "PubMed Clinical Queries Diagnosis/Narrow；Haynes RB, Wilczynski NL. BMJ 2004;328:1040（PMID 15073027）",
+    "PubMed Clinical Queries Etiology/Narrow；Wilczynski NL, Haynes RB. AMIA 2003:719-23（PMID 14728267）",
+    "PubMed Clinical Queries Prognosis/Broad；同上（PMID 15189561）",
+    "PubMed Clinical Queries Clinical Prediction Guides/Narrow；Wong SS 等 AMIA 2003:728-32（PMID 14728269）",
+    "PubMed Systematic Review 过滤 systematic[sb]（PubMed 帮助页）+ Montori VM 等 BMJ 2005;330:68（PMID 15619601）的 meta-analysis[pt]/\"systematic review\" 词；补 meta-analy*[ti]（库内 39858209 未被 systematic[sb] 收录）",
+    "NLM 发布类型 Practice Guideline / Guideline / Consensus / Consensus Development Conference + 题名 guideline*/consensus/recommendation*/\"task force\"/\"position statement\"（后三个词 2026-11-10 按 IVETF 2015 系列验证补入：其中 2 篇题名用 recommendations、未标 Consensus 发布类型）",
+    "NLM 发布类型 \"Observational Study, Veterinary\"",
+    "NLM 发布类型 \"Clinical Trial, Veterinary\""
+   ],
+   "validation": {
+    "window_edat": "2025/11/10–2026/11/10",
+    "count_12mo": 75,
+    "est_weekly": 1.4,
+    "last_4wk": 6,
+    "recall_n": 14,
+    "recall_N": 14,
+    "recall_scope": "本库该专题全部有 PMID 文章（seed_library_v6 的 topics 标签；不含无 PMID 的 IRIS 2026）；不限日期",
+    "recall_in_scope": "14/14（漏检的都是 Hedges 不覆盖的设计）",
+    "missed": [],
+    "wildcards": 13,
+    "url_length_get": 5814
+   }
+  }
+ ]
+}

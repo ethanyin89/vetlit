@@ -548,7 +548,19 @@ def tids(t):
                 if i not in ids: ids.append(i)
     return ids
 def tpapers(t): return [x for x in (get(i) for i in tids(t)) if x]
-VIS=[t for t in TP if tpapers(t)]
+def _qtopics():
+    p=os.path.join(ROOT,'data','v5','pubmed_queries.json')
+    if not os.path.isfile(p): return {}
+    try: return {t['id']:t for t in (json.load(open(p,encoding='utf-8')).get('topics') or [])}
+    except Exception: return {}
+_QTOPICS=_qtopics()
+def topic_reader_open(t):
+    """Honor reader_page_enabled from the live query file. False: no reader page/nav until a rated library paper exists."""
+    qt=_QTOPICS.get(t['id']) or {}
+    if qt.get('reader_page_enabled') is False:
+        return any((CERT.get(str(p.get('pmid') or '')) or {}).get('certainty') in ('高','中','低','极低') for p in tpapers(t))
+    return bool(tpapers(t))
+VIS=[t for t in TP if topic_reader_open(t)]
 def topic_chips(r):
     out=''
     for t in [t for t in VIS if not t.get('parent')]:
