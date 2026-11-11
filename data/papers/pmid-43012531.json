@@ -1,0 +1,35 @@
+{
+  "id": "pmid-43012531",
+  "pmid": "43012531",
+  "title": "Broad use of feline APN by alphacoronaviruses implicates cats in cross-species transmission",
+  "first_author": "Tan Y",
+  "year": "2026",
+  "date": "2026-11-11",
+  "pub_date": "2026-11-11",
+  "pub_date_precision": "day",
+  "pub_date_source": "PubMed PubDate",
+  "journal": "mBio",
+  "doi": "10.1128/mbio.01713-26",
+  "pmcid": "",
+  "species": "猫",
+  "specialty": "未分类",
+  "topics": [
+    "fip",
+    "infectious"
+  ],
+  "source": "PubMed (E-utilities)",
+  "oa": "未核",
+  "doc_type": "待定",
+  "publication_types": [
+    "Journal Article"
+  ],
+  "sample_size_analysed": "未核",
+  "multicenter": "未核",
+  "funding": "未核",
+  "verified": "partial",
+  "status": "待处理",
+  "provenance": [
+    "ingest"
+  ],
+  "ingested_at": "2026-11-11"
+}
