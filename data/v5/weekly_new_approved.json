@@ -1,19 +1,12 @@
 {
-  "_note": "Explicit approved list for the homepage 本期新增 block. Only these papers, when added_at falls in the current issue AND the paper's publication date is within the last 3 months, are listed (flat list, newest first). The topic label is the screening topic, never the ingest auto-tag; '其他' is used when the paper is outside existing site topics. 42977701: extracts/weekly_screen_2026-11-10.json has topic_suggested 「—（外科，本库无对应专题；最接近 infectious）」and notes the obesity ingest tag is wrong, so the label is 其他. Presence in the ingest queue or data/papers as 待处理 is not enough. dermatology is recorded as created this week but announce=false (parent of 犬特应性皮炎). hyperthyroidism already existed (since 2026-11-02) and is not a new topic.",
+  "_note": "Explicit approved list for the homepage 本期新增 block. Only these papers, when added_at falls in the current issue AND the paper's publication date is within the last 3 months, are listed (flat list, newest first). This issue (2026-W46) has no approved 本期新增 papers: weekly_2026-11-10.json is empty (本周无新增). 42977701 is a retrospective cohort that fails McMaster harm criteria; it is in the 感染性疾病 library with certainty 低, not in this list. Presence in the ingest queue or data/papers as 待处理 is not enough. dermatology is recorded as created this week but announce=false (parent of 犬特应性皮炎). hyperthyroidism already existed and is not a new topic.",
   "issue": {
     "id": "2026-W46",
     "start": "2026-11-09",
     "end": "2026-11-15",
     "tz": "America/New_York"
   },
-  "approved": [
-    {
-      "pmid": "42977701",
-      "added_at": "2026-11-10",
-      "topic": "其他",
-      "title": "Surgical Site Infection and Antimicrobial Resistance After Mastectomy in Dogs and Cats: A 615-Case Multicentre Cohort and Infection-Control Audit"
-    }
-  ],
+  "approved": [],
   "new_topics": [
     {
       "id": "dermatology",

@@ -7,7 +7,7 @@ os.environ['WEEKLY_PULL']='0'
 import build_preview as B
 import scripts.weekly_pubmed_pull as W
 
-# config exists and reuses Daily ingest queries
+# config exists and reuses Daily ingest queries for named topics; general is the live ingest-v2 query, unwrapped
 Q=json.load(open('data/v5/topic_queries.json',encoding='utf-8'))
 assert any(t.get('pubmed_query') and t['id']=='ckd' for t in Q['topics'])
 assert any(t['id']=='canine_atopic_dermatitis' and t.get('pubmed_query') for t in Q['topics'])
@@ -15,6 +15,9 @@ topics_src={t['id']:t.get('pubmed_query') for t in json.load(open('data/topics.j
 for t in Q['topics']:
     if t['id'] in topics_src and topics_src[t['id']]:
         assert t['pubmed_query']==topics_src[t['id']], t['id']
+assert Q.get('general',{}).get('pubmed_query')
+assert 'Dogs' in Q['general']['pubmed_query']
+assert W.general_query()==Q['general']['pubmed_query'].strip()
 
 # library dedupe covers seed + data/papers (待处理 ingest too)
 lib=W.library_pmids()
@@ -36,26 +39,23 @@ disp,prec,ear=B.parse_pub_date({'date':'2026-11-01'})
 assert prec=='month' and ear=='2026-11-01' and disp=='2026年11月'
 assert B.parse_pub_date({})==(None,None,None)
 
-# this issue: only 42977701 is approved; pub date 2026-11 is within 3 months; screening topic is 其他 (not ingest obesity/infectious)
+# this issue: no approved 本期新增 papers (42977701 is in the infectious library, not this list)
 today=datetime.date(2026,11,10)
-ents=B.weekly_new_entries(today)
-assert [p['pmid'] for *_,p,tid,label,href in [(e[0],e[1],e[2],e[3],e[4],e[5]) for e in ents]]==['42977701'] or [e[2]['pmid'] for e in ents]==['42977701']
-assert ents[0][1]=='2026年11月' and ents[0][4]=='其他' and ents[0][5]==''
+assert B.weekly_new_entries(today)==[]
 assert [t['id'] for t in B.new_topics_this_issue(today)]==['canine_atopic_dermatitis']
 
-# homepage: 本期新增 at the top, flat list (not grouped by topic), 最重要 stays below
+# homepage: 本期新增 at the top shows 本周无新增; keep 本周新增专题：犬特应性皮炎; 最重要 stays below
 h=open('dist/index.html',encoding='utf-8').read()
 assert 'id="weekly-new"' in h and '本期新增' in h
 assert h.find('id="weekly-new"') < h.find('最重要')
 block=h.split('id="weekly-new"',1)[1].split('</section>',1)[0]
 assert '本周新增专题' in block and '犬特应性皮炎' in block
 assert 'topics/canine_atopic_dermatitis/' in block
-assert 'papers/pmid-42977701/' in block
-assert '2026年11月' in block and '其他' in block
-# never ingest auto-tags on the homepage block
+assert '本周无新增' in block
+assert '42977701' not in block and 'papers/pmid-42977701/' not in block
+# never ingest auto-tags or example data on the homepage block
 assert '肥胖' not in block and '猫传染性腹膜炎' not in block
-assert 'h3' not in block  # flat list, not per-topic groups
-assert '本周无新增' not in block
+assert 'h3' not in block
 assert 'class="card"' not in block
 # unapproved / other-issue papers stay out
 assert '42800045' not in block and '42805756' not in block and '37167252' not in block
@@ -68,37 +68,46 @@ for f in glob.glob('dist/topics/*/index.html'):
     s=open(f,encoding='utf-8').read()
     assert '最新抓取' not in s, f
     assert '43000584' not in s and '42983423' not in s, f
-    # approved 42977701 is 其他 — not listed on infectious/obesity topic pages
-    if f.endswith('/infectious/index.html') or f.endswith('/obesity/index.html'):
-        assert '42977701' not in s, f
 
-# 待处理 ingest papers (except the approved 42977701 reader page we write) do not exist under dist/papers
+# 42977701 belongs on the infectious topic library page, not obesity
+inf=open('dist/topics/infectious/index.html',encoding='utf-8').read()
+assert '42977701' in inf
+assert 'obesity' not in open('dist/topics/obesity/index.html',encoding='utf-8').read() or '42977701' not in open('dist/topics/obesity/index.html',encoding='utf-8').read()
+
+# 待处理 ingest papers do not exist under dist/papers; 42977701 is a library paper (已收录)
 pending=set()
 for fp in Path('data/papers').glob('pmid-*.json'):
     rec=json.load(open(fp,encoding='utf-8'))
     if rec.get('status')=='待处理':
         pending.add(str(rec['pmid']))
-for pm in pending:
-    d=Path('dist/papers')/f'pmid-{pm}'
-    if pm=='42977701':
-        assert d.exists() and (d/'index.html').exists()
-        continue
-    assert not d.exists(), pm
-# papers.json has no 待处理 rows or the two known mis-tagged ingest ids (except 42977701 if present without ingest tags)
+        d=Path('dist/papers')/f'pmid-{rec["pmid"]}'
+        assert not d.exists(), rec['pmid']
+assert '42977701' not in pending
+assert (Path('dist/papers')/'pmid-42977701'/'index.html').exists()
+# papers.json has no 待处理 rows or the two known mis-tagged ingest ids
 if Path('dist/papers.json').exists():
     rows=json.load(open('dist/papers.json',encoding='utf-8'))
     for r in rows:
         assert r.get('status')!='待处理', r.get('pmid')
         if str(r.get('pmid')) in ('43000584','42983423'):
             raise AssertionError('mis-tagged ingest paper in papers.json: '+str(r.get('pmid')))
+        # no _internal keys on reader data
+        assert not any(str(k).startswith('_internal') for k in r), r.get('pmid')
 
-# 42977701 reader page: 暂未评级; no 待处理; no ingest auto-tags
+# 42977701 reader page: rated 低; no 待处理; no obesity auto-tag; speed-read gated (no 起评 / QUIPS internals / rule ids)
 ph=open('dist/papers/pmid-42977701/index.html',encoding='utf-8').read()
-assert '暂未评级' in ph
+assert '低' in ph
+assert '暂未评级' not in ph
 assert '待处理' not in ph
-assert '肥胖与体况' not in ph and '猫传染性腹膜炎' not in ph
-assert 'topics/obesity/' not in ph and 'topics/infectious/' not in ph
+assert '肥胖与体况' not in ph and 'topics/obesity/' not in ph
+assert 'topics/infectious/' in ph or '感染性疾病' in ph
 assert '数据来源 ingest' not in ph and 'provisional' not in ph and '暂定' not in ph
+assert '起评' not in ph and '起点为' not in ph
+assert 'R-start-prognosis' not in ph and 'R-rob-assessed' not in ph
+assert '_internal' not in ph and 'weekly_new_note' not in ph
+assert 'pick_reason' not in ph
+# gated: speed-read certainty narrative from the library extract must not appear
+assert '从‘高’起评' not in ph and '从“高”起评' not in ph
 
 # a date after this issue falls into the next Mon–Sun window with no approved additions
 st,en,_=B.issue_bounds(datetime.date(2026,11,16))

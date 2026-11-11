@@ -7,27 +7,41 @@
   "date": "2026-11-01",
   "journal": "Vet Med Sci",
   "doi": "10.1002/vms3.71322",
-  "pmcid": "",
+  "pmcid": "PMC13731168",
   "species": "猫/犬",
-  "specialty": "未分类",
+  "specialty": "感染",
   "topics": [
-    "infectious",
-    "obesity"
+    "infectious"
   ],
-  "source": "PubMed (E-utilities)",
-  "oa": "未核",
-  "doc_type": "待定",
+  "source": "PubMed (E-utilities)；全文 PMC13731168",
+  "oa": "是",
+  "doc_type": "原始研究",
   "publication_types": [
     "Journal Article",
     "Multicenter Study"
   ],
-  "sample_size_analysed": "未核",
-  "multicenter": "未核",
+  "sample_size_analysed": "615",
+  "multicenter": "是",
   "funding": "未核",
-  "verified": "partial",
-  "status": "待处理",
+  "verified": "全文",
+  "status": "已收录",
   "provenance": [
-    "ingest"
+    "ingest",
+    "library_infectious_2026-11-10"
   ],
-  "ingested_at": "2026-11-04"
+  "ingested_at": "2026-11-04",
+  "title_zh": "犬猫乳腺切除术后 8.8% 发生手术部位感染：手术时间长、术中低体温、体况评分高和既往大手术与感染相关",
+  "one_line_conclusion_zh": "犬猫乳腺切除术后 8.8% 发生手术部位感染：手术时间长、术中低体温、体况评分高和既往大手术与感染相关",
+  "species_zh": "猫/犬",
+  "oa_bool": true,
+  "license": "CC BY 4.0",
+  "fulltext_translation_allowed": true,
+  "design_category": "队列研究",
+  "design_detail": "多中心回顾性队列研究（犬、猫，以犬为主）",
+  "n_enrolled": "615 例（558 只犬、57 只猫）",
+  "n_analysed": "615 例",
+  "pub_date": "2026-11-01",
+  "pub_date_source": "PubMed sortpubdate 2026-11-01（按月份展示）",
+  "reading_depth": "全文",
+  "rob_tool": "QUIPS"
 }

@@ -39,6 +39,7 @@ for r in v5:
     p['sid']=base.get('id') or ('pmid-'+r['pmid'] if r.get('pmid') else r['id'])
     p['v5id']=r['id']; P[r['id']]=p
 for c in cur.values():
+    if c.get('status')=='待处理': continue
     if 'ingest' in (c.get('provenance') or []) and c['id'] not in {p['sid'] for p in P.values()}:
         c=dict(c); c['sid']=c['id']; c['fresh']=True; FRESH.append(c)
 SID={p['sid']:p for p in P.values()}

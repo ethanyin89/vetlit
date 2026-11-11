@@ -19,6 +19,35 @@
   "rules_v4_amend_2026-11-09_surrogate": "R-down-indirectness-surrogate（Vibe 裁定 2026-11-09）：主要结局是化验指标或其他替代终点，而专题问的是对患病动物真正重要的结局（生存、临床恶化、疾病进展）时，间接性降一级；专题本身问的就是该指标时不降。downgrades 记 {domain:间接性, steps:-1, reason_zh, source_file}。来源：GRADE 指南第 8 篇（Guyatt 2011, J Clin Epidemiol 64:1303–1310，间接性）。首例：38952053 由高改为中。"
  },
  "papers": {
+  "42977701": {
+   "rules_applied": [
+    "R-start-prognosis-observational-high",
+    "R-rob-assessed-v4"
+   ],
+   "question_type": "预后",
+   "question_basis": "2026-11-10 复核裁定（危险因素/预后因素问题）",
+   "start": "高",
+   "start_basis": "多中心回顾性队列：预后因素问题，观察性→高（Iorio 2015；QUIPS）",
+   "downgrades": [
+    {
+     "domain": "偏倚风险",
+     "steps": -1,
+     "reason_zh": "QUIPS 6 个领域均为中等风险，合计判为严重 −1"
+    },
+    {
+     "domain": "不精确性",
+     "steps": -1,
+     "reason_zh": "54 个感染事件对 7 个变量，每变量约 7.7 个事件，低于常用的 10 个，模型有过拟合风险 −1"
+    }
+   ],
+   "provisional": null,
+   "certainty": "低",
+   "rob_tool": "QUIPS",
+   "rob_overall": "中（6 个领域均中等，合计判为严重）",
+   "notes_zh": "偏倚风险（QUIPS）：6 个领域均中等",
+   "topic": "infectious",
+   "weekly_new": false
+  },
   "42043241": {
    "rules_applied": [
     "R-guideline-own-strength"

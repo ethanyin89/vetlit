@@ -8,8 +8,9 @@ the existing screening queue. New hits are appended to data/v5/ingest_queue.json
 Candidates are not written to data/papers and must not be shown to readers until
 they are screened, written up, and listed in data/v5/weekly_new_approved.json.
 
-Reuses the same E-utilities settings as scripts/ingest.py (species filter,
-hasabstract, publication-type excludes, edat window).
+Topic queries historically reused Daily ingest wrapping. The general weekly
+search reads topic_queries.json "general" and uses that pubmed_query as-is
+(no MeSH species wrapper). WEEKLY_GENERAL=1 WEEKLY_DRY=1 runs only that path.
 
 Env: NCBI_API_KEY (optional), NCBI_EMAIL (optional), WEEKLY_DAYS (default 7).
 Set WEEKLY_PULL=0 to skip the network call (used by tests).
@@ -137,9 +138,80 @@ def pull(days=None, fetch=None):
     save_queue(q)
     return {'matched':len(hits),'already':len(hits)-len(fresh),'added':n,'topics':len(topics)}
 
+
+def general_query():
+    """Live general weekly search string from topic_queries.json, used as-is (no MeSH wrapper)."""
+    d=json.load(open(QFILE,encoding='utf-8'))
+    g=d.get('general') or {}
+    return (g.get('pubmed_query') or '').strip()
+
+def post(ep, **p):
+    """POST to E-utilities so the long general query is not truncated by URL length."""
+    p.setdefault('tool','vetlit')
+    if os.environ.get('NCBI_API_KEY'): p['api_key']=os.environ['NCBI_API_KEY']
+    if os.environ.get('NCBI_EMAIL'): p['email']=os.environ['NCBI_EMAIL']
+    body=urllib.parse.urlencode(p).encode()
+    url=BASE+ep
+    for t in range(4):
+        try:
+            req=urllib.request.Request(url,data=body,headers={'User-Agent':'vetlit-weekly-pull','Content-Type':'application/x-www-form-urlencoded'})
+            with urllib.request.urlopen(req,timeout=120) as r:
+                return json.load(r)
+        except Exception:
+            if t==3: raise
+            time.sleep(2*(t+1))
+
+def pull_general(days=7, dry=True, fetch=None):
+    """Run the general weekly query as-is. Dry run prints counts and writes nothing to the queue."""
+    days=int(days)
+    term=general_query()
+    if not term:
+        raise SystemExit('data/v5/topic_queries.json is missing a general.pubmed_query')
+    fetch=fetch or post
+    r=fetch('esearch.fcgi', db='pubmed', term=term, reldate=days, datetype='edat', retmax=500, retmode='json')
+    er=r.get('esearchresult') or {}
+    count=int(er.get('count') or 0)
+    ids=[str(i) for i in (er.get('idlist') or [])]
+    have=library_pmids()|queue_pmids()
+    new=[i for i in ids if i not in have]
+    out={'days':days,'count':count,'returned':len(ids),'already':len(ids)-len(new),'new':len(new),'ids':ids,'new_ids':new}
+    # optional titles for a short sample
+    sample_ids=ids[:8]
+    out['sample']=[]
+    if sample_ids:
+        s=fetch('esummary.fcgi', db='pubmed', id=','.join(sample_ids), retmode='json').get('result') or {}
+        for pmid in s.get('uids',[]) or sample_ids:
+            d=s.get(pmid) or {}
+            out['sample'].append({'pmid':str(pmid),'title':(d.get('title') or '').rstrip('.'),'date':(d.get('sortpubdate') or '')[:10].replace('/','-'),'journal':d.get('source') or ''})
+    if dry:
+        print(f"weekly general dry {days}d: esearch count={count}, returned={len(ids)}, already={out['already']}, new={len(new)}")
+        for s in out['sample']:
+            print(f"  {s['pmid']} {s['date']} {s['journal']}: {s['title']}")
+        return out
+    # write only new to queue
+    recs=[{'pmid':s['pmid'],'title':s['title'],'date':s['date'],'journal':s['journal'],'topics':['general']} for s in out['sample'] if s['pmid'] in new]
+    # if more new than sample, fetch remaining summaries
+    rest=[i for i in new if i not in {s['pmid'] for s in recs}]
+    for k in range(0,len(rest),100):
+        s=fetch('esummary.fcgi', db='pubmed', id=','.join(rest[k:k+100]), retmode='json').get('result') or {}
+        for pmid in s.get('uids',[]):
+            d=s[pmid]
+            recs.append({'pmid':str(pmid),'title':(d.get('title') or '').rstrip('.'),'date':(d.get('sortpubdate') or '')[:10].replace('/','-'),'journal':d.get('source') or '','topics':['general']})
+        time.sleep(0.34 if fetch is post else 0)
+    q,n=merge_candidates(load_queue(), recs)
+    save_queue(q)
+    out['added']=n
+    print(f"weekly general {days}d: count={count}, added {n} to ingest_queue")
+    return out
+
 def main():
     if os.environ.get('WEEKLY_PULL')=='0':
         print('weekly pull skipped (WEEKLY_PULL=0)')
+        return
+    if os.environ.get('WEEKLY_GENERAL')=='1':
+        days=int(os.environ.get('WEEKLY_DAYS') or '7')
+        dry=os.environ.get('WEEKLY_DRY','1')!='0'
+        pull_general(days=days, dry=dry)
         return
     r=pull()
     print(f"weekly pull: {r['matched']} matched across {r['topics']} topic queries, {r['already']} already in library or queue, {r['added']} written to ingest_queue")
