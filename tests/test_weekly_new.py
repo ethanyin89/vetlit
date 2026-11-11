@@ -163,7 +163,7 @@ assert '<article class="card">' in html
 assert '<h3 class="ct">' in html and '犬猫乳腺切除术后 8.8% 感染' in html
 assert '发生手术部位感染：手术时间长' not in html.split('<p class="en"',1)[0]
 assert '<p class="en" lang="en">' in html and libp['title'][:40] in html
-assert '<p class="bl">' in html and '乳腺切除时控制手术时长' in html
+assert '<p class="bl">' in html and '感染后先培养再选药' in html
 assert libp['title_zh'] not in html.split('<p class="bl">',1)[1]
 assert 'Vet Med Sci' in html and '队列研究' in html and '615 只' in html and '犬/猫' in html
 assert '感染性疾病' in html and 'topics/infectious/' in html
@@ -218,7 +218,7 @@ try:
     assert '本周无新增' not in block
     assert '<article class="card">' in block
     assert '犬猫乳腺切除术后 8.8% 感染' in block
-    assert '乳腺切除时控制手术时长' in block
+    assert '感染后先培养再选药' in block
     assert 'Vet Med Sci' in block and '615 只' in block and '证据确定性：低' in block
     assert '速读 →' in block
 finally:

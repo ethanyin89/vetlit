@@ -26,5 +26,6 @@ VETLIT_LIVE=1 python3 tests/test_ranking_certainty.py
 VETLIT_LIVE=1 python3 tests/test_top_title_zh.py
 VETLIT_LIVE=1 python3 tests/test_weekly_new.py
 VETLIT_LIVE=1 python3 tests/test_library_2026_11_11.py
+VETLIT_LIVE=1 python3 tests/test_cmeaning_numbers_2026_11_11.py
 python3 scripts/check_links.py
 echo ALL OK

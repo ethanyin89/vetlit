@@ -4,11 +4,12 @@
   "42977701": {
    "title_zh": "犬猫乳腺切除术后 8.8% 感染",
    "one_line_conclusion_zh": "615 例乳腺切除中 54 例术后 30 天内感染，手术时间长、术中低体温、体况评分高和既往大手术与感染相关。",
-   "clinical_meaning": "乳腺切除时控制手术时长、预防术中低体温；术后感染先做细菌培养再选抗菌药。"
+   "clinical_meaning": "手术时长、术中低体温与乳腺切除术后感染相关；感染后先培养再选药。"
   },
   "30974015": {
    "title_zh": "ACVIM 2019 MMVD：B2 期用匹莫苯丹",
-   "title_long_zh": "ACVIM 2019 犬 MMVD：B2 期起用匹莫苯丹"
+   "title_long_zh": "ACVIM 2019 犬 MMVD：B2 期起用匹莫苯丹",
+   "clinical_meaning": "杂音 ≥3/6、LA:Ao ≥1.6 且 LVIDDN ≥1.7（B2 期）的二尖瓣病犬，应开始用匹莫苯丹。"
   },
   "30353952": {
    "title_zh": "ACVIM 2018 犬猫高血压：按收缩压分四级",
@@ -20,7 +21,8 @@
   },
   "32441826": {
    "title_zh": "神经型 FIP：GS-441524 可长期缓解",
-   "title_long_zh": "神经型 FIP：GS-441524 可长期缓解，需更高剂量"
+   "title_long_zh": "神经型 FIP：GS-441524 可长期缓解，需更高剂量",
+   "clinical_meaning": "神经型 FIP 用 GS-441524 可能有效（4 只中 3 只停药后长期正常），但剂量可能需更高。"
   },
   "21704901": {
    "title_zh": "WSAVA 2011：营养是第五生命体征",
@@ -36,7 +38,8 @@
   },
   "x-international-renal-interest-society-2026-iris-staging-of-ckd-modified-2026": {
    "title_zh": "IRIS 2026 CKD 分期：新增贫血治疗阈值",
-   "title_long_zh": "IRIS 2026 CKD 分期：新增犬猫贫血治疗阈值"
+   "title_long_zh": "IRIS 2026 CKD 分期：新增犬猫贫血治疗阈值",
+   "clinical_meaning": "CKD 犬 HCT <30% 或持续 30–35%、猫 <25% 或持续 25–28% 时考虑治疗贫血。"
   },
   "42693626": {
    "title_zh": "iCatCare 猫 CKD：处方肾病粮是核心",
@@ -48,7 +51,8 @@
   },
   "27143042": {
    "title_zh": "AAFP 2016 猫甲亢：甲巯咪唑小剂量每日两次",
-   "title_long_zh": "AAFP 2016 猫甲亢指南：甲巯咪唑小剂量每日两次"
+   "title_long_zh": "AAFP 2016 猫甲亢指南：甲巯咪唑小剂量每日两次",
+   "clinical_meaning": "甲亢猫甲巯咪唑宜从 1.25–2.5 mg/只、每日两次起始，注意避免医源性甲减和肾功能恶化。"
   },
   "24112317": {
    "title_zh": "ACVIM 2012 犬库欣：先有症状再检测",
@@ -60,7 +64,8 @@
   },
   "42043241": {
    "title_zh": "ABCD：FIP 首选口服 GS-441524",
-   "title_long_zh": "ABCD 2026：FIP 首选口服 GS-441524"
+   "title_long_zh": "ABCD 2026：FIP 首选口服 GS-441524",
+   "clinical_meaning": "FIP 首选口服 GS-441524，42 天疗程可能已足够；不能口服的重症先用瑞德西韦。"
   },
   "18638016": {
    "title_zh": "QUEST：心衰 MMVD 犬匹莫苯丹优于贝那普利",
@@ -68,18 +73,35 @@
   },
   "28965673": {
    "title_zh": "ESVC 2017：杜宾犬 3 岁起每年筛 DCM",
-   "title_long_zh": "ESVC 2017：杜宾犬 3 岁起每年筛查 DCM"
+   "title_long_zh": "ESVC 2017：杜宾犬 3 岁起每年筛查 DCM",
+   "clinical_meaning": "杜宾犬 3 岁起每年做 Holter 和超声；24 小时室性早搏 >300 个即可诊断隐匿期 DCM。"
   },
   "23078651": {
    "title_zh": "PROTECT：匹莫苯丹推迟杜宾犬心衰或猝死",
    "title_long_zh": "PROTECT：匹莫苯丹推迟杜宾犬隐匿期 DCM 发病",
-   "clinical_meaning": "筛查出隐匿期 DCM 的杜宾犬，可开始用匹莫苯丹推迟心衰或猝死。"
+   "clinical_meaning": "筛查出隐匿期 DCM 的杜宾犬，可开始用匹莫苯丹；出现心衰或猝死的中位时间从 441 天推迟到 718 天。"
   },
   "43004944": {
    "title_zh": "留尼汪岛犬 8%、猫 3% 携带 ESBL 肠杆菌",
    "title_long_zh": "留尼汪岛 6% 犬猫携带产 ESBL 或碳青霉烯酶肠杆菌：犬 8%、猫 3%，犬未绝育、不圈养和近期用抗生素与携带相关",
    "one_line_conclusion_zh": "881 只犬猫的直肠拭子中 6% 携带产 ESBL 或碳青霉烯酶肠杆菌；犬中未绝育、不圈养和近 6 个月用过抗生素者携带几率更高。",
-   "clinical_meaning": "犬猫肠道可携带产 ESBL 的肠杆菌；犬猫肠杆菌感染应先做培养和药敏再选药。"
+   "clinical_meaning": "犬猫肠道可携带产 ESBL 的肠杆菌（犬 8%、猫 3%）；犬猫肠杆菌感染应先做培养和药敏再选药。"
+  },
+  "32139728": {
+   "clinical_meaning": "犬问题行为很常见：问卷中 72.5% 至少有一种高度问题行为，噪声敏感最多见（32%）。"
+  },
+  "20005753": {
+   "clinical_meaning": "老年犬认知障碍常被漏诊（问卷估计患病率 14.2%，兽医确诊仅 1.9%），值得主动询问。"
+  },
+  "37167252": {
+   "clinical_meaning": "有条件就首选放射碘（治愈率超过 95%）；用甲巯咪唑要低剂量起步并定期监测，避免甲减。"
+  },
+  "26265631": {
+   "clinical_meaning": "户外活动受限和以干粮为主与 1 岁猫超重相关（主人报告超重或肥胖占 7.0%），这类猫需关注体重。"
+  },
+  "43003998": {
+   "title_zh": "犬自我控制时额部出现类似人的 θ 波",
+   "clinical_meaning": "目前没有直接的临床用途；说明可以在清醒犬身上用脑电研究自我控制。"
   }
  }
 }

@@ -4,8 +4,8 @@ REPO=os.path.join(os.path.dirname(os.path.abspath(__file__)),'..'); sys.path.ins
 os.environ.setdefault('VETLIT_LIVE','1')
 import build_preview as B
 
-CM230='筛查出隐匿期 DCM 的杜宾犬，可开始用匹莫苯丹推迟心衰或猝死。'
-CM944='犬猫肠道可携带产 ESBL 的肠杆菌；犬猫肠杆菌感染应先做培养和药敏再选药。'
+CM230='筛查出隐匿期 DCM 的杜宾犬，可开始用匹莫苯丹；出现心衰或猝死的中位时间从 441 天推迟到 718 天。'
+CM944='犬猫肠道可携带产 ESBL 的肠杆菌（犬 8%、猫 3%）；犬猫肠杆菌感染应先做培养和药敏再选药。'
 OLD230='延缓发病'
 TITLE944='留尼汪岛犬 8%、猫 3% 携带 ESBL 肠杆菌'
 
@@ -16,10 +16,18 @@ assert len(TITLE944)<=B.TITLE_ZH_MAX
 assert not B.weekly_title_overlaps_conclusion(TITLE944, B.CARD_FIELDS['43004944']['one_line_conclusion_zh'])
 assert not B.weekly_title_overlaps_conclusion(TITLE944, CM944)
 
-# precedence: only papers with card_fields clinical_meaning may change summ()
-# besides 23078651, 42977701, 43004944 — no one else has card_fields clinical_meaning
+# card_fields clinical_meaning only for the Vibe-approved set (14 papers)
 cm_keys={k for k,v in B.CARD_FIELDS.items() if (v or {}).get('clinical_meaning')}
-assert cm_keys=={'23078651','42977701','43004944'}, cm_keys
+approved_cm={
+    '23078651','43004944','30974015','32441826','32139728','20005753',
+    '37167252','27143042','42043241','28965673','26265631','42977701',
+    'x-international-renal-interest-society-2026-iris-staging-of-ckd-modified-2026',
+    '43003998',
+}
+assert cm_keys==approved_cm, cm_keys
+# pending / held papers must not be overlaid
+for k in ('42800045','39831449','26581469','41701235','41781382','38884190','15954557'):
+    assert k not in B.CARD_FIELDS or not (B.CARD_FIELDS.get(k) or {}).get('clinical_meaning'), k
 p230=B.get('23078651') or B.get('pmid-23078651')
 assert B.summ(p230)==CM230
 assert CM230 in B.hcard(p230,'')
@@ -67,7 +75,9 @@ assert '待处理' not in ph398
 assert '起评' not in ph398 and '起点为' not in ph398
 assert 'R-na-nonclinical' not in ph398 and '_internal' not in ph398
 assert '不适用' in ph398
+assert '<h1 class="ct">犬自我控制时额部出现类似人的 θ 波</h1>' in ph398
 assert 'A human-like EEG signature of cognitive control in the domestic dog' in ph398
+assert '目前没有直接的临床用途' in ph398
 # ingest auto-tags must not appear
 assert 'epidemiology' not in ph398
 
