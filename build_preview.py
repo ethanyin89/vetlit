@@ -1,5 +1,5 @@
 """Preview build (redesign, cindy.app tokens): data/v5 + data/papers + content -> dist/preview/. Root site untouched."""
-import json, os, glob, re, html, datetime, shutil
+import json, os, glob, re, html, datetime, shutil, functools
 import build as B
 import preview_extras as X
 ROOT=B.ROOT; LIVE=os.environ.get('VETLIT_LIVE')=='1'; OUT=B.DIST if LIVE else os.path.join(B.DIST,'preview'); E_=html.escape
@@ -544,12 +544,23 @@ def cert_rank(p):
     c=r.get('certainty')
     if c in CERT_RANK: return CERT_RANK[c]
     return NO_CERT
+def _date_is_placeholder(p):
+    """IRIS 2026 has no calendar publication date on iris-kidney.com or in the staging PDF text (only 'Modified 2026'). The stored 2026-01-01 is a placeholder."""
+    sid=str(p.get('sid') or p.get('v5id') or p.get('id') or '')
+    d=str(p.get('pub_date') or '')
+    return ('x-international-renal-interest-society-2026-iris-staging-of-ckd-modified-2026' in sid) and (not d or d.endswith('-01-01') or d=='2026')
+def _pub_date(p):
+    """Complete YYYY-MM-DD for the 'ties newer' step, or None when the date must not break a tie."""
+    d=str(p.get('pub_date') or '').strip()
+    if _date_is_placeholder(p): return None
+    if re.match(r'^\d{4}-\d{2}-\d{2}$', d): return d
+    return None
 def rank_key(p,item=None):
     design=(item or {}).get('design') or p.get('design_category') or ''
     pmid=str(p.get('pmid') or '')
     sup=bool((item or {}).get('superseded_by') or (SUPER.get(pmid) or {}).get('by') or sup_info(p))
     y=_year_int(p,item)
-    date=p.get('pub_date') or ''
+    date=_pub_date(p) or ''
     return (_rank_type(design), 1 if sup else 0, cert_rank(p), 0 if y>=2021 else 1, -round(cites_yr(p,item),2), [-int(x) if str(x).isdigit() else 0 for x in (date.split('-')+['0','0','0'])[:3]])
 def tops(tid):
     items=[]
@@ -567,7 +578,17 @@ def tops(tid):
     if t:
         for x in (t.get('core') or []): add(get(x['id'] if isinstance(x,dict) else x))
         for p in tpapers(t): add(p)
-    cands=sorted(cands, key=lambda p: rank_key(p, item_by.get(str(p.get('pmid') or '')) or item_by.get(str(p.get('sid') or ''))))
+    orig={p['sid']:i for i,p in enumerate(cands)}
+    def _item(p):
+        return item_by.get(str(p.get('pmid') or '')) or item_by.get(str(p.get('sid') or ''))
+    def _cmp(a,b):
+        ka,kb=rank_key(a,_item(a))[:-1], rank_key(b,_item(b))[:-1]
+        if ka!=kb: return (ka>kb)-(ka<kb)
+        da,db=_pub_date(a),_pub_date(b)
+        if da and db and da!=db:
+            return (da<db)-(da>db)
+        return orig[a['sid']]-orig[b['sid']]
+    cands=sorted(cands, key=functools.cmp_to_key(_cmp))
     return _fill(cands)
 NEWEST_5Y=False  # 5-year 最新 window: built but OFF — hides 7 topics' 最新 on current data; awaiting decision
 def newest_cutoff(today=None):  # rolling 5 years from build date (as PubMed's '5 years' filter)

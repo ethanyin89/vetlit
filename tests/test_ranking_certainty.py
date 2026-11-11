@@ -20,4 +20,11 @@ assert [p['pmid'] for p in B.tops('epidemiology')]==['23647231','26581469','2589
 assert [p['pmid'] for p in B.tops('cardiomyopathy')]==['28965673','23078651','26776588']
 # parent dermatology still has no top_picks row → empty tops(); page fallback is unchanged
 assert B.tops('dermatology')==[]
+
+# IRIS 2026 has no calendar date on iris-kidney.com; placeholder 2026-01-01 must not lose the date tie to 42693626
+IRIS='x-international-renal-interest-society-2026-iris-staging-of-ckd-modified-2026'
+assert B._pub_date(B.get(IRIS)) is None
+for tid in ('nephrology','ckd'):
+    ids=[p.get('pmid') or p.get('sid') or p.get('v5id') for p in B.tops(tid)]
+    assert ids[0]==IRIS and ids[1]=='42693626', (tid, ids[:3])
 print('ranking certainty tests OK')
