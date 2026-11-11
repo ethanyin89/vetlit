@@ -99,7 +99,7 @@
   },
   {
    "pmid": "18638016",
-   "title_zh": "QUEST：二尖瓣病心衰犬，匹莫苯丹比贝那普利更晚到达心源性死亡或治疗失败",
+   "title_zh": "QUEST：心衰 MMVD 犬匹莫苯丹优于贝那普利",
    "citation": "Häggström 等，*Journal of Veterinary Internal Medicine* 2008；PMID 18638016；DOI 10.1111/j.1939-1676.2008.0150.x",
    "design_and_basis": "前瞻性、多中心、单盲（研究者盲、主人不盲）、阳性对照随机试验（犬）｜依据：全文（出版社版 PDF）",
    "text_basis": "全文",
@@ -206,7 +206,7 @@
   },
   {
    "pmid": "21704901",
-   "title_zh": "WSAVA 2011 营养评估指南：营养评估是每次就诊的“第五项生命体征”",
+   "title_zh": "WSAVA 2011：营养是第五生命体征",
    "citation": "Freeman 等（WSAVA 营养评估指南工作组），*Journal of Feline Medicine and Surgery* 2011；PMID 21704901；DOI 10.1016/j.jfms.2011.05.009",
    "design_and_basis": "世界小动物兽医协会（WSAVA）临床指南（犬、猫）｜依据：全文（PMC 网页版）",
    "text_basis": "全文",
@@ -247,7 +247,7 @@
   },
   {
    "pmid": "23078651",
-   "title_zh": "PROTECT：隐匿期扩张型心肌病杜宾犬，匹莫苯丹推迟心衰或猝死约 9 个月",
+   "title_zh": "PROTECT：匹莫苯丹推迟杜宾犬心衰或猝死",
    "citation": "Summerfield 等，*Journal of Veterinary Internal Medicine* 2012；PMID 23078651；DOI 10.1111/j.1939-1676.2012.01026.x",
    "design_and_basis": "随机、设盲、安慰剂对照、平行组多中心试验（犬）｜依据：全文（PMC 开放获取）",
    "text_basis": "全文",
@@ -298,7 +298,7 @@
   },
   {
    "pmid": "23422366",
-   "title_zh": "AAFP/ISFM 2013 猫环境需求指南：用“五大支柱”满足家猫的环境需求",
+   "title_zh": "AAFP/ISFM 2013 猫环境需求：五大支柱",
    "citation": "Ellis、Rodan、Carney、Heath 等，*Journal of Feline Medicine and Surgery* 2013；PMID 23422366；DOI 10.1177/1098612X13477537",
    "design_and_basis": "美国猫科医师协会（AAFP）和国际猫科医学会（ISFM）临床指南（猫）｜依据：全文（PMC 网页版）",
    "text_basis": "全文",
@@ -446,7 +446,7 @@
   },
   {
    "pmid": "24112317",
-   "title_zh": "ACVIM 2012 犬库欣诊断共识：有相符症状才检测，没有完美的试验",
+   "title_zh": "ACVIM 2012 犬库欣：先有症状再检测",
    "citation": "Behrend 等，*Journal of Veterinary Internal Medicine* 2013；PMID 24112317；DOI 10.1111/jvim.12192",
    "design_and_basis": "美国兽医内科学院（ACVIM）共识声明（犬）｜依据：全文（PDF）",
    "text_basis": "全文",
@@ -798,7 +798,7 @@
   },
   {
    "pmid": "27143042",
-   "title_zh": "AAFP 2016 猫甲亢指南：所有甲亢猫都要治疗，避免医源性甲减，合并 CKD 时按 IRIS 分期管理",
+   "title_zh": "AAFP 2016 猫甲亢：甲巯咪唑小剂量每日两次",
    "citation": "Carney 等，*Journal of Feline Medicine and Surgery* 2016；PMID 27143042；DOI 10.1177/1098612X16643252",
    "design_and_basis": "美国猫科医师协会（AAFP）专家指南（猫）｜依据：全文（PMC 开放获取）",
    "text_basis": "全文",
@@ -890,7 +890,7 @@
   },
   {
    "pmid": "28965673",
-   "title_zh": "ESVC 2017 杜宾犬 DCM 筛查指南：3 岁起每年做 Holter 加超声",
+   "title_zh": "ESVC 2017：杜宾犬 3 岁起每年筛 DCM",
    "citation": "Wess 等，*Journal of Veterinary Cardiology* 2017；PMID 28965673；DOI 10.1016/j.jvc.2017.08.006",
    "design_and_basis": "欧洲兽医心脏病学会（ESVC）指南（犬，杜宾犬）｜依据：仅摘要（未读到全文）",
    "text_basis": "仅摘要（全文未获取：非开放获取，未绕过）",
@@ -972,7 +972,7 @@
   },
   {
    "pmid": "30353952",
-   "title_zh": "ACVIM 2018 犬猫高血压共识：按收缩压分四级，多次测量确认后再治疗",
+   "title_zh": "ACVIM 2018 犬猫高血压：按收缩压分四级",
    "citation": "Acierno 等，*Journal of Veterinary Internal Medicine* 2018；PMID 30353952；DOI 10.1111/jvim.15331",
    "design_and_basis": "美国兽医内科学院（ACVIM）共识声明（犬、猫）｜依据：全文（PMC 开放获取）",
    "text_basis": "全文",
@@ -1232,7 +1232,7 @@
   },
   {
    "pmid": "30974015",
-   "title_zh": "ACVIM 2019 犬二尖瓣黏液瘤样变性（MMVD）共识：无症状但心脏已扩大（B2 期）就开始用匹莫苯丹",
+   "title_zh": "ACVIM 2019 MMVD：B2 期用匹莫苯丹",
    "citation": "Keene 等，*Journal of Veterinary Internal Medicine* 2019；PMID 30974015；DOI 10.1111/jvim.15488",
    "design_and_basis": "美国兽医内科学院（ACVIM）心脏专科共识指南（犬）｜依据：全文（PMC 开放获取，CC BY-NC）",
    "text_basis": "全文",
@@ -1436,7 +1436,7 @@
   },
   {
    "pmid": "32243654",
-   "title_zh": "ACVIM 2020 猫心肌病共识：按 A–D 分期管理，左房中重度扩大就用氯吡格雷防血栓",
+   "title_zh": "ACVIM 2020 猫心肌病：A–D 分期管理",
    "citation": "Luis Fuentes 等，*Journal of Veterinary Internal Medicine* 2020；PMID 32243654；DOI 10.1111/jvim.15745",
    "design_and_basis": "美国兽医内科学院（ACVIM）共识声明（猫）｜依据：全文（PMC 开放获取）",
    "text_basis": "全文",
@@ -1477,7 +1477,7 @@
   },
   {
    "pmid": "32441826",
-   "title_zh": "GS-441524 治疗神经型 FIP：4 例病例，3 只停药后长期正常",
+   "title_zh": "神经型 FIP：GS-441524 可长期缓解",
    "citation": "Dickinson 等，*Journal of Veterinary Internal Medicine* 2020；PMID 32441826；DOI 10.1111/jvim.15780",
    "design_and_basis": "病例系列（4 只猫，无对照）｜依据：全文（PMC 开放获取）",
    "text_basis": "全文",
@@ -1635,7 +1635,7 @@
   },
   {
    "pmid": "36002137",
-   "title_zh": "AAFP/EveryCat 2022 FIP 诊断指南：没有单一确诊化验，要“一砖一瓦”地建立怀疑",
+   "title_zh": "AAFP 2022 FIP 诊断：逐步建立怀疑度",
    "citation": "Thayer 等，*Journal of Feline Medicine and Surgery* 2022；PMID 36002137；DOI 10.1177/1098612X221118761",
    "design_and_basis": "美国猫科医师协会（AAFP）与 EveryCat 联合专家指南（猫）｜依据：全文（PMC 开放获取）",
    "text_basis": "全文",
@@ -1758,7 +1758,7 @@
   },
   {
    "pmid": "38952053",
-   "title_zh": "MAGMA：CKD 猫吃加镁的限磷处方粮 12–16 周，FGF23 与血钙变化的组间差异在全分析集均未达显著",
+   "title_zh": "猫 CKD 加镁粮：FGF23 无显著差异，防高钙",
    "citation": "Tang 等，*Journal of Veterinary Internal Medicine* 2024；PMID 38952053；DOI 10.1111/jvim.17134",
    "design_and_basis": "前瞻性、双盲、平行组随机对照饲喂试验（猫）｜依据：全文（PMC 开放获取，CC BY）",
    "text_basis": "全文",
@@ -1865,7 +1865,7 @@
   },
   {
    "pmid": "41224734",
-   "title_zh": "2025 iCatCare 猫糖尿病共识：胰岛素或 SGLT2 抑制剂都可以，SGLT2 抑制剂只给经筛查、状况良好的猫",
+   "title_zh": "猫糖尿病共识：胰岛素或 SGLT2 抑制剂",
    "citation": "Taylor 等，*Journal of Feline Medicine and Surgery* 2025；PMID 41224734；DOI 10.1177/1098612X251399103",
    "design_and_basis": "国际爱猫协会（iCatCare）兽医学会专家共识（猫）｜依据：全文（PMC 开放获取）",
    "text_basis": "全文",
@@ -1947,7 +1947,7 @@
   },
   {
    "pmid": "42043241",
-   "title_zh": "ABCD 2026 FIP 治疗更新：口服 GS-441524 为首选，42 天疗程可能与 84 天同样有效",
+   "title_zh": "ABCD：FIP 首选口服 GS-441524",
    "citation": "Tasker 等，*Viruses* 2026；PMID 42043241；DOI 10.3390/v18040452",
    "design_and_basis": "欧洲猫病顾问委员会（ABCD）指南更新（猫）｜依据：全文（PMC 开放获取）",
    "text_basis": "全文",
@@ -1988,7 +1988,7 @@
   },
   {
    "pmid": "42693626",
-   "title_zh": "2026 iCatCare 猫慢性肾病共识：先确诊、按 IRIS 分期，处方肾病粮是核心",
+   "title_zh": "iCatCare 猫 CKD：处方肾病粮是核心",
    "citation": "Taylor 等，*Journal of Feline Medicine and Surgery* 2026；PMID 42693626；DOI 10.1177/1098612X261466553",
    "design_and_basis": "国际爱猫协会（iCatCare）兽医学会专家共识（猫）｜依据：全文（PMC 开放获取）",
    "text_basis": "全文",
@@ -2126,7 +2126,7 @@
   },
   {
    "pmid": "x-international-renal-interest-society-2026-iris-staging-of-ckd-modified-2026",
-   "title_zh": "IRIS 2026 慢性肾病分期（修订版）：按肌酐和 SDMA 分 4 期，再按蛋白尿和血压亚分期",
+   "title_zh": "IRIS 2026 CKD 分期：新增贫血治疗阈值",
    "citation": "国际肾脏学会（IRIS），*IRIS Staging of CKD (Modified 2026)*，iris-kidney.com 2026；无 PMID",
    "design_and_basis": "国际专业组织分期标准（犬、猫）｜依据：IRIS 官网 PDF 全文（共 7 页）。IRIS 另有治疗建议文件，本卡未读。",
    "text_basis": "全文",

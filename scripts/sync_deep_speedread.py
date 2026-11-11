@@ -19,10 +19,10 @@ SKEEP=('heading','markdown')
 SOURCES=['batch1.json','library_infectious_2026-11-10.json','weekly_2026-11-10.json']
 CARD_FIELDS_SRC=os.path.join(SRC_DIR,'card_fields.json')
 CARD_FIELDS_OUT=os.path.join(ROOT,'data','v5','card_fields.json')
-CARD_FIELD_KEYS=('title_zh','one_line_conclusion_zh','clinical_meaning')
+CARD_FIELD_KEYS=('title_zh','title_long_zh','one_line_conclusion_zh','clinical_meaning')
 
 def load_card_fields():
-    """Top-level card fields only (title_zh, one_line_conclusion_zh, clinical_meaning)."""
+    """Top-level card fields only (title_zh, title_long_zh, one_line_conclusion_zh, clinical_meaning)."""
     if not os.path.isfile(CARD_FIELDS_SRC): return {}
     src=json.load(open(CARD_FIELDS_SRC,encoding='utf-8'))
     out={}
@@ -65,7 +65,7 @@ print('wrote',OUT,'n=',len(papers),'skipped_unapproved=',len(skipped))
 print('skipped:', ', '.join(skipped))
 if card_fields:
     json.dump({
-        '_note':'Card fields for weekly and reader cards: title_zh (short title), one_line_conclusion_zh, clinical_meaning. Synced from extracts/deep_speedread/card_fields.json. The build reads this file; do not copy other extract sections here.',
+        '_note':'Card fields for weekly and reader cards: title_zh (short title), title_long_zh (original longer title), one_line_conclusion_zh, clinical_meaning. Synced from extracts/deep_speedread/card_fields.json. The build reads this file; do not copy other extract sections here.',
         'papers':card_fields,
     },open(CARD_FIELDS_OUT,'w',encoding='utf-8'),ensure_ascii=False,indent=1)
     print('wrote',CARD_FIELDS_OUT,'n=',len(card_fields))

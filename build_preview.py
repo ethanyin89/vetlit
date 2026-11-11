@@ -753,7 +753,33 @@ def weekly_new_entries(today=None):
         out.append((earliest,disp,p,tid,label,href))
     out.sort(key=lambda x:(-int(x[0].replace('-','') or 0), str(x[2].get('pmid') or '')))
     return out
-WEEKLY_TITLE_ZH_MAX=25
+TITLE_ZH_MAX=25
+WEEKLY_TITLE_ZH_MAX=TITLE_ZH_MAX
+
+def iter_top_papers():
+    """Unique 最重要 papers across homepage and topic pages (same tops() path)."""
+    seen=set(); out=[]
+    for g in (X.TOP.get('topics') or []):
+        for p in tops(g.get('topic')) or []:
+            k=str(p.get('sid') or p.get('pmid') or '')
+            if not k or k in seen: continue
+            seen.add(k); out.append(p)
+    return out
+
+def top_titles_over_limit():
+    """最重要 card titles whose title_zh exceeds TITLE_ZH_MAX (Python len). Curated; not skipped."""
+    bad=[]
+    for p in iter_top_papers():
+        ti=clean((p or {}).get('title_zh') or '')
+        if ti and len(ti)>TITLE_ZH_MAX:
+            bad.append((str(p.get('pmid') or p.get('sid') or '?'), ti, len(ti)))
+    return bad
+
+def warn_top_titles():
+    """Build warning for overlong 最重要 titles. Does not skip cards; tests fail the release."""
+    for pmid, ti, n in top_titles_over_limit():
+        print(f'warning: 最重要 title_zh longer than {TITLE_ZH_MAX} characters: {pmid} ({n}) {ti}', file=sys.stderr)
+    return
 def weekly_conclusion(p):
     """Clinical-action line for 本期新增 cards: clinical_meaning, else the 最重要 summ() fallback. Does not change 最重要 rendering."""
     if has((p or {}).get('clinical_meaning')): return clean(p['clinical_meaning'])
@@ -1070,7 +1096,8 @@ def ds_sections(r):
 def paper(p):
     r='../../'; S=sections(p); ds=ds_of(p)
     if ds and ds.get('title_zh'): p=dict(p); p['title_zh']=ds['title_zh']
-    _cf=CARD_FIELDS.get(str(p.get('pmid') or '')) or {}
+    _cf=(CARD_FIELDS.get(str(p.get('pmid') or '')) or CARD_FIELDS.get(str(p.get('sid') or ''))
+         or CARD_FIELDS.get(str(p.get('v5id') or '')) or CARD_FIELDS.get(str(p.get('id') or '')) or {})
     if has(_cf.get('title_zh')):
         p=dict(p); p['title_zh']=STRIP(_cf['title_zh'])
     head=f'''<p class="crumb"><a href="{r}library/">文献库</a>{"".join(f' › <a href="{r}topics/{t}/">{E_(TBY[t]["name_zh"])}</a>' for t in (p.get("topics") or [])[:1] if t in TBY and t in [v["id"] for v in VIS])}</p>
@@ -1294,6 +1321,7 @@ def _purge_unscreened_reader_output():
             pass
 
 def main():
+    warn_top_titles()
     if not LIVE: shutil.rmtree(OUT,ignore_errors=True)
     w('index.html',home()); w('library/index.html',library()); w('topics/index.html',topics_index())
     for t in VIS: w(f'topics/{t["id"]}/index.html',topic_page(t))

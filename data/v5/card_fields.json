@@ -1,10 +1,78 @@
 {
- "_note": "Card fields for weekly and reader cards: title_zh (short title), one_line_conclusion_zh, clinical_meaning. Synced from extracts/deep_speedread/card_fields.json. The build reads this file; do not copy other extract sections here.",
+ "_note": "Card fields for weekly and reader cards: title_zh (short title), title_long_zh (original longer title), one_line_conclusion_zh, clinical_meaning. Synced from extracts/deep_speedread/card_fields.json. The build reads this file; do not copy other extract sections here.",
  "papers": {
   "42977701": {
    "title_zh": "犬猫乳腺切除术后 8.8% 感染",
    "one_line_conclusion_zh": "615 例乳腺切除中 54 例术后 30 天内感染，手术时间长、术中低体温、体况评分高和既往大手术与感染相关。",
    "clinical_meaning": "乳腺切除时控制手术时长、预防术中低体温；术后感染先做细菌培养再选抗菌药。"
+  },
+  "30974015": {
+   "title_zh": "ACVIM 2019 MMVD：B2 期用匹莫苯丹",
+   "title_long_zh": "ACVIM 2019 犬 MMVD：B2 期起用匹莫苯丹"
+  },
+  "30353952": {
+   "title_zh": "ACVIM 2018 犬猫高血压：按收缩压分四级",
+   "title_long_zh": "ACVIM 2018 犬猫高血压指南：按收缩压分四级"
+  },
+  "32243654": {
+   "title_zh": "ACVIM 2020 猫心肌病：A–D 分期管理",
+   "title_long_zh": "ACVIM 2020 猫心肌病指南：按 A–D 分期管理"
+  },
+  "32441826": {
+   "title_zh": "神经型 FIP：GS-441524 可长期缓解",
+   "title_long_zh": "神经型 FIP：GS-441524 可长期缓解，需更高剂量"
+  },
+  "21704901": {
+   "title_zh": "WSAVA 2011：营养是第五生命体征",
+   "title_long_zh": "WSAVA 2011 营养评估指南：营养是第五生命体征"
+  },
+  "38952053": {
+   "title_zh": "猫 CKD 加镁粮：FGF23 无显著差异，防高钙",
+   "title_long_zh": "猫 CKD：加镁限磷粮组间 FGF23 变化率差异不显著，可防止高钙"
+  },
+  "23422366": {
+   "title_zh": "AAFP/ISFM 2013 猫环境需求：五大支柱",
+   "title_long_zh": "AAFP/ISFM 2013 猫环境需求指南：五大支柱"
+  },
+  "x-international-renal-interest-society-2026-iris-staging-of-ckd-modified-2026": {
+   "title_zh": "IRIS 2026 CKD 分期：新增贫血治疗阈值",
+   "title_long_zh": "IRIS 2026 CKD 分期：新增犬猫贫血治疗阈值"
+  },
+  "42693626": {
+   "title_zh": "iCatCare 猫 CKD：处方肾病粮是核心",
+   "title_long_zh": "iCatCare 2026 猫慢性肾病指南：按 IRIS 分期管理"
+  },
+  "41224734": {
+   "title_zh": "猫糖尿病共识：胰岛素或 SGLT2 抑制剂",
+   "title_long_zh": "iCatCare 2025 猫糖尿病指南：胰岛素或 SGLT2 抑制剂"
+  },
+  "27143042": {
+   "title_zh": "AAFP 2016 猫甲亢：甲巯咪唑小剂量每日两次",
+   "title_long_zh": "AAFP 2016 猫甲亢指南：甲巯咪唑小剂量每日两次"
+  },
+  "24112317": {
+   "title_zh": "ACVIM 2012 犬库欣：先有症状再检测",
+   "title_long_zh": "ACVIM 2012 犬库欣诊断共识：先有症状再检测"
+  },
+  "36002137": {
+   "title_zh": "AAFP 2022 FIP 诊断：逐步建立怀疑度",
+   "title_long_zh": "AAFP 2022 FIP 诊断指南：逐块建立怀疑度"
+  },
+  "42043241": {
+   "title_zh": "ABCD：FIP 首选口服 GS-441524",
+   "title_long_zh": "ABCD 2026：FIP 首选口服 GS-441524"
+  },
+  "18638016": {
+   "title_zh": "QUEST：心衰 MMVD 犬匹莫苯丹优于贝那普利",
+   "title_long_zh": "QUEST：心衰期 MMVD 犬匹莫苯丹优于贝那普利"
+  },
+  "28965673": {
+   "title_zh": "ESVC 2017：杜宾犬 3 岁起每年筛 DCM",
+   "title_long_zh": "ESVC 2017：杜宾犬 3 岁起每年筛查 DCM"
+  },
+  "23078651": {
+   "title_zh": "PROTECT：匹莫苯丹推迟杜宾犬心衰或猝死",
+   "title_long_zh": "PROTECT：匹莫苯丹推迟杜宾犬隐匿期 DCM 发病"
   }
  }
 }
