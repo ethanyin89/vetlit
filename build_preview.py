@@ -1,5 +1,5 @@
 """Preview build (redesign, cindy.app tokens): data/v5 + data/papers + content -> dist/preview/. Root site untouched."""
-import json, os, glob, re, html, datetime, shutil, functools
+import json, os, sys, glob, re, html, datetime, shutil, functools
 import build as B
 import preview_extras as X
 ROOT=B.ROOT; LIVE=os.environ.get('VETLIT_LIVE')=='1'; OUT=B.DIST if LIVE else os.path.join(B.DIST,'preview'); E_=html.escape
@@ -741,10 +741,54 @@ def weekly_new_entries(today=None):
         out.append((earliest,disp,p,tid,label,href))
     out.sort(key=lambda x:(-int(x[0].replace('-','') or 0), str(x[2].get('pmid') or '')))
     return out
+def weekly_zh_ready(p):
+    """本期新增 cards need a Chinese title and a one-line conclusion. English-only records are not shown as a bare line."""
+    return bool(clean((p or {}).get('title_zh') or '')) and bool(clean((p or {}).get('one_line_conclusion_zh') or ''))
+
+def weekly_certainty_label(p):
+    """Certainty text for the weekly card cmeta line. Unrated papers say 暂未评级, never provisional."""
+    if not SHOW_CERTAINTY: return ''
+    t=_ctext(p)
+    if t: return t
+    if str((p or {}).get('pmid') or '') in PENDING_LABEL:
+        return PENDING_LABEL[str(p['pmid'])]
+    return '暂未评级'
+
+def weekly_card(p,disp,label,topic_href,r=''):
+    """Same shape as a homepage 最重要 hcard: Chinese title, English subtitle, cmeta, one-line conclusion, optional 速读 link."""
+    sid=p.get('sid') or ('pmid-'+str(p.get('pmid') or ''))
+    href=f'{r}papers/{sid}/'
+    title=title_html(p,'h3',href)
+    topic=f'<a href="{r}{topic_href}">{E_(label)}</a>' if topic_href else E_(label)
+    cert=weekly_certainty_label(p)
+    meta=' · '.join(x for x in (E_(disp), topic, E_(cert) if cert else '') if x)
+    bl=f'<p class="bl">{E_(clean(p["one_line_conclusion_zh"]))}</p>'
+    key=str(p.get('pmid') or '')
+    approved=key in DS_APPROVED or str(p.get('sid') or '') in DS_APPROVED or str(sid) in DS_APPROVED
+    ft=''
+    if approved:
+        lk=f'<a class="go" href="{href}">速读 →</a>'
+        if has_tr(p): lk+=f' <a class="go" href="{href}bilingual/">中英对照 →</a>'
+        ft=f'<p class="ft">{lk}</p>'
+    return f'<article class="card">{title}<p class="cmeta">{meta}</p>{bl}{ft}</article>'
+
+def weekly_visible_entries(entries=None, today=None):
+    """Drop approved weekly papers that lack a Chinese title or conclusion, and log a build warning for each."""
+    if entries is None: entries=weekly_new_entries(today)
+    out=[]
+    for item in entries:
+        earliest,disp,p,tid,label,href=item
+        if not weekly_zh_ready(p):
+            pmid=str((p or {}).get('pmid') or (p or {}).get('sid') or '?')
+            print(f'warning: 本期新增 skipped {pmid}: missing Chinese title or one-line conclusion', file=sys.stderr)
+            continue
+        out.append(item)
+    return out
+
 def weekly_new_block():
-    """Compact 本期新增: one flat list by publication date (newest first). Each line is the paper, its pub date, and the screening topic label (其他 if outside existing topics). Newly created topics are one linked line (no papers). If no paper qualifies, 本周无新增. Queue / 待处理 ingest is never included."""
+    """本期新增: approved papers as 最重要-style cards (Chinese title + one-line conclusion, English subtitle, pub date · topic · certainty, 速读 if approved). New topics are one linked line (no papers). If none qualify, 本周无新增. Queue / 待处理 ingest is never included."""
     st,en,iid=issue_bounds()
-    entries=weekly_new_entries()
+    entries=weekly_visible_entries()
     new_ts=new_topics_this_issue()
     def fmt(d):
         y,m,dd=(d.split('-')+['','',''])[:3]
@@ -759,17 +803,10 @@ def weekly_new_block():
         for t in new_ts:
             href=f'topics/{t["id"]}/' if TBY.get(t['id']) else ''
             parts.append(f'<a href="{href}">{E_(t["name"])}</a>' if href else E_(t['name']))
-        topics_line=f'<p class="note">本周新增专题：{"（".join(parts) if False else "、".join(parts)}</p>'
+        topics_line=f'<p class="note">本周新增专题：{"、".join(parts)}</p>'
     if not entries:
         return f'<section class="issue" id="weekly-new">{head}{topics_line}<p class="note">本周无新增</p></section>'
-    lis=''
-    for earliest,disp,p,tid,label,href in entries:
-        name=clean(p.get('title_zh') or p.get('one_line_conclusion_zh') or p.get('title') or '')
-        sid=p.get('sid') or ('pmid-'+str(p.get('pmid') or ''))
-        paper=f'<a href="papers/{E_(sid)}/">{E_(name)}</a>' if sid else E_(name)
-        topic=f'<a href="{E_(href)}">{E_(label)}</a>' if href else E_(label)
-        lis+=f'<li>{paper}<span class="m">{E_(disp)} · {topic}</span></li>'
-    body=f'<ul class="rows">{lis}</ul>'
+    body=''.join(weekly_card(p,disp,label,href) for _,disp,p,tid,label,href in entries)
     return f'<section class="issue" id="weekly-new">{head}{topics_line}{body}</section>'
 
 def home():

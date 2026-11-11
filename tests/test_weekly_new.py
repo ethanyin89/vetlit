@@ -116,4 +116,53 @@ assert st=='2026-11-16' and en=='2026-11-22'
 assert B.weekly_new_entries(datetime.date(2026,11,16))==[]
 assert B.new_topics_this_issue(datetime.date(2026,11,16))==[]
 
+# 本期新增 cards match 最重要 hcard shape; English-only approved papers are excluded with a warning
+import io, contextlib
+libp=B.get('pmid-42977701') or B.get('42977701')
+assert B.weekly_zh_ready(libp)
+html=B.weekly_card(libp,'2026年11月','感染性疾病','topics/infectious/','')
+assert '<article class="card">' in html
+assert '<h3 class="ct">' in html and '犬猫乳腺切除术后' in html
+assert '<p class="en" lang="en">' in html and libp['title'][:40] in html
+assert '<p class="cmeta">' in html and '2026年11月' in html
+assert '感染性疾病' in html and 'topics/infectious/' in html
+assert '证据确定性：低' in html
+assert '<p class="bl">' in html and '手术部位感染' in html
+assert '速读 →' in html  # speed-read is approved
+assert 'class="why"' not in html and 'pick_reason' not in html
+assert '待处理' not in html and '肥胖' not in html
+# missing Chinese title or conclusion: not a bare English line; build warning
+bare={'pmid':'000111','sid':'pmid-000111','title':'English-only weekly paper','pub_date':'2026-10-01'}
+assert not B.weekly_zh_ready(bare)
+assert not B.weekly_zh_ready({'title_zh':'只有中文标题','title':'English','pmid':'000112'})
+assert not B.weekly_zh_ready({'one_line_conclusion_zh':'只有结论','title':'English','pmid':'000113'})
+item=('2026-10-01','2026年10月1日',bare,'','其他','')
+good=('2026-11-01','2026年11月',libp,'infectious','感染性疾病','topics/infectious/')
+err=io.StringIO()
+with contextlib.redirect_stderr(err):
+    vis=B.weekly_visible_entries([good,item])
+assert vis==[good]
+assert 'warning:' in err.getvalue() and '000111' in err.getvalue()
+assert 'missing Chinese title or one-line conclusion' in err.getvalue()
+old_entries=B.weekly_new_entries
+try:
+    B.weekly_new_entries=lambda today=None: [item]
+    err=io.StringIO()
+    with contextlib.redirect_stderr(err):
+        block=B.weekly_new_block()
+    assert '本周无新增' in block
+    assert 'English-only weekly paper' not in block
+    assert 'pmid-000111' not in block
+    assert '<article class="card">' not in block
+    assert 'warning:' in err.getvalue() and '000111' in err.getvalue()
+    B.weekly_new_entries=lambda today=None: [good]
+    block=B.weekly_new_block()
+    assert '本周无新增' not in block
+    assert '<article class="card">' in block and '犬猫乳腺切除术后' in block
+    assert libp['title'][:40] in block
+    assert '2026年11月' in block and '感染性疾病' in block and '证据确定性：低' in block
+    assert '速读 →' in block
+finally:
+    B.weekly_new_entries=old_entries
+
 print('weekly new / queue tests OK')
