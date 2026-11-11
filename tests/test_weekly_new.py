@@ -38,6 +38,11 @@ assert prec=='day' and ear=='2026-09-28' and disp=='2026年9月28日'
 disp,prec,ear=B.parse_pub_date({'date':'2026-11-01'})
 assert prec=='month' and ear=='2026-11-01' and disp=='2026年11月'
 assert B.parse_pub_date({})==(None,None,None)
+# stored day precision is kept even when the calendar day is the 1st; month-only stays month-only
+disp,prec,ear=B.parse_pub_date({'pub_date':'2026-11-01','pub_date_precision':'day'})
+assert prec=='day' and disp=='2026年11月1日'
+disp,prec,ear=B.parse_pub_date({'pub_date':'2026-11-01','pub_date_precision':'month'})
+assert prec=='month' and disp=='2026年11月'
 
 # this issue: no approved 本期新增 papers (42977701 is in the infectious library, not this list)
 today=datetime.date(2026,11,10)
@@ -116,51 +121,80 @@ assert st=='2026-11-16' and en=='2026-11-22'
 assert B.weekly_new_entries(datetime.date(2026,11,16))==[]
 assert B.new_topics_this_issue(datetime.date(2026,11,16))==[]
 
-# 本期新增 cards match 最重要 hcard shape; English-only approved papers are excluded with a warning
-import io, contextlib
+# PubMed PubDate / ArticleDate parsing at ingest (day kept only when PubMed has a day)
+import scripts.ingest as IN
+iso,prec,src=IN.parse_esummary_pub_date({'pubdate':'2026 Nov 15','epubdate':'','sortpubdate':'2026/11/15 00:00'})
+assert iso=='2026-11-15' and prec=='day' and 'PubDate' in src
+iso,prec,src=IN.parse_esummary_pub_date({'pubdate':'2026 Nov','epubdate':'','sortpubdate':'2026/11/01 00:00'})
+assert iso=='2026-11-01' and prec=='month' and 'PubDate' in src  # month-only stays month-only
+iso,prec,src=IN.parse_esummary_pub_date({'pubdate':'2026 Nov','epubdate':'2026 Nov 03','sortpubdate':'2026/11/01 00:00'})
+assert iso=='2026-11-03' and prec=='day' and 'ArticleDate' in src
+iso,prec,src=IN.parse_esummary_pub_date({'pubdate':'','epubdate':'','sortpubdate':'2026/11/01 00:00'})
+assert iso=='2026-11-01' and prec=='month'
+
+# 42977701 as stored: title_zh == one_line_conclusion_zh, no clinical_meaning → overlap, skip
 libp=B.get('pmid-42977701') or B.get('42977701')
-assert B.weekly_zh_ready(libp)
-html=B.weekly_card(libp,'2026年11月','感染性疾病','topics/infectious/','')
+assert libp.get('title_zh') and libp.get('one_line_conclusion_zh')
+assert libp.get('title_zh')==libp.get('one_line_conclusion_zh')
+assert not libp.get('clinical_meaning')
+assert B.weekly_title_overlaps_conclusion(libp['title_zh'], B.summ(libp))
+assert not B.weekly_zh_ready(libp)
+# 42977701 PubDate is month-only
+disp,prec,ear=B.parse_pub_date(libp)
+assert prec=='month' and disp=='2026年11月'
+
+# overlap helpers
+assert B.weekly_title_overlaps_conclusion('犬猫乳腺切除术后 8.8% 感染','犬猫乳腺切除术后 8.8% 感染')
+assert B.weekly_title_overlaps_conclusion('犬猫乳腺切除术后 8.8% 感染','犬猫乳腺切除术后 8.8% 感染：手术时间长、术中低体温')
+assert B.weekly_title_overlaps_conclusion('控制手术时长、防止术中低体温','控制手术时长，防止术中低体温。')  # high similarity
+assert not B.weekly_title_overlaps_conclusion('犬猫乳腺切除术后 8.8% 感染','控制手术时长、防止术中低体温；感染后先培养再选药。')
+
+# 本期新增 cards: title_zh + summ() (clinical_meaning when conclusion would duplicate the title)
+import io, contextlib, copy
+good_p=copy.deepcopy(libp)
+good_p['clinical_meaning']='控制手术时长、防止术中低体温；感染后先培养再选药。'
+assert B.weekly_zh_ready(good_p)
+assert B.summ(good_p)==good_p['clinical_meaning']
+html=B.weekly_card(good_p,'2026年11月','感染性疾病','topics/infectious/','')
 assert '<article class="card">' in html
 assert '<h3 class="ct">' in html and '犬猫乳腺切除术后' in html
-assert '<p class="en" lang="en">' in html and libp['title'][:40] in html
-assert '<p class="cmeta">' in html and '2026年11月' in html
+assert '<p class="en" lang="en">' in html and good_p['title'][:40] in html
+assert '<p class="bl">' in html and '控制手术时长、防止术中低体温' in html
+assert good_p['title_zh'] not in html.split('<p class="bl">',1)[1]  # conclusion is not the title
+# meta reuses 最重要 cmeta: journal · study type · n · species, plus topic and certainty
+assert 'Vet Med Sci' in html and '队列研究' in html and '615 只' in html and '犬/猫' in html
 assert '感染性疾病' in html and 'topics/infectious/' in html
 assert '证据确定性：低' in html
-assert '<p class="bl">' in html and '手术部位感染' in html
-assert '速读 →' in html  # speed-read is approved
+assert '2026年11月' in html
+assert '速读 →' in html
 assert 'class="why"' not in html and 'pick_reason' not in html
-assert '待处理' not in html and '肥胖' not in html
-# missing Chinese title or conclusion: not a bare English line; build warning
+
 bare={'pmid':'000111','sid':'pmid-000111','title':'English-only weekly paper','pub_date':'2026-10-01'}
 assert not B.weekly_zh_ready(bare)
-assert not B.weekly_zh_ready({'title_zh':'只有中文标题','title':'English','pmid':'000112'})
-assert not B.weekly_zh_ready({'one_line_conclusion_zh':'只有结论','title':'English','pmid':'000113'})
 item=('2026-10-01','2026年10月1日',bare,'','其他','')
-good=('2026-11-01','2026年11月',libp,'infectious','感染性疾病','topics/infectious/')
+overlap=('2026-11-01','2026年11月',libp,'infectious','感染性疾病','topics/infectious/')
+good=('2026-11-01','2026年11月',good_p,'infectious','感染性疾病','topics/infectious/')
 err=io.StringIO()
 with contextlib.redirect_stderr(err):
-    vis=B.weekly_visible_entries([good,item])
+    vis=B.weekly_visible_entries([good,item,overlap])
 assert vis==[good]
-assert 'warning:' in err.getvalue() and '000111' in err.getvalue()
-assert 'missing Chinese title or one-line conclusion' in err.getvalue()
+assert '000111' in err.getvalue() and 'missing Chinese title or one-line conclusion' in err.getvalue()
+assert '42977701' in err.getvalue() and 'conclusion overlaps title' in err.getvalue()
 old_entries=B.weekly_new_entries
 try:
-    B.weekly_new_entries=lambda today=None: [item]
+    B.weekly_new_entries=lambda today=None: [overlap]
     err=io.StringIO()
     with contextlib.redirect_stderr(err):
         block=B.weekly_new_block()
     assert '本周无新增' in block
-    assert 'English-only weekly paper' not in block
-    assert 'pmid-000111' not in block
     assert '<article class="card">' not in block
-    assert 'warning:' in err.getvalue() and '000111' in err.getvalue()
+    assert 'conclusion overlaps title' in err.getvalue()
     B.weekly_new_entries=lambda today=None: [good]
     block=B.weekly_new_block()
     assert '本周无新增' not in block
-    assert '<article class="card">' in block and '犬猫乳腺切除术后' in block
-    assert libp['title'][:40] in block
-    assert '2026年11月' in block and '感染性疾病' in block and '证据确定性：低' in block
+    assert '<article class="card">' in block
+    assert '控制手术时长、防止术中低体温' in block
+    assert 'Vet Med Sci' in block and '615 只' in block and '证据确定性：低' in block
     assert '速读 →' in block
 finally:
     B.weekly_new_entries=old_entries

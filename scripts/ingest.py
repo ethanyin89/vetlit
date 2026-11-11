@@ -19,6 +19,61 @@ QFILE=os.path.join(ROOT,'data','v5','pubmed_queries.json')
 BASE='https://eutils.ncbi.nlm.nih.gov/entrez/eutils/'
 EXCLUDE_TYPES={'Comment','Editorial','Letter','News','Published Erratum','Retraction of Publication','Retracted Publication'}
 
+_MONTH={'jan':1,'january':1,'feb':2,'february':2,'mar':3,'march':3,'apr':4,'april':4,
+        'may':5,'jun':6,'june':6,'jul':7,'july':7,'aug':8,'august':8,'sep':9,'sept':9,
+        'september':9,'oct':10,'october':10,'nov':11,'november':11,'dec':12,'december':12}
+
+def _parse_pubmed_date_str(s):
+    """Parse an esummary pubdate/epubdate string. Returns (iso, precision) or (None, None).
+    Day is recorded only when the string itself includes a day."""
+    s=(s or '').strip()
+    if not s: return None, None
+    iso=s.replace('/','-')
+    if len(iso)>=10 and iso[4]=='-' and iso[7]=='-' and iso[:10].replace('-','').isdigit():
+        return iso[:10], 'day'
+    parts=s.replace(',', ' ').split()
+    if not parts: return None, None
+    y=parts[0][:4]
+    if not (y.isdigit() and len(y)==4):
+        return None, None
+    if len(parts)==1:
+        return y+'-01-01', 'year'
+    mon=_MONTH.get(parts[1].lower()) or (int(parts[1]) if parts[1].isdigit() and 1<=int(parts[1])<=12 else None)
+    if not mon:
+        return y+'-01-01', 'year'
+    if len(parts)>=3 and parts[2].isdigit():
+        dd=int(parts[2])
+        if 1<=dd<=31:
+            return f'{y}-{mon:02d}-{dd:02d}', 'day'
+    return f'{y}-{mon:02d}-01', 'month'
+
+def parse_esummary_pub_date(d):
+    """(iso, precision, source) from PubMed esummary PubDate (pubdate) and ArticleDate/EpubDate (epubdate).
+    sortpubdate is only a fallback when both are missing; a first-of-month sortpubdate is not treated as a day
+    when PubDate is month-only."""
+    d=d or {}
+    pub=_parse_pubmed_date_str(d.get('pubdate') or '')
+    epub=_parse_pubmed_date_str(d.get('epubdate') or d.get('articleDate') or '')
+    if pub[1]=='day':
+        return pub[0], 'day', 'PubMed PubDate'
+    if epub[1]=='day':
+        return epub[0], 'day', 'PubMed ArticleDate/EpubDate'
+    if pub[1]=='month':
+        return pub[0], 'month', 'PubMed PubDate'
+    if epub[1]=='month':
+        return epub[0], 'month', 'PubMed ArticleDate/EpubDate'
+    if pub[1]=='year':
+        return pub[0], 'year', 'PubMed PubDate'
+    if epub[1]=='year':
+        return epub[0], 'year', 'PubMed ArticleDate/EpubDate'
+    sort=(d.get('sortpubdate') or '').replace('/','-')
+    if len(sort)>=10 and sort[:10].replace('-','').isdigit():
+        iso=sort[:10]
+        prec='month' if iso.endswith('-01') else 'day'
+        return iso, prec, 'PubMed sortpubdate'
+    return None, None, ''
+
+
 def get(ep,**p):
     """POST to E-utilities so long pubmed_query strings are not truncated by URL length."""
     p.setdefault('tool','vetlit')
@@ -111,8 +166,11 @@ def main(days=None, dry=None, fetch=None):
             if pts & EXCLUDE_TYPES: continue
             doi=next((a['value'] for a in d.get('articleids',[]) if a.get('idtype')=='doi'),'')
             pmc=next((a['value'] for a in d.get('articleids',[]) if a.get('idtype')=='pmc'),'')
+            iso,prec,src=parse_esummary_pub_date(d)
             rec={'id':f'pmid-{pmid}','pmid':str(pmid),'title':d.get('title','').rstrip('.'),'first_author':(d.get('authors') or [{}])[0].get('name',''),
-                 'year':(d.get('pubdate') or '')[:4],'date':(d.get('sortpubdate') or '')[:10].replace('/','-'),'journal':d.get('source',''),'doi':str(doi).lower(),
+                 'year':(iso or d.get('pubdate') or '')[:4],'date':iso or (d.get('sortpubdate') or '')[:10].replace('/','-'),
+                 'pub_date':iso or '','pub_date_precision':prec or '','pub_date_source':src or '',
+                 'journal':d.get('source',''),'doi':str(doi).lower(),
                  'pmcid':pmc,'species':species_of(d.get('title','')),'specialty':'未分类','topics':sorted(set(hits.get(str(pmid),[]))),'source':'PubMed (E-utilities)','oa':'是' if pmc else '未核',
                  'doc_type':'待定','publication_types':sorted(pts),'sample_size_analysed':'未核','multicenter':'未核','funding':'未核','verified':'partial',
                  'status':'待处理','provenance':['ingest'],'ingested_at':time.strftime('%Y-%m-%d')}

@@ -1586,6 +1586,18 @@
    "same_cohort_as": [],
    "cebm_level": "不适用（核心结局集）",
    "cebm_card_display": "不适用（核心结局集）"
+  },
+  "42977701": {
+   "year": "2026",
+   "journal": "Vet Med Sci",
+   "design_zh": "队列研究",
+   "species_zh": "犬/猫",
+   "n": 615,
+   "n_label_zh": "615 只",
+   "n_quote": "Of 615 procedures (558 canine, 57 feline; all entire females, none concurrent ovariohysterectomy), 54 (8.8%; 95% CI, 6.8%–11.3%) developed SSI within 30 days.",
+   "n_source": "原文全文（PMC13731168）",
+   "n_status": "已在原文核对",
+   "n_detail_zh": "615 例乳腺切除（558 只犬、57 只猫）"
   }
  }
 }

@@ -661,19 +661,20 @@ def pub_window_start(today=None):
     return _add_months(today,-3)
 def parse_pub_date(p):
     """(display, precision, earliest_iso) from the paper's publication date.
-    Conservative: a date that is only a year, only a year-month, or a YYYY-MM-01
-    (day stored as the 1st, which may be month precision) is treated as the first
-    of that month/year. Missing/unusable → (None, None, None)."""
+    Honor a stored pub_date_precision (from PubMed PubDate/ArticleDate). Otherwise
+    conservative: a date that is only a year, only a year-month, or a YYYY-MM-01
+    without an explicit day precision is treated as month/year. Missing/unusable → (None, None, None)."""
     raw=str((p or {}).get('pub_date') or (p or {}).get('date') or '').strip()
     year=str((p or {}).get('year') or '').strip()
+    stored=str((p or {}).get('pub_date_precision') or '').strip()
     iso,prec=None,None
     if len(raw)>=10 and raw[4]=='-' and raw[7]=='-' and raw[:10].replace('-','').isdigit():
         iso=raw[:10]
-        prec='month' if iso.endswith('-01') else 'day'
+        prec=stored if stored in ('day','month','year') else ('month' if iso.endswith('-01') else 'day')
     elif len(raw)>=7 and raw[4]=='-' and raw[:7].replace('-','').isdigit() and (len(raw)==7 or not raw[8:10].isdigit()):
-        iso=raw[:7]+'-01'; prec='month'
+        iso=raw[:7]+'-01'; prec=stored if stored in ('day','month','year') else 'month'
     elif (raw[:4] if raw else year[:4] if year else '').isdigit() and len((raw or year)[:4])==4:
-        iso=(raw or year)[:4]+'-01-01'; prec='year'
+        iso=(raw or year)[:4]+'-01-01'; prec=stored if stored in ('day','month','year') else 'year'
     else:
         return None,None,None
     if prec=='day':
@@ -742,8 +743,21 @@ def weekly_new_entries(today=None):
     out.sort(key=lambda x:(-int(x[0].replace('-','') or 0), str(x[2].get('pmid') or '')))
     return out
 def weekly_zh_ready(p):
-    """本期新增 cards need a Chinese title and a one-line conclusion. English-only records are not shown as a bare line."""
-    return bool(clean((p or {}).get('title_zh') or '')) and bool(clean((p or {}).get('one_line_conclusion_zh') or ''))
+    """本期新增 cards need title_zh and a distinct conclusion (clinical_meaning via summ, or one_line_conclusion_zh)."""
+    ti=clean((p or {}).get('title_zh') or '')
+    cl=clean(summ(p) if p else '')
+    return bool(ti) and bool(cl) and not weekly_title_overlaps_conclusion(ti, cl)
+
+def weekly_title_overlaps_conclusion(title, conclusion):
+    """True if conclusion equals the title, one contains the other, or normalized overlap/similarity >= 0.8."""
+    import difflib, collections
+    a,b=_norm(title),_norm(conclusion)
+    if not a or not b: return False
+    if a==b or a in b or b in a: return True
+    if difflib.SequenceMatcher(None,a,b).ratio()>=0.8: return True
+    ca,cb=collections.Counter(a),collections.Counter(b)
+    inter=sum((ca&cb).values())
+    return inter/max(len(a),len(b),1)>=0.8
 
 def weekly_certainty_label(p):
     """Certainty text for the weekly card cmeta line. Unrated papers say 暂未评级, never provisional."""
@@ -754,15 +768,27 @@ def weekly_certainty_label(p):
         return PENDING_LABEL[str(p['pmid'])]
     return '暂未评级'
 
+def weekly_meta(p,disp,label,topic_href,r=''):
+    """Reuse the 最重要 cmeta renderer (journal · study type · sample size · species, plus year/certainty) and keep topic."""
+    m=cmeta(p)
+    year=str(p.get('year') or '')
+    if disp and m.startswith(year+' · '):
+        m=disp+' · '+m[len(year)+3:]
+    elif disp and disp not in (m or ''):
+        m=(disp+' · '+m) if m else disp
+    topic=f'<a href="{r}{topic_href}">{E_(label)}</a>' if topic_href else E_(label)
+    if topic:
+        m=(m+' · '+topic) if m else topic
+    return m
+
 def weekly_card(p,disp,label,topic_href,r=''):
-    """Same shape as a homepage 最重要 hcard: Chinese title, English subtitle, cmeta, one-line conclusion, optional 速读 link."""
+    """Same shape as a homepage 最重要 hcard: title_zh, English subtitle, cmeta + topic, summ() conclusion, optional 速读 link."""
     sid=p.get('sid') or ('pmid-'+str(p.get('pmid') or ''))
     href=f'{r}papers/{sid}/'
     title=title_html(p,'h3',href)
-    topic=f'<a href="{r}{topic_href}">{E_(label)}</a>' if topic_href else E_(label)
-    cert=weekly_certainty_label(p)
-    meta=' · '.join(x for x in (E_(disp), topic, E_(cert) if cert else '') if x)
-    bl=f'<p class="bl">{E_(clean(p["one_line_conclusion_zh"]))}</p>'
+    sm=summ(p)
+    meta=weekly_meta(p,disp,label,topic_href,r)
+    bl=f'<p class="bl">{E_(clean(sm))}</p>' if sm else ''
     key=str(p.get('pmid') or '')
     approved=key in DS_APPROVED or str(p.get('sid') or '') in DS_APPROVED or str(sid) in DS_APPROVED
     ft=''
@@ -770,7 +796,7 @@ def weekly_card(p,disp,label,topic_href,r=''):
         lk=f'<a class="go" href="{href}">速读 →</a>'
         if has_tr(p): lk+=f' <a class="go" href="{href}bilingual/">中英对照 →</a>'
         ft=f'<p class="ft">{lk}</p>'
-    return f'<article class="card">{title}<p class="cmeta">{meta}</p>{bl}{ft}</article>'
+    return f'<article class="card">{title}'+(f'<p class="cmeta">{meta}</p>' if meta else '')+f'{bl}{ft}</article>'
 
 def weekly_visible_entries(entries=None, today=None):
     """Drop approved weekly papers that lack a Chinese title or conclusion, and log a build warning for each."""
@@ -780,7 +806,12 @@ def weekly_visible_entries(entries=None, today=None):
         earliest,disp,p,tid,label,href=item
         if not weekly_zh_ready(p):
             pmid=str((p or {}).get('pmid') or (p or {}).get('sid') or '?')
-            print(f'warning: 本期新增 skipped {pmid}: missing Chinese title or one-line conclusion', file=sys.stderr)
+            ti=clean((p or {}).get('title_zh') or '')
+            cl=clean(summ(p) if p else '')
+            if not ti or not cl:
+                print(f'warning: 本期新增 skipped {pmid}: missing Chinese title or one-line conclusion', file=sys.stderr)
+            else:
+                print(f'warning: 本期新增 skipped {pmid}: conclusion overlaps title', file=sys.stderr)
             continue
         out.append(item)
     return out

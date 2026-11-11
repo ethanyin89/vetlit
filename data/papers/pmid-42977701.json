@@ -41,7 +41,8 @@
   "n_enrolled": "615 例（558 只犬、57 只猫）",
   "n_analysed": "615 例",
   "pub_date": "2026-11-01",
-  "pub_date_source": "PubMed sortpubdate 2026-11-01（按月份展示）",
+  "pub_date_source": "PubMed PubDate 2026 Nov",
   "reading_depth": "全文",
-  "rob_tool": "QUIPS"
+  "rob_tool": "QUIPS",
+  "pub_date_precision": "month"
 }

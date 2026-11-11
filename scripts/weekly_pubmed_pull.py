@@ -18,6 +18,11 @@ Set WEEKLY_PULL=0 to skip the network call (used by tests).
 import json, os, sys, time, urllib.parse, urllib.request
 
 ROOT=os.path.join(os.path.dirname(os.path.abspath(__file__)),'..')
+if ROOT not in sys.path: sys.path.insert(0, ROOT)
+from scripts.ingest import parse_esummary_pub_date
+def _pub_date_fields(d):
+    iso,prec,src=parse_esummary_pub_date(d)
+    return {'year':(iso or d.get('pubdate') or '')[:4],'date':iso or '','pub_date':iso or '','pub_date_precision':prec or '','pub_date_source':src or ''}
 QFILE=os.path.join(ROOT,'data','v5','topic_queries.json')
 QUEUE=os.path.join(ROOT,'data','v5','ingest_queue.json')
 SEED=os.path.join(ROOT,'data','v5','seed_library_v6.json')
@@ -87,7 +92,7 @@ def merge_candidates(queue, new_recs, today=None):
     for rec in new_recs:
         pmid=str(rec.get('pmid') or '')
         if not pmid or pmid in have: continue
-        row={k:rec[k] for k in rec if k in ('pmid','title','journal','date','year','first_author','doi','topics')}
+        row={k:rec[k] for k in rec if k in ('pmid','title','journal','date','year','pub_date','pub_date_precision','pub_date_source','first_author','doi','topics')}
         row['pmid']=pmid
         row['found_at']=rec.get('found_at') or today
         row['status']='queued'
@@ -125,14 +130,11 @@ def pull(days=None, fetch=None):
             d=s[pmid]; pts=set(d.get('pubtype') or [])
             if pts & EXCLUDE_TYPES: continue
             doi=next((a['value'] for a in d.get('articleids') or [] if a.get('idtype')=='doi'),'')
-            added_recs.append({
-                'pmid':str(pmid),'title':(d.get('title') or '').rstrip('.'),
+            rec={'pmid':str(pmid),'title':(d.get('title') or '').rstrip('.'),
                 'first_author':(d.get('authors') or [{}])[0].get('name',''),
-                'year':(d.get('pubdate') or '')[:4],
-                'date':(d.get('sortpubdate') or '')[:10].replace('/','-'),
                 'journal':d.get('source') or '','doi':str(doi).lower(),
-                'topics':sorted(set(fresh.get(str(pmid) or pmid) or [])),
-            })
+                'topics':sorted(set(fresh.get(str(pmid) or pmid) or []))}
+            rec.update(_pub_date_fields(d)); added_recs.append(rec)
         time.sleep(0.34 if fetch is get else 0)
     q, n=merge_candidates(load_queue(), added_recs)
     save_queue(q)
@@ -182,7 +184,7 @@ def pull_general(days=7, dry=True, fetch=None):
         s=fetch('esummary.fcgi', db='pubmed', id=','.join(sample_ids), retmode='json').get('result') or {}
         for pmid in s.get('uids',[]) or sample_ids:
             d=s.get(pmid) or {}
-            out['sample'].append({'pmid':str(pmid),'title':(d.get('title') or '').rstrip('.'),'date':(d.get('sortpubdate') or '')[:10].replace('/','-'),'journal':d.get('source') or ''})
+            srec={'pmid':str(pmid),'title':(d.get('title') or '').rstrip('.'),'journal':d.get('source') or ''}; srec.update(_pub_date_fields(d)); out['sample'].append(srec)
     if dry:
         print(f"weekly general dry {days}d: esearch count={count}, returned={len(ids)}, already={out['already']}, new={len(new)}")
         for s in out['sample']:
@@ -196,7 +198,7 @@ def pull_general(days=7, dry=True, fetch=None):
         s=fetch('esummary.fcgi', db='pubmed', id=','.join(rest[k:k+100]), retmode='json').get('result') or {}
         for pmid in s.get('uids',[]):
             d=s[pmid]
-            recs.append({'pmid':str(pmid),'title':(d.get('title') or '').rstrip('.'),'date':(d.get('sortpubdate') or '')[:10].replace('/','-'),'journal':d.get('source') or '','topics':['general']})
+            rec={'pmid':str(pmid),'title':(d.get('title') or '').rstrip('.'),'journal':d.get('source') or '','topics':['general']}; rec.update(_pub_date_fields(d)); recs.append(rec)
         time.sleep(0.34 if fetch is post else 0)
     q,n=merge_candidates(load_queue(), recs)
     save_queue(q)
