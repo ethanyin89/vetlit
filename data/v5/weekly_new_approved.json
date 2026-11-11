@@ -1,5 +1,5 @@
 {
-  "_note": "Explicit approved list for the homepage 本期新增 block. Only these papers, and only when added_at falls in the current issue window, are shown. Presence in the ingest queue or in data/papers as 待处理 is not enough. This first issue lists the papers actually added to the reader library this week: 13 cat hyperthyroidism papers (2026-11-09) and 14 canine atopic dermatitis papers (2026-11-10).",
+  "_note": "Explicit approved list for the homepage 本期新增 block. Only these papers, when added_at falls in the current issue AND the paper's publication date is within the last 3 months, are listed — except papers whose topic was newly created this issue, which are not listed (those topics appear as a single 本周新增专题 line). Presence in the ingest queue or in data/papers as 待处理 is not enough. dermatology is recorded as created this week but announce=false: it is only the new parent of 犬特应性皮炎. hyperthyroidism already existed (since 2026-11-02) and is not a new topic.",
   "issue": {
     "id": "2026-W46",
     "start": "2026-11-09",
@@ -141,6 +141,17 @@
       "pmid": "30115047",
       "added_at": "2026-11-10",
       "topic": "canine_atopic_dermatitis"
+    }
+  ],
+  "new_topics": [
+    {
+      "id": "dermatology",
+      "created_at": "2026-11-10",
+      "announce": false
+    },
+    {
+      "id": "canine_atopic_dermatitis",
+      "created_at": "2026-11-10"
     }
   ]
 }

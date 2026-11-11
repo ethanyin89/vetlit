@@ -8,7 +8,7 @@ for f in files:
     s=open(f,encoding='utf-8').read()
     for b in BAD:
         if b=='本周':
-            s2=s.replace('其余专题本周无新增','').replace('本周无新增','')
+            s2=s.replace('其余专题本周无新增','').replace('本周新增专题','').replace('本周无新增','')
             assert '本周' not in s2, (f,b)
         else:
             assert b not in s, (f,b)
