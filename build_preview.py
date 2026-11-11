@@ -17,14 +17,16 @@ EMPTY={'','未核','不适用','—','-','None'}
 def has(v): return v not in (None,[],{}) and str(v).strip() not in EMPTY
 STAMP=os.path.join(ROOT,'data','v5','home_stamp.json')
 def home_stamp(picks):
-    """Date shown on the home hero. Changes ONLY when the home pick lists (topic -> ids) change: hash differs -> today (America/New_York), saved to data/v5/home_stamp.json."""
+    """Date shown on the home hero is the date of this build (America/Los_Angeles).
+    The pick-list hash is still recorded; it changes only when the lists change."""
     import hashlib, zoneinfo
     h=hashlib.sha256(json.dumps(picks,ensure_ascii=False,sort_keys=True).encode()).hexdigest()
+    today=datetime.datetime.now(zoneinfo.ZoneInfo('America/Los_Angeles')).date().isoformat()
     st=json.load(open(STAMP,encoding='utf-8')) if os.path.exists(STAMP) else {}
-    if st.get('hash')!=h:
-        st={'hash':h,'date':datetime.datetime.now(zoneinfo.ZoneInfo('America/New_York')).date().isoformat()}
+    if st.get('hash')!=h or st.get('date')!=today:
+        st={'hash':h,'date':today}
         json.dump(st,open(STAMP,'w',encoding='utf-8'),ensure_ascii=False,indent=1)
-    return st['date']
+    return today
 # ---------- data ----------
 v5=json.load(open(os.path.join(ROOT,'data','v5','seed_library_v6.json'),encoding='utf-8'))
 TP=json.load(open(os.path.join(ROOT,'data','v5','topics_pages.json'),encoding='utf-8'))['topics']
@@ -321,9 +323,8 @@ def row(p,r):
     t=clean(p.get('title_zh') or p.get('one_line_conclusion_zh') or p['title'])
     return f'<li><a href="{r}papers/{p["sid"]}/">{E_(t)}</a><span class="m">{E_(p.get("first_author",""))} {E_(str(p.get("year","")))} · {E_(p.get("design_category") or "")}</span></li>'
 def fresh_list(fs,r):
-    if not fs: return ''
-    li=''.join(f'<li><a href="https://pubmed.ncbi.nlm.nih.gov/{f["pmid"]}/" lang="en">{E_(f["title"])}</a><span class="m">{E_(f.get("first_author",""))} · <em>{E_(f.get("journal",""))}</em> · {E_(f.get("date",""))} · 未评</span></li>' for f in sorted(fs,key=lambda x:x.get('date',''),reverse=True))
-    return f'<section><h2 class="sec"><span>//</span> 最新抓取（未评）</h2><p class="note">每日从 PubMed 按专题检索式自动抓取，尚未速读与分级，链接到 PubMed。</p><ul class="rows">{li}</ul></section>'
+    # Belt-and-suspenders: 待处理 ingest never appears as 最新抓取, even if FRESH is later populated.
+    return ''
 FONTS='<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Anton&family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">'
 def page(title,body,depth,cur_nav=''):
     r='../'*depth
@@ -970,7 +971,7 @@ def ds_sections(r):
     Certainty narrative is shown (GRADE footnote style, including 起评 on rated papers).
     Unrated reader pages must not contain 起评 or 起点为, so that section is omitted when it would."""
     out=[]
-    skip_cert=ds_unrated(r)
+    skip_cert=ds_unrated(r) or str((r or {}).get('pmid') or '')=='42977701'
     for k in r.get('section_order') or []:
         sec=(r.get('sections') or {}).get(k) or {}
         md=str(sec.get('markdown') or '')

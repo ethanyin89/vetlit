@@ -15,18 +15,25 @@ for f in files:
 a=open('dist/about/index.html',encoding='utf-8').read()
 assert '<h2>参与者</h2>' not in a and '<h2 id="参与者">' not in a and '尚无第二译者审校' not in a and '内容由自动化流程整理，尚未经临床兽医审阅。' in a
 assert not os.path.exists('dist/rules') and not os.path.exists('dist/preview/rules')
-# home: honest update stamp from data/v5/home_stamp.json
+# home: 更新于 is the actual build date (America/Los_Angeles)
+import datetime, zoneinfo
+today=datetime.datetime.now(zoneinfo.ZoneInfo('America/Los_Angeles')).date().isoformat()
 st=json.load(open('data/v5/home_stamp.json',encoding='utf-8')); assert re.fullmatch(r'\d{4}-\d{2}-\d{2}',st['date']) and len(st['hash'])==64
+assert st['date']==today
 for f in ('dist/index.html','dist/preview/index.html'):
     h=open(f,encoding='utf-8').read()
-    assert f'<p class="eb red">// 更新于 {st["date"]}</p><h1>精选</h1>' in h and '>首页</a>' in h and ' 周</p>' not in h, f
+    assert f'<p class="eb red">// 更新于 {today}</p><h1>精选</h1>' in h and '>首页</a>' in h and ' 周</p>' not in h, f
 import importlib; sys.path.insert(0,REPO); os.environ['VETLIT_LIVE']='1'
 B=importlib.import_module('build_preview')
-before=open('data/v5/home_stamp.json',encoding='utf-8').read(); B.home()
-assert open('data/v5/home_stamp.json',encoding='utf-8').read()==before, 'stamp must not move when picks are unchanged'
-# picks change -> date=today, restored afterwards
+before=json.load(open('data/v5/home_stamp.json',encoding='utf-8'))
+B.home()
+after=json.load(open('data/v5/home_stamp.json',encoding='utf-8'))
+assert after['hash']==before['hash'], 'pick-list hash must not move when picks are unchanged'
+assert after['date']==today
+# stale hash -> hash restored, date=today; then restore file
 try:
     json.dump({'hash':'0'*64,'date':'2000-01-01'},open(B.STAMP,'w',encoding='utf-8')); B.home()
-    s2=json.load(open(B.STAMP,encoding='utf-8')); assert s2['hash']==st['hash'] and s2['date']!='2000-01-01'
-finally: open(B.STAMP,'w',encoding='utf-8').write(before)
+    s2=json.load(open(B.STAMP,encoding='utf-8')); assert s2['hash']==before['hash'] and s2['date']==today
+finally:
+    json.dump(before,open(B.STAMP,'w',encoding='utf-8'),ensure_ascii=False,indent=1)
 print('reader pages / home stamp tests OK')

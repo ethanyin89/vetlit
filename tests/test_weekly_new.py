@@ -94,9 +94,9 @@ if Path('dist/papers.json').exists():
         # no _internal keys on reader data
         assert not any(str(k).startswith('_internal') for k in r), r.get('pmid')
 
-# 42977701 reader page: rated 低; no 待处理; no obesity auto-tag; speed-read gated (no 起评 / QUIPS internals / rule ids)
+# 42977701 reader page: rated 低 with speed-read; no 待处理; no obesity auto-tag; no 起评 / rule ids
 ph=open('dist/papers/pmid-42977701/index.html',encoding='utf-8').read()
-assert '低' in ph
+assert '证据确定性：低' in ph
 assert '暂未评级' not in ph
 assert '待处理' not in ph
 assert '肥胖与体况' not in ph and 'topics/obesity/' not in ph
@@ -106,8 +106,9 @@ assert '起评' not in ph and '起点为' not in ph
 assert 'R-start-prognosis' not in ph and 'R-rob-assessed' not in ph
 assert '_internal' not in ph and 'weekly_new_note' not in ph
 assert 'pick_reason' not in ph
-# gated: speed-read certainty narrative from the library extract must not appear
 assert '从‘高’起评' not in ph and '从“高”起评' not in ph
+# speed-read body is present (clinical conclusion / results), not the gated 起评 certainty narrative
+assert '8.8%' in ph and ('手术部位感染' in ph or '乳腺切除' in ph)
 
 # a date after this issue falls into the next Mon–Sun window with no approved additions
 st,en,_=B.issue_bounds(datetime.date(2026,11,16))
