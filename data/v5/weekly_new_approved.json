@@ -1,5 +1,5 @@
 {
-  "_note": "Explicit approved list for the homepage 本期新增 block. Only these papers, when added_at falls in the current issue AND the paper's publication date is within the last 3 months, are listed — except papers whose topic was newly created this issue, which are not listed (those topics appear as a single 本周新增专题 line). Presence in the ingest queue or in data/papers as 待处理 is not enough. dermatology is recorded as created this week but announce=false: it is only the new parent of 犬特应性皮炎. hyperthyroidism already existed (since 2026-11-02) and is not a new topic.",
+  "_note": "Explicit approved list for the homepage 本期新增 block. Only these papers, when added_at falls in the current issue AND the paper's publication date is within the last 3 months, are listed (flat list, newest first). The topic label is the screening topic, never the ingest auto-tag; '其他' is used when the paper is outside existing site topics. 42977701: extracts/weekly_screen_2026-11-10.json has topic_suggested 「—（外科，本库无对应专题；最接近 infectious）」and notes the obesity ingest tag is wrong, so the label is 其他. Presence in the ingest queue or data/papers as 待处理 is not enough. dermatology is recorded as created this week but announce=false (parent of 犬特应性皮炎). hyperthyroidism already existed (since 2026-11-02) and is not a new topic.",
   "issue": {
     "id": "2026-W46",
     "start": "2026-11-09",
@@ -8,139 +8,10 @@
   },
   "approved": [
     {
-      "pmid": "37167252",
-      "added_at": "2026-11-09",
-      "topic": "hyperthyroidism"
-    },
-    {
-      "pmid": "42004674",
-      "added_at": "2026-11-09",
-      "topic": "hyperthyroidism"
-    },
-    {
-      "pmid": "42800045",
-      "added_at": "2026-11-09",
-      "topic": "hyperthyroidism"
-    },
-    {
-      "pmid": "39831449",
-      "added_at": "2026-11-09",
-      "topic": "hyperthyroidism"
-    },
-    {
-      "pmid": "39724773",
-      "added_at": "2026-11-09",
-      "topic": "hyperthyroidism"
-    },
-    {
-      "pmid": "16478432",
-      "added_at": "2026-11-09",
-      "topic": "hyperthyroidism"
-    },
-    {
-      "pmid": "39019056",
-      "added_at": "2026-11-09",
-      "topic": "hyperthyroidism"
-    },
-    {
-      "pmid": "31998612",
-      "added_at": "2026-11-09",
-      "topic": "hyperthyroidism"
-    },
-    {
-      "pmid": "28158908",
-      "added_at": "2026-11-09",
-      "topic": "hyperthyroidism"
-    },
-    {
-      "pmid": "20695989",
-      "added_at": "2026-11-09",
-      "topic": "hyperthyroidism"
-    },
-    {
-      "pmid": "26081922",
-      "added_at": "2026-11-09",
-      "topic": "hyperthyroidism"
-    },
-    {
-      "pmid": "34730466",
-      "added_at": "2026-11-09",
-      "topic": "hyperthyroidism"
-    },
-    {
-      "pmid": "40559809",
-      "added_at": "2026-11-09",
-      "topic": "hyperthyroidism"
-    },
-    {
-      "pmid": "42805756",
+      "pmid": "42977701",
       "added_at": "2026-11-10",
-      "topic": "canine_atopic_dermatitis"
-    },
-    {
-      "pmid": "26260508",
-      "added_at": "2026-11-10",
-      "topic": "canine_atopic_dermatitis"
-    },
-    {
-      "pmid": "20187910",
-      "added_at": "2026-11-10",
-      "topic": "canine_atopic_dermatitis"
-    },
-    {
-      "pmid": "16412115",
-      "added_at": "2026-11-10",
-      "topic": "canine_atopic_dermatitis"
-    },
-    {
-      "pmid": "36940185",
-      "added_at": "2026-11-10",
-      "topic": "canine_atopic_dermatitis"
-    },
-    {
-      "pmid": "40470278",
-      "added_at": "2026-11-10",
-      "topic": "canine_atopic_dermatitis"
-    },
-    {
-      "pmid": "42007020",
-      "added_at": "2026-11-10",
-      "topic": "canine_atopic_dermatitis"
-    },
-    {
-      "pmid": "24581322",
-      "added_at": "2026-11-10",
-      "topic": "canine_atopic_dermatitis"
-    },
-    {
-      "pmid": "25496303",
-      "added_at": "2026-11-10",
-      "topic": "canine_atopic_dermatitis"
-    },
-    {
-      "pmid": "27647569",
-      "added_at": "2026-11-10",
-      "topic": "canine_atopic_dermatitis"
-    },
-    {
-      "pmid": "28906040",
-      "added_at": "2026-11-10",
-      "topic": "canine_atopic_dermatitis"
-    },
-    {
-      "pmid": "34180084",
-      "added_at": "2026-11-10",
-      "topic": "canine_atopic_dermatitis"
-    },
-    {
-      "pmid": "20187911",
-      "added_at": "2026-11-10",
-      "topic": "canine_atopic_dermatitis"
-    },
-    {
-      "pmid": "30115047",
-      "added_at": "2026-11-10",
-      "topic": "canine_atopic_dermatitis"
+      "topic": "其他",
+      "title": "Surgical Site Infection and Antimicrobial Resistance After Mastectomy in Dogs and Cats: A 615-Case Multicentre Cohort and Infection-Control Audit"
     }
   ],
   "new_topics": [

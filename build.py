@@ -125,8 +125,14 @@ def topic_links(p,r='../../',ps=None):
     return ' '.join(f'<a class="pill tag" href="{r}topics/{t}/index.html">{E_(TNAME.get(t,t))}</a>' for t in p['topics'] if t in TNAME and topic_visible(next(x for x in TOPICS if x['id']==t),ps))
 _PS=[]
 def load():
+    """Reader-facing library only. 待处理 ingest stubs (and their auto-assigned topic tags) are never emitted."""
     global _PS
-    _PS=[view(json.load(open(f,encoding='utf-8'))) for f in sorted(glob.glob(os.path.join(ROOT,'data','papers','*.json')))]
+    out=[]
+    for f in sorted(glob.glob(os.path.join(ROOT,'data','papers','*.json'))):
+        c=json.load(open(f,encoding='utf-8'))
+        if c.get('status')=='待处理': continue
+        out.append(view(c))
+    _PS=out
     return _PS
 def authors_short(p): return p.get('first_author','')+(' et al.' if p.get('first_author') else '')
 def bibkey(p): return re.sub(r'\W','',(p.get('first_author') or 'anon').split()[0])+str(p['year'])+'_'+(p['pmid'] or re.sub(r'\W','',p['id']))

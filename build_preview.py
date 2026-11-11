@@ -662,7 +662,7 @@ def parse_pub_date(p):
     Conservative: a date that is only a year, only a year-month, or a YYYY-MM-01
     (day stored as the 1st, which may be month precision) is treated as the first
     of that month/year. Missing/unusable → (None, None, None)."""
-    raw=str((p or {}).get('pub_date') or '').strip()
+    raw=str((p or {}).get('pub_date') or (p or {}).get('date') or '').strip()
     year=str((p or {}).get('year') or '').strip()
     iso,prec=None,None
     if len(raw)>=10 and raw[4]=='-' and raw[7]=='-' and raw[:10].replace('-','').isdigit():
@@ -695,8 +695,33 @@ def new_topics_this_issue(today=None):
         t=TBY.get(tid) or {}
         out.append({'id':tid,'name':t.get('name_zh') or tid,'created_at':created})
     return out
+def weekly_topic_label(e):
+    """Screening topic for 本期新增. Never use ingest auto-tags. Unknown / outside site topics → 其他."""
+    raw=str((e or {}).get('topic_label') or (e or {}).get('topic') or '').strip()
+    if raw in TBY:
+        t=TBY[raw]
+        return raw, t.get('name_zh') or raw, f'topics/{raw}/'
+    if raw and raw not in ('其他','—','-','None') and not raw.startswith('—'):
+        return '', raw, ''
+    return '','其他',''
+def weekly_record(e):
+    """Resolve an approved weekly-new paper. May be absent from the reader library (P). Does not add it to P or inherit ingest topic tags for display."""
+    pmid=str((e or {}).get('pmid') or (e or {}).get('sid') or '')
+    p=get(pmid) or get('pmid-'+pmid) if pmid else None
+    if p: return p
+    fp=os.path.join(ROOT,'data','papers',f'pmid-{pmid}.json') if pmid else ''
+    if fp and os.path.exists(fp):
+        c=json.load(open(fp,encoding='utf-8'))
+        q=dict(c)
+        q['sid']=c.get('id') or ('pmid-'+pmid)
+        q['pmid']=str(c.get('pmid') or pmid)
+        if not q.get('pub_date') and q.get('date'): q['pub_date']=str(q['date'])
+        if e.get('title') and not q.get('title_zh'): q.setdefault('title', e['title'])
+        return q
+    if not pmid: return None
+    return {'pmid':pmid,'sid':'pmid-'+pmid,'title':(e or {}).get('title') or '','pub_date':(e or {}).get('pub_date') or (e or {}).get('date') or ''}
 def weekly_new_entries(today=None):
-    """Approved papers added in the current issue, with a publication date in the last 3 months, that already exist in the reader library. Papers belonging to a topic newly created this issue are omitted (those topics are announced as a single line, without listing papers)."""
+    """Approved papers in the current issue whose publication date is in the last 3 months. Topic comes from the approved/screening label, never from ingest auto-tags. Papers in a topic newly created this issue are omitted (those topics are announced as a single line)."""
     st,en,_=issue_bounds(today)
     cut=pub_window_start(today).isoformat()
     skip={x['id'] for x in new_topics_this_issue(today)}
@@ -705,19 +730,17 @@ def weekly_new_entries(today=None):
         if not isinstance(e,dict): continue
         added=str(e.get('added_at') or '')[:10]
         if not (st<=added<=en): continue
-        pmid=str(e.get('pmid') or e.get('sid') or '')
-        if not pmid: continue
-        p=get(pmid) or get('pmid-'+pmid)
+        p=weekly_record(e)
         if not p: continue
-        tid=e.get('topic') or ((p.get('topics') or [None])[-1])
-        if tid in skip: continue
+        tid,label,href=weekly_topic_label(e)
+        if tid and tid in skip: continue
         disp,prec,earliest=parse_pub_date(p)
         if not earliest or earliest<cut: continue
-        out.append((earliest,disp,p,tid))
+        out.append((earliest,disp,p,tid,label,href))
     out.sort(key=lambda x:(-int(x[0].replace('-','') or 0), str(x[2].get('pmid') or '')))
     return out
 def weekly_new_block():
-    """Compact 本期新增 at the top of the homepage. Newly created topics are one linked line (no papers). Qualifying papers (pub date in the last 3 months) are listed under already-existing topics. If none qualify, 本周无新增. Queue / 待处理 ingest is never included."""
+    """Compact 本期新增: one flat list by publication date (newest first). Each line is the paper, its pub date, and the screening topic label (其他 if outside existing topics). Newly created topics are one linked line (no papers). If no paper qualifies, 本周无新增. Queue / 待处理 ingest is never included."""
     st,en,iid=issue_bounds()
     entries=weekly_new_entries()
     new_ts=new_topics_this_issue()
@@ -734,34 +757,18 @@ def weekly_new_block():
         for t in new_ts:
             href=f'topics/{t["id"]}/' if TBY.get(t['id']) else ''
             parts.append(f'<a href="{href}">{E_(t["name"])}</a>' if href else E_(t['name']))
-        topics_line=f'<p class="note">本周新增专题：{"、".join(parts)}</p>'
+        topics_line=f'<p class="note">本周新增专题：{"（".join(parts) if False else "、".join(parts)}</p>'
     if not entries:
         return f'<section class="issue" id="weekly-new">{head}{topics_line}<p class="note">本周无新增</p></section>'
-    by={}
-    for earliest,disp,p,tid in entries:
-        by.setdefault(tid or '',[]).append((earliest,disp,p))
-    order=[]
-    for t in [t for t in VIS if not t.get('parent')]:
-        order.append(t['id'])
-        order += [k['id'] for k in VIS if k.get('parent')==t['id']]
-    body=''
-    with_new=0
-    for tid in order + [k for k in by if k not in order]:
-        rows=by.get(tid) or []
-        if not rows: continue
-        with_new+=1
-        t=TBY.get(tid) or {}
-        name=t.get('name_zh') or tid
-        href=f'topics/{tid}/' if t else ''
-        title=f'<a href="{href}">{E_(name)}</a>' if href else E_(name)
-        lis=''
-        for earliest,disp,p in rows:
-            label=clean(p.get('title_zh') or p.get('one_line_conclusion_zh') or p.get('title') or '')
-            lis+=f'<li><a href="papers/{E_(p["sid"])}/">{E_(label)}</a><span class="m">{E_(disp)}</span></li>'
-        body+=f'<h3 class="dg">{title}</h3><ul class="rows">{lis}</ul>'
-    nvis=len(list(VIS))
-    empty=f'<p class="note">其余专题本周无新增</p>' if with_new and with_new<nvis else ''
-    return f'<section class="issue" id="weekly-new">{head}{topics_line}{body}{empty}</section>'
+    lis=''
+    for earliest,disp,p,tid,label,href in entries:
+        name=clean(p.get('title_zh') or p.get('one_line_conclusion_zh') or p.get('title') or '')
+        sid=p.get('sid') or ('pmid-'+str(p.get('pmid') or ''))
+        paper=f'<a href="papers/{E_(sid)}/">{E_(name)}</a>' if sid else E_(name)
+        topic=f'<a href="{E_(href)}">{E_(label)}</a>' if href else E_(label)
+        lis+=f'<li>{paper}<span class="m">{E_(disp)} · {topic}</span></li>'
+    body=f'<ul class="rows">{lis}</ul>'
+    return f'<section class="issue" id="weekly-new">{head}{topics_line}{body}</section>'
 
 def home():
     picks=ALL[:8]
@@ -1152,6 +1159,48 @@ def paper(p):
     return page(clean(p.get('title_zh') or p.get('first_author','')+' '+str(p.get('year',''))),body,2)
 def w(rel,s):
     f=os.path.join(OUT,rel); os.makedirs(os.path.dirname(f),exist_ok=True); open(f,'w',encoding='utf-8').write(B.unproc(s))
+def weekly_approved_page(p, topic_label):
+    """Minimal reader page for a 本期新增 paper that is not yet in the seed library. Unrated papers say 暂未评级. Ingest auto-tags and 待处理 status are never shown."""
+    meta=' · '.join(str(x) for x in (p.get('first_author') or '', p.get('year') or '', p.get('journal') or '') if x)
+    disp,prec,_=parse_pub_date(p)
+    pub=disp or ''
+    title=p.get('title_zh') or p.get('title') or str(p.get('pmid') or '')
+    en=('<p class="en" lang="en">'+E_(p['title'])+'</p>') if p.get('title_zh') and p.get('title') else ''
+    h1=('<h1>'+E_(clean(p['title_zh']))+'</h1>'+en) if p.get('title_zh') else ('<h1 lang="en">'+E_(p.get('title') or title)+'</h1>')
+    links=' · '.join(x for x in (
+        ('<a href="https://pubmed.ncbi.nlm.nih.gov/'+E_(p['pmid'])+'/">PubMed</a>') if p.get('pmid') else '',
+        ('<a href="https://doi.org/'+E_(p['doi'])+'">原文（DOI）</a>') if p.get('doi') else '',
+    ) if x)
+    lede=' · '.join(x for x in (pub, topic_label) if x)
+    body=('<section class="hero"><p class="eb">'+E_(meta)+'</p>'+h1+'<p class="lede">'+E_(lede)+'</p><p class="note">暂未评级</p></section><p class="more">'+links+'</p>')
+    return page(clean(title),body,2,'')
+def _purge_unscreened_reader_output():
+    """Drop leftover 待处理 ingest pages, papers.json rows, and feed items so auto-tags never reach readers."""
+    allow={p['sid'] for p in P.values()}
+    for e in (_wn_cfg().get('approved') or []):
+        pmid=str(e.get('pmid') or '')
+        if pmid: allow.add('pmid-'+pmid); allow.add(pmid)
+    proot=os.path.join(OUT,'papers')
+    if os.path.isdir(proot):
+        for name in os.listdir(proot):
+            if name not in allow and not name.startswith('.'):
+                shutil.rmtree(os.path.join(proot,name), ignore_errors=True)
+    pj=os.path.join(OUT,'papers.json')
+    if os.path.exists(pj):
+        try:
+            rows=json.load(open(pj,encoding='utf-8'))
+            keep=[]
+            for r in rows:
+                if not isinstance(r,dict): continue
+                if r.get('status')=='待处理': continue
+                sid=str(r.get('id') or r.get('sid') or '')
+                pmid=str(r.get('pmid') or '')
+                if sid in allow or pmid in allow or ('pmid-'+pmid) in allow:
+                    keep.append(r)
+            json.dump(keep, open(pj,'w',encoding='utf-8'), ensure_ascii=False, indent=1)
+        except Exception:
+            pass
+
 def main():
     if not LIVE: shutil.rmtree(OUT,ignore_errors=True)
     w('index.html',home()); w('library/index.html',library()); w('topics/index.html',topics_index())
@@ -1197,6 +1246,17 @@ def main():
         w(f'papers/{p["sid"]}/index.html',h)
         _tr=X.translation(p.get('pmid'),p.get('license')) if X.can_translate(p) else None
         if _tr: w(f'papers/{p["sid"]}/bilingual/index.html',X.bilingual_page(p,_tr,page)); MERGE.setdefault('bi',0); MERGE['bi']+=1
+    # 本期新增 papers not in the seed library get a minimal 暂未评级 page; ingest stubs are purged.
+    seen={p['sid'] for p in P.values()}
+    for e in (_wn_cfg().get('approved') or []):
+        rec=weekly_record(e)
+        if not rec: continue
+        sid=rec.get('sid') or ('pmid-'+str(rec.get('pmid') or ''))
+        if sid in seen: continue
+        _,label,_=weekly_topic_label(e)
+        w(f'papers/{sid}/index.html', weekly_approved_page(rec, label))
+        seen.add(sid)
+    _purge_unscreened_reader_output()
     os.makedirs(os.path.join(OUT,'static'),exist_ok=True); shutil.copy(os.path.join(ROOT,'static','preview','v.css'),os.path.join(OUT,'static','v.css'))
     import collections; print('templates',collections.Counter((p.get('population_type') or 'natural') for p in P.values()))
     print('merge',{k:(v if isinstance(v,int) else len(v)) for k,v in MERGE.items()},MERGE['sr_un'],MERGE['ap_un'])
