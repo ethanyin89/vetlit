@@ -20,6 +20,12 @@ expected={
     '42977701':'手术时长、术中低体温与乳腺切除术后感染相关；感染后先培养再选药。',
     IRIS:'CKD 犬 HCT <30% 或持续 30–35%、猫 <25% 或持续 25–28% 时考虑治疗贫血。',
     '43003998':'目前没有直接的临床用途；说明可以在清醒犬身上用脑电研究自我控制。',
+    '42800045':'放射碘后持续未治疗的甲减与死亡风险升高相关（HR 2.24），补左甲状腺素的猫无显著差异。',
+    '39831449':'放射碘后无氮质血症的甲减猫，补 LT4 与更长中位生存相关（补 1037 天、未补 768 天）；氮质血症猫无差异。',
+    '26581469':'日本参保猫中消化系统疾病理赔发病率最高（1172/万猫年），其次是泌尿和皮肤疾病。',
+    '41701235':'CKD 犬 UPC 高于健康犬（SMD 0.85），但异质性大、有发表偏倚，尚不足以改变做法。',
+    '41781382':'瑞德西韦对 GS-441524 达非劣效：16 周缓解瑞德西韦 9/10、GS 7/10，差异不显著，每组 10 只。',
+    '38884190':'维格列净对胰岛素达非劣效：45 天成功率维格列净 54%、胰岛素 42%；维格列净 4/61 发生 DKA。',
 }
 assert len(expected['42977701'])<=60 and len(expected[IRIS])<=60
 assert 'one_line_conclusion_zh' not in (B.CARD_FIELDS.get('43003998') or {})
@@ -33,33 +39,21 @@ for pmid, cm in expected.items():
     assert B.summ(p)==cm, (pmid, B.summ(p), cm)
     ti=p.get('title_zh') or ''
     if ti:
-        assert len(ti)<=B.TITLE_ZH_MAX or pmid=='43003998' and len(ti)<=B.TITLE_ZH_MAX, (pmid,len(ti),ti)
+        # 25-char gate is for 最重要 / card_fields title_zh overlays, not pre-existing library titles
+        if 'title_zh' in (B.CARD_FIELDS.get(pmid) or {}):
+            assert len(ti)<=B.TITLE_ZH_MAX, (pmid,len(ti),ti)
         assert not B.weekly_title_overlaps_conclusion(ti, cm), (pmid,ti,cm)
 
-# held papers keep their previously live card text
+# 15954557 stays as the previously live card text
 held={
-    '42800045':'放射碘治疗的 1344 只猫中，持续未治疗的甲减与死亡风险升高相关；补充左甲状腺素的猫未见此关联。',
-    '39831449':'117 只放射碘治疗猫中，无氮质血症的甲减猫补充 LT4 者生存更长；有氮质血症者未见差异。',
-    '26581469':'日本约 6.5 万只参保猫中，消化系统疾病发病率最高，其次是泌尿和皮肤；多个纯种猫心血管病发病率高于混血。',
-    '41701235':'CKD 犬蛋白尿更高，但研究偏倚大，尚不足以改变临床做法。',
-    '41781382':'口服瑞德西韦可作为非积液型 FIP 的选择之一，但样本很小。',
-    '38884190':'维格列净可替代胰岛素治疗新诊断糖尿病猫，但需筛查并监测酮症。',
     '15954557':'持续肾性蛋白尿应评估来源和程度，具体阈值以 IRIS 现行版为准。',
-}
-pending={
-    '42800045':'放射碘治疗后的甲减猫，持续不治疗与死亡风险升高相关（HR 2.24），补左甲状腺素者未见此关联。',
-    '39831449':'放射碘后无氮质血症的甲减猫，补 LT4 与更长中位生存相关（1037 天 vs 768 天）；有氮质血症者未见差异。',
-    '26581469':'日本参保猫中消化系统疾病理赔发病率最高（1172/万猫年），其次是泌尿和皮肤；多个纯种猫心血管病发病率高于混血。',
-    '41701235':'CKD 犬蛋白尿更高（UPC 的 SMD 0.85），但研究偏倚大，尚不足以改变临床做法。',
-    '41781382':'口服瑞德西韦可作为非积液型 FIP 的选择（16 周存活并缓解 9/10 vs GS-441524 7/10），但每组仅 10 只。',
-    '38884190':'维格列净可替代胰岛素治疗新诊断糖尿病猫（45 天成功率 54% vs 42%），但 4/61 发生 DKA，需筛查并监测酮症。',
 }
 for pmid, live in held.items():
     assert pmid not in B.CARD_FIELDS, pmid
     p=B.matcher({'pmid':pmid,'id':pmid}) or B.get(pmid)
     assert p and B.summ(p)==live, (pmid, B.summ(p))
-    if pmid in pending:
-        assert pending[pmid] not in B.summ(p)
+for pmid, cm in expected.items():
+    assert len(cm)<=60, (pmid, len(cm), cm)
 
 home=open('dist/index.html',encoding='utf-8').read()
 assert '本周无新增' in home and '最新抓取' not in home

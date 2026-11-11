@@ -16,18 +16,18 @@ assert len(TITLE944)<=B.TITLE_ZH_MAX
 assert not B.weekly_title_overlaps_conclusion(TITLE944, B.CARD_FIELDS['43004944']['one_line_conclusion_zh'])
 assert not B.weekly_title_overlaps_conclusion(TITLE944, CM944)
 
-# card_fields clinical_meaning only for the Vibe-approved set (14 papers)
+# card_fields clinical_meaning only for the Vibe-approved set (20 papers)
 cm_keys={k for k,v in B.CARD_FIELDS.items() if (v or {}).get('clinical_meaning')}
 approved_cm={
     '23078651','43004944','30974015','32441826','32139728','20005753',
     '37167252','27143042','42043241','28965673','26265631','42977701',
     'x-international-renal-interest-society-2026-iris-staging-of-ckd-modified-2026',
     '43003998',
+    '42800045','39831449','26581469','41701235','41781382','38884190',
 }
 assert cm_keys==approved_cm, cm_keys
-# pending / held papers must not be overlaid
-for k in ('42800045','39831449','26581469','41701235','41781382','38884190','15954557'):
-    assert k not in B.CARD_FIELDS or not (B.CARD_FIELDS.get(k) or {}).get('clinical_meaning'), k
+# 15954557 stays as previously live text; not overlaid
+assert '15954557' not in B.CARD_FIELDS or not (B.CARD_FIELDS.get('15954557') or {}).get('clinical_meaning')
 p230=B.get('23078651') or B.get('pmid-23078651')
 assert B.summ(p230)==CM230
 assert CM230 in B.hcard(p230,'')
