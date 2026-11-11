@@ -1,0 +1,199 @@
+{
+  "_note": "Per-topic PubMed search strings for the weekly pull (scripts/weekly_pubmed_pull.py). Deep extract will write these; Vibe reviews them before they are treated as final. Until then, queries with status placeholder-from-topics.json are copied from data/topics.json (the Daily ingest script already uses those pubmed_query values). dermatology and canine_atopic_dermatitis were not in topics.json; their queries are placeholders. Topics with no pubmed_query are skipped by the pull. Hits are written only to data/v5/ingest_queue.json for deep extract screening — they are not shown to readers until screened, written up, and listed in data/v5/weekly_new_approved.json.",
+  "species_filter": "(\"Cats\"[MeSH Terms] OR \"Dogs\"[MeSH Terms] OR \"Cat Diseases\"[MeSH Terms] OR \"Dog Diseases\"[MeSH Terms])",
+  "source": "data/topics.json pubmed_query (v4) plus placeholders for dermatology topics",
+  "topics": [
+    {
+      "id": "saim",
+      "name_zh": "小动物内科",
+      "name_en": "Small Animal Internal Medicine",
+      "parent": null,
+      "pubmed_query": null,
+      "status": "no-query"
+    },
+    {
+      "id": "cardiology",
+      "name_zh": "心脏病学",
+      "name_en": "Cardiology",
+      "parent": null,
+      "pubmed_query": "(\"Heart Diseases\"[MeSH] OR \"cardiomyopathy\"[tiab] OR \"mitral valve\"[tiab]) AND (\"Cats\"[MeSH] OR \"Dogs\"[MeSH] OR feline[tiab] OR canine[tiab] OR cat[tiab] OR cats[tiab] OR dog[tiab] OR dogs[tiab])",
+      "status": "placeholder-from-topics.json"
+    },
+    {
+      "id": "neurology",
+      "name_zh": "神经病学",
+      "name_en": "Neurology",
+      "parent": null,
+      "pubmed_query": "(\"Nervous System Diseases\"[MeSH] OR \"seizure\"[tiab] OR \"epilepsy\"[tiab]) AND (\"Cats\"[MeSH] OR \"Dogs\"[MeSH] OR feline[tiab] OR canine[tiab] OR cat[tiab] OR cats[tiab] OR dog[tiab] OR dogs[tiab])",
+      "status": "placeholder-from-topics.json"
+    },
+    {
+      "id": "oncology",
+      "name_zh": "肿瘤学",
+      "name_en": "Oncology",
+      "parent": null,
+      "pubmed_query": "(\"Neoplasms\"[MeSH] OR \"lymphoma\"[tiab] OR \"neoplasia\"[tiab]) AND (\"Cats\"[MeSH] OR \"Dogs\"[MeSH] OR feline[tiab] OR canine[tiab] OR cat[tiab] OR cats[tiab] OR dog[tiab] OR dogs[tiab])",
+      "status": "placeholder-from-topics.json"
+    },
+    {
+      "id": "nutrition",
+      "name_zh": "营养学",
+      "name_en": "Nutrition",
+      "parent": null,
+      "pubmed_query": "(\"Animal Nutritional Physiological Phenomena\"[MeSH] OR \"Obesity\"[MeSH] OR \"diet\"[tiab] OR \"obesity\"[tiab]) AND (\"Cats\"[MeSH] OR \"Dogs\"[MeSH] OR feline[tiab] OR canine[tiab] OR cat[tiab] OR cats[tiab] OR dog[tiab] OR dogs[tiab])",
+      "status": "placeholder-from-topics.json"
+    },
+    {
+      "id": "behavior",
+      "name_zh": "行为医学",
+      "name_en": "Behavioral Medicine",
+      "parent": null,
+      "pubmed_query": "(\"Behavior, Animal\"[MeSH] OR \"Cognition\"[MeSH] OR \"behavior\"[tiab] OR \"cognition\"[tiab] OR \"anxiety\"[tiab]) AND (\"Cats\"[MeSH] OR \"Dogs\"[MeSH] OR feline[tiab] OR canine[tiab] OR cat[tiab] OR cats[tiab] OR dog[tiab] OR dogs[tiab])",
+      "status": "placeholder-from-topics.json"
+    },
+    {
+      "id": "epidemiology",
+      "name_zh": "流行病学与预防医学",
+      "name_en": "Epidemiology & Preventive Medicine",
+      "parent": null,
+      "pubmed_query": "(\"Epidemiology\"[MeSH] OR \"Prevalence\"[MeSH] OR \"prevalence\"[tiab] OR \"life expectancy\"[tiab]) AND (\"Cats\"[MeSH] OR \"Dogs\"[MeSH] OR feline[tiab] OR canine[tiab] OR cat[tiab] OR cats[tiab] OR dog[tiab] OR dogs[tiab])",
+      "status": "placeholder-from-topics.json"
+    },
+    {
+      "id": "nephrology",
+      "name_zh": "肾脏病学/泌尿学",
+      "name_en": "Nephrology & Urology",
+      "parent": "saim",
+      "pubmed_query": "(\"Kidney Diseases\"[MeSH] OR \"kidney\"[tiab] OR \"renal\"[tiab] OR \"proteinuria\"[tiab]) AND (\"Cats\"[MeSH] OR \"Dogs\"[MeSH] OR feline[tiab] OR canine[tiab] OR cat[tiab] OR cats[tiab] OR dog[tiab] OR dogs[tiab])",
+      "status": "placeholder-from-topics.json"
+    },
+    {
+      "id": "ckd",
+      "name_zh": "慢性肾病",
+      "name_en": "Chronic kidney disease",
+      "parent": "nephrology",
+      "pubmed_query": "(\"Renal Insufficiency, Chronic\"[MeSH] OR \"chronic kidney disease\"[tiab] OR \"chronic renal failure\"[tiab] OR \"renal insufficiency\"[tiab] OR \"CKD\"[tiab]) AND (\"Cats\"[MeSH] OR \"Dogs\"[MeSH] OR feline[tiab] OR canine[tiab] OR cat[tiab] OR cats[tiab] OR dog[tiab] OR dogs[tiab])",
+      "status": "placeholder-from-topics.json"
+    },
+    {
+      "id": "hypertension",
+      "name_zh": "系统性高血压",
+      "name_en": "Systemic hypertension",
+      "parent": "nephrology",
+      "pubmed_query": "(\"Hypertension\"[MeSH] OR \"hypertension\"[tiab] OR \"blood pressure\"[tiab]) AND (\"Cats\"[MeSH] OR \"Dogs\"[MeSH] OR feline[tiab] OR canine[tiab] OR cat[tiab] OR cats[tiab] OR dog[tiab] OR dogs[tiab])",
+      "status": "placeholder-from-topics.json"
+    },
+    {
+      "id": "endocrinology",
+      "name_zh": "内分泌学",
+      "name_en": "Endocrinology",
+      "parent": "saim",
+      "pubmed_query": "(\"Endocrine System Diseases\"[MeSH] OR \"endocrine\"[tiab]) AND (\"Cats\"[MeSH] OR \"Dogs\"[MeSH] OR feline[tiab] OR canine[tiab] OR cat[tiab] OR cats[tiab] OR dog[tiab] OR dogs[tiab])",
+      "status": "placeholder-from-topics.json"
+    },
+    {
+      "id": "diabetes",
+      "name_zh": "糖尿病",
+      "name_en": "Diabetes mellitus",
+      "parent": "endocrinology",
+      "pubmed_query": "(\"Diabetes Mellitus\"[MeSH] OR \"diabetes mellitus\"[tiab] OR \"SGLT2\"[tiab]) AND (\"Cats\"[MeSH] OR \"Dogs\"[MeSH] OR feline[tiab] OR canine[tiab] OR cat[tiab] OR cats[tiab] OR dog[tiab] OR dogs[tiab])",
+      "status": "placeholder-from-topics.json"
+    },
+    {
+      "id": "hyperthyroidism",
+      "name_zh": "甲状腺功能亢进",
+      "name_en": "Hyperthyroidism",
+      "parent": "endocrinology",
+      "pubmed_query": "(\"Hyperthyroidism\"[MeSH] OR \"hyperthyroidism\"[tiab]) AND (\"Cats\"[MeSH] OR \"Dogs\"[MeSH] OR feline[tiab] OR canine[tiab] OR cat[tiab] OR cats[tiab] OR dog[tiab] OR dogs[tiab])",
+      "status": "placeholder-from-topics.json"
+    },
+    {
+      "id": "hyperadrenocorticism",
+      "name_zh": "肾上腺皮质功能亢进",
+      "name_en": "Hyperadrenocorticism",
+      "parent": "endocrinology",
+      "pubmed_query": "(\"Cushing Syndrome\"[MeSH] OR \"hyperadrenocorticism\"[tiab] OR \"Cushing\"[tiab]) AND (\"Cats\"[MeSH] OR \"Dogs\"[MeSH] OR feline[tiab] OR canine[tiab] OR cat[tiab] OR cats[tiab] OR dog[tiab] OR dogs[tiab])",
+      "status": "placeholder-from-topics.json"
+    },
+    {
+      "id": "infectious",
+      "name_zh": "感染性疾病",
+      "name_en": "Infectious diseases",
+      "parent": "saim",
+      "pubmed_query": "(\"Communicable Diseases\"[MeSH] OR \"infection\"[tiab]) AND (\"Cats\"[MeSH] OR \"Dogs\"[MeSH] OR feline[tiab] OR canine[tiab] OR cat[tiab] OR cats[tiab] OR dog[tiab] OR dogs[tiab])",
+      "status": "placeholder-from-topics.json"
+    },
+    {
+      "id": "fip",
+      "name_zh": "猫传染性腹膜炎",
+      "name_en": "Feline infectious peritonitis",
+      "parent": "infectious",
+      "pubmed_query": "(\"Feline Infectious Peritonitis\"[MeSH] OR \"Coronavirus, Feline\"[MeSH] OR \"feline infectious peritonitis\"[tiab] OR \"FIP\"[tiab] OR \"feline coronavirus\"[tiab] OR \"GS-441524\"[tiab]) AND (\"Cats\"[MeSH] OR \"Dogs\"[MeSH] OR feline[tiab] OR canine[tiab] OR cat[tiab] OR cats[tiab] OR dog[tiab] OR dogs[tiab])",
+      "status": "placeholder-from-topics.json"
+    },
+    {
+      "id": "mmvd",
+      "name_zh": "黏液瘤样二尖瓣病",
+      "name_en": "Myxomatous mitral valve disease",
+      "parent": "cardiology",
+      "pubmed_query": "(\"Mitral Valve Insufficiency\"[MeSH] OR \"myxomatous mitral valve disease\"[tiab] OR \"mitral regurgitation\"[tiab]) AND (\"Cats\"[MeSH] OR \"Dogs\"[MeSH] OR feline[tiab] OR canine[tiab] OR cat[tiab] OR cats[tiab] OR dog[tiab] OR dogs[tiab])",
+      "status": "placeholder-from-topics.json"
+    },
+    {
+      "id": "cardiomyopathy",
+      "name_zh": "心肌病",
+      "name_en": "Cardiomyopathy",
+      "parent": "cardiology",
+      "pubmed_query": "(\"Cardiomyopathies\"[MeSH] OR \"hypertrophic cardiomyopathy\"[tiab] OR \"dilated cardiomyopathy\"[tiab]) AND (\"Cats\"[MeSH] OR \"Dogs\"[MeSH] OR feline[tiab] OR canine[tiab] OR cat[tiab] OR cats[tiab] OR dog[tiab] OR dogs[tiab])",
+      "status": "placeholder-from-topics.json"
+    },
+    {
+      "id": "obesity",
+      "name_zh": "肥胖与体况",
+      "name_en": "Obesity & body condition",
+      "parent": "nutrition",
+      "pubmed_query": "(\"Obesity\"[MeSH] OR \"obesity\"[tiab] OR \"body condition\"[tiab] OR \"weight loss\"[tiab]) AND (\"Cats\"[MeSH] OR \"Dogs\"[MeSH] OR feline[tiab] OR canine[tiab] OR cat[tiab] OR cats[tiab] OR dog[tiab] OR dogs[tiab])",
+      "status": "placeholder-from-topics.json"
+    },
+    {
+      "id": "diet_dcm",
+      "name_zh": "饮食相关扩张型心肌病",
+      "name_en": "Diet-associated DCM",
+      "parent": "nutrition",
+      "pubmed_query": "(\"Taurine\"[MeSH] OR \"taurine\"[tiab] OR \"grain-free\"[tiab]) AND (\"Cats\"[MeSH] OR \"Dogs\"[MeSH] OR feline[tiab] OR canine[tiab] OR cat[tiab] OR cats[tiab] OR dog[tiab] OR dogs[tiab])",
+      "status": "placeholder-from-topics.json"
+    },
+    {
+      "id": "cognition",
+      "name_zh": "认知与人宠关系",
+      "name_en": "Cognition & human-animal bond",
+      "parent": "behavior",
+      "pubmed_query": "(\"Human-Animal Bond\"[MeSH] OR \"cognition\"[tiab] OR \"human-animal bond\"[tiab] OR \"oxytocin\"[tiab]) AND (\"Cats\"[MeSH] OR \"Dogs\"[MeSH] OR feline[tiab] OR canine[tiab] OR cat[tiab] OR cats[tiab] OR dog[tiab] OR dogs[tiab])",
+      "status": "placeholder-from-topics.json"
+    },
+    {
+      "id": "cognitive_dysfunction",
+      "name_zh": "认知功能障碍/焦虑",
+      "name_en": "Cognitive dysfunction & anxiety",
+      "parent": "behavior",
+      "pubmed_query": "(\"Cognitive Dysfunction\"[MeSH] OR \"Anxiety\"[MeSH] OR \"cognitive dysfunction\"[tiab] OR \"anxiety\"[tiab]) AND (\"Cats\"[MeSH] OR \"Dogs\"[MeSH] OR feline[tiab] OR canine[tiab] OR cat[tiab] OR cats[tiab] OR dog[tiab] OR dogs[tiab])",
+      "status": "placeholder-from-topics.json"
+    },
+    {
+      "id": "dermatology",
+      "name_zh": "皮肤科",
+      "name_en": "Dermatology",
+      "parent": null,
+      "pubmed_query": "(\"Skin Diseases\"[MeSH] OR \"dermatitis\"[tiab] OR \"atopic\"[tiab]) AND (\"Cats\"[MeSH] OR \"Dogs\"[MeSH] OR feline[tiab] OR canine[tiab] OR cat[tiab] OR cats[tiab] OR dog[tiab] OR dogs[tiab])",
+      "status": "placeholder"
+    },
+    {
+      "id": "canine_atopic_dermatitis",
+      "name_zh": "犬特应性皮炎",
+      "name_en": "Canine atopic dermatitis",
+      "parent": "dermatology",
+      "pubmed_query": "(\"Dermatitis, Atopic\"[MeSH] OR \"atopic dermatitis\"[tiab] OR \"canine atopic\"[tiab] OR \"lokivetmab\"[tiab] OR \"oclacitinib\"[tiab]) AND (\"Dogs\"[MeSH] OR canine[tiab] OR dog[tiab] OR dogs[tiab])",
+      "status": "placeholder"
+    }
+  ]
+}

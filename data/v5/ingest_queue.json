@@ -1,0 +1,5 @@
+{
+  "_note": "Screening queue for deep extract. Candidates here are not shown on reader pages. Appended by scripts/weekly_pubmed_pull.py after dedupe against the library (seed + data/papers) and this file.",
+  "updated": null,
+  "candidates": []
+}

@@ -249,8 +249,8 @@ def weekly(ps,r=''):
 def plist(ps,r='../../'):
     return '<ol class="list">'+''.join(f'<li><a class="t" lang="en" href="{r}papers/{p["id"]}/index.html">{E_(p["title"])}</a><div class="s">{E_(p.get("first_author",""))} · {E_(p["date"])} · {E_("/".join(p["species"]))} · <span class="pill ev">CEBM {E_(p["cebm_display"])}</span> <span class="pill">{E_(p["verified_label"])}</span>{" <span class=\"pill pend\">待速读 · 待评</span>" if p.get("status")=="待速读" else ""}</div></li>' for p in ps)+'</ol>'
 def fresh_html(fs,r='../../',h='h2'):
-    if not fs: return ''
-    return f'<section class="card"><{h}>最新抓取 <span class="pill pend">未评</span></{h}><p class="small muted">每日从 PubMed 自动抓取，尚未速读与评价，不进入推荐与专题核心列表。</p>{plist(sorted(fs,key=lambda p:p["date"],reverse=True),r)}</section>'
+    # Unscreened ingest is queued for deep extract and is not shown to readers.
+    return ''
 def topic_page(t,ps):
     fs=[p for p in ps if t['id'] in p['topics'] and p['fresh']]
     tp=[p for p in ps if t['id'] in p['topics'] and not p['fresh']]

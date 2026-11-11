@@ -624,6 +624,83 @@ def pick_reason(p,tid=None,lst=None):
     return ''
 def duo(imp,new,r,tid=None):  # an empty 最新 is hidden entirely; fewer than 3 shows just those cards
     return (f'<h4 class="tb">最重要</h4>'+''.join(hcard(p,r,tid,'最重要') for p in imp) if imp else '')+(f'<h4 class="tb">最新</h4>'+''.join(hcard(p,r,tid,'最新') for p in new) if new else '')
+
+# ---------- 本期新增 (approved library additions in the current issue; never the ingest queue) ----------
+_WN=os.path.join(ROOT,'data','v5','weekly_new_approved.json')
+def _wn_cfg():
+    if not os.path.exists(_WN): return {}
+    try: return json.load(open(_WN,encoding='utf-8'))
+    except Exception: return {}
+def issue_bounds(today=None):
+    """Current issue window: the configured issue if today falls in it, else Mon–Sun of today (America/New_York, matching home_stamp)."""
+    import zoneinfo
+    tz=zoneinfo.ZoneInfo('America/New_York')
+    today = today or datetime.datetime.now(tz).date()
+    cfg=_wn_cfg(); iss=cfg.get('issue') or {}
+    if iss.get('tz'):
+        try: tz=zoneinfo.ZoneInfo(iss['tz'])
+        except Exception: pass
+    st,en=iss.get('start'), iss.get('end')
+    if st and en and st<=today.isoformat()<=en:
+        return st, en, iss.get('id') or ''
+    mon=today-datetime.timedelta(days=today.weekday())
+    sun=mon+datetime.timedelta(days=6)
+    return mon.isoformat(), sun.isoformat(), ''
+def weekly_new_entries(today=None):
+    """Approved papers whose added_at is in the current issue and that already exist in the reader library."""
+    st,en,_=issue_bounds(today)
+    out=[]
+    for e in (_wn_cfg().get('approved') or []):
+        if not isinstance(e,dict): continue
+        added=str(e.get('added_at') or '')[:10]
+        if not (st<=added<=en): continue
+        pmid=str(e.get('pmid') or e.get('sid') or '')
+        if not pmid: continue
+        p=get(pmid) or get('pmid-'+pmid)
+        if not p: continue
+        tid=e.get('topic') or ((p.get('topics') or [None])[-1])
+        out.append((added,p,tid))
+    out.sort(key=lambda x:(-int(x[0].replace('-','') or 0), str(x[1].get('pmid') or '')))
+    return out
+def weekly_new_block():
+    """Compact 本期新增 at the top of the homepage. Topics with additions are listed; topics with none share one line (其余专题本周无新增), or a single 本周无新增 if the issue is empty. Queue / 待处理 ingest is never included."""
+    st,en,iid=issue_bounds()
+    entries=weekly_new_entries()
+    def fmt(d):
+        y,m,dd=(d.split('-')+['','',''])[:3]
+        return f'{int(y)}年{int(m)}月{int(dd)}日' if y.isdigit() else d
+    en_l=fmt(en)
+    st_l=fmt(st)
+    if en_l.startswith(st_l[:5]): en_l=en_l[5:]
+    head=f'<h2 class="sec"><span>01</span> 本期新增</h2><p class="note">{E_(st_l)}–{E_(en_l)}</p>'
+    if not entries:
+        return f'<section class="issue" id="weekly-new">{head}<p class="note">本周无新增</p></section>'
+    by={}
+    for added,p,tid in entries:
+        by.setdefault(tid or '',[]).append((added,p))
+    order=[]
+    for t in [t for t in VIS if not t.get('parent')]:
+        order.append(t['id'])
+        order += [k['id'] for k in VIS if k.get('parent')==t['id']]
+    body=''
+    with_new=0
+    for tid in order + [k for k in by if k not in order]:
+        rows=by.get(tid) or []
+        if not rows: continue
+        with_new+=1
+        t=TBY.get(tid) or {}
+        name=t.get('name_zh') or tid
+        href=f'topics/{tid}/' if t else ''
+        title=f'<a href="{href}">{E_(name)}</a>' if href else E_(name)
+        lis=''
+        for added,p in rows:
+            label=clean(p.get('title_zh') or p.get('one_line_conclusion_zh') or p.get('title') or '')
+            lis+=f'<li><a href="papers/{E_(p["sid"])}/">{E_(label)}</a><span class="m">{E_(added)}</span></li>'
+        body+=f'<h3 class="dg">{title}</h3><ul class="rows">{lis}</ul>'
+    nvis=len(list(VIS))
+    empty=f'<p class="note">其余专题本周无新增</p>' if with_new and with_new<nvis else ''
+    return f'<section class="issue" id="weekly-new">{head}{body}{empty}</section>'
+
 def home():
     picks=ALL[:8]
     new=sorted(P.values(),key=lambda p:p.get('pub_date') or '',reverse=True)[:10]
@@ -637,8 +714,8 @@ def home():
         picks.append([g.get('topic'),[q.get('pmid') or q.get('sid') for q in imp],[q.get('pmid') or q.get('sid') for q in new]])
         if imp or new: blocks+=f'<section class="tp"><h3 class="dg">'+(f'<a href="topics/{t["id"]}/">' if t else '')+E_(g.get('topic_zh') or '')+('</a>' if t else '')+f'</h3>{duo(imp,new,"",g.get("topic"))}</section>'
     body=f'''<section class="hero"><p class="eb red">// 更新于 {home_stamp(picks)}</p><h1>精选</h1><p class="lede">犬猫兽医文献，结论先行。</p></section>
-{blocks}<section><h2 class="sec"><span>//</span> 按专题浏览</h2>{chips}</section>
-<p class="more"><a class="btn" href="library/">进入文献库（{len(P)} 篇）→</a></p>{fresh_list(FRESH,'')}'''
+{weekly_new_block()}{blocks}<section><h2 class="sec"><span>//</span> 按专题浏览</h2>{chips}</section>
+<p class="more"><a class="btn" href="library/">进入文献库（{len(P)} 篇）→</a></p>'''
     return page('精选',body,0,'home')
 # ---------- topics ----------
 TBY={t['id']:t for t in TP}
@@ -686,7 +763,7 @@ def topic_page(t):
     fr=[f for f in FRESH if t['id'] in (f.get('topics') or [])]
     body=f'''{crumb}<section class="hero"><p class="eb">{E_(t.get("name_en",""))}</p><h1>{E_(t["name_zh"])}</h1><p class="lede">{len(ps)} 篇已速读文献</p></section>{bl}{sub}
 <section>{duo((_imp:=(tops(t['id']) or _fill([p for p,_ in core]))),newest3(ps,_imp),r,t['id'])}</section>
-<section><h2 class="sec"><span>03</span> 全部 {len(ps)} 篇</h2><ul class="rows">{''.join(row(p,r) for p in sorted(ps,key=lambda p:p.get('pub_date') or '',reverse=True))}</ul></section>{fresh_list(fr,r)}'''
+<section><h2 class="sec"><span>03</span> 全部 {len(ps)} 篇</h2><ul class="rows">{''.join(row(p,r) for p in sorted(ps,key=lambda p:p.get('pub_date') or '',reverse=True))}</ul></section>'''
     return page(t['name_zh'],body,2,'topics')
 def topics_index():
     body=f'<section class="hero"><p class="eb red">// 专题</p><h1>按专科与疾病浏览</h1></section>'+topic_chips('../')
