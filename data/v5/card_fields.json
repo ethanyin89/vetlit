@@ -1,0 +1,10 @@
+{
+ "_note": "Card fields for weekly and reader cards: title_zh (short title), one_line_conclusion_zh, clinical_meaning. Synced from extracts/deep_speedread/card_fields.json. The build reads this file; do not copy other extract sections here.",
+ "papers": {
+  "42977701": {
+   "title_zh": "犬猫乳腺切除术后 8.8% 感染",
+   "one_line_conclusion_zh": "615 例乳腺切除中 54 例术后 30 天内感染，手术时间长、术中低体温、体况评分高和既往大手术与感染相关。",
+   "clinical_meaning": "乳腺切除时控制手术时长、预防术中低体温；术后感染先做细菌培养再选抗菌药。"
+  }
+ }
+}

@@ -114,6 +114,11 @@ assert 'pick_reason' not in ph
 assert '从‘高’起评' not in ph and '从“高”起评' not in ph
 # speed-read body is present (clinical conclusion / results), not the gated 起评 certainty narrative
 assert '8.8%' in ph and ('手术部位感染' in ph or '乳腺切除' in ph)
+# Vibe-approved short title from card_fields; the old long title is not the page title
+assert '犬猫乳腺切除术后 8.8% 感染' in ph
+assert '<h1 class="ct">犬猫乳腺切除术后 8.8% 感染</h1>' in ph
+assert '<title>犬猫乳腺切除术后 8.8% 感染 · VetLit</title>' in ph
+assert '发生手术部位感染：手术时间长、术中低体温、体况评分高和既往大手术与感染相关' not in ph.split('<h1',1)[0] and '发生手术部位感染：手术时间长、术中低体温、体况评分高和既往大手术与感染相关' not in (ph.split('</h1>',1)[1].split('<section',1)[0] if '</h1>' in ph else '')
 
 # a date after this issue falls into the next Mon–Sun window with no approved additions
 st,en,_=B.issue_bounds(datetime.date(2026,11,16))
@@ -132,13 +137,14 @@ assert iso=='2026-11-03' and prec=='day' and 'ArticleDate' in src
 iso,prec,src=IN.parse_esummary_pub_date({'pubdate':'','epubdate':'','sortpubdate':'2026/11/01 00:00'})
 assert iso=='2026-11-01' and prec=='month'
 
-# 42977701 as stored: title_zh == one_line_conclusion_zh, no clinical_meaning → overlap, skip
+# 42977701 card fields from data/v5/card_fields.json (extract card_fields.json): short title + distinct conclusion
 libp=B.get('pmid-42977701') or B.get('42977701')
-assert libp.get('title_zh') and libp.get('one_line_conclusion_zh')
-assert libp.get('title_zh')==libp.get('one_line_conclusion_zh')
-assert not libp.get('clinical_meaning')
-assert B.weekly_title_overlaps_conclusion(libp['title_zh'], B.summ(libp))
-assert not B.weekly_zh_ready(libp)
+assert B.CARD_FIELDS.get('42977701',{}).get('title_zh')=='犬猫乳腺切除术后 8.8% 感染'
+assert libp.get('title_zh')=='犬猫乳腺切除术后 8.8% 感染'
+assert len(libp['title_zh'])<=B.WEEKLY_TITLE_ZH_MAX
+assert libp.get('clinical_meaning') and libp['title_zh']!=libp.get('one_line_conclusion_zh')
+assert not B.weekly_title_overlaps_conclusion(libp['title_zh'], B.weekly_conclusion(libp))
+assert B.weekly_zh_ready(libp)
 # 42977701 PubDate is month-only
 disp,prec,ear=B.parse_pub_date(libp)
 assert prec=='month' and disp=='2026年11月'
@@ -149,19 +155,16 @@ assert B.weekly_title_overlaps_conclusion('犬猫乳腺切除术后 8.8% 感染'
 assert B.weekly_title_overlaps_conclusion('控制手术时长、防止术中低体温','控制手术时长，防止术中低体温。')  # high similarity
 assert not B.weekly_title_overlaps_conclusion('犬猫乳腺切除术后 8.8% 感染','控制手术时长、防止术中低体温；感染后先培养再选药。')
 
-# 本期新增 cards: title_zh + summ() (clinical_meaning when conclusion would duplicate the title)
+# 本期新增 cards: title_zh + summ() (clinical_meaning); title_zh longer than 25 characters is skipped
 import io, contextlib, copy
-good_p=copy.deepcopy(libp)
-good_p['clinical_meaning']='控制手术时长、防止术中低体温；感染后先培养再选药。'
-assert B.weekly_zh_ready(good_p)
-assert B.summ(good_p)==good_p['clinical_meaning']
-html=B.weekly_card(good_p,'2026年11月','感染性疾病','topics/infectious/','')
+assert B.weekly_conclusion(libp)==libp['clinical_meaning']
+html=B.weekly_card(libp,'2026年11月','感染性疾病','topics/infectious/','')
 assert '<article class="card">' in html
-assert '<h3 class="ct">' in html and '犬猫乳腺切除术后' in html
-assert '<p class="en" lang="en">' in html and good_p['title'][:40] in html
-assert '<p class="bl">' in html and '控制手术时长、防止术中低体温' in html
-assert good_p['title_zh'] not in html.split('<p class="bl">',1)[1]  # conclusion is not the title
-# meta reuses 最重要 cmeta: journal · study type · n · species, plus topic and certainty
+assert '<h3 class="ct">' in html and '犬猫乳腺切除术后 8.8% 感染' in html
+assert '发生手术部位感染：手术时间长' not in html.split('<p class="en"',1)[0]
+assert '<p class="en" lang="en">' in html and libp['title'][:40] in html
+assert '<p class="bl">' in html and '乳腺切除时控制手术时长' in html
+assert libp['title_zh'] not in html.split('<p class="bl">',1)[1]
 assert 'Vet Med Sci' in html and '队列研究' in html and '615 只' in html and '犬/猫' in html
 assert '感染性疾病' in html and 'topics/infectious/' in html
 assert '证据确定性：低' in html
@@ -171,29 +174,51 @@ assert 'class="why"' not in html and 'pick_reason' not in html
 
 bare={'pmid':'000111','sid':'pmid-000111','title':'English-only weekly paper','pub_date':'2026-10-01'}
 assert not B.weekly_zh_ready(bare)
+# constructed overlap (clear clinical_meaning so summ returns the duplicate conclusion)
+dup=copy.deepcopy(libp)
+dup['title_zh']='短标题示例'
+dup['one_line_conclusion_zh']='短标题示例'
+dup['clinical_meaning']=''
+assert not B.weekly_zh_ready(dup)
+# title_zh longer than 25 characters: skip (25 is allowed)
+exactly=copy.deepcopy(libp)
+exactly['title_zh']='一二三四五六七八九十一二三四五六七八九十一二三四五'
+assert len(exactly['title_zh'])==25 and B.weekly_zh_ready(exactly)
+long_p=copy.deepcopy(libp)
+long_p['title_zh']=exactly['title_zh']+'六'
+assert len(long_p['title_zh'])==26 and not B.weekly_zh_ready(long_p)
+# the pre-shortening library title would also be skipped for length
+legacy=copy.deepcopy(libp)
+legacy['title_zh']='犬猫乳腺切除术后 8.8% 发生手术部位感染：手术时间长、术中低体温、体况评分高和既往大手术与感染相关'
+assert len(legacy['title_zh'])>25 and not B.weekly_zh_ready(legacy)
+
 item=('2026-10-01','2026年10月1日',bare,'','其他','')
-overlap=('2026-11-01','2026年11月',libp,'infectious','感染性疾病','topics/infectious/')
-good=('2026-11-01','2026年11月',good_p,'infectious','感染性疾病','topics/infectious/')
+overlap=('2026-11-01','2026年11月',dup,'infectious','感染性疾病','topics/infectious/')
+too_long=('2026-11-01','2026年11月',long_p,'infectious','感染性疾病','topics/infectious/')
+good=('2026-11-01','2026年11月',libp,'infectious','感染性疾病','topics/infectious/')
 err=io.StringIO()
 with contextlib.redirect_stderr(err):
-    vis=B.weekly_visible_entries([good,item,overlap])
+    vis=B.weekly_visible_entries([good,item,overlap,too_long])
 assert vis==[good]
-assert '000111' in err.getvalue() and 'missing Chinese title or one-line conclusion' in err.getvalue()
-assert '42977701' in err.getvalue() and 'conclusion overlaps title' in err.getvalue()
+err_s=err.getvalue()
+assert '000111' in err_s and 'missing Chinese title or one-line conclusion' in err_s
+assert 'conclusion overlaps title' in err_s
+assert 'title_zh longer than 25 characters' in err_s
 old_entries=B.weekly_new_entries
 try:
-    B.weekly_new_entries=lambda today=None: [overlap]
+    B.weekly_new_entries=lambda today=None: [too_long]
     err=io.StringIO()
     with contextlib.redirect_stderr(err):
         block=B.weekly_new_block()
     assert '本周无新增' in block
     assert '<article class="card">' not in block
-    assert 'conclusion overlaps title' in err.getvalue()
+    assert 'title_zh longer than 25 characters' in err.getvalue()
     B.weekly_new_entries=lambda today=None: [good]
     block=B.weekly_new_block()
     assert '本周无新增' not in block
     assert '<article class="card">' in block
-    assert '控制手术时长、防止术中低体温' in block
+    assert '犬猫乳腺切除术后 8.8% 感染' in block
+    assert '乳腺切除时控制手术时长' in block
     assert 'Vet Med Sci' in block and '615 只' in block and '证据确定性：低' in block
     assert '速读 →' in block
 finally:

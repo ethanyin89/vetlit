@@ -67,6 +67,17 @@ for r in json.load(open(os.path.join(ROOT,'data','v5','speedread_fields_v5.json'
     p['key_results']=r.get('key_results') or []
     if has(r.get('clinical_meaning')): p['clinical_meaning']=STRIP(r['clinical_meaning'])
     if isinstance(r.get('key_results_top3'),list): p['key_results_top3']=r['key_results_top3']
+# Card fields (title_zh / one_line_conclusion_zh / clinical_meaning) from data/v5/card_fields.json, sourced from extracts/deep_speedread/card_fields.json.
+_CFF=os.path.join(ROOT,'data','v5','card_fields.json')
+CARD_FIELDS={}
+if os.path.exists(_CFF):
+    try: CARD_FIELDS={str(k):v for k,v in ((json.load(open(_CFF,encoding='utf-8')).get('papers')) or {}).items() if isinstance(v,dict)}
+    except Exception: CARD_FIELDS={}
+for _pmid,_cf in CARD_FIELDS.items():
+    _p=matcher({'pmid':_pmid,'id':_pmid})
+    if not _p: continue
+    for _k in ('title_zh','one_line_conclusion_zh','clinical_meaning'):
+        if has(_cf.get(_k)): _p[_k]=STRIP(_cf[_k])
 DS={}
 _apf=os.path.join(ROOT,'data','v5','deep_speedread_approved.json')
 DS_APPROVED=set(str(x) for x in json.load(open(_apf,encoding='utf-8'))['approved']) if os.path.exists(_apf) else set()
@@ -742,11 +753,17 @@ def weekly_new_entries(today=None):
         out.append((earliest,disp,p,tid,label,href))
     out.sort(key=lambda x:(-int(x[0].replace('-','') or 0), str(x[2].get('pmid') or '')))
     return out
+WEEKLY_TITLE_ZH_MAX=25
+def weekly_conclusion(p):
+    """Clinical-action line for 本期新增 cards: clinical_meaning, else the 最重要 summ() fallback. Does not change 最重要 rendering."""
+    if has((p or {}).get('clinical_meaning')): return clean(p['clinical_meaning'])
+    return clean(summ(p) if p else '')
+
 def weekly_zh_ready(p):
-    """本期新增 cards need title_zh and a distinct conclusion (clinical_meaning via summ, or one_line_conclusion_zh)."""
+    """本期新增 cards need a short title_zh (<=25 chars) and a distinct conclusion (clinical_meaning, or one_line_conclusion_zh via summ). Does not change 最重要 rendering."""
     ti=clean((p or {}).get('title_zh') or '')
-    cl=clean(summ(p) if p else '')
-    return bool(ti) and bool(cl) and not weekly_title_overlaps_conclusion(ti, cl)
+    cl=weekly_conclusion(p)
+    return bool(ti) and len(ti)<=WEEKLY_TITLE_ZH_MAX and bool(cl) and not weekly_title_overlaps_conclusion(ti, cl)
 
 def weekly_title_overlaps_conclusion(title, conclusion):
     """True if conclusion equals the title, one contains the other, or normalized overlap/similarity >= 0.8."""
@@ -786,7 +803,7 @@ def weekly_card(p,disp,label,topic_href,r=''):
     sid=p.get('sid') or ('pmid-'+str(p.get('pmid') or ''))
     href=f'{r}papers/{sid}/'
     title=title_html(p,'h3',href)
-    sm=summ(p)
+    sm=weekly_conclusion(p)
     meta=weekly_meta(p,disp,label,topic_href,r)
     bl=f'<p class="bl">{E_(clean(sm))}</p>' if sm else ''
     key=str(p.get('pmid') or '')
@@ -807,9 +824,11 @@ def weekly_visible_entries(entries=None, today=None):
         if not weekly_zh_ready(p):
             pmid=str((p or {}).get('pmid') or (p or {}).get('sid') or '?')
             ti=clean((p or {}).get('title_zh') or '')
-            cl=clean(summ(p) if p else '')
+            cl=weekly_conclusion(p)
             if not ti or not cl:
                 print(f'warning: 本期新增 skipped {pmid}: missing Chinese title or one-line conclusion', file=sys.stderr)
+            elif len(ti)>WEEKLY_TITLE_ZH_MAX:
+                print(f'warning: 本期新增 skipped {pmid}: title_zh longer than 25 characters', file=sys.stderr)
             else:
                 print(f'warning: 本期新增 skipped {pmid}: conclusion overlaps title', file=sys.stderr)
             continue
@@ -1051,6 +1070,9 @@ def ds_sections(r):
 def paper(p):
     r='../../'; S=sections(p); ds=ds_of(p)
     if ds and ds.get('title_zh'): p=dict(p); p['title_zh']=ds['title_zh']
+    _cf=CARD_FIELDS.get(str(p.get('pmid') or '')) or {}
+    if has(_cf.get('title_zh')):
+        p=dict(p); p['title_zh']=STRIP(_cf['title_zh'])
     head=f'''<p class="crumb"><a href="{r}library/">文献库</a>{"".join(f' › <a href="{r}topics/{t}/">{E_(TBY[t]["name_zh"])}</a>' for t in (p.get("topics") or [])[:1] if t in TBY and t in [v["id"] for v in VIS])}</p>
 <p class="eb">{E_(" / ".join(specs(p)))} · {E_(species(p))}</p>{title_html(p,'h1')}<p class="cmeta">{E_(cmeta(p))}</p>{superlink(p,'../../')}{sup_note(p)}
 <p class="meta">{E_(p.get("first_author",""))} 等 · <em>{E_(p.get("journal",""))}</em> · {E_(p.get("pub_date") or str(p.get("year","")))}{f' · <a href="https://doi.org/{E_(p["doi"])}">DOI</a>' if p.get('doi') else ''}{f' · <a href="https://pubmed.ncbi.nlm.nih.gov/{p["pmid"]}/">PubMed</a>' if p.get('pmid') else ''}{f' · <a href="https://europepmc.org/article/PMC/{p["pmcid"]}">全文</a>' if p.get('pmcid') else ''}</p>
