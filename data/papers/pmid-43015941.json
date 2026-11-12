@@ -1,0 +1,35 @@
+{
+  "id": "pmid-43015941",
+  "pmid": "43015941",
+  "title": "Potassium EDTA Contamination Causing Preanalytical Errors in Canine and Feline Serum Samples",
+  "first_author": "Strage EM",
+  "year": "2026",
+  "date": "2026-11-11",
+  "pub_date": "2026-11-11",
+  "pub_date_precision": "day",
+  "pub_date_source": "PubMed PubDate",
+  "journal": "Vet Clin Pathol",
+  "doi": "10.1111/vcp.70160",
+  "pmcid": "",
+  "species": "猫/犬",
+  "specialty": "未分类",
+  "topics": [
+    "_general",
+    "epidemiology"
+  ],
+  "source": "PubMed (E-utilities)",
+  "oa": "未核",
+  "doc_type": "待定",
+  "publication_types": [
+    "Journal Article"
+  ],
+  "sample_size_analysed": "未核",
+  "multicenter": "未核",
+  "funding": "未核",
+  "verified": "partial",
+  "status": "待处理",
+  "provenance": [
+    "ingest"
+  ],
+  "ingested_at": "2026-11-12"
+}
