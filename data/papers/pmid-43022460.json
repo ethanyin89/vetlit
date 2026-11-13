@@ -1,0 +1,35 @@
+{
+  "id": "pmid-43022460",
+  "pmid": "43022460",
+  "title": "Pharmacokinetics of HDM7006, a high-potency balanced GLP-1/GIP dual agonist, in healthy domestic cats",
+  "first_author": "Zhang Z",
+  "year": "2026",
+  "date": "2026-10-28",
+  "pub_date": "2026-10-28",
+  "pub_date_precision": "day",
+  "pub_date_source": "PubMed ArticleDate/EpubDate",
+  "journal": "Front Vet Sci",
+  "doi": "10.3389/fvets.2026.1988580",
+  "pmcid": "PMC13755716",
+  "species": "猫",
+  "specialty": "未分类",
+  "topics": [
+    "nutrition",
+    "obesity"
+  ],
+  "source": "PubMed (E-utilities)",
+  "oa": "是",
+  "doc_type": "待定",
+  "publication_types": [
+    "Journal Article"
+  ],
+  "sample_size_analysed": "未核",
+  "multicenter": "未核",
+  "funding": "未核",
+  "verified": "partial",
+  "status": "待处理",
+  "provenance": [
+    "ingest"
+  ],
+  "ingested_at": "2026-11-13"
+}

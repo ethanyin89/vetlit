@@ -1,0 +1,37 @@
+{
+  "id": "pmid-43021592",
+  "pmid": "43021592",
+  "title": "Immunogenicity of half-dose versus full-dose Leptospira quadrivalent vaccine in dogs: a prospective randomized pilot study",
+  "first_author": "Craig C",
+  "year": "2026",
+  "date": "2026-11-02",
+  "pub_date": "2026-11-02",
+  "pub_date_precision": "day",
+  "pub_date_source": "PubMed PubDate",
+  "journal": "J Vet Intern Med",
+  "doi": "10.1093/jvimsj/aalag267",
+  "pmcid": "",
+  "species": "犬",
+  "specialty": "未分类",
+  "topics": [
+    "_general",
+    "infectious",
+    "saim"
+  ],
+  "source": "PubMed (E-utilities)",
+  "oa": "未核",
+  "doc_type": "待定",
+  "publication_types": [
+    "Journal Article",
+    "Randomized Controlled Trial"
+  ],
+  "sample_size_analysed": "未核",
+  "multicenter": "未核",
+  "funding": "未核",
+  "verified": "partial",
+  "status": "待处理",
+  "provenance": [
+    "ingest"
+  ],
+  "ingested_at": "2026-11-13"
+}

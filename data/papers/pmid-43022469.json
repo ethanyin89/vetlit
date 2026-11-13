@@ -1,0 +1,35 @@
+{
+  "id": "pmid-43022469",
+  "pmid": "43022469",
+  "title": "Randomized comparative field clinical trial of hydrocortisone aceponate/gentamicin/miconazole otic suspension vs. mometasone furoate/florfenicol/terbinafine otic solution for the treatment of canine otitis externa",
+  "first_author": "Griffin J",
+  "year": "2026",
+  "date": "2026-10-28",
+  "pub_date": "2026-10-28",
+  "pub_date_precision": "day",
+  "pub_date_source": "PubMed ArticleDate/EpubDate",
+  "journal": "Front Vet Sci",
+  "doi": "10.3389/fvets.2026.1901247",
+  "pmcid": "PMC13755693",
+  "species": "犬",
+  "specialty": "未分类",
+  "topics": [
+    "_general"
+  ],
+  "source": "PubMed (E-utilities)",
+  "oa": "是",
+  "doc_type": "待定",
+  "publication_types": [
+    "Clinical Trial",
+    "Journal Article"
+  ],
+  "sample_size_analysed": "未核",
+  "multicenter": "未核",
+  "funding": "未核",
+  "verified": "partial",
+  "status": "待处理",
+  "provenance": [
+    "ingest"
+  ],
+  "ingested_at": "2026-11-13"
+}
