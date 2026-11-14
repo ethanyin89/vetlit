@@ -1,0 +1,38 @@
+{
+  "id": "pmid-43024616",
+  "pmid": "43024616",
+  "title": "Development and validation of a real-time PCR assay for the detection of SEA4 clade rabies virus (Philippine strain) in post-mortem non-brain animal samples",
+  "first_author": "Manalo DL",
+  "year": "2026",
+  "date": "2026-11-13",
+  "pub_date": "2026-11-13",
+  "pub_date_precision": "day",
+  "pub_date_source": "PubMed ArticleDate/EpubDate",
+  "journal": "PLoS One",
+  "doi": "10.1371/journal.pone.0362890",
+  "pmcid": "",
+  "species": "未核",
+  "specialty": "未分类",
+  "topics": [
+    "_general",
+    "infectious",
+    "neurology",
+    "saim"
+  ],
+  "source": "PubMed (E-utilities)",
+  "oa": "未核",
+  "doc_type": "待定",
+  "publication_types": [
+    "Journal Article",
+    "Validation Study"
+  ],
+  "sample_size_analysed": "未核",
+  "multicenter": "未核",
+  "funding": "未核",
+  "verified": "partial",
+  "status": "待处理",
+  "provenance": [
+    "ingest"
+  ],
+  "ingested_at": "2026-11-14"
+}

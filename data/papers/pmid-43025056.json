@@ -1,0 +1,35 @@
+{
+  "id": "pmid-43025056",
+  "pmid": "43025056",
+  "title": "Hypertension was common and associated with serum cholesterol concentrations in dogs with Cushing syndrome",
+  "first_author": "McKinley G",
+  "year": "2026",
+  "date": "2026-11-13",
+  "pub_date": "2026-11-13",
+  "pub_date_precision": "day",
+  "pub_date_source": "PubMed PubDate",
+  "journal": "J Am Vet Med Assoc",
+  "doi": "10.2460/javma.26.06.0478",
+  "pmcid": "",
+  "species": "犬",
+  "specialty": "未分类",
+  "topics": [
+    "endocrinology",
+    "hyperadrenocorticism"
+  ],
+  "source": "PubMed (E-utilities)",
+  "oa": "未核",
+  "doc_type": "待定",
+  "publication_types": [
+    "Journal Article"
+  ],
+  "sample_size_analysed": "未核",
+  "multicenter": "未核",
+  "funding": "未核",
+  "verified": "partial",
+  "status": "待处理",
+  "provenance": [
+    "ingest"
+  ],
+  "ingested_at": "2026-11-14"
+}
