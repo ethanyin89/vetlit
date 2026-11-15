@@ -1,0 +1,34 @@
+{
+  "id": "pmid-43034551",
+  "pmid": "43034551",
+  "title": "High prevalence and genetic diversity of Pasteurella multocida in cats across China: Genomic evidence linking cat-, bird-, and human-associated strains and implications for One Health surveillance",
+  "first_author": "Zhao M",
+  "year": "2026",
+  "date": "2026-10-21",
+  "pub_date": "2026-10-21",
+  "pub_date_precision": "day",
+  "pub_date_source": "PubMed ArticleDate/EpubDate",
+  "journal": "Sci One Health",
+  "doi": "10.1016/j.soh.2026.100172",
+  "pmcid": "PMC13769097",
+  "species": "猫",
+  "specialty": "未分类",
+  "topics": [
+    "epidemiology"
+  ],
+  "source": "PubMed (E-utilities)",
+  "oa": "是",
+  "doc_type": "待定",
+  "publication_types": [
+    "Journal Article"
+  ],
+  "sample_size_analysed": "未核",
+  "multicenter": "未核",
+  "funding": "未核",
+  "verified": "partial",
+  "status": "待处理",
+  "provenance": [
+    "ingest"
+  ],
+  "ingested_at": "2026-11-15"
+}

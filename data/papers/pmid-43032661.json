@@ -1,0 +1,37 @@
+{
+  "id": "pmid-43032661",
+  "pmid": "43032661",
+  "title": "A prospective randomised study on the effects of medetomidine with or without tramadol premedication on intraocular pressure, tear production and pupil diameter in dogs undergoing propofol anaesthesia",
+  "first_author": "Sabiza S",
+  "year": "2026",
+  "date": "2026-11-03",
+  "pub_date": "2026-11-03",
+  "pub_date_precision": "day",
+  "pub_date_source": "PubMed ArticleDate/EpubDate",
+  "journal": "Vet Anim Sci",
+  "doi": "10.1016/j.vas.2026.100926",
+  "pmcid": "PMC13761251",
+  "species": "犬",
+  "specialty": "未分类",
+  "topics": [
+    "_general",
+    "cardiology",
+    "hypertension",
+    "nephrology"
+  ],
+  "source": "PubMed (E-utilities)",
+  "oa": "是",
+  "doc_type": "待定",
+  "publication_types": [
+    "Journal Article"
+  ],
+  "sample_size_analysed": "未核",
+  "multicenter": "未核",
+  "funding": "未核",
+  "verified": "partial",
+  "status": "待处理",
+  "provenance": [
+    "ingest"
+  ],
+  "ingested_at": "2026-11-15"
+}
