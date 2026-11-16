@@ -1,0 +1,34 @@
+{
+  "id": "pmid-43035210",
+  "pmid": "43035210",
+  "title": "Analytical agreement of a multiparametric, fully quantitative fluorescent immunoassay analyser (Vcheck) with commercial laboratory assays for NT‑proBNP and cardiac troponin‑I in dogs and cats",
+  "first_author": "Ferasin L",
+  "year": "2026",
+  "date": "2026-11-15",
+  "pub_date": "2026-11-15",
+  "pub_date_precision": "day",
+  "pub_date_source": "PubMed PubDate",
+  "journal": "Vet J",
+  "doi": "10.1016/j.tvjl.2026.106968",
+  "pmcid": "",
+  "species": "猫/犬",
+  "specialty": "未分类",
+  "topics": [
+    "cardiology"
+  ],
+  "source": "PubMed (E-utilities)",
+  "oa": "未核",
+  "doc_type": "待定",
+  "publication_types": [
+    "Journal Article"
+  ],
+  "sample_size_analysed": "未核",
+  "multicenter": "未核",
+  "funding": "未核",
+  "verified": "partial",
+  "status": "待处理",
+  "provenance": [
+    "ingest"
+  ],
+  "ingested_at": "2026-11-16"
+}
