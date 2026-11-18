@@ -1,0 +1,35 @@
+{
+  "id": "pmid-43047359",
+  "pmid": "43047359",
+  "title": "Intratumoral STING agonist therapy as a potential bridge to surgery in canine sarcoma",
+  "first_author": "Hildebrand KM",
+  "year": "2026",
+  "date": "2026-11-03",
+  "pub_date": "2026-11-03",
+  "pub_date_precision": "day",
+  "pub_date_source": "PubMed ArticleDate/EpubDate",
+  "journal": "Front Vet Sci",
+  "doi": "10.3389/fvets.2026.1985843",
+  "pmcid": "PMC13773742",
+  "species": "犬",
+  "specialty": "未分类",
+  "topics": [
+    "_general",
+    "oncology"
+  ],
+  "source": "PubMed (E-utilities)",
+  "oa": "是",
+  "doc_type": "待定",
+  "publication_types": [
+    "Journal Article"
+  ],
+  "sample_size_analysed": "未核",
+  "multicenter": "未核",
+  "funding": "未核",
+  "verified": "partial",
+  "status": "待处理",
+  "provenance": [
+    "ingest"
+  ],
+  "ingested_at": "2026-11-18"
+}
