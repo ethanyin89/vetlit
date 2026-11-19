@@ -1,0 +1,35 @@
+{
+  "id": "pmid-43052221",
+  "pmid": "43052221",
+  "title": "Early Changes in Serum Protein Electrophoresis and Gamma Globulin during Initial 4 Weeks of Remdesivir Therapy in FIP Cats",
+  "first_author": "Khalili K",
+  "year": "2026",
+  "date": "2026-11-01",
+  "pub_date": "2026-11-01",
+  "pub_date_precision": "month",
+  "pub_date_source": "PubMed PubDate",
+  "journal": "Vet Med Sci",
+  "doi": "10.1002/vms3.71347",
+  "pmcid": "",
+  "species": "猫",
+  "specialty": "未分类",
+  "topics": [
+    "fip",
+    "infectious"
+  ],
+  "source": "PubMed (E-utilities)",
+  "oa": "未核",
+  "doc_type": "待定",
+  "publication_types": [
+    "Journal Article"
+  ],
+  "sample_size_analysed": "未核",
+  "multicenter": "未核",
+  "funding": "未核",
+  "verified": "partial",
+  "status": "待处理",
+  "provenance": [
+    "ingest"
+  ],
+  "ingested_at": "2026-11-19"
+}

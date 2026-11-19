@@ -1,0 +1,37 @@
+{
+  "id": "pmid-43054190",
+  "pmid": "43054190",
+  "title": "Octreotide treatment improves multiple domains of cognitive performance in aged beagle dogs",
+  "first_author": "LaCroix-Fralish ML",
+  "year": "2026",
+  "date": "2026-11-04",
+  "pub_date": "2026-11-04",
+  "pub_date_precision": "day",
+  "pub_date_source": "PubMed ArticleDate/EpubDate",
+  "journal": "Front Vet Sci",
+  "doi": "10.3389/fvets.2026.1945789",
+  "pmcid": "PMC13778148",
+  "species": "犬",
+  "specialty": "未分类",
+  "topics": [
+    "_general",
+    "behavior",
+    "cognition",
+    "cognitive_dysfunction"
+  ],
+  "source": "PubMed (E-utilities)",
+  "oa": "是",
+  "doc_type": "待定",
+  "publication_types": [
+    "Journal Article"
+  ],
+  "sample_size_analysed": "未核",
+  "multicenter": "未核",
+  "funding": "未核",
+  "verified": "partial",
+  "status": "待处理",
+  "provenance": [
+    "ingest"
+  ],
+  "ingested_at": "2026-11-19"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "pmid-43054341",
+  "pmid": "43054341",
+  "title": "Comparative shotgun metagenomic analysis of the feline fecal microbiome in response to fresh, dry, and wet diets in a randomized crossover trial",
+  "first_author": "Tanprasertsuk J",
+  "year": "2026",
+  "date": "2026-11-04",
+  "pub_date": "2026-11-04",
+  "pub_date_precision": "day",
+  "pub_date_source": "PubMed ArticleDate/EpubDate",
+  "journal": "Front Microbiol",
+  "doi": "10.3389/fmicb.2026.2000915",
+  "pmcid": "PMC13778071",
+  "species": "猫",
+  "specialty": "未分类",
+  "topics": [
+    "_general"
+  ],
+  "source": "PubMed (E-utilities)",
+  "oa": "是",
+  "doc_type": "待定",
+  "publication_types": [
+    "Journal Article"
+  ],
+  "sample_size_analysed": "未核",
+  "multicenter": "未核",
+  "funding": "未核",
+  "verified": "partial",
+  "status": "待处理",
+  "provenance": [
+    "ingest"
+  ],
+  "ingested_at": "2026-11-19"
+}

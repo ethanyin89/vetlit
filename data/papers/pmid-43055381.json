@@ -1,0 +1,39 @@
+{
+  "id": "pmid-43055381",
+  "pmid": "43055381",
+  "title": "Choline in canine and feline nutrition: Physiological roles, dietary requirements and recommendations, and implications for health",
+  "first_author": "Rankovic A",
+  "year": "2026",
+  "date": "2026-11-19",
+  "pub_date": "2026-11-19",
+  "pub_date_precision": "day",
+  "pub_date_source": "PubMed PubDate",
+  "journal": "J Anim Sci",
+  "doi": "10.1093/jas/skag369",
+  "pmcid": "",
+  "species": "猫/犬",
+  "specialty": "未分类",
+  "topics": [
+    "_general",
+    "behavior",
+    "cognition",
+    "neurology",
+    "nutrition",
+    "obesity"
+  ],
+  "source": "PubMed (E-utilities)",
+  "oa": "未核",
+  "doc_type": "待定",
+  "publication_types": [
+    "Journal Article"
+  ],
+  "sample_size_analysed": "未核",
+  "multicenter": "未核",
+  "funding": "未核",
+  "verified": "partial",
+  "status": "待处理",
+  "provenance": [
+    "ingest"
+  ],
+  "ingested_at": "2026-11-19"
+}

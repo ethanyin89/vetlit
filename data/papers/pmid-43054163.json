@@ -1,0 +1,38 @@
+{
+  "id": "pmid-43054163",
+  "pmid": "43054163",
+  "title": "Daily supplementation with canine-isolated Limosilactobacillus reuteri ATCC PTA 6127 is well tolerated, improves stool consistency, and modulates gut microbiome in dogs",
+  "first_author": "Rendina DN",
+  "year": "2026",
+  "date": "2026-11-04",
+  "pub_date": "2026-11-04",
+  "pub_date_precision": "day",
+  "pub_date_source": "PubMed ArticleDate/EpubDate",
+  "journal": "Front Vet Sci",
+  "doi": "10.3389/fvets.2026.1970798",
+  "pmcid": "PMC13777944",
+  "species": "犬",
+  "specialty": "未分类",
+  "topics": [
+    "_general",
+    "epidemiology",
+    "infectious",
+    "nutrition",
+    "saim"
+  ],
+  "source": "PubMed (E-utilities)",
+  "oa": "是",
+  "doc_type": "待定",
+  "publication_types": [
+    "Journal Article"
+  ],
+  "sample_size_analysed": "未核",
+  "multicenter": "未核",
+  "funding": "未核",
+  "verified": "partial",
+  "status": "待处理",
+  "provenance": [
+    "ingest"
+  ],
+  "ingested_at": "2026-11-19"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "pmid-43054498",
+  "pmid": "43054498",
+  "title": "A descriptive cohort study of Vitis vinifera fruit (grape/raisin/sultana/currant) ingestion in dogs, reported by the Veterinary Poisons Information Service between 1994 and 2023",
+  "first_author": "Downs J",
+  "year": "2026",
+  "date": "2026-11-18",
+  "pub_date": "2026-11-18",
+  "pub_date_precision": "day",
+  "pub_date_source": "PubMed ArticleDate/EpubDate",
+  "journal": "Vet Rec Open",
+  "doi": "10.1002/vro2.70052",
+  "pmcid": "PMC13779186",
+  "species": "犬",
+  "specialty": "未分类",
+  "topics": [
+    "nephrology",
+    "saim"
+  ],
+  "source": "PubMed (E-utilities)",
+  "oa": "是",
+  "doc_type": "待定",
+  "publication_types": [
+    "Journal Article"
+  ],
+  "sample_size_analysed": "未核",
+  "multicenter": "未核",
+  "funding": "未核",
+  "verified": "partial",
+  "status": "待处理",
+  "provenance": [
+    "ingest"
+  ],
+  "ingested_at": "2026-11-19"
+}
