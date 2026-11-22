@@ -1,0 +1,36 @@
+{
+  "id": "pmid-43068099",
+  "pmid": "43068099",
+  "title": "Development of a multiplex real-time PCR for the diagnosis of Dirofilaria immitis, Dirofilaria repens, Ehrlichia canis and Anaplasma spp. in dogs",
+  "first_author": "Ciuca L",
+  "year": "2026",
+  "date": "2026-11-10",
+  "pub_date": "2026-11-10",
+  "pub_date_precision": "day",
+  "pub_date_source": "PubMed ArticleDate/EpubDate",
+  "journal": "Curr Res Parasitol Vector Borne Dis",
+  "doi": "10.1016/j.crpvbd.2026.100457",
+  "pmcid": "PMC13788676",
+  "species": "犬",
+  "specialty": "未分类",
+  "topics": [
+    "_general",
+    "infectious",
+    "saim"
+  ],
+  "source": "PubMed (E-utilities)",
+  "oa": "是",
+  "doc_type": "待定",
+  "publication_types": [
+    "Journal Article"
+  ],
+  "sample_size_analysed": "未核",
+  "multicenter": "未核",
+  "funding": "未核",
+  "verified": "partial",
+  "status": "待处理",
+  "provenance": [
+    "ingest"
+  ],
+  "ingested_at": "2026-11-22"
+}
