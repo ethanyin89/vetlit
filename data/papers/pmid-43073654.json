@@ -1,0 +1,34 @@
+{
+  "id": "pmid-43073654",
+  "pmid": "43073654",
+  "title": "Canine Chorioretinopathy-Multimodal Imaging of Fundic Lesions and Possible Association With Toxocara canis",
+  "first_author": "Gonçalves D",
+  "year": "2027",
+  "date": "2027-01-01",
+  "pub_date": "2027-01-01",
+  "pub_date_precision": "month",
+  "pub_date_source": "PubMed PubDate",
+  "journal": "Vet Ophthalmol",
+  "doi": "10.1111/vop.70308",
+  "pmcid": "",
+  "species": "犬",
+  "specialty": "未分类",
+  "topics": [
+    "_general"
+  ],
+  "source": "PubMed (E-utilities)",
+  "oa": "未核",
+  "doc_type": "待定",
+  "publication_types": [
+    "Journal Article"
+  ],
+  "sample_size_analysed": "未核",
+  "multicenter": "未核",
+  "funding": "未核",
+  "verified": "partial",
+  "status": "待处理",
+  "provenance": [
+    "ingest"
+  ],
+  "ingested_at": "2026-11-24"
+}

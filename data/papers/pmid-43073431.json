@@ -1,0 +1,36 @@
+{
+  "id": "pmid-43073431",
+  "pmid": "43073431",
+  "title": "Innate and adaptive immunity in diseases of dogs and cats associated with Candida spp., Malassezia spp. and Cryptococcus spp.: a critical review",
+  "first_author": "Łagowski D",
+  "year": "2026",
+  "date": "2026-11-24",
+  "pub_date": "2026-11-24",
+  "pub_date_precision": "day",
+  "pub_date_source": "PubMed PubDate",
+  "journal": "Vet Res Commun",
+  "doi": "10.1007/s11259-026-11646-x",
+  "pmcid": "",
+  "species": "猫/犬",
+  "specialty": "未分类",
+  "topics": [
+    "canine_atopic_dermatitis",
+    "dermatology"
+  ],
+  "source": "PubMed (E-utilities)",
+  "oa": "未核",
+  "doc_type": "待定",
+  "publication_types": [
+    "Journal Article",
+    "Review"
+  ],
+  "sample_size_analysed": "未核",
+  "multicenter": "未核",
+  "funding": "未核",
+  "verified": "partial",
+  "status": "待处理",
+  "provenance": [
+    "ingest"
+  ],
+  "ingested_at": "2026-11-24"
+}
