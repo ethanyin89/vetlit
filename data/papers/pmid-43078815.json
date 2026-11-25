@@ -1,0 +1,35 @@
+{
+  "id": "pmid-43078815",
+  "pmid": "43078815",
+  "title": "A tri-modular feline infectious peritonitis virus nanoparticle vaccine confers complete protection in female cats without detectable antibody-dependent enhancement",
+  "first_author": "Zhao F",
+  "year": "2026",
+  "date": "2026-10-26",
+  "pub_date": "2026-10-26",
+  "pub_date_precision": "day",
+  "pub_date_source": "PubMed PubDate",
+  "journal": "Nat Commun",
+  "doi": "10.1038/s41467-026-78999-4",
+  "pmcid": "",
+  "species": "猫",
+  "specialty": "未分类",
+  "topics": [
+    "fip",
+    "infectious"
+  ],
+  "source": "PubMed (E-utilities)",
+  "oa": "未核",
+  "doc_type": "待定",
+  "publication_types": [
+    "Journal Article"
+  ],
+  "sample_size_analysed": "未核",
+  "multicenter": "未核",
+  "funding": "未核",
+  "verified": "partial",
+  "status": "待处理",
+  "provenance": [
+    "ingest"
+  ],
+  "ingested_at": "2026-11-25"
+}
